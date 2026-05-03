@@ -31,3 +31,8 @@ Each session entry follows this format:
 - **Articles written:** vrporn-vs-sexlikereal-quest-3-2026
 - **Token used:** agent:writer-3
 - **Notes:** Comparison article for Quest 3 workflows; included pricing/library-size figures from VRPornDog. Post ID 34.
+
+### [2026-05-03] Session 3
+- **Articles written:** vr-porn-passthrough-meta-quest-3-2026
+- **Token used:** agent:writer-3
+- **Notes:** Passthrough/AR-mode explainer; ensured metaTitle length is 50 chars. Post ID 40.
