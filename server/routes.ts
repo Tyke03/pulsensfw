@@ -42,6 +42,19 @@ async function tokenAuth(req: Request & { adminToken?: any }, res: Response, nex
   next();
 }
 
+// ── Field normalizer — accept both snake_case and camelCase from agents ──
+function normalizePostFields(body: any): any {
+  if (!body || typeof body !== 'object') return body;
+  const b = { ...body };
+  // snake_case → camelCase promotion (agents may send either)
+  if (b.meta_title   !== undefined && b.metaTitle   === undefined) { b.metaTitle   = b.meta_title;   delete b.meta_title; }
+  if (b.meta_description !== undefined && b.metaDescription === undefined) { b.metaDescription = b.meta_description; delete b.meta_description; }
+  if (b.published_at !== undefined && b.publishedAt === undefined) { b.publishedAt = b.published_at; delete b.published_at; }
+  if (b.created_at   !== undefined && b.createdAt   === undefined) { b.createdAt   = b.created_at;   delete b.created_at; }
+  if (b.updated_at   !== undefined && b.updatedAt   === undefined) { b.updatedAt   = b.updated_at;   delete b.updated_at; }
+  return b;
+}
+
 // ── Response helpers ──────────────────────────────────────────────────────
 function ok(res: Response, data: any, meta: any = {}, status = 200) {
   const envelope: any = { success: true, data };
@@ -175,8 +188,8 @@ export function registerRoutes(httpServer: Server, app: Express) {
         excerpt: 'string (1-2 sentences)',
         tags: 'string[]',
         status: 'draft | published',
-        meta_title: 'string (60 chars max)',
-        meta_description: 'string (155 chars max)',
+        metaTitle: 'string (50-60 chars) — also accepts meta_title',
+        metaDescription: 'string (140-155 chars) — also accepts meta_description',
         affiliate_links: '[{ url, name }]',
       },
     });
@@ -196,17 +209,18 @@ export function registerRoutes(httpServer: Server, app: Express) {
   });
 
   app.post('/api/admin/posts', tokenAuth, async (req, res) => {
-    const { title, body, category } = req.body;
+    const normalized = normalizePostFields(req.body);
+    const { title, body, category } = normalized;
     if (!title) return err(res, 'title is required');
     if (!body) return err(res, 'body is required');
     if (!category) return err(res, 'category is required');
-    const post = await storage.createPost(req.body);
+    const post = await storage.createPost(normalized);
     if (post.status === 'published') pingIndexNow(`${SITE_URL}/#/post/${post.slug}`);
     ok(res, post, {}, 201);
   });
 
   app.put('/api/admin/posts/:id', tokenAuth, async (req, res) => {
-    const post = await storage.updatePost(parseInt(req.params.id), req.body);
+    const post = await storage.updatePost(parseInt(req.params.id), normalizePostFields(req.body));
     if (!post) return err(res, 'Post not found', 404);
     ok(res, post);
   });
