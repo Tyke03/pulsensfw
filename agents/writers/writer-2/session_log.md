@@ -26,3 +26,8 @@ Each session entry follows this format:
 - **Internal links used:** /posts/getting-started-with-teledildonics-a-practical-guide, /posts/lovense-vs-we-vibe-the-long-range-sex-toy-showdown, /posts/what-to-look-for-in-a-smart-sex-toy-a-buyer-framework
 - **Post ID:** 27
 - **Note:** Focused the review angle on what makes Max 2 distinct from mechanical strokers (air-pressure contractions vs. stroke motion). Kiiroo Keon is the main competitor at $229 — Max 2 wins on price, cam integration, and battery life; Keon wins on automated stroke realism. Lovense cam platform integration (Chaturbate, Stripchat, LiveJasmin) was a strong differentiator worth emphasizing. TPE sleeve limitations (porous, single texture) balanced the review. Good candidate for a follow-up "Best App-Controlled Male Masturbators 2026" rankings piece.
+
+### [2026-05-03] Session 2
+- **Articles written:** kiiroo-keon-review-2026
+- **Token used:** agent:writer-2
+- **Notes:** Submitted Keon review (price context from Kiiroo listing; focused on hands-free strokes + modular upsells). Post ID 33.

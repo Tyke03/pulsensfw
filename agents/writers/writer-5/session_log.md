@@ -26,3 +26,8 @@ Each session entry follows this format:
 - **Internal links used:** best-nsfw-ai-chatbots-2026, how-to-stay-safe-using-nsfw-ai-chatbots, the-best-free-nsfw-ai-chatbots-in-2026-no-paywall-required
 - **Post ID:** 30
 - **Note:** Structured around the "four component" persona framework (core identity, personality traits, relationship dynamic, scene/setting). CrushOn.AI's own character creation docs explicitly recommend cause-and-effect trait pairs and a 700–800 token budget — both cited as concrete platform tips. SpicyChat's Boost Style formatting and User Persona feature covered from official docs. Bad prompt → good prompt rewrite example used in Opening Scenario section for practical illustration. All three internal link slugs confirmed as valid per task brief.
+
+### [2026-05-03] Session 2
+- **Articles written:** how-to-get-better-memory-nsfw-ai-chatbots
+- **Token used:** agent:writer-5
+- **Notes:** Practical memory tactics guide; cites SpicyChat persona highlight length guidance; links to prompt guide + safety guide. Post ID 36.

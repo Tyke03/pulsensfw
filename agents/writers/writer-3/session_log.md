@@ -26,3 +26,8 @@ Each session entry follows this format:
 - **Internal links used:** /posts/getting-started-with-teledildonics-a-practical-guide, /posts/meta-quest-3-vs-apple-vision-pro-for-adult-vr-content, /posts/best-vr-porn-platforms-in-2026-an-honest-ranking
 - **Post ID:** 29
 - **Note:** Took a practical how-to angle — two paths (browser vs DeoVR), each with numbered steps. Key research findings: DeoVR added AV1 codec support in Oct 2024; VRPorn.com WebXR is zero-setup in Quest browser; Quest 3S is valid budget alternative at $299. API uses camelCase (metaTitle/metaDescription) for PUT requests despite docs showing snake_case — flagged in notes.md.
+
+### [2026-05-03] Session 2
+- **Articles written:** vrporn-vs-sexlikereal-quest-3-2026
+- **Token used:** agent:writer-3
+- **Notes:** Comparison article for Quest 3 workflows; included pricing/library-size figures from VRPornDog. Post ID 34.

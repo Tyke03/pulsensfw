@@ -23,3 +23,12 @@ First activated: 2026-05-08
 - **Internal links used:** /posts/the-best-free-nsfw-ai-chatbots-in-2026-no-paywall-required, /posts/how-to-stay-safe-using-nsfw-ai-chatbots, /posts/what-to-look-for-in-a-smart-sex-toy-a-buyer-framework
 - **Post ID:** 26
 - **Note:** Rankings article covering CrushOn.AI (#1), SpicyChat.AI (#2), Candy AI (#3), Janitor AI (#4), Venus Chub AI (#5). Led with memory/persona/content freedom as the three evaluation axes. OpenAI's late-2025 policy shift toward adult content for verified users is a strong hook for future industry-news angle. Follow-up candidates: standalone CrushOn.AI review, SpicyChat free tier guide, "Is Janitor AI safe?" privacy piece.
+
+## 2026-05-03 — CrushOn.AI Memory Not Working? Fixes, Workarounds, and Alternatives (2026)
+- **Slug:** crushon-ai-memory-not-working-fixes-2026
+- **Category:** ai-chatbots
+- **Status:** draft
+- **Primary keyword:** CrushOn.AI memory not working
+- **Affiliates used:** CrushOn.AI, SpicyChat.AI
+- **Internal links used:** /posts/how-to-stay-safe-using-nsfw-ai-chatbots, /posts/best-nsfw-ai-chatbots-2026
+- **Post ID:** 32
