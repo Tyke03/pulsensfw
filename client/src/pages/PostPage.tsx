@@ -4,6 +4,7 @@ import { marked } from 'marked';
 import { apiRequest } from '../lib/queryClient';
 import { PublicLayout, PostCard } from '../components/Layout';
 import { getCategoryName, formatDate } from '../lib/api';
+import { useDocumentHead } from '../lib/useDocumentHead';
 
 function renderBody(body: string): string {
   if (!body) return '';
@@ -37,6 +38,13 @@ export default function PostPage() {
   const post = postData?.data;
   const related = relatedData?.data || [];
   const affiliates = affiliatesData?.data || [];
+
+  // Dynamic SEO head — writes <title> and <meta description> per article
+  useDocumentHead({
+    title:       post?.metaTitle       || post?.meta_title       || post?.title,
+    description: post?.metaDescription || post?.meta_description || post?.excerpt,
+    canonical:   post?.slug ? `/posts/${post.slug}` : undefined,
+  });
 
   if (isLoading) return (
     <PublicLayout>

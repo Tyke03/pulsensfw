@@ -4,6 +4,7 @@ import { Link } from 'wouter';
 import { apiRequest } from '../lib/queryClient';
 import { PublicLayout, PostCard } from '../components/Layout';
 import { CATEGORIES } from '../lib/api';
+import { useDocumentHead } from '../lib/useDocumentHead';
 
 export default function Blog() {
   const [category, setCategory] = useState('');
@@ -20,6 +21,12 @@ export default function Blog() {
 
   const posts = data?.data || [];
   const pagination = data?.meta?.pagination;
+
+  useDocumentHead({
+    title: 'PulseNSFW — The NSFW Internet, Honestly Reviewed.',
+    description: 'Unbiased reviews, rankings, and guides for NSFW AI chatbots, sex tech, VR porn, and the adult creator economy.',
+    canonical: '/',
+  });
 
   return (
     <PublicLayout>

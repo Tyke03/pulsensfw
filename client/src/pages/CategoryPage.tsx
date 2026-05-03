@@ -4,6 +4,7 @@ import { useParams } from 'wouter';
 import { apiRequest } from '../lib/queryClient';
 import { PublicLayout, PostCard } from '../components/Layout';
 import { CATEGORIES, getCategoryName, getCategoryIcon } from '../lib/api';
+import { useDocumentHead } from '../lib/useDocumentHead';
 
 export default function CategoryPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -18,6 +19,12 @@ export default function CategoryPage() {
   const posts = data?.data || [];
   const pagination = data?.meta?.pagination;
   const catName = getCategoryName(slug);
+
+  useDocumentHead({
+    title: catName ? `${catName} — PulseNSFW` : 'PulseNSFW',
+    description: `Reviews, rankings, and guides for ${catName || 'NSFW'} content. Updated regularly.`,
+    canonical: `/category/${slug}`,
+  });
   const catIcon = getCategoryIcon(slug);
 
   return (
