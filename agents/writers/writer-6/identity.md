@@ -43,7 +43,7 @@ Only include partners with items in the ranking. Do not inject all 8 if only 3 a
 ## API Credentials
 
 ```
-Base URL: https://pulsensfw.onrender.com
+Base URL: https://pulsensfw-x9kr.onrender.com
 Authorization: Bearer ad8954b318fcbbc84f3e94d12102c9de125db420707c100521ab9458d36975c2
 Content-Type: application/json
 ```

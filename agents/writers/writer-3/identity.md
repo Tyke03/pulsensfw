@@ -35,7 +35,7 @@ Always inject both partners in the Quick Links box for VR content:
 ## API Credentials
 
 ```
-Base URL: https://pulsensfw.onrender.com
+Base URL: https://pulsensfw-x9kr.onrender.com
 Authorization: Bearer efe4e29aa397540c23e110378819a9a18976d16906cf1b362e57be75596bc69e
 Content-Type: application/json
 ```

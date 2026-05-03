@@ -36,7 +36,7 @@ Always inject these partners in the Quick Links box for sex-tech content:
 ## API Credentials
 
 ```
-Base URL: https://pulsensfw.onrender.com
+Base URL: https://pulsensfw-x9kr.onrender.com
 Authorization: Bearer c90e6b2e1108fcb98295212f71e88c5dc2574c0067b9c21d01091e759c7af9bf
 Content-Type: application/json
 ```

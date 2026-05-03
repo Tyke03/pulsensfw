@@ -35,7 +35,7 @@ Always inject both partners in the Quick Links box for ai-chatbots content:
 ## API Credentials
 
 ```
-Base URL: https://pulsensfw.onrender.com
+Base URL: https://pulsensfw-x9kr.onrender.com
 Authorization: Bearer ee2bf3d0d55ca62aff0fe422a6a7f05657de804cff75866ce5c7bd72ff560430
 Content-Type: application/json
 ```

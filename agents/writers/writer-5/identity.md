@@ -36,7 +36,7 @@ Always include SexualAlpha. Add category-specific partners based on the guide's 
 ## API Credentials
 
 ```
-Base URL: https://pulsensfw.onrender.com
+Base URL: https://pulsensfw-x9kr.onrender.com
 Authorization: Bearer 6694ff4115de8806933795b14d9575677bb02c4c3c2e8043ecd6952e9f19d603
 Content-Type: application/json
 ```

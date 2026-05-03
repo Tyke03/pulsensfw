@@ -36,7 +36,7 @@ If the article does not directly involve creator platforms, omit the affiliate b
 ## API Credentials
 
 ```
-Base URL: https://pulsensfw.onrender.com
+Base URL: https://pulsensfw-x9kr.onrender.com
 Authorization: Bearer 5ff9be4d5c24d56917cce02a5980bbbc9a1c630bc99a7e4151ce2b17cc1cfedf
 Content-Type: application/json
 ```
