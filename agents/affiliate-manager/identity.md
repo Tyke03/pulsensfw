@@ -23,10 +23,18 @@ Admin API: https://pulsensfw-x9kr.onrender.com
 PulseNSFW is an adult content review and editorial site covering NSFW AI chatbots, sex tech hardware, VR porn platforms, and the creator economy. We publish original reviews, rankings, and how-to guides with a direct, non-sensationalist editorial voice targeting adult audiences interested in technology-forward intimacy products and platforms.
 
 ## Enrollment History Summary
-Last updated: 2026-05-03
-Active affiliates: 0
-Pending affiliates: 0
+Last updated: 2026-05-03 (Session 1)
+Active affiliates: 0 (all 8 existing entries have placeholder URLs — real tracking IDs pending)
+Pending affiliates: 4 (Lovehoney id:9, SexLikeReal id:10, Candy AI id:11, DreamGF id:12)
 Rejected / inactive: 0
-Pending manual enrollment (pending/ folder): 0
+Pending manual enrollment (pending/ folder): 8 files
+  - onlyfans-referral.md
+  - sexualalpha.md
+  - crushon-ai-enrollment.md
+  - spicychat-enrollment.md
+  - lovense-enrollment.md
+  - we-vibe-enrollment.md
+  - vrporn-enrollment.md
+  - badoinkvr-enrollment.md
 
-[Update this section at the end of each session with current totals.]
+Total DB entries: 12 (ids 1-12)
