@@ -36,3 +36,13 @@ Each session entry follows this format:
 - **Articles written:** best-vr-porn-sites-under-10-month-2026
 - **Token used:** agent:writer-6
 - **Notes:** Budget-focused VR rankings; updated metaTitle/metaDescription to meet length rules. Post ID 43.
+
+
+## 2026-05-03 — Best Automatic Male Masturbators (2026): Keon vs Max 2 vs Autoblow AI Ultra
+- **Slug:** best-automatic-male-masturbators-2026-keon-max2-autoblow
+- **Category:** rankings
+- **Status:** draft
+- **Primary keyword:** best automatic male masturbators 2026
+- **Affiliates used:** see article quick links
+- **Internal links used:** 2+ /posts/ links + Related reading
+- **Post ID:** 49

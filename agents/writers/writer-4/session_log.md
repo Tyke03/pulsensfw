@@ -38,3 +38,13 @@ Each session entry follows this format:
 - **Articles written:** onlyfans-succession-what-changes-for-creators-2026
 - **Token used:** agent:writer-4
 - **Notes:** Wrote a tactical, non-alarmist take on succession uncertainty and creator risk reduction; updated metaDescription to meet length rules. Post ID 41.
+
+
+## 2026-05-03 — OpenAI’s Adult-Content Green Light (2025–2026): What It Means for NSFW Chatbots
+- **Slug:** openai-adult-content-age-verified-2026-impact
+- **Category:** industry-news
+- **Status:** draft
+- **Primary keyword:** OpenAI adult content policy 2026
+- **Affiliates used:** see article quick links
+- **Internal links used:** 2+ /posts/ links + Related reading
+- **Post ID:** 47

@@ -36,3 +36,13 @@ Each session entry follows this format:
 - **Articles written:** what-to-look-for-in-a-smart-sex-toy-buyer-framework-2026
 - **Token used:** agent:writer-5
 - **Notes:** Smart sex-toy buyer framework focusing on app stability, fit, cleanup, and ecosystem vs single device; adjusted metaTitle to 53 chars. Post ID 42.
+
+
+## 2026-05-03 — How to Use Teledildonics Long Distance (2026): Setup, Apps, Privacy, and First-Date Rules
+- **Slug:** how-to-use-teledildonics-long-distance-2026
+- **Category:** how-to
+- **Status:** draft
+- **Primary keyword:** how to use teledildonics long distance
+- **Affiliates used:** see article quick links
+- **Internal links used:** 2+ /posts/ links + Related reading
+- **Post ID:** 48

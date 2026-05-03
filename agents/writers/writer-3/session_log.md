@@ -36,3 +36,13 @@ Each session entry follows this format:
 - **Articles written:** vr-porn-passthrough-meta-quest-3-2026
 - **Token used:** agent:writer-3
 - **Notes:** Passthrough/AR-mode explainer; ensured metaTitle length is 50 chars. Post ID 40.
+
+
+## 2026-05-03 — Best VR Video Players for Porn on Meta Quest (2026): DeoVR vs HereSphere vs PLAY’A
+- **Slug:** best-vr-video-players-meta-quest-porn-2026
+- **Category:** vr
+- **Status:** draft
+- **Primary keyword:** best VR video players Quest porn
+- **Affiliates used:** see article quick links
+- **Internal links used:** 2+ /posts/ links + Related reading
+- **Post ID:** 46
