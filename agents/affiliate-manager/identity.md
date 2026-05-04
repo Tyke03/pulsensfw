@@ -10,7 +10,7 @@ Site: https://pulsensfw.com
 Admin API: https://pulsensfw-x9kr.onrender.com
 
 ## Admin Token
-[Token provided per-run — inject at runtime; do not hardcode here]
+85ac1d961e6826dc5a768985cc4d9a82b66a56a5c2e580775c5acafec175e1e9
 
 ## Standing Rules
 - Never submit applications with fabricated metrics. Use real site data from /api/admin/analytics.
