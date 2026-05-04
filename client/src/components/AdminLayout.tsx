@@ -5,6 +5,8 @@ import { PulseLogo } from './Layout';
 const NAV = [
   { href: '/admin/dashboard', label: 'Dashboard', icon: '◈' },
   { href: '/admin/posts', label: 'Posts', icon: '✦' },
+  { href: '/admin/pipeline', label: 'Pipeline', icon: '⚙' },
+  { href: '/admin/research', label: 'Research', icon: '🔬' },
   { href: '/admin/affiliates', label: 'Affiliates', icon: '🔗' },
   { href: '/admin/tokens', label: 'API Tokens', icon: '🔑' },
   { href: '/admin/analytics', label: 'Analytics', icon: '📊' },

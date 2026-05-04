@@ -19,6 +19,10 @@ export const posts = pgTable('posts', {
   publishedAt: timestamp('published_at'),
   createdAt: timestamp('created_at').defaultNow(),
   updatedAt: timestamp('updated_at').defaultNow(),
+  // ── QC & Research pipeline fields (rebuild v2) ──
+  qcStatus: text('qc_status').default('pending'),         // pending | approved | revision_needed | fact_check
+  qcNotes: text('qc_notes'),                              // QC annotation written by QC agent
+  researchSource: text('research_source'),                // e.g. "ai-chatbots/ITEM-7"
 });
 
 export type Post = typeof posts.$inferSelect;
@@ -49,6 +53,11 @@ export const affiliates = pgTable('affiliates', {
   commissionNotes: text('commission_notes'),
   active: boolean('active').notNull().default(true),
   createdAt: timestamp('created_at').defaultNow(),
+  // ── Tracking & discovery fields (rebuild v2) ──
+  trackingStatus: text('tracking_status').default('unverified'), // real | placeholder | broken | unverified
+  signupUrl: text('signup_url'),                                  // direct affiliate signup URL
+  commissionRate: text('commission_rate'),                        // e.g. "20% per sale"
+  notes: text('notes'),                                          // replaces / extends commissionNotes
 });
 
 export type Affiliate = typeof affiliates.$inferSelect;

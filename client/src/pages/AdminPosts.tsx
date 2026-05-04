@@ -80,7 +80,7 @@ export default function AdminPosts() {
           <table style={{ width: '100%', borderCollapse: 'collapse' }}>
             <thead>
               <tr>
-                {['ID', 'Title', 'Category', 'Status', 'Published', 'Actions'].map(h => (
+                {['ID', 'Title', 'Category', 'Status', 'QC', 'Published', 'Actions'].map(h => (
                   <th key={h} style={{ textAlign: 'left', fontSize: '0.72rem', color: 'var(--pulse-muted)', textTransform: 'uppercase', letterSpacing: '1px', padding: '12px 16px', borderBottom: '1px solid var(--pulse-border)' }}>{h}</th>
                 ))}
               </tr>
@@ -92,6 +92,7 @@ export default function AdminPosts() {
                   <td style={{ padding: '14px 16px', maxWidth: 300 }}>
                     <div style={{ fontSize: '0.88rem', color: '#fff', fontWeight: 500, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{post.title}</div>
                     <div style={{ fontSize: '0.72rem', color: 'var(--pulse-muted)', marginTop: 2 }}>{post.slug}</div>
+                    {post.researchSource && <div style={{ fontSize: '0.68rem', color: '#4fa3a8', marginTop: 2, fontFamily: 'monospace' }}>📎 {post.researchSource}</div>}
                   </td>
                   <td style={{ padding: '14px 16px', fontSize: '0.8rem', color: 'var(--pulse-muted)' }}>{post.category}</td>
                   <td style={{ padding: '14px 16px' }}>
@@ -100,6 +101,23 @@ export default function AdminPosts() {
                       color: post.status === 'published' ? '#00c864' : 'var(--pulse-muted)' }}>
                       {post.status}
                     </span>
+                  </td>
+                  <td style={{ padding: '14px 16px' }}>
+                    {(() => {
+                      const qcs = post.qcStatus || post.qc_status || 'pending';
+                      const QC_MAP: Record<string, { label: string; color: string; bg: string }> = {
+                        approved:        { label: 'APPROVED',  color: '#00c864', bg: 'rgba(0,200,100,0.1)' },
+                        revision_needed: { label: 'REVISION',  color: '#ffc107', bg: 'rgba(255,193,7,0.1)' },
+                        fact_check:      { label: 'FACT CHK',  color: '#ff6b35', bg: 'rgba(255,107,53,0.1)' },
+                        pending:         { label: 'PENDING',   color: '#555',    bg: 'rgba(85,85,85,0.1)'   },
+                      };
+                      const s = QC_MAP[qcs] || QC_MAP.pending;
+                      return (
+                        <span title={post.qcNotes || post.qc_notes || ''} style={{ fontSize: '0.68rem', fontWeight: 700, background: s.bg, color: s.color, borderRadius: 100, padding: '2px 9px', cursor: post.qcNotes ? 'help' : 'default', whiteSpace: 'nowrap' as const }}>
+                          {s.label}
+                        </span>
+                      );
+                    })()}
                   </td>
                   <td style={{ padding: '14px 16px', fontSize: '0.8rem', color: 'var(--pulse-muted)' }}>
                     {post.publishedAt ? new Date(post.publishedAt).toLocaleDateString() : '—'}

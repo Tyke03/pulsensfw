@@ -1,6 +1,125 @@
 import type { Express, Request, Response, NextFunction } from 'express';
 import { Server } from 'http';
+import * as fs from 'fs';
+import * as path from 'path';
 import { storage, slugify, generateToken } from './storage';
+
+// ── Research file helpers ─────────────────────────────────────────────────
+const RESEARCH_DIR = path.join(process.cwd(), 'research');
+const CATEGORIES_LIST = ['ai-chatbots', 'sex-tech', 'vr', 'industry-news', 'how-to', 'rankings'];
+
+function getResearchFilePath(category: string): string {
+  return path.join(RESEARCH_DIR, `${category}.md`);
+}
+
+function parseResearchFile(category: string): { lastUpdated: string | null; totalItems: number; unusedItems: number; usedItems: number; items: any[] } {
+  const filePath = getResearchFilePath(category);
+  if (!fs.existsSync(filePath)) {
+    return { lastUpdated: null, totalItems: 0, unusedItems: 0, usedItems: 0, items: [] };
+  }
+  const content = fs.readFileSync(filePath, 'utf-8');
+  const stat = fs.statSync(filePath);
+  const lastUpdated = stat.mtime.toISOString();
+
+  // Parse ITEM blocks
+  const itemMatches = content.matchAll(/##\s+(ITEM-\d+)([\s\S]*?)(?=##\s+ITEM-|$)/g);
+  const items: any[] = [];
+  for (const match of itemMatches) {
+    const id = match[1];
+    const body = match[2].trim();
+    const statusMatch = body.match(/\*\*Status:\*\*\s*(\S+)/);
+    const status = statusMatch?.[1] || 'unknown';
+    const articleMatch = body.match(/\*\*Article:\*\*\s*(.+)/);
+    items.push({ id, status, article: articleMatch?.[1] || null, preview: body.substring(0, 200) });
+  }
+
+  return {
+    lastUpdated,
+    totalItems: items.length,
+    unusedItems: items.filter(i => i.status === 'unused').length,
+    usedItems: items.filter(i => i.status === 'used').length,
+    items,
+  };
+}
+
+function getResearchSessionLog(category: string): string[] {
+  const logPath = path.join(process.cwd(), 'agents', `research-${category}`, 'session.log');
+  if (!fs.existsSync(logPath)) return [];
+  const content = fs.readFileSync(logPath, 'utf-8');
+  // Return last 5 run entries
+  const entries = content.split(/(?=## \[\d{4}-\d{2}-\d{2})/g).filter(e => e.trim().startsWith('##'));
+  return entries.slice(-5);
+}
+
+function getAgentSessionLog(agentPath: string, lastN = 5): string[] {
+  const logPath = path.join(process.cwd(), agentPath);
+  if (!fs.existsSync(logPath)) return [];
+  const content = fs.readFileSync(logPath, 'utf-8');
+  const entries = content.split(/(?=## \[\d{4}-\d{2}-\d{2})/g).filter(e => e.trim().startsWith('##'));
+  return entries.slice(-lastN);
+}
+
+function parseOpportunities(): any[] {
+  const opPath = path.join(process.cwd(), 'agents', 'affiliate-manager', 'opportunities.md');
+  if (!fs.existsSync(opPath)) return [];
+  const content = fs.readFileSync(opPath, 'utf-8');
+  const blocks = content.split(/(?=## )/).filter(b => b.trim().startsWith('## ') && !b.startsWith('# '));
+  return blocks.map(block => {
+    const nameMatch = block.match(/^## (.+)/);
+    const signupMatch = block.match(/\*\*Signup URL:\*\*\s*(.+)/);
+    const commissionMatch = block.match(/\*\*Commission:\*\*\s*(.+)/);
+    const networkMatch = block.match(/\*\*Network:\*\*\s*(.+)/);
+    const adultMatch = block.match(/\*\*Adult content accepted:\*\*\s*(.+)/);
+    const barriersMatch = block.match(/\*\*Barriers:\*\*\s*(.+)/);
+    const categoryMatch = block.match(/\*\*Category:\*\*\s*(.+)/);
+    const foundMatch = block.match(/\*\*Found:\*\*\s*(.+)/);
+    const statusMatch = block.match(/\*\*Status:\*\*\s*(.+)/);
+    return {
+      name: nameMatch?.[1]?.trim() || 'Unknown',
+      signupUrl: signupMatch?.[1]?.trim() || null,
+      commission: commissionMatch?.[1]?.trim() || null,
+      network: networkMatch?.[1]?.trim() || null,
+      adultAccepted: adultMatch?.[1]?.trim() || null,
+      barriers: barriersMatch?.[1]?.trim() || null,
+      category: categoryMatch?.[1]?.trim() || null,
+      found: foundMatch?.[1]?.trim() || null,
+      status: statusMatch?.[1]?.trim() || 'new',
+    };
+  });
+}
+
+// Pipeline cron schedule (UTC) — kept in sync with actual crons
+// Used for the "next scheduled run" display in the admin UI (hardcoded, not live from Render)
+const PIPELINE_SCHEDULE: Record<string, { times: string[]; type: string; category?: string }> = {
+  'research-ai-chatbots':   { type: 'research', category: 'ai-chatbots',    times: ['01:00','05:00','09:00','13:00','17:00'] },
+  'research-sex-tech':      { type: 'research', category: 'sex-tech',       times: ['01:10','05:10','09:10','13:10','17:10'] },
+  'research-vr':            { type: 'research', category: 'vr',             times: ['01:20','05:20','09:20','13:20','17:20'] },
+  'research-industry-news': { type: 'research', category: 'industry-news',  times: ['01:30','05:30','09:30','13:30','17:30'] },
+  'research-how-to':        { type: 'research', category: 'how-to',         times: ['01:40','05:40','09:40','13:40','17:40'] },
+  'research-rankings':      { type: 'research', category: 'rankings',       times: ['01:50','05:50','09:50','13:50','17:50'] },
+  'writer-ai-chatbots':     { type: 'writer',   category: 'ai-chatbots',    times: ['04:00','12:00'] },
+  'writer-sex-tech':        { type: 'writer',   category: 'sex-tech',       times: ['04:10','12:10'] },
+  'writer-vr':              { type: 'writer',   category: 'vr',             times: ['04:20','12:20'] },
+  'writer-industry-news':   { type: 'writer',   category: 'industry-news',  times: ['04:30','12:30'] },
+  'writer-how-to':          { type: 'writer',   category: 'how-to',         times: ['04:40','12:40'] },
+  'writer-rankings':        { type: 'writer',   category: 'rankings',       times: ['04:50','12:50'] },
+  'qc':                     { type: 'qc',                                    times: ['06:00','14:00'] },
+  'affiliate-manager':      { type: 'affiliate',                             times: ['02:00'] },
+};
+
+function getNextRun(times: string[]): string {
+  const now = new Date();
+  const todayUTC = now.toISOString().substring(0, 10);
+  for (const t of times.sort()) {
+    const candidate = new Date(`${todayUTC}T${t}:00Z`);
+    if (candidate > now) return candidate.toISOString();
+  }
+  // All times today have passed — use first time tomorrow
+  const tomorrow = new Date(now);
+  tomorrow.setUTCDate(tomorrow.getUTCDate() + 1);
+  const tomorrowUTC = tomorrow.toISOString().substring(0, 10);
+  return new Date(`${tomorrowUTC}T${times[0]}:00Z`).toISOString();
+}
 
 const CATEGORIES = [
   { slug: 'ai-chatbots', name: 'AI Chatbots', icon: '🤖' },
@@ -367,5 +486,142 @@ export function registerRoutes(httpServer: Server, app: Express) {
   // ── Subscribers (stub for future) ─────────────────────────────────
   app.get('/api/admin/subscribers', tokenAuth, (_, res) => {
     ok(res, { subscribers: [], count: 0, note: 'Email subscriber list — connect an ESP to populate.' });
+  });
+
+  // ── QC Status (PATCH for manual override in admin UI) ───────────────
+  app.patch('/api/admin/posts/:id/qc', tokenAuth, async (req, res) => {
+    const { qc_status, qcStatus, qc_notes, qcNotes } = req.body;
+    const status = qcStatus || qc_status;
+    const notes = qcNotes || qc_notes;
+    const VALID_STATUSES = ['pending', 'approved', 'revision_needed', 'fact_check'];
+    if (status && !VALID_STATUSES.includes(status)) {
+      return err(res, `Invalid qc_status. Must be one of: ${VALID_STATUSES.join(', ')}`);
+    }
+    const update: any = {};
+    if (status !== undefined) update.qcStatus = status;
+    if (notes !== undefined) update.qcNotes = notes;
+    if (Object.keys(update).length === 0) return err(res, 'qc_status or qc_notes required');
+    const post = await storage.updatePost(parseInt(req.params.id), update);
+    if (!post) return err(res, 'Post not found', 404);
+    ok(res, post);
+  });
+
+  // ── Research Monitor API ───────────────────────────────────────────
+  app.get('/api/research/:category', tokenAuth, async (req, res) => {
+    const { category } = req.params;
+    if (!CATEGORIES_LIST.includes(category)) return err(res, 'Invalid category', 404);
+    const meta = parseResearchFile(category);
+    const recentLog = getResearchSessionLog(category);
+    ok(res, { ...meta, recentLog });
+  });
+
+  app.get('/api/research/:category/items', tokenAuth, async (req, res) => {
+    const { category } = req.params;
+    if (!CATEGORIES_LIST.includes(category)) return err(res, 'Invalid category', 404);
+    const data = parseResearchFile(category);
+    ok(res, data.items);
+  });
+
+  // In-memory job queue for research triggers
+  const researchJobs = new Map<string, { status: 'running' | 'done' | 'error'; startedAt: string; message?: string }>();
+
+  app.post('/api/research/:category/trigger', tokenAuth, async (req, res) => {
+    const { category } = req.params;
+    if (!CATEGORIES_LIST.includes(category)) return err(res, 'Invalid category', 404);
+    const jobId = `${category}-${Date.now()}`;
+    researchJobs.set(jobId, { status: 'running', startedAt: new Date().toISOString() });
+    // Note: actual research agent execution is triggered via cron or manually by operator.
+    // This endpoint queues the intent and returns a job ID for polling.
+    // In v1, the manual trigger logs the intent and returns immediately.
+    // TODO v2: integrate Render cron API or a job queue to actually fire the research agent.
+    researchJobs.set(jobId, { status: 'done', startedAt: new Date().toISOString(), message: 'Manual trigger queued. The next scheduled research run will pick up this category. To run immediately, use the Render cron dashboard to trigger the individual research cron.' });
+    ok(res, { jobId, status: 'queued', message: 'Research run queued. Check back at next scheduled time or trigger via Render dashboard.' });
+  });
+
+  app.get('/api/research/:category/trigger/:jobId', tokenAuth, async (req, res) => {
+    const job = researchJobs.get(req.params.jobId);
+    if (!job) return err(res, 'Job not found', 404);
+    ok(res, job);
+  });
+
+  // ── Pipeline Status API ────────────────────────────────────────────
+  app.get('/api/pipeline/status', tokenAuth, async (req, res) => {
+    const agentStatuses = Object.entries(PIPELINE_SCHEDULE).map(([name, config]) => {
+      const logPath = config.type === 'research' && config.category
+        ? `agents/research-${config.category}/session.log`
+        : config.type === 'writer' && config.category
+        ? `agents/writers/writer-${['ai-chatbots','sex-tech','vr','industry-news','how-to','rankings'].indexOf(config.category) + 1}/session_log.md`
+        : config.type === 'qc'
+        ? 'agents/qc/session_log.md'
+        : 'agents/affiliate-manager/session_log.md';
+
+      const recentLogs = getAgentSessionLog(logPath, 3);
+      const hasRun = recentLogs.length > 0;
+      const lastRunMatch = recentLogs[recentLogs.length - 1]?.match(/## \[(\d{4}-\d{2}-\d{2}[T ]?[\d:]+)/);
+      const lastRun = lastRunMatch?.[1] || null;
+
+      // Detect system alerts in logs
+      const allLogs = recentLogs.join('\n');
+      const hasAlert = allLogs.includes('SYSTEM ALERT') || allLogs.includes('research-gap-report');
+
+      return {
+        name,
+        type: config.type,
+        category: config.category || null,
+        schedule: config.times,
+        nextRun: getNextRun(config.times),
+        lastRun,
+        status: hasAlert ? 'alert' : hasRun ? 'ok' : 'never_run',
+        recentLogs,
+      };
+    });
+
+    // Count alerts
+    const alerts = agentStatuses.filter(a => a.status === 'alert');
+    ok(res, { agents: agentStatuses, alertCount: alerts.length });
+  });
+
+  app.get('/api/pipeline/alerts', tokenAuth, async (req, res) => {
+    const alerts: any[] = [];
+    // Scan all session logs for unresolved SYSTEM ALERTs
+    const logPaths = [
+      ...CATEGORIES_LIST.map(c => ({ agent: `research-${c}`, path: `agents/research-${c}/session.log` })),
+      ...([1,2,3,4,5,6].map(n => ({ agent: `writer-${n}`, path: `agents/writers/writer-${n}/session_log.md` }))),
+      { agent: 'qc', path: 'agents/qc/session_log.md' },
+      { agent: 'affiliate-manager', path: 'agents/affiliate-manager/session_log.md' },
+    ];
+    for (const { agent, path: relPath } of logPaths) {
+      const fullPath = path.join(process.cwd(), relPath);
+      if (!fs.existsSync(fullPath)) continue;
+      const content = fs.readFileSync(fullPath, 'utf-8');
+      const alertMatches = content.matchAll(/SYSTEM ALERT[:\s]+([^\n]+)/g);
+      for (const match of alertMatches) {
+        alerts.push({ agent, message: match[1].trim(), raw: match[0] });
+      }
+    }
+    ok(res, { alerts, count: alerts.length });
+  });
+
+  // ── Affiliates Opportunities API ───────────────────────────────────
+  app.get('/api/affiliates/opportunities', tokenAuth, async (req, res) => {
+    const opportunities = parseOpportunities();
+    ok(res, opportunities);
+  });
+
+  // Update opportunity status in opportunities.md
+  app.patch('/api/affiliates/opportunities/:name', tokenAuth, async (req, res) => {
+    const { name } = req.params;
+    const { status } = req.body;
+    const VALID = ['new', 'reviewed', 'enrolled', 'rejected'];
+    if (!VALID.includes(status)) return err(res, `status must be one of: ${VALID.join(', ')}`);
+    const opPath = path.join(process.cwd(), 'agents', 'affiliate-manager', 'opportunities.md');
+    if (!fs.existsSync(opPath)) return err(res, 'opportunities.md not found', 404);
+    let content = fs.readFileSync(opPath, 'utf-8');
+    const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(## ${escapedName}[\\s\\S]*?\\*\\*Status:\\*\\*\\s*)(\\S+)`);
+    if (!regex.test(content)) return err(res, 'Opportunity not found', 404);
+    content = content.replace(regex, `$1${status}`);
+    fs.writeFileSync(opPath, content, 'utf-8');
+    ok(res, { updated: true, name, status });
   });
 }

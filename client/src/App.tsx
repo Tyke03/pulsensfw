@@ -14,6 +14,8 @@ import AdminPostEditor from './pages/AdminPostEditor';
 import AdminAffiliates from './pages/AdminAffiliates';
 import AdminTokens from './pages/AdminTokens';
 import AdminAnalytics from './pages/AdminAnalytics';
+import AdminPipeline from './pages/AdminPipeline';
+import AdminResearch from './pages/AdminResearch';
 import NotFound from './pages/not-found';
 
 export default function App() {
@@ -32,6 +34,8 @@ export default function App() {
           <Route path="/admin/affiliates" component={AdminAffiliates} />
           <Route path="/admin/tokens" component={AdminTokens} />
           <Route path="/admin/analytics" component={AdminAnalytics} />
+          <Route path="/admin/pipeline" component={AdminPipeline} />
+          <Route path="/admin/research" component={AdminResearch} />
           <Route component={NotFound} />
         </Switch>
       </Router>
