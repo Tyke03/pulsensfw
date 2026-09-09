@@ -5,7 +5,7 @@ import * as path from 'path';
 import { storage, slugify, generateToken } from './storage';
 
 // ── Research file helpers ─────────────────────────────────────────────────
-const RESEARCH_DIR = path.join(process.cwd(), 'research');
+const RESEARCH_DIR = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, 'research') : path.join(process.cwd(), 'research');
 const CATEGORIES_LIST = ['ai-chatbots', 'sex-tech', 'vr', 'industry-news', 'how-to', 'rankings'];
 
 function getResearchFilePath(category: string): string {
@@ -43,7 +43,7 @@ function parseResearchFile(category: string): { lastUpdated: string | null; tota
 }
 
 function getResearchSessionLog(category: string): string[] {
-  const logPath = path.join(process.cwd(), 'agents', `research-${category}`, 'session.log');
+  const logPath = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, 'logs', `research-${category}.log`) : path.join(process.cwd(), 'agents', `research-${category}`, 'session.log');
   if (!fs.existsSync(logPath)) return [];
   const content = fs.readFileSync(logPath, 'utf-8');
   // Return last 5 run entries
@@ -52,7 +52,7 @@ function getResearchSessionLog(category: string): string[] {
 }
 
 function getAgentSessionLog(agentPath: string, lastN = 5): string[] {
-  const logPath = path.join(process.cwd(), agentPath);
+  const logPath = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, agentPath) : path.join(process.cwd(), agentPath);
   if (!fs.existsSync(logPath)) return [];
   const content = fs.readFileSync(logPath, 'utf-8');
   const entries = content.split(/(?=## \[\d{4}-\d{2}-\d{2})/g).filter(e => e.trim().startsWith('##'));
@@ -60,7 +60,7 @@ function getAgentSessionLog(agentPath: string, lastN = 5): string[] {
 }
 
 function parseOpportunities(): any[] {
-  const opPath = path.join(process.cwd(), 'agents', 'affiliate-manager', 'opportunities.md');
+  const opPath = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, 'affiliates', 'opportunities.md') : path.join(process.cwd(), 'agents', 'affiliate-manager', 'opportunities.md');
   if (!fs.existsSync(opPath)) return [];
   const content = fs.readFileSync(opPath, 'utf-8');
   const blocks = content.split(/(?=## )/).filter(b => b.trim().startsWith('## ') && !b.startsWith('# '));
@@ -591,7 +591,7 @@ export function registerRoutes(httpServer: Server, app: Express) {
       { agent: 'affiliate-manager', path: 'agents/affiliate-manager/session_log.md' },
     ];
     for (const { agent, path: relPath } of logPaths) {
-      const fullPath = path.join(process.cwd(), relPath);
+      const fullPath = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, relPath) : path.join(process.cwd(), relPath);
       if (!fs.existsSync(fullPath)) continue;
       const content = fs.readFileSync(fullPath, 'utf-8');
       const alertMatches = content.matchAll(/SYSTEM ALERT[:\s]+([^\n]+)/g);
@@ -614,7 +614,7 @@ export function registerRoutes(httpServer: Server, app: Express) {
     const { status } = req.body;
     const VALID = ['new', 'reviewed', 'enrolled', 'rejected'];
     if (!VALID.includes(status)) return err(res, `status must be one of: ${VALID.join(', ')}`);
-    const opPath = path.join(process.cwd(), 'agents', 'affiliate-manager', 'opportunities.md');
+    const opPath = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, 'affiliates', 'opportunities.md') : path.join(process.cwd(), 'agents', 'affiliate-manager', 'opportunities.md');
     if (!fs.existsSync(opPath)) return err(res, 'opportunities.md not found', 404);
     let content = fs.readFileSync(opPath, 'utf-8');
     const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -625,3 +625,43 @@ export function registerRoutes(httpServer: Server, app: Express) {
     ok(res, { updated: true, name, status });
   });
 }
+
+// ── Data directory initialisation ────────────────────────────────────────
+app.post('/api/admin/init-data', tokenAuth, async (req, res) => {
+  const dataDir = process.env.DATA_DIR;
+  if (!dataDir) {
+    return res.status(400).json({ success: false, error: 'DATA_DIR env var not set — disk not mounted' });
+  }
+  const dirs = [
+    path.join(dataDir, 'research'),
+    path.join(dataDir, 'logs'),
+    path.join(dataDir, 'affiliates'),
+  ];
+  const categories = ['ai-chatbots', 'sex-tech', 'vr', 'industry-news', 'how-to', 'rankings'];
+  const created: string[] = [];
+  const existing: string[] = [];
+
+  for (const dir of dirs) {
+    if (!fs.existsSync(dir)) { fs.mkdirSync(dir, { recursive: true }); created.push(dir); }
+    else existing.push(dir);
+  }
+
+  // Seed empty research files if not present
+  for (const cat of categories) {
+    const filePath = path.join(dataDir, 'research', `${cat}.md`);
+    if (!fs.existsSync(filePath)) {
+      fs.writeFileSync(filePath, `# Research File: ${cat}\n**Category:** ${cat}\n**Created:** ${new Date().toISOString().split('T')[0]}\n\n---\n\n## FRONTIER LOG\n<!-- No queries run yet -->\n\n---\n\n## ITEMS\n<!-- No items yet -->\n`);
+      created.push(filePath);
+    } else existing.push(filePath);
+  }
+
+  // Seed empty opportunities.md if not present
+  const opPath = path.join(dataDir, 'affiliates', 'opportunities.md');
+  if (!fs.existsSync(opPath)) {
+    fs.writeFileSync(opPath, '# Affiliate Opportunities\n<!-- Discovered programs go here -->\n');
+    created.push(opPath);
+  }
+
+  return res.json({ success: true, created, existing });
+});
+
