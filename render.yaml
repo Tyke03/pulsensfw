@@ -9,3 +9,9 @@ services:
         value: production
       - key: DATABASE_URL
         sync: false
+      - key: DATA_DIR
+        value: /data
+    disk:
+      name: pulsensfw-data
+      mountPath: /data
+      sizeGB: 1
