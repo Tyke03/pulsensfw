@@ -625,6 +625,66 @@ export function registerRoutes(httpServer: Server, app: Express) {
     ok(res, { updated: true, name, status });
   });
 
+  // ── Research file write (agent use) ──────────────────────────────────────
+  // PUT /api/admin/research/:category  (admin-auth, used by cron agents)
+  // PUT /api/research/:category        (token-auth, legacy path)
+  // Body: { items: string[], queries: string[] }
+  // Appends new ITEM blocks to ## ITEMS and query entries to ## FRONTIER LOG
+  async function appendToResearchFile(category: string, items: string[], queries: string[]): Promise<{ itemsAdded: number; queriesAdded: number }> {
+    const filePath = getResearchFilePath(category);
+    let content = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf-8') : `# Research File: ${category}\n**Category:** ${category}\n**Created:** ${new Date().toISOString().split('T')[0]}\n\n---\n\n## FRONTIER LOG\n<!-- No queries run yet -->\n\n---\n\n## ITEMS\n<!-- No items yet -->\n`;
+
+    // Append queries to FRONTIER LOG
+    if (queries && queries.length > 0) {
+      const today = new Date().toISOString().split('T')[0];
+      const queryLines = queries.map((q: string) => `[${today}] ${q}`).join('\n');
+      if (content.includes('<!-- No queries run yet -->')) {
+        content = content.replace('<!-- No queries run yet -->', queryLines);
+      } else {
+        // Find end of FRONTIER LOG section (before ---)
+        const logEnd = content.indexOf('\n\n---\n\n## ITEMS');
+        if (logEnd !== -1) {
+          content = content.slice(0, logEnd) + '\n' + queryLines + content.slice(logEnd);
+        } else {
+          content += '\n' + queryLines;
+        }
+      }
+    }
+
+    // Append items to ITEMS section
+    if (items && items.length > 0) {
+      const itemsBlock = items.join('\n\n');
+      if (content.includes('<!-- No items yet -->')) {
+        content = content.replace('<!-- No items yet -->', itemsBlock);
+      } else {
+        content = content.trimEnd() + '\n\n' + itemsBlock + '\n';
+      }
+    }
+
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, content, 'utf-8');
+    return { itemsAdded: items?.length ?? 0, queriesAdded: queries?.length ?? 0 };
+  }
+
+  app.put('/api/admin/research/:category', tokenAuth, async (req, res) => {
+    const { category } = req.params;
+    if (!CATEGORIES_LIST.includes(category)) return err(res, 'Invalid category', 404);
+    const { items = [], queries = [] } = req.body;
+    if (!Array.isArray(items) || !Array.isArray(queries)) return err(res, 'items and queries must be arrays', 400);
+    const result = await appendToResearchFile(category, items, queries);
+    ok(res, { success: true, category, ...result });
+  });
+
+  app.put('/api/research/:category', tokenAuth, async (req, res) => {
+    const { category } = req.params;
+    if (!CATEGORIES_LIST.includes(category)) return err(res, 'Invalid category', 404);
+    const { items = [], queries = [] } = req.body;
+    if (!Array.isArray(items) || !Array.isArray(queries)) return err(res, 'items and queries must be arrays', 400);
+    const result = await appendToResearchFile(category, items, queries);
+    ok(res, { success: true, category, ...result });
+  });
+
+
 // ── Data directory initialisation ────────────────────────────────────────
 app.post('/api/admin/init-data', tokenAuth, async (req, res) => {
   const dataDir = process.env.DATA_DIR;
