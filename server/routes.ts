@@ -624,7 +624,6 @@ export function registerRoutes(httpServer: Server, app: Express) {
     fs.writeFileSync(opPath, content, 'utf-8');
     ok(res, { updated: true, name, status });
   });
-}
 
 // ── Data directory initialisation ────────────────────────────────────────
 app.post('/api/admin/init-data', tokenAuth, async (req, res) => {
@@ -665,3 +664,4 @@ app.post('/api/admin/init-data', tokenAuth, async (req, res) => {
   return res.json({ success: true, created, existing });
 });
 
+}
