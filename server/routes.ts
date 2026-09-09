@@ -146,7 +146,7 @@ function checkRateLimit(tokenId: number): boolean {
 }
 
 // ── Token Auth Middleware ──────────────────────────────────────────────────
-async function tokenAuth(req: Request & { adminToken?: any }, res: Response, next: NextFunction) {
+async async function tokenAuth(req: Request & { adminToken?: any }, res: Response, next: NextFunction) {
   const authHeader = req.headers['authorization'];
   if (!authHeader?.startsWith('Bearer ')) {
     return res.status(401).json({ success: false, error: 'Missing or invalid Authorization header' });
@@ -665,6 +665,15 @@ export function registerRoutes(httpServer: Server, app: Express) {
     fs.writeFileSync(filePath, content, 'utf-8');
     return { itemsAdded: items?.length ?? 0, queriesAdded: queries?.length ?? 0 };
   }
+
+
+  app.get('/api/admin/research/:category', tokenAuth, async (req, res) => {
+    const { category } = req.params;
+    if (!CATEGORIES_LIST.includes(category)) return err(res, 'Invalid category', 404);
+    const meta = parseResearchFile(category);
+    const recentLog = getResearchSessionLog(category);
+    ok(res, { ...meta, recentLog });
+  });
 
   app.put('/api/admin/research/:category', tokenAuth, async (req, res) => {
     const { category } = req.params;
