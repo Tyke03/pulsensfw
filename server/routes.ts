@@ -667,6 +667,33 @@ export function registerRoutes(httpServer: Server, app: Express) {
   }
 
 
+
+  // ── Research item status mutation ─────────────────────────────────────────
+  // PATCH /api/admin/research/:category/items/:itemId
+  // Body: { status: "used" | "unused", article?: string }
+  // Finds the ITEM block by ID and rewrites its Status line in-place.
+  app.patch('/api/admin/research/:category/items/:itemId', tokenAuth, async (req, res) => {
+    const { category, itemId } = req.params;
+    if (!CATEGORIES_LIST.includes(category)) return err(res, 'Invalid category', 404);
+    const { status, article } = req.body;
+    if (!status || !['used', 'unused'].includes(status)) return err(res, 'status must be "used" or "unused"', 400);
+
+    const filePath = getResearchFilePath(category);
+    if (!fs.existsSync(filePath)) return err(res, `Research file for ${category} not found`, 404);
+
+    let fileContent = fs.readFileSync(filePath, 'utf-8');
+
+    // Find the ITEM block header and replace its Status line
+    const itemHeaderRe = new RegExp(`(##\\s+${itemId.replace('-', '\\-')}[\\s\\S]*?\\*\\*Status:\\*\\*)\\s*\\S+(?:\\s*\\|\\s*article:\\s*\\S+)?`, 'i');
+    const statusValue = article ? `${status} | article: ${article}` : status;
+    if (!itemHeaderRe.test(fileContent)) {
+      return err(res, `Item ${itemId} not found in ${category} research file`, 404);
+    }
+    fileContent = fileContent.replace(itemHeaderRe, `$1 ${statusValue}`);
+    fs.writeFileSync(filePath, fileContent, 'utf-8');
+    ok(res, { success: true, category, itemId, status: statusValue });
+  });
+
   app.get('/api/admin/research/:category', tokenAuth, async (req, res) => {
     const { category } = req.params;
     if (!CATEGORIES_LIST.includes(category)) return err(res, 'Invalid category', 404);
