@@ -146,7 +146,7 @@ function checkRateLimit(tokenId: number): boolean {
 }
 
 // ── Token Auth Middleware ──────────────────────────────────────────────────
-async async function tokenAuth(req: Request & { adminToken?: any }, res: Response, next: NextFunction) {
+async function tokenAuth(req: Request & { adminToken?: any }, res: Response, next: NextFunction) {
   const authHeader = req.headers['authorization'];
   if (!authHeader?.startsWith('Bearer ')) {
     return res.status(401).json({ success: false, error: 'Missing or invalid Authorization header' });
