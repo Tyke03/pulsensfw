@@ -62,8 +62,14 @@ export default function PostPage() {
     </PublicLayout>
   );
 
-  const affiliateLinks = Array.isArray(post.affiliate_links) ? post.affiliate_links : [];
-  const inlineAffiliates = [...affiliateLinks, ...affiliates.slice(0, 3 - affiliateLinks.length)];
+  // API returns camelCase `affiliateLinks` (Drizzle maps the `affiliate_links` DB column to
+  // this JS field name). Read that first; snake_case is kept only as a defensive fallback in
+  // case an older payload shape is ever served.
+  const rawAffiliateLinks = post.affiliateLinks ?? post.affiliate_links;
+  const affiliateLinks = Array.isArray(rawAffiliateLinks) ? rawAffiliateLinks : [];
+  // Only fall back to the generic per-category affiliate list when the article has NO links of
+  // its own — never pad a real, curated set with unrelated category-wide filler.
+  const inlineAffiliates = affiliateLinks.length > 0 ? affiliateLinks : affiliates.slice(0, 3);
 
   return (
     <PublicLayout>
