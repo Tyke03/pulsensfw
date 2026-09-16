@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link, useLocation } from 'wouter';
 import { CATEGORIES } from '../lib/api';
 
@@ -12,12 +13,13 @@ export function PulseLogo({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
 
 export function PublicLayout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
+  const [mobileOpen, setMobileOpen] = useState(false);
   return (
     <div className="pub-root">
       <div className="pub-container">
         <nav className="pub-nav">
           <Link href="/">
-            <a style={{ textDecoration: 'none' }}><PulseLogo /></a>
+            <a style={{ textDecoration: 'none' }} onClick={() => setMobileOpen(false)}><PulseLogo /></a>
           </Link>
           <div className="pub-nav-links">
             {CATEGORIES.slice(0, 6).map(c => (
@@ -26,6 +28,26 @@ export function PublicLayout({ children }: { children: React.ReactNode }) {
               </Link>
             ))}
           </div>
+          <button
+            type="button"
+            className="pub-nav-toggle"
+            aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={mobileOpen}
+            onClick={() => setMobileOpen(o => !o)}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+          {mobileOpen && (
+            <div className="pub-nav-mobile-links">
+              {CATEGORIES.slice(0, 6).map(c => (
+                <Link key={c.slug} href={`/category/${c.slug}`}>
+                  <a className={location === `/category/${c.slug}` ? 'active' : ''} onClick={() => setMobileOpen(false)}>{c.name}</a>
+                </Link>
+              ))}
+            </div>
+          )}
         </nav>
         <main>{children}</main>
         <footer className="pub-footer">
