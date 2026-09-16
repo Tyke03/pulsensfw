@@ -8,11 +8,21 @@ import { useDocumentHead } from '../lib/useDocumentHead';
 
 function renderBody(body: string): string {
   if (!body) return '';
+  let html: string;
   // If body contains HTML tags, use as-is; otherwise parse as markdown
-  if (body.trimStart().startsWith('<')) return body;
-  // Unescape literal \n sequences stored from seeder
-  const normalized = body.replace(/\\n/g, '\n').replace(/\\t/g, '\t');
-  return marked.parse(normalized, { async: false }) as string;
+  if (body.trimStart().startsWith('<')) {
+    html = body;
+  } else {
+    // Unescape literal \n sequences stored from seeder
+    const normalized = body.replace(/\\n/g, '\n').replace(/\\t/g, '\t');
+    html = marked.parse(normalized, { async: false }) as string;
+  }
+  // Some article bodies were written with the legacy /posts/[slug] path format. The site is a
+  // hash-router SPA (routes live at /#/post/[slug], singular), so a bare /posts/[slug] anchor is
+  // a full-page navigation to a URL the server does not serve, producing a blank/404 page.
+  // Rewrite any such link at render time so old and new content both resolve correctly.
+  html = html.replace(/href=(["'])\/posts\//g, 'href=$1#/post/');
+  return html;
 }
 
 export default function PostPage() {
@@ -62,13 +72,23 @@ export default function PostPage() {
     </PublicLayout>
   );
 
-  // API returns camelCase `affiliateLinks` (Drizzle maps the `affiliate_links` DB column to
-  // this JS field name). Read that first; snake_case is kept only as a defensive fallback in
-  // case an older payload shape is ever served.
+  // API returns camelCase affiliateLinks (Drizzle maps the affiliate_links DB column to this
+  // JS field name). Read that first; snake_case is kept only as a defensive fallback in case an
+  // older payload shape is ever served.
   const rawAffiliateLinks = post.affiliateLinks ?? post.affiliate_links;
-  const affiliateLinks = Array.isArray(rawAffiliateLinks) ? rawAffiliateLinks : [];
-  // Only fall back to the generic per-category affiliate list when the article has NO links of
-  // its own — never pad a real, curated set with unrelated category-wide filler.
+  const affiliateLinksRaw = Array.isArray(rawAffiliateLinks) ? rawAffiliateLinks : [];
+  // Pipeline writers have submitted affiliateLinks as either name/url objects or bare URL
+  // strings. Normalize both shapes here so a bare-string entry never renders an empty name/link
+  // (audit item 4: affiliate-link-name span with no text).
+  const affiliateLinks = affiliateLinksRaw
+    .map((link: any) => {
+      if (typeof link === 'string') return { name: link, url: link };
+      if (link && typeof link === 'object' && link.url) return { name: link.name || link.url, url: link.url };
+      return null;
+    })
+    .filter(Boolean);
+  // Only fall back to the generic per-category affiliate list when the article has NO usable
+  // links of its own — never pad a real, curated set with unrelated category-wide filler.
   const inlineAffiliates = affiliateLinks.length > 0 ? affiliateLinks : affiliates.slice(0, 3);
 
   return (
@@ -98,7 +118,7 @@ export default function PostPage() {
             <h3>🔗 Quick Links</h3>
             {inlineAffiliates.map((link: any, i: number) => (
               <div key={i} className="affiliate-link">
-                <span className="affiliate-link-name">{link.name || link.url}</span>
+                <span className="affiliate-link-name">{String(link.name || link.url || '').replace(/\s*\(owned property\)\s*$/i, '')}</span>
                 <a href={link.url} target="_blank" rel="noopener noreferrer sponsored" className="affiliate-link-btn">
                   Visit →
                 </a>
