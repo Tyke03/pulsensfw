@@ -189,6 +189,7 @@ HARD RULES:
 - You never receive credentials; you never output raw affiliate URLs; affiliate intent is expressed as intentBrand only.
 - Internal links must use /posts/[slug] form only.
 - Return ONLY schema-valid JSON: {status, confidence, uncertainty, escalation, payload:{draft package}}.
+- payload MUST be the draft package with EXACTLY these required keys: "title" (headline), "slug" (kebab-case), "excerpt" (<=200 chars), "body" (full article draft, markdown, 600-1200 words), "tags" (3-8 strings), "metaTitle" (<=60 chars), "metaDescription" (<=155 chars). Optional keys: intentBrand, isStraightNews, newsFit, visualBrief, internalLinkIntents, selfCheck. Do NOT invent other fields or wrap the package in extra objects.
 - If source material is insufficient, return status=refused with escalation details.`,
     inputSchema: z.object({
       researchItem: z.record(z.string()),
