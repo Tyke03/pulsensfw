@@ -70,7 +70,12 @@ async function journal(
   workItemId?: number,
   runId?: number,
 ): Promise<void> {
-  await db.insert(orchestrationEvents).values({ type, mode, actor: 'orchestrator', detail, workItemId, runId });
+  await db.insert(orchestrationEvents).values({
+    type, mode, actor: 'orchestrator', detail, workItemId,
+    // run_id is an FK to agent_runs.id; sentinel 0 (no run row exists when the
+    // stage crashed before recording) must be stored as NULL, not 0.
+    runId: runId && runId > 0 ? runId : null,
+  });
 }
 
 async function recordRun(args: {
@@ -169,6 +174,9 @@ function classifyError(err: string, runStatus?: string): 'retryable' | 'terminal
 }
 
 async function markFailure(item: WorkItem, err: string, runId: number, runStatus?: string): Promise<WorkItem> {
+  // Already terminal — never re-fail a dead item (guards against double-
+  // markFailure loops from both the catch and tick-level handlers).
+  if (item.state === 'terminal_failure') return item;
   const cls = classifyError(err, runStatus);
   const attempts = item.attemptCount;
   const maxed = attempts >= item.maxAttempts;
@@ -177,7 +185,7 @@ async function markFailure(item: WorkItem, err: string, runId: number, runStatus
       await db.insert(reviewEscalations).values({ workItemId: item.id, role: item.role, reasonCode: 'max_attempts_exhausted', detail: { lastError: redact(err) } });
     }
     const next = await transition(item, 'terminal_failure', runId, redact(err));
-    await journal('dead_letter', currentMode(), { error: redact(err) }, item.id, runId);
+    await journal('dead_letter', currentMode(), { error: redact(err) }, item.id, runId).catch(() => {});
     return next;
   }
   if (cls === 'human_review') {
