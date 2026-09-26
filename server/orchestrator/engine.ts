@@ -474,8 +474,16 @@ export async function tick(opts: { invoker: AgentInvoker; mode?: Mode }): Promis
     claimedByRole.set(item.role, inFlight + 1);
 
     let working = item;
-    if (canTransition(item.state as State, 'claimed')) {
-      working = await transition(item, 'claimed', undefined, 'claimed by orchestrator');
+    if (working.state === 'research_validated') {
+      // Candidate items are born directly in research_validated (one per
+      // accepted research candidate) — research is already done, so promote
+      // them to the writable state before claiming. discovered →
+      // research_validated is the only legal entry into that state, so every
+      // eligible research_validated item is a writer candidate by construction.
+      working = await transition(working, 'ready_to_write', undefined, 'candidate promoted to writing queue');
+    }
+    if (canTransition(working.state as State, 'claimed')) {
+      working = await transition(working, 'claimed', undefined, 'claimed by orchestrator');
     }
     const claimed = canTransition(working.state as State, 'in_progress')
       ? await transition(working, 'in_progress', undefined, 'execution started')
