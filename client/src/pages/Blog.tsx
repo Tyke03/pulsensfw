@@ -23,7 +23,7 @@ export default function Blog() {
   const pagination = data?.meta?.pagination;
 
   useDocumentHead({
-    title: 'PulseNSFW — What's New in the NSFW Internet.',
+    title: "PulseNSFW — What's New in the NSFW Internet.",
     description: 'News, discoveries, guides, reviews, rankings, and honest coverage across AI companions, sex tech, VR, adult creators, and the wider NSFW web.',
     canonical: '/',
   });

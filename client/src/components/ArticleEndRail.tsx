@@ -12,7 +12,7 @@
  *   never rendered here.
  * - Editorial body never contains affiliate markup; this component owns it.
  */
-import { BRAND } from '../../shared/brand';
+import { BRAND } from '@shared/brand';
 
 export type EndRailPlanView = {
   relatedPosts: Array<{ slug: string; title: string }>;
