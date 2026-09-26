@@ -1,0 +1,379 @@
+{
+  "scenarios": [
+    {
+      "id": "S01-industry-news-accepted",
+      "description": "Consumer-interesting Industry News research candidate passes news_fit and becomes a writer work item",
+      "type": "research",
+      "role": "research-industry-news",
+      "category": "industry-news",
+      "fixture": {
+        "status": "ok",
+        "confidence": 0.88,
+        "uncertainty": [],
+        "escalation": null,
+        "payload": {
+          "candidates": [
+            {
+              "topic": "OnlyFans expands payout options for creators in the EU",
+              "category": "industry-news",
+              "finding": "OnlyFans announced EU creators can now receive payouts through two additional local methods starting next week.",
+              "source_url": "https://example.com/onlyfans-eu-payouts",
+              "source_date": "2026-09-22",
+              "event_date": "2026-09-21",
+              "suggested_angle": "What the payout change means for EU creators this week",
+              "confidence": 0.85,
+              "duplicate_fingerprint": "onlyfans-eu-payout-2026-09",
+              "news_fit": {
+                "why_users_care": "EU creators and subscribers are directly affected this week: payout timing and fees change for a platform many readers use.",
+                "novelty_or_timeliness": "Announced yesterday, effective next week.",
+                "primary_audience": "Adult creators and platform users",
+                "category_exclusivity_reason": "Cross-cutting platform change not owned by chatbots/sex-tech/VR verticals",
+                "source_quality": "high",
+                "date_of_event": "2026-09-21",
+                "date_of_source": "2026-09-22",
+                "sensitive_content_risk": "none",
+                "recommended_angle": "Practical explainer on the new payout options"
+              }
+            }
+          ]
+        }
+      },
+      "expect": {
+        "outcome": "research_proposed",
+        "candidateItemCreated": true
+      }
+    },
+    {
+      "id": "S02-industry-news-rejected-dry-legal",
+      "description": "Dry legal/B2B Industry News candidate is rejected (news_fit fails schema: thin why_users_care)",
+      "type": "research",
+      "role": "research-industry-news",
+      "category": "industry-news",
+      "fixture": {
+        "status": "refused",
+        "confidence": 0.2,
+        "uncertainty": [
+          "candidate is dry corporate filing coverage without reader impact"
+        ],
+        "escalation": {
+          "reason_code": "no_reader_relevance",
+          "detail": "Routine SEC filing by an adult holding company; no user- or creator-facing impact identified.",
+          "recommended_action": "do not queue; archive the lead"
+        },
+        "payload": null
+      },
+      "expect": {
+        "outcome": "refused",
+        "candidateItemCreated": false
+      }
+    },
+    {
+      "id": "S03-specialized-routed-away",
+      "description": "Specialized sex-tech item routed away from Industry News via category routing escalation",
+      "type": "research",
+      "role": "research-industry-news",
+      "category": "industry-news",
+      "fixture": {
+        "status": "ok",
+        "confidence": 0.6,
+        "uncertainty": [
+          "category routing: device launch belongs in Sex Tech"
+        ],
+        "escalation": null,
+        "payload": {
+          "candidates": [
+            {
+              "topic": "Lovense ships new app-controlled device firmware",
+              "category": "sex-tech",
+              "finding": "Lovense released firmware adding new app-controlled patterns for its device line.",
+              "source_url": "https://example.com/lovense-firmware",
+              "source_date": "2026-09-23",
+              "event_date": "2026-09-23",
+              "suggested_angle": "Device-level review coverage for Sex Tech",
+              "confidence": 0.7,
+              "duplicate_fingerprint": "lovense-firmware-2026-09",
+              "news_fit": null
+            }
+          ]
+        }
+      },
+      "expect": {
+        "outcome": "research_proposed",
+        "routingEscalation": true
+      }
+    },
+    {
+      "id": "S04-draft-with-eligible-affiliate",
+      "description": "Writer draft with Lovense Edge 2 context resolves an eligible product-tier affiliate CTA",
+      "type": "end_rail",
+      "role": "affiliate-injector",
+      "category": "sex-tech",
+      "seed": {
+        "registry": [
+          {
+            "name": "Lovense",
+            "url": "https://www.lovense.com/?ref=pulsensfw",
+            "category": "sex-tech",
+            "active": true,
+            "trackingStatus": "real",
+            "health": "healthy"
+          }
+        ]
+      },
+      "fixture": {
+        "status": "ok",
+        "confidence": 0.9,
+        "uncertainty": [],
+        "escalation": null,
+        "payload": {
+          "relatedPostIds": [],
+          "relatedPostSlugs": [
+            "lovense-edge-2-review",
+            "best-app-controlled-toys"
+          ],
+          "affiliateIntent": {
+            "brand": "Lovense",
+            "contextuallyRelevant": true,
+            "rationale": "Draft is a product review of a specific Lovense device"
+          },
+          "isStraightNews": false,
+          "draftContextText": "In-depth review of the Lovense Edge 2 prostate massager with adjustable dual motors"
+        }
+      },
+      "expect": {
+        "outcome": "end_rail_valid",
+        "fallbackMode": "affiliate",
+        "urlContains": "/r/kbyy39"
+      }
+    },
+    {
+      "id": "S05-draft-internal-only-fallback",
+      "description": "Draft with no genuine affiliate context falls back to internal_only",
+      "type": "end_rail",
+      "role": "affiliate-injector",
+      "category": "how-to",
+      "fixture": {
+        "status": "ok",
+        "confidence": 0.85,
+        "uncertainty": [],
+        "escalation": null,
+        "payload": {
+          "relatedPostIds": [],
+          "relatedPostSlugs": [
+            "prompting-basics-guide"
+          ],
+          "affiliateIntent": {
+            "brand": null,
+            "contextuallyRelevant": false,
+            "rationale": "No contextual affiliate match for a prompting guide"
+          },
+          "isStraightNews": false,
+          "draftContextText": "A beginner guide to writing better companion chatbot prompts"
+        }
+      },
+      "expect": {
+        "outcome": "end_rail_valid",
+        "fallbackMode": "internal_only"
+      }
+    },
+    {
+      "id": "S06-draft-blocked-missing-visual",
+      "description": "Draft whose visual asset is not ready is blocked from publishing (needs_visual)",
+      "type": "draft",
+      "role": "writer-vr",
+      "category": "vr",
+      "fixture": {
+        "status": "ok",
+        "confidence": 0.9,
+        "uncertainty": [],
+        "escalation:": null,
+        "payload": {
+          "title": "The VR experiences worth watching this fall",
+          "slug": "vr-experiences-fall-2026",
+          "excerpt": "A tour of the most interesting immersive launches this season.",
+          "body": "ARR_LONG_BODY <a href=\"/posts/related-a\">related</a> <a href=\"/posts/related-b\">more</a>",
+          "tags": [
+            "vr",
+            "immersive",
+            "headsets"
+          ],
+          "metaTitle": "The VR experiences worth watching this fall season",
+          "metaDescription": "From new headset launches to immersive platform updates, here is what changed in VR this fall and which experiences readers should try first.",
+          "intentBrand": null,
+          "isStraightNews": false,
+          "newsFit": null,
+          "visualBrief": {
+            "assetSource": "generated",
+            "altText": "",
+            "caption": null,
+            "contentSafetyClassification": "safe",
+            "rightsLicensingStatus": "generated-no-third-party-rights",
+            "generationPromptOrProvenance": "magenta pulse motif, VR headset silhouette",
+            "cropOrFocalPoint": null
+          },
+          "internalLinkIntents": [],
+          "selfCheck": {}
+        }
+      },
+      "expect": {
+        "outcome": "needs_visual"
+      }
+    },
+    {
+      "id": "S07-lovense-specificity",
+      "description": "Lovense matching picks the specific product over the (ineligible) fallback",
+      "type": "end_rail",
+      "role": "affiliate-injector",
+      "category": "sex-tech",
+      "seed": {
+        "registry": [
+          {
+            "name": "Lovense",
+            "url": "https://www.lovense.com/?ref=pulsensfw",
+            "category": "sex-tech",
+            "active": true,
+            "trackingStatus": "real",
+            "health": "healthy"
+          }
+        ]
+      },
+      "fixture": {
+        "status": "ok",
+        "confidence": 0.9,
+        "uncertainty": [],
+        "escalation": null,
+        "payload": {
+          "relatedPostIds": [],
+          "relatedPostSlugs": [
+            "best-app-controlled-toys"
+          ],
+          "affiliateIntent": {
+            "brand": "Lovense",
+            "contextuallyRelevant": true,
+            "rationale": "Review of a specific product"
+          },
+          "isStraightNews": false,
+          "draftContextText": "Review of the Solace Pro thrusting blowjob machine with app control"
+        }
+      },
+      "expect": {
+        "fallbackMode": "affiliate",
+        "urlContains": "/r/pv0ygr",
+        "tierReason": "product:solace-pro",
+        "outcome": "end_rail_valid"
+      }
+    },
+    {
+      "id": "S08-lovense-fallback-ineligible",
+      "description": "Lovense fallback case blocked: matched relevance but home fallback is redirect-to-home ineligible",
+      "type": "end_rail",
+      "role": "affiliate-injector",
+      "category": "sex-tech",
+      "seed": {
+        "registry": [
+          {
+            "name": "Lovense",
+            "url": "https://www.lovense.com/?ref=pulsensfw",
+            "category": "sex-tech",
+            "active": true,
+            "trackingStatus": "real",
+            "health": "healthy"
+          }
+        ]
+      },
+      "fixture": {
+        "status": "ok",
+        "confidence": 0.7,
+        "uncertainty": [],
+        "escalation": null,
+        "payload": {
+          "relatedPostIds": [],
+          "relatedPostSlugs": [
+            "best-app-controlled-toys"
+          ],
+          "affiliateIntent": {
+            "brand": "Lovense",
+            "contextuallyRelevant": true,
+            "rationale": "General brand mention"
+          },
+          "isStraightNews": false,
+          "draftContextText": "A general overview of the Lush 4 wearable vibrator line"
+        }
+      },
+      "expect": {
+        "fallbackMode": "internal_only",
+        "reasonMatches": "redirect_to_home|fallback_ineligible",
+        "outcome": "end_rail_valid"
+      }
+    },
+    {
+      "id": "S09-health-check-rate-limited",
+      "description": "Affiliate health check reports 429 as rate_limited_inconclusive (never dead)",
+      "type": "health_check",
+      "role": "affiliate-health-checker",
+      "category": null,
+      "fixture": {
+        "status": "ok",
+        "confidence": 0.95,
+        "uncertainty": [],
+        "escalation": null,
+        "payload": {
+          "observations": [
+            {
+              "url": "https://www.lovense.com/r/llz888",
+              "affiliateId": null,
+              "status": "rate_limited_inconclusive",
+              "httpStatus": 429,
+              "redirectTarget": null,
+              "notes": "Checker self-rate-limited on Lovense domain"
+            },
+            {
+              "url": "https://www.lovense.com/r/3ss45r",
+              "affiliateId": null,
+              "status": "redirect_to_home",
+              "httpStatus": 200,
+              "redirectTarget": "https://www.lovense.com/",
+              "notes": "Tracking stripped on redirect"
+            }
+          ]
+        }
+      },
+      "expect": {
+        "outcome": "health_recorded",
+        "statusesRecorded": [
+          "rate_limited_inconclusive",
+          "redirect_to_home"
+        ]
+      },
+      "seed": {
+        "registry": [
+          {
+            "name": "Lovense",
+            "url": "https://www.lovense.com/r/llz888",
+            "category": "sex-tech",
+            "active": true,
+            "trackingStatus": "real",
+            "health": "healthy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S10-global-halt",
+      "description": "Global halt instruction pauses the tick before any dispatch",
+      "type": "halt",
+      "role": null,
+      "category": null,
+      "fixture": null,
+      "instruction": {
+        "target": "all",
+        "instruction": "PAUSE ALL CRONS IMMEDIATELY. Do not run any task until this row is removed.",
+        "persist": true
+      },
+      "expect": {
+        "halted": true,
+        "processed": 0
+      }
+    }
+  ]
+}

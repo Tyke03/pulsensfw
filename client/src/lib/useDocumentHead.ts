@@ -24,7 +24,7 @@ export function useDocumentHead({ title, description, canonical }: HeadOptions) 
     if (title) {
       document.title = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
     } else {
-      document.title = `${SITE_NAME} — The NSFW Internet, Honestly Reviewed.`;
+      document.title = `${SITE_NAME} — What's New in the NSFW Internet.`;
     }
 
     // --- <meta name="description"> ---
@@ -51,7 +51,7 @@ export function useDocumentHead({ title, description, canonical }: HeadOptions) 
 
     // Cleanup: reset to default when component unmounts
     return () => {
-      document.title = `${SITE_NAME} — The NSFW Internet, Honestly Reviewed.`;
+      document.title = `${SITE_NAME} — What's New in the NSFW Internet.`;
       setMeta('name', 'description', '');
     };
   }, [title, description, canonical]);

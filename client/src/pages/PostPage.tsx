@@ -3,6 +3,7 @@ import { useParams, Link } from 'wouter';
 import { marked } from 'marked';
 import { apiRequest } from '../lib/queryClient';
 import { PublicLayout, PostCard } from '../components/Layout';
+import ArticleEndRail from '../components/ArticleEndRail';
 import { getCategoryName, formatDate } from '../lib/api';
 import { useDocumentHead } from '../lib/useDocumentHead';
 
@@ -36,6 +37,12 @@ export default function PostPage() {
   const { data: relatedData } = useQuery({
     queryKey: ['/api/related', slug],
     queryFn: () => apiRequest('GET', `/api/related/${slug}`).then(r => r.json()),
+    enabled: !!slug,
+  });
+
+  const { data: endRailData } = useQuery({
+    queryKey: ['/api/end-rail', slug],
+    queryFn: () => apiRequest('GET', `/api/end-rail/${slug}`).then(r => r.json()),
     enabled: !!slug,
   });
 
@@ -128,6 +135,15 @@ export default function PostPage() {
         )}
 
         <div className="article-body" dangerouslySetInnerHTML={{ __html: renderBody(post.body || '') }} />
+
+        {endRailData?.data?.relatedPosts?.length > 0 && (
+          <ArticleEndRail plan={{
+            relatedPosts: endRailData.data.relatedPosts,
+            affiliate: endRailData.data.affiliate ?? null,
+            fallbackMode: endRailData.data.fallbackMode ?? 'internal_only',
+            disclosureText: endRailData.data.disclosureText ?? null,
+          }} />
+        )}
 
         {related.length > 0 && (
           <section className="related-section">

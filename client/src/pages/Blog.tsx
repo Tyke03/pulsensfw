@@ -23,16 +23,16 @@ export default function Blog() {
   const pagination = data?.meta?.pagination;
 
   useDocumentHead({
-    title: 'PulseNSFW — The NSFW Internet, Honestly Reviewed.',
-    description: 'Unbiased reviews, rankings, and guides for NSFW AI chatbots, sex tech, VR porn, and the adult creator economy.',
+    title: 'PulseNSFW — What's New in the NSFW Internet.',
+    description: 'News, discoveries, guides, reviews, rankings, and honest coverage across AI companions, sex tech, VR, adult creators, and the wider NSFW web.',
     canonical: '/',
   });
 
   return (
     <PublicLayout>
       <section className="hero-section">
-        <h1 className="hero-title">The NSFW Internet,<br /><span style={{ color: 'var(--pulse-red)' }}>Honestly Reviewed.</span></h1>
-        <p className="hero-sub">Unbiased reviews, rankings, and guides for AI chatbots, sex tech, VR, and everything in between.</p>
+        <h1 className="hero-title">What's New in the<br /><span style={{ color: 'var(--pulse-red)' }}>NSFW Internet.</span></h1>
+        <p className="hero-sub">News, discoveries, guides, reviews, and rankings across AI companions, sex tech, VR, adult creators, and the wider NSFW web.</p>
       </section>
 
       <div className="category-pills">

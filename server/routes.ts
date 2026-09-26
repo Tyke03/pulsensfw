@@ -3,6 +3,9 @@ import { Server } from 'http';
 import * as fs from 'fs';
 import * as path from 'path';
 import { storage, slugify, generateToken } from './storage';
+import { selectRelatedPosts } from './orchestrator/end-rail';
+import { tick, currentMode } from './orchestrator/engine';
+import { PollinationsInvoker } from './orchestrator/invoker';
 
 // ── Research file helpers ─────────────────────────────────────────────────
 const RESEARCH_DIR = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, 'research') : path.join(process.cwd(), 'research');
@@ -229,6 +232,62 @@ export function registerRoutes(httpServer: Server, app: Express) {
     const all = await storage.listPosts({ status: 'published', category: post.category, perPage: 6 });
     const related = all.rows.filter(p => p.id !== post.id).slice(0, 3);
     ok(res, related);
+  });
+
+  // ── Orchestrator tick (the ONLY production side-effect executor) ─────────
+  // Invoked by Render Cron Job (or manually by Brent). Feature-flagged:
+  // ORCHESTRATOR_ENABLED=false hard-disables everything; ORCHESTRATOR_MODE
+  // (dry_run|shadow|production) controls side-effect execution.
+  const orchestratorInvoker = new PollinationsInvoker();
+  app.post('/api/orchestrator/tick', tokenAuth, async (req, res) => {
+    if (process.env.ORCHESTRATOR_ENABLED !== 'true') {
+      return err(res, 'Orchestrator disabled (ORCHESTRATOR_ENABLED!=true)', 404);
+    }
+    try {
+      const mode = currentMode();
+      const result = await tick({ invoker: orchestratorInvoker });
+      ok(res, { mode, ...result });
+    } catch (e: any) {
+      console.error('[orchestrator] tick failed:', e?.message);
+      err(res, 'tick failed', 500);
+    }
+  });
+
+  app.get('/api/orchestrator/status', tokenAuth, async (_, res) => {
+    if (process.env.ORCHESTRATOR_ENABLED !== 'true') {
+      return ok(res, { enabled: false });
+    }
+    const { db } = await import('./db');
+    const { workItems, agentRuns, orchestrationEvents } = await import('@shared/schema');
+    const { count } = await import('drizzle-orm');
+    const [wi] = await db.select({ n: count() }).from(workItems);
+    const [ar] = await db.select({ n: count() }).from(agentRuns);
+    const [oe] = await db.select({ n: count() }).from(orchestrationEvents);
+    ok(res, { enabled: true, mode: currentMode(), workItems: wi.n, agentRuns: ar.n, events: oe.n });
+  });
+
+  // ── Article end-rail API (published-only selection + affiliate resolution) ──
+  app.get('/api/end-rail/:slug', async (req, res) => {
+    const post = await storage.getPostBySlug(req.params.slug);
+    if (!post || post.status !== 'published') return err(res, 'Not found', 404);
+    const candidates = await storage.listPosts({ status: 'published', perPage: 100 });
+    const plan = selectRelatedPosts({
+      currentSlug: post.slug,
+      currentCategory: post.category,
+      candidates: candidates.rows.map(r => ({
+        id: r.id, slug: r.slug, title: r.title, category: r.category,
+        tags: r.tags ?? null, publishedAt: r.publishedAt ?? null,
+      })),
+    });
+    // Affiliate resolution happens at draft time in the orchestrator; the live
+    // site renders only an internal path unless the post carries a validated
+    // plan. Live posts are never modified by this read-only endpoint.
+    ok(res, {
+      relatedPosts: plan.selected.map(p => ({ slug: p.slug, title: p.title })),
+      affiliate: null,
+      fallbackMode: 'internal_only',
+      disclosureText: null,
+    });
   });
 
   app.get('/api/categories', (_, res) => {

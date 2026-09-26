@@ -3,3 +3,7 @@ dist/
 .env
 *.log
 .DS_Store
+
+# Never commit supplied operator/baseline material (contains live secrets)
+user_supplied/
+shadow/shadow-ledger.json
