@@ -18,6 +18,16 @@ app.use((req, res, next) => {
 });
 
 (async () => {
+  // Apply additive schema migrations on boot (idempotent CREATE TABLE IF NOT
+  // EXISTS — no-ops when tables exist; keeps Render deploys self-migrating so
+  // no operator ever needs to run SQL by hand). Rollback notes per file in
+  // server/migrations/*.sql.
+  try {
+    await (await import('./migrate-v2')).migrateOnBoot();
+  } catch (e: any) {
+    log(`migration warning: ${e?.message ?? e} — continuing (migrations are additive)`);
+  }
+
   const server = createServer(app);
   registerRoutes(server, app);
 
