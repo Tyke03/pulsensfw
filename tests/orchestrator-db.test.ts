@@ -187,15 +187,19 @@ describe('publish authorization (case 9/10 core path)', () => {
 });
 
 describe('retry classification & dead-letter (case 6)', () => {
-  it('schema failures dead-letter immediately (non-retryable)', async () => {
+  it('schema failures are retryable within budget, never dead while attempts remain', async () => {
     await freshSchema(); // isolate from leftovers of earlier tests
     const bad = new EchoInvoker(new Map());
     bad.setFixture('research-vr', { status: 'ok', confidence: 0.9, uncertainty: [], escalation: null, payload: { wrong_shape: true } });
     const item = await insertItem({ idempotencyKey: 'dl-1' });
     const res = await tick({ invoker: bad, mode: 'shadow' });
     const r = res.results.find(x => x.workItemId === item.id);
-    assert.ok(['dead_letter', 'terminal_failure', 'error'].includes(r!.outcome) || r!.outcome === 'schema_invalid', `outcome=${r!.outcome}`);
+    assert.ok(['schema_invalid', 'failed'].includes(r!.outcome), `outcome=${r!.outcome}`);
     const after = (await testDb.select().from(workItems).where(eq(workItems.id, item.id)))[0];
-    assert.ok(['terminal_failure', 'retryable_failure'].includes(after.state), `state=${after.state}`);
+    // Within budget the item must be alive: scheduled for retry with backoff,
+    // parked in a working state — not dead-lettered.
+    assert.ok(!['terminal_failure'].includes(after.state), `state=${after.state}`);
+    assert.ok(after.attemptCount >= 1 && after.attemptCount < after.maxAttempts, `attempts=${after.attemptCount}/${after.maxAttempts}`);
+    assert.ok(after.backoffUntil !== null, 'backoff must be scheduled for retry');
   });
 });

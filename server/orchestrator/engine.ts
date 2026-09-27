@@ -163,7 +163,11 @@ async function transition(item: WorkItem, to: State, runId?: number, reason?: st
 }
 
 function classifyError(err: string, runStatus?: string): 'retryable' | 'terminal' | 'human_review' {
-  if (runStatus === 'schema_invalid') return 'terminal';
+  // A single schema_invalid roll is not worth a dead letter: the 20B free-tier
+  // model drifts occasionally even with a good prompt, and the item's retry
+  // budget (12) exists precisely to absorb this. Terminal only when budget
+  // is exhausted (handled by the maxed check below).
+  if (runStatus === 'schema_invalid') return 'retryable';
   if (runStatus === 'refused' || runStatus === 'escalated') return 'human_review';
   const e = err.toLowerCase();
   if (e.includes('schema_invalid') || e.includes('illegal state')) return 'terminal';
