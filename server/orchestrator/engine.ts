@@ -245,6 +245,18 @@ async function executeStage(
   // Unwrap the validated envelope: stage data lives under `payload`.
   const out = ((output as any)?.payload ?? output) as any;
 
+  // Research categories → registered writer roles. Categories and roles are
+  // not 1:1 (how-to & rankings share writer-how-to-rankings; industry news is
+  // its own role), so never derive the role from the raw category string.
+  const WRITER_ROLE_BY_CATEGORY: Record<string, string> = {
+    'ai-chatbots': 'writer-ai-chatbots',
+    'sex-tech': 'writer-sex-tech',
+    'vr': 'writer-vr',
+    'industry-news': 'writer-industry-news',
+    'how-to': 'writer-how-to-rankings',
+    'rankings': 'writer-how-to-rankings',
+  };
+
   switch (agent.stage) {
     case 'research': {
       for (const cand of out.candidates ?? []) {
@@ -255,9 +267,17 @@ async function executeStage(
             detail: { proposed: routing, workItemCategory: item.category, candidate: cand.topic },
           });
         }
+        const writerRole = WRITER_ROLE_BY_CATEGORY[item.category];
+        if (!writerRole) {
+          await db.insert(reviewEscalations).values({
+            workItemId: item.id, role, reasonCode: 'unroutable_category',
+            detail: { category: item.category, candidate: cand.topic },
+          });
+          continue;
+        }
         await db.insert(workItems).values({
           idempotencyKey: `research-candidate:${cand.duplicate_fingerprint}`,
-          type: 'draft', role: `writer-${item.category}`, category: item.category,
+          type: 'draft', role: writerRole, category: item.category,
           state: 'research_validated', sourceRef: `${item.sourceRef ?? ''}#${cand.fingerprint}`,
           sourcePayload: cand, priority: 5,
         }).onConflictDoNothing();
