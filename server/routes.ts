@@ -5,7 +5,9 @@ import * as path from 'path';
 import { storage, slugify, generateToken } from './storage';
 import { selectRelatedPosts } from './orchestrator/end-rail';
 import { tick, currentMode } from './orchestrator/engine';
-import { PollinationsInvoker } from './orchestrator/invoker';
+import { PollinationsInvoker, LadderInvoker, PaidOpenAIInvoker } from './orchestrator/invoker';
+import { ladderEnabled, LADDER, dailyBudgetUsd, sumPaidSpendSql, type SpendSummary } from './orchestrator/model-ladder';
+import { sql } from 'drizzle-orm';
 
 // ── Research file helpers ─────────────────────────────────────────────────
 const RESEARCH_DIR = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, 'research') : path.join(process.cwd(), 'research');
@@ -194,6 +196,17 @@ async function pingIndexNow(url: string) {
   } catch {}
 }
 
+// ── Orchestrator model ladder (cost/quality) ──────────────────────────────
+// Free-first: every task starts on the free tier; a task that keeps failing
+// (attempt >= ESCALATE_AFTER_ATTEMPT) escalates paid tiers under a hard daily
+// budget. Dormant until PAID_LLM_URL + PAID_LLM_API_KEY are configured.
+async function readPaidSpend(): Promise<SpendSummary | null> {
+  const { db } = await import('./db');
+  const result = await db.execute(sql.raw(sumPaidSpendSql()));
+  const row = (result.rows?.[0] ?? null) as { day: string; paidCostUsd: string | number } | null;
+  return row ? { day: row.day, paidCostUsd: Number(row.paidCostUsd) || 0 } : null;
+}
+
 export function registerRoutes(httpServer: Server, app: Express) {
 
   // ── Health ────────────────────────────────────────────────────────────
@@ -238,7 +251,11 @@ export function registerRoutes(httpServer: Server, app: Express) {
   // Invoked by Render Cron Job (or manually by Brent). Feature-flagged:
   // ORCHESTRATOR_ENABLED=false hard-disables everything; ORCHESTRATOR_MODE
   // (dry_run|shadow|production) controls side-effect execution.
-  const orchestratorInvoker = new PollinationsInvoker();
+  const orchestratorInvoker = new LadderInvoker(
+    new PollinationsInvoker(),
+    ladderEnabled() ? new PaidOpenAIInvoker() : null,
+    readPaidSpend,
+  );
   app.post('/api/orchestrator/tick', tokenAuth, async (req, res) => {
     if (process.env.ORCHESTRATOR_ENABLED !== 'true') {
       return err(res, 'Orchestrator disabled (ORCHESTRATOR_ENABLED!=true)', 404);
@@ -263,7 +280,17 @@ export function registerRoutes(httpServer: Server, app: Express) {
     const [wi] = await db.select({ n: count() }).from(workItems);
     const [ar] = await db.select({ n: count() }).from(agentRuns);
     const [oe] = await db.select({ n: count() }).from(orchestrationEvents);
-    ok(res, { enabled: true, mode: currentMode(), workItems: wi.n, agentRuns: ar.n, events: oe.n });
+    const paidSpend = await readPaidSpend().catch(() => null);
+    ok(res, {
+      enabled: true, mode: currentMode(), workItems: wi.n, agentRuns: ar.n, events: oe.n,
+      ladder: {
+        enabled: ladderEnabled(),
+        tier1Model: LADDER.paid_tier1.model,
+        tier2Model: LADDER.paid_tier2.model,
+        dailyBudgetUsd: dailyBudgetUsd(),
+        paidSpendTodayUsd: paidSpend?.paidCostUsd ?? 0,
+      },
+    });
   });
 
   // ── Article end-rail API (published-only selection + affiliate resolution) ──

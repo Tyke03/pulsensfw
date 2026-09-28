@@ -7,12 +7,26 @@
  * (see packages.ts) before acceptance.
  */
 import crypto from 'node:crypto';
+import {
+  type Tier,
+  type TierDef,
+  type SpendSummary,
+  tierFor,
+  ladderEnabled,
+  estimateCostUsd,
+  actualCostUsd,
+  budgetExhausted,
+} from './model-ladder';
 
 export type InvokeMeta = {
   role: string;
   promptId: string;
   promptVersion: string;
   mode: 'production' | 'shadow' | 'dry_run';
+  /** Requested ladder tier (default free). Set by engine per attempt. */
+  tier?: Tier;
+  /** 1-based attempt number, for logging/telemetry. */
+  attempt?: number;
 };
 
 export type InvokeResult = {
@@ -23,6 +37,13 @@ export type InvokeResult = {
   model?: string;
   provider?: string;
   durationMs: number;
+  /** Ladder tier the call actually ran at. */
+  tier?: Tier;
+  /** Actual or estimated USD cost of this call (0 for free tier). */
+  costUsd?: number;
+  usage?: { promptTokens: number; completionTokens: number };
+  /** True when a requested paid tier was refused for budget and free was used. */
+  budgetFallback?: boolean;
 };
 
 export interface AgentInvoker {
@@ -165,5 +186,114 @@ ${JSON.stringify(workPacket)}`;
     } catch (err: any) {
       return { ok: false, error: err?.message || 'invoker failure', provider: 'pollinations', model, durationMs: Date.now() - start };
     }
+  }
+}
+
+/**
+ * PaidOpenAIInvoker — any OpenAI-compatible paid endpoint (OpenRouter, Groq,
+ * OpenAI, DeepSeek direct, …) configured via PAID_LLM_URL + PAID_LLM_API_KEY.
+ * Captures token usage from the response and converts to USD via the tier's
+ * blended rate; falls back to an estimate when usage is absent.
+ */
+export class PaidOpenAIInvoker implements AgentInvoker {
+  constructor(
+    private url = process.env.PAID_LLM_URL,
+    private apiKey = process.env.PAID_LLM_API_KEY,
+  ) {}
+
+  async invoke(workPacket: unknown, systemPrompt: string, meta: InvokeMeta): Promise<InvokeResult> {
+    const start = Date.now();
+    if (!this.url || !this.apiKey) {
+      return { ok: false, error: 'paid invoker not configured (PAID_LLM_URL/PAID_LLM_API_KEY)', durationMs: Date.now() - start };
+    }
+    const tier = tierFor(meta.tier ?? 'paid_tier1');
+    const userContent = `${JSON.stringify(workPacket)}\n\nReturn ONLY a JSON object exactly in this envelope:\n{"status":"ok"|"refused"|"escalate","confidence":0.0,"uncertainty":[],"escalation":{"reason_code":"…","detail":"…","recommended_action":"…"}|null,"payload":{…}}`;
+    try {
+      const res = await fetch(this.url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${this.apiKey}`,
+        },
+        body: JSON.stringify({
+          model: tier.model,
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: userContent },
+          ],
+          response_format: { type: 'json_object' },
+        }),
+      });
+      if (!res.ok) {
+        const body = await res.text().catch(() => '');
+        return {
+          ok: false, error: `paid HTTP ${res.status}`, provider: tier.provider, model: tier.model,
+          tier: tier.id, durationMs: Date.now() - start,
+          raw: body.slice(0, 300),
+        };
+      }
+      const data = await res.json();
+      const content = data?.choices?.[0]?.message?.content ?? '';
+      const usage = data?.usage ? {
+        promptTokens: Number(data.usage.prompt_tokens) || 0,
+        completionTokens: Number(data.usage.completion_tokens) || 0,
+      } : undefined;
+      const costUsd = usage
+        ? actualCostUsd(tier.id, usage.promptTokens, usage.completionTokens)
+        : estimateCostUsd(tier.id);
+      // Same tolerance as the free tier: fenced/prose-wrapped JSON.
+      let parsed: unknown;
+      try {
+        parsed = JSON.parse(content);
+      } catch {
+        const m = content.match(/\{[\s\S]*\}/);
+        if (!m) return { ok: false, error: 'non-JSON response', provider: tier.provider, model: tier.model, tier: tier.id, costUsd, usage, durationMs: Date.now() - start };
+        try { parsed = JSON.parse(m[0]); } catch {
+          return { ok: false, error: 'non-JSON response', provider: tier.provider, model: tier.model, tier: tier.id, costUsd, usage, durationMs: Date.now() - start };
+        }
+      }
+      return { ok: true, output: parsed, provider: tier.provider, model: tier.model, tier: tier.id, costUsd, usage, durationMs: Date.now() - start };
+    } catch (err: any) {
+      return { ok: false, error: err?.message || 'paid invoker failure', provider: tier.provider, model: tier.model, tier: tier.id, durationMs: Date.now() - start };
+    }
+  }
+}
+
+export type SpendReader = () => Promise<SpendSummary | null>;
+
+/**
+ * LadderInvoker — routes each call to the tier the engine requested, with
+ * budget enforcement: before any paid call, re-checks today's spend; if the
+ * estimate would exceed the daily cap, refuses the paid leg and reports a
+ * budget event so the engine can retry at free tier instead. Never throws.
+ */
+export class LadderInvoker implements AgentInvoker {
+  constructor(
+    private free: AgentInvoker,
+    private paid: AgentInvoker | null,
+    private getSpend: SpendReader,
+  ) {}
+
+  async invoke(workPacket: unknown, systemPrompt: string, meta: InvokeMeta): Promise<InvokeResult> {
+    const tier = meta.tier ?? 'free';
+    if (tier === 'free' || !ladderEnabled() || !this.paid) {
+      const r = await this.free.invoke(workPacket, systemPrompt, { ...meta, tier: 'free' });
+      return { ...r, tier: 'free', costUsd: 0 };
+    }
+    // Budget guard: estimate then enforce against today's paid spend.
+    const est = estimateCostUsd(tier);
+    let spend: SpendSummary | null = null;
+    try {
+      spend = await this.getSpend();
+    } catch {
+      spend = null; // if we can't read spend, be conservative: assume ample
+    }
+    if (budgetExhausted(spend, est)) {
+      // Fall back to free tier for this call; the engine journals the budget hit.
+      const r = await this.free.invoke(workPacket, systemPrompt, { ...meta, tier: 'free' });
+      return { ...r, tier: 'free', costUsd: 0, budgetFallback: true };
+    }
+    const r = await this.paid.invoke(workPacket, systemPrompt, { ...meta, tier });
+    return { ...r, tier, costUsd: r.costUsd ?? est };
   }
 }

@@ -41,8 +41,34 @@ OpenAI-compatible endpoint, including their `enter.pollinations.ai`.
 | `POLLINATIONS_MODEL` | `openai-fast` | Free-tier default |
 | `POLLINATIONS_MODEL_<ROLE>` | — | Per-role model override |
 | `POLLINATIONS_TOKEN` | — | Only if switching to authenticated tier |
+| `PAID_LLM_URL` | — | Paid-tier OpenAI-compatible endpoint (e.g. OpenRouter). **Unset = ladder dormant, zero paid calls** |
+| `PAID_LLM_API_KEY` | — | Bearer key for `PAID_LLM_URL`. Required together with URL to arm the ladder |
+| `PAID_LLM_MODEL_TIER1` | `deepseek-chat` | Cheap-but-strong escalation model |
+| `PAID_LLM_MODEL_TIER2` | `gpt-4o-mini` | Escalation ceiling for hardest tasks |
+| `PAID_LLM_DAILY_BUDGET_USD` | `2` | Hard daily paid-spend cap (UTC day); cap hit → falls back to free tier |
+| `ESCALATE_AFTER_ATTEMPT` | `3` | Failed attempt # that first earns paid_tier1 (tier2 from attempt+3) |
 | `LOVENSE_LINKS_PATH` | `user_supplied/affiliates/lovense-links.json` | SKU second-tier file |
 | `ADMIN_API_TOKEN` | — | Bearer for `/api/orchestrator/tick` (Render env, never committed) |
+
+## Cost/quality model ladder (dormant until armed)
+
+Brent directive: run every task as cheaply as it can be done; escalate only when a
+task proves it needs more; never exceed a hard ceiling.
+
+- **free** (Pollinations `openai-fast`) — always first. Costs $0.
+- **paid_tier1** (`deepseek-chat`, ~$0.5/1M tok) — from attempt `ESCALATE_AFTER_ATTEMPT` (default 3).
+- **paid_tier2** (`gpt-4o-mini`, ~$1.5/1M tok) — from attempt `ESCALATE_AFTER_ATTEMPT + 3`.
+
+Arming requires BOTH `PAID_LLM_URL` and `PAID_LLM_API_KEY`; without them the
+ladder is a pure free-tier passthrough. Daily paid spend is read live from
+`agent_runs.cost_usd` (UTC day) and hard-capped at `PAID_LLM_DAILY_BUDGET_USD`;
+when the cap would be exceeded the call silently runs free instead and a
+`budget_cap_fallback` event is journaled. Every paid run — success, failure, or
+schema_invalid — journals a `model_escalation` event and records tier + cost in
+`agent_runs.tier` / `agent_runs.cost_usd`. Live readout: `GET
+/api/orchestrator/status` → `ladder.{enabled,tier1Model,tier2Model,dailyBudgetUsd,paidSpendTodayUsd}`.
+Suggested OpenRouter config: `PAID_LLM_URL=https://openrouter.ai/api/v1/chat/completions`
+with models like `deepseek/deepseek-chat` / `openai/gpt-4o-mini`.
 
 ## Scheduling model (replaces legacy cron fleet)
 

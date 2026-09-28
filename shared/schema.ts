@@ -1,4 +1,4 @@
-import { pgTable, serial, text, timestamp, boolean, integer, varchar, jsonb } from 'drizzle-orm/pg-core';
+import { pgTable, serial, text, timestamp, boolean, integer, varchar, jsonb, numeric } from 'drizzle-orm/pg-core';
 import { createInsertSchema } from 'drizzle-zod';
 import { z } from 'zod';
 
@@ -123,6 +123,10 @@ export const agentRuns = pgTable('agent_runs', {
   error: text('error'),
   durationMs: integer('duration_ms'),
   attempt: integer('attempt').notNull().default(1),
+  // Model-ladder accounting: tier = free|paid_tier1|paid_tier2 (see model-ladder.ts),
+  // cost_usd = actual or estimated USD spent by this run.
+  tier: varchar('tier', { length: 20 }).notNull().default('free'),
+  costUsd: numeric('cost_usd', { precision: 12, scale: 6 }).notNull().default('0'),
   createdAt: timestamp('created_at').defaultNow(),
 });
 
