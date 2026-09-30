@@ -45,7 +45,12 @@ OpenAI-compatible endpoint, including their `enter.pollinations.ai`.
 | `PAID_LLM_API_KEY` | — | Bearer key for `PAID_LLM_URL`. Required together with URL to arm the ladder |
 | `PAID_LLM_MODEL_TIER1` | `deepseek-chat` | Cheap-but-strong escalation model |
 | `PAID_LLM_MODEL_TIER2` | `gpt-4o-mini` | Escalation ceiling for hardest tasks |
-| `PAID_LLM_DAILY_BUDGET_USD` | `2` | Hard daily paid-spend cap (UTC day); cap hit → falls back to free tier |
+| `PAID_LLM_DAILY_BUDGET_USD` | `2` | Hard daily paid-spend cap (UTC day) enforced by the atomic ledger; cap hit → falls back to free tier |
+| `PAID_LLM_RESERVE_MARGIN` | `0` | Extra headroom fraction reserved on top of the conservative estimate (0–1) |
+| `PAID_LLM_RESERVATION_TTL_HOURS` | `6` | Sweeper retains dead-process reservations as reconciliation-needed after this |
+| `PAID_LLM_TIMEOUT_MS` | `30000` | Paid-provider request timeout (AbortSignal) |
+| `PAID_LLM_MAX_TOKENS_TIER1` | `3000` | max_tokens sent for tier1 calls (caps output exposure; reservation-sized against it) |
+| `PAID_LLM_MAX_TOKENS_TIER2` | `3000` | max_tokens sent for tier2 calls |
 | `ESCALATE_AFTER_ATTEMPT` | `3` | Failed attempt # that first earns paid_tier1 (tier2 from attempt+3) |
 | `LOVENSE_LINKS_PATH` | `user_supplied/affiliates/lovense-links.json` | SKU second-tier file |
 | `ADMIN_API_TOKEN` | — | Bearer for `/api/orchestrator/tick` (Render env, never committed) |
@@ -60,13 +65,38 @@ task proves it needs more; never exceed a hard ceiling.
 - **paid_tier2** (`gpt-4o-mini`, ~$1.5/1M tok) — from attempt `ESCALATE_AFTER_ATTEMPT + 3`.
 
 Arming requires BOTH `PAID_LLM_URL` and `PAID_LLM_API_KEY`; without them the
-ladder is a pure free-tier passthrough. Daily paid spend is read live from
-`agent_runs.cost_usd` (UTC day) and hard-capped at `PAID_LLM_DAILY_BUDGET_USD`;
-when the cap would be exceeded the call silently runs free instead and a
-`budget_cap_fallback` event is journaled. Every paid run — success, failure, or
-schema_invalid — journals a `model_escalation` event and records tier + cost in
-`agent_runs.tier` / `agent_runs.cost_usd`. Live readout: `GET
-/api/orchestrator/status` → `ladder.{enabled,tier1Model,tier2Model,dailyBudgetUsd,paidSpendTodayUsd}`.
+ladder is a pure free-tier passthrough.
+
+**Budget enforcement is fail-closed and atomic** (`server/orchestrator/budget-ledger.ts`):
+before any paid call the estimated maximum exposure (reservation input
+assumption + tier `max_tokens` at the tier's blended rate, plus optional
+`PAID_LLM_RESERVE_MARGIN`) is RESERVED in a durable Postgres ledger
+(`paid_budget_days` / `paid_budget_reservations`, migration 004). The day-row
+debit is a single guarded upsert, so concurrent orchestrator ticks can never
+collectively exceed `PAID_LLM_DAILY_BUDGET_USD` per UTC day. After the call the
+reservation is reconciled: provider-reported usage replaces the reservation and
+the unused remainder is released; on timeout/transport ambiguity the
+reservation is RETAINED as counted spend under `reconciliation_needed` (never
+silently released — an operator resolves via `resolveReconciliation`); stale
+reservations from dead processes are retained by an hourly-class TTL sweeper.
+If the ledger itself is unreachable, paid escalation is REFUSED (free runs
+instead, `budget_accounting_unavailable_fallback` event) — accounting failure
+never permits paid use.
+
+**Cost semantics:** `agent_runs.cost_usd` and the ledger record
+actual-or-conservative-estimated cost. `cost_basis =
+'provider_reported_actual'` only when the provider returns token usage;
+otherwise `'conservative_estimate'` (maximum plausible exposure). No literal
+billed-spend guarantee is claimed unless the configured endpoint returns
+reliable usage.
+
+Every paid run — success, failure, or schema_invalid — journals a
+`model_escalation` event (with cost basis + reservation id) and records tier +
+cost in `agent_runs.tier` / `agent_runs.cost_usd` (constrained to the known
+tiers, non-negative costs). Live readout: `GET /api/orchestrator/status` →
+`ladder.{enabled,tier1Model,tier2Model,dailyBudgetUsd,accountingStatus,budget}`
+where `accountingStatus` ∈ disabled \| free-only \| accounting-ready \|
+budget-exhausted \| accounting-unavailable. No secrets are exposed.
 Suggested OpenRouter config: `PAID_LLM_URL=https://openrouter.ai/api/v1/chat/completions`
 with models like `deepseek/deepseek-chat` / `openai/gpt-4o-mini`.
 

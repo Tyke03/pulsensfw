@@ -8,7 +8,7 @@
     "build": "npm install --include=dev && npx tsx script/build.ts",
     "start": "NODE_ENV=production node dist/index.cjs",
     "check": "tsc",
-    "test": "tsx --test tests/*.test.ts",
+    "test": "tsx --test --test-concurrency=1 tests/*.test.ts",
     "shadow:run": "tsx shadow/run-shadow.ts",
     "migrate:v2": "tsx server/migrate-v2.ts",
     "db:push": "drizzle-kit push",

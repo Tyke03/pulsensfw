@@ -6,8 +6,8 @@ import { storage, slugify, generateToken } from './storage';
 import { selectRelatedPosts } from './orchestrator/end-rail';
 import { tick, currentMode } from './orchestrator/engine';
 import { PollinationsInvoker, LadderInvoker, PaidOpenAIInvoker } from './orchestrator/invoker';
-import { ladderEnabled, LADDER, dailyBudgetUsd, sumPaidSpendSql, type SpendSummary } from './orchestrator/model-ladder';
-import { sql } from 'drizzle-orm';
+import { ladderEnabled, LADDER, dailyBudgetUsd } from './orchestrator/model-ladder';
+import { getLedgerDb, accountingStatus } from './orchestrator/budget-ledger';
 
 // ── Research file helpers ─────────────────────────────────────────────────
 const RESEARCH_DIR = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, 'research') : path.join(process.cwd(), 'research');
@@ -200,12 +200,9 @@ async function pingIndexNow(url: string) {
 // Free-first: every task starts on the free tier; a task that keeps failing
 // (attempt >= ESCALATE_AFTER_ATTEMPT) escalates paid tiers under a hard daily
 // budget. Dormant until PAID_LLM_URL + PAID_LLM_API_KEY are configured.
-async function readPaidSpend(): Promise<SpendSummary | null> {
-  const { db } = await import('./db');
-  const result = await db.execute(sql.raw(sumPaidSpendSql()));
-  const row = (result.rows?.[0] ?? null) as { day: string; paidCostUsd: string | number } | null;
-  return row ? { day: row.day, paidCostUsd: Number(row.paidCostUsd) || 0 } : null;
-}
+// Budget enforcement is the durable reservation ledger (budget-ledger.ts) —
+// fail-closed: accounting unavailable ⇒ paid refused. The old read-then-check
+// spend aggregate (sumPaidSpendSql) remains for operator audit only.
 
 export function registerRoutes(httpServer: Server, app: Express) {
 
@@ -254,7 +251,7 @@ export function registerRoutes(httpServer: Server, app: Express) {
   const orchestratorInvoker = new LadderInvoker(
     new PollinationsInvoker(),
     ladderEnabled() ? new PaidOpenAIInvoker() : null,
-    readPaidSpend,
+    getLedgerDb(),
   );
   app.post('/api/orchestrator/tick', tokenAuth, async (req, res) => {
     if (process.env.ORCHESTRATOR_ENABLED !== 'true') {
@@ -280,7 +277,7 @@ export function registerRoutes(httpServer: Server, app: Express) {
     const [wi] = await db.select({ n: count() }).from(workItems);
     const [ar] = await db.select({ n: count() }).from(agentRuns);
     const [oe] = await db.select({ n: count() }).from(orchestrationEvents);
-    const paidSpend = await readPaidSpend().catch(() => null);
+    const ladderInfo = await accountingStatus(getLedgerDb(), ladderEnabled());
     ok(res, {
       enabled: true, mode: currentMode(), workItems: wi.n, agentRuns: ar.n, events: oe.n,
       ladder: {
@@ -288,7 +285,16 @@ export function registerRoutes(httpServer: Server, app: Express) {
         tier1Model: LADDER.paid_tier1.model,
         tier2Model: LADDER.paid_tier2.model,
         dailyBudgetUsd: dailyBudgetUsd(),
-        paidSpendTodayUsd: paidSpend?.paidCostUsd ?? 0,
+        accountingStatus: ladderInfo.status,
+        budget: ladderInfo.summary ? {
+          day: ladderInfo.summary.day,
+          budgetUsd: ladderInfo.summary.budgetUsd,
+          reservedUsd: ladderInfo.summary.reservedUsd,
+          settledUsd: ladderInfo.summary.settledUsd,
+          releasedUsd: ladderInfo.summary.releasedUsd,
+          remainingUsd: ladderInfo.summary.remainingUsd,
+          staleReconciliations: ladderInfo.summary.staleReconciliations,
+        } : null,
       },
     });
   });

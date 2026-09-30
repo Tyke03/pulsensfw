@@ -113,7 +113,7 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
   // item proves it needs more — see model-ladder.ts). The invoker enforces
   // the daily paid budget and falls back to free if the cap would be exceeded.
   const tier = tierForAttempt(item.attemptCount, item.role);
-  const invokeMeta = { role: item.role, promptId: agent.id, promptVersion: agent.version, mode, tier, attempt: item.attemptCount };
+  const invokeMeta = { role: item.role, promptId: agent.id, promptVersion: agent.version, mode, tier, attempt: item.attemptCount, workItemId: item.id };
   let result = await invoker.invoke(packet, agent.systemPrompt, invokeMeta);
 
   if (result.budgetFallback) {
@@ -122,11 +122,17 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
       note: 'daily paid budget exhausted — ran at free tier instead',
     }, item.id);
   }
+  if (result.accountingFallback) {
+    await journal('budget_accounting_unavailable_fallback', mode, {
+      role: item.role, requestedTier: tier, attempt: item.attemptCount,
+      note: 'budget accounting unavailable — paid escalation refused (fail-closed), ran at free tier',
+    }, item.id);
+  }
 
   if (!result.ok) {
     const runId = await recordRun({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result, status: 'failed', attempt: item.attemptCount });
     if (result.tier && result.tier !== 'free') {
-      await journal('model_escalation', mode, { role: item.role, tier: result.tier, model: result.model, attempt: item.attemptCount, costUsd: result.costUsd ?? 0, outcome: 'failed' }, item.id, runId);
+      await journal('model_escalation', mode, { role: item.role, tier: result.tier, model: result.model, attempt: item.attemptCount, costUsd: result.costUsd ?? 0, costBasis: result.costBasis ?? null, reservationId: result.reservation?.id ?? null, outcome: 'failed' }, item.id, runId);
     }
     return { runId, status: 'failed', error: result.error };
   }
@@ -147,7 +153,7 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
     if (repair.ok && repaired.success) {
       const runId = await recordRun({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result: repair, status: 'succeeded', attempt: item.attemptCount });
       if (repair.tier && repair.tier !== 'free') {
-        await journal('model_escalation', mode, { role: item.role, tier: repair.tier, model: repair.model, attempt: item.attemptCount, costUsd: repair.costUsd ?? 0, outcome: 'succeeded', repaired: true }, item.id, runId);
+        await journal('model_escalation', mode, { role: item.role, tier: repair.tier, model: repair.model, attempt: item.attemptCount, costUsd: repair.costUsd ?? 0, costBasis: repair.costBasis ?? null, reservationId: repair.reservation?.id ?? null, outcome: 'succeeded', repaired: true }, item.id, runId);
       }
       await journal('schema_self_correction', mode, { role: item.role, issues: issues.slice(0, 300) }, item.id, runId);
       return { runId, status: 'succeeded', output: repaired.data };
@@ -159,14 +165,14 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
       status: 'schema_invalid', attempt: item.attemptCount,
     });
     if (result.tier && result.tier !== 'free') {
-      await journal('model_escalation', mode, { role: item.role, tier: result.tier, model: result.model, attempt: item.attemptCount, costUsd: result.costUsd ?? 0, outcome: 'schema_invalid' }, item.id, runId);
+      await journal('model_escalation', mode, { role: item.role, tier: result.tier, model: result.model, attempt: item.attemptCount, costUsd: result.costUsd ?? 0, costBasis: result.costBasis ?? null, reservationId: result.reservation?.id ?? null, outcome: 'schema_invalid' }, item.id, runId);
     }
     return { runId, status: 'schema_invalid', error: issues };
   }
 
   const runId = await recordRun({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result, status: 'succeeded', attempt: item.attemptCount });
   if (result.tier && result.tier !== 'free') {
-    await journal('model_escalation', mode, { role: item.role, tier: result.tier, model: result.model, attempt: item.attemptCount, costUsd: result.costUsd ?? 0, outcome: 'succeeded' }, item.id, runId);
+    await journal('model_escalation', mode, { role: item.role, tier: result.tier, model: result.model, attempt: item.attemptCount, costUsd: result.costUsd ?? 0, costBasis: result.costBasis ?? null, reservationId: result.reservation?.id ?? null, outcome: 'succeeded' }, item.id, runId);
   }
   return { runId, status: 'succeeded', output: parsed.data };
 }
