@@ -11,6 +11,7 @@ import {
   ledgerHealthy, computeReservationAmountUsd, round6, reservationTtlHours,
   withLedgerTx, ledgerPoolHealth, ledgerPoolMax, ledgerConnectionTimeoutMs,
   ledgerIdleTimeoutMs, ledgerLockTimeoutMs, ledgerStatementTimeoutMs, ledgerQueryTimeoutMs,
+  getLedgerDb, isTransactionCapableLedgerDb,
   type LedgerDb,
 } from '../server/orchestrator/budget-ledger';
 import { utcDay, dailyBudgetUsd, LADDER, estimateCostUsd } from '../server/orchestrator/model-ladder';
@@ -821,5 +822,72 @@ describe('ledger pool hardening', () => {
     assert.equal(observed.idleClients, observed.totalClients, 'no client may remain checked out after the failure');
     // The pool is usable again.
     assert.equal(await ledgerHealthy(db), true);
+  });
+});
+
+// ── Production safety: transaction-capable ledger wiring is mandatory ────────
+
+describe('production safety — transaction-capable ledger wiring', () => {
+  /**
+   * Working query surface with NO connect() — simulates the wiring failure
+   * where a query-only double or wrapper is handed to the ledger in
+   * production. Its queries genuinely succeed, so the ONLY thing standing
+   * between this db and silent non-transactional ledger writes is the
+   * transaction-capability guard.
+   */
+  function makeQueryOnlyDb(): LedgerDb {
+    return { query: (text: string, values?: unknown[]) => testPool.query(text, values) };
+  }
+
+  it('getLedgerDb() returns a transaction-capable provider exposing connect()', () => {
+    const ledger = getLedgerDb();
+    assert.equal(typeof (ledger as Partial<{ connect: unknown }>).connect, 'function');
+    assert.equal(isTransactionCapableLedgerDb(ledger), true);
+  });
+
+  it('isTransactionCapableLedgerDb distinguishes pool-like from query-only surfaces', () => {
+    assert.equal(isTransactionCapableLedgerDb(makeQueryOnlyDb()), false);
+  });
+
+  it('withLedgerTx refuses a query-only db instead of running non-transactionally', async () => {
+    await setBudget(2);
+    await assert.rejects(
+      () => withLedgerTx(makeQueryOnlyDb(), async (tx) => { await tx.query('SELECT 1'); }),
+      /ledger_db_not_transaction_capable/,
+    );
+  });
+
+  it('wiring failure: reserve through a query-only db is refused, never silently non-transactional', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(makeQueryOnlyDb(), { tier: 'paid_tier1', role: 'writer-vr' });
+    assert.deepEqual(r, { granted: false, reason: 'accounting_unavailable' });
+    // No silent side effects: the refused path must not have written ledger state.
+    const d = await dayRow();
+    assert.ok(d, 'setBudget day row exists');
+    assert.equal(Number(d!.reserved_usd), 0, 'no reserve debit may be written without a transaction');
+    const { rows } = await testPool.query(`SELECT COUNT(*)::int AS n FROM paid_budget_reservations`);
+    assert.equal(rows[0].n, 0, 'no reservation row may be written without a transaction');
+  });
+
+  it('wiring failure: settle through a query-only db is refused and ledger state is untouched', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    const s = await settleReservation(makeQueryOnlyDb(), r.reservationId, 0.002, 'provider_usage_derived_estimate');
+    assert.deepEqual(s, { ok: false, reason: 'accounting_unavailable' });
+    const row = await reservation(r.reservationId);
+    assert.equal(row.state, 'reserved', 'reservation must stay reserved');
+    await expectDayEquals({ reserved: T1, settled: 0, released: 0 });
+  });
+
+  it('accountingStatus reports accounting-unavailable for a query-only db (not silently ready)', async () => {
+    await setBudget(2);
+    const s = await accountingStatus(makeQueryOnlyDb(), true);
+    assert.equal(s.status, 'accounting-unavailable');
+    assert.equal(s.summary, null);
+  });
+
+  it('sweep through a query-only db reports the fail-closed signal (-1)', async () => {
+    assert.equal(await sweepStaleReservations(makeQueryOnlyDb()), -1);
   });
 });

@@ -108,6 +108,12 @@ failure never permits paid use.
 - **No HTTP inside transactions** — ledger transactions never span an external
   model-provider call: reserve completes and commits, the provider call runs
   with no transaction open, then finalize runs its own short transaction.
+- **Transaction-capable wiring is mandatory** — the ledger db must expose
+  `connect()` (a pg Pool does). A query-only surface cannot run the explicit
+  two-row transactions, so it is refused (`ledger_db_not_transaction_capable`)
+  and reported as `accounting-unavailable` — never silently run
+  non-transactionally. Every caller maps that refusal to `accounting_unavailable`
+  → paid escalation refused, free tier runs (fail-closed).
 - Statement counts are tiny (all finalizers touch exactly two rows), so the
   timeouts are safety nets, not throughput controls. Tune only with evidence
   (pg_stat_statements / Neon metrics), keeping statement_timeout comfortably

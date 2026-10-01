@@ -73,6 +73,15 @@ export interface LedgerClientProvider {
  * Run `fn` as a single explicit transaction on ONE checked-out client.
  * COMMIT on success; ROLLBACK on any error (the original error is rethrown).
  * The client is released in `finally` in every path.
+ *
+ * PRODUCTION SAFETY: the db surface MUST expose connect() (a pg Pool does).
+ * A query-only surface cannot open a transaction, so multi-row atomicity
+ * (reservation row + day aggregate moving together) cannot be guaranteed on
+ * it — running ledger writes there anyway would silently degrade the ledger's
+ * core invariant. Instead of the old non-transactional test-double fallback
+ * (`return fn(db)`), a missing connect() throws
+ * 'ledger_db_not_transaction_capable', which every ledger caller maps to
+ * accounting_unavailable → paid escalation refused (free-only), fail-closed.
  */
 export async function withLedgerTx<T>(
   db: LedgerDb,
@@ -80,10 +89,9 @@ export async function withLedgerTx<T>(
 ): Promise<T> {
   const provider = db as Partial<LedgerClientProvider>;
   if (typeof provider.connect !== 'function') {
-    // No client provider (e.g. minimal test double): run statements directly on
-    // the supplied surface. Multi-row atomicity then degrades to caller
-    // responsibility — production pools always take the checked-out path.
-    return fn(db);
+    // Wiring failure: refuse rather than run multi-row mutations without a
+    // transaction. Fail-closed via the accounting_unavailable mapping below.
+    throw new Error('ledger_db_not_transaction_capable');
   }
   // Acquisition is bounded by the pool's connectionTimeoutMillis: a saturated
   // pool fails FAST here instead of queueing an orchestrator tick indefinitely.
@@ -218,6 +226,14 @@ export function ledgerQueryTimeoutMs(): number | null {
 
 let singleton: LedgerDb | null = null;
 /**
+ * True when the db surface exposes a checked-out client provider (pg
+ * Pool-like). The ledger's multi-row mutations REQUIRE this surface; anything
+ * else is a wiring failure and must fail closed.
+ */
+export function isTransactionCapableLedgerDb(db: LedgerDb): boolean {
+  return typeof (db as Partial<LedgerClientProvider>).connect === 'function';
+}
+/**
  * Module-singleton ledger pool built from DATABASE_URL (same SSL rules as
  * db.ts). NEVER log connectionString or any credential material from here —
  * the pool's own error events are intentionally not forwarded with DSNs.
@@ -246,11 +262,22 @@ export function getLedgerDb(): LedgerDb {
   // cannot crash the process (errors for CHECKED-OUT clients still surface to
   // their awaiters, and acquisition failures surface through connect()).
   pool.on('error', () => { /* idle client dropped by server; logged nowhere (no secrets) */ });
+  // Production-safety assertion: the ledger db MUST be transaction-capable
+  // (expose connect()). Today's pg Pool always is; this guards a future
+  // refactor that swaps Pool for a query-only wrapper. On violation, fail
+  // CLOSED: return a permanently-failing, non-connectable db so every ledger
+  // path maps to accounting_unavailable and paid escalation is refused.
+  if (!isTransactionCapableLedgerDb(pool)) {
+    return (singleton = {
+      query: async () => { throw new Error('ledger_db_not_transaction_capable'); },
+    });
+  }
   singleton = pool;
   return singleton;
 }
 
-/** Minimal read-only LedgerDb for tests/doubles without a pg Pool. */
+/** Minimal read-only LedgerDb for tests/doubles without a pg Pool. Multi-row
+ *  ledger mutations on it are refused (no connect() ⇒ no transaction). */
 export function makeLedgerDbFromQuery(query: LedgerDb['query']): LedgerDb {
   return { query };
 }
@@ -641,6 +668,9 @@ export async function accountingStatus(
   ladderEnabled: boolean,
 ): Promise<{ status: AccountingStatus; summary: StatusSummary | null }> {
   if (!ladderEnabled) return { status: 'disabled', summary: null };
+  // Wiring failure (query-only surface): report accounting unavailable instead
+  // of silently ready — the ledger's explicit transactions could never run.
+  if (!isTransactionCapableLedgerDb(db)) return { status: 'accounting-unavailable', summary: null };
   if (!await ledgerHealthy(db)) return { status: 'accounting-unavailable', summary: null };
   const summary = await summarizeDay(db);
   if (!summary) return { status: 'accounting-unavailable', summary: null };
