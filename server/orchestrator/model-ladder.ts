@@ -40,8 +40,14 @@ export type TierDef = {
   reservationInputTokens: number;
 };
 
-/** How a recorded cost number should be interpreted. */
-export type CostBasis = 'provider_reported_actual' | 'conservative_estimate';
+/**
+ * How a recorded cost number was derived. Labels state the EVIDENCE, never
+ * overstate it: token usage × locally configured blended rates is a DERIVED
+ * ESTIMATE, not a provider bill; only a provider-returned billed-cost field
+ * consumed verbatim qualifies as provider_billed_actual (no code path produces
+ * it yet — reserved for forward compatibility).
+ */
+export type CostBasis = 'provider_usage_derived_estimate' | 'conservative_reservation_estimate' | 'provider_billed_actual';
 
 /** Cheap→good ladder. Edit PRICES/MODELS here as the market moves. */
 export const LADDER: Record<Exclude<Tier, 'free'>, TierDef> = {

@@ -171,6 +171,38 @@ describe('LadderInvoker routing (ledger-backed)', () => {
     assert.equal(res.budgetFallback, undefined);
   });
 
+  it('sweep failure: FAIL CLOSED — free runs with accountingFallback and zero paid calls', async () => {
+    process.env.PAID_LLM_URL = 'https://openrouter.ai/api/v1/chat/completions';
+    process.env.PAID_LLM_API_KEY = 'sk-test';
+    await testPool.query('TRUNCATE paid_budget_reservations, paid_budget_days');
+    const paid = new StubPaidInvoker();
+    // Ledger whose ONLY failure is the sweep statement (reservation sweep) —
+    // the sweep must gate authorization entirely.
+    const sweepBroken: LedgerDb = {
+      query: (text: string, values?: unknown[]) => testPool.query(text, values),
+      connect: async () => {
+        const real = await testPool.connect();
+        return {
+          query: async (text: string, values?: unknown[]) => {
+            if (text.includes("reserved_at < NOW()")) throw new Error('sweep outage');
+            return real.query(text, values);
+          },
+          release: () => real.release(),
+        };
+      },
+    } as unknown as LedgerDb;
+    const inv = new LadderInvoker(makeFreeEcho(), paid, sweepBroken);
+    const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
+    assert.equal(paid.calls, 0); // paid invoker never invoked
+    assert.equal(res.tier, 'free');
+    assert.equal(res.costUsd, 0);
+    assert.equal(res.accountingFallback, true);
+    assert.equal(res.budgetFallback, undefined);
+    assert.equal(res.reservation, undefined);
+    const { rows } = await testPool.query(`SELECT count(*)::int AS n FROM paid_budget_reservations`);
+    assert.equal(rows[0].n, 0); // no reservation was created
+  });
+
   it('free tier requests never touch the paid invoker even when enabled', async () => {
     process.env.PAID_LLM_URL = 'https://openrouter.ai/api/v1/chat/completions';
     process.env.PAID_LLM_API_KEY = 'sk-test';

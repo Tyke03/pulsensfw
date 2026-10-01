@@ -220,8 +220,9 @@ ${JSON.stringify(workPacket)}`;
  *    provider-side output exposure that budget reservations are sized against.
  *  - Never logs or stores API keys, Authorization headers, or provider response
  *    bodies; failures carry status codes and error classes only.
- *  - Cost basis is provider-reported actual only when usage is returned;
- *    otherwise conservative_estimate (max plausible exposure).
+ *  - Cost basis is provider_usage_derived_estimate when usage is returned
+ *    (usage × locally configured rates — a derived estimate, not a bill);
+ *    otherwise conservative_reservation_estimate (max plausible exposure).
  */
 export class PaidOpenAIInvoker implements AgentInvoker {
   constructor(
@@ -279,7 +280,7 @@ export class PaidOpenAIInvoker implements AgentInvoker {
         completionTokens: Number(data.usage.completion_tokens) || 0,
       } : undefined;
       const costUsd = usage ? actualCostUsd(tier.id, usage.promptTokens, usage.completionTokens) : undefined;
-      const costBasis: CostBasis = usage ? 'provider_reported_actual' : 'conservative_estimate';
+      const costBasis: CostBasis = usage ? 'provider_usage_derived_estimate' : 'conservative_reservation_estimate';
       const finalCost = costUsd ?? estimateCostUsd(tier.id);
       // Same tolerance as the free tier: fenced/prose-wrapped JSON. A 200 with
       // unparseable body still consumed tokens → record cost, classify protocol.
@@ -330,8 +331,17 @@ export class LadderInvoker implements AgentInvoker {
       return this.runFree(workPacket, systemPrompt, meta, {});
     }
 
-    // Opportunistic sweep of dead-process reservations (single indexed stmt).
-    await sweepStaleReservations(this.db).catch(() => undefined);
+    // Sweep dead-process reservations BEFORE authorizing a new one. A sweep
+    // failure is an accounting outage: fail closed — paid refused, free runs.
+    let swept: number;
+    try {
+      swept = await sweepStaleReservations(this.db);
+    } catch {
+      swept = -1;
+    }
+    if (swept < 0) {
+      return this.runFree(workPacket, systemPrompt, meta, { accountingFallback: true });
+    }
 
     const res = await reserveForCall(this.db, {
       tier,
@@ -350,7 +360,7 @@ export class LadderInvoker implements AgentInvoker {
     const r = await this.paid.invoke(workPacket, systemPrompt, { ...meta, tier });
     // Conservative estimate = maximum plausible exposure (ledger-sized).
     const est = estimateCostUsd(tier);
-    const basis: CostBasis = r.costBasis ?? (r.usage ? 'provider_reported_actual' : 'conservative_estimate');
+    const basis: CostBasis = r.costBasis ?? (r.usage ? 'provider_usage_derived_estimate' : 'conservative_reservation_estimate');
     const cost = r.costUsd ?? est;
 
     if (r.ok) {
@@ -369,9 +379,9 @@ export class LadderInvoker implements AgentInvoker {
       }
       case 'protocol': {
         // 200 with an unusable body: tokens were consumed → retain estimate.
-        const st = await settleReservation(this.db, res.reservationId, est, 'conservative_estimate');
+        const st = await settleReservation(this.db, res.reservationId, est, 'conservative_reservation_estimate');
         r.costUsd = est;
-        r.costBasis = 'conservative_estimate';
+        r.costBasis = 'conservative_reservation_estimate';
         r.reservation = { id: res.reservationId, state: st.ok ? 'settled' : 'reserved' };
         break;
       }

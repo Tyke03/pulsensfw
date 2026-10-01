@@ -73,22 +73,36 @@ assumption + tier `max_tokens` at the tier's blended rate, plus optional
 `PAID_LLM_RESERVE_MARGIN`) is RESERVED in a durable Postgres ledger
 (`paid_budget_days` / `paid_budget_reservations`, migration 004). The day-row
 debit is a single guarded upsert, so concurrent orchestrator ticks can never
-collectively exceed `PAID_LLM_DAILY_BUDGET_USD` per UTC day. After the call the
-reservation is reconciled: provider-reported usage replaces the reservation and
-the unused remainder is released; on timeout/transport ambiguity the
-reservation is RETAINED as counted spend under `reconciliation_needed` (never
-silently released — an operator resolves via `resolveReconciliation`); stale
-reservations from dead processes are retained by an hourly-class TTL sweeper.
-If the ledger itself is unreachable, paid escalation is REFUSED (free runs
-instead, `budget_accounting_unavailable_fallback` event) — accounting failure
-never permits paid use.
+collectively exceed `PAID_LLM_DAILY_BUDGET_USD` per UTC day. After the callthe reservation is reconciled in an explicit single-client transaction: the
+reservation row and the day aggregate move together or not at all —
+provider-derived usage replaces the reservation and the unused remainder is
+released; on timeout/transport ambiguity the reservation is RETAINED as counted
+spend under `reconciliation_needed` (never silently released — an operator
+resolves via `resolveReconciliation`); stale reservations from dead processes
+are retained by a TTL sweeper that runs BEFORE every reserve (a sweep failure
+is an accounting outage: paid is refused and free runs). If the ledger itself
+is unreachable, paid escalation is REFUSED (free runs instead, the
+`budget_accounting_unavailable_fallback` event is journaled) — accounting
+failure never permits paid use.
 
 **Cost semantics:** `agent_runs.cost_usd` and the ledger record
-actual-or-conservative-estimated cost. `cost_basis =
-'provider_reported_actual'` only when the provider returns token usage;
-otherwise `'conservative_estimate'` (maximum plausible exposure). No literal
-billed-spend guarantee is claimed unless the configured endpoint returns
-reliable usage.
+derived-or-conservative-estimated cost. Cost-basis labels state the EVIDENCE:
+`cost_basis = 'provider_usage_derived_estimate'` when the provider returns
+token usage (usage × locally configured blended rates — a DERIVED estimate,
+not a bill); `'conservative_reservation_estimate'` when no usage is available
+(maximum plausible exposure); `'provider_billed_actual'` is RESERVED for a
+provider-returned billed-cost field consumed verbatim (no code path produces
+it yet). No literal billed-spend guarantee is claimed unless the configured
+endpoint returns reliable usage.
+
+**Rollback policy (ledger):** runtime rollback of the code is `git revert` +
+redeploy; the ledger tables and their data are PRESERVED — they are the audit
+record, and reverted code simply stops touching them. `DROP TABLE` is not an
+immediate post-production rollback step. A future archival / down-migration
+(explicit, operator-run, data-preserving: export reservations → export day
+aggregates → drop the agent_runs constraints → drop reservations → drop day
+rows) is documented in the migration 004 header and intentionally not
+automated.
 
 Every paid run — success, failure, or schema_invalid — journals a
 `model_escalation` event (with cost basis + reservation id) and records tier +

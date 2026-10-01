@@ -95,7 +95,7 @@ describe('reserve', () => {
     const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
     assert.equal(r.granted, true);
     if (!r.granted) return;
-    await settleReservation(db, r.reservationId, T1, 'provider_reported_actual');
+    await settleReservation(db, r.reservationId, T1, 'provider_usage_derived_estimate');
     // settled T1 now counted; a new reservation of T1 would exceed budget
     const r2 = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
     assert.deepEqual(r2, { granted: false, reason: 'cap_reached' });
@@ -148,12 +148,12 @@ describe('settle / release (idempotent reconciliation)', () => {
     await setBudget(2);
     const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
     if (!r.granted) return assert.fail('should grant');
-    const s = await settleReservation(db, r.reservationId, 0.002, 'provider_reported_actual');
+    const s = await settleReservation(db, r.reservationId, 0.002, 'provider_usage_derived_estimate');
     assert.equal(s.ok, true);
     if (!s.ok) return;
     assert.equal(s.state, 'settled');
     assert.equal(s.countedUsd, 0.002);
-    assert.equal(s.costBasis, 'provider_reported_actual');
+    assert.equal(s.costBasis, 'provider_usage_derived_estimate');
     const row = await reservation(r.reservationId);
     assert.equal(row.state, 'settled');
     assert.equal(Number(row.settled_usd), 0.002);
@@ -167,10 +167,10 @@ describe('settle / release (idempotent reconciliation)', () => {
     await setBudget(2);
     const r = await reserveForCall(db, { tier: 'paid_tier2', role: 'writer-vr' });
     if (!r.granted) return assert.fail('should grant');
-    const s = await settleReservation(db, r.reservationId, T2, 'conservative_estimate');
+    const s = await settleReservation(db, r.reservationId, T2, 'conservative_reservation_estimate');
     assert.equal(s.ok, true);
     if (!s.ok) return;
-    assert.equal(s.costBasis, 'conservative_estimate');
+    assert.equal(s.costBasis, 'conservative_reservation_estimate');
     const d = await dayRow();
     assert.equal(round6(Number(d.settled_usd)), T2);
     assert.equal(round6(Number(d.released_usd)), 0);
@@ -180,8 +180,8 @@ describe('settle / release (idempotent reconciliation)', () => {
     await setBudget(2);
     const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
     if (!r.granted) return assert.fail('should grant');
-    await settleReservation(db, r.reservationId, 0.001, 'provider_reported_actual');
-    const again = await settleReservation(db, r.reservationId, 0.009, 'provider_reported_actual');
+    await settleReservation(db, r.reservationId, 0.001, 'provider_usage_derived_estimate');
+    const again = await settleReservation(db, r.reservationId, 0.009, 'provider_usage_derived_estimate');
     assert.equal(again.ok, false);
     if (!again.ok) assert.equal(again.reason, 'already_finalized');
     const d = await dayRow();
@@ -216,6 +216,7 @@ describe('ambiguous completion (timeout / restart recovery)', () => {
     if (!r.granted) return assert.fail('should grant');
     const mr = await markReconciliationNeeded(db, r.reservationId);
     assert.equal(mr.ok, true);
+    if (mr.ok) assert.equal(mr.countedUsd, T1); // returns the REAL retained amount
     const row = await reservation(r.reservationId);
     assert.equal(row.state, 'reconciliation_needed');
     const d = await dayRow();
@@ -299,6 +300,305 @@ describe('DB integrity constraints', () => {
        VALUES (gen_random_uuid(), $1::date, 'paid_tier1', -1, 'reserved')`, [utcDay()]));
     await assert.rejects(() => testPool.query(
       `UPDATE paid_budget_reservations SET cost_basis = 'made_up' WHERE id = $1::uuid`, [r.reservationId]));
+  });
+});
+
+// ── Explicit-transaction finalization (corrective design) ────────────────────
+
+/**
+ * Fault-injecting LedgerDb that still uses the REAL pool via a checked-out
+ * client (satisfies LedgerClientProvider). `fault` returns true to throw for a
+ * given statement, letting tests inject failures at exact transaction points.
+ */
+function makeFaultyDb(fault: (text: string) => boolean): LedgerDb {
+  return {
+    query: (text: string, values?: unknown[]) => testPool.query(text, values),
+    connect: async () => {
+      const real = await testPool.connect();
+      return {
+        query: async (text: string, values?: unknown[]) => {
+          if (fault(text)) throw new Error(`injected failure at: ${text.slice(0, 60)}`);
+          return real.query(text, values);
+        },
+        release: () => real.release(),
+      };
+    },
+  } as unknown as LedgerDb;
+}
+
+async function expectDayEquals(expected: { reserved: number; settled: number; released: number }) {
+  const d = await dayRow();
+  assert.ok(d, 'day row must exist');
+  assert.equal(round6(Number(d!.reserved_usd)), round6(expected.reserved));
+  assert.equal(round6(Number(d!.settled_usd)), round6(expected.settled));
+  assert.equal(round6(Number(d!.released_usd)), round6(expected.released));
+}
+
+/** Consistency audit: day aggregates must agree with reservation states. */
+async function auditLedgerDay(day: string): Promise<{ ok: boolean; issues: string[] }> {
+  const { rows } = await testPool.query(
+    `SELECT
+       (SELECT COALESCE(SUM(amount_usd), 0) FROM paid_budget_reservations WHERE day = $1::date AND state = 'reserved') AS res_reserved,
+       (SELECT COALESCE(SUM(CASE WHEN state = 'settled' THEN COALESCE(settled_usd, amount_usd)
+                                 WHEN state = 'reconciliation_needed' THEN amount_usd ELSE 0 END), 0)
+          FROM paid_budget_reservations WHERE day = $1::date) AS res_settled,
+       (SELECT COALESCE(SUM(CASE WHEN state = 'released' THEN amount_usd
+                                 WHEN state = 'settled' THEN GREATEST(amount_usd - COALESCE(settled_usd, amount_usd), 0) ELSE 0 END), 0)
+          FROM paid_budget_reservations WHERE day = $1::date) AS res_released,
+       budget_usd, reserved_usd, settled_usd, released_usd
+      FROM paid_budget_days WHERE day = $1::date`,
+    [day],
+  );
+  if (rows.length === 0) return { ok: true, issues: [] };
+  const r = rows[0];
+  const issues: string[] = [];
+  if (round6(Number(r.reserved_usd)) !== round6(Number(r.res_reserved))) issues.push(`reserved aggregate ${r.reserved_usd} != reservation sum ${r.res_reserved}`);
+  if (round6(Number(r.settled_usd)) !== round6(Number(r.res_settled))) issues.push(`settled aggregate ${r.settled_usd} != reservation sum ${r.res_settled}`);
+  if (round6(Number(r.released_usd)) !== round6(Number(r.res_released))) issues.push(`released aggregate ${r.released_usd} != reservation sum ${r.res_released}`);
+  if (Number(r.reserved_usd) < 0 || Number(r.settled_usd) < 0 || Number(r.released_usd) < 0) issues.push('negative aggregate');
+  if (round6(Number(r.reserved_usd) + Number(r.settled_usd)) > round6(Number(r.budget_usd)) + 1e-9) issues.push('reserved + settled exceeds budget');
+  return { ok: issues.length === 0, issues };
+}
+
+describe('explicit-transaction finalization (corrective design)', () => {
+  it('settle updates reservation and day aggregate together', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    const s = await settleReservation(db, r.reservationId, 0.002, 'provider_usage_derived_estimate');
+    assert.equal(s.ok, true);
+    const row = await reservation(r.reservationId);
+    assert.equal(row.state, 'settled');
+    await expectDayEquals({ reserved: 0, settled: 0.002, released: round6(T1 - 0.002) });
+    assert.ok((await auditLedgerDay(utcDay())).ok);
+  });
+
+  it('release updates reservation and day aggregate together', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier2', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    const rel = await releaseReservation(db, r.reservationId);
+    assert.equal(rel.ok, true);
+    const row = await reservation(r.reservationId);
+    assert.equal(row.state, 'released');
+    await expectDayEquals({ reserved: 0, settled: 0, released: T2 });
+    assert.ok((await auditLedgerDay(utcDay())).ok);
+  });
+
+  it('markReconciliationNeeded updates reservation and day aggregate together and returns the retained amount', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    const mr = await markReconciliationNeeded(db, r.reservationId);
+    assert.equal(mr.ok, true);
+    if (mr.ok) {
+      assert.equal(mr.state, 'reconciliation_needed');
+      assert.equal(mr.countedUsd, T1); // positive, real amount — never a sentinel
+      assert.ok(mr.countedUsd > 0);
+    }
+    const row = await reservation(r.reservationId);
+    assert.equal(row.state, 'reconciliation_needed');
+    await expectDayEquals({ reserved: 0, settled: T1, released: 0 });
+    assert.ok((await auditLedgerDay(utcDay())).ok);
+  });
+
+  it('resolveReconciliation retain=true → settled, day amounts unchanged', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    await markReconciliationNeeded(db, r.reservationId);
+    const res = await resolveReconciliation(db, r.reservationId, true);
+    assert.equal(res.ok, true);
+    if (res.ok) assert.equal(res.state, 'settled');
+    await expectDayEquals({ reserved: 0, settled: T1, released: 0 });
+    assert.ok((await auditLedgerDay(utcDay())).ok);
+  });
+
+  it('resolveReconciliation retain=false → released, day settled −A and released +A', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    await markReconciliationNeeded(db, r.reservationId);
+    const res = await resolveReconciliation(db, r.reservationId, false);
+    assert.equal(res.ok, true);
+    if (res.ok) {
+      assert.equal(res.state, 'released');
+      assert.equal(res.countedUsd, 0);
+    }
+    await expectDayEquals({ reserved: 0, settled: 0, released: T1 });
+    assert.ok((await auditLedgerDay(utcDay())).ok);
+  });
+
+  it('ROLLBACK: exception at day-row lock (after reservation lock) leaves both rows untouched', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    const faulty = makeFaultyDb((text) => /FROM paid_budget_days WHERE day = \$1::date FOR UPDATE/.test(text));
+    const s = await settleReservation(faulty, r.reservationId, 0.002, 'provider_usage_derived_estimate');
+    assert.deepEqual(s, { ok: false, reason: 'accounting_unavailable' });
+    const row = await reservation(r.reservationId);
+    assert.equal(row.state, 'reserved', 'reservation must roll back to reserved');
+    await expectDayEquals({ reserved: T1, settled: 0, released: 0 });
+  });
+
+  it('ROLLBACK: exception after day lock but before reservation finalization leaves both rows untouched', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    const faulty = makeFaultyDb((text) => /UPDATE paid_budget_reservations/.test(text));
+    const s = await releaseReservation(faulty, r.reservationId);
+    assert.deepEqual(s, { ok: false, reason: 'accounting_unavailable' });
+    const row = await reservation(r.reservationId);
+    assert.equal(row.state, 'reserved', 'reservation must roll back to reserved');
+    await expectDayEquals({ reserved: T1, settled: 0, released: 0 });
+  });
+
+  it('ROLLBACK: exception after reservation update but before day update leaves both rows untouched', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    const faulty = makeFaultyDb((text) => /UPDATE paid_budget_days/.test(text));
+    const s = await settleReservation(faulty, r.reservationId, 0.002, 'provider_usage_derived_estimate');
+    assert.deepEqual(s, { ok: false, reason: 'accounting_unavailable' });
+    const row = await reservation(r.reservationId);
+    assert.equal(row.state, 'reserved', 'reservation update must roll back');
+    await expectDayEquals({ reserved: T1, settled: 0, released: 0 });
+    assert.ok((await auditLedgerDay(utcDay())).ok, 'audit must stay clean after rollback');
+  });
+
+  it('double-finalize cannot double-count', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    const first = await settleReservation(db, r.reservationId, 0.002, 'provider_usage_derived_estimate');
+    assert.equal(first.ok, true);
+    const second = await settleReservation(db, r.reservationId, 0.002, 'provider_usage_derived_estimate');
+    assert.equal(second.ok, false);
+    if (!second.ok) assert.equal(second.reason, 'already_finalized');
+    await expectDayEquals({ reserved: 0, settled: 0.002, released: round6(T1 - 0.002) });
+  });
+
+  it('concurrent finalize attempts cannot double-count or double-release', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    // Three racing finalizers with DIFFERENT effects; exactly one may win.
+    const outcomes = await Promise.all([
+      settleReservation(db, r.reservationId, 0.002, 'provider_usage_derived_estimate'),
+      settleReservation(db, r.reservationId, 0.004, 'provider_usage_derived_estimate'),
+      releaseReservation(db, r.reservationId),
+    ]);
+    const winners = outcomes.filter(o => o.ok);
+    assert.equal(winners.length, 1, `exactly one finalizer must win, got ${winners.length}`);
+    const row = await reservation(r.reservationId);
+    const d = await dayRow();
+    if (winners[0]!.state === 'released') {
+      assert.equal(row.state, 'released');
+      await expectDayEquals({ reserved: 0, settled: 0, released: T1 });
+    } else {
+      assert.equal(row.state, 'settled');
+      // whichever settle won, its amount — and only its amount — was counted
+      const counted = winners[0]!.countedUsd;
+      assert.equal(Number(row.settled_usd), counted);
+      await expectDayEquals({ reserved: 0, settled: counted, released: round6(T1 - counted) });
+    }
+    assert.ok((await auditLedgerDay(utcDay())).ok);
+  });
+
+  it('aggregates stay non-negative and reserved+settled never exceeds budget across a full lifecycle', async () => {
+    await setBudget(round6(T1 + T2)); // exactly covers both planned reservations
+    const a = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    const b = await reserveForCall(db, { tier: 'paid_tier2', role: 'writer-vr' });
+    assert.ok(a.granted && b.granted);
+    if (!(a.granted && b.granted)) return;
+    await settleReservation(db, a.reservationId, 0.001, 'provider_usage_derived_estimate');
+    await markReconciliationNeeded(db, b.reservationId);
+    await resolveReconciliation(db, b.reservationId, false);
+    const d = await dayRow();
+    assert.ok(Number(d!.reserved_usd) >= 0 && Number(d!.settled_usd) >= 0 && Number(d!.released_usd) >= 0);
+    assert.ok(Number(d!.reserved_usd) + Number(d!.settled_usd) <= round6(T1 * 2) + 1e-9);
+    const audit = await auditLedgerDay(utcDay());
+    assert.ok(audit.ok, audit.issues.join('; '));
+  });
+
+  it('consistency audit detects every corruption class', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    await settleReservation(db, r.reservationId, 0.002, 'provider_usage_derived_estimate');
+    assert.ok((await auditLedgerDay(utcDay())).ok, 'clean state must pass');
+    const day = utcDay();
+    // reserved not represented in the day aggregate (shifted upward; the DB
+    // CHECK blocks driving an aggregate below zero, so the mismatch is created
+    // on the safe side and the AUDIT — not the schema — must catch it)
+    await testPool.query('UPDATE paid_budget_days SET reserved_usd = reserved_usd + 0.0001 WHERE day = $1::date', [day]);
+    assert.equal((await auditLedgerDay(day)).ok, false);
+    await testPool.query('UPDATE paid_budget_days SET reserved_usd = reserved_usd - 0.0001 WHERE day = $1::date', [day]);
+    // settled not represented
+    await testPool.query('UPDATE paid_budget_days SET settled_usd = settled_usd - 0.0001 WHERE day = $1::date', [day]);
+    assert.equal((await auditLedgerDay(day)).ok, false);
+    await testPool.query('UPDATE paid_budget_days SET settled_usd = settled_usd + 0.0001 WHERE day = $1::date', [day]);
+    // released not represented
+    await testPool.query('UPDATE paid_budget_days SET released_usd = released_usd - 0.0001 WHERE day = $1::date', [day]);
+    assert.equal((await auditLedgerDay(day)).ok, false);
+    await testPool.query('UPDATE paid_budget_days SET released_usd = released_usd + 0.0001 WHERE day = $1::date', [day]);
+    // negative aggregate (CHECK lifted briefly — the audit must catch what the
+    // schema normally prevents)
+    await testPool.query('ALTER TABLE paid_budget_days DROP CONSTRAINT paid_budget_days_settled_usd_check');
+    await testPool.query('UPDATE paid_budget_days SET settled_usd = -0.01 WHERE day = $1::date', [day]);
+    let audit = await auditLedgerDay(day);
+    assert.ok(audit.issues.some(i => i === 'negative aggregate'));
+    await testPool.query('UPDATE paid_budget_days SET settled_usd = 0.002 WHERE day = $1::date', [day]);
+    await testPool.query('ALTER TABLE paid_budget_days ADD CONSTRAINT paid_budget_days_settled_usd_check CHECK (settled_usd >= 0)');
+    // reserved + settled over budget
+    await testPool.query('UPDATE paid_budget_days SET budget_usd = 0.001 WHERE day = $1::date', [day]);
+    audit = await auditLedgerDay(day);
+    assert.ok(audit.issues.some(i => i.includes('exceeds budget')));
+  });
+
+  it('cost-basis labels reflect the evidence source (DB CHECK + invoker semantics)', async () => {
+    await setBudget(2);
+    // derived-from-usage and conservative sizing are accepted…
+    for (const basis of ['provider_usage_derived_estimate', 'conservative_reservation_estimate']) {
+      await testPool.query(
+        `INSERT INTO paid_budget_reservations (id, day, tier, amount_usd, state, settled_usd, cost_basis, finalized_at)
+         VALUES (gen_random_uuid(), $1::date, 'paid_tier1', 0.0055, 'settled', 0.002, $2, NOW())`,
+        [utcDay(), basis],
+      );
+    }
+    // …the over-claiming legacy label is not (for new rows)…
+    await assert.rejects(() => testPool.query(
+      `INSERT INTO paid_budget_reservations (id, day, tier, amount_usd, state, settled_usd, cost_basis, finalized_at)
+       VALUES (gen_random_uuid(), $1::date, 'paid_tier1', 0.0055, 'settled', 0.002, 'provider_reported_actual', NOW())`,
+      [utcDay()],
+    ));
+    // …and made-up labels are rejected.
+    await assert.rejects(() => testPool.query(
+      `INSERT INTO paid_budget_reservations (id, day, tier, amount_usd, state, settled_usd, cost_basis, finalized_at)
+       VALUES (gen_random_uuid(), $1::date, 'paid_tier1', 0.0055, 'settled', 0.002, 'made_up', NOW())`,
+      [utcDay()],
+    ));
+    // Invoker: usage ⇒ provider_usage_derived_estimate; no usage ⇒ conservative_reservation_estimate.
+    const withUsage = http.createServer((req, res) => {
+      res.setHeader('content-type', 'application/json');
+      res.end(JSON.stringify({ choices: [{ message: { content: '{"status":"ok"}' } }], usage: { prompt_tokens: 100, completion_tokens: 50 } }));
+    });
+    const withoutUsage = http.createServer((req, res) => {
+      res.setHeader('content-type', 'application/json');
+      res.end(JSON.stringify({ choices: [{ message: { content: '{"status":"ok"}' } }] }));
+    });
+    for (const [server, expected] of [[withUsage, 'provider_usage_derived_estimate'], [withoutUsage, 'conservative_reservation_estimate']] as const) {
+      await new Promise<void>(r => server.listen(0, '127.0.0.1', r));
+      const port = (server.address() as { port: number }).port;
+      try {
+        const paid = new PaidOpenAIInvoker(`http://127.0.0.1:${port}/v1/chat/completions`, 'sk-test', 2000);
+        const res = await paid.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
+        assert.equal(res.ok, true);
+        assert.equal(res.costBasis, expected);
+      } finally {
+        server.close();
+      }
+    }
   });
 });
 

@@ -16,12 +16,16 @@
 --
 -- Non-destructive: additive only; no existing rows or columns are altered.
 --
--- ROLLBACK NOTES (reverse order):
---   ALTER TABLE agent_runs DROP CONSTRAINT agent_runs_cost_usd_non_negative;
---   ALTER TABLE agent_runs DROP CONSTRAINT agent_runs_tier_allowed;
---   DROP TABLE IF EXISTS paid_budget_reservations;
---   DROP TABLE IF EXISTS paid_budget_days;
--- (Indexes disappear with their tables.)
+-- ROLLBACK / DOWNGRADE POLICY (corrected):
+--   Runtime rollback of the CODE is `git revert` + redeploy. Ledger tables and
+--   data are PRESERVED — they are an audit record; the reverted code simply
+--   stops reading/writing them. DROP TABLE is NOT an immediate post-production
+--   rollback step.
+--   A future archival / down-migration procedure (explicit, operator-run,
+--   data-preserving) would be, in dependency order: export reservations to
+--   archive storage → export day aggregates → drop the two agent_runs
+--   constraints → drop paid_budget_reservations → drop paid_budget_days.
+--   It is intentionally NOT automated here.
 
 -- ── 1. Daily budget day rows ────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS paid_budget_days (
@@ -46,7 +50,11 @@ CREATE TABLE IF NOT EXISTS paid_budget_reservations (
   state         VARCHAR(24) NOT NULL DEFAULT 'reserved'
                 CHECK (state IN ('reserved','settled','released','reconciliation_needed')),
   settled_usd   NUMERIC(12,6) CHECK (settled_usd IS NULL OR settled_usd >= 0),
-  cost_basis    VARCHAR(40) CHECK (cost_basis IN ('provider_reported_actual','conservative_estimate')),
+  -- Cost-basis labels state the EVIDENCE: usage × configured rates is a
+  -- DERIVED estimate (not a provider bill); only a provider-returned
+  -- billed-cost field consumed verbatim may be provider_billed_actual.
+  cost_basis    VARCHAR(40) CHECK (cost_basis IS NULL OR cost_basis IN
+                  ('provider_usage_derived_estimate','conservative_reservation_estimate','provider_billed_actual')),
   reserved_at   TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   finalized_at  TIMESTAMPTZ,
   -- A reservation is either open ('reserved') or explicitly finalized.
@@ -76,5 +84,42 @@ BEGIN
     ALTER TABLE agent_runs
       ADD CONSTRAINT agent_runs_cost_usd_non_negative
       CHECK (cost_usd >= 0);
+  END IF;
+END $$;
+
+-- ── 4. Cost-basis terminology migration (v2) ─────────────────────────────────
+-- Prior deployments of this migration recorded 'provider_reported_actual' for
+-- costs DERIVED from provider token usage at locally configured rates, and
+-- 'conservative_estimate' for maximum-plausible-exposure sizing. Those labels
+-- overstated the evidence. The values are renamed in place:
+--   provider_reported_actual      → provider_usage_derived_estimate
+--   conservative_estimate         → conservative_reservation_estimate
+-- No data is dropped; NULL cost_basis stays NULL. Safe to re-run.
+DO $$
+BEGIN
+  -- 1. Drop the legacy CHECK (if it still carries the old labels) FIRST so
+  --    existing rows can be relabeled without violating it.
+  IF EXISTS (SELECT 1 FROM pg_constraint WHERE conrelid = 'paid_budget_reservations'::regclass
+             AND conname = 'paid_budget_reservations_cost_basis_check'
+             AND pg_get_constraintdef(oid) LIKE '%provider_reported_actual%') THEN
+    ALTER TABLE paid_budget_reservations
+      DROP CONSTRAINT paid_budget_reservations_cost_basis_check;
+  END IF;
+  -- 2. Relabel existing rows in place (no data dropped; NULL stays NULL).
+  IF EXISTS (SELECT 1 FROM information_schema.columns
+             WHERE table_name = 'paid_budget_reservations' AND column_name = 'cost_basis') THEN
+    UPDATE paid_budget_reservations SET cost_basis = 'provider_usage_derived_estimate'
+      WHERE cost_basis = 'provider_reported_actual';
+    UPDATE paid_budget_reservations SET cost_basis = 'conservative_reservation_estimate'
+      WHERE cost_basis = 'conservative_estimate';
+  END IF;
+  -- 3. Add the corrected CHECK (idempotent: skipped when already current).
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conrelid = 'paid_budget_reservations'::regclass
+                 AND conname = 'paid_budget_reservations_cost_basis_check'
+                 AND pg_get_constraintdef(oid) LIKE '%provider_usage_derived_estimate%') THEN
+    ALTER TABLE paid_budget_reservations
+      ADD CONSTRAINT paid_budget_reservations_cost_basis_check
+      CHECK (cost_basis IS NULL OR cost_basis IN
+        ('provider_usage_derived_estimate','conservative_reservation_estimate','provider_billed_actual'));
   END IF;
 END $$;
