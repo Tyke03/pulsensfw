@@ -7,7 +7,7 @@ import { selectRelatedPosts } from './orchestrator/end-rail';
 import { tick, currentMode } from './orchestrator/engine';
 import { PollinationsInvoker, LadderInvoker, PaidOpenAIInvoker } from './orchestrator/invoker';
 import { ladderEnabled, LADDER, dailyBudgetUsd } from './orchestrator/model-ladder';
-import { getLedgerDb, accountingStatus } from './orchestrator/budget-ledger';
+import { getLedgerDb, accountingStatus, ledgerPoolHealth } from './orchestrator/budget-ledger';
 
 // ── Research file helpers ─────────────────────────────────────────────────
 const RESEARCH_DIR = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, 'research') : path.join(process.cwd(), 'research');
@@ -286,6 +286,10 @@ export function registerRoutes(httpServer: Server, app: Express) {
         tier2Model: LADDER.paid_tier2.model,
         dailyBudgetUsd: dailyBudgetUsd(),
         accountingStatus: ladderInfo.status,
+        // Non-secret numeric pool health ONLY: client counts + configured time
+        // bounds. ledgerPoolHealth() structurally cannot include DSN, host,
+        // user, database, tokens, or SQL text.
+        poolHealth: ledgerPoolHealth(getLedgerDb()),
         budget: ladderInfo.summary ? {
           day: ladderInfo.summary.day,
           budgetUsd: ladderInfo.summary.budgetUsd,

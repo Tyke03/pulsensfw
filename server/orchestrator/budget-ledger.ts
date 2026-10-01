@@ -35,6 +35,14 @@
  * update reservation → update day aggregate → verify row counts and
  * invariants → COMMIT. Any error rolls back BOTH rows atomically. Multi-row
  * mutations never run through the pool query interface.
+ *
+ * Every ledger transaction is also TIME-BOUNDED: pool acquisition uses
+ * LEDGER_DB_CONNECTION_TIMEOUT_MS, and lock_timeout / statement_timeout are set
+ * on the checked-out client immediately after BEGIN, so a lock wait or slow
+ * ledger query aborts (and rolls back, releasing the client) instead of hanging
+ * an orchestrator tick indefinitely. No ledger transaction is ever held open
+ * across an external model-provider HTTP call — the invoker reserves, then
+ * calls the provider, then finalizes; the three phases never overlap a tx.
  */
 import { Pool } from 'pg';
 import { randomUUID } from 'node:crypto';
@@ -51,7 +59,8 @@ export interface LedgerDb {
 /**
  * Transaction surface. A real pg Pool satisfies this via `connect()`; the
  * ledger runs every multi-row mutation on ONE checked-out client so all
- * statements share a connection and transaction.
+ * statements share a connection and transaction. Time bounds (lock_timeout /
+ * statement_timeout) are applied transaction-locally by withLedgerTx.
  */
 export interface LedgerTx {
   query(text: string, values?: unknown[]): Promise<{ rows: any[]; rowCount: number | null }>;
@@ -76,9 +85,20 @@ export async function withLedgerTx<T>(
     // responsibility — production pools always take the checked-out path.
     return fn(db);
   }
+  // Acquisition is bounded by the pool's connectionTimeoutMillis: a saturated
+  // pool fails FAST here instead of queueing an orchestrator tick indefinitely.
+  // The rejection propagates to callers, which map it to
+  // accounting_unavailable (fail-closed: paid refused, free runs).
   const client = await provider.connect();
   try {
     await client.query('BEGIN');
+    // Bound the transaction server-side: lock waits and slow statements abort
+    // with a query error instead of hanging the tick while holding row locks.
+    // SET LOCAL is transaction-scoped — the bounds lapse at COMMIT/ROLLBACK and
+    // never leak onto the pooled connection. Valid on Neon (Postgres 14+) and
+    // local Postgres alike; plain integers (ms) need no quoting.
+    await client.query(`SET LOCAL lock_timeout = ${ledgerLockTimeoutMs()}`);
+    await client.query(`SET LOCAL statement_timeout = ${ledgerStatementTimeoutMs()}`);
     const out = await fn(client);
     await client.query('COMMIT');
     return out;
@@ -147,17 +167,120 @@ async function finalizeReservationTx(
   });
 }
 
+// ── Ledger pool configuration (env-backed, conservative defaults) ────────────
+// The ledger is a LOW-VOLUME, latency-sensitive dependency: a handful of short
+// transactions per orchestrator tick. Defaults below fit the current Render
+// plan and stay far under practical Neon connection limits (roughly 1/3 of a
+// direct ~100-connection limit and ~1/10 of a pooler endpoint's). Raise
+// LEDGER_DB_POOL_MAX only with headroom math: concurrent ledger clients can
+// never exceed it, and every one of them also needs a slot in Neon's limits.
+export const LEDGER_DB_POOL_MAX_DEFAULT = 3;
+export const LEDGER_DB_CONNECTION_TIMEOUT_MS_DEFAULT = 5_000;
+export const LEDGER_DB_IDLE_TIMEOUT_MS_DEFAULT = 30_000;
+export const LEDGER_DB_LOCK_TIMEOUT_MS_DEFAULT = 4_000;
+export const LEDGER_DB_STATEMENT_TIMEOUT_MS_DEFAULT = 5_000;
+
+function envInt(name: string, fallback: number, min: number, max: number): number {
+  const v = Number(process.env[name]);
+  if (!Number.isFinite(v) || v < min || v > max) return fallback;
+  return Math.floor(v);
+}
+
+/** Max pool clients. 1..20; invalid/absent ⇒ conservative 3. */
+export function ledgerPoolMax(): number {
+  return envInt('LEDGER_DB_POOL_MAX', LEDGER_DB_POOL_MAX_DEFAULT, 1, 20);
+}
+/** Pool acquisition timeout (ms) — pool.connect() fails fast past this. */
+export function ledgerConnectionTimeoutMs(): number {
+  return envInt('LEDGER_DB_CONNECTION_TIMEOUT_MS', LEDGER_DB_CONNECTION_TIMEOUT_MS_DEFAULT, 100, 60_000);
+}
+/** Idle client reap timeout (ms) — releases Neon slots when ticks are sparse. */
+export function ledgerIdleTimeoutMs(): number {
+  return envInt('LEDGER_DB_IDLE_TIMEOUT_MS', LEDGER_DB_IDLE_TIMEOUT_MS_DEFAULT, 1_000, 600_000);
+}
+/** Per-statement server-side abort (ms) — covers slow ledger queries. */
+export function ledgerStatementTimeoutMs(): number {
+  return envInt('LEDGER_DB_STATEMENT_TIMEOUT_MS', LEDGER_DB_STATEMENT_TIMEOUT_MS_DEFAULT, 100, 60_000);
+}
+/** Row-lock wait bound (ms) — a contended FOR UPDATE aborts instead of hanging. */
+export function ledgerLockTimeoutMs(): number {
+  return envInt('LEDGER_DB_LOCK_TIMEOUT_MS', LEDGER_DB_LOCK_TIMEOUT_MS_DEFAULT, 100, 60_000);
+}
+/**
+ * Optional client-side query watchdog (pg `query_timeout`). Disabled by
+ * default: the server-side statement_timeout already bounds slow queries, and
+ * a duplicated kill-path adds a rare class of double-error handling. Set
+ * LEDGER_DB_QUERY_TIMEOUT_MS to arm it.
+ */
+export function ledgerQueryTimeoutMs(): number | null {
+  return envInt('LEDGER_DB_QUERY_TIMEOUT_MS', 0, 0, 60_000) || null;
+}
+
 let singleton: LedgerDb | null = null;
-/** Module-singleton pool built from DATABASE_URL (same SSL rules as db.ts). */
+/**
+ * Module-singleton ledger pool built from DATABASE_URL (same SSL rules as
+ * db.ts). NEVER log connectionString or any credential material from here —
+ * the pool's own error events are intentionally not forwarded with DSNs.
+ */
 export function getLedgerDb(): LedgerDb {
   if (singleton) return singleton;
   const isLocal = /(localhost|127\.0\.0\.1|::1)/.test(process.env.DATABASE_URL ?? '');
-  singleton = new Pool({
+  const pool = new Pool({
     connectionString: process.env.DATABASE_URL,
     ssl: isLocal ? false : { rejectUnauthorized: false },
-    max: 3,
-  });
+    max: ledgerPoolMax(),
+    connectionTimeoutMillis: ledgerConnectionTimeoutMs(),
+    idleTimeoutMillis: ledgerIdleTimeoutMs(),
+    // Server-side net-level watchdog; armed only when explicitly configured.
+    ...(ledgerQueryTimeoutMs() ? { query_timeout: ledgerQueryTimeoutMs()! } : {}),
+    // Close connections that sit idle inside a transaction (dead-process bug
+    // guard). Absent from the env ⇒ server default (unbounded) is kept.
+    ...(Number(process.env.LEDGER_DB_IDLE_TX_TIMEOUT_MS) > 0
+      ? { idle_in_transaction_session_timeout: Number(process.env.LEDGER_DB_IDLE_TX_TIMEOUT_MS) }
+      : {}),
+    // Env vars are cheap; DSNs and passwords never are. Nothing in this object
+    // is ever logged or exposed via the status endpoint.
+    application_name: 'pulsensfw-budget-ledger',
+  } as import('pg').PoolConfig);
+  // Swallow idle-client error events so a Neon-side drop during an idle gap
+  // cannot crash the process (errors for CHECKED-OUT clients still surface to
+  // their awaiters, and acquisition failures surface through connect()).
+  pool.on('error', () => { /* idle client dropped by server; logged nowhere (no secrets) */ });
+  singleton = pool;
   return singleton;
+}
+
+/** Minimal read-only LedgerDb for tests/doubles without a pg Pool. */
+export function makeLedgerDbFromQuery(query: LedgerDb['query']): LedgerDb {
+  return { query };
+}
+
+/**
+ * SAFE, non-secret pool health for /api/orchestrator/status. Numbers only:
+ * total/idle/waiting client counts and the configured bounds. No DSN, host,
+ * user, database name, tokens, or SQL text ever enters this object.
+ * Non-pg surfaces (or a not-yet-created pool) report nulls.
+ */
+export function ledgerPoolHealth(db: LedgerDb = getLedgerDb()): {
+  totalClients: number | null; idleClients: number | null; waitingClients: number | null;
+  poolMax: number; connectionTimeoutMs: number; idleTimeoutMs: number;
+  lockTimeoutMs: number; statementTimeoutMs: number;
+} {
+  const pool = db as unknown as {
+    totalCount?: unknown; idleCount?: unknown; waitingCount?: unknown;
+    options?: { connectionTimeoutMillis?: unknown; idleTimeoutMillis?: unknown };
+  };
+  const intOrNull = (v: unknown): number | null =>
+    typeof v === 'number' && Number.isFinite(v) ? Math.max(0, Math.floor(v)) : null;
+  return {
+    totalClients: intOrNull(pool.totalCount),
+    idleClients: intOrNull(pool.idleCount),
+    waitingClients: intOrNull(pool.waitingCount),
+    poolMax: ledgerPoolMax(),
+    connectionTimeoutMs: ledgerConnectionTimeoutMs(),
+    idleTimeoutMs: ledgerIdleTimeoutMs(),    lockTimeoutMs: ledgerLockTimeoutMs(),
+    statementTimeoutMs: ledgerStatementTimeoutMs(),
+  };
 }
 
 export type ReservationState = 'reserved' | 'settled' | 'released' | 'reconciliation_needed';

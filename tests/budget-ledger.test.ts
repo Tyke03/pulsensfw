@@ -3,11 +3,14 @@ import assert from 'node:assert/strict';
 import http from 'node:http';
 import { freshSchema, testPool, closePool } from './setup';
 import { PaidOpenAIInvoker, LadderInvoker, EchoInvoker } from '../server/orchestrator/invoker';
+import type { AgentInvoker, InvokeMeta, InvokeResult } from '../server/orchestrator/invoker';
 import { estimateCostUsd } from '../server/orchestrator/model-ladder';
 import {
   reserveForCall, settleReservation, releaseReservation, markReconciliationNeeded,
   sweepStaleReservations, resolveReconciliation, summarizeDay, accountingStatus,
   ledgerHealthy, computeReservationAmountUsd, round6, reservationTtlHours,
+  withLedgerTx, ledgerPoolHealth, ledgerPoolMax, ledgerConnectionTimeoutMs,
+  ledgerIdleTimeoutMs, ledgerLockTimeoutMs, ledgerStatementTimeoutMs, ledgerQueryTimeoutMs,
   type LedgerDb,
 } from '../server/orchestrator/budget-ledger';
 import { utcDay, dailyBudgetUsd, LADDER, estimateCostUsd } from '../server/orchestrator/model-ladder';
@@ -324,6 +327,33 @@ function makeFaultyDb(fault: (text: string) => boolean): LedgerDb {
       };
     },
   } as unknown as LedgerDb;
+}
+
+function delay(ms: number): Promise<void> {
+  return new Promise(r => setTimeout(r, ms));
+}
+
+/** A LedgerDb whose connect() always fails — models an exhausted/saturated pool. */
+function makeAcquireBrokenDb(): LedgerDb {
+  return {
+    query: (text: string, values?: unknown[]) => testPool.query(text, values),
+    connect: async () => { throw new Error('connection timeout: pool exhausted (LEDGER_DB_CONNECTION_TIMEOUT_MS)'); },
+  } as unknown as LedgerDb;
+}
+
+/** Same paid-stub used by the ladder routing suite (counts invocations). */
+class StubPaidInvoker implements AgentInvoker {
+  calls = 0;
+  async invoke(_packet: unknown, _sys: string, meta: InvokeMeta): Promise<InvokeResult> {
+    this.calls += 1;
+    return { ok: true, output: { status: 'ok' }, provider: 'stub-paid', model: meta.tier ?? 'unknown', durationMs: 1, tier: meta.tier, costUsd: 0.0042 };
+  }
+}
+
+function makeFreeEcho(): EchoInvoker {
+  const inv = new EchoInvoker(new Map());
+  inv.setFixture('writer-vr', { status: 'ok', confidence: 0.9, uncertainty: [], escalation: null, payload: {} });
+  return inv;
 }
 
 async function expectDayEquals(expected: { reserved: number; settled: number; released: number }) {
@@ -659,5 +689,137 @@ describe('accounting status states', () => {
     const broken: LedgerDb = { query: async () => { throw new Error('db down'); } };
     const s = await accountingStatus(broken, true);
     assert.equal(s.status, 'accounting-unavailable');
+  });
+});
+
+// ── Pool hardening (round 3): bounded acquisition, bounded tx, safe telemetry ─
+
+describe('ledger pool hardening', () => {
+  it('acquisition failure (connect timeout) → free fallback, accountingFallback=true, zero paid calls', async () => {
+    process.env.PAID_LLM_URL = 'https://openrouter.ai/api/v1/chat/completions';
+    process.env.PAID_LLM_API_KEY = 'sk-test';
+    await setBudget(2); // budget available — the failure must be acquisition-only
+    const paid = new StubPaidInvoker();
+    const inv = new LadderInvoker(makeFreeEcho(), paid, makeAcquireBrokenDb());
+    const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
+    assert.equal(paid.calls, 0, 'paid invoker must never be called when acquisition fails');
+    assert.equal(res.tier, 'free');
+    assert.equal(res.costUsd, 0);
+    assert.equal(res.accountingFallback, true);
+    assert.equal(res.budgetFallback, undefined);
+    const { rows } = await testPool.query(`SELECT count(*)::int AS n FROM paid_budget_reservations`);
+    assert.equal(rows[0].n, 0, 'no reservation may be created');
+  });
+
+  it('lock timeout → transaction rolls back, client released, reservation untouched', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    // Real second client holds FOR UPDATE on the reservation row; the
+    // finalizer's lock wait must abort via lock_timeout (SET LOCAL in
+    // withLedgerTx) — not hang, and not leave the tx open.
+    const blocker = await testPool.connect();
+    try {
+      await blocker.query('BEGIN');
+      await blocker.query(`SELECT * FROM paid_budget_reservations WHERE id = $1::uuid FOR UPDATE`, [r.reservationId]);
+      const blocked = settleReservation(db, r.reservationId, 0.002, 'provider_usage_derived_estimate');
+      const s = await Promise.race([
+        blocked.then(() => 'settled'),
+        delay(12_000).then(() => 'timeout'),
+      ]);
+      assert.notEqual(s, 'timeout', 'settle must abort via lock_timeout, not hang');
+      assert.deepEqual(await blocked, { ok: false, reason: 'accounting_unavailable' });
+    } finally {
+      await blocker.query('ROLLBACK').catch(() => {});
+      blocker.release();
+    }
+    // The abort released the ledger client — a normal finalization works after.
+    const retry = await settleReservation(db, r.reservationId, 0.002, 'provider_usage_derived_estimate');
+    assert.equal(retry.ok, true, 'client must have been released after the lock abort');
+    const row = await reservation(r.reservationId);
+    assert.equal(row.state, 'settled');
+    const d = await dayRow();
+    assert.equal(Number(d.settled_usd), 0.002); // exactly one apply — abort rolled back
+    assert.ok((await auditLedgerDay(utcDay())).ok);
+  });
+
+  it('stalled statement → statement_timeout aborts, tx rolls back, client released', async () => {
+    await setBudget(2);
+    const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
+    if (!r.granted) return assert.fail('should grant');
+    const faulty = makeFaultyDb((text) => /UPDATE paid_budget_reservations/.test(text));
+    const s = await settleReservation(faulty, r.reservationId, 0.002, 'provider_usage_derived_estimate');
+    assert.deepEqual(s, { ok: false, reason: 'accounting_unavailable' });
+    const row = await reservation(r.reservationId);
+    assert.equal(row.state, 'reserved', 'reservation must roll back to reserved');
+    await expectDayEquals({ reserved: T1, settled: 0, released: 0 });
+    assert.ok((await auditLedgerDay(utcDay())).ok, 'audit must stay clean after abort');
+  });
+
+  it('pool health payload contains ONLY safe numeric fields (no DSN/host/user/db/SQL)', async () => {
+    const health = ledgerPoolHealth(db);
+    const keys = Object.keys(health).sort();
+    assert.deepEqual(keys, [
+      'connectionTimeoutMs', 'idleClients', 'idleTimeoutMs', 'lockTimeoutMs',
+      'poolMax', 'statementTimeoutMs', 'totalClients', 'waitingClients',
+    ]);
+    for (const [k, v] of Object.entries(health)) {
+      assert.ok(v === null || (typeof v === 'number' && Number.isFinite(v)), `${k} must be numeric-or-null, got ${typeof v}`);
+    }
+    const serialized = JSON.stringify(health).toLowerCase();
+    for (const forbidden of ['postgres', 'host', 'user', 'database', 'password', 'token', 'select', 'query', 'dsn', 'ssl']) {
+      assert.ok(!serialized.includes(forbidden), `pool health must not contain '${forbidden}'`);
+    }
+  });
+
+  it('pool config helpers: env overrides clamp to safe ranges, invalid values fall back', () => {
+    const saved: Record<string, string | undefined> = {};
+    const KEYS = ['LEDGER_DB_POOL_MAX', 'LEDGER_DB_CONNECTION_TIMEOUT_MS', 'LEDGER_DB_IDLE_TIMEOUT_MS', 'LEDGER_DB_QUERY_TIMEOUT_MS', 'LEDGER_DB_LOCK_TIMEOUT_MS', 'LEDGER_DB_STATEMENT_TIMEOUT_MS'];
+    for (const k of KEYS) { saved[k] = process.env[k]; delete process.env[k]; }
+    try {
+      assert.equal(ledgerPoolMax(), 3); // conservative default
+      assert.equal(ledgerConnectionTimeoutMs(), 5000);
+      assert.equal(ledgerIdleTimeoutMs(), 30000);
+      assert.equal(ledgerLockTimeoutMs(), 4000);
+      assert.equal(ledgerStatementTimeoutMs(), 5000);
+      assert.equal(ledgerQueryTimeoutMs(), null); // opt-in watchdog
+      process.env.LEDGER_DB_POOL_MAX = '0';
+      assert.equal(ledgerPoolMax(), 3); // invalid → default
+      process.env.LEDGER_DB_POOL_MAX = '99';
+      assert.equal(ledgerPoolMax(), 3); // out of range → default (all-or-nothing, no silent clamping)
+      process.env.LEDGER_DB_POOL_MAX = '20';
+      assert.equal(ledgerPoolMax(), 20); // hard-cap boundary accepted
+      process.env.LEDGER_DB_POOL_MAX = '1';
+      assert.equal(ledgerPoolMax(), 1); // hard-floor boundary accepted
+      process.env.LEDGER_DB_POOL_MAX = '7.9';
+      assert.equal(ledgerPoolMax(), 7); // floored
+      process.env.LEDGER_DB_CONNECTION_TIMEOUT_MS = '-1';
+      assert.equal(ledgerConnectionTimeoutMs(), 5000); // invalid → default
+      process.env.LEDGER_DB_QUERY_TIMEOUT_MS = '1500';
+      assert.equal(ledgerQueryTimeoutMs(), 1500); // armed when set
+    } finally {
+      for (const k of KEYS) {
+        if (saved[k] === undefined) delete process.env[k];
+        else process.env[k] = saved[k];
+      }
+    }
+  });
+
+  it('withLedgerTx releases the client when fn throws (no leak across failures)', async () => {
+    await setBudget(2);
+    let observed: { total: number | null; idle: number | null; waiting: number | null } | null = null;
+    await assert.rejects(
+      () => withLedgerTx(db, async () => { throw new Error('boom inside tx'); }),
+      /boom inside tx/,
+    );
+    // The checked-out client must be back in the pool by now (idle, none waiting).
+    for (let i = 0; i < 50 && (observed = ledgerPoolHealth(db)).totalClients !== observed?.idleClients; i++) {
+      await delay(20);
+    }
+    observed = ledgerPoolHealth(db);
+    assert.equal(observed.waitingClients, 0);
+    assert.equal(observed.idleClients, observed.totalClients, 'no client may remain checked out after the failure');
+    // The pool is usable again.
+    assert.equal(await ledgerHealthy(db), true);
   });
 });
