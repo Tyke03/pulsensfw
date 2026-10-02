@@ -61,8 +61,12 @@ describe('leases (cases 4, 5)', () => {
 
   it('stale worker cannot complete after a new lease (case 5)', async () => {
     const item = await insertItem({ idempotencyKey: 'lease-3' });
-    const stale = await claimLease(item.id, 'worker-old', 50);
-    await new Promise(r => setTimeout(r, 80)); // let it expire
+    // Pre-expired claim (deterministic): the previous sleep-based expiry (50ms
+    // TTL + 80ms wait) raced the Docker VM clock (observed ~320ms behind the
+    // host after a VM boot), intermittently failing the second claim with
+    // 'already leased'. A negative TTL is already expired by ANY clock's
+    // measure — same end state, no timing dependence (mirrors 'lease-2').
+    const stale = await claimLease(item.id, 'worker-old', -1000);
     const fresh = await claimLease(item.id, 'worker-new', 60000);
     await assert.rejects(() => assertNotStale(stale, 'worker-old'), /stale worker/);
     assert.equal(await verifyLease(stale, 'worker-old'), false);

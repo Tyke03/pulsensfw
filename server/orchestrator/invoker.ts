@@ -10,13 +10,20 @@ import crypto from 'node:crypto';
 import {
   type Tier,
   type TierDef,
-  type SpendSummary,
   tierFor,
   ladderEnabled,
   estimateCostUsd,
   actualCostUsd,
-  budgetExhausted,
 } from './model-ladder';
+import {
+  type LedgerDb,
+  type CostBasis,
+  reserveForCall,
+  settleReservation,
+  releaseReservation,
+  markReconciliationNeeded,
+  sweepStaleReservations,
+} from './budget-ledger';
 
 export type InvokeMeta = {
   role: string;
@@ -27,6 +34,8 @@ export type InvokeMeta = {
   tier?: Tier;
   /** 1-based attempt number, for logging/telemetry. */
   attempt?: number;
+  /** Owning work item, for budget-reservation audit rows. */
+  workItemId?: number | null;
 };
 
 export type InvokeResult = {
@@ -39,11 +48,22 @@ export type InvokeResult = {
   durationMs: number;
   /** Ladder tier the call actually ran at. */
   tier?: Tier;
-  /** Actual or estimated USD cost of this call (0 for free tier). */
+  /** Actual (provider-reported) or conservative-estimated USD cost. 0 for free tier. */
   costUsd?: number;
+  /** How costUsd was derived — never assume billed actual without usage. */
+  costBasis?: CostBasis;
   usage?: { promptTokens: number; completionTokens: number };
-  /** True when a requested paid tier was refused for budget and free was used. */
+  /** True when a requested paid tier was refused for budget (cap reached) and free was used. */
   budgetFallback?: boolean;
+  /**
+   * True when budget ACCOUNTING was unavailable and paid escalation was
+   * refused (fail-closed) — free ran instead. Distinct from budgetFallback.
+   */
+  accountingFallback?: boolean;
+  /** Structured transport/protocol failure class (paid invoker). */
+  errorKind?: 'timeout' | 'network' | 'protocol' | 'http' | 'unconfigured' | 'unknown';
+  /** Budget reservation outcome for this paid call (audit trail). */
+  reservation?: { id: string; state: 'reserved' | 'settled' | 'released' | 'reconciliation_needed' };
 };
 
 export interface AgentInvoker {
@@ -192,19 +212,38 @@ ${JSON.stringify(workPacket)}`;
 /**
  * PaidOpenAIInvoker — any OpenAI-compatible paid endpoint (OpenRouter, Groq,
  * OpenAI, DeepSeek direct, …) configured via PAID_LLM_URL + PAID_LLM_API_KEY.
- * Captures token usage from the response and converts to USD via the tier's
- * blended rate; falls back to an estimate when usage is absent.
+ *
+ * Hardening:
+ *  - Configurable timeout (PAID_LLM_TIMEOUT_MS, default 30s) via AbortSignal.
+ *  - Structured errorKind classification (timeout/network/protocol/http).
+ *  - max_tokens enforced per tier (PAID_LLM_MAX_TOKENS_TIER1/2) — caps the
+ *    provider-side output exposure that budget reservations are sized against.
+ *  - Never logs or stores API keys, Authorization headers, or provider response
+ *    bodies; failures carry status codes and error classes only.
+ *  - Cost basis is provider_usage_derived_estimate when usage is returned
+ *    (usage × locally configured rates — a derived estimate, not a bill);
+ *    otherwise conservative_reservation_estimate (max plausible exposure).
  */
 export class PaidOpenAIInvoker implements AgentInvoker {
   constructor(
     private url = process.env.PAID_LLM_URL,
     private apiKey = process.env.PAID_LLM_API_KEY,
+    private timeoutMs = Number(process.env.PAID_LLM_TIMEOUT_MS) > 0 ? Number(process.env.PAID_LLM_TIMEOUT_MS) : 30_000,
   ) {}
+
+  private classify(err: any): InvokeResult['errorKind'] {
+    const name = String(err?.name ?? '');
+    const code = String(err?.code ?? err?.cause?.code ?? '');
+    if (name === 'TimeoutError' || name === 'AbortError' || code === 'ABORT_ERR') return 'timeout';
+    if (code === 'ECONNREFUSED' || code === 'ENOTFOUND' || code === 'EAI_AGAIN' || code === 'ECONNRESET' || code === 'UND_ERR_CONNECT_TIMEOUT') return 'network';
+    if (name === 'TypeError') return 'network'; // undici fetch failures surface as TypeError
+    return 'unknown';
+  }
 
   async invoke(workPacket: unknown, systemPrompt: string, meta: InvokeMeta): Promise<InvokeResult> {
     const start = Date.now();
     if (!this.url || !this.apiKey) {
-      return { ok: false, error: 'paid invoker not configured (PAID_LLM_URL/PAID_LLM_API_KEY)', durationMs: Date.now() - start };
+      return { ok: false, error: 'paid invoker not configured (PAID_LLM_URL/PAID_LLM_API_KEY)', errorKind: 'unconfigured', durationMs: Date.now() - start };
     }
     const tier = tierFor(meta.tier ?? 'paid_tier1');
     const userContent = `${JSON.stringify(workPacket)}\n\nReturn ONLY a JSON object exactly in this envelope:\n{"status":"ok"|"refused"|"escalate","confidence":0.0,"uncertainty":[],"escalation":{"reason_code":"…","detail":"…","recommended_action":"…"}|null,"payload":{…}}`;
@@ -215,21 +254,23 @@ export class PaidOpenAIInvoker implements AgentInvoker {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${this.apiKey}`,
         },
+        signal: AbortSignal.timeout(this.timeoutMs),
         body: JSON.stringify({
           model: tier.model,
           messages: [
             { role: 'system', content: systemPrompt },
             { role: 'user', content: userContent },
           ],
+          max_tokens: tier.maxTokens,
           response_format: { type: 'json_object' },
         }),
       });
       if (!res.ok) {
-        const body = await res.text().catch(() => '');
+        // Status code only — never persist or log the response body (may echo
+        // account details), and never include headers here.
         return {
-          ok: false, error: `paid HTTP ${res.status}`, provider: tier.provider, model: tier.model,
+          ok: false, error: `paid HTTP ${res.status}`, errorKind: 'http', provider: tier.provider, model: tier.model,
           tier: tier.id, durationMs: Date.now() - start,
-          raw: body.slice(0, 300),
         };
       }
       const data = await res.json();
@@ -238,62 +279,124 @@ export class PaidOpenAIInvoker implements AgentInvoker {
         promptTokens: Number(data.usage.prompt_tokens) || 0,
         completionTokens: Number(data.usage.completion_tokens) || 0,
       } : undefined;
-      const costUsd = usage
-        ? actualCostUsd(tier.id, usage.promptTokens, usage.completionTokens)
-        : estimateCostUsd(tier.id);
-      // Same tolerance as the free tier: fenced/prose-wrapped JSON.
+      const costUsd = usage ? actualCostUsd(tier.id, usage.promptTokens, usage.completionTokens) : undefined;
+      const costBasis: CostBasis = usage ? 'provider_usage_derived_estimate' : 'conservative_reservation_estimate';
+      const finalCost = costUsd ?? estimateCostUsd(tier.id);
+      // Same tolerance as the free tier: fenced/prose-wrapped JSON. A 200 with
+      // unparseable body still consumed tokens → record cost, classify protocol.
       let parsed: unknown;
       try {
         parsed = JSON.parse(content);
       } catch {
         const m = content.match(/\{[\s\S]*\}/);
-        if (!m) return { ok: false, error: 'non-JSON response', provider: tier.provider, model: tier.model, tier: tier.id, costUsd, usage, durationMs: Date.now() - start };
+        if (!m) return { ok: false, error: 'non-JSON response', errorKind: 'protocol', provider: tier.provider, model: tier.model, tier: tier.id, costUsd: finalCost, costBasis, usage, durationMs: Date.now() - start };
         try { parsed = JSON.parse(m[0]); } catch {
-          return { ok: false, error: 'non-JSON response', provider: tier.provider, model: tier.model, tier: tier.id, costUsd, usage, durationMs: Date.now() - start };
+          return { ok: false, error: 'non-JSON response', errorKind: 'protocol', provider: tier.provider, model: tier.model, tier: tier.id, costUsd: finalCost, costBasis, usage, durationMs: Date.now() - start };
         }
       }
-      return { ok: true, output: parsed, provider: tier.provider, model: tier.model, tier: tier.id, costUsd, usage, durationMs: Date.now() - start };
+      return { ok: true, output: parsed, provider: tier.provider, model: tier.model, tier: tier.id, costUsd: finalCost, costBasis, usage, durationMs: Date.now() - start };
     } catch (err: any) {
-      return { ok: false, error: err?.message || 'paid invoker failure', provider: tier.provider, model: tier.model, tier: tier.id, durationMs: Date.now() - start };
+      const errorKind = this.classify(err);
+      const safeMsg = errorKind === 'timeout' ? `paid request timed out after ${this.timeoutMs}ms`
+        : errorKind === 'network' ? 'paid request network failure'
+        : 'paid invoker failure';
+      return { ok: false, error: safeMsg, errorKind, provider: tier.provider, model: tier.model, tier: tier.id, durationMs: Date.now() - start };
     }
   }
 }
 
-export type SpendReader = () => Promise<SpendSummary | null>;
-
 /**
- * LadderInvoker — routes each call to the tier the engine requested, with
- * budget enforcement: before any paid call, re-checks today's spend; if the
- * estimate would exceed the daily cap, refuses the paid leg and reports a
- * budget event so the engine can retry at free tier instead. Never throws.
+ * LadderInvoker — routes each call to the tier the engine requested with
+ * DURABLE budget enforcement: cost is reserved atomically in the Postgres
+ * ledger BEFORE the paid call and reconciled after. Fail-closed: if budget
+ * accounting is unavailable, paid escalation is refused and free runs
+ * (accountingFallback — distinct from cap-reached budgetFallback). Free-tier
+ * calls never touch the ledger. Never throws.
  */
 export class LadderInvoker implements AgentInvoker {
   constructor(
     private free: AgentInvoker,
     private paid: AgentInvoker | null,
-    private getSpend: SpendReader,
+    private db: LedgerDb,
   ) {}
+
+  private async runFree(workPacket: unknown, systemPrompt: string, meta: InvokeMeta, extra: Partial<InvokeResult>): Promise<InvokeResult> {
+    const r = await this.free.invoke(workPacket, systemPrompt, { ...meta, tier: 'free' });
+    return { ...r, tier: 'free', costUsd: 0, ...extra };
+  }
 
   async invoke(workPacket: unknown, systemPrompt: string, meta: InvokeMeta): Promise<InvokeResult> {
     const tier = meta.tier ?? 'free';
     if (tier === 'free' || !ladderEnabled() || !this.paid) {
-      const r = await this.free.invoke(workPacket, systemPrompt, { ...meta, tier: 'free' });
-      return { ...r, tier: 'free', costUsd: 0 };
+      return this.runFree(workPacket, systemPrompt, meta, {});
     }
-    // Budget guard: estimate then enforce against today's paid spend.
-    const est = estimateCostUsd(tier);
-    let spend: SpendSummary | null = null;
+
+    // Sweep dead-process reservations BEFORE authorizing a new one. A sweep
+    // failure is an accounting outage: fail closed — paid refused, free runs.
+    let swept: number;
     try {
-      spend = await this.getSpend();
+      swept = await sweepStaleReservations(this.db);
     } catch {
-      spend = null; // if we can't read spend, be conservative: assume ample
+      swept = -1;
     }
-    if (budgetExhausted(spend, est)) {
-      // Fall back to free tier for this call; the engine journals the budget hit.
-      const r = await this.free.invoke(workPacket, systemPrompt, { ...meta, tier: 'free' });
-      return { ...r, tier: 'free', costUsd: 0, budgetFallback: true };
+    if (swept < 0) {
+      return this.runFree(workPacket, systemPrompt, meta, { accountingFallback: true });
     }
+
+    const res = await reserveForCall(this.db, {
+      tier,
+      workItemId: meta.workItemId ?? null,
+      role: meta.role,
+      model: tierFor(tier).model,
+    });
+    if (!res.granted) {
+      if (res.reason === 'cap_reached') {
+        return this.runFree(workPacket, systemPrompt, meta, { budgetFallback: true });
+      }
+      // Fail-closed: accounting unavailable ⇒ paid refused, free only.
+      return this.runFree(workPacket, systemPrompt, meta, { accountingFallback: true });
+    }
+
     const r = await this.paid.invoke(workPacket, systemPrompt, { ...meta, tier });
-    return { ...r, tier, costUsd: r.costUsd ?? est };
+    // Conservative estimate = maximum plausible exposure (ledger-sized).
+    const est = estimateCostUsd(tier);
+    const basis: CostBasis = r.costBasis ?? (r.usage ? 'provider_usage_derived_estimate' : 'conservative_reservation_estimate');
+    const cost = r.costUsd ?? est;
+
+    if (r.ok) {
+      const st = await settleReservation(this.db, res.reservationId, cost, basis);
+      r.costUsd = cost;
+      r.costBasis = basis;
+      r.reservation = { id: res.reservationId, state: st.ok ? 'settled' : 'reserved' };
+      return r;
+    }
+    switch (r.errorKind) {
+      case 'http': {
+        // Provider answered non-2xx: no generation was billed → release.
+        const rel = await releaseReservation(this.db, res.reservationId);
+        r.reservation = { id: res.reservationId, state: rel.ok ? 'released' : 'reserved' };
+        break;
+      }
+      case 'protocol': {
+        // 200 with an unusable body: tokens were consumed → retain estimate.
+        const st = await settleReservation(this.db, res.reservationId, est, 'conservative_reservation_estimate');
+        r.costUsd = est;
+        r.costBasis = 'conservative_reservation_estimate';
+        r.reservation = { id: res.reservationId, state: st.ok ? 'settled' : 'reserved' };
+        break;
+      }
+      case 'timeout':
+      case 'network':
+      case 'unknown':
+      default: {
+        // AMBIGUOUS completion: the request may have reached the provider.
+        // Retain the conservative reservation as an auditable
+        // reconciliation-needed row — never risk undercounting billed spend.
+        const mr = await markReconciliationNeeded(this.db, res.reservationId);
+        r.reservation = { id: res.reservationId, state: mr.ok ? 'reconciliation_needed' : 'reserved' };
+        break;
+      }
+    }
+    return r;
   }
 }

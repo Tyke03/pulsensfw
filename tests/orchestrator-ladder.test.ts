@@ -3,13 +3,15 @@ import assert from 'node:assert/strict';
 import { freshSchema, testPool, closePool } from './setup';
 import {
   tierForAttempt, ladderEnabled, estimateCostUsd, actualCostUsd,
-  budgetExhausted, budgetRemainingUsd, dailyBudgetUsd, utcDay, sumPaidSpendSql,
-  type SpendSummary,
+  dailyBudgetUsd, utcDay, sumPaidSpendSql,
 } from '../server/orchestrator/model-ladder';
 import { LadderInvoker, EchoInvoker, type AgentInvoker, type InvokeMeta, type InvokeResult } from '../server/orchestrator/invoker';
+import type { LedgerDb } from '../server/orchestrator/budget-ledger';
+
+const ledgerDb = testPool as unknown as LedgerDb;
 
 // Env snapshot so dormant-by-default invariants survive the suite.
-const ENV_KEYS = ['PAID_LLM_URL', 'PAID_LLM_API_KEY', 'PAID_LLM_DAILY_BUDGET_USD', 'ESCALATE_AFTER_ATTEMPT'] as const;
+const ENV_KEYS = ['PAID_LLM_URL', 'PAID_LLM_API_KEY', 'PAID_LLM_DAILY_BUDGET_USD', 'PAID_LLM_RESERVE_MARGIN', 'PAID_LLM_RESERVATION_TTL_HOURS', 'PAID_LLM_TIMEOUT_MS', 'PAID_LLM_MAX_TOKENS_TIER1', 'PAID_LLM_MAX_TOKENS_TIER2', 'ESCALATE_AFTER_ATTEMPT'] as const;
 let savedEnv: Record<string, string | undefined> = {};
 
 beforeEach(() => {
@@ -60,11 +62,11 @@ describe('ladder cost math', () => {
     assert.equal(actualCostUsd('free', 100_000, 50_000), 0);
   });
 
-  it('estimate uses blended $/1M rate over input+output tokens', () => {
-    // tier1: (3500 est-input + 2000 est-output) * $0.5/M = $0.00275
-    assert.ok(Math.abs(estimateCostUsd('paid_tier1') - 0.00275) < 1e-9);
-    // tier2: (3500 + 3000) * $1.5/M = $0.00975
-    assert.ok(Math.abs(estimateCostUsd('paid_tier2') - 0.00975) < 1e-9);
+  it('estimate is CONSERVATIVE: reservation input assumption + tier max_tokens', () => {
+    // tier1: (8000 input + 3000 max_tokens) * $0.5/M = $0.0055
+    assert.ok(Math.abs(estimateCostUsd('paid_tier1') - 0.0055) < 1e-9);
+    // tier2: (8000 + 3000) * $1.5/M = $0.0165
+    assert.ok(Math.abs(estimateCostUsd('paid_tier2') - 0.0165) < 1e-9);
   });
 
   it('actual cost comes from usage tokens', () => {
@@ -73,7 +75,7 @@ describe('ladder cost math', () => {
   });
 });
 
-describe('daily budget guard', () => {
+describe('daily budget + conservative reservation', () => {
   it('defaults to $2.00/day and rejects non-positive overrides', () => {
     assert.equal(dailyBudgetUsd(), 2.0);
     process.env.PAID_LLM_DAILY_BUDGET_USD = '10';
@@ -84,24 +86,8 @@ describe('daily budget guard', () => {
     assert.equal(dailyBudgetUsd(), 2.0);
   });
 
-  it('spend from a previous UTC day does not count against today', () => {
-    const stale: SpendSummary = { day: '2020-01-01', paidCostUsd: 99 };
-    assert.equal(budgetRemainingUsd(stale), dailyBudgetUsd());
-    assert.equal(budgetExhausted(stale, 0.00275), false);
+  it('UTC day key format is stable', () => {
     assert.match(utcDay(), /^\d{4}-\d{2}-\d{2}$/);
-  });
-
-  it('exhausts when remaining budget cannot cover the next estimate', () => {
-    // $1.999 spent of $2 → $0.001 left, which CANNOT cover a $0.00275 call
-    const today: SpendSummary = { day: utcDay(), paidCostUsd: 1.999 };
-    assert.equal(budgetExhausted(today, 0.00275), true);
-    // but a smaller call still fits
-    assert.equal(budgetExhausted(today, 0.0005), false);
-    // $1.9999 spent → $0.0001 left → any normal call exhausts
-    const almost: SpendSummary = { day: utcDay(), paidCostUsd: 1.9999 };
-    assert.equal(budgetExhausted(almost, 0.00275), true);
-    const atCap: SpendSummary = { day: utcDay(), paidCostUsd: 2.0 };
-    assert.equal(budgetExhausted(atCap, 0.0001), true);
   });
 });
 
@@ -121,35 +107,49 @@ function makeFreeEcho(): EchoInvoker {
   return inv;
 }
 
-describe('LadderInvoker routing', () => {
-  it('dormant: paid tier request is served at free tier, cost 0, no budget event', async () => {
+before(async () => {
+  await freshSchema();
+  await testPool.query('TRUNCATE paid_budget_reservations, paid_budget_days');
+});
+after(async () => { await closePool(); });
+
+describe('LadderInvoker routing (ledger-backed)', () => {
+  it('dormant: paid tier request is served at free tier, cost 0, no reservation', async () => {
     // no PAID_LLM_* env → disabled
     const free = makeFreeEcho();
-    const inv = new LadderInvoker(free, new StubPaidInvoker(), async () => null);
+    const inv = new LadderInvoker(free, new StubPaidInvoker(), ledgerDb);
     const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
     assert.equal(res.tier, 'free');
     assert.equal(res.costUsd, 0);
     assert.equal(res.budgetFallback, undefined);
-    assert.equal((res.output as any).payload !== undefined || (res.output as any).status, true);
+    assert.equal(res.accountingFallback, undefined);
+    assert.equal(res.reservation, undefined);
   });
 
-  it('enabled: paid call routes to the paid invoker with tier preserved and recorded cost', async () => {
+  it('enabled: paid call reserves, routes paid, settles on success', async () => {
     process.env.PAID_LLM_URL = 'https://openrouter.ai/api/v1/chat/completions';
     process.env.PAID_LLM_API_KEY = 'sk-test';
     const paid = new StubPaidInvoker();
-    const inv = new LadderInvoker(makeFreeEcho(), paid, async () => ({ day: utcDay(), paidCostUsd: 0 }));
+    const inv = new LadderInvoker(makeFreeEcho(), paid, ledgerDb);
     const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier2', attempt: 6 });
     assert.equal(paid.calls, 1);
     assert.equal(res.tier, 'paid_tier2');
     assert.equal(res.costUsd, 0.0042);
+    assert.ok(res.reservation, 'reservation should be recorded');
+    assert.equal(res.reservation!.state, 'settled');
   });
 
-  it('budget cap hit: paid request falls back to free and flags budgetFallback', async () => {
+  it('cap reached: routes to free and flags budgetFallback, paid invoker untouched', async () => {
     process.env.PAID_LLM_URL = 'https://openrouter.ai/api/v1/chat/completions';
     process.env.PAID_LLM_API_KEY = 'sk-test';
     const paid = new StubPaidInvoker();
-    const spend: SpendSummary = { day: utcDay(), paidCostUsd: 2.0 }; // at the $2 cap
-    const inv = new LadderInvoker(makeFreeEcho(), paid, async () => spend);
+    const inv = new LadderInvoker(makeFreeEcho(), paid, ledgerDb);
+    // exhaust the day's budget first
+    await testPool.query(
+      `INSERT INTO paid_budget_days (day, budget_usd, settled_usd) VALUES ($1::date, 0.001, 0.001)
+       ON CONFLICT (day) DO UPDATE SET budget_usd = 0.001, settled_usd = 0.001, reserved_usd = 0`,
+      [utcDay()],
+    );
     const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
     assert.equal(paid.calls, 0);
     assert.equal(res.tier, 'free');
@@ -157,23 +157,66 @@ describe('LadderInvoker routing', () => {
     assert.equal(res.budgetFallback, true);
   });
 
+  it('accounting unavailable: FAIL CLOSED — free runs, accountingFallback set, paid untouched', async () => {
+    process.env.PAID_LLM_URL = 'https://openrouter.ai/api/v1/chat/completions';
+    process.env.PAID_LLM_API_KEY = 'sk-test';
+    const paid = new StubPaidInvoker();
+    const broken: LedgerDb = { query: async () => { throw new Error('db down'); } };
+    const inv = new LadderInvoker(makeFreeEcho(), paid, broken);
+    const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
+    assert.equal(paid.calls, 0);
+    assert.equal(res.tier, 'free');
+    assert.equal(res.costUsd, 0);
+    assert.equal(res.accountingFallback, true);
+    assert.equal(res.budgetFallback, undefined);
+  });
+
+  it('sweep failure: FAIL CLOSED — free runs with accountingFallback and zero paid calls', async () => {
+    process.env.PAID_LLM_URL = 'https://openrouter.ai/api/v1/chat/completions';
+    process.env.PAID_LLM_API_KEY = 'sk-test';
+    await testPool.query('TRUNCATE paid_budget_reservations, paid_budget_days');
+    const paid = new StubPaidInvoker();
+    // Ledger whose ONLY failure is the sweep statement (reservation sweep) —
+    // the sweep must gate authorization entirely.
+    const sweepBroken: LedgerDb = {
+      query: (text: string, values?: unknown[]) => testPool.query(text, values),
+      connect: async () => {
+        const real = await testPool.connect();
+        return {
+          query: async (text: string, values?: unknown[]) => {
+            if (text.includes("reserved_at < NOW()")) throw new Error('sweep outage');
+            return real.query(text, values);
+          },
+          release: () => real.release(),
+        };
+      },
+    } as unknown as LedgerDb;
+    const inv = new LadderInvoker(makeFreeEcho(), paid, sweepBroken);
+    const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
+    assert.equal(paid.calls, 0); // paid invoker never invoked
+    assert.equal(res.tier, 'free');
+    assert.equal(res.costUsd, 0);
+    assert.equal(res.accountingFallback, true);
+    assert.equal(res.budgetFallback, undefined);
+    assert.equal(res.reservation, undefined);
+    const { rows } = await testPool.query(`SELECT count(*)::int AS n FROM paid_budget_reservations`);
+    assert.equal(rows[0].n, 0); // no reservation was created
+  });
+
   it('free tier requests never touch the paid invoker even when enabled', async () => {
     process.env.PAID_LLM_URL = 'https://openrouter.ai/api/v1/chat/completions';
     process.env.PAID_LLM_API_KEY = 'sk-test';
     const paid = new StubPaidInvoker();
-    const inv = new LadderInvoker(makeFreeEcho(), paid, async () => null);
+    const inv = new LadderInvoker(makeFreeEcho(), paid, ledgerDb);
     await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'free' });
     await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow' });
     assert.equal(paid.calls, 0);
   });
 });
 
-// ── Spend accounting against real Postgres ───────────────────────────────────
+// ── Spend accounting (audit aggregate) against real Postgres ─────────────────
 
 describe('paid spend accounting (db)', () => {
-  before(async () => { await freshSchema(); });
-  after(async () => { await closePool(); });
-
   it('sums today\'s paid-tier cost only, ignoring free runs and yesterday', async () => {
     await testPool.query(
       `INSERT INTO work_items (idempotency_key, type, role, category, state)

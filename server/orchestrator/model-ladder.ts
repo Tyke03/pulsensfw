@@ -10,12 +10,15 @@
  *  - No paid model is ever called unless PAID_LLM_API_KEY / PAID_LLM_URL are
  *    configured (ladderEnabled() gates on BOTH).
  *  - free tier is always attempted first; escalation requires repeated
- *    failures (ESCALATE_AFTER_TH_ATTEMPT default 3).
+ *    failures (escalateAfterAttempt(), default 3).
  *  - Every escalation is journaled as a 'model_escalation' event and the run
  *    records its tier + estimated cost in agent_runs (auditability).
- *  - Daily paid spend is capped (PAID_LLM_DAILY_BUDGET_USD, default $2.00);
- *    when the cap is hit the ladder disables itself for the rest of the UTC
- *    day and the fleet falls back to free tier — never hard-fail a tick.
+ *  - Daily paid spend is capped (PAID_LLM_DAILY_BUDGET_USD, default $2.00) by
+ *    a durable Postgres reservation ledger (budget-ledger.ts): cost is
+ *    RESERVED conservatively before the provider call and reconciled after.
+ *    When the cap is hit the ladder falls back to free tier for the rest of
+ *    the UTC day — never hard-fail a tick. When budget ACCOUNTING itself is
+ *    unavailable, paid escalation is REFUSED (fail-closed) and free runs.
  */
 
 export type Tier = 'free' | 'paid_tier1' | 'paid_tier2';
@@ -24,11 +27,27 @@ export type TierDef = {
   id: Tier;
   provider: string;
   model: string;
-  /** Rough blended $/1M tokens (in+out) for pre-flight estimation; actuals come from usage. */
+  /**
+   * Blended $/1M tokens (in+out) for conservative cost ESTIMATION. This is an
+   * estimate, not provider-billed actual — see CostBasis in budget-ledger.ts.
+   */
   usdPerMTokens: number;
-  /** Reasonable output ceiling per call, used for cost estimation only. */
+  /** Typical output tokens — used only for retrospective estimates. */
   estOutputTokens: number;
+  /** max_tokens sent on paid provider calls (hard output-exposure ceiling). */
+  maxTokens: number;
+  /** Conservative input-token assumption for pre-flight budget reservation. */
+  reservationInputTokens: number;
 };
+
+/**
+ * How a recorded cost number was derived. Labels state the EVIDENCE, never
+ * overstate it: token usage × locally configured blended rates is a DERIVED
+ * ESTIMATE, not a provider bill; only a provider-returned billed-cost field
+ * consumed verbatim qualifies as provider_billed_actual (no code path produces
+ * it yet — reserved for forward compatibility).
+ */
+export type CostBasis = 'provider_usage_derived_estimate' | 'conservative_reservation_estimate' | 'provider_billed_actual';
 
 /** Cheap→good ladder. Edit PRICES/MODELS here as the market moves. */
 export const LADDER: Record<Exclude<Tier, 'free'>, TierDef> = {
@@ -39,6 +58,8 @@ export const LADDER: Record<Exclude<Tier, 'free'>, TierDef> = {
     model: process.env.PAID_LLM_MODEL_TIER1 || 'deepseek-chat',
     usdPerMTokens: 0.5,
     estOutputTokens: 2000,
+    maxTokens: Number(process.env.PAID_LLM_MAX_TOKENS_TIER1 || 3000),
+    reservationInputTokens: 8000,
   },
   paid_tier2: {
     id: 'paid_tier2',
@@ -47,6 +68,8 @@ export const LADDER: Record<Exclude<Tier, 'free'>, TierDef> = {
     model: process.env.PAID_LLM_MODEL_TIER2 || 'gpt-4o-mini',
     usdPerMTokens: 1.5,
     estOutputTokens: 3000,
+    maxTokens: Number(process.env.PAID_LLM_MAX_TOKENS_TIER2 || 3000),
+    reservationInputTokens: 8000,
   },
 };
 
@@ -56,6 +79,8 @@ export const FREE_TIER: TierDef = {
   model: process.env.POLLINATIONS_MODEL || 'openai-fast',
   usdPerMTokens: 0,
   estOutputTokens: 2000,
+  maxTokens: 0,
+  reservationInputTokens: 0,
 };
 
 export function tierFor(t: string | null | undefined): TierDef {
@@ -98,10 +123,17 @@ export function tierForAttempt(attempt: number, role: string): Tier {
   return 'paid_tier2';
 }
 
-/** Pre-flight cost estimate for a tier call, in USD. */
-export function estimateCostUsd(t: Tier, estInputTokens = 3500): number {
+/**
+ * Cost estimate for a tier call, in USD. Defaults are CONSERVATIVE (maximum
+ * plausible exposure: full reservation-input + tier max_tokens output) because
+ * this value is what the budget ledger reserves before the provider call.
+ * When usage is reported after the call, the actual replaces the estimate.
+ */
+export function estimateCostUsd(t: Tier, estInputTokens?: number, maxOutputTokens?: number): number {
   const def = tierFor(t);
-  return ((estInputTokens + def.estOutputTokens) * def.usdPerMTokens) / 1_000_000;
+  const input = Math.max(estInputTokens ?? def.reservationInputTokens, 0);
+  const output = Math.max(maxOutputTokens ?? def.maxTokens, 0);
+  return ((input + output) * def.usdPerMTokens) / 1_000_000;
 }
 
 /** Actual/actualized cost from provider usage numbers, in USD. */
@@ -136,8 +168,10 @@ export function budgetExhausted(spend: SpendSummary | null | undefined, nextEsti
 }
 
 /**
- * Aggregate today's paid spend from recorded agent_runs (cost_usd on paid
- * tiers). Kept here so both engine and invoker can share one definition.
+ * AUDIT ONLY — not used for budget enforcement. Authorization flows through
+ * the atomic reservation ledger (budget-ledger.ts); this aggregate exists for
+ * operator reconciliation against agent_runs. agent_runs.cost_usd holds
+ * actual-or-conservative-estimated cost per run (see docs/RUNTIME.md).
  */
 export function sumPaidSpendSql(): string {
   return `SELECT to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD') AS day,
