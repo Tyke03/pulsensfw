@@ -244,6 +244,9 @@ without Brent's approval.
   → validated JSON. Pluggable implementations:
   - `PollinationsInvoker` — OpenAI-compatible call to Pollinations text API, prompt-package
     system prompt + JSON work packet; response parsed & schema-validated. No secrets sent.
+  - `PollinationsPaidInvoker` — paid escalation on Pollinations' own paid platform
+    (`gen.pollinations.ai`, OpenAI-compatible, account API key + Pollen billing); same
+    provider/account path as the free tier, no third-party router. Dormant until armed.
   - `EchoInvoker` — deterministic stub used by tests and shadow mode (fixture-driven), so
     shadow runs require **no network calls at all**.
 - The orchestrator itself runs as a code agent / Render cron tick (per Brent: Render cron

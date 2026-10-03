@@ -40,17 +40,18 @@ OpenAI-compatible endpoint, including their `enter.pollinations.ai`.
 | `POLLINATIONS_ENDPOINT` | `https://text.pollinations.ai/openai` | OpenAI-compatible endpoint |
 | `POLLINATIONS_MODEL` | `openai-fast` | Free-tier default |
 | `POLLINATIONS_MODEL_<ROLE>` | — | Per-role model override |
-| `POLLINATIONS_TOKEN` | — | Only if switching to authenticated tier |
-| `PAID_LLM_URL` | — | Paid-tier OpenAI-compatible endpoint (e.g. OpenRouter). **Unset = ladder dormant, zero paid calls** |
-| `PAID_LLM_API_KEY` | — | Bearer key for `PAID_LLM_URL`. Required together with URL to arm the ladder |
-| `PAID_LLM_MODEL_TIER1` | `deepseek-chat` | Cheap-but-strong escalation model |
-| `PAID_LLM_MODEL_TIER2` | `gpt-4o-mini` | Escalation ceiling for hardest tasks |
-| `PAID_LLM_DAILY_BUDGET_USD` | `2` | Hard daily paid-spend cap (UTC day) enforced by the atomic ledger; cap hit → falls back to free tier |
-| `PAID_LLM_RESERVE_MARGIN` | `0` | Extra headroom fraction reserved on top of the conservative estimate (0–1) |
-| `PAID_LLM_RESERVATION_TTL_HOURS` | `6` | Sweeper retains dead-process reservations as reconciliation-needed after this |
-| `PAID_LLM_TIMEOUT_MS` | `30000` | Paid-provider request timeout (AbortSignal) |
-| `PAID_LLM_MAX_TOKENS_TIER1` | `3000` | max_tokens sent for tier1 calls (caps output exposure; reservation-sized against it) |
-| `PAID_LLM_MAX_TOKENS_TIER2` | `3000` | max_tokens sent for tier2 calls |
+| `POLLINATIONS_TOKEN` | — | Only if switching the FREE tier to an authenticated tier (anonymous works; optional) |
+| `POLLINATIONS_API_KEY` | — | **Arms paid escalation.** Pollinations API key (`sk_…` from enter.pollinations.ai/keys) used as `Authorization: Bearer` on the paid platform. **Unset = ladder dormant, zero paid calls** |
+| `POLLINATIONS_PAID_ENDPOINT` | `https://gen.pollinations.ai/v1/chat/completions` | Pollinations paid-platform OpenAI-compatible endpoint |
+| `POLLEN_USD_RATE` | `1.0` | Conservative USD-per-Pollen conversion for budget math (overestimate; set to the account's actual checkout price once known) |
+| `POLLINATIONS_MODEL_TIER1` | `openai/gpt-6-luna` | Cheap-but-strong escalation model (confirmed in the live Pollinations catalog) |
+| `POLLINATIONS_MODEL_TIER2` | `openai/gpt-6-sol` | Escalation ceiling for hardest tasks (confirmed in the live Pollinations catalog) |
+| `POLLINATIONS_DAILY_BUDGET_USD` | `2` | Hard daily paid-spend cap (UTC day) enforced by the atomic ledger; cap hit → falls back to free tier |
+| `POLLINATIONS_RESERVE_MARGIN` | `0` | Extra headroom fraction reserved on top of the conservative estimate (0–1) |
+| `POLLINATIONS_RESERVATION_TTL_HOURS` | `6` | Sweeper retains dead-process reservations as reconciliation-needed after this |
+| `POLLINATIONS_TIMEOUT_MS` | `30000` | Paid-provider request timeout (AbortSignal) |
+| `POLLINATIONS_MAX_TOKENS_TIER1` | `3000` | max_tokens sent for tier1 calls (caps output exposure; reservation-sized against it) |
+| `POLLINATIONS_MAX_TOKENS_TIER2` | `3000` | max_tokens sent for tier2 calls |
 | `LEDGER_DB_POOL_MAX` | `3` | Max concurrent ledger pool clients (hard clamps 1–20) |
 | `LEDGER_DB_CONNECTION_TIMEOUT_MS` | `5000` | Pool acquisition timeout: `pool.connect()` fails fast past this; failure ⇒ `accounting_unavailable` ⇒ paid refused, free runs |
 | `LEDGER_DB_IDLE_TIMEOUT_MS` | `30000` | Idle ledger connections are closed after this; frees Neon slots between sparse ticks |
@@ -58,7 +59,7 @@ OpenAI-compatible endpoint, including their `enter.pollinations.ai`.
 | `LEDGER_DB_STATEMENT_TIMEOUT_MS` | `5000` | Per-transaction `SET LOCAL statement_timeout`: slow ledger statements abort (rollback + client release) instead of hanging the tick |
 | `LEDGER_DB_QUERY_TIMEOUT_MS` | — (disabled) | Optional client-side pg `query_timeout` watchdog; server-side statement_timeout is the primary bound |
 | `LEDGER_DB_IDLE_TX_TIMEOUT_MS` | — (server default) | Optional `idle_in_transaction_session_timeout` applied at connect; dead-process tx guard |
-| `ESCALATE_AFTER_ATTEMPT` | `3` | Failed attempt # that first earns paid_tier1 (tier2 from attempt+3) |
+| `POLLINATIONS_ESCALATE_AFTER_ATTEMPT` | `3` | Failed attempt # that first earns paid_tier1 (tier2 from attempt+3) |
 | `LOVENSE_LINKS_PATH` | `user_supplied/affiliates/lovense-links.json` | SKU second-tier file |
 | `ADMIN_API_TOKEN` | — | Bearer for `/api/orchestrator/tick` (Render env, never committed) |
 
@@ -67,20 +68,40 @@ OpenAI-compatible endpoint, including their `enter.pollinations.ai`.
 Brent directive: run every task as cheaply as it can be done; escalate only when a
 task proves it needs more; never exceed a hard ceiling.
 
-- **free** (Pollinations `openai-fast`) — always first. Costs $0.
-- **paid_tier1** (`deepseek-chat`, ~$0.5/1M tok) — from attempt `ESCALATE_AFTER_ATTEMPT` (default 3).
-- **paid_tier2** (`gpt-4o-mini`, ~$1.5/1M tok) — from attempt `ESCALATE_AFTER_ATTEMPT + 3`.
+- **free** (Pollinations `openai-fast`, anonymous tier) — always first. Costs $0.
+- **paid_tier1** (`openai/gpt-6-luna`, Pollinations paid platform) — from attempt
+  `POLLINATIONS_ESCALATE_AFTER_ATTEMPT` (default 3). Catalog rates (confirmed live): 0.0000001
+  Pollen/prompt-token, 0.0000005 Pollen/completion-token → conservative reservation
+  ≈ $0.0023/call at $1/Pollen.
+- **paid_tier2** (`openai/gpt-6-sol`, Pollinations paid platform) — from attempt
+  `POLLINATIONS_ESCALATE_AFTER_ATTEMPT + 3`. Catalog rates (confirmed live): 0.000002 Pollen/
+  prompt-token, 0.00001 Pollen/completion-token → conservative reservation
+  ≈ $0.046/call at $1/Pollen.
 
-Arming requires BOTH `PAID_LLM_URL` and `PAID_LLM_API_KEY`; without them the
-ladder is a pure free-tier passthrough.
+**Single provider, no third-party router.** The whole ladder is Pollinations:
+free/default calls go to the anonymous text API (`text.pollinations.ai/openai`,
+`openai-fast`); paid escalation goes to Pollinations' own paid platform
+(`gen.pollinations.ai/v1/chat/completions`, OpenAI-compatible) with the
+account's `sk_` API key. Both tiers draw from the SAME Pollinations account:
+regular models (ours) consume Quest Pollen credits first and only then Paid
+Pollen; `paid_only` models are not used.
+
+**Cost basis.** Per-token Pollen rates come from the live public catalog
+(`gen.pollinations.ai/models`). Pollen's cash price is shown at checkout (USD,
+Stripe) and is not published in docs, so budget math converts Pollen→USD at a
+CONSERVATIVE `POLLEN_USD_RATE` (default 1.0 — an overestimate that errs toward
+less paid spend). No third-party router is involved anywhere in the ladder.
+
+Arming requires `POLLINATIONS_API_KEY`; without it the ladder is a pure
+free-tier passthrough.
 
 **Budget enforcement is fail-closed and atomic** (`server/orchestrator/budget-ledger.ts`):
 before any paid call the estimated maximum exposure (reservation input
 assumption + tier `max_tokens` at the tier's blended rate, plus optional
-`PAID_LLM_RESERVE_MARGIN`) is RESERVED in a durable Postgres ledger
+`POLLINATIONS_RESERVE_MARGIN`) is RESERVED in a durable Postgres ledger
 (`paid_budget_days` / `paid_budget_reservations`, migration 004). The day-row
 debit is a single guarded upsert, so concurrent orchestrator ticks can never
-collectively exceed `PAID_LLM_DAILY_BUDGET_USD` per UTC day. After the callthe reservation is reconciled in an explicit single-client transaction: the
+collectively exceed `POLLINATIONS_DAILY_BUDGET_USD` per UTC day. After the callthe reservation is reconciled in an explicit single-client transaction: the
 reservation row and the day aggregate move together or not at all —
 provider-derived usage replaces the reservation and the unused remainder is
 released; on timeout/transport ambiguity the reservation is RETAINED as counted
@@ -184,11 +205,10 @@ and frees locks rather than hanging a tick while holding row locks.
    `pg_stat_statements` for timeout errors). A rising trend means lock/statement
    bounds are too tight or a dependency is slow — tune before arming paid.
 4. Only after all three are clean on the deployment AND Brent grants separate
-   approval: `PAID_LLM_URL` / `PAID_LLM_API_KEY` may be considered. **Paid
+   approval: `POLLINATIONS_API_KEY` may be set (an `sk_` key created at
+   enter.pollinations.ai/keys on Brent's Pollinations account). **Paid
    escalation stays disabled until that separate approval — deployment
    verification alone does not arm the ladder.**
-Suggested OpenRouter config: `PAID_LLM_URL=https://openrouter.ai/api/v1/chat/completions`
-with models like `deepseek/deepseek-chat` / `openai/gpt-4o-mini`.
 
 ## Scheduling model (replaces legacy cron fleet)
 

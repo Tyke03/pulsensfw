@@ -5,8 +5,8 @@ import * as path from 'path';
 import { storage, slugify, generateToken } from './storage';
 import { selectRelatedPosts } from './orchestrator/end-rail';
 import { tick, currentMode } from './orchestrator/engine';
-import { PollinationsInvoker, LadderInvoker, PaidOpenAIInvoker } from './orchestrator/invoker';
-import { ladderEnabled, LADDER, dailyBudgetUsd } from './orchestrator/model-ladder';
+import { PollinationsInvoker, LadderInvoker, PollinationsPaidInvoker } from './orchestrator/invoker';
+import { ladderEnabled, LADDER, FREE_TIER, dailyBudgetUsd } from './orchestrator/model-ladder';
 import { getLedgerDb, accountingStatus, ledgerPoolHealth } from './orchestrator/budget-ledger';
 
 // ── Research file helpers ─────────────────────────────────────────────────
@@ -198,8 +198,10 @@ async function pingIndexNow(url: string) {
 
 // ── Orchestrator model ladder (cost/quality) ──────────────────────────────
 // Free-first: every task starts on the free tier; a task that keeps failing
-// (attempt >= ESCALATE_AFTER_ATTEMPT) escalates paid tiers under a hard daily
-// budget. Dormant until PAID_LLM_URL + PAID_LLM_API_KEY are configured.
+// (attempt >= POLLINATIONS_ESCALATE_AFTER_ATTEMPT) escalates paid tiers under a hard daily
+// budget. Dormant until POLLINATIONS_API_KEY is configured. Paid escalation
+// runs on Pollinations' own paid platform (gen.pollinations.ai) — the same
+// provider/account path as the free tier; there is no third-party router.
 // Budget enforcement is the durable reservation ledger (budget-ledger.ts) —
 // fail-closed: accounting unavailable ⇒ paid refused. The old read-then-check
 // spend aggregate (sumPaidSpendSql) remains for operator audit only.
@@ -250,7 +252,7 @@ export function registerRoutes(httpServer: Server, app: Express) {
   // (dry_run|shadow|production) controls side-effect execution.
   const orchestratorInvoker = new LadderInvoker(
     new PollinationsInvoker(),
-    ladderEnabled() ? new PaidOpenAIInvoker() : null,
+    ladderEnabled() ? new PollinationsPaidInvoker() : null,
     getLedgerDb(),
   );
   app.post('/api/orchestrator/tick', tokenAuth, async (req, res) => {
@@ -281,7 +283,9 @@ export function registerRoutes(httpServer: Server, app: Express) {
     ok(res, {
       enabled: true, mode: currentMode(), workItems: wi.n, agentRuns: ar.n, events: oe.n,
       ladder: {
+        provider: 'pollinations',
         enabled: ladderEnabled(),
+        defaultModel: FREE_TIER.model,
         tier1Model: LADDER.paid_tier1.model,
         tier2Model: LADDER.paid_tier2.model,
         dailyBudgetUsd: dailyBudgetUsd(),

@@ -2,7 +2,7 @@ import { after, before, beforeEach, afterEach, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import http from 'node:http';
 import { freshSchema, testPool, closePool } from './setup';
-import { PaidOpenAIInvoker, LadderInvoker, EchoInvoker } from '../server/orchestrator/invoker';
+import { PollinationsPaidInvoker, LadderInvoker, EchoInvoker } from '../server/orchestrator/invoker';
 import type { AgentInvoker, InvokeMeta, InvokeResult } from '../server/orchestrator/invoker';
 import { estimateCostUsd } from '../server/orchestrator/model-ladder';
 import {
@@ -18,7 +18,7 @@ import { utcDay, dailyBudgetUsd, LADDER, estimateCostUsd } from '../server/orche
 
 const db = testPool as unknown as LedgerDb;
 
-const ENV_KEYS = ['PAID_LLM_URL', 'PAID_LLM_API_KEY', 'PAID_LLM_DAILY_BUDGET_USD', 'PAID_LLM_RESERVE_MARGIN', 'PAID_LLM_RESERVATION_TTL_HOURS', 'PAID_LLM_TIMEOUT_MS', 'PAID_LLM_MAX_TOKENS_TIER1', 'PAID_LLM_MAX_TOKENS_TIER2', 'ESCALATE_AFTER_ATTEMPT'] as const;
+const ENV_KEYS = ['POLLINATIONS_API_KEY', 'POLLINATIONS_DAILY_BUDGET_USD', 'POLLINATIONS_RESERVE_MARGIN', 'POLLINATIONS_RESERVATION_TTL_HOURS', 'POLLINATIONS_TIMEOUT_MS', 'POLLINATIONS_MAX_TOKENS_TIER1', 'POLLINATIONS_MAX_TOKENS_TIER2', 'POLLINATIONS_ESCALATE_AFTER_ATTEMPT'] as const;
 let savedEnv: Record<string, string | undefined> = {};
 
 beforeEach(async () => {
@@ -59,19 +59,19 @@ async function reservation(id: string) {
 before(async () => { await freshSchema(); });
 after(async () => { await closePool(); });
 
-// tier1 reservation: (8000 input + 3000 max_tokens) * $0.5/M = $0.0055
+// tier1 reservation: (8000 input × 0.0000001 + 3000 max_tokens × 0.0000005) Pollen × $1/Pollen = $0.0023
 const T1 = round6(estimateCostUsd('paid_tier1'));
 const T2 = round6(estimateCostUsd('paid_tier2'));
 
 describe('reservation amounts', () => {
   it('reserves maximum plausible exposure (input assumption + max_tokens)', () => {
-    assert.equal(T1, 0.0055);
-    assert.equal(T2, 0.0165);
+    assert.equal(T1, 0.0023);
+    assert.equal(T2, 0.046);
   });
 
   it('applies the configured margin on top', () => {
-    process.env.PAID_LLM_RESERVE_MARGIN = '0.5';
-    assert.equal(computeReservationAmountUsd('paid_tier1'), 0.00825);
+    process.env.POLLINATIONS_RESERVE_MARGIN = '0.5';
+    assert.equal(computeReservationAmountUsd('paid_tier1'), 0.00345);
   });
 });
 
@@ -89,7 +89,7 @@ describe('reserve', () => {
   });
 
   it('refuses with cap_reached when remaining budget cannot cover the estimate', async () => {
-    await setBudget(0.005); // < T1
+    await setBudget(T1 - 0.0001); // < T1
     const r = await reserveForCall(db, { tier: 'paid_tier1', role: 'writer-vr' });
     assert.deepEqual(r, { granted: false, reason: 'cap_reached' });
   });
@@ -244,7 +244,7 @@ describe('ambiguous completion (timeout / restart recovery)', () => {
          RETURNING day
        )
        INSERT INTO paid_budget_reservations (id, day, role, tier, model, amount_usd, state, reserved_at)
-       SELECT gen_random_uuid(), d.day, 'writer-vr', 'paid_tier1', 'deepseek-chat', $2, 'reserved', NOW() - interval '8 hours' FROM d
+       SELECT gen_random_uuid(), d.day, 'writer-vr', 'paid_tier1', 'openai/gpt-6-luna', $2, 'reserved', NOW() - interval '8 hours' FROM d
        RETURNING id, amount_usd`,
       [utcDay(), T1],
     );
@@ -274,7 +274,7 @@ describe('ambiguous completion (timeout / restart recovery)', () => {
 
   it('sweeper TTL is configurable and defaults to 6h', () => {
     assert.equal(reservationTtlHours(), 6);
-    process.env.PAID_LLM_RESERVATION_TTL_HOURS = '12';
+    process.env.POLLINATIONS_RESERVATION_TTL_HOURS = '12';
     assert.equal(reservationTtlHours(), 12);
   });
 });
@@ -622,7 +622,7 @@ describe('explicit-transaction finalization (corrective design)', () => {
       await new Promise<void>(r => server.listen(0, '127.0.0.1', r));
       const port = (server.address() as { port: number }).port;
       try {
-        const paid = new PaidOpenAIInvoker(`http://127.0.0.1:${port}/v1/chat/completions`, 'sk-test', 2000);
+        const paid = new PollinationsPaidInvoker(`http://127.0.0.1:${port}/v1/chat/completions`, 'sk-test', 2000);
         const res = await paid.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
         assert.equal(res.ok, true);
         assert.equal(res.costBasis, expected);
@@ -636,15 +636,14 @@ describe('explicit-transaction finalization (corrective design)', () => {
 describe('provider timeout leaves budget in a safe state (integration)', () => {
   it('timeout → reservation retained as reconciliation_needed, never released', async () => {
     // LadderInvoker gates on env (not constructor args) — arm the ladder first.
-    process.env.PAID_LLM_URL = 'http://armed-but-overridden-by-constructor';
-    process.env.PAID_LLM_API_KEY = 'sk-test';
+    process.env.POLLINATIONS_API_KEY = 'sk-test';
     await setBudget(2);
     // A server that accepts connections but never responds → client timeout.
     const blackhole = http.createServer(() => { /* never reply */ });
     await new Promise<void>(r => blackhole.listen(0, '127.0.0.1', r));
     const port = (blackhole.address() as { port: number }).port;
     try {
-      const paid = new PaidOpenAIInvoker(`http://127.0.0.1:${port}/v1/chat/completions`, 'sk-test', 80);
+      const paid = new PollinationsPaidInvoker(`http://127.0.0.1:${port}/v1/chat/completions`, 'sk-test', 80);
       const echo = new EchoInvoker(new Map());
       echo.setFixture('writer-vr', { status: 'ok', confidence: 0.9, uncertainty: [], escalation: null, payload: {} });
       const inv = new LadderInvoker(echo, paid, db);
@@ -697,8 +696,7 @@ describe('accounting status states', () => {
 
 describe('ledger pool hardening', () => {
   it('acquisition failure (connect timeout) → free fallback, accountingFallback=true, zero paid calls', async () => {
-    process.env.PAID_LLM_URL = 'https://openrouter.ai/api/v1/chat/completions';
-    process.env.PAID_LLM_API_KEY = 'sk-test';
+    process.env.POLLINATIONS_API_KEY = 'sk-test';
     await setBudget(2); // budget available — the failure must be acquisition-only
     const paid = new StubPaidInvoker();
     const inv = new LadderInvoker(makeFreeEcho(), paid, makeAcquireBrokenDb());
