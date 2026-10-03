@@ -7,7 +7,7 @@
  * day-row debit and the reservation row are written together or not at all,
  * and the guard `budget_usd - reserved_usd - settled_usd >= amount` serializes
  * concurrent callers on the day row lock (READ COMMITTED re-check). Overlapping
- * orchestrator ticks can never collectively exceed PAID_LLM_DAILY_BUDGET_USD.
+ * orchestrator ticks can never collectively exceed POLLINATIONS_DAILY_BUDGET_USD.
  * Cost is reserved conservatively BEFORE the provider call and reconciled
  * (settle/release) after it.
  *
@@ -322,13 +322,13 @@ export type FinalizeOutcome =
 
 /** Extra headroom added on top of the estimate when reserving (0..1). */
 export function reserveMarginFraction(): number {
-  const v = Number(process.env.PAID_LLM_RESERVE_MARGIN);
+  const v = Number(process.env.POLLINATIONS_RESERVE_MARGIN);
   return Number.isFinite(v) && v >= 0 && v <= 1 ? v : 0;
 }
 
 /** Sweeper releases/retains stale reservations after this many hours. */
 export function reservationTtlHours(): number {
-  const v = Number(process.env.PAID_LLM_RESERVATION_TTL_HOURS);
+  const v = Number(process.env.POLLINATIONS_RESERVATION_TTL_HOURS);
   return Number.isFinite(v) && v >= 1 ? Math.floor(v) : 6;
 }
 

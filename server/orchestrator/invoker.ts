@@ -210,25 +210,30 @@ ${JSON.stringify(workPacket)}`;
 }
 
 /**
- * PaidOpenAIInvoker — any OpenAI-compatible paid endpoint (OpenRouter, Groq,
- * OpenAI, DeepSeek direct, …) configured via PAID_LLM_URL + PAID_LLM_API_KEY.
+ * PollinationsPaidInvoker — Pollinations' PAID platform (gen.pollinations.ai),
+ * an OpenAI-compatible endpoint on the SAME provider/account path as the free
+ * PollinationsInvoker. Auth is the account's Pollinations API key
+ * (POLLINATIONS_API_KEY, `sk_…` from enter.pollinations.ai/keys); billing is
+ * Pollen credits (Quest Pollen first for regular models, Paid Pollen for
+ * paid-only models — our tier models are regular). No third-party router is
+ * involved anywhere in the ladder.
  *
  * Hardening:
- *  - Configurable timeout (PAID_LLM_TIMEOUT_MS, default 30s) via AbortSignal.
+ *  - Configurable timeout (POLLINATIONS_TIMEOUT_MS, default 30s) via AbortSignal.
  *  - Structured errorKind classification (timeout/network/protocol/http).
- *  - max_tokens enforced per tier (PAID_LLM_MAX_TOKENS_TIER1/2) — caps the
+ *  - max_tokens enforced per tier (POLLINATIONS_MAX_TOKENS_TIER1/2) — caps the
  *    provider-side output exposure that budget reservations are sized against.
  *  - Never logs or stores API keys, Authorization headers, or provider response
  *    bodies; failures carry status codes and error classes only.
  *  - Cost basis is provider_usage_derived_estimate when usage is returned
- *    (usage × locally configured rates — a derived estimate, not a bill);
+ *    (usage × confirmed catalog Pollen rates — a derived estimate, not a bill);
  *    otherwise conservative_reservation_estimate (max plausible exposure).
  */
-export class PaidOpenAIInvoker implements AgentInvoker {
+export class PollinationsPaidInvoker implements AgentInvoker {
   constructor(
-    private url = process.env.PAID_LLM_URL,
-    private apiKey = process.env.PAID_LLM_API_KEY,
-    private timeoutMs = Number(process.env.PAID_LLM_TIMEOUT_MS) > 0 ? Number(process.env.PAID_LLM_TIMEOUT_MS) : 30_000,
+    private endpoint = process.env.POLLINATIONS_PAID_ENDPOINT || 'https://gen.pollinations.ai/v1/chat/completions',
+    private apiKey = process.env.POLLINATIONS_API_KEY,
+    private timeoutMs = Number(process.env.POLLINATIONS_TIMEOUT_MS) > 0 ? Number(process.env.POLLINATIONS_TIMEOUT_MS) : 30_000,
   ) {}
 
   private classify(err: any): InvokeResult['errorKind'] {
@@ -242,13 +247,13 @@ export class PaidOpenAIInvoker implements AgentInvoker {
 
   async invoke(workPacket: unknown, systemPrompt: string, meta: InvokeMeta): Promise<InvokeResult> {
     const start = Date.now();
-    if (!this.url || !this.apiKey) {
-      return { ok: false, error: 'paid invoker not configured (PAID_LLM_URL/PAID_LLM_API_KEY)', errorKind: 'unconfigured', durationMs: Date.now() - start };
+    if (!this.apiKey) {
+      return { ok: false, error: 'paid invoker not configured (POLLINATIONS_API_KEY)', errorKind: 'unconfigured', durationMs: Date.now() - start };
     }
     const tier = tierFor(meta.tier ?? 'paid_tier1');
     const userContent = `${JSON.stringify(workPacket)}\n\nReturn ONLY a JSON object exactly in this envelope:\n{"status":"ok"|"refused"|"escalate","confidence":0.0,"uncertainty":[],"escalation":{"reason_code":"…","detail":"…","recommended_action":"…"}|null,"payload":{…}}`;
     try {
-      const res = await fetch(this.url, {
+      const res = await fetch(this.endpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

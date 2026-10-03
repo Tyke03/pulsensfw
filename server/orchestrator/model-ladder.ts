@@ -7,13 +7,15 @@
  * keeps failing at free tier earns paid help; budgets cap total exposure.
  *
  * Safety invariants:
- *  - No paid model is ever called unless PAID_LLM_API_KEY / PAID_LLM_URL are
- *    configured (ladderEnabled() gates on BOTH).
+ *  - No paid model is ever called unless POLLINATIONS_API_KEY is configured
+ *    (ladderEnabled() gates on it). Paid escalation runs on Pollinations' own
+ *    paid platform (gen.pollinations.ai) — the SAME provider/account path as
+ *    the free tier; no third-party router is involved.
  *  - free tier is always attempted first; escalation requires repeated
  *    failures (escalateAfterAttempt(), default 3).
  *  - Every escalation is journaled as a 'model_escalation' event and the run
  *    records its tier + estimated cost in agent_runs (auditability).
- *  - Daily paid spend is capped (PAID_LLM_DAILY_BUDGET_USD, default $2.00) by
+ *  - Daily paid spend is capped (POLLINATIONS_DAILY_BUDGET_USD, default $2.00) by
  *    a durable Postgres reservation ledger (budget-ledger.ts): cost is
  *    RESERVED conservatively before the provider call and reconciled after.
  *    When the cap is hit the ladder falls back to free tier for the rest of
@@ -28,10 +30,14 @@ export type TierDef = {
   provider: string;
   model: string;
   /**
-   * Blended $/1M tokens (in+out) for conservative cost ESTIMATION. This is an
-   * estimate, not provider-billed actual — see CostBasis in budget-ledger.ts.
+   * CONFIRMED Pollen-per-token rates from the live Pollinations model catalog
+   * (https://gen.pollinations.ai/models — public, no auth). Pollen is
+   * Pollinations' in-service credit; per-token rates are published per model.
+   * USD figures are derived via usdPerPollen() — an estimate, not a bill (see
+   * CostBasis in budget-ledger.ts).
    */
-  usdPerMTokens: number;
+  pollenPerPromptToken: number;
+  pollenPerCompletionToken: number;
   /** Typical output tokens — used only for retrospective estimates. */
   estOutputTokens: number;
   /** max_tokens sent on paid provider calls (hard output-exposure ceiling). */
@@ -49,26 +55,46 @@ export type TierDef = {
  */
 export type CostBasis = 'provider_usage_derived_estimate' | 'conservative_reservation_estimate' | 'provider_billed_actual';
 
-/** Cheap→good ladder. Edit PRICES/MODELS here as the market moves. */
+/**
+ * USD-per-Pollen conversion used ONLY to express the budget ledger's USD caps
+ * and cost figures. Pollen's cash price is shown at checkout (Stripe, USD) and
+ * is not published in docs, so the default is the CONSERVATIVE face value
+ * 1 Pollen = $1.00 — an overestimate of any realistic purchase rate, which
+ * makes reservations and caps err toward LESS paid spend (fail-closed
+ * direction). Override with POLLEN_USD_RATE once the account checkout price
+ * is known. Model-catalog Pollen rates themselves are confirmed live.
+ */
+export function usdPerPollen(): number {
+  const v = Number(process.env.POLLEN_USD_RATE);
+  return Number.isFinite(v) && v > 0 ? v : 1.0;
+}
+
+/** Cheap→good ladder. Edit POLLEN RATES/MODELS here as the catalog moves. */
 export const LADDER: Record<Exclude<Tier, 'free'>, TierDef> = {
   paid_tier1: {
     id: 'paid_tier1',
-    provider: 'paid-openai-compatible',
-    // Cheap-but-strong default: DeepSeek V3 via any OpenAI-compatible router.
-    model: process.env.PAID_LLM_MODEL_TIER1 || 'deepseek-chat',
-    usdPerMTokens: 0.5,
+    provider: 'pollinations',
+    // Cheap-but-strong escalation: GPT-6 Luna via Pollinations' paid platform.
+    // Confirmed live (gen.pollinations.ai/models): reasoning + tools +
+    // response_format, 1M ctx, regular model (draws Quest Pollen before Paid).
+    model: process.env.POLLINATIONS_MODEL_TIER1 || 'openai/gpt-6-luna',
+    pollenPerPromptToken: 0.0000001,
+    pollenPerCompletionToken: 0.0000005,
     estOutputTokens: 2000,
-    maxTokens: Number(process.env.PAID_LLM_MAX_TOKENS_TIER1 || 3000),
+    maxTokens: Number(process.env.POLLINATIONS_MAX_TOKENS_TIER1 || 3000),
     reservationInputTokens: 8000,
   },
   paid_tier2: {
     id: 'paid_tier2',
-    provider: 'paid-openai-compatible',
-    // Escalation ceiling: frontier model for the hardest roles/refusals.
-    model: process.env.PAID_LLM_MODEL_TIER2 || 'gpt-4o-mini',
-    usdPerMTokens: 1.5,
+    provider: 'pollinations',
+    // Escalation ceiling for the hardest roles/refusals: GPT-6 Sol.
+    // Confirmed live: reasoning + tools + response_format, 1M ctx, regular
+    // model (Quest Pollen first).
+    model: process.env.POLLINATIONS_MODEL_TIER2 || 'openai/gpt-6-sol',
+    pollenPerPromptToken: 0.000002,
+    pollenPerCompletionToken: 0.00001,
     estOutputTokens: 3000,
-    maxTokens: Number(process.env.PAID_LLM_MAX_TOKENS_TIER2 || 3000),
+    maxTokens: Number(process.env.POLLINATIONS_MAX_TOKENS_TIER2 || 3000),
     reservationInputTokens: 8000,
   },
 };
@@ -77,7 +103,8 @@ export const FREE_TIER: TierDef = {
   id: 'free',
   provider: 'pollinations',
   model: process.env.POLLINATIONS_MODEL || 'openai-fast',
-  usdPerMTokens: 0,
+  pollenPerPromptToken: 0,
+  pollenPerCompletionToken: 0,
   estOutputTokens: 2000,
   maxTokens: 0,
   reservationInputTokens: 0,
@@ -90,12 +117,12 @@ export function tierFor(t: string | null | undefined): TierDef {
 }
 
 export function ladderEnabled(): boolean {
-  return Boolean(process.env.PAID_LLM_API_KEY && process.env.PAID_LLM_URL);
+  return Boolean(process.env.POLLINATIONS_API_KEY);
 }
 
 /** Attempt number (1-based) at which a role first earns paid_tier1. Read dynamically so env overrides take effect per-call. */
 export function escalateAfterAttempt(): number {
-  const v = Number(process.env.ESCALATE_AFTER_ATTEMPT);
+  const v = Number(process.env.POLLINATIONS_ESCALATE_AFTER_ATTEMPT);
   return Number.isFinite(v) && v >= 1 ? Math.floor(v) : 3;
 }
 
@@ -128,24 +155,30 @@ export function tierForAttempt(attempt: number, role: string): Tier {
  * plausible exposure: full reservation-input + tier max_tokens output) because
  * this value is what the budget ledger reserves before the provider call.
  * When usage is reported after the call, the actual replaces the estimate.
+ * Pollen rates come from the live Pollinations catalog; the Pollen→USD
+ * conversion is usdPerPollen() (conservative default 1.0).
  */
 export function estimateCostUsd(t: Tier, estInputTokens?: number, maxOutputTokens?: number): number {
   const def = tierFor(t);
   const input = Math.max(estInputTokens ?? def.reservationInputTokens, 0);
   const output = Math.max(maxOutputTokens ?? def.maxTokens, 0);
-  return ((input + output) * def.usdPerMTokens) / 1_000_000;
+  return pollenToUsd(input * def.pollenPerPromptToken + output * def.pollenPerCompletionToken);
 }
 
 /** Actual/actualized cost from provider usage numbers, in USD. */
 export function actualCostUsd(t: Tier, promptTokens: number, completionTokens: number): number {
   const def = tierFor(t);
-  return ((promptTokens + completionTokens) * def.usdPerMTokens) / 1_000_000;
+  return pollenToUsd(promptTokens * def.pollenPerPromptToken + completionTokens * def.pollenPerCompletionToken);
+}
+
+function pollenToUsd(pollen: number): number {
+  return (pollen * usdPerPollen());
 }
 
 // ── Daily budget guard ───────────────────────────────────────────────────────
 
 export function dailyBudgetUsd(): number {
-  const v = Number(process.env.PAID_LLM_DAILY_BUDGET_USD);
+  const v = Number(process.env.POLLINATIONS_DAILY_BUDGET_USD);
   return Number.isFinite(v) && v > 0 ? v : 2.0;
 }
 
