@@ -14,7 +14,7 @@ import {
   getLedgerDb, isTransactionCapableLedgerDb,
   type LedgerDb,
 } from '../server/orchestrator/budget-ledger';
-import { utcDay, dailyBudgetUsd, LADDER, estimateCostUsd } from '../server/orchestrator/model-ladder';
+import { utcDay, dailyBudgetUsd, LADDER, estimateCostUsd, budgetAlertLevel } from '../server/orchestrator/model-ladder';
 
 const db = testPool as unknown as LedgerDb;
 
@@ -887,5 +887,24 @@ describe('production safety — transaction-capable ledger wiring', () => {
 
   it('sweep through a query-only db reports the fail-closed signal (-1)', async () => {
     assert.equal(await sweepStaleReservations(makeQueryOnlyDb()), -1);
+  });
+});
+
+describe('budget alert levels (operator visibility)', () => {
+  it('quiet while plenty of headroom, warn at 50% and 90% thresholds', () => {
+    const budget = 2;
+    assert.equal(budgetAlertLevel(2, budget), 'none');
+    assert.equal(budgetAlertLevel(1.01, budget), 'none'); // just above 50% remaining
+    assert.equal(budgetAlertLevel(1.0, budget), 'warn_50'); // exactly 50% remaining
+    assert.equal(budgetAlertLevel(0.21, budget), 'warn_50');
+    assert.equal(budgetAlertLevel(0.2, budget), 'warn_90'); // exactly 10% remaining
+    assert.equal(budgetAlertLevel(0, budget), 'warn_90');
+    // negative remaining (defensive) still alerts at the highest level
+    assert.equal(budgetAlertLevel(-0.5, budget), 'warn_90');
+  });
+
+  it('no budget configured → never alerts', () => {
+    assert.equal(budgetAlertLevel(0, 0), 'none');
+    assert.equal(budgetAlertLevel(0, -1), 'none');
   });
 });

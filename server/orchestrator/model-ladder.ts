@@ -141,11 +141,15 @@ export function roleCanEscalate(role: string): boolean {
  *   - attempts 1..(N-1): free
  *   - attempt >= N: paid_tier1
  *   - attempt >= N+3 (tier1 also failed 3 times): paid_tier2
+ *   - attempt > maxAttempts (retry budget exhausted): free — the item is routed
+ *     to human review at that point, so paid calls would be pure waste. This
+ *     also caps the blast radius of any stuck item that keeps being re-claimed.
  */
-export function tierForAttempt(attempt: number, role: string): Tier {
+export function tierForAttempt(attempt: number, role: string, maxAttempts?: number | null): Tier {
   if (!ladderEnabled() || !roleCanEscalate(role)) return 'free';
   const N = escalateAfterAttempt();
   if (attempt < N) return 'free';
+  if (typeof maxAttempts === 'number' && maxAttempts > 0 && attempt > maxAttempts) return 'free';
   if (attempt < N + 3) return 'paid_tier1';
   return 'paid_tier2';
 }
@@ -198,6 +202,20 @@ export function budgetRemainingUsd(spend: SpendSummary | null | undefined, now =
 /** True when a paid call must be refused for budget reasons. */
 export function budgetExhausted(spend: SpendSummary | null | undefined, nextEstimateUsd: number, now = new Date()): boolean {
   return budgetRemainingUsd(spend, now) < nextEstimateUsd;
+}
+
+/**
+ * Operator-visible budget alert level for a day, from what remains of the cap.
+ * Pure function; the ledger logs the warning at reservation time so operators
+ * see the approach to the cap in Render logs before it is hit.
+ */
+export type BudgetAlertLevel = 'none' | 'warn_50' | 'warn_90';
+export function budgetAlertLevel(remainingUsd: number, budgetUsd: number): BudgetAlertLevel {
+  if (!(budgetUsd > 0)) return 'none';
+  const remaining = Math.max(0, remainingUsd);
+  if (remaining <= budgetUsd * 0.1) return 'warn_90';
+  if (remaining <= budgetUsd * 0.5) return 'warn_50';
+  return 'none';
 }
 
 /**

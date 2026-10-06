@@ -7,7 +7,7 @@ import { selectRelatedPosts } from './orchestrator/end-rail';
 import { tick, currentMode } from './orchestrator/engine';
 import { PollinationsInvoker, LadderInvoker, PollinationsPaidInvoker } from './orchestrator/invoker';
 import { ladderEnabled, LADDER, FREE_TIER, dailyBudgetUsd } from './orchestrator/model-ladder';
-import { getLedgerDb, accountingStatus, ledgerPoolHealth } from './orchestrator/budget-ledger';
+import { getLedgerDb, accountingStatus, ledgerPoolHealth, getSpendReport } from './orchestrator/budget-ledger';
 
 // ── Research file helpers ─────────────────────────────────────────────────
 const RESEARCH_DIR = process.env.DATA_DIR ? path.join(process.env.DATA_DIR, 'research') : path.join(process.cwd(), 'research');
@@ -305,6 +305,20 @@ export function registerRoutes(httpServer: Server, app: Express) {
         } : null,
       },
     });
+  });
+
+  // Operator spend report: today's paid calls per role/tier, trailing 7-day
+  // trend, and a conservative monthly projection. Figures only — no secrets.
+  app.get('/api/orchestrator/spend-report', tokenAuth, async (_, res) => {
+    if (process.env.ORCHESTRATOR_ENABLED !== 'true') {
+      return ok(res, { enabled: false });
+    }
+    try {
+      ok(res, await getSpendReport(getLedgerDb()));
+    } catch (e: any) {
+      console.error('[orchestrator] spend report failed:', e?.message);
+      err(res, 'spend report unavailable (accounting)', 503);
+    }
   });
 
   // ── Article end-rail API (published-only selection + affiliate resolution) ──

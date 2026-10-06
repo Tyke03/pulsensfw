@@ -47,7 +47,7 @@
 import { Pool } from 'pg';
 import { randomUUID } from 'node:crypto';
 import type { Tier, CostBasis } from './model-ladder';
-import { tierFor, estimateCostUsd, dailyBudgetUsd, utcDay } from './model-ladder';
+import { tierFor, estimateCostUsd, dailyBudgetUsd, utcDay, budgetAlertLevel } from './model-ladder';
 
 export type { CostBasis } from './model-ladder';
 
@@ -407,6 +407,17 @@ export async function reserveForCall(
          VALUES ($1::uuid, $2::date, $3, $4, $5, $6, $7, 'reserved')`,
         [id, day, args.workItemId ?? null, args.role ?? null, tierDef.id, args.model ?? tierDef.model, amount],
       );
+      // Operator-visible approach-to-cap warning in service logs (never secret;
+      // figures only). Fires per granted reservation while the threshold holds.
+      const reservedAfter = Number((r.rows[0] as { reserved_usd?: string | number })?.reserved_usd ?? 0);
+      const remaining = dailyBudgetUsd() - reservedAfter;
+      const level = budgetAlertLevel(remaining, dailyBudgetUsd());
+      if (level !== 'none') {
+        console.warn(
+          `[budget] ${level === 'warn_90' ? '>=90%' : '>=50%'} of the daily paid budget is committed: ` +
+          `$${remaining.toFixed(2)} remaining of $${dailyBudgetUsd().toFixed(2)} (day ${day}, reservation $${amount.toFixed(4)})`,
+        );
+      }
       return { granted: true as const, reservationId: id, day, amountUsd: amount };
     });
   } catch {
@@ -658,6 +669,91 @@ export async function summarizeDay(db: LedgerDb, day = utcDay()): Promise<Status
   } catch {
     return null;
   }
+}
+
+/**
+ * Operator spend report (read-only, figures only — no secrets). Today's totals,
+ * per-role/per-tier breakdown from the reservation audit rows, the trailing
+ * 7-day trend from the day aggregates, and a conservative monthly projection
+ * (trailing-7-day average settled × 30). Projection OVERSTATES nothing: it
+ * inherits POLLEN_USD_RATE's conservative conversion.
+ */
+export type SpendReportRoleRow = {
+  role: string;
+  tier: string;
+  paidCalls: number;
+  reservedUsd: number;
+  settledUsd: number;
+};
+
+export type SpendReport = {
+  day: string;
+  budgetUsd: number;
+  reservedUsd: number;
+  settledUsd: number;
+  releasedUsd: number;
+  remainingUsd: number;
+  paidCallsToday: number;
+  byRoleToday: SpendReportRoleRow[];
+  last7Days: { day: string; budgetUsd: number; settledUsd: number; releasedUsd: number }[];
+  projectedMonthlyUsd: number;
+};
+
+export async function getSpendReport(db: LedgerDb, now = new Date()): Promise<SpendReport> {
+  const day = utcDay(now);
+  return withLedgerTx(db, async (tx) => {
+    const dayRow = await tx.query(
+      `SELECT budget_usd, reserved_usd, settled_usd, released_usd
+         FROM paid_budget_days WHERE day = $1::date`, [day],
+    );
+    const byRole = await tx.query(
+      `SELECT COALESCE(role, 'unknown') AS role, tier, COUNT(*)::int AS calls,
+              SUM(amount_usd)::float AS reserved_usd, COALESCE(SUM(settled_usd), 0)::float AS settled_usd
+         FROM paid_budget_reservations WHERE day = $1::date
+        GROUP BY role, tier
+        ORDER BY settled_usd DESC, calls DESC`, [day],
+    );
+    const week = await tx.query(
+      `SELECT to_char(day, 'YYYY-MM-DD') AS day,
+              budget_usd::float8 AS budget_usd, settled_usd::float8 AS settled_usd,
+              released_usd::float8 AS released_usd
+         FROM paid_budget_days
+        WHERE day >= ($1::date - INTERVAL '6 days')
+        ORDER BY day DESC`, [day],
+    );
+    const row = dayRow.rows[0] as Record<string, string | number> | undefined;
+    const budget = Number(row?.budget_usd ?? dailyBudgetUsd());
+    const reserved = Number(row?.reserved_usd ?? 0);
+    const settled = Number(row?.settled_usd ?? 0);
+    const byRoleToday: SpendReportRoleRow[] = byRole.rows.map((r: Record<string, string | number>) => ({
+      role: String(r.role),
+      tier: String(r.tier),
+      paidCalls: Number(r.calls),
+      reservedUsd: round6(Number(r.reserved_usd)),
+      settledUsd: round6(Number(r.settled_usd)),
+    }));
+    const last7Days = week.rows.map((r: Record<string, string | number>) => ({
+      day: String(r.day),
+      budgetUsd: Number(r.budget_usd),
+      settledUsd: round6(Number(r.settled_usd)),
+      releasedUsd: round6(Number(r.released_usd)),
+    }));
+    const avgSettled = last7Days.length > 0
+      ? last7Days.reduce((s, d) => s + d.settledUsd, 0) / 7
+      : 0;
+    return {
+      day,
+      budgetUsd: budget,
+      reservedUsd: reserved,
+      settledUsd: settled,
+      releasedUsd: Number(row?.released_usd ?? 0),
+      remainingUsd: Math.max(0, round6(budget - reserved - settled)),
+      paidCallsToday: byRoleToday.reduce((s, r) => s + r.paidCalls, 0),
+      byRoleToday,
+      last7Days,
+      projectedMonthlyUsd: round6(avgSettled * 30),
+    } as SpendReport;
+  });
 }
 
 /** Ladder/accounting state for /api/orchestrator/status (no secrets). */

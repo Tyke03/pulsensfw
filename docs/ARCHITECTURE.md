@@ -5,6 +5,56 @@ Owner: Brent (all production-impacting actions require his explicit approval)
 
 ---
 
+## How the system works, in plain language
+
+**One sentence:** a Node app on Render that creates content using Pollinations' AI —
+it always tries the free model first, only pays for smarter models when the free one
+keeps failing, and a ledger in Neon Postgres makes sure it can never spend more than
+the configured daily cap (`POLLINATIONS_DAILY_BUDGET_USD`, default $2).
+
+```
+Render cron "pulsensfw-tick" (periodic heartbeat)
+        │
+        ▼
+Orchestrator (inside web app)  ── picks jobs from the work queue in Neon
+        │
+        ▼
+THE LADDER (model-ladder.ts + invoker.ts)
+  1. FREE Pollinations "openai-fast"            ← every job starts here ($0, no key)
+  2. failed N×? → PAID tier1 "openai/gpt-6-luna"  ← sk_ key, gen.pollinations.ai
+  3. tier1 failed 3× more? → PAID tier2 "openai/gpt-6-sol"  ← ceiling
+  4. still failing / retries exhausted? → held for human review
+        │
+        ▼
+BUDGET LEDGER (budget-ledger.ts → paid_budget_* tables in Neon)
+  • before any paid call: reserve the estimated cost in Postgres
+    (ledger down? → paid refused, stays free — never spends blind)
+  • after the call: record the real cost, release the unused reservation
+  • cap hit → everything falls back to free until the next UTC day
+        │
+        ▼
+RESULTS → posts/content written to Neon → published by the site
+```
+
+Where everything lives: code on GitHub (`Tyke03/pulsensfw`, `main` auto-deploys to
+Render), app + cron on Render, database on Neon Postgres, AI exclusively on
+Pollinations (OpenRouter was removed entirely in the Pollinations-only correction).
+Operator surfaces: `/health` (public heartbeat), `/api/orchestrator/status` (admin
+token — ladder state, budget, pool health), `/api/orchestrator/spend-report` (admin
+token — paid spend per role/tier, 7-day trend, monthly projection). Every run is
+logged in `agent_runs` (tier, model, cost, pass/fail).
+
+Escalation rules that keep costs sane:
+
+- The attempt counter **resets on every successful stage** — a role that once needed
+  paid help drops back to free as soon as it succeeds again.
+- Paid escalation is **capped by the item's retry budget** (`max_attempts`): once a
+  work item has exhausted its attempts it is headed to human review, so it never pays.
+- Report-only stages (health checks, audits) **terminalize their work item** on
+  completion — a succeeded item can never be re-claimed forever.
+
+---
+
 ## 0. Executive summary
 
 This document is the implementation contract for replacing PulseNSFW's independent

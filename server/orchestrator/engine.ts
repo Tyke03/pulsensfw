@@ -112,7 +112,7 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
   // Cost/quality ladder: the attempt number picks the tier (free until the
   // item proves it needs more — see model-ladder.ts). The invoker enforces
   // the daily paid budget and falls back to free if the cap would be exceeded.
-  const tier = tierForAttempt(item.attemptCount, item.role);
+  const tier = tierForAttempt(item.attemptCount, item.role, item.maxAttempts);
   const invokeMeta = { role: item.role, promptId: agent.id, promptVersion: agent.version, mode, tier, attempt: item.attemptCount, workItemId: item.id };
   let result = await invoker.invoke(packet, agent.systemPrompt, invokeMeta);
 
@@ -462,6 +462,11 @@ async function executeStage(
           notes: obs.notes ?? null, checkerRunId: runId,
         });
       }
+      // Report-only stage: finalize the item on the same terminal used by the
+      // audit persona. Without this a succeeded health-check item stays
+      // in_progress forever, is re-claimed every tick (oldest-first ordering),
+      // and starves newer items of the role via the per-role concurrency cap.
+      await transition(item, 'audit_completed', runId);
       return { outcome: 'health_recorded', detail: `${out.observations?.length ?? 0} observations` };
     }
     case 'audit': {
@@ -478,6 +483,15 @@ async function verifyLeaseSmart(lease: { leaseKey: string; attempt: number }, wo
   const rows = await db.select().from(workItems).where(eq(workItems.id, workItemId)).limit(1);
   if (rows.length === 0) throw new Error('work item vanished');
 }
+
+/**
+ * Outcomes that mean the stage did NOT complete: runAgent failed or returned
+ * an unrepairable/escalated status, or a deterministic gate blocked the stage
+ * (after markFailure). The attempt ladder must NOT reset for these — the
+ * retry budget and backoff math depend on the accumulated attempt count, and
+ * resetting would let a permanently broken item retry forever.
+ */
+const STAGE_FAILURE_OUTCOMES = new Set(['failed', 'schema_invalid', 'refused', 'escalated', 'publish_blocked_by_gates', 'unknown_stage']);
 
 /** One orchestrator tick: instruction pickup → claim → execute → record. */
 export async function tick(opts: { invoker: AgentInvoker; mode?: Mode }): Promise<TickResult> {
@@ -555,6 +569,17 @@ export async function tick(opts: { invoker: AgentInvoker; mode?: Mode }): Promis
     try {
       const stage = await executeStage(claimed, lease, opts.invoker, mode);
       await releaseLease(lease, lease.leaseKey);
+      // Completed stage ⇒ the escalation ladder resets. Without this, a
+      // recurring item accumulates attemptCount across ticks and, once it has
+      // failed enough historically, escalates straight to paid tiers on EVERY
+      // future run even while succeeding. Failure-class outcomes are excluded
+      // (see STAGE_FAILURE_OUTCOMES) so retry budgets keep working. Best-effort:
+      // a failed reset must not fail the tick (the next attempt would just
+      // re-increment the counter).
+      if (!STAGE_FAILURE_OUTCOMES.has(stage.outcome)) {
+        await db.update(workItems).set({ attemptCount: 0, updatedAt: new Date() })
+          .where(eq(workItems.id, item.id)).catch(() => {});
+      }
       result.processed += 1;
       result.results.push({ workItemId: item.id, role: item.role, outcome: stage.outcome, detail: stage.detail });
       if (String(stage.detail ?? '').includes('suppressed')) result.suppressed += 1;

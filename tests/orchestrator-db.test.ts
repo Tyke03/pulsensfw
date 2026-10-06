@@ -207,3 +207,58 @@ describe('retry classification & dead-letter (case 6)', () => {
     assert.ok(after.backoffUntil !== null, 'backoff must be scheduled for retry');
   });
 });
+
+describe('health_check lifecycle (recurring-role pinning fix)', () => {
+  it('successful health_check terminalizes the item, resets attemptCount, and unblocks newer role items', async () => {
+    await freshSchema(); // isolate
+    shadowInvoker.setFixture('affiliate-health-checker', {
+      status: 'ok', confidence: 0.9, uncertainty: [], escalation: null,
+      payload: { observations: [{ url: 'https://affiliate.example', status: 'healthy' }] },
+    });
+    // The production failure mode: one old item stuck in in_progress with a
+    // runaway attempt counter (493) — ladder reads paid_tier2 forever while
+    // per-role cap starves every newer item of the role.
+    const stuck = await insertItem({
+      type: 'health_check', role: 'affiliate-health-checker', state: 'in_progress',
+      attemptCount: 493, maxAttempts: 5, idempotencyKey: 'stuck-health-482',
+    });
+    const daily = await insertItem({
+      type: 'health_check', role: 'affiliate-health-checker', state: 'discovered',
+      attemptCount: 0, maxAttempts: 12, idempotencyKey: 'daily-health',
+    });
+
+    // Tick 1: stuck item (oldest) is claimed, runs, must terminalize.
+    const res1 = await tick({ invoker: shadowInvoker, mode: 'shadow' });
+    const stuckRun = res1.results.find(r => r.workItemId === stuck.id);
+    assert.ok(stuckRun, 'stuck item processed');
+    assert.equal(stuckRun!.outcome, 'health_recorded');
+    const afterStuck = (await testDb.select().from(workItems).where(eq(workItems.id, stuck.id)))[0];
+    assert.equal(afterStuck.state, 'audit_completed', `state=${afterStuck.state}`); // terminal: never claimed again
+    assert.equal(afterStuck.attemptCount, 0, 'attemptCount resets on success');
+    // The newer daily item was capped out this tick by the stuck item — the
+    // starvation signature before the fix.
+    const dailyFirst = res1.results.find(r => r.workItemId === daily.id);
+    assert.ok(dailyFirst, 'daily item considered in tick 1');
+    assert.equal(dailyFirst!.outcome, 'skipped_concurrency_cap');
+
+    // Tick 2: with the stuck item gone, the daily item finally runs — free.
+    const res2 = await tick({ invoker: shadowInvoker, mode: 'shadow' });
+    const dailyRun = res2.results.find(r => r.workItemId === daily.id);
+    assert.ok(dailyRun, 'daily item processed once the stuck item terminalized');
+    assert.equal(dailyRun!.outcome, 'health_recorded');
+    const afterDaily = (await testDb.select().from(workItems).where(eq(workItems.id, daily.id)))[0];
+    assert.equal(afterDaily.state, 'audit_completed');
+    assert.equal(afterDaily.attemptCount, 0);
+
+    // Tick 3: the seeder's own daily item (created at tick-1 start) gets its
+    // turn once the cap frees up; afterwards every item of the role is
+    // terminal — cadence restored, nothing claimable, all ladders reset.
+    await tick({ invoker: shadowInvoker, mode: 'shadow' });
+    const remaining = await testDb.select().from(workItems).where(eq(workItems.role, 'affiliate-health-checker'));
+    assert.ok(remaining.length >= 3, `expected stuck + daily + seeded items, got ${remaining.length}`);
+    for (const it of remaining) {
+      assert.equal(it.state, 'audit_completed', `item ${it.id} state=${it.state}`);
+      assert.equal(it.attemptCount, 0, `item ${it.id} attempts=${it.attemptCount}`);
+    }
+  });
+});
