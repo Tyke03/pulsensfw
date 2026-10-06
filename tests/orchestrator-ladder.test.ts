@@ -52,6 +52,23 @@ describe('model ladder policy', () => {
     assert.equal(tierForAttempt(5, 'writer-vr'), 'paid_tier1');
     assert.equal(tierForAttempt(8, 'writer-vr'), 'paid_tier2');
   });
+
+  it('never pays once the retry budget (maxAttempts) is exhausted — free instead', () => {
+    process.env.POLLINATIONS_API_KEY = 'sk-test';
+    process.env.POLLINATIONS_ESCALATE_AFTER_ATTEMPT = '3';
+    // maxAttempts=5: attempts 1..5 may escalate, anything beyond is waste
+    // (the item is headed to human review) — cap keeps a stuck item from
+    // burning paid calls forever.
+    assert.equal(tierForAttempt(3, 'writer-vr', 5), 'paid_tier1');
+    assert.equal(tierForAttempt(5, 'writer-vr', 5), 'paid_tier1'); // attempt == maxAttempts: still allowed
+    assert.equal(tierForAttempt(6, 'writer-vr', 5), 'free');
+    assert.equal(tierForAttempt(493, 'writer-vr', 5), 'free');
+    // no maxAttempts supplied → legacy behavior unchanged
+    assert.equal(tierForAttempt(493, 'writer-vr'), 'paid_tier2');
+    // maxAttempts disabled (0/null) → no cap
+    assert.equal(tierForAttempt(493, 'writer-vr', 0), 'paid_tier2');
+    assert.equal(tierForAttempt(493, 'writer-vr', null), 'paid_tier2');
+  });
 });
 
 describe('ladder cost math', () => {
