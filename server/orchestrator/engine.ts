@@ -19,7 +19,7 @@ import { and, asc, eq, inArray, lte, or, isNull, sql } from 'drizzle-orm';
 import { applyTransition, canTransition, type State } from './state-machine';
 import { claimLease, releaseLease, verifyLease } from './leases';
 import { loadActiveInstructions, evaluateInstructions, markConsumed } from './instructions';
-import { AGENTS, getAgent } from './packages';
+import { AGENTS, getAgent, type AgentPackage } from './packages';
 import type { AgentInvoker } from './invoker';
 import { hashInput } from './invoker';
 import { tierForAttempt } from './model-ladder';
@@ -101,6 +101,42 @@ async function recordRun(args: {
   return row[0].id;
 }
 
+/**
+ * A schema-valid envelope may still declare status='refused'|'escalate'. That
+ * is a deliberate negative/escalation signal from the agent, NOT a success.
+ * Record it under the agent_runs status the contract reserves for it
+ * (shared/schema.ts: refused|escalated) and return it so executeStage routes
+ * the item through markFailure → classifyError → human_review. Before this,
+ * runAgent returned 'succeeded' for a refusal and the stage ran on a null
+ * payload, silently completing/swallowing the task (and resetting its
+ * attempt strikes). Returns null when the envelope did not declare one.
+ */
+async function recordDeclaredRefusal(
+  item: WorkItem, agent: AgentPackage, mode: Mode, packet: unknown,
+  result: Awaited<ReturnType<AgentInvoker['invoke']>>, data: unknown,
+): Promise<{ runId: number; status: string; error: string } | null> {
+  const declared = (data as { status?: string } | null | undefined)?.status;
+  if (declared !== 'refused' && declared !== 'escalate') return null;
+  const status = declared === 'refused' ? 'refused' : 'escalated';
+  const esc = (data as any)?.escalation;
+  const detail = esc && typeof esc === 'object'
+    ? [esc.reason_code, esc.detail, esc.recommended_action].filter(Boolean).join(' — ')
+    : `agent declared status=${declared}`;
+  const error = `${declared}: ${detail}`;
+  const runId = await recordRun({
+    workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version,
+    mode, inputHash: hashInput(packet), result: { ...result, error }, status, attempt: item.attemptCount,
+  });
+  if (result.tier && result.tier !== 'free') {
+    await journal('model_escalation', mode, {
+      role: item.role, tier: result.tier, model: result.model, attempt: item.attemptCount,
+      costUsd: result.costUsd ?? 0, costBasis: result.costBasis ?? null,
+      reservationId: result.reservation?.id ?? null, outcome: status,
+    }, item.id, runId);
+  }
+  return { runId, status, error };
+}
+
 /** Execute one prompt-agent invocation with run recording + schema validation. */
 async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Promise<{
   runId: number; status: string; output?: unknown; error?: string;
@@ -151,6 +187,8 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
     const repair = await invoker.invoke(repairPacket, agent.systemPrompt, invokeMeta);
     const repaired = repair.ok ? agent.outputSchema.safeParse(repair.output) : { success: false } as const;
     if (repair.ok && repaired.success) {
+      const repairedRefusal = await recordDeclaredRefusal(item, agent, mode, packet, repair, repaired.data);
+      if (repairedRefusal) return repairedRefusal;
       const runId = await recordRun({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result: repair, status: 'succeeded', attempt: item.attemptCount });
       if (repair.tier && repair.tier !== 'free') {
         await journal('model_escalation', mode, { role: item.role, tier: repair.tier, model: repair.model, attempt: item.attemptCount, costUsd: repair.costUsd ?? 0, costBasis: repair.costBasis ?? null, reservationId: repair.reservation?.id ?? null, outcome: 'succeeded', repaired: true }, item.id, runId);
@@ -169,6 +207,11 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
     }
     return { runId, status: 'schema_invalid', error: issues };
   }
+
+  // A schema-valid envelope that declares refused/escalate is a held task, not
+  // a success — route it to human review (see recordDeclaredRefusal).
+  const declaredRefusal = await recordDeclaredRefusal(item, agent, mode, packet, result, parsed.data);
+  if (declaredRefusal) return declaredRefusal;
 
   const runId = await recordRun({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result, status: 'succeeded', attempt: item.attemptCount });
   if (result.tier && result.tier !== 'free') {
