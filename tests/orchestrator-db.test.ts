@@ -1,7 +1,7 @@
 import { after, before, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { freshSchema, testDb, testPool, closePool } from './setup';
-import { workItems, agentLeases, agentRuns, orchestrationEvents, posts, affiliates, agentInstructions, affiliateHealthChecks, reviewEscalations, endRailPlans, mediaAssets } from '../shared/schema';
+import { workItems, agentLeases, agentRuns, orchestrationEvents, posts, affiliates, agentInstructions, affiliateHealthChecks, reviewEscalations, endRailPlans, mediaAssets, publishDecisions } from '../shared/schema';
 import { and, eq, sql } from 'drizzle-orm';
 import { claimLease, releaseLease, verifyLease, assertNotStale } from '../server/orchestrator/leases';
 import { tick } from '../server/orchestrator/engine';
@@ -133,8 +133,10 @@ describe('shadow mode suppression (case: run ledger shows no side effects)', () 
     const researchRun = res.results.find(r => r.role === 'research-vr');
     assert.ok(researchRun, 'research item processed');
     assert.equal(researchRun!.outcome, 'research_proposed');
-    // candidate work item created with dedupe key
-    const cand = await testDb.select().from(workItems).where(eq(workItems.idempotencyKey, 'research-candidate:vr-eyetrack-1'));
+    // candidate work item created with the server-derived dedupe key
+    const { createHash } = await import('node:crypto');
+    const h = createHash('sha256').update('new vr headset launches with eye tracking|https://example.com/vr-launch'.toLowerCase()).digest('hex').slice(0, 32);
+    const cand = await testDb.select().from(workItems).where(eq(workItems.idempotencyKey, `research-candidate:${h}-vr-eyetrack-1`));
     assert.equal(cand.length, 1);
     // suppression journaled
     const suppressed = await testDb.select().from(orchestrationEvents).where(eq(orchestrationEvents.type, 'side_effect_suppressed'));
@@ -208,7 +210,136 @@ describe('retry classification & dead-letter (case 6)', () => {
   });
 });
 
-describe('health_check lifecycle (recurring-role pinning fix)', () => {
+describe('writer starvation (PR #6: server-side fingerprints + chain wiring)', () => {
+  // Fresh invoker per suite: shadowInvoker is module-level and would leak
+  // fixtures (and thus candidates) from earlier suites across freshSchema().
+  const inv = new EchoInvoker(new Map());
+
+  it('model-echoed duplicate fingerprints collide; server-side keys do not (regression for 2026-09/10 starvation)', async () => {
+    await freshSchema(); // isolate
+    // First research run proposes two candidates echoing placeholder
+    // fingerprints (the exact production failure mode).
+    inv.setFixture('research-ai-chatbots', {
+      status: 'ok', confidence: 0.9, uncertainty: [], escalation: null,
+      payload: {
+        candidates: [
+          // Topic B echoes the SAME model fingerprint as Topic A. Under the
+          // old key (fingerprint only) it was silently dropped.
+          { topic: 'Topic A', category: 'ai-chatbots', finding: 'A finding about topic A that is long enough.', source_url: 'https://example.com/a', source_date: '2026-10-01', event_date: null, suggested_angle: 'Angle A', confidence: 0.9, duplicate_fingerprint: 'fp1', news_fit: null },
+          { topic: 'Topic B', category: 'ai-chatbots', finding: 'A finding about topic B that is long enough.', source_url: 'https://example.com/b', source_date: '2026-10-01', event_date: null, suggested_angle: 'Angle B', confidence: 0.9, duplicate_fingerprint: 'fp1', news_fit: null },
+        ],
+      },
+    });
+    await insertItem({ idempotencyKey: 'starve-1', role: 'research-ai-chatbots', category: 'ai-chatbots' });
+    await tick({ invoker: inv, mode: 'shadow' });
+    const writerItems = await testDb.select().from(workItems).where(eq(workItems.type, 'draft'));
+    assert.equal(writerItems.length, 2, `expected both candidates to spawn writers, got ${writerItems.length}`);
+    // Keys are derived from topic+source, not the model string.
+    assert.ok(writerItems.every(w => w.idempotencyKey.startsWith('research-candidate:') && w.idempotencyKey !== 'research-candidate:fp1'));
+    // Re-proposing the same topics must NOT duplicate writers.
+    await insertItem({ idempotencyKey: 'starve-2', role: 'research-ai-chatbots', category: 'ai-chatbots' });
+    await tick({ invoker: inv, mode: 'shadow' });
+    const after = await testDb.select().from(workItems).where(eq(workItems.type, 'draft'));
+    assert.equal(after.length, 2, 're-proposed topics must dedupe');
+  });
+
+  it('a terminal-failed writer item is revived when its topic is re-proposed', async () => {
+    await freshSchema();
+    inv.setFixture('research-ai-chatbots', {
+      status: 'ok', confidence: 0.9, uncertainty: [], escalation: null,
+      payload: {
+        candidates: [{ topic: 'Revive me', category: 'ai-chatbots', finding: 'Finding text for the revive test, long enough.', source_url: 'https://example.com/r', source_date: '2026-10-01', event_date: null, suggested_angle: 'Angle', confidence: 0.9, duplicate_fingerprint: 'fpX', news_fit: null }],
+      },
+    });
+    // Pre-plant a dead item with the server-side key the engine will derive.
+    const { createHash } = await import('node:crypto');
+    const h = createHash('sha256').update('revive me|https://example.com/r'.toLowerCase()).digest('hex').slice(0, 32);
+    await insertItem({
+      idempotencyKey: `research-candidate:${h}-fpX`, type: 'draft', role: 'writer-ai-chatbots',
+      state: 'terminal_failure', attemptCount: 13, maxAttempts: 12,
+    });
+    await insertItem({ idempotencyKey: 'revive-research-1', role: 'research-ai-chatbots', category: 'ai-chatbots' });
+    await tick({ invoker: inv, mode: 'shadow' });
+    const rows = await testDb.select().from(workItems).where(eq(workItems.type, 'draft'));
+    assert.equal(rows.length, 1);
+    assert.equal(rows[0].state, 'research_validated', 'terminal item must be revived, not re-inserted');
+    assert.equal(rows[0].attemptCount, 0);
+  });
+
+  it('full chain: research → writer → end_rail → qc → publish in production mode', async () => {
+    await freshSchema();
+    const prodInvoker = new EchoInvoker(new Map());
+    // A good draft fixture that passes every content gate: word count (800+
+    // for vr), meta lengths, 2+ internal /posts/ links, no raw affiliate URLs.
+    const longBody = (slug1: string, slug2: string) =>
+      `<p>${'Immersive adult VR storytelling demands careful craft across many paragraphs of thoughtful analysis and practical guidance for curious readers who want depth. '.repeat(45)}</p>` +
+      `<p>Related: <a href="/posts/${slug1}">guide one</a> and <a href="/posts/${slug2}">guide two</a>.</p>`;
+    prodInvoker.setFixture('writer-vr', {
+      status: 'ok', confidence: 0.9, uncertainty: [], escalation: null,
+      payload: {
+        title: 'Chain Test VR Draft', slug: 'chain-test-vr-draft', excerpt: 'A chain test draft.',
+        body: longBody('seed-one', 'seed-two'),
+        tags: ['vr', 'test', 'chain'], metaTitle: 'Chain Test VR Draft Meta Title For The Gate Check',
+        metaDescription: 'Chain test meta description padded to satisfy the deterministic meta length gate of at least one hundred twenty characters.',
+        intentBrand: null, isStraightNews: false, newsFit: null,
+        visualBrief: { assetSource: 'brand-kit', altText: 'Abstract gradient banner for the chain test draft', caption: null, contentSafetyClassification: 'safe', rightsLicensingStatus: 'brand-owned', generationPromptOrProvenance: null, cropOrFocalPoint: null },
+        internalLinkIntents: [], selfCheck: {},
+      },
+    });
+    prodInvoker.setFixture('affiliate-injector', {
+      status: 'ok', confidence: 0.9, uncertainty: [], escalation: null,
+      payload: { relatedPostIds: [], relatedPostSlugs: ['seed-one'], affiliateIntent: { brand: null, contextuallyRelevant: false, rationale: 'no intent' }, isStraightNews: false, draftContextText: '' },
+    });
+    prodInvoker.setFixture('qc-publisher', {
+      status: 'ok', confidence: 0.95, uncertainty: [], escalation: null,
+      payload: { recommendation: 'publish', scorecard: [{ check: 'all', severity: 'info', pass: true, detail: 'fixture' }], remediation: [] },
+    });
+    // Cold start: seed two PUBLISHED posts so the end_rail gate can find a
+    // valid related slug (avoids the cold-start suppression branch).
+    await testDb.insert(posts).values([
+      { title: 'Seed One', slug: 'seed-one', body: '<p>seed</p>', category: 'vr', status: 'published', publishedAt: new Date() },
+      { title: 'Seed Two', slug: 'seed-two', body: '<p>seed</p>', category: 'vr', status: 'published', publishedAt: new Date() },
+    ]);
+    // Research proposes one candidate.
+    prodInvoker.setFixture('research-vr', {
+      status: 'ok', confidence: 0.9, uncertainty: [], escalation: null,
+      payload: { candidates: [{ topic: 'Chain topic', category: 'vr', finding: 'A chain-test finding with enough text.', source_url: 'https://example.com/chain', source_date: '2026-10-07', event_date: null, suggested_angle: 'Angle', confidence: 0.9, duplicate_fingerprint: 'fpC', news_fit: null }] },
+    });
+    await insertItem({ idempotencyKey: 'chain-research-1', role: 'research-vr', category: 'vr' });
+
+    // Tick 1: research spawns writer candidate.
+    await tick({ invoker: prodInvoker, mode: 'production' });
+    const cand = await testDb.select().from(workItems).where(eq(workItems.type, 'draft'));
+    assert.equal(cand.length, 1);
+
+    // Tick 2: writer persists draft + media, goes visual_ready, seeds end_rail.
+    await tick({ invoker: prodInvoker, mode: 'production' });
+    const draftPost = (await testDb.select().from(posts).where(eq(posts.slug, 'chain-test-vr-draft')))[0];
+    assert.ok(draftPost, 'draft post created');
+    const rail = await testDb.select().from(workItems).where(eq(workItems.type, 'end_rail'));
+    assert.equal(rail.length, 1, 'end_rail follow-on seeded');
+
+    // Tick 3: end-rail plan validated, QC seeded with rail verdict.
+    await tick({ invoker: prodInvoker, mode: 'production' });
+    const railPlan = (await testDb.select().from(endRailPlans))[0];
+    assert.ok(railPlan, 'end-rail plan recorded');
+    const qc = await testDb.select().from(workItems).where(eq(workItems.type, 'qc'));
+    assert.equal(qc.length, 1, 'qc follow-on seeded');
+    assert.equal((qc[0].sourcePayload as any).postId, draftPost.id, 'qc item carries postId');
+
+    // Tick 4: QC recommends publish, deterministic gates pass, post goes live.
+    const res4 = await tick({ invoker: prodInvoker, mode: 'production' });
+    const qcRun = res4.results.find(r => r.role === 'qc-publisher');
+    assert.ok(qcRun, 'qc processed');
+    assert.equal(qcRun!.outcome, 'published', `outcome=${qcRun!.outcome}`);
+    const publishedPost = (await testDb.select().from(posts).where(eq(posts.id, draftPost.id)))[0];
+    assert.equal(publishedPost.status, 'published');
+    assert.ok(publishedPost.publishedAt);
+    const decisions = await testDb.select().from(publishDecisions);
+    assert.equal(decisions.length, 1);
+    assert.equal(decisions[0].decision, 'published');
+  });
+
   it('successful health_check terminalizes the item, resets attemptCount, and unblocks newer role items', async () => {
     await freshSchema(); // isolate
     shadowInvoker.setFixture('affiliate-health-checker', {

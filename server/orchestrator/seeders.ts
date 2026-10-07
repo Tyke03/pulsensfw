@@ -69,9 +69,16 @@ export async function seedDueWorkItems(now = new Date()): Promise<SeededSummary>
   return seeded;
 }
 
-/** Ensure follow-on work items exist after a stage completes (chaining). */
-export async function seedFollowOn(args: { type: string; role: string; category: string; sourcePayload: unknown }): Promise<string | null> {
-  const key = `chain:${args.role}:${Math.floor(Date.now() / (6 * 60 * 60 * 1000))}`;
+/**
+ * Ensure follow-on work items exist after a stage completes (chaining).
+ *
+ * The idempotency key is PER-PARENT (not a per-window bucket): a per-window
+ * key silently dropped every follow-on after the first in the same window,
+ * and the only call site was lost in a refactor — the chain from draft to
+ * end_rail to QC was never executed until 2026-10 (pipeline stall, PR #6).
+ */
+export async function seedFollowOn(args: { type: string; role: string; category: string | null; parentId?: number; sourcePayload: unknown }): Promise<string | null> {
+  const key = `chain:${args.type}:${args.parentId ?? 'orphan'}:${args.role}`;
   const res = await db
     .insert(workItems)
     .values({
