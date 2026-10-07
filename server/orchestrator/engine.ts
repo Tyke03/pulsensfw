@@ -24,9 +24,10 @@ import type { AgentInvoker } from './invoker';
 import { hashInput } from './invoker';
 import { tierForAttempt } from './model-ladder';
 import { resolveEndRailAffiliate, loadLovenseLinks, type HealthStatus } from './affiliate-resolution';
-import { runPublishGates } from './policies';
+import { runPublishGates, type EndRailValidation } from './policies';
+import { createHash } from 'node:crypto';
 import { slugify } from '../storage';
-import { seedDueWorkItems } from './seeders';
+import { seedDueWorkItems, seedFollowOn } from './seeders';
 
 export type Mode = 'production' | 'shadow' | 'dry_run';
 
@@ -289,6 +290,17 @@ async function executeStage(
     'rankings': 'writer-how-to-rankings',
   };
 
+  // Server-side dedup fingerprint. Models echo placeholder strings from the
+  // prompt example ("fp1", "fp2", even "false") verbatim, so a
+  // model-supplied fingerprint can never be trusted as an idempotency key:
+  // every new candidate collides with the first items ever created and is
+  // silently dropped by onConflictDoNothing — the writer-starvation failure
+  // mode observed in production (2026-09-26 → 10-07, zero writers spawned).
+  const candidateKey = (cand: { topic?: string; source_url?: string; duplicate_fingerprint?: string }): string => {
+    const h = createHash('sha256').update(`${cand.topic ?? ''}|${cand.source_url ?? ''}`.toLowerCase()).digest('hex').slice(0, 32);
+    return `${h}${cand.duplicate_fingerprint ? `-${cand.duplicate_fingerprint}` : ''}`;
+  };
+
   switch (agent.stage) {
     case 'research': {
       for (const cand of out.candidates ?? []) {
@@ -307,10 +319,17 @@ async function executeStage(
           });
           continue;
         }
+        // Terminal-failure revival: a writer item that exhausted its retries
+        // must not permanently blacklist its topic, or a recurring research
+        // stream can never spawn a fresh writer for it (Sept-26 writer items
+        // blocked every candidate until they were purged).
+        await db.update(workItems)
+          .set({ state: 'research_validated', attemptCount: 0, maxAttempts: 5, backoffUntil: null, lastError: null, sourcePayload: cand, updatedAt: new Date() })
+          .where(and(eq(workItems.idempotencyKey, `research-candidate:${candidateKey(cand)}`), eq(workItems.state, 'terminal_failure')));
         await db.insert(workItems).values({
-          idempotencyKey: `research-candidate:${cand.duplicate_fingerprint}`,
+          idempotencyKey: `research-candidate:${candidateKey(cand)}`,
           type: 'draft', role: writerRole, category: item.category,
-          state: 'research_validated', sourceRef: `${item.sourceRef ?? ''}#${cand.fingerprint}`,
+          state: 'research_validated', sourceRef: `${item.sourceRef ?? ''}#${cand.duplicate_fingerprint ?? ''}`,
           sourcePayload: cand, priority: 5,
         }).onConflictDoNothing();
       }
@@ -359,14 +378,37 @@ async function executeStage(
       });
       await transition(item, 'draft_persisted', runId);
       await transition(item, 'visual_pending', runId);
-      // visual stage: in shadow, briefs record proposed assets; gating to ready is
-      // an orchestrator decision requiring a ready asset record
+      // visual stage: the writer's brief itself carries alt text + safety
+      // classification, and no image-generation worker exists in the pipeline,
+      // so the orchestrator (which owns all media side effects) auto-readies
+      // an asset whose brief provides usable alt text. Drafts with no usable
+      // brief park at needs_visual for human review.
       const media = await db.select().from(mediaAssets).where(eq(mediaAssets.workItemId, item.id)).limit(1);
       if (media[0]?.status === 'ready' && media[0].altText) {
+        await transition(item, 'visual_ready', runId);
+      } else if (media[0]?.altText && media[0].altText.trim().length >= 10) {
+        await db.update(mediaAssets).set({ status: 'ready', updatedAt: new Date() }).where(eq(mediaAssets.id, media[0].id));
         await transition(item, 'visual_ready', runId);
       } else {
         await transition(item, 'needs_visual', runId);
         return { outcome: 'needs_visual', detail: 'visual brief proposed; asset not ready' };
+      }
+      // Chain the pipeline: end-rail proposal follows a visually-ready draft.
+      // Without this link nothing ever reaches QC or publish (the legacy
+      // seedFollowOn call sites were lost in a refactor).
+      const draftPostId = (created && !('suppressed' in created)) ? (created as any).id : null;
+      if (draftPostId) {
+        await seedFollowOn({
+          type: 'end_rail', role: 'affiliate-injector', category: item.category ?? out.category, parentId: item.id,
+          sourcePayload: {
+            postId: draftPostId, title: out.title, body: out.body, excerpt: out.excerpt ?? null,
+            category: item.category ?? out.category, tags: out.tags ?? [],
+            metaTitle: out.metaTitle ?? null, metaDescription: out.metaDescription ?? null,
+            newsFit: out.newsFit ?? null, intentBrand: out.intentBrand ?? null,
+            isStraightNews: out.isStraightNews ?? item.category === 'industry-news',
+            draftContextText: `${out.title}\n${out.excerpt ?? ''}\n${out.body}`,
+          },
+        });
       }
       return { outcome: 'draft_persisted', detail: 'draft + visual brief recorded' };
     }
@@ -404,6 +446,21 @@ async function executeStage(
       await db.insert(endRailPlans).values({ workItemId: item.id, ...plan });
       await sideEffect(mode, 'draft_update', item, runId, async () => { /* production: persist end-rail payload on post */ }, { mode: resolution.mode });
       await transition(item, 'end_rail_validated', runId);
+      // Chain: QC follows a validated end-rail plan. The QC item carries the
+      // full draft package + postId (for the publish side effect) + the rail
+      // verdict (for the deterministic end_rail gate).
+      const parentDraft = (item.sourcePayload as any) ?? {};
+      await seedFollowOn({
+        type: 'qc', role: 'qc-publisher', category: item.category, parentId: item.id,
+        sourcePayload: {
+          ...parentDraft,
+          postId: parentDraft.postId,
+          endRail: {
+            relatedPostSlugs: relatedValid,
+            affiliate: { mode: resolution.mode, disclosureRequired: Boolean(plan.disclosureText) },
+          } as EndRailValidation,
+        },
+      });
       return { outcome: valid ? 'end_rail_valid' : 'end_rail_invalid', detail: plan.validationDetail ? JSON.stringify(plan.validationDetail) : undefined };
     }
     case 'qc': {
@@ -420,6 +477,16 @@ async function executeStage(
       }
       // deterministic re-verification (orchestrator never trusts QC alone)
       const sourceItem = item.sourcePayload as any ?? {};
+      const publishedRows = await db.select({ slug: posts.slug }).from(posts).where(eq(posts.status, 'published'));
+      const publishedSlugs = new Set(publishedRows.map(p => p.slug));
+      const qcPostId = sourceItem.postId as number | undefined;
+      const mediaRow = qcPostId
+        ? (await db.select().from(mediaAssets).where(eq(mediaAssets.postId, qcPostId)).limit(1))[0] ?? null
+        : null;
+      // Cold start: with zero published posts there is nothing to related-link
+      // to, so the end_rail gate cannot pass through no fault of the draft.
+      // It is suppressed until the site's first published post exists.
+      const coldStart = publishedSlugs.size === 0;
       const gates = runPublishGates({
         draft: {
           category: sourceItem.category ?? item.category ?? '', title: sourceItem.title ?? '',
@@ -427,9 +494,9 @@ async function executeStage(
           metaDescription: sourceItem.metaDescription ?? null, newsFit: sourceItem.newsFit ?? null,
           intentBrand: sourceItem.intentBrand ?? null,
         },
-        media: null, endRail: null, publishedSlugs: new Set<string>(),
+        media: mediaRow, endRail: sourceItem.endRail ?? null, publishedSlugs,
       });
-      const failing = gates.filter(g => !g.pass);
+      const failing = gates.filter(g => !g.pass && !(coldStart && g.gate === 'end_rail'));
       if (failing.length > 0) {
         await markFailure(item, `publish gates failed: ${failing.map(g => g.gate).join(',')}`, runId);
         return { outcome: 'publish_blocked_by_gates', detail: failing.map(g => g.gate).join(',') };
