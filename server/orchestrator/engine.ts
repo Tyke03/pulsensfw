@@ -206,7 +206,13 @@ function classifyError(err: string, runStatus?: string): 'retryable' | 'terminal
   if (e.includes('schema_invalid') || e.includes('illegal state')) return 'terminal';
   if (e.includes('no fixture') || e.includes('unknown agent')) return 'terminal';
   if (e.includes('timeout') || e.includes('http 5') || e.includes('http 429') || e.includes('network') || e.includes('fetch')) return 'retryable';
-  if (e.includes('policy') || e.includes('sensitive')) return 'human_review';
+  // Deterministic content-gate failures (word_count, meta_lengths,
+  // internal_links, …) are RETRYABLE: the paid-tier escalation exists exactly
+  // to give a failing draft a better model, and routing every gate miss to a
+  // human parked 67 items in review_escalations (pre-purge audit). Only a
+  // genuinely sensitive gate finding stays human-in-the-loop.
+  if (e.startsWith('policy:')) return e.includes('sensitive') || e.includes('news_fit') ? 'human_review' : 'retryable';
+  if (e.includes('sensitive')) return 'human_review';
   return 'retryable';
 }
 
@@ -558,7 +564,7 @@ async function verifyLeaseSmart(lease: { leaseKey: string; attempt: number }, wo
  * retry budget and backoff math depend on the accumulated attempt count, and
  * resetting would let a permanently broken item retry forever.
  */
-const STAGE_FAILURE_OUTCOMES = new Set(['failed', 'schema_invalid', 'refused', 'escalated', 'publish_blocked_by_gates', 'unknown_stage']);
+const STAGE_FAILURE_OUTCOMES = new Set(['failed', 'schema_invalid', 'refused', 'escalated', 'publish_blocked_by_gates', 'draft_blocked_by_policy', 'unknown_stage']);
 
 /** One orchestrator tick: instruction pickup → claim → execute → record. */
 export async function tick(opts: { invoker: AgentInvoker; mode?: Mode }): Promise<TickResult> {
