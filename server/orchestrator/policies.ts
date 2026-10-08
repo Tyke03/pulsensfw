@@ -37,7 +37,10 @@ const AFFILIATE_HREF_RE = /<a\s[^>]*href="(https?:\/\/[^"]+)"[^>]*>/gi;
 export function checkWordCount(d: DraftMeta): GateResult {
   const policy = WORD_COUNT_POLICY[d.category as Category];
   if (!policy) return { gate: 'word_count', pass: false, detail: `unknown category ${d.category}` };
-  const words = d.body.trim().split(/\s+/).filter(Boolean).length;
+  // Defensive: model payloads arrive via JSON envelopes; a missing body must
+  // yield a policy failure, never a TypeError crash in the tick loop.
+  const body = d.body ?? '';
+  const words = body.trim().split(/\s+/).filter(Boolean).length;
   const pass = words >= policy.min && words <= policy.max;
   return { gate: 'word_count', pass, detail: `${words} words (policy ${policy.min}-${policy.max})` };
 }
@@ -50,14 +53,14 @@ export function checkMeta(d: DraftMeta): GateResult {
 }
 
 export function checkInternalLinks(d: DraftMeta): GateResult {
-  const matches = d.body.match(INTERNAL_LINK_RE) ?? [];
+  const matches = (d.body ?? '').match(INTERNAL_LINK_RE) ?? [];
   const pass = matches.length >= 2;
   return { gate: 'internal_links', pass, detail: `${matches.length} /posts/[slug] links (min 2)` };
 }
 
 export function checkNoRawAffiliateUrls(d: DraftMeta): GateResult {
   const offenders: string[] = [];
-  for (const m of d.body.matchAll(AFFILIATE_HREF_RE)) {
+  for (const m of (d.body ?? '').matchAll(AFFILIATE_HREF_RE)) {
     const url = m[1];
     if (RAW_AFFILIATE_HINTS.some(h => url.includes(h))) offenders.push(url);
   }
@@ -130,7 +133,7 @@ export function runPublishGates(args: {
     checkMeta(draft),
     checkInternalLinks(draft),
     checkNoRawAffiliateUrls(draft),
-    checkRetiredPositioning(`${draft.title}\n${draft.body}\n${draft.metaTitle ?? ''}\n${draft.metaDescription ?? ''}`),
+    checkRetiredPositioning(`${draft.title ?? ''}\n${draft.body ?? ''}\n${draft.metaTitle ?? ''}\n${draft.metaDescription ?? ''}`),
     checkNewsFit(draft),
     checkMediaReadiness(media),
     checkEndRail(endRail, publishedSlugs),

@@ -281,8 +281,28 @@ async function executeStage(
 
   const role = item.role;
   const agent = getAgent(role)!;
+  // Envelope-level refusals: the schema deliberately allows payload=null so a
+  // model can decline (status=refused) or escalate. Those envelopes parsed fine
+  // but have NO stage data — falling through to the stage switch crashed on
+  // undefined fields (e.g. checkWordCount reading .trim() of undefined) and
+  // never reached the human-review path a refusal is supposed to take.
+  const envelope = (output ?? {}) as any;
+  if (envelope.status === 'refused') {
+    const why = envelope.escalation?.detail || envelope.escalation?.reason_code || 'model declined (no reason given)';
+    await markFailure(item, `refused: ${why}`, runId, 'refused');
+    return { outcome: 'refused', detail: String(why).slice(0, 200) };
+  }
+  if (envelope.status === 'escalate') {
+    const why = envelope.escalation?.detail || envelope.escalation?.reason_code || 'model requested escalation';
+    await markFailure(item, `escalated: ${why}`, runId, 'escalated');
+    return { outcome: 'escalated', detail: String(why).slice(0, 200) };
+  }
+  if (envelope.payload == null) {
+    await markFailure(item, 'schema_invalid: status ok but payload missing/null', runId, 'schema_invalid');
+    return { outcome: 'schema_invalid', detail: 'null payload on ok envelope' };
+  }
   // Unwrap the validated envelope: stage data lives under `payload`.
-  const out = ((output as any)?.payload ?? output) as any;
+  const out = envelope.payload as any;
 
   // Research categories → registered writer roles. Categories and roles are
   // not 1:1 (how-to & rankings share writer-how-to-rankings; industry news is

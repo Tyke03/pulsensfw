@@ -243,6 +243,69 @@ describe('retry classification & dead-letter (case 6)', () => {
   });
 });
 
+describe('envelope refusal handling (PR #8: refused/null payloads never crash the tick)', () => {
+  it('a refused envelope routes to human_review with an escalation row, not a TypeError crash', async () => {
+    await freshSchema();
+    const inv = new EchoInvoker(new Map());
+    // payload is null and status is refused — schema-valid by design
+    // (refusalOr makes payload nullable) but with NO stage data.
+    inv.setFixture('writer-vr', {
+      status: 'refused', confidence: 0.4, uncertainty: ['insufficient sourcing'],
+      escalation: { reason_code: 'insufficient_material', detail: 'source material too thin for a full draft', recommended_action: 're-research' },
+      payload: null,
+    });
+    const item = await insertItem({
+      idempotencyKey: 'refuse-1', type: 'draft', role: 'writer-vr', category: 'vr', state: 'ready_to_write',
+    });
+    const res = await tick({ invoker: inv, mode: 'shadow' });
+    const r = res.results.find(x => x.workItemId === item.id);
+    assert.equal(r!.outcome, 'refused');
+    const after = (await testDb.select().from(workItems).where(eq(workItems.id, item.id)))[0];
+    assert.equal(after.state, 'human_review', `state=${after.state}`);
+    const esc = await testDb.select().from(reviewEscalations).where(eq(reviewEscalations.workItemId, item.id));
+    assert.ok(esc.length >= 1, 'refusal must leave an escalation row');
+  });
+
+  it('an ok envelope with null payload fails schema-invalid (retryable), never crashes the tick', async () => {
+    await freshSchema();
+    const inv = new EchoInvoker(new Map());
+    inv.setFixture('writer-vr', { status: 'ok', confidence: 0.9, uncertainty: [], escalation: null, payload: null });
+    const item = await insertItem({
+      idempotencyKey: 'nullpayload-1', type: 'draft', role: 'writer-vr', category: 'vr', state: 'ready_to_write',
+    });
+    const res = await tick({ invoker: inv, mode: 'shadow' });
+    const r = res.results.find(x => x.workItemId === item.id);
+    assert.equal(r!.outcome, 'schema_invalid');
+    const after = (await testDb.select().from(workItems).where(eq(workItems.id, item.id)))[0];
+    assert.ok(!['terminal_failure', 'human_review'].includes(after.state), `state=${after.state}`);
+    assert.ok(after.backoffUntil !== null, 'must be scheduled for retry');
+  });
+
+  it('a draft whose body meets the internal-link minimum passes the internal_links gate', async () => {
+    await freshSchema();
+    const inv = new EchoInvoker(new Map());
+    const body = `${'<p>Solid paragraph of genuinely substantive VR coverage prose. </p>'.repeat(120)}
+      <p>See also <a href="/posts/related-vr-guide">our VR guide</a> and <a href="/posts/best-vr-headsets">best VR headsets</a>.</p>`;
+    inv.setFixture('writer-vr', {
+      status: 'ok', confidence: 0.9, uncertainty: [], escalation: null,
+      payload: {
+        title: 'Adequate Length VR Draft With Internal Links', slug: 'adequate-vr-draft', excerpt: 'Excerpt for the adequate draft.',
+        body, tags: ['vr', 'headsets', 'guide'], metaTitle: 'Adequate Length VR Draft With Internal Links Guide',
+        metaDescription: 'A deliberately long meta description that comfortably exceeds one hundred and twenty characters in total length so the meta gate passes.',
+        intentBrand: null, isStraightNews: false, newsFit: null,
+        visualBrief: { assetSource: 'brand-kit', altText: 'VR headset on a desk in editorial lighting', caption: null, contentSafetyClassification: 'safe', rightsLicensingStatus: 'owned', generationPromptOrProvenance: null, cropOrFocalPoint: null },
+        internalLinkIntents: [], selfCheck: {},
+      },
+    });
+    const item = await insertItem({
+      idempotencyKey: 'links-1', type: 'draft', role: 'writer-vr', category: 'vr', state: 'ready_to_write',
+    });
+    const res = await tick({ invoker: inv, mode: 'shadow' });
+    const r = res.results.find(x => x.workItemId === item.id);
+    assert.equal(r!.outcome, 'draft_persisted', `outcome=${r!.outcome} detail=${r!.detail}`);
+  });
+});
+
 describe('writer starvation (PR #6: server-side fingerprints + chain wiring)', () => {
   // Fresh invoker per suite: shadowInvoker is module-level and would leak
   // fixtures (and thus candidates) from earlier suites across freshSchema().
