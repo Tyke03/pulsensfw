@@ -193,6 +193,39 @@ describe('publish authorization (case 9/10 core path)', () => {
 });
 
 describe('retry classification & dead-letter (case 6)', () => {
+  it('draft_blocked_by_policy consumes the attempt budget (ladder can escalate)', async () => {
+    await freshSchema();
+    const inv = new EchoInvoker(new Map());
+    // Writer produces a draft that deterministically fails the content gates
+    // (tiny body, no internal links) on every attempt.
+    inv.setFixture('writer-vr', {
+      status: 'ok', confidence: 0.9, uncertainty: [], escalation: null,
+      payload: {
+        title: 'Too Short', slug: 'too-short-draft', excerpt: 'Short.', body: '<p>thin</p>',
+        tags: ['a', 'b', 'c'], metaTitle: 'short', metaDescription: 'shorter still',
+        intentBrand: null, isStraightNews: false, newsFit: null, visualBrief: null,
+        internalLinkIntents: [], selfCheck: {},
+      },
+    });
+    const item = await insertItem({
+      idempotencyKey: 'policy-block-1', type: 'draft', role: 'writer-vr', category: 'vr', state: 'ready_to_write',
+    });
+    await tick({ invoker: inv, mode: 'shadow' });
+    const after1 = (await testDb.select().from(workItems).where(eq(workItems.id, item.id)))[0];
+    assert.equal(after1.attemptCount, 1, `attempts after tick 1 = ${after1.attemptCount}`);
+    // Failed gate ⇒ retryable: parked back at its pre-failure working state
+    // (draft_proposed) with backoff, NOT routed to human_review.
+    assert.equal(after1.state, 'draft_proposed');
+    // attemptCount must ACCUMULATE across ticks — under the pre-fix behavior
+    // it reset to 0 after every blocked attempt, so tierForAttempt never
+    // escalated and the ladder could not engage. (Clear backoff to simulate
+    // the retry window elapsing.)
+    await testDb.update(workItems).set({ backoffUntil: null }).where(eq(workItems.id, item.id));
+    await tick({ invoker: inv, mode: 'shadow' });
+    const after2 = (await testDb.select().from(workItems).where(eq(workItems.id, item.id)))[0];
+    assert.equal(after2.attemptCount, 2, `attempts after tick 2 = ${after2.attemptCount}`);
+  });
+
   it('schema failures are retryable within budget, never dead while attempts remain', async () => {
     await freshSchema(); // isolate from leftovers of earlier tests
     const bad = new EchoInvoker(new Map());
