@@ -274,15 +274,37 @@ HARD RULES:
   outputSchema: refusalOr(
     z.object({
       recommendation: z.enum(['publish', 'hold', 'reject']),
-      scorecard: z.array(
-        z.object({
-          check: z.string(),
-          severity: z.enum(['info', 'minor', 'major', 'critical']),
-          pass: z.boolean(),
-          detail: z.string(),
-        }),
-      ),
-      remediation: z.array(z.string()).default([]),
+      // Scorecard/remediation are ADVISORY (stored in escalation detail);
+      // only `recommendation` gates publishing. Models routinely return the
+      // scorecard as an object or remediation as objects — coerce instead of
+      // burning retries on schema_invalid for data nobody branches on.
+      scorecard: z.preprocess((v: any) => {
+        const toEntry = (check: unknown, e: unknown) => {
+          if (e && typeof e === 'object') {
+            const o = e as Record<string, unknown>;
+            return {
+              check: String(o.check ?? check ?? 'check'),
+              severity: (['info', 'minor', 'major', 'critical'].includes(String(o.severity)) ? o.severity : 'info'),
+              pass: Boolean(o.pass ?? true),
+              detail: String(o.detail ?? ''),
+            };
+          }
+          return { check: String(check ?? 'check'), severity: 'info' as const, pass: true, detail: String(e ?? '') };
+        };
+        if (Array.isArray(v)) return v.map((e: any, i: number) => toEntry(e?.check ?? `item-${i}`, e));
+        if (v && typeof v === 'object') return Object.entries(v).map(([check, e]) => toEntry(check, e));
+        return [];
+      }, z.array(z.object({
+        check: z.string(),
+        severity: z.enum(['info', 'minor', 'major', 'critical']),
+        pass: z.boolean(),
+        detail: z.string(),
+      }))),
+      remediation: z.preprocess((v: any) => {
+        if (Array.isArray(v)) return v.map((e: any) => (typeof e === 'string' ? e : String((e as any)?.detail ?? (e as any)?.message ?? JSON.stringify(e))));
+        if (typeof v === 'string') return [v];
+        return [];
+      }, z.array(z.string()).default([])),
     }),
   ),
   buildWorkPacket: (item: { sourcePayload?: unknown; context?: unknown }) => ({
