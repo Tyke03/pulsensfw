@@ -569,6 +569,11 @@ async function executeStage(
         await transition(item, 'publish_eligible', runId);
         await transition(item, 'published', runId);
         await transition(item, 'audit_pending', runId);
+        // audit_pending is a terminal lane (no auditor worker runs on it in the
+        // tick); leaving it eligible caused the published item to be re-claimed
+        // and re-published every tick until publish_decisions' idempotency key
+        // rejected the duplicate. Finalize it here.
+        await transition(item, 'audit_completed', runId);
         return { outcome: 'published' };
       }
       return { outcome: 'publish_suppressed', detail: 'shadow/dry_run' };
@@ -647,7 +652,7 @@ export async function tick(opts: { invoker: AgentInvoker; mode?: Mode }): Promis
     .where(and(
       eq(workItems.queue, 'daily'),
       or(isNull(workItems.backoffUntil), lte(workItems.backoffUntil, new Date())),
-      inArray(workItems.state, ['discovered', 'research_validated', 'ready_to_write', 'claimed', 'in_progress', 'draft_proposed', 'end_rail_pending', 'qc_pending', 'audit_pending'] as unknown as string[]),
+      inArray(workItems.state, ['discovered', 'research_validated', 'ready_to_write', 'claimed', 'in_progress', 'draft_proposed', 'end_rail_pending', 'qc_pending'] as unknown as string[]),
     ))
     .orderBy(asc(workItems.priority), asc(workItems.createdAt))
     .limit(MAX_BATCH);
