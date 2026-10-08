@@ -281,6 +281,33 @@ describe('envelope refusal handling (PR #8: refused/null payloads never crash th
     assert.ok(after.backoffUntil !== null, 'must be scheduled for retry');
   });
 
+  it('a draft with an empty visualBrief.altText is auto-readied with synthesized alt text, not parked at needs_visual', async () => {
+    await freshSchema();
+    const inv = new EchoInvoker(new Map());
+    const body = `${'<p>Substantive VR coverage paragraph with genuinely useful editorial detail. </p>'.repeat(120)}`;
+    inv.setFixture('writer-vr', {
+      status: 'ok', confidence: 0.9, uncertainty: [], escalation: null,
+      payload: {
+        title: 'Empty Alt Text VR Draft', slug: 'empty-alt-vr-draft', excerpt: 'Excerpt for the empty-alt draft.',
+        body: `${body}<p>Related: <a href="/posts/vr-setup-guide">VR setup guide</a> and <a href="/posts/top-vr-platforms">top VR platforms</a>.</p>`,
+        tags: ['vr', 'guide', 'platforms'], metaTitle: 'Empty Alt Text VR Draft For Visual Fallback Test',
+        metaDescription: 'A deliberately long meta description that comfortably exceeds one hundred and twenty characters so the meta_lengths gate passes for this test.',
+        intentBrand: null, isStraightNews: false, newsFit: null,
+        visualBrief: { assetSource: 'brand-kit', altText: '', caption: null, contentSafetyClassification: 'safe', rightsLicensingStatus: 'owned', generationPromptOrProvenance: null, cropOrFocalPoint: null },
+        internalLinkIntents: [], selfCheck: {},
+      },
+    });
+    const item = await insertItem({
+      idempotencyKey: 'emptyalt-1', type: 'draft', role: 'writer-vr', category: 'vr', state: 'ready_to_write',
+    });
+    const res = await tick({ invoker: inv, mode: 'shadow' });
+    const r = res.results.find(x => x.workItemId === item.id);
+    assert.equal(r!.outcome, 'draft_persisted', `outcome=${r!.outcome} detail=${r!.detail}`);
+    const media = await testDb.select().from(mediaAssets).where(eq(mediaAssets.workItemId, item.id));
+    assert.equal(media[0].status, 'ready');
+    assert.ok((media[0].altText ?? '').trim().length >= 10, 'synthesized alt text must be usable');
+  });
+
   it('a draft whose body meets the internal-link minimum passes the internal_links gate', async () => {
     await freshSchema();
     const inv = new EchoInvoker(new Map());

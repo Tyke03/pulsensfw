@@ -415,6 +415,15 @@ async function executeStage(
       } else if (media[0]?.altText && media[0].altText.trim().length >= 10) {
         await db.update(mediaAssets).set({ status: 'ready', updatedAt: new Date() }).where(eq(mediaAssets.id, media[0].id));
         await transition(item, 'visual_ready', runId);
+      } else if (media[0]) {
+        // Models frequently return an empty visualBrief.altText ("" passes the
+        // string schema), which used to park every draft at needs_visual — a
+        // state the tick loop cannot claim, dead-ending the chain. The brief
+        // is orchestrator-owned metadata: synthesize a deterministic,
+        // descriptive alt text from the draft title and read the asset ready.
+        const fallbackAlt = `Editorial image for "${out.title}" (${item.category ?? out.category ?? 'feature'}), PulseNSFW.`;
+        await db.update(mediaAssets).set({ altText: fallbackAlt, status: 'ready', updatedAt: new Date() }).where(eq(mediaAssets.id, media[0].id));
+        await transition(item, 'visual_ready', runId);
       } else {
         await transition(item, 'needs_visual', runId);
         return { outcome: 'needs_visual', detail: 'visual brief proposed; asset not ready' };
