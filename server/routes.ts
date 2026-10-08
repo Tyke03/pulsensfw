@@ -597,6 +597,148 @@ export function registerRoutes(httpServer: Server, app: Express) {
     ok(res, { updated: true });
   });
 
+  // ── Orchestrator dashboard: overview + human-review queue ────────────
+  app.get('/api/admin/overview', tokenAuth, async (_, res) => {
+    try {
+      const { db } = await import('./db');
+      const { workItems, agentRuns, reviewEscalations, posts, publishDecisions } = await import('@shared/schema');
+      const { count, eq, inArray, sql } = await import('drizzle-orm');
+
+      const LIVE_STATES = ['discovered', 'research_validated', 'ready_to_write', 'claimed', 'in_progress', 'draft_proposed', 'draft_persisted', 'visual_pending', 'needs_visual', 'visual_ready', 'end_rail_pending', 'end_rail_validated', 'qc_pending'] as const;
+      const DEAD_STATES = ['retryable_failure', 'terminal_failure', 'human_review'] as const;
+
+      const [
+        [publishedRow], [draftRow], [runsRow], [reviewOpenRow],
+        byState, byCategory, okRuns, refusals, spendRow, [todayPublishes], deadItems,
+      ] = await Promise.all([
+        db.select({ n: count() }).from(posts).where(eq(posts.status, 'published')),
+        db.select({ n: count() }).from(posts).where(eq(posts.status, 'draft')),
+        db.select({ n: count() }).from(agentRuns),
+        db.select({ n: count() }).from(reviewEscalations).where(eq(reviewEscalations.status, 'open')),
+        db.select({ state: workItems.state, n: count() }).from(workItems).groupBy(workItems.state),
+        db.select({ category: posts.category, n: count() }).from(posts).where(eq(posts.status, 'published')).groupBy(posts.category),
+        db.select({ n: count() }).from(agentRuns).where(inArray(agentRuns.status, ['succeeded'])),
+        db.select({ n: count() }).from(agentRuns).where(inArray(agentRuns.status, ['refused', 'escalated'])),
+        db.select({ s: sql<string>`coalesce(sum(${agentRuns.costUsd}), 0)::text` }).from(agentRuns),
+        db.select({ n: count() }).from(publishDecisions).where(sql`${publishDecisions.createdAt} > now() - interval '24 hours'`),
+        db.select({ state: workItems.state, role: workItems.role, n: count() }).from(workItems).where(inArray(workItems.state, DEAD_STATES as unknown as string[])).groupBy(workItems.state, workItems.role),
+      ]);
+
+      const liveByState = Object.fromEntries(byState.filter(r => (LIVE_STATES as readonly string[]).includes(r.state)).map(r => [r.state, r.n]));
+      const publishedByCategory = Object.fromEntries(byCategory.map(r => [r.category, r.n]));
+      let lastPublish: string | null = null;
+      try {
+        const lp = await db.select({ d: posts.publishedAt }).from(posts).where(eq(posts.status, 'published')).orderBy(sql`${posts.publishedAt} desc`).limit(1);
+        lastPublish = lp[0]?.d ? new Date(lp[0].d).toISOString() : null;
+      } catch { /* non-fatal */ }
+
+      ok(res, {
+        posts: { published: publishedRow.n, drafts: draftRow.n },
+        pipeline: { live: LIVE_STATES.reduce((a, k) => a + liveByState[k], 0), byState: liveByState, dead: deadItems },
+        runs: { total: runsRow.n, succeeded: okRuns.n, refusedOrEscalated: refusals.n, totalSpendUsd: Number(spendRow.s || 0) },
+        review: { open: reviewOpenRow.n },
+        publishing: { last24h: todayPublishes.n, lastPublish },
+        publishedByCategory,
+      });
+    } catch (e: any) {
+      console.error('[admin overview] failed:', e?.message);
+      err(res, 'overview unavailable', 500);
+    }
+  });
+
+  app.get('/api/admin/review-queue', tokenAuth, async (_, res) => {
+    try {
+      const { db } = await import('./db');
+      const { reviewEscalations, workItems } = await import('@shared/schema');
+      const { eq, desc } = await import('drizzle-orm');
+      const rows = await db
+        .select({
+          id: reviewEscalations.id,
+          workItemId: reviewEscalations.workItemId,
+          role: reviewEscalations.role,
+          reasonCode: reviewEscalations.reasonCode,
+          detail: reviewEscalations.detail,
+          status: reviewEscalations.status,
+          createdAt: reviewEscalations.createdAt,
+          itemState: workItems.state,
+          itemCategory: workItems.category,
+          attemptCount: workItems.attemptCount,
+          lastError: workItems.lastError,
+        })
+        .from(reviewEscalations)
+        .leftJoin(workItems, eq(reviewEscalations.workItemId, workItems.id))
+        .orderBy(desc(reviewEscalations.createdAt))
+        .limit(200);
+      const open = rows.filter(r => r.status === 'open');
+      ok(res, { items: open, openCount: open.length, recent: rows.filter(r => r.status !== 'open').slice(0, 25) });
+    } catch (e: any) {
+      console.error('[review queue] failed:', e?.message);
+      err(res, 'review queue unavailable', 500);
+    }
+  });
+
+  // Resolve one review escalation. action:
+  //   resume  — send the work item back to its queue (retry with a fresh attempt budget)
+  //   archive — resolve the escalation only (leave the item parked in human_review)
+  //   kill    — mark the work item terminal_failure and resolve the escalation
+  app.post('/api/admin/review-queue/:id/resolve', tokenAuth, async (req, res) => {
+    const id = parseInt(req.params.id);
+    const action = String(req.body?.action || '');
+    const notes = typeof req.body?.notes === 'string' ? req.body.notes.slice(0, 2000) : '';
+    if (!['resume', 'archive', 'kill'].includes(action)) {
+      return err(res, "action must be one of: resume, archive, kill");
+    }
+    try {
+      const { db } = await import('./db');
+      const { reviewEscalations, workItems } = await import('@shared/schema');
+      const { eq } = await import('drizzle-orm');
+      const { canTransition, applyTransition } = await import('./orchestrator/state-machine');
+      const [esc] = await db.select().from(reviewEscalations).where(eq(reviewEscalations.id, id));
+      if (!esc) return err(res, 'Escalation not found', 404);
+      if (esc.status !== 'open') return err(res, 'Escalation already resolved', 409);
+
+      let itemState: string | null = null;
+      if (esc.workItemId && action !== 'archive') {
+        const [item] = await db.select().from(workItems).where(eq(workItems.id, esc.workItemId));
+        if (!item) return err(res, 'Work item not found', 404);
+        if (action === 'resume') {
+          // Reset the attempt budget so the item gets a real second chance.
+          const target = item.type === 'research' ? 'ready_to_write' : 'ready_to_write';
+          itemState = item.state;
+          if (item.state !== 'ready_to_write') {
+            if (!canTransition(item.state as any, 'ready_to_write')) return err(res, `Cannot resume: illegal transition ${item.state} → ready_to_write (try kill or archive)`);
+          }
+          await db.update(workItems).set({
+            state: 'ready_to_write', attemptCount: 0, backoffUntil: null, updatedAt: new Date(),
+          }).where(eq(workItems.id, item.id));
+        } else {
+          // kill: only if not already terminal
+          if (item.state !== 'terminal_failure') {
+            if (!canTransition(item.state as any, 'terminal_failure')) return err(res, `Cannot kill: illegal transition ${item.state} → terminal_failure (try archive)`);
+            const applied = applyTransition(
+              { state: item.state, transitionHistory: Array.isArray(item.transitionHistory) ? item.transitionHistory : [] },
+              { from: item.state as any, to: 'terminal_failure' as any, actor: 'admin', runId: undefined, reason: notes || 'killed by admin' },
+            );
+            await db.update(workItems).set({
+              state: applied.state, transitionHistory: applied.transitionHistory, updatedAt: new Date(),
+            }).where(eq(workItems.id, item.id));
+          }
+        }
+      }
+      await db.update(reviewEscalations).set({
+        status: 'resolved',
+        resolutionNotes: notes || `admin ${action}`,
+        resolvedAt: new Date(),
+      }).where(eq(reviewEscalations.id, id));
+      ok(res, { resolved: true, action, workItemId: esc.workItemId, previousState: itemState });
+    } catch (e: any) {
+      console.error('[review resolve] failed:', e?.message);
+      err(res, 'resolve failed', 500);
+    }
+  });
+
+  // Agent dashboard endpo
+
   // ── Subscribers (stub for future) ─────────────────────────────────
   app.get('/api/admin/subscribers', tokenAuth, (_, res) => {
     ok(res, { subscribers: [], count: 0, note: 'Email subscriber list — connect an ESP to populate.' });

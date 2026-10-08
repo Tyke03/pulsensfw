@@ -8,7 +8,8 @@ import Blog from './pages/Blog';
 import CategoryPage from './pages/CategoryPage';
 import PostPage from './pages/PostPage';
 import AdminLogin from './pages/AdminLogin';
-import AdminDashboard from './pages/AdminDashboard';
+import AdminDashboard from './pages/AdminDashboard'
+import AdminOverview from './pages/AdminOverview';
 import AdminPosts from './pages/AdminPosts';
 import AdminPostEditor from './pages/AdminPostEditor';
 import AdminAffiliates from './pages/AdminAffiliates';
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/post/:slug" component={PostPage} />
           <Route path="/admin" component={AdminLogin} />
           <Route path="/admin/dashboard" component={AdminDashboard} />
+          <Route path="/admin/overview" component={AdminOverview} />
           <Route path="/admin/posts" component={AdminPosts} />
           <Route path="/admin/posts/new" component={AdminPostEditor} />
           <Route path="/admin/posts/:id/edit" component={AdminPostEditor} />

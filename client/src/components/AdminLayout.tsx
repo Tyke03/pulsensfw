@@ -3,6 +3,7 @@ import { auth } from '../lib/auth';
 import { PulseLogo } from './Layout';
 
 const NAV = [
+  { href: '/admin/overview', label: 'Operations', icon: '⚡' },
   { href: '/admin/dashboard', label: 'Dashboard', icon: '◈' },
   { href: '/admin/posts', label: 'Posts', icon: '✦' },
   { href: '/admin/pipeline', label: 'Pipeline', icon: '⚙' },
