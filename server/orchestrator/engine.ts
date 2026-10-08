@@ -270,6 +270,15 @@ async function sideEffect<T>(
 async function executeStage(
   item: WorkItem, lease: { leaseKey: string; attempt: number }, invoker: AgentInvoker, mode: Mode,
 ): Promise<{ outcome: string; detail?: string }> {
+  // End-rail proposals are filtered against the PUBLISHED slugs downstream,
+  // but the injector previously had no way to know them — every proposal was
+  // filtered out (relatedFiltered: 0) once the site had any published posts.
+  // Publish the slug list into the packet so the model can only choose valid
+  // related posts.
+  if (getAgent(item.role)?.stage === 'end_rail') {
+    const pub = await db.select({ slug: posts.slug }).from(posts).where(eq(posts.status, 'published'));
+    item.context = { ...((item.context as any) ?? {}), publishedSlugs: pub.map(p => p.slug) };
+  }
   const { runId, status, output, error } = await runAgent(item, invoker, mode);
 
   if (status !== 'succeeded') {

@@ -222,11 +222,13 @@ export const AFFILIATE_INJECTOR = {
 HARD RULES:
 - You never output raw affiliate URLs; you never modify affiliate records; you never inject links into content.
 - Registry metadata you receive contains brand names/categories/keywords only — never URLs.
+- relatedPostSlugs MUST be chosen ONLY from the publishedSlugs list in your packet (it may be empty early in the site's life — then return an empty list). Never invent slugs.
 - Return internal_only intent when no genuine contextual match exists.
 - Potential NEW programs become escalation records, never links.
 - Return ONLY schema-valid JSON.`,
   inputSchema: z.object({
     draftContext: z.record(z.string()),
+    publishedSlugs: z.array(z.string()).default([]),
     allowedRegistryMetadata: z.array(z.record(z.string())).default([]),
     endRailPolicy: z.record(z.string()).default({}),
   }),
@@ -248,6 +250,7 @@ HARD RULES:
   ),
   buildWorkPacket: (item: { sourcePayload?: unknown; context?: unknown }) => ({
     draftContext: item.sourcePayload ?? {},
+    publishedSlugs: ((item.context as any)?.publishedSlugs ?? []) as string[],
     allowedRegistryMetadata: (item.context as any)?.allowedRegistryMetadata ?? [],
     endRailPolicy: (item.context as any)?.endRailPolicy ?? {},
   }),
