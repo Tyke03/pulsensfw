@@ -129,34 +129,52 @@ export function htmlToText(html: string): { title: string; text: string; publish
   return { title, text: s.slice(0, 8000), publishedHint };
 }
 
-// Bing News/Web RSS — keyless, parseable XML; worked where DuckDuckGo HTML
-// was blocked (2026-10-13 production test: DDG returned 0 parseable results
-// from Render IPs).
+// Bing RSS — keyless, parseable XML; worked where DuckDuckGo HTML was blocked
+// (2026-10-13 production test: DDG returned 0 parseable results from Render
+// IPs). Merges Bing NEWS RSS (actual dated articles — web RSS alone returned
+// storefront/homepage pages that research models correctly refused) with web
+// RSS to fill remaining slots.
 export const bing: WebSearchProvider = async (query, limit) => {
-  const url = `https://www.bing.com/search?q=${encodeURIComponent(query)}&format=rss&count=${limit}`;
-  const res = await fetch(url, {
-    headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/xml, text/xml' },
-    signal: AbortSignal.timeout(12_000),
-  });
-  if (!res.ok) throw new Error(`bing HTTP ${res.status}`);
-  const xml = await res.text();
-  const hits: SearchHit[] = [];
-  const items = xml.match(/<item>[\s\S]*?<\/item>/g) ?? [];
-  for (const item of items) {
-    if (hits.length >= limit) break;
-    const link = (item.match(/<link>([\s\S]*?)<\/link>/)?.[1] ?? '').trim();
-    const title = (item.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? '').trim();
-    const snippet = (item.match(/<description>([\s\S]*?)<\/description>/)?.[1] ?? '').replace(/<!\[CDATA\[|\]\]>/g, '').trim();
-    if (!/^https?:\/\//.test(link) || !title) continue;
-    hits.push({
-      title: decodeEntities(title).slice(0, 200),
-      url: link,
-      snippet: decodeEntities(snippet).slice(0, 320),
-      authority: classifyAuthority(link),
+  const parseRss = async (url: string): Promise<SearchHit[]> => {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/xml, text/xml' },
+      signal: AbortSignal.timeout(12_000),
     });
+    if (!res.ok) throw new Error(`bing HTTP ${res.status}`);
+    const xml = await res.text();
+    const hits: SearchHit[] = [];
+    const items = xml.match(/<item>[\s\S]*?<\/item>/g) ?? [];
+    for (const item of items) {
+      if (hits.length >= limit) break;
+      const link = (item.match(/<link>([\s\S]*?)<\/link>/)?.[1] ?? '').trim();
+      const title = (item.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? '').trim();
+      const snippet = (item.match(/<description>([\s\S]*?)<\/description>/)?.[1] ?? '').replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+      if (!/^https?:\/\//.test(link) || !title) continue;
+      // Skip Bing's own query-echo wrapper items ("… - BingNews").
+      if (title.endsWith('- BingNews') || (title === decodeEntities(title) && title.includes(query.slice(0, 20)))) continue;
+      hits.push({
+        title: decodeEntities(title).slice(0, 200),
+        url: link,
+        snippet: decodeEntities(snippet).slice(0, 320),
+        authority: classifyAuthority(link),
+      });
+    }
+    return hits;
+  };
+  const seen = new Set<string>();
+  const merged: SearchHit[] = [];
+  const add = (hs: SearchHit[]) => { for (const h of hs) { const k = h.url.replace(/[?#].*$/, ''); if (!seen.has(k)) { seen.add(k); merged.push(h); } } };
+  // News first (fresh, dated); tolerate its absence (many niche queries have
+  // zero news items), then web results to fill.
+  for (const url of [
+    `https://www.bing.com/news/search?q=${encodeURIComponent(query)}&format=RSS&count=${limit}`,
+    `https://www.bing.com/search?q=${encodeURIComponent(query)}&format=rss&count=${limit}`,
+  ]) {
+    try { add(await parseRss(url)); } catch { /* next endpoint */ }
+    if (merged.length >= limit) break;
   }
-  if (hits.length === 0) throw new Error('bing returned no parseable results');
-  return hits;
+  if (merged.length === 0) throw new Error('bing returned no parseable results');
+  return merged.slice(0, limit);
 };
 
 // DuckDuckGo HTML lite — no API key, best-effort HTML parse. Frequently
