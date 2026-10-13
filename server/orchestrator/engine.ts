@@ -24,6 +24,7 @@ import { AGENTS, getAgent } from './packages';
 import type { AgentInvoker } from './invoker';
 import { hashInput } from './invoker';
 import { tierForAttempt } from './model-ladder';
+import { gatherResearchMaterial } from './web-research';
 import { resolveEndRailAffiliate, loadLovenseLinks, type HealthStatus } from './affiliate-resolution';
 import { runPublishGates, type EndRailValidation } from './policies';
 import { createHash } from 'node:crypto';
@@ -109,6 +110,42 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
 }> {
   const agent = getAgent(item.role);
   if (!agent) return { runId: 0, status: 'failed', error: `unknown agent role ${item.role}` };
+
+  // Research agents get REAL material: the deterministic pre-fetch runs
+  // before every research invocation (fresh material each attempt — unlike a
+  // stale packet, a fresh search can succeed where the previous one failed).
+  // RESEARCH_WEB_GATHER=0 disables live search (tests / offline diagnosis);
+  // when disabled the packet is identical to pre-material behavior.
+  if (agent.stage === 'research' && process.env.RESEARCH_WEB_GATHER !== '0') {
+    try {
+      const material = await gatherResearchMaterial(item.category ?? '');
+      const materialSummary = {
+        queries: material.queries,
+        gatheredAt: material.gatheredAt,
+        hitsCount: material.hits.length,
+        docsCount: material.docs.length,
+      };
+      item.context = {
+        ...((item.context as any) ?? {}),
+        researchMaterial: {
+          queries: material.queries,
+          gatheredAt: material.gatheredAt,
+          hits: material.hits,
+          docs: material.docs.map(d => ({ url: d.url, title: d.title, publishedHint: d.publishedHint ?? null, text: d.text })),
+          materialError: material.materialError ?? null,
+        },
+      };
+      if (material.materialError) (item.context as any).materialError = material.materialError;
+      await journal('research_material_gathered', mode, {
+        ...materialSummary,
+        materialError: material.materialError ?? null,
+      }, item.id);
+    } catch (e: any) {
+      // Degrade honestly: agent gets materialError → refuses rather than invents.
+      item.context = { ...((item.context as any) ?? {}), materialError: String(e?.message ?? e).slice(0, 200) };
+      await journal('research_material_error', mode, { error: String(e?.message ?? e).slice(0, 200) }, item.id);
+    }
+  }
 
   const packet = agent.buildWorkPacket(item);
   // Cost/quality ladder: the attempt number picks the tier (free until the
@@ -236,12 +273,18 @@ async function markFailure(item: WorkItem, err: string, runId: number, runStatus
     await db.insert(reviewEscalations).values({ workItemId: item.id, role: item.role, reasonCode: 'human_review_required', detail: { error: redact(err) } });
     return transition(item, 'human_review', runId, redact(err));
   }
-  // retryable: exponential backoff with jitter
+  // retryable: exponential backoff with jitter + policy SELF-CORRECTION
+  // feedback: for deterministic gate failures (word_count, meta_lengths, …)
+  // the next attempt's packet carries the exact failed constraints so the
+  // model can fix them precisely instead of repeating the same draft.
   const base = Math.min(2 ** attempts * 30_000, 30 * 60_000);
   const jitter = Math.floor(Math.random() * 10_000);
   const backoffUntil = new Date(Date.now() + base + jitter);
   const failed = await transition(item, 'retryable_failure', runId, redact(err));
   await journal('retry_scheduled', currentMode(), { backoffUntil: backoffUntil.toISOString(), attempt: attempts }, item.id, runId);
+  const retryFeedback = err.startsWith('policy:') || err.startsWith('refused:')
+    ? { lastError: String(err).slice(0, 500), at: new Date().toISOString() }
+    : ((item.context as any)?.retryFeedback ?? undefined);
   // return to the pre-failure working state so it can be claimed again
   const resumeState = (item.transitionHistory as any[] | null)?.length
     ? (item.transitionHistory as any[]).filter(h => !['retryable_failure'].includes(h.to)).slice(-1)[0]?.to ?? 'ready_to_write'
@@ -249,7 +292,7 @@ async function markFailure(item: WorkItem, err: string, runId: number, runStatus
   const target: State = (['ready_to_write', 'claimed', 'in_progress', 'draft_proposed', 'visual_pending', 'end_rail_pending', 'qc_pending'].includes(resumeState) ? resumeState : 'ready_to_write') as State;
   return db
     .update(workItems)
-    .set({ state: target, backoffUntil, lastError: { message: redact(err), at: new Date().toISOString() }, updatedAt: new Date() })
+    .set({ state: target, backoffUntil, lastError: { message: redact(err), at: new Date().toISOString() }, context: { ...((item.context as any) ?? {}), retryFeedback }, updatedAt: new Date() })
     .where(eq(workItems.id, failed.id))
     .returning()
     .then(r => r[0]);
@@ -347,7 +390,7 @@ async function executeStage(
             detail: { proposed: routing, workItemCategory: item.category, candidate: cand.topic },
           });
         }
-        const writerRole = WRITER_ROLE_BY_CATEGORY[item.category];
+        const writerRole = WRITER_ROLE_BY_CATEGORY[item.category ?? ''];
         if (!writerRole) {
           await db.insert(reviewEscalations).values({
             workItemId: item.id, role, reasonCode: 'unroutable_category',

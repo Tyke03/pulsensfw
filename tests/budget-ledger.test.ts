@@ -589,6 +589,8 @@ describe('explicit-transaction finalization (corrective design)', () => {
 
   it('cost-basis labels reflect the evidence source (DB CHECK + invoker semantics)', async () => {
     await setBudget(2);
+    // The invoker reads the key from env at invoke time (never stored in args).
+    process.env.POLLINATIONS_API_KEY = 'sk-test';
     // derived-from-usage and conservative sizing are accepted…
     for (const basis of ['provider_usage_derived_estimate', 'conservative_reservation_estimate']) {
       await testPool.query(
@@ -646,7 +648,7 @@ describe('provider timeout leaves budget in a safe state (integration)', () => {
       const paid = new PollinationsPaidInvoker(`http://127.0.0.1:${port}/v1/chat/completions`, 'sk-test', 80);
       const echo = new EchoInvoker(new Map());
       echo.setFixture('writer-vr', { status: 'ok', confidence: 0.9, uncertainty: [], escalation: null, payload: {} });
-      const inv = new LadderInvoker(echo, paid, db);
+      const inv = new LadderInvoker(echo, paid, null, db);
       const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
       assert.equal(res.ok, false);
       assert.equal(res.errorKind, 'timeout');
@@ -699,7 +701,7 @@ describe('ledger pool hardening', () => {
     process.env.POLLINATIONS_API_KEY = 'sk-test';
     await setBudget(2); // budget available — the failure must be acquisition-only
     const paid = new StubPaidInvoker();
-    const inv = new LadderInvoker(makeFreeEcho(), paid, makeAcquireBrokenDb());
+    const inv = new LadderInvoker(makeFreeEcho(), paid, null, makeAcquireBrokenDb());
     const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
     assert.equal(paid.calls, 0, 'paid invoker must never be called when acquisition fails');
     assert.equal(res.tier, 'free');

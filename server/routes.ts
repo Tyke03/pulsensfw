@@ -6,7 +6,8 @@ import { storage, slugify, generateToken } from './storage';
 import { selectRelatedPosts } from './orchestrator/end-rail';
 import { tick, currentMode } from './orchestrator/engine';
 import { PollinationsInvoker, LadderInvoker, PollinationsPaidInvoker } from './orchestrator/invoker';
-import { ladderEnabled, LADDER, FREE_TIER, dailyBudgetUsd } from './orchestrator/model-ladder';
+import { ladderEnabled, LADDER, FREE_TIER, dailyBudgetUsd, pollinationsKeyConfigured, opEnabled, ONEPROVIDER_LADDER } from './orchestrator/model-ladder';
+import { OneproviderInvoker } from './orchestrator/invoker';
 import { getLedgerDb, accountingStatus, ledgerPoolHealth, getSpendReport } from './orchestrator/budget-ledger';
 
 // ── Research file helpers ─────────────────────────────────────────────────
@@ -252,7 +253,8 @@ export function registerRoutes(httpServer: Server, app: Express) {
   // (dry_run|shadow|production) controls side-effect execution.
   const orchestratorInvoker = new LadderInvoker(
     new PollinationsInvoker(),
-    ladderEnabled() ? new PollinationsPaidInvoker() : null,
+    pollinationsKeyConfigured() ? new PollinationsPaidInvoker() : null,
+    opEnabled() ? new OneproviderInvoker() : null,
     getLedgerDb(),
   );
   app.post('/api/orchestrator/tick', tokenAuth, async (req, res) => {
@@ -286,8 +288,12 @@ export function registerRoutes(httpServer: Server, app: Express) {
         provider: 'pollinations',
         enabled: ladderEnabled(),
         defaultModel: FREE_TIER.model,
+        cheapModel: LADDER.cheap.model,
         tier1Model: LADDER.paid_tier1.model,
         tier2Model: LADDER.paid_tier2.model,
+        opTier1Model: ONEPROVIDER_LADDER.op_tier1.model,
+        opTier2Model: ONEPROVIDER_LADDER.op_tier2.model,
+        oneproviderEnabled: opEnabled(),
         dailyBudgetUsd: dailyBudgetUsd(),
         accountingStatus: ladderInfo.status,
         // Non-secret numeric pool health ONLY: client counts + configured time

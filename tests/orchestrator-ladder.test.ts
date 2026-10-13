@@ -11,7 +11,7 @@ import type { LedgerDb } from '../server/orchestrator/budget-ledger';
 const ledgerDb = testPool as unknown as LedgerDb;
 
 // Env snapshot so dormant-by-default invariants survive the suite.
-const ENV_KEYS = ['POLLINATIONS_API_KEY', 'POLLINATIONS_DAILY_BUDGET_USD', 'POLLINATIONS_RESERVE_MARGIN', 'POLLINATIONS_RESERVATION_TTL_HOURS', 'POLLINATIONS_TIMEOUT_MS', 'POLLINATIONS_MAX_TOKENS_TIER1', 'POLLINATIONS_MAX_TOKENS_TIER2', 'POLLINATIONS_ESCALATE_AFTER_ATTEMPT'] as const;
+const ENV_KEYS = ['POLLINATIONS_API_KEY', 'ONEPROVIDER_API_KEY', 'POLLINATIONS_DAILY_BUDGET_USD', 'POLLINATIONS_RESERVE_MARGIN', 'POLLINATIONS_RESERVATION_TTL_HOURS', 'POLLINATIONS_TIMEOUT_MS', 'POLLINATIONS_MAX_TOKENS_TIER1', 'POLLINATIONS_MAX_TOKENS_TIER2', 'POLLINATIONS_ESCALATE_AFTER_ATTEMPT'] as const;
 let savedEnv: Record<string, string | undefined> = {};
 
 beforeEach(() => {
@@ -26,31 +26,43 @@ afterEach(() => {
 });
 
 describe('model ladder policy', () => {
-  it('is dormant by default: no env vars → everything stays free', () => {
+  it('free only when no key at all is configured', () => {
     assert.equal(ladderEnabled(), false);
     for (const attempt of [1, 2, 3, 5, 9, 20]) {
       assert.equal(tierForAttempt(attempt, 'writer-vr'), 'free');
     }
   });
 
-  it('free-first, then tier1 at POLLINATIONS_ESCALATE_AFTER_ATTEMPT, then tier2 after 3 more failures', () => {
+  it('cheap-first, then tier1 at N, then tier2/op_tier1/op_tier2 every 3 more failures', () => {
     process.env.POLLINATIONS_API_KEY = 'sk-test';
     assert.equal(ladderEnabled(), true);
-    // default POLLINATIONS_ESCALATE_AFTER_ATTEMPT = 3
-    assert.equal(tierForAttempt(1, 'writer-vr'), 'free');
-    assert.equal(tierForAttempt(2, 'writer-vr'), 'free');
-    assert.equal(tierForAttempt(3, 'writer-vr'), 'paid_tier1');
-    assert.equal(tierForAttempt(5, 'writer-vr'), 'paid_tier1');
-    assert.equal(tierForAttempt(6, 'writer-vr'), 'paid_tier2');
-    assert.equal(tierForAttempt(12, 'writer-vr'), 'paid_tier2');
+    // default POLLINATIONS_ESCALATE_AFTER_ATTEMPT = 2
+    assert.equal(tierForAttempt(1, 'writer-vr'), 'cheap');
+    assert.equal(tierForAttempt(2, 'writer-vr'), 'paid_tier1');
+    assert.equal(tierForAttempt(4, 'writer-vr'), 'paid_tier1');
+    assert.equal(tierForAttempt(5, 'writer-vr'), 'paid_tier2');
+    assert.equal(tierForAttempt(7, 'writer-vr'), 'paid_tier2');
+    assert.equal(tierForAttempt(8, 'writer-vr'), 'op_tier1');
+    assert.equal(tierForAttempt(10, 'writer-vr'), 'op_tier1');
+    assert.equal(tierForAttempt(11, 'writer-vr'), 'op_tier2');
+    assert.equal(tierForAttempt(20, 'writer-vr'), 'op_tier2');
+  });
+
+  it('OneProvider key alone activates the ladder (op tiers reachable)', () => {
+    process.env.ONEPROVIDER_API_KEY = 'sk-op-test';
+    delete process.env.POLLINATIONS_API_KEY;
+    assert.equal(ladderEnabled(), true);
+    assert.equal(tierForAttempt(1, 'writer-vr'), 'cheap');
+    assert.equal(tierForAttempt(11, 'writer-vr'), 'op_tier2');
   });
 
   it('honors POLLINATIONS_ESCALATE_AFTER_ATTEMPT override', () => {
     process.env.POLLINATIONS_API_KEY = 'sk-test';
     process.env.POLLINATIONS_ESCALATE_AFTER_ATTEMPT = '5';
-    assert.equal(tierForAttempt(4, 'writer-vr'), 'free');
+    assert.equal(tierForAttempt(4, 'writer-vr'), 'cheap');
     assert.equal(tierForAttempt(5, 'writer-vr'), 'paid_tier1');
-    assert.equal(tierForAttempt(8, 'writer-vr'), 'paid_tier2');
+    assert.equal(tierForAttempt(10, 'writer-vr'), 'paid_tier2');
+    assert.equal(tierForAttempt(13, 'writer-vr'), 'op_tier1');
   });
 
   it('never pays once the retry budget (maxAttempts) is exhausted — free instead', () => {
@@ -63,11 +75,11 @@ describe('model ladder policy', () => {
     assert.equal(tierForAttempt(5, 'writer-vr', 5), 'paid_tier1'); // attempt == maxAttempts: still allowed
     assert.equal(tierForAttempt(6, 'writer-vr', 5), 'free');
     assert.equal(tierForAttempt(493, 'writer-vr', 5), 'free');
-    // no maxAttempts supplied → legacy behavior unchanged
-    assert.equal(tierForAttempt(493, 'writer-vr'), 'paid_tier2');
+    // no maxAttempts supplied → ladder continues unbounded
+    assert.equal(tierForAttempt(493, 'writer-vr'), 'op_tier2');
     // maxAttempts disabled (0/null) → no cap
-    assert.equal(tierForAttempt(493, 'writer-vr', 0), 'paid_tier2');
-    assert.equal(tierForAttempt(493, 'writer-vr', null), 'paid_tier2');
+    assert.equal(tierForAttempt(493, 'writer-vr', 0), 'op_tier2');
+    assert.equal(tierForAttempt(493, 'writer-vr', null), 'op_tier2');
   });
 });
 
@@ -132,7 +144,7 @@ describe('LadderInvoker routing (ledger-backed)', () => {
   it('dormant: paid tier request is served at free tier, cost 0, no reservation', async () => {
     // no POLLINATIONS_API_KEY → disabled
     const free = makeFreeEcho();
-    const inv = new LadderInvoker(free, new StubPaidInvoker(), ledgerDb);
+    const inv = new LadderInvoker(free, new StubPaidInvoker(), null, ledgerDb);
     const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
     assert.equal(res.tier, 'free');
     assert.equal(res.costUsd, 0);
@@ -144,7 +156,7 @@ describe('LadderInvoker routing (ledger-backed)', () => {
   it('enabled: paid call reserves, routes paid, settles on success', async () => {
     process.env.POLLINATIONS_API_KEY = 'sk-test';
     const paid = new StubPaidInvoker();
-    const inv = new LadderInvoker(makeFreeEcho(), paid, ledgerDb);
+    const inv = new LadderInvoker(makeFreeEcho(), paid, null, ledgerDb);
     const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier2', attempt: 6 });
     assert.equal(paid.calls, 1);
     assert.equal(res.tier, 'paid_tier2');
@@ -156,7 +168,7 @@ describe('LadderInvoker routing (ledger-backed)', () => {
   it('cap reached: routes to free and flags budgetFallback, paid invoker untouched', async () => {
     process.env.POLLINATIONS_API_KEY = 'sk-test';
     const paid = new StubPaidInvoker();
-    const inv = new LadderInvoker(makeFreeEcho(), paid, ledgerDb);
+    const inv = new LadderInvoker(makeFreeEcho(), paid, null, ledgerDb);
     // exhaust the day's budget first
     await testPool.query(
       `INSERT INTO paid_budget_days (day, budget_usd, settled_usd) VALUES ($1::date, 0.001, 0.001)
@@ -174,7 +186,7 @@ describe('LadderInvoker routing (ledger-backed)', () => {
     process.env.POLLINATIONS_API_KEY = 'sk-test';
     const paid = new StubPaidInvoker();
     const broken: LedgerDb = { query: async () => { throw new Error('db down'); } };
-    const inv = new LadderInvoker(makeFreeEcho(), paid, broken);
+    const inv = new LadderInvoker(makeFreeEcho(), paid, null, broken);
     const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
     assert.equal(paid.calls, 0);
     assert.equal(res.tier, 'free');
@@ -202,7 +214,7 @@ describe('LadderInvoker routing (ledger-backed)', () => {
         };
       },
     } as unknown as LedgerDb;
-    const inv = new LadderInvoker(makeFreeEcho(), paid, sweepBroken);
+    const inv = new LadderInvoker(makeFreeEcho(), paid, null, sweepBroken);
     const res = await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'paid_tier1' });
     assert.equal(paid.calls, 0); // paid invoker never invoked
     assert.equal(res.tier, 'free');
@@ -217,7 +229,7 @@ describe('LadderInvoker routing (ledger-backed)', () => {
   it('free tier requests never touch the paid invoker even when enabled', async () => {
     process.env.POLLINATIONS_API_KEY = 'sk-test';
     const paid = new StubPaidInvoker();
-    const inv = new LadderInvoker(makeFreeEcho(), paid, ledgerDb);
+    const inv = new LadderInvoker(makeFreeEcho(), paid, null, ledgerDb);
     await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow', tier: 'free' });
     await inv.invoke({}, 'sys', { role: 'writer-vr', promptId: 'p', promptVersion: '1', mode: 'shadow' });
     assert.equal(paid.calls, 0);

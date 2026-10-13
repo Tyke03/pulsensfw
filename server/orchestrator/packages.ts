@@ -64,7 +64,7 @@ export type ResearchCandidate = z.infer<typeof researchCandidate>;
 function researchAgent(id: string, category: string, focus: string, extraRules: string) {
   return {
     id,
-    version: '1.0.0',
+    version: '1.1.0',
     stage: 'research' as const,
     category,
     systemPrompt: `You are the PulseNSFW ${id} agent. Category: ${category}.
@@ -74,9 +74,14 @@ HARD RULES:
 - You are stateless. You never schedule, claim, retry, publish, or mutate anything.
 - You never receive or request credentials, tokens, or secrets.
 - You never output raw affiliate URLs. You never invent affiliate destinations.
+- Your work packet contains RAW RESEARCH MATERIAL: real web search hits and fetched documents gathered just-in-time. Your job is to FIND promising candidate topics IN that material for the writers to curate.
+- CITE YOUR MATERIAL: every candidate's source_url MUST be copied verbatim from the packet's material (hits[].url or docs[].url) — never invented, never rewritten. source_date must come from the hit snippet/document text or its published_hint.
+- If a source is community or non-authoritative (authority: "community" or "unknown"), you may still propose it, but the candidate's finding MUST say so plainly (e.g. "community-sourced report from reddit — unverified"). NEVER present community material as verified fact.
+- Prefer authoritative sources (authority: "official" or "news") when they cover the same fact.
+- Do not duplicate topics already covered (respect duplicate_fingerprints semantics).
+- If the material is unusable or materialError is set, return status=refused (never fabricate); if material is exhausted in your judgement, return status=escalate with a reason.
 - Return ONLY schema-valid JSON: {status, confidence, uncertainty, escalation, payload:{candidates:[...]}}.
 - Mark refused/escalate via status and escalation fields; never guess.
-- Do not duplicate topics already covered (respect duplicate_fingerprint semantics).
 - Do not silently switch category; if a candidate belongs elsewhere, set category and add an escalation note.`,
     inputSchema: z.object({
       category: z.string(),
@@ -90,6 +95,17 @@ HARD RULES:
       existingFingerprints: ((item.context as any)?.existingFingerprints ?? []),
       charter: (item.context as any)?.charter ?? {},
       maxCandidates: 3,
+      // Real material injected by the engine (web-research.ts). When search
+      // failed the engine sets materialError instead — the agent refuses
+      // honestly rather than inventing sources.
+      researchMaterial: (item.context as any)?.researchMaterial ?? undefined,
+      materialError: (item.context as any)?.materialError ?? undefined,
+      citationPolicy: {
+        requiredField: 'source_url',
+        allowedSources: 'researchMaterial.hits[].url and researchMaterial.docs[].url ONLY',
+        communityPolicy: 'allowed, but the finding must say it is community-sourced and unverified',
+        authorityNote: 'prefer authority=official/news; community sources must be marked',
+      },
     }),
     categoryRouting: (candidate: { category: string }, item: { category?: string | null }) => candidate.category,
   };
@@ -198,7 +214,8 @@ HARD RULES:
 - Return ONLY schema-valid JSON: {status, confidence, uncertainty, escalation, payload:{draft package}}.
 - payload MUST be the draft package with EXACTLY these required keys: "title" (headline), "slug" (kebab-case), "excerpt" (<=200 chars), "body" (full article draft, markdown, 600-1200 words), "tags" (3-8 strings), "metaTitle" (<=60 chars), "metaDescription" (<=155 chars). Optional keys: intentBrand, isStraightNews, newsFit, visualBrief, internalLinkIntents, selfCheck. Do NOT invent other fields or wrap the package in extra objects.
 - If source material is insufficient, return status=refused with escalation details.
-- The research material is a SEED, not a full source: expand it with your general knowledge of the category to reach the required word count and depth. Refuse ONLY for genuine policy or safety conflicts (e.g. sensitive_content_risk high, defamatory or private material, contradicted facts) — NEVER merely because the seed text is short or thin.`,
+- The research material is a SEED, not a full source: expand it with your general knowledge of the category to reach the required word count and depth. Refuse ONLY for genuine policy or safety conflicts (e.g. sensitive_content_risk high, defamatory or private material, contradicted facts) — NEVER merely because the seed text is short or thin.
+- If the packet contains retryFeedback, your PREVIOUS draft failed those exact deterministic gates. Fix each one precisely in your new draft (e.g. failed word_count 773 with policy 800-1800 → write ≥800 words; failed metaTitle 36/40-60 → lengthen the title). Do not repeat the same failure.`,
     inputSchema: z.object({
       researchItem: z.record(z.string()),
       contentPolicy: z.record(z.string()).default({}),
@@ -209,6 +226,10 @@ HARD RULES:
       researchItem: item.sourcePayload ?? {},
       contentPolicy: (item.context as any)?.contentPolicy ?? {},
       charter: (item.context as any)?.charter ?? {},
+      // Carried from the previous failed attempt: the exact policy gates that
+      // failed and their numbers, so the model can self-correct (e.g.
+      // "word_count: 773 words (policy 800-1800)" → write more words).
+      retryFeedback: (item.context as any)?.retryFeedback ?? undefined,
     }),
   };
 }

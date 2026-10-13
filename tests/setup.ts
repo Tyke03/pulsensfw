@@ -5,6 +5,10 @@
 process.env.DATABASE_URL ??= 'postgresql://postgres:testpass@127.0.0.1:5433/pulsensfw_test';
 process.env.ORCHESTRATOR_MODE ??= 'shadow';
 process.env.LOVENSE_LINKS_PATH ??= 'user_supplied/affiliates/lovense-links.json';
+// Live-web research gathering is OFF in tests: engine research stages must
+// never hit DuckDuckGo/Brave/Serper here. web-research.ts unit tests inject
+// fake providers/fetchers instead.
+process.env.RESEARCH_WEB_GATHER ??= '0';
 
 import fs from 'node:fs';
 import path from 'node:path';
