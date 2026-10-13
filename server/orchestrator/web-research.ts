@@ -129,7 +129,38 @@ export function htmlToText(html: string): { title: string; text: string; publish
   return { title, text: s.slice(0, 8000), publishedHint };
 }
 
-// DuckDuckGo HTML lite — no API key, best-effort HTML parse.
+// Bing News/Web RSS — keyless, parseable XML; worked where DuckDuckGo HTML
+// was blocked (2026-10-13 production test: DDG returned 0 parseable results
+// from Render IPs).
+export const bing: WebSearchProvider = async (query, limit) => {
+  const url = `https://www.bing.com/search?q=${encodeURIComponent(query)}&format=rss&count=${limit}`;
+  const res = await fetch(url, {
+    headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/xml, text/xml' },
+    signal: AbortSignal.timeout(12_000),
+  });
+  if (!res.ok) throw new Error(`bing HTTP ${res.status}`);
+  const xml = await res.text();
+  const hits: SearchHit[] = [];
+  const items = xml.match(/<item>[\s\S]*?<\/item>/g) ?? [];
+  for (const item of items) {
+    if (hits.length >= limit) break;
+    const link = (item.match(/<link>([\s\S]*?)<\/link>/)?.[1] ?? '').trim();
+    const title = (item.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? '').trim();
+    const snippet = (item.match(/<description>([\s\S]*?)<\/description>/)?.[1] ?? '').replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+    if (!/^https?:\/\//.test(link) || !title) continue;
+    hits.push({
+      title: decodeEntities(title).slice(0, 200),
+      url: link,
+      snippet: decodeEntities(snippet).slice(0, 320),
+      authority: classifyAuthority(link),
+    });
+  }
+  if (hits.length === 0) throw new Error('bing returned no parseable results');
+  return hits;
+};
+
+// DuckDuckGo HTML lite — no API key, best-effort HTML parse. Frequently
+// bot-blocked at datacenter IPs; kept as a manual fallback option.
 export const duckduckgo: WebSearchProvider = async (query, limit) => {
   const res = await fetch(`https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`, {
     headers: { 'User-Agent': UA },
@@ -197,11 +228,11 @@ export const serper: WebSearchProvider = async (query, limit) => {
   })).filter((h: SearchHit) => h.url && h.title);
 };
 
-const PROVIDERS: Record<string, WebSearchProvider> = { duckduckgo, brave, serper };
+const PROVIDERS: Record<string, WebSearchProvider> = { bing, duckduckgo, brave, serper };
 
 export function searchProvider(): WebSearchProvider {
-  const name = (process.env.RESEARCH_SEARCH_PROVIDER || 'duckduckgo').toLowerCase();
-  return PROVIDERS[name] ?? duckduckgo;
+  const name = (process.env.RESEARCH_SEARCH_PROVIDER || 'bing').toLowerCase();
+  return PROVIDERS[name] ?? bing;
 }
 
 // ── Category → search-queries map ───────────────────────────────────────────
