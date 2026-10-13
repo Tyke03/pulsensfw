@@ -104,6 +104,25 @@ async function recordRun(args: {
   return row[0].id;
 }
 
+/**
+ * Run recording that cannot take the stage down: a schema/auth mismatch on
+ * agent_runs (e.g. a tier label missing from the DB CHECK) must cost us the
+ * AUDIT ROW, not the whole paid invocation + attempt (observed 2026-10-13:
+ * the tier-CHECK rejection killed every escalation between gather and
+ * model call). Failures journal 'run_record_failed' and return runId 0.
+ */
+async function recordRunSafe(args: Parameters<typeof recordRun>[0]): Promise<number> {
+  try {
+    return await recordRun(args);
+  } catch (e: any) {
+    await journal('run_record_failed', args.mode, {
+      role: args.role, workItemId: args.workItemId, status: args.status,
+      tier: args.result.tier ?? null, error: redact(String(e?.message ?? e).slice(0, 200)),
+    }).catch(() => {});
+    return 0;
+  }
+}
+
 /** Execute one prompt-agent invocation with run recording + schema validation. */
 async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Promise<{
   runId: number; status: string; output?: unknown; error?: string;
@@ -169,7 +188,7 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
   }
 
   if (!result.ok) {
-    const runId = await recordRun({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result, status: 'failed', attempt: item.attemptCount });
+    const runId = await recordRunSafe({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result, status: 'failed', attempt: item.attemptCount });
     if (result.tier && result.tier !== 'free') {
       await journal('model_escalation', mode, { role: item.role, tier: result.tier, model: result.model, attempt: item.attemptCount, costUsd: result.costUsd ?? 0, costBasis: result.costBasis ?? null, reservationId: result.reservation?.id ?? null, outcome: 'failed' }, item.id, runId);
     }
@@ -190,14 +209,14 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
     const repair = await invoker.invoke(repairPacket, agent.systemPrompt, invokeMeta);
     const repaired = repair.ok ? agent.outputSchema.safeParse(repair.output) : { success: false } as const;
     if (repair.ok && repaired.success) {
-      const runId = await recordRun({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result: repair, status: 'succeeded', attempt: item.attemptCount });
+      const runId = await recordRunSafe({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result: repair, status: 'succeeded', attempt: item.attemptCount });
       if (repair.tier && repair.tier !== 'free') {
         await journal('model_escalation', mode, { role: item.role, tier: repair.tier, model: repair.model, attempt: item.attemptCount, costUsd: repair.costUsd ?? 0, costBasis: repair.costBasis ?? null, reservationId: repair.reservation?.id ?? null, outcome: 'succeeded', repaired: true }, item.id, runId);
       }
       await journal('schema_self_correction', mode, { role: item.role, issues: issues.slice(0, 300) }, item.id, runId);
       return { runId, status: 'succeeded', output: repaired.data };
     }
-    const runId = await recordRun({
+    const runId = await recordRunSafe({
       workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode,
       inputHash: hashInput(packet),
       result: { ...result, error: 'schema_invalid' },
@@ -209,7 +228,7 @@ async function runAgent(item: WorkItem, invoker: AgentInvoker, mode: Mode): Prom
     return { runId, status: 'schema_invalid', error: issues };
   }
 
-  const runId = await recordRun({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result, status: 'succeeded', attempt: item.attemptCount });
+  const runId = await recordRunSafe({ workItemId: item.id, role: item.role, promptId: agent.id, promptVersion: agent.version, mode, inputHash: hashInput(packet), result, status: 'succeeded', attempt: item.attemptCount });
   if (result.tier && result.tier !== 'free') {
     await journal('model_escalation', mode, { role: item.role, tier: result.tier, model: result.model, attempt: item.attemptCount, costUsd: result.costUsd ?? 0, costBasis: result.costBasis ?? null, reservationId: result.reservation?.id ?? null, outcome: 'succeeded' }, item.id, runId);
   }
