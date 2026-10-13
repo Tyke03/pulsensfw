@@ -240,12 +240,12 @@ export function searchProvider(): WebSearchProvider {
 // on the internet; the writers curate it downstream.
 
 const QUERY_TEMPLATES: Record<string, string[]> = {
-  'ai-chatbots': ['AI companion app news update', 'AI chatbot platform launch release', 'NSFW AI companion platform news'],
-  'sex-tech': ['sex tech device launch news', 'app-connected toy platform update', 'connected intimacy device release'],
-  'vr': ['VR platform update release', 'immersive VR experience launch', 'VR headset platform news'],
-  'industry-news': ['adult platform policy change news', 'creator platform update announcement', 'adult industry platform news this week'],
-  'how-to': ['how to setup guide tutorial', 'step-by-step configuration walkthrough guide'],
-  'rankings': ['best comparison top picks review', 'versus comparison review 2026'],
+  'ai-chatbots': ['NSFW AI companion app news launch', 'NSFW AI chatbot platform update release', 'AI girlfriend app feature announcement'],
+  'sex-tech': ['sex tech device launch news', 'app connected pleasure device update', 'connected intimacy technology release'],
+  'vr': ['VR adult content platform news', 'VR headset immersive experience update', 'virtual reality adult platform launch'],
+  'industry-news': ['adult platform policy change news payouts', 'OnlyFans Fansly creator platform announcement', 'adult content platform payment processing update'],
+  'how-to': ['NSFW content creation how to guide setup', 'adult app walkthrough tutorial steps'],
+  'rankings': ['best NSFW AI chatbot comparison review', 'top adult VR platform versus review', 'AI companion apps compared features price'],
 };
 
 export function queriesFor(category: string): string[] {
