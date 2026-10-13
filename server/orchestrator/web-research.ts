@@ -186,13 +186,20 @@ export const bing: WebSearchProvider = async (query, limit) => {
   const merged: SearchHit[] = [];
   const add = (hs: SearchHit[]) => { for (const h of hs) { const k = h.url.replace(/[?#].*$/, ''); if (!seen.has(k)) { seen.add(k); merged.push(h); } } };
   // News first (fresh, dated); tolerate its absence (many niche queries have
-  // zero news items), then web results to fill.
-  for (const url of [
+  // zero news items), then web results to fill. Web fallback is SKIPPED when
+  // news already produced several hits: live observation (2026-10-13) shows the
+  // web endpoint token-matches generic words into dictionary/retail/AI-giant
+  // junk (Best Buy, Merriam-Webster, openai.com) that dilutes otherwise-good
+  // news packets and pushes research models into honest refusals.
+  const endpoints = [
     `https://www.bing.com/news/search?q=${encodeURIComponent(query)}&format=RSS&count=${limit}`,
     `https://www.bing.com/search?q=${encodeURIComponent(query)}&format=rss&count=${limit}`,
-  ]) {
-    try { add(await parseRss(url)); } catch { /* next endpoint */ }
+  ];
+  for (let i = 0; i < endpoints.length; i++) {
+    try { add(await parseRss(endpoints[i])); } catch { /* next endpoint */ }
     if (merged.length >= limit) break;
+    // News already solid → don't pollute with web-junk fill.
+    if (i === 0 && merged.length >= 3) break;
   }
   if (merged.length === 0) throw new Error('bing returned no parseable results');
   return merged.slice(0, limit);
