@@ -240,12 +240,12 @@ export function searchProvider(): WebSearchProvider {
 // on the internet; the writers curate it downstream.
 
 const QUERY_TEMPLATES: Record<string, string[]> = {
-  'ai-chatbots': ['NSFW AI companion app news launch', 'NSFW AI chatbot platform update release', 'AI girlfriend app feature announcement'],
-  'sex-tech': ['sex tech device launch news', 'app connected pleasure device update', 'connected intimacy technology release'],
-  'vr': ['VR adult content platform news', 'VR headset immersive experience update', 'virtual reality adult platform launch'],
-  'industry-news': ['adult platform policy change news payouts', 'OnlyFans Fansly creator platform announcement', 'adult content platform payment processing update'],
-  'how-to': ['NSFW content creation how to guide setup', 'adult app walkthrough tutorial steps'],
-  'rankings': ['best NSFW AI chatbot comparison review', 'top adult VR platform versus review', 'AI companion apps compared features price'],
+  'ai-chatbots': ['CrushOn.AI Janitor AI Replika update news', 'Character AI c.ai guidelines NSFW update', 'AI girlfriend app comparison review 2026'],
+  'sex-tech': ['Lovense Kiiroo Satisfyer device news release', 'teledildonics connected toy platform update', 'interactive sex tech launch announcement'],
+  'vr': ['Meta Quest adult browser SIDR WankzVR news', 'VR adult platform update announcement 2026', 'sexlikevirtual vr headset content news'],
+  'industry-news': ['OnlyFans Fansly platform policy announcement 2026', 'adult creator payout Visa Mastercard news', 'adult platform age verification law update'],
+  'how-to': ['Lovense setup guide tutorial connect app', 'Meta Quest sideload adult browser how to', 'Janitor AI bot setup guide'],
+  'rankings': ['best AI girlfriend apps comparison 2026', 'Lovense vs Kiiroo vs Satisfyer review', 'best VR adult platforms compared features'],
 };
 
 export function queriesFor(category: string): string[] {
