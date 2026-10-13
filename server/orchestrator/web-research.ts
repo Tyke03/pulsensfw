@@ -27,6 +27,8 @@ export type SearchHit = {
   url: string;
   snippet: string;
   authority: AuthorityClass;
+  /** Best-known publication date (RSS pubDate / page meta), if any. */
+  publishedHint?: string | null;
 };
 
 export type FetchedDoc = {
@@ -135,6 +137,19 @@ export function htmlToText(html: string): { title: string; text: string; publish
 // storefront/homepage pages that research models correctly refused) with web
 // RSS to fill remaining slots.
 export const bing: WebSearchProvider = async (query, limit) => {
+  // Bing News RSS wraps every article in its own tracking redirect
+  // (bing.com/news/apiclick.aspx?...&url=<real-article-url-encoded>). Unwrapping
+  // to the real publisher URL is essential — research models correctly refuse to
+  // cite a bing.com wrapper (no authority, no extraction). pubDate gives the
+  // freshness signal the models asked for.
+  const unwrapBing = (link: string): string => {
+    if (!/bing\.com\/news\/apiclick\.aspx/i.test(link)) return link;
+    try {
+      const inner = new URL(link).searchParams.get('url');
+      if (inner && /^https?:\/\//i.test(inner)) return inner;
+    } catch { /* keep original */ }
+    return link;
+  };
   const parseRss = async (url: string): Promise<SearchHit[]> => {
     const res = await fetch(url, {
       headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/xml, text/xml' },
@@ -146,17 +161,23 @@ export const bing: WebSearchProvider = async (query, limit) => {
     const items = xml.match(/<item>[\s\S]*?<\/item>/g) ?? [];
     for (const item of items) {
       if (hits.length >= limit) break;
-      const link = (item.match(/<link>([\s\S]*?)<\/link>/)?.[1] ?? '').trim();
+      const link = unwrapBing((item.match(/<link>([\s\S]*?)<\/link>/)?.[1] ?? '').trim());
       const title = (item.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? '').trim();
       const snippet = (item.match(/<description>([\s\S]*?)<\/description>/)?.[1] ?? '').replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+      const pubDate = (item.match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1] ?? '').trim();
       if (!/^https?:\/\//.test(link) || !title) continue;
       // Skip Bing's own query-echo wrapper items ("… - BingNews").
       if (title.endsWith('- BingNews') || (title === decodeEntities(title) && title.includes(query.slice(0, 20)))) continue;
+      // Skip any residual bing.com self-links (unwrappable wrappers): never
+      // hand a bing.com URL to the models or the citation allowlist.
+      if (/bing\.com/i.test(link)) continue;
+      const date = pubDate ? new Date(pubDate) : null;
       hits.push({
         title: decodeEntities(title).slice(0, 200),
         url: link,
         snippet: decodeEntities(snippet).slice(0, 320),
         authority: classifyAuthority(link),
+        publishedHint: date && !isNaN(date.getTime()) ? date.toISOString() : undefined,
       });
     }
     return hits;
@@ -318,7 +339,7 @@ export async function gatherResearchMaterial(
     try {
       const html = await fetcher(hit.url);
       const { title, text, publishedHint } = htmlToText(html);
-      if (text.length >= 400) docs.push({ url: hit.url, title: title || hit.title, text, publishedHint });
+      if (text.length >= 400) docs.push({ url: hit.url, title: title || hit.title, text, publishedHint: publishedHint ?? hit.publishedHint ?? null });
     } catch { /* skip unreachable page */ }
     await sleep(250); // polite pacing between fetches
   }
