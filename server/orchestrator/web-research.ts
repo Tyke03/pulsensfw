@@ -142,7 +142,12 @@ export const bing: WebSearchProvider = async (query, limit) => {
   // to the real publisher URL is essential — research models correctly refuse to
   // cite a bing.com wrapper (no authority, no extraction). pubDate gives the
   // freshness signal the models asked for.
-  const unwrapBing = (link: string): string => {
+  const unwrapBing = (rawLink: string): string => {
+    // RSS XML encodes entities (&amp;) inside <link>; parse the DECODED text or
+    // searchParams.get('url') resolves to null and every news item is then
+    // dropped by the bing.com self-link filter below (observed live 2026-10-13:
+    // 4 on-topic news items vanished, leaving only web-RSS junk).
+    const link = decodeEntities(rawLink);
     if (!/bing\.com\/news\/apiclick\.aspx/i.test(link)) return link;
     try {
       const inner = new URL(link).searchParams.get('url');
