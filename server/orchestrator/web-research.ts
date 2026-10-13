@@ -278,13 +278,17 @@ export function searchProvider(): WebSearchProvider {
 // Plain web queries (no scope restriction): researchers find material anywhere
 // on the internet; the writers curate it downstream.
 
+// Wording matters: Bing token-matches commentary words ("best", "top",
+// "vs", "review") into dictionary/retail junk (Best Buy, Merriam-Webster).
+// Live-tested 2026-10-13: brand/name-anchored news queries return exactly the
+// category roundups, launches and features research packets need.
 const QUERY_TEMPLATES: Record<string, string[]> = {
-  'ai-chatbots': ['CrushOn.AI Janitor AI Replika update news', 'Character AI c.ai guidelines NSFW update', 'AI girlfriend app comparison review 2026'],
-  'sex-tech': ['Lovense Kiiroo Satisfyer device news release', 'teledildonics connected toy platform update', 'interactive sex tech launch announcement'],
-  'vr': ['Meta Quest adult browser SIDR WankzVR news', 'VR adult platform update announcement 2026', 'sexlikevirtual vr headset content news'],
-  'industry-news': ['OnlyFans Fansly platform policy announcement 2026', 'adult creator payout Visa Mastercard news', 'adult platform age verification law update'],
-  'how-to': ['Lovense setup guide tutorial connect app', 'Meta Quest sideload adult browser how to', 'Janitor AI bot setup guide'],
-  'rankings': ['best AI girlfriend apps comparison 2026', 'Lovense vs Kiiroo vs Satisfyer review', 'best VR adult platforms compared features'],
+  'ai-chatbots': ['CrushOn.AI Janitor AI update news', 'Character AI c.ai guidelines NSFW update', 'AI girlfriend apps CrushOn Janitor AI comparison'],
+  'sex-tech': ['Lovense Kiiroo Satisfyer device news launch', 'teledildonics connected toy platform update', 'interactive sex tech Lovense Kiiroo announcement'],
+  'vr': ['Meta Quest adult browser SIDR WankzVR news', 'SexLikeReal VR headset content news', 'VR adult platform WankzVR SexLikeReal update'],
+  'industry-news': ['OnlyFans Fansly platform policy announcement', 'adult creator payout Visa Mastercard processors news', 'adult platform age verification law update'],
+  'how-to': ['Lovense Remote app setup guide', 'Meta Quest sideload adult browser how to', 'Janitor AI bot setup guide tutorial'],
+  'rankings': ['AI girlfriend apps CrushOn Janitor AI comparison', 'Lovense Kiiroo Satisfyer compared features', 'WankzVR SexLikeReal VR adult platform comparison'],
 };
 
 export function queriesFor(category: string): string[] {
