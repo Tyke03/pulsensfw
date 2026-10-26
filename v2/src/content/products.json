@@ -1,0 +1,94 @@
+[
+  {
+    "id": "lumen-wand-mini",
+    "name": "Lumen Wand Mini",
+    "dek": "A fictional wand. Strong motor, an app that does not nag, example price.",
+    "tags": [
+      "wands",
+      "app"
+    ],
+    "price": "$89 example",
+    "cover": {
+      "alt": "Example product plate for Lumen Wand Mini",
+      "license": "example",
+      "explicit": false,
+      "plate": "lumen-wand-mini",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [
+      {
+        "alt": "Example explicit product still of Lumen Wand Mini",
+        "license": "example",
+        "explicit": true,
+        "explicitId": "lumen",
+        "plate": "lumen-wand-mini",
+        "credit": "Pulse desk example illustration. Not a photograph of a real person."
+      }
+    ],
+    "example": true
+  },
+  {
+    "id": "sync-pebble",
+    "name": "Sync Pebble",
+    "dek": "Example couples toy. The sync holds if the phone stays in the room.",
+    "tags": [
+      "couples",
+      "app"
+    ],
+    "price": "$119 example",
+    "cover": {
+      "alt": "Example product plate for Sync Pebble",
+      "license": "example",
+      "explicit": false,
+      "plate": "sync-pebble",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [
+      {
+        "alt": "Example explicit product still of Sync Pebble",
+        "license": "example",
+        "explicit": true,
+        "explicitId": "pebble",
+        "plate": "sync-pebble",
+        "credit": "Pulse desk example illustration. Not a photograph of a real person."
+      }
+    ],
+    "example": true
+  },
+  {
+    "id": "northstar-strap",
+    "name": "Northstar Strap",
+    "dek": "Fictional harness that lines up with a headset strap.",
+    "tags": [
+      "haptics"
+    ],
+    "price": "$64 example",
+    "cover": {
+      "alt": "Example product plate for Northstar Strap",
+      "license": "example",
+      "explicit": false,
+      "plate": "northstar-strap",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  },
+  {
+    "id": "quiet-marble",
+    "name": "Quiet Marble",
+    "dek": "Example low-noise bullet for thin walls.",
+    "tags": [
+      "quiet"
+    ],
+    "price": "$42 example",
+    "cover": {
+      "alt": "Example product plate for Quiet Marble",
+      "license": "example",
+      "explicit": false,
+      "plate": "quiet-marble",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "id": "nova-lane",
+    "name": "Nova Lane",
+    "dek": "A fictional VR-leaning solo star with a short, sharp catalog.",
+    "platforms": [
+      "OnlyFans",
+      "X"
+    ],
+    "niches": [
+      "solo",
+      "vr",
+      "rising"
+    ],
+    "trending": true,
+    "rising": true,
+    "cover": {
+      "alt": "Example portrait plate for Nova Lane",
+      "license": "example",
+      "explicit": false,
+      "plate": "nova-lane",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [
+      {
+        "alt": "Example explicit still of the Nova Lane plate",
+        "license": "example",
+        "explicit": true,
+        "explicitId": "nova-still",
+        "plate": "nova-lane-still",
+        "credit": "Pulse desk example illustration. Not a photograph of a real person.",
+        "record2257": "example-not-a-person"
+      }
+    ],
+    "example": true
+  },
+  {
+    "id": "juniper-vale",
+    "name": "Juniper Vale",
+    "dek": "Example couple account. Soft light, long scenes, no real people behind the name.",
+    "platforms": [
+      "OnlyFans",
+      "Reddit"
+    ],
+    "niches": [
+      "couples"
+    ],
+    "trending": true,
+    "rising": false,
+    "cover": {
+      "alt": "Example portrait plate for Juniper Vale",
+      "license": "example",
+      "explicit": false,
+      "plate": "juniper-vale",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  },
+  {
+    "id": "rio-mack",
+    "name": "Rio Mack",
+    "dek": "Fictional fitness niche. Example profile, not a real model.",
+    "platforms": [
+      "Fansly",
+      "X"
+    ],
+    "niches": [
+      "solo",
+      "fitness"
+    ],
+    "trending": true,
+    "rising": true,
+    "cover": {
+      "alt": "Example portrait plate for Rio Mack",
+      "license": "example",
+      "explicit": false,
+      "plate": "rio-mack",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  },
+  {
+    "id": "pearl-sato",
+    "name": "Pearl Sato",
+    "dek": "Example cam regular who also posts short clips.",
+    "platforms": [
+      "Chaturbate",
+      "X"
+    ],
+    "niches": [
+      "cams",
+      "solo"
+    ],
+    "trending": false,
+    "rising": true,
+    "cover": {
+      "alt": "Example portrait plate for Pearl Sato",
+      "license": "example",
+      "explicit": false,
+      "plate": "pearl-sato",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  },
+  {
+    "id": "kit-amore",
+    "name": "Kit Amore",
+    "dek": "Fictional cosplay-adjacent solo page.",
+    "platforms": [
+      "OnlyFans"
+    ],
+    "niches": [
+      "solo",
+      "cosplay"
+    ],
+    "trending": true,
+    "rising": false,
+    "cover": {
+      "alt": "Example portrait plate for Kit Amore",
+      "license": "example",
+      "explicit": false,
+      "plate": "kit-amore",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  },
+  {
+    "id": "sunday-bell",
+    "name": "Sunday Bell",
+    "dek": "Example GFE-style creator. The name is made up.",
+    "platforms": [
+      "OnlyFans",
+      "Reddit"
+    ],
+    "niches": [
+      "gfe",
+      "solo"
+    ],
+    "trending": false,
+    "rising": true,
+    "cover": {
+      "alt": "Example portrait plate for Sunday Bell",
+      "license": "example",
+      "explicit": false,
+      "plate": "sunday-bell",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  },
+  {
+    "id": "haze-marin",
+    "name": "Haze Marin",
+    "dek": "Fictional alt niche. Dark rooms, short videos.",
+    "platforms": [
+      "X",
+      "Reddit"
+    ],
+    "niches": [
+      "solo",
+      "alt"
+    ],
+    "trending": true,
+    "rising": false,
+    "cover": {
+      "alt": "Example portrait plate for Haze Marin",
+      "license": "example",
+      "explicit": false,
+      "plate": "haze-marin",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  },
+  {
+    "id": "lux-ordell",
+    "name": "Lux Ordell",
+    "dek": "Example partner of Juniper Vale. Listed on their own so the couple is not one card.",
+    "platforms": [
+      "OnlyFans"
+    ],
+    "niches": [
+      "couples"
+    ],
+    "trending": false,
+    "rising": false,
+    "cover": {
+      "alt": "Example portrait plate for Lux Ordell",
+      "license": "example",
+      "explicit": false,
+      "plate": "lux-ordell",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  }
+]

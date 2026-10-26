@@ -2,11 +2,18 @@ import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
+const license = z.enum(['press-kit', 'affiliate-asset', 'screenshot', 'own-art', 'example']);
+
 const image = z.object({
   alt: z.string(),
-  plate: z.string(),
+  url: z.string().optional(),
+  credit: z.string().optional(),
+  sourceUrl: z.string().optional(),
+  license: license,
   explicit: z.boolean(),
   explicitId: z.string().optional(),
+  record2257: z.string().optional(),
+  plate: z.string().optional(),
 });
 
 const gear = z.object({
@@ -24,7 +31,7 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string(),
     dek: z.string(),
-    topic: z.enum(['vr', 'toys', 'ai-chat', 'creators', 'news', 'guides', 'deals']),
+    topic: z.enum(['stars', 'sites', 'ai', 'toys', 'vr', 'guides', 'lists', 'news']),
     kind: z.enum(['review', 'guide', 'news', 'list', 'comparison']),
     publishedAt: z.coerce.date(),
     updatedAt: z.coerce.date().optional(),
@@ -36,7 +43,13 @@ const articles = defineCollection({
     rails: z.array(z.enum(['trending', 'latest', 'editors', 'guides', 'top10'])).optional(),
     tags: z.array(z.string()).optional(),
     example: z.literal(true),
-    image: image,
+    cover: image.refine((img) => img.explicit === false, { message: 'SFW cover is required' }),
+    explicitImages: z.array(image).optional(),
+    entries: z.array(z.object({
+      kind: z.enum(['star', 'site', 'product', 'game', 'ai']),
+      id: z.string(),
+      blurb: z.string(),
+    })).optional(),
     gear: gear.optional(),
   }),
 });

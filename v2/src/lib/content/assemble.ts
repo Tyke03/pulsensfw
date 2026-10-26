@@ -1,14 +1,12 @@
-import { byDateDesc, presentArticle, presentCharacter, presentDeal, presentGallery } from './present';
+import { byDateDesc, presentArticle, presentCatalog, presentDeal } from './present';
 import type {
   ArticleCard,
-  CharacterCard,
+  Catalog,
   DealCard,
-  GalleryCard,
+  EntityCard,
   RailId,
   RawArticle,
-  RawCharacter,
   RawDeal,
-  RawGalleryItem,
   ReaderMode,
   Topic,
 } from './types';
@@ -20,8 +18,9 @@ export type HomeModel = {
   rails: Record<RailId, ArticleCard[]>;
   topics: Topic[];
   deals: DealCard[];
-  characters: CharacterCard[];
-  gallery: GalleryCard[];
+  rising: EntityCard[];
+  trendingStars: EntityCard[];
+  sites: EntityCard[];
 };
 
 const RAILS: RailId[] = ['trending', 'latest', 'editors', 'guides', 'top10'];
@@ -30,8 +29,7 @@ export function assembleHome(
   articles: RawArticle[],
   topics: Topic[],
   deals: RawDeal[],
-  characters: RawCharacter[],
-  gallery: RawGalleryItem[],
+  catalog: Catalog,
   reader: ReaderMode,
 ): HomeModel {
   const ordered = [...articles].sort(byDateDesc);
@@ -55,7 +53,7 @@ export function assembleHome(
       .slice(0, 8)
       .map((article) => presentArticle(article, reader));
   }
-
+  const entities = presentCatalog(catalog, reader);
   return {
     lead: presentArticle(leadRaw, reader),
     stack: stackRaw.map((article) => presentArticle(article, reader)),
@@ -63,8 +61,9 @@ export function assembleHome(
     rails,
     topics,
     deals: deals.map((deal) => presentDeal(deal, reader)),
-    characters: characters.map((character) => presentCharacter(character, reader)),
-    gallery: gallery.map((item) => presentGallery(item, reader)),
+    rising: entities.filter((card) => card.kind === 'star' && card.kicker === 'New & rising').slice(0, 8),
+    trendingStars: entities.filter((card) => card.kind === 'star' && catalog.stars.find((star) => star.id === card.id)?.trending).slice(0, 8),
+    sites: entities.filter((card) => card.kind === 'site').slice(0, 8),
   };
 }
 

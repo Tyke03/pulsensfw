@@ -1,31 +1,42 @@
-import type { RailId, TopicId } from './content/types';
+import type { RailId, SearchType, TopicId } from './content/types';
 
 export const SITE = {
   name: 'PulseNSFW',
   discreetTitle: 'Notes',
   domain: 'pulsensfw.com',
-  tagline: "What's new in the NSFW internet.",
+  tagline: 'The NSFW internet, honestly reviewed.',
   description:
-    'News, guides, reviews, rankings, and scene notes across AI companions, sex tech, VR, adult creators, and the wider NSFW web.',
+    'The newest porn, stars, sites, VR, games, AI, and sex tech, gathered in one desk and reviewed in plain language. This build is example copy.',
 } as const;
 
 export const TOPIC_LABEL: Record<TopicId, string> = {
-  vr: 'VR',
-  toys: 'Toys',
-  'ai-chat': 'AI Chat',
-  creators: 'Creators',
-  news: 'News',
+  stars: 'Stars & Creators',
+  sites: 'Sites',
+  ai: 'AI',
+  toys: 'Toys & Tech',
+  vr: 'VR & Games',
   guides: 'Guides',
-  deals: 'Deals',
+  lists: 'Top Lists',
+  news: 'News',
 };
 
 export const RAIL_META: Record<RailId, { title: string; href: string; lede: string }> = {
-  trending: { title: 'Trending', href: '/desk/trending', lede: 'What the desk is opening first tonight.' },
-  latest: { title: 'Latest', href: '/desk/latest', lede: 'Fresh seed stories, newest first.' },
-  editors: { title: "Editor's picks", href: '/desk/editors', lede: 'Pieces the desk would put on the front.' },
-  guides: { title: 'New guides', href: '/guides', lede: 'Setup notes and lab method.' },
-  top10: { title: 'Top 10s', href: '/desk/top10', lede: 'Ranked lists, still example copy.' },
+  trending: { title: 'Trending', href: '/desk/trending', lede: 'What people are opening first tonight.' },
+  latest: { title: 'Latest', href: '/desk/latest', lede: 'New releases, new scenes, new gear.' },
+  editors: { title: "Editor's picks", href: '/desk/editors', lede: 'The desk would send a friend these.' },
+  guides: { title: 'New guides', href: '/guides', lede: 'Setup, fit, and how to tell a good night from a bad one.' },
+  top10: { title: 'Top lists', href: '/lists', lede: 'Ranked for viewers. Every row has its own picture.' },
 };
+
+export const SEARCH_FILTERS: Array<{ id: SearchType; label: string }> = [
+  { id: 'all', label: 'All' },
+  { id: 'star', label: 'Stars' },
+  { id: 'site', label: 'Sites' },
+  { id: 'ai', label: 'AI' },
+  { id: 'product', label: 'Toys' },
+  { id: 'game', label: 'Games' },
+  { id: 'article', label: 'Stories' },
+];
 
 export const SOCIALS = [
   { label: 'Instagram', href: '' },

@@ -1,0 +1,91 @@
+---
+import Breadcrumbs from './Breadcrumbs.astro';
+import MediaFrame from './MediaFrame.astro';
+import NotFound from './states/NotFound.astro';
+import StoryCard from './StoryCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { findPresented, presentArticle } from '../lib/content/present';
+import { readReader } from '../lib/reader/cookies';
+import { SITE, TOPIC_LABEL } from '../lib/site';
+import type { EntityKind } from '../lib/content/types';
+
+interface Props {
+  kind: EntityKind;
+  id: string;
+}
+const { kind, id } = Astro.props;
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const repo = getContentRepository();
+const catalog = await repo.listCatalog();
+const articles = await repo.listArticles();
+const card = findPresented(catalog, kind, id, reader);
+if (!card) Astro.response.status = 404;
+const related = card
+  ? articles.filter((article) => article.topic === card.topic).slice(0, 3).map((article) => presentArticle(article, reader, catalog))
+  : [];
+const note = kind === 'star'
+  ? 'Example profile. Not a real person, and not a page you can message.'
+  : kind === 'site'
+    ? 'Example site. Not a real company and not a signup.'
+    : 'Example entry. Not a product you can buy from this page.';
+const title = card ? `${card.title} · ${SITE.name}` : `Page not found · ${SITE.name}`;
+---
+<BaseLayout title={title} description={card?.dek ?? SITE.description} reader={reader} section={card?.topic} noindex={!card}>
+  {card ? (
+    <article class="page entity" style="padding-bottom:48px">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: TOPIC_LABEL[card.topic], href: `/${card.topic}` }, { label: card.title }]} />
+      <header class="entity-head">
+        <div class="entity-cover">
+          <MediaFrame media={card.media} topic={card.topic} uid={`entity-${card.id}`} />
+        </div>
+        <div>
+          <p class="kicker">{card.kicker} · Example</p>
+          <h1>{card.title}</h1>
+          <p class="dek">{card.dek}</p>
+          <p class="meta">{note}</p>
+          <dl class="entity-facts">
+            {card.facts.map((fact) => (
+              <div>
+                <dt>{fact.label}</dt>
+                <dd>{fact.value || '—'}</dd>
+              </div>
+            ))}
+          </dl>
+          {card.tags.length > 0 && (
+            <p class="tag-row">
+              {card.tags.map((tag) => <span class="c-chip">{tag}</span>)}
+            </p>
+          )}
+        </div>
+      </header>
+      {card.explicitMedia.length > 0 && (
+        <section class="explicit-block" aria-labelledby="stills-title">
+          <h2 id="stills-title">Stills</h2>
+          <p class="meta">SFW cover stays on the profile. These extras load only in NSFW mode.</p>
+          <div class="scroller explicit-row" tabindex="0">
+            {card.explicitMedia.map((item, index) => (
+              <figure class="explicit-thumb">
+                <MediaFrame media={item.media} topic={card.topic} uid={`still-${card.id}-${index}`} />
+                <figcaption class="meta">
+                  {item.media.state === 'withheld' ? 'NSFW still' : item.license}
+                  {item.record2257 ? ` · 2257 ${item.record2257}` : ''}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
+      {related.length > 0 && (
+        <section style="margin-top:28px">
+          <h2>On the desk</h2>
+          <div class="scroller" style="padding-left:0">
+            {related.map((story) => <StoryCard card={story} uid={`ent-rel-${story.slug}`} />)}
+          </div>
+        </section>
+      )}
+    </article>
+  ) : (
+    <NotFound articles={articles} reader={reader} />
+  )}
+</BaseLayout>

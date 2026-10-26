@@ -1,68 +1,53 @@
 [
   {
-    "id": "deal-lumen",
-    "title": "Lumen Wand Mini",
-    "merchant": "Example retailer",
+    "id": "deal-wand",
+    "title": "Lumen Wand Mini, example cut",
+    "merchant": "Example shop",
     "price": "$89",
-    "was": "$119",
-    "href": "/story/lumen-wand-mini",
+    "was": "$110",
+    "href": "/products/lumen-wand-mini",
     "topic": "toys",
-    "note": "Example price. Not a live offer.",
-    "image": { "alt": "Seed still of the Lumen Wand Mini", "plate": "lumen-wand", "explicit": true, "explicitId": "lumen" }
+    "cover": {
+      "alt": "Lumen Wand Mini, example cut",
+      "license": "example",
+      "explicit": false,
+      "plate": "lumen-wand-mini",
+      "credit": "Pulse desk example art"
+    },
+    "note": "Sample price. Not a checkout."
   },
   {
-    "id": "deal-strap",
-    "title": "Northstar Strap",
-    "merchant": "Example retailer",
-    "price": "$42",
-    "was": "$58",
-    "href": "/story/northstar-strap",
+    "id": "deal-visor",
+    "title": "After-Midnight key, example",
+    "merchant": "Example store",
+    "price": "$24",
+    "was": "$32",
+    "href": "/games/after-midnight",
     "topic": "vr",
-    "note": "Example price. Not a live offer.",
-    "image": { "alt": "Seed still of a halo strap", "plate": "northstar-strap", "explicit": true, "explicitId": "strap" }
+    "cover": {
+      "alt": "After-Midnight key, example",
+      "license": "example",
+      "explicit": false,
+      "plate": "after-midnight",
+      "credit": "Pulse desk example art"
+    },
+    "note": "Sample price. Not a live key."
   },
   {
     "id": "deal-pebble",
     "title": "Sync Pebble pair",
-    "merchant": "Example retailer",
-    "price": "$64",
-    "was": "$96",
-    "href": "/story/sync-pebble-pair",
+    "merchant": "Example shop",
+    "price": "$119",
+    "was": "$140",
+    "href": "/products/sync-pebble",
     "topic": "toys",
-    "note": "Example price. Not a live offer.",
-    "image": { "alt": "Seed still of a paired pebble", "plate": "sync-pebble", "explicit": true, "explicitId": "pebble" }
-  },
-  {
-    "id": "deal-visor",
-    "title": "After-Midnight Visor",
-    "merchant": "Example retailer",
-    "price": "$249",
-    "was": "$299",
-    "href": "/story/after-midnight-visor",
-    "topic": "vr",
-    "note": "Example price. Not a live offer.",
-    "image": { "alt": "Seed illustration of a visor on a bench", "plate": "visor-bench", "explicit": false }
-  },
-  {
-    "id": "deal-voice",
-    "title": "Voice bench add-on",
-    "merchant": "Example retailer",
-    "price": "$12",
-    "was": "$18",
-    "href": "/story/voice-latency-bench",
-    "topic": "ai-chat",
-    "note": "Example price. Not a live offer.",
-    "image": { "alt": "Seed illustration of a voice waveform", "plate": "voice-bench", "explicit": false }
-  },
-  {
-    "id": "deal-light",
-    "title": "Small-set key light",
-    "merchant": "Example retailer",
-    "price": "$35",
-    "was": "$49",
-    "href": "/story/small-set-lighting",
-    "topic": "creators",
-    "note": "Example price. Not a live offer.",
-    "image": { "alt": "Seed still of a key light", "plate": "small-set-light", "explicit": true, "explicitId": "lighting" }
+    "cover": {
+      "alt": "Sync Pebble pair",
+      "license": "example",
+      "explicit": false,
+      "plate": "sync-pebble",
+      "credit": "Pulse desk example art"
+    },
+    "note": "Sample price. No affiliate link."
   }
 ]

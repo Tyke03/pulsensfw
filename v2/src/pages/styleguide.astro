@@ -31,13 +31,14 @@ const swatches = [
   ['magenta', '#ff4f9a'],
   ['magenta-strong', '#c2186a'],
   ['cyan', '#5cf2ee'],
-  ['vr', '#d7c4ff'],
+  ['stars', '#ffd0b8'],
+  ['sites', '#f0b8ff'],
+  ['ai', '#b8fff8'],
   ['toys', '#ffc2dc'],
-  ['ai-chat', '#b8fff8'],
-  ['creators', '#ffd0b8'],
-  ['news', '#c9dbff'],
+  ['vr', '#d7c4ff'],
   ['guides', '#c8f5d8'],
-  ['deals', '#ffe2a8'],
+  ['lists', '#ffe2a8'],
+  ['news', '#c9dbff'],
 ];
 ---
 <BaseLayout title={`Styleguide · ${SITE.name}`} description="Neon Nightlife Editorial tokens, components, and states." reader={reader} noindex>
@@ -110,7 +111,7 @@ const swatches = [
     <section class="sg-section" id="tags">
       <h2>Tags, badges, scores</h2>
       <div class="row-demo">
-        {['vr','toys','ai-chat','creators','news','guides','deals'].map((topic) => (
+        {['stars','sites','ai','toys','vr','guides','lists','news'].map((topic) => (
           <a class:list={['c-chip', `c-chip--${topic}`]} href={`/${topic}`}>{topic}</a>
         ))}
         <span class="c-badge c-badge--new">New</span>

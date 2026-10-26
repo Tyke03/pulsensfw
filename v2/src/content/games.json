@@ -1,0 +1,66 @@
+[
+  {
+    "id": "after-midnight",
+    "name": "After Midnight",
+    "dek": "Fictional VR scene-game. A bar, a headset, and a scene that lets you stay.",
+    "tags": [
+      "scenes",
+      "games"
+    ],
+    "platform": "Quest and PC VR",
+    "cover": {
+      "alt": "Example cover for After Midnight",
+      "license": "example",
+      "explicit": false,
+      "plate": "after-midnight",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [
+      {
+        "alt": "Example explicit scene frame from After Midnight",
+        "license": "example",
+        "explicit": true,
+        "explicitId": "visor-scene",
+        "plate": "after-midnight",
+        "credit": "Pulse desk example illustration. Not a photograph of a real person."
+      }
+    ],
+    "example": true
+  },
+  {
+    "id": "room-service",
+    "name": "Room Service",
+    "dek": "Example adult PC game. Short, funny, and not a tech demo.",
+    "tags": [
+      "games"
+    ],
+    "platform": "PC",
+    "cover": {
+      "alt": "Example cover for Room Service",
+      "license": "example",
+      "explicit": false,
+      "plate": "room-service",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  },
+  {
+    "id": "pulse-court",
+    "name": "Pulse Court",
+    "dek": "Made-up party game with an adults-only mode you can actually find.",
+    "tags": [
+      "games"
+    ],
+    "platform": "PC and console",
+    "cover": {
+      "alt": "Example cover for Pulse Court",
+      "license": "example",
+      "explicit": false,
+      "plate": "pulse-court",
+      "credit": "Pulse desk example art"
+    },
+    "explicitImages": [],
+    "example": true
+  }
+]

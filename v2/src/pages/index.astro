@@ -1,16 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import DealCard from '../components/DealCard.astro';
+import EntityCard from '../components/EntityCard.astro';
 import Icon from '../components/Icon.astro';
 import MediaFrame from '../components/MediaFrame.astro';
-import PortraitCard from '../components/PortraitCard.astro';
 import PulseRule from '../components/PulseRule.astro';
 import ScoreBadge from '../components/ScoreBadge.astro';
 import StoryCard from '../components/StoryCard.astro';
 import { assembleHome } from '../lib/content/assemble';
 import { getContentRepository } from '../lib/content/local-repository';
 import { readReader } from '../lib/reader/cookies';
-import { RAIL_META, SITE, TOPIC_LABEL } from '../lib/site';
+import { RAIL_META, SEARCH_FILTERS, SITE, TOPIC_LABEL } from '../lib/site';
 import type { ArticleCard, RailId } from '../lib/content/types';
 
 const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
@@ -19,8 +19,7 @@ const home = assembleHome(
   await repo.listArticles(),
   await repo.listTopics(),
   await repo.listDeals(),
-  await repo.listCharacters(),
-  await repo.listGallery(),
+  await repo.listCatalog(),
   reader,
 );
 const lead = home.lead;
@@ -46,6 +45,24 @@ const jsonLd = {
 ---
 <BaseLayout title={`${SITE.name} — ${SITE.tagline}`} description={SITE.description} reader={reader}>
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <section class="home-search-band" aria-labelledby="home-search-title">
+    <div class="page">
+      <p class="kicker">{SITE.tagline}</p>
+      <h2 id="home-search-title">Find it before the tab binge.</h2>
+      <p class="dek">Stars, sites, toys, games, AI, and the stories on this desk. The index is the example catalog.</p>
+      <form class="home-search" action="/search" method="get" data-astro-reload>
+        <label class="sr-only" for="home-q">Search</label>
+        <input class="c-input" id="home-q" name="q" type="search" placeholder="Nova, Velvet Room, wands, VR…" />
+        <button class="c-btn c-btn--primary" type="submit">Search</button>
+      </form>
+      <div class="search-types">
+        {SEARCH_FILTERS.map((filter) => (
+          <a class="c-chip" href={`/search?type=${filter.id}`}>{filter.label}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <div class="page hero">
     <article class="hero-lead">
       {lead.media.state === 'withheld' ? (
@@ -83,6 +100,37 @@ const jsonLd = {
       ))}
     </ul>
   </div>
+
+  <section class="band" aria-labelledby="rising-title">
+    <div class="rail-head">
+      <div>
+        <p class="kicker">People to watch · example names</p>
+        <h2 id="rising-title">New & rising</h2>
+      </div>
+      <PulseRule />
+      <a class="see-all" href="/stars">Stars & Creators</a>
+    </div>
+    <div class="scroller-bleed">
+      <div class="scroller profile-scroller" id="rail-rising" data-carousel tabindex="0">
+        {home.rising.map((card) => <EntityCard card={card} uid={`rise-${card.id}`} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--raised" aria-labelledby="sites-title">
+    <div class="rail-head">
+      <div>
+        <p class="kicker">Premium, tubes, cams, niches</p>
+        <h2 id="sites-title">Sites to open</h2>
+      </div>
+      <a class="see-all" href="/sites">All sites</a>
+    </div>
+    <div class="scroller-bleed">
+      <div class="scroller profile-scroller" id="rail-sites" data-carousel tabindex="0">
+        {home.sites.map((card) => <EntityCard card={card} uid={`site-${card.id}`} />)}
+      </div>
+    </div>
+  </section>
 
   <section class="band" aria-labelledby="hubs-title">
     <div class="section-head">
@@ -134,22 +182,6 @@ const jsonLd = {
     </section>
   ))}
 
-  <section class="band band--raised" aria-labelledby="cast-title">
-    <div class="rail-head">
-      <div>
-        <p class="kicker">Sister site · example cast</p>
-        <h2 id="cast-title">Companion Hub</h2>
-      </div>
-      <a class="see-all" href="https://companionhub.app" rel="noopener noreferrer">Open Companion Hub</a>
-    </div>
-    <p class="strip-note">Fictional seed characters, not live listings. Portraits are original plates.</p>
-    <div class="scroller-bleed">
-      <div class="scroller" id="rail-cast" data-carousel tabindex="0">
-        {home.characters.map((character) => <PortraitCard item={character} kind="cast" uid={`cast-${character.id}`} />)}
-      </div>
-    </div>
-  </section>
-
   <section class="band" aria-labelledby="deals-title">
     <div class="rail-head">
       <div>
@@ -161,22 +193,6 @@ const jsonLd = {
     <div class="scroller-bleed">
       <div class="scroller" id="rail-deals" data-carousel tabindex="0">
         {home.deals.map((deal) => <DealCard deal={deal} uid={`deal-${deal.id}`} />)}
-      </div>
-    </div>
-  </section>
-
-  <section class="band band--raised" aria-labelledby="gallery-title">
-    <div class="rail-head">
-      <div>
-        <p class="kicker">Placeholder plates · studio link pending</p>
-        <h2 id="gallery-title">DeviantArt</h2>
-      </div>
-      <a class="see-all" href="https://www.deviantart.com/" rel="noopener noreferrer">DeviantArt</a>
-    </div>
-    <p class="strip-note">These are original seed plates, not posts from a gallery account.</p>
-    <div class="scroller-bleed">
-      <div class="scroller" id="rail-gallery" data-carousel tabindex="0">
-        {home.gallery.map((item) => <PortraitCard item={item} kind="gallery" uid={`gal-${item.id}`} />)}
       </div>
     </div>
   </section>

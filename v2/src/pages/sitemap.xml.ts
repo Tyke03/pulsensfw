@@ -7,10 +7,12 @@ export const GET: APIRoute = async ({ site }) => {
   const repo = getContentRepository();
   const articles = await repo.listArticles();
   const topics = await repo.listTopics();
+  const catalog = await repo.listCatalog();
   const paths = [
     '/',
     '/hubs',
     '/search',
+    '/deals',
     '/about',
     '/editorial-policy',
     '/how-we-review',
@@ -19,6 +21,11 @@ export const GET: APIRoute = async ({ site }) => {
     ...topics.map((topic) => topic.href),
     ...RAIL_IDS.map((rail) => `/desk/${rail}`),
     ...articles.map((article) => `/story/${article.slug}`),
+    ...catalog.stars.map((star) => `/stars/${star.id}`),
+    ...catalog.sites.map((site) => `/sites/${site.id}`),
+    ...catalog.products.map((product) => `/products/${product.id}`),
+    ...catalog.games.map((game) => `/games/${game.id}`),
+    ...catalog.platforms.map((platform) => `/platforms/${platform.id}`),
   ];
   const urls = paths.map((path) => `<url><loc>${new URL(path, origin).href}</loc></url>`).join('');
   return new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>`, {

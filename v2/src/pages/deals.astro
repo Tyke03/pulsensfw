@@ -1,0 +1,25 @@
+---
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import DealCard from '../components/DealCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { presentDeal } from '../lib/content/present';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const deals = (await getContentRepository().listDeals()).map((deal) => presentDeal(deal, reader));
+---
+<BaseLayout title={`Deals · ${SITE.name}`} description="Example prices for toys and games. Not live offers." reader={reader}>
+  <div class="page" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Deals' }]} />
+    <header class="hub-head">
+      <p class="kicker">Example prices</p>
+      <h1>Deals</h1>
+      <p class="dek" style="max-width:52ch">Sample numbers so the deal row has a picture and a price. Nothing here is a checkout.</p>
+    </header>
+    <div class="profile-grid">
+      {deals.map((deal) => <DealCard deal={deal} uid={`deals-${deal.id}`} />)}
+    </div>
+  </div>
+</BaseLayout>

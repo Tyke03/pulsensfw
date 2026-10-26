@@ -1,12 +1,21 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { assembleHome } from './assemble';
-import { presentArticle } from './present';
+import { presentArticle, searchCatalog } from './present';
 import { PLACEHOLDERS } from './resolve-media';
-import type { RawArticle, ReaderMode, Topic } from './types';
+import type { Catalog, RawArticle, RawImage, ReaderMode, Topic } from './types';
 
 const sfw: ReaderMode = { ageVerified: true, nsfw: false, discreet: false, blur: false, seed: 7 };
 const nsfw: ReaderMode = { ...sfw, nsfw: true };
+
+const safeCover: RawImage = { alt: 'safe cover', plate: 'visor', explicit: false, license: 'example' };
+const hidden: RawImage = {
+  alt: 'hidden product photo',
+  plate: 'secret-plate',
+  explicit: true,
+  explicitId: 'lumen',
+  license: 'example',
+};
 
 function article(overrides: Partial<RawArticle> = {}): RawArticle {
   return {
@@ -23,37 +32,39 @@ function article(overrides: Partial<RawArticle> = {}): RawArticle {
     placement: 'none',
     rails: ['latest'],
     tags: ['quiet'],
-    image: {
-      alt: 'hidden product photo',
-      plate: 'secret-plate',
-      explicit: true,
-      explicitId: 'gated-file-9',
-    },
+    cover: safeCover,
+    explicitImages: [hidden],
+    entries: [],
     bodyText: 'body',
     example: true,
     ...overrides,
   };
 }
 
+const emptyCatalog: Catalog = { stars: [], sites: [], products: [], games: [], platforms: [] };
+
 test('SFW view models omit explicit urls and server keys', () => {
   const view = presentArticle(article(), sfw);
   const json = JSON.stringify(view);
-  assert.equal(view.media.state, 'withheld');
+  assert.equal(view.media.state, 'plate');
+  assert.equal(view.explicitMedia[0]?.media.state, 'withheld');
   assert.equal(json.includes('/media/explicit'), false);
-  assert.equal(json.includes('gated-file-9'), false);
+  assert.equal(json.includes('lumen'), false);
   assert.equal(json.includes('secret-plate'), false);
   assert.equal(json.includes('hidden product photo'), false);
-  if (view.media.state === 'withheld') {
-    assert.ok(PLACEHOLDERS.includes(view.media.src as (typeof PLACEHOLDERS)[number]));
+  const still = view.explicitMedia[0]?.media;
+  if (still?.state === 'withheld') {
+    assert.ok(PLACEHOLDERS.includes(still.src as (typeof PLACEHOLDERS)[number]));
   }
 });
 
 test('NSFW view models point at the gated media route', () => {
   const view = presentArticle(article(), nsfw);
-  assert.equal(view.media.state, 'explicit');
-  if (view.media.state === 'explicit') {
-    assert.equal(view.media.src, '/media/explicit/gated-file-9');
-    assert.equal(view.media.alt, 'hidden product photo');
+  const still = view.explicitMedia[0]?.media;
+  assert.equal(still?.state, 'explicit');
+  if (still?.state === 'explicit') {
+    assert.equal(still.src, '/media/explicit/lumen');
+    assert.equal(still.alt, 'hidden product photo');
   }
 });
 
@@ -61,27 +72,66 @@ test('placeholder choice is stable for a seed and varies by key', () => {
   const a = presentArticle(article({ slug: 'one' }), sfw);
   const b = presentArticle(article({ slug: 'one' }), sfw);
   const c = presentArticle(article({ slug: 'two' }), { ...sfw, seed: 99 });
-  assert.equal(JSON.stringify(a.media), JSON.stringify(b.media));
-  assert.equal(a.media.state, 'withheld');
-  assert.equal(c.media.state, 'withheld');
+  assert.equal(JSON.stringify(a.explicitMedia[0]?.media), JSON.stringify(b.explicitMedia[0]?.media));
+  assert.equal(a.explicitMedia[0]?.media.state, 'withheld');
+  assert.equal(c.explicitMedia[0]?.media.state, 'withheld');
 });
 
 test('assembled home does not leak explicit keys while SFW', () => {
   const topics: Topic[] = [];
   const home = assembleHome(
     [
-      article({ slug: 'lead', placement: 'lead', image: { alt: 'safe', plate: 'visor', explicit: false }, rails: ['trending'] }),
+      article({
+        slug: 'lead',
+        placement: 'lead',
+        cover: safeCover,
+        explicitImages: [],
+        rails: ['trending'],
+      }),
       article({ slug: 'gated', placement: 'stack' }),
     ],
     topics,
     [],
-    [],
-    [],
+    emptyCatalog,
     sfw,
   );
   const json = JSON.stringify(home);
   assert.equal(json.includes('/media/explicit'), false);
-  assert.equal(json.includes('gated-file-9'), false);
+  assert.equal(json.includes('lumen'), false);
   assert.equal(home.lead.slug, 'lead');
-  assert.equal(home.stack[0]?.media.state, 'withheld');
+  assert.equal(home.lead.media.state, 'plate');
+  assert.equal(home.stack[0]?.media.state, 'plate');
+});
+
+test('search finds a star by name and can filter to that type', () => {
+  const catalog: Catalog = {
+    ...emptyCatalog,
+    stars: [{
+      id: 'nova-lane',
+      name: 'Nova Lane',
+      dek: 'Fictional VR star',
+      platforms: ['OnlyFans'],
+      niches: ['vr'],
+      trending: true,
+      rising: true,
+      cover: safeCover,
+      explicitImages: [],
+      example: true,
+    }],
+  };
+  const hits = searchCatalog([], catalog, 'nova', 'all', sfw);
+  assert.equal(hits.length, 1);
+  assert.equal(hits[0]?.type, 'star');
+  assert.equal(hits[0]?.href, '/stars/nova-lane');
+  const toys = searchCatalog([], catalog, '', 'product', sfw);
+  assert.equal(toys.length, 0);
+  const stars = searchCatalog([], catalog, '', 'star', sfw);
+  assert.equal(stars.length, 1);
+});
+
+test('a missing picture falls back to the category cover', async () => {
+  const { presentImage } = await import('./resolve-media');
+  const view = presentImage({ alt: 'Untitled', explicit: false, license: 'example' }, 'vr', 'fallback', sfw);
+  assert.equal(view.state, 'file');
+  if (view.state === 'file') assert.equal(view.src, '/media/categories/vr/cover.svg');
 });

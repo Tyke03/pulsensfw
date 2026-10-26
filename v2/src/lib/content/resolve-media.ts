@@ -1,3 +1,4 @@
+import { categoryCover } from '../brand/slots';
 import { coverMarkup, hashString } from '../media/cover-plate';
 import type { MediaView, RawImage, ReaderMode, TopicId } from './types';
 
@@ -35,12 +36,13 @@ export function presentImage(image: RawImage, topic: TopicId, key: string, reade
       alt: 'Image withheld in SFW mode',
     };
   }
-  return {
-    state: 'plate',
-    plate: image.plate,
-    topic,
-    alt: image.alt,
-  };
+  if (image.url) {
+    return { state: 'file', src: image.url, alt: image.alt };
+  }
+  if (image.plate) {
+    return { state: 'plate', plate: image.plate, topic, alt: image.alt };
+  }
+  return { state: 'file', src: categoryCover(topic), alt: image.alt };
 }
 
 export function explicitSvg(id: string, topic: TopicId, plate: string): string {

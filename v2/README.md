@@ -1,13 +1,29 @@
 # PulseNSFW v2
 
-Phase 1 shell for [pulsensfw.com](https://pulsensfw.com). The Express app at the repo root is untouched.
+Phase 1 shell for [pulsensfw.com](https://pulsensfw.com). Tagline: **The NSFW internet, honestly reviewed.** The Express app at the repo root is untouched.
 
-Astro server-renders every page for Cloudflare Workers. Content is local MDX and JSON behind `getContentRepository()` so Supabase can replace that module later. Explicit images are served from `/media/explicit/[id]` only when the age stub has passed and NSFW mode is on. SFW HTML does not include those URLs.
+This desk is for people who watch: stars, sites, VR, games, AI, and sex tech, with search across the example catalog. It is not a creator-business or industry desk.
+
+Astro server-renders every page for Cloudflare Workers. Content is local MDX and JSON behind `getContentRepository()` so Supabase can replace that module later. Explicit images are served from `/media/explicit/[id]` only when the age stub has passed and NSFW mode is on. SFW HTML does not include those URLs. Every article has an SFW cover. Explicit stills are optional extras.
+
+Node **22.23.4 or newer** is required (`engines` in `package.json`, version pinned in `.nvmrc`). Astro 7 refuses to start below that.
+
+Vite is given an inline PostCSS config (`css.postcss.plugins: []`) so `npm run dev` does not load a parent `postcss.config.js`. Do not add a `postcss.config.*` file in this folder.
+
+## Category art
+
+Drop a section's header and default cover on top of the files already there:
+
+- `public/media/categories/<id>/hero.svg` — wide header
+- `public/media/categories/<id>/cover.svg` — fallback when an entry has no picture
+
+`<id>` is `stars`, `sites`, `ai`, `toys`, `vr`, `guides`, `lists`, or `news`. Paths are listed in `src/lib/brand/slots.ts`. The P mark is `public/brand/mark.svg` (also `public/favicon.svg`). The wordmark is `public/brand/wordmark.svg`.
 
 ## Run locally
 
 ```bash
 cd v2
+nvm use
 npm install
 npm run dev
 ```

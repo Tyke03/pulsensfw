@@ -1,13 +1,14 @@
 import type { TopicId } from '../content/types';
 
 const ACCENT: Record<TopicId, string> = {
-  vr: '#d7c4ff',
+  stars: '#ffd0b8',
+  sites: '#f0b8ff',
+  ai: '#b8fff8',
   toys: '#ffc2dc',
-  'ai-chat': '#b8fff8',
-  creators: '#ffd0b8',
-  news: '#c9dbff',
+  vr: '#d7c4ff',
   guides: '#c8f5d8',
-  deals: '#ffe2a8',
+  lists: '#ffe2a8',
+  news: '#c9dbff',
 };
 
 export function hashString(input: string): number {
@@ -47,7 +48,25 @@ function motif(topic: TopicId, accent: string, n: number): string {
       <path d="M-20 40 H20" stroke="#5cf2ee" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
     </g>`;
   }
-  if (topic === 'ai-chat') {
+  if (topic === 'stars') {
+    return `<g transform="translate(620 390)">
+      <circle cx="0" cy="-20" r="70" fill="#140c1c" stroke="${accent}" stroke-width="8"/>
+      <path d="M-120 150 C-90 40 90 40 120 150" fill="#140c1c" stroke="${accent}" stroke-width="8"/>
+      <path d="M-40 150 H40" stroke="#ff4f9a" stroke-width="4" stroke-linecap="round"/>
+    </g>`;
+  }
+  if (topic === 'sites') {
+    return `<g transform="translate(600 380)">
+      <rect x="-260" y="-140" width="520" height="300" rx="24" fill="#140c1c" stroke="${accent}" stroke-width="7"/>
+      <rect x="-260" y="-140" width="520" height="42" rx="24" fill="#241830"/>
+      <circle cx="-220" cy="-119" r="7" fill="#ff4f9a"/>
+      <circle cx="-196" cy="-119" r="7" fill="#5cf2ee"/>
+      <rect x="-180" y="-40" width="200" height="16" rx="6" fill="${accent}"/>
+      <rect x="-180" y="-8" width="320" height="10" rx="5" fill="#f6f1f8" opacity="0.28"/>
+      <rect x="-180" y="16" width="260" height="10" rx="5" fill="#f6f1f8" opacity="0.18"/>
+    </g>`;
+  }
+  if (topic === 'ai') {
     return `<g transform="translate(600 390)">
       <rect x="-250" y="-120" width="280" height="120" rx="28" fill="#1c1428" stroke="${accent}" stroke-width="5"/>
       <rect x="-40" y="-40" width="300" height="130" rx="28" fill="#241830" stroke="#5cf2ee" stroke-width="5"/>
@@ -58,13 +77,11 @@ function motif(topic: TopicId, accent: string, n: number): string {
       <path d="M-10 48 H160" stroke="#f6f1f8" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
     </g>`;
   }
-  if (topic === 'creators') {
-    return `<g transform="translate(610 380)">
-      <circle cx="0" cy="0" r="150" fill="none" stroke="${accent}" stroke-width="18"/>
-      <circle cx="0" cy="0" r="108" fill="none" stroke="#5cf2ee" stroke-width="3" opacity="0.7"/>
-      <rect x="-46" y="-34" width="92" height="68" rx="12" fill="#140c1c" stroke="#f6f1f8" stroke-width="4"/>
-      <circle cx="0" cy="0" r="16" fill="${accent}"/>
-      <path d="M170 -90 L210 -110" stroke="${accent}" stroke-width="6" stroke-linecap="round"/>
+  if (topic === 'lists') {
+    return `<g transform="translate(430 320)" font-family="ui-monospace, monospace">
+      <text x="0" y="0" fill="${accent}" font-size="120" font-weight="700">01</text>
+      <text x="220" y="90" fill="#f6f1f8" font-size="120" font-weight="700" opacity="0.8">02</text>
+      <text x="440" y="180" fill="#5cf2ee" font-size="120" font-weight="700">03</text>
     </g>`;
   }
   if (topic === 'news') {

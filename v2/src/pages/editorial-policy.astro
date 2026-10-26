@@ -5,15 +5,15 @@ import { readReader } from '../lib/reader/cookies';
 import { SITE } from '../lib/site';
 const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
 ---
-<BaseLayout title={`Editorial policy · ${SITE.name}`} description="What PulseNSFW covers, and what it leaves out." reader={reader}>
+<BaseLayout title={`Editorial policy · ${SITE.name}`} description="What PulseNSFW covers for people who watch." reader={reader}>
   <article class="page" style="padding-bottom:48px">
     <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Editorial policy' }]} />
     <p class="kicker">Policy</p>
     <h1>Editorial policy</h1>
     <div class="prose">
-      <p>Pulse covers news, guides, reviews, and rankings across AI companions, sex tech, VR, adult creators, and the wider NSFW web. The reader is an adult who wants to know what changed and whether a product is worth the trouble.</p>
-      <p>Industry news has to matter to a viewer or a creator. A filing, a rumor, or a leak is not a story. Exploitation, nonconsensual material, and harassment are out of scope.</p>
-      <p>Phase 1 copy is labeled example. When publishing starts, drafts stay drafts until a QC pass. The publishing keys for that desk never ship to the browser.</p>
+      <p>Pulse is for porn consumers. It covers stars and creators worth watching, sites, AI chat and generators, toys, VR, adult games, guides, top lists, and news a viewer would actually use: new scenes, new sites and apps, star news, and deals.</p>
+      <p>Studio business, platform policy, and tools for running a page are out. So are exploitation, nonconsensual material, and harassment.</p>
+      <p>Phase 1 copy is labeled example. When publishing starts, drafts stay drafts until a QC pass, and claims get a citation. The publishing keys for that desk never ship to the browser.</p>
     </div>
   </article>
 </BaseLayout>

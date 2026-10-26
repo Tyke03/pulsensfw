@@ -22,6 +22,12 @@ export default defineConfig({
     service: passthroughImageService(),
   },
   integrations: [mdx()],
+  vite: {
+    css: {
+      // Inline config so Vite does not walk up to the retired site's postcss.config.js.
+      postcss: { plugins: [] },
+    },
+  },
   fonts: [
     {
       provider: fontProviders.local(),

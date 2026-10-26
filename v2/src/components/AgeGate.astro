@@ -10,11 +10,11 @@ const field = challenge.fields[0];
 ---
 <div class="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title">
   <div class="age-card">
-    <Logo />
+    <Logo markId="gate" />
     <PulseRule />
     <p class="kicker">Adults only · 18+</p>
     <h1 id="age-title">The desk is for adults.</h1>
-    <p>PulseNSFW publishes editorial coverage of sex tech, adult VR, AI companions, and creators. SFW mode stays on until you opt in. The NSFW switch stays off until this check passes.</p>
+    <p>PulseNSFW is where you look up porn, stars, sites, VR, games, AI, and sex tech. SFW mode stays on until you opt in. The NSFW switch stays off until this check passes.</p>
     <p class="disclosure">{challenge.disclosure}</p>
     {failed && <p class="c-error" role="alert">Confirm you are 18 or older to enter.</p>}
     <form method="post" action="/api/reader/age" class="stack" data-astro-reload>

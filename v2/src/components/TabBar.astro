@@ -5,9 +5,9 @@ interface Props { path: string; }
 const { path } = Astro.props;
 const items = [
   { href: '/', label: 'Home', icon: 'home' as const, current: path === '/' },
-  { href: '/hubs', label: 'Hubs', icon: 'grid' as const, current: path === '/hubs' },
   { href: '/search', label: 'Search', icon: 'search' as const, current: path.startsWith('/search'), search: true },
-  { href: '/deals', label: 'Deals', icon: 'tag' as const, current: path.startsWith('/deals') },
+  { href: '/stars', label: 'Stars', icon: 'spark' as const, current: path.startsWith('/stars') },
+  { href: '/sites', label: 'Sites', icon: 'grid' as const, current: path.startsWith('/sites') },
   { href: '/you', label: 'You', icon: 'user' as const, current: path.startsWith('/you') },
 ];
 ---

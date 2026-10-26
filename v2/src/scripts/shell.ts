@@ -1,4 +1,6 @@
 const root = document.documentElement;
+const MEGA_CLOSE_MS = 250;
+const megaTimers = new WeakMap<HTMLElement, number>();
 
 function toast(message: string) {
   const region = document.getElementById('toaster');
@@ -53,6 +55,56 @@ function openDialog(id: string) {
 
 function closeDialog(dialog: HTMLElement) {
   dialog.hidden = true;
+}
+
+function megaItem(node: EventTarget | null): HTMLElement | null {
+  if (!(node instanceof Element)) return null;
+  const item = node.closest('[data-mega]');
+  return item instanceof HTMLElement ? item : null;
+}
+
+function megaTrigger(item: HTMLElement): HTMLElement | null {
+  const trigger = item.querySelector('[data-mega-trigger]');
+  return trigger instanceof HTMLElement ? trigger : null;
+}
+
+function clearMegaTimer(item: HTMLElement) {
+  const timer = megaTimers.get(item);
+  if (timer) window.clearTimeout(timer);
+  megaTimers.delete(item);
+}
+
+function openMega(item: HTMLElement, focusFirst = false) {
+  document.querySelectorAll<HTMLElement>('[data-mega].is-open').forEach((other) => {
+    if (other !== item) closeMega(other, false);
+  });
+  clearMegaTimer(item);
+  item.classList.add('is-open');
+  megaTrigger(item)?.setAttribute('aria-expanded', 'true');
+  if (focusFirst) {
+    const first = item.querySelector('.mega a');
+    if (first instanceof HTMLElement) first.focus();
+  }
+}
+
+function closeMega(item: HTMLElement, restoreFocus: boolean) {
+  clearMegaTimer(item);
+  item.classList.remove('is-open');
+  const trigger = megaTrigger(item);
+  trigger?.setAttribute('aria-expanded', 'false');
+  if (restoreFocus) trigger?.focus();
+}
+
+function scheduleMegaClose(item: HTMLElement) {
+  clearMegaTimer(item);
+  const timer = window.setTimeout(() => closeMega(item, false), MEGA_CLOSE_MS);
+  megaTimers.set(item, timer);
+}
+
+function closeOpenMegas(except?: HTMLElement | null) {
+  document.querySelectorAll<HTMLElement>('[data-mega].is-open').forEach((item) => {
+    if (item !== except) closeMega(item, false);
+  });
 }
 
 function onClick(event: MouseEvent) {
@@ -117,6 +169,53 @@ function reducedMotion() {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
 
+document.addEventListener('pointerover', (event) => {
+  if (event.pointerType && event.pointerType !== 'mouse') return;
+  const item = megaItem(event.target);
+  if (!item) return;
+  openMega(item);
+});
+
+document.addEventListener('pointerout', (event) => {
+  if (event.pointerType && event.pointerType !== 'mouse') return;
+  const item = megaItem(event.target);
+  if (!item) return;
+  const next = event.relatedTarget;
+  if (next instanceof Node && item.contains(next)) return;
+  scheduleMegaClose(item);
+});
+
+document.addEventListener('focusout', (event) => {
+  const item = megaItem(event.target);
+  if (!item || !item.classList.contains('is-open')) return;
+  const next = event.relatedTarget;
+  if (next instanceof Node && item.contains(next)) return;
+  scheduleMegaClose(item);
+});
+
+document.addEventListener('focusin', (event) => {
+  const item = megaItem(event.target);
+  if (!item) return;
+  clearMegaTimer(item);
+});
+
+document.addEventListener('click', (event) => {
+  const target = event.target;
+  if (!(target instanceof Element)) return;
+  const trigger = target.closest('[data-mega-trigger]');
+  if (trigger instanceof HTMLElement) {
+    const item = trigger.closest('[data-mega]');
+    if (!(item instanceof HTMLElement)) return;
+    if (!item.classList.contains('is-open')) {
+      event.preventDefault();
+      event.stopPropagation();
+      openMega(item);
+    }
+    return;
+  }
+  if (!target.closest('[data-mega]')) closeOpenMegas();
+}, true);
+
 document.addEventListener('click', (event) => {
   const target = event.target;
   if (!(target instanceof Element)) return;
@@ -162,10 +261,29 @@ document.addEventListener('submit', (event) => {
 });
 
 document.addEventListener('keydown', (event) => {
+  const target = event.target;
   if (event.key === 'Escape') {
+    const openMegaItem = document.querySelector('[data-mega].is-open');
+    if (openMegaItem instanceof HTMLElement) {
+      event.preventDefault();
+      closeMega(openMegaItem, true);
+    }
     document.querySelectorAll('.modal:not([hidden])').forEach((node) => {
       if (node instanceof HTMLElement && node.id !== '') closeDialog(node);
     });
+  }
+  if ((event.key === 'Enter' || event.key === ' ') && target instanceof HTMLElement) {
+    const trigger = target.closest('[data-mega-trigger]');
+    if (trigger instanceof HTMLElement && document.activeElement === trigger) {
+      const item = trigger.closest('[data-mega]');
+      if (item instanceof HTMLElement && !item.classList.contains('is-open')) {
+        event.preventDefault();
+        openMega(item, true);
+      } else if (event.key === ' ' && item instanceof HTMLElement) {
+        event.preventDefault();
+        trigger.click();
+      }
+    }
   }
   if (event.key === 'H' && event.shiftKey && !event.metaKey && !event.ctrlKey && !event.altKey) {
     const typing = event.target instanceof HTMLElement && event.target.closest('input, textarea');
