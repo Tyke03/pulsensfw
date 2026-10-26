@@ -1,0 +1,16 @@
+---
+import ReaderPanel from '../components/reader/ReaderPanel.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+---
+<BaseLayout title={`Reader settings · ${SITE.name}`} reader={reader} noindex>
+  <div class="page" style="padding:24px 0 48px;max-width:640px">
+    <p class="kicker">You</p>
+    <h1>Reader settings</h1>
+    <p class="dek">Phase 1 keeps these on this browser. Sign-in shows up with Supabase later. Nothing here is an account.</p>
+    <ReaderPanel reader={reader} returnTo="/you" />
+  </div>
+</BaseLayout>

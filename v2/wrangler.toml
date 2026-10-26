@@ -1,0 +1,10 @@
+# Phase 1 worker config for the v2 shell.
+# The Astro Cloudflare adapter fills the worker entry and asset binding at build time.
+# No secrets live here. R2 is intentionally not bound until media uploads exist.
+name = "pulsensfw-v2"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+# [[r2_buckets]]
+# binding = "MEDIA"
+# bucket_name = "pulse-media"

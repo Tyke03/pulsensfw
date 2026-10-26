@@ -1,0 +1,57 @@
+---
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import EmptyState from '../components/states/EmptyState.astro';
+import NotFound from '../components/states/NotFound.astro';
+import StoryCard from '../components/StoryCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { presentArticle } from '../lib/content/present';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+import { TOPICS, type TopicId } from '../lib/content/types';
+
+const section = Astro.params.section ?? '';
+const known = (TOPICS as readonly string[]).includes(section);
+if (!known) Astro.response.status = 404;
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const repo = getContentRepository();
+const topics = await repo.listTopics();
+const topic = topics.find((item) => item.id === section);
+const articles = await repo.listArticles();
+const filter = Astro.url.searchParams.get('topic');
+const matched = articles.filter((article) => article.topic === section && (!filter || article.tags.includes(filter)));
+const cards = matched.map((article) => presentArticle(article, reader));
+const [lead, ...rest] = cards;
+---
+<BaseLayout title={topic ? `${topic.label} · ${SITE.name}` : `Page not found · ${SITE.name}`} description={topic?.blurb ?? SITE.description} reader={reader} section={known ? (section as TopicId) : undefined} noindex={!known}>
+  {topic ? (
+    <div class="page" style="padding-bottom:40px">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: topic.label }]} />
+      <header class="hub-head">
+        <p class="kicker">{topic.id}</p>
+        <h1>{topic.label}</h1>
+        <p class="dek" style="max-width:52ch">{topic.blurb}</p>
+      </header>
+      <div class="filters">
+        <a class="c-chip" href={topic.href} aria-current={!filter ? 'page' : undefined}>All</a>
+        {topic.subtopics.map((sub) => (
+          <a class="c-chip" href={`${topic.href}?topic=${sub.id}`} aria-current={filter === sub.id ? 'page' : undefined}>{sub.label}</a>
+        ))}
+      </div>
+      {cards.length === 0 ? (
+        <EmptyState title="Nothing in this slice yet" body="The example desk does not have a story under that subtopic. Try the full hub.">
+          <a class="c-btn c-btn--primary" href={topic.href}>Clear filter</a>
+        </EmptyState>
+      ) : (
+        <div class="story-grid">
+          {lead && <StoryCard card={lead} layout="feature" uid={`hub-${lead.slug}`} heading="h2" />}
+          <div class="rest">
+            {rest.map((card) => <StoryCard card={card} layout="text" uid={`hub-rest-${card.slug}`} />)}
+          </div>
+        </div>
+      )}
+    </div>
+  ) : (
+    <NotFound articles={articles} reader={reader} />
+  )}
+</BaseLayout>

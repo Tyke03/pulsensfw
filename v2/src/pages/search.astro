@@ -1,0 +1,32 @@
+---
+import EmptyState from '../components/states/EmptyState.astro';
+import StoryCard from '../components/StoryCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { presentArticle } from '../lib/content/present';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const q = Astro.url.searchParams.get('q')?.trim() ?? '';
+const repo = getContentRepository();
+const hits = q ? (await repo.search(q)).map((article) => presentArticle(article, reader)) : [];
+---
+<BaseLayout title={q ? `Search “${q}” · ${SITE.name}` : `Search · ${SITE.name}`} reader={reader} noindex>
+  <div class="page" style="padding:20px 0 48px">
+    <p class="kicker">Search</p>
+    <h1>Find a seed story</h1>
+    <form action="/search" method="get" data-astro-reload class="c-field" style="max-width:640px;margin:16px 0 24px">
+      <label class="sr-only" for="q">Search</label>
+      <input class="c-input" id="q" name="q" type="search" value={q} placeholder="Try visor, payout, or quiet" />
+      <button class="c-btn c-btn--primary" type="submit" style="justify-self:start">Search</button>
+    </form>
+    {!q && <EmptyState title="The search desk is clear" body="Ask for a topic, a product, or a word from a dek. This searches the local example stories only." />}
+    {q && hits.length === 0 && <EmptyState title="No matches" body={`Nothing in the seed set mentions “${q}”. Try a shorter word.`} />}
+    {hits.length > 0 && (
+      <div class="story-grid">
+        {hits.map((card, index) => <StoryCard card={card} layout={index === 0 ? 'feature' : 'text'} uid={`search-${card.slug}`} heading={index === 0 ? 'h2' : 'h3'} />)}
+      </div>
+    )}
+  </div>
+</BaseLayout>

@@ -1,0 +1,17 @@
+---
+interface Props { discreet?: boolean; }
+const { discreet = false } = Astro.props;
+---
+<a class="logo" href="/" data-pulse aria-label={discreet ? 'Home' : 'PulseNSFW home'}>
+  <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+    <rect width="32" height="32" rx="8" fill="#241a30"/>
+    <path d="M5 17 H10 L12 17 L14 11 L16 22 L18 14 L20 17 H27" fill="none" stroke="#ff4f9a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <span>
+    <span class="logo-word">{discreet ? 'Notes' : 'PULSE'}</span>
+    <svg class="logo-line" viewBox="0 0 88 12" aria-hidden="true">
+      <path d="M1 7 H28 L34 7 L38 2 L44 11 L48 4 L52 7 H87" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="logo-sub" hidden={discreet}>NSFW</span>
+  </span>
+</a>

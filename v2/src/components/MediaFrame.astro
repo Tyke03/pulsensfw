@@ -1,0 +1,24 @@
+---
+import CoverPlate from './CoverPlate.astro';
+import type { MediaView, TopicId } from '../lib/content/types';
+
+interface Props {
+  media: MediaView;
+  topic: TopicId;
+  uid: string;
+}
+const { media, uid } = Astro.props;
+---
+<div class="media">
+  {media.state === 'plate' && <CoverPlate plate={media.plate} topic={media.topic} alt={media.alt} uid={uid} />}
+  {media.state === 'explicit' && <img src={media.src} alt={media.alt} width="1200" height="750" />}
+  {media.state === 'withheld' && (
+    <>
+      <img src={media.src} alt="" width="1200" height="750" />
+      <div class="withheld">
+        <p>Available in NSFW mode</p>
+        <button class="c-btn c-btn--primary c-btn--small" type="submit" form="nsfw-toggle">Enable NSFW</button>
+      </div>
+    </>
+  )}
+</div>

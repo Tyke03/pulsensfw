@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+---
+<BaseLayout title={`About · ${SITE.name}`} description={SITE.description} reader={reader}>
+  <article class="page prose-page" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
+    <p class="kicker">About</p>
+    <h1>What's new in the NSFW internet.</h1>
+    <div class="prose">
+      <p>{SITE.description}</p>
+      <p>This folder is the phase 1 shell: a server-rendered front end aimed at Cloudflare, with example stories in local MDX. The previous app stays where it is. Supabase, Amazon SES, and the agent publishing desk are later seams, not features of this build.</p>
+      <h2 id="seed">The example desk</h2>
+      <p>Every story, score, price, character, and gallery plate on this shell is seed content. Scores are example lab cards so the components exist. They are not published tests. Prices are not offers. Characters are not Companion Hub listings. Gallery plates are not DeviantArt posts.</p>
+      <p>Sister sites: <a href="https://companionhub.app">companionhub.app</a>. The DeviantArt studio URL is still the owner's to add.</p>
+    </div>
+  </article>
+</BaseLayout>

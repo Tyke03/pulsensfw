@@ -1,0 +1,54 @@
+---
+import { getEntry, render } from 'astro:content';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import GearLab from '../../components/gear/GearLab.astro';
+import MediaFrame from '../../components/MediaFrame.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import NotFound from '../../components/states/NotFound.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { relatedArticles } from '../../lib/content/assemble';
+import { getContentRepository } from '../../lib/content/local-repository';
+import { presentArticle } from '../../lib/content/present';
+import { readReader } from '../../lib/reader/cookies';
+import { SITE, TOPIC_LABEL } from '../../lib/site';
+
+const slug = Astro.params.slug ?? '';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const repo = getContentRepository();
+const articles = await repo.listArticles();
+const raw = articles.find((article) => article.slug === slug) ?? null;
+if (!raw) Astro.response.status = 404;
+const entry = raw ? await getEntry('articles', slug) : undefined;
+const Content = entry ? (await render(entry)).Content : null;
+const page = raw ? presentArticle(raw, reader) : null;
+const related = raw ? relatedArticles(articles, raw.slug, raw.topic, reader) : [];
+const title = page ? `${page.title} · ${SITE.name}` : `Page not found · ${SITE.name}`;
+---
+<BaseLayout title={title} description={page?.dek ?? SITE.description} reader={reader} section={page?.topic} noindex={!page} ogType={page ? 'article' : 'website'}>
+  {page && Content ? (
+    <article class="page" style="padding-bottom:48px">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: TOPIC_LABEL[page.topic], href: `/${page.topic}` }, { label: page.title }]} />
+      <header class="article-hero">
+        <p class="kicker">{page.kicker} · Example story</p>
+        <h1>{page.title}</h1>
+        <p class="dek">{page.dek}</p>
+        <p class="meta">{page.author} · {page.publishedLabel}{page.updatedLabel ? ` · Updated ${page.updatedLabel}` : ''} · {page.readingMinutes} min read</p>
+        <MediaFrame media={page.media} topic={page.topic} uid={`story-${page.slug}`} />
+      </header>
+      <div class:list={['article-grid', page.gear && 'has-gear']} style="margin-top:24px">
+        <div class="prose"><Content /></div>
+        {page.gear && <div class="gear-col"><GearLab gear={page.gear} /></div>}
+      </div>
+      {related.length > 0 && (
+        <section style="margin-top:36px">
+          <h2>More in {TOPIC_LABEL[page.topic]}</h2>
+          <div class="scroller" style="padding-left:0">
+            {related.map((card) => <StoryCard card={card} uid={`rel-${card.slug}`} />)}
+          </div>
+        </section>
+      )}
+    </article>
+  ) : (
+    <NotFound articles={articles} reader={reader} />
+  )}
+</BaseLayout>

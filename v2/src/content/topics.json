@@ -1,0 +1,82 @@
+[
+  {
+    "id": "vr",
+    "label": "VR",
+    "href": "/vr",
+    "blurb": "Headsets, haptics, and the scenes that survive a long session.",
+    "subtopics": [
+      { "id": "headsets", "label": "Headsets", "description": "Fit, heat, and what you forget you are wearing." },
+      { "id": "platforms", "label": "Platforms", "description": "Stores, sideloading, and the libraries worth the space." },
+      { "id": "haptics", "label": "Haptics", "description": "Suits, straps, and toys that try to keep time." },
+      { "id": "safety", "label": "Safety", "description": "Guardian space, guests, and the cable you will trip on." }
+    ]
+  },
+  {
+    "id": "toys",
+    "label": "Toys",
+    "href": "/toys",
+    "blurb": "Motors, noise, batteries, and the app that either helps or nags.",
+    "subtopics": [
+      { "id": "wands", "label": "Wands", "description": "Power, rumble shape, and whether the wall hears it." },
+      { "id": "couples", "label": "Couples", "description": "Sync, dropouts, and who has to hold the phone." },
+      { "id": "quiet", "label": "Quiet", "description": "Shared walls, roommates, and honest decibel notes." },
+      { "id": "care", "label": "Care", "description": "Materials, charging, and storage that is not a junk drawer." }
+    ]
+  },
+  {
+    "id": "ai-chat",
+    "label": "AI Chat",
+    "href": "/ai-chat",
+    "blurb": "Companion apps, memory, voice lag, and prompts that do not collapse.",
+    "subtopics": [
+      { "id": "memory", "label": "Memory", "description": "What the app still knows on Thursday." },
+      { "id": "voice", "label": "Voice", "description": "Latency, tone, and the awkward pause." },
+      { "id": "prompts", "label": "Prompts", "description": "Openers that sound like a person, not a form." },
+      { "id": "privacy", "label": "Privacy", "description": "Logs, exports, and what leaves the device." }
+    ]
+  },
+  {
+    "id": "creators",
+    "label": "Creators",
+    "href": "/creators",
+    "blurb": "Sets, payouts, tools, and the room that is also a bedroom.",
+    "subtopics": [
+      { "id": "sets", "label": "Sets", "description": "Light, sound, and a background that behaves." },
+      { "id": "payouts", "label": "Payouts", "description": "What changed in the last pay cycle." },
+      { "id": "tools", "label": "Tools", "description": "Schedulers and editors people kept after a week." },
+      { "id": "safety", "label": "Safety", "description": "Boundaries, leaks, and chargeback noise." }
+    ]
+  },
+  {
+    "id": "news",
+    "label": "News",
+    "href": "/news",
+    "blurb": "Platform shifts and product news a viewer or creator would actually feel.",
+    "subtopics": [
+      { "id": "platforms", "label": "Platforms", "description": "Feed rules, bans, and policy that changes the scroll." },
+      { "id": "gear", "label": "Gear", "description": "Price cuts and hardware that changes the buy." },
+      { "id": "business", "label": "Business", "description": "Payouts and storefronts, minus the filing cabinet." }
+    ]
+  },
+  {
+    "id": "guides",
+    "label": "Guides",
+    "href": "/guides",
+    "blurb": "Setup, lab method, and discreet living with the gear still in the house.",
+    "subtopics": [
+      { "id": "setup", "label": "Setup", "description": "First-night installs that leave room to breathe." },
+      { "id": "lab", "label": "Lab method", "description": "How scores, noise, and battery claims get checked." },
+      { "id": "discreet", "label": "Discreet", "description": "Storage, tab titles, and guests on the couch." }
+    ]
+  },
+  {
+    "id": "deals",
+    "label": "Deals",
+    "href": "/deals",
+    "blurb": "Example price notes. Nothing here is a live offer or an affiliate link.",
+    "subtopics": [
+      { "id": "drops", "label": "Drops", "description": "Cuts we would flag if they were real." },
+      { "id": "traps", "label": "Traps", "description": "Crossed-out prices that were never the price." }
+    ]
+  }
+]

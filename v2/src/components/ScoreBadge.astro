@@ -1,0 +1,11 @@
+---
+interface Props { score: number; size?: 'md' | 'lg'; }
+const { score, size = 'md' } = Astro.props;
+const band = score >= 8.5 ? 'great' : score >= 7.5 ? 'good' : score >= 6 ? 'mid' : 'low';
+const label = size === 'lg' ? 'Lab' : '';
+---
+<span class:list={['score', `score--${band}`, size === 'lg' && 'score--lg']} title="Example lab score">
+  <b>{score.toFixed(1)}</b>
+  {label && <span class="score-label">{label}</span>}
+  <span class="sr-only">Example score {score.toFixed(1)} out of 10</span>
+</span>

@@ -1,0 +1,11 @@
+---
+import PulseRule from '../PulseRule.astro';
+interface Props { title: string; body: string; }
+const { title, body } = Astro.props;
+---
+<div class="empty">
+  <PulseRule />
+  <h2>{title}</h2>
+  <p class="dek">{body}</p>
+  <slot />
+</div>

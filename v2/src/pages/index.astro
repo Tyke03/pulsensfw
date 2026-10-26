@@ -1,0 +1,183 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DealCard from '../components/DealCard.astro';
+import Icon from '../components/Icon.astro';
+import MediaFrame from '../components/MediaFrame.astro';
+import PortraitCard from '../components/PortraitCard.astro';
+import PulseRule from '../components/PulseRule.astro';
+import ScoreBadge from '../components/ScoreBadge.astro';
+import StoryCard from '../components/StoryCard.astro';
+import { assembleHome } from '../lib/content/assemble';
+import { getContentRepository } from '../lib/content/local-repository';
+import { readReader } from '../lib/reader/cookies';
+import { RAIL_META, SITE, TOPIC_LABEL } from '../lib/site';
+import type { ArticleCard, RailId } from '../lib/content/types';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const repo = getContentRepository();
+const home = assembleHome(
+  await repo.listArticles(),
+  await repo.listTopics(),
+  await repo.listDeals(),
+  await repo.listCharacters(),
+  await repo.listGallery(),
+  reader,
+);
+const lead = home.lead;
+const rails: Array<{ id: RailId; layout: 'feature' | 'text' | 'editor' | 'guide' | 'rank' }> = [
+  { id: 'trending', layout: 'feature' },
+  { id: 'latest', layout: 'text' },
+  { id: 'editors', layout: 'editor' },
+  { id: 'guides', layout: 'guide' },
+  { id: 'top10', layout: 'rank' },
+];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: Astro.site?.href ?? Astro.url.origin,
+  description: SITE.description,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: new URL('/search?q={search_term_string}', Astro.site ?? Astro.url.origin).href,
+    'query-input': 'required name=search_term_string',
+  },
+};
+---
+<BaseLayout title={`${SITE.name} — ${SITE.tagline}`} description={SITE.description} reader={reader}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <div class="page hero">
+    <article class="hero-lead">
+      {lead.media.state === 'withheld' ? (
+        <MediaFrame media={lead.media} topic={lead.topic} uid={`lead-${lead.slug}`} />
+      ) : (
+        <a class="hero-media" href={lead.href} aria-label={lead.title}>
+          <MediaFrame media={lead.media} topic={lead.topic} uid={`lead-${lead.slug}`} />
+        </a>
+      )}
+      <div class="hero-copy">
+        <p class="kicker">{lead.kicker} · {TOPIC_LABEL[lead.topic]}</p>
+        <h1><a href={lead.href}>{lead.title}</a></h1>
+        <p class="dek">{lead.dek}</p>
+        <p class="card-meta">
+          {lead.badges.map((badge) => <span class:list={['c-badge', `c-badge--${badge}`]}>{badge}</span>)}
+          {lead.score !== null && <ScoreBadge score={lead.score} />}
+          <span class="meta">{lead.author} · {lead.publishedLabel} · {lead.readingMinutes} min</span>
+        </p>
+      </div>
+    </article>
+    <div class="hero-stack">
+      {home.stack.map((card) => <StoryCard card={card} layout="stack" uid={`stack-${card.slug}`} heading="h2" />)}
+    </div>
+  </div>
+
+  <div class="page">
+    <ul class="desk">
+      {home.desk.map((card: ArticleCard) => (
+        <li>
+          <a href={card.href}>
+            <span class:list={['c-chip', `c-chip--${card.topic}`]}>{TOPIC_LABEL[card.topic]}</span>
+            <span>{card.title}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <section class="band" aria-labelledby="hubs-title">
+    <div class="section-head">
+      <h2 id="hubs-title">Sections</h2>
+      <PulseRule />
+      <a class="see-all" href="/hubs">See all</a>
+    </div>
+    <div class="page bento">
+      {home.topics.map((topic) => (
+        <a class="topic-tile" href={topic.href} style={`--tile: var(--${topic.id})`}>
+          <span class="kicker">{topic.subtopics.length} desks</span>
+          <strong>{topic.label}</strong>
+          <span>{topic.blurb}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {rails.map((rail, index) => (
+    <section class:list={['band', index % 2 === 1 && 'band--raised']} aria-labelledby={`${rail.id}-title`}>
+      <div class="rail-head">
+        <div>
+          <p class="kicker">{RAIL_META[rail.id].lede}</p>
+          <h2 id={`${rail.id}-title`}>{RAIL_META[rail.id].title}</h2>
+        </div>
+        <PulseRule />
+        <div class="rail-actions">
+          <button class="icon-btn carousel-btn" type="button" data-carousel-prev data-carousel-target={`rail-${rail.id}`} aria-label={`Scroll ${RAIL_META[rail.id].title} backward`}>
+            <Icon name="chevron" />
+          </button>
+          <button class="icon-btn carousel-btn" type="button" data-carousel-next data-carousel-target={`rail-${rail.id}`} aria-label={`Scroll ${RAIL_META[rail.id].title} forward`} style="transform:scaleX(-1)">
+            <Icon name="chevron" />
+          </button>
+          <a class="see-all" href={RAIL_META[rail.id].href}>See all</a>
+        </div>
+      </div>
+      <div class="scroller-bleed">
+        <div class="scroller" id={`rail-${rail.id}`} data-carousel tabindex="0">
+          {home.rails[rail.id].map((card, cardIndex) => (
+            <StoryCard
+              card={card}
+              uid={`${rail.id}-${card.slug}`}
+              layout={rail.layout === 'feature' && cardIndex > 0 ? 'standard' : rail.layout}
+              rank={cardIndex + 1}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <section class="band band--raised" aria-labelledby="cast-title">
+    <div class="rail-head">
+      <div>
+        <p class="kicker">Sister site · example cast</p>
+        <h2 id="cast-title">Companion Hub</h2>
+      </div>
+      <a class="see-all" href="https://companionhub.app" rel="noopener noreferrer">Open Companion Hub</a>
+    </div>
+    <p class="strip-note">Fictional seed characters, not live listings. Portraits are original plates.</p>
+    <div class="scroller-bleed">
+      <div class="scroller" id="rail-cast" data-carousel tabindex="0">
+        {home.characters.map((character) => <PortraitCard item={character} kind="cast" uid={`cast-${character.id}`} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="deals-title">
+    <div class="rail-head">
+      <div>
+        <p class="kicker">Example prices · not live offers</p>
+        <h2 id="deals-title">Deals</h2>
+      </div>
+      <a class="see-all" href="/deals">See all</a>
+    </div>
+    <div class="scroller-bleed">
+      <div class="scroller" id="rail-deals" data-carousel tabindex="0">
+        {home.deals.map((deal) => <DealCard deal={deal} uid={`deal-${deal.id}`} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--raised" aria-labelledby="gallery-title">
+    <div class="rail-head">
+      <div>
+        <p class="kicker">Placeholder plates · studio link pending</p>
+        <h2 id="gallery-title">DeviantArt</h2>
+      </div>
+      <a class="see-all" href="https://www.deviantart.com/" rel="noopener noreferrer">DeviantArt</a>
+    </div>
+    <p class="strip-note">These are original seed plates, not posts from a gallery account.</p>
+    <div class="scroller-bleed">
+      <div class="scroller" id="rail-gallery" data-carousel tabindex="0">
+        {home.gallery.map((item) => <PortraitCard item={item} kind="gallery" uid={`gal-${item.id}`} />)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,16 @@
+---
+import MediaFrame from './MediaFrame.astro';
+import type { DealCard } from '../lib/content/types';
+
+interface Props { deal: DealCard; uid: string; }
+const { deal, uid } = Astro.props;
+---
+<article class="card card--deal">
+  <MediaFrame media={deal.media} topic={deal.topic} uid={uid} />
+  <a class:list={['card-body', deal.media.state !== 'withheld' && 'card-stretch']} href={deal.href}>
+    <p class="kicker">Example deal</p>
+    <h3 class="card-title clamp-2">{deal.title}</h3>
+    <p class="price"><span class="price-now">{deal.price}</span> <s>{deal.was}</s></p>
+    <p class="meta">{deal.merchant} · {deal.note}</p>
+  </a>
+</article>

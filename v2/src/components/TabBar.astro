@@ -1,0 +1,21 @@
+---
+import Icon from './Icon.astro';
+
+interface Props { path: string; }
+const { path } = Astro.props;
+const items = [
+  { href: '/', label: 'Home', icon: 'home' as const, current: path === '/' },
+  { href: '/hubs', label: 'Hubs', icon: 'grid' as const, current: path === '/hubs' },
+  { href: '/search', label: 'Search', icon: 'search' as const, current: path.startsWith('/search'), search: true },
+  { href: '/deals', label: 'Deals', icon: 'tag' as const, current: path.startsWith('/deals') },
+  { href: '/you', label: 'You', icon: 'user' as const, current: path.startsWith('/you') },
+];
+---
+<nav class="tabbar" aria-label="Primary">
+  {items.map((item) => (
+    <a href={item.href} class={item.search ? 'search-tab' : undefined} aria-current={item.current ? 'page' : undefined}>
+      <Icon name={item.icon} size={20} />
+      <span>{item.label}</span>
+    </a>
+  ))}
+</nav>
