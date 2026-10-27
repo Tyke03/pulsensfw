@@ -111,6 +111,8 @@ test('search finds a star by name and can filter to that type', () => {
     name: 'Nova Lane',
     url: 'https://example.com/nova-lane',
     affiliate_url: null,
+    affiliate_status: 'needs_search',
+    monetization_methods: [],
     summary: 'VR star',
     tags: ['vr'],
     pricing: { model: 'Varies', free_tier: null, from_price: null, currency: 'USD', plans: [], notes: null },

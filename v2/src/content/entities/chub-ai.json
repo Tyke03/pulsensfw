@@ -4,47 +4,47 @@
   "name": "Chub AI",
   "url": "https://chub.ai",
   "affiliate_url": null,
-  "summary": "A character-card library and roleplay front end for people who want to move cards between models and tinker with the stack.",
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "A character-card library and roleplay front end that connects to the provider stack you choose — its own Mars models, OpenAI, Anthropic, Google, OpenRouter, NovelAI, or your own local hardware.",
   "tags": [
     "nsfw",
     "character cards",
     "roleplay",
     "power user"
   ],
+  "ranking_rationale": "Official docs verify the uncensored positioning, the Imagine image feature, chat-memory summaries, text-to-speech, and wide model/API portability. Subscription page could not be fetched fresh and prices could not be verified, so it ranks on documented flexibility — not price.",
   "pricing": {
-    "model": "Freemium plus subscriptions",
-    "free_tier": "Browsing and limited models; about 20 messages/day in 2026",
-    "from_price": "$5/mo",
+    "model": "Freemium + hosted subscriptions + bring-your-own API",
+    "free_tier": null,
+    "from_price": null,
     "currency": "USD",
     "plans": [
-      {
-        "name": "Mercury",
-        "price": "$5",
-        "billing": "month",
-        "notes": "Chub-hosted models"
-      },
       {
         "name": "Mars",
         "price": "$20",
         "billing": "month",
-        "notes": "Larger hosted models and additional capabilities"
+        "notes": "Official docs list this plan but do not name the currency or confirm it is the cheapest current subscription"
       }
     ],
-    "notes": "Subscriptions moved to cryptocurrency in 2026. Free allowance tightened; confirm limits in-app."
+    "notes": "No current Chub-hosted price verified at check time. Kobold/Ooba connections can be free if you self-host. Do not substitute review-site figures."
   },
   "platforms": [
     "Web"
   ],
   "score": 7.8,
   "pros": [
-    "Best-in-class character card library",
-    "Portable cards",
-    "Model freedom"
+    "Deep model freedom: hosted Mars, OpenAI, Anthropic, Google, OpenRouter, NovelAI, local",
+    "Chat Memory stores manual or AI-generated summaries as context",
+    "Uncensored product policy per official docs",
+    "Imagine in-chat image generation; TTS documented"
   ],
   "cons": [
-    "Free allowance tightened in 2026",
-    "Subscriptions moved to crypto",
-    "Interface assumes tinkering"
+    "Subscription page could not be verified — prices unclear",
+    "More setup and cost decisions than a single-plan app; BYO-API keys are on you",
+    "Free self-hosted route needs your own hardware"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -55,29 +55,59 @@
   },
   "facts": [
     {
-      "key": "Free tier",
-      "value": "Yes, limited models and about 20 messages/day",
-      "source_url": "https://depravity.ai/blog/is-chub-ai-safe",
-      "checked": "2026-10-26"
+      "key": "Uncensored positioning",
+      "value": "Official docs: character interactions not meaningfully restricted",
+      "source_url": "https://docs.chub.ai/docs/the-basics/getting-started",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Third-party model providers impose their own policies; full current terms could not be fetched."
     },
     {
-      "key": "Mercury price",
-      "value": "$5 per month",
-      "source_url": "https://aigyani.com/tools/chub-ai/",
-      "checked": "2026-10-26"
+      "key": "Mars plan",
+      "value": "$20/mo, unlimited messaging (currency not named in docs)",
+      "source_url": "https://docs.chub.ai/docs/the-basics/api-connections.md",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Official docs; not confirmed as the cheapest current plan."
     },
     {
-      "key": "Mars price",
-      "value": "$20 per month",
-      "source_url": "https://aigyani.com/tools/chub-ai/",
-      "checked": "2026-10-26"
+      "key": "Cheapest paid plan",
+      "value": "Unverified",
+      "source_url": "https://docs.chub.ai/docs/the-basics/getting-started",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Fresh subscription-page fetch failed. Do not substitute review-site $5 figures."
     },
     {
-      "key": "Payment change",
-      "value": "Subscriptions moved to cryptocurrency in 2026",
-      "source_url": "https://depravity.ai/blog/is-chub-ai-safe",
-      "checked": "2026-10-26"
+      "key": "Hosted free quota",
+      "value": "Unverified",
+      "source_url": "https://docs.chub.ai/docs/the-basics/getting-started",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Self-hosted connections can be free but need your own hardware."
+    },
+    {
+      "key": "Imagine (images)",
+      "value": "In-chat image generation documented",
+      "source_url": "https://docs.chub.ai/docs/the-basics/just-chatting",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Included quota and model-specific policy not verified."
+    },
+    {
+      "key": "Text-to-speech",
+      "value": "Documented in Configuration docs; no live voice calls verified",
+      "source_url": "https://docs.chub.ai/docs/the-basics/just-chatting",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Chat Memory",
+      "value": "Summary-based context system, not unlimited recall",
+      "source_url": "https://docs.chub.ai/docs/the-basics/just-chatting",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
     }
   ],
-  "updated": "2026-10-26"
+  "updated": "2026-10-27"
 }

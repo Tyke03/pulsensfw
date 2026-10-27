@@ -4,39 +4,32 @@
   "name": "Kindroid",
   "url": "https://kindroid.ai",
   "affiliate_url": null,
-  "summary": "Build-your-own companion with a deep memory system, voice calls, and a paid tier that carries the product after the free tier ended.",
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Build-your-own companion with Cascaded Memory, voice calls, voice/video calls, selfies, and video avatars. The free tier is gone; everything now runs through subscriptions and metered credits.",
   "tags": [
     "nsfw",
     "companion",
     "memory",
     "voice"
   ],
+  "ranking_rationale": "First-party docs (updated Oct 13, 2026) verify adult roleplay permission, multimedia generation, voice, and a layered memory system across web, iOS, and Android. Cheapest monthly web price could not be verified — App Store shows an unqualified $15.99 SKU — so it ranks on documented features, not on price.",
   "pricing": {
-    "model": "Subscription",
-    "free_tier": "Ended for new Lite users on October 1, 2026; existing users read-only",
-    "from_price": "$13.99/mo",
+    "model": "Subscription + Ultra/MAX add-ons",
+    "free_tier": null,
+    "from_price": null,
     "currency": "USD",
     "plans": [
       {
-        "name": "Standard",
-        "price": "$13.99",
-        "billing": "month",
-        "notes": "Web price; complete experience"
-      },
-      {
-        "name": "Ultra add-on",
-        "price": "+$24.99",
-        "billing": "month",
-        "notes": "Adds capacity on top of Standard"
-      },
-      {
-        "name": "MAX add-on",
-        "price": "+$59.99",
-        "billing": "month",
-        "notes": "Top add-on"
+        "name": "Kindroid Subscription (Yearly)",
+        "price": "$159.99",
+        "billing": "year",
+        "notes": "$13.33/month effective — US iOS App Store catalog only; official docs say the web price is usually cheaper. Cheapest web monthly price is unverified."
       }
     ],
-    "notes": "App-store pricing can be higher. 2026 listings conflict on the free tier, so the end date is the fact to trust."
+    "notes": "No verified monthly-web price at check time. Do not reuse tracker figures. A 3-day premium trial requires a payment method and auto-converts."
   },
   "platforms": [
     "Web",
@@ -45,14 +38,13 @@
   ],
   "score": 8.2,
   "pros": [
-    "Deep memory controls",
-    "Voice calls",
-    "Highly customizable persona"
+    "Broad multimedia toolkit: selfies, video avatars, voice calls, custom voices",
+    "Official docs explicitly permit adult roleplay within stated harm limits",
+    "Layered memory: Cascaded Memory, long-term memory, journal recall"
   ],
   "cons": [
-    "No real free tier after October 2026",
-    "Add-on pricing stacks",
-    "Price varies by store"
+    "No free ongoing conversation since October 2026; preview accounts become read-only",
+    "Add-on pricing and metered audio make total cost hard to estimate"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -64,28 +56,49 @@
   "facts": [
     {
       "key": "Free tier",
-      "value": "Ended October 1, 2026 for Lite users",
-      "source_url": "https://aicompanionguides.com/blog/kindroid-lite-gone-free-users-2026/",
-      "checked": "2026-10-26"
+      "value": "Ended October 1, 2026 — exhausted previews become read-only",
+      "source_url": "https://kindroid.ai/v2/docs/subscriptions/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Official subscription docs. Trial or subscription permanently ends the preview quota."
     },
     {
-      "key": "Standard price",
-      "value": "$13.99 per month on web",
-      "source_url": "https://pocketanimus.com/guides/kindroid-subscription-levels/",
-      "checked": "2026-10-26"
+      "key": "Free tier limits",
+      "value": "50 preview messages (15 in some regions), 5 selfies, 5,000 audio credits, 2 companions",
+      "source_url": "https://kindroid.ai/v2/docs/subscriptions/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
     },
     {
-      "key": "Ultra add-on",
-      "value": "+$24.99 per month",
-      "source_url": "https://pocketanimus.com/guides/kindroid-subscription-levels/",
-      "checked": "2026-10-26"
+      "key": "Annual charge (iOS)",
+      "value": "$159.99/year = $13.33/mo effective",
+      "source_url": "https://apps.apple.com/us/app/kindroid-your-personal-ai/id6451038161",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "US iOS App Store catalog only. US listing shows an unqualified $15.99 'Kindroid Subscription' whose billing period is unspecified."
     },
     {
-      "key": "MAX add-on",
-      "value": "+$59.99 per month",
-      "source_url": "https://pocketanimus.com/guides/kindroid-subscription-levels/",
-      "checked": "2026-10-26"
+      "key": "Cheapest monthly (web)",
+      "value": "Unverified",
+      "source_url": "https://kindroid.ai/v2/docs/subscriptions/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Official docs do not list a web monthly figure we could verify. Old tracker figures ($13.99/$14.99) are stale and not used."
+    },
+    {
+      "key": "Adult roleplay",
+      "value": "Permitted by official moderation guidelines, subject to prohibited-harm categories",
+      "source_url": "https://kindroid.ai/v2/docs/moderation-guidelines/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Media policy",
+      "value": "Generated media checked against guidelines; flagged results removed with credits refunded",
+      "source_url": "https://kindroid.ai/v2/docs/faqs/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
     }
   ],
-  "updated": "2026-10-26"
+  "updated": "2026-10-27"
 }

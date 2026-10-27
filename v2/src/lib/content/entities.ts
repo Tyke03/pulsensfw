@@ -51,6 +51,9 @@ export function routeType(kind: EntityKind): EntityType {
 }
 
 export function entityToRawImage(entity: Entity): RawImage {
+  if (!entity.image) {
+    return { alt: entity.name, license: 'brand-kit', explicit: false, plate: entity.type };
+  }
   return {
     alt: entity.image.alt,
     url: entity.image.src,

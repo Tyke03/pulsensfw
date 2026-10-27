@@ -72,8 +72,8 @@ export function presentEntity(entity: Entity, reader: ReaderMode): EntityCard {
     score: entity.score,
     pricing: entity.pricing,
     platforms: entity.platforms,
-    affiliateHref: entity.affiliate_url,
-    outboundHref: entity.affiliate_url ?? entity.url,
+    affiliateHref: entity.affiliate_status === 'active' ? entity.affiliate_url : null,
+    outboundHref: entity.affiliate_status === 'active' && entity.affiliate_url ? entity.affiliate_url : entity.url,
     updated: entity.updated,
     image: entity.image,
   };

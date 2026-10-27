@@ -4,49 +4,54 @@
   "name": "Candy AI",
   "url": "https://candy.ai",
   "affiliate_url": null,
-  "summary": "Polished AI girlfriend app built around generated images and short chat sessions. The free tier is a preview, not a hangout.",
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Multimedia companion product: text, generated images/video, and voice in one app. Free browsing previews exist, but paid media runs through a monthly token allowance.",
   "tags": [
     "nsfw",
     "companion",
     "image generation",
     "freemium"
   ],
+  "ranking_rationale": "First-party subscription and product pages verify $13.99 recurring monthly (with a $9.99 intro month), the $47.88 annual offer, voice interaction, and adult-generation features. Free tier is a 7-day trial per marketing, not a permanent allowance — weaker testability than its rivals, so it ranks as a multimedia pick, not a free-first pick.",
   "pricing": {
     "model": "Freemium subscription with tokens",
-    "free_tier": "Five messages per character",
-    "from_price": "$3.99/mo billed yearly",
+    "free_tier": "Browsing/previews + advertised 7-day trial; no permanent message allowance verified",
+    "from_price": "$13.99/mo",
     "currency": "USD",
     "plans": [
       {
-        "name": "Premium",
+        "name": "Premium (monthly)",
         "price": "$13.99",
         "billing": "month",
-        "notes": "Unlimited messages plus 100 monthly tokens"
+        "notes": "Recurring rate; first month advertised at $9.99. Unlimited text + 100 monthly tokens for media."
       },
       {
-        "name": "Annual",
+        "name": "Premium (annual)",
         "price": "$47.88",
         "billing": "year",
-        "notes": "About $3.99/month"
+        "notes": "$3.99/month effective; billed upfront; page says renews at the same price and term."
       }
     ],
-    "notes": "Tokens are spent on images, voice, and video. Monthly and annual prices differ by region."
+    "notes": "Tokens are spent on images, voice, and video — unlimited text does not mean unlimited media. Local taxes may apply."
   },
   "platforms": [
     "Web",
-    "iOS",
-    "Android"
+    "PWA (add to home screen)",
+    "Mobile web"
   ],
   "score": 7.6,
   "pros": [
-    "Strong image generation",
-    "Clean interface",
-    "Cheap annual entry"
+    "Text, media, and voice combined in one product",
+    "Annual offer cuts the effective monthly rate sharply",
+    "Adult-generation features advertised openly"
   ],
   "cons": [
-    "Free tier is only a few messages",
-    "Tokens add cost",
-    "Aggressive upsell"
+    "Free tier is a trial/preview, not an indefinite allowance",
+    "100 monthly media tokens go fast on images/video",
+    "Discounted first month rises at monthly renewal"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -57,29 +62,48 @@
   },
   "facts": [
     {
-      "key": "Free trial",
-      "value": "Five messages per character",
-      "source_url": "https://companionhunt.com/apps/candy-ai/pricing/",
-      "checked": "2026-10-26"
-    },
-    {
       "key": "Premium monthly",
-      "value": "$13.99 per month",
-      "source_url": "https://secretcrush.ai/blog/candy-ai-pricing",
-      "checked": "2026-10-26"
+      "value": "$13.99/month ($9.99 first month intro)",
+      "source_url": "https://candy.ai/subscriptions",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
     },
     {
       "key": "Annual price",
-      "value": "$47.88 per year",
-      "source_url": "https://secretcrush.ai/blog/candy-ai-pricing",
-      "checked": "2026-10-26"
+      "value": "$47.88/year = $3.99/mo effective",
+      "source_url": "https://candy.ai/subscriptions",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
     },
     {
-      "key": "Token allowance",
-      "value": "100 tokens per month on Premium",
-      "source_url": "https://candyaiapp.com/pricing/",
-      "checked": "2026-10-26"
+      "key": "Free tier",
+      "value": "Browsing/previews + advertised 7-day trial; permanent free message allowance unverified",
+      "source_url": "https://candy.ai/candy-ai",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Trial claims not account-tested; numeric free limits were not verified."
+    },
+    {
+      "key": "Adult content",
+      "value": "Yes — adult-generation features explicitly advertised, subject to terms and restrictions",
+      "source_url": "https://candy.ai/subscriptions",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Voice",
+      "value": "Voice interaction listed on the official feature page; call limits/costs unverified",
+      "source_url": "https://candy.ai/candy-ai",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Native apps",
+      "value": "None verified — iOS/Android access is Add-to-Home-Screen PWA",
+      "source_url": "https://candy.ai/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
     }
   ],
-  "updated": "2026-10-26"
+  "updated": "2026-10-27"
 }

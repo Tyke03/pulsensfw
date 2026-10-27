@@ -20,7 +20,9 @@ External pipelines push content through a submission JSON checked against `src/s
 npm run ingest -- path/to/submission.json [--force]
 ```
 
-The command creates new entities, merges partial entity updates (facts are merged by key, pricing/image deep-merged), and writes exactly one MDX article per submission run (`--force` overwrites). Brand art and favicons came from the PulseNSFW Site Assets kit and live in `public/media/`; the mapping is documented in `public/media/brand/README.md`.
+The command creates new entities, merges partial entity updates (facts are merged by key, pricing deep-merged, image may be replaced or nulled), and writes exactly one MDX article per submission run (`--force` overwrites).
+
+Facts carry provenance: `{ key, value, source_url, checked, evidence_type, notes }` where `evidence_type` is `first_party | community | hands_on | press | aggregator`. Unverified numbers are `null`, never guesses, and inclusion or rank never rests on aggregator evidence alone. Every entity carries `affiliate_status` (`active | needs_search | program_found_signup_queued | no_program`), optional program details in `affiliate`, and `monetization_methods[]`. Only `active` entities render affiliate links; affiliate status never affects score or rank. Programs awaiting signup are listed in `data/affiliate-queue.md`. Brand art and favicons came from the PulseNSFW Site Assets kit and live in `public/media/`; the mapping is documented in `public/media/brand/README.md`.
 
 ## Category art
 

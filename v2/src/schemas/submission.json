@@ -142,7 +142,7 @@
       "required": ["name", "price"],
       "properties": {
         "name": { "type": "string", "minLength": 1 },
-        "price": { "type": "string", "minLength": 1 },
+        "price": { "type": ["string", "null"], "minLength": 1 },
         "billing": { "type": "string", "minLength": 1 },
         "notes": { "type": "string" }
       }
@@ -154,7 +154,7 @@
         "model": { "type": "string", "minLength": 1 },
         "free_tier": { "type": ["string", "null"] },
         "from_price": { "type": ["string", "null"] },
-        "currency": { "type": "string", "minLength": 1 },
+        "currency": { "type": ["string", "null"], "minLength": 1 },
         "plans": { "type": "array", "items": { "$ref": "#/$defs/pricingPlan" } },
         "notes": { "type": ["string", "null"] }
       }
@@ -178,6 +178,22 @@
         "key": { "type": "string", "minLength": 1 },
         "value": { "type": "string", "minLength": 1 },
         "source_url": { "type": "string", "format": "uri" },
+        "checked": { "type": "string", "format": "date" },
+        "evidence_type": { "enum": ["first_party", "community", "hands_on", "press", "aggregator"] },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
+    "affiliateUpdate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["program_name", "network", "commission", "cookie_days", "signup_url", "checked"],
+      "properties": {
+        "program_name": { "type": "string", "minLength": 1 },
+        "network": { "type": "string", "minLength": 1 },
+        "commission": { "type": "string", "minLength": 1 },
+        "cookie_days": { "type": ["integer", "null"], "minimum": 0 },
+        "signup_url": { "type": "string", "format": "uri" },
+        "notes": { "type": "string", "minLength": 1 },
         "checked": { "type": "string", "format": "date" }
       }
     },
@@ -191,6 +207,10 @@
         "name": { "type": "string", "minLength": 1 },
         "url": { "type": "string", "format": "uri" },
         "affiliate_url": { "type": ["string", "null"], "format": "uri" },
+        "affiliate_status": { "enum": ["active", "needs_search", "program_found_signup_queued", "no_program"] },
+        "affiliate": { "$ref": "#/$defs/affiliateUpdate" },
+        "monetization_methods": { "type": "array", "items": { "enum": ["affiliate", "referral", "creator_program", "sponsorship", "none"] } },
+        "ranking_rationale": { "type": "string", "minLength": 1 },
         "summary": { "type": "string", "minLength": 1 },
         "tags": { "type": "array", "items": { "type": "string" } },
         "pricing": { "$ref": "#/$defs/pricingUpdate" },
@@ -198,7 +218,7 @@
         "score": { "type": ["number", "null"], "minimum": 0, "maximum": 10 },
         "pros": { "type": "array", "items": { "type": "string" } },
         "cons": { "type": "array", "items": { "type": "string" } },
-        "image": { "$ref": "#/$defs/imageUpdate" },
+        "image": { "$ref": "#/$defs/imageUpdate", "type": ["object", "null"] },
         "facts": { "type": "array", "items": { "$ref": "#/$defs/fact" } },
         "updated": { "type": "string", "format": "date" }
       }

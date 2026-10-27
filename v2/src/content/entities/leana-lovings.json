@@ -1,0 +1,67 @@
+{
+  "slug": "leana-lovings",
+  "type": "star",
+  "name": "Leana Lovings",
+  "url": "https://www.imdb.com/name/nm12941130/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral",
+    "creator_program"
+  ],
+  "summary": "Performer, writer, and director; won Best Girl/Girl Performer at the 34th Annual NightMoves Awards and accepted the award in person (October 2026).",
+  "tags": [
+    "awards",
+    "girl-girl",
+    "acting",
+    "directing"
+  ],
+  "ranking_rationale": "Included on verified October 2026 professional news (dated award activity), not on follower counts or aggregator lists. No social or image claim is made beyond the sourced facts here.",
+  "pricing": {
+    "model": "Personal brand — official channels not verified",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No verified official subscription or store link at check time."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": null,
+  "facts": [
+    {
+      "key": "Adult verification",
+      "value": "18+ — born June 15, 1997 (age 29 at check)",
+      "source_url": "https://www.imdb.com/name/nm12941130/bio/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Public biographical evidence, not identity-document verification."
+    },
+    {
+      "key": "Recent activity",
+      "value": "Won Best Girl/Girl Performer at the 34th Annual NightMoves Awards and said she accepted the award in person (ceremony October 11, 2026)",
+      "source_url": "https://avn.com/press/video/leana-lovings-wins-best-girl-girl-performer-at-nightmoves-152628",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "Qualification relies on the separately sourced ceremony date in adultfyi.com coverage."
+    },
+    {
+      "key": "Award corroboration",
+      "value": "Listed as Best Girl/Girl Performer in the NightMoves winners report",
+      "source_url": "https://www.xbiz.com/news/301358/winners-announced-for-34th-annual-nightmoves-awards",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Followers",
+      "value": "Unverified",
+      "source_url": "https://avn.com/press/video/leana-lovings-wins-best-girl-girl-performer-at-nightmoves-152628",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Cached Instagram count lacked an observation date; not asserted."
+    }
+  ],
+  "updated": "2026-10-27"
+}

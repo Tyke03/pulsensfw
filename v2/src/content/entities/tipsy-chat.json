@@ -1,0 +1,82 @@
+{
+  "slug": "tipsy-chat",
+  "type": "ai_app",
+  "name": "Tipsy Chat",
+  "url": "https://tipsy.chat",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [],
+  "summary": "The 'AI Tavern': character roleplay with text, image, and sound, marketed with no boundaries and no ads, a creator community, and an official Discord. The app came in through the reader-research pool, so it keeps the smallest file on this desk until its pricing is verified.",
+  "tags": [
+    "nsfw",
+    "character chat",
+    "roleplay",
+    "freemium"
+  ],
+  "ranking_rationale": "Included as a provisional candidate on first-party marketing (official about page, live 2026-10-27): filter-free positioning, multimedia output, ad-free free use, and an active community. Pricing and any numeric free quota are unverified, so it sits low in the v0 ranking until the official pricing page is checked.",
+  "pricing": {
+    "model": "Unverified",
+    "free_tier": "Ad-free free use marketed; numeric limit unverified",
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "Official pages fetched do not publish verified plan pricing. Third-party reports mention gems plus subscriptions; not accepted without the official page."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 6.8,
+  "pros": [
+    "Unfiltered positioning stated on the official about page",
+    "Free to use with no ads (marketing claim)",
+    "Text, image, and sound multimedia; character customization",
+    "Active creator community and official Discord"
+  ],
+  "cons": [
+    "Pricing completely unverified at check time",
+    "Full content policy not fetched — 'no restrictions' is marketing, not a policy doc"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier",
+      "value": "Ad-free free use marketed on the official about page",
+      "source_url": "https://tipsy.chat/about-us",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Marketing claim; numeric message limit not established."
+    },
+    {
+      "key": "Positioning",
+      "value": "'AI virtual story characters without boundaries or restrictions' (official marketing)",
+      "source_url": "https://tipsy.chat/about-us",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Marketing language, not a moderation policy; treat as evidence of intent, not a guarantee."
+    },
+    {
+      "key": "Product origin",
+      "value": "AI social app developed by Creati.ai, first launched August 2024",
+      "source_url": "https://baike.baidu.com/en/item/Tipsy%20Chat/6207097",
+      "checked": "2026-10-27",
+      "evidence_type": "aggregator",
+      "notes": "Background only; not used for inclusion or rank."
+    },
+    {
+      "key": "Pricing",
+      "value": "Unverified",
+      "source_url": "https://tipsy.chat",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "No price published on fetched pages; left null per the no-unverified-numbers rule."
+    }
+  ],
+  "updated": "2026-10-27"
+}

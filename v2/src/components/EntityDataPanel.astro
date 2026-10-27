@@ -14,17 +14,21 @@ interface Props {
   compact?: boolean;
 }
 const { entity, media, topic, uid, showSources = true, compact = false } = Astro.props;
-const affiliate = Boolean(entity.affiliate_url);
-const href = entity.affiliate_url ?? entity.url;
+const affiliate = entity.affiliate_status === 'active' && Boolean(entity.affiliate_url);
+const href = affiliate ? entity.affiliate_url : entity.url;
 const pricing = pricingRows(entity.pricing);
 ---
 <section class:list={["gear", "entity-data", compact && "entity-data--compact"]} aria-label={`${entity.name} review data`}>
   <div class="entity-data-grid">
     <div class="entity-data-media">
       <MediaFrame media={media} topic={topic} uid={uid} />
-      <p class="meta" style="margin-top:6px">
-        {entity.image.license.replaceAll('-', ' ')} · <a href={entity.image.source_url} rel="noopener noreferrer">image source</a>
-      </p>
+      {entity.image ? (
+        <p class="meta" style="margin-top:6px">
+          {entity.image.license.replaceAll('-', ' ')} · <a href={entity.image.source_url} rel="noopener noreferrer">image source</a>
+        </p>
+      ) : (
+        <p class="meta" style="margin-top:6px">No verified image yet. Category cover used.</p>
+      )}
     </div>
     <div class="entity-data-copy">
       <div class="gear-top">
@@ -100,8 +104,8 @@ const pricing = pricingRows(entity.pricing);
           {entity.facts.map((fact) => (
             <tr>
               <th scope="row">{fact.key}</th>
-              <td>{fact.value}</td>
-              <td><a href={fact.source_url} rel="noopener noreferrer">{lastCheckedLabel(fact.checked)}</a></td>
+              <td>{fact.value}{fact.notes && <span class="meta"> — {fact.notes}</span>}</td>
+              <td><a href={fact.source_url} rel="noopener noreferrer">{lastCheckedLabel(fact.checked)}</a>{fact.evidence_type && <span class="meta"> · {fact.evidence_type}</span>}</td>
             </tr>
           ))}
         </tbody>

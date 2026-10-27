@@ -66,5 +66,10 @@
       "checked": "2026-10-26"
     }
   ],
-  "updated": "2026-10-26"
+  "updated": "2026-10-26",
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "ranking_rationale": "Icon-tier entity: sustained career record with Wikipedia/Commons documentation and an SFW license-clean portrait. Not part of a news-driven list."
 }

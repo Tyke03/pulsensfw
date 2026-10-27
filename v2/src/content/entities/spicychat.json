@@ -4,16 +4,22 @@
   "name": "SpicyChat",
   "url": "https://spicychat.ai",
   "affiliate_url": "https://spicychat.ai?ref=oge3yjk",
-  "summary": "Character roleplay with a huge community library and a free tier that is usable enough to test the product before paying.",
+  "affiliate_status": "active",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "Character roleplay with a huge community library, a genuinely testable free tier (avatar generation included), tiered context, Semantic Memory 2.0, and paid TTS at the top tier.",
   "tags": [
     "nsfw",
     "character chat",
     "roleplay",
     "freemium"
   ],
+  "ranking_rationale": "Official plans-and-features support article documents the full tier table — context tokens, memory tools, image generation, TTS — and the subscribe page shows $5.95. The free tier includes avatar generation, so it can be evaluated before paying. Downweighted slightly by TTS being locked to the top tier and the absence of a currently supported native iOS app.",
   "pricing": {
     "model": "Freemium subscription",
-    "free_tier": "Daily message limits, ads, 3K context",
+    "free_tier": "4,096-token context, 180-token replies, 3 personas, avatar generation",
     "from_price": "$5.95/mo",
     "currency": "USD",
     "plans": [
@@ -21,44 +27,45 @@
         "name": "Free",
         "price": "$0",
         "billing": "month",
-        "notes": "Daily limits, ads, 3K context"
+        "notes": "4,096 context tokens; max reply 180 tokens; 3 personas; free avatar generator; no conversation images"
+      },
+      {
+        "name": "Get a Taste",
+        "price": "$5.95",
+        "billing": "month",
+        "notes": "8K-class context tier with Memory Manager begins here. Verified on the official subscription page."
       },
       {
         "name": "True Supporter",
-        "price": "$5.95",
+        "price": null,
         "billing": "month",
-        "notes": "8,192-token context, longer replies"
+        "notes": "8,192 context tokens, Semantic Memory 2.0, conversation images. Current USD price not verified in this record."
       },
       {
         "name": "I'm All In",
-        "price": "$19.95",
+        "price": null,
         "billing": "month",
-        "notes": "Higher limits and image generation"
-      },
-      {
-        "name": "Deluxe",
-        "price": "$29.95",
-        "billing": "month",
-        "notes": "Top tier"
+        "notes": "16,384 context tokens, private-character conversation images, text-to-speech. Current USD price not verified in this record."
       }
     ],
-    "notes": "September 2026 price update. Official checkout requires sign-in; confirm the current offer there."
+    "notes": "Subscription page advertises a 17% annual saving, but an exact annual total was not verified. No free trials of paid plans."
   },
   "platforms": [
     "Web",
-    "iOS",
-    "Android"
+    "Android (official APK)",
+    "Mobile web"
   ],
   "score": 8.4,
   "pros": [
-    "Very large character library",
-    "Free tier is usable for browsing",
-    "Strong roleplay tooling"
+    "Free tier includes avatar generation — real test before paying",
+    "Documented context ladder: 4K / 8K / 16K tokens",
+    "Memory Manager from Get a Taste; Semantic Memory 2.0 from True Supporter",
+    "Large community library"
   ],
   "cons": [
-    "Tier names are confusing",
-    "Cheapest paid tier does not fix memory limits",
-    "Official prices need sign-in"
+    "Text-to-speech is top-tier only",
+    "No currently supported native iOS app; Android installs via sideloaded APK",
+    "Higher-tier prices not verified at check time"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -69,29 +76,58 @@
   },
   "facts": [
     {
-      "key": "Free tier",
-      "value": "Yes, with daily limits and ads",
-      "source_url": "https://docs.spicychat.ai/september-2026-pricing-update-faq",
-      "checked": "2026-10-26"
+      "key": "Free tier limits",
+      "value": "4,096 context tokens; 180-token replies; 3 personas; avatar generation; no conversation images",
+      "source_url": "https://support.spicychat.ai/support/solutions/articles/153000260533-plans-and-what-s-included",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Message cap was not established by the fetched tier table. No free trials of paid plans."
     },
     {
-      "key": "Paid entry",
-      "value": "$5.95 per month (True Supporter)",
-      "source_url": "https://www.roborhythms.com/spicychat-ai-review/",
-      "checked": "2026-10-26"
+      "key": "Cheapest paid plan",
+      "value": "Get a Taste, $5.95/month",
+      "source_url": "https://spicychat.ai/subscribe",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Listed USD monthly price on the subscription page, taxes excluded."
     },
     {
-      "key": "Context on True Supporter",
-      "value": "8,192 tokens; replies up to 300 tokens",
-      "source_url": "https://www.roborhythms.com/spicychat-ai-review/",
-      "checked": "2026-10-26"
+      "key": "Annual saving",
+      "value": "17% advertised; exact annual total unverified",
+      "source_url": "https://spicychat.ai/subscribe",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
     },
     {
-      "key": "Pricing update",
-      "value": "Took effect September 8, 2026",
-      "source_url": "https://docs.spicychat.ai/september-2026-pricing-update-faq",
-      "checked": "2026-10-26"
+      "key": "Context ladder",
+      "value": "Free/Get a Taste 4,096 · True Supporter 8,192 · I'm All In 16,384 tokens",
+      "source_url": "https://support.spicychat.ai/support/solutions/articles/153000260533-plans-and-what-s-included",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Memory Manager begins at Get a Taste; Semantic Memory 2.0 at True Supporter."
+    },
+    {
+      "key": "Adult content",
+      "value": "Limited — adult-labelled chatbots supported subject to community guidelines; 18+ only",
+      "source_url": "https://docs.spicychat.ai/community-guidelines",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Native apps",
+      "value": "No supported iOS app; Android via official sideloaded APK",
+      "source_url": "https://docs.spicychat.ai/advanced/mobile-apps",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Current supported route is the web/home-screen shortcut; removed app versions may still exist."
+    },
+    {
+      "key": "Text-to-speech",
+      "value": "Restricted to the I'm All In tier — not evidence of live voice calls",
+      "source_url": "https://docs.spicychat.ai/product-guides/premium-features/text-to-speech",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
     }
   ],
-  "updated": "2026-10-26"
+  "updated": "2026-10-27"
 }

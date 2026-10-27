@@ -42,7 +42,7 @@
     "Web",
     "Android (sideload)"
   ],
-  "score": 7.0,
+  "score": 7,
   "pros": [
     "Voice and phone-call features",
     "Uncensored chat",
@@ -65,26 +65,39 @@
       "key": "2024 breach",
       "value": "Reported user data exposure",
       "source_url": "https://www.girlfriendly.ai/muah-ai",
-      "checked": "2026-10-26"
+      "checked": "2026-10-26",
+      "evidence_type": "aggregator",
+      "notes": " Third-party tracker snapshot — kept for context; not inclusion evidence."
     },
     {
       "key": "VIP price",
       "value": "$9.99 per month",
       "source_url": "https://www.aiangels.io/muah-ai-pricing/",
-      "checked": "2026-10-26"
+      "checked": "2026-10-26",
+      "evidence_type": "aggregator",
+      "notes": " Third-party tracker snapshot — kept for context; not inclusion evidence."
     },
     {
       "key": "Ultra VIP price",
       "value": "$99.99 per month",
       "source_url": "https://www.aiangels.io/muah-ai-pricing/",
-      "checked": "2026-10-26"
+      "checked": "2026-10-26",
+      "evidence_type": "aggregator",
+      "notes": " Third-party tracker snapshot — kept for context; not inclusion evidence."
     },
     {
       "key": "Distribution",
       "value": "Browser plus sideloaded Android APK",
       "source_url": "https://pocketanimus.com/guides/muah-ai/",
-      "checked": "2026-10-26"
+      "checked": "2026-10-26",
+      "evidence_type": "aggregator",
+      "notes": " Third-party tracker snapshot — kept for context; not inclusion evidence."
     }
   ],
-  "updated": "2026-10-26"
+  "updated": "2026-10-26",
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "ranking_rationale": "On the watchlist, not the v0 list: the record came through tracker sites only, and the desk rule is that inclusion or rank cannot rest on aggregator evidence alone until community evidence appears."
 }

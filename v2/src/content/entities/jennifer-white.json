@@ -1,0 +1,59 @@
+{
+  "slug": "jennifer-white",
+  "type": "star",
+  "name": "Jennifer White",
+  "url": "https://www.imdb.com/name/nm3402805/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral",
+    "creator_program"
+  ],
+  "summary": "Long-running performer and producer; won Best Female Performer at the 34th Annual NightMoves Awards (October 2026).",
+  "tags": [
+    "awards",
+    "performer",
+    "production"
+  ],
+  "ranking_rationale": "Included on verified October 2026 professional news (dated award activity), not on follower counts or aggregator lists. No social or image claim is made beyond the sourced facts here.",
+  "pricing": {
+    "model": "Personal brand — official channels not verified",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No verified official subscription or store link at check time."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": null,
+  "facts": [
+    {
+      "key": "Adult verification",
+      "value": "18+ — born 1988 (IMDb bio says February 6; overview/FAQ say February 7; exact day not resolved) (age 38 at check)",
+      "source_url": "https://www.imdb.com/name/nm3402805/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Public biographical evidence, not identity-document verification."
+    },
+    {
+      "key": "Recent activity",
+      "value": "Won Best Female Performer at the 34th Annual NightMoves Awards (ceremony October 11, 2026)",
+      "source_url": "https://avn.com/news/video/winners-of-34th-annual-nightmoves-awards-show-announced-182406",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "Coverage published October 12, 2026."
+    },
+    {
+      "key": "Followers",
+      "value": "Unverified",
+      "source_url": "https://www.imdb.com/name/nm3402805/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "No creator-owned profile verified as both official and non-explicit."
+    }
+  ],
+  "updated": "2026-10-27"
+}
