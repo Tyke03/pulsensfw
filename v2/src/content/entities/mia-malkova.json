@@ -1,0 +1,63 @@
+{
+  "slug": "mia-malkova",
+  "type": "star",
+  "name": "Mia Malkova",
+  "url": "https://en.wikipedia.org/wiki/Mia_Malkova",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral",
+    "creator_program"
+  ],
+  "summary": "American performer and livestreamer (born July 1, 1992); AVN Best New Starlet 2014, XBIZ Best Actress 2017; moved into Twitch game livestreaming in 2022.",
+  "tags": [
+    "performer",
+    "awards"
+  ],
+  "ranking_rationale": "Included on dated, sourced professional news or encyclopedic record, not on follower counts or aggregator lists. No profile link asserted that was not verified to resolve to this person; no image (license-clean portrait not found).",
+  "pricing": {
+    "model": "Personal brand — official platform pages not verified publicly",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No verified pricing for creator subscriptions at check time."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": null,
+  "facts": [
+    {
+      "key": "Birth date",
+      "value": "July 1, 1992 (age 34 at check)",
+      "source_url": "https://en.wikipedia.org/wiki/Mia_Malkova",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Awards",
+      "value": "AVN Best New Starlet (2014); XBIZ Best Actress (2017)",
+      "source_url": "https://en.wikipedia.org/wiki/Mia_Malkova",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Cross-media",
+      "value": "Twitch game livestreaming since 2022",
+      "source_url": "https://en.wikipedia.org/wiki/Mia_Malkova",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Followers",
+      "value": "Unverified",
+      "source_url": "https://en.wikipedia.org/wiki/Mia_Malkova",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Not asserted without a dated reporting source."
+    }
+  ],
+  "updated": "2026-10-27"
+}

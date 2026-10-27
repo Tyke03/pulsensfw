@@ -232,16 +232,24 @@ export function entitiesForTopic(catalog: Catalog, topic: TopicId, filter: strin
   });
 }
 
+/** Stars page mix: creators (OnlyFans/X-style) first, then award-circuit performers; recency within each group. */
+function creatorsFirst(a: EntityCard, b: EntityCard): number {
+  const ac = a.tags.includes('creator') ? 0 : 1;
+  const bc = b.tags.includes('creator') ? 0 : 1;
+  return ac - bc || b.updated.localeCompare(a.updated);
+}
+
 export function risingStars(catalog: Catalog, reader: ReaderMode): EntityCard[] {
   const stars = presentCatalog(catalog, reader).filter((card) => card.type === 'star');
   const tagged = stars.filter((card) => card.tags.includes('rising'));
-  return (tagged.length > 0 ? tagged : stars).sort((a, b) => b.updated.localeCompare(a.updated));
+  return (tagged.length > 0 ? tagged : stars).sort(creatorsFirst);
 }
 
 export function trendingStars(catalog: Catalog, reader: ReaderMode): EntityCard[] {
-  return presentCatalog(catalog, reader)
-    .filter((card) => card.type === 'star' && card.score !== null)
-    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+  const stars = presentCatalog(catalog, reader).filter((card) => card.type === 'star');
+  const scored = stars.filter((card) => card.score !== null);
+  if (scored.length === 0) return stars.slice(0, 8).sort(creatorsFirst);
+  return scored.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
 }
 
 export function byDateDesc(a: RawArticle, b: RawArticle): number {

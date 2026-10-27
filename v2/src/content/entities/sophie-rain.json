@@ -1,0 +1,64 @@
+{
+  "slug": "sophie-rain",
+  "type": "star",
+  "name": "Sophie Rain",
+  "url": "https://en.wikipedia.org/wiki/Sophie_Rain",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral",
+    "creator_program"
+  ],
+  "summary": "American OnlyFans creator and internet personality; went viral in late 2024 announcing $43M earned in her first year on OnlyFans (self-reported), and co-founded the Bop House creator collective.",
+  "tags": [
+    "creator",
+    "onlyfans"
+  ],
+  "ranking_rationale": "Included on dated, sourced professional news or encyclopedic record, not on follower counts or aggregator lists. No profile link asserted that was not verified to resolve to this person; no image (license-clean portrait not found).",
+  "pricing": {
+    "model": "Personal brand — official platform pages not verified publicly",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No verified pricing for creator subscriptions at check time."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": null,
+  "facts": [
+    {
+      "key": "Identity",
+      "value": "American internet personality and content creator; Bop House co-founder",
+      "source_url": "https://en.wikipedia.org/wiki/Sophie_Rain",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Earnings claim",
+      "value": "Announced US$43M earned in her first year on OnlyFans (late 2024) — self-reported, widely picked up by press",
+      "source_url": "https://en.wikipedia.org/wiki/Sophie_Rain",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "Her own announcement; not audited. Recorded as a claim, not a fact of earnings."
+    },
+    {
+      "key": "Adult verification",
+      "value": "18+ — viral timeline (late 2024) documents an adult-content business; encyclopedic record",
+      "source_url": "https://en.wikipedia.org/wiki/Sophie_Rain",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Platform handles",
+      "value": "Unverified — omitted",
+      "source_url": "https://en.wikipedia.org/wiki/Sophie_Rain",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Venice-style handle guesses (e.g. onlyfans.com/sophierai) were treated as unconfirmed and excluded."
+    }
+  ],
+  "updated": "2026-10-27"
+}

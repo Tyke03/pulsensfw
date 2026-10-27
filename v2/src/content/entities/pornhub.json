@@ -12,25 +12,19 @@
     "mainstream"
   ],
   "pricing": {
-    "model": "Free with optional Premium",
-    "free_tier": "Yes, ad-supported",
-    "from_price": "Varies at checkout",
+    "model": "Subscription",
+    "free_tier": "Tube: free videos with ads",
+    "from_price": "$9.99/mo",
     "currency": "USD",
     "plans": [
       {
-        "name": "Free",
-        "price": "$0",
-        "billing": "month",
-        "notes": "Ad-supported library"
-      },
-      {
         "name": "Premium",
-        "price": "Varies",
+        "price": "$9.99",
         "billing": "month",
-        "notes": "Ad-free playback and downloads; price shown at checkout"
+        "notes": "First-party help article: \"$9.99 a month with no catch\", easy cancel, live support"
       }
     ],
-    "notes": "Premium pricing varies by region and promotion. This page does not quote a fixed monthly price."
+    "notes": "Some payment methods offer a free trial beforehand. Tube stays free."
   },
   "platforms": [
     "Web"
@@ -73,13 +67,15 @@
       "checked": "2026-10-26"
     },
     {
-      "key": "Premium",
-      "value": "Ad-free playback and downloads; price at checkout",
-      "source_url": "https://www.pornhub.com/premium",
-      "checked": "2026-10-26"
+      "key": "Premium price",
+      "value": "$9.99/month",
+      "source_url": "https://help.pornhub.com/hc/en-us/articles/4419877632787-How-much-is-it",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "\"It’s $9.99 a month with no catch\" — official help center."
     }
   ],
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "affiliate_status": "needs_search",
   "monetization_methods": [
     "referral"

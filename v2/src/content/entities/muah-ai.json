@@ -51,7 +51,8 @@
   "cons": [
     "2024 data breach",
     "No major app-store distribution",
-    "Top tiers are expensive"
+    "Top tiers are expensive",
+    "2024 data breach: 1.9M emails + prompts exposed (HIBP/404 Media)"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -92,9 +93,17 @@
       "checked": "2026-10-26",
       "evidence_type": "aggregator",
       "notes": " Third-party tracker snapshot — kept for context; not inclusion evidence."
+    },
+    {
+      "key": "2024 data breach",
+      "value": "September 2024 breach exposed 1.9M email addresses alongside AI-image prompts; flagged Sensitive by HIBP; prompts included child-abuse content (404 Media reporting)",
+      "source_url": "https://haveibeenpwned.com/Breach/Muah",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "Serious trust signal. Watchlist placement reinforced."
     }
   ],
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "affiliate_status": "needs_search",
   "monetization_methods": [
     "referral"

@@ -1,0 +1,63 @@
+{
+  "slug": "eva-lovia",
+  "type": "star",
+  "name": "Eva Lovia",
+  "url": "https://www.xbiz.com/news/203343/eva-lovia-grabs-3-2016-xbiz-award-nominations",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral",
+    "creator_program"
+  ],
+  "summary": "Performer with a Digital Playground contract era and multiple XBIZ nominations (2016, including two for Best Actress); a 2010s headline name kept in the catalog with dated press record.",
+  "tags": [
+    "performer",
+    "awards"
+  ],
+  "ranking_rationale": "Included on dated, sourced professional news or encyclopedic record, not on follower counts or aggregator lists. No profile link asserted that was not verified to resolve to this person; no image (license-clean portrait not found).",
+  "pricing": {
+    "model": "Personal brand — official platform pages not verified publicly",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No verified pricing for creator subscriptions at check time."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": null,
+  "facts": [
+    {
+      "key": "Company record",
+      "value": "Digital Playground contract performer with three 2016 XBIZ nominations, including two Best Actress nods",
+      "source_url": "https://www.xbiz.com/news/203343/eva-lovia-grabs-3-2016-xbiz-award-nominations",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Corroboration",
+      "value": "Second 2016 nomination announcement by the same outlet",
+      "source_url": "https://www.xbiz.com/news/201546/eva-lovia-gets-2-noms-for-2016-xbiz-awards",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Adult verification",
+      "value": "18+ — documented adult-industry career since the early 2010s (IMDb filmography)",
+      "source_url": "https://www.imdb.com/name/nm5579935/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Birth date",
+      "value": "Unverified this pass",
+      "source_url": "https://www.imdb.com/name/nm5579935/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Do not copy tracker bios."
+    }
+  ],
+  "updated": "2026-10-27"
+}

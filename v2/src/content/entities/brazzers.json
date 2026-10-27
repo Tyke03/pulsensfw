@@ -4,8 +4,9 @@
   "name": "Brazzers",
   "url": "https://www.brazzers.com",
   "affiliate_url": null,
-  "affiliate_status": "needs_search",
+  "affiliate_status": "program_found_signup_queued",
   "monetization_methods": [
+    "affiliate",
     "creator_program"
   ],
   "summary": "The flagship premium studio brand: long-running exclusive HD series, high-production scenes with top-billed performers, and a network of branded spin-off sites under one membership.",
@@ -36,7 +37,8 @@
   ],
   "cons": [
     "Full-price membership; no meaningful free browsing",
-    "Price behind an age gate, not verified here"
+    "Price behind an age gate, not verified here",
+    "Trial auto-renews at a higher rate (two independent sources report this)"
   ],
   "image": null,
   "facts": [
@@ -62,7 +64,31 @@
       "checked": "2026-10-27",
       "evidence_type": "aggregator",
       "notes": "Background context only, not used for inclusion."
+    },
+    {
+      "key": "Reported price",
+      "value": "Conflicting reports: $25.99 vs $29.99/month (annual $92.99 vs $119.99) — kept null",
+      "source_url": "https://www.adultforce.com",
+      "checked": "2026-10-27",
+      "evidence_type": "aggregator",
+      "notes": "Third-party figures conflict and the official checkout is age-walled. Do not publish either figure."
+    },
+    {
+      "key": "Official affiliate program",
+      "value": "AdultForce is listed as the affiliate program (brazzers.com AFFILIATE_PROGRAM_URL points there; Brazzers is a named partner brand)",
+      "source_url": "https://www.adultforce.com",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
     }
   ],
-  "updated": "2026-10-27"
+  "updated": "2026-10-27",
+  "affiliate": {
+    "program_name": "AdultForce (Brazzers offer)",
+    "network": "AdultForce",
+    "commission": "Revshare / pay-per-signup / pay-per-lead — per-offer rates inside the network; Brazzers-specific % not published publicly, 15-business-day payout cycle",
+    "cookie_days": null,
+    "signup_url": "https://www.adultforce.com/signup",
+    "notes": "brazzers.com config points its affiliate program URL at adultforce.com; AdultForce lists Brazzers as a partner brand.",
+    "checked": "2026-10-27"
+  }
 }
