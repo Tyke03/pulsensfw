@@ -62,6 +62,14 @@
       "value": "Studying at the University of Miami from 2024",
       "source_url": "https://en.wikipedia.org/wiki/Abella_Danger",
       "checked": "2026-10-26"
+    },
+    {
+      "key": "X handle",
+      "value": "Unverified — no X profile link asserted",
+      "source_url": "https://x.com",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Candidate handles circulating in tracker/summary sources proved wrong, suspended, fan-run, or empty on 2026-10-27 (X API). handle_unverified flag set for the research agent to re-check."
     }
   ],
   "updated": "2026-10-26",
@@ -69,5 +77,6 @@
   "monetization_methods": [
     "referral"
   ],
-  "ranking_rationale": "Icon-tier entity: sustained career record with Wikipedia/Commons documentation and an SFW license-clean portrait. Not part of a news-driven list."
+  "ranking_rationale": "Icon-tier entity: sustained career record with Wikipedia/Commons documentation and an SFW license-clean portrait. Not part of a news-driven list.",
+  "handle_unverified": true
 }

@@ -211,6 +211,7 @@
         "affiliate": { "$ref": "#/$defs/affiliateUpdate" },
         "monetization_methods": { "type": "array", "items": { "enum": ["affiliate", "referral", "creator_program", "sponsorship", "none"] } },
         "ranking_rationale": { "type": "string", "minLength": 1 },
+        "handle_unverified": { "type": "boolean" },
         "summary": { "type": "string", "minLength": 1 },
         "tags": { "type": "array", "items": { "type": "string" } },
         "pricing": { "$ref": "#/$defs/pricingUpdate" },

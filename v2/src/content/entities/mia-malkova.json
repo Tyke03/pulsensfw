@@ -14,7 +14,7 @@
     "performer",
     "awards"
   ],
-  "ranking_rationale": "Included on dated, sourced professional news or encyclopedic record, not on follower counts or aggregator lists. No profile link asserted that was not verified to resolve to this person; no image (license-clean portrait not found).",
+  "ranking_rationale": "Included on dated, sourced professional news or encyclopedic record, not on follower counts or aggregator lists. ",
   "pricing": {
     "model": "Personal brand — official platform pages not verified publicly",
     "free_tier": null,
@@ -23,7 +23,9 @@
     "plans": [],
     "notes": "No verified pricing for creator subscriptions at check time."
   },
-  "platforms": [],
+  "platforms": [
+    "X — https://x.com/MiaMalkova"
+  ],
   "score": null,
   "pros": [],
   "cons": [],
@@ -57,6 +59,22 @@
       "checked": "2026-10-27",
       "evidence_type": "first_party",
       "notes": "Not asserted without a dated reporting source."
+    },
+    {
+      "key": "X handle",
+      "value": "@MiaMalkova — verified first-party via the X API (profile resolves to Mia Malkova)",
+      "source_url": "https://x.com/MiaMalkova",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Verified 2026-10-27. Known-bad lookalikes are recorded in the desk notes and must never be used."
+    },
+    {
+      "key": "X followers",
+      "value": "3,587,582 (X API, checked 2026-10-27)",
+      "source_url": "https://x.com/MiaMalkova",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Point-in-time API count; moves over time."
     }
   ],
   "updated": "2026-10-27"

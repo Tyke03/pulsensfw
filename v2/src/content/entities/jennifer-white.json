@@ -53,7 +53,16 @@
       "checked": "2026-10-27",
       "evidence_type": "first_party",
       "notes": "No creator-owned profile verified as both official and non-explicit."
+    },
+    {
+      "key": "X handle",
+      "value": "Unverified — no X profile link asserted",
+      "source_url": "https://x.com",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Candidate handles circulating in tracker/summary sources proved wrong, suspended, fan-run, or empty on 2026-10-27 (X API). handle_unverified flag set for the research agent to re-check."
     }
   ],
-  "updated": "2026-10-27"
+  "updated": "2026-10-27",
+  "handle_unverified": true
 }

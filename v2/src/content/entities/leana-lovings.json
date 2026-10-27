@@ -25,7 +25,9 @@
     "plans": [],
     "notes": "No verified official subscription or store link at check time."
   },
-  "platforms": [],
+  "platforms": [
+    "X — https://x.com/LeanaLovings"
+  ],
   "score": null,
   "pros": [],
   "cons": [],
@@ -61,6 +63,22 @@
       "checked": "2026-10-27",
       "evidence_type": "first_party",
       "notes": "Cached Instagram count lacked an observation date; not asserted."
+    },
+    {
+      "key": "X handle",
+      "value": "@LeanaLovings — verified first-party via the X API (profile resolves to Leana Lovings)",
+      "source_url": "https://x.com/LeanaLovings",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Verified 2026-10-27. Known-bad lookalikes are recorded in the desk notes and must never be used."
+    },
+    {
+      "key": "X followers",
+      "value": "367,392 (X API, checked 2026-10-27)",
+      "source_url": "https://x.com/LeanaLovings",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Point-in-time API count; moves over time."
     }
   ],
   "updated": "2026-10-27"

@@ -105,6 +105,8 @@ export const entitySchema = z.object({
    * on aggregator evidence alone, and affiliate status never affects it.
    */
   ranking_rationale: z.string().optional(),
+  /** True when no X/social handle could be verified — future research agents should re-check. */
+  handle_unverified: z.boolean().optional(),
   pricing: pricingSchema,
   platforms: z.array(z.string()).default([]),
   score: z.number().min(0).max(10).nullable(),

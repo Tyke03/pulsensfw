@@ -21,7 +21,7 @@
   },
   "platforms": [
     "Official site",
-    "X"
+    "X — https://x.com/ANGELAWHITE"
   ],
   "score": null,
   "pros": [],
@@ -63,6 +63,22 @@
       "value": "Angelawhite.com, launched 2013",
       "source_url": "https://en.wikipedia.org/wiki/Angela_White",
       "checked": "2026-10-26"
+    },
+    {
+      "key": "X handle",
+      "value": "@ANGELAWHITE — verified first-party via the X API (profile resolves to Angela White)",
+      "source_url": "https://x.com/ANGELAWHITE",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Verified 2026-10-27. Known-bad lookalikes are recorded in the desk notes and must never be used."
+    },
+    {
+      "key": "X followers",
+      "value": "3,645,245 (X API, checked 2026-10-27)",
+      "source_url": "https://x.com/ANGELAWHITE",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Point-in-time API count; moves over time."
     }
   ],
   "updated": "2026-10-26",
