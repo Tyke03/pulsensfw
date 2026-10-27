@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import DealCard from '../components/DealCard.astro';
 import EntityCard from '../components/EntityCard.astro';
 import Icon from '../components/Icon.astro';
+import NewsletterStrip from '../components/NewsletterStrip.astro';
 import MediaFrame from '../components/MediaFrame.astro';
 import PulseRule from '../components/PulseRule.astro';
 import ScoreBadge from '../components/ScoreBadge.astro';
@@ -49,10 +50,10 @@ const jsonLd = {
     <div class="page">
       <p class="kicker">{SITE.tagline}</p>
       <h2 id="home-search-title">Find it before the tab binge.</h2>
-      <p class="dek">Stars, sites, toys, games, AI, and the stories on this desk. The index is the example catalog.</p>
+      <p class="dek">Stars, sites, AI, toys, VR, and the stories on this desk. One index, one search, fewer tabs.</p>
       <form class="home-search" action="/search" method="get" data-astro-reload>
         <label class="sr-only" for="home-q">Search</label>
-        <input class="c-input" id="home-q" name="q" type="search" placeholder="Nova, Velvet Room, wands, VR…" />
+        <input class="c-input" id="home-q" name="q" type="search" placeholder="Angela White, CrushOn, Pornhub, VR…" />
         <button class="c-btn c-btn--primary" type="submit">Search</button>
       </form>
       <div class="search-types">
@@ -63,6 +64,7 @@ const jsonLd = {
     </div>
   </section>
 
+  <div class="hero-band">
   <div class="page hero">
     <article class="hero-lead">
       {lead.media.state === 'withheld' ? (
@@ -87,6 +89,7 @@ const jsonLd = {
       {home.stack.map((card) => <StoryCard card={card} layout="stack" uid={`stack-${card.slug}`} heading="h2" />)}
     </div>
   </div>
+  </div>
 
   <div class="page">
     <ul class="desk">
@@ -104,15 +107,15 @@ const jsonLd = {
   <section class="band" aria-labelledby="rising-title">
     <div class="rail-head">
       <div>
-        <p class="kicker">People to watch · example names</p>
-        <h2 id="rising-title">New & rising</h2>
+        <p class="kicker">People on the desk</p>
+        <h2 id="rising-title">Star profiles</h2>
       </div>
       <PulseRule />
-      <a class="see-all" href="/stars">Stars & Creators</a>
+      <a class="see-all" href="/stars">Stars &amp; Creators</a>
     </div>
     <div class="scroller-bleed">
       <div class="scroller profile-scroller" id="rail-rising" data-carousel tabindex="0">
-        {home.rising.map((card) => <EntityCard card={card} uid={`rise-${card.id}`} />)}
+        {home.trendingStars.map((card) => <EntityCard card={card} uid={`rise-${card.id}`} />)}
       </div>
     </div>
   </section>
@@ -182,18 +185,22 @@ const jsonLd = {
     </section>
   ))}
 
-  <section class="band" aria-labelledby="deals-title">
-    <div class="rail-head">
-      <div>
-        <p class="kicker">Example prices · not live offers</p>
-        <h2 id="deals-title">Deals</h2>
+  {home.deals.length > 0 && (
+    <section class="band" aria-labelledby="deals-title">
+      <div class="rail-head">
+        <div>
+          <p class="kicker">Deals</p>
+          <h2 id="deals-title">Deals</h2>
+        </div>
+        <a class="see-all" href="/deals">See all</a>
       </div>
-      <a class="see-all" href="/deals">See all</a>
-    </div>
-    <div class="scroller-bleed">
-      <div class="scroller" id="rail-deals" data-carousel tabindex="0">
-        {home.deals.map((deal) => <DealCard deal={deal} uid={`deal-${deal.id}`} />)}
+      <div class="scroller-bleed">
+        <div class="scroller" id="rail-deals" data-carousel tabindex="0">
+          {home.deals.map((deal) => <DealCard deal={deal} uid={`deal-${deal.id}`} />)}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  )}
+
+  <NewsletterStrip />
 </BaseLayout>

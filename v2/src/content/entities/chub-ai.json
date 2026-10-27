@@ -1,0 +1,83 @@
+{
+  "slug": "chub-ai",
+  "type": "ai_app",
+  "name": "Chub AI",
+  "url": "https://chub.ai",
+  "affiliate_url": null,
+  "summary": "A character-card library and roleplay front end for people who want to move cards between models and tinker with the stack.",
+  "tags": [
+    "nsfw",
+    "character cards",
+    "roleplay",
+    "power user"
+  ],
+  "pricing": {
+    "model": "Freemium plus subscriptions",
+    "free_tier": "Browsing and limited models; about 20 messages/day in 2026",
+    "from_price": "$5/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Mercury",
+        "price": "$5",
+        "billing": "month",
+        "notes": "Chub-hosted models"
+      },
+      {
+        "name": "Mars",
+        "price": "$20",
+        "billing": "month",
+        "notes": "Larger hosted models and additional capabilities"
+      }
+    ],
+    "notes": "Subscriptions moved to cryptocurrency in 2026. Free allowance tightened; confirm limits in-app."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Best-in-class character card library",
+    "Portable cards",
+    "Model freedom"
+  ],
+  "cons": [
+    "Free allowance tightened in 2026",
+    "Subscriptions moved to crypto",
+    "Interface assumes tinkering"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier",
+      "value": "Yes, limited models and about 20 messages/day",
+      "source_url": "https://depravity.ai/blog/is-chub-ai-safe",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Mercury price",
+      "value": "$5 per month",
+      "source_url": "https://aigyani.com/tools/chub-ai/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Mars price",
+      "value": "$20 per month",
+      "source_url": "https://aigyani.com/tools/chub-ai/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Payment change",
+      "value": "Subscriptions moved to cryptocurrency in 2026",
+      "source_url": "https://depravity.ai/blog/is-chub-ai-safe",
+      "checked": "2026-10-26"
+    }
+  ],
+  "updated": "2026-10-26"
+}

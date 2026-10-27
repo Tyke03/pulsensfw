@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import DealCard from '../components/DealCard.astro';
+import EmptyState from '../components/states/EmptyState.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getContentRepository } from '../lib/content/local-repository';
 import { presentDeal } from '../lib/content/present';
@@ -10,16 +11,22 @@ import { SITE } from '../lib/site';
 const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
 const deals = (await getContentRepository().listDeals()).map((deal) => presentDeal(deal, reader));
 ---
-<BaseLayout title={`Deals · ${SITE.name}`} description="Example prices for toys and games. Not live offers." reader={reader}>
+<BaseLayout title={`Deals · ${SITE.name}`} description="Live deals from the desk. Affiliate links are marked." reader={reader}>
   <div class="page" style="padding-bottom:48px">
     <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Deals' }]} />
     <header class="hub-head">
-      <p class="kicker">Example prices</p>
+      <p class="kicker">Deals</p>
       <h1>Deals</h1>
-      <p class="dek" style="max-width:52ch">Sample numbers so the deal row has a picture and a price. Nothing here is a checkout.</p>
+      <p class="dek" style="max-width:52ch">No live deals yet. We will add offers here when there is a real price worth opening.</p>
     </header>
-    <div class="profile-grid">
-      {deals.map((deal) => <DealCard deal={deal} uid={`deals-${deal.id}`} />)}
-    </div>
+    {deals.length > 0 ? (
+      <div class="profile-grid">
+        {deals.map((deal) => <DealCard deal={deal} uid={`deals-${deal.id}`} />)}
+      </div>
+    ) : (
+      <EmptyState title="No live deals" body="The desk does not invent discounts. When a real offer is worth a card, it lands here.">
+        <a class="c-btn c-btn--primary" href="/ai">Browse AI apps</a>
+      </EmptyState>
+    )}
   </div>
 </BaseLayout>

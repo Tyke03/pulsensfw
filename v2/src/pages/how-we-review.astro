@@ -6,7 +6,7 @@ import { readReader } from '../lib/reader/cookies';
 import { SITE } from '../lib/site';
 const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
 const sample = {
-  product: 'Example lab card',
+  product: 'Layout demo',
   score: 8.2,
   ratings: [
     { label: 'Comfort', value: 8.4 },
@@ -19,7 +19,7 @@ const sample = {
   ],
   pros: ['The low end exists.', 'The claim matches the session.'],
   cons: ['Heat still shows up.', 'The app is not the product.'],
-  verdict: 'Example only. A score compares annoying traits. It is not a medical claim or a moral grade.',
+  verdict: 'Layout demo only. A score compares annoying traits. It is not a medical claim or a moral grade.',
 };
 ---
 <BaseLayout title={`How we review · ${SITE.name}`} description="How Gear Lab scores, noise notes, and battery claims are meant to work." reader={reader}>
@@ -28,7 +28,7 @@ const sample = {
     <p class="kicker">Gear Lab</p>
     <h1>How we review</h1>
     <div class="prose">
-      <p>Noise gets a number at a set distance. Battery gets the pattern people actually use. A low setting has to be low. Phase 1 cards on the site use this layout with example numbers so the components are real before the protocol is.</p>
+      <p>Noise gets a number at a set distance. Battery gets the pattern people actually use. A low setting has to be low. Scores compare products, not people, and the facts behind them carry a source and a checked date. The card below is a layout demo, not a live product score.</p>
     </div>
     <div style="margin-top:20px;max-width:420px">
       <GearLab gear={sample} />

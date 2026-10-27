@@ -6,7 +6,7 @@ export const SITE = {
   domain: 'pulsensfw.com',
   tagline: 'The NSFW internet, honestly reviewed.',
   description:
-    'The newest porn, stars, sites, VR, games, AI, and sex tech, gathered in one desk and reviewed in plain language. This build is example copy.',
+    'The NSFW internet, honestly reviewed. Stars, sites, AI, VR, games, and sex tech in one desk, with sources attached.',
 } as const;
 
 export const TOPIC_LABEL: Record<TopicId, string> = {

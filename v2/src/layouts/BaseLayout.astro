@@ -60,7 +60,8 @@ const ageFailed = Astro.url.searchParams.get('notice') === 'age-failed';
     <meta property="og:url" content={canonical.href} />
     <meta property="og:image" content={new URL('/og-default.png', Astro.site ?? Astro.url.origin).href} />
     <meta name="twitter:card" content="summary_large_image" />
-    <link id="favicon" rel="icon" href={reader.discreet ? '/favicon-discreet.svg' : '/favicon.svg'} type="image/svg+xml" />
+    <meta name="twitter:image" content={new URL('/og-default.png', Astro.site ?? Astro.url.origin).href} />
+    <link id="favicon" rel="icon" href={reader.discreet ? '/favicon-discreet.svg' : '/favicon-32.png'} type="image/png" />
     <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
@@ -84,7 +85,6 @@ const ageFailed = Astro.url.searchParams.get('notice') === 'age-failed';
           <canvas id="pulse-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
-      <p class="seed-ribbon"><span>Example desk · seed stories, not live reviews. <a href="/about">What this shell is</a></span></p>
       <main id="content">
         <slot />
       </main>

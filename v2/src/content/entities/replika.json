@@ -1,0 +1,91 @@
+{
+  "slug": "replika",
+  "type": "ai_app",
+  "name": "Replika",
+  "url": "https://replika.com",
+  "affiliate_url": null,
+  "summary": "The long-running companion app. Memory is still its strength; explicit roleplay is restricted and romance sits behind Pro.",
+  "tags": [
+    "companion",
+    "memory",
+    "freemium",
+    "mainstream"
+  ],
+  "pricing": {
+    "model": "Freemium subscription",
+    "free_tier": "Basic chat; erotic roleplay restricted",
+    "from_price": "$19.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Pro",
+        "price": "$19.99",
+        "billing": "month",
+        "notes": "Romance and expanded features"
+      },
+      {
+        "name": "Pro annual",
+        "price": "$69.99",
+        "billing": "year",
+        "notes": "About $5.83/month"
+      },
+      {
+        "name": "Ultra",
+        "price": "$29.99",
+        "billing": "month",
+        "notes": "Top consumer tier"
+      }
+    ],
+    "notes": "Prices vary by platform. Explicit content is restricted even on paid tiers."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Best-in-class long-term memory",
+    "Polished apps",
+    "Voice and AR features"
+  ],
+  "cons": [
+    "Explicit content is restricted",
+    "2023 ERP removal hurt trust",
+    "Pro is expensive monthly"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Pro monthly",
+      "value": "$19.99 per month",
+      "source_url": "https://replika-ai.app/pricing",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Pro annual",
+      "value": "$69.99 per year",
+      "source_url": "https://www.aicompanionpick.com/replika-pricing-2026",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Ultra",
+      "value": "$29.99 per month",
+      "source_url": "https://www.aicompanionpick.com/replika-pricing-2026",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Explicit roleplay",
+      "value": "Restricted after the 2023 ERP removal",
+      "source_url": "https://theaigflist.com/reviews/replika",
+      "checked": "2026-10-26"
+    }
+  ],
+  "updated": "2026-10-26"
+}

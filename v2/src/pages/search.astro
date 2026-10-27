@@ -18,7 +18,7 @@ const hits = !q && type === 'all'
   : searchCatalog(await repo.listArticles(), await repo.listCatalog(), q, type, reader);
 const title = q ? `Search “${q}” · ${SITE.name}` : `Search · ${SITE.name}`;
 ---
-<BaseLayout title={title} description="Search example stars, sites, toys, games, AI, and stories." reader={reader} noindex>
+<BaseLayout title={title} description="Search stars, sites, AI, toys, games, and stories." reader={reader} noindex>
   <div class="page" style="padding:20px 0 48px">
     <p class="kicker">Search</p>
     <h1>{q ? `Results for “${q}”` : 'Search the desk'}</h1>
@@ -33,8 +33,8 @@ const title = q ? `Search “${q}” · ${SITE.name}` : `Search · ${SITE.name}`
         <a class="c-chip" href={`/search?type=${filter.id}${q ? `&q=${encodeURIComponent(q)}` : ''}`} aria-current={type === filter.id ? 'page' : undefined}>{filter.label}</a>
       ))}
     </div>
-    {!q && type === 'all' && <EmptyState title="Ask for a name" body="Search covers example stars, sites, toys, games, AI apps, and stories. Pick a type to browse that slice." />}
-    {(q || type !== 'all') && hits.length === 0 && <EmptyState title="No matches" body={`Nothing in the example catalog matches${q ? ` “${q}”` : ''}. Try a shorter word.`} />}
+    {!q && type === 'all' && <EmptyState title="Ask for a name" body="Search covers stars, sites, toys, games, AI apps, and stories. Pick a type to browse that slice." />}
+    {(q || type !== 'all') && hits.length === 0 && <EmptyState title="No matches" body={`Nothing in the catalog matches${q ? ` “${q}”` : ''}. Try a shorter word.`} />}
     {hits.length > 0 && (
       <div class="results">
         {hits.map((hit, index) => <HitCard hit={hit} uid={`hit-${index}-${hit.href}`} />)}

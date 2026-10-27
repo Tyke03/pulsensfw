@@ -1,0 +1,90 @@
+{
+  "slug": "crushon-ai",
+  "type": "ai_app",
+  "name": "CrushOn AI",
+  "url": "https://crushon.ai",
+  "affiliate_url": "https://crushon.ai/?ref=nzflztr&mist=1",
+  "summary": "Unfiltered character chat with a very large community library and persistent character memory. One of two apps on this desk with a tracked link.",
+  "tags": [
+    "nsfw",
+    "character chat",
+    "roleplay",
+    "freemium"
+  ],
+  "pricing": {
+    "model": "Freemium subscription",
+    "free_tier": "Limited daily messages on basic models",
+    "from_price": "$5.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Standard",
+        "price": "$5.99",
+        "billing": "month",
+        "notes": "2,000 messages"
+      },
+      {
+        "name": "Premium",
+        "price": "$14.99",
+        "billing": "month",
+        "notes": "6,000 messages and dedicated capacity"
+      },
+      {
+        "name": "Deluxe",
+        "price": "$49.90",
+        "billing": "month",
+        "notes": "Unlimited messages"
+      }
+    ],
+    "notes": "Annual billing is cheaper. Prices vary by region and app store; this is a third-party 2026 snapshot, not the in-app checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Large character library",
+    "Persistent character memory",
+    "Free tier without a card"
+  ],
+  "cons": [
+    "Free tier is message-limited",
+    "Pricing varies by region and app store"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier",
+      "value": "Yes, limited daily messages",
+      "source_url": "https://pocketanimus.com/guides/crushon-ai-pricing/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Paid entry",
+      "value": "$5.99 per month (Standard)",
+      "source_url": "https://pocketanimus.com/guides/crushon-ai-pricing/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://crushon.ai",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Content rules",
+      "value": "Adult character chat; 18+ terms",
+      "source_url": "https://crushon.ai/terms",
+      "checked": "2026-10-26"
+    }
+  ],
+  "updated": "2026-10-26"
+}

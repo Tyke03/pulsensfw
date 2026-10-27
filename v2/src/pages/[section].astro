@@ -83,7 +83,7 @@ const entityLabel = topic?.id === 'stars'
         </section>
       )}
       {cards.length === 0 && entities.length === 0 ? (
-        <EmptyState title="Nothing in this slice yet" body="The example desk does not have a story or a profile under that filter. Try the full hub.">
+        <EmptyState title="Nothing in this slice yet" body="There is no story or profile under that filter yet. Try the full hub.">
           <a class="c-btn c-btn--primary" href={topic.href}>Clear filter</a>
         </EmptyState>
       ) : cards.length > 0 && (

@@ -1,7 +1,9 @@
+import type { Entity, EntityFact, EntityType, Pricing } from './entity-schema';
+
 export const TOPICS = ['stars', 'sites', 'ai', 'toys', 'vr', 'guides', 'lists', 'news'] as const;
 export type TopicId = (typeof TOPICS)[number];
 
-export const KINDS = ['review', 'guide', 'news', 'list', 'comparison'] as const;
+export const KINDS = ['top_list', 'star_profile', 'site_review', 'review', 'guide', 'news'] as const;
 export type Kind = (typeof KINDS)[number];
 
 export const RAIL_IDS = ['trending', 'latest', 'editors', 'guides', 'top10'] as const;
@@ -10,9 +12,22 @@ export type RailId = (typeof RAIL_IDS)[number];
 export const BADGES = ['new', 'updated'] as const;
 export type Badge = (typeof BADGES)[number];
 
-export const LICENSES = ['press-kit', 'affiliate-asset', 'screenshot', 'own-art', 'example'] as const;
+export const LICENSES = [
+  'press-kit',
+  'affiliate-asset',
+  'screenshot',
+  'own-art',
+  'brand-kit',
+  'cc-by-4.0',
+  'cc-by-sa-4.0',
+  'cc-by-3.0',
+  'cc-by-sa-2.5',
+  'public-domain',
+  'example',
+] as const;
 export type LicenseNote = (typeof LICENSES)[number];
 
+/** Display/search kind. `ai_app` is shown as `ai` to match the nav filter. */
 export const ENTITY_KINDS = ['star', 'site', 'product', 'game', 'ai'] as const;
 export type EntityKind = (typeof ENTITY_KINDS)[number];
 
@@ -32,7 +47,7 @@ export type RawImage = {
   license: LicenseNote;
   explicit: boolean;
   explicitId?: string;
-  /** Optional 2257 record id when the picture is of a real person. Example art leaves this off. */
+  /** Optional 2257 record id when the picture is of a real person. */
   record2257?: string;
   plate?: string;
 };
@@ -47,11 +62,7 @@ export type Gear = {
   verdict: string;
 };
 
-export type ListEntryRef = {
-  kind: EntityKind;
-  id: string;
-  blurb: string;
-};
+export type ArticleSource = { label: string; url: string; checked?: string };
 
 export type RawArticle = {
   slug: string;
@@ -71,10 +82,12 @@ export type RawArticle = {
   /** SFW cover. Required. Explicit stills live in `explicitImages`. */
   cover: RawImage;
   explicitImages: RawImage[];
-  entries: ListEntryRef[];
+  /** Entity slugs, in rank order for top lists. */
+  entitySlugs: string[];
+  sources: ArticleSource[];
+  checkedAt?: Date;
   gear?: Gear;
   bodyText: string;
-  example: true;
 };
 
 export type Subtopic = { id: string; label: string; description: string };
@@ -100,69 +113,9 @@ export type RawDeal = {
   note: string;
 };
 
-export type RawStar = {
-  id: string;
-  name: string;
-  dek: string;
-  platforms: string[];
-  niches: string[];
-  trending: boolean;
-  rising: boolean;
-  cover: RawImage;
-  explicitImages: RawImage[];
-  example: true;
-};
-
-export type RawSite = {
-  id: string;
-  name: string;
-  dek: string;
-  siteKind: 'premium' | 'tube' | 'cams' | 'platform' | 'niche';
-  tags: string[];
-  cover: RawImage;
-  explicitImages: RawImage[];
-  example: true;
-};
-
-export type RawProduct = {
-  id: string;
-  name: string;
-  dek: string;
-  tags: string[];
-  price: string;
-  cover: RawImage;
-  explicitImages: RawImage[];
-  example: true;
-};
-
-export type RawGame = {
-  id: string;
-  name: string;
-  dek: string;
-  tags: string[];
-  platform: string;
-  cover: RawImage;
-  explicitImages: RawImage[];
-  example: true;
-};
-
-export type RawPlatform = {
-  id: string;
-  name: string;
-  dek: string;
-  tags: string[];
-  focus: string;
-  cover: RawImage;
-  explicitImages: RawImage[];
-  example: true;
-};
-
+/** The entity collection is the catalog. */
 export type Catalog = {
-  stars: RawStar[];
-  sites: RawSite[];
-  products: RawProduct[];
-  games: RawGame[];
-  platforms: RawPlatform[];
+  entities: Entity[];
 };
 
 export type MediaView =
@@ -185,7 +138,6 @@ export type ArticleCard = {
   badges: Badge[];
   score: number | null;
   media: MediaView;
-  example: true;
 };
 
 export type PresentedExplicit = {
@@ -196,9 +148,10 @@ export type PresentedExplicit = {
   record2257?: string;
 };
 
-export type PresentedEntry = {
+export type PresentedEntity = {
   kind: EntityKind;
-  id: string;
+  type: EntityType;
+  slug: string;
   title: string;
   href: string;
   blurb: string;
@@ -210,8 +163,11 @@ export type ArticlePage = ArticleCard & {
   tags: string[];
   gear?: Gear;
   updatedLabel?: string;
+  checkedLabel?: string;
   explicitMedia: PresentedExplicit[];
-  entries: PresentedEntry[];
+  entitySlugs: string[];
+  entities: PresentedEntity[];
+  sources: ArticleSource[];
 };
 
 export type DealCard = {
@@ -228,7 +184,9 @@ export type DealCard = {
 
 export type EntityCard = {
   kind: EntityKind;
+  type: EntityType;
   id: string;
+  slug: string;
   href: string;
   title: string;
   dek: string;
@@ -239,6 +197,21 @@ export type EntityCard = {
   media: MediaView;
   explicitMedia: PresentedExplicit[];
   facts: { label: string; value: string }[];
+  score: number | null;
+  pricing: Pricing;
+  platforms: string[];
+  affiliateHref: string | null;
+  outboundHref: string;
+  updated: string;
+  image: Entity['image'];
+};
+
+/** Full entity view used by detail pages and article templates. */
+export type EntityPage = EntityCard & {
+  entity: Entity;
+  entityFacts: EntityFact[];
+  sources: { label: string; url: string; checked?: string }[];
+  relatedArticles: ArticleCard[];
 };
 
 export type SearchHit = {
@@ -258,3 +231,5 @@ export type ReaderMode = {
   blur: boolean;
   seed: number;
 };
+
+export type { Entity, EntityFact, EntityType, Pricing };

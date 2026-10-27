@@ -9,12 +9,12 @@ import type { TopicId } from '../content/types';
 export const CATEGORY_ART: Record<TopicId, { hero: string; cover: string }> = {
   stars: { hero: '/media/categories/stars/hero.svg', cover: '/media/categories/stars/cover.svg' },
   sites: { hero: '/media/categories/sites/hero.svg', cover: '/media/categories/sites/cover.svg' },
-  ai: { hero: '/media/categories/ai/hero.svg', cover: '/media/categories/ai/cover.svg' },
-  toys: { hero: '/media/categories/toys/hero.svg', cover: '/media/categories/toys/cover.svg' },
-  vr: { hero: '/media/categories/vr/hero.svg', cover: '/media/categories/vr/cover.svg' },
-  guides: { hero: '/media/categories/guides/hero.svg', cover: '/media/categories/guides/cover.svg' },
-  lists: { hero: '/media/categories/lists/hero.svg', cover: '/media/categories/lists/cover.svg' },
-  news: { hero: '/media/categories/news/hero.svg', cover: '/media/categories/news/cover.svg' },
+  ai: { hero: '/media/categories/ai/hero.png', cover: '/media/categories/ai/cover.png' },
+  toys: { hero: '/media/categories/toys/hero.png', cover: '/media/categories/toys/cover.png' },
+  vr: { hero: '/media/categories/vr/hero.png', cover: '/media/categories/vr/cover.png' },
+  guides: { hero: '/media/categories/guides/hero.png', cover: '/media/categories/guides/cover.png' },
+  lists: { hero: '/media/categories/lists/hero.png', cover: '/media/categories/lists/cover.png' },
+  news: { hero: '/media/categories/news/hero.png', cover: '/media/categories/news/cover.png' },
 };
 
 export function categoryHero(topic: TopicId): string {

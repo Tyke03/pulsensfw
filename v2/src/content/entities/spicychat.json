@@ -1,0 +1,97 @@
+{
+  "slug": "spicychat",
+  "type": "ai_app",
+  "name": "SpicyChat",
+  "url": "https://spicychat.ai",
+  "affiliate_url": "https://spicychat.ai?ref=oge3yjk",
+  "summary": "Character roleplay with a huge community library and a free tier that is usable enough to test the product before paying.",
+  "tags": [
+    "nsfw",
+    "character chat",
+    "roleplay",
+    "freemium"
+  ],
+  "pricing": {
+    "model": "Freemium subscription",
+    "free_tier": "Daily message limits, ads, 3K context",
+    "from_price": "$5.95/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billing": "month",
+        "notes": "Daily limits, ads, 3K context"
+      },
+      {
+        "name": "True Supporter",
+        "price": "$5.95",
+        "billing": "month",
+        "notes": "8,192-token context, longer replies"
+      },
+      {
+        "name": "I'm All In",
+        "price": "$19.95",
+        "billing": "month",
+        "notes": "Higher limits and image generation"
+      },
+      {
+        "name": "Deluxe",
+        "price": "$29.95",
+        "billing": "month",
+        "notes": "Top tier"
+      }
+    ],
+    "notes": "September 2026 price update. Official checkout requires sign-in; confirm the current offer there."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Very large character library",
+    "Free tier is usable for browsing",
+    "Strong roleplay tooling"
+  ],
+  "cons": [
+    "Tier names are confusing",
+    "Cheapest paid tier does not fix memory limits",
+    "Official prices need sign-in"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier",
+      "value": "Yes, with daily limits and ads",
+      "source_url": "https://docs.spicychat.ai/september-2026-pricing-update-faq",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Paid entry",
+      "value": "$5.95 per month (True Supporter)",
+      "source_url": "https://www.roborhythms.com/spicychat-ai-review/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Context on True Supporter",
+      "value": "8,192 tokens; replies up to 300 tokens",
+      "source_url": "https://www.roborhythms.com/spicychat-ai-review/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Pricing update",
+      "value": "Took effect September 8, 2026",
+      "source_url": "https://docs.spicychat.ai/september-2026-pricing-update-faq",
+      "checked": "2026-10-26"
+    }
+  ],
+  "updated": "2026-10-26"
+}

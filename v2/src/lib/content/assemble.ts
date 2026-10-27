@@ -61,9 +61,9 @@ export function assembleHome(
     rails,
     topics,
     deals: deals.map((deal) => presentDeal(deal, reader)),
-    rising: entities.filter((card) => card.kind === 'star' && card.kicker === 'New & rising').slice(0, 8),
-    trendingStars: entities.filter((card) => card.kind === 'star' && catalog.stars.find((star) => star.id === card.id)?.trending).slice(0, 8),
-    sites: entities.filter((card) => card.kind === 'site').slice(0, 8),
+    rising: entities.filter((card) => card.type === 'star' && card.tags.includes('rising')).slice(0, 8),
+    trendingStars: entities.filter((card) => card.type === 'star').sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 8),
+    sites: entities.filter((card) => card.type === 'site').slice(0, 8),
   };
 }
 

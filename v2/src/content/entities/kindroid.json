@@ -1,0 +1,91 @@
+{
+  "slug": "kindroid",
+  "type": "ai_app",
+  "name": "Kindroid",
+  "url": "https://kindroid.ai",
+  "affiliate_url": null,
+  "summary": "Build-your-own companion with a deep memory system, voice calls, and a paid tier that carries the product after the free tier ended.",
+  "tags": [
+    "nsfw",
+    "companion",
+    "memory",
+    "voice"
+  ],
+  "pricing": {
+    "model": "Subscription",
+    "free_tier": "Ended for new Lite users on October 1, 2026; existing users read-only",
+    "from_price": "$13.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Standard",
+        "price": "$13.99",
+        "billing": "month",
+        "notes": "Web price; complete experience"
+      },
+      {
+        "name": "Ultra add-on",
+        "price": "+$24.99",
+        "billing": "month",
+        "notes": "Adds capacity on top of Standard"
+      },
+      {
+        "name": "MAX add-on",
+        "price": "+$59.99",
+        "billing": "month",
+        "notes": "Top add-on"
+      }
+    ],
+    "notes": "App-store pricing can be higher. 2026 listings conflict on the free tier, so the end date is the fact to trust."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Deep memory controls",
+    "Voice calls",
+    "Highly customizable persona"
+  ],
+  "cons": [
+    "No real free tier after October 2026",
+    "Add-on pricing stacks",
+    "Price varies by store"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier",
+      "value": "Ended October 1, 2026 for Lite users",
+      "source_url": "https://aicompanionguides.com/blog/kindroid-lite-gone-free-users-2026/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Standard price",
+      "value": "$13.99 per month on web",
+      "source_url": "https://pocketanimus.com/guides/kindroid-subscription-levels/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Ultra add-on",
+      "value": "+$24.99 per month",
+      "source_url": "https://pocketanimus.com/guides/kindroid-subscription-levels/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "MAX add-on",
+      "value": "+$59.99 per month",
+      "source_url": "https://pocketanimus.com/guides/kindroid-subscription-levels/",
+      "checked": "2026-10-26"
+    }
+  ],
+  "updated": "2026-10-26"
+}

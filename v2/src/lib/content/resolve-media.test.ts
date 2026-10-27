@@ -4,6 +4,7 @@ import { assembleHome } from './assemble';
 import { presentArticle, searchCatalog } from './present';
 import { PLACEHOLDERS } from './resolve-media';
 import type { Catalog, RawArticle, RawImage, ReaderMode, Topic } from './types';
+import type { Entity } from './entity-schema';
 
 const sfw: ReaderMode = { ageVerified: true, nsfw: false, discreet: false, blur: false, seed: 7 };
 const nsfw: ReaderMode = { ...sfw, nsfw: true };
@@ -34,14 +35,14 @@ function article(overrides: Partial<RawArticle> = {}): RawArticle {
     tags: ['quiet'],
     cover: safeCover,
     explicitImages: [hidden],
-    entries: [],
+    entitySlugs: [],
+    sources: [],
     bodyText: 'body',
-    example: true,
     ...overrides,
   };
 }
 
-const emptyCatalog: Catalog = { stars: [], sites: [], products: [], games: [], platforms: [] };
+const emptyCatalog: Catalog = { entities: [] };
 
 test('SFW view models omit explicit urls and server keys', () => {
   const view = presentArticle(article(), sfw);
@@ -104,21 +105,24 @@ test('assembled home does not leak explicit keys while SFW', () => {
 });
 
 test('search finds a star by name and can filter to that type', () => {
-  const catalog: Catalog = {
-    ...emptyCatalog,
-    stars: [{
-      id: 'nova-lane',
-      name: 'Nova Lane',
-      dek: 'Fictional VR star',
-      platforms: ['OnlyFans'],
-      niches: ['vr'],
-      trending: true,
-      rising: true,
-      cover: safeCover,
-      explicitImages: [],
-      example: true,
-    }],
+  const nova: Entity = {
+    slug: 'nova-lane',
+    type: 'star',
+    name: 'Nova Lane',
+    url: 'https://example.com/nova-lane',
+    affiliate_url: null,
+    summary: 'VR star',
+    tags: ['vr'],
+    pricing: { model: 'Varies', free_tier: null, from_price: null, currency: 'USD', plans: [], notes: null },
+    platforms: ['OnlyFans'],
+    score: null,
+    pros: [],
+    cons: [],
+    image: { src: '/media/placeholders/pulse-a.svg', alt: 'Nova Lane', source_url: 'https://example.com/nova-lane', license: 'own-art', nsfw: false },
+    facts: [],
+    updated: '2026-10-26',
   };
+  const catalog: Catalog = { entities: [nova] };
   const hits = searchCatalog([], catalog, 'nova', 'all', sfw);
   assert.equal(hits.length, 1);
   assert.equal(hits[0]?.type, 'star');
@@ -133,5 +137,5 @@ test('a missing picture falls back to the category cover', async () => {
   const { presentImage } = await import('./resolve-media');
   const view = presentImage({ alt: 'Untitled', explicit: false, license: 'example' }, 'vr', 'fallback', sfw);
   assert.equal(view.state, 'file');
-  if (view.state === 'file') assert.equal(view.src, '/media/categories/vr/cover.svg');
+  if (view.state === 'file') assert.equal(view.src, '/media/categories/vr/cover.png');
 });

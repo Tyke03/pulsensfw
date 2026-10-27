@@ -1,0 +1,69 @@
+{
+  "slug": "angela-white",
+  "type": "star",
+  "name": "Angela White",
+  "url": "https://en.wikipedia.org/wiki/Angela_White",
+  "affiliate_url": null,
+  "summary": "Australian performer and director, and the first three-time AVN Female Performer of the Year.",
+  "tags": [
+    "australian",
+    "performer",
+    "director",
+    "hall of fame"
+  ],
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "Official site",
+    "X"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/angela-white.jpg",
+    "alt": "SFW portrait of Angela White at a 2019 film premiere",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Angela_White_2019_by_Glenn_Francis.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Born",
+      "value": "1984 or 1985, Australia",
+      "source_url": "https://en.wikipedia.org/wiki/Angela_White",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Career start",
+      "value": "2003",
+      "source_url": "https://en.wikipedia.org/wiki/Angela_White",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Hall of Fame",
+      "value": "AVN and XRCO",
+      "source_url": "https://en.wikipedia.org/wiki/Angela_White",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "AVN Female Performer of the Year",
+      "value": "2020; first three-time winner",
+      "source_url": "https://en.wikipedia.org/wiki/Angela_White",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Official site",
+      "value": "Angelawhite.com, launched 2013",
+      "source_url": "https://en.wikipedia.org/wiki/Angela_White",
+      "checked": "2026-10-26"
+    }
+  ],
+  "updated": "2026-10-26"
+}

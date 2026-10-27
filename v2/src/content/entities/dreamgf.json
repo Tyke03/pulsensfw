@@ -1,0 +1,83 @@
+{
+  "slug": "dreamgf",
+  "type": "ai_app",
+  "name": "DreamGF",
+  "url": "https://dreamgf.ai",
+  "affiliate_url": null,
+  "summary": "AI girlfriend generator with chat and image tools. The subscription looks cheap until the token meter starts.",
+  "tags": [
+    "nsfw",
+    "companion",
+    "image generation",
+    "tokens"
+  ],
+  "pricing": {
+    "model": "Subscription plus tokens",
+    "free_tier": "Limited free trial",
+    "from_price": "$9.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Entry",
+        "price": "$9.99",
+        "billing": "month",
+        "notes": "Basic subscription"
+      },
+      {
+        "name": "Top tier",
+        "price": "$49.99",
+        "billing": "month",
+        "notes": "Unlimited images and video generation"
+      }
+    ],
+    "notes": "Token packs are sold separately. Renewal pricing has been reported above the entry rate."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Image-first companion builder",
+    "Low entry subscription",
+    "Fast generation"
+  ],
+  "cons": [
+    "Token costs stack",
+    "Free tier is very limited",
+    "Mixed reports on renewal pricing"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Entry price",
+      "value": "$9.99 per month",
+      "source_url": "https://theconfidante.ai/dreamgf/pricing",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Top tier",
+      "value": "$49.99 per month",
+      "source_url": "https://www.aiangels.io/dreamgf-review/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Free tier",
+      "value": "Yes, but very limited",
+      "source_url": "https://companionrank.tech/pricing/dreamgf/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Billing model",
+      "value": "Subscription plus token packs",
+      "source_url": "https://companionrater.com/reviews/dreamgf",
+      "checked": "2026-10-26"
+    }
+  ],
+  "updated": "2026-10-26"
+}

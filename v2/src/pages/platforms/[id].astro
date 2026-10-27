@@ -1,4 +1,4 @@
 ---
-import EntityScreen from '../../components/EntityScreen.astro';
+const id = Astro.params.id ?? '';
+return Astro.redirect(`/ai/${id}`, 301);
 ---
-<EntityScreen kind="ai" id={Astro.params.id ?? ''} />

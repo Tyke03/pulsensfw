@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getContentRepository } from '../lib/content/local-repository';
 import { RAIL_IDS } from '../lib/content/types';
+import { entityHref } from '../lib/content/entities';
 
 export const GET: APIRoute = async ({ site }) => {
   const origin = site ?? new URL('https://pulsensfw.com');
@@ -21,11 +22,7 @@ export const GET: APIRoute = async ({ site }) => {
     ...topics.map((topic) => topic.href),
     ...RAIL_IDS.map((rail) => `/desk/${rail}`),
     ...articles.map((article) => `/story/${article.slug}`),
-    ...catalog.stars.map((star) => `/stars/${star.id}`),
-    ...catalog.sites.map((site) => `/sites/${site.id}`),
-    ...catalog.products.map((product) => `/products/${product.id}`),
-    ...catalog.games.map((game) => `/games/${game.id}`),
-    ...catalog.platforms.map((platform) => `/platforms/${platform.id}`),
+    ...catalog.entities.map((entity) => entityHref(entity.type, entity.slug)),
   ];
   const urls = paths.map((path) => `<url><loc>${new URL(path, origin).href}</loc></url>`).join('');
   return new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>`, {

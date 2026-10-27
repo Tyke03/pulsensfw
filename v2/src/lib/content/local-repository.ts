@@ -1,34 +1,25 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import dealsJson from '../../content/deals.json';
-import gamesJson from '../../content/games.json';
-import platformsJson from '../../content/platforms.json';
-import productsJson from '../../content/products.json';
-import sitesJson from '../../content/sites.json';
-import starsJson from '../../content/stars.json';
 import topicsJson from '../../content/topics.json';
-import { isExplicitId } from '../media/explicit-catalog';
+import { findEntity } from './entities';
+import type { Entity, EntityType } from './entity-schema';
 import type { ContentRepository } from './repository';
 import { byDateDesc, searchCatalog } from './present';
 import type {
   Badge,
   Catalog,
   Kind,
-  ListEntryRef,
   RailId,
   RawArticle,
   RawDeal,
-  RawGame,
   RawImage,
-  RawPlatform,
-  RawProduct,
-  RawSite,
-  RawStar,
   SearchType,
   Topic,
   TopicId,
 } from './types';
 
 type ArticleEntry = CollectionEntry<'articles'>;
+type EntityEntry = CollectionEntry<'entities'>;
 
 function asDate(value: Date | string): Date {
   return value instanceof Date ? value : new Date(value);
@@ -38,16 +29,12 @@ function imageOf(owner: string, image: RawImage, role: string): RawImage {
   if (role === 'cover' && image.explicit) {
     throw new Error(`${owner} cover is explicit. SFW covers are required.`);
   }
-  if (image.explicit && !isExplicitId(image.explicitId)) {
-    throw new Error(`${owner} explicit image is missing a catalog id.`);
-  }
   return image;
 }
 
 export function articleFromEntry(entry: ArticleEntry): RawArticle {
   const data = entry.data;
   const cover = imageOf(entry.id, data.cover as RawImage, 'cover');
-  const explicitImages = ((data.explicitImages ?? []) as RawImage[]).map((image, index) => imageOf(`${entry.id}#${index}`, image, 'explicit'));
   return {
     slug: entry.id,
     title: data.title,
@@ -64,33 +51,22 @@ export function articleFromEntry(entry: ArticleEntry): RawArticle {
     rails: (data.rails ?? []) as RailId[],
     tags: data.tags ?? [],
     cover,
-    explicitImages,
-    entries: (data.entries ?? []) as ListEntryRef[],
+    explicitImages: [],
+    entitySlugs: data.entities ?? [],
+    sources: (data.sources ?? []).map((source) => ({
+      label: source.label,
+      url: source.url,
+      checked: source.checked,
+    })),
+    checkedAt: data.checkedAt ? asDate(data.checkedAt) : undefined,
     gear: data.gear,
     bodyText: entry.body ?? '',
-    example: true,
   };
 }
 
-function assertImages(label: string, images: RawImage[]) {
-  images.forEach((image, index) => imageOf(`${label}#${index}`, image, image.explicit ? 'explicit' : 'cover'));
+export function entityFromEntry(entry: EntityEntry): Entity {
+  return { ...entry.data, slug: entry.id };
 }
-
-const stars = starsJson as RawStar[];
-const sites = sitesJson as RawSite[];
-const products = productsJson as RawProduct[];
-const games = gamesJson as RawGame[];
-const platforms = platformsJson as RawPlatform[];
-const deals = dealsJson as RawDeal[];
-
-for (const star of stars) assertImages(star.id, [star.cover, ...star.explicitImages]);
-for (const site of sites) assertImages(site.id, [site.cover, ...site.explicitImages]);
-for (const product of products) assertImages(product.id, [product.cover, ...product.explicitImages]);
-for (const game of games) assertImages(game.id, [game.cover, ...game.explicitImages]);
-for (const platform of platforms) assertImages(platform.id, [platform.cover, ...platform.explicitImages]);
-for (const deal of deals) assertImages(deal.id, [deal.cover]);
-
-const catalog: Catalog = { stars, sites, products, games, platforms };
 
 export const localContentRepository: ContentRepository = {
   info: { source: 'local-seed' },
@@ -106,13 +82,19 @@ export const localContentRepository: ContentRepository = {
     return topicsJson as Topic[];
   },
   async listDeals() {
-    return deals;
+    return dealsJson as RawDeal[];
   },
   async listCatalog() {
-    return catalog;
+    const entries = await getCollection('entities');
+    return { entities: entries.map(entityFromEntry) } satisfies Catalog;
+  },
+  async getEntity(type: EntityType, slug: string) {
+    const catalog = await this.listCatalog();
+    return findEntity(catalog, type, slug);
   },
   async search(query: string, type: SearchType = 'all') {
     const articles = await this.listArticles();
+    const catalog = await this.listCatalog();
     return searchCatalog(articles, catalog, query, type, {
       ageVerified: false,
       nsfw: false,

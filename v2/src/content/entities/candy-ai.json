@@ -1,0 +1,85 @@
+{
+  "slug": "candy-ai",
+  "type": "ai_app",
+  "name": "Candy AI",
+  "url": "https://candy.ai",
+  "affiliate_url": null,
+  "summary": "Polished AI girlfriend app built around generated images and short chat sessions. The free tier is a preview, not a hangout.",
+  "tags": [
+    "nsfw",
+    "companion",
+    "image generation",
+    "freemium"
+  ],
+  "pricing": {
+    "model": "Freemium subscription with tokens",
+    "free_tier": "Five messages per character",
+    "from_price": "$3.99/mo billed yearly",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Premium",
+        "price": "$13.99",
+        "billing": "month",
+        "notes": "Unlimited messages plus 100 monthly tokens"
+      },
+      {
+        "name": "Annual",
+        "price": "$47.88",
+        "billing": "year",
+        "notes": "About $3.99/month"
+      }
+    ],
+    "notes": "Tokens are spent on images, voice, and video. Monthly and annual prices differ by region."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Strong image generation",
+    "Clean interface",
+    "Cheap annual entry"
+  ],
+  "cons": [
+    "Free tier is only a few messages",
+    "Tokens add cost",
+    "Aggressive upsell"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free trial",
+      "value": "Five messages per character",
+      "source_url": "https://companionhunt.com/apps/candy-ai/pricing/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Premium monthly",
+      "value": "$13.99 per month",
+      "source_url": "https://secretcrush.ai/blog/candy-ai-pricing",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Annual price",
+      "value": "$47.88 per year",
+      "source_url": "https://secretcrush.ai/blog/candy-ai-pricing",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Token allowance",
+      "value": "100 tokens per month on Premium",
+      "source_url": "https://candyaiapp.com/pricing/",
+      "checked": "2026-10-26"
+    }
+  ],
+  "updated": "2026-10-26"
+}

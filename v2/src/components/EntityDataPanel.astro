@@ -1,0 +1,111 @@
+---
+import MediaFrame from './MediaFrame.astro';
+import ScoreBadge from './ScoreBadge.astro';
+import { ENTITY_LABEL, lastCheckedLabel, pricingRows } from '../lib/content/entities';
+import type { Entity } from '../lib/content/entity-schema';
+import type { MediaView, TopicId } from '../lib/content/types';
+
+interface Props {
+  entity: Entity;
+  media: MediaView;
+  topic: TopicId;
+  uid: string;
+  showSources?: boolean;
+  compact?: boolean;
+}
+const { entity, media, topic, uid, showSources = true, compact = false } = Astro.props;
+const affiliate = Boolean(entity.affiliate_url);
+const href = entity.affiliate_url ?? entity.url;
+const pricing = pricingRows(entity.pricing);
+---
+<section class:list={["gear", "entity-data", compact && "entity-data--compact"]} aria-label={`${entity.name} review data`}>
+  <div class="entity-data-grid">
+    <div class="entity-data-media">
+      <MediaFrame media={media} topic={topic} uid={uid} />
+      <p class="meta" style="margin-top:6px">
+        {entity.image.license.replaceAll('-', ' ')} · <a href={entity.image.source_url} rel="noopener noreferrer">image source</a>
+      </p>
+    </div>
+    <div class="entity-data-copy">
+      <div class="gear-top">
+        {entity.score !== null && <ScoreBadge score={entity.score} size="lg" />}
+        <div>
+          <p class="kicker">{ENTITY_LABEL[entity.type]} · Last checked {lastCheckedLabel(entity.updated)}</p>
+          <h2>{entity.name}</h2>
+        </div>
+      </div>
+      <p class="dek">{entity.summary}</p>
+      {entity.platforms.length > 0 && (
+        <p class="tag-row">
+          {entity.platforms.map((platform) => <span class="c-chip">{platform}</span>)}
+        </p>
+      )}
+      <p class="entity-outbound">
+        <a class="c-btn c-btn--primary c-btn--small" href={href} target="_blank" rel={affiliate ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}>
+          {affiliate ? 'Open with affiliate link' : 'Open ' + entity.name}
+          <span class="sr-only"> (opens in a new tab)</span>
+        </a>
+      </p>
+      {affiliate && <p class="meta">Affiliate link. PulseNSFW may earn a commission; the score is not for sale.</p>}
+      {entity.tags.length > 0 && (
+        <p class="tag-row">
+          {entity.tags.map((tag) => <span class="c-chip">{tag}</span>)}
+        </p>
+      )}
+    </div>
+  </div>
+
+  <div class="entity-data-panels">
+    <section>
+      <h3>Pricing</h3>
+      <table class="spec">
+        <caption class="sr-only">Pricing for {entity.name}</caption>
+        <tbody>
+          {pricing.map((row) => (
+            <tr><th scope="row">{row.label}</th><td>{row.value}</td></tr>
+          ))}
+        </tbody>
+      </table>
+      {entity.pricing.notes && <p class="meta">{entity.pricing.notes}</p>}
+    </section>
+    {(entity.pros.length > 0 || entity.cons.length > 0) && (
+      <section class="split">
+        <div class="pros">
+          <h3>Pros</h3>
+          <ul>{entity.pros.map((item) => <li>{item}</li>)}</ul>
+        </div>
+        <div class="cons">
+          <h3>Cons</h3>
+          <ul>{entity.cons.map((item) => <li>{item}</li>)}</ul>
+        </div>
+      </section>
+    )}
+    <section>
+      <h3>Platforms</h3>
+      {entity.platforms.length > 0 ? (
+        <ul class="plain-list">{entity.platforms.map((platform) => <li>{platform}</li>)}</ul>
+      ) : <p class="meta">No platforms listed yet.</p>}
+    </section>
+  </div>
+
+  {showSources && (
+    <section class="entity-sources">
+      <h3>Facts &amp; sources</h3>
+      <table class="spec">
+        <caption class="sr-only">Checked facts and sources for {entity.name}</caption>
+        <thead>
+          <tr><th scope="col">Fact</th><th scope="col">Value</th><th scope="col">Checked</th></tr>
+        </thead>
+        <tbody>
+          {entity.facts.map((fact) => (
+            <tr>
+              <th scope="row">{fact.key}</th>
+              <td>{fact.value}</td>
+              <td><a href={fact.source_url} rel="noopener noreferrer">{lastCheckedLabel(fact.checked)}</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  )}
+</section>

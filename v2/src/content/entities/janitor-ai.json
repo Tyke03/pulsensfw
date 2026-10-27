@@ -1,0 +1,89 @@
+{
+  "slug": "janitor-ai",
+  "type": "ai_app",
+  "name": "Janitor AI",
+  "url": "https://janitorai.ai",
+  "affiliate_url": null,
+  "summary": "Power-user character chat with a free in-house model, an optional janitor+ subscription, and bring-your-own API routes.",
+  "tags": [
+    "nsfw",
+    "character chat",
+    "roleplay",
+    "power user"
+  ],
+  "pricing": {
+    "model": "Freemium plus optional subscription",
+    "free_tier": "Free chat on JanitorLLM",
+    "from_price": "$12.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billing": "month",
+        "notes": "JanitorLLM with queue times"
+      },
+      {
+        "name": "janitor+",
+        "price": "$12.99",
+        "billing": "month",
+        "notes": "5x context, priority messages, monthly frontier swipes"
+      },
+      {
+        "name": "Router",
+        "price": "Prepaid",
+        "billing": "token wallet",
+        "notes": "Pay per token"
+      }
+    ],
+    "notes": "The official pricing page is bot-walled. Figures are cross-checked against July 2026 reporting."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Free in-house model",
+    "High ceiling with proxies or API keys",
+    "Large character library"
+  ],
+  "cons": [
+    "Setup can get technical",
+    "Official pricing page is bot-walled",
+    "Age verification adds friction"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier",
+      "value": "Yes, on JanitorLLM",
+      "source_url": "https://janitorai.ai/pricing",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "janitor+ price",
+      "value": "$12.99 per month (or $8.25/mo billed yearly)",
+      "source_url": "https://companionhunt.com/apps/janitor-ai/pricing/",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Launch of janitor+",
+      "value": "Announced June 24, 2026",
+      "source_url": "https://amorous.ai/lp/janitor-ai-subscription",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Age verification",
+      "value": "Face-photo check introduced April 2026",
+      "source_url": "https://www.techraisal.com/blog/is-janitor-ai-still-free-yes-but-the-real-bill-arrives-from-somebody-else/",
+      "checked": "2026-10-26"
+    }
+  ],
+  "updated": "2026-10-26"
+}
