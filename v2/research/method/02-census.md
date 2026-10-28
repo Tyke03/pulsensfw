@@ -16,6 +16,46 @@ this file exactly.
   only allowed starting point is the scope's own `url_scan_target`.
 - Everything you record must come from actual searches this run. Candidates
   named from memory are forbidden.
+- **Run with any assistant memory / personalization / cross-chat recall
+  disabled or cleared for the whole run.** Independence is the point of
+  running the census twice; a model leaning on remembered prior runs
+  contaminates the overlap and novelty measurements.
+
+## Evidence hygiene — community/fan evidence
+
+These rules apply wherever you record *why* a candidate is kept, rejected, or
+described (candidate notes and any supporting commentary), in addition to the
+no-numbers rules above:
+
+1. **Fan accounts only.** Exclude developer, staff, affiliated, moderator, or
+   self-promoting accounts as fan evidence. Log them anyway as excluded
+   entries with the reason (e.g. "official account", "self-promo", "affiliated
+   with candidate"). Their absence from the count matters as much as their argot.
+2. **One user, one count.** Count each username once per candidate, even
+   across threads. If two threads visibly share commenters, note it —
+   cross-thread overlap inflates apparent support.
+3. **Paraphrase vs verbatim.** Label every recorded comment as `verbatim`
+   (exact quote, quoted string) or `paraphrase` (your summary). Never mix them;
+   never convert a paraphrase into a quote.
+4. **Dates stay as displayed.** Keep relative dates exactly as displayed
+   ("2 days ago", "last month") **plus** the access date, as
+   `{ displayed: "2 days ago", accessed: "YYYY-MM-DD" }`. Never convert to an
+   exact date and never invent one from the relative form.
+5. **Search-engine snapshots are leads only.** If a claim comes from a cached/
+   snapshot result page, it stays a discovery lead; it only counts as evidence
+   when the live page itself shows it today. Record the snapshot source as the
+   *lead*, the live page as the *evidence*.
+6. **Conflicts stay side by side.** Where sources disagree about a candidate,
+   record both claims with their sources. Never collapse contested claims
+   into a single verdict at this stage — verdicts happen downstream, on the
+   full evidence bar.
+7. **"Isolated" vs "recurring".** A single user's experience is recorded as
+   isolated, not recurring or typical. "Recurring" requires 2+ independent
+   users in 2+ places (threads/sites).
+8. **Disclose sample limits.** End the census for each candidate by noting
+   which source types were covered (e.g. one subreddit's threads) and
+   which weren't (e.g. Discord, other forums, video comments) — silence on a
+   source type is not absence of evidence.
 
 ## Required outputs
 
