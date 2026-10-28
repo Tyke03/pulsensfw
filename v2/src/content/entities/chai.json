@@ -39,7 +39,7 @@
     "iOS",
     "Android"
   ],
-  "score": 6.9,
+  "score": 6.2,
   "pros": [
     "Documented distribution on both mobile stores",
     "Free download permits evaluation without a subscription",
@@ -48,7 +48,9 @@
   "cons": [
     "Explicit image/video generation prohibited",
     "Web product still listed as coming soon",
-    "Free-chat limits and memory capacity not quantified publicly"
+    "Free-chat limits and memory capacity not quantified publicly",
+    "Scam-hunt verdict: avoid - community-reported weekly pricing creep after the free base was killed",
+    "Cancellation dark-pattern reports (retention screens, low-contrast continue control)"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -93,6 +95,28 @@
       "source_url": "https://www.chai-research.com/",
       "checked": "2026-10-27",
       "evidence_type": "first_party"
+    },
+    {
+      "key": "Free tier killed",
+      "value": "Community-reported: free tier effectively gone; Premium shifted to weekly billing with climbing prices (~$12/wk premium, ~$26/wk ultra reported)",
+      "source_url": "https://www.reddit.com/r/ChaiApp/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: avoid. Weekly tiers and Play-rating collapse reported; store-rating counts unverified."
+    },
+    {
+      "key": "Cancellation",
+      "value": "Community-reported: multiple retention screens and a near-invisible continue-cancel control",
+      "source_url": "https://www.trustpilot.com/review/chai-research.com",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Historic pattern",
+      "value": "Community-reported: 2023-2026 complaint trail incl. free-trial conversion complaints",
+      "source_url": "https://complaintsboard.com",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
     }
   ],
   "updated": "2026-10-27"

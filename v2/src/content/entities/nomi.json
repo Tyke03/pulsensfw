@@ -48,7 +48,9 @@
   ],
   "cons": [
     "No nude or explicit photography — clothed images only",
-    "Annual purchases are nonrefundable, raising commitment risk"
+    "Annual purchases are nonrefundable, raising commitment risk",
+    "Community-reported: updates can silently rewrite or delete long-trained companions",
+    "Community-reported deletion-flow complaints; nonrefundable annual per official policy"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -94,6 +96,29 @@
       "source_url": "https://nomi.ai/terms-of-service/",
       "checked": "2026-10-27",
       "evidence_type": "first_party"
+    },
+    {
+      "key": "Fan support",
+      "value": "Heavy - r/NomiAI threads 2025-2026, and scam-hunt calls its flat-plan pricing the most honest in the category",
+      "source_url": "https://www.reddit.com/r/NomiAI/comments/1qen6p3/ive_been_disappointed_here_lately_with_the_nomi/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Update risk",
+      "value": "Community-reported: model updates have repeatedly destroyed established companion personalities/memory (2024 beta incident; 2026 recurrence threads)",
+      "source_url": "https://medium.com/@nomiai_exposed/the-beta-that-went-bananas-how-a-2024-personality-update-exposed-nomi-ais-pattern-of-engineered-d8d505c08bbd",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: caution. No breach, no billing trap reported."
+    },
+    {
+      "key": "Deletion complaint",
+      "value": "Community-reported: account-deletion flow may not complete (Trustpilot reports)",
+      "source_url": "https://www.trustpilot.com/review/nomi.ai",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Trustpilot fetch bot-blocked; rating counts not asserted."
     }
   ],
   "updated": "2026-10-27"

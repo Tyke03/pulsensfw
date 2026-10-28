@@ -52,7 +52,8 @@
     "2024 data breach",
     "No major app-store distribution",
     "Top tiers are expensive",
-    "2024 data breach: 1.9M emails + prompts exposed (HIBP/404 Media)"
+    "2024 data breach: 1.9M emails + prompts exposed (HIBP/404 Media)",
+    "Scam-hunt verdict: avoid - breach + astroturfing make it the least trustworthy reputation in the set"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -101,6 +102,21 @@
       "checked": "2026-10-27",
       "evidence_type": "press",
       "notes": "Serious trust signal. Watchlist placement reinforced."
+    },
+    {
+      "key": "Astroturfing",
+      "value": "Community-reported: documented bot-farm campaign promoting it using deliberately misspelled brand names (Mua, Miah, Mwah...)",
+      "source_url": "https://www.reddit.com/r/AI_Application/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: avoid (breach + astroturfing). Watchlist firm."
+    },
+    {
+      "key": "Play removal",
+      "value": "Community-reported: removed from Google Play 2024-05-07; Android users sideload from third parties",
+      "source_url": "https://www.reddit.com/r/AI_Application/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
     }
   ],
   "updated": "2026-10-27",

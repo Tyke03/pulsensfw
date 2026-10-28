@@ -48,7 +48,8 @@
   "cons": [
     "No native text-to-speech",
     "Lowest paid plan has only a 5,000-token context window",
-    "Public scenario library is SFW-only; mature themes are private"
+    "Public scenario library is SFW-only; mature themes are private",
+    "No fan-support record yet in the fan-scout dataset - placed on trust merits alone"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -98,6 +99,21 @@
     {
       "key": "Status",
       "value": "Active as of 2026-10-27 (partnership research record)",
+      "source_url": "https://dreamgen.com/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Scam-hunt verdict",
+      "value": "Clean - no red flags found of substance: bootstrapped small team, active dev in Discord/Reddit, prorated refunds by email, no documented security problem",
+      "source_url": "https://dreamgen.com/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "From the scam-hunt dataset (community compilation); its \"cleanest\" pick for the category."
+    },
+    {
+      "key": "Fan support",
+      "value": "Not ranked in the fan-scout dataset (no mention) - inclusion rests on trust record, marked provisional",
       "source_url": "https://dreamgen.com/pricing",
       "checked": "2026-10-27",
       "evidence_type": "first_party"

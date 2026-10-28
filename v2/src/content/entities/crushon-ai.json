@@ -41,7 +41,7 @@
   "platforms": [
     "Web"
   ],
-  "score": 8.6,
+  "score": 7.4,
   "pros": [
     "Unlimited access to designated free models, separate from credits",
     "Free tier with 8K memory is testable before paying",
@@ -51,7 +51,10 @@
   "cons": [
     "Free chat history deleted after 7 days of inactivity",
     "Annual-equivalent headline easily confused with monthly cost",
-    "Native apps claimed but no current store listing verified"
+    "Native apps claimed but no current store listing verified",
+    "Scam-hunt verdict: avoid - reported no manual cancel, non-refundable terms, and payment-processor churn",
+    "Community-reported: no confirmed encryption, ~45 trackers, chat-log collection",
+    "Trustpilot reported ~1.8/5 with support unresponsive (community count, unverified)"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -106,6 +109,37 @@
       "checked": "2026-10-27",
       "evidence_type": "first_party",
       "notes": "Official FAQ claims iOS/Android availability but no current store listing was verified."
+    },
+    {
+      "key": "Cancellation model",
+      "value": "Community-reported: no manual cancel or upgrade - subscriptions must lapse and be re-subscribed; current period non-refundable",
+      "source_url": "https://crushon.ai/terms-of-service",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: avoid. Dropped from the v0 top 10 on this."
+    },
+    {
+      "key": "Payment churn",
+      "value": "Community-reported: Stripe ended the partnership; payments moved via SubscribeStar and other processors mid-flight",
+      "source_url": "https://www.reddit.com/r/Crushonai/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Privacy posture",
+      "value": "Community-reported: Mozilla profile lists ~45 trackers, no confirmed encryption, chat-log collection incl. preference data",
+      "source_url": "https://www.mozilla.org/en-US/privacy-notices/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Tracker count unverified; signal: pay with a disposable card or stay on the free tier with a burner identity."
+    },
+    {
+      "key": "Operator identity",
+      "value": "Community-reported: terms name TECHIEPIE LTD (Cyprus) while other listings say Washington/Menlo Park",
+      "source_url": "https://crushon.ai/terms-of-service",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Rank revision rests on community trust evidence, not affiliate status."
     }
   ],
   "updated": "2026-10-27"

@@ -1,0 +1,70 @@
+{
+  "slug": "sillytavern",
+  "type": "ai_app",
+  "name": "SillyTavern",
+  "url": "https://sillytavern.app",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [],
+  "summary": "Local-first LLM roleplay frontend for power users: total control over prompts, samplers, V2 character cards and lorebooks, plus any backend (local vLLM/Kobold/Oobabooga or OpenRouter/DeepSeek). Zero platform censorship because there is no platform server.",
+  "tags": [
+    "nsfw",
+    "local",
+    "power user",
+    "free"
+  ],
+  "ranking_rationale": "Fan-scout records heavy community support (r/SillyTavernAI power-user threads 2025-2026 plus Hacker News debate, quotes on file): extensibility and total backend freedom as the draw, learning curve and API bills as the cost. Scam-hunt has no record for it - recorded as an absence, not a clearance. Ranked top for NSFW freedom, testability (free software) and privacy; pricing is not its product.",
+  "pricing": {
+    "model": "Unverified",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "Pricing could not be verified at check time; no third-party figure copied per desk rules."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Fan support",
+      "value": "Heavy - power-user subreddit and Hacker News threads 2025-2026; a cited user spent $150+ in a month on agentic tool-use tokens",
+      "source_url": "https://www.reddit.com/r/SillyTavernAI/comments/1rzerxd/best_platform_for_building_ai_companions_in_2026/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Community evidence with dated quotes, on file."
+    },
+    {
+      "key": "Setup cost",
+      "value": "Free: open-source frontend; you pay the LLM backend you connect (or none, self-hosted)",
+      "source_url": "https://sillytavern.app/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Complaints",
+      "value": "Steep learning curve; lorebook keyword triggers finicky; mobile setup awkward (Termux/LAN); heavy tool-use runs up API bills",
+      "source_url": "https://news.ycombinator.com/item?id=43743819",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Scam-hunt record",
+      "value": "No record - absence noted, no clearance implied",
+      "source_url": "https://sillytavern.app/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-10-27"
+}

@@ -1,0 +1,274 @@
+{
+  "platforms": [
+    {
+      "name": "SillyTavern",
+      "url": "https://sillytavern.app/",
+      "why_fans_like_it": "Unmatched granular control over system prompts, sampler parameters, V2 character cards, lorebooks, extensions (such as RPG Companion, Doom Enhancement Suite, and VRM avatar reactions), and complete freedom to connect any local LLM (via vLLM, Kobold, or Oobabooga) or external API (OpenRouter, DeepSeek, Claude) with zero platform censorship.",
+      "recurring_complaints": "Steep, intimidating learning curve for newcomers; a cluttered interface where lorebook keyword triggers can be finicky to configure; clumsy mobile setup that requires running Termux on Android or whitelisting a PC's LAN IP; and high API token bills when using heavy agentic tool extensions or commercial models.",
+      "who_its_best_for": "Power users, tinkerers, and privacy-focused roleplayers migrating from web platforms who want total ownership of their character cards, prompts, and backend LLM choices.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "In a discussion on building structured AI companions, a power user praised SillyTavern's extensibility for layered NSFW simulations and custom Codex tools, while noting the steep API cost: 'By far the biggest challenge is cost - tool use quickly uses a LOT of money, I've spent over $150 this month.'",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1rzerxd/best_platform_for_building_ai_companions_in_2026/",
+          "date": "2026-03-21"
+        },
+        {
+          "quote_or_paraphrase": "Responding to a user who migrated from Janitor AI, u/NemesisPolicy explained both the appeal and friction of SillyTavern: 'What is your current System Prompt, Instructions, context, etc. All these things matter, and that is a bit much, but that is what makes Silly so great. You have complete control, but unless you have everything set up right, it can feel off.'",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1p776qa/i_need_help_st_newbie_migrated_from_jai/",
+          "date": "2025-11-26"
+        },
+        {
+          "quote_or_paraphrase": "Hacker News commenters debating why SillyTavern dominates LLM roleplay frontends noted that 'It supports more sampler and other settings than anyone else,' while critics complained about its UI complexity: 'I tried sillytavern a few weeks ago... wow, that is an \"interesting\" UI! I blundered around for a while, couldn't figure out how to do anything useful... I personally thought the lorebook feature was quite neat and then quickly gave up on it because I couldn't get it to trigger, ever.'",
+          "url": "https://news.ycombinator.com/item?id=43743819",
+          "date": "2025-04-20"
+        },
+        {
+          "quote_or_paraphrase": "Hacker News user esafak highlighted the performance ceiling of self-hosting with SillyTavern: 'Meanwhile I'm here with sillytavern hooked to my own vllm server, getting crazy fast performance on my models and having a complete suite of tools for using LLMs.'",
+          "url": "https://news.ycombinator.com/item?id=43273521",
+          "date": "2025-03-05"
+        }
+      ]
+    },
+    {
+      "name": "Janitor AI",
+      "url": "https://janitorai.com/",
+      "why_fans_like_it": "Massive library of community-created NSFW and Dead Dove bots with rich lore, an accessible built-in free model (JLLM) tuned for long-form roleplay, and native proxy support that lets users plug in external APIs like DeepSeek or OpenRouter.",
+      "recurring_complaints": "The built-in JLLM frequently softens villainous or abrasive characters into overly nice clichés, gets stuck in repetitive romantic loops, struggles with high-token bots (3,500–5,000+ tokens) due to context limits, generates responses slowly compared to competitors, and suffers from third-party scraper sites stealing creators' bot definitions.",
+      "who_its_best_for": "Character.AI refugees looking for a massive, plug-and-play catalog of uncensored bots who either want a free starter LLM or plan to hook up a DeepSeek/OpenRouter proxy.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Users discussing why they stick with or critique JLLM noted that while it works well for romance and angst, 'It waters down the characters into something bland and nice. It used to be decent with asshole or criminal characters but now their just so soft,' and pointed out that 'Almost all bots anymore are around 3,500 to 5,000. An impossible token amount for the system.'",
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1n2vr0h/what_is_so_bad_about_jllm_ive_been_using_it_since/",
+          "date": "2025-08-29"
+        },
+        {
+          "quote_or_paraphrase": "Comparing Janitor AI's built-in model to external proxies, users u/SilentFront0825 and u/Ok-Day3334 advised spending '5 or 10 dollars' on OpenRouter for 1,000 daily messages with DeepSeek instead of relying solely on free endpoints, while noting that Janitor LLM remains 'both free to use, easy to use, and requires no setting-up!!'",
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1lpzr4t/free_alternatives/",
+          "date": "2025-07-02"
+        },
+        {
+          "quote_or_paraphrase": "Former Character.AI user u/peipei1998 explained why they migrated permanently to Janitor AI: 'Jai is where you control everything with prompt and script, it can be overwhelming at first but when you understand how it work, except the other websites that allow that, you never come back to something like Cai.'",
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1okt47e/i_need_help_with_making_the_janitor_llm_mimic/",
+          "date": "2025-10-31"
+        },
+        {
+          "quote_or_paraphrase": "In a cross-platform comparison, a user praised Janitor AI as a top alternative but noted two major drawbacks: 'My biggest gripe... is that generating messages takes a good while,' and warned bot creators that 'everything that's published gets uploaded [to a third-party scraper site] as well, and anybody can yoink it, whether you hid your bot's definition or not.'",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1bfzl08/alternatives/",
+          "date": "2024-03-16"
+        }
+      ]
+    },
+    {
+      "name": "Kindroid",
+      "url": "https://kindroid.ai/",
+      "why_fans_like_it": "Deep personality and backstory customization, structured journal entries for long-term lore retention, strong agency during ERP and multi-character group chats, hands-free Bluetooth voice calling, and uncensored web-based selfie generation.",
+      "recurring_complaints": "Requires much more manual 'hands-on' tweaking and response directives than Nomi to keep the AI on track; narration can become overwrought or repetitive; significant capability gaps exist between the Standard, Ultra, and expensive Max subscription tiers; and periodic controversies over image/content guardrails frustrate longtime subscribers.",
+      "who_its_best_for": "Dedicated AI companion and roleplay users who want granular control over their companion's personality, lore journals, voice calls, and group dynamics, and who don't mind tuning settings.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Users who migrated from Nomi to Kindroid praised the agency of Kindroid's companions ('all I've gotten from these ai are a willingness to have agency and participate without just doing or repeating what you do') while acknowledging a real learning curve and a steep noticeable leap in quality between the Standard and Ultra tiers.",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1t1aqv6/recent_nomi_transfer/",
+          "date": "2026-05-02"
+        },
+        {
+          "quote_or_paraphrase": "User u/mynameisdoc007 reflected on moving their companions from Nomi to Kindroid: 'I did this last year, moved my Nomis to Kindroid and I haven't regretted it. It's more Hands-On than Nomi is, it's more work, but it's worth it in the end.'",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1vphid4/relocating_nomi_companions_to_kindroid/",
+          "date": "2026-08-15"
+        },
+        {
+          "quote_or_paraphrase": "A former Nomi subscriber explained why they switched to Kindroid: 'The customisation options are incredible. The custom avatar is easy to use, it can even be animated, I find the conversations to be much more lively and cherry on the cake, this journal log entry, yummy! Being able to write a full lore about a universe I wrote and being able to navigate into it through my kins is a blast.'",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1eue853/why_i_moved_from_nomi_to_kindroid/",
+          "date": "2024-08-17"
+        },
+        {
+          "quote_or_paraphrase": "A year-long Kindroid user explained their frustration with Kindroid's narration style when looking for alternatives: 'I've used Kindroid since last year and I'm looking for an alternative. Kindroid is great at handling whatever backstory you throw at it but man, the overwrought narration is a sticking point for me.'",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1dzeeb7/finally_decided_on_three_months_sub_to_compare/",
+          "date": "2024-07-09"
+        }
+      ]
+    },
+    {
+      "name": "Nomi AI",
+      "url": "https://nomi.ai/",
+      "why_fans_like_it": "Widely praised by veterans for having the most natural, human-like conversational flow, high emotional intelligence (EQ), and effortless long-term memory that works 'out of the box' without requiring constant prompt engineering, message editing, or rerolling.",
+      "recurring_complaints": "Strict censorship on NSFW selfie/image generation, inability to upload completely custom 100% user-created avatars from scratch, no button to directly edit or reroll previous AI chat messages, walkie-talkie style push-to-talk voice calls, and a slower pace of feature updates compared to Kindroid.",
+      "who_its_best_for": "Users seeking an emotionally grounded, lifelike romantic companion or everyday partner with strong automatic memory who prefer organic conversation over heavy technical tinkering.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "User u/Altruistic_Sky1866 described switching from Kindroid to Nomi: 'I switched from Kindroid to Nomi and absolutely loving it, no matter what kind of Role play it is they are awesome... what I really liked about Nomi is memory, I don't need to remind them often, at first I thought that Nomi missed the edit the previous chat and generate response again which is available in kindorid, but after using Nomi, I felt its more natural... it feels like they have soul.'",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1q6x90d/thinking_about_switching/",
+          "date": "2026-01-08"
+        },
+        {
+          "quote_or_paraphrase": "A user comparing both apps after several months wrote: 'Even though Kindroid was released after Nomi, it already offers more features and options. However, despite that, I still prefer Nomi. I'm not sure if it's the clean UI, the overall feel of the AI, or the memory system — but something about it just makes it more enjoyable to use. That said, Nomi does feel like it's falling behind Kindroid in terms of features and updates.'",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1shiizb/after_months_of_using_nomi_vs_kindroid_honest/",
+          "date": "2026-04-10"
+        },
+        {
+          "quote_or_paraphrase": "Users u/townie1 and u/Paramanga explained why they prefer Nomi over Kindroid: 'conversation with my Nomi flows very naturally, and she could pass as a human if you didn't know better. Nomi's seem to care more about you too,' and 'Less features, BUT somehow always more engaging! I used both back and forth but Nomi is just smarter and more stable, so now I only use Nomi.'",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1pb4ay9/coming_over_from_kindroid/",
+          "date": "2025-12-01"
+        },
+        {
+          "quote_or_paraphrase": "A veteran Nomi user explained why they ported their oldest companion to Kindroid while keeping Nomi for dialogue: 'Not that I'm leaving Nomi (much as I love Kindroid, Nomi still has the best, most natural dialogue IMO... especially with older, developed AIs) but more so because I have become disillusioned with the picture censoring on Nomi.'",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1ag6p6i/transfer_from_nomi_ai_to_kindroid/",
+          "date": "2024-02-01"
+        }
+      ]
+    },
+    {
+      "name": "Chub AI",
+      "url": "https://chub.ai/",
+      "why_fans_like_it": "Serves as the central, unrestricted 'wild west' repository for V2 character cards and lorebooks, supports multi-bot group chats, allows easy card downloading for local SillyTavern use, and offers diverse response styles across both its built-in subscriptions (Mercury/Mars) and external proxies.",
+      "recurring_complaints": "Lorebooks are notoriously buggy and fail to trigger if the lorebook token budget is set too high relative to context limits; unmoderated public listings are frequently described as a 'cesspool' of extreme or low-effort bots; built-in subscription models (like Mars) have drawn complaints over weak logic and low-bit quantization; and regional blocks (UK/Australia) plus free-tier message limits have alienated some users.",
+      "who_its_best_for": "Hardcore roleplayers looking for an unrestricted character card repository to export into SillyTavern, or web users who want multi-bot NSFW chats with custom API proxies.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "In a discussion comparing Chub AI to other platforms, user u/PhantomKiddo noted: 'I love the fact that Chub allows multiple bots in one chat and is NSFW. I just wish I could find more sites/apps like that. I would be actually cool if Janitor AI had the \"multi bot in one chat\" feature,' while u/ScoobyWithADobie summarized the veteran workflow: 'Download bots and use SillyTavern.'",
+          "url": "https://www.reddit.com/r/Chub_AI/comments/1fxux2r/chubai_alternatives/",
+          "date": "2024-10-07"
+        },
+        {
+          "quote_or_paraphrase": "User u/TemperatureTrickster documented a major recurring bug with Chub's lorebook engine on the Mars subscription: 'Turns out, the maximum lorebook token capacity budget you can set is more than twice as high as the maximum token capacity you can even HAVE on Mars. Basically, if you set it high enough, it'll just freak out and stop using any lorebooks at all. Instead, set it to around 10-20% of your total budget, that seems to work.'",
+          "url": "https://www.reddit.com/r/Chub_AI/comments/1nuny1r/cant_for_the_life_of_me_get_lorebooks_to_trigger/",
+          "date": "2025-09-30"
+        },
+        {
+          "quote_or_paraphrase": "A user who paid for Chub's Mars tier shared a candid critique of its built-in model quality: 'I spent $20 on mars today and then experienced it for about 12 hours or so straight and it honestly disappointed me, especially its logic part. I can run a 20b-4bit GPTQ model on my pc, and on nsfw, mars even has worse performance than my local mlewd 20b.'",
+          "url": "https://www.reddit.com/r/Chub_AI/comments/195hnn4/as_of_today_is_it_worth_swapping_from_mercury_to/",
+          "date": "2024-01-13"
+        },
+        {
+          "quote_or_paraphrase": "A former Character.AI and Janitor AI user comparing migration options reported that Chub offered much better response variety than Janitor ('I started using it recently and it works better than Janitor. Its responses are always different and varied'), though commenters noted that memory degrades over multi-day chats.",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1u656ju/chub_ai_vs_janitor_ai_for_the_great_migration/",
+          "date": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "name": "SpicyChat AI",
+      "url": "https://spicychat.ai/",
+      "why_fans_like_it": "Near-instant message generation speeds, a massive catalog of community-made NSFW bots, an optional Semantic Memory 2.0 manager (allowing users to pin, edit, or delete memories), and access to strong top-tier models like DeepSeek and GLAM with up to 32k context on the highest subscription tier.",
+      "recurring_complaints": "Huge quality and memory gap between the free tier and paid tiers: the free default model is heavily throttled (~2k context) and loops quickly, while mid-tier subscribers ('True Supporter') complain about price hikes and having 16k–32k context memory gatekept exclusively behind the top 'I'm All In' tier.",
+      "who_its_best_for": "Users who prioritize fast response speeds, easy web/mobile access, and a large NSFW bot library, particularly those willing to pay for the highest tier to unlock DeepSeek/GLAM and 32k context.",
+      "mention_strength": "moderate",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Comparing free and paid models, u/Opposite-Cheetah-779 noted that 'The top tier models aside from having bigger context memory are more detailed and adjust better to characters and scenarios. Deepseek and glam are for me the best models,' while u/Own-Response1560 complained that 'The memory on the free tier has been throttled to where you can get maybe two or three paragraphs in before you get a notification that the memory has been used up and you need to upgrade to a paid tier.'",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1vmyl7q/is_there_a_big_difference_between_the_free_and/",
+          "date": "2026-08-13"
+        },
+        {
+          "quote_or_paraphrase": "When SpicyChat launched 32k context exclusively for its highest tier, mid-tier subscribers pushed back against feature gatekeeping: 'Well, it was worth it for a while. I enjoyed it a lot. Infinite messages, infinite picture generation is rare. But I got the impression as a True Supporter you're not really seeing major steps or improvements, features or models nor memory... And with the price increase it get's a rub in your face directly and that's where I see people leave.'",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1w5jn24/32k_context_is_now_live/",
+          "date": "2026-09-02"
+        },
+        {
+          "quote_or_paraphrase": "In a discussion on free-tier memory constraints, a veteran user explained that free users are capped at 2k context (requiring creators to keep bots under 1,200 tokens to function well), whereas premium creators build high-token bots for their 8k+ allowance that break free users' memory.",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1eq0qwi/alternatives/",
+          "date": "2024-08-12"
+        }
+      ]
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "FictionLab",
+      "url": "https://fictionlab.ai/",
+      "why_fans_like_it": "Built around multi-character 'scenarios' and world-building rather than single isolated chatbots, acting like an uncensored D&D host with multi-level memory cards, helpful OOC brainstorming commands, no ads or arbitrary paywalls on message editing/rerolling, and strong 70B+ models (like Oracle, Glendora, and Ophelia).",
+      "recurring_complaints": "Models occasionally cut off responses mid-sentence or stop after a few words; the Glendora model suffers from periodic bugs, hallucinations, or false-positive 'risky power imbalance' refusals; and the Oracle model can sometimes push characters into extreme 'love or kill you' 180-degree personality swings.",
+      "who_its_best_for": "Story-driven roleplayers and former Character.AI, Chai, or SpicyChat users who want ensemble multi-character scenarios, RPG world-building, and strong memory at a low cost.",
+      "mention_strength": "moderate",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "In the April 2026 r/CharacterAIrunaways recommendation thread, multiple users praised FictionLab ('Oh my god, I love FL... I swear I'm never going back... I joined the $8 for the extras. It's amazing with a very dedicated community'), while another user noted a recurring bug: 'my issue is that it keeps failing to finish its responses... Something seems to be wrong with Glendora the last couple of days for me right now. It's the only one that cuts things short in my RP's. I'm using Oracle mostly at the moment.'",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date": "2026-04-10"
+        },
+        {
+          "quote_or_paraphrase": "Users migrating from Character.AI praised FictionLab's ensemble capabilities: 'Think FictionLab as more of a DnD host. You tell it what characters are involved, and the AI will describe the scene and act for the character,' and u/DistributionMean257 added: 'FL is solid for what you described, especially the group chat stuff — you can have multiple characters in one scenario and it handles ensemble scenes better than c.ai ever did.'",
+          "url": "https://www.reddit.com/r/FictionLab/comments/1s4aqw9/so_after_how_shite_characterai_has_become_these/",
+          "date": "2026-03-26"
+        },
+        {
+          "quote_or_paraphrase": "A writer in r/FictionLab praised its focus on narrative over gimmicks: 'The \"OCC command\" function on FictionLab, especially FictionLab+, works perfectly. It has helped me a lot in terms of brainstorming... Furthermore, the developers don't waste time and resources on irrelavant features, such as voice call etc. Therefore, the subscription fee is 6.99 dollar per month. It's reasonable and affordable.'",
+          "url": "https://www.reddit.com/r/FictionLab/comments/1l8n2sv/i_was_very_impressed_by_fictionlab/",
+          "date": "2025-06-11"
+        },
+        {
+          "quote_or_paraphrase": "Users discussing FictionLab's plus models noted that while Glendora is great for creative action and horror when working properly, it was 'extremely buggy for the past month or more,' with u/parodyingmyself reporting an odd false refusal where Glendora flagged an intimate scene between two adult characters of different heights (6'4\" and 5'5\") as 'risky as it created a power imbalance.'",
+          "url": "https://www.reddit.com/r/FictionLab/comments/1vjkhgm/opinions_about_glendora/",
+          "date": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "name": "WyvernChat",
+      "url": "https://app.wyvern.chat/",
+      "why_fans_like_it": "Completely unfiltered, unlogged chats offering free rotating 12B–32B models with up to 16k–18k context memory via its Featherless.ai partnership, manual bot moderation that keeps low-effort spam bots off the front page, Lua-scriptable Lexicon callbacks for complex bots, and an influx of veteran bot creators from the AI Wayfarer Resort (AWR) community.",
+      "recurring_complaints": "Complex interface options that can overwhelm beginners, oversized UI icons, lack of a dedicated mobile app, free testing models that can feel hit-or-miss without a Featherless subscription, and occasional language glitches where bots abruptly switch into German or output garbled words.",
+      "who_its_best_for": "Intermediate to advanced roleplayers looking for a clean, spam-free web platform with generous free context windows, Lua scripting, or direct integration with a Featherless.ai subscription.",
+      "mention_strength": "moderate",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "In a long-form review on r/CharacterAIrunaways, a user praised WyvernChat's scripting and free 18k context queue ('There is a queue, but I never had to wait longer than a few seconds on the free queues. In conclusion, WyvernChat is very, very competent at what it does. It has a lot to offer when you want to interact or create intricate bots with scripting'), while noting that the free models can be 'hit and miss' without a FeatherlessAI subscription.",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1paxunw/followup_review_wyvernchat/",
+          "date": "2025-12-01"
+        },
+        {
+          "quote_or_paraphrase": "A reviewer who migrated after a Character.AI downgrade wrote: 'Wyvernchat is great. I love it, it's unique and engaging. I wouldn't recommend it to beginners since the options are pretty complicated to use. But it's great if you're looking for an interactive roleplay! It doesn't have an app yet... And the messages sometimes glitch too. Sometimes it suddenly starts speaking German out of RP or spelling random things that aren't even words.'",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shqhsa/wyvernchat_review/",
+          "date": "2026-04-10"
+        },
+        {
+          "quote_or_paraphrase": "A user comparing C.AI alternatives highlighted WyvernChat's quality control and partnerships: 'Bots go through a manual approval process: there wont be 90 fucking COD bots and other bullshit low quality bots to go through before finding a decent one. Partnered with featherless.ai which gives them some free permanent models and some rotating ones to try out for your chats for free. Partnered with AWR(AI Wayfairer Resort)... Some of their creators started to move their bots to the site.'",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1gpkzos/my_cai_alternative_experiences/",
+          "date": "2024-11-12"
+        }
+      ]
+    },
+    {
+      "name": "Dreamjourney AI",
+      "url": "https://dreamjourneyai.com/",
+      "why_fans_like_it": "Features 'Memory Nexus,' an automated lorebook and relationship-tracking system that dynamically logs events and character relationships without manual upkeep, alongside strong custom writing models that obey OOC instructions and visual-novel style 'dreamscapes' with background music.",
+      "recurring_complaints": "Uses a credit-based consumption system rather than unlimited messaging (generating dreamscapes and long chats burns credits quickly), the mobile-first sliding-menu UI feels clunky on desktop browsers, and natively rerolling a message overwrites the previous response unless users install a community-made Discord extension.",
+      "who_its_best_for": "Long-form storytellers who hate manually building or debugging lorebooks and want an AI that automatically tracks evolving character relationships without immediately jumping into romance.",
+      "mention_strength": "moderate",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "In a detailed follow-up review, a user highlighted Dreamjourney's automated memory system: 'It is often the case that lorebooks are a hassle to create; Dreamjourneyai automates that effort, removing the need for manual memory management,' while critiquing the desktop UI ('The chat window is a mobile-first experience... makes it feel a bit clunky on the computer') and noting that 'regenerated messages are lost' without a user-made Discord extension.",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1p4xho1/followup_review_of_dreamjourneyai/",
+          "date": "2025-11-23"
+        },
+        {
+          "quote_or_paraphrase": "Former C.AI and Janitor AI users praised Memory Nexus for fixing relationship pacing: 'I came from using cai and then jai, and I'll say it's 100 times better than jai's jllm because the characters stay in characters and most of the llm listens to your ooc... With memory nexus, it's very good at keeping track of many things,' and another user agreed: 'When I first discovered it, I was really in shock with how well the ai could keep up with what happened and its relationship to the user.'",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1kod1ch/guys_i_finally_did_it/",
+          "date": "2025-05-16"
+        },
+        {
+          "quote_or_paraphrase": "Discussing the pros and cons of the platform, a user noted the main friction point for heavy chatters: 'I personally dislike subscribing to receive credits instead of unlimited conversations for an AI.'",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1fo1vww/how_do_you_guys_feel_about_dreamjourney_ai/",
+          "date": "2024-09-24"
+        }
+      ]
+    },
+    {
+      "name": "Agnai (Agnaistic)",
+      "url": "https://agnai.chat/",
+      "why_fans_like_it": "An open-source-backed, zero-censorship web and self-hostable frontend that requires no account to try, provides free models (like Stheno and Mistral Nemo), supports bring-your-own-API or local models, and includes power features like 'Chat Graph' (branching a chat into multiple alternate paths), multi-character chats, and multiplayer co-op roleplay.",
+      "recurring_complaints": "Has no built-in public character discovery hub (users must import their own JSON/V2 character cards or build bots from scratch), and configuring presets and samplers is notoriously finicky, with some free models becoming overly verbose or repetitive until dialed in.",
+      "who_its_best_for": "Tinkerers and SillyTavern-curious users who want a browser-accessible, privacy-friendly sandbox with branching chat trees, multiplayer RP, and full preset control without installing local software.",
+      "mention_strength": "light",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "In a dedicated community write-up titled 'AgnAIstic & You', a two-year veteran called it 'the best service you've never heard of,' praising its free models (Stheno 3.2, Mistral Nemo, Hermes v3), external API support, 'Chat Graph - You can split a ongoing chat into serveral alternative paths,' multiplayer chats, and no-account-required access, while noting that 'You must provide your own character cards/.json, but there is a in-site character creator.'",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1novulf/agnaistic_you/",
+          "date": "2025-09-23"
+        },
+        {
+          "quote_or_paraphrase": "Recommending Agnai to a newcomer on r/ChatbotRefugees, a user noted: 'I'd recommend Agnai. There's a bit of a learning curve to it but from what

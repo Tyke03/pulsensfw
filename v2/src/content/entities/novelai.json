@@ -52,7 +52,9 @@
   ],
   "cons": [
     "Not a companion product — no persona/relationship frame",
-    "No free ongoing use; trial is consumption-limited"
+    "No free ongoing use; trial is consumption-limited",
+    "Community-reported: processor churn has cancelled active subs mid-flight",
+    "Anlas limits were tightened retroactively per community reports"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -97,6 +99,21 @@
       "checked": "2026-10-27",
       "evidence_type": "first_party",
       "notes": "Pricing page documents the adult-permission stance; full policy not fetched."
+    },
+    {
+      "key": "Billing stability",
+      "value": "Community-reported: processor Paddle has repeatedly cancelled active subscriptions mid-cycle; 2025 forced migration sent false \"subscription cancelled\" emails and blocked card updates",
+      "source_url": "https://www.paddle.com/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: caution. Cancellation itself is reported genuinely easy; goodwill high. First-party prices retained."
+    },
+    {
+      "key": "Anlas change",
+      "value": "Community-reported: Anlas/Opus usage limits introduced retroactively mid-subscription",
+      "source_url": "https://www.reddit.com/r/NovelAi/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
     }
   ],
   "updated": "2026-10-27"

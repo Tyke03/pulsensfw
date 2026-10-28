@@ -44,7 +44,10 @@
   ],
   "cons": [
     "No free ongoing conversation since October 2026; preview accounts become read-only",
-    "Add-on pricing and metered audio make total cost hard to estimate"
+    "Add-on pricing and metered audio make total cost hard to estimate",
+    "2025 policy pivot added filters/monitoring after an unfiltered launch - the branding no longer matches the release history",
+    "App-store billing costs more than web (community-reported ~$50/yr gap; web unverified)",
+    "Temporarily removed from Google Play in Nov 2025 (community report)"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -98,6 +101,36 @@
       "source_url": "https://kindroid.ai/v2/docs/faqs/",
       "checked": "2026-10-27",
       "evidence_type": "first_party"
+    },
+    {
+      "key": "Fan support",
+      "value": "Heavy - multiple 2025-2026 communities keep recommending it; scam-hunt notes product quality is genuinely well-regarded by category standards",
+      "source_url": "https://www.reddit.com/r/AI_Application/comments/1mzwbpe/kindroid_an_ai_chatbot_who_previously_boasted_to/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Policy pivot",
+      "value": "Community-reported: Aug 2025 added content filters + AI monitoring after launching as unfiltered; locks can trigger from AI misreads pending appeal",
+      "source_url": "https://www.reddit.com/r/AI_Application/comments/1mzwbpe/kindroid_an_ai_chatbot_who_previously_boasted_to/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: caution. Privacy FAQ reportedly rewritten 2026-09-26."
+    },
+    {
+      "key": "Store gap",
+      "value": "Community-reported: identical plans ~$159.99/yr via app stores vs ~$139.99 web (~$50/yr gap after the 2026-06 hike)",
+      "source_url": "https://www.reddit.com/r/KindroidAI/comments/1i6pi4z/kindroid_subscription_ended/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Web price unverified (SPA); iOS $159.99 already verified first-party in this record. Kindroid Trustpilot fetch bot-blocked."
+    },
+    {
+      "key": "Play removal",
+      "value": "Community-reported: app temporarily pulled from Google Play Nov 2025; renewing subscribers could not resubscribe in-cycle",
+      "source_url": "https://www.reddit.com/r/KindroidAI/comments/1slwojj/kindroid_temporarily_unavailable_on_google_play/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
     }
   ],
   "updated": "2026-10-27"

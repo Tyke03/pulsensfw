@@ -1,0 +1,69 @@
+{
+  "slug": "fictionlab",
+  "type": "ai_app",
+  "name": "FictionLab",
+  "url": "https://fictionlab.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [],
+  "summary": "Multi-character scenarios and world-building rather than single chatbots - an uncensored D&D-host layout with multi-level memory cards, OOC brainstorming commands, no ads, and large in-house models (Oracle, Glendora, Ophelia, 70B+).",
+  "tags": [
+    "nsfw",
+    "multi-character",
+    "storytelling"
+  ],
+  "ranking_rationale": "Fan-scout records moderate support (r/FictionLab threads and C.AI-refugee recommendations 2026, on file) for scenario/world-building focus and lack of ad/paywall friction on editing. Complaints on file: mid-sentence cutoffs, Glendora bugs and false-positive refusals, Oracle persona swings. Pricing claim unverified. Scam record, and the domain itself, need re-checking: the homepage sat behind a Cloudflare challenge at verification.",
+  "pricing": {
+    "model": "Unverified",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "Pricing could not be verified at check time; no third-party figure copied per desk rules."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Fan support",
+      "value": "Moderate - dated Reddit support incl. r/FictionLab 2026 threads",
+      "source_url": "https://www.reddit.com/r/FictionLab/comments/1l8n2sv/i_was_very_impressed_by_fictionlab/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Product shape",
+      "value": "Scenario/world-building multi-character platform; in-house 70B+ models (Oracle, Glendora, Ophelia)",
+      "source_url": "https://fictionlab.ai/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Homepage behind a Cloudflare challenge at verification, 2026-10-27."
+    },
+    {
+      "key": "Pricing",
+      "value": "Unverified - no first-party price found at check time",
+      "source_url": "https://fictionlab.ai/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Scam record",
+      "value": "No scam-hunt record; site ownership not fully resolved at check (Cloudflare-gated) - re-check",
+      "source_url": "https://fictionlab.ai/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-10-27"
+}

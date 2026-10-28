@@ -35,7 +35,8 @@
   ],
   "cons": [
     "Pricing completely unverified at check time",
-    "Full content policy not fetched — 'no restrictions' is marketing, not a policy doc"
+    "Full content policy not fetched — 'no restrictions' is marketing, not a policy doc",
+    "Community-reported: gem metering continues after paying, incl. a live gem-billing bug ($20 charged ~$54)"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -76,6 +77,14 @@
       "checked": "2026-10-27",
       "evidence_type": "first_party",
       "notes": "No price published on fetched pages; left null per the no-unverified-numbers rule."
+    },
+    {
+      "key": "Gem economy",
+      "value": "Community-reported: subscription does not remove gem costs (~2 gems per message, ~80 for an image reported); a live billing bug charged a $20 gem pack as ~$54 (reported 3 times by one user)",
+      "source_url": "https://www.reddit.com/r/TipsyChat/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: caution. App rating (4.6/13K) is store-reported, unverified."
     }
   ],
   "updated": "2026-10-27"

@@ -42,7 +42,7 @@
     "PWA (add to home screen)",
     "Mobile web"
   ],
-  "score": 7.6,
+  "score": 7.2,
   "pros": [
     "Text, media, and voice combined in one product",
     "Annual offer cuts the effective monthly rate sharply",
@@ -51,7 +51,9 @@
   "cons": [
     "Free tier is a trial/preview, not an indefinite allowance",
     "100 monthly media tokens go fast on images/video",
-    "Discounted first month rises at monthly renewal"
+    "Discounted first month rises at monthly renewal",
+    "Tokens billed on top of the subscription - media costs keep coming after payment",
+    "Community-reported: awkward cancellation and chargeback-threat policy"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -101,6 +103,21 @@
       "key": "Native apps",
       "value": "None verified — iOS/Android access is Add-to-Home-Screen PWA",
       "source_url": "https://candy.ai/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Monetization traps",
+      "value": "Community-reported: tokens billed on top of the subscription (\"pay for literally everything\"); cancelling without losing access reported as awkward; disputing a charge reportedly triggers a wrongful-chargeback internal flag",
+      "source_url": "https://www.trustpilot.com/review/candy.ai",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: caution (no documented breach; legit EU operator; the flags are monetization design). Trustpilot profile mismatch noted category-wide."
+    },
+    {
+      "key": "Price integrity",
+      "value": "First-party prices retained ($13.99 / $9.99 intro / $47.88 annual); third-party $12.99 figure ignored",
+      "source_url": "https://candy.ai/subscriptions",
       "checked": "2026-10-27",
       "evidence_type": "first_party"
     }
