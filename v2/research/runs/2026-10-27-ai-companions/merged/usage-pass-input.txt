@@ -1,0 +1,197 @@
+Candy AI | candy.ai | hosted platform
+SpicyChat AI | spicychat.ai | hosted platform
+OurDream AI | ourdream.ai | hosted platform
+CrushOn.AI | crushon.ai | hosted platform
+GirlfriendGPT | gptgirlfriend.online | hosted platform
+DreamGF | dreamgf.ai | hosted platform
+Replika | replika.com | hosted platform
+Secrets AI | secrets.ai | hosted platform
+Character.AI | character.ai | hosted platform
+Chub AI | chub.ai | card/lore hub
+Nomi AI | nomi.ai | hosted platform
+Janitor AI | janitorai.com | hosted platform
+SillyTavern | sillytavern.app | frontend/local tool
+Kupid AI | kupid.ai | hosted platform
+Joi AI | joi.com | hosted platform
+AI Allure | aiallure.com | hosted platform
+Nectar AI (TryNectar) | trynectar.ai | hosted platform
+Kindroid | kindroid.ai | hosted platform
+Promptchan AI | promptchan.ai | hosted platform
+MyBabes AI | mybabes.ai | hosted platform
+Chai | chai-research.com | hosted platform
+Romantic AI | romanticai.com | hosted platform
+DarLink AI | darlink.ai | hosted platform
+Dream Companion | aixploria.com | hosted platform
+Muah AI | muah.ai | hosted platform
+PolyBuzz (formerly Poly.AI) | polybuzz.ai | hosted platform
+FantasyGF | fantasygf.ai | hosted platform
+JuicyChat.AI | juicychat.ai | hosted platform
+MyLovely AI | mylovely.ai | hosted platform
+Secret Desires AI | secretdesires.ai | hosted platform
+Xotic AI | xotic.ai | hosted platform
+FictionLab | fictionlab.ai | hosted platform
+Emochi | google.com | hosted platform
+Privee AI | priveeai.com | hosted platform
+RisuAI | risuai.xyz | frontend/local tool
+CamSoda AI | camsoda.com | hosted platform
+ChatUp AI | aichattings.com | hosted platform
+HeraHaven | herahaven.com | hosted platform
+NSFWLover | nsfwlover.com | hosted platform
+Nastia AI | nastia.ai | hosted platform
+NsfwGPT.AI | nsfwgpt-ai.com | hosted platform
+Soulkyn AI | soulkyn.com | hosted platform
+Talkie AI | talkie-ai.com | hosted platform
+Zeta (제타 / ゼタ) | zeta-ai.io | hosted platform
+KoboldCpp | github.com | frontend/local tool
+Caveduck | caveduck.io | hosted platform
+WyvernChat | wyvern.chat | hosted platform
+AI Girlfriend WTF | aigirlfriend.wtf | hosted platform
+Agnai | agnai.chat | frontend/local tool
+Alphazria | alphazria.com | hosted platform
+Botify AI | botify.ai | hosted platform
+CharacterHub | characterhub.org | card/lore hub
+Couple.me | couple.me | hosted platform
+CraveU AI | craveu.ai | hosted platform
+EVA AI | eva.ai | hosted platform
+FlirtCam AI | flirtcam.ai | hosted platform
+Fuckd AI | fuckd.ai | hosted platform
+Kink AI | kink.ai | hosted platform
+KoboldAI | github.com | frontend/local tool
+LoveChat | lovech.at | hosted platform
+OhChat | ohchat.com | hosted platform
+OnlyChar.AI | onlychar.ai | hosted platform
+OpenRouter | openrouter.ai | model/api
+PepHop AI Chatbot | pephop.ai | hosted platform
+RushChat | rushchat.ai | hosted platform
+SoulFun | soulfun.ai | hosted platform
+SoulGen | soulgen.net | hosted platform
+TavernAI | github.com | frontend/local tool
+Tavo | tavoai.dev | frontend/local tool
+Texthub | texthub.me | hosted platform
+Y/N AI | yn.ai | hosted platform
+Hi Waifu | hiwaifu.com | hosted platform
+Flipped | flipped.chat | hosted platform
+Intimate AI | intimate.ai | hosted platform
+Yodayo | yodayoai.com | hosted platform
+AI Dungeon | aidungeon.com | hosted platform
+LM Studio | lmstudio.ai | frontend/local tool
+Moescape AI | moescape.ai | hosted platform
+NovelAI | novelai.net | hosted platform
+Paradot | apps.apple.com | hosted platform
+AI Angels | aiangels.io | hosted platform
+AI Peeps | aipeeps.com | hosted platform
+AIHentaiChat | aihentaichat.com | hosted platform
+AiPornChat.online | aipornchat.online | hosted platform
+Anima AI | myanima.ai | hosted platform
+Botbooru | botbooru.com | card/lore hub
+ChatFAI | chatfai.com | hosted platform
+CherryPop AI | cherrypop.ai | hosted platform
+DreamBF | dreambf.ai | hosted platform
+Dreamjourney AI | dreamjourneyai.com | hosted platform
+FunFun AI | funfun.ai | hosted platform
+Girlfriendly AI | girlfriendly.ai | hosted platform
+HammerAI | hammerai.com | frontend/local tool
+Joyland AI | joyland.ai | hosted platform
+Juicy AI | juicy-ai.com | hosted platform
+MyBunny AI | mybunnyai.com | hosted platform
+NSFW Character AI | nsfwcharacter.ai | hosted platform
+Ollama | ollama.com | frontend/local tool
+Oobabooga textgen / text-generation-webui | github.com | frontend/local tool
+Poe | poe.com | hosted platform
+Sakura AI | sakura.fm | hosted platform
+Sea Soul | seasoul.ai | hosted platform
+Shapes Inc | shapes.inc | hosted platform
+SynClub | google.com | hosted platform
+TabbyAPI | github.com | frontend/local tool
+WaifuChat | waifuchat.ai | hosted platform
+Xoul AI | xoul.ai | hosted platform
+Dippy | dippy.ai | hosted platform
+RolePlai / PLAI | roleplai.app | hosted platform
+Cotomo | cotomo.ai | hosted platform
+Saylo | saylo.ai | hosted platform
+Isekai Zero | isekaizero.com | hosted platform
+Linky AI | google.com | hosted platform
+Character-Tavern | character-tavern.com | card/lore hub
+Perchance AI Character Chat | perchance.org | hosted platform
+Spellbound | tryspellbound.com | hosted platform
+Angel AI | angel.ai | hosted platform
+Backyard AI (Faraday / Faraday.dev / BYAI) | backyard.ai | frontend/local tool
+Dopple AI | dopple.ai | hosted platform
+Eternal AI | eternalai.org | hosted platform
+FlowGPT | flowgpt.com | hosted platform
+Harpy Chat | harpy.chat | hosted platform
+JannyAI | jannyai.com | card/lore hub
+MiniTavern | mini-tavern.com | frontend/local tool
+Mistrezz AI | mistrezz.ai | hosted platform
+MyDreamBoy | mydreamboy.com | hosted platform
+Netwrck | netwrck.com | hosted platform
+NoFilterGPT | nofiltergpt.com | hosted platform
+Oobabooga (Text Generation WebUI) | github.com | frontend/local tool
+Saucepan AI | saucepan.ai | hosted platform
+Soul.App | soul.app | hosted platform
+UnoRouter | unorouter.ai | model/api
+VMate AI | vmate.ai | hosted platform
+Friendogram |  | 
+Sesame | reddit.com | 
+Y/N | apps.apple.com | 
+Grok | grok.com | 
+Him - AI Boyfriend Chat | apps.apple.com | 
+LOVERSE |  | 
+林間聊愈室 (MoodTalker) |  | 
+AI Boyfriend Chat - Husby | apps.apple.com | 
+AI Voice Assistant - Fala AI |  | 
+Boyfi - AI Partner & Boyfriend | apps.apple.com | 
+Soulplay | apps.apple.com | 
+Tiina: AI Voice Companion | apps.apple.com | 
+Zeta AI | play.google.com | 
+Besties - Call your AI Friend |  | 
+Botify | play.google.com | 
+Clank World | apps.apple.com | 
+HiromiVoice - ASMRtist とAI通話 |  | 
+LiveC - Living AI Companion |  | 
+MooX |  | 
+Neverend | apps.apple.com | 
+Tabu (塔布 / tabulai) | tabulai.app | 
+Talkie Lab - AI Playground |  | 
+CotoGoto |  | 
+MoreYou.ai |  | 
+Saucepan | saucepan.ai | 
+AI Boyfriend — 6Hive OU | play.google.com | 
+AI Boyfriend — Caitty | play.google.com | 
+AI Boyfriend:Love Chat Partner | play.google.com | 
+AI Friend 3D - Talking Buddy |  | 
+AI Girlfriend - TruMate | play.google.com | 
+AI Life — AI Companion & Chat |  | 
+AIBoy - Virtual AI Boyfriend | play.google.com | 
+Aimy (アイミー) | play.google.com | 
+Airfriend | play.google.com | 
+Anima: My Virtual AI Boyfriend | play.google.com | 
+Charbot | apps.apple.com | 
+Chat IA de Personajes Anime | play.google.com | 
+Chat de personajes con IA | play.google.com | 
+Crushie | play.google.com | 
+Discutez avec un ami IA | apps.apple.com | 
+Fantasia | play.google.com | 
+Flai |  | 
+HotChat | play.google.com | 
+IA Namorada Virtual CoupleAI | play.google.com | 
+Imate - AI boyfriend who cares | play.google.com | 
+K / K*** |  | 
+Luna: Meine KI-Freundin | play.google.com | 
+LunaTalk / Lunatalk / 루나톡 | lunatalk.ai | 
+MiraiMind | play.google.com | 
+My AI Friend | play.google.com | 
+Nastia | nastia.ai | 
+PixelChat |  | 
+Sakura | sakura.fm | 
+Sexy Chatbot X - No Filter AI | play.google.com | 
+Suka Lite | play.google.com | 
+Unhinged |  | 
+Unscripti | play.google.com | 
+Virtual Boyfriend: AI Romance / BoyBot | play.google.com | 
+Voice Chatbot by Oliver AI |  | 
+Weifu AI: My Girlfriend Chat | play.google.com | 
+チャチャ / アニロール | play.google.com | 
+メローズ (mellows) |  | 
+Perchance AI | perchance.org | 
+Swerve AI | swerve.ai | 
