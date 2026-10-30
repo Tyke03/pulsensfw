@@ -16,7 +16,9 @@ OUT = os.path.join(BASE, 'merged')
 os.makedirs(OUT, exist_ok=True)
 
 D = '2026-10-29'
-RUNS = ['A', 'B', 'C-gem', 'C-ppx', 'C-ven']
+RUNS = ['A', 'B', 'C-gem', 'C-ppx', 'C-ven', 'C-argon']
+C_RUNS = ['C-gem', 'C-ppx', 'C-ven', 'C-argon']
+CATP = 'C-argon'
 parse_failures = []
 
 # ================================================================ inputs
@@ -33,10 +35,14 @@ def strip_fences(s):
 def parse_c_run(text):
     """Return (obj, mode, notes). Tolerant: whole-file JSON, then every
     platforms-bearing top-level object (markdown context), then a JSON-ish
-    bracket scanner for tokenizer-mangled exports."""
+    bracket scanner for tokenizer-mangled exports. Handles PDF text layers
+    (C-argon: \\f page breaks + wrapped whitespace inside/around tokens)."""
+    if '\f' in text:
+        # PDF text layer: page breaks + spurious whitespace around/inside tokens
+        text = re.sub(r'\s+', ' ', text.replace('\f', ''))
     # 1) whole file is a JSON document
     try:
-        return json.loads(text), 'whole-file JSON', []
+        return json.loads(text), 'whole-file JSON (whitespace-collapsed PDF text)', []
     except json.JSONDecodeError:
         pass
     # 2) embedded JSON objects (one or several) in the markdown report
@@ -180,14 +186,35 @@ C_files = {
     'C-gem': ('gemini-nsfw-ai-platform-census.txt', 'census-C-gemini.json'),
     'C-ppx': ('perplexity-nsfw-ai-platform-census.txt', 'census-C-perplexity.json'),
     'C-ven': ('venice-nsfw-ai-platform-census+deep-search-addendum.txt', 'census-C-venice.json'),
+    'C-argon': ('argon-census.txt', 'census-C-argon.json'),
 }
+# The Argon run is a PDF extract (pdftotext unavailable here; pypdf used).
+# argon-census.txt is the committed pypdf text layer of "AI Companion Platform
+# Supply Census.pdf". URL strings carry PDF line-break spaces that are repaired
+# after parse (see below).
 
 C = {}
 C_parse_mode = {}
 C_intradup = {}
 for run, (txt, outname) in sorted(C_files.items()):
-    text = open(os.path.join(BASE, 'full_census_txt', txt), encoding='utf-8', errors='replace').read()
+    path_for = os.path.join(BASE, txt) if run == 'C-argon' else os.path.join(BASE, 'full_census_txt', txt)
+    text = open(path_for, encoding='utf-8', errors='replace').read()
     obj, mode, notes = parse_c_run(text)
+    # C-argon PDF artifact: URL strings carry line-break spaces from the text layer
+    if run == 'C-argon':
+        fixed_urls = 0
+        for p in obj.get('platforms') or []:
+            for k2, arr in (('listed_in', p.get('listed_in')),):
+                out_arr = []
+                for u in (arr or []):
+                    if isinstance(u, str) and ' ' in u:
+                        u2 = re.sub(r'\s+', '', u)
+                        if u2 != u: fixed_urls += 1
+                        u = u2
+                    out_arr.append(u)
+                p[k2] = out_arr
+        if fixed_urls:
+            notes.append(f'repaired {fixed_urls} URL strings with PDF line-break spaces')
     C[run] = obj
     C_parse_mode[run] = mode
     # log any per-run parse failures recorded inside the parse notes
@@ -327,8 +354,8 @@ def resolve_and_register(display, url, run, payload=None):
     return new_canon
 
 # ================================================================ register C first
-c_row_index = {r: defaultdict(list) for r in ['C-gem', 'C-ppx', 'C-ven']}
-for run in ['C-gem', 'C-ppx', 'C-ven']:
+c_row_index = {r: defaultdict(list) for r in C_RUNS}
+for run in C_RUNS:
     for c in C[run].get('platforms') or []:
         canon = resolve_and_register(c.get('name'), c.get('url'), run, {
             'url': c.get('url'),
@@ -403,7 +430,7 @@ def pick_domain(rec):
         return rec['c_dom']
     if rec['domains']:
         return rec['domains'].most_common(1)[0][0]
-    for run in ['C-gem', 'C-ppx', 'C-ven', 'B']:
+    for run in C_RUNS + ['B']:
         rrec = rec['runs'].get(run) or {}
         dom = domain_of(rrec.get('url'))
         if dom: return dom
@@ -412,7 +439,7 @@ def pick_domain(rec):
 def ecosystem_vote(rec):
     votes = []
     runs_providing = []
-    for run in ['C-gem', 'C-ppx', 'C-ven']:
+    for run in C_RUNS:
         role = (rec['runs'].get(run) or {}).get('ecosystem_role')
         if role:
             votes.append((run, str(role).strip().lower()))
@@ -434,7 +461,7 @@ for canon_name, rec in canonicals.items():
     a_list = rec.get('a_rec') or a_row_index.get(canon_name, [])
     runs = rec['runs']
     found = [run for run in RUNS if run in rec['runs']]
-    supply_runs = [run for run in ['C-gem', 'C-ppx', 'C-ven'] if run in rec['runs']]
+    supply_runs = [run for run in C_RUNS if run in rec['runs']]
     ar = runs.get('A') or {}
     br = runs.get('B') or {}
     a_cands_of = a_row_index.get(canon_name, [])
@@ -468,7 +495,7 @@ for canon_name, rec in canonicals.items():
     # supply fields
     lf = {}
     srcs = set()
-    for run in ['C-gem', 'C-ppx', 'C-ven']:
+    for run in C_RUNS:
         for c in c_row_index[run].get(canon_name, []):
             v = c.get('list_frequency')
             if isinstance(v, (int, float)) or (isinstance(v, str) and v.strip().isdigit()):
@@ -476,12 +503,12 @@ for canon_name, rec in canonicals.items():
             for u in c.get('listed_in') or []:
                 if isinstance(u, str) and u.strip():
                     srcs.add(norm_url(u))
-    lf_vals = [lf[r] for r in ['C-gem', 'C-ppx', 'C-ven'] if r in lf]
+    lf_vals = [lf[r] for r in C_RUNS if r in lf]
     lf_max = max(lf_vals) if lf_vals else None
     lf_sum = sum(lf_vals) if lf_vals else 0
     # usage_signal per run, side by side, never averaged
     us = {}
-    for run in ['C-gem', 'C-ppx', 'C-ven']:
+    for run in C_RUNS:
         for c in c_row_index[run].get(canon_name, []):
             sig = c.get('usage_signal')
             if isinstance(sig, dict) and any(sig.get(k) for k in ('web_visits', 'app_downloads', 'store_rating', 'rating_count', 'source')):
@@ -498,7 +525,7 @@ for canon_name, rec in canonicals.items():
             if s: segs.add(str(s))
     for c in b_cands_of:
         if c.get('segment'): segs.add(str(c['segment']))
-    for run in ['C-gem', 'C-ppx', 'C-ven']:
+    for run in C_RUNS:
         for c in c_row_index[run].get(canon_name, []):
             for s in (c.get('segments') or []):
                 if s: segs.add(str(s))
@@ -511,7 +538,7 @@ for canon_name, rec in canonicals.items():
         'home_run': canon_name,
         'found_in_runs': ','.join(found),
         'supply_runs_count': len(supply_runs),
-        'lf_C-gem': lf.get('C-gem'), 'lf_C-ppx': lf.get('C-ppx'), 'lf_C-ven': lf.get('C-ven'),
+        'lf_C-gem': lf.get('C-gem'), 'lf_C-ppx': lf.get('C-ppx'), 'lf_C-ven': lf.get('C-ven'), 'lf_C-argon': lf.get('C-argon'),
         'lf_max': lf_max, 'lf_sum': lf_sum,
         'unique_source_list_count': len(srcs),
         'usage_signal': us,
@@ -548,7 +575,7 @@ def write_csv(path, cols, rows_out):
 
 rows.sort(key=lambda r: (-(r['lf_max'] or 0), -(r['community_users_A'] or 0), r['canonical_name']))
 CANON_COLS = ['canonical_name', 'url_domain', 'ecosystem_role', 'ecosystem_role_conflict', 'found_in_runs', 'supply_runs_count',
-              'lf_C-gem', 'lf_C-ppx', 'lf_C-ven', 'lf_max', 'lf_sum', 'unique_source_list_count',
+              'lf_C-gem', 'lf_C-ppx', 'lf_C-ven', 'lf_C-argon', 'lf_max', 'lf_sum', 'unique_source_list_count',
               'usage_signal_json', 'community_users_A', 'community_users_B', 'community_evidence_count_B',
               'community_threads_A_plus_B', 'qualified_recomputed', 'qualified_A_strawberry', 'qualified_B_gemini',
               'segments', 'frontend_flag', 'census_A_classification']
@@ -571,7 +598,7 @@ with open(os.path.join(OUT, 'merge-log.csv'), 'w', newline='', encoding='utf-8-s
 
 # ================================================================ sources table
 src_meta = {}
-for run in ['C-gem', 'C-ppx', 'C-ven']:
+for run in C_RUNS:
     for s in C[run].get('sources') or []:
         if not isinstance(s, dict): continue
         nu = norm_url(s.get('url'))
@@ -596,9 +623,8 @@ src_rows = [{'url': u, 'type': m['type'] or '', 'language': m['language'] or '',
 write_csv(os.path.join(OUT, 'sources.csv'), ['url', 'type', 'language', 'is_affiliate', 'cited_by_runs'], src_rows)
 
 # ================================================================ report numbers
-run_capitals = [r for r in canonicals if True]
 run_sets = {}
-for run in ['A', 'B', 'C-gem', 'C-ppx', 'C-ven']:
+for run in RUNS:
     run_sets[run] = {r for r, rec in canonicals.items() if run in rec['runs']}
 
 overlap = {}
@@ -610,7 +636,7 @@ def cr(n1, n2, o):
     return None if o in (0, n1, n2) else round(n1 * n2 / o, 1)
 
 cr_pairs = {}
-cl = ['C-gem', 'C-ppx', 'C-ven']
+cl = C_RUNS
 for i, x in enumerate(cl):
     for y in cl[i+1:]:
         n1, n2 = len(run_sets[x]), len(run_sets[y])
@@ -630,7 +656,7 @@ def sig_rows(run, field):
     return n
 
 sig_counts = {}
-for run in ['C-gem', 'C-ppx', 'C-ven']:
+for run in C_RUNS:
     total_with = {'web_visits': 0, 'app_downloads': 0}
     for r in rows:
         s = (r['usage_signal'] or {}).get(run)
@@ -656,7 +682,7 @@ top25_total = 0
 for r in top25:
     canon = r['canonical_name'] if r['canonical_name'] in canonicals else r['home_run']
     srcs2 = set()
-    for run in ['C-gem', 'C-ppx', 'C-ven']:
+    for run in C_RUNS:
         for c in c_row_index[run].get(r['canonical_name'], []):
             for u in c.get('listed_in') or []:
                 if isinstance(u, str): srcs2.add(norm_url(u))
@@ -698,7 +724,7 @@ with open(os.path.join(OUT, 'MERGE-REPORT.md'), 'w', encoding='utf-8') as fh:
         fh.write(f'| {k} | {v["n1"]} | {v["n2"]} | {v["overlap"]} | {v["N_estimate"] if v["N_estimate"] is not None else "â€”"} | {v["note"] or ""} |\n')
     fh.write('\n## usage_signal completeness (% of canonical rows with a non-empty value, per run)\n\n')
     fh.write('| run | web_visits | app_downloads |\n|---|---|---|\n')
-    for run in ['C-gem', 'C-ppx', 'C-ven']:
+    for run in C_RUNS:
         ds = sig_counts.get(run, {'web_visits': 0, 'app_downloads': 0})
         pct = lambda n: round(100 * n / len(rows), 1)
         fh.write(f'| {run} | {pct(ds["web_visits"])}% ({ds["web_visits"]}) | {pct(ds["app_downloads"])}% ({ds["app_downloads"]}) |\n')
@@ -733,9 +759,10 @@ with open(os.path.join(OUT, 'MERGE-REPORT.md'), 'w', encoding='utf-8') as fh:
         for v, c_, d1, d2 in domain_conflicts[:20]:
             fh.write(f'| {v} | {c_} | {d1} | {d2} |\n')
     fh.write(f'\n## parse mode per C run\n\n')
-    for run in ['C-gem', 'C-ppx', 'C-ven']:
+    for run in C_RUNS:
         fh.write(f'- {run}: {C_parse_mode[run]}\n')
 
 print('MERGE-REPORT written; canonical rows:', len(rows))
 print('unresolved:', len(unresolved), 'domain conflicts:', len(domain_conflicts))
+
 
