@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const topics = await getContentRepository().listTopics();
+---
+<BaseLayout title={`Sections · ${SITE.name}`} description="Every PulseNSFW hub in the phase 1 shell." reader={reader}>
+  <div class="page" style="padding:20px 0 48px">
+    <p class="kicker">Hubs</p>
+    <h1>All sections</h1>
+    <div class="bento" style="margin-top:16px">
+      {topics.map((topic) => (
+        <a class="topic-tile" href={topic.href} style={`--tile: var(--${topic.id})`}>
+          <strong>{topic.label}</strong>
+          <span>{topic.blurb}</span>
+        </a>
+      ))}
+    </div>
+    <div class="story-grid" style="margin-top:28px">
+      {topics.map((topic) => (
+        <section>
+          <h2><a href={topic.href}>{topic.label}</a></h2>
+          <ul>
+            {topic.subtopics.map((sub) => (
+              <li><a href={`${topic.href}?topic=${sub.id}`}>{sub.label}</a> — {sub.description}</li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

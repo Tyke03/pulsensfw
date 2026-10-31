@@ -1,0 +1,76 @@
+{
+  "slug": "brittany-andrews",
+  "type": "star",
+  "name": "Brittany Andrews",
+  "url": "https://www.imdb.com/name/nm0009686/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral",
+    "creator_program"
+  ],
+  "summary": "Influential veteran performer turned club DJ and producer; named a Best Performer nominee in the 2026 Femdom Awards announcement (October 2026).",
+  "tags": [
+    "awards",
+    "veteran",
+    "dj",
+    "fetish"
+  ],
+  "ranking_rationale": "Included on verified October 2026 professional news (dated award activity), not on follower counts or aggregator lists. No social or image claim is made beyond the sourced facts here.",
+  "pricing": {
+    "model": "Personal brand — official channels not verified",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No verified official subscription or store link at check time."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": null,
+  "facts": [
+    {
+      "key": "Adult verification",
+      "value": "18+ — born 1973 (age 52–53 at check)",
+      "source_url": "https://pantheon.world/profile/person/Brittany_Andrews",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Fetched source states birth year 1973 only; no exact birthday asserted."
+    },
+    {
+      "key": "Recent activity",
+      "value": "Named a Best Performer nominee in the 2026 Femdom Awards announcement",
+      "source_url": "https://www.xbiz.com/news/301542/femdom-awards-announce-2026-nominees",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "Announcement dated October 22, 2026 (3:03 PM PDT)."
+    },
+    {
+      "key": "Other work",
+      "value": "Club DJ and film production work documented in her Wikipedia biography",
+      "source_url": "https://en.wikipedia.org/wiki/Brittany_Andrews",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Followers",
+      "value": "Unverified",
+      "source_url": "https://www.xbiz.com/news/301542/femdom-awards-announce-2026-nominees",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Adult destination links and unverified handles excluded."
+    },
+    {
+      "key": "X handle",
+      "value": "Unverified — no X profile link asserted",
+      "source_url": "https://x.com",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Candidate handles circulating in tracker/summary sources proved wrong, suspended, fan-run, or empty on 2026-10-27 (X API). handle_unverified flag set for the research agent to re-check."
+    }
+  ],
+  "updated": "2026-10-27",
+  "handle_unverified": true
+}

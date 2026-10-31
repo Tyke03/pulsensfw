@@ -1,0 +1,22 @@
+---
+import { presentArticle } from '../../lib/content/present';
+import type { RawArticle, ReaderMode } from '../../lib/content/types';
+import StoryCard from '../StoryCard.astro';
+
+interface Props { articles: RawArticle[]; reader: ReaderMode; }
+const { articles, reader } = Astro.props;
+const popular = articles.slice(0, 4).map((article) => presentArticle(article, reader));
+---
+<div class="page" style="padding-bottom:40px">
+  <p class="kicker">404</p>
+  <h1 style="font-size:clamp(2.6rem,6vw,4.5rem);line-height:0.95;margin:8px 0">This page flatlined.</h1>
+  <p class="dek" style="max-width:46ch">The link missed. Search the desk, or open something people are already reading.</p>
+  <form class="c-field" action="/search" method="get" data-astro-reload style="max-width:520px;margin:16px 0">
+    <label class="sr-only" for="not-found-q">Search</label>
+    <input class="c-input" id="not-found-q" name="q" type="search" placeholder="Stars, sites, toys, VR…" />
+    <button class="c-btn c-btn--primary" type="submit">Search</button>
+  </form>
+  <div class="scroller" style="padding-left:0">
+    {popular.map((card) => <StoryCard card={card} uid={`miss-${card.slug}`} layout="standard" />)}
+  </div>
+</div>

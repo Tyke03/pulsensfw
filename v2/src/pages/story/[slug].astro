@@ -1,0 +1,85 @@
+---
+import { getEntry, render } from 'astro:content';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import MediaFrame from '../../components/MediaFrame.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import EntityReviewTemplate from '../../components/templates/EntityReviewTemplate.astro';
+import GuideNewsTemplate from '../../components/templates/GuideNewsTemplate.astro';
+import StarProfileTemplate from '../../components/templates/StarProfileTemplate.astro';
+import TopListTemplate from '../../components/templates/TopListTemplate.astro';
+import NotFound from '../../components/states/NotFound.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { relatedArticles } from '../../lib/content/assemble';
+import { getContentRepository } from '../../lib/content/local-repository';
+import { presentArticle } from '../../lib/content/present';
+import { buildTemplateEntities } from '../../lib/content/templates';
+import { readReader } from '../../lib/reader/cookies';
+import { SITE, TOPIC_LABEL } from '../../lib/site';
+
+const slug = Astro.params.slug ?? '';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const repo = getContentRepository();
+const articles = await repo.listArticles();
+const catalog = await repo.listCatalog();
+const raw = articles.find((article) => article.slug === slug) ?? null;
+if (!raw) Astro.response.status = 404;
+const entry = raw ? await getEntry('articles', slug) : undefined;
+const Content = entry ? (await render(entry)).Content : null;
+const page = raw ? presentArticle(raw, reader, catalog) : null;
+const templateEntities = page ? buildTemplateEntities(page, catalog, reader) : [];
+const related = raw ? relatedArticles(articles, raw.slug, raw.topic, reader) : [];
+const title = page ? `${page.title} · ${SITE.name}` : `Page not found · ${SITE.name}`;
+---
+<BaseLayout title={title} description={page?.dek ?? SITE.description} reader={reader} section={page?.topic} noindex={!page} ogType={page ? 'article' : 'website'}>
+  {page && Content ? (
+    <article class="page" style="padding-bottom:48px">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: TOPIC_LABEL[page.topic], href: `/${page.topic}` }, { label: page.title }]} />
+      <header class="article-hero">
+        <p class="kicker">{page.kicker}{page.checkedLabel ? ` · facts checked ${page.checkedLabel}` : ''}</p>
+        <h1>{page.title}</h1>
+        <p class="dek">{page.dek}</p>
+        <p class="meta">{page.author} · {page.publishedLabel}{page.updatedLabel ? ` · Updated ${page.updatedLabel}` : ''} · {page.readingMinutes} min read</p>
+        <MediaFrame media={page.media} topic={page.topic} uid={`story-${page.slug}`} />
+      </header>
+
+      {page.kind === 'top_list' ? (
+        <TopListTemplate article={page} entities={templateEntities}><Content /></TopListTemplate>
+      ) : page.kind === 'star_profile' ? (
+        <StarProfileTemplate article={page} entities={templateEntities}><Content /></StarProfileTemplate>
+      ) : page.kind === 'site_review' || page.kind === 'review' ? (
+        <EntityReviewTemplate article={page} entities={templateEntities}><Content /></EntityReviewTemplate>
+      ) : (
+        <GuideNewsTemplate article={page} entities={templateEntities}><Content /></GuideNewsTemplate>
+      )}
+
+      {page.explicitMedia.length > 0 && (
+        <section class="explicit-block" aria-labelledby="story-stills">
+          <h2 id="story-stills">Stills</h2>
+          <p class="meta">Shown here only in NSFW mode. The cover above stays SFW.</p>
+          <div class="scroller explicit-row" tabindex="0">
+            {page.explicitMedia.map((item, index) => (
+              <figure class="explicit-thumb">
+                <MediaFrame media={item.media} topic={page.topic} uid={`story-still-${page.slug}-${index}`} />
+                <figcaption class="meta">
+                  {item.media.state === 'withheld' ? 'NSFW still' : item.license}
+                  {item.record2257 ? ` · 2257 ${item.record2257}` : ''}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {related.length > 0 && (
+        <section style="margin-top:36px">
+          <h2>More in {TOPIC_LABEL[page.topic]}</h2>
+          <div class="scroller" style="padding-left:0">
+            {related.map((card) => <StoryCard card={card} uid={`rel-${card.slug}`} />)}
+          </div>
+        </section>
+      )}
+    </article>
+  ) : (
+    <NotFound articles={articles} reader={reader} />
+  )}
+</BaseLayout>

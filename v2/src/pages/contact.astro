@@ -1,0 +1,28 @@
+---
+import ErrorState from '../components/states/ErrorState.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { readReader } from '../lib/reader/cookies';
+import { SITE, noticeCopy } from '../lib/site';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const notice = Astro.url.searchParams.get('notice');
+const copy = noticeCopy(notice);
+---
+<BaseLayout title={`Contact · ${SITE.name}`} description="Write the desk. Delivery is not connected in phase 1." reader={reader}>
+  <article class="page" style="padding-bottom:48px;max-width:720px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Contact' }]} />
+    <p class="kicker">Contact</p>
+    <h1>Write the desk</h1>
+    <p class="dek">Amazon SES is the later mail path. This form does not store a message and does not send one.</p>
+    {notice === 'contact-unconfigured' && <ErrorState title="The desk is not connected" body="Nothing was stored or sent. Email delivery arrives with Amazon SES in a later phase." />}
+    {notice === 'contact-invalid' && <ErrorState title="That form is incomplete" body="Add a name, an email with a domain, and a message. Still nothing is sent in phase 1." />}
+    {copy && notice !== 'contact-unconfigured' && notice !== 'contact-invalid' && <p class="meta">{copy}</p>}
+    <form method="post" action="/api/contact" class="stack" data-astro-reload style="display:grid;gap:12px;margin-top:16px">
+      <input type="hidden" name="return" value="/contact" />
+      <label class="c-field">Name <input class="c-input" name="name" autocomplete="name" required /></label>
+      <label class="c-field">Email <input class="c-input" name="email" type="email" autocomplete="email" required /></label>
+      <label class="c-field">Message <textarea class="c-textarea" name="message" required></textarea></label>
+      <button class="c-btn c-btn--primary" type="submit">Submit</button>
+    </form>
+  </article>
+</BaseLayout>

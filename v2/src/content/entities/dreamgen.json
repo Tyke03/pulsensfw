@@ -1,0 +1,123 @@
+{
+  "slug": "dreamgen",
+  "type": "ai_app",
+  "name": "DreamGen",
+  "url": "https://dreamgen.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [],
+  "summary": "Structured, multi-character roleplay and writing: world definitions, plot direction, and scenario control. More writing desk than phone companion — the public scenario library is SFW-only, with mature themes reserved for private scenarios.",
+  "tags": [
+    "nsfw",
+    "roleplay",
+    "writing",
+    "freemium"
+  ],
+  "ranking_rationale": "Pricing page and vendor docs verify the $7.83 Starter monthly rate (20%-off intro $6.26), a documented free tier with a message and image allowance, and a 5K/15K/30K context ladder. Verified as active as of 2026-10-27. Ranks as the narrative-control pick: no TTS and a first-plan 5,000-token window hold it back.",
+  "pricing": {
+    "model": "Freemium subscription",
+    "free_tier": "~2,000 basic-model messages/month + 250/day after; 150 images/month + 20/day",
+    "from_price": "$7.83/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$7.83",
+        "billing": "month",
+        "notes": "Recurring rate, USD; first month at $6.26 with the displayed 20% intro discount. 5,000-token context."
+      },
+      {
+        "name": "Advanced / Pro",
+        "price": "Unverified",
+        "billing": "month",
+        "notes": "15,000 and 30,000 context tokens respectively per the pricing page; prices for these tiers not captured in this record."
+      }
+    ],
+    "notes": "Free-tier figures are vendor estimates from its own comparison article, not guarantees. No annual billing total verified."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web (PWA)"
+  ],
+  "score": 7.4,
+  "pros": [
+    "World definitions, plot direction, multiple characters — real narrative control",
+    "Documented free tier includes images as well as text",
+    "Cheap paid entry verified first-party"
+  ],
+  "cons": [
+    "No native text-to-speech",
+    "Lowest paid plan has only a 5,000-token context window",
+    "Public scenario library is SFW-only; mature themes are private",
+    "No fan-support record yet in the fan-scout dataset - placed on trust merits alone"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Starter price",
+      "value": "$7.83/month ($6.26 intro month)",
+      "source_url": "https://dreamgen.com/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Page explicitly labels USD in rendered HTML."
+    },
+    {
+      "key": "Context ladder",
+      "value": "Starter 5,000 · Advanced 15,000 · Pro 30,000 tokens",
+      "source_url": "https://dreamgen.com/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Free tier",
+      "value": "~2,000 messages/month + 250/day; 150 images/month + 20/day",
+      "source_url": "https://dreamgen.com/blog/articles/janitor-ai-alternatives",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Vendor estimates, not guaranteed entitlements; credit accounting applies."
+    },
+    {
+      "key": "Adult content",
+      "value": "Limited — public scenarios SFW; mature themes allowed only in private scenarios",
+      "source_url": "https://dreamgen.com/blog/articles/janitor-ai-alternatives",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Voice",
+      "value": "No current text-to-speech per vendor",
+      "source_url": "https://dreamgen.com/blog/articles/janitor-ai-alternatives",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Status",
+      "value": "Active as of 2026-10-27 (partnership research record)",
+      "source_url": "https://dreamgen.com/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Scam-hunt verdict",
+      "value": "Clean - no red flags found of substance: bootstrapped small team, active dev in Discord/Reddit, prorated refunds by email, no documented security problem",
+      "source_url": "https://dreamgen.com/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "From the scam-hunt dataset (community compilation); its \"cleanest\" pick for the category."
+    },
+    {
+      "key": "Fan support",
+      "value": "Not ranked in the fan-scout dataset (no mention) - inclusion rests on trust record, marked provisional",
+      "source_url": "https://dreamgen.com/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-10-27"
+}

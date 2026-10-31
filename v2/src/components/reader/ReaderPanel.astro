@@ -1,0 +1,25 @@
+---
+import type { ReaderMode } from '../../lib/content/types';
+
+interface Props { reader: ReaderMode; returnTo: string; }
+const { reader, returnTo } = Astro.props;
+---
+<div class="stack">
+  <p>Accounts arrive with Supabase in a later phase. These switches stay on this browser.</p>
+  <p class="meta">Age check: {reader.ageVerified ? 'stub verified' : 'not verified'} · NSFW: {reader.nsfw ? 'on' : 'off'}</p>
+  <form method="post" action="/api/reader/prefs" data-pref-form data-astro-reload>
+    <input type="hidden" name="return" value={returnTo} />
+    <input type="hidden" name="discreet" value={reader.discreet ? '0' : '1'} />
+    <button class="c-btn c-btn--secondary" type="submit" aria-pressed={reader.discreet ? 'true' : 'false'}>
+      Discreet mode {reader.discreet ? 'on' : 'off'}
+    </button>
+  </form>
+  <form method="post" action="/api/reader/prefs" data-pref-form data-astro-reload>
+    <input type="hidden" name="return" value={returnTo} />
+    <input type="hidden" name="blur" value={reader.blur ? '0' : '1'} />
+    <button class="c-btn c-btn--secondary" type="submit" aria-pressed={reader.blur ? 'true' : 'false'}>
+      Blur {reader.blur ? 'on' : 'off'}
+    </button>
+  </form>
+  <p class="meta">Quick hide <kbd>Shift</kbd> + <kbd>H</kbd> flips discreet mode and blur together.</p>
+</div>

@@ -1,0 +1,58 @@
+---
+import Breadcrumbs from './Breadcrumbs.astro';
+import EntityDataPanel from './EntityDataPanel.astro';
+import StoryCard from './StoryCard.astro';
+import NotFound from './states/NotFound.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { presentEntityPage } from '../lib/content/present';
+import { routeType } from '../lib/content/entities';
+import { readReader } from '../lib/reader/cookies';
+import { SITE, TOPIC_LABEL } from '../lib/site';
+import type { EntityKind } from '../lib/content/types';
+
+interface Props {
+  kind: EntityKind;
+  id: string;
+}
+const { kind, id } = Astro.props;
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const repo = getContentRepository();
+const catalog = await repo.listCatalog();
+const articles = await repo.listArticles();
+const entity = await repo.getEntity(routeType(kind), id);
+if (!entity) Astro.response.status = 404;
+const page = entity ? presentEntityPage(entity, catalog, articles, reader) : null;
+const related = page?.relatedArticles ?? [];
+const title = page ? `${page.title} · ${SITE.name}` : `Page not found · ${SITE.name}`;
+---
+<BaseLayout title={title} description={page?.dek ?? SITE.description} reader={reader} section={page?.topic} noindex={!page}>
+  {page ? (
+    <article class="page entity" style="padding-bottom:48px">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: TOPIC_LABEL[page.topic], href: `/${page.topic}` }, { label: page.title }]} />
+      <header class="entity-head">
+        <div>
+          <p class="kicker">{page.kicker} · Last checked {page.entity.updated}</p>
+          <h1>{page.title}</h1>
+          <p class="dek">{page.dek}</p>
+          {page.score !== null && (
+            <p class="meta">
+              <img class="reviewer-badge" src="/media/brand/reviewer-badge.png" alt="Reviewed by PulseNSFW" width="132" height="40" />
+            </p>
+          )}
+        </div>
+      </header>
+      <EntityDataPanel entity={page.entity} media={page.media} topic={page.topic} uid={`entity-${page.entity.type}-${page.slug}`} />
+      {related.length > 0 && (
+        <section style="margin-top:28px">
+          <h2>Reviews &amp; lists</h2>
+          <div class="scroller" style="padding-left:0">
+            {related.map((story) => <StoryCard card={story} uid={`ent-rel-${story.slug}`} />)}
+          </div>
+        </section>
+      )}
+    </article>
+  ) : (
+    <NotFound articles={articles} reader={reader} />
+  )}
+</BaseLayout>

@@ -1,0 +1,3634 @@
+﻿variant,canonical,reason
+Character.AI,Character.AI,new canonical
+Janitor AI,Janitor AI,new canonical
+SpicyChat AI,SpicyChat AI,new canonical
+Chub AI,Chub AI,new canonical
+Candy.ai,Candy.ai,new canonical
+PolyBuzz (formerly Poly.AI),PolyBuzz (formerly Poly.AI),new canonical
+SillyTavern,SillyTavern,new canonical
+Replika,Replika,new canonical
+Kindroid,Kindroid,new canonical
+CrushOn.AI,CrushOn.AI,new canonical
+Talkie AI,Talkie AI,new canonical
+Joi AI,Joi AI,new canonical
+Moescape AI (Yodayo),Moescape AI (Yodayo),new canonical
+Joyland AI,Joyland AI,new canonical
+Emochi,Emochi,new canonical
+HiWaifu,HiWaifu,new canonical
+Linky AI,Linky AI,new canonical
+FictionLab,FictionLab,new canonical
+Tavo,Tavo,new canonical
+Nomi AI,Nomi AI,new canonical
+OurDream AI,OurDream AI,new canonical
+Secrets AI,Secrets AI,new canonical
+Nectar AI (TryNectar),Nectar AI (TryNectar),new canonical
+Camsoda AI,Camsoda AI,new canonical
+AI Girls by aiAllure,AI Girls by aiAllure,new canonical
+GirlfriendGPT,GirlfriendGPT,new canonical
+MyBabes.ai,MyBabes.ai,new canonical
+Promptchan AI,Promptchan AI,new canonical
+Kupid AI,Kupid AI,new canonical
+FLIRTcam.AI,FLIRTcam.AI,new canonical
+Anima AI,Anima AI,new canonical
+Romantic AI,Romantic AI,new canonical
+DreamGF AI,DreamGF AI,new canonical
+Secret Desires AI,Secret Desires AI,new canonical
+Muah AI,Muah AI,new canonical
+Dream Companion,Dream Companion,new canonical
+SoulFun,SoulFun,new canonical
+Nastia AI,Nastia AI,new canonical
+Soulkyn AI,Soulkyn AI,new canonical
+HoneyChat,HoneyChat,new canonical
+NovelAI,NovelAI,new canonical
+AI Dungeon,AI Dungeon,new canonical
+Chai,Chai,new canonical
+WyvernChat,WyvernChat,new canonical
+Dreamjourney AI,Dreamjourney AI,new canonical
+Xoul AI,Xoul AI,new canonical
+Saucepan AI,Saucepan AI,new canonical
+Harpy Chat,Harpy Chat,new canonical
+Character-Tavern,Character-Tavern,new canonical
+Sakura AI,Sakura AI,new canonical
+Dopple AI,Dopple AI,new canonical
+Spellbound,Spellbound,new canonical
+AnimeGF,AnimeGF,new canonical
+POVChat,POVChat,new canonical
+Y/N AI,Y/N AI,new canonical
+Sea Soul,Sea Soul,new canonical
+Shapes Inc,Shapes Inc,new canonical
+4wall AI,4wall AI,new canonical
+Isekai Zero,Isekai Zero,new canonical
+Murmur.gg,Murmur.gg,new canonical
+Netwrck,Netwrck,new canonical
+Starlight Engine,Starlight Engine,new canonical
+Perchance AI Character Chat,Perchance AI Character Chat,new canonical
+Nevika.ai,Nevika.ai,new canonical
+Flipped,Flipped,new canonical
+FlowGPT,FlowGPT,new canonical
+Poe,Poe,new canonical
+HammerAI,HammerAI,new canonical
+RisuAI,RisuAI,new canonical
+Agnai (Agnaistic),Agnai (Agnaistic),new canonical
+Lettuce AI,Lettuce AI,new canonical
+TavernAI,TavernAI,new canonical
+Oobabooga Text Generation WebUI,Oobabooga Text Generation WebUI,new canonical
+KoboldAI,KoboldAI,new canonical
+Ollama,Ollama,new canonical
+LM Studio,LM Studio,new canonical
+NativeTavern,NativeTavern,new canonical
+MiniTavern,MiniTavern,new canonical
+Maid (Mobile AI Companion),Maid (Mobile AI Companion),new canonical
+Botbooru,Botbooru,new canonical
+Charhub,Charhub,new canonical
+LucyMM CardMarket,LucyMM CardMarket,new canonical
+OpenRouter,OpenRouter,new canonical
+NanoGPT,NanoGPT,new canonical
+Chutes AI,Chutes AI,new canonical
+DeepSeek API,DeepSeek API,new canonical
+Zeta (제타 / ゼタ),Zeta (제타 / ゼタ),new canonical
+Wrtn / Crack (뤼튼 / 크랙),Wrtn / Crack (뤼튼 / 크랙),new canonical
+Caveduck (케이브덕),Caveduck (케이브덕),new canonical
+GPT RPG (지피티 알피지),GPT RPG (지피티 알피지),new canonical
+Rofan AI (로판),Rofan AI (로판),new canonical
+Charapu (キャラぷ),Charapu (キャラぷ),new canonical
+LumiChat,LumiChat,new canonical
+SynClub,SynClub,new canonical
+Cotomo,Cotomo,new canonical
+Linked (理想の彼氏と出会えるAIチャット),Linked (理想の彼氏と出会えるAIチャット),new canonical
+Mero (めろ),Mero (めろ),new canonical
+Gachi-Kare (ガチカレ),Gachi-Kare (ガチカレ),new canonical
+Candy AI,Candy.ai,normalized-name candyai
+CrushOn AI,CrushOn.AI,normalized-name crushonai
+Nomi AI,Nomi AI,alias-table (census-A identity resolution)
+Kindroid,Kindroid,normalized-name kindroid
+Janitor AI,Janitor AI,normalized-name janitorai
+DreamGF,DreamGF,new canonical
+Muah AI,Muah AI,normalized-name muahai
+OurDream AI,OurDream AI,alias-table (census-A identity resolution)
+PepHop AI,PepHop AI,new canonical
+Spicier AI,Spicier AI,new canonical
+uDesire AI,uDesire AI,new canonical
+Moonmate,Moonmate,new canonical
+Character.AI,Character.AI,alias-table (census-A identity resolution)
+Eternal AI,Eternal AI,new canonical
+GirlfriendGPT,GirlfriendGPT,normalized-name girlfriendgpt
+Kupid AI,Kupid AI,normalized-name kupidai
+HeraHaven,HeraHaven,new canonical
+NovelAI,NovelAI,alias-table (census-A identity resolution)
+SpicyChat AI,SpicyChat AI,alias-table (census-A identity resolution)
+Chub AI,Chub AI,normalized-name chubai
+DreamGen,DreamGen,new canonical
+LM Studio,LM Studio,normalized-name lmstud
+Nastia AI,Nastia AI,normalized-name nastiaai
+AI Dungeon,AI Dungeon,alias-table (census-A identity resolution)
+Aroused AI,Aroused AI,new canonical
+Backyard AI,Backyard AI,new canonical
+CHAI,Chai,alias-table (census-A identity resolution)
+FantasyGF,FantasyGF,new canonical
+Nectar AI,Nectar AI (TryNectar),normalized-name nectarai
+Botify AI,Botify AI,new canonical
+Dippy AI,Dippy AI,new canonical
+EVA AI,EVA AI,new canonical
+Joyland AI,Joyland AI,normalized-name joylandai
+PygmalionAI / Pygmalion Chat,PygmalionAI / Pygmalion Chat,new canonical
+Yodayo,Yodayo,new canonical
+Faraday,Faraday,new canonical
+Paradot,Paradot,new canonical
+Sakura AI,Sakura AI,normalized-name sakuraai
+SillyTavern,SillyTavern,alias-table (census-A identity resolution)
+Talkie AI,Talkie AI,alias-table (census-A identity resolution)
+Xoul,Xoul,new canonical
+Jan,Jan,new canonical
+Kajiwoto,Kajiwoto,new canonical
+Replika,Replika,normalized-name replika
+RisuAI,RisuAI,alias-table (census-A identity resolution)
+RisuAI,RisuAI,domain variant github.com (canonical home risuai.xyz)
+Agnai,Agnai (Agnaistic),normalized-name agnai
+Anima AI,Anima AI,normalized-name animaai
+Couple.me,Couple.me,new canonical
+HammerAI,HammerAI,normalized-name hammerai
+PovChat AI,PovChat AI,new canonical
+Shapes,Shapes,new canonical
+KoboldAI,KoboldAI,normalized-name koboldai
+KoboldAI,KoboldAI,domain variant koboldai.org (canonical home github.com)
+MyAnima,MyAnima,new canonical
+Dreamily,Dreamily,new canonical
+CharacterHub,CharacterHub,new canonical
+SimSimi,SimSimi,new canonical
+Spicy API,Spicy API,new canonical
+Xeve,Xeve,new canonical
+OnlyGFs.ai,OnlyGFs.ai,new canonical
+Crazzers AI,Crazzers AI,new canonical
+FapAI,FapAI,new canonical
+Flirty AI,Flirty AI,new canonical
+NSFW AI Chat,NSFW AI Chat,new canonical
+Yamete.gg,Yamete.gg,new canonical
+Secrets AI,Secrets AI,alias-table (census-A identity resolution)
+Nextpart AI,Nextpart AI,new canonical
+MyPlayBoo,MyPlayBoo,new canonical
+Dream Companion,Dream Companion,normalized-name dream
+MyBunny AI,MyBunny AI,new canonical
+Gochu,Gochu,new canonical
+OhAPI,OhAPI,new canonical
+NSFWLover,NSFWLover,new canonical
+NsfwGPT.AI,NsfwGPT.AI,new canonical
+JuicyChat.AI,JuicyChat.AI,new canonical
+EroPlay.ai,EroPlay.ai,new canonical
+CraveU AI,CraveU AI,new canonical
+Kink AI,Kink AI,new canonical
+OnlyChar.AI,OnlyChar.AI,new canonical
+Rolemantic,Rolemantic,new canonical
+NSFW Character AI,NSFW Character AI,new canonical
+NSFWChatAI,NSFWChatAI,new canonical
+Girlfriendly AI,Girlfriendly AI,new canonical
+NSFWGirlfriend,NSFWGirlfriend,new canonical
+FallFor.AI,FallFor.AI,new canonical
+LoveChat,LoveChat,new canonical
+Secret Desires AI,Secret Desires AI,normalized-name secretdesiresai
+Juicy AI,Juicy AI,new canonical
+ChatUp AI,ChatUp AI,new canonical
+Caveduck,Caveduck (케이브덕),normalized-name caveduck
+AI ChatFriend,AI ChatFriend,new canonical
+NoFilterGPT,NoFilterGPT,new canonical
+Horny AI,Horny AI,new canonical
+RushChat,RushChat,new canonical
+Carter Chat,Carter Chat,new canonical
+Soultalk.AI,Soultalk.AI,new canonical
+AICupid,AICupid,new canonical
+honeychat.ai,honeychat.ai,new canonical
+Ditiin AI,Ditiin AI,new canonical
+NSFW Crush,NSFW Crush,new canonical
+AIPornChat,AIPornChat,new canonical
+AIHentaiChat,AIHentaiChat,new canonical
+Korewa,Korewa,new canonical
+Oniichat,Oniichat,new canonical
+Neta AI,Neta AI,new canonical
+WaifuChat,WaifuChat,new canonical
+voicegf,voicegf,new canonical
+AI Tinder / Netwrck,Netwrck,normalized-name netwrck
+Privee AI,Privee AI,new canonical
+Sextingme AI,Sextingme AI,new canonical
+iWaifu,iWaifu,new canonical
+Role Play Hub,Role Play Hub,new canonical
+RealmPlay,RealmPlay,new canonical
+NaughtyBot,NaughtyBot,new canonical
+RoleplayGPT,RoleplayGPT,new canonical
+976.ai AI Girlfriends,976.ai AI Girlfriends,new canonical
+RPRP AI,RPRP AI,new canonical
+Texthub,Texthub,new canonical
+VMate AI,VMate AI,new canonical
+Wemate,Wemate,new canonical
+Roletopia,Roletopia,new canonical
+Xmate,Xmate,new canonical
+AI Girlfriend WTF,AI Girlfriend WTF,new canonical
+Alphazria,Alphazria,new canonical
+harpy.chat,Harpy Chat,normalized-name harpy
+Roleplex,Roleplex,new canonical
+Dreamyai,Dreamyai,new canonical
+Sexy AI Girlfriend: waifu chat,Sexy AI Girlfriend: waifu chat,new canonical
+LustGF,LustGF,new canonical
+TalkieMate,TalkieMate,new canonical
+WOWOW AI,WOWOW AI,new canonical
+Erogen AI,Erogen AI,new canonical
+Alice AI,Alice AI,new canonical
+AI Allure,AI Allure,new canonical
+AI Angels,AI Angels,new canonical
+Joi AI,Joi AI,normalized-name joiai
+Xotic AI,Xotic AI,new canonical
+OhChat,OhChat,new canonical
+AI Femdom,AI Femdom,new canonical
+AI Peeps,AI Peeps,new canonical
+AIGirlfriends.ai - Chat Simulator,AIGirlfriends.ai - Chat Simulator,new canonical
+AIMOUR.AI,AIMOUR.AI,new canonical
+AIXotic Chat,AIXotic Chat,new canonical
+Blushly Chat,Blushly Chat,new canonical
+FlippedChat,Flipped,normalized-name flipped
+Venus AI,Venus AI,new canonical
+Prechance NSFW AI Character Chat,Prechance NSFW AI Character Chat,new canonical
+Waifu AI Friend,Waifu AI Friend,new canonical
+HotTalks AI,HotTalks AI,new canonical
+PixAI,PixAI,new canonical
+Polybuzz,PolyBuzz (formerly Poly.AI),normalized-name polybuzz
+DeepFiction,DeepFiction,new canonical
+FantasyLife.ai,FantasyLife.ai,new canonical
+Crush,Crush,new canonical
+Dreampress AI,Dreampress AI,new canonical
+Soul chat,Soul chat,new canonical
+BOT3 AI,BOT3 AI,new canonical
+Youtwo.ai,Youtwo.ai,new canonical
+Intimate AI,Intimate AI,new canonical
+Soulgen,Soulgen,new canonical
+Foxy AI,Foxy AI,new canonical
+GF Cafe,GF Cafe,new canonical
+TruMate,TruMate,new canonical
+Linky,Linky,new canonical
+Romantic AI,Romantic AI,normalized-name romanticai
+FlowGPT,FlowGPT,normalized-name flowgpt
+Poe,Poe,normalized-name poe
+Hi Waifu,HiWaifu,normalized-name hiwaifu
+Love GPT,Love GPT,new canonical
+eHentai,eHentai,new canonical
+4th Wall,4th Wall,new canonical
+ChatFAI,ChatFAI,new canonical
+Bored Humans,Bored Humans,new canonical
+LateNightAI,LateNightAI,new canonical
+Miku.gg,Miku.gg,new canonical
+Unhinged AI,Unhinged AI,new canonical
+Companion.AI,Companion.AI,new canonical
+Partnr: AI Companion,Partnr: AI Companion,new canonical
+Kindie AI,Kindie AI,new canonical
+Convo: Talk to AI Companions,Convo: Talk to AI Companions,new canonical
+loody: Your AI Companion,loody: Your AI Companion,new canonical
+vu: AI Companion with Soul,vu: AI Companion with Soul,new canonical
+Emma: AI Companion,Emma: AI Companion,new canonical
+Saathi: AI Chat & Companion,Saathi: AI Chat & Companion,new canonical
+AI Girlfriend Chat:SoulMate AI,AI Girlfriend Chat:SoulMate AI,new canonical
+AI Chat Companion: Kissable,AI Chat Companion: Kissable,new canonical
+Sybo.ai: AI companion & friend,Sybo.ai: AI companion & friend,new canonical
+SoulWeaverAI,SoulWeaverAI,new canonical
+Character Archive — evulid,Character Archive — evulid,new canonical
+Character Tavern,Character-Tavern,normalized-name charactertavern
+JannyAI,JannyAI,new canonical
+Charcard Rentry List,Charcard Rentry List,new canonical
+Meta Bot List,Meta Bot List,new canonical
+Backyard AI Hub,Backyard AI Hub,new canonical
+AI Character Cards,AI Character Cards,new canonical
+WyvernChat,WyvernChat,normalized-name wyvern
+RisuRealm,RisuRealm,new canonical
+Nyai — bot directory,Nyai — bot directory,new canonical
+BotBooru,Botbooru,normalized-name botbooru
+DataCat,DataCat,new canonical
+Chatbots Neocities,Chatbots Neocities,new canonical
+TavernAI,TavernAI,normalized-name tavernai
+TavernAI,TavernAI,domain variant tavernai.net (canonical home github.com)
+KoboldAI Lite,KoboldAI Lite,new canonical
+llama.cpp,llama.cpp,new canonical
+KoboldCpp,KoboldCpp,new canonical
+ExLlamaV2,ExLlamaV2,new canonical
+text-generation-webui / Oobabooga,text-generation-webui / Oobabooga,new canonical
+SillyTavern Launcher,SillyTavern Launcher,new canonical
+llama.sh,llama.sh,new canonical
+mikupad,mikupad,new canonical
+exui,exui,new canonical
+TabbyAPI,TabbyAPI,new canonical
+Aphrodite Engine,Aphrodite Engine,new canonical
+AI Horde / KoboldAI Horde,AI Horde / KoboldAI Horde,new canonical
+OpenRouter,OpenRouter,normalized-name openrouter
+UnoRouter,UnoRouter,new canonical
+Infermatic,Infermatic,new canonical
+Mancer,Mancer,new canonical
+GooseAI,GooseAI,new canonical
+Together AI,Together AI,new canonical
+OpenAI API,OpenAI API,new canonical
+Anthropic / Claude API,Anthropic / Claude API,new canonical
+Mistral API,Mistral API,new canonical
+WestLake-7B-v2,WestLake-7B-v2,new canonical
+WestLake-10.7B-v2-GGUF,WestLake-10.7B-v2-GGUF,new canonical
+Kunoichi-DPO-v2-7B,Kunoichi-DPO-v2-7B,new canonical
+Fimbulvetr-11B-v2-GGUF,Fimbulvetr-11B-v2-GGUF,new canonical
+L3-8B-Stheno-v3.1,L3-8B-Stheno-v3.1,new canonical
+LLaMA2-13B-Psyfighter2-GGUF,LLaMA2-13B-Psyfighter2-GGUF,new canonical
+Noromaid-v0.1-mixtral-8x7b-Instruct-v3,Noromaid-v0.1-mixtral-8x7b-Instruct-v3,new canonical
+Noromaid-v0.4-Mixtral-Instruct-8x7b-Zloss,Noromaid-v0.4-Mixtral-Instruct-8x7b-Zloss,new canonical
+AI Horde Discord Bot — Enerv,AI Horde Discord Bot — Enerv,new canonical
+DiscordPrototype — OpenReplicant,DiscordPrototype — OpenReplicant,new canonical
+HordeTalk,HordeTalk,new canonical
+WriterBot — Harrison Vanderbyl,WriterBot — Harrison Vanderbyl,new canonical
+AI Horde Text Model Reference,AI Horde Text Model Reference,new canonical
+KoboldAI Horde Bridge,KoboldAI Horde Bridge,new canonical
+ChatGPT–KoboldAI Horde Proxy,ChatGPT–KoboldAI Horde Proxy,new canonical
+ProtoReplicant,ProtoReplicant,new canonical
+星野 / Xingye,星野 / Xingye,new canonical
+Wow APP — Meituan,Wow APP — Meituan,new canonical
+Koko AI,Koko AI,new canonical
+猫箱 / Maoxiang,猫箱 / Maoxiang,new canonical
+筑梦岛 / Zhumengdao,筑梦岛 / Zhumengdao,new canonical
+纸飞机AI / Zhifeiji AI,纸飞机AI / Zhifeiji AI,new canonical
+AiU,AiU,new canonical
+Angel AI,Angel AI,new canonical
+唠唠 / Laolao,唠唠 / Laolao,new canonical
+Sekai,Sekai,new canonical
+叨叨 / Daodao,叨叨 / Daodao,new canonical
+Sukino-Findings,Sukino-Findings,new canonical
+Perchance AI Character Chat,Perchance AI Character Chat,normalized-name perchanceaicharacter
+Miku,Miku,new canonical
+Spellbound,Spellbound,normalized-name spellbound
+FictionLab,FictionLab,normalized-name fictionlab
+Verba,Verba,new canonical
+Sesame — Crossing the Uncanny Valley,Sesame — Crossing the Uncanny Valley,new canonical
+GobboNet,GobboNet,new canonical
+Lumiverse,Lumiverse,new canonical
+Marinara Engine,Marinara Engine,new canonical
+Synsual,Synsual,new canonical
+Gushy AI,Gushy AI,new canonical
+My Lovely AI,My Lovely AI,new canonical
+Temptations AI,Temptations AI,new canonical
+Darlink AI,Darlink AI,new canonical
+Soulkyn,Soulkyn,new canonical
+DreamBF,DreamBF,new canonical
+Fuckd AI,Fuckd AI,new canonical
+MyDreamBoy,MyDreamBoy,new canonical
+Crushi AI,Crushi AI,new canonical
+FunFun AI,FunFun AI,new canonical
+HoneyPot,HoneyPot,new canonical
+Mistress.to,Mistress.to,new canonical
+VirtuaLover,VirtuaLover,new canonical
+AIPornX,AIPornX,new canonical
+CamSoda AI,Camsoda AI,normalized-name camsodaai
+Charluv,Charluv,new canonical
+CherryPop AI,CherryPop AI,new canonical
+Spicy AI,Spicy AI,new canonical
+Fanfinity AI,Fanfinity AI,new canonical
+GoonHub,GoonHub,new canonical
+MyDreamGirlfriend,MyDreamGirlfriend,new canonical
+Uncensored Chat,Uncensored Chat,new canonical
+Hush Hush,Hush Hush,new canonical
+MessengerX.io,MessengerX.io,new canonical
+Dreamswipe,Dreamswipe,new canonical
+Janitor AI Pro,Janitor AI Pro,new canonical
+Tickles.ai,Tickles.ai,new canonical
+KrushChat AI,KrushChat AI,new canonical
+Tipsy Chat,Tipsy Chat,new canonical
+ChatSweetie,ChatSweetie,new canonical
+Chatbunny,Chatbunny,new canonical
+Sexting AI,Sexting AI,new canonical
+Rubii: AI Character Community,Rubii: AI Character Community,new canonical
+NSFWBots,NSFWBots,new canonical
+DRTy Bot,DRTy Bot,new canonical
+LusyChat,LusyChat,new canonical
+Hallufox,Hallufox,new canonical
+Mistrezz AI,Mistrezz AI,new canonical
+AI Angels,AI Angels,normalized-name aiangels
+aiAllure,AI Allure,normalized-name aiallure
+AI Charfriend,AI Charfriend,new canonical
+AI DreamGirls,AI DreamGirls,new canonical
+AI Girlfriend (aigirlfriend.com),AI Girlfriend (aigirlfriend.com),new canonical
+AI Girlfriend WTF,AI Girlfriend WTF,normalized-name aigirlfriendwtf
+AI Peeps,AI Peeps,normalized-name aipeeps
+AI Smut Writer,AI Smut Writer,new canonical
+AIExotic,AIExotic,new canonical
+AIHentaiChat,AIHentaiChat,normalized-name aihentai
+AIHentai.co,AIHentai.co,new canonical
+AIMOUR,AIMOUR,new canonical
+AiPornChat.online,AIPornChat,normalized-name aipornchat
+AiWaifu,AiWaifu,new canonical
+AliveAI,AliveAI,new canonical
+Allkey AI,Allkey AI,new canonical
+Alphazria,Alphazria,normalized-name alphazria
+AmoreWithAI,AmoreWithAI,new canonical
+AmorLink AI,AmorLink AI,new canonical
+Angel.ai,Angel AI,normalized-name angelai
+Anima,Anima,new canonical
+Arauwuara AI,Arauwuara AI,new canonical
+Aroused,Aroused,new canonical
+ATRoleplay (AdultTime),ATRoleplay (AdultTime),new canonical
+BetterWaifu,BetterWaifu,new canonical
+Bot3,Bot3,new canonical
+Botify AI,Botify AI,normalized-name botifyai
+Brazzers.ai,Brazzers.ai,new canonical
+CamSoda AI,Camsoda AI,normalized-name camsodaai
+CamSoda AI,Camsoda AI,domain variant camsoda.ai (canonical home camsoda.com)
+Candy AI,Candy.ai,normalized-name candyai
+Caveduck,Caveduck (케이브덕),normalized-name caveduck
+CelebMakerAI,CelebMakerAI,new canonical
+CharaxAI,CharaxAI,new canonical
+Character.AI,Character.AI,alias-table (census-A identity resolution)
+CharacterSphere.ai,CharacterSphere.ai,new canonical
+ChatFAI,ChatFAI,normalized-name chatfai
+ChatRoger,ChatRoger,new canonical
+ChatRule,ChatRule,new canonical
+ChatUp AI,ChatUp AI,normalized-name chatupai
+Chai,Chai,alias-table (census-A identity resolution)
+Chai,Chai,domain variant chai.ml (canonical home chai-research.com)
+Cherry AI,Cherry AI,new canonical
+CherryPop AI,CherryPop AI,normalized-name cherrypopai
+Clona AI,Clona AI,new canonical
+Clonella,Clonella,new canonical
+ClothOff,ClothOff,new canonical
+Cookii.ai,Cookii.ai,new canonical
+Coquette AI,Coquette AI,new canonical
+Couple Me,Couple.me,normalized-name coupleme
+Crano AI,Crano AI,new canonical
+CraveU AI,CraveU AI,alias-table (census-A identity resolution)
+CreateAIAsian,CreateAIAsian,new canonical
+CreateAIBBW,CreateAIBBW,new canonical
+CreateAIEbony,CreateAIEbony,new canonical
+CreateAIFurry,CreateAIFurry,new canonical
+CreateAIIndian,CreateAIIndian,new canonical
+CreateAILatina,CreateAILatina,new canonical
+CreateAIMilf,CreateAIMilf,new canonical
+CreateAIShemale,CreateAIShemale,new canonical
+CreateHentai,CreateHentai,new canonical
+CreatePorn,CreatePorn,new canonical
+CrushOn.AI,CrushOn.AI,normalized-name crushonai
+Crushie AI,Crushie AI,new canonical
+Crushi,Crushi,new canonical
+Cuties AI,Cuties AI,new canonical
+DarLink AI,Darlink AI,normalized-name darlinkai
+Deepdance,Deepdance,new canonical
+DeepLove AI,DeepLove AI,new canonical
+DeepMode,DeepMode,new canonical
+DeepStrip,DeepStrip,new canonical
+DeepUndress,DeepUndress,new canonical
+DeepX,DeepX,new canonical
+Dezyred,Dezyred,new canonical
+Dippy,Dippy,new canonical
+dmwithme,dmwithme,new canonical
+DoaCam,DoaCam,new canonical
+Dokichat,Dokichat,new canonical
+Dondi AI,Dondi AI,new canonical
+Dopple.AI,Dopple AI,normalized-name doppleai
+DPNode,DPNode,new canonical
+Dream Companion,Dream Companion,normalized-name dream
+Dream Companion,Dream Companion,domain variant mydreamcompanion.com (canonical home aixploria.com)
+DreamDolls,DreamDolls,new canonical
+DreamBF,DreamBF,alias-table (census-A identity resolution)
+DreamGF,DreamGF,alias-table (census-A identity resolution)
+Dreamle,Dreamle,new canonical
+Dreampress Erotica,Dreampress Erotica,new canonical
+Dreamz AI,Dreamz AI,new canonical
+Eden AI,Eden AI,new canonical
+eHentai.ai,eHentai.ai,new canonical
+Elomia,Elomia,new canonical
+Emochi,Emochi,normalized-name emochi
+Emochi,Emochi,domain variant emochi.com (canonical home google.com)
+Enjoy (AI Town),Enjoy (AI Town),new canonical
+Erogen,Erogen,new canonical
+Eromantic,Eromantic,new canonical
+EroPlay,EroPlay,new canonical
+ErosMate,ErosMate,new canonical
+Eternal AI,Eternal AI,normalized-name eternalai
+EVA AI,EVA AI,normalized-name evaai
+Facy,Facy,new canonical
+FanFinity,FanFinity,new canonical
+Fantasy AI,Fantasy AI,new canonical
+Fantasy Box,Fantasy Box,new canonical
+FantasyGF,FantasyGF,normalized-name fantasygf
+FantasyXXX,FantasyXXX,new canonical
+FeelReal,FeelReal,new canonical
+FlirtCam AI,FLIRTcam.AI,normalized-name flirtcamai
+FlowGPT,FlowGPT,normalized-name flowgpt
+FotoX,FotoX,new canonical
+Fuckd.ai,Fuckd AI,normalized-name fuckdai
+FuckGen,FuckGen,new canonical
+FunFun AI,FunFun AI,normalized-name funfunai
+FYF.com,FYF.com,new canonical
+Fykoo,Fykoo,new canonical
+GeneratePorn,GeneratePorn,new canonical
+Get-Harder,Get-Harder,new canonical
+Get-Waifu,Get-Waifu,new canonical
+GirlfriendGPT,GirlfriendGPT,normalized-name girlfriendgpt
+Girlfriendly AI,Girlfriendly AI,normalized-name girlfriendlyai
+GoLove AI,GoLove AI,new canonical
+HammerAI,HammerAI,normalized-name hammerai
+Henx.ai,Henx.ai,new canonical
+HeraHaven,HeraHaven,normalized-name herahaven
+HeyGF.ai,HeyGF.ai,new canonical
+HiFun AI,HiFun AI,new canonical
+HoneyBot AI,HoneyBot AI,new canonical
+HotGens,HotGens,new canonical
+HotTalks,HotTalks,new canonical
+iGirl,iGirl,new canonical
+Igenfun,Igenfun,new canonical
+Ikisoda,Ikisoda,new canonical
+Imagine.red,Imagine.red,new canonical
+ImScarlet,ImScarlet,new canonical
+INeedThis,INeedThis,new canonical
+Intimate AI,Intimate AI,normalized-name intimateai
+JanitorAI,Janitor AI,normalized-name janitorai
+Jerkmate AI,Jerkmate AI,new canonical
+Joi AI / LipBytes,Joi AI,normalized-name joiai
+Joyland AI,Joyland AI,normalized-name joylandai
+Juicy AI,Juicy AI,normalized-name juicyai
+JuicyChat.AI,JuicyChat.AI,normalized-name juicychatai
+JustPorn.ai,JustPorn.ai,new canonical
+JustSext,JustSext,new canonical
+Kink AI,Kink AI,normalized-name kinkai
+Kinked,Kinked,new canonical
+Kindroid,Kindroid,normalized-name kindroid
+Kissable,Kissable,new canonical
+Krush Chat,Krush Chat,new canonical
+Kupid AI,Kupid AI,normalized-name kupidai
+Kuro AI,Kuro AI,new canonical
+Laixen,Laixen,new canonical
+Lightspeedworld (ex-Porn.ai),Lightspeedworld (ex-Porn.ai),new canonical
+LiveDreams,LiveDreams,new canonical
+LoveChat,LoveChat,normalized-name love
+Lovel.ai,Lovel.ai,new canonical
+Lovemy,Lovemy,new canonical
+Lovora,Lovora,new canonical
+Lovescape,Lovescape,new canonical
+LusyChat AI,LusyChat AI,new canonical
+LustCrush AI,LustCrush AI,new canonical
+LustGF AI,LustGF AI,new canonical
+Lustify,Lustify,new canonical
+Luvr AI,Luvr AI,new canonical
+MadePorn,MadePorn,new canonical
+MagicBuddy,MagicBuddy,new canonical
+Meet Muse,Meet Muse,new canonical
+Mira,Mira,new canonical
+Mistrezz AI,Mistrezz AI,normalized-name mistrezzai
+Moescape,Moescape,new canonical
+Moltfans,Moltfans,new canonical
+Muah AI,Muah AI,normalized-name muahai
+My Spicy Vanilla,My Spicy Vanilla,new canonical
+MyBabes AI,MyBabes.ai,normalized-name mybabesai
+MyBunny AI,MyBunny AI,normalized-name mybunnyai
+MyDreamBoy,MyDreamBoy,normalized-name mydreamboy
+MyLovely AI,My Lovely AI,normalized-name mylovelyai
+Nectar AI (TryNectar),Nectar AI (TryNectar),normalized-name nectaraitrynectar
+Nemora AI,Nemora AI,new canonical
+New Girl AI,New Girl AI,new canonical
+Nextpart,Nextpart,new canonical
+NextPorn,NextPorn,new canonical
+NoFilterGPT,NoFilterGPT,normalized-name nofiltergpt
+Nomi,Nomi AI,alias-table (census-A identity resolution)
+Nonolo.ai,Nonolo.ai,new canonical
+NovelAI,NovelAI,alias-table (census-A identity resolution)
+NovelX,NovelX,new canonical
+NSFWcharacter.ai,NSFW Character AI,normalized-name nsfwcharacterai
+NSFWgpt-AI,NsfwGPT.AI,normalized-name nsfwgptai
+NSFWLover,NSFWLover,normalized-name nsfwlover
+NudeFab,NudeFab,new canonical
+Nudify App,Nudify App,new canonical
+OhChat,OhChat,normalized-name ohchat
+Omoi,Omoi,new canonical
+OnlyChar AI,OnlyChar.AI,normalized-name onlycharai
+OnlyFakes,OnlyFakes,new canonical
+OnlyFap,OnlyFap,new canonical
+OnlyNSFW,OnlyNSFW,new canonical
+OpenLover,OpenLover,new canonical
+Openmind AI,Openmind AI,new canonical
+Ouba,Ouba,new canonical
+OurDream AI,OurDream AI,alias-table (census-A identity resolution)
+Penly (AIPenly),Penly (AIPenly),new canonical
+Pephop AI,PepHop AI,normalized-name pephopai
+Pi (Inflection),Pi (Inflection),new canonical
+PiPar,PiPar,new canonical
+Pinku,Pinku,new canonical
+PlayBox,PlayBox,new canonical
+Plotto,Plotto,new canonical
+Poe,Poe,normalized-name poe
+Porn.ai,Porn.ai,new canonical
+PornArt,PornArt,new canonical
+PornDude AI,PornDude AI,new canonical
+Pornderful,Pornderful,new canonical
+PornHaven,PornHaven,new canonical
+Pornify,Pornify,new canonical
+PornJoy,PornJoy,new canonical
+PornJourney,PornJourney,new canonical
+PornLab AI,PornLab AI,new canonical
+PornWorks AI,PornWorks AI,new canonical
+PornX,PornX,new canonical
+Promptchan AI,Promptchan AI,normalized-name promptchanai
+Promptchan AI,Promptchan AI,domain variant promptchan.com (canonical home promptchan.ai)
+PureFantasy,PureFantasy,new canonical
+Qwinky,Qwinky,new canonical
+RealmsAI,RealmsAI,new canonical
+RedQuill,RedQuill,new canonical
+Reminisce,Reminisce,new canonical
+Replika,Replika,normalized-name replika
+RoleChar,RoleChar,new canonical
+Rolemantic AI,Rolemantic AI,new canonical
+RolePlai,RolePlai,new canonical
+Romantic AI,Romantic AI,normalized-name romanticai
+RushChat,RushChat,normalized-name rush
+Sakura AI,Sakura AI,normalized-name sakuraai
+Sakura AI,Sakura AI,domain variant sakura.ai (canonical home sakura.fm)
+Saylo,Saylo,new canonical
+Scrile Connect,Scrile Connect,new canonical
+Secret Desires AI,Secret Desires AI,normalized-name secretdesiresai
+Secret Share AI,Secret Share AI,new canonical
+SecretCrush AI,SecretCrush AI,new canonical
+Secrets AI,Secrets AI,alias-table (census-A identity resolution)
+Seduced AI,Seduced AI,new canonical
+Selira.ai,Selira.ai,new canonical
+Seewa,Seewa,new canonical
+Sexy.ai,Sexy.ai,new canonical
+Shemale-AI,Shemale-AI,new canonical
+ShemaleAI.chat,Shemale-AI,normalized-name shemaleai
+ShemaleAI.chat,Shemale-AI,domain variant shemaleai.chat (canonical home shemale-ai.com)
+Shpritz AI,Shpritz AI,new canonical
+Smitten,Smitten,new canonical
+Soul.App,Soul chat,normalized-name soul
+Soulfun,SoulFun,normalized-name soulfun
+SoulGen,Soulgen,normalized-name soulgen
+SoulHi,SoulHi,new canonical
+Soulkyn AI,Soulkyn AI,normalized-name soulkynai
+Sparkles,Sparkles,new canonical
+Spicy Box,Spicy Box,new canonical
+Spicy Porn,Spicy Porn,new canonical
+SpicyChat,SpicyChat AI,alias-table (census-A identity resolution)
+Spicier,Spicier,new canonical
+Spicylab,Spicylab,new canonical
+SugarLab AI,SugarLab AI,new canonical
+SweetChat,SweetChat,new canonical
+SweetDream AI,SweetDream AI,new canonical
+Swipey AI,Swipey AI,new canonical
+SynClub,SynClub,normalized-name synclub
+SynClub,SynClub,domain variant synclub.ai (canonical home google.com)
+Talkie AI,Talkie AI,alias-table (census-A identity resolution)
+TextHub,Texthub,normalized-name texthub
+ThotChat.ai,ThotChat.ai,new canonical
+Tickle Talk AI,Tickle Talk AI,new canonical
+Tolan,Tolan,new canonical
+Tyan AI,Tyan AI,new canonical
+Uncensored AI (uncensored.com),Uncensored AI (uncensored.com),new canonical
+UnoRouter,UnoRouter,normalized-name unorouter
+UnoRouter,UnoRouter,domain variant unorouter.com (canonical home unorouter.ai)
+Virt-A-Mate,Virt-A-Mate,new canonical
+VirtualCrush,VirtualCrush,new canonical
+VirtualGF,VirtualGF,new canonical
+VMate AI,VMate AI,normalized-name vmateai
+WaifuChat,WaifuChat,normalized-name waifu
+WaifuXL,WaifuXL,new canonical
+WhatsLove,WhatsLove,new canonical
+WSUP AI,WSUP AI,new canonical
+Xchar AI,Xchar AI,new canonical
+Xeve.ai,Xeve.ai,new canonical
+Xotic AI,Xotic AI,normalized-name xoticai
+Yollo AI,Yollo AI,new canonical
+Yume AI,Yume AI,new canonical
+zeta,Zeta (제타 / ゼタ),normalized-name zeta
+Zumi,Zumi,new canonical
+SillyTavern,SillyTavern,alias-table (census-A identity resolution)
+SillyTavern,SillyTavern,domain variant github.com (canonical home sillytavern.app)
+TavernAI,TavernAI,normalized-name tavernai
+RisuAI,RisuAI,alias-table (census-A identity resolution)
+RisuAI,RisuAI,domain variant github.com (canonical home risuai.xyz)
+Agnai,Agnai (Agnaistic),normalized-name agnai
+ChatterUI,ChatterUI,new canonical
+MiniTavern,MiniTavern,normalized-name minitavern
+Questie AI,Questie AI,new canonical
+LobeChat,LobeChat,new canonical
+KoboldCpp,KoboldCpp,normalized-name koboldcpp
+KoboldAI,KoboldAI,normalized-name koboldai
+Oobabooga textgen / text-generation-webui,text-generation-webui / Oobabooga,normalized-name textgenerationwebui
+LM Studio,LM Studio,normalized-name lmstud
+Ollama,Ollama,normalized-name ollama
+Ollama,Ollama,domain variant github.com (canonical home ollama.com)
+ComfyUI,ComfyUI,new canonical
+AUTOMATIC1111 Stable Diffusion WebUI,AUTOMATIC1111 Stable Diffusion WebUI,new canonical
+Faraday.dev,Faraday.dev,new canonical
+Local Waifu,Local Waifu,new canonical
+Foreverse,Foreverse,new canonical
+Scowld,Scowld,new canonical
+Chub.ai,Chub AI,normalized-name chubai
+CharacterHub,CharacterHub,normalized-name characterhub
+Character Tavern,Character-Tavern,normalized-name charactertavern
+JannyAI,JannyAI,normalized-name jannyai
+Botbooru,Botbooru,normalized-name botbooru
+Pawchive,Pawchive,new canonical
+Blocky's Corner card list,Blocky's Corner card list,new canonical
+teknium1/character-cards,teknium1/character-cards,new canonical
+OpenRouter,OpenRouter,normalized-name openrouter
+Venice.ai,Venice.ai,new canonical
+Civitai,Civitai,new canonical
+Hugging Face,Hugging Face,new canonical
+Heretic (abliteration tool),Heretic (abliteration tool),new canonical
+GPT-SoVITS,GPT-SoVITS,new canonical
+AIPornGuy,AIPornGuy,new canonical
+AI Porn Apps,AI Porn Apps,new canonical
+SexualAI,SexualAI,new canonical
+YouCam AI Pro,YouCam AI Pro,new canonical
+Janitor AI,Janitor AI,normalized-name janitorai
+SpicyChat AI,SpicyChat AI,alias-table (census-A identity resolution)
+CrushOn.AI,CrushOn.AI,normalized-name crushonai
+Candy AI,Candy.ai,normalized-name candyai
+OurDream AI,OurDream AI,alias-table (census-A identity resolution)
+Chub.ai (Venus Chub),Chub AI,normalized-name chubai
+SillyTavern,SillyTavern,alias-table (census-A identity resolution)
+SillyTavern,SillyTavern,domain variant github.com (canonical home sillytavern.app)
+Character.AI,Character.AI,alias-table (census-A identity resolution)
+PolyBuzz (Poly.AI),PolyBuzz (formerly Poly.AI),normalized-name polybuzz
+GirlfriendGPT (GPTGirlfriend),GirlfriendGPT,normalized-name girlfriendgpt
+Replika,Replika,normalized-name replika
+Replika,Replika,domain variant replika.ai (canonical home replika.com)
+Muah AI,Muah AI,normalized-name muahai
+Nastia AI,Nastia AI,normalized-name nastiaai
+Moemate,Moemate,new canonical
+JuicyChat AI,JuicyChat.AI,normalized-name juicychatai
+LustCrush AI,LustCrush AI,normalized-name lustcrushai
+Tyan AI,Tyan AI,normalized-name tyanai
+Kupid AI,Kupid AI,normalized-name kupidai
+SecretDesires AI,Secret Desires AI,normalized-name secretdesiresai
+Romantic AI,Romantic AI,normalized-name romanticai
+Kindroid,Kindroid,normalized-name kindroid
+Nomi AI,Nomi AI,alias-table (census-A identity resolution)
+Botify AI,Botify AI,normalized-name botifyai
+Yodayo (Moescape),Yodayo,alias-table (census-A identity resolution)
+Joi AI,Joi AI,normalized-name joiai
+Joi AI,Joi AI,domain variant joi.ai (canonical home joi.com)
+HoneyChat,HoneyChat,normalized-name honey
+CharacterHub,CharacterHub,normalized-name characterhub
+KoboldAI / KoboldCpp,KoboldAI,normalized-name koboldai
+KoboldAI / KoboldCpp,KoboldAI,domain variant koboldai.org (canonical home github.com)
+Agnaistic (Agnai),Agnaistic (Agnai),new canonical
+Backyard AI (Faraday.dev),Backyard AI,normalized-name backyardai
+OpenRouter,OpenRouter,normalized-name openrouter
+Pygmalion AI,PygmalionAI / Pygmalion Chat,normalized-name pygmalionai
+Talkie,Talkie AI,alias-table (census-A identity resolution)
+Anima AI,Anima AI,normalized-name animaai
+Carter Chat,Carter Chat,alias-table (census-A identity resolution)
+Spellbound,Spellbound,normalized-name spellbound
+Spellbound,Spellbound,domain variant spellbound.im (canonical home tryspellbound.com)
+Babble,Babble,new canonical
+Cosmos RP,Cosmos RP,new canonical
+Perchance AI,Perchance AI,new canonical
+Saucepan AI,Saucepan AI,normalized-name saucepanai
+Chai AI,Chai,alias-table (census-A identity resolution)
+Lovescape,Lovescape,alias-table (census-A identity resolution)
+DreamGF,DreamGF,alias-table (census-A identity resolution)
+LustGF,LustGF,normalized-name lustgf
+Nectar AI (TryNectar),Nectar AI (TryNectar),normalized-name nectaraitrynectar
+Nectar AI (TryNectar),Nectar AI (TryNectar),domain variant nectar.ai (canonical home trynectar.ai)
+XME,XME,new canonical
+aiAllure,AI Allure,normalized-name aiallure
+Xotic AI,Xotic AI,normalized-name xoticai
+Erogen AI,Erogen AI,normalized-name erogenai
+Dreamle AI,Dreamle AI,new canonical
+NsfwGPT,NsfwGPT,new canonical
+ChatReal AI,ChatReal AI,new canonical
+FLIRTcam.ai,FLIRTcam.AI,normalized-name flirtcamai
+TalkieMate,TalkieMate,normalized-name talkiemate
+SweetTalk AI,SweetTalk AI,new canonical
+Veline AI,Veline AI,new canonical
+aigirlfriends.ai,aigirlfriends.ai,new canonical
+Lollipop Chat (Lollipop AI Girls),Lollipop Chat (Lollipop AI Girls),new canonical
+DiscordPal,DiscordPal,new canonical
+Couple Me,Couple.me,normalized-name coupleme
+Couple Me,Couple.me,domain variant aibase.com (canonical home couple.me)
+GPTFriend.chat,GPTFriend.chat,new canonical
+Blush,Blush,new canonical
+Glow-AI,Glow-AI,new canonical
+BFF (GPT-4 friend in iMessage),BFF (GPT-4 friend in iMessage),new canonical
+Iris Chat,Iris Chat,new canonical
+LusyChat AI,LusyChat AI,normalized-name lusychatai
+JannyAI,JannyAI,normalized-name jannyai
+CAI Bot List,CAI Bot List,new canonical
+SpicyRanks AI,SpicyRanks AI,new canonical
+Janitor.ai (Secondary Domain),Janitor AI,normalized-name janitorai
+Janitor.ai (Secondary Domain),Janitor AI,domain variant janitor.ai (canonical home janitorai.com)
+Dopple.AI,Dopple AI,normalized-name doppleai
+RPG Diary - AI Chat Journal,RPG Diary - AI Chat Journal,new canonical
+My Virtual AI Boyfriend (iBoy),My Virtual AI Boyfriend (iBoy),new canonical
+Fantasia: Character AI Chat,Fantasia: Character AI Chat,new canonical
+AIChattings,AIChattings,new canonical
+AI Dungeon,AI Dungeon,alias-table (census-A identity resolution)
+AIRoleplayers,AIRoleplayers,new canonical
+AlphaZria,Alphazria,normalized-name alphazria
+AltCat AI,AltCat AI,new canonical
+AnyFans AI,AnyFans AI,new canonical
+Aroused AI,Aroused AI,normalized-name arousedai
+Avatar.One,Avatar.One,new canonical
+CamSoda AI,Camsoda AI,normalized-name camsodaai
+CreatePorn,CreatePorn,normalized-name createporn
+CrushChat AI,CrushChat AI,new canonical
+Cuties AI,Cuties AI,normalized-name cutiesai
+DeepMode,DeepMode,normalized-name deepmode
+Digi AI,Digi AI,new canonical
+DreamGen,DreamGen,normalized-name dreamgen
+DreamPress AI,Dreampress AI,normalized-name dreampressai
+EasyERP AI,EasyERP AI,new canonical
+EHentai AI,eHentai.ai,normalized-name ehentaiai
+EroPlay AI,EroPlay.ai,normalized-name eroplayai
+Fams AI,Fams AI,new canonical
+FantasyGF,FantasyGF,normalized-name fantasygf
+FantasyGF,FantasyGF,domain variant fantasygf.com (canonical home fantasygf.ai)
+FoxyChat AI,FoxyChat AI,new canonical
+FreeGF AI,FreeGF AI,new canonical
+GetIdol,GetIdol,new canonical
+Girlfriend AI,Girlfriend AI,new canonical
+Glambase,Glambase,new canonical
+HackAIGC,HackAIGC,new canonical
+HeraHaven,HeraHaven,normalized-name herahaven
+HotTalks AI,HotTalks AI,normalized-name hottalksai
+IdolChat,IdolChat,new canonical
+Joyland AI,Joyland AI,normalized-name joylandai
+LateNight AI,LateNightAI,normalized-name latenightai
+Linkin.love,Linkin.love,new canonical
+Me4U AI,Me4U AI,new canonical
+MessengerX,MessengerX.io,normalized-name messengerx
+MySentient AI,MySentient AI,new canonical
+NaughtyGF AI,NaughtyGF AI,new canonical
+NSFWCharacterAI,NSFW Character AI,normalized-name nsfwcharacterai
+NSFWCharacterAI,NSFW Character AI,domain variant nsfwcharacterai.com (canonical home nsfwcharacter.ai)
+OurAIDream,OurAIDream,new canonical
+PepHop AI,PepHop AI,normalized-name pephopai
+Pirr AI,Pirr AI,new canonical
+PornWorks,PornWorks,new canonical
+Rochat AI,Rochat AI,new canonical
+RosyChat AI,RosyChat AI,new canonical
+RushChat AI,RushChat AI,new canonical
+RushChat.org,RushChat,normalized-name rushchat
+RushChat.org,RushChat,domain variant rushchat.org (canonical home rushchat.ai)
+Sakura FM,Sakura FM,new canonical
+Senpai Chat,Senpai Chat,new canonical
+Shemale-AI,Shemale-AI,normalized-name shemaleai
+SoulFun AI,SoulFun AI,new canonical
+Soulkyn,Soulkyn,normalized-name soulkyn
+Sweetr,Sweetr,new canonical
+The-Cuties AI,The-Cuties AI,new canonical
+TinglyGF,TinglyGF,new canonical
+Tipsy Chat,Tipsy Chat,normalized-name tipsy
+Undress App,Undress App,new canonical
+Unstability AI,Unstability AI,new canonical
+Yollo AI,Yollo AI,normalized-name yolloai
+Tidefall,Tidefall,new canonical
+GPT-SoVITS,GPT-SoVITS,normalized-name gptsovits
+fish-speech,fish-speech,new canonical
+CosyVoice,CosyVoice,new canonical
+index-tts,index-tts,new canonical
+Callhome,Callhome,new canonical
+call_call,call_call,new canonical
+voice-mcp,voice-mcp,new canonical
+binaural-voice,binaural-voice,new canonical
+Gove,Gove,new canonical
+erpan,erpan,new canonical
+CharacterSphere.ai,CharacterSphere.ai,normalized-name charactersphereai
+Pi,Pi,new canonical
+Alive AI,AliveAI,normalized-name aliveai
+Xoul AI,Xoul AI,normalized-name xoulai
+MyLuna VIP,MyLuna VIP,new canonical
+Kajiwoto,Kajiwoto,normalized-name kajiwoto
+Charachat,Charachat,new canonical
+HammerAI,HammerAI,normalized-name hammerai
+Cantina,Cantina,new canonical
+Poe by Quora,Poe by Quora,new canonical
+Miku.gg,Miku.gg,normalized-name mikugg
+Anthropic Claude API,Anthropic / Claude API,normalized-name anthropicclaudeapi
+Cohere Command R+ API,Cohere Command R+ API,new canonical
+Mistral Models / API,Mistral Models / API,new canonical
+WyvernChat,WyvernChat,normalized-name wyvern
+Loremate AI,Loremate AI,new canonical
+Elsecraft,Elsecraft,new canonical
+CharSnap,CharSnap,new canonical
+POVChat,POVChat,normalized-name povchat
+Character Tavern,Character-Tavern,normalized-name charactertavern
+Character Tavern,Character-Tavern,domain variant charactertavern.com (canonical home character-tavern.com)
+Anime.gf,AnimeGF,normalized-name animegf
+Anime.gf,AnimeGF,domain variant anime.gf (canonical home animegf.com)
+Chily Tavern,Chily Tavern,new canonical
+NanoGPT,NanoGPT,normalized-name nanogpt
+FictionLab,FictionLab,normalized-name fictionlab
+HauhauCS Uncensored Models,HauhauCS Uncensored Models,new canonical
+Huihui Abliterated Models,Huihui Abliterated Models,new canonical
+DavidAU Heretic Uncensored Models,DavidAU Heretic Uncensored Models,new canonical
+ArliAI Derestricted Models,ArliAI Derestricted Models,new canonical
+Unhinged ERP Benchmark,Unhinged ERP Benchmark,new canonical
+NSFWGirlfriend,NSFWGirlfriend,normalized-name nsfw
+NSFW AI Art Generator,NSFW AI Art Generator,new canonical
+NSFWBots,NSFWBots,normalized-name nsfwbots
+NSFW AI Chat,NSFW AI Chat,normalized-name nsfwai
+NSFW Content Detection API,NSFW Content Detection API,new canonical
+Yume AI,Yume AI,normalized-name yumeai
+Yume AI,Yume AI,domain variant ourdream.ai (canonical home yumeai.com)
+Seduced AI,Seduced AI,normalized-name seducedai
+Seduced AI,Seduced AI,domain variant seduced.ai (canonical home seduced.com)
+Saylo AI,Saylo AI,new canonical
+Charstar,Charstar,new canonical
+FlirtAlly,FlirtAlly,new canonical
+AI Horde,AI Horde / KoboldAI Horde,normalized-name aihorde
+NovelAI,NovelAI,alias-table (census-A identity resolution)
+Mancer AI,Mancer AI,new canonical
+AI Character Cards,AI Character Cards,normalized-name aicharactercards
+LoreWeaver AI,LoreWeaver AI,new canonical
+SweetBun AI,SweetBun AI,new canonical
+io-ddm-char.uwu.ai,io-ddm-char.uwu.ai,new canonical
+Venice AI,Venice.ai,normalized-name veniceai
+MySpicy AI,MySpicy AI,new canonical
+HoneyPot,HoneyPot,normalized-name honeypot
+Brazzers AI,Brazzers.ai,normalized-name brazzersai
+Eden AI,Eden AI,normalized-name edenai
+Eden AI,Eden AI,domain variant edenai.world (canonical home edenai.com)
+CraveU AI,CraveU AI,alias-table (census-A identity resolution)
+Soulmate IO,Soulmate IO,new canonical
+FYF,FYF,new canonical
+AiMour AI,AIMOUR.AI,normalized-name aimourai
+Flirti AI,Flirti AI,new canonical
+Crushi AI,Crushi AI,normalized-name crushiai
+Wollo AI,Wollo AI,new canonical
+Luvr AI,Luvr AI,normalized-name luvrai
+HotChat AI,HotChat AI,new canonical
+PornJoy AI,PornJoy AI,new canonical
+MyBabes AI,MyBabes.ai,normalized-name mybabesai
+Clonella,Clonella,normalized-name clonella
+Lewdly AI,Lewdly AI,new canonical
+FunFun AI,FunFun AI,normalized-name funfunai
+Penly AI,Penly AI,new canonical
+YouTwo AI,Youtwo.ai,normalized-name youtwoai
+Juicy-AI.com,Juicy AI,normalized-name juicyai
+Fykoo,Fykoo,normalized-name fykoo
+Girlfriendly AI,Girlfriendly AI,normalized-name girlfriendlyai
+AiWaifu,AiWaifu,normalized-name aiwaifu
+Eromantic AI,Eromantic AI,new canonical
+SweetChat,SweetChat,normalized-name sweet
+SweetChat,SweetChat,domain variant sweetchat.ai (canonical home sweetchat.fun)
+ChatRule AI,ChatRule AI,new canonical
+Tickle Talk,Tickle Talk,new canonical
+Paradot AI,Paradot AI,new canonical
+MyLovely AI,My Lovely AI,normalized-name mylovelyai
+OnlyTwins AI,OnlyTwins AI,new canonical
+SoftlySix,SoftlySix,new canonical
+KYYNK AI,KYYNK AI,new canonical
+Swipey AI,Swipey AI,normalized-name swipeyai
+NoFilterGPT,NoFilterGPT,normalized-name nofiltergpt
+Open Spoken AI,Open Spoken AI,new canonical
+Deep Realms,Deep Realms,new canonical
+ChatUp AI,ChatUp AI,normalized-name chatupai
+Dream Companion,Dream Companion,normalized-name dream
+Dream Companion,Dream Companion,domain variant aichattings.com (canonical home aixploria.com)
+Soulmaite AI,Soulmaite AI,new canonical
+WaifuHub.ai,WaifuHub.ai,new canonical
+NSFW Chatty AI,NSFW Chatty AI,new canonical
+Pornify,Pornify,normalized-name pornify
+Dessi AI,Dessi AI,new canonical
+GeneratePorn.ai,GeneratePorn.ai,new canonical
+WhatsLove AI,WhatsLove AI,new canonical
+FantasiaXXX,FantasiaXXX,new canonical
+Fuckd.ai,Fuckd AI,normalized-name fuckdai
+Your AI Girlfriend (Intimate),Your AI Girlfriend (Intimate),new canonical
+Twinit,Twinit,new canonical
+Idyll,Idyll,new canonical
+Tingo AI (Discover My AI),Tingo AI (Discover My AI),new canonical
+Virtual Fantasy AI,Virtual Fantasy AI,new canonical
+AI NightTalk,AI NightTalk,new canonical
+Lifelike,Lifelike,new canonical
+AvatarsAI,AvatarsAI,new canonical
+AI Peeps,AI Peeps,normalized-name aipeeps
+AI Peeps,AI Peeps,domain variant aibase.com (canonical home aipeeps.com)
+Questie.ai,Questie AI,normalized-name questieai
+Lure Machina AI Companion,Lure Machina AI Companion,new canonical
+Amavi,Amavi,new canonical
+Melany AI (Buddies),Melany AI (Buddies),new canonical
+FunTalk.AI,FunTalk.AI,new canonical
+AI Anime Girlfriend,AI Anime Girlfriend,new canonical
+MakeGirl,MakeGirl,new canonical
+Your AI Girlfriend Online,Your AI Girlfriend Online,new canonical
+AmorLink AI,AmorLink AI,normalized-name amorlinkai
+AmorLink AI,AmorLink AI,domain variant aibase.com (canonical home amorlink.ai)
+OhChat,OhChat,normalized-name ohchat
+OhChat,OhChat,domain variant aibase.com (canonical home ohchat.com)
+Your Girlfriend 2.0,Your Girlfriend 2.0,new canonical
+Sexiness AI,Sexiness AI,new canonical
+DreamHoney,DreamHoney,new canonical
+Whispy AI,Whispy AI,new canonical
+SENSY AI,SENSY AI,new canonical
+Call Annie,Call Annie,new canonical
+2am Chat: AI Roleplay Game,2am Chat: AI Roleplay Game,new canonical
+75,75,new canonical
+7755,7755,new canonical
+abliteration.ai,abliteration.ai,new canonical
+Adorii,Adorii,new canonical
+Affiny AI,Affiny AI,new canonical
+AfterHours,AfterHours,new canonical
+Agnai,Agnai (Agnaistic),normalized-name agnai
+Agnai Editor,Agnai Editor,new canonical
+AI Angels,AI Angels,normalized-name aiangels
+AI BF - Virtual Boyfriend Chat,AI BF - Virtual Boyfriend Chat,new canonical
+AI Boyfriend — 6Hive OU,AI Boyfriend — 6Hive OU,new canonical
+AI Boyfriend — Caitty,AI Boyfriend — Caitty,new canonical
+AI Boyfriend — Caitty AiBoyfriend2Pro,AI Boyfriend — Caitty AiBoyfriend2Pro,new canonical
+AI Boyfriend 2,AI Boyfriend 2,new canonical
+Ai Boyfriend Chat,Ai Boyfriend Chat,new canonical
+AI Boyfriend Chat - DreamWeave,AI Boyfriend Chat - DreamWeave,new canonical
+AI Boyfriend Chat - Husby,AI Boyfriend Chat - Husby,new canonical
+AI Boyfriend: Virtual Love,AI Boyfriend: Virtual Love,new canonical
+AI Boyfriend:Love Chat Partner,AI Boyfriend:Love Chat Partner,new canonical
+AI Characters: Roleplay Chat,AI Characters: Roleplay Chat,new canonical
+AI Chatbot - Bluu,AI Chatbot - Bluu,new canonical
+AI Chatbot & Assistant - Jimmy,AI Chatbot & Assistant - Jimmy,new canonical
+AI Dungeon,AI Dungeon,alias-table (census-A identity resolution)
+AI Fake Call,AI Fake Call,new canonical
+AI Friend 3D - Talking Buddy,AI Friend 3D - Talking Buddy,new canonical
+AI Friend: Create AI Chatbot,AI Friend: Create AI Chatbot,new canonical
+AI Game Master - Dungeon RPG,AI Game Master - Dungeon RPG,new canonical
+AI Girlfriend,AI Girlfriend (aigirlfriend.com),normalized-name aigirlfriend
+AI Girlfriend - Romantic chat,AI Girlfriend - Romantic chat,new canonical
+AI Girlfriend - TruMate,AI Girlfriend - TruMate,new canonical
+AI Girlfriend — Caitty,AI Girlfriend — Caitty,new canonical
+AI Girlfriend : Live Simulator,AI Girlfriend : Live Simulator,new canonical
+AI Girlfriend 2 — Caitty,AI Girlfriend 2 — Caitty,new canonical
+AI GirlFriend AI Story ChatJoy,AI GirlFriend AI Story ChatJoy,new canonical
+AI Girlfriend Chat Simulator,AI Girlfriend Chat Simulator,new canonical
+AI Girlfriend Club,AI Girlfriend Club,new canonical
+AI Girls by aiAllure,AI Girls by aiAllure,normalized-name aigirlsbyaiallure
+AI Life — AI Companion & Chat,AI Life — AI Companion & Chat,new canonical
+AI Peeps,AI Peeps,normalized-name aipeeps
+AI Peeps,AI Peeps,domain variant theaipeeps.net (canonical home aipeeps.com)
+AI Roleplay Chat : Spicychat,AI Roleplay Chat : Spicychat,new canonical
+"AI Roleplay, Fantasy - Chat","AI Roleplay, Fantasy - Chat",new canonical
+AI Smut Writer,AI Smut Writer,normalized-name aismutwriter
+AI Twin by OpenHome,AI Twin by OpenHome,new canonical
+AI Voice Assistant - Fala AI,AI Voice Assistant - Fala AI,new canonical
+AI Voice Chat - Infolens Voice,AI Voice Chat - Infolens Voice,new canonical
+AI Voice Chat Companion Friend,AI Voice Chat Companion Friend,new canonical
+AIBoy,AIBoy,new canonical
+AIBoy - Virtual AI Boyfriend,AIBoy - Virtual AI Boyfriend,new canonical
+AICO,AICO,new canonical
+AICord,AICord,new canonical
+AIG Чат,AIG Чат,new canonical
+aiga,aiga,new canonical
+AIGFModel,AIGFModel,new canonical
+AiGirl,AiGirl,new canonical
+AIGirl.One,AIGirl.One,new canonical
+AIGirlfriends.ai,aigirlfriends.ai,normalized-name aigirlfriendsai
+AIGolov.com,AIGolov.com,new canonical
+Aihuan,Aihuan,new canonical
+aii.gg,aii.gg,new canonical
+Ailina,Ailina,new canonical
+Aima,Aima,new canonical
+AIMOUR.AI,AIMOUR.AI,normalized-name aimourai
+Aimy (アイミー),Aimy (アイミー),new canonical
+Ainder - Find Anime AI Friends,Ainder - Find Anime AI Friends,new canonical
+Ainly,Ainly,new canonical
+AIRealm,AIRealm,new canonical
+Airfriend,Airfriend,new canonical
+AIroleplay.fun,AIroleplay.fun,new canonical
+aiRP: Character Ai Francais,aiRP: Character Ai Francais,new canonical
+Airy.talk / 에어리톡,Airy.talk / 에어리톡,new canonical
+Aisekai,Aisekai,new canonical
+AITANIA : AI Isekai Adventure,AITANIA : AI Isekai Adventure,new canonical
+AIXotic.Chat,AIXotic Chat,normalized-name aixotic
+AIのべりすと (AI Novelist),AIのべりすと (AI Novelist),new canonical
+AI彼女：美少女恋愛チャットゲーム,AI彼女：美少女恋愛チャットゲーム,new canonical
+AI彼氏：バーチャル恋愛・音声チャット,AI彼氏：バーチャル恋愛・音声チャット,new canonical
+AI相談.com,AI相談.com,new canonical
+AI角色扮演 - 跟虚拟好友一起聊天对话,AI角色扮演 - 跟虚拟好友一起聊天对话,new canonical
+Albert AI,Albert AI,new canonical
+Alien chat,Alien chat,new canonical
+AllureAI,AllureAI,new canonical
+Alora: AI Character Chat,Alora: AI Character Chat,new canonical
+Ami IA: Chat avec Personnages,Ami IA: Chat avec Personnages,new canonical
+Amica,Amica,new canonical
+Amiga de IA,Amiga de IA,new canonical
+Amor AI,Amor AI,new canonical
+Angel AI,Angel AI,normalized-name angelai
+AniChat AI Companions — title unconfirmed,AniChat AI Companions — title unconfirmed,new canonical
+AniChat: personnages anime IA,AniChat: personnages anime IA,new canonical
+anim8,anim8,new canonical
+Anima,Anima,normalized-name anima
+Anima,Anima,domain variant google.com (canonical home animaapp.ai)
+Anima (companion service),Anima,normalized-name anima
+Anima AI,Anima AI,normalized-name animaai
+Anima: AI Friend Virtual Chat,Anima: AI Friend Virtual Chat,new canonical
+Anima: My Virtual AI Boyfriend,Anima: My Virtual AI Boyfriend,new canonical
+Animates,Animates,new canonical
+Animates Inc.,Animates Inc.,new canonical
+Anime Chat,Anime Chat,new canonical
+Anime.gf,AnimeGF,normalized-name animegf
+Anime.gf,AnimeGF,domain variant anime.gf (canonical home animegf.com)
+Anione,Anione,new canonical
+Annie / VirtuGF,Annie / VirtuGF,new canonical
+AnyChars AI (AnyChars),AnyChars AI (AnyChars),new canonical
+AnyConversation,AnyConversation,new canonical
+Anyone,Anyone,new canonical
+Aoru,Aoru,new canonical
+Apothy,Apothy,new canonical
+App Store,App Store,new canonical
+Arauwuara,Arauwuara,new canonical
+Arcana AI,Arcana AI,new canonical
+Aria,Aria,new canonical
+Aria: AI That Calls You,Aria: AI That Calls You,new canonical
+Artemisa,Artemisa,new canonical
+Ashley,Ashley,new canonical
+Ashley desktop companion,Ashley desktop companion,new canonical
+Ato,Ato,new canonical
+AURA AI,AURA AI,new canonical
+Aurora (ru.aurora_ai.app),Aurora (ru.aurora_ai.app),new canonical
+Aurora City,Aurora City,new canonical
+Avatai: AI Character Chat,Avatai: AI Character Chat,new canonical
+Avatar: AI Character Chats,Avatar: AI Character Chats,new canonical
+Avatarro,Avatarro,new canonical
+Avii,Avii,new canonical
+BabeChat / 바베챗 / 바베 / 바베쳇 / 베이비챗 / BabyChat,BabeChat / 바베챗 / 바베 / 바베쳇 / 베이비챗 / BabyChat,new canonical
+Back to the Fig,Back to the Fig,new canonical
+Backstage,Backstage,new canonical
+Backyard AI (Faraday / Faraday.dev / BYAI),Backyard AI,normalized-name backyardai
+Backyard Cloud,Backyard Cloud,new canonical
+Bae,Bae,new canonical
+Bae character card builder,Bae character card builder,new canonical
+BEEMO,BEEMO,new canonical
+BeMi,BeMi,new canonical
+BeMyBuddi,BeMyBuddi,new canonical
+Beni,Beni,new canonical
+Besties - Call your AI Friend,Besties - Call your AI Friend,new canonical
+Bigpringo,Bigpringo,new canonical
+Bilibili,Bilibili,new canonical
+BIMOBIMO,BIMOBIMO,new canonical
+Blogarama,Blogarama,new canonical
+Blush,Blush,normalized-name blush
+Blush (App Store id6747185805; OGUZCAN BESERIKLI),Blush,normalized-name blush
+Blush (App Store id6747185805; OGUZCAN BESERIKLI),Blush,domain variant apple.com (canonical home blush.ai)
+Blushly Chat,Blushly Chat,normalized-name blushly
+BoltBot,BoltBot,new canonical
+Bonza.chat,Bonza.chat,new canonical
+BooChat,BooChat,new canonical
+Boop: AI Chat & Character Meet,Boop: AI Chat & Character Meet,new canonical
+BoriChat / 보리챗,BoriChat / 보리챗,new canonical
+Botify,Botify,new canonical
+BoyBot,BoyBot,new canonical
+Boyfi - AI Partner & Boyfriend,Boyfi - AI Partner & Boyfriend,new canonical
+Boyfriend AI,Boyfriend AI,new canonical
+Bronsik,Bronsik,new canonical
+BrowserDreams,BrowserDreams,new canonical
+BudgetPixel AI,BudgetPixel AI,new canonical
+BudgetPixel AI companion,BudgetPixel AI,normalized-name budgetpixelai
+"BushyAI: Chat, Play, Connect","BushyAI: Chat, Play, Connect",new canonical
+Buttercupp,Buttercupp,new canonical
+buzoon,buzoon,new canonical
+c ai / cai,Character.AI,alias-table (census-A identity resolution)
+C.AI : Chat Personnages IA,C.AI : Chat Personnages IA,new canonical
+C.AI / c.ai — identity unresolved,Character.AI,alias-table (census-A identity resolution)
+Call Annie,Call Annie,normalized-name callannie
+Call Boy Friend,Call Boy Friend,new canonical
+Call Girl Friend,Call Boy Friend,normalized-name call
+Candy AI,Candy.ai,normalized-name candyai
+Candy AI,Candy.ai,domain variant yopuedoprogramar.com (canonical home candy.ai)
+Candy AI / Candy.AI,Candy.ai,normalized-name candyai
+Cantina,Cantina,normalized-name cantina
+Carter Chat,Carter Chat,alias-table (census-A identity resolution)
+Carter Chat,Carter Chat,domain variant google.com (canonical home carter.chat)
+CarynAI,CarynAI,new canonical
+CASM (identity unresolved),CASM (identity unresolved),new canonical
+Castalk,Castalk,new canonical
+CastChat,CastChat,new canonical
+CastLoop,CastLoop,new canonical
+Castmates,Castmates,new canonical
+Caveduck,Caveduck (케이브덕),normalized-name caveduck
+Chai,Chai,alias-table (census-A identity resolution)
+Chai,Chai,domain variant reddit.com (canonical home chai-research.com)
+Chai AI,Chai,alias-table (census-A identity resolution)
+Character AI,Character.AI,alias-table (census-A identity resolution)
+Character AI Chatbots,Character AI Chatbots,new canonical
+Character Chat: AI Avatar,Character Chat: AI Avatar,new canonical
+Character Craft AI: Chat Bot,Character Craft AI: Chat Bot,new canonical
+Character.AI / C.ai,Character.AI,alias-table (census-A identity resolution)
+Character.AI / C.ai,Character.AI,domain variant reddit.com (canonical home character.ai)
+CharacterSphere AI,CharacterSphere.ai,normalized-name charactersphereai
+CharacterTavern,Character-Tavern,normalized-name charactertavern
+CharaVerse,CharaVerse,new canonical
+Charbot,Charbot,new canonical
+CharClub: AI Soulful Roleplay,CharClub: AI Soulful Roleplay,new canonical
+Charland: AI Character Chat,Charland: AI Character Chat,new canonical
+CharPal: AI Character Chat,CharPal: AI Character Chat,new canonical
+CharRealm,CharRealm,new canonical
+CharSnap,CharSnap,normalized-name charsnap
+Charstar,Charstar,normalized-name charstar
+CharStory,CharStory,new canonical
+CharTale,CharTale,new canonical
+Chat AI Stories,Chat AI Stories,new canonical
+Chat AI: Chatbot assistant,Chat AI: Chatbot assistant,new canonical
+Chat Data,Chat Data,new canonical
+Chat de personajes con IA,Chat de personajes con IA,new canonical
+Chat IA - Ton ami IA,Chat IA - Ton ami IA,new canonical
+Chat IA de Personajes Anime,Chat IA de Personajes Anime,new canonical
+Chat IA En Español Latino,Chat IA En Español Latino,new canonical
+Chat Me,Chat Me,new canonical
+Chat Me: Dating with Ai Friend,Chat Me: Dating with Ai Friend,new canonical
+Chat.ai,Chat.ai,new canonical
+Chatbot ai personnage: Chat ia,Chatbot ai personnage: Chat ia,new canonical
+chatbot.app,chatbot.app,new canonical
+ChatBrat,ChatBrat,new canonical
+Chatdi,Chatdi,new canonical
+ChatFAI,ChatFAI,normalized-name chatfai
+Chativon,Chativon,new canonical
+ChatReal AI,ChatReal AI,normalized-name chatrealai
+ChatterUI,ChatterUI,normalized-name chatterui
+ChattiCA,ChattiCA,new canonical
+ChatToAnyone,ChatToAnyone,new canonical
+Chatty: AI Roleplay Characters,Chatty: AI Roleplay Characters,new canonical
+ChatUp AI Generator Unfiltered,ChatUp AI Generator Unfiltered,new canonical
+ChatUp AI Hentai,ChatUp AI Hentai,new canonical
+ChatUp Social,ChatUp Social,new canonical
+ChatWing AI,ChatWing AI,new canonical
+chub.ai,Chub AI,normalized-name chubai
+City-of-AI-companions project,City-of-AI-companions project,new canonical
+Clank World,Clank World,new canonical
+Claw Friend,Claw Friend,new canonical
+Clawra AI,Clawra AI,new canonical
+Cleverbot,Cleverbot,new canonical
+ClothOff,ClothOff,normalized-name clothoff
+Compañero de MD,Compañero de MD,new canonical
+Companion (getcompanion.ai),Companion (getcompanion.ai),new canonical
+Coquette AI,Coquette AI,normalized-name coquetteai
+CotoGoto,CotoGoto,new canonical
+Cotomo,Cotomo,normalized-name cotomo
+Cotomo,Cotomo,domain variant google.com (canonical home cotomo.ai)
+CoupleAI (com.smartfy.coupleai),CoupleAI (com.smartfy.coupleai),new canonical
+Crack / 크랙,Crack / 크랙,new canonical
+Crano AI,Crano AI,normalized-name cranoai
+CraveU AI,CraveU AI,alias-table (census-A identity resolution)
+Crée ton Petit Ami IA : Moshas,Crée ton Petit Ami IA : Moshas,new canonical
+CrossWorld AI - Roleplay Chat,CrossWorld AI - Roleplay Chat,new canonical
+CRUSH,Crush,normalized-name crush
+Crush AI - Your AI Girlfriend,Crush AI - Your AI Girlfriend,new canonical
+CRUSH: AI Chat & Roleplay,CRUSH: AI Chat & Roleplay,new canonical
+CRUSH: AI Romance × Otome Chat,CRUSH: AI Romance × Otome Chat,new canonical
+Crushi,Crushi,normalized-name crushi
+Crushie,Crushie,new canonical
+Crushie AI,Crushie AI,normalized-name crushieai
+Crushmash: Crush On AI Chat,Crushmash: Crush On AI Chat,new canonical
+Crushon AI,CrushOn.AI,normalized-name crushonai
+Crushon AI,CrushOn.AI,domain variant roborhythms.com (canonical home crushon.ai)
+Cupid AI,Cupid AI,new canonical
+Cuties AI,Cuties AI,normalized-name cutiesai
+Cyber Love Story,Cyber Love Story,new canonical
+Danbi Chat,Danbi Chat,new canonical
+Daniel,Daniel,new canonical
+Darlin,Darlin,new canonical
+DarLink AI,Darlink AI,normalized-name darlinkai
+DarLink AI,Darlink AI,domain variant aisoulmateguide.com (canonical home darlink.ai)
+Date.AI,Date.AI,new canonical
+Days AI,Days AI,new canonical
+Dayt: Novia Virtual IA,Dayt: Novia Virtual IA,new canonical
+DeepLove AI,DeepLove AI,normalized-name deeploveai
+Desirex,Desirex,new canonical
+Dessa,Dessa,new canonical
+DeST,DeST,new canonical
+Dewy,Dewy,new canonical
+Digi,Digi,new canonical
+DigitalSoul: AI Character Chat,DigitalSoul: AI Character Chat,new canonical
+Dippy,Dippy,normalized-name dippy
+Dippy,Dippy,domain variant apple.com (canonical home dippy.ai)
+Dippy AI,Dippy AI,normalized-name dippyai
+Discord,Discord,new canonical
+Discutez avec un ami IA,Discutez avec un ami IA,new canonical
+Dokichat,Dokichat,normalized-name doki
+Dokichat – Romantic AI Chat,Dokichat – Romantic AI Chat,new canonical
+Dondi.ai,Dondi AI,normalized-name dondiai
+Doomchit AI / 둠칫AI,Doomchit AI / 둠칫AI,new canonical
+Dootch,Dootch,new canonical
+Dopple AI,Dopple AI,normalized-name doppleai
+Dopple AI,Dopple AI,domain variant google.com (canonical home dopple.ai)
+Dopple.AI,Dopple AI,normalized-name doppleai
+Dopple.AI,Dopple AI,domain variant google.com (canonical home dopple.ai)
+dotdotdot fantasy AI boyfriend — title unconfirmed,dotdotdot fantasy AI boyfriend — title unconfirmed,new canonical
+Dream Companion,Dream Companion,normalized-name dream
+Dream Companion,Dream Companion,domain variant aicompanionguides.com (canonical home aixploria.com)
+Dream Companion NSFW AI,Dream Companion NSFW AI,new canonical
+DreamBF,DreamBF,alias-table (census-A identity resolution)
+DreamBF,DreamBF,domain variant nika.team (canonical home dreambf.ai)
+dreamcrawler.ai / Dreamcrawler,dreamcrawler.ai / Dreamcrawler,new canonical
+DreamGF,DreamGF,alias-table (census-A identity resolution)
+DreamJourney,DreamJourney,new canonical
+DreamLab,DreamLab,new canonical
+DreamyGF AI,DreamyGF AI,new canonical
+Dreamz.ai,Dreamz AI,normalized-name dreamzai
+Dreemy AI,Dreemy AI,new canonical
+Dungeon Mind,Dungeon Mind,new canonical
+Dunia,Dunia,new canonical
+Duple (including Duple Lite and Duple Plus),Duple (including Duple Lite and Duple Plus),new canonical
+Dusk AI,Dusk AI,new canonical
+DZMM,DZMM,new canonical
+Eden Chat / 에덴챗,Eden Chat / 에덴챗,new canonical
+eHentai.ai,eHentai.ai,normalized-name ehentaiai
+Ella,Ella,new canonical
+Elsecraft,Elsecraft,normalized-name elsecraft
+Embraces,Embraces,new canonical
+Emily,Emily,new canonical
+Emochi,Emochi,normalized-name emochi
+Emochi,Emochi,domain variant apple.com (canonical home google.com)
+EMOCHI World: AI Story Chat,EMOCHI World: AI Story Chat,new canonical
+Emoji,Emoji,new canonical
+EmoSea: AI Mental Health,EmoSea: AI Mental Health,new canonical
+Empa,Empa,new canonical
+Erogen,Erogen,normalized-name erogen
+Eromantic AI,Eromantic AI,normalized-name eromanticai
+EroPlay AI,EroPlay.ai,normalized-name eroplayai
+Eternal AI,Eternal AI,normalized-name eternalai
+Eudaio,Eudaio,new canonical
+Euphoria: AI Choices / Euphoria,Euphoria: AI Choices / Euphoria,new canonical
+EVA,EVA,new canonical
+EVA AI,EVA AI,normalized-name evaai
+EVA AI,EVA AI,domain variant nika.team (canonical home eva.ai)
+EveChat / 이브챗,EveChat / 이브챗,new canonical
+EveningHoney,EveningHoney,new canonical
+EverNever,EverNever,new canonical
+Everty,Everty,new canonical
+Everweave,Everweave,new canonical
+Everwhere,Everwhere,new canonical
+Evoke AI,Evoke AI,new canonical
+Exoria,Exoria,new canonical
+FableAI: AI Story & Text RPG,FableAI: AI Story & Text RPG,new canonical
+Fablemate,Fablemate,new canonical
+Fabric,Fabric,new canonical
+Facelet,Facelet,new canonical
+Fae.so,Fae.so,new canonical
+Fall Festival text game,Fall Festival text game,new canonical
+Fandom,Fandom,new canonical
+Fantas AI: Dialogue Émotionnel,Fantas AI: Dialogue Émotionnel,new canonical
+Fantasia,Fantasia,new canonical
+Fantasia: Charakter-KI-Chat,Fantasia: Charakter-KI-Chat,new canonical
+Fantasia: Chat de Personagens,Fantasia: Chat de Personagens,new canonical
+Fantasia: Chat IA Personajes,Fantasia: Chat IA Personajes,new canonical
+Fantasy AI,Fantasy AI,normalized-name fantasyai
+FantasyGF,FantasyGF,normalized-name fantasygf
+FantasyGF,FantasyGF,domain variant companionrank.com (canonical home fantasygf.ai)
+Fastmate,Fastmate,new canonical
+feelin,feelin,new canonical
+Feelin AI,Feelin AI,new canonical
+fiabai,fiabai,new canonical
+Fiandra,Fiandra,new canonical
+Fictio AI,Fictio AI,new canonical
+Fictional,Fictional,new canonical
+FictionLab,FictionLab,normalized-name fictionlab
+Finch,Finch,new canonical
+First Person Viewpoint: AI RPG,First Person Viewpoint: AI RPG,new canonical
+FL,FL,new canonical
+Flai,Flai,new canonical
+Flipped,Flipped,normalized-name flipped
+Flipped,Flipped,domain variant pages.dev (canonical home flipped.chat)
+Flipped.Chat,Flipped,normalized-name flipped
+Flipped.Chat,Flipped,domain variant google.com (canonical home flipped.chat)
+FlirtCam AI,FLIRTcam.AI,normalized-name flirtcamai
+Flirtly - AI Girlfriend Chat,Flirtly - AI Girlfriend Chat,new canonical
+FlirtMate,FlirtMate,new canonical
+Flirty: Sexy AI GF Roleplay,Flirty: Sexy AI GF Roleplay,new canonical
+FlowGPT,FlowGPT,normalized-name flowgpt
+Floze,Floze,new canonical
+Folk AI,Folk AI,new canonical
+Forever Companion,Forever Companion,new canonical
+ForYouChat AI,ForYouChat AI,new canonical
+FreeGF AI,FreeGF AI,normalized-name freegfai
+freundin.ai,freundin.ai,new canonical
+Friendify,Friendify,new canonical
+Friendogram,Friendogram,new canonical
+Friends,Friends,new canonical
+Friends and Fables (Fables),Friends and Fables (Fables),new canonical
+Front Porch AI,Front Porch AI,new canonical
+Frontia,Frontia,new canonical
+FunFun,FunFun,new canonical
+"Funy AI (AI Dance, AI Bikini, AI Kiss)","Funy AI (AI Dance, AI Bikini, AI Kiss)",new canonical
+"Funy AI: Video, Image","Funy AI: Video, Image",new canonical
+Fuwa,Fuwa,new canonical
+Gals.ai,Gals.ai,new canonical
+Gatebox,Gatebox,new canonical
+GEM,GEM,new canonical
+GemTavern,GemTavern,new canonical
+Genesia,Genesia,new canonical
+Gening AI,Gening AI,new canonical
+GetLovi,GetLovi,new canonical
+Gimmi,Gimmi,new canonical
+GirlfriendGPT,GirlfriendGPT,normalized-name girlfriendgpt
+GirlfriendGPT,GirlfriendGPT,domain variant aisoulmateguide.com (canonical home gptgirlfriend.online)
+Girlfriendly AI,Girlfriendly AI,normalized-name girlfriendlyai
+GirlfriendX: AI Waifu App,GirlfriendX: AI Waifu App,new canonical
+Gitee,Gitee,new canonical
+Glambase AI,Glambase AI,new canonical
+Goat RPG: Beyond DnD Adventure,Goat RPG: Beyond DnD Adventure,new canonical
+GoLove AI,GoLove AI,normalized-name goloveai
+GoLove AI,GoLove AI,domain variant dreamygfai.com (canonical home goloveai.com)
+Google account CLI / 谷歌 CLI,Google account CLI / 谷歌 CLI,new canonical
+Google Play,Google Play,new canonical
+GPT Boyfriend,GPT Boyfriend,new canonical
+GPT GF,GPT GF,new canonical
+GPT Girlfriend,GPT Girlfriend,new canonical
+GRAVITY AIパートナー,GRAVITY AIパートナー,new canonical
+Greyhound,Greyhound,new canonical
+Grok,Grok,new canonical
+Grok Ani,Grok Ani,new canonical
+HaiJoy,HaiJoy,new canonical
+Hallufox,Hallufox,normalized-name hallufox
+Hammer AI,HammerAI,normalized-name hammerai
+Harpy.chat,Harpy Chat,normalized-name harpy
+Haruto — com.tdevs.haruto,Haruto — com.tdevs.haruto,new canonical
+Heartbeat,Heartbeat,new canonical
+Her (inlovewith.com/apps/her),Her (inlovewith.com/apps/her),new canonical
+Her:Him: AI Voice Companion,Her:Him: AI Voice Companion,new canonical
+Her.AI,Her.AI,new canonical
+HeraBoyfriend,HeraBoyfriend,new canonical
+HeraHaven,HeraHaven,normalized-name herahaven
+HereHaven,HereHaven,new canonical
+Hey Girl : AI Girlfriend Real,Hey Girl : AI Girlfriend Real,new canonical
+HeyBestie,HeyBestie,new canonical
+heygf,heygf,new canonical
+heylife,heylife,new canonical
+HeyReal AI,HeyReal AI,new canonical
+Heyyyy,Heyyyy,new canonical
+Hi Waifu,HiWaifu,normalized-name hiwaifu
+Hi Waifu,HiWaifu,domain variant google.com (canonical home hiwaifu.com)
+Him - AI Boyfriend Chat,Him - AI Boyfriend Chat,new canonical
+Him (Timedomain; historical),Him (Timedomain; historical),new canonical
+HiromiVoice - ASMRtist とAI通話,HiromiVoice - ASMRtist とAI通話,new canonical
+Hiye: AI Character Chat,Hiye: AI Character Chat,new canonical
+Hobby-AI角色扮演社交软件,Hobby-AI角色扮演社交软件,new canonical
+HoloArcade,HoloArcade,new canonical
+Honeybot AI,HoneyBot AI,normalized-name honeybotai
+Honeychat,HoneyChat,normalized-name honey
+HornyCompanion,HornyCompanion,new canonical
+HotChat,HotChat,new canonical
+Huangguo,Huangguo,new canonical
+Huggingfans,Huggingfans,new canonical
+HumanIACommunity,HumanIACommunity,new canonical
+Hume: Your Personal AI,Hume: Your Personal AI,new canonical
+Hunnie,Hunnie,new canonical
+HushBF,HushBF,new canonical
+Hyodol,Hyodol,new canonical
+HYZE,HYZE,new canonical
+IA Namorada Virtual CoupleAI,IA Namorada Virtual CoupleAI,new canonical
+Idolchat,IdolChat,normalized-name idol
+Idyll AI,Idyll AI,new canonical
+iGirl: AI Girlfriend,iGirl: AI Girlfriend,new canonical
+Imagina RPG / Imagina,Imagina RPG / Imagina,new canonical
+ImagiPortal,ImagiPortal,new canonical
+Imate - AI boyfriend who cares,Imate - AI boyfriend who cares,new canonical
+Immersey,Immersey,new canonical
+IN2X,IN2X,new canonical
+Infatuated,Infatuated,new canonical
+Infinite Worlds,Infinite Worlds,new canonical
+Inkstone,Inkstone,new canonical
+Inkwell,Inkwell,new canonical
+IntelliMuse,IntelliMuse,new canonical
+Intimate,Intimate,new canonical
+Intimate - AI Girlfriend,Intimate AI,normalized-name intimateai
+Intimate - AI Girlfriend,Intimate AI,domain variant google.com (canonical home intimate.ai)
+Isekai Zero,Isekai Zero,alias-table (census-A identity resolution)
+Isekai Zero,Isekai Zero,domain variant isekaizero.ai (canonical home isekaizero.com)
+J.ai,J.ai,new canonical
+J.AI - Discutez avec l'IA,J.AI - Discutez avec l'IA,new canonical
+Jan.AI: AI Chat Roleplay,Jan.AI: AI Chat Roleplay,new canonical
+Janitor AI,Janitor AI,normalized-name janitorai
+Joi,Joi,new canonical
+Joi AI,Joi AI,normalized-name joiai
+Jollivo,Jollivo,new canonical
+Joyland,Joyland,new canonical
+JuicyChat AI,JuicyChat.AI,normalized-name juicychatai
+Julie,Julie,new canonical
+Junipero AI,Junipero AI,new canonical
+Jupi: AI Companion & Town Game,Jupi: AI Companion & Town Game,new canonical
+J家,J家,new canonical
+K / K***,K / K***,new canonical
+K*** / K / (K) — unidentified provider,K*** / K / (K) — unidentified provider,new canonical
+Kafkana (カフカナ),Kafkana (カフカナ),new canonical
+Kajiwoto AI,Kajiwoto AI,new canonical
+Kalon AI,Kalon AI,new canonical
+Kapitech: Budget & Debt Payoff,Kapitech: Budget & Debt Payoff,new canonical
+KASANE,KASANE,new canonical
+Kasper,Kasper,new canonical
+KI-Chat Auf Deutsch,KI-Chat Auf Deutsch,new canonical
+Kin,Kin,new canonical
+Kinda,Kinda,new canonical
+Kindroid,Kindroid,normalized-name kindroid
+Kissable,Kissable,normalized-name kissable
+Knocky,Knocky,new canonical
+Kobold Lite,Kobold Lite,new canonical
+KoboldAI (Kobold),KoboldAI,normalized-name koboldai
+KoboldCPP,KoboldCpp,normalized-name koboldcpp
+KoboldCpp-ROCm (YellowRoseCx fork),KoboldCpp-ROCm (YellowRoseCx fork),new canonical
+koboldEasyNovel,koboldEasyNovel,new canonical
+KoeTomo,KoeTomo,new canonical
+Kotatsu,Kotatsu,new canonical
+kotomoことばのおとも,kotomoことばのおとも,new canonical
+Krush Chat,Krush Chat,normalized-name krush
+Kuki / Kuki AI,Kuki / Kuki AI,new canonical
+KUN,KUN,new canonical
+Kupid,Kupid,new canonical
+Kupid AI Girlfriend,Kupid AI,normalized-name kupidai
+Kyndred,Kyndred,new canonical
+Kyndred / getkyndred,Kyndred,normalized-name kyndred
+kyssy.ai,kyssy.ai,new canonical
+LANA AI Mentor,LANA AI Mentor,new canonical
+Larping,Larping,new canonical
+Layla,Layla,new canonical
+Layla AI (offline chatbot),Layla AI (offline chatbot),new canonical
+LettuceAI,Lettuce AI,normalized-name lettuceai
+LGPTQ / Gay GPT,LGPTQ / Gay GPT,new canonical
+LifeB.ai,LifeB.ai,new canonical
+Lightshade,Lightshade,new canonical
+Lilacs: AI Characters,Lilacs: AI Characters,new canonical
+LinkinLove,Linkin.love,normalized-name linkinlove
+Linky AI,Linky AI,normalized-name linkyai
+Little Lantern,Little Lantern,new canonical
+LiveC - Living AI Companion,LiveC - Living AI Companion,new canonical
+Lizlis,Lizlis,new canonical
+Lizlis : Chat IA personnages,Lizlis : Chat IA personnages,new canonical
+LM Studio (LMStudio),LM Studio,normalized-name lmstud
+Lollipop Chat,Lollipop Chat (Lollipop AI Girls),normalized-name lollipop
+Loom Engine / Loom (Imagina),Loom Engine / Loom (Imagina),new canonical
+Lore,Lore,new canonical
+Lore - AI Persona Chat,Lore - AI Persona Chat,new canonical
+Loremate,Loremate,new canonical
+LoreWeaver,LoreWeaver,new canonical
+Lovby,Lovby,new canonical
+LOVD: AI Dating & Waifu Hub,LOVD: AI Dating & Waifu Hub,new canonical
+Love Plus,Love Plus,new canonical
+LoveChat,LoveChat,normalized-name love
+LoveForever AI,LoveForever AI,new canonical
+Lovel.ai,Lovel.ai,normalized-name lovelai
+Lovel.ai,Lovel.ai,domain variant topaidating.com (canonical home lovel.ai)
+LoveLingo : Ma Petite Amie IA,LoveLingo : Ma Petite Amie IA,new canonical
+Lovella,Lovella,new canonical
+Lovency,Lovency,new canonical
+LoveOn,LoveOn,new canonical
+LOVERSE,LOVERSE,new canonical
+Lovescape,Lovescape,alias-table (census-A identity resolution)
+Lovescape,Lovescape,domain variant aisoulmateguide.com (canonical home lovescape.com)
+LoveyDovey / 卿卿我我 / 卿我 / 러비더비 / 7755 / 75,7755,normalized-name 7755
+Lovi Dream,Lovi Dream,new canonical
+LSAI,LSAI,new canonical
+LumiChat,LumiChat,normalized-name lumi
+Lumiveil,Lumiveil,new canonical
+Luna - AI companions,Luna - AI companions,new canonical
+Luna: Meine KI-Freundin,Luna: Meine KI-Freundin,new canonical
+Luna: Mi IA Novia,Luna: Mi IA Novia,new canonical
+Luna: Minha Namorada IA (com.antonio.my.ai.girlfriend.free),Luna: Minha Namorada IA (com.antonio.my.ai.girlfriend.free),new canonical
+Lunafic,Lunafic,new canonical
+LunaTalk / Lunatalk / 루나톡,LunaTalk / Lunatalk / 루나톡,new canonical
+Lunelle AI: Fiction Chat,Lunelle AI: Fiction Chat,new canonical
+Lurvessa,Lurvessa,new canonical
+lustcrush,lustcrush,new canonical
+LustGF AI,LustGF AI,alias-table (census-A identity resolution)
+Lustlab Chat,Lustlab Chat,new canonical
+LusyChat,LusyChat,normalized-name lusy
+Luvlinx,Luvlinx,new canonical
+Luvr,Luvr,new canonical
+Luvr AI,Luvr AI,normalized-name luvrai
+Luvy AI,Luvy AI,new canonical
+Lyonesse: AI Transcript & Chat,Lyonesse: AI Transcript & Chat,new canonical
+Magic Call Pro,Magic Call Pro,new canonical
+Maid,Maid (Mobile AI Companion),normalized-name maid
+Mallo,Mallo,new canonical
+Maple,Maple,new canonical
+Marinara Engine,Marinara Engine,normalized-name marinaraengine
+Mate,Mate,new canonical
+MateAI,MateAI,new canonical
+MateAI: Chatbot Virtual com IA,MateAI: Chatbot Virtual com IA,new canonical
+MateAI: Virtueller KI-Chatbot,MateAI: Virtueller KI-Chatbot,new canonical
+Maya,Maya,new canonical
+Meco - AI Character Chat,Meco - AI Character Chat,new canonical
+Mee＋,Mee＋,new canonical
+Meki,Meki,new canonical
+meko,meko,new canonical
+Mel,Mel,new canonical
+mellows,mellows,new canonical
+Melon AI,Melon AI,new canonical
+MeltChat,MeltChat,new canonical
+Melting,Melting,new canonical
+Meo (Meta Loop),Meo (Meta Loop),new canonical
+Meridian Ralms AI / Meridian Realms,Meridian Ralms AI / Meridian Realms,new canonical
+Merlin AI,Merlin AI,new canonical
+Mero,Mero (めろ),normalized-name mero
+MicAI,MicAI,new canonical
+Microsoft Copilot,Microsoft Copilot,new canonical
+Micy,Micy,new canonical
+Midjourney,Midjourney,new canonical
+Miku.gg (Miku),Miku.gg,normalized-name mikugg
+mimel,mimel,new canonical
+MingloTalk,MingloTalk,new canonical
+miniapp,miniapp,new canonical
+MiniTavern,MiniTavern,normalized-name minitavern
+miocai,miocai,new canonical
+MIRAI: Interactive Romance,MIRAI: Interactive Romance,new canonical
+MiraiMind,MiraiMind,new canonical
+Mistrezz AI,Mistrezz AI,normalized-name mistrezzai
+Mistrix,Mistrix,new canonical
+MJ - Smarter AI Chatbot,MJ - Smarter AI Chatbot,new canonical
+mochii - Emochi alternative,mochii - Emochi alternative,new canonical
+Modelsify,Modelsify,new canonical
+Moe something,Moe something,new canonical
+Moescape,Moescape,normalized-name moescape
+Moescape AI,Moescape AI (Yodayo),normalized-name moescapeai
+MOFURE,MOFURE,new canonical
+Molfar Vertep,Molfar Vertep,new canonical
+Mollyta,Mollyta,new canonical
+Moltfans,Moltfans,normalized-name moltfans
+momomolo,momomolo,new canonical
+Monica AI,Monica AI,new canonical
+MooX,MooX,new canonical
+MoreYou.ai,MoreYou.ai,new canonical
+Morphs AI,Morphs AI,new canonical
+Moshi Mosh,Moshi Mosh,new canonical
+Muah AI,Muah AI,normalized-name muahai
+Mufy,Mufy,new canonical
+Multiic,Multiic,new canonical
+Muse AI (Meta; identity unverified),Muse AI (Meta; identity unverified),new canonical
+Mwah AI,Mwah AI,new canonical
+My AI Friend,My AI Friend,new canonical
+My Men,My Men,new canonical
+My Softly,My Softly,new canonical
+My Spicy Vanilla,My Spicy Vanilla,normalized-name myspicyvanilla
+MyBabes AI,MyBabes.ai,normalized-name mybabesai
+MyBot,MyBot,new canonical
+MyDreamBoy,MyDreamBoy,normalized-name mydreamboy
+MyDreamCompanion,MyDreamGirlfriend,normalized-name mydream
+MyHer AI,MyHer AI,new canonical
+MyLovely AI,My Lovely AI,normalized-name mylovelyai
+MyPresio,MyPresio,new canonical
+Myrlo - AI Stories & Roleplay,Myrlo - AI Stories & Roleplay,new canonical
+MyShell,MyShell,new canonical
+Mythora: AI Text RPG Adventure,Mythora: AI Text RPG Adventure,new canonical
+Mythx: AI Fantasy Dungeon RPG,Mythx: AI Fantasy Dungeon RPG,new canonical
+Mythx.AI,Mythx.AI,new canonical
+NagAIe,NagAIe,new canonical
+Namorada AI,Namorada AI,new canonical
+Namorada AI: Chat e Voz,Namorada AI: Chat e Voz,new canonical
+Narrakin,Narrakin,new canonical
+Nastia,Nastia,new canonical
+Naughti.ai,Naughti.ai,new canonical
+Naughty,Naughty,new canonical
+Nectar AI,Nectar AI (TryNectar),normalized-name nectarai
+Nectar AI,Nectar AI (TryNectar),domain variant aigirlfriends.pro (canonical home trynectar.ai)
+neko ai,neko ai,new canonical
+NeoBrain,NeoBrain,new canonical
+Netflix,Netflix,new canonical
+Netwrck,Netwrck,normalized-name netwrck
+NeuralCompanion,NeuralCompanion,new canonical
+Neverend,Neverend,new canonical
+NextACGN: Discover Good Waifus,NextACGN: Discover Good Waifus,new canonical
+NiiNi,NiiNi,new canonical
+Nika,Nika,new canonical
+Noa / 노아,Noa / 노아,new canonical
+Nomi AI,Nomi AI,alias-table (census-A identity resolution)
+NovelAI (NAI),NovelAI,alias-table (census-A identity resolution)
+Novia Virtual – Cita con IA,Novia Virtual – Cita con IA,new canonical
+Novia Virtual español Chat (com.testa.chatbot),Novia Virtual español Chat (com.testa.chatbot),new canonical
+NoviaChat,NoviaChat,new canonical
+NSFWBots,NSFWBots,normalized-name nsfwbots
+nsfwcharacterai,NSFW Character AI,normalized-name nsfwcharacterai
+NSFWGirlfriend AI,NSFWGirlfriend AI,new canonical
+NSFWLover,NSFWLover,normalized-name nsfwlover
+OhChat,OhChat,normalized-name ohchat
+ohmg,ohmg,new canonical
+Old Greg's Tavern,Old Greg's Tavern,new canonical
+Ole Greg's Tavern,Ole Greg's Tavern,new canonical
+Ollama,Ollama,normalized-name ollama
+Ollama,Ollama,domain variant github.com (canonical home ollama.com)
+Ollama Cloud,Ollama Cloud,new canonical
+OLON,OLON,new canonical
+Omoi,Omoi,normalized-name omoi
+Omoi,Omoi,domain variant omoi.chat (canonical home omoi.ai)
+Oncilo,Oncilo,new canonical
+OOAA — 云酒馆,OOAA — 云酒馆,new canonical
+Oobabooga,text-generation-webui / Oobabooga,normalized-name oobabooga
+Oobabooga / Ooba,text-generation-webui / Oobabooga,normalized-name oobabooga
+OOC,OOC,new canonical
+OOC: The Playable Anime,OOC: The Playable Anime,new canonical
+Oomfy AI,Oomfy AI,new canonical
+Open Mind Design,Open Mind Design,new canonical
+OpenAI Developer Community,OpenAI Developer Community,new canonical
+OpenClaw,OpenClaw,new canonical
+OpenLover,OpenLover,normalized-name openlover
+Ori / 오리,Ori / 오리,new canonical
+"Oria: Ton Ami AI, Camarade","Oria: Ton Ami AI, Camarade",new canonical
+Otherworld,Otherworld,new canonical
+OurAidream.ai,OurAidream.ai,new canonical
+OurDream AI,OurDream AI,alias-table (census-A identity resolution)
+OutPeach,OutPeach,new canonical
+Pajdo: Health & Fitness Buddy,Pajdo: Health & Fitness Buddy,new canonical
+Palshub.ai,Palshub.ai,new canonical
+ParadiseAI,ParadiseAI,new canonical
+Paradot,Paradot,normalized-name paradot
+Paryo,Paryo,new canonical
+PATONA,PATONA,new canonical
+PayPal,PayPal,new canonical
+PCS (Personal Continuity System),PCS (Personal Continuity System),new canonical
+PepHop AI Chatbot,PepHop AI,normalized-name pephopai
+Perchance AI Character Chat,Perchance AI Character Chat,normalized-name perchanceaicharacter
+Perchance character chat,Perchance character chat,new canonical
+Perfect Girl,Perfect Girl,new canonical
+PersistentSage,PersistentSage,new canonical
+PersonaChat,PersonaChat,new canonical
+PersonalParty: AI Roleplay,PersonalParty: AI Roleplay,new canonical
+Pheon,Pheon,new canonical
+Pi,Pi,new canonical
+Pi,Pi,domain variant thecompanionreport.com (canonical home pi.ai)
+pims.chat,pims.chat,new canonical
+Pinxai,Pinxai,new canonical
+PixAI,PixAI,normalized-name pixai
+PixelChat,PixelChat,new canonical
+Pixys,Pixys,new canonical
+Plaitoon,Plaitoon,new canonical
+Playbox,PlayBox,normalized-name playbox
+PlayfulAI,PlayfulAI,new canonical
+Plotto,Plotto,normalized-name plotto
+Plotto,Plotto,domain variant apple.com (canonical home plotto.ai)
+Plotty AI,Plotty AI,new canonical
+PLUSMATE,PLUSMATE,new canonical
+PocketPal AI / PocketPal,PocketPal AI / PocketPal,new canonical
+Pollybuzz,Pollybuzz,new canonical
+poly,poly,new canonical
+poly ai,poly ai,new canonical
+Poly Boy,Poly Boy,new canonical
+PolyBuzz,PolyBuzz (formerly Poly.AI),normalized-name polybuzz
+PolyBuzz,PolyBuzz (formerly Poly.AI),domain variant apple.com (canonical home polybuzz.ai)
+Pooca — ai.social.pooca,Pooca — ai.social.pooca,new canonical
+PovChat AI,PovChat AI,normalized-name povchatai
+PovChat AI / PolyChatAI,PovChat AI,normalized-name povchatai
+Prelulu,Prelulu,new canonical
+Privat-Zone,Privat-Zone,new canonical
+Privee AI,Privee AI,normalized-name priveeai
+Privee AI,Privee AI,domain variant google.com (canonical home priveeai.com)
+QuackAI (AI妄想 / 妄想ai),QuackAI (AI妄想 / 妄想ai),new canonical
+Questie.ai,Questie AI,normalized-name questieai
+QuestSmith: AI Dungeon Master,QuestSmith: AI Dungeon Master,new canonical
+Quick Search,Quick Search,new canonical
+Realmbound,Realmbound,new canonical
+RealmsAI,RealmsAI,normalized-name realmsai
+Redbean,Redbean,new canonical
+Reddit,Reddit,new canonical
+reez app,reez app,new canonical
+Remoria: AI Character Chat,Remoria: AI Character Chat,new canonical
+RenAI Chat,RenAI Chat,new canonical
+Replika,Replika,normalized-name replika
+Revenant,Revenant,new canonical
+RisuAI (Risu),RisuAI,alias-table (census-A identity resolution)
+Rizzmaster,Rizzmaster,new canonical
+Rochat,Rochat,new canonical
+Rofan AI,Rofan AI (로판),normalized-name rofanai
+Roger,Roger,new canonical
+Role Play AI by DreamGen,Role Play AI by DreamGen,new canonical
+Role.AI - AI Chat & Roleplay,Role.AI - AI Chat & Roleplay,new canonical
+Rolecall,Rolecall,new canonical
+RolePlai / PLAI,RolePlai,normalized-name roleplai
+RolePlai / PLAI,RolePlai,domain variant apple.com (canonical home roleplai.app)
+Roleplay AI - Chat Stories,Roleplay AI - Chat Stories,new canonical
+Roleplay GPT,RoleplayGPT,normalized-name roleplaygpt
+Roleplaychats,Roleplaychats,new canonical
+ROLIA.ME,ROLIA.ME,new canonical
+Romantic AI,Romantic AI,normalized-name romanticai
+Romantic AI,Romantic AI,domain variant companionrank.com (canonical home romanticai.com)
+Romantic Simulator,Romantic Simulator,new canonical
+Rosytalk,Rosytalk,new canonical
+RoxorAI,RoxorAI,new canonical
+Roxy - AI Voice companion,Roxy - AI Voice companion,new canonical
+RPBuddy,RPBuddy,new canonical
+RPDATE (rpdate),RPDATE (rpdate),new canonical
+RPG Diary - AI Chat Journal,RPG Diary - AI Chat Journal,alias-table (census-A identity resolution)
+Rubii: AI Character Community,Rubii: AI Character Community,normalized-name rubiiaicharactercommunity
+Ruby Chat,Ruby Chat,new canonical
+Ruby Chat: Petite amie IA,Ruby Chat: Petite amie IA,new canonical
+Rushchat,RushChat,normalized-name rush
+Russet,Russet,new canonical
+Saga,Saga,new canonical
+Sagaland AI,Sagaland AI,new canonical
+Sakura,Sakura,new canonical
+Sakura AI,Sakura AI,normalized-name sakuraai
+Sakura AI Friend,Sakura AI Friend,new canonical
+Samagama AI,Samagama AI,new canonical
+Samsung store,Samsung store,new canonical
+Saucepan,Saucepan,new canonical
+Saylo,Saylo,normalized-name saylo
+Saylo,Saylo,domain variant sayloai.com (canonical home saylo.ai)
+Scarlett Johansson,Scarlett Johansson,new canonical
+Sebastian,Sebastian,new canonical
+Secret AI,Secret AI,new canonical
+Secret Desires AI | AI Girlfriend,Secret Desires AI | AI Girlfriend,new canonical
+SecretCrush AI,SecretCrush AI,normalized-name secretcrushai
+Secrets AI,Secrets AI,alias-table (census-A identity resolution)
+Secrets AI / Secrets,Secrets AI,alias-table (census-A identity resolution)
+seewa.ai,seewa.ai,new canonical
+Sei,Sei,new canonical
+Sekai,Sekai,normalized-name sekai
+SELF,SELF,new canonical
+Selira AI,Selira.ai,normalized-name seliraai
+Sesame,Sesame,new canonical
+Sesame AI Voice Companion,Sesame AI Voice Companion,new canonical
+"Sesame personas: Maya, Miles, Simone","Sesame personas: Maya, Miles, Simone",new canonical
+Sesame Voice,Sesame Voice,new canonical
+Sesame Voice AI Talk Assistant — title unconfirmed,Sesame Voice AI Talk Assistant — title unconfirmed,new canonical
+Sesame-named app (unverified 6745451947),Sesame-named app (unverified 6745451947),new canonical
+Sexiness AI,Sexiness AI,normalized-name sexinessai
+Sexy Chatbot X,Sexy Chatbot X,new canonical
+Sexy Chatbot X - No Filter AI,Sexy Chatbot X - No Filter AI,new canonical
+Shapes Inc,Shapes Inc,normalized-name shapesinc
+Shemale AI,Shemale-AI,normalized-name shemaleai
+Sible Ai,Sible Ai,new canonical
+Sigma Runtime,Sigma Runtime,new canonical
+SillyTavern,SillyTavern,alias-table (census-A identity resolution)
+Silo – Private AI Chat,Silo – Private AI Chat,new canonical
+Simulacra.Ink,Simulacra.Ink,new canonical
+Sirena,Sirena,new canonical
+slowburn,slowburn,new canonical
+SmutGPT AI,SmutGPT AI,new canonical
+Soblazn,Soblazn,new canonical
+Sofía Bot,Sofía Bot,new canonical
+Soft Launch,Soft Launch,new canonical
+Soft2Wild : Copine IA,Soft2Wild : Copine IA,new canonical
+Sol AI - Chat IA & Histoires,Sol AI - Chat IA & Histoires,new canonical
+Sonia,Sonia,new canonical
+Sora,Sora,new canonical
+Soulevra,Soulevra,new canonical
+SoulFun,SoulFun,normalized-name soulfun
+Soulkyn,Soulkyn,normalized-name soulkyn
+SoulLink,SoulLink,new canonical
+Soulmaite,Soulmaite,new canonical
+Soulmate,Soulmate IO,normalized-name soulmate
+Soulmate,Soulmate IO,domain variant futurism.com (canonical home soulmate.io)
+Soulmate AI,Soulmate AI,new canonical
+Soulplay,Soulplay,new canonical
+SoulRealms.ai,SoulRealms.ai,new canonical
+Soulthread,Soulthread,new canonical
+Soumi｜二次元AI角色扮演·虛擬動漫聲音互動,Soumi｜二次元AI角色扮演·虛擬動漫聲音互動,new canonical
+Spark AI Dating,Spark AI Dating,new canonical
+Spark Chat,Spark Chat,new canonical
+Speaksai (Speaksai AI Friend),Speaksai (Speaksai AI Friend),new canonical
+Spellbound,Spellbound,normalized-name spellbound
+SpicyChat AI,SpicyChat AI,alias-table (census-A identity resolution)
+SpicyChat AI,SpicyChat AI,domain variant apple.com (canonical home spicychat.ai)
+SpicyChatApp,SpicyChat AI,alias-table (census-A identity resolution)
+SpicyChatApp,SpicyChat AI,domain variant spicychatapp.com (canonical home spicychat.ai)
+Spiritloom,Spiritloom,new canonical
+Stagewhisper,Stagewhisper,new canonical
+Star Girl,Star Girl,new canonical
+Starlight Engine,Starlight Engine,normalized-name starlightengine
+Stella,Stella,new canonical
+STFU.AI,STFU.AI,new canonical
+Stillus,Stillus,new canonical
+Story Craft: AI Dungeon RPG,Story Craft: AI Dungeon RPG,new canonical
+Storychat,Storychat,new canonical
+StoryForge: AI-Powered RPG,StoryForge: AI-Powered RPG,new canonical
+Storypop — games.storypop.app,Storypop — games.storypop.app,new canonical
+Stuffer.AI,Stuffer.AI,new canonical
+Substack,Substack,new canonical
+SueTheGoddess,SueTheGoddess,new canonical
+Suka Lite,Suka Lite,new canonical
+sultra,sultra,new canonical
+Suno,Suno,new canonical
+SuperGrok,SuperGrok,new canonical
+SweetAI,SweetAI,new canonical
+SweetDream AI,SweetDream AI,normalized-name sweetdreamai
+SweetDream AI,SweetDream AI,domain variant companionrank.com (canonical home sweetdream.ai)
+Sweetie AI,Sweetie AI,new canonical
+Sweetr,Sweetr,normalized-name sweetr
+Sweetty,Sweetty,new canonical
+Swerve AI,Swerve AI,new canonical
+Swipey.ai,Swipey AI,normalized-name swipeyai
+Swoony,Swoony,new canonical
+Synclub,SynClub,normalized-name synclub
+Tabu (塔布 / tabulai),Tabu (塔布 / tabulai),new canonical
+TalaForge,TalaForge,new canonical
+Taleborn: AI Hero Story RPG,Taleborn: AI Hero Story RPG,new canonical
+Talelynx,Talelynx,new canonical
+Tales RPG: AI Text Adventure,Tales RPG: AI Text Adventure,new canonical
+Talk: Text to Voice,Talk: Text to Voice,new canonical
+Talkie AI,Talkie AI,alias-table (census-A identity resolution)
+Talkie Lab - AI Playground,Talkie Lab - AI Playground,new canonical
+TalkLife,TalkLife,new canonical
+Tangle,Tangle,new canonical
+TauriTavern (TauricTavern),TauriTavern (TauricTavern),new canonical
+Taverna,Taverna,new canonical
+TavernAI (T.ai / Tavern),TavernAI,normalized-name tavernai
+Tavo,Tavo,normalized-name tavo
+Tavus,Tavus,new canonical
+tellmemore,tellmemore,new canonical
+TellMeMore,tellmemore,normalized-name tellmemore
+Tension (Tension – AI Story Chat),Tension (Tension – AI Story Chat),new canonical
+text-generation-webui,text-generation-webui / Oobabooga,normalized-name textgenerationwebui
+The Bela Experience,The Bela Experience,new canonical
+The Feed: AI Social Network,The Feed: AI Social Network,new canonical
+The Uncensored AI,The Uncensored AI,new canonical
+ThotChat / ThotChat AI,ThotChat.ai,normalized-name thotchatai
+Tiina: AI Voice Companion,Tiina: AI Voice Companion,new canonical
+Tikita / 緹奇塔 / 티키타,Tikita / 緹奇塔 / 티키타,new canonical
+tingle,tingle,new canonical
+tinglechat,tingle,normalized-name tingle
+Tipsy Chat,Tipsy Chat,normalized-name tipsy
+tokimeki.chat,tokimeki.chat,new canonical
+Tolan,Tolan,normalized-name tolan
+Told,Told,new canonical
+Too Shy,Too Shy,new canonical
+Tookit / 투킷,Tookit / 투킷,new canonical
+touchgrass.AI,touchgrass.AI,new canonical
+Touchie,Touchie,new canonical
+Tronovex,Tronovex,new canonical
+TruMate,TruMate,normalized-name trumate
+Twomi,Twomi,new canonical
+TYAN.AI,Tyan AI,normalized-name tyanai
+UCandyChat,UCandyChat,new canonical
+UDesireAI,uDesire AI,normalized-name udesireai
+Unconfirmed app title — com.aichatbot.crushais.gp,Unconfirmed app title — com.aichatbot.crushais.gp,new canonical
+Unconfirmed app title (com.dualstorm.kaiacompanion),Unconfirmed app title (com.dualstorm.kaiacompanion),new canonical
+Unhinged,Unhinged,new canonical
+Unidentified app: com.world.clank,Unidentified app: com.world.clank,new canonical
+Unknown (unnamed AI companion app),Unknown (unnamed AI companion app),new canonical
+Unnamed adult AI companion service,Unnamed adult AI companion service,new canonical
+Unnamed adult AI companion services,Unnamed adult AI companion services,new canonical
+Unresolved unnamed AI services,Unresolved unnamed AI services,new canonical
+Unscripti,Unscripti,new canonical
+Unspecified AI-generated sister voice chat,Unspecified AI-generated sister voice chat,new canonical
+Ure: AI RPG Choose Your Story,Ure: AI RPG Choose Your Story,new canonical
+"User-created persona discoveries: Rias, Min-ho/Minho, Jack, Sophia, Allur, Shadow, Delphine, Morgan, Odette, Maya, Teodora, Ezra, Garrett, Tristan, James, Alex Hart, Noah, Narvel Blackstock","User-created persona discoveries: Rias, Min-ho/Minho, Jack, Sophia, Allur, Shadow, Delphine, Morgan, Odette, Maya, Teodora, Ezra, Garrett, Tristan, James, Alex Hart, Noah, Narvel Blackstock",new canonical
+v-sona AI,v-sona AI,new canonical
+Varenchat: Character Stories,Varenchat: Character Stories,new canonical
+Velour AI,Velour AI,new canonical
+Velvet Chat - Safe AI Roleplay,Velvet Chat - Safe AI Roleplay,new canonical
+VenusX,VenusX,new canonical
+Verse RP,Verse RP,new canonical
+Vespera AI,Vespera AI,new canonical
+Vibe by Mistral / Le Chat,Vibe by Mistral / Le Chat,new canonical
+VibeBot,VibeBot,new canonical
+Vibeo: Storytelling with you,Vibeo: Storytelling with you,new canonical
+Vidchat AI,Vidchat AI,new canonical
+VirtFlirt,VirtFlirt,new canonical
+Virtual Boyfriend: AI Romance / BoyBot,BoyBot,normalized-name boybot
+Virtual Buddy / V-Buddy,Virtual Buddy / V-Buddy,new canonical
+Virtual Comic Girl,Virtual Comic Girl,new canonical
+VMate AI,VMate AI,normalized-name vmateai
+VMate AI,VMate AI,domain variant vmateai.com (canonical home vmate.ai)
+Voice AI Friend & Companion,Voice AI Friend & Companion,new canonical
+Voice Chatbot by Oliver AI,Voice Chatbot by Oliver AI,new canonical
+Voxa,Voxa,new canonical
+Voy a querer,Voy a querer,new canonical
+WeavAI,WeavAI,new canonical
+Wedelia,Wedelia,new canonical
+Weifu AI: My Girlfriend Chat,Weifu AI: My Girlfriend Chat,new canonical
+WHIF: Romance & BL AI Chat,WHIF: Romance & BL AI Chat,new canonical
+Whispatia,Whispatia,new canonical
+Wildgrl,Wildgrl,new canonical
+wilds.ai,wilds.ai,new canonical
+With Alia,With Alia,new canonical
+Wizwire AI,Wizwire AI,new canonical
+WorldOS,WorldOS,new canonical
+Wrtn / 뤼튼,Wrtn / Crack (뤼튼 / 크랙),normalized-name wrtn
+Wyvern,WyvernChat,normalized-name wyvern
+Xchar AI,Xchar AI,normalized-name xcharai
+Xego,Xego,new canonical
+Xeve AI,Xeve.ai,normalized-name xeveai
+Xomi,Xomi,new canonical
+Xotic,Xotic,new canonical
+Xoul AI,Xoul AI,normalized-name xoulai
+Y/N,Y/N,new canonical
+Yamete.gg AI,Yamete.gg AI,new canonical
+Yodayo,Yodayo,alias-table (census-A identity resolution)
+Yodayo,Yodayo,domain variant yodayoai.com (canonical home yodayo.com)
+Yollo AI,Yollo AI,normalized-name yolloai
+Your Girlfriend AI Companion,Your Girlfriend AI Companion,new canonical
+YouTube,YouTube,new canonical
+Yume,Yume,new canonical
+Zephy,Zephy,new canonical
+Zeta AI,Zeta AI,new canonical
+zropi.com,zropi.com,new canonical
+Виртуальная девушка ИИ,Виртуальная девушка ИИ,new canonical
+Ия AI-подруга,Ия AI-подруга,new canonical
+Лексика,Лексика,new canonical
+Ликотека,Ликотека,new canonical
+التحدث مع شخصية AI-J.AI,التحدث مع شخصية AI-J.AI,new canonical
+귤,귤,new canonical
+네코챗 / 네코,네코챗 / 네코,new canonical
+돌로플래닛 (DoloPlanet),돌로플래닛 (DoloPlanet),new canonical
+로판 AI / 로판AI / 로판 / 롶,로판 AI / 로판AI / 로판 / 롶,new canonical
+루나 / Luna,루나 / Luna,new canonical
+루모 / Rumu,루모 / Rumu,new canonical
+리루,리루,new canonical
+릴톡 (Reeltalk),릴톡 (Reeltalk),new canonical
+멜팅,멜팅,new canonical
+블루미 (Blumi / Bloomy),블루미 (Blumi / Bloomy),new canonical
+블룸,블룸,new canonical
+사육짱,사육짱,new canonical
+소설가 터보2,소설가 터보2,new canonical
+수다콜 (SudaCall),수다콜 (SudaCall),new canonical
+신비AI (Shinbi AI),신비AI (Shinbi AI),new canonical
+엘린 / 엘린챗,엘린 / 엘린챗,new canonical
+우마이,우마이,new canonical
+유니챗 / 유니,유니챗 / 유니,new canonical
+이세계트럭,이세계트럭,new canonical
+잉크챗,잉크챗,new canonical
+젠잇,젠잇,new canonical
+책붕이,책붕이,new canonical
+크랙,크랙,new canonical
+티팟,티팟,new canonical
+팅글,팅글,new canonical
+포켓리스,포켓리스,new canonical
+플레이툰 / 플툰,플레이툰 / 플툰,new canonical
+アニニ (Anini),アニニ (Anini),new canonical
+イケメンAI彼氏,イケメンAI彼氏,new canonical
+エアフレンド,エアフレンド,new canonical
+オズチャット,オズチャット,new canonical
+オズチャット / Oz Chat,オズチャット,normalized-name オズチャット
+ガチキュンカレシ,ガチキュンカレシ,new canonical
+キャラぷ,キャラぷ,new canonical
+クラッシ AI,クラッシ AI,new canonical
+ココトモ,ココトモ,new canonical
+チャチャ - AIキャラとロールプレイチャット,チャチャ - AIキャラとロールプレイチャット,new canonical
+チャチャ / アニロール,チャチャ / アニロール,new canonical
+ティキタ (Tikita),Tikita / 緹奇塔 / 티키타,normalized-name tikita
+ニジカレ (Nijicare),ニジカレ (Nijicare),new canonical
+ハートチャット,ハートチャット,new canonical
+パープレ,パープレ,new canonical
+マインディ (Mindy),マインディ (Mindy),new canonical
+メルティング (Melting),Melting,normalized-name melting
+メローイ (Melloy / メロイ),メローイ (Melloy / メロイ),new canonical
+メローズ (mellows),mellows,normalized-name mellows
+リートン,リートン,new canonical
+云酒馆 (i.meimoai1.com),云酒馆 (i.meimoai1.com),new canonical
+南加,南加,new canonical
+卿卿我我,7755,normalized-name 卿卿我我
+反重力,反重力,new canonical
+多羅星球,多羅星球,new canonical
+夢語時光,夢語時光,new canonical
+宇宙,宇宙,new canonical
+小黃文AI,小黃文AI,new canonical
+幽光,幽光,new canonical
+推しトーク (Oshi Talk),推しトーク (Oshi Talk),new canonical
+星色ステディ (Hoshiiro Steady),星色ステディ (Hoshiiro Steady),new canonical
+星野 (Xingye),星野 / Xingye,normalized-name 星野xingye
+林間聊愈室 (MoodTalker),林間聊愈室 (MoodTalker),new canonical
+某Z,某Z,new canonical
+筑梦岛,筑梦岛 / Zhumengdao,normalized-name 筑梦岛
+"纸条圈 - 附近交友,单身男女恋爱约会平台","纸条圈 - 附近交友,单身男女恋爱约会平台",new canonical
+耳打ち,耳打ち,new canonical
+読み上げ「ゆっくり棒読みトーク」,読み上げ「ゆっくり棒読みトーク」,new canonical
+追星：偶像爱豆私聊陪伴,追星：偶像爱豆私聊陪伴,new canonical
+酒馆ai (Telegram bot),酒馆ai (Telegram bot),new canonical
+電子魅魔 (battery-currency service; identity unresolved),電子魅魔 (battery-currency service; identity unresolved),new canonical
+風月AI,風月AI,new canonical
+风月,风月,new canonical
+魅魔AI (MeiMo AI),魅魔AI (MeiMo AI),new canonical
+(VA) Voice Acting,(VA) Voice Acting,new canonical
+"{Char}, [Roll] for [Outcome] (CRO)","{Char}, [Roll] for [Outcome] (CRO)",new canonical
+"{Char}, [Roll] for [Outcome] / {char}, [ROLL] for [Outcome] / CRO","{Char}, [Roll] for [Outcome] (CRO)",normalized-name charrollforoutcome
+1667,1667,new canonical
+18+,18+,new canonical
+23andMe,23andMe,new canonical
+3 pro,3 pro,new canonical
+3.5,3.5,new canonical
+3.5 Flash,3.5 Flash,new canonical
+3.5 Pro,3.5 Pro,new canonical
+3DS,3DS,new canonical
+4,4,new canonical
+4.1,4.1,new canonical
+4.1 mini,4.1 mini,new canonical
+4o,4o,new canonical
+5,5,new canonical
+5 instant,5 instant,new canonical
+5.1,5.1,new canonical
+5.2,5.2,new canonical
+5.2 thinking,5.2 thinking,new canonical
+5.3,5.3,new canonical
+5.6 sol,5.6 sol,new canonical
+AA2,AA2,new canonical
+Aaron,Aaron,new canonical
+abab,abab,new canonical
+Adobe Podcast,Adobe Podcast,new canonical
+Adriel,Adriel,new canonical
+Advisor,Advisor,new canonical
+AeonChat,AeonChat,new canonical
+Affirm,Affirm,new canonical
+Afterlife.ai,Afterlife.ai,new canonical
+AG,AG,new canonical
+agent!,agent!,new canonical
+AI Amalia,AI Amalia,new canonical
+AI Character Cards,AI Character Cards,normalized-name aicharactercards
+AI Character Editor (desune.moe/aichared),AI Character Editor (desune.moe/aichared),new canonical
+AI Character Guide,AI Character Guide,new canonical
+AI Chat - AI Chatbot Assistant,AI Chat - AI Chatbot Assistant,new canonical
+AI Chat - Instant Chatbot,AI Chat - Instant Chatbot,new canonical
+AI Chat : Virtual AI Assistant,AI Chat : Virtual AI Assistant,new canonical
+AI Chat: AI Assistant & Voice,AI Chat: AI Assistant & Voice,new canonical
+AI Chat: Asistente & Chatbot,AI Chat: Asistente & Chatbot,new canonical
+AI Chatbot : Ask AI Anything,AI Chatbot : Ask AI Anything,new canonical
+AI Chatmates,AI Chatmates,new canonical
+AI Compagnon,AI Compagnon,new canonical
+AI companion apps (unspecified),AI companion apps (unspecified),new canonical
+AI Companion Guide,AI Companion Guide,new canonical
+AI Companion Guides,AI Companion Guides,new canonical
+AI Companion Picker,AI Companion Picker,new canonical
+AI Companion Radar,AI Companion Radar,new canonical
+AI Dating Hub,AI Dating Hub,new canonical
+AI Friend AI Character ChatJoy,AI Friend AI Character ChatJoy,new canonical
+AI Girlfriend App,AI Girlfriend (aigirlfriend.com),normalized-name aigirlfriend
+AI girlfriend apps (unspecified),AI girlfriend apps (unspecified),new canonical
+AI Girlfriend Chat - Chatelady,AI Girlfriend Chat - Chatelady,new canonical
+AI Girlfriend Guide,AI Girlfriend Guide,new canonical
+AI Girlfriend Review,AI Girlfriend Review,new canonical
+AI Girlfriend Scout,AI Girlfriend Scout,new canonical
+AI Girlfriends Pro,AI Girlfriends Pro,new canonical
+AI Haven,AI Haven,new canonical
+AI Home Design: Home Planner,AI Home Design: Home Planner,new canonical
+AI Horde (Kobold Horde),AI Horde / KoboldAI Horde,normalized-name aihorde
+AI Hub: 50+ models ChatLLM,AI Hub: 50+ models ChatLLM,new canonical
+Ai Insights News,Ai Insights News,new canonical
+AI Love (ialove.com),AI Love (ialove.com),new canonical
+AI Note Taker: Voice Track App,AI Note Taker: Voice Track App,new canonical
+AI Novelist,AI Novelist,new canonical
+AI Photo Pro: AI Image Editor,AI Photo Pro: AI Image Editor,new canonical
+AI Picasso,AI Picasso,new canonical
+AI PICKSマガジン,AI PICKSマガジン,new canonical
+AI Porn Guide,AI Porn Guide,new canonical
+AI Showrunner,AI Showrunner,new canonical
+AI Therapy: Self Reflection,AI Therapy: Self Reflection,new canonical
+"AI Translate: Photo,Text&Voice","AI Translate: Photo,Text&Voice",new canonical
+AI Voice Actor / Voice Library (ElevenLabs),AI Voice Actor / Voice Library (ElevenLabs),new canonical
+AI Voice Chat GPT,AI Voice Chat GPT,new canonical
+AI 채팅 채널,AI 채팅 채널,new canonical
+aichathub,aichathub,new canonical
+AiFeed - AI tracks 24/7,AiFeed - AI tracks 24/7,new canonical
+AIGenNSFW,AIGenNSFW,new canonical
+aigirlfriend.to,aigirlfriend.to,new canonical
+Aion,Aion,new canonical
+AIチャットくん,AIチャットくん,new canonical
+AI聊天小幫手-ChatOne,AI聊天小幫手-ChatOne,new canonical
+Akane,Akane,new canonical
+Alexa,Alexa,new canonical
+Alice,Alice,new canonical
+ALLAM 34B,ALLAM 34B,new canonical
+ALLMRR,ALLMRR,new canonical
+Ally,Ally,new canonical
+Alter: Soul Friend,Alter: Soul Friend,new canonical
+AlteraGen AI,AlteraGen AI,new canonical
+AltersGo,AltersGo,new canonical
+Amazon Bedrock (AWS Bedrock),Amazon Bedrock (AWS Bedrock),new canonical
+Amber,Amber,new canonical
+Amily2,Amily2,new canonical
+Amino,Amino,new canonical
+AMM Bells,AMM Bells,new canonical
+Andrea,Andrea,new canonical
+Android,Android,new canonical
+Ani (Grok persona),Ani (Grok persona),new canonical
+Anima (image model),Anima,normalized-name anima
+Anima-GGUF,Anima-GGUF,new canonical
+anthracite-org,anthracite-org,new canonical
+Anthropic,Anthropic / Claude API,normalized-name anthropic
+Anywayr,Anywayr,new canonical
+Apertus,Apertus,new canonical
+Aphrodite,Aphrodite,new canonical
+Appfigures,Appfigures,new canonical
+Apple,Apple,new canonical
+Apple / App Store / Appstore,Apple,normalized-name apple
+Apple / Apple store / iOS,Apple,normalized-name apple
+Apple App Store,Apple App Store,new canonical
+Apple App Store / iPhone,Apple App Store,normalized-name appleappstore
+Apple foundation model,Apple foundation model,new canonical
+Apple Intelligence,Apple Intelligence,new canonical
+Aptoide,Aptoide,new canonical
+Aqua,Aqua,new canonical
+Arachne Project,Arachne Project,new canonical
+Arc,Arc,new canonical
+Arca Live AI 채팅 채널,Arca Live AI 채팅 채널,new canonical
+Arcanum RPGs,Arcanum RPGs,new canonical
+Archive-AI / Archer-AI (name ambiguous),Archive-AI / Archer-AI (name ambiguous),new canonical
+Arli AI,Arli AI,new canonical
+Arlo,Arlo,new canonical
+Art Max,Art Max,new canonical
+Ash / 애쉬,Ash / 애쉬,new canonical
+Assistant,Assistant,new canonical
+Astellia,Astellia,new canonical
+Astra 6,Astra 6,new canonical
+Astroscope: Partnerhoroskop,Astroscope: Partnerhoroskop,new canonical
+Atlas,Atlas,new canonical
+AtlasCloud,AtlasCloud,new canonical
+Automatic1111,Automatic1111,new canonical
+AUTOMATIC1111 WebUI,AUTOMATIC1111 WebUI,new canonical
+awesome-ai-companions,awesome-ai-companions,new canonical
+Aya 23,Aya 23,new canonical
+Ayel,Ayel,new canonical
+Ayuda AI,Ayuda AI,new canonical
+Ayumi ERP chatlogs,Ayumi ERP chatlogs,new canonical
+Azure Functions,Azure Functions,new canonical
+Azure Static Web Apps,Azure Static Web Apps,new canonical
+Backloot: Game Backlog Tracker,Backloot: Game Backlog Tracker,new canonical
+BBS,BBS,new canonical
+"BCA, inc.","BCA, inc.",new canonical
+BeagleLake-7B-Toxic-GGUF,BeagleLake-7B-Toxic-GGUF,new canonical
+Behemoth-X v2,Behemoth-X v2,new canonical
+Bestie AI: Vent Heal Love,Bestie AI: Vent Heal Love,new canonical
+BetterGPT,BetterGPT,new canonical
+BetterWaifu,BetterWaifu,normalized-name betterwaifu
+Bia,Bia,new canonical
+Biggo Finance,Biggo Finance,new canonical
+Bing AI,Bing AI,new canonical
+Blake,Blake,new canonical
+Bland.ai,Bland.ai,new canonical
+Blender,Blender,new canonical
+Blindly,Blindly,new canonical
+Blizzard / Final Fantasy 7 Remake / Metal Gear Solid / Madden / Lara Croft,Blizzard / Final Fantasy 7 Remake / Metal Gear Solid / Madden / Lara Croft,new canonical
+Bobette's World | RP,Bobette's World | RP,new canonical
+Boom Box,Boom Box,new canonical
+Boost,Boost,new canonical
+Boosty,Boosty,new canonical
+Bravely Second,Bravely Second,new canonical
+Build,Build,new canonical
+Buysmart.AI Inc,Buysmart.AI Inc,new canonical
+BYAF,BYAF,new canonical
+Bytes Europe,Bytes Europe,new canonical
+c.ai+,Character.AI,alias-table (census-A identity resolution)
+C.ai+ / c.ai+ / cai+ / cai plus,Character.AI,alias-table (census-A identity resolution)
+CABENUVA,CABENUVA,new canonical
+Caddy,Caddy,new canonical
+Cade,Cade,new canonical
+CAI Tools plugin / newcaitools,CAI Tools plugin / newcaitools,new canonical
+"cAI, Private AI (f.k.a AnonAI)","cAI, Private AI (f.k.a AnonAI)",new canonical
+Call Me - AI Friend,Call Me - AI Friend,new canonical
+Cambrian,Cambrian,new canonical
+Canva,Canva,new canonical
+Car Part Identifier by Image,Car Part Identifier by Image,new canonical
+Career Essay AI,Career Essay AI,new canonical
+Career Roleplay AI,Career Roleplay AI,new canonical
+Cariño virtual,Cariño virtual,new canonical
+Carolina,Carolina,new canonical
+CASTALK INC,CASTALK INC,new canonical
+Celia,Celia,new canonical
+Chad RPG,Chad RPG,new canonical
+Chaiverse,Chaiverse,new canonical
+Change.org / chng.it,Change.org / chng.it,new canonical
+chara-card-utils-web,chara-card-utils-web,new canonical
+Character Card Spec V2 (Tavern v2),Character Card Spec V2 (Tavern v2),new canonical
+Character Card Spec V3 (CharX),Character Card Spec V3 (CharX),new canonical
+Character Technologies,Character Technologies,new canonical
+Character.AI Books,Character.AI Books,new canonical
+Character.AI legacy model labels,Character.AI legacy model labels,new canonical
+CharacterAIrunaways,CharacterAIrunaways,new canonical
+CharacterAIrunaways / characterairunaways,CharacterAIrunaways,normalized-name characterairunaways
+Charlie,Charlie,new canonical
+Charly,Charly,new canonical
+ChartPro: AI Profit Signals,ChartPro: AI Profit Signals,new canonical
+Chatbot de IA - Nova,Chatbot de IA - Nova,new canonical
+ChatBox,ChatBox,new canonical
+ChatBox: Chat de IA en español,ChatBox: Chat de IA en español,new canonical
+ChatGPT,ChatGPT,new canonical
+ChatGPT 5,ChatGPT 5,new canonical
+ChatGPT 5.1,ChatGPT 5.1,new canonical
+ChatGPT 5.2 / 5.2,ChatGPT 5.2 / 5.2,new canonical
+ChatGPT GPTs,ChatGPT GPTs,new canonical
+ChatGPT Images 2.0,ChatGPT Images 2.0,new canonical
+ChatGPT Pulse,ChatGPT Pulse,new canonical
+ChatGPT Spicy,ChatGPT Spicy,new canonical
+chatgpt-4o-latest (gpt4o-latest),chatgpt-4o-latest (gpt4o-latest),new canonical
+chatGPT5.5thinking,chatGPT5.5thinking,new canonical
+chatmock,chatmock,new canonical
+ChatSao / 챗사오,ChatSao / 챗사오,new canonical
+Chatstream,Chatstream,new canonical
+Chorong,Chorong,new canonical
+Chrome,Chrome,new canonical
+Chrysalis Engine,Chrysalis Engine,new canonical
+Chub / chub.ai,Chub AI,normalized-name chubai
+Chub Archive,Chub Archive,new canonical
+Chub official Discord,Chub official Discord,new canonical
+Chutes,Chutes,new canonical
+Citybound: City Tycoon,Citybound: City Tycoon,new canonical
+CivitAI,Civitai,normalized-name civitai
+Clash,Clash,new canonical
+Claude,Claude,new canonical
+Claude / Anthropic,Claude,normalized-name claude
+Claude / 클로드 / Claude Pro / Claude Max,Claude,normalized-name claude
+Claude 2,Claude 2,new canonical
+Claude 2.1,Claude 2.1,new canonical
+Claude 3,Claude 3,new canonical
+"Claude 3 Haiku, Claude 3 Opus, Claude 3.5 Sonnet, Opus 4.6","Claude 3 Haiku, Claude 3 Opus, Claude 3.5 Sonnet, Opus 4.6",new canonical
+Claude 3 Opus (3o),Claude 3 Opus (3o),new canonical
+Claude 3.5 Haiku,Claude 3.5 Haiku,new canonical
+Claude 3.5 Sonnet,Claude 3.5 Sonnet,new canonical
+Claude 3.5 Sonnet 0620,Claude 3.5 Sonnet 0620,new canonical
+Claude 3.5 Sonnet 1022,Claude 3.5 Sonnet 1022,new canonical
+Claude 3.5 Sonnet V2,Claude 3.5 Sonnet V2,new canonical
+Claude 3.7,Claude 3.7,new canonical
+Claude 4,Claude 4,new canonical
+Claude 4 Opus,Claude 4 Opus,new canonical
+Claude 4.5,Claude 4.5,new canonical
+Claude 4.6,Claude 4.6,new canonical
+Claude API,Anthropic / Claude API,normalized-name claudeapi
+Claude Code,Claude Code,new canonical
+Claude Cowork,Claude Cowork,new canonical
+Claude Fable 5,Claude Fable 5,new canonical
+Claude Haiku,Claude Haiku,new canonical
+Claude in Chrome,Claude in Chrome,new canonical
+Claude Max,Claude,normalized-name claudemax
+Claude mythos,Claude mythos,new canonical
+Claude Opus,Claude Opus,new canonical
+Claude Opus 3,Claude Opus 3,new canonical
+Claude Opus 4,Claude Opus 4,new canonical
+Claude Opus 4.1,Claude Opus 4.1,new canonical
+Claude Opus 4.5,Claude Opus 4.5,new canonical
+Claude Opus 4.6,Claude Opus 4.6,new canonical
+Claude Opus 4.6 / Opus4.6,Claude Opus 4.6,normalized-name claudeopus46
+Claude Opus 4.7,Claude Opus 4.7,new canonical
+Claude Opus 5.5,Claude Opus 5.5,new canonical
+Claude Sonnet,Claude Sonnet,new canonical
+Claude Sonnet 4.5,Claude Sonnet 4.5,new canonical
+Claude Sonnet 4.6,Claude Sonnet 4.6,new canonical
+Clewd,Clewd,new canonical
+click2cart.com,click2cart.com,new canonical
+Clorox / Clorox PURE,Clorox / Clorox PURE,new canonical
+Cloud Whale Interactive Technology LLC,Cloud Whale Interactive Technology LLC,new canonical
+CNN Brasil,CNN Brasil,new canonical
+code-davinci-002,code-davinci-002,new canonical
+Codex,Codex,new canonical
+Cohere,Cohere,new canonical
+Cohere Labs,Cohere Labs,new canonical
+Cohere Platform,Cohere,normalized-name cohere
+Cole,Cole,new canonical
+Columns GB : Tezuka Osamu Characters,Columns GB : Tezuka Osamu Characters,new canonical
+ComfyUI,ComfyUI,normalized-name comfyui
+Command A+,Command A+,new canonical
+Common Sense Media,Common Sense Media,new canonical
+Compagnon AI,Compagnon AI,new canonical
+CompanionGuide,CompanionGuide,new canonical
+CompanionRank,CompanionRank,new canonical
+CompanionWise,CompanionWise,new canonical
+Composite,Composite,new canonical
+ContextShift,ContextShift,new canonical
+ControlNet,ControlNet,new canonical
+Copainter,Copainter,new canonical
+Copilot,Copilot,new canonical
+Copilot / Copilot Chat,Copilot,normalized-name copilot
+Cosmos DB,Cosmos DB,new canonical
+Cosmos RP,Cosmos RP,normalized-name cosmos
+Cove,Cove,new canonical
+CoveChat,Cove,normalized-name cove
+CreArt,CreArt,new canonical
+Crof / crofai,Crof / crofai,new canonical
+Crunchyroll,Crunchyroll,new canonical
+"Curiouspark, Inc.","Curiouspark, Inc.",new canonical
+Cursor,Cursor,new canonical
+Cydonia,Cydonia,new canonical
+DALL-E,DALL-E,new canonical
+DALL-E 2,DALL-E 2,new canonical
+DALL·E,DALL-E,normalized-name dalle
+DALL·E 3,DALL·E 3,new canonical
+Dan - AI Voice Chat Companion,Dan - AI Voice Chat Companion,new canonical
+Dandy's World,Dandy's World,new canonical
+Danube 3,Danube 3,new canonical
+DARE_TIES_13B,DARE_TIES_13B,new canonical
+Date Ariane,Date Ariane,new canonical
+Decodo,Decodo,new canonical
+DeepL,DeepL,new canonical
+DeepOrbit,DeepOrbit,new canonical
+DeepSeek,DeepSeek,new canonical
+DeepSeek API,DeepSeek API,normalized-name deepseekapi
+DeepSeek API,DeepSeek API,domain variant reddit.com (canonical home deepseek.com)
+DeepSeek R1,DeepSeek R1,new canonical
+DeepSeek V3,DeepSeek V3,new canonical
+DeepSeek V3.2,DeepSeek V3.2,new canonical
+DeepSeek v3.2 / v4 / v4 Flash,DeepSeek V3.2,normalized-name deepseekv32
+DeepSeek V4,DeepSeek V4,new canonical
+DeepSeek V4 Flash,DeepSeek V4 Flash,new canonical
+"DeepSeek, including DeepSeek V4 Pro 0813","DeepSeek, including DeepSeek V4 Pro 0813",new canonical
+Deepsex,Deepsex,new canonical
+Deepsqueak,Deepsqueak,new canonical
+DeepSqueak / Deepsqueak / deepsqueak / Deepsqueek,Deepsqueak,normalized-name deepsqueak
+DeepSqueak / Deepsqueek,Deepsqueak,normalized-name deepsqueak
+Deepsqueak / DS / Deep,Deepsqueak,normalized-name deepsqueak
+DeepSqueek,Deepsqueak,normalized-name deepsqueek
+Depths Of Endor: Dungeon Crawl,Depths Of Endor: Dungeon Crawl,new canonical
+Descript,Descript,new canonical
+Detective Protocol: Crime Sim,Detective Protocol: Crime Sim,new canonical
+DEV Community,DEV Community,new canonical
+Dia,Dia,new canonical
+Diamond,Diamond,new canonical
+Discordserversz,Discordserversz,new canonical
+Discourse,Discourse,new canonical
+Discworld,Discworld,new canonical
+Disney,Disney,new canonical
+Dispatch,Dispatch,new canonical
+Dixmoji,Dixmoji,new canonical
+DnD,DnD,new canonical
+Docker,Docker,new canonical
+Dolphin models / dolphin-phi / Phi,Dolphin models / dolphin-phi / Phi,new canonical
+Don't Spiral: Overthinking,Don't Spiral: Overthinking,new canonical
+Dorian: Romantasy Games Hub,Dorian: Romantasy Games Hub,new canonical
+Dragon Quest VIII: Journey of the Cursed King / DQVIII,Dragon Quest VIII: Journey of the Cursed King / DQVIII,new canonical
+Dragon Warrior,Dragon Warrior,new canonical
+Draw Things (DrawThings),Draw Things (DrawThings),new canonical
+Dream AI Companion,Dream AI Companion,new canonical
+DreamAI SRL,DreamAI SRL,new canonical
+DreamBooth,DreamBooth,new canonical
+DS2,DS2,new canonical
+Dungeons and Decisions RPG,Dungeons and Decisions RPG,new canonical
+Dungeons and Dragons,Dungeons and Dragons,new canonical
+EcchiDreams,EcchiDreams,new canonical
+EchoMind,EchoMind,new canonical
+Eclipse,Eclipse,new canonical
+"Eden Technologies, Inc.","Eden Technologies, Inc.",new canonical
+Edge,Edge,new canonical
+Eesel,Eesel,new canonical
+eesel AI,eesel AI,new canonical
+El Chapuzas Informático,El Chapuzas Informático,new canonical
+Electron,Electron,new canonical
+ElectronHub,ElectronHub,new canonical
+Electronic Frontier Foundation,Electronic Frontier Foundation,new canonical
+ElevenLabs,ElevenLabs,new canonical
+Elise,Elise,new canonical
+Eliza,Eliza,new canonical
+Ember,Ember,new canonical
+Embody,Embody,new canonical
+Emily’s Midnight Snack,Emily’s Midnight Snack,new canonical
+EMO,EMO,new canonical
+Emochi Discord community,Emochi Discord community,new canonical
+Enclave - 本地 AI 助手,Enclave - 本地 AI 助手,new canonical
+EnigmaAI – Anonymous AI Chat,EnigmaAI – Anonymous AI Chat,new canonical
+EpicTale Large,EpicTale Large,new canonical
+EVA Qwen 72B,EVA Qwen 72B,new canonical
+EveningTruth presets,EveningTruth presets,new canonical
+EverAI,EverAI,new canonical
+Evoke Free Tools,Evoke Free Tools,new canonical
+Ex-Machina,Ex-Machina,new canonical
+Excel,Excel,new canonical
+ExecuTorch,ExecuTorch,new canonical
+ExLlama (V2 / V3),ExLlamaV2,normalized-name exllamav2
+Fable,Fable,new canonical
+Facebook,Facebook,new canonical
+Faraday,Faraday,normalized-name faraday
+Fat Text Generator,Fat Text Generator,new canonical
+Featherless,Featherless,new canonical
+Fedra,Fedra,new canonical
+FF 5.2 max cot,FF 5.2 max cot,new canonical
+FFXII,FFXII,new canonical
+Figma,Figma,new canonical
+Film Canvas,Film Canvas,new canonical
+Fimbulvetr v2 11b,Fimbulvetr v2 11b,new canonical
+Firebase Analytics,Firebase Analytics,new canonical
+Firestore,Firestore,new canonical
+Fish Audio S2,Fish Audio S2,new canonical
+Flaq AI,Flaq AI,new canonical
+Flash-Lite,Flash-Lite,new canonical
+Flash3.8,Flash3.8,new canonical
+FlexNeuroAI,FlexNeuroAI,new canonical
+Flutter,Flutter,new canonical
+FLUX,FLUX,new canonical
+Fluxbot,Fluxbot,new canonical
+Forever Voices AI,Forever Voices AI,new canonical
+Foros de IA,Foros de IA,new canonical
+Fortnite,Fortnite,new canonical
+Frames - Lock Screen Videos,Frames - Lock Screen Videos,new canonical
+Freaky Frankenstein,Freaky Frankenstein,new canonical
+Freaky Frankenstein presets,Freaky Frankenstein presets,new canonical
+FreedomGPT,FreedomGPT,new canonical
+Frostwind-10.7B,Frostwind-10.7B,new canonical
+Fruit Identifier - Infolens,Fruit Identifier - Infolens,new canonical
+Fruitz - Dating App,Fruitz - Dating App,new canonical
+Funny City - Fashion Life,Funny City - Fashion Life,new canonical
+Funny Town - Wolly World,Funny Town - Wolly World,new canonical
+FusionNet_7Bx2_MoE_14B,FusionNet_7Bx2_MoE_14B,new canonical
+Gabber.dev,Gabber.dev,new canonical
+GAME UX News,GAME UX News,new canonical
+GameFAQs / GameSpot,GameFAQs / GameSpot,new canonical
+Gemini,Gemini,new canonical
+Gemini / Gemini Live,Gemini,normalized-name gemini
+Gemini / 제미니 / 제미나이 / 제미나이 / 잼민이 / 잼미니 / 젬민이,Gemini,normalized-name gemini
+Gemini 1.5 Pro,Gemini 1.5 Pro,new canonical
+Gemini 2.5,Gemini 2.5,new canonical
+Gemini 2.5 Flash,Gemini 2.5 Flash,new canonical
+Gemini 2.5 Pro,Gemini 2.5 Pro,new canonical
+Gemini 2.5 Pro / Gemini 3 Pro,Gemini 2.5 Pro,normalized-name gemini25pro
+Gemini 3 (Gemini 3.0),Gemini 3 (Gemini 3.0),new canonical
+Gemini 3 Flash,Gemini 3 Flash,new canonical
+Gemini 3 Pro,Gemini 2.5 Pro,normalized-name gemini3pro
+Gemini 3.1,Gemini 3.1,new canonical
+Gemini 3.1 Flash,Gemini 3.1 Flash,new canonical
+Gemini 3.1 Pro,Gemini 3.1 Pro,new canonical
+Gemini 3.5 Flash,Gemini 3.5 Flash,new canonical
+Gemini 4 Argon,Gemini 4 Argon,new canonical
+Gemini AI Studio,Gemini AI Studio,new canonical
+Gemini API,Gemini API,new canonical
+Gemini CLI,Gemini CLI,new canonical
+Gemini Flash,Gemini Flash,new canonical
+Gemini Gems,Gemini Gems,new canonical
+Gemini Live,Gemini,normalized-name geminilive
+Gemini Notebook,Gemini Notebook,new canonical
+Gemini Pro,Gemini Pro,new canonical
+Gemma,Gemma,new canonical
+Gemma 2,Gemma 2,new canonical
+Gemma 2B,Gemma 2B,new canonical
+Gemma 4,Gemma 4,new canonical
+Gemma 4 26B,Gemma 4 26B,new canonical
+Gemma 4 31B,Gemma 4 31B,new canonical
+Gemma 4 31B base,Gemma 4 31B base,new canonical
+Gemma 4 31B IT,Gemma 4 31B IT,new canonical
+Gemma-9B,Gemma-9B,new canonical
+generative.ink,generative.ink,new canonical
+Generatively AI,Generatively AI,new canonical
+Genshin Impact,Genshin Impact,new canonical
+Genspark,Genspark,new canonical
+Genspark / ジェンスパーク,Genspark,normalized-name genspark
+GenTube,GenTube,new canonical
+Ginger,Ginger,new canonical
+Gipi,Gipi,new canonical
+Girlology: The Girlhood Guide,Girlology: The Girlhood Guide,new canonical
+Git,Git,new canonical
+GitHub,GitHub,new canonical
+GitHub Copilot,GitHub Copilot,new canonical
+Glimpse.ai,Glimpse.ai,new canonical
+GLM,GLM,new canonical
+GLM 4.6,GLM 4.6,new canonical
+GLM 4.7,GLM 4.7,new canonical
+GLM 5.1,GLM 5.1,new canonical
+GLM 5.2,GLM 5.2,new canonical
+GLM-ASR,GLM-ASR,new canonical
+"GLM, including GLM5.2, glm 5.2 and GLM 5.3","GLM, including GLM5.2, glm 5.2 and GLM 5.3",new canonical
+GLM5,GLM5,new canonical
+Glow,Glow,new canonical
+Gmail,Gmail,new canonical
+GMICloud,GMICloud,new canonical
+Gofile,Gofile,new canonical
+Google,Google,new canonical
+Google account sign-in,Google account sign-in,new canonical
+Google AI,Google AI,new canonical
+Google AI Mode,Google AI Mode,new canonical
+Google AI Pro,Google AI Pro,new canonical
+Google AI Studio (Google Studio),Google AI Studio (Google Studio),new canonical
+Google Assistant,Google Assistant,new canonical
+Google Bard,Google Bard,new canonical
+Google Beam,Google Beam,new canonical
+Google Calendar / Googleカレンダー,Google Calendar / Googleカレンダー,new canonical
+Google Chrome,Google Chrome,new canonical
+Google Colab,Google Colab,new canonical
+Google Colab / Colab,Google Colab,normalized-name googlecolab
+Google Docs,Google Docs,new canonical
+Google Docs / Googleドキュメント / google docs,Google Docs,normalized-name googledocs
+Google Drive,Google Drive,new canonical
+Google Drive / Googleドライブ,Google Drive,normalized-name googledrive
+Google Gemini,Google Gemini,new canonical
+Google One,Google One,new canonical
+Google Search,Google Search,new canonical
+Google Search / Google検索 / google,Google Search,normalized-name googlesearch
+Google Sheets / Googleスプレッドシート,Google Sheets / Googleスプレッドシート,new canonical
+Google Slides / Googleスライド,Google Slides / Googleスライド,new canonical
+Google Traduction,Google Traduction,new canonical
+Google Translate,Google Translate,new canonical
+Google translation integration,Google translation integration,new canonical
+Google TTS,Google TTS,new canonical
+Google 智慧鏡頭,Google,normalized-name google
+Google網頁翻譯,Google,normalized-name google
+GPT,GPT,new canonical
+gpt sol,gpt sol,new canonical
+GPT Store,GPT Store,new canonical
+GPT-2.5,GPT-2.5,new canonical
+GPT-3,GPT-3,new canonical
+GPT-3.5,GPT-3.5,new canonical
+GPT-3.5 / GPT-3.5-turbo / legacy GPT-3.5,GPT-3.5,normalized-name gpt35
+GPT-3.5 Turbo,GPT-3.5,normalized-name gpt35turbo
+GPT-3.5-Turbo 16K,GPT-3.5-Turbo 16K,new canonical
+GPT-4,GPT-4,new canonical
+GPT-4 / GPT4,GPT-4,normalized-name gpt4
+GPT-4 / OpenAI API,GPT-4,normalized-name gpt4
+GPT-4 Turbo,GPT-4 Turbo,new canonical
+GPT-4 Turbo 0409,GPT-4 Turbo 0409,new canonical
+GPT-4o,GPT-4o,new canonical
+"GPT-4o / 4o, GPT-5.2, PipSqueak 2, Nomi V5",GPT-4o,normalized-name gpt4o
+gpt-4o-transcribe,gpt-4o-transcribe,new canonical
+GPT-5,GPT-5,new canonical
+GPT-5 / GPT-5.5 / GPT-5.6,GPT-5,normalized-name gpt5
+GPT-5 series,GPT-5 series,new canonical
+GPT-5-mini,GPT-5-mini,new canonical
+GPT-5.1,GPT-5.1,new canonical
+GPT-5.1–5.3,GPT-5.1–5.3,new canonical
+GPT-5.2,GPT-5.2,new canonical
+GPT-5.2 Thinking,GPT-5.2 Thinking,new canonical
+GPT-5.3,GPT-5.3,new canonical
+GPT-5.3 Instant,GPT-5.3 Instant,new canonical
+GPT-5.3 Mini,GPT-5.3 Mini,new canonical
+GPT-5.4,GPT-5.4,new canonical
+GPT-5.4 Thinking,GPT-5.4 Thinking,new canonical
+GPT-5.5,GPT-5,normalized-name gpt55
+GPT-5.6 Luna,GPT-5.6 Luna,new canonical
+GPT-5.6 sol,GPT-5.6 sol,new canonical
+GPT-6 Sol,GPT-6 Sol,new canonical
+gpt-image-1,gpt-image-1,new canonical
+GPT-OSS,GPT-OSS,new canonical
+gpt-realtime-1.0,gpt-realtime-1.0,new canonical
+GPT2 (LMSYS-listed model),GPT2 (LMSYS-listed model),new canonical
+gpt4all,gpt4all,new canonical
+GPTProto.com,GPTProto.com,new canonical
+GPTs,GPTs,new canonical
+Grok 3,Grok 3,new canonical
+Grok 4,Grok 4,new canonical
+Grok 4.1,Grok 4.1,new canonical
+Grok 4.1 think,Grok 4.1 think,new canonical
+Grok Build CLI,Grok Build CLI,new canonical
+Grok Imagine,Grok Imagine,new canonical
+Grok-3 API,Grok-3 API,new canonical
+grok-voice-think-fast-1.0,grok-voice-think-fast-1.0,new canonical
+Groq,Groq,new canonical
+GTP-5.1,GTP-5.1,new canonical
+Guinevere-UI-Extension,Guinevere-UI-Extension,new canonical
+Gundam Haro,Gundam Haro,new canonical
+GW2,GW2,new canonical
+Hablar inglés Praktika,Hablar inglés Praktika,new canonical
+Hacker News,Hacker News,new canonical
+Hacker News / HN,Hacker News,normalized-name hackernews
+"HaiJoy, LLC","HaiJoy, LLC",new canonical
+Hapuppy,Hapuppy,new canonical
+Harshlands,Harshlands,new canonical
+Heiki: Photo Calorie Tracker,Heiki: Photo Calorie Tracker,new canonical
+"Heiring (헤이링, Heyring)","Heiring (헤이링, Heyring)",new canonical
+Heliconius,Heliconius,new canonical
+Heretic,Heretic (abliteration tool),normalized-name heretic
+Hermes,Hermes,new canonical
+Hermes 3,Hermes 3,new canonical
+Hermes 3 405B Instruct,Hermes 3 405B Instruct,new canonical
+Hermes Agent,Hermes Agent,new canonical
+Heroes of the Storm,Heroes of the Storm,new canonical
+HiClub,HiClub,new canonical
+Hide and Boo Seek,Hide and Boo Seek,new canonical
+Higgsfield,Higgsfield,new canonical
+HiWaifu Discord community,HiWaifu Discord community,new canonical
+HiWaifu Reddit community,HiWaifu Reddit community,new canonical
+Hnswlib,Hnswlib,new canonical
+Homework Helper - Wizard AI,Homework Helper - Wizard AI,new canonical
+Horizon,Horizon,new canonical
+HORSELOCK Spicy Writer v69.420,HORSELOCK Spicy Writer v69.420,new canonical
+Hugging Face (HF),Hugging Face,normalized-name huggingface
+HUMAIN Chat,HUMAIN Chat,new canonical
+Hume,Hume,new canonical
+iGirl,iGirl,normalized-name igirl
+iGirl,iGirl,domain variant google.com (canonical home apple.com)
+Ignacia,Ignacia,new canonical
+illustriousXLPersonalMerge,illustriousXLPersonalMerge,new canonical
+IlyaGusev,IlyaGusev,new canonical
+Image Identifier AI - Infolens,Image Identifier AI - Infolens,new canonical
+iMessage,iMessage,new canonical
+Indie Hackers,Indie Hackers,new canonical
+InfiniTalk,InfiniTalk,new canonical
+Inflection AI,Inflection AI,new canonical
+InnerHalo,InnerHalo,new canonical
+Instagram,Instagram,new canonical
+Inworld TTS,Inworld TTS,new canonical
+Inworld TTS-1.5 Max,Inworld TTS-1.5 Max,new canonical
+iOS,Apple,normalized-name ios
+iOS / iPhone,Apple,normalized-name ios
+iPad,iPad,new canonical
+iPhone,Apple App Store,normalized-name iphone
+iPhone / iPhone 13 / iPhone 15+,Apple App Store,normalized-name iphone
+IPIXELMUSE PTE. LTD.,IPIXELMUSE PTE. LTD.,new canonical
+ISO,ISO,new canonical
+itch.io,itch.io,new canonical
+Ithomia,Ithomia,new canonical
+Izi AI ・Chatbot IA en Français,Izi AI ・Chatbot IA en Français,new canonical
+JAI official Discord,JAI official Discord,new canonical
+Janitor AI / JanitorAI / Janitor: Interactive Stories,Janitor AI,normalized-name janitorai
+Janitor API,Janitor API,new canonical
+JanitorAI Beta,JanitorAI Beta,new canonical
+JanitorAI 中文資訊站,Janitor AI,normalized-name janitorai
+Jayce,Jayce,new canonical
+Jenova,Jenova,new canonical
+JLLM,JLLM,new canonical
+Joii,Joii,new canonical
+Joura：グループ旅行プランナー,Joura：グループ旅行プランナー,new canonical
+JoyFun AI,JoyFun AI,new canonical
+js-tiktoken,js-tiktoken,new canonical
+Judge AI,Judge AI,new canonical
+June,June,new canonical
+Jupi Novels & Audiobooks,Jupi Novels & Audiobooks,new canonical
+K3,K3,new canonical
+Kaggle,Kaggle,new canonical
+Karina,Karina,new canonical
+Kayra,Kayra,new canonical
+Kemimi preset,Kemimi preset,new canonical
+Kemini,Kemini,new canonical
+Kemini Aether 3.6,Kemini Aether 3.6,new canonical
+Kemini Dramatron 1.1,Kemini Dramatron 1.1,new canonical
+Kfans - KPop & KDrama Fandom,Kfans - KPop & KDrama Fandom,new canonical
+Kimi,Kimi,new canonical
+Kimi K2.5 (Kimi 2.5),Kimi K2.5 (Kimi 2.5),new canonical
+Kimi K3,Kimi K3,new canonical
+"Kindroid internal variants: Reverie, Ember, Lucid, Rhapsody, Rhapsody-E, Equinox, Prism, V6, v3fast","Kindroid internal variants: Reverie, Ember, Lucid, Rhapsody, Rhapsody-E, Equinox, Prism, V6, v3fast",new canonical
+Kindroid Lite,Kindroid Lite,new canonical
+Kindroid V1,Kindroid V1,new canonical
+Kindroid V2,Kindroid V2,new canonical
+Kingdom Hearts III / kh3 / Kingdom hearts,Kingdom Hearts III / kh3 / Kingdom hearts,new canonical
+Kingstagram / gummiphones,Kingstagram / gummiphones,new canonical
+Kling AI,Kling AI,new canonical
+Kokoro,Kokoro,new canonical
+Komiko,Komiko,new canonical
+Komiko Forum,Komiko Forum,new canonical
+KQED,KQED,new canonical
+Krea 2,Krea 2,new canonical
+KultureCity,KultureCity,new canonical
+Kunoichi 7b,Kunoichi 7b,new canonical
+L3-8B-Lunar-Stheno-GGUF,L3-8B-Lunar-Stheno-GGUF,new canonical
+L3-8B-Stheno-v3.2,L3-8B-Stheno-v3.2,new canonical
+lang models,lang models,new canonical
+langchain,langchain,new canonical
+Latitude,Latitude,new canonical
+Layla AI (trip planner),Layla AI (offline chatbot),normalized-name laylaai
+LBI,LBI,new canonical
+League of Legends,League of Legends,new canonical
+Leo,Leo,new canonical
+Lexora,Lexora,new canonical
+LHK_DPO_v1 (Q3 / Q4_K_M),LHK_DPO_v1 (Q3 / Q4_K_M),new canonical
+Linda,Linda,new canonical
+Linda’s Podcast Creator,Linda’s Podcast Creator,new canonical
+LINE,LINE,new canonical
+LINE MINI App,LINE MINI App,new canonical
+LINE official account,LINE official account,new canonical
+Liner,Liner,new canonical
+LinkedIn,LinkedIn,new canonical
+LinkedIn Learning,LinkedIn Learning,new canonical
+Linky Discord community,Linky Discord community,new canonical
+Linux,Linux,new canonical
+LiteRT-LM,LiteRT-LM,new canonical
+LittleWhiteBox,LittleWhiteBox,new canonical
+Live2D,Live2D,new canonical
+Livia,Livia,new canonical
+Living AI,Living AI,new canonical
+LivLog llc.,LivLog llc.,new canonical
+LLaMA,LLaMA,new canonical
+LLaMA / Llama,LLaMA,normalized-name llama
+Llama 2,Llama 2,new canonical
+LLaMA 2 70B,LLaMA 2 70B,new canonical
+Llama 3,Llama 3,new canonical
+Llama 3 70B,Llama 3 70B,new canonical
+Llama 3 8B,Llama 3 8B,new canonical
+Llama 3.1 405B,Llama 3.1 405B,new canonical
+Llama 3.1 8B,Llama 3.1 8B,new canonical
+Llama 3.3 70B,Llama 3.3 70B,new canonical
+llama 3.X,llama 3.X,new canonical
+Llama-2-13B,Llama-2-13B,new canonical
+LLaMA-2-7B-32K,LLaMA-2-7B-32K,new canonical
+LLaMA-7b,LLaMA-7b,new canonical
+llama.cpp,llama.cpp,normalized-name llamacpp
+llamaindex,llamaindex,new canonical
+llm.extractum.io,llm.extractum.io,new canonical
+LM Playground,LM Playground,new canonical
+LMSYS,LMSYS,new canonical
+loamy.net,loamy.net,new canonical
+Locally Uncensored,Locally Uncensored,new canonical
+LongCat,LongCat,new canonical
+LongCat 2.0 (LongCat-2.0),LongCat 2.0 (LongCat-2.0),new canonical
+LongCat 2.0 / LongCat-2.0 / Longcat,LongCat 2.0 (LongCat-2.0),normalized-name longcat20
+Longsqueak / Long squeak / LS,Longsqueak / Long squeak / LS,new canonical
+LongSqueak / longsqueak,Longsqueak / Long squeak / LS,normalized-name longsqueak
+LongSqueak / LS,Longsqueak / Long squeak / LS,normalized-name longsqueak
+lookatmy.ai,lookatmy.ai,new canonical
+Loreia,Loreia,new canonical
+Louis Chung,Louis Chung,new canonical
+Love and Producer,Love and Producer,new canonical
+Lovense Remote,Lovense Remote,new canonical
+Luca,Luca,new canonical
+Lucida AI,Lucida AI,new canonical
+Luka,Luka,new canonical
+Lukas,Lukas,new canonical
+Luna - Your Ai Companion,Luna - Your Ai Companion,new canonical
+LUNAAI LABS LTD,LUNAAI LABS LTD,new canonical
+lzlv 70B,lzlv 70B,new canonical
+m2.1,m2.1,new canonical
+Mac,Mac,new canonical
+Mac / MacBook / Apple Silicon / M1 / M3,Mac,normalized-name mac
+macOS,macOS,new canonical
+MacRumors Forums,MacRumors Forums,new canonical
+Mage.space,Mage.space,new canonical
+Magic Translation,Magic Translation,new canonical
+Maia: AI for Couples,Maia: AI for Couples,new canonical
+Maivii AI,Maivii AI,new canonical
+Mancer,Mancer,normalized-name mancer
+Manhattan,Manhattan,new canonical
+Manus,Manus,new canonical
+Mars,Mars,new canonical
+Marti,Marti,new canonical
+Matcha,Matcha,new canonical
+Max AI,Max AI,new canonical
+Maya / Miles (Sesame personas),Maya,normalized-name maya
+MCP,MCP,new canonical
+Medium,Medium,new canonical
+MegaNova,MegaNova,new canonical
+MentalFuture: CBT Hypnotherapy,MentalFuture: CBT Hypnotherapy,new canonical
+Mercury,Mercury,new canonical
+Merlin AI: AI Chat Assistant,Merlin AI: AI Chat Assistant,new canonical
+Meta,Meta,new canonical
+Meta AI,Meta AI,new canonical
+Meta Muse,Meta Muse,new canonical
+Meta Quest,Meta Quest,new canonical
+Mic to Speaker,Mic to Speaker,new canonical
+Microsoft,Microsoft,new canonical
+Microsoft / マイクロソフト / 日本マイクロソフト,Microsoft,normalized-name microsoft
+Microsoft Azure,Microsoft Azure,new canonical
+Microsoft Edge,Microsoft Edge,new canonical
+Miles,Miles,new canonical
+MiMo,MiMo,new canonical
+Mina,Mina,new canonical
+Mindfulness.com Meditation App,Mindfulness.com Meditation App,new canonical
+Mindtrip,Mindtrip,new canonical
+Minecraft,Minecraft,new canonical
+MiniMax,MiniMax,new canonical
+miqu,miqu,new canonical
+MiraiMind Discord community,MiraiMind Discord community,new canonical
+Mistral,Mistral,new canonical
+Mistral 12B Nemo,Mistral 12B Nemo,new canonical
+Mistral 7B,Mistral 7B,new canonical
+Mistral Mixtral,Mistral Mixtral,new canonical
+Mix-a-Mug,Mix-a-Mug,new canonical
+MLC Chat,MLC Chat,new canonical
+MLewd_13B,MLewd_13B,new canonical
+MLewd-ReMM-L2-Chat-20B-GGUF,MLewd-ReMM-L2-Chat-20B-GGUF,new canonical
+MMORPG.com,MMORPG.com,new canonical
+Moji: Amis Coreens Japonais,Moji: Amis Coreens Japonais,new canonical
+Mojo: Your Better Sex Expert,Mojo: Your Better Sex Expert,new canonical
+Monday,Monday,new canonical
+MongoDB,MongoDB,new canonical
+MonkeyEatingMango,MonkeyEatingMango,new canonical
+Morpheus Systems,Morpheus Systems,new canonical
+mradermacher/g3-12b-rp-system-v0.1-GGUF,mradermacher/g3-12b-rp-system-v0.1-GGUF,new canonical
+MUD / r/mud,MUD / r/mud,new canonical
+Murmur,Murmur,new canonical
+Muse,Muse,new canonical
+Muse land,Muse land,new canonical
+MVU Game Maker,MVU Game Maker,new canonical
+my-ai-bae.com,my-ai-bae.com,new canonical
+MyBoyfriendIsAI,MyBoyfriendIsAI,new canonical
+MYGO preset,MYGO preset,new canonical
+MyGPTs,MyGPTs,new canonical
+MyLuna,MyLuna,new canonical
+myou,myou,new canonical
+MythoMax 13B (MythoMax-L2-13B-GGUF),MythoMax 13B (MythoMax-L2-13B-GGUF),new canonical
+Nano,Nano,new canonical
+Nano Banana,Nano Banana,new canonical
+Nano Banana 2,Nano Banana 2,new canonical
+Nano Banana Pro,Nano Banana Pro,new canonical
+nanogot,nanogot,new canonical
+NanoGPT,NanoGPT,normalized-name nanogpt
+NanoGPT,NanoGPT,domain variant reddit.com (canonical home nano-gpt.com)
+NanoGPT / nanoGPT,NanoGPT,normalized-name nanogpt
+Narratium,Narratium,new canonical
+Nastia Cybernetics,Nastia Cybernetics,new canonical
+NemoMix Unleashed 12B,NemoMix Unleashed 12B,new canonical
+Nethena-MLewd-Xwin-23B-GGUF,Nethena-MLewd-Xwin-23B-GGUF,new canonical
+Netlify,Netlify,new canonical
+New York Post / the Post,New York Post / the Post,new canonical
+Nexis,Nexis,new canonical
+Next.js,Next.js,new canonical
+NextDayAI,NextDayAI,new canonical
+niji・journey,niji・journey,new canonical
+NINJACHAT,NINJACHAT,new canonical
+NinjaChat AI,NinjaChat AI,new canonical
+Node,Node,new canonical
+Node.js (NodeJS),Node.js (NodeJS),new canonical
+Nomi AI and Kindroid,Nomi AI and Kindroid,new canonical
+Nomi Downloader,Nomi Downloader,new canonical
+Nomi model labels,Nomi model labels,new canonical
+NordPass,NordPass,new canonical
+Nostr / nostr.eu,Nostr / nostr.eu,new canonical
+note,note,new canonical
+note / note.com,note,normalized-name note
+Notebook.ai,Notebook.ai,new canonical
+NotebookLM,NotebookLM,new canonical
+Notion,Notion,new canonical
+notrack.ai,notrack.ai,new canonical
+Nous,Nous,new canonical
+Nous Research,Nous Research,new canonical
+Novia Coreana,Novia Coreana,new canonical
+NovitaAI,NovitaAI,new canonical
+NPR,NPR,new canonical
+NurAI,NurAI,new canonical
+NVIDIA NeMo,NVIDIA NeMo,new canonical
+NVIDIA Nemotron,NVIDIA Nemotron,new canonical
+NVIDIA NIM,NVIDIA NIM,new canonical
+o3,o3,new canonical
+o4-mini,o4-mini,new canonical
+OBS,OBS,new canonical
+oc social network,oc social network,new canonical
+Office365,Office365,new canonical
+OhGirlfriend,OhGirlfriend,new canonical
+OmniHuman,OmniHuman,new canonical
+OneDrive,OneDrive,new canonical
+OnlyChar.AI,OnlyChar.AI,normalized-name onlycharai
+Oolong,Oolong,new canonical
+opchat,opchat,new canonical
+Open Assistant,Open Assistant,new canonical
+OpenAI,OpenAI,new canonical
+OpenAI API,OpenAI API,normalized-name openaiapi
+OpenAI Realtime API,OpenAI Realtime API,new canonical
+OpenAI TTS,OpenAI TTS,new canonical
+OpenAI-compatible API,OpenAI-compatible API,new canonical
+OpenAICompatible,OpenAICompatible,new canonical
+OpenChat-3.5,OpenChat-3.5,new canonical
+opencode,opencode,new canonical
+OpenCode Go,OpenCode Go,new canonical
+OpenHermes-2.5-Mistral-7B-16k,OpenHermes-2.5-Mistral-7B-16k,new canonical
+OpenMW text-generation integration,OpenMW text-generation integration,new canonical
+OpenRouter,OpenRouter,normalized-name openrouter
+Ophelia,Ophelia,new canonical
+Opus / Opus 5,Opus / Opus 5,new canonical
+Orbit,Orbit,new canonical
+Orin,Orin,new canonical
+Orlando / orlandoforbusiness.com,Orlando / orlandoforbusiness.com,new canonical
+Ouat : AI Diary Journal,Ouat : AI Diary Journal,new canonical
+Outlook,Outlook,new canonical
+Pantheon-RP-1.5-12b-Nemo-GGUF,Pantheon-RP-1.5-12b-Nemo-GGUF,new canonical
+Path of Adventure,Path of Adventure,new canonical
+Patreon,Patreon,new canonical
+Paycor,Paycor,new canonical
+PayPal / Paypal,PayPal,normalized-name paypal
+Peacock TV,Peacock TV,new canonical
+PeopleX AIロープレ,PeopleX AIロープレ,new canonical
+Pepsi / Pepsi Zero Sugar,Pepsi / Pepsi Zero Sugar,new canonical
+Perplexity,Perplexity,new canonical
+Persona - Self-Discovery AI,Persona - Self-Discovery AI,new canonical
+Phi,Dolphin models / dolphin-phi / Phi,normalized-name phi
+Phi-3-mini,Phi-3-mini,new canonical
+Philo,Philo,new canonical
+Phonon,Phonon,new canonical
+Photos Wizard,Photos Wizard,new canonical
+Photoshop,Photoshop,new canonical
+PicassoIA,PicassoIA,new canonical
+Picrew,Picrew,new canonical
+Pinia,Pinia,new canonical
+Pinterest,Pinterest,new canonical
+Pip / Pip 2,Pip / Pip 2,new canonical
+Pipsqueak,Pipsqueak,new canonical
+Pipsqueak / PS / Pipsqueak 2,Pipsqueak,normalized-name pipsqueak
+PipSqueak 3,PipSqueak 3,new canonical
+PipSqueak2,Pipsqueak,normalized-name pipsqueak2
+PissedConsumer,PissedConsumer,new canonical
+play.ht,play.ht,new canonical
+Playstore,Playstore,new canonical
+Plotline,Plotline,new canonical
+Pocket TTS,Pocket TTS,new canonical
+Podcastle,Podcastle,new canonical
+Poe,Poe,normalized-name poe
+Polaris,Polaris,new canonical
+PowerPoint,PowerPoint,new canonical
+PPC Land,PPC Land,new canonical
+Praktika,Praktika,new canonical
+Princess,Princess,new canonical
+Pro 3.1,Pro 3.1,new canonical
+Prompt Template,Prompt Template,new canonical
+Promptchan,Promptchan,new canonical
+PromptQuorum,PromptQuorum,new canonical
+promting-rp-guide-sillytavern,promting-rp-guide-sillytavern,new canonical
+PSQ2,PSQ2,new canonical
+psyonic-cetacean-20B,psyonic-cetacean-20B,new canonical
+Purrinara,Purrinara,new canonical
+Puzzle Panel,Puzzle Panel,new canonical
+Puzzle Panic,Puzzle Panic,new canonical
+Pygmalion,PygmalionAI / Pygmalion Chat,normalized-name pygmalion
+Pygmalion / PygmalionAI,PygmalionAI / Pygmalion Chat,normalized-name pygmalion
+Pygmalion 7B,Pygmalion 7B,new canonical
+Pygmalion AI,PygmalionAI / Pygmalion Chat,normalized-name pygmalionai
+Pygmalion booru,Pygmalion booru,new canonical
+Qianfan Hong Kong Limited,Qianfan Hong Kong Limited,new canonical
+Quickchat AI,Quickchat AI,new canonical
+Quickmeets - Make new friends,Quickmeets - Make new friends,new canonical
+Qwen,Qwen,new canonical
+Qwen / Qwen Chat,Qwen,normalized-name qwen
+Qwen 3.5 RP finetunes,Qwen 3.5 RP finetunes,new canonical
+Qwen 3.6 35b,Qwen 3.6 35b,new canonical
+Qwen Chat,Qwen,normalized-name qwen
+Qwen2.5,Qwen2.5,new canonical
+Qwen2.5-7B,Qwen2.5-7B,new canonical
+Qwen3,Qwen3,new canonical
+Qwen3 32B,Qwen3 32B,new canonical
+Qwen3.5,Qwen3.5,new canonical
+Qwen3.5-9B,Qwen3.5-9B,new canonical
+r/AIGirlfriend,r/AIGirlfriend,new canonical
+r/CharacterAI,r/CharacterAI,new canonical
+r/CharacterAIrevolution,r/CharacterAIrevolution,new canonical
+r/ChatGPT,r/ChatGPT,new canonical
+r/ChatGPTNSFW,r/ChatGPTNSFW,new canonical
+r/Hi_Waifu_chatbot_app,r/Hi_Waifu_chatbot_app,new canonical
+r/JanitorAI,r/JanitorAI,new canonical
+r/JanitorAI_Official,r/JanitorAI,normalized-name rjanitorai
+r/KindroidAI,r/KindroidAI,new canonical
+r/LocalLLaMA,r/LocalLLaMA,new canonical
+r/MyBoyfriendIsAI,r/MyBoyfriendIsAI,new canonical
+r/MyGirlfriendIsAI,r/MyGirlfriendIsAI,new canonical
+r/Novia de AI,r/Novia de AI,new canonical
+r/replika,r/replika,new canonical
+r/ReplikaOfficial,r/replika,normalized-name rreplika
+r/sekai_multiverse,r/sekai_multiverse,new canonical
+r/SillyTavern,r/SillyTavern,new canonical
+r/SillyTavernAI,r/SillyTavernAI,new canonical
+r/solitario,r/solitario,new canonical
+r/SpicyChatAI,r/SpicyChatAI,new canonical
+RA1,RA1,new canonical
+Ragdoll Studio,Ragdoll Studio,new canonical
+rareddit,rareddit,new canonical
+Rastrear celular por el numero,Rastrear celular por el numero,new canonical
+Rawr,Rawr,new canonical
+React,React,new canonical
+Realm / 렐름,Realm / 렐름,new canonical
+Red Ink,Red Ink,new canonical
+Redact,Redact,new canonical
+Reddit / LocalLLaMA / SillyTavernAI,Reddit,normalized-name reddit
+Reddit / subreddit infrastructure,Reddit,normalized-name reddit
+Reddit Answers,Reddit Answers,new canonical
+Reddit Sentiment Analyzer,Reddit Sentiment Analyzer,new canonical
+Reddit Sentiment Analyzer / reddit.sentinel-team.org,Reddit Sentiment Analyzer,normalized-name redditsentimentanalyzer
+reddit.synth.download,reddit.synth.download,new canonical
+Redlib,Redlib,new canonical
+Redlib / redlib.vanillax.me,Redlib,normalized-name redlib
+Reina,Reina,new canonical
+Reprise: Last.fm Scrobbler,Reprise: Last.fm Scrobbler,new canonical
+Respawn / Razer / Marvel Rivals,Respawn / Razer / Marvel Rivals,new canonical
+Rest of World,Rest of World,new canonical
+RevenueCat,RevenueCat,new canonical
+Reverie,Reverie,new canonical
+Rhubarb,Rhubarb,new canonical
+Rin,Rin,new canonical
+Ringle AI,Ringle AI,new canonical
+RisuRealm,RisuRealm,normalized-name risurealm
+Rizz AI,Rizz AI,new canonical
+Roar,Roar,new canonical
+Roblox,Roblox,new canonical
+Roborhythms,Roborhythms,new canonical
+ROCm / RX580 / Vulkan,ROCm / RX580 / Vulkan,new canonical
+Role Play,Role Play,new canonical
+Roleplays by Exec,Roleplays by Exec,new canonical
+RPWithAI / rpwithai.com,RPWithAI / rpwithai.com,new canonical
+Ruby,Ruby Chat,normalized-name ruby
+ruGPT-3.5-13B erotic-kink LoRA,ruGPT-3.5-13B erotic-kink LoRA,new canonical
+Runpod,Runpod,new canonical
+Runway,Runway,new canonical
+RVC,RVC,new canonical
+Sable,Sable,new canonical
+Saboten,Saboten,new canonical
+Sagulator,Sagulator,new canonical
+Saiga-Nemo 12B,Saiga-Nemo 12B,new canonical
+Sakura Discord community,Sakura Discord community,new canonical
+Samantha,Samantha,new canonical
+Sasha,Sasha,new canonical
+Satori / Heavy / Ultra (Composite modes),Satori / Heavy / Ultra (Composite modes),new canonical
+Scatter Lab,Scatter Lab,new canonical
+Scribe,Scribe,new canonical
+SeaArt,SeaArt,new canonical
+Secret AI：私密且離線的本地助理,Secret AI,normalized-name secretai
+Seduced AI,Seduced AI,normalized-name seducedai
+Seed SC,Seed SC,new canonical
+Seed: Dejar la Pornografía,Seed: Dejar la Pornografía,new canonical
+Sein App,Sein App,new canonical
+Sein Clip,Sein Clip,new canonical
+Sekai Discord community,Sekai Discord community,new canonical
+Sena,Sena,new canonical
+Serene-pub,Serene-pub,new canonical
+Seri prompt / 서리 프롬프트,Seri prompt / 서리 프롬프트,new canonical
+Shmoody: Improve Your Mood,Shmoody: Improve Your Mood,new canonical
+Sider,Sider,new canonical
+Sider AI,Sider AI,new canonical
+Signal,Signal,new canonical
+Silero,Silero,new canonical
+SillyLossy/TavernAI,SillyLossy/TavernAI,new canonical
+SimilarLabs,SimilarLabs,new canonical
+Siri,Siri,new canonical
+SiteGPT,SiteGPT,new canonical
+SKYWORK AI PTE LTD,SKYWORK AI PTE LTD,new canonical
+Slack,Slack,new canonical
+Slaude,Slaude,new canonical
+Slaude aisu fork,Slaude aisu fork,new canonical
+SmartContext,SmartContext,new canonical
+Snap,Snap,new canonical
+Snug Safety: Daily Check-In,Snug Safety: Daily Check-In,new canonical
+So-Vits-SVC,So-Vits-SVC,new canonical
+Socrates AI,Socrates AI,new canonical
+Soft launch / 1.2 preview,Soft Launch,normalized-name softlaunch
+Soji,Soji,new canonical
+Sol,Sol,new canonical
+Sol/Astra,Sol/Astra,new canonical
+Solstice,Solstice,new canonical
+Song Finder:AI Music Discovery,Song Finder:AI Music Discovery,new canonical
+Soni,Soni,new canonical
+Sonia: AI Wellbeing Coach,Sonia: AI Wellbeing Coach,new canonical
+Sonnet,Sonnet,new canonical
+Sonnet 3.5,Sonnet 3.5,new canonical
+Sora 2,Sora 2,new canonical
+Sort AI,Sort AI,new canonical
+Soul.App,Soul chat,normalized-name soul
+Souleasy,Souleasy,new canonical
+SoulGen,Soulgen,normalized-name soulgen
+SoulGen AI,SoulGen AI,new canonical
+SoulTalk,SoulTalk,new canonical
+Spark,Spark Chat,normalized-name spark
+Spatial 3D Studio,Spatial 3D Studio,new canonical
+SPATIAL AI LABS LTD,SPATIAL AI LABS LTD,new canonical
+Spatial Video Studio,Spatial Video Studio,new canonical
+Speak AI,Speak AI,new canonical
+Speakly,Speakly,new canonical
+Spellai,Spellai,new canonical
+spicy writer,spicy writer,new canonical
+SpicyChat Pro model,SpicyChat Pro model,new canonical
+SpicyRanks AI,SpicyRanks AI,normalized-name spicyranksai
+Spirit of Hunger,Spirit of Hunger,new canonical
+Square / SE,Square / SE,new canonical
+ST Memory Books,ST Memory Books,new canonical
+st-chatu8,st-chatu8,new canonical
+st-stepped-thinking,st-stepped-thinking,new canonical
+Stability Matrix,Stability Matrix,new canonical
+Stable Diffusion,Stable Diffusion,new canonical
+Stable Diffusion 1.5 (SD1.5),Stable Diffusion 1.5 (SD1.5),new canonical
+Stack Overflow,Stack Overflow,new canonical
+Stacy,Stacy,new canonical
+Standard / Ultra / MAX,Standard / Ultra / MAX,new canonical
+Standard Voice Mode,Standard Voice Mode,new canonical
+Starley,Starley,new canonical
+Starley Inc.,Starley Inc.,new canonical
+Starry / Stella,Stella,normalized-name stella
+Steam,Steam,new canonical
+Sthenos,Sthenos,new canonical
+Stripe,Stripe,new canonical
+StufferDB,StufferDB,new canonical
+SUBSUP PTE. LTD.,SUBSUP PTE. LTD.,new canonical
+Summarize,Summarize,new canonical
+Summaryception,Summaryception,new canonical
+Super Mario 64 DS,Super Mario 64 DS,new canonical
+Superintelligence,Superintelligence,new canonical
+Svelte,Svelte,new canonical
+SwizzAI,SwizzAI,new canonical
+Sword Health: AI Care,Sword Health: AI Care,new canonical
+SWTOR,SWTOR,new canonical
+TAAFT Forum,TAAFT Forum,new canonical
+Tabbit,Tabbit,new canonical
+Tabby / TabbyAPI,TabbyAPI,normalized-name tabbyapi
+Tailscale,Tailscale,new canonical
+Tales,Tales,new canonical
+Tales of Munin,Tales of Munin,new canonical
+TaleSpeak: Voice Stories,TaleSpeak: Voice Stories,new canonical
+TalkBack,TalkBack,new canonical
+Talkie Lab - Terrain de Jeu IA,Talkie Lab - Terrain de Jeu IA,new canonical
+Talking Story Pets,Talking Story Pets,new canonical
+Tanner,Tanner,new canonical
+Tauri,Tauri,new canonical
+Tavern Helper,Tavern Helper,new canonical
+Tavern V2 character card,Tavern V2 character card,new canonical
+Taylor,Taylor,new canonical
+Teasa,Teasa,new canonical
+TechTudo,TechTudo,new canonical
+Telegram,Telegram,new canonical
+Termux,Termux,new canonical
+Terraform,Terraform,new canonical
+Thaura,Thaura,new canonical
+The Archivist,The Archivist,new canonical
+The Browser Company / The browser company,The Browser Company / The browser company,new canonical
+The Companion Report,The Companion Report,new canonical
+The Cut,The Cut,new canonical
+The Eliza Report,The Eliza Report,new canonical
+The Porn Dude,The Porn Dude,new canonical
+TheBloke,TheBloke,new canonical
+There's An AI For That,There's An AI For That,new canonical
+Tifa series,Tifa series,new canonical
+TikTok,TikTok,new canonical
+Time Designer,Time Designer,new canonical
+TimeCrowd,TimeCrowd,new canonical
+Timedomain,Timedomain,new canonical
+TimePod,TimePod,new canonical
+Tinder,Tinder,new canonical
+TinyAya,TinyAya,new canonical
+TinyAya-Base,TinyAya-Base,new canonical
+TinyAya-Earth,TinyAya-Earth,new canonical
+TinyAya-Fire,TinyAya-Fire,new canonical
+TinyAya-Global,TinyAya-Global,new canonical
+TinyAya-Water,TinyAya-Water,new canonical
+Together.ai,Together AI,normalized-name togetherai
+TOKENIX,TOKENIX,new canonical
+Top Girl Produce 101,Top Girl Produce 101,new canonical
+Top Hunter,Top Hunter,new canonical
+Top.gg,Top.gg,new canonical
+TopAIDating,TopAIDating,new canonical
+Tox Box Shuffle,Tox Box Shuffle,new canonical
+TrinArt,TrinArt,new canonical
+Trustpilot,Trustpilot,new canonical
+"Tu novia IA, Tsu","Tu novia IA, Tsu",new canonical
+Tu novia Scarlett,Tu novia Scarlett,new canonical
+TutorMe,TutorMe,new canonical
+Twilio,Twilio,new canonical
+Twitter,Twitter,new canonical
+Twitter / @saga3rpg,Twitter,normalized-name twitter
+Twitter / Patreon / Discourse,Twitter,normalized-name twitter
+TypeScript,TypeScript,new canonical
+Ubabu / 우바부,Ubabu / 우바부,new canonical
+UGI Leaderboard,UGI Leaderboard,new canonical
+Umamusume,Umamusume,new canonical
+Umnik.ai,Umnik.ai,new canonical
+Unattributed RP billing and local/model-use comments,Unattributed RP billing and local/model-use comments,new canonical
+Unhinged ERP Benchmark,Unhinged ERP Benchmark,normalized-name unhingederpbenchmark
+Uni Dream,Uni Dream,new canonical
+UniverAI: AI Chat Assistant,UniverAI: AI Chat Assistant,new canonical
+Valla,Valla,new canonical
+ValueFX9507,ValueFX9507,new canonical
+Vane,Vane,new canonical
+Vanilla (Emochi model style),Vanilla (Emochi model style),new canonical
+Varun Ramesh's character-roleplay demo,Varun Ramesh's character-roleplay demo,new canonical
+VectFox,VectFox,new canonical
+Vector,Vector,new canonical
+VegaX,VegaX,new canonical
+Ven: Your AI Best Friend,Ven: Your AI Best Friend,new canonical
+Venice,Venice,new canonical
+Venice.ai,Venice.ai,normalized-name veniceai
+Veo 3,Veo 3,new canonical
+Vercel,Vercel,new canonical
+Vertex,Vertex,new canonical
+Vertex AI,Vertex AI,new canonical
+Vibra Live Stream Videoanruf,Vibra Live Stream Videoanruf,new canonical
+Vicuna,Vicuna,new canonical
+Video Roullette Chat Zufällige,Video Roullette Chat Zufällige,new canonical
+Virtual girlfriend,Virtual girlfriend,new canonical
+Vite,Vite,new canonical
+vLLM,vLLM,new canonical
+Vocalis AI,Vocalis AI,new canonical
+Voice chat AI,Voice chat AI,new canonical
+Voice Chat with AI,Voice Chat with AI,new canonical
+Voice.ai,Voice.ai,new canonical
+VoiceGPT,VoiceGPT,new canonical
+VoiceOver,VoiceOver,new canonical
+Voicy,Voicy,new canonical
+VOID,VOID,new canonical
+VoxCPM2 / voxcpm.cpp,VoxCPM2 / voxcpm.cpp,new canonical
+VoxDungeon,VoxDungeon,new canonical
+VSCode,VSCode,new canonical
+Vue,Vue,new canonical
+Waifu Diffusion,Waifu Diffusion,new canonical
+walmart.com,walmart.com,new canonical
+Wanderlog,Wanderlog,new canonical
+Wanted!,Wanted!,new canonical
+Wav2Lip,Wav2Lip,new canonical
+Web LLM linked demo/project,Web LLM linked demo/project,new canonical
+WebRTC,WebRTC,new canonical
+Weibo,Weibo,new canonical
+Weight Gaming,Weight Gaming,new canonical
+Weight Gaming / Hacker News,Weight Gaming,normalized-name weightgaming
+Whatnot,Whatnot,new canonical
+WhatsApp,WhatsApp,new canonical
+Which Wiggler?,Which Wiggler?,new canonical
+Whisper,Whisper,new canonical
+whisper-large-v3,whisper-large-v3,new canonical
+WildsAIAgent,WildsAIAgent,new canonical
+Willow Voice,Willow Voice,new canonical
+Windows,Windows,new canonical
+WithFeeling.AI,WithFeeling.AI,new canonical
+WizardLM-2,WizardLM-2,new canonical
+WizardLM-2 8x22B,WizardLM-2 8x22B,new canonical
+Word,Word,new canonical
+Worthfit,Worthfit,new canonical
+Writening,Writening,new canonical
+Wrtn,Wrtn / Crack (뤼튼 / 크랙),normalized-name wrtn
+Wrtn Technologies Japan Inc. / リートンテクノロジーズジャパン,Wrtn Technologies Japan Inc. / リートンテクノロジーズジャパン,new canonical
+X,X,new canonical
+xAI,xAI,new canonical
+Xalan,Xalan,new canonical
+Xhot- Ai Without Boundaries,Xhot- Ai Without Boundaries,new canonical
+Xiaohongshu,Xiaohongshu,new canonical
+Xiaomi model provider,Xiaomi model provider,new canonical
+Xsolla,Xsolla,new canonical
+XTTS,XTTS,new canonical
+Yandex Browser,Yandex Browser,new canonical
+Yap AI,Yap AI,new canonical
+yapAI Labs,yapAI Labs,new canonical
+Yi Lightning,Yi Lightning,new canonical
+Yiluna,Yiluna,new canonical
+YOLO,YOLO,new canonical
+Yoriva,Yoriva,new canonical
+You.com,You.com,new canonical
+Youiee: Come back to YOU,Youiee: Come back to YOU,new canonical
+YourAIGFs,YourAIGFs,new canonical
+Z-Image,Z-Image,new canonical
+Z.ai,Z.ai,new canonical
+ZED,ZED,new canonical
+Zep memory,Zep memory,new canonical
+ZoltanAI Character Editor,ZoltanAI Character Editor,new canonical
+Алиса,Алиса,new canonical
+고아메모리,고아메모리,new canonical
+노드온리,노드온리,new canonical
+누렁이 프롬프트,누렁이 프롬프트,new canonical
+뉴뉴,뉴뉴,new canonical
+다이나믹 프로필,다이나믹 프로필,new canonical
+뜌따프리셋,뜌따프리셋,new canonical
+뤼튼 (Wrtn),Wrtn / Crack (뤼튼 / 크랙),normalized-name wrtn
+리스ai,리스ai,new canonical
+버택스,버택스,new canonical
+보야지 api,Mistral Models / API,normalized-name api
+사소넷,사소넷,new canonical
+사오,사오,new canonical
+사육푸스,사육푸스,new canonical
+수파 메모리,수파 메모리,new canonical
+아르곤 / Argon,아르곤 / Argon,new canonical
+오딘 프롬프트,오딘 프롬프트,new canonical
+웹리스,웹리스,new canonical
+잼2플,잼2플,new canonical
+잼민이exp,잼민이exp,new canonical
+잼삼일,잼삼일,new canonical
+잼삼플,잼삼플,new canonical
+진짜 멍청이 소악마,진짜 멍청이 소악마,new canonical
+짚오오,짚오오,new canonical
+챗사오,ChatSao / 챗사오,normalized-name 챗사오
+터보,터보,new canonical
+하이파,하이파,new canonical
+コロノート,コロノート,new canonical
+トキシル,トキシル,new canonical
+ルータム,ルータム,new canonical
+ロリポップ！AIエージェントクラウド,ロリポップ！AIエージェントクラウド,new canonical
+会話禁止の人狼ゲーム,会話禁止の人狼ゲーム,new canonical
+南+,南+,new canonical
+咕咕助手,咕咕助手,new canonical
+哈基米 / 哈吉米,哈基米 / 哈吉米,new canonical
+外置手机,外置手机,new canonical
+小克文,小克文,new canonical
+小白X,小白X,new canonical
+旅程 (also written 旅途),旅程 (also written 旅途),new canonical
+星をみるひと,星をみるひと,new canonical
+深夜奶茶店,深夜奶茶店,new canonical
+硅基流动,硅基流动,new canonical
+積み木で陣取り,積み木で陣取り,new canonical
+立体将棋: ノッカノッカ,立体将棋: ノッカノッカ,new canonical
+类脑,类脑,new canonical
+累腦 / 類腦 (Odysseia community),累腦 / 類腦 (Odysseia community),new canonical
+聊天記錄超級管理器,聊天記錄超級管理器,new canonical
+聲臨其境,聲臨其境,new canonical
+虛擬聊聊,虛擬聊聊,new canonical
+角色卡万能生成器·无限制版,角色卡万能生成器·无限制版,new canonical
+酒馆助手,酒馆助手,new canonical
+零一,零一,new canonical
+鹿鹿预设,鹿鹿预设,new canonical
+Janitor AI,Janitor AI,normalized-name janitorai
+Chub AI,Chub AI,normalized-name chubai
+SpicyChat AI,SpicyChat AI,alias-table (census-A identity resolution)
+FictionLab,FictionLab,normalized-name fictionlab
+WyvernChat,WyvernChat,normalized-name wyvern
+Dreamjourney AI,Dreamjourney AI,normalized-name dreamjourneyai
+Saucepan AI,Saucepan AI,normalized-name saucepanai
+Sakura AI,Sakura AI,normalized-name sakuraai
+Xoul AI,Xoul AI,normalized-name xoulai
+Kindroid,Kindroid,normalized-name kindroid
+Nomi AI,Nomi AI,alias-table (census-A identity resolution)
+Replika,Replika,normalized-name replika
+Paradot,Paradot,normalized-name paradot
+Candy AI,Candy.ai,normalized-name candyai
+OurDream AI,OurDream AI,alias-table (census-A identity resolution)
+Chai,Chai,alias-table (census-A identity resolution)
+PolyBuzz (formerly Poly.AI),PolyBuzz (formerly Poly.AI),normalized-name polybuzzformerlypolyai
+Emochi,Emochi,normalized-name emochi
+Emochi,Emochi,domain variant emochi.com (canonical home google.com)
+Zeta AI,Zeta AI,normalized-name zetaai
+Caveduck,Caveduck (케이브덕),normalized-name caveduck
+Yodayo,Yodayo,alias-table (census-A identity resolution)
+Moescape AI,Moescape AI (Yodayo),normalized-name moescapeai
+SillyTavern,SillyTavern,alias-table (census-A identity resolution)
+Tavo,Tavo,normalized-name tavo
+Agnai (Agnaistic),Agnai (Agnaistic),normalized-name agnaiagnaistic
+Backyard AI (formerly Faraday),Backyard AI,normalized-name backyardai
+RisuAI,RisuAI,alias-table (census-A identity resolution)
+KoboldCPP,KoboldCpp,normalized-name koboldcpp
+Oobabooga (Text Generation WebUI),Oobabooga Text Generation WebUI,normalized-name oobaboogatextgenerationwebui
+Perchance AI,Perchance AI,normalized-name perchanceai
+Y/N AI,Y/N AI,normalized-name ynai
+Y/N AI,Y/N AI,domain variant google.com (canonical home yn.ai)
+Sea Soul,Sea Soul,normalized-name seasoul
+CrushOn AI,CrushOn.AI,normalized-name crushonai
+HammerAI,HammerAI,normalized-name hammerai
+AI Dungeon,AI Dungeon,alias-table (census-A identity resolution)
+DreamGF,DreamGF,alias-table (census-A identity resolution)
+Murmur.gg,Murmur.gg,normalized-name murmurgg
+Swerve AI,Swerve AI,alias-table (census-A identity resolution)
+Character-Tavern,Character-Tavern,normalized-name charactertavern
+Weyland University,Weyland University,new canonical
+OpenMind.design,Open Mind Design,normalized-name openminddesign
+Chattica,ChattiCA,normalized-name chattica
+Lettuce AI,Lettuce AI,normalized-name lettuceai
+Botbooru,Botbooru,normalized-name botbooru
+Clank World,Clank World,normalized-name clankworld
+Freeroam,Freeroam,new canonical
+Secret Desires AI,Secret Desires AI,normalized-name secretdesiresai
+Soulkyn,Soulkyn,normalized-name soulkyn
+Bala AI,Bala AI,new canonical
+Muah AI,Muah AI,normalized-name muahai
+Spellbound,Spellbound,normalized-name spellbound
+Talkie,Talkie AI,alias-table (census-A identity resolution)
+Anime.gf,AnimeGF,normalized-name animegf
+Kalon AI,Kalon AI,normalized-name kalonai
+Waifu Dungeon,Waifu Dungeon,new canonical
+Nevika.ai,Nevika.ai,normalized-name nevikaai
+Nevika.ai,Nevika.ai,domain variant nevika.eu (canonical home nevika.ai)
+Starlightengine.live,Starlightengine.live,new canonical
+Ashbone,Ashbone,new canonical
+Infinite Worlds,Infinite Worlds,normalized-name infiniteworlds
+Digital Soul,Digital Soul,new canonical
+Shapes Inc,Shapes Inc,normalized-name shapesinc
+SynClub,SynClub,normalized-name synclub
+TabbyAPI,TabbyAPI,normalized-name tabbyapi
+Unqualified / Supply-Only & Single-Mention Encountered Platforms,Unqualified / Supply-Only & Single-Mention Encountered Platforms,new canonical
+DOUBLE MATCH usage record,KoboldAI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,TavernAI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Oobabooga textgen / text-generation-webui,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,SynClub,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,TabbyAPI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Linky AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Oobabooga (Text Generation WebUI),a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Y/N,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Him - AI Boyfriend Chat,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend Chat - Husby,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Boyfi - AI Partner & Boyfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Soulplay,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Tiina: AI Voice Companion,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Zeta AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Botify,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Clank World,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Neverend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Saucepan,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend — 6Hive OU,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend — Caitty,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend:Love Chat Partner,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Girlfriend - TruMate,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AIBoy - Virtual AI Boyfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Aimy (アイミー),a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Airfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Anima: My Virtual AI Boyfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Charbot,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Chat IA de Personajes Anime,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Chat de personajes con IA,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Crushie,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Discutez avec un ami IA,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Fantasia,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,HotChat,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,IA Namorada Virtual CoupleAI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Imate - AI boyfriend who cares,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Luna: Meine KI-Freundin,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,MiraiMind,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,My AI Friend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Nastia,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Sakura,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Sexy Chatbot X - No Filter AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Suka Lite,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Unscripti,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Virtual Boyfriend: AI Romance / BoyBot,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Weifu AI: My Girlfriend Chat,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,チャチャ / アニロール,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Perchance AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,KoboldAI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,TavernAI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Oobabooga textgen / text-generation-webui,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,SynClub,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,TabbyAPI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Linky AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Oobabooga (Text Generation WebUI),a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Y/N,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Him - AI Boyfriend Chat,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend Chat - Husby,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Boyfi - AI Partner & Boyfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Soulplay,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Tiina: AI Voice Companion,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Zeta AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Botify,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Clank World,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Neverend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Saucepan,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend — 6Hive OU,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend — Caitty,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend:Love Chat Partner,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Girlfriend - TruMate,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AIBoy - Virtual AI Boyfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Aimy (アイミー),a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Airfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Anima: My Virtual AI Boyfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Charbot,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Chat IA de Personajes Anime,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Chat de personajes con IA,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Crushie,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Discutez avec un ami IA,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Fantasia,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,HotChat,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,IA Namorada Virtual CoupleAI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Imate - AI boyfriend who cares,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Luna: Meine KI-Freundin,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,MiraiMind,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,My AI Friend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Nastia,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Sakura,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Sexy Chatbot X - No Filter AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Suka Lite,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Unscripti,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Virtual Boyfriend: AI Romance / BoyBot,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Weifu AI: My Girlfriend Chat,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,チャチャ / アニロール,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Perchance AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,KoboldAI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,TavernAI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Oobabooga textgen / text-generation-webui,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,SynClub,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,TabbyAPI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Linky AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Oobabooga (Text Generation WebUI),a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Y/N,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Him - AI Boyfriend Chat,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend Chat - Husby,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Boyfi - AI Partner & Boyfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Soulplay,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Tiina: AI Voice Companion,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Zeta AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Botify,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Clank World,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Neverend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Saucepan,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend — 6Hive OU,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend — Caitty,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Boyfriend:Love Chat Partner,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AI Girlfriend - TruMate,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,AIBoy - Virtual AI Boyfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Aimy (アイミー),a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Airfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Anima: My Virtual AI Boyfriend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Charbot,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Chat IA de Personajes Anime,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Chat de personajes con IA,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Crushie,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Discutez avec un ami IA,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Fantasia,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,HotChat,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,IA Namorada Virtual CoupleAI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Imate - AI boyfriend who cares,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Luna: Meine KI-Freundin,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,MiraiMind,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,My AI Friend,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Nastia,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Sakura,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Sexy Chatbot X - No Filter AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Suka Lite,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Unscripti,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Virtual Boyfriend: AI Romance / BoyBot,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Weifu AI: My Girlfriend Chat,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,チャチャ / アニロール,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Perchance AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Zeta AI,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Botify,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Saucepan,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Nastia,a different shortlist row already matched this record; skipped
+DOUBLE MATCH usage record,Sakura,a different shortlist row already matched this record; skipped
+NO USAGE RECORD FOR,Lovescape,
+NO USAGE RECORD FOR,Swipey AI,
+NO USAGE RECORD FOR,CreatePorn,
+NO USAGE RECORD FOR,NSFW AI Chat,
+NO USAGE RECORD FOR,Seduced AI,
+NO USAGE RECORD FOR,Cuties AI,
+NO USAGE RECORD FOR,Yume AI,
+NO USAGE RECORD FOR,eHentai.ai,
+NO USAGE RECORD FOR,AI Horde / KoboldAI Horde,
+NO USAGE RECORD FOR,EroPlay AI,
+NO USAGE RECORD FOR,Erogen AI,
+NO USAGE RECORD FOR,HoneyChat,
+NO USAGE RECORD FOR,LustCrush AI,
+NO USAGE RECORD FOR,NSFWGirlfriend,
+NO USAGE RECORD FOR,Tyan AI,
+NO USAGE RECORD FOR,AI Character Cards,
+NO USAGE RECORD FOR,AIMOUR.AI,
+NO USAGE RECORD FOR,Anthropic / Claude API,
+NO USAGE RECORD FOR,Aroused AI,
+NO USAGE RECORD FOR,Carter Chat,
+NO USAGE RECORD FOR,Clonella,
+NO USAGE RECORD FOR,DeepMode,
+NO USAGE RECORD FOR,HotTalks AI,
+NO USAGE RECORD FOR,Kajiwoto,
+NO USAGE RECORD FOR,LustGF,
+NO USAGE RECORD FOR,LusyChat AI,
+NO USAGE RECORD FOR,Luvr AI,
+NO USAGE RECORD FOR,NSFWBots,
+NO USAGE RECORD FOR,POVChat,
+NO USAGE RECORD FOR,Pygmalion AI,
+NO USAGE RECORD FOR,SweetChat,
+NO USAGE RECORD FOR,TalkieMate,
+NO USAGE RECORD FOR,Yollo AI,
+NO USAGE RECORD FOR,Anime.gf,
+NO USAGE RECORD FOR,Soulkyn,
+NO USAGE RECORD FOR,Tipsy Chat,
+NO USAGE RECORD FOR,AiWaifu,
+NO USAGE RECORD FOR,Alive AI,
+NO USAGE RECORD FOR,AmorLink AI,
+NO USAGE RECORD FOR,Brazzers.ai,
+NO USAGE RECORD FOR,CharacterSphere.ai,
+NO USAGE RECORD FOR,Crushi AI,
+NO USAGE RECORD FOR,DreamGen,
+NO USAGE RECORD FOR,Dreampress AI,
+NO USAGE RECORD FOR,Eden AI,
+NO USAGE RECORD FOR,Fykoo,
+NO USAGE RECORD FOR,GPT-SoVITS,
+NO USAGE RECORD FOR,HoneyPot,
+NO USAGE RECORD FOR,LateNight AI,
+NO USAGE RECORD FOR,MessengerX.io,
+NO USAGE RECORD FOR,Miku.gg,
+NO USAGE RECORD FOR,NanoGPT,
+NO USAGE RECORD FOR,Pornify,
+NO USAGE RECORD FOR,Questie.ai,
+NO USAGE RECORD FOR,Shemale-AI,
+NO USAGE RECORD FOR,Venice.ai,
+NO USAGE RECORD FOR,Youtwo.ai,
+usage-pass duplicate,Nastia AI + Nastia,same registrable domain nastia.ai and identical or single-side web_visits (3740000)
+usage-pass duplicate,Soulkyn AI + Soulkyn,same registrable domain soulkyn.com and identical or single-side web_visits (934740)
+usage-pass duplicate,KoboldAI + KoboldCpp,same registrable domain github.com and identical or single-side web_visits (none)
+usage-pass duplicate,Perchance AI + Perchance AI Character Chat,same registrable domain perchance.org and identical or single-side web_visits (58250000)
+usage-pass duplicate,Sakura AI + Sakura,same registrable domain sakura.fm and identical or single-side web_visits (1990000)
+usage-pass duplicate,Saucepan AI + Saucepan,same registrable domain saucepan.ai and identical or single-side web_visits (9730000)

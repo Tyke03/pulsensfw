@@ -1,0 +1,121 @@
+{
+  "in_scope_definition": "Interactive software platforms whose core user experience centers on stateful, multi-turn conversational roleplay or ongoing relational companionship with AI personas, and which officially permit consensual adult/erotic (NSFW) text interaction (and optional multimodal extensions) under their first-party Terms of Service and content policies.",
+  "categories": [
+    {
+      "id": "hosted_character_hubs",
+      "name": "Hosted Character Roleplay Hubs",
+      "definition": "Turnkey web or mobile platforms featuring searchable directories of community-created or platform-provided character cards, integrated LLM inference, and scenario-driven roleplay.",
+      "ranked_separately": false
+    },
+    {
+      "id": "dedicated_virtual_companions",
+      "name": "Dedicated Virtual Companions (1-on-1)",
+      "definition": "Hosted platforms focused on cultivating a persistent, long-term relationship with a single customizable AI partner, emphasizing cross-session memory, voice calls, and consistent avatar/selfie generation over browsing thousands of public bots.",
+      "ranked_separately": false
+    },
+    {
+      "id": "hybrid_hub_and_frontend",
+      "name": "Hybrid Card Repositories & BYOK Platforms",
+      "definition": "Platforms that serve as public character card repositories and offer optional first-party hosted chat while natively supporting Bring-Your-Own-Key (BYOK) external API routing.",
+      "ranked_separately": false
+    },
+    {
+      "id": "byok_local_frontends",
+      "name": "Self-Hosted / Local Chat Frontends",
+      "definition": "Client-side interfaces (desktop/local web UI) that provide advanced roleplay scaffolding (lorebooks, regex, group chats, prompt formatting) but require the user to supply their own local model weights or external API keys.",
+      "ranked_separately": true
+    },
+    {
+      "id": "interactive_story_engines",
+      "name": "Interactive Fiction & Co-Writing Engines",
+      "definition": "Document- or adventure-style AI writing platforms designed for third-person or second-person narrative progression rather than direct conversational chat.",
+      "ranked_separately": true
+    }
+  ],
+  "inclusion_rules": [
+    "Conversational Primacy: The primary interaction loop must be back-and-forth conversational dialogue or turn-based character roleplay with a distinct persona.",
+    "Sanctioned NSFW Policy: The platform must explicitly allow consensual adult/erotic text generation in its current Terms of Service or via an official 18+ age-gated toggle.",
+    "Turnkey or Hybrid Accessibility (for the main Top 10): To qualify for the primary 1-to-10 ranking, the platform must offer a functioning hosted chat experience (via native subscription, free tier, or integrated credits) or a frictionless unified interface without requiring local hardware compilation.",
+    "Persona Statefulness: The platform must support character definitions (system prompts, personality traits, scenario context) and maintain conversation history across multiple turns.",
+    "Active Operational Status: The platform must be publicly accessible, accepting new adult users, and actively maintaining its inference backend at the time of evaluation."
+  ],
+  "exclusion_rules": [
+    {
+      "rule": "Exclude SFW-only platforms that require adversarial 'jailbreaking' or filter evasion.",
+      "rationale": "Adult users seeking a reliable home for NSFW roleplay should not have to fight automated moderation, speak in euphemisms, or risk sudden account termination and bot purges."
+    },
+    {
+      "rule": "Exclude pure text-to-image or text-to-video adult generators lacking stateful conversational memory.",
+      "rationale": "Prompting an image model for adult visuals is a media generation workflow, not a conversational companion or roleplay experience."
+    },
+    {
+      "rule": "Exclude raw LLM API routers, model hosting providers, and unstyled developer sandboxes.",
+      "rationale": "Backend inference providers and raw completion playgrounds lack character card management, persona state, and companion UI features."
+    },
+    {
+      "rule": "Exclude platforms that fail to prohibit or moderate non-consensual sexual content (deepfakes of real people) or CSAM/minor-coded erotica.",
+      "rationale": "Legal compliance, payment processor viability, and baseline ethical safety require strict boundaries separating consensual adult fantasy from illegal and non-consensual abuse."
+    },
+    {
+      "rule": "Exclude dead, sunsetted, or indefinitely waitlist-locked platforms, as well as thin white-label affiliate clones.",
+      "rationale": "Recommendations must be immediately usable and represent genuine product engineering rather than reskinned cash-grab wrappers."
+    }
+  ],
+  "borderline_cases": [
+    {
+      "case_type": "General-purpose AI assistants with an 'unhinged' or adult mode",
+      "decision": "Exclude from the main Top 10; note only as context if widely used.",
+      "test_to_apply": "Does the product provide dedicated persona persistence, character card slots, or relationship memory, or is it a single utility assistant that happens to relax its safety filter?"
+    },
+    {
+      "case_type": "Adult cam sites or creator fan platforms with an added AI chat widget",
+      "decision": "Exclude.",
+      "test_to_apply": "Is the AI chat the primary product being sold, or is it an upsell/lead-capture funnel designed to route traffic toward human performers and pay-per-view media?"
+    },
+    {
+      "case_type": "AI image/video generation suites that bolted on a basic chat tab",
+      "decision": "Include only if the chat engine is competitive as a standalone companion.",
+      "test_to_apply": "Does the chat interface support multi-turn context retention, custom character prompts, and coherent roleplay independent of spending credits on image generation?"
+    },
+    {
+      "case_type": "Model/API gateways and inference routers",
+      "decision": "Exclude from platform rankings; mention only as backend fuel for BYOK frontends.",
+      "test_to_apply": "Can an end user log in and immediately start a character roleplay session using built-in persona management without configuring an external frontend?"
+    },
+    {
+      "case_type": "Mobile app-only platforms vs. Web-first platforms with censored app-store builds",
+      "decision": "Evaluate and rank based on the uncensored web/direct build, with mandatory disclosure of app-store restrictions.",
+      "test_to_apply": "Addendum Rule: Does the iOS App Store or Google Play Store build enforce stricter content filters (e.g., blocking NSFW image generation, hiding 18+ toggles, or filtering explicit text) compared to the web version? If yes, judge the platform by its full-featured web/APK version, and flag the mobile app disparity as a usability caveat."
+    },
+    {
+      "case_type": "Regional or non-English-primary platforms",
+      "decision": "Exclude from a general English-language Top 10 unless full English localization and fluent English LLM output are natively supported.",
+      "test_to_apply": "Is the UI fully localized in English, does it accept standard international payment methods, and is the underlying model fluent in English erotic/roleplay idioms?"
+    },
+    {
+      "case_type": "SFW platforms with widespread community filter workarounds",
+      "decision": "Exclude.",
+      "test_to_apply": "Apply the NSFW Test: Is explicit content permitted by first-party policy, or does it rely on user cat-and-mouse workarounds?"
+    },
+    {
+      "case_type": "Platforms that pivoted from NSFW to SFW (or vice versa) / Rebranded platforms",
+      "decision": "Judge strictly by current live policy and infrastructure, ignoring legacy reputation.",
+      "test_to_apply": "Can a newly registered adult account today access explicit NSFW chat on standard tiers without grandfathered status?"
+    },
+    {
+      "case_type": "Pure BYOK / Local UI frontends (no hosted models)",
+      "decision": "Rank in a separate 'Best for Power Users / DIY' sidebar rather than mixing directly with turnkey hosted apps.",
+      "test_to_apply": "Does the user have to obtain an external API key or run a local GPU server before sending their first message?"
+    }
+  ],
+  "nsfw_test": "A platform passes the genuine NSFW test ONLY if (1) its current official Terms of Service or Content Guidelines explicitly permit consensual sexually explicit text generation for verified 18+ users, (2) the platform provides either an unrestricted default state or an official, documented 'NSFW / 18+ / Uncensored' toggle in user/character settings, and (3) standard explicit anatomical and erotic phrasing does not trigger automated refusal messages, canned moralizing lectures, silent prompt rewriting, or account strikes during normal use. If achieving explicit output requires euphemisms, OOC (out-of-character) prompt injections, encoding tricks, or exploiting temporary model glitches, the platform FAILS the test.",
+  "segments": [
+    "Turnkey AI Girlfriend / Boyfriend Seekers (prioritize emotional continuity, voice calls, persistent memory, and realistic/anime visual selfies)",
+    "Scenario & Fandom Roleplayers (prioritize massive community character libraries, multi-character group chat, lorebooks, and diverse genres)",
+    "Narrative & Long-Form Erotica Writers (prioritize high context-window limits, prose quality, persona adherence, and branching chat trees)",
+    "Visual & Multimodal Enthusiasts (prioritize uncensored in-chat image generation, live video loops, and interactive Bluetooth hardware/teledildonics sync)",
+    "Privacy-Maximalist & Power Users (prioritize local hosting, BYOK API routing, zero data logging, and granular sampler/system-prompt control)",
+    "Budget / Free-Tier Explorers (prioritize generous daily free message allowances or unlimited free base models without aggressive paywalls)"
+  ],
+  "limitations": "The NSFW AI companion landscape is highly volatile due to third-party payment processor crackdowns, upstream LLM provider bans, and shifting app-store compliance rules. A platform's censorship level, model quality, or pricing structure can change overnight if a payment gateway forces a sudden policy pivot. Furthermore, perceived 'chat quality' is subjective and heavily dependent on which underlying model tier a user pays for, and app-store builds (iOS/Android) frequently strip out explicit visual or text capabilities that remain available on the same platform's web browser version."
+}

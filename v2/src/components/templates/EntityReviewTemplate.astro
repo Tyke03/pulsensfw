@@ -1,0 +1,49 @@
+---
+import EntityDataPanel from '../EntityDataPanel.astro';
+import GearLab from '../gear/GearLab.astro';
+import ScoreBadge from '../ScoreBadge.astro';
+import SourceList from './SourceList.astro';
+import type { TemplateEntity } from '../../lib/content/templates';
+import type { ArticlePage } from '../../lib/content/types';
+
+interface Props {
+  article: ArticlePage;
+  entities: TemplateEntity[];
+}
+const { article, entities } = Astro.props;
+const first = entities[0];
+---
+<div class="template template--review">
+  <div class="review-stamp">
+    <img src="/media/brand/reviewer-badge.png" alt="Reviewed by PulseNSFW" width="132" height="40" />
+    {first?.score !== null && first && <ScoreBadge score={first.score} />}
+    {article.checkedLabel && <span class="meta">Checked {article.checkedLabel}</span>}
+  </div>
+
+  {first && (
+    <EntityDataPanel
+      entity={first.entity}
+      media={first.media}
+      topic={first.topic}
+      uid={`review-${article.slug}`}
+    />
+  )}
+
+  {entities.length > 1 && (
+    <section class="hub-row">
+      <h2>Also in this review</h2>
+      <div class="profile-grid">
+        {entities.slice(1).map((item) => (
+          <a class="entity-mini" href={item.href}>
+            <strong>{item.title}</strong>
+            <span class="meta">{item.meta}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <div class="prose"><slot /></div>
+  {article.gear && <div class="gear-col" style="max-width:520px"><GearLab gear={article.gear} /></div>}
+  <SourceList sources={article.sources} />
+</div>

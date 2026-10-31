@@ -1,0 +1,28 @@
+---
+import { formatDate } from '../../lib/content/format';
+import type { ArticleSource } from '../../lib/content/types';
+
+interface Props {
+  sources: ArticleSource[];
+}
+const { sources } = Astro.props;
+const seen = new Set<string>();
+const unique = sources.filter((source) => {
+  if (seen.has(source.url)) return false;
+  seen.add(source.url);
+  return true;
+});
+---
+{unique.length > 0 && (
+  <section class="sources" aria-labelledby="sources-title">
+    <h2 id="sources-title">Sources</h2>
+    <ul>
+      {unique.map((source) => (
+        <li>
+          <a href={source.url} rel="noopener noreferrer">{source.label}</a>
+          {source.checked && <span class="meta"> · checked {formatDate(new Date(`${source.checked}T00:00:00Z`))}</span>}
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

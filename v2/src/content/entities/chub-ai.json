@@ -1,0 +1,139 @@
+{
+  "slug": "chub-ai",
+  "type": "ai_app",
+  "name": "Chub AI",
+  "url": "https://chub.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "A character-card library and roleplay front end that connects to the provider stack you choose — its own Mars models, OpenAI, Anthropic, Google, OpenRouter, NovelAI, or your own local hardware.",
+  "tags": [
+    "nsfw",
+    "character cards",
+    "roleplay",
+    "power user"
+  ],
+  "ranking_rationale": "Official docs verify the uncensored positioning, the Imagine image feature, chat-memory summaries, text-to-speech, and wide model/API portability. Subscription page could not be fetched fresh and prices could not be verified, so it ranks on documented flexibility — not price.",
+  "pricing": {
+    "model": "Freemium + hosted subscriptions + bring-your-own API",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Mars",
+        "price": "$20",
+        "billing": "month",
+        "notes": "Official docs list this plan but do not name the currency or confirm it is the cheapest current subscription"
+      }
+    ],
+    "notes": "No current Chub-hosted price verified at check time. Kobold/Ooba connections can be free if you self-host. Do not substitute review-site figures."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Deep model freedom: hosted Mars, OpenAI, Anthropic, Google, OpenRouter, NovelAI, local",
+    "Chat Memory stores manual or AI-generated summaries as context",
+    "Uncensored product policy per official docs",
+    "Imagine in-chat image generation; TTS documented"
+  ],
+  "cons": [
+    "Subscription page could not be verified — prices unclear",
+    "More setup and cost decisions than a single-plan app; BYO-API keys are on you",
+    "Free self-hosted route needs your own hardware",
+    "Crypto-only billing after the 2026 restructure - declined cards and crypto-unwilling users are locked out",
+    "Community-reported: free tier tightened in the 2026 restructure",
+    "Community-reported instability: dropped sessions and lost context"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Uncensored positioning",
+      "value": "Official docs: character interactions not meaningfully restricted",
+      "source_url": "https://docs.chub.ai/docs/the-basics/getting-started",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Third-party model providers impose their own policies; full current terms could not be fetched."
+    },
+    {
+      "key": "Mars plan",
+      "value": "$20/mo, unlimited messaging (currency not named in docs)",
+      "source_url": "https://docs.chub.ai/docs/the-basics/api-connections.md",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Official docs; not confirmed as the cheapest current plan."
+    },
+    {
+      "key": "Cheapest paid plan",
+      "value": "Unverified",
+      "source_url": "https://docs.chub.ai/docs/the-basics/getting-started",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Fresh subscription-page fetch failed. Do not substitute review-site $5 figures."
+    },
+    {
+      "key": "Hosted free quota",
+      "value": "Unverified",
+      "source_url": "https://docs.chub.ai/docs/the-basics/getting-started",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Self-hosted connections can be free but need your own hardware."
+    },
+    {
+      "key": "Imagine (images)",
+      "value": "In-chat image generation documented",
+      "source_url": "https://docs.chub.ai/docs/the-basics/just-chatting",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Included quota and model-specific policy not verified."
+    },
+    {
+      "key": "Text-to-speech",
+      "value": "Documented in Configuration docs; no live voice calls verified",
+      "source_url": "https://docs.chub.ai/docs/the-basics/just-chatting",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Chat Memory",
+      "value": "Summary-based context system, not unlimited recall",
+      "source_url": "https://docs.chub.ai/docs/the-basics/just-chatting",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Fan support",
+      "value": "Heavy - recurring community recommendations for the card library and BYO-API freedom",
+      "source_url": "https://docs.chub.ai/docs/the-basics/getting-started",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Heavy tier in the fan-scout record."
+    },
+    {
+      "key": "2026 restructure",
+      "value": "Community-reported: June 2026 restructuring cut the free tier (~20 messages/day reported) and moved billing crypto-only",
+      "source_url": "https://www.reddit.com/r/ChatbotRefugees/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Free-tier cap community-reported, unverified. Scam-hunt verdict: caution."
+    },
+    {
+      "key": "Stability",
+      "value": "Community-reported: dropped connections, slower UI, lost mid-session info after updates",
+      "source_url": "https://www.reddit.com/r/ChatbotRefugees/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    }
+  ],
+  "updated": "2026-10-27"
+}

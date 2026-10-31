@@ -1,0 +1,146 @@
+{
+  "slug": "crushon-ai",
+  "type": "ai_app",
+  "name": "CrushOn AI",
+  "url": "https://crushon.ai",
+  "affiliate_url": "https://crushon.ai/?ref=nzflztr&mist=1",
+  "affiliate_status": "active",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "Unfiltered character chat with a very large community library, persistent character memory, and a free tier with unlimited access to designated free models. One of two apps on this desk with a tracked link.",
+  "tags": [
+    "nsfw",
+    "character chat",
+    "roleplay",
+    "freemium"
+  ],
+  "ranking_rationale": "First-party pricing page (verified live in a browser) documents unlimited free-model access, a 100-credit free allowance, 8K free memory, voice messages, and a $5.99 monthly Standard plan. Adult text roleplay for 18+ users is in the official FAQ. Ranks high on testable free access, but the app-distribution picture is murky: iOS/Android apps are claimed by the FAQ with no verifiable store listing.",
+  "pricing": {
+    "model": "Freemium subscription",
+    "free_tier": "100 monthly credits + unlimited designated free models, 8K memory",
+    "from_price": "$5.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Standard",
+        "price": "$5.99",
+        "billing": "month",
+        "notes": "Verified by selecting Monthly in the live pricing page. 16K-memory models, 4,000 pinned characters per chat, voice features."
+      },
+      {
+        "name": "Standard (annual)",
+        "price": "$58.88",
+        "billing": "year",
+        "notes": "$4.91/mo effective. The site's $4.9/mo headline is annual billing — do not read it as month-to-month."
+      }
+    ],
+    "notes": "Free chat history is deleted after 7 days of inactivity; paid history retained during membership. Annual is promotional and can change."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Unlimited access to designated free models, separate from credits",
+    "Free tier with 8K memory is testable before paying",
+    "Voice messages and custom voices at paid tiers",
+    "Transparent pricing page"
+  ],
+  "cons": [
+    "Free chat history deleted after 7 days of inactivity",
+    "Annual-equivalent headline easily confused with monthly cost",
+    "Native apps claimed but no current store listing verified",
+    "Scam-hunt verdict: avoid - reported no manual cancel, non-refundable terms, and payment-processor churn",
+    "Community-reported: no confirmed encryption, ~45 trackers, chat-log collection",
+    "Trustpilot reported ~1.8/5 with support unresponsive (community count, unverified)"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Monthly price",
+      "value": "$5.99/month (Standard)",
+      "source_url": "https://crushon.ai/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Verified by selecting Monthly in the live browser; the default annual view shows $4.9/mo."
+    },
+    {
+      "key": "Annual charge",
+      "value": "$58.88/year = $4.91/mo effective",
+      "source_url": "https://crushon.ai/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Promotional annual Standard observed; billed annually."
+    },
+    {
+      "key": "Free tier",
+      "value": "100 monthly credits + unlimited access to free models",
+      "source_url": "https://crushon.ai/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Credits are not a universal message cap; free-model access is advertised separately."
+    },
+    {
+      "key": "Free memory window",
+      "value": "8K (free) → 16K models on Standard",
+      "source_url": "https://crushon.ai/pricing",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Adult roleplay",
+      "value": "Yes — adult text roleplay for 18+ users, subject to platform rules",
+      "source_url": "https://crushon.ai/faq",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Native apps",
+      "value": "Unverified",
+      "source_url": "https://crushon.ai/faq",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Official FAQ claims iOS/Android availability but no current store listing was verified."
+    },
+    {
+      "key": "Cancellation model",
+      "value": "Community-reported: no manual cancel or upgrade - subscriptions must lapse and be re-subscribed; current period non-refundable",
+      "source_url": "https://crushon.ai/terms-of-service",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: avoid. Dropped from the v0 top 10 on this."
+    },
+    {
+      "key": "Payment churn",
+      "value": "Community-reported: Stripe ended the partnership; payments moved via SubscribeStar and other processors mid-flight",
+      "source_url": "https://www.reddit.com/r/Crushonai/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Privacy posture",
+      "value": "Community-reported: Mozilla profile lists ~45 trackers, no confirmed encryption, chat-log collection incl. preference data",
+      "source_url": "https://www.mozilla.org/en-US/privacy-notices/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Tracker count unverified; signal: pay with a disposable card or stay on the free tier with a burner identity."
+    },
+    {
+      "key": "Operator identity",
+      "value": "Community-reported: terms name TECHIEPIE LTD (Cyprus) while other listings say Washington/Menlo Park",
+      "source_url": "https://crushon.ai/terms-of-service",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Rank revision rests on community trust evidence, not affiliate status."
+    }
+  ],
+  "updated": "2026-10-27"
+}

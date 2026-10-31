@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pulsensfw.com/schemas/submission.json",
+  "title": "PulseNSFW article + entity fact submission",
+  "description": "A writer agent submits one article and a list of entity fact updates. The ingest script writes the article MDX and merges updates into src/content/entities/<slug>.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["article", "entity_updates"],
+  "properties": {
+    "article": { "$ref": "#/$defs/article" },
+    "entity_updates": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entityUpdate" }
+    }
+  },
+  "$defs": {
+    "license": {
+      "enum": [
+        "press-kit",
+        "affiliate-asset",
+        "screenshot",
+        "own-art",
+        "brand-kit",
+        "cc-by-4.0",
+        "cc-by-sa-4.0",
+        "cc-by-3.0",
+        "cc-by-sa-2.5",
+        "public-domain",
+        "example"
+      ]
+    },
+    "cover": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["alt", "license", "explicit"],
+      "properties": {
+        "alt": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" },
+        "credit": { "type": "string" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "license": { "$ref": "#/$defs/license" },
+        "explicit": { "const": false },
+        "plate": { "type": "string" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "url"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "checked": { "type": "string", "format": "date" }
+      }
+    },
+    "gear": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["product", "score", "ratings", "specs", "pros", "cons", "verdict"],
+      "properties": {
+        "product": { "type": "string" },
+        "score": { "type": "number" },
+        "ratings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "value"],
+            "properties": {
+              "label": { "type": "string" },
+              "value": { "type": "number" }
+            }
+          }
+        },
+        "specs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "value"],
+            "properties": {
+              "label": { "type": "string" },
+              "value": { "type": "string" }
+            }
+          }
+        },
+        "pros": { "type": "array", "items": { "type": "string" } },
+        "cons": { "type": "array", "items": { "type": "string" } },
+        "verdict": { "type": "string" }
+      }
+    },
+    "article": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slug",
+        "title",
+        "dek",
+        "topic",
+        "kind",
+        "publishedAt",
+        "author",
+        "kicker",
+        "readingMinutes",
+        "placement",
+        "cover",
+        "body"
+      ],
+      "properties": {
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "title": { "type": "string", "minLength": 1 },
+        "dek": { "type": "string", "minLength": 1 },
+        "topic": { "enum": ["stars", "sites", "ai", "toys", "vr", "guides", "lists", "news"] },
+        "kind": { "enum": ["top_list", "star_profile", "site_review", "review", "guide", "news"] },
+        "publishedAt": { "type": "string", "format": "date" },
+        "updatedAt": { "type": "string", "format": "date" },
+        "badges": { "type": "array", "items": { "enum": ["new", "updated"] } },
+        "author": { "type": "string", "minLength": 1 },
+        "kicker": { "type": "string", "minLength": 1 },
+        "readingMinutes": { "type": "integer", "minimum": 1 },
+        "placement": { "enum": ["lead", "stack", "none"] },
+        "rails": {
+          "type": "array",
+          "items": { "enum": ["trending", "latest", "editors", "guides", "top10"] }
+        },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "cover": { "$ref": "#/$defs/cover" },
+        "entities": {
+          "type": "array",
+          "description": "Entity slugs. Order is rank order for top_list articles.",
+          "items": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" }
+        },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+        "checkedAt": { "type": "string", "format": "date" },
+        "gear": { "$ref": "#/$defs/gear" },
+        "body": { "type": "string", "minLength": 1 }
+      }
+    },
+    "pricingPlan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "price"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "price": { "type": ["string", "null"], "minLength": 1 },
+        "billing": { "type": "string", "minLength": 1 },
+        "notes": { "type": "string" }
+      }
+    },
+    "pricingUpdate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "model": { "type": "string", "minLength": 1 },
+        "free_tier": { "type": ["string", "null"] },
+        "from_price": { "type": ["string", "null"] },
+        "currency": { "type": ["string", "null"], "minLength": 1 },
+        "plans": { "type": "array", "items": { "$ref": "#/$defs/pricingPlan" } },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "imageUpdate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "src": { "type": "string", "minLength": 1 },
+        "alt": { "type": "string", "minLength": 1 },
+        "source_url": { "type": "string", "format": "uri" },
+        "license": { "$ref": "#/$defs/license" },
+        "nsfw": { "const": false }
+      }
+    },
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "value", "source_url", "checked"],
+      "properties": {
+        "key": { "type": "string", "minLength": 1 },
+        "value": { "type": "string", "minLength": 1 },
+        "source_url": { "type": "string", "format": "uri" },
+        "checked": { "type": "string", "format": "date" },
+        "evidence_type": { "enum": ["first_party", "community", "hands_on", "press", "aggregator"] },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
+    "affiliateUpdate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["program_name", "network", "commission", "cookie_days", "signup_url", "checked"],
+      "properties": {
+        "program_name": { "type": "string", "minLength": 1 },
+        "network": { "type": "string", "minLength": 1 },
+        "commission": { "type": "string", "minLength": 1 },
+        "cookie_days": { "type": ["integer", "null"], "minimum": 0 },
+        "signup_url": { "type": "string", "format": "uri" },
+        "notes": { "type": "string", "minLength": 1 },
+        "checked": { "type": "string", "format": "date" }
+      }
+    },
+    "entityUpdate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slug"],
+      "properties": {
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "type": { "enum": ["star", "site", "ai_app", "product", "game"] },
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "affiliate_url": { "type": ["string", "null"], "format": "uri" },
+        "affiliate_status": { "enum": ["active", "needs_search", "program_found_signup_queued", "no_program"] },
+        "affiliate": { "$ref": "#/$defs/affiliateUpdate" },
+        "monetization_methods": { "type": "array", "items": { "enum": ["affiliate", "referral", "creator_program", "sponsorship", "none"] } },
+        "ranking_rationale": { "type": "string", "minLength": 1 },
+        "handle_unverified": { "type": "boolean" },
+        "summary": { "type": "string", "minLength": 1 },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "pricing": { "$ref": "#/$defs/pricingUpdate" },
+        "platforms": { "type": "array", "items": { "type": "string" } },
+        "score": { "type": ["number", "null"], "minimum": 0, "maximum": 10 },
+        "pros": { "type": "array", "items": { "type": "string" } },
+        "cons": { "type": "array", "items": { "type": "string" } },
+        "image": { "$ref": "#/$defs/imageUpdate", "type": ["object", "null"] },
+        "facts": { "type": "array", "items": { "$ref": "#/$defs/fact" } },
+        "updated": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

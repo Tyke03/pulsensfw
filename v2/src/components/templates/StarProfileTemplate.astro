@@ -1,0 +1,25 @@
+---
+import EntityDataPanel from '../EntityDataPanel.astro';
+import SourceList from './SourceList.astro';
+import type { TemplateEntity } from '../../lib/content/templates';
+import type { ArticlePage } from '../../lib/content/types';
+
+interface Props {
+  article: ArticlePage;
+  entities: TemplateEntity[];
+}
+const { article, entities } = Astro.props;
+const star = entities[0];
+---
+<div class="template template--star">
+  {star && (
+    <EntityDataPanel
+      entity={star.entity}
+      media={star.media}
+      topic={star.topic}
+      uid={`star-${article.slug}`}
+    />
+  )}
+  <div class="prose"><slot /></div>
+  <SourceList sources={[...article.sources, ...(star ? star.entity.facts.map((fact) => ({ label: `${fact.key}: ${fact.value}`, url: fact.source_url, checked: fact.checked })) : [])]} />
+</div>

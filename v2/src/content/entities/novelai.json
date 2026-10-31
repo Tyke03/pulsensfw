@@ -1,0 +1,120 @@
+{
+  "slug": "novelai",
+  "type": "ai_app",
+  "name": "NovelAI",
+  "url": "https://novelai.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [],
+  "summary": "Storytelling and co-writing platform with a strong lorebook system, image generation, and uncensored text models (Xialong, Krake, Llama 3 Erato). More writing desk than companion — watchlist.",
+  "tags": [
+    "nsfw",
+    "storytelling",
+    "co-writing",
+    "lorebook"
+  ],
+  "ranking_rationale": "Watchlist, not the top 10: it is a writing/co-writing tool rather than a companion product, and there is no companion-facing free tier. Priced first-party on the official docs, so it still gets a full record.",
+  "pricing": {
+    "model": "Subscription tiers",
+    "free_tier": "Trial: 30 image generations, 50 text generations, 100 TTS (email verification required)",
+    "from_price": "$10/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Tablet",
+        "price": "$10",
+        "billing": "month",
+        "notes": "1,000 Anlas monthly; Opus-locked features visible in doc comparison"
+      },
+      {
+        "name": "Scroll",
+        "price": "$15",
+        "billing": "month",
+        "notes": "10,000 Anlas monthly"
+      },
+      {
+        "name": "Opus",
+        "price": "$25",
+        "billing": "month",
+        "notes": "10,000 Anlas monthly; 28,672-token context; unlimited small image generations"
+      }
+    ],
+    "notes": "Subscriptions renew every 30 days per official docs. Image generation is free on Opus under size/steps limits; otherwise Anlas."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": null,
+  "pros": [
+    "Lorebook + module system gives explicit world-memory control",
+    "Opus: 28,672-token context documented",
+    "Adult content generation permitted broadly per official stance"
+  ],
+  "cons": [
+    "Not a companion product — no persona/relationship frame",
+    "No free ongoing use; trial is consumption-limited",
+    "Community-reported: processor churn has cancelled active subs mid-flight",
+    "Anlas limits were tightened retroactively per community reports"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Plan prices",
+      "value": "Tablet $10 · Scroll $15 · Opus $25 per month",
+      "source_url": "https://docs.novelai.net/en/subscription",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Opus context",
+      "value": "28,672-token context documented",
+      "source_url": "https://docs.novelai.net/en/subscription",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Trial",
+      "value": "30 image / 50 text / 100 TTS generations with email verification",
+      "source_url": "https://docs.novelai.net/en/subscription",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Models",
+      "value": "Xialong (Opus-exclusive), Krake, Llama 3 Erato documented; V4.5 usage caps on image generation",
+      "source_url": "https://docs.novelai.net/en/subscription",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Adult content",
+      "value": "Yes — NovelAI permits adult content generation (official docs)",
+      "source_url": "https://docs.novelai.net/en/subscription",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Pricing page documents the adult-permission stance; full policy not fetched."
+    },
+    {
+      "key": "Billing stability",
+      "value": "Community-reported: processor Paddle has repeatedly cancelled active subscriptions mid-cycle; 2025 forced migration sent false \"subscription cancelled\" emails and blocked card updates",
+      "source_url": "https://www.paddle.com/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: caution. Cancellation itself is reported genuinely easy; goodwill high. First-party prices retained."
+    },
+    {
+      "key": "Anlas change",
+      "value": "Community-reported: Anlas/Opus usage limits introduced retroactively mid-subscription",
+      "source_url": "https://www.reddit.com/r/NovelAi/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    }
+  ],
+  "updated": "2026-10-27"
+}

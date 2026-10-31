@@ -1,0 +1,43 @@
+---
+import EntityCard from '../EntityCard.astro';
+import EntityDataPanel from '../EntityDataPanel.astro';
+import SourceList from './SourceList.astro';
+import type { TemplateEntity } from '../../lib/content/templates';
+import type { ArticlePage } from '../../lib/content/types';
+
+interface Props {
+  article: ArticlePage;
+  entities: TemplateEntity[];
+}
+const { article, entities } = Astro.props;
+---
+<div class="template template--guide-news">
+  {article.checkedLabel && <p class="kicker">Facts checked {article.checkedLabel}</p>}
+  <div class="prose"><slot /></div>
+
+  {entities.length > 0 && (
+    <section class="hub-row" aria-labelledby="story-entities">
+      <h2 id="story-entities">Entity records in this story</h2>
+      <div class="profile-grid">
+        {entities.map((item) => <EntityCard card={item} uid={`guide-${article.slug}-${item.slug}`} />)}
+      </div>
+      <div class="stacked-panels">
+        {entities.map((item) => (
+          <EntityDataPanel
+            entity={item.entity}
+            media={item.media}
+            topic={item.topic}
+            uid={`guide-panel-${article.slug}-${item.slug}`}
+            compact
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <SourceList sources={article.sources} />
+</div>
+
+<style>
+  .stacked-panels { display: grid; gap: 16px; margin-top: 16px; }
+</style>

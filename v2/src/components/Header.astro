@@ -1,0 +1,123 @@
+---
+import Logo from './Logo.astro';
+import Icon from './Icon.astro';
+import MediaFrame from './MediaFrame.astro';
+import ReaderPanel from './reader/ReaderPanel.astro';
+import { TOPIC_LABEL } from '../lib/site';
+import type { ArticleCard, ReaderMode, Topic } from '../lib/content/types';
+
+interface Props {
+  reader: ReaderMode;
+  topics: Topic[];
+  featured: Record<string, ArticleCard | undefined>;
+  section?: string;
+  returnTo: string;
+}
+const { reader, topics, featured, section, returnTo } = Astro.props;
+---
+<header class="site-header">
+  <div class="header-inner">
+    <Logo discreet={reader.discreet} />
+    <nav class="primary-nav" aria-label="Sections">
+      <ul>
+        {topics.map((topic) => {
+          const feature = featured[topic.id];
+          const panelId = `mega-${topic.id}`;
+          return (
+            <li class="nav-item" data-mega>
+              <a
+                data-pulse
+                data-mega-trigger
+                href={topic.href}
+                aria-current={section === topic.id ? 'page' : undefined}
+                aria-expanded="false"
+                aria-haspopup="true"
+                aria-controls={panelId}
+              >
+                <span class="nav-short">{topic.short}</span>
+                <span class="nav-full">{topic.label}</span>
+              </a>
+              <div class="mega" id={panelId}>
+                <div class="mega-panel">
+                  <div class="mega-inner">
+                    <div class="mega-copy">
+                      <p class="kicker">{topic.label}</p>
+                      <p>{topic.blurb}</p>
+                      <a class="c-btn c-btn--primary c-btn--small" href={topic.href}>Open hub</a>
+                    </div>
+                    <ul class="mega-links">
+                      {topic.subtopics.map((sub) => (
+                        <li>
+                          <a href={`${topic.href}?topic=${sub.id}`}>
+                            <strong>{sub.label}</strong>
+                            <span>{sub.description}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                    {feature && (
+                      <div class="mega-feature">
+                        <MediaFrame media={feature.media} topic={feature.topic} uid={`mega-${topic.id}`} />
+                        <a href={feature.href}>
+                          <span class="kicker">Featured · {TOPIC_LABEL[feature.topic]}</span>
+                          <strong>{feature.title}</strong>
+                        </a>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <form class="header-search" action="/search" method="get" data-astro-reload>
+        <label class="sr-only" for="header-q">Search stars, sites, gear, and stories</label>
+        <input class="c-input" id="header-q" name="q" type="search" placeholder="Search" />
+        <button class="icon-btn" type="submit" aria-label="Search">
+          <Icon name="search" />
+        </button>
+      </form>
+      <a class="icon-btn header-search-btn" href="/search" data-search-open aria-label="Search">
+        <Icon name="search" />
+      </a>
+      <details class="menu">
+        <summary aria-label="Account and reader settings">
+          <Icon name="user" />
+        </summary>
+        <div class="menu-panel">
+          <ReaderPanel reader={reader} returnTo={returnTo} />
+        </div>
+      </details>
+      <form id="nsfw-toggle" method="post" action="/api/reader/nsfw" data-astro-reload hidden>
+        <input type="hidden" name="return" value={returnTo} />
+        <input type="hidden" name="enabled" value={reader.nsfw ? '0' : '1'} />
+      </form>
+      <button
+        class="nsfw-switch"
+        type="submit"
+        form="nsfw-toggle"
+        aria-pressed={reader.nsfw ? 'true' : 'false'}
+        aria-disabled={reader.ageVerified ? 'false' : 'true'}
+        disabled={!reader.ageVerified}
+      >
+        <span class="nsfw-knob" aria-hidden="true"></span>
+        <span class="nsfw-label">NSFW</span>
+      </button>
+    </div>
+  </div>
+</header>
+<div id="search-dialog" class="modal" hidden>
+  <div class="modal-backdrop" data-close-dialog></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="search-title">
+    <p class="kicker" id="search-title">Search</p>
+    <form action="/search" method="get" data-astro-reload class="c-field">
+      <label class="sr-only" for="header-search">Search stars, sites, toys, games, and stories</label>
+      <input class="c-input" id="header-search" name="q" type="search" placeholder="Stars, sites, toys, VR…" />
+      <button class="c-btn c-btn--primary" type="submit">Search</button>
+    </form>
+    <button class="c-btn c-btn--ghost" type="button" data-close-dialog>Close</button>
+  </div>
+</div>

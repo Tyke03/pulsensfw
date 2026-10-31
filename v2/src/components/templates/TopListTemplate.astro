@@ -1,0 +1,47 @@
+---
+import EntityDataPanel from '../EntityDataPanel.astro';
+import ScoreBadge from '../ScoreBadge.astro';
+import SourceList from './SourceList.astro';
+import type { TemplateEntity } from '../../lib/content/templates';
+import type { ArticlePage } from '../../lib/content/types';
+
+interface Props {
+  article: ArticlePage;
+  entities: TemplateEntity[];
+}
+const { article, entities } = Astro.props;
+---
+<div class="template template--top-list">
+  <div class="template-lede">
+    <p class="kicker">
+      Ranked list{article.checkedLabel ? ` · facts checked ${article.checkedLabel}` : ''}
+    </p>
+    <p class="dek">Every row below is the entity record, not a second copy. Prices, platforms, and sources live in one place.</p>
+  </div>
+
+  <div class="prose"><slot /></div>
+
+  <ol class="ranked-entities">
+    {entities.map((item, index) => (
+      <li class="ranked-entity" id={`entity-${item.slug}`}>
+        <div class="ranked-head">
+          <span class="rank-no">{String(index + 1).padStart(2, '0')}</span>
+          <div>
+            <p class="kicker">#{index + 1} · {item.kicker}</p>
+            <h2><a href={item.href}>{item.title}</a></h2>
+          </div>
+          {item.score !== null && <ScoreBadge score={item.score} />}
+        </div>
+        <EntityDataPanel
+          entity={item.entity}
+          media={item.media}
+          topic={item.topic}
+          uid={`top-${article.slug}-${item.slug}`}
+          compact
+        />
+      </li>
+    ))}
+  </ol>
+
+  <SourceList sources={article.sources} />
+</div>

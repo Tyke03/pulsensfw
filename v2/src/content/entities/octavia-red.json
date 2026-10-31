@@ -1,0 +1,75 @@
+{
+  "slug": "octavia-red",
+  "type": "star",
+  "name": "Octavia Red",
+  "url": "https://www.imdb.com/name/nm13159981/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral",
+    "creator_program"
+  ],
+  "summary": "Performer with a quickly growing record; took the acting award at the 34th Annual NightMoves Awards (October 2026) and writes as well as performs.",
+  "tags": [
+    "awards",
+    "acting",
+    "writing"
+  ],
+  "ranking_rationale": "Included on verified October 2026 professional news (dated award activity), not on follower counts or aggregator lists. No social or image claim is made beyond the sourced facts here.",
+  "pricing": {
+    "model": "Personal brand — official channels not verified",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No verified official subscription or store link at check time."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": null,
+  "facts": [
+    {
+      "key": "Adult verification",
+      "value": "18+ — born November 4, 1996 (age 29 at check)",
+      "source_url": "https://www.imdb.com/name/nm13159981/bio/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Public biographical evidence, not identity-document verification."
+    },
+    {
+      "key": "Recent activity",
+      "value": "Won the acting award at the 34th Annual NightMoves Awards (ceremony October 11, 2026)",
+      "source_url": "https://avn.com/press/video/octavia-red-wins-best-acting-at-2026-nightmoves-awards-152540",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "The press release says Best Acting; the winners report says Best Actress. Kept as source wording, not counted as two awards."
+    },
+    {
+      "key": "Award corroboration",
+      "value": "Listed as Best Actress, 34th Annual NightMoves Awards",
+      "source_url": "https://avn.com/news/video/winners-of-34th-annual-nightmoves-awards-show-announced-182406",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Followers",
+      "value": "Unverified",
+      "source_url": "https://avn.com/press/video/octavia-red-wins-best-acting-at-2026-nightmoves-awards-152540",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Cached Instagram count lacked an observation date and feed-safety check; not asserted."
+    },
+    {
+      "key": "X handle",
+      "value": "Unverified — no X profile link asserted",
+      "source_url": "https://x.com",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Candidate handles circulating in tracker/summary sources proved wrong, suspended, fan-run, or empty on 2026-10-27 (X API). handle_unverified flag set for the research agent to re-check."
+    }
+  ],
+  "updated": "2026-10-27",
+  "handle_unverified": true
+}

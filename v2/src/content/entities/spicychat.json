@@ -1,0 +1,159 @@
+{
+  "slug": "spicychat",
+  "type": "ai_app",
+  "name": "SpicyChat",
+  "url": "https://spicychat.ai",
+  "affiliate_url": "https://spicychat.ai?ref=oge3yjk",
+  "affiliate_status": "active",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "Character roleplay with a huge community library, a genuinely testable free tier (avatar generation included), tiered context, Semantic Memory 2.0, and paid TTS at the top tier.",
+  "tags": [
+    "nsfw",
+    "character chat",
+    "roleplay",
+    "freemium"
+  ],
+  "ranking_rationale": "Official plans-and-features support article documents the full tier table — context tokens, memory tools, image generation, TTS — and the subscribe page shows $5.95. The free tier includes avatar generation, so it can be evaluated before paying. Downweighted slightly by TTS being locked to the top tier and the absence of a currently supported native iOS app.",
+  "pricing": {
+    "model": "Freemium subscription",
+    "free_tier": "4,096-token context, 180-token replies, 3 personas, avatar generation",
+    "from_price": "$5.95/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billing": "month",
+        "notes": "4,096 context tokens; max reply 180 tokens; 3 personas; free avatar generator; no conversation images"
+      },
+      {
+        "name": "Get a Taste",
+        "price": "$5.95",
+        "billing": "month",
+        "notes": "8K-class context tier with Memory Manager begins here. Verified on the official subscription page."
+      },
+      {
+        "name": "True Supporter",
+        "price": null,
+        "billing": "month",
+        "notes": "8,192 context tokens, Semantic Memory 2.0, conversation images. Current USD price not verified in this record."
+      },
+      {
+        "name": "I'm All In",
+        "price": null,
+        "billing": "month",
+        "notes": "16,384 context tokens, private-character conversation images, text-to-speech. Current USD price not verified in this record."
+      }
+    ],
+    "notes": "Subscription page advertises a 17% annual saving, but an exact annual total was not verified. No free trials of paid plans."
+  },
+  "platforms": [
+    "Web",
+    "Android (official APK)",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Free tier includes avatar generation — real test before paying",
+    "Documented context ladder: 4K / 8K / 16K tokens",
+    "Memory Manager from Get a Taste; Semantic Memory 2.0 from True Supporter",
+    "Large community library"
+  ],
+  "cons": [
+    "Text-to-speech is top-tier only",
+    "No currently supported native iOS app; Android installs via sideloaded APK",
+    "Higher-tier prices not verified at check time",
+    "Community-reported: support tickets lost and no refund route on crypto/Boosty payments",
+    "Clone-app trap: no official store app; third-party clones impersonate it"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier limits",
+      "value": "4,096 context tokens; 180-token replies; 3 personas; avatar generation; no conversation images",
+      "source_url": "https://support.spicychat.ai/support/solutions/articles/153000260533-plans-and-what-s-included",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Message cap was not established by the fetched tier table. No free trials of paid plans."
+    },
+    {
+      "key": "Cheapest paid plan",
+      "value": "Get a Taste, $5.95/month",
+      "source_url": "https://spicychat.ai/subscribe",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Listed USD monthly price on the subscription page, taxes excluded."
+    },
+    {
+      "key": "Annual saving",
+      "value": "17% advertised; exact annual total unverified",
+      "source_url": "https://spicychat.ai/subscribe",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Context ladder",
+      "value": "Free/Get a Taste 4,096 · True Supporter 8,192 · I'm All In 16,384 tokens",
+      "source_url": "https://support.spicychat.ai/support/solutions/articles/153000260533-plans-and-what-s-included",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Memory Manager begins at Get a Taste; Semantic Memory 2.0 at True Supporter."
+    },
+    {
+      "key": "Adult content",
+      "value": "Limited — adult-labelled chatbots supported subject to community guidelines; 18+ only",
+      "source_url": "https://docs.spicychat.ai/community-guidelines",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Native apps",
+      "value": "No supported iOS app; Android via official sideloaded APK",
+      "source_url": "https://docs.spicychat.ai/advanced/mobile-apps",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Current supported route is the web/home-screen shortcut; removed app versions may still exist."
+    },
+    {
+      "key": "Text-to-speech",
+      "value": "Restricted to the I'm All In tier — not evidence of live voice calls",
+      "source_url": "https://docs.spicychat.ai/product-guides/premium-features/text-to-speech",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Fan support",
+      "value": "Moderate - community threads keep recommending it for library breadth while complaining about memory and support",
+      "source_url": "https://spicyranked.com/reviews/spicychat-ai",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Fan-scout tier: moderate."
+    },
+    {
+      "key": "Support & refunds",
+      "value": "Community-reported: Trustpilot ~2/5 with reports of support tickets vanishing and no crypto/Boosty refund route",
+      "source_url": "https://www.trustpilot.com/review/spicychat.ai",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Trustpilot rating count unverified (bot-blocked). Scam-hunt verdict: caution; real operator NextDay AI Inc."
+    },
+    {
+      "key": "Clone-app warning",
+      "value": "No official store app - every \"SpicyChat\" on the App Store/Play is a third-party clone (community corroboration of our first-party finding)",
+      "source_url": "https://docs.spicychat.ai/advanced/mobile-apps",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Biggest user-harm vector flagged by scam-hunt; matches our APK finding."
+    }
+  ],
+  "updated": "2026-10-27"
+}

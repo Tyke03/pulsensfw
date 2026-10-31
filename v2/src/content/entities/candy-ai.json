@@ -1,0 +1,126 @@
+{
+  "slug": "candy-ai",
+  "type": "ai_app",
+  "name": "Candy AI",
+  "url": "https://candy.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Multimedia companion product: text, generated images/video, and voice in one app. Free browsing previews exist, but paid media runs through a monthly token allowance.",
+  "tags": [
+    "nsfw",
+    "companion",
+    "image generation",
+    "freemium"
+  ],
+  "ranking_rationale": "First-party subscription and product pages verify $13.99 recurring monthly (with a $9.99 intro month), the $47.88 annual offer, voice interaction, and adult-generation features. Free tier is a 7-day trial per marketing, not a permanent allowance — weaker testability than its rivals, so it ranks as a multimedia pick, not a free-first pick.",
+  "pricing": {
+    "model": "Freemium subscription with tokens",
+    "free_tier": "Browsing/previews + advertised 7-day trial; no permanent message allowance verified",
+    "from_price": "$13.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Premium (monthly)",
+        "price": "$13.99",
+        "billing": "month",
+        "notes": "Recurring rate; first month advertised at $9.99. Unlimited text + 100 monthly tokens for media."
+      },
+      {
+        "name": "Premium (annual)",
+        "price": "$47.88",
+        "billing": "year",
+        "notes": "$3.99/month effective; billed upfront; page says renews at the same price and term."
+      }
+    ],
+    "notes": "Tokens are spent on images, voice, and video — unlimited text does not mean unlimited media. Local taxes may apply."
+  },
+  "platforms": [
+    "Web",
+    "PWA (add to home screen)",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Text, media, and voice combined in one product",
+    "Annual offer cuts the effective monthly rate sharply",
+    "Adult-generation features advertised openly"
+  ],
+  "cons": [
+    "Free tier is a trial/preview, not an indefinite allowance",
+    "100 monthly media tokens go fast on images/video",
+    "Discounted first month rises at monthly renewal",
+    "Tokens billed on top of the subscription - media costs keep coming after payment",
+    "Community-reported: awkward cancellation and chargeback-threat policy"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Premium monthly",
+      "value": "$13.99/month ($9.99 first month intro)",
+      "source_url": "https://candy.ai/subscriptions",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Annual price",
+      "value": "$47.88/year = $3.99/mo effective",
+      "source_url": "https://candy.ai/subscriptions",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Free tier",
+      "value": "Browsing/previews + advertised 7-day trial; permanent free message allowance unverified",
+      "source_url": "https://candy.ai/candy-ai",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Trial claims not account-tested; numeric free limits were not verified."
+    },
+    {
+      "key": "Adult content",
+      "value": "Yes — adult-generation features explicitly advertised, subject to terms and restrictions",
+      "source_url": "https://candy.ai/subscriptions",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Voice",
+      "value": "Voice interaction listed on the official feature page; call limits/costs unverified",
+      "source_url": "https://candy.ai/candy-ai",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Native apps",
+      "value": "None verified — iOS/Android access is Add-to-Home-Screen PWA",
+      "source_url": "https://candy.ai/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Monetization traps",
+      "value": "Community-reported: tokens billed on top of the subscription (\"pay for literally everything\"); cancelling without losing access reported as awkward; disputing a charge reportedly triggers a wrongful-chargeback internal flag",
+      "source_url": "https://www.trustpilot.com/review/candy.ai",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: caution (no documented breach; legit EU operator; the flags are monetization design). Trustpilot profile mismatch noted category-wide."
+    },
+    {
+      "key": "Price integrity",
+      "value": "First-party prices retained ($13.99 / $9.99 intro / $47.88 annual); third-party $12.99 figure ignored",
+      "source_url": "https://candy.ai/subscriptions",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-10-27"
+}

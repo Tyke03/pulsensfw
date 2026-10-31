@@ -1,0 +1,186 @@
+---
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import DealCard from '../components/DealCard.astro';
+import GearLab from '../components/gear/GearLab.astro';
+import Icon from '../components/Icon.astro';
+import { ICONS } from '../components/icons';
+import ScoreBadge from '../components/ScoreBadge.astro';
+import StoryCard from '../components/StoryCard.astro';
+import EmptyState from '../components/states/EmptyState.astro';
+import ErrorState from '../components/states/ErrorState.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { presentArticle, presentDeal } from '../lib/content/present';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const repo = getContentRepository();
+const articles = await repo.listArticles();
+const deals = await repo.listDeals();
+const sample = presentArticle(articles[0]!, reader);
+const deal = presentDeal(deals[0]!, reader);
+const gear = articles.find((article) => article.gear)?.gear;
+const swatches = [
+  ['bg-0', '#100c14'],
+  ['bg-1', '#1a1322'],
+  ['bg-2', '#241a30'],
+  ['bg-3', '#31243f'],
+  ['text', '#f6f1f8'],
+  ['text-soft', '#d9cce3'],
+  ['magenta', '#ff4f9a'],
+  ['magenta-strong', '#c2186a'],
+  ['cyan', '#5cf2ee'],
+  ['stars', '#ffd0b8'],
+  ['sites', '#f0b8ff'],
+  ['ai', '#b8fff8'],
+  ['toys', '#ffc2dc'],
+  ['vr', '#d7c4ff'],
+  ['guides', '#c8f5d8'],
+  ['lists', '#ffe2a8'],
+  ['news', '#c9dbff'],
+];
+---
+<BaseLayout title={`Styleguide · ${SITE.name}`} description="Neon Nightlife Editorial tokens, components, and states." reader={reader} noindex>
+  <div class="page sg">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Styleguide' }]} />
+    <header class="hub-head">
+      <p class="kicker">Design system</p>
+      <h1>Neon Nightlife Editorial</h1>
+      <p class="dek">Space Grotesk, Inter, JetBrains Mono. Magenta for action, cyan for the second beat. Surfaces step from near-black to plum. The pulse rail in the header is the live motif.</p>
+    </header>
+    <nav class="sg-nav" aria-label="Styleguide">
+      <a href="#color">Color</a>
+      <a href="#type">Type</a>
+      <a href="#buttons">Buttons</a>
+      <a href="#inputs">Inputs</a>
+      <a href="#tags">Tags</a>
+      <a href="#cards">Cards</a>
+      <a href="#gear">Gear Lab</a>
+      <a href="#states">States</a>
+      <a href="#overlay">Overlay</a>
+    </nav>
+
+    <section class="sg-section" id="color">
+      <h2>Color and elevation</h2>
+      <div class="swatches">
+        {swatches.map(([name, hex]) => (
+          <div class="swatch" style={`background:${hex};color:${name.startsWith('bg') ? '#f6f1f8' : '#100c14'}`}>
+            <strong>{name}</strong>
+            <span class="mono">{hex}</span>
+          </div>
+        ))}
+      </div>
+      <p class="meta">Spacing is a 4 / 8 scale. Radii are 8, 12, 16. Motion is 150–250ms. Three shadows sit on bg-1, bg-2, and bg-3.</p>
+    </section>
+
+    <section class="sg-section" id="type">
+      <h2>Type</h2>
+      <p class="type-sample" style="font-family:var(--font-display);font-size:3rem;line-height:0.95;margin:0">Display, the visor hour</p>
+      <p class="type-sample" style="font-size:1.1875rem;line-height:1.6;max-width:68ch">Article body sits at 19px on a wide screen and 18px below, inside a 68ch measure, at 1.6 line height. Specs and kickers use JetBrains Mono so a decibel does not look like a headline.</p>
+      <p class="mono">42 dBA · USB-C · 90 min</p>
+    </section>
+
+    <section class="sg-section" id="buttons">
+      <h2>Buttons and icons</h2>
+      <div class="row-demo">
+        <button class="c-btn c-btn--primary" type="button">Primary</button>
+        <button class="c-btn c-btn--secondary" type="button">Secondary</button>
+        <button class="c-btn c-btn--ghost" type="button">Ghost</button>
+        <button class="c-btn c-btn--primary" type="button" disabled>Disabled</button>
+        <button class="nsfw-switch" type="button" aria-pressed="false"><span class="nsfw-knob"></span><span class="nsfw-label">NSFW</span></button>
+        <button class="nsfw-switch" type="button" disabled aria-disabled="true"><span class="nsfw-knob"></span><span class="nsfw-label">Locked</span></button>
+      </div>
+      <div class="row-demo">
+        {Object.keys(ICONS).map((name) => (
+          <span class="icon-btn" title={name}><Icon name={name as keyof typeof ICONS} /></span>
+        ))}
+      </div>
+    </section>
+
+    <section class="sg-section" id="inputs">
+      <h2>Inputs</h2>
+      <div class="stack" style="display:grid;gap:12px;max-width:480px">
+        <label class="c-field">Search <input class="c-input" type="search" placeholder="Visors, wands, memory" /></label>
+        <label class="c-field">Field <input class="c-input" value="Pulse Desk" /></label>
+        <label class="c-check"><input type="checkbox" checked /> Acknowledgement</label>
+        <p class="c-error">Example error: add an email with a domain.</p>
+      </div>
+    </section>
+
+    <section class="sg-section" id="tags">
+      <h2>Tags, badges, scores</h2>
+      <div class="row-demo">
+        {['stars','sites','ai','toys','vr','guides','lists','news'].map((topic) => (
+          <a class:list={['c-chip', `c-chip--${topic}`]} href={`/${topic}`}>{topic}</a>
+        ))}
+        <span class="c-badge c-badge--new">New</span>
+        <span class="c-badge c-badge--updated">Updated</span>
+        <ScoreBadge score={8.6} />
+        <ScoreBadge score={7.4} />
+        <ScoreBadge score={6.2} />
+        <ScoreBadge score={5.1} size="lg" />
+      </div>
+    </section>
+
+    <section class="sg-section" id="cards">
+      <h2>Cards</h2>
+      <div class="scroller" style="padding-left:0">
+        <StoryCard card={sample} layout="feature" uid="sg-feature" />
+        <StoryCard card={sample} layout="standard" uid="sg-standard" />
+        <StoryCard card={sample} layout="editor" uid="sg-editor" />
+        <DealCard deal={deal} uid="sg-deal" />
+      </div>
+    </section>
+
+    <section class="sg-section" id="gear">
+      <h2>Gear Lab</h2>
+      {gear && <GearLab gear={gear} />}
+    </section>
+
+    <section class="sg-section" id="states">
+      <h2>Empty, error, skeleton, toast, modal, tabs, accordion</h2>
+      <EmptyState title="Nothing filed" body="Empty states keep the pulse rule and a way forward.">
+        <a class="c-btn c-btn--secondary" href="/search">Search</a>
+      </EmptyState>
+      <ErrorState title="Row failed" body="Error states name the failure and offer a retry.">
+        <a class="c-btn c-btn--primary" href="/preview/error">Open the error page</a>
+      </ErrorState>
+      <div class="skel skel-card" aria-hidden="true"></div>
+      <p><a href="/preview/loading">Loading skeleton page</a></p>
+      <button class="c-btn c-btn--primary" type="button" data-toast="Saved on this browser">Show toast</button>
+      <button class="c-btn c-btn--secondary" type="button" data-open-dialog="demo-dialog">Open modal</button>
+      <div id="demo-dialog" class="modal" hidden>
+        <div class="modal-backdrop" data-close-dialog></div>
+        <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="demo-title">
+          <h2 id="demo-title">Modal</h2>
+          <p>Dialogs sit on bg-2 with the deep shadow. Escape or the button closes them.</p>
+          <button class="c-btn c-btn--primary" type="button" data-close-dialog>Close</button>
+        </div>
+      </div>
+      <div class="tabs" data-tabs>
+        <div class="tablist" role="tablist">
+          <button type="button" role="tab" aria-selected="true" data-tab="a">Scores</button>
+          <button type="button" role="tab" aria-selected="false" data-tab="b">Motion</button>
+        </div>
+        <div class="tabpanel" role="tabpanel" data-panel="a">Score color tracks the number. 8.5 and up is magenta, 7.5 is cyan, 6 is gold.</div>
+        <div class="tabpanel" role="tabpanel" data-panel="b" hidden>The header pulse travels, grows on nav hover, and double-beats after a route change. Reduced motion draws one still frame.</div>
+      </div>
+      <details class="acc">
+        <summary>What is withheld in SFW mode?</summary>
+        <p>Explicit image URLs. The page gets a placeholder from a four-plate pool instead. The server key for the real file is not in the HTML.</p>
+      </details>
+      <details class="acc">
+        <summary>What does Shift+H do?</summary>
+        <p>Quick hide. Discreet mode swaps the tab title and favicon. Blur softens the page and leaves the header sharp.</p>
+      </details>
+    </section>
+
+    <section class="sg-section" id="overlay">
+      <h2>NSFW placeholder</h2>
+      <div style="max-width:420px">
+        <StoryCard card={{ ...sample, media: { state: 'withheld', src: '/media/placeholders/pulse-a.svg', alt: 'Image withheld in SFW mode' } }} uid="sg-withheld" />
+      </div>
+    </section>
+  </div>
+</BaseLayout>

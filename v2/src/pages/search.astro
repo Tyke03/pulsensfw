@@ -1,0 +1,44 @@
+---
+import EmptyState from '../components/states/EmptyState.astro';
+import HitCard from '../components/HitCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { searchCatalog } from '../lib/content/present';
+import { readReader } from '../lib/reader/cookies';
+import { SEARCH_FILTERS, SITE } from '../lib/site';
+import { SEARCH_TYPES, type SearchType } from '../lib/content/types';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const q = Astro.url.searchParams.get('q')?.trim() ?? '';
+const requested = Astro.url.searchParams.get('type') ?? 'all';
+const type: SearchType = (SEARCH_TYPES as readonly string[]).includes(requested) ? requested as SearchType : 'all';
+const repo = getContentRepository();
+const hits = !q && type === 'all'
+  ? []
+  : searchCatalog(await repo.listArticles(), await repo.listCatalog(), q, type, reader);
+const title = q ? `Search “${q}” · ${SITE.name}` : `Search · ${SITE.name}`;
+---
+<BaseLayout title={title} description="Search stars, sites, AI, toys, games, and stories." reader={reader} noindex>
+  <div class="page" style="padding:20px 0 48px">
+    <p class="kicker">Search</p>
+    <h1>{q ? `Results for “${q}”` : 'Search the desk'}</h1>
+    <form action="/search" method="get" data-astro-reload class="home-search" style="margin-top:16px">
+      <label class="sr-only" for="q">Search</label>
+      <input class="c-input" id="q" name="q" type="search" value={q} placeholder="Stars, sites, toys, VR, games…" />
+      <input type="hidden" name="type" value={type} />
+      <button class="c-btn c-btn--primary" type="submit">Search</button>
+    </form>
+    <div class="search-types">
+      {SEARCH_FILTERS.map((filter) => (
+        <a class="c-chip" href={`/search?type=${filter.id}${q ? `&q=${encodeURIComponent(q)}` : ''}`} aria-current={type === filter.id ? 'page' : undefined}>{filter.label}</a>
+      ))}
+    </div>
+    {!q && type === 'all' && <EmptyState title="Ask for a name" body="Search covers stars, sites, toys, games, AI apps, and stories. Pick a type to browse that slice." />}
+    {(q || type !== 'all') && hits.length === 0 && <EmptyState title="No matches" body={`Nothing in the catalog matches${q ? ` “${q}”` : ''}. Try a shorter word.`} />}
+    {hits.length > 0 && (
+      <div class="results">
+        {hits.map((hit, index) => <HitCard hit={hit} uid={`hit-${index}-${hit.href}`} />)}
+      </div>
+    )}
+  </div>
+</BaseLayout>

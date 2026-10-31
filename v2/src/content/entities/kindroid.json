@@ -1,0 +1,137 @@
+{
+  "slug": "kindroid",
+  "type": "ai_app",
+  "name": "Kindroid",
+  "url": "https://kindroid.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Build-your-own companion with Cascaded Memory, voice calls, voice/video calls, selfies, and video avatars. The free tier is gone; everything now runs through subscriptions and metered credits.",
+  "tags": [
+    "nsfw",
+    "companion",
+    "memory",
+    "voice"
+  ],
+  "ranking_rationale": "First-party docs (updated Oct 13, 2026) verify adult roleplay permission, multimedia generation, voice, and a layered memory system across web, iOS, and Android. Cheapest monthly web price could not be verified — App Store shows an unqualified $15.99 SKU — so it ranks on documented features, not on price.",
+  "pricing": {
+    "model": "Subscription + Ultra/MAX add-ons",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Kindroid Subscription (Yearly)",
+        "price": "$159.99",
+        "billing": "year",
+        "notes": "$13.33/month effective — US iOS App Store catalog only; official docs say the web price is usually cheaper. Cheapest web monthly price is unverified."
+      }
+    ],
+    "notes": "No verified monthly-web price at check time. Do not reuse tracker figures. A 3-day premium trial requires a payment method and auto-converts."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Broad multimedia toolkit: selfies, video avatars, voice calls, custom voices",
+    "Official docs explicitly permit adult roleplay within stated harm limits",
+    "Layered memory: Cascaded Memory, long-term memory, journal recall"
+  ],
+  "cons": [
+    "No free ongoing conversation since October 2026; preview accounts become read-only",
+    "Add-on pricing and metered audio make total cost hard to estimate",
+    "2025 policy pivot added filters/monitoring after an unfiltered launch - the branding no longer matches the release history",
+    "App-store billing costs more than web (community-reported ~$50/yr gap; web unverified)",
+    "Temporarily removed from Google Play in Nov 2025 (community report)"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier",
+      "value": "Ended October 1, 2026 — exhausted previews become read-only",
+      "source_url": "https://kindroid.ai/v2/docs/subscriptions/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Official subscription docs. Trial or subscription permanently ends the preview quota."
+    },
+    {
+      "key": "Free tier limits",
+      "value": "50 preview messages (15 in some regions), 5 selfies, 5,000 audio credits, 2 companions",
+      "source_url": "https://kindroid.ai/v2/docs/subscriptions/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Annual charge (iOS)",
+      "value": "$159.99/year = $13.33/mo effective",
+      "source_url": "https://apps.apple.com/us/app/kindroid-your-personal-ai/id6451038161",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "US iOS App Store catalog only. US listing shows an unqualified $15.99 'Kindroid Subscription' whose billing period is unspecified."
+    },
+    {
+      "key": "Cheapest monthly (web)",
+      "value": "Unverified",
+      "source_url": "https://kindroid.ai/v2/docs/subscriptions/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Official docs do not list a web monthly figure we could verify. Old tracker figures ($13.99/$14.99) are stale and not used."
+    },
+    {
+      "key": "Adult roleplay",
+      "value": "Permitted by official moderation guidelines, subject to prohibited-harm categories",
+      "source_url": "https://kindroid.ai/v2/docs/moderation-guidelines/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Media policy",
+      "value": "Generated media checked against guidelines; flagged results removed with credits refunded",
+      "source_url": "https://kindroid.ai/v2/docs/faqs/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Fan support",
+      "value": "Heavy - multiple 2025-2026 communities keep recommending it; scam-hunt notes product quality is genuinely well-regarded by category standards",
+      "source_url": "https://www.reddit.com/r/AI_Application/comments/1mzwbpe/kindroid_an_ai_chatbot_who_previously_boasted_to/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Policy pivot",
+      "value": "Community-reported: Aug 2025 added content filters + AI monitoring after launching as unfiltered; locks can trigger from AI misreads pending appeal",
+      "source_url": "https://www.reddit.com/r/AI_Application/comments/1mzwbpe/kindroid_an_ai_chatbot_who_previously_boasted_to/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: caution. Privacy FAQ reportedly rewritten 2026-09-26."
+    },
+    {
+      "key": "Store gap",
+      "value": "Community-reported: identical plans ~$159.99/yr via app stores vs ~$139.99 web (~$50/yr gap after the 2026-06 hike)",
+      "source_url": "https://www.reddit.com/r/KindroidAI/comments/1i6pi4z/kindroid_subscription_ended/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Web price unverified (SPA); iOS $159.99 already verified first-party in this record. Kindroid Trustpilot fetch bot-blocked."
+    },
+    {
+      "key": "Play removal",
+      "value": "Community-reported: app temporarily pulled from Google Play Nov 2025; renewing subscribers could not resubscribe in-cycle",
+      "source_url": "https://www.reddit.com/r/KindroidAI/comments/1slwojj/kindroid_temporarily_unavailable_on_google_play/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    }
+  ],
+  "updated": "2026-10-27"
+}

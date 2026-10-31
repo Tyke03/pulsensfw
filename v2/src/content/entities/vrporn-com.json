@@ -1,0 +1,75 @@
+{
+  "slug": "vrporn-com",
+  "type": "site",
+  "name": "VRPorn.com",
+  "url": "https://vrporn.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "affiliate",
+    "sponsorship"
+  ],
+  "summary": "The biggest dedicated VR porn hub: daily-updated VR videos and games, a streaming/download player, and a library that markets itself as working across every major headset. Founded as a VR fan site in 2013, adult-focused since 2016, Los Angeles based.",
+  "tags": [
+    "vr",
+    "aggregator",
+    "streaming"
+  ],
+  "ranking_rationale": "Filled the VR slot as the established category hub, chosen on our own editorial call — first-party pages verified live (official FAQ/contact), plus press-profile history. The portal earns from affiliate placement across studio partners, so it is the VR desk's directory pick, not a hands-on winner.",
+  "pricing": {
+    "model": "Mixed — free teaser videos, per-studio memberships sold through partner sites",
+    "free_tier": "Free video sections and games exist; full downloads route through partner studios",
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "Site-level price not first-party verified at check time; partner-studio pricing varies. Confirm on the site."
+  },
+  "platforms": [
+    "Web",
+    "Quest / PCVR browsers",
+    "PLAY'A player"
+  ],
+  "score": null,
+  "pros": [
+    "Largest dedicated VR library with daily updates",
+    "Covers every major headset ecosystem",
+    "Includes VR games and interactive-toy integration"
+  ],
+  "cons": [
+    "It is a hub: the actual memberships are the partner studios it links to",
+    "Site-level pricing is spread across partners"
+  ],
+  "image": null,
+  "facts": [
+    {
+      "key": "History",
+      "value": "Created 2013 as a VR fan site; shifted to adult content in 2016; based in Los Angeles",
+      "source_url": "https://en.wikipedia.org/wiki/VRPorn.com",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "18+ policy",
+      "value": "Site restricted to adults 18+ (or age of consent), with explicit visual depictions",
+      "source_url": "https://vrporn.com/contact/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Technical FAQ",
+      "value": "Official FAQ covers general, technical, and billing questions",
+      "source_url": "https://vrporn.com/faq/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Traffic",
+      "value": "Highest-traffic VR adult site per 2017 Wikipedia reports (8M+ monthly visits)",
+      "source_url": "https://en.wikipedia.org/wiki/VRPorn.com",
+      "checked": "2026-10-27",
+      "evidence_type": "aggregator",
+      "notes": "Dated 2017 figure; background context only, not used for inclusion."
+    }
+  ],
+  "updated": "2026-10-27"
+}
