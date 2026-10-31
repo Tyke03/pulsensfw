@@ -8,7 +8,7 @@ logged first-party check URLs. No list positions, no traffic, no affiliate statu
 
 - rows scoped: **248**
 - decisions: borderline=21, in=220, out=7
-- categories: byok_local_frontends=16, dedicated_virtual_companions=44, hosted_character_hubs=175, hybrid_hub_and_frontend=6, out=7
+- categories: byok_local_frontends=16, dedicated_virtual_companions=44, hosted_character_hubs=172, hybrid_hub_and_frontend=6, interactive_story_engines=3, out=7
 
 ## Counts per (category, decision)
 
@@ -16,8 +16,9 @@ logged first-party check URLs. No list positions, no traffic, no affiliate statu
 |---|---|---|---|
 | byok_local_frontends | 16 | 0 | 0 |
 | dedicated_virtual_companions | 44 | 0 | 0 |
-| hosted_character_hubs | 154 | 21 | 0 |
+| hosted_character_hubs | 151 | 21 | 0 |
 | hybrid_hub_and_frontend | 6 | 0 | 0 |
+| interactive_story_engines | 3 | 0 | 0 |
 | out | 0 | 0 | 7 |
 
 ## Out rows (rule applied + needs_check)

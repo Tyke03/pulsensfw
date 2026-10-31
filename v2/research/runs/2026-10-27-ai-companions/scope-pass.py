@@ -164,11 +164,30 @@ for r in rows:
             log_check(name, u, 'first-party/community fact source already held (census-A evidence page)', f'decision={decision}')
     else:
         log_check(name, f"https://{r.get('url_domain')}/", 'platform home — first-party ToS check pending', f'decision={decision}')
+    tokens = has(a_all(r), 'creative writing', 'narrative adventure', 'co-writ', 'document-first', 'writing platform')
+    is_engine_ours = any(norm_key(name).startswith(t) for t in ('novelai', 'dreamgen'))
+    if decision in ('in', 'borderline') and cat != 'out' and (tokens or is_engine_ours):
+        cat = 'interactive_story_engines'
+        rule = 'interactive_story_engines: document/adventure/narrative-first AI writing platform rather than direct persona chat (ranked separately per scope); matches census-A/B segment text or our own carried first-party facts'
+    # Fix pass 2: Gemini's stated default when a borderline stays unresolved
+    default_if_unresolved = ''
+    if decision == 'borderline':
+        if rule.startswith('B1') or rule.startswith('B4'):
+            default_if_unresolved = 'exclude_main (Gemini borderline default)'
+        elif rule.startswith('B2'):
+            default_if_unresolved = 'exclude (Gemini borderline default: upsell/funnel unless proven primary product)'
+        elif 'role-conflict' in rule:
+            default_if_unresolved = 'exclude until the first-party persona-chat test settles the category'
+        elif rule.startswith('B3') or 'image' in rule[:12].lower() or 'suite' in rule[:60].lower():
+            default_if_unresolved = 'exclude_unless_chat_test_passes (Gemini borderline default for B3)'
+        else:
+            default_if_unresolved = 'exclude_main (Gemini borderline default)'
     out_rows.append({**r,
                      'category_id': cat,
                      'scope_decision': decision,
                      'rule_applied': rule,
-                     'needs_check': needs})
+                     'needs_check': needs,
+                     'default_if_unresolved': default_if_unresolved})
 
 cols = list(rows[0].keys()) + ['category_id', 'scope_decision', 'rule_applied', 'needs_check']
 with open(os.path.join(OUT, 'scoped.csv'), 'w', newline='', encoding='utf-8-sig') as fh:
@@ -215,3 +234,108 @@ rep += ['', '## Check log', '', 'Every scoped row has a check entry in merged/sc
 open(os.path.join(OUT, 'SCOPE-REPORT.md'), 'w', encoding='utf-8').write('\n'.join(rep) + '\n')
 print('scoped rows:', len(out_rows), '| decisions:', dict(decs))
 print('categories:', dict(cats.most_common()))
+
+# ================================================================ Argon delta section (fix pass 3)
+# The Argon integration step of the usage pass had skipped its report. Rebuild it
+# from committed snapshots and current files; numbers only.
+pre_usage = json.load(open(os.path.join(OUT, 'pre-argon', 'shortlist-usage.json'), encoding='utf-8'))
+pre_short = list(csv.DictReader(open(os.path.join(OUT, 'pre-argon', 'shortlist.csv'), encoding='utf-8-sig')))
+cur_short = list(csv.DictReader(open(os.path.join(OUT, 'shortlist.csv'), encoding='utf-8-sig')))
+cur_usage = json.load(open(os.path.join(OUT, 'shortlist-usage.json'), encoding='utf-8'))
+nkey = lambda s: re.sub(r'[^a-z0-9]+', '', (s or '').lower())
+pre_keys = {nkey(r.get('canonical_name')) for r in pre_short}
+cur_keys = {nkey(r.get('canonical_name')) for r in cur_short}
+new_rows = [r for r in cur_short if nkey(r.get('canonical_name')) not in pre_keys]
+dropped_rows = [r for r in pre_short if nkey(r.get('canonical_name')) not in cur_keys]
+pre_band = {nkey(x.get('canonical_name')): x for x in pre_usage}
+cur_band = {nkey(x.get('canonical_name')): x for x in cur_usage}
+band_changes = []
+for k in cur_band:
+    if k in pre_band and (pre_band[k].get('usage_band') or '') != (cur_band[k].get('usage_band') or ''):
+        band_changes.append((cur_band[k]['canonical_name'], pre_band[k]['usage_band'], cur_band[k]['usage_band']))
+sb_all = [r for r in cur_usage if 'FLAG:store_build_may_differ' in (r.get('usage_notes') or '')]
+sb_new = [r for r in sb_all if nkey(r['canonical_name']) in {nkey(x['canonical_name']) for x in new_rows}]
+# duplicate-looking new rows: name-variant relation against any pre-existing canonical
+ALIAS = json.load(open(os.path.join(BASE, 'census-A-strawberry', 'identity-aliases.json'), encoding='utf-8'))
+def norm_name(s):
+    if not s or not isinstance(s, str): return ''
+    s = s.lower().strip()
+    s = re.sub(r'[^a-z0-9\u00c0-\u024f\u3040-\u30ff\uac00-\ud7af\u4e00-\u9fff]+', '', s)
+    for suf in ('chatbot', 'companion', 'girlfriend', 'boyfriend', 'app', 'chat', 'web', 'site', 'online', 'platform', 'com', 'org', 'net', 'io', 'official'):
+        if s.endswith(suf) and len(s) - len(suf) >= 4:
+            s = s[:-len(suf)]
+    return s
+alias_norms = set()
+for variant, canon in ALIAS.items():
+    for v in [variant] + (variant.split(' / ') if ' / ' in variant else []) + ([canon] if isinstance(canon, str) else []):
+        for p2 in re.split(r'\s*\(', v or ''):
+            alias_norms.add(norm_name(p2))
+# alias entries normalized (one set per identity-alias row from census A)
+ALIAS_NORM_ENTRIES = []
+for variant, canon in ALIAS.items():
+    s = set()
+    for p2 in [variant] + (variant.split(' / ') if ' / ' in variant else []) + [canon if isinstance(canon, str) else None]:
+        if p2 and isinstance(p2, str):
+            s.add(norm_name(p2))
+    s.discard('')
+    if s: ALIAS_NORM_ENTRIES.append(s)
+
+def looks_dup(new_name, old_name):
+    """Duplicate-looking = identical normalized name, or both names linked inside the
+    same census-A identity-alias row. Plain short-prefix/substring hits are NOT
+    enough (they over-flag generic stems like 'nsfw'/'love')."""
+    na, nb = norm_name(new_name), norm_name(old_name)
+    if not na or not nb: return False
+    if na == nb: return True
+    for entry in ALIAS_NORM_ENTRIES:
+        if na in entry and nb in entry: return True
+    return False
+
+new_flags = []
+for r in new_rows:
+    cands = [pre_row['canonical_name'] for pre_row in pre_short if looks_dup(r.get('canonical_name'), pre_row['canonical_name'])]
+    if cands:
+        new_flags.append((r['canonical_name'], ', '.join(cands[:4])))
+rep2 = ['# C-argon delta report', '', f'Generated: {D}',
+        '(This document covers the C-argon step that the previous run of the usage pass skipped in its report.)', '',
+        '## Row delta', '',
+        f'- shortlist-usage rows: pre-argon **{len(pre_usage)}** -> now **{len(cur_usage)}** (delta +{len(cur_usage) - len(pre_usage)})',
+        f'- shortlist rows: pre-argon {len(pre_short)} -> now {len(cur_short)} (delta +{len(cur_short) - len(pre_short)})',
+        f'- usage-pass duplicate merges running dedupe: {len(cur_usage)} vs shortlist {len(cur_short)} (the usage-pass variant clusters cover the argon-introduced name splits)', '',
+        '## Rows NEW to the shortlist because of C-argon (58 + namesake)', '',
+        '| row | supply_runs_count | usage_band | duplicate-looking? |', '|---|---|---|---|']
+for r in new_rows:
+    dup_row = next((f for f in new_flags if f[0] == r.get('canonical_name')), None)
+    usage_row = next((x for x in cur_usage if nkey(x.get('canonical_name')) == nkey(r.get('canonical_name'))), None)
+    band = usage_row.get('usage_band') if usage_row else ''
+    rep2.append(f"| {r.get('canonical_name')} | {r.get('supply_runs_count')} | {band} | {('YES — variants of ' + dup_row[1]) if dup_row else ''} |")
+rep += ['', '## Dropped from the shortlist', '', '| row |', '|---|']
+for r in dropped_rows:
+    rep.append(f"| {r.get('canonical_name')} |")
+rep += ['', '## Band changes (carried rows)', '',
+        f'- rows whose usage_band changed: **{len(band_changes)}**']
+for c, ob, nb in band_changes:
+    rep.append(f'- {c}: {ob} → {nb}')
+if not band_changes:
+    rep.append('- none — every row carried through kept its band; the band totals shifted only by new rows entering (U dominance on Argon-only rows).')
+store_all = [r for r in cur_usage if 'FLAG:store_build_may_differ' in (r.get('usage_notes') or '')]
+rep += ['', '## store_build_may_differ', '',
+        f'- rows flagged: **{len(store_all)}** (band comes only from app downloads)',
+        f'- of these, rows that are C-argon-new: {len([r for r in store_all if nkey(r["canonical_name"]) in {nkey(x["canonical_name"]) for x in new_rows}])}',
+        f'- rest are carried rows:', '', '| carried rows flagged store_build_may_differ |', '|---|']
+for r in store_all:
+    if nkey(r['canonical_name']) not in {nkey(x['canonical_name']) for x in new_rows}:
+        rep.append(f"| {r['canonical_name']} |")
+rep += ['', '## Duplicate-looking new rows (flagged for the next merge pass)', '',
+        'Conservative mechanical rule: identical normalized name, or both names linked inside the',
+        'same census-A identity-alias row. Soft name-prefix relations are NOT enough mechanically',
+        '(nsfw/love generic stems produced false links). Larger variant splits introduced by C-argon',
+        '(Soulkyn AI + Soulkyn, KoboldAI + KoboldCpp families, etc.) are already clustered/merged in',
+        'shortlist-usage by the usage-pass dedupe and logged verbatim in merge-log.csv:',
+        '', '| new row | shares a canonical/variant relation with |', '|---|---|']
+for f0 in new_flags:
+    rep.append(f'| {f0[0]} | {f0[1]} |')
+if not new_flags:
+    rep.append('| (none) | |')
+open(os.path.join(OUT, 'ARGON-DELTA.md'), 'w', encoding='utf-8').write('\n'.join(rep2) + '\n')
+print(ARGONDELTA := (f'new={len(new_rows)} dropped={len(dropped_rows)} band_changes={len(band_changes)} store_flags={len(store_all)} dup_flags={len(new_flags)}'))

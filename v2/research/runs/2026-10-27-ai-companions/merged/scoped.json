@@ -41,7 +41,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "SpicyChat AI",
@@ -85,7 +86,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "OurDream AI",
@@ -129,7 +131,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "CrushOn.AI",
@@ -173,7 +176,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "GirlfriendGPT",
@@ -217,7 +221,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a chat tab — include only if chat engine competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "DreamGF",
@@ -261,7 +266,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "Replika",
@@ -305,7 +311,8 @@
     "category_id": "out",
     "scope_decision": "out",
     "rule_applied": "pivot case: judge strictly by current live policy (census A/B record the 2023 intimacy removal and current SFW-first product)",
-    "needs_check": "can a new account access explicit NSFW chat on standard tiers today? (first-party ToS) — decides in vs stays out"
+    "needs_check": "can a new account access explicit NSFW chat on standard tiers today? (first-party ToS) — decides in vs stays out",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Secrets AI",
@@ -349,7 +356,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "Character.AI",
@@ -393,7 +401,8 @@
     "category_id": "out",
     "scope_decision": "out",
     "rule_applied": "E1: SFW-only platform (census A first-party review pages: SFW product with NSFW only via community workarounds)",
-    "needs_check": "none further — first-party SFW status already recorded; re-check only if it pivots"
+    "needs_check": "none further — first-party SFW status already recorded; re-check only if it pivots",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Chub AI",
@@ -437,7 +446,8 @@
     "category_id": "hybrid_hub_and_frontend",
     "scope_decision": "in",
     "rule_applied": "hybrid_hub_and_frontend: public character-card repository with optional first-party hosted chat",
-    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline"
+    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Nomi AI",
@@ -481,7 +491,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Janitor AI",
@@ -525,7 +536,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "SillyTavern",
@@ -569,7 +581,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Kupid AI",
@@ -613,7 +626,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Joi AI",
@@ -657,7 +671,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Lovescape",
@@ -701,7 +716,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Nectar AI (TryNectar)",
@@ -745,7 +761,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "aiAllure",
@@ -789,7 +806,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Kindroid",
@@ -833,7 +851,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Promptchan AI",
@@ -877,7 +896,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Swipey AI",
@@ -921,7 +941,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "MyBabes AI",
@@ -965,7 +986,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Chai",
@@ -1009,7 +1031,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "PolyBuzz (formerly Poly.AI)",
@@ -1053,7 +1076,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Romantic AI",
@@ -1097,7 +1121,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "DarLink AI",
@@ -1141,7 +1166,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "Dream Companion",
@@ -1185,7 +1211,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Muah AI",
@@ -1229,7 +1256,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "CreatePorn",
@@ -1273,7 +1301,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "FantasyGF",
@@ -1317,7 +1346,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "JuicyChat.AI",
@@ -1361,7 +1391,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "MyLovely AI",
@@ -1405,7 +1436,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "NSFW AI Chat",
@@ -1449,7 +1481,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Nastia AI",
@@ -1493,7 +1526,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Secret Desires AI",
@@ -1537,7 +1571,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "Seduced AI",
@@ -1581,7 +1616,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Xotic AI",
@@ -1625,7 +1661,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "FictionLab",
@@ -1669,7 +1706,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Emochi",
@@ -1713,7 +1751,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "SynClub",
@@ -1757,7 +1796,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Linky AI",
@@ -1801,7 +1841,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Zeta AI",
@@ -1845,7 +1886,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B4: regional / non-English-primary platform — excluded from an English Top 10 unless full localization + fluent English output verified",
-    "needs_check": "first-party UI localization check + international payments + English-language model fluency"
+    "needs_check": "first-party UI localization check + international payments + English-language model fluency",
+    "default_if_unresolved": "exclude_main (Gemini borderline default)"
   },
   {
     "canonical_name": "Botify",
@@ -1889,7 +1931,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Boyfriend — 6Hive OU",
@@ -1933,7 +1976,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Boyfriend — Caitty",
@@ -1977,7 +2021,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Boyfriend:Love Chat Partner",
@@ -2021,7 +2066,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Girlfriend - TruMate",
@@ -2065,7 +2111,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AIBoy - Virtual AI Boyfriend",
@@ -2109,7 +2156,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Aimy (アイミー)",
@@ -2153,7 +2201,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Airfriend",
@@ -2197,7 +2246,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Anima: My Virtual AI Boyfriend",
@@ -2241,7 +2291,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Chat IA de Personajes Anime",
@@ -2285,7 +2336,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Chat de personajes con IA",
@@ -2329,7 +2381,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Crushie",
@@ -2373,7 +2426,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Fantasia",
@@ -2417,7 +2471,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "HotChat",
@@ -2461,7 +2516,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "IA Namorada Virtual CoupleAI",
@@ -2505,7 +2561,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Imate - AI boyfriend who cares",
@@ -2549,7 +2606,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Luna: Meine KI-Freundin",
@@ -2593,7 +2651,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "MiraiMind",
@@ -2637,7 +2696,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "My AI Friend",
@@ -2681,7 +2741,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Sexy Chatbot X - No Filter AI",
@@ -2725,7 +2786,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Suka Lite",
@@ -2769,7 +2831,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Unscripti",
@@ -2813,7 +2876,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Virtual Boyfriend: AI Romance / BoyBot",
@@ -2857,7 +2921,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Weifu AI: My Girlfriend Chat",
@@ -2901,7 +2966,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "チャチャ / アニロール",
@@ -2945,7 +3011,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Privee AI",
@@ -2989,7 +3056,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "RisuAI",
@@ -3033,7 +3101,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "CamSoda AI",
@@ -3077,7 +3146,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "ChatUp AI",
@@ -3121,7 +3191,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Cuties AI",
@@ -3165,7 +3236,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "HeraHaven",
@@ -3209,7 +3281,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "NSFWLover",
@@ -3253,7 +3326,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "NsfwGPT.AI",
@@ -3297,7 +3371,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Soulkyn AI",
@@ -3341,7 +3416,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "Talkie AI",
@@ -3385,7 +3461,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Yume AI",
@@ -3429,7 +3506,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Zeta (제타 / ゼタ)",
@@ -3473,7 +3551,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "eHentai.ai",
@@ -3517,7 +3596,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "KoboldAI",
@@ -3561,7 +3641,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "TavernAI",
@@ -3605,7 +3686,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Oobabooga textgen / text-generation-webui",
@@ -3649,7 +3731,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "TabbyAPI",
@@ -3693,7 +3776,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "GPT-SoVITS",
@@ -3737,7 +3821,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3/role-conflict: ecosystem-role vote is conflicted (model/api vs hosted) — borderline case 4 must be settled first-party",
-    "needs_check": "first-party product page: can a user start a hosted persona chat session with built-in persona management? (decides B3 suite vs raw gateway)"
+    "needs_check": "first-party product page: can a user start a hosted persona chat session with built-in persona management? (decides B3 suite vs raw gateway)",
+    "default_if_unresolved": "exclude until the first-party persona-chat test settles the category"
   },
   {
     "canonical_name": "Oobabooga (Text Generation WebUI)",
@@ -3781,7 +3866,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Caveduck",
@@ -3825,7 +3911,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B4: regional / non-English-primary platform — excluded from an English Top 10 unless full localization + fluent English output verified",
-    "needs_check": "first-party UI localization check + international payments + English-language model fluency"
+    "needs_check": "first-party UI localization check + international payments + English-language model fluency",
+    "default_if_unresolved": "exclude_main (Gemini borderline default)"
   },
   {
     "canonical_name": "WyvernChat",
@@ -3869,7 +3956,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Yodayo",
@@ -3913,7 +4001,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Girlfriend WTF",
@@ -3957,7 +4046,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Horde / KoboldAI Horde",
@@ -4001,7 +4091,8 @@
     "category_id": "out",
     "scope_decision": "out",
     "rule_applied": "E3: raw LLM API routers / model hosting providers / unstyled dev sandboxes excluded",
-    "needs_check": "na — categorical: no persona/card management by category definition"
+    "needs_check": "na — categorical: no persona/card management by category definition",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Agnai",
@@ -4045,7 +4136,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Alphazria",
@@ -4089,7 +4181,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Anima AI",
@@ -4133,7 +4226,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Botify AI",
@@ -4177,7 +4271,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "CharacterHub",
@@ -4221,7 +4316,8 @@
     "category_id": "hybrid_hub_and_frontend",
     "scope_decision": "in",
     "rule_applied": "hybrid_hub_and_frontend: public character-card repository with optional first-party hosted chat",
-    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline"
+    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Couple Me",
@@ -4265,7 +4361,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "CraveU AI",
@@ -4309,7 +4406,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "EVA AI",
@@ -4353,7 +4451,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "EroPlay AI",
@@ -4397,7 +4496,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Erogen AI",
@@ -4441,7 +4541,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "FlirtCam AI",
@@ -4485,7 +4586,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Fuckd.ai",
@@ -4529,7 +4631,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "HoneyChat",
@@ -4573,7 +4676,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Kink AI",
@@ -4617,7 +4721,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "LoveChat",
@@ -4661,7 +4766,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "LustCrush AI",
@@ -4705,7 +4811,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "NSFWGirlfriend",
@@ -4749,7 +4856,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "OhChat",
@@ -4793,7 +4901,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "OnlyChar.AI",
@@ -4837,7 +4946,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "OpenRouter",
@@ -4881,7 +4991,8 @@
     "category_id": "out",
     "scope_decision": "out",
     "rule_applied": "E3: raw LLM API router (borderline case 4: backend fuel only)",
-    "needs_check": "na — categorical by category definition"
+    "needs_check": "na — categorical by category definition",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "PepHop AI",
@@ -4925,7 +5036,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "RushChat",
@@ -4969,7 +5081,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "SoulFun",
@@ -5013,7 +5126,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "SoulGen",
@@ -5057,7 +5171,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Tavo",
@@ -5101,7 +5216,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Texthub",
@@ -5145,7 +5261,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Tyan AI",
@@ -5189,7 +5306,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Y/N AI",
@@ -5233,7 +5351,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Hi Waifu",
@@ -5277,7 +5396,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Flipped",
@@ -5321,7 +5441,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Intimate AI",
@@ -5365,7 +5486,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Dungeon",
@@ -5406,10 +5528,11 @@
     "web_month_argon": "",
     "web_source_argon": "",
     "matched_argon": "yes",
-    "category_id": "hosted_character_hubs",
+    "category_id": "interactive_story_engines",
     "scope_decision": "in",
-    "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "rule_applied": "interactive_story_engines: document/adventure/narrative-first AI writing platform rather than direct persona chat (ranked separately per scope); matches census-A/B segment text or our own carried first-party facts",
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "LM Studio",
@@ -5453,7 +5576,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Moescape AI",
@@ -5497,7 +5621,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "NovelAI",
@@ -5538,10 +5663,11 @@
     "web_month_argon": "",
     "web_source_argon": "",
     "matched_argon": "yes",
-    "category_id": "hosted_character_hubs",
+    "category_id": "interactive_story_engines",
     "scope_decision": "in",
-    "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "rule_applied": "interactive_story_engines: document/adventure/narrative-first AI writing platform rather than direct persona chat (ranked separately per scope); matches census-A/B segment text or our own carried first-party facts",
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Paradot",
@@ -5585,7 +5711,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Y/N",
@@ -5629,7 +5756,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Him - AI Boyfriend Chat",
@@ -5673,7 +5801,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Boyfriend Chat - Husby",
@@ -5717,7 +5846,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Boyfi - AI Partner & Boyfriend",
@@ -5761,7 +5891,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Soulplay",
@@ -5805,7 +5936,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Tiina: AI Voice Companion",
@@ -5849,7 +5981,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Clank World",
@@ -5893,7 +6026,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Neverend",
@@ -5937,7 +6071,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Charbot",
@@ -5981,7 +6116,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Discutez avec un ami IA",
@@ -6025,7 +6161,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Spellbound",
@@ -6069,7 +6206,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Angels",
@@ -6113,7 +6251,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone",
-    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?"
+    "needs_check": "borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits?",
+    "default_if_unresolved": "exclude_unless_chat_test_passes (Gemini borderline default for B3)"
   },
   {
     "canonical_name": "AI Character Cards",
@@ -6157,7 +6296,8 @@
     "category_id": "hybrid_hub_and_frontend",
     "scope_decision": "in",
     "rule_applied": "hybrid_hub_and_frontend: public character-card repository with optional first-party hosted chat",
-    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline"
+    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Peeps",
@@ -6201,7 +6341,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AIHentaiChat",
@@ -6245,7 +6386,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AIMOUR.AI",
@@ -6289,7 +6431,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AiPornChat.online",
@@ -6333,7 +6476,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Anthropic / Claude API",
@@ -6377,7 +6521,8 @@
     "category_id": "out",
     "scope_decision": "out",
     "rule_applied": "E3: raw LLM API routers / model hosting providers / unstyled dev sandboxes excluded",
-    "needs_check": "na — categorical: no persona/card management by category definition"
+    "needs_check": "na — categorical: no persona/card management by category definition",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Aroused AI",
@@ -6421,7 +6566,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Backyard AI (Faraday / Faraday.dev / BYAI)",
@@ -6465,7 +6611,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Botbooru",
@@ -6509,7 +6656,8 @@
     "category_id": "hybrid_hub_and_frontend",
     "scope_decision": "in",
     "rule_applied": "hybrid_hub_and_frontend: public character-card repository with optional first-party hosted chat",
-    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline"
+    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Carter Chat",
@@ -6553,7 +6701,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "ChatFAI",
@@ -6597,7 +6746,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "CherryPop AI",
@@ -6641,7 +6791,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Clonella",
@@ -6685,7 +6836,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "DeepMode",
@@ -6729,7 +6881,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "DreamBF",
@@ -6773,7 +6926,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Dreamjourney AI",
@@ -6817,7 +6971,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "FunFun AI",
@@ -6861,7 +7016,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Girlfriendly AI",
@@ -6905,7 +7061,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "HammerAI",
@@ -6949,7 +7106,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "HotTalks AI",
@@ -6993,7 +7151,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Joyland AI",
@@ -7037,7 +7196,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Juicy AI",
@@ -7081,7 +7241,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Kajiwoto",
@@ -7125,7 +7286,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "LustGF",
@@ -7169,7 +7331,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "LusyChat AI",
@@ -7213,7 +7376,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Luvr AI",
@@ -7257,7 +7421,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "MyBunny AI",
@@ -7301,7 +7466,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "NSFW Character AI",
@@ -7345,7 +7511,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "NSFWBots",
@@ -7389,7 +7556,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Ollama",
@@ -7433,7 +7601,8 @@
     "category_id": "out",
     "scope_decision": "out",
     "rule_applied": "E3: local model hosting/runtime with no shipped character/persona UI",
-    "needs_check": "na — categorical by category definition"
+    "needs_check": "na — categorical by category definition",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "POVChat",
@@ -7477,7 +7646,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Perchance AI",
@@ -7521,7 +7691,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Poe",
@@ -7565,7 +7736,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Pygmalion AI",
@@ -7609,7 +7781,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Sakura AI",
@@ -7653,7 +7826,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Saucepan AI",
@@ -7697,7 +7871,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Sea Soul",
@@ -7741,7 +7916,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Shapes Inc",
@@ -7785,7 +7961,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "SweetChat",
@@ -7829,7 +8006,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "TalkieMate",
@@ -7873,7 +8051,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "WaifuChat",
@@ -7917,7 +8096,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Xoul AI",
@@ -7961,7 +8141,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Yollo AI",
@@ -8005,7 +8186,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Dippy",
@@ -8049,7 +8231,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "RolePlai / PLAI",
@@ -8093,7 +8276,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Cotomo",
@@ -8137,7 +8321,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Saylo",
@@ -8181,7 +8366,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Isekai Zero",
@@ -8225,7 +8411,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Character Tavern",
@@ -8269,7 +8456,8 @@
     "category_id": "hybrid_hub_and_frontend",
     "scope_decision": "in",
     "rule_applied": "hybrid_hub_and_frontend: public character-card repository with optional first-party hosted chat",
-    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline"
+    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Anime.gf",
@@ -8313,7 +8501,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Tipsy Chat",
@@ -8357,7 +8546,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AiWaifu",
@@ -8401,7 +8591,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Alive AI",
@@ -8445,7 +8636,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AmorLink AI",
@@ -8489,7 +8681,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Angel AI",
@@ -8533,7 +8726,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Brazzers.ai",
@@ -8577,7 +8771,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "CharacterSphere.ai",
@@ -8621,7 +8816,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Crushi AI",
@@ -8665,7 +8861,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Dopple.AI",
@@ -8709,7 +8906,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "DreamGen",
@@ -8750,10 +8948,11 @@
     "web_month_argon": "",
     "web_source_argon": "",
     "matched_argon": "yes",
-    "category_id": "hosted_character_hubs",
+    "category_id": "interactive_story_engines",
     "scope_decision": "in",
-    "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "rule_applied": "interactive_story_engines: document/adventure/narrative-first AI writing platform rather than direct persona chat (ranked separately per scope); matches census-A/B segment text or our own carried first-party facts",
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Dreampress AI",
@@ -8797,7 +8996,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Eden AI",
@@ -8841,7 +9041,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Eternal AI",
@@ -8885,7 +9086,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "FlowGPT",
@@ -8929,7 +9131,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Fykoo",
@@ -8973,7 +9176,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Harpy Chat",
@@ -9017,7 +9221,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "HoneyPot",
@@ -9061,7 +9266,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "JannyAI",
@@ -9105,7 +9311,8 @@
     "category_id": "hybrid_hub_and_frontend",
     "scope_decision": "in",
     "rule_applied": "hybrid_hub_and_frontend: public character-card repository with optional first-party hosted chat",
-    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline"
+    "needs_check": "first-party page proving both the public repository and a hosted chat path; otherwise this moves to borderline",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "LateNight AI",
@@ -9149,7 +9356,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "MessengerX.io",
@@ -9193,7 +9401,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Miku.gg",
@@ -9237,7 +9446,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "MiniTavern",
@@ -9281,7 +9491,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Mistrezz AI",
@@ -9325,7 +9536,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "MyDreamBoy",
@@ -9369,7 +9581,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "NanoGPT",
@@ -9413,7 +9626,8 @@
     "category_id": "out",
     "scope_decision": "out",
     "rule_applied": "E3: raw LLM API routers / model hosting providers / unstyled dev sandboxes excluded",
-    "needs_check": "na — categorical: no persona/card management by category definition"
+    "needs_check": "na — categorical: no persona/card management by category definition",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Netwrck",
@@ -9457,7 +9671,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "NoFilterGPT",
@@ -9501,7 +9716,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Pornify",
@@ -9545,7 +9761,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Questie.ai",
@@ -9589,7 +9806,8 @@
     "category_id": "byok_local_frontends",
     "scope_decision": "in",
     "rule_applied": "byok_local_frontends: self-hosted / local chat frontend (ranked separately per scope)",
-    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models"
+    "needs_check": "NSFW policy inherits from the user backend (no platform ToS limit); needs_check: any bundled default models",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Shemale-AI",
@@ -9633,7 +9851,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Soul.App",
@@ -9677,7 +9896,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "UnoRouter",
@@ -9721,7 +9941,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3/role-conflict: ecosystem-role vote is conflicted (model/api vs hosted) — borderline case 4 must be settled first-party",
-    "needs_check": "first-party product page: can a user start a hosted persona chat session with built-in persona management? (decides B3 suite vs raw gateway)"
+    "needs_check": "first-party product page: can a user start a hosted persona chat session with built-in persona management? (decides B3 suite vs raw gateway)",
+    "default_if_unresolved": "exclude until the first-party persona-chat test settles the category"
   },
   {
     "canonical_name": "VMate AI",
@@ -9765,7 +9986,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Venice.ai",
@@ -9809,7 +10031,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B3/role-conflict: ecosystem-role vote is conflicted (model/api vs hosted) — borderline case 4 must be settled first-party",
-    "needs_check": "first-party product page: can a user start a hosted persona chat session with built-in persona management? (decides B3 suite vs raw gateway)"
+    "needs_check": "first-party product page: can a user start a hosted persona chat session with built-in persona management? (decides B3 suite vs raw gateway)",
+    "default_if_unresolved": "exclude until the first-party persona-chat test settles the category"
   },
   {
     "canonical_name": "Youtwo.ai",
@@ -9853,7 +10076,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Friendogram",
@@ -9897,7 +10121,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "LOVERSE",
@@ -9941,7 +10166,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "林間聊愈室 (MoodTalker)",
@@ -9985,7 +10211,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Voice Assistant - Fala AI",
@@ -10029,7 +10256,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Besties - Call your AI Friend",
@@ -10073,7 +10301,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "HiromiVoice - ASMRtist とAI通話",
@@ -10117,7 +10346,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "LiveC - Living AI Companion",
@@ -10161,7 +10391,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "MooX",
@@ -10205,7 +10436,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Talkie Lab - AI Playground",
@@ -10249,7 +10481,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "CotoGoto",
@@ -10293,7 +10526,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "MoreYou.ai",
@@ -10337,7 +10571,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Friend 3D - Talking Buddy",
@@ -10381,7 +10616,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "AI Life — AI Companion & Chat",
@@ -10425,7 +10661,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Flai",
@@ -10469,7 +10706,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "K / K***",
@@ -10513,7 +10751,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "PixelChat",
@@ -10557,7 +10796,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Unhinged",
@@ -10601,7 +10841,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Voice Chatbot by Oliver AI",
@@ -10645,7 +10886,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "メローズ (mellows)",
@@ -10689,7 +10931,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Sesame",
@@ -10733,7 +10976,8 @@
     "category_id": "dedicated_virtual_companions",
     "scope_decision": "in",
     "rule_applied": "dedicated_virtual_companions: persistent 1-on-1 relationship emphasis (census-A/B segment evidence)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Grok",
@@ -10777,7 +11021,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "borderline",
     "rule_applied": "B1: general-purpose assistant with an adult/\"unhinged\" mode (borderline case 1)",
-    "needs_check": "does the product offer dedicated persona persistence / character-card slots / relationship memory? (first-party product pages)"
+    "needs_check": "does the product offer dedicated persona persistence / character-card slots / relationship memory? (first-party product pages)",
+    "default_if_unresolved": "exclude_main (Gemini borderline default)"
   },
   {
     "canonical_name": "Tabu (塔布 / tabulai)",
@@ -10821,7 +11066,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "LunaTalk / Lunatalk / 루나톡",
@@ -10865,7 +11111,8 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   },
   {
     "canonical_name": "Swerve AI",
@@ -10909,6 +11156,7 @@
     "category_id": "hosted_character_hubs",
     "scope_decision": "in",
     "rule_applied": "hosted_character_hubs: hosted character roleplay hub (turnkey chat with persona library)",
-    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home"
+    "needs_check": "first-party ToS / 18+ permission text recorded from the platform home",
+    "default_if_unresolved": ""
   }
 ]
