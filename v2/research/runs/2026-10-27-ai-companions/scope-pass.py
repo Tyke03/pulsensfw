@@ -198,10 +198,21 @@ with open(os.path.join(OUT, 'scoped.csv'), 'w', newline='', encoding='utf-8-sig'
 json.dump(out_rows, open(os.path.join(OUT, 'scoped.json'), 'w', encoding='utf-8'), indent=2, ensure_ascii=False, default=str)
 open(os.path.join(OUT, 'scoped.json'), 'a', encoding='utf-8').write('\n')
 with open(os.path.join(OUT, 'scope-checks.csv'), 'w', newline='', encoding='utf-8-sig') as fh:
+    # Rebuild-from-scratch: scope-pass OWNS the pre-resolution rows (one per scoped row,
+    # already deduped via seen_checks). The 22 Perplexity scope-check rows that
+    # scope-resolve adds on top are preserved by reading the current file first and
+    # re-emitting them so reruns of BOTH scripts are byte-identical and idempotent.
+    try:
+        prior = [r for r in csv.DictReader(open(os.path.join(OUT, 'scope-checks.csv'), encoding='utf-8-sig'))
+                 if (r.get('what') or '').split(' (')[0].strip().startswith('Perplexity scope check')]
+    except FileNotFoundError:
+        prior = []
     w = csv.DictWriter(fh, fieldnames=['canonical_name', 'url', 'what', 'result'])
     w.writeheader()
     for c0 in checks_log:
         w.writerow(c0)
+    for p0 in prior:
+        w.writerow(p0)
 
 cats = Counter(o['category_id'] for o in out_rows)
 decs = Counter(o['scope_decision'] for o in out_rows)

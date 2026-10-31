@@ -247,3 +247,25 @@ Grok,https://www.reddit.com/r/grok/comments/1v5gw6c/does_anyone_use_grok_for_any
 Tabu (塔布 / tabulai),https://laowang.vip/thread-1465071-1-1.html,first-party/community fact source already held (census-A evidence page),decision=in
 LunaTalk / Lunatalk / 루나톡,https://play.google.com/store/apps/details?hl=en_GB&id=com.lunatalk.ai,first-party/community fact source already held (census-A evidence page),decision=in
 Swerve AI,https://swerve.ai/,platform home — first-party ToS check pending,decision=in
+Candy AI,https://candy.ai/terms-of-service,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+OurDream AI,https://help.ourdream.ai/en/articles/10808513,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,fail
+GirlfriendGPT,https://www.gptgirlfriend.online/tag/robot,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+DreamGF,https://dreamgf.ai/terms,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+Secrets AI,https://wiki.secrets.ai/create/custom-characters,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,pass
+チャチャ / アニロール,https://nectar.ai/faq,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,pass
+Swipey AI,https://swipey.ai/,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,pass
+DarLink AI,https://darlink.ai/plan-selection,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+Muah AI,https://muah.ai/info/about.php,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+FantasyGF,https://fantasygf.ai/character/barbara-barber,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+チャチャ / アニロール,https://secretdesires.ai/plans,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+Cuties AI,https://cuties.ai/,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+チャチャ / アニロール,https://landing.soulkyn.com/l/en-US/ai-companion-platform,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+eHentai.ai,https://ehentai.ai/terms,Perplexity scope check (census-scope-checks-perplexity.json): A — Multi-turn memory and custom character prompts usable without image-credit s,unresolved
+Venice.ai,https://venice.ai/characters,Perplexity scope check (census-scope-checks-perplexity.json): B — Immediately usable hosted character chat with built-in persona/character man,pass
+UnoRouter,https://unorouter.ai/,Perplexity scope check (census-scope-checks-perplexity.json): B — Immediately usable hosted character chat with built-in persona/character man,pass
+GPT-SoVITS,https://github.com/RVC-Boss/GPT-SoVITS,Perplexity scope check (census-scope-checks-perplexity.json): B — Immediately usable hosted character chat with built-in persona/character man,fail
+Zeta AI,https://zeta-ai.io/en/policy/terms,"Perplexity scope check (census-scope-checks-perplexity.json): C — Fully English-localized UI, international payments, and permission for expli",unresolved
+Caveduck,https://caveduck.io/en,"Perplexity scope check (census-scope-checks-perplexity.json): C — Fully English-localized UI, international payments, and permission for expli",unresolved
+Grok,https://docs.x.ai/grok-bot/bots,"Perplexity scope check (census-scope-checks-perplexity.json): D — Persistent companion personas with cross-session memory, beyond adult/unhing",unresolved
+CamSoda AI,https://camsoda.ai/,Perplexity scope check (census-scope-checks-perplexity.json): E — Is AI chat sold as a standalone product rather than primarily a funnel to hu,pass
+Replika,https://help.replika.com/hc/en-us/articles/39551043419149-Choosing-a-Subscription,Perplexity scope check (census-scope-checks-perplexity.json): F — Can a newly registered adult account access explicit/romantic-erotic chat on,unresolved
