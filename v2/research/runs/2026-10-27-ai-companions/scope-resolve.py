@@ -188,6 +188,9 @@ for i, r0 in enumerate(rows):
     rows[i] = r
 
 with open(os.path.join(OUT, 'scoped.csv'), 'w', newline='', encoding='utf-8-sig') as fh:
+    for row in rows:
+        # scope_pending is recomputed from the FINAL resolution state on every write
+        row['scope_pending'] = 'true' if row['scope_decision'] == 'borderline' else 'false'
     w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()), extrasaction='ignore')
     w.writeheader()
     for row in rows:
@@ -266,4 +269,5 @@ rep += ['', '## Variant-row side notes', '',
         '- Zeta (제타 / ゼタ): variant row of Scatterlab zeta (same product as Zeta AI); Test C unresolved applies — variant row keeps its needs_check pending the same first-party fact set.',
         '- Replika: test F unresolved → stays OUT per the CFO rule (needs_check retained). Prior decision unchanged.']
 open(os.path.join(OUT, 'SCOPE-REPORT.md'), 'w', encoding='utf-8').write('\n'.join(rep) + '\n')
+
 

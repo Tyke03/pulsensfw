@@ -7,9 +7,9 @@ then resolved via census-scope-checks-perplexity.json with the CFO resolution ru
 Used only facts already in our data plus logged first-party check URLs. No list positions, no traffic,
 no affiliate status were used.
 
-- rows scoped: **248**
-- decisions: borderline=11, in=226, out=11
-- categories: byok_local_frontends=17, dedicated_virtual_companions=44, hosted_character_hubs=167, hybrid_hub_and_frontend=6, interactive_story_engines=3, out=11
+- rows scoped: **246**
+- decisions: borderline=11, in=224, out=11
+- categories: byok_local_frontends=17, dedicated_virtual_companions=44, hosted_character_hubs=165, hybrid_hub_and_frontend=6, interactive_story_engines=3, out=11
 
 ## Counts per (category, decision)
 
@@ -17,7 +17,7 @@ no affiliate status were used.
 |---|---|---|---|
 | byok_local_frontends | 17 | 0 | 0 |
 | dedicated_virtual_companions | 44 | 0 | 0 |
-| hosted_character_hubs | 156 | 11 | 0 |
+| hosted_character_hubs | 154 | 11 | 0 |
 | hybrid_hub_and_frontend | 6 | 0 | 0 |
 | interactive_story_engines | 3 | 0 | 0 |
 | out | 0 | 0 | 11 |
@@ -27,15 +27,15 @@ no affiliate status were used.
 | row | rule applied | needs_check |
 |---|---|---|
 | Replika | Test F resolved (Perplexity first-party evidence, 2026-10-31). Replika stays OUT per the CFO rule (needs_check retained): Test F unresolved â€” no current first-party statement entitles a brand-new account to explicit roleplay on a standard paid tier | first-party statement confirming explicit roleplay entitlement for new accounts |
-| Character.AI | E1: SFW-only platform (census A first-party review pages: SFW product with NSFW only via community workarounds) | none further — first-party SFW status already recorded; re-check only if it pivots |
+| Character.AI | E1: SFW-only platform (census A first-party review pages: SFW product with NSFW only via community workarounds) | none further â€” first-party SFW status already recorded; re-check only if it pivots |
 | Zeta AI | Test C resolved (Perplexity first-party evidence, 2026-10-31). Test C unresolved -> default_if_unresolved applied verbatim: 'exclude_main (Gemini borderline default)' (B4 regional). Perplexity found no full localization/payment/explicit-permission fi | full English localization + international payments + explicit-permission policy page would flip to in |
 | GPT-SoVITS | Test B resolved (Perplexity first-party evidence, 2026-10-31). Test B fail taken as-is: first-party GitHub states the project is a voice-conversion/TTS WebUI, not a hosted persona-chat service â€” first-party failure evidence on the B part (borderlin | GPT-SoVITS itself is a speech-generation project, not a hosted persona-chat service. A third-party application integrating its voices would be a separate product and does not make the project pass thi |
 | Caveduck | Test C resolved (Perplexity first-party evidence, 2026-10-31). Test C unresolved -> default applied verbatim (B4 regional). Perplexity found English + NSFW classification, but localization and payments unestablished. Review verdict = 'unresolved; pri | full English localization + international payments + explicit-text permission page |
-| AI Horde / KoboldAI Horde | E3: raw LLM API routers / model hosting providers / unstyled dev sandboxes excluded | na — categorical: no persona/card management by category definition |
-| OpenRouter | E3: raw LLM API router (borderline case 4: backend fuel only) | na — categorical by category definition |
-| Anthropic / Claude API | E3: raw LLM API routers / model hosting providers / unstyled dev sandboxes excluded | na — categorical: no persona/card management by category definition |
-| Ollama | E3: local model hosting/runtime with no shipped character/persona UI | na — categorical by category definition |
-| NanoGPT | E3: raw LLM API routers / model hosting providers / unstyled dev sandboxes excluded | na — categorical: no persona/card management by category definition |
+| AI Horde / KoboldAI Horde | E3: raw LLM API routers / model hosting providers / unstyled dev sandboxes excluded | na â€” categorical: no persona/card management by category definition |
+| OpenRouter | E3: raw LLM API router (borderline case 4: backend fuel only) | na â€” categorical by category definition |
+| Anthropic / Claude API | E3: raw LLM API routers / model hosting providers / unstyled dev sandboxes excluded | na â€” categorical: no persona/card management by category definition |
+| Ollama | E3: local model hosting/runtime with no shipped character/persona UI | na â€” categorical by category definition |
+| NanoGPT | E3: raw LLM API routers / model hosting providers / unstyled dev sandboxes excluded | na â€” categorical: no persona/card management by category definition |
 | Grok | Test D resolved (Perplexity first-party evidence, 2026-10-31). Test D unresolved -> default applied verbatim (B1 adult-mode assistant). First-party docs cover work-oriented Bots; companion-persona memory and explicit-text permission not established.  | xAI first-party confirmation that Companion personas persist with explicit-text permission |
 
 ## Borderline rows (rule applied + needs_check)
@@ -52,7 +52,7 @@ no affiliate status were used.
 | Cuties AI | Test A unresolved (Perplexity first-party evidence, 2026-10-31): borderline-retained. NSFW part passes (own site: adults-only; conversations may contain pornographic materials). Chat part unresolved: memory plus no-image-credit custom prompting not e | first-party memory/billing page |
 | Soulkyn AI | Test A unresolved (Perplexity first-party evidence, 2026-10-31): borderline-retained. Borderline-retained as the record itself keeps the combined test unresolved: FAQ documents memory + uncensored adult conversations, but Perplexity's note says the f | first-party confirmation that custom character creation/setup does not consume the image-generation currency |
 | eHentai.ai | Test A unresolved (Perplexity first-party evidence, 2026-10-31): borderline-retained. Chat and NSFW parts both unresolved (terms cover DreamAI SRL identity and plan wording only). Review verdict = 'unresolved'; prior decision 'borderline'. default_if | first-party companion memory/billing page and explicit-text permission |
-| AI Angels | B3: adult image/video generation suite with a bolted-on chat tab — include only if the chat engine is competitive standalone | borderline case 3 test: first-party chat feature page — multi-turn memory + custom personas independent of image credits? |
+| AI Angels | B3: adult image/video generation suite with a bolted-on chat tab â€” include only if the chat engine is competitive standalone | borderline case 3 test: first-party chat feature page â€” multi-turn memory + custom personas independent of image credits? |
 
 ## Categories reference
 

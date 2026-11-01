@@ -1,6 +1,6 @@
 # C-argon delta report
 
-Generated: 2026-10-30
+Generated: 2026-10-31
 (This document covers the C-argon step that the previous run of the usage pass skipped in its report.)
 
 ## Row delta
@@ -27,7 +27,7 @@ Generated: 2026-10-30
 | HoneyChat | 2 | U |  |
 | LustCrush AI | 2 | U |  |
 | NSFWGirlfriend | 2 | U |  |
-| PepHop AI | 3 | D | YES — variants of PepHop AI Chatbot |
+| PepHop AI | 3 | D | YES â€” variants of PepHop AI Chatbot |
 | Tyan AI | 2 | U |  |
 | AI Character Cards | 2 | U |  |
 | AIMOUR.AI | 2 | U |  |
