@@ -1,0 +1,28 @@
+For each platform in the list below, research red flags and first-party facts. Use first-party sources (ToS, content policy, help/FAQ, pricing, product pages, official announcements) plus independent user reports (Reddit, Discord, forums, Trustpilot). Exclude affiliate review sites as evidence.
+Return a JSON array only, one object per platform:
+{"canonical_id":"","platform":"","nsfw_first_party":{"answer":"yes|no|unresolved","url":"","quote_or_paraphrase":"","verbatim":true},
+ "chat_without_image_credits":{"answer":"yes|no|unresolved","url":""},
+ "red_flags":[{"type":"billing|data_breach|policy_pivot|content_purge|filter_tightening|shutdown_risk|white_label_clone|deceptive_marketing|moderation_failure_csam_deepfake","summary":"","sources":[{"url":"","source_type":"first_party|independent_user|news","date_shown":"","accessed":"","verbatim":true}],"independent_users":0,"status":"isolated|recurring"}],
+ "excluded_accounts":[{"account":"","reason":"staff|affiliate|self_promo"}],
+ "operator":"","white_label_family":"","notes":""}
+Rules: 'recurring' needs 2+ independent users; one user = 'isolated'. Count each username once per platform. Exclude staff, affiliate, or self-promoting accounts as evidence and log them in excluded_accounts. Keep conflicting reports side by side. Treat search snippets as leads only. Keep relative dates as shown plus the access date. A platform's own product copy offering explicit adult chat counts as first-party NSFW permission. If store_build_may_differ is true, judge NSFW on the web version. If nothing is found, return empty arrays — do not guess.
+
+Research each platform individually and in depth: check its ToS/content policy and pricing pages directly (quote verbatim where possible), and search Reddit/Discord/Trustpilot by platform name for billing, purge, filter, and breach reports from real users, not review/affiliate sites.
+
+PLATFORMS:
+canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
+promptchan-ai|Promptchan AI|promptchan.ai|hosted_character_hubs|false|false
+risuai|RisuAI|risuai.xyz|byok_local_frontends|false|false
+roleplai-plai|RolePlai / PLAI|roleplai.app|hosted_character_hubs|false|true
+romantic-ai|Romantic AI|romanticai.com|hosted_character_hubs|false|false
+rushchat|RushChat|rushchat.ai|hosted_character_hubs|false|false
+sakura-ai|Sakura AI|sakura.fm|dedicated_virtual_companions|false|true
+saucepan-ai|Saucepan AI|saucepan.ai|byok_local_frontends|false|false
+saylo|Saylo|saylo.ai|hosted_character_hubs|false|true
+sea-soul|Sea Soul|seasoul.ai|hosted_character_hubs|false|false
+secret-desires-ai|Secret Desires AI|secretdesires.ai|hosted_character_hubs|false|false
+secrets-ai|Secrets AI|secrets.ai|hosted_character_hubs|false|false
+sesame|Sesame|reddit.com|dedicated_virtual_companions|false|true
+sexy-chatbot-x-no-filter-ai|Sexy Chatbot X - No Filter AI|play.google.com|hosted_character_hubs|false|true
+shapes-inc|Shapes Inc|shapes.inc|hosted_character_hubs|false|false
+sillytavern|SillyTavern|sillytavern.app|byok_local_frontends|false|false

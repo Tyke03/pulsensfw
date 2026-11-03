@@ -256,7 +256,7 @@ for gkey, grp in groups2.items():
             base['found_in_runs'] = base['found_in_runs']
     out_rows2.append(base)
 
-cols2 = list(out_rows[0].keys())
+cols2 = [c for c in out_rows[0].keys() if c != '_gkey']
 with open(os.path.join(OUT, 'scoped.csv'), 'w', newline='', encoding='utf-8-sig') as fh:
     w = csv.DictWriter(fh, fieldnames=cols2, extrasaction='ignore')
     w.writeheader()
@@ -272,7 +272,7 @@ try:
     mrows = list(csv.reader(open(os.path.join(OUT, 'merge-log.csv'), encoding='utf-8-sig')))
 except FileNotFoundError:
     mrows = []
-base_mrows = [mr for mr in mrows if not (len(mr) and mr and mr[0].strip() == 'scope-stage collapse')]
+base_mrows = [mr for mr in mrows if not (len(mr) and any('scope-stage collapse' in cell for cell in mr))]
 om = open(os.path.join(OUT, 'merge-log.csv'), 'w', newline='', encoding='utf-8-sig')
 w_rows = csv.writer(om)
 for mr in base_mrows:

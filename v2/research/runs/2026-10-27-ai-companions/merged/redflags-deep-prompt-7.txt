@@ -1,0 +1,28 @@
+For each platform in the list below, research red flags and first-party facts. Use first-party sources (ToS, content policy, help/FAQ, pricing, product pages, official announcements) plus independent user reports (Reddit, Discord, forums, Trustpilot). Exclude affiliate review sites as evidence.
+Return a JSON array only, one object per platform:
+{"canonical_id":"","platform":"","nsfw_first_party":{"answer":"yes|no|unresolved","url":"","quote_or_paraphrase":"","verbatim":true},
+ "chat_without_image_credits":{"answer":"yes|no|unresolved","url":""},
+ "red_flags":[{"type":"billing|data_breach|policy_pivot|content_purge|filter_tightening|shutdown_risk|white_label_clone|deceptive_marketing|moderation_failure_csam_deepfake","summary":"","sources":[{"url":"","source_type":"first_party|independent_user|news","date_shown":"","accessed":"","verbatim":true}],"independent_users":0,"status":"isolated|recurring"}],
+ "excluded_accounts":[{"account":"","reason":"staff|affiliate|self_promo"}],
+ "operator":"","white_label_family":"","notes":""}
+Rules: 'recurring' needs 2+ independent users; one user = 'isolated'. Count each username once per platform. Exclude staff, affiliate, or self-promoting accounts as evidence and log them in excluded_accounts. Keep conflicting reports side by side. Treat search snippets as leads only. Keep relative dates as shown plus the access date. A platform's own product copy offering explicit adult chat counts as first-party NSFW permission. If store_build_may_differ is true, judge NSFW on the web version. If nothing is found, return empty arrays — do not guess.
+
+Research each platform individually and in depth: check its ToS/content policy and pricing pages directly (quote verbatim where possible), and search Reddit/Discord/Trustpilot by platform name for billing, purge, filter, and breach reports from real users, not review/affiliate sites.
+
+PLATFORMS:
+canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
+nectar-ai-trynectar|Nectar AI (TryNectar)|trynectar.ai|hosted_character_hubs|false|false
+neverend|Neverend|apps.apple.com|hosted_character_hubs|false|false
+nofiltergpt|NoFilterGPT|nofiltergpt.com|hosted_character_hubs|false|false
+novelai|NovelAI|novelai.net|interactive_story_engines|false|false
+nsfw-character-ai|NSFW Character AI|nsfwcharacter.ai|hosted_character_hubs|false|false
+nsfwlover|NSFWLover|nsfwlover.com|hosted_character_hubs|false|false
+ohchat|OhChat|ohchat.com|hosted_character_hubs|false|false
+oobabooga-text-generation-webui|Oobabooga (Text Generation WebUI)|github.com|byok_local_frontends|false|false
+ourdream-ai|OurDream AI|ourdream.ai|hosted_character_hubs|false|false
+paradot|Paradot|apps.apple.com|dedicated_virtual_companions|false|true
+pephop-ai|PepHop AI|pephop.ai|hosted_character_hubs|false|false
+perchance-ai|Perchance AI|perchance.org|hosted_character_hubs|false|false
+pixelchat|PixelChat||hosted_character_hubs|false|false
+poe|Poe|poe.com|hosted_character_hubs|false|true
+privee-ai|Privee AI|priveeai.com|hosted_character_hubs|false|true
