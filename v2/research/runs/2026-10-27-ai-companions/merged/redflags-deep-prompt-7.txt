@@ -11,7 +11,6 @@ Research each platform individually and in depth: check its ToS/content policy a
 
 PLATFORMS:
 canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
-nectar-ai-trynectar|Nectar AI (TryNectar)|trynectar.ai|hosted_character_hubs|false|false
 neverend|Neverend|apps.apple.com|hosted_character_hubs|false|false
 nofiltergpt|NoFilterGPT|nofiltergpt.com|hosted_character_hubs|false|false
 novelai|NovelAI|novelai.net|interactive_story_engines|false|false
@@ -25,4 +24,5 @@ pephop-ai|PepHop AI|pephop.ai|hosted_character_hubs|false|false
 perchance-ai|Perchance AI|perchance.org|hosted_character_hubs|false|false
 pixelchat|PixelChat||hosted_character_hubs|false|false
 poe|Poe|poe.com|hosted_character_hubs|false|true
-privee-ai|Privee AI|priveeai.com|hosted_character_hubs|false|true
+promptchan-ai|Promptchan AI|promptchan.ai|hosted_character_hubs|false|false
+risuai|RisuAI|risuai.xyz|byok_local_frontends|false|false

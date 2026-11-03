@@ -11,7 +11,6 @@ Research each platform individually and in depth: check its ToS/content policy a
 
 PLATFORMS:
 canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
-fantasia|Fantasia|play.google.com|dedicated_virtual_companions|false|true
 fantasygf|FantasyGF|fantasygf.ai|hosted_character_hubs|false|false
 fictionlab|FictionLab|fictionlab.ai|hosted_character_hubs|false|false
 flai|Flai||hosted_character_hubs|false|false
@@ -26,3 +25,4 @@ girlfriendly-ai|Girlfriendly AI|girlfriendly.ai|dedicated_virtual_companions|fal
 hammerai|HammerAI|hammerai.com|byok_local_frontends|false|false
 herahaven|HeraHaven|herahaven.com|hosted_character_hubs|false|false
 hi-waifu|Hi Waifu|hiwaifu.com|dedicated_virtual_companions|false|false
+him-ai-boyfriend-chat|Him - AI Boyfriend Chat|apps.apple.com|dedicated_virtual_companions|false|true

@@ -34,7 +34,6 @@ clank-world|Clank World|apps.apple.com|hosted_character_hubs|false|true
 cotogoto|CotoGoto||hosted_character_hubs|false|true
 cotomo|Cotomo|cotomo.ai|dedicated_virtual_companions|false|true
 crushi-ai|Crushi AI|crushi.ai|hosted_character_hubs|false|false
-crushie|Crushie|play.google.com|dedicated_virtual_companions|false|true
 crushon-ai|CrushOn.AI|crushon.ai|hosted_character_hubs|false|false
 darlink-ai|DarLink AI|darlink.ai|hosted_character_hubs|false|false
 dippy|Dippy|dippy.ai|dedicated_virtual_companions|false|true
@@ -103,7 +102,6 @@ pephop-ai|PepHop AI|pephop.ai|hosted_character_hubs|false|false
 perchance-ai|Perchance AI|perchance.org|hosted_character_hubs|false|false
 pixelchat|PixelChat||hosted_character_hubs|false|false
 poe|Poe|poe.com|hosted_character_hubs|false|true
-privee-ai|Privee AI|priveeai.com|hosted_character_hubs|false|true
 promptchan-ai|Promptchan AI|promptchan.ai|hosted_character_hubs|false|false
 risuai|RisuAI|risuai.xyz|byok_local_frontends|false|false
 roleplai-plai|RolePlai / PLAI|roleplai.app|hosted_character_hubs|false|true

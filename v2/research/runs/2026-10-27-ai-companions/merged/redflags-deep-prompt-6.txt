@@ -11,7 +11,6 @@ Research each platform individually and in depth: check its ToS/content policy a
 
 PLATFORMS:
 canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
-koboldai|KoboldAI|github.com|byok_local_frontends|false|false
 kupid-ai|Kupid AI|kupid.ai|dedicated_virtual_companions|false|false
 livec-living-ai-companion|LiveC - Living AI Companion||hosted_character_hubs|false|true
 lm-studio|LM Studio|lmstudio.ai|byok_local_frontends|false|false
@@ -26,3 +25,4 @@ my-ai-friend|My AI Friend|play.google.com|dedicated_virtual_companions|false|fal
 mybabes-ai|MyBabes AI|mybabes.ai|hosted_character_hubs|false|false
 mylovely-ai|MyLovely AI|mylovely.ai|hosted_character_hubs|false|false
 nastia-ai|Nastia AI|nastia.ai|dedicated_virtual_companions|false|false
+nectar-ai-trynectar|Nectar AI (TryNectar)|trynectar.ai|hosted_character_hubs|false|false

@@ -11,8 +11,6 @@ Research each platform individually and in depth: check its ToS/content policy a
 
 PLATFORMS:
 canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
-virtual-boyfriend-ai-romance-boybot|Virtual Boyfriend: AI Romance / BoyBot|play.google.com|hosted_character_hubs|false|true
-voice-chatbot-by-oliver-ai|Voice Chatbot by Oliver AI||hosted_character_hubs|false|false
 weifu-ai-my-girlfriend-chat|Weifu AI: My Girlfriend Chat|play.google.com|dedicated_virtual_companions|false|true
 wyvernchat|WyvernChat|wyvern.chat|hosted_character_hubs|false|false
 xotic-ai|Xotic AI|xotic.ai|hosted_character_hubs|false|false

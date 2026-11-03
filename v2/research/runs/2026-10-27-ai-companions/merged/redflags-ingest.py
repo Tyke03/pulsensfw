@@ -42,6 +42,15 @@ Self-revert: previous run's redflags_*/pplx_scope_*/<pfx>_*_answer columns
 and pending resolutions are stripped first (redflags_*_before state), then
 everything is recomputed from scratch.
 
+Deep pass: rows with a weakness (merged nsfw unresolved/conflict, chat
+conflict, coverage not_researched, nsfw-paraphrase-only) AND prominence
+(band A/B/C OR community_users A+B>=3 OR supply_runs>=3 OR scope_pending);
+conflicts bypass the prominence gate. Owner instruction 2026-11-03: a
+paraphrase-only weakness is sustained ONLY by usage band A/B/C or
+supply_runs>=3 — community-only or scope_pending prominence no longer
+suffices for it. Stale redflags-deep-prompt-*.txt files are deleted every
+run before the current set is written.
+
 Pipeline order: scope-pass.py -> scope-resolve.py -> redflags-ingest.py.
 Outputs: merged/redflags.csv, merged/REDFLAGS-REPORT.md,
 merged/redflags-deep-pass-input.txt (same pipe format as redflags-input),
@@ -613,7 +622,17 @@ def main():
             continue
         pr = prominence_reasons(r)
         conf = 'nsfw_conflict' in wk or 'chat_conflict' in wk
-        if not pr and not conf:
+        # Owner instruction 2026-11-03: a paraphrase-only weakness is sustained
+        # ONLY by usage band A/B/C or supply_runs >= 3 (community-only or
+        # scope_pending prominence no longer suffices). Rows carrying any other
+        # weakness keep the previous gate; conflicts still bypass it.
+        tight = ((r.get('usage_band') or '').strip().upper() in ('A', 'B', 'C')
+                 or to_int(r.get('supply_runs_count')) >= 3)
+        other_wk = [w for w in wk if w != 'nsfw_yes_paraphrase_only']
+        if not other_wk and not conf:
+            if not tight:
+                continue
+        elif not pr and not conf:
             continue
         deep.append({'row': r, 'weakness': wk, 'prominence': pr, 'conflict_override': conf})
     deep_rows = [d['row'] for d in sorted(deep, key=lambda d: slugify(d['row']['canonical_name']))]
@@ -632,6 +651,9 @@ def main():
         fh.write('\n'.join(lines) + '\n')
 
     prompt_text = open(DEEP_PROMPT_PATH, encoding='utf-8').read().strip()
+    for fn in sorted(os.listdir(OUT)):   # delete stale higher-numbered prompts first
+        if fn.startswith('redflags-deep-prompt-') and fn.endswith('.txt'):
+            os.remove(os.path.join(OUT, fn))
     n_prompts = 0
     for i in range(0, max(len(lines) - 1, 0), MAX_PER_DEEP_FILE):
         rows_chunk = lines[1 + i:1 + i + MAX_PER_DEEP_FILE]
@@ -735,9 +757,12 @@ def main():
             f'- deep-pass rows: {len(deep_rows)} (weakness criteria: merged nsfw unresolved/conflict,',
             '  chat conflict, coverage not_researched, nsfw-paraphrase-only; AND prominence: usage',
             '  band A/B/C OR community users A+B>=3 OR supply_runs>=3 OR scope_pending; conflicts',
-            '  bypass the prominence gate)',
+            '  bypass the prominence gate; a paraphrase-only weakness is sustained ONLY by band',
+            '  A/B/C or supply_runs>=3 — community-only or scope_pending prominence no longer',
+            '  suffices for it — owner instruction 2026-11-03)',
             f'- outputs: merged/redflags-deep-pass-input.txt; {n_prompts} prompt file(s) '
-            f'merged/redflags-deep-prompt-1..{max(n_prompts, 1)}.txt (max {MAX_PER_DEEP_FILE} platforms per file)']
+            f'merged/redflags-deep-prompt-1..{max(n_prompts, 1)}.txt (max {MAX_PER_DEEP_FILE} platforms per file; '
+            'stale higher-numbered files deleted each run)']
     if deep_rows:
         wk_counts = Counter(rsn for d in deep for rsn in d['weakness'])
         rep += ['', '| weakness triggers | count |', '|---|---|']

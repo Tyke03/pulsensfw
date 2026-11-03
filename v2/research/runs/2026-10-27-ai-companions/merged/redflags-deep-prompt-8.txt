@@ -11,8 +11,6 @@ Research each platform individually and in depth: check its ToS/content policy a
 
 PLATFORMS:
 canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
-promptchan-ai|Promptchan AI|promptchan.ai|hosted_character_hubs|false|false
-risuai|RisuAI|risuai.xyz|byok_local_frontends|false|false
 roleplai-plai|RolePlai / PLAI|roleplai.app|hosted_character_hubs|false|true
 romantic-ai|Romantic AI|romanticai.com|hosted_character_hubs|false|false
 rushchat|RushChat|rushchat.ai|hosted_character_hubs|false|false
@@ -26,3 +24,5 @@ sesame|Sesame|reddit.com|dedicated_virtual_companions|false|true
 sexy-chatbot-x-no-filter-ai|Sexy Chatbot X - No Filter AI|play.google.com|hosted_character_hubs|false|true
 shapes-inc|Shapes Inc|shapes.inc|hosted_character_hubs|false|false
 sillytavern|SillyTavern|sillytavern.app|byok_local_frontends|false|false
+soulgen|SoulGen|soulgen.net|hosted_character_hubs|false|true
+soulkyn-ai|Soulkyn AI|soulkyn.com|hosted_character_hubs|false|false

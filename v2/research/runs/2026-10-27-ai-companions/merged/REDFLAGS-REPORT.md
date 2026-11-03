@@ -169,11 +169,13 @@ Stayed borderline: candy-ai
 
 ## Deep pass inputs
 
-- deep-pass rows: 146 (weakness criteria: merged nsfw unresolved/conflict,
+- deep-pass rows: 144 (weakness criteria: merged nsfw unresolved/conflict,
   chat conflict, coverage not_researched, nsfw-paraphrase-only; AND prominence: usage
   band A/B/C OR community users A+B>=3 OR supply_runs>=3 OR scope_pending; conflicts
-  bypass the prominence gate)
-- outputs: merged/redflags-deep-pass-input.txt; 10 prompt file(s) merged/redflags-deep-prompt-1..10.txt (max 15 platforms per file)
+  bypass the prominence gate; a paraphrase-only weakness is sustained ONLY by band
+  A/B/C or supply_runs>=3 — community-only or scope_pending prominence no longer
+  suffices for it — owner instruction 2026-11-03)
+- outputs: merged/redflags-deep-pass-input.txt; 10 prompt file(s) merged/redflags-deep-prompt-1..10.txt (max 15 platforms per file; stale higher-numbered files deleted each run)
 
 | weakness triggers | count |
 |---|---|
@@ -181,7 +183,7 @@ Stayed borderline: candy-ai
 | coverage_not_researched | 98 |
 | nsfw_conflict | 2 |
 | nsfw_unresolved | 40 |
-| nsfw_yes_paraphrase_only | 80 |
+| nsfw_yes_paraphrase_only | 78 |
 
 Rows entering via the conflict bypass (no band/community/supply/pending): 9
 
@@ -189,7 +191,7 @@ Rows entering via the conflict bypass (no band/community/supply/pending): 9
 
 - merged/redflags.csv (per-model answer columns, merged fields with decided_by + sources,
   union flags with recount + downgrade audit trail, flags_json)
-- merged/redflags-deep-pass-input.txt (146 rows)
+- merged/redflags-deep-pass-input.txt (144 rows)
 - merged/redflags-deep-prompt-1..10.txt
 - merged/scoped.csv (joined summary columns; full detail lives in redflags.csv)
 - v2/research/method/03-red-flags-prompt.txt remains the verbatim prompt; deep prompts add

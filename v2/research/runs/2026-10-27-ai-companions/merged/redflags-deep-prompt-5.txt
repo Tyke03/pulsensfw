@@ -11,7 +11,6 @@ Research each platform individually and in depth: check its ToS/content policy a
 
 PLATFORMS:
 canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
-him-ai-boyfriend-chat|Him - AI Boyfriend Chat|apps.apple.com|dedicated_virtual_companions|false|true
 hiromivoice-asmrtist-とai通話|HiromiVoice - ASMRtist とAI通話||hosted_character_hubs|false|true
 hotchat|HotChat|play.google.com|hosted_character_hubs|false|false
 ia-namorada-virtual-coupleai|IA Namorada Virtual CoupleAI|play.google.com|hosted_character_hubs|false|true
@@ -26,3 +25,4 @@ juicy-ai|Juicy AI|juicy-ai.com|hosted_character_hubs|false|false
 juicychat-ai|JuicyChat.AI|juicychat.ai|hosted_character_hubs|false|false
 k-k|K / K***||dedicated_virtual_companions|false|false
 kindroid|Kindroid|kindroid.ai|dedicated_virtual_companions|false|true
+koboldai|KoboldAI|github.com|byok_local_frontends|false|false
