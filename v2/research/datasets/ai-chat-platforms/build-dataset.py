@@ -39,6 +39,19 @@ def slugify(name):
     return s or 'unknown'
 
 
+def community_users(s):
+    """census community-evidence signal: distinct users observed, tier maxes summed (A + B).
+
+    Tier A = strongest census quality, tier B = secondary. A user seen in both
+    tiers is counted twice; treat as a lower-bound signal, not popularity.
+    """
+    def tier(c):
+        v = (s.get(c) or '').strip()
+        return int(v) if v.isdigit() else None
+    a, b = tier('community_users_A'), tier('community_users_B')
+    return '' if a is None and b is None else (a or 0) + (b or 0)
+
+
 def main():
     scoped = list(csv.DictReader(open(os.path.join(RUN, 'scoped.csv'), encoding='utf-8-sig')))
     rflags = list(csv.DictReader(open(os.path.join(RUN, 'redflags.csv'), encoding='utf-8-sig')))
@@ -82,6 +95,7 @@ def main():
             'category': s.get('category_id') or '',
             'usage_band': s.get('usage_band') or '',
             'supply_runs': s.get('supply_runs_count') or '',
+            'community_users': community_users(s),
             'scope_decision': s['scope_decision'],
             'scope_pending': 'true' if s.get('scope_pending') == 'true' else 'false',
             'nsfw_answer': s.get('redflags_nsfw_answer') or '',

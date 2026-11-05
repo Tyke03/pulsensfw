@@ -39,6 +39,7 @@ gaps (empty fields) mean "no evidence found" and are never guessed.
 | `category` | scope category (`hosted_character_hubs`, `dedicated_virtual_companions`, `interactive_story_engines`, …) |
 | `usage_band` | usage-signal band A/B/C from the usage pass, or `D`/`U` fallback bands |
 | `supply_runs` | number of independent census runs that assessed this platform |
+| `community_users` | distinct community users observed in census evidence, summed across evidence tiers A+B (each tier is a tier max; a user seen in both tiers counts twice — a lower-bound community signal, not popularity; blank = none recorded) |
 | `scope_decision` | `in` or `borderline` (out rows are excluded) |
 | `scope_pending` | `true` if the row is one of the unresolved borderline cases |
 | `nsfw_answer` | merged NSFW permission: `yes` / `no` / `unresolved` / `conflict` |
