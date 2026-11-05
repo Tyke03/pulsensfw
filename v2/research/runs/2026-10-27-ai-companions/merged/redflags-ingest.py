@@ -2,10 +2,14 @@
 """Ingest red-flag research outputs from ANY number of models/batches.
 
 Sources are auto-discovered: merged/redflags-<model>-<n>.json (multiples per
-model fine). Models whose name starts with 'deep' are excluded — the deep
-pass gets a later ingest of its own (name those redflags-deep-<model>-<n>.json).
+model fine). Deep-pass records are ingested from redflags-deep-<model>-1.json
+ONLY (the closed deep-1 test: deep-perplexity and deep-venice when present);
+redflags-deep-gemini-1.json is excluded — it covered the wrong platforms —
+and deep files with n != 1 are not read. Each record sourced from a deep file
+keeps that file's name (<pfx>_deep_file / redflags_deep_files / deep_files).
 Each model keeps its own answer columns, prefixed <pfx>_... : perplexity->pplx,
-gemini->gemini, venice->venice; unknown models fall back to a sanitized name.
+gemini->gemini, venice->venice, deep-perplexity->pplx_deep, deep-venice->
+venice_deep; unknown models fall back to a sanitized name.
 
 Extra first-party source: census-scope-checks-perplexity.json as EXECUTED by
 scope-resolve.py — its Test A records decompose into the two field-level
@@ -42,20 +46,23 @@ Self-revert: previous run's redflags_*/pplx_scope_*/<pfx>_*_answer columns
 and pending resolutions are stripped first (redflags_*_before state), then
 everything is recomputed from scratch.
 
-Deep pass: rows with a weakness (merged nsfw unresolved/conflict, chat
-conflict, coverage not_researched, nsfw-paraphrase-only) AND prominence
-(band A/B/C OR community_users A+B>=3 OR supply_runs>=3 OR scope_pending);
-conflicts bypass the prominence gate. Owner instruction 2026-11-03: a
-paraphrase-only weakness is sustained ONLY by usage band A/B/C or
-supply_runs>=3 — community-only or scope_pending prominence no longer
-suffices for it. Stale redflags-deep-prompt-*.txt files are deleted every
-run before the current set is written.
+Deep pass history: the deep test ran only on redflags-deep-prompt-1.txt (kept,
+with its outputs, as the record; redflags-deep-pass-input.txt documents the full
+144-row scope). Deep-prompt generation was removed 2026-11-04 — this script no
+longer writes redflags-deep-prompt-*.txt.
+
+Confidence (per platform, computed after the merge + coverage):
+- high: merged NSFW answer is yes/no with a verbatim source AND
+  red flags researched (coverage=researched);
+- medium: resolved NSFW answer (including paraphrase-only yes) or flags
+  researched while NSFW stays unresolved;
+- low: NSFW unresolved or conflict, or coverage=not_researched.
+Empty fields stay empty — never filled by guessing.
 
 Pipeline order: scope-pass.py -> scope-resolve.py -> redflags-ingest.py.
-Outputs: merged/redflags.csv, merged/REDFLAGS-REPORT.md,
-merged/redflags-deep-pass-input.txt (same pipe format as redflags-input),
-merged/redflags-deep-prompt-1..N.txt (max 15 platforms per file), plus a
-summary join into merged/scoped.csv.
+Outputs: merged/redflags.csv, merged/REDFLAGS-REPORT.md, plus a summary join
+into merged/scoped.csv (the ai-chat-platforms dataset builds from these via
+v2/research/datasets/ai-chat-platforms/build-dataset.py).
 """
 import json, csv, os, re, sys, io
 from collections import Counter, defaultdict
@@ -64,18 +71,14 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT = BASE   # this script lives in merged/ itself
-D = '2026-11-03'
-MAX_PER_DEEP_FILE = 15
-DEEP_PROMPT_PATH = os.path.join(BASE, '..', '..', '..', 'method', '03-red-flags-prompt.txt')
-DEEP_EXTRA_LINE = ('Research each platform individually and in depth: check its ToS/content policy and '
-                   'pricing pages directly (quote verbatim where possible), and search Reddit/Discord/'
-                   'Trustpilot by platform name for billing, purge, filter, and breach reports from '
-                   'real users, not review/affiliate sites.')
+D = '2026-11-04'
 # Affiliate / review-site domains that NEVER count as independent users
 # (owner instruction, 2026-11-03).
 REVIEW_BLOCK = ('synonymsvault', 'aifreands', 'aigirlfriendbase', 'funfun',
                 'tryclout', 'companaya', 'spicyranked')
-MODEL_PREFIX = {'perplexity': 'pplx', 'gemini': 'gemini', 'venice': 'venice'}
+MODEL_PREFIX = {'perplexity': 'pplx', 'gemini': 'gemini', 'venice': 'venice',
+                # closed deep-1 test sources (deep-gemini excluded: wrong platforms)
+                'deep-perplexity': 'pplx_deep', 'deep-venice': 'venice_deep'}
 DISCOVER_RE = re.compile(r'^redflags-([A-Za-z0-9_\-]+?)-(\d+)\.json$')
 
 # ---- prior first-party answers as EXECUTED by scope-resolve.py (Test A records
@@ -171,28 +174,45 @@ def parse_file(path):
 
 
 def discover_sources():
-    """merged/redflags-<model>-<n>.json files except deep/batches artifacts."""
-    srcs, seen_models = [], []
+    """merged/redflags-<model>-<n>.json sources.
+
+    Regular models: every batch. Deep models: the closed deep-1 test only —
+    n == 1 records, deep-gemini excluded (covered the wrong platforms).
+    Returns (srcs, prefixes, skipped) with skipped = [(model, file, reason)].
+    """
+    srcs, seen_models, skipped = [], [], []
     for fn in sorted(os.listdir(OUT)):
         m = DISCOVER_RE.match(fn)
         if not m:
             continue
         model = m.group(1).lower()
-        if model.startswith('deep') or 'batches' in model:
+        if 'batches' in model:
             continue
+        if model.startswith('deep'):
+            if model == 'deep-gemini':
+                skipped.append((model, fn, 'owner instruction 2026-11-04: covered the wrong platforms'))
+                continue
+            if m.group(2) != '1':
+                skipped.append((model, fn, 'deep test was closed after batch 1'))
+                continue
         srcs.append((model, m.group(2), os.path.join(OUT, fn)))
         if model not in seen_models:
             seen_models.append(model)
     prefixes, taken = {}, set()
     for model in sorted(seen_models):
-        p = MODEL_PREFIX.get(model) or re.sub(r'[^a-z0-9]+', '', model)[:12]
+        p = MODEL_PREFIX.get(model)
+        if p is None and model.startswith('deep-'):
+            base = MODEL_PREFIX.get(model[5:])
+            p = (base + '_deep') if base else None
+        if p is None:
+            p = re.sub(r'[^a-z0-9]+', '', model)[:12]
         base_p, k = p, 2
         while p in taken:
             p = f'{base_p}_{k}'
             k += 1
         taken.add(p)
         prefixes[model] = p
-    return srcs, prefixes
+    return srcs, prefixes, skipped
 
 
 def merge_field(parts):
@@ -239,7 +259,7 @@ def main():
     if not scoped:
         print('no scoped rows; abort')
         return
-    srcs, prefixes = discover_sources()
+    srcs, prefixes, deep_skipped = discover_sources()
     model_records = defaultdict(dict)
     parsed_count = defaultdict(int)
     parse_failures = []
@@ -257,6 +277,8 @@ def main():
             if cid in model_records[model]:
                 parse_failures.append({'file': os.path.basename(path), 'issue': f'duplicate record {cid}; first kept'})
                 continue
+            if model.startswith('deep'):
+                rec['_deep_file'] = os.path.basename(path)   # provenance (owner instruction 2026-11-04)
             model_records[model][cid] = rec
     models = sorted(model_records)
 
@@ -389,6 +411,8 @@ def main():
         r['redflags_chat_decided_by'] = dec_c
         r['redflags_chat_sources'] = src_c
         r['redflags_evidence_strength'] = 'paraphrase' if para_n else ''
+        deep_files = sorted({mrecs[m].get('_deep_file') for m in rec_any if mrecs[m].get('_deep_file')})
+        r['redflags_deep_files'] = ' | '.join(deep_files)
         if para_n:
             paraphraseRows.append((cid, src_n))
         if merged_n == 'conflict':
@@ -454,6 +478,18 @@ def main():
         r['redflags_coverage'] = 'not_researched' if not merged_flags else 'researched'
         if not merged_flags and r['scope_decision'] in ('in', 'borderline'):
             not_researched.append(cid)
+        # confidence: high = merged NSFW verbatim yes/no AND flags researched;
+        # medium = resolved NSFW (incl. paraphrase) or flags researched; else low.
+        verbatim_n = ''
+        if merged_n in ('yes', 'no'):
+            verbatim_n = 'true' if any(v is True for s, a, v, u in nsfw_parts if a == merged_n) else 'false'
+        r['redflags_nsfw_verbatim'] = verbatim_n
+        if merged_n in ('unresolved', 'conflict') or r['redflags_coverage'] == 'not_researched':
+            r['redflags_confidence'] = 'low'
+        elif merged_n in ('yes', 'no') and verbatim_n == 'true' and r['redflags_coverage'] == 'researched':
+            r['redflags_confidence'] = 'high'
+        else:
+            r['redflags_confidence'] = 'medium'
         flag_docs[cid] = {
             'canonical_id': slugify(r['canonical_name']), 'platform': r['canonical_name'],
             'flags': merged_flags,
@@ -500,10 +536,12 @@ def main():
         p = prefixes[m]
         added += [f'{p}_nsfw_answer', f'{p}_chat_answer']
     added += ['redflags_nsfw_answer', 'redflags_nsfw_decided_by', 'redflags_nsfw_sources',
+             'redflags_nsfw_verbatim',
              'redflags_chat_answer', 'redflags_chat_decided_by', 'redflags_chat_sources',
-             'redflags_evidence_strength', 'redflags_coverage', 'redflags_flag_types',
+             'redflags_evidence_strength', 'redflags_coverage', 'redflags_confidence',
+             'redflags_flag_types',
              'redflags_flag_count', 'redflags_recurring_count', 'redflags_isolated_count',
-             'redflags_downgraded_count', 'redflags_white_label_family',
+             'redflags_downgraded_count', 'redflags_white_label_family', 'redflags_deep_files',
              'pplx_scope_nsfw_answer', 'pplx_scope_chat_answer', 'pplx_scope_nsfw_url',
              'redflags_scope_decision_before', 'redflags_rule_before', 'redflags_pending_before']
     cols = base_cols + added
@@ -525,13 +563,16 @@ def main():
         p = prefixes[m]
         ml_cols += [f'{p}_nsfw_answer', f'{p}_nsfw_url', f'{p}_nsfw_verbatim', f'{p}_nsfw_quote',
                     f'{p}_chat_answer', f'{p}_chat_url', f'{p}_flag_types', f'{p}_flags_summary',
-                    f'{p}_operator', f'{p}_white_label_family', f'{p}_notes']
+                    f'{p}_operator', f'{p}_white_label_family', f'{p}_notes',
+                    f'{p}_deep_file']
     RF_COLS = (['canonical_id', 'platform'] + ml_cols +
                ['pplx_scope_nsfw_answer', 'pplx_scope_chat_answer', 'pplx_scope_nsfw_url',
                 'merged_nsfw_answer', 'merged_nsfw_decided_by', 'merged_nsfw_sources',
+                'merged_nsfw_verbatim',
                 'merged_chat_answer', 'merged_chat_decided_by', 'merged_chat_sources',
-                'evidence_strength', 'coverage', 'flag_types', 'flag_count', 'recurring_count',
-                'isolated_count', 'downgraded_count', 'white_label_union', 'flags_json'])
+                'evidence_strength', 'coverage', 'confidence', 'flag_types', 'flag_count',
+                'recurring_count', 'isolated_count', 'downgraded_count', 'white_label_union',
+                'deep_files', 'flags_json'])
     with open(os.path.join(OUT, 'redflags.csv'), 'w', newline='', encoding='utf-8-sig') as fh:
         w = csv.DictWriter(fh, fieldnames=RF_COLS, extrasaction='ignore')
         w.writeheader()
@@ -546,7 +587,8 @@ def main():
                 rec = model_records[m].get(cid)
                 if rec is None:
                     for extra in ('nsfw_answer', 'nsfw_url', 'nsfw_verbatim', 'nsfw_quote', 'chat_answer',
-                                  'chat_url', 'flag_types', 'flags_summary', 'operator', 'white_label_family', 'notes'):
+                                  'chat_url', 'flag_types', 'flags_summary', 'operator', 'white_label_family', 'notes',
+                                  'deep_file'):
                         row[f'{p}_{extra}'] = ''
                     continue
                 nsfw = rec.get('nsfw_first_party') or {}
@@ -566,100 +608,29 @@ def main():
                 row[f'{p}_operator'] = rec.get('operator') or ''
                 row[f'{p}_white_label_family'] = rec.get('white_label_family') or ''
                 row[f'{p}_notes'] = (rec.get('notes') or '')[:900]
+                row[f'{p}_deep_file'] = rec.get('_deep_file') or ''
             row.update({'pplx_scope_nsfw_answer': r.get('pplx_scope_nsfw_answer') or '',
                         'pplx_scope_chat_answer': r.get('pplx_scope_chat_answer') or '',
                         'pplx_scope_nsfw_url': r.get('pplx_scope_nsfw_url') or '',
                         'merged_nsfw_answer': r['redflags_nsfw_answer'],
                         'merged_nsfw_decided_by': r['redflags_nsfw_decided_by'],
                         'merged_nsfw_sources': r['redflags_nsfw_sources'],
+                        'merged_nsfw_verbatim': r.get('redflags_nsfw_verbatim') or '',
                         'merged_chat_answer': r['redflags_chat_answer'],
                         'merged_chat_decided_by': r['redflags_chat_decided_by'],
                         'merged_chat_sources': r['redflags_chat_sources'],
                         'evidence_strength': r['redflags_evidence_strength'],
                         'coverage': r['redflags_coverage'],
+                        'confidence': r['redflags_confidence'],
                         'flag_types': r['redflags_flag_types'],
                         'flag_count': r['redflags_flag_count'],
                         'recurring_count': r['redflags_recurring_count'],
                         'isolated_count': r['redflags_isolated_count'],
                         'downgraded_count': r['redflags_downgraded_count'],
                         'white_label_union': doc['white_label_union'] and ' | '.join(doc['white_label_union']) or '',
+                        'deep_files': r.get('redflags_deep_files') or '',
                         'flags_json': json.dumps(doc['flags'], ensure_ascii=False)})
             w.writerow(row)
-
-    # ----------------------------------------------------------- deep pass
-    def weakness_reasons(r):
-        rs = []
-        if r.get('redflags_nsfw_answer') == 'unresolved':
-            rs.append('nsfw_unresolved')
-        if r.get('redflags_nsfw_answer') == 'conflict':
-            rs.append('nsfw_conflict')
-        if r.get('redflags_chat_answer') == 'conflict':
-            rs.append('chat_conflict')
-        if r.get('redflags_coverage') == 'not_researched':
-            rs.append('coverage_not_researched')
-        if r.get('redflags_evidence_strength') == 'paraphrase':
-            rs.append('nsfw_yes_paraphrase_only')
-        return rs
-    def prominence_reasons(r):
-        rs = []
-        band = (r.get('usage_band') or '').strip().upper()
-        if band in ('A', 'B', 'C'):
-            rs.append(f'band_{band}')
-        if to_int(r.get('community_users_A')) + to_int(r.get('community_users_B')) >= 3:
-            rs.append(f'community_users_{to_int(r.get("community_users_A")) + to_int(r.get("community_users_B"))}')
-        if to_int(r.get('supply_runs_count')) >= 3:
-            rs.append(f'supply_runs_{to_int(r.get("supply_runs_count"))}')
-        if (r.get('scope_pending') or '') == 'true':
-            rs.append('scope_pending')
-        return rs
-
-    deep = []
-    for r in scoped:
-        if r.get('scope_decision') == 'out':
-            continue
-        wk = weakness_reasons(r)
-        if not wk:
-            continue
-        pr = prominence_reasons(r)
-        conf = 'nsfw_conflict' in wk or 'chat_conflict' in wk
-        # Owner instruction 2026-11-03: a paraphrase-only weakness is sustained
-        # ONLY by usage band A/B/C or supply_runs >= 3 (community-only or
-        # scope_pending prominence no longer suffices). Rows carrying any other
-        # weakness keep the previous gate; conflicts still bypass it.
-        tight = ((r.get('usage_band') or '').strip().upper() in ('A', 'B', 'C')
-                 or to_int(r.get('supply_runs_count')) >= 3)
-        other_wk = [w for w in wk if w != 'nsfw_yes_paraphrase_only']
-        if not other_wk and not conf:
-            if not tight:
-                continue
-        elif not pr and not conf:
-            continue
-        deep.append({'row': r, 'weakness': wk, 'prominence': pr, 'conflict_override': conf})
-    deep_rows = [d['row'] for d in sorted(deep, key=lambda d: slugify(d['row']['canonical_name']))]
-
-    lines = ['canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ']
-    for r in deep_rows:
-        lines.append('|'.join([
-            slugify(r['canonical_name']),
-            r['canonical_name'],
-            r.get('url_domain') or '',
-            r.get('category_id') or '',
-            'true' if r.get('scope_pending') == 'true' else 'false',
-            'true' if 'store_build_may_differ' in (r.get('usage_notes') or '') else 'false',
-        ]))
-    with open(os.path.join(OUT, 'redflags-deep-pass-input.txt'), 'w', encoding='utf-8') as fh:
-        fh.write('\n'.join(lines) + '\n')
-
-    prompt_text = open(DEEP_PROMPT_PATH, encoding='utf-8').read().strip()
-    for fn in sorted(os.listdir(OUT)):   # delete stale higher-numbered prompts first
-        if fn.startswith('redflags-deep-prompt-') and fn.endswith('.txt'):
-            os.remove(os.path.join(OUT, fn))
-    n_prompts = 0
-    for i in range(0, max(len(lines) - 1, 0), MAX_PER_DEEP_FILE):
-        rows_chunk = lines[1 + i:1 + i + MAX_PER_DEEP_FILE]
-        n_prompts += 1
-        with open(os.path.join(OUT, f'redflags-deep-prompt-{n_prompts}.txt'), 'w', encoding='utf-8') as fh:
-            fh.write(prompt_text + '\n\n' + DEEP_EXTRA_LINE + '\n\nPLATFORMS:\n' + lines[0] + '\n' + '\n'.join(rows_chunk) + '\n')
 
     # ------------------------------------------------------------- report
     rep = ['# Red flags report', '', f'Generated: {D}', '',
@@ -753,31 +724,36 @@ def main():
     else:
         rep += ['None reported.', '']
 
-    rep += ['', '## Deep pass inputs', '',
-            f'- deep-pass rows: {len(deep_rows)} (weakness criteria: merged nsfw unresolved/conflict,',
-            '  chat conflict, coverage not_researched, nsfw-paraphrase-only; AND prominence: usage',
-            '  band A/B/C OR community users A+B>=3 OR supply_runs>=3 OR scope_pending; conflicts',
-            '  bypass the prominence gate; a paraphrase-only weakness is sustained ONLY by band',
-            '  A/B/C or supply_runs>=3 — community-only or scope_pending prominence no longer',
-            '  suffices for it — owner instruction 2026-11-03)',
-            f'- outputs: merged/redflags-deep-pass-input.txt; {n_prompts} prompt file(s) '
-            f'merged/redflags-deep-prompt-1..{max(n_prompts, 1)}.txt (max {MAX_PER_DEEP_FILE} platforms per file; '
-            'stale higher-numbered files deleted each run)']
-    if deep_rows:
-        wk_counts = Counter(rsn for d in deep for rsn in d['weakness'])
-        rep += ['', '| weakness triggers | count |', '|---|---|']
-        for k, v in sorted(wk_counts.items()):
-            rep.append(f'| {k} | {v} |')
-        n_over = sum(1 for d in deep if d['conflict_override'])
-        rep += ['', f'Rows entering via the conflict bypass (no band/community/supply/pending): {n_over}']
+    rep += ['', '## Deep pass (closed 2026-11-04)', '',
+            'The deep pass was stopped after its prompt-1 test. The test record is kept:',
+            'redflags-deep-prompt-1.txt plus its outputs (redflags-deep-perplexity-1.json,',
+            'redflags-deep-venice-1.json when present). This script no longer writes',
+            'redflags-deep-prompt-*.txt or redflags-deep-pass-input.txt.',
+            'Records from deep files are ingested under the same merge rules and keep',
+            'their source file name (columns <pfx>_deep_file, deep_files).',
+            '', '| deep source file | records parsed | rows joined |', '|---|---|---|']
+    any_deep = False
+    for m in models:
+        if not m.startswith('deep'):
+            continue
+        any_deep = True
+        filelist = ', '.join(sorted({os.path.basename(p) for mm, n, p in srcs if mm == m}))
+        rep.append(f'| {filelist} | {parsed_count[m]} | '
+                   f'{sum(1 for r in scoped if r.get(f"{prefixes[m]}_nsfw_answer"))} |')
+    for model, fn, reason in deep_skipped:
+        rep.append(f'| {fn} | SKIPPED | {reason} |')
+    if not any_deep and not deep_skipped:
+        rep.append('| (no deep files present) | | |')
+    rep += ['', 'Confidence = high (merged NSFW verbatim yes/no AND flags researched) /',
+            'medium (resolved NSFW incl. paraphrase, or flags researched while NSFW',
+            'unresolved) / low (NSFW unresolved or conflict, or not_researched).',
+            '']
     rep += ['', '## Output files', '',
             '- merged/redflags.csv (per-model answer columns, merged fields with decided_by + sources,',
             '  union flags with recount + downgrade audit trail, flags_json)',
-            f"- merged/redflags-deep-pass-input.txt ({len(deep_rows)} rows)",
-            f'- merged/redflags-deep-prompt-1..{max(n_prompts, 1)}.txt' if n_prompts else '- (no deep prompt files: zero deep rows)',
             '- merged/scoped.csv (joined summary columns; full detail lives in redflags.csv)',
-            '- v2/research/method/03-red-flags-prompt.txt remains the verbatim prompt; deep prompts add',
-            '  the in-depth research line above each PLATFORMS list', '']
+            '- datasets: v2/research/datasets/ai-chat-platforms/ (platforms.csv, platforms.json,',
+            '  README.md) rebuilt by build-dataset.py from merged/ outputs', '']
     open(os.path.join(OUT, 'REDFLAGS-REPORT.md'), 'w', encoding='utf-8').write('\n'.join(rep) + '\n')
 
     # -------------------------------------------------------------- summary
@@ -793,7 +769,9 @@ def main():
     print(f'flags union: {sum(len(d["flags"]) for d in flag_docs.values())} across '
           f'{sum(1 for d in flag_docs.values() if d["flags"])} rows | downgrades: {len(downgrades)} | '
           f'not_researched: {len(not_researched)}')
-    print(f'deep pass rows: {len(deep_rows)} in {n_prompts} prompt file(s) (max {MAX_PER_DEEP_FILE}/file)')
+    confs = Counter(r.get('redflags_confidence') or 'none' for r in scoped)
+    print('confidence: ' + ', '.join(f'{k}={v}' for k, v in sorted(confs.items())) +
+          ' | deep-skipped files: ' + (', '.join(fn for _, fn, _ in deep_skipped) or 'none'))
     print('scope_pending resolutions: in ' + str(len(pending_res['in'])) + ', out ' + str(len(pending_res['out'])) +
           ', stays ' + str(len(pending_res['stays'])))
 

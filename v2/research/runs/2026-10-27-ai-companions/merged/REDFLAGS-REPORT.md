@@ -1,6 +1,6 @@
 # Red flags report
 
-Generated: 2026-11-03
+Generated: 2026-11-04
 
 Idempotent: rebuilt from scratch every run; scope-pass -> scope-resolve ->
 redflags-ingest is the required pipeline order for merged/scoped.csv.
@@ -9,6 +9,8 @@ redflags-ingest is the required pipeline order for merged/scoped.csv.
 
 | model | prefix | file(s) | records parsed | rows joined |
 |---|---|---|---|---|
+| deep-perplexity | pplx_deep | redflags-deep-perplexity-1.json | 15 | 15 |
+| deep-venice | venice_deep | redflags-deep-venice-1.json | 15 | 15 |
 | gemini | gemini | redflags-gemini-1.json | 235 | 235 |
 | perplexity | pplx | redflags-perplexity-1.json | 235 | 235 |
 | venice | venice | redflags-venice-1.json | 59 | 59 |
@@ -20,6 +22,8 @@ Parse/log failures: 0
 
 | model | nsfw yes | nsfw no | nsfw unresolved | chat yes | chat no | chat unresolved |
 |---|---|---|---|---|---|---|
+| pplx_deep | 4 | 3 | 8 | 5 | 0 | 10 |
+| venice_deep | 5 | 7 | 3 | 7 | 0 | 8 |
 | gemini | 158 | 17 | 60 | 118 | 6 | 111 |
 | pplx | 70 | 4 | 161 | 63 | 5 | 167 |
 | venice | 32 | 11 | 16 | 22 | 12 | 25 |
@@ -30,9 +34,9 @@ soulkyn kept unresolved per that record itself; 14 nsfw plus 14 chat contributio
 
 ## Merged counts (all scoped rows joined by any model)
 
-- merged nsfw_first_party (in+borderline rows): conflict=2, no=26, unresolved=45, yes=162
+- merged nsfw_first_party (in+borderline rows): conflict=2, no=29, unresolved=42, yes=162
 - merged chat_without_image_credits (in+borderline rows): conflict=7, no=15, unresolved=73, yes=140
-- nsfw yes rows whose only yes sources are non-verbatim (evidence_strength=paraphrase): 133
+- nsfw yes rows whose only yes sources are non-verbatim (evidence_strength=paraphrase): 128
 
 ## Conflicts (resolved sources disagree — kept side by side)
 
@@ -87,7 +91,7 @@ Downgraded flags: 35
 | nastia-ai | deceptive_marketing | isolated | pplx: status recurring -> 1 users |
 | fictionlab | filter_tightening | isolated | pplx: status recurring -> 1 users |
 | botify | filter_tightening | isolated | pplx: status recurring -> 1 users |
-| ai-girlfriend-trumate | billing | isolated | pplx: status recurring -> 1 users; venice: status recurring -> 1 users |
+| ai-girlfriend-trumate | billing | isolated | pplx_deep: status recurring -> 1 users; pplx: status recurring -> 1 users; venice: status recurring -> 1 users |
 | chat-ia-de-personajes-anime | billing | isolated | pplx: status recurring -> 1 users |
 | chat-ia-de-personajes-anime | deceptive_marketing | isolated | venice: status recurring -> 1 users |
 | chat-de-personajes-con-ia | deceptive_marketing | isolated | venice: status recurring -> 1 users |
@@ -108,8 +112,8 @@ Downgraded flags: 35
 
 ## Coverage
 
-- rows with at least one unioned flag (coverage=researched): 85
-- rows with zero flags from every model (coverage=not_researched — never 'clean'): 150
+- rows with at least one unioned flag (coverage=researched): 92
+- rows with zero flags from every model (coverage=not_researched — never 'clean'): 143
 
 ## scope_pending resolutions
 
@@ -142,7 +146,6 @@ Stayed borderline: candy-ai
 | Candy AI / DreamGF style companionhub | 3 |
 | NextDay AI operator group; shared legal entities verified, white-label licensing unverified | 2 |
 | Candy AI style companion hub | 2 |
-| Anima / MyAnima companionfamily | 2 |
 | DreamAI SRL (DreamGF / DreamBF /eHentai.ai / FantasyGF) | DreamAI SRL: DreamBF / DreamGF / eHentai; common operator verified, white-label licensing unverified | 2 |
 | Yodayo / Moescape dual-domainfamily | 2 |
 | Candy AI / EverAI /Scrile / Triple Minds archetype | EverAI (with Yume AI) | 1 |
@@ -156,44 +159,48 @@ Stayed borderline: candy-ai
 | CreatePorn network (CreateAIShemale, CreateHentai niche sites) | 1 |
 | DreamAI SRL (DreamGF / DreamBF /eHentai.ai / FantasyGF) | 1 |
 | Candy AI / Secret Desires companionhub | 1 |
+| Caitty (AI Girlfriend, AI Boyfriend 2, Everen, Amielle) | Caitty product portfolio; AI Boyfriend and AI Boyfriend 2 are distinct first-party apps, not proven white-label clones | 1 |
+| fjsh (AI Boyfriend Maker: Moshas, AI Friend: Girlfriend Chat, Romance: AI Love & Dating Sim) | 1 |
+| UFOTO (Photo Dance, AI Video Generator: AimeGen, TruMate-Character AI & Story) | 1 |
+| Anima / MyAnima companionfamily | LABANE CORP (Anima, iGirl, LOVD, Matcha — same Play developer) | Labane / MyAnima product group; common operator with Anima AI verified, white-label licensing unverified | 1 |
 | DreamGF / Candy AIwhite-label template family | Lovescape / Warmtech: current cross-brand footer association; licensing arrangement unverified | 1 |
 | Cyprus/EU 6-year-retention companion template (Kupid AI/ Soulkyn AI) | 1 |
 | MiniMax (Glow/ Xingye / Talkie / Talkie Lab) | 1 |
 | Candy.ai / EverAI: current branded and legal-footer association verified; white-label licensing unverified | 1 |
+| Anima / MyAnima companionfamily | LABANE CORP (Anima, iGirl, LOVD, Matcha) | Labane / MyAnima product group; common operator with Anima: My Virtual AI Boyfriend verified, white-label licensing unverified | 1 |
 | Candy AI / DreamGF style token-gatedcompanion hub | 1 |
 | DreamGF / Candy AI style companion hub | 1 |
 | Aylo | 1 |
 | Swipe-style Cyprus AI companionfamily | 1 |
 | MessengerX.io character engine; homepage names Waifu Chat, AI Girlfriend and AI Boyfriend as powered apps, exact store identities unverified | 1 |
 | MiniMax (Glow / Xingye / Talkie /Talkie Lab) | 1 |
+| yapAI Labs (also First Date AI: 3D Voice Chat) | 1 |
 
-## Deep pass inputs
+## Deep pass (closed 2026-11-04)
 
-- deep-pass rows: 144 (weakness criteria: merged nsfw unresolved/conflict,
-  chat conflict, coverage not_researched, nsfw-paraphrase-only; AND prominence: usage
-  band A/B/C OR community users A+B>=3 OR supply_runs>=3 OR scope_pending; conflicts
-  bypass the prominence gate; a paraphrase-only weakness is sustained ONLY by band
-  A/B/C or supply_runs>=3 — community-only or scope_pending prominence no longer
-  suffices for it — owner instruction 2026-11-03)
-- outputs: merged/redflags-deep-pass-input.txt; 10 prompt file(s) merged/redflags-deep-prompt-1..10.txt (max 15 platforms per file; stale higher-numbered files deleted each run)
+The deep pass was stopped after its prompt-1 test. The test record is kept:
+redflags-deep-prompt-1.txt plus its outputs (redflags-deep-perplexity-1.json,
+redflags-deep-venice-1.json when present). This script no longer writes
+redflags-deep-prompt-*.txt or redflags-deep-pass-input.txt.
+Records from deep files are ingested under the same merge rules and keep
+their source file name (columns <pfx>_deep_file, deep_files).
 
-| weakness triggers | count |
-|---|---|
-| chat_conflict | 7 |
-| coverage_not_researched | 98 |
-| nsfw_conflict | 2 |
-| nsfw_unresolved | 40 |
-| nsfw_yes_paraphrase_only | 78 |
+| deep source file | records parsed | rows joined |
+|---|---|---|
+| redflags-deep-perplexity-1.json | 15 | 15 |
+| redflags-deep-venice-1.json | 15 | 15 |
+| redflags-deep-gemini-1.json | SKIPPED | owner instruction 2026-11-04: covered the wrong platforms |
 
-Rows entering via the conflict bypass (no band/community/supply/pending): 9
+Confidence = high (merged NSFW verbatim yes/no AND flags researched) /
+medium (resolved NSFW incl. paraphrase, or flags researched while NSFW
+unresolved) / low (NSFW unresolved or conflict, or not_researched).
+
 
 ## Output files
 
 - merged/redflags.csv (per-model answer columns, merged fields with decided_by + sources,
   union flags with recount + downgrade audit trail, flags_json)
-- merged/redflags-deep-pass-input.txt (144 rows)
-- merged/redflags-deep-prompt-1..10.txt
 - merged/scoped.csv (joined summary columns; full detail lives in redflags.csv)
-- v2/research/method/03-red-flags-prompt.txt remains the verbatim prompt; deep prompts add
-  the in-depth research line above each PLATFORMS list
+- datasets: v2/research/datasets/ai-chat-platforms/ (platforms.csv, platforms.json,
+  README.md) rebuilt by build-dataset.py from merged/ outputs
 
