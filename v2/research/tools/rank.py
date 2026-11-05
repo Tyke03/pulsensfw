@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 """rank.py — turn any category dataset into a documented top-N ranking.
 
+Role in the pipeline (three loose roles: research -> writer -> QC): this tool
+is an OPTIONAL weighted reference signal the writer may consult before
+forming the brief. It is never a decision-maker: the writer may disagree
+with or ignore it, QC never rubber-stamps against it, and no gate anywhere
+reads its output. When used, consult it; when it conflicts with evidence,
+the evidence wins and the disagreement goes to research-queue.json.
+
 Usage:
   python rank.py --dataset <dataset_dir> --config <rank-config.json>
                  [--n N] [--out-dir <dir>]

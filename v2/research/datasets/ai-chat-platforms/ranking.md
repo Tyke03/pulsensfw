@@ -5,7 +5,7 @@ Built from `platforms.json` (dataset built 2026-11-04) with config `rank-config.
 ## Eligibility (from the config)
 - required: `scope_decision` one of ['in'] — merged scope decision = in (borderline rows stay in the dataset but are not ranked; scope out is not in the dataset)
 - required: `nsfw_answer` one of ['yes'] — merged NSFW answer = yes
-- rows failing a requirement: 71 (labels only, not ranked)
+- rows failing a requirement: 82 (labels only, not ranked)
 - listed separately below with reasons instead of silently dropped: 3
 
 ## Scoring (all weights and points from the config)
