@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { categoryCover } from '../lib/brand/slots';
 import { getContentRepository } from '../lib/content/local-repository';
 import { readReader } from '../lib/reader/cookies';
 import { SITE } from '../lib/site';
@@ -13,7 +14,8 @@ const topics = await getContentRepository().listTopics();
     <h1>All sections</h1>
     <div class="bento" style="margin-top:16px">
       {topics.map((topic) => (
-        <a class="topic-tile" href={topic.href} style={`--tile: var(--${topic.id})`}>
+        <a class="topic-tile topic-tile--art" href={topic.href} style={`--tile: var(--${topic.id})`}>
+          <img src={categoryCover(topic.id)} alt="" loading="lazy" />
           <strong>{topic.label}</strong>
           <span>{topic.blurb}</span>
         </a>
@@ -24,9 +26,7 @@ const topics = await getContentRepository().listTopics();
         <section>
           <h2><a href={topic.href}>{topic.label}</a></h2>
           <ul>
-            {topic.subtopics.map((sub) => (
-              <li><a href={`${topic.href}?topic=${sub.id}`}>{sub.label}</a> — {sub.description}</li>
-            ))}
+            {topic.subtopics.map((sub) => <li><a href={`${topic.href}?topic=${sub.id}`}>{sub.label}</a></li>)}
           </ul>
         </section>
       ))}

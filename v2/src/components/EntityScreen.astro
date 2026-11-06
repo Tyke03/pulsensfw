@@ -1,12 +1,14 @@
 ---
 import Breadcrumbs from './Breadcrumbs.astro';
 import EntityDataPanel from './EntityDataPanel.astro';
+import StarProfile from './StarProfile.astro';
 import StoryCard from './StoryCard.astro';
 import NotFound from './states/NotFound.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { BRAND_ART } from '../lib/brand/slots';
 import { getContentRepository } from '../lib/content/local-repository';
 import { presentEntityPage } from '../lib/content/present';
-import { routeType } from '../lib/content/entities';
+import { routeTypes } from '../lib/content/entities';
 import { readReader } from '../lib/reader/cookies';
 import { SITE, TOPIC_LABEL } from '../lib/site';
 import type { EntityKind } from '../lib/content/types';
@@ -20,29 +22,46 @@ const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
 const repo = getContentRepository();
 const catalog = await repo.listCatalog();
 const articles = await repo.listArticles();
-const entity = await repo.getEntity(routeType(kind), id);
+let entity: Awaited<ReturnType<typeof repo.getEntity>> = null;
+for (const type of routeTypes(kind)) {
+  entity = await repo.getEntity(type, id);
+  if (entity) break;
+}
 if (!entity) Astro.response.status = 404;
 const page = entity ? presentEntityPage(entity, catalog, articles, reader) : null;
 const related = page?.relatedArticles ?? [];
+const isStar = page?.entity.type === 'star';
 const title = page ? `${page.title} · ${SITE.name}` : `Page not found · ${SITE.name}`;
 ---
 <BaseLayout title={title} description={page?.dek ?? SITE.description} reader={reader} section={page?.topic} noindex={!page}>
   {page ? (
-    <article class="page entity" style="padding-bottom:48px">
+    <article class:list={['page', 'entity', isStar ? 'entity--star' : 'entity--review']} style="padding-bottom:48px">
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: TOPIC_LABEL[page.topic], href: `/${page.topic}` }, { label: page.title }]} />
       <header class="entity-head">
-        <div>
-          <p class="kicker">{page.kicker} · Last checked {page.entity.updated}</p>
-          <h1>{page.title}</h1>
-          <p class="dek">{page.dek}</p>
-          {page.score !== null && (
-            <p class="meta">
-              <img class="reviewer-badge" src="/media/brand/reviewer-badge.png" alt="Reviewed by PulseNSFW" width="132" height="40" />
+        <p class="kicker">{isStar ? `${TOPIC_LABEL[page.topic]} profile` : page.kicker} · Last checked {page.entity.updated}</p>
+        <h1>{page.title}</h1>
+        <p class="dek">{page.dek}</p>
+        {isStar ? (
+          <p class="meta entity-tag-row entity-tag-row--star">
+            Record: {page.entity.facts.length} checked facts · updated {page.entity.updated}
+          </p>
+        ) : (
+          page.score !== null && (
+            <p class="meta review-byline">
+              <span class="reviewer-chip">
+                <img class="reviewer-avatar" src={BRAND_ART.reviewerAvatar} alt="" width="72" height="72" loading="lazy" />
+                <img class="reviewer-badge" src={BRAND_ART.reviewerBadge} alt="Reviewed by PulseNSFW" width="132" height="40" loading="lazy" />
+              </span>
+              <span class="meta">Checked {page.entity.updated}</span>
             </p>
-          )}
-        </div>
+          )
+        )}
       </header>
-      <EntityDataPanel entity={page.entity} media={page.media} topic={page.topic} uid={`entity-${page.entity.type}-${page.slug}`} />
+      {isStar ? (
+        <StarProfile entity={page.entity} media={page.media} topic={page.topic} uid={`entity-${page.entity.type}-${page.slug}`} showName={false} showSummary={false} />
+      ) : (
+        <EntityDataPanel entity={page.entity} media={page.media} topic={page.topic} uid={`entity-${page.entity.type}-${page.slug}`} showName={false} showSummary={false} />
+      )}
       {related.length > 0 && (
         <section style="margin-top:28px">
           <h2>Reviews &amp; lists</h2>

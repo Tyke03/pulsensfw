@@ -24,3 +24,26 @@ export function categoryHero(topic: TopicId): string {
 export function categoryCover(topic: TopicId): string {
   return CATEGORY_ART[topic].cover;
 }
+
+/**
+ * Owner chrome from the brand kit (`PulseNSFW-Site-Assets/chrome/*` plus the
+ * numbered plates), at the drop-in paths under `public/`. Favicon/PWA sizes are
+ * generated from the kit's 1024 render; og-default is the site's share card.
+ * Nothing here is generated art — swap the file at the same path to rebrand.
+ */
+export const BRAND_ART = {
+  ogDefault: '/og-default.png',
+  favicon32: '/favicon-32.png',
+  appleTouchIcon: '/apple-touch-icon.png',
+  icon192: '/icon-192.png',
+  icon512: '/icon-512.png',
+  appIcon: '/media/brand/app-icon.png',
+  monogramP: '/media/brand/monogram-p.png',
+  reviewerAvatar: '/media/brand/avatar.png',
+  heroBg: '/media/brand/hero-bg.png',
+  emptyState: '/media/brand/empty-state.png',
+  newsletterCta: '/media/brand/newsletter-cta.png',
+  aboutHeader: '/media/brand/about-header.png',
+  reviewerBadge: '/media/brand/reviewer-badge.png',
+} as const;
+

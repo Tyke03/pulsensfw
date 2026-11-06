@@ -203,7 +203,7 @@
       "required": ["slug"],
       "properties": {
         "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-        "type": { "enum": ["star", "site", "ai_app", "product", "game"] },
+        "type": { "enum": ["star", "site", "ai_app", "frontend", "product", "game"] },
         "name": { "type": "string", "minLength": 1 },
         "url": { "type": "string", "format": "uri" },
         "affiliate_url": { "type": ["string", "null"], "format": "uri" },

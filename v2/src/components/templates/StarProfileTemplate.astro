@@ -1,5 +1,5 @@
 ---
-import EntityDataPanel from '../EntityDataPanel.astro';
+import StarProfile from '../StarProfile.astro';
 import SourceList from './SourceList.astro';
 import type { TemplateEntity } from '../../lib/content/templates';
 import type { ArticlePage } from '../../lib/content/types';
@@ -12,8 +12,14 @@ const { article, entities } = Astro.props;
 const star = entities[0];
 ---
 <div class="template template--star">
+  <div class="template-lede">
+    <p class="kicker">
+      Star profile{article.checkedLabel ? ` · facts checked ${article.checkedLabel}` : ''}
+    </p>
+    <p class="dek">One record per subject. The chips, dates, and sources below update from the entity file, not from this page.</p>
+  </div>
   {star && (
-    <EntityDataPanel
+    <StarProfile
       entity={star.entity}
       media={star.media}
       topic={star.topic}

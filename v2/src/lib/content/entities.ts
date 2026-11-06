@@ -6,6 +6,8 @@ export const ENTITY_TOPIC: Record<EntityType, TopicId> = {
   star: 'stars',
   site: 'sites',
   ai_app: 'ai',
+  /** BYO-model frontends live under the AI topic but are not hosted companion apps. */
+  frontend: 'ai',
   product: 'toys',
   game: 'vr',
 };
@@ -14,6 +16,7 @@ export const ENTITY_KIND: Record<EntityType, EntityKind> = {
   star: 'star',
   site: 'site',
   ai_app: 'ai',
+  frontend: 'ai',
   product: 'product',
   game: 'game',
 };
@@ -22,6 +25,7 @@ export const ENTITY_LABEL: Record<EntityType, string> = {
   star: 'Star',
   site: 'Site',
   ai_app: 'AI app',
+  frontend: 'Power-user frontend',
   product: 'Toy',
   game: 'Game',
 };
@@ -30,6 +34,7 @@ export const ENTITY_ROUTE: Record<EntityType, string> = {
   star: '/stars',
   site: '/sites',
   ai_app: '/ai',
+  frontend: '/ai',
   product: '/products',
   game: '/games',
 };
@@ -48,6 +53,11 @@ export function entityKind(type: EntityType): EntityKind {
 
 export function routeType(kind: EntityKind): EntityType {
   return kind === 'ai' ? 'ai_app' : kind;
+}
+
+/** The AI display kind spans both hosted apps and BYO-model frontends. */
+export function routeTypes(kind: EntityKind): EntityType[] {
+  return kind === 'ai' ? ['ai_app', 'frontend'] : [routeType(kind)];
 }
 
 export function entityToRawImage(entity: Entity): RawImage {

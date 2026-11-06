@@ -3,6 +3,7 @@ import EntityDataPanel from '../EntityDataPanel.astro';
 import GearLab from '../gear/GearLab.astro';
 import ScoreBadge from '../ScoreBadge.astro';
 import SourceList from './SourceList.astro';
+import { BRAND_ART } from '../../lib/brand/slots';
 import type { TemplateEntity } from '../../lib/content/templates';
 import type { ArticlePage } from '../../lib/content/types';
 
@@ -14,8 +15,18 @@ const { article, entities } = Astro.props;
 const first = entities[0];
 ---
 <div class="template template--review">
+  <div class="template-lede">
+    <p class="kicker">
+      Review{first ? ` · ${first.kicker}` : ''}{article.checkedLabel ? ` · facts checked ${article.checkedLabel}` : ''}
+    </p>
+    <p class="dek">One record per subject. Score, pricing, and sources below update from the entity file, not from this page.</p>
+  </div>
+
   <div class="review-stamp">
-    <img src="/media/brand/reviewer-badge.png" alt="Reviewed by PulseNSFW" width="132" height="40" />
+    <span class="reviewer-chip">
+      <img class="reviewer-avatar" src={BRAND_ART.reviewerAvatar} alt="" width="72" height="72" loading="lazy" />
+      <img class="reviewer-badge" src={BRAND_ART.reviewerBadge} alt="Reviewed by PulseNSFW" width="132" height="40" loading="lazy" />
+    </span>
     {first?.score !== null && first && <ScoreBadge score={first.score} />}
     {article.checkedLabel && <span class="meta">Checked {article.checkedLabel}</span>}
   </div>

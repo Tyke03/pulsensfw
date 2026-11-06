@@ -167,9 +167,11 @@ export function presentCatalog(catalog: Catalog, reader: ReaderMode): EntityCard
 }
 
 export function findPresented(catalog: Catalog, kind: EntityKind, id: string, reader: ReaderMode): EntityCard | null {
-  const type: EntityType = kind === 'ai' ? 'ai_app' : kind;
-  const entity = findEntity(catalog, type, id);
-  return entity ? presentEntity(entity, reader) : null;
+  for (const type of routeTypes(kind)) {
+    const entity = findEntity(catalog, type, id);
+    if (entity) return presentEntity(entity, reader);
+  }
+  return null;
 }
 
 function hit(card: { title: string; dek: string; href: string; topic: TopicId; kicker: string; media: SearchHit['media'] }, type: SearchType): SearchHit {
@@ -225,7 +227,8 @@ export function entitiesForTopic(catalog: Catalog, topic: TopicId, filter: strin
   const type = TOPIC_TYPE[topic];
   if (!type) return [];
   return presentCatalog(catalog, reader).filter((card) => {
-    if (card.type !== type) return false;
+    // Topic-based so sibling types (ai_app + frontend) share one section.
+    if (entityTopic(card.type) !== topic) return false;
     if (!filter) return true;
     if (filter === 'rising') return card.tags.includes('rising');
     return card.tags.includes(filter);

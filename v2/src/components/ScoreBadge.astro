@@ -2,7 +2,7 @@
 interface Props { score: number; size?: 'md' | 'lg'; }
 const { score, size = 'md' } = Astro.props;
 const band = score >= 8.5 ? 'great' : score >= 7.5 ? 'good' : score >= 6 ? 'mid' : 'low';
-const label = size === 'lg' ? 'Lab' : '';
+const label = size === 'lg' ? 'Score' : '';
 ---
 <span class:list={['score', `score--${band}`, size === 'lg' && 'score--lg']} title="Pulse score">
   <b>{score.toFixed(1)}</b>

@@ -10,6 +10,13 @@ Copied from `PulseNSFW-Site-Assets` (owner-owned brand kit) on 2026-10-26.
 | `reviewer-badge.png` | Reviewed-by badge on score-bearing reviews |
 | `about-header.png` | About page header |
 | `category-icons-grid.png` | Reference sheet for category icons |
+| `app-icon.png` | App-icon render (neon goggles plate) from `chrome/` |
+| `avatar.png` | Reviewer avatar (chrome headset in magenta ring) from `chrome/` |
+| `monogram-p.png` | Glossy gradient "P" monogram from `chrome/` |
+
+The three `chrome/` files arrive as 1280×720 renders; components crop them with
+`object-fit: cover` (avatar ring) rather than shipping their own formats.
+Canonical paths are also listed in `src/lib/brand/slots.ts` (`BRAND_ART`).
 
 ## Legacy category map
 

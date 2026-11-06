@@ -10,14 +10,32 @@ interface Props {
   entities: TemplateEntity[];
 }
 const { article, entities } = Astro.props;
+const isNews = article.kind === 'news';
 ---
-<div class="template template--guide-news">
-  {article.checkedLabel && <p class="kicker">Facts checked {article.checkedLabel}</p>}
+<div class:list={['template', isNews ? 'template--news' : 'template--guide']}>
+  <div class="template-lede">
+    <p class="kicker">
+      {isNews ? 'News desk' : 'Guide'}{article.checkedLabel ? ` · facts checked ${article.checkedLabel}` : ''}
+    </p>
+    <p class="dek">
+      {isNews
+        ? 'Timestamped record of what changed. Entity facts below update from their own files.'
+        : 'Written for the moment you have to decide. Entity records below stay synced with their files.'}
+    </p>
+  </div>
+
   <div class="prose"><slot /></div>
 
   {entities.length > 0 && (
     <section class="hub-row" aria-labelledby="story-entities">
-      <h2 id="story-entities">Entity records in this story</h2>
+      <h2 id="story-entities">{isNews ? 'Entities named in this update' : 'Records in this guide'}</h2>
+      {entities.length > 1 && (
+        <p class="tag-row guide-anchor-chips">
+          {entities.map((item) => (
+            <a class="c-chip" href={`#guide-${article.slug}-${item.slug}`}>{item.title}</a>
+          ))}
+        </p>
+      )}
       <div class="profile-grid">
         {entities.map((item) => <EntityCard card={item} uid={`guide-${article.slug}-${item.slug}`} />)}
       </div>
@@ -28,6 +46,7 @@ const { article, entities } = Astro.props;
             media={item.media}
             topic={item.topic}
             uid={`guide-panel-${article.slug}-${item.slug}`}
+            anchor={`guide-${article.slug}-${item.slug}`}
             compact
           />
         ))}
@@ -40,4 +59,5 @@ const { article, entities } = Astro.props;
 
 <style>
   .stacked-panels { display: grid; gap: 16px; margin-top: 16px; }
+  .guide-anchor-chips { margin: 0 0 8px; }
 </style>

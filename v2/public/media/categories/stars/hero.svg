@@ -11,5 +11,4 @@
   </defs>
   <path d="M120 470 H520 L560 470 L590 400 L630 530 L660 440 L690 470 H1480" fill="none" stroke="#ff4f9a" stroke-width="6" stroke-linecap="round"/>
   <text x="120" y="220" fill="#ffd0b8" font-family="ui-sans-serif, system-ui" font-size="92" font-weight="700">STARS</text>
-  <text x="120" y="280" fill="#d9cce3" font-family="ui-sans-serif, system-ui" font-size="28">Category header slot</text>
 </svg>

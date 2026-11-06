@@ -10,6 +10,7 @@ interface Props {
   entities: TemplateEntity[];
 }
 const { article, entities } = Astro.props;
+const pod = (index: number) => (index === 0 ? 'is-champion' : index < 3 ? 'is-podium' : undefined);
 ---
 <div class="template template--top-list">
   <div class="template-lede">
@@ -23,15 +24,28 @@ const { article, entities } = Astro.props;
 
   <ol class="ranked-entities">
     {entities.map((item, index) => (
-      <li class="ranked-entity" id={`entity-${item.slug}`}>
+      <li class:list={['ranked-entity', pod(index)]} id={`entity-${item.slug}`}>
         <div class="ranked-head">
           <span class="rank-no">{String(index + 1).padStart(2, '0')}</span>
           <div>
             <p class="kicker">#{index + 1} · {item.kicker}</p>
             <h2><a href={item.href}>{item.title}</a></h2>
+            <p class="ranked-tags meta">
+              {item.score !== null && item.entity.pricing.from_price && (
+                <span class="ranked-tag">From {item.entity.pricing.from_price}</span>
+              )}
+              {item.entity.platforms.slice(0, 2).map((platform) => <span class="ranked-tag">{platform}</span>)}
+              {item.entity.affiliate_status === 'active' && <span class="ranked-tag ranked-tag--affiliate">Affiliate link marked</span>}
+            </p>
           </div>
           {item.score !== null && <ScoreBadge score={item.score} />}
         </div>
+        {item.entity.ranking_rationale && (
+          <p class="ranked-why">
+            <span class="rank-why-label">Why #{index + 1}</span>
+            {item.entity.ranking_rationale}
+          </p>
+        )}
         <EntityDataPanel
           entity={item.entity}
           media={item.media}

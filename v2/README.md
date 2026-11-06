@@ -33,6 +33,21 @@ Drop a section's header and default cover on top of the files already there:
 
 `<id>` is `stars`, `sites`, `ai`, `toys`, `vr`, `guides`, `lists`, or `news`. Paths are listed in `src/lib/brand/slots.ts`. The P mark is `public/brand/mark.svg` (also `public/favicon.svg`). The wordmark is `public/brand/wordmark.svg`.
 
+## Brand kit wiring
+
+The owner kit (`PulseNSFW-Site-Assets`, 33 files) is fully mapped. Canon paths
+live in `src/lib/brand/slots.ts` (`CATEGORY_ART` + `BRAND_ART`); kit-to-site
+mapping is documented in `public/media/brand/README.md`:
+
+- `favicon-32/1024.png`, `icon-192/512.png`, `apple-touch-icon.png`, `og-default.png` → `public/` root
+- `chrome/app-icon|avatar|monogram-p.png` → `public/media/brand/app-icon|avatar|monogram-p.png` (1280×720 renders; the avatar is cropped to a ring by CSS)
+- `01-hero-bg|04-empty-state|05-newsletter-cta|06-about-header|08-reviewer-badge|07-category-icons-grid.png` → `public/media/brand/<name>.png`
+- `categories/*.png` (banners) → `public/media/categories/<id>/hero.png`, `thumbs/*.png` → `.../cover.png`, renamed `ai-chatbots`→`ai`, `sex-tech`→`toys`, `vr`, `industry-news`→`news`, `how-to`→`guides`, `rankings`→`lists`
+
+To rebrand, replace the file at the same path — no code changes. The glossy
+gradient P + chrome PULSE wordmark behavior stays in `Logo.astro` (NSFW mode
+swaps to the hot-magenta NSFW wordmark; discreet mode swaps the favicon).
+
 ## Run locally
 
 ```bash

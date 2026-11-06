@@ -4,22 +4,25 @@ import DealCard from '../components/DealCard.astro';
 import GearLab from '../components/gear/GearLab.astro';
 import Icon from '../components/Icon.astro';
 import { ICONS } from '../components/icons';
+import Logo from '../components/Logo.astro';
 import ScoreBadge from '../components/ScoreBadge.astro';
 import StoryCard from '../components/StoryCard.astro';
 import EmptyState from '../components/states/EmptyState.astro';
 import ErrorState from '../components/states/ErrorState.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { BRAND_ART, categoryCover, categoryHero } from '../lib/brand/slots';
 import { getContentRepository } from '../lib/content/local-repository';
 import { presentArticle, presentDeal } from '../lib/content/present';
 import { readReader } from '../lib/reader/cookies';
 import { SITE } from '../lib/site';
+import { TOPICS, type TopicId } from '../lib/content/types';
 
 const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
 const repo = getContentRepository();
 const articles = await repo.listArticles();
 const deals = await repo.listDeals();
 const sample = presentArticle(articles[0]!, reader);
-const deal = presentDeal(deals[0]!, reader);
+const deal = deals.length > 0 ? presentDeal(deals[0]!, reader) : null;
 const gear = articles.find((article) => article.gear)?.gear;
 const swatches = [
   ['bg-0', '#100c14'],
@@ -59,6 +62,7 @@ const swatches = [
       <a href="#gear">Gear Lab</a>
       <a href="#states">States</a>
       <a href="#overlay">Overlay</a>
+      <a href="#brand">Brand kit</a>
     </nav>
 
     <section class="sg-section" id="color">
@@ -129,7 +133,7 @@ const swatches = [
         <StoryCard card={sample} layout="feature" uid="sg-feature" />
         <StoryCard card={sample} layout="standard" uid="sg-standard" />
         <StoryCard card={sample} layout="editor" uid="sg-editor" />
-        <DealCard deal={deal} uid="sg-deal" />
+        {deal && <DealCard deal={deal} uid="sg-deal" />}
       </div>
     </section>
 
@@ -180,6 +184,65 @@ const swatches = [
       <h2>NSFW placeholder</h2>
       <div style="max-width:420px">
         <StoryCard card={{ ...sample, media: { state: 'withheld', src: '/media/placeholders/pulse-a.svg', alt: 'Image withheld in SFW mode' } }} uid="sg-withheld" />
+      </div>
+    </section>
+
+    <section class="sg-section" id="brand">
+      <h2>Owner brand kit</h2>
+      <p class="meta">
+        Every file below is owner-supplied art (license: brand-kit), mapped drop-in from the
+        PulseNSFW Site Assets kit. Canonical paths live in
+        <code>src/lib/brand/slots.ts</code>; the kit-to-repo map is in
+        <code>public/media/brand/README.md</code>.
+      </p>
+
+      <h3>Logo lockups</h3>
+      <p class="meta">Glossy gradient P mark is SVG; the wordmark is chrome PULSE with the hot-magenta NSFW suffix when NSFW mode reads on. Discreet mode swaps the title and favicon only.</p>
+      <div class="brand-row">
+        <div class="brand-cell"><Logo markId="sg-logo" /> <span class="meta">SFW wordmark</span></div>
+        <div class="brand-cell"><Logo markId="sg-logo-discreet" discreet /> <span class="meta">Discreet</span></div>
+      </div>
+
+      <h3>Chrome</h3>
+      <div class="brand-row brand-row--plates">
+        <figure class="brand-cell brand-cell--plate"><img src={BRAND_ART.appIcon} alt="App icon render: neon goggles over a dark plate" loading="lazy" /><figcaption class="meta">app-icon · <code>/media/brand/app-icon.png</code></figcaption></figure>
+        <figure class="brand-cell brand-cell--plate"><img src={BRAND_ART.monogramP} alt="Glossy gradient letter P monogram" loading="lazy" /><figcaption class="meta">monogram-p · <code>/media/brand/monogram-p.png</code></figcaption></figure>
+        <figure class="brand-cell brand-cell--plate"><span class="reviewer-chip"><img class="reviewer-avatar" src={BRAND_ART.reviewerAvatar} alt="Chrome VR headset inside a magenta ring" loading="lazy" /></span><figcaption class="meta">avatar · <code>/media/brand/avatar.png</code></figcaption></figure>
+      </div>
+
+      <h3>Favicon / PWA set</h3>
+      <div class="brand-row brand-row--icons">
+        <figure class="brand-cell"><img src={BRAND_ART.favicon32} width="32" height="32" alt="Pulse favicon" loading="lazy" /><figcaption class="meta">favicon-32</figcaption></figure>
+        <figure class="brand-cell"><img src={BRAND_ART.appleTouchIcon} width="64" height="64" alt="Apple touch icon" loading="lazy" /><figcaption class="meta">apple-touch-icon</figcaption></figure>
+        <figure class="brand-cell"><img src={BRAND_ART.icon192} width="96" height="96" alt="PWA icon 192" loading="lazy" /><figcaption class="meta">icon-192</figcaption></figure>
+        <figure class="brand-cell"><img src={BRAND_ART.icon512} width="96" height="96" alt="PWA icon 512" loading="lazy" /><figcaption class="meta">icon-512</figcaption></figure>
+      </div>
+
+      <h3>Category plates</h3>
+      <p class="meta">Kit banners map to <code>media/categories/&lt;id&gt;/hero.png</code>; kit thumbs to <code>cover.png</code>. Stars and Sites still carry the generated SVG stand-ins until owner art arrives.</p>
+      <div class="brand-plates">
+        {TOPICS.map((topic) => (
+          <figure class="brand-plate">
+            <img src={categoryHero(topic as TopicId)} alt={`${topic} section header plate`} loading="lazy" />
+            <img src={categoryCover(topic as TopicId)} alt={`${topic} category cover plate`} loading="lazy" />
+            <figcaption class="meta">{topic}</figcaption>
+          </figure>
+        ))}
+      </div>
+
+      <h3>Kit plates in use</h3>
+      <div class="brand-plates brand-plates--wide">
+        <figure class="brand-plate"><img src={BRAND_ART.heroBg} alt="Homepage hero background plate" loading="lazy" /><figcaption class="meta">hero-bg → home hero</figcaption></figure>
+        <figure class="brand-plate"><img src={BRAND_ART.newsletterCta} alt="Newsletter call to action plate" loading="lazy" /><figcaption class="meta">newsletter-cta → subscribe strip</figcaption></figure>
+        <figure class="brand-plate"><img src={BRAND_ART.aboutHeader} alt="About page header plate" loading="lazy" /><figcaption class="meta">about-header → /about</figcaption></figure>
+        <figure class="brand-plate"><img src={BRAND_ART.emptyState} alt="Empty state illustration" loading="lazy" /><figcaption class="meta">empty-state → empty results</figcaption></figure>
+        <figure class="brand-plate brand-plate--badge">
+          <span class="reviewer-chip">
+            <img class="reviewer-avatar" src={BRAND_ART.reviewerAvatar} alt="" loading="lazy" />
+            <img class="reviewer-badge" src={BRAND_ART.reviewerBadge} alt="Reviewed by PulseNSFW badge" loading="lazy" />
+          </span>
+          <figcaption class="meta">reviewer badge + avatar → review stamp</figcaption>
+        </figure>
       </div>
     </section>
   </div>

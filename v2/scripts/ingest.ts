@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { stringify } from 'yaml';
-import { entitySchema, type Entity } from '../src/lib/content/entity-schema';
+import { entitySchema, type AffiliateInfo, type Entity } from '../src/lib/content/entity-schema';
 import { submissionSchema } from '../src/lib/content/submission-schema';
 
 const fileArg = process.argv.slice(2).find((arg) => arg !== '--force');
@@ -62,15 +62,26 @@ function mergeEntity(existing: Entity, update: (typeof updates)[number]): Entity
     cons: update.cons ?? existing.cons,
     updated: update.updated ?? today,
   };
+  if (update.affiliate) {
+    next.affiliate = update.affiliate
+      ? ({ ...existing.affiliate, ...update.affiliate } as AffiliateInfo)
+      : undefined;
+  }
+  if (update.affiliate_status) next.affiliate_status = update.affiliate_status;
+  if (update.monetization_methods) next.monetization_methods = update.monetization_methods;
+  if (update.image !== undefined) {
+    next.image = update.image === null
+      ? null
+      : update.image === existing.image
+        ? existing.image
+        : ({ ...existing.image, ...update.image } as Entity['image']);
+  }
   if (update.pricing) {
     next.pricing = {
       ...existing.pricing,
       ...update.pricing,
       plans: update.pricing.plans ?? existing.pricing.plans,
     };
-  }
-  if (update.image) {
-    next.image = { ...existing.image, ...update.image };
   }
   if (update.facts) {
     const facts = new Map(existing.facts.map((fact) => [fact.key, fact]));

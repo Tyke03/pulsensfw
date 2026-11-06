@@ -10,15 +10,21 @@ interface Props {
   media: MediaView;
   topic: TopicId;
   uid: string;
+  /** Optional DOM id for in-page anchors (guide entity chips). */
+  anchor?: string;
+  /** Hide the panel name when the page header already renders it. */
+  showName?: boolean;
+  /** Hide the entity summary when the page header already renders it as dek. */
+  showSummary?: boolean;
   showSources?: boolean;
   compact?: boolean;
 }
-const { entity, media, topic, uid, showSources = true, compact = false } = Astro.props;
+const { entity, media, topic, uid, anchor, showName = true, showSummary = true, showSources = true, compact = false } = Astro.props;
 const affiliate = entity.affiliate_status === 'active' && Boolean(entity.affiliate_url);
 const href = affiliate ? entity.affiliate_url : entity.url;
 const pricing = pricingRows(entity.pricing);
 ---
-<section class:list={["gear", "entity-data", compact && "entity-data--compact"]} aria-label={`${entity.name} review data`}>
+<section class:list={["gear", "entity-data", compact && "entity-data--compact"]} id={anchor} aria-label={`${entity.name} review data`}>
   <div class="entity-data-grid">
     <div class="entity-data-media">
       <MediaFrame media={media} topic={topic} uid={uid} />
@@ -35,10 +41,21 @@ const pricing = pricingRows(entity.pricing);
         {entity.score !== null && <ScoreBadge score={entity.score} size="lg" />}
         <div>
           <p class="kicker">{ENTITY_LABEL[entity.type]} · Last checked {lastCheckedLabel(entity.updated)}</p>
-          <h2>{entity.name}</h2>
+          {showName && <h2>{entity.name}</h2>}
         </div>
       </div>
-      <p class="dek">{entity.summary}</p>
+      {showSummary && <p class="dek">{entity.summary}</p>}
+      {entity.ranking_rationale && (
+        <aside class="rank-why">
+          <p class="rank-why-label">Why it sits here</p>
+          <p class="rank-why-copy">{entity.ranking_rationale}</p>
+        </aside>
+      )}
+      {entity.pricing.from_price && (
+        <p class="meta price-pill">
+          Free tier: {entity.pricing.free_tier ? 'yes' : 'no'} · From {entity.pricing.from_price} · {entity.pricing.model}
+        </p>
+      )}
       {entity.platforms.length > 0 && (
         <p class="tag-row">
           {entity.platforms.map((platform) => <span class="c-chip">{platform}</span>)}

@@ -8,7 +8,7 @@ import { z } from 'astro/zod';
  * Files live at src/content/entities/<slug>.json. Slug is the stable key
  * articles use; nothing else in an article may copy these facts.
  */
-export const ENTITY_TYPES = ['star', 'site', 'ai_app', 'product', 'game'] as const;
+export const ENTITY_TYPES = ['star', 'site', 'ai_app', 'frontend', 'product', 'game'] as const;
 export type EntityType = (typeof ENTITY_TYPES)[number];
 
 export const ENTITY_LICENSES = [
