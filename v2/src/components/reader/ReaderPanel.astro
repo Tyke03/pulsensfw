@@ -5,7 +5,7 @@ interface Props { reader: ReaderMode; returnTo: string; }
 const { reader, returnTo } = Astro.props;
 ---
 <div class="stack">
-  <p>Accounts arrive with Supabase in a later phase. These switches stay on this browser.</p>
+  <p>These switches stay on this browser. They are cookie settings — the account (when you sign in on /you) keeps saves and follows, not these toggles.</p>
   <p class="meta">Age check: {reader.ageVerified ? 'stub verified' : 'not verified'} · NSFW: {reader.nsfw ? 'on' : 'off'}</p>
   <form method="post" action="/api/reader/prefs" data-pref-form data-astro-reload>
     <input type="hidden" name="return" value={returnTo} />

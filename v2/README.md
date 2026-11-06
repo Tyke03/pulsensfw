@@ -74,4 +74,48 @@ npm run preview
 - Blur: blurs the page body and leaves the header usable.
 - Quick hide: Shift+H toggles discreet mode and blur together.
 
-No secrets belong in this folder. See `.env.example` for names that later phases will use.
+## Search and compare (round 2C)
+
+- `/search` is a plain form GET — it works with JavaScript off. With JS on,
+  the header/home forms show live suggestions (`/api/search`, JSON), and the
+  results page debounces the same GET and swaps the results region in place.
+- Entity pages and result pages carry a Related row, ranked purely from the
+  local catalog (same topic → tag overlap → same kind); ordering is
+  deterministic so SSR HTML is stable.
+- `/compare?ids=one,two,three` puts 2–4 entities of the same kind side by
+  side: score, pricing summary, platforms, NSFW notes, last checked, pros and
+  cons — all from entity records. Mixed kinds are rejected; missing facts
+  render as `—` (nothing is invented). The URL is the share link.
+
+## Reader accounts (round 2D)
+
+- Auth is **email magic link**: one-time Supabase link, no password stored on
+  this site. `SUPABASE_SERVICE_ROLE_KEY` is server-only; the anon key is the
+  only key that reaches a browser.
+- `supabase/migrations/0001_reader_profiles.sql` creates `reader_profiles`,
+  `saved_entities`, and `follows`, all behind RLS limited to the owner row.
+  The server writes through the service role but always scopes by the
+  `user_id` from the verified session — never from form input.
+- Signed-out readers keep cookie preferences. Signed-in readers get saves and
+  follows on `/you`; the age/NSFW cookie remains the fast path for the gate.
+- `/you` is the account desk: sign-in link, NSFW state, saved list, follows.
+
+## Age verification vendor seam
+
+Round 2D keeps `src/lib/age/provider.ts` as the seam. The built-in stub runs
+unless **both** `AGE_VENDOR_API_URL` and `AGE_VENDOR_API_KEY` are set; then
+`src/lib/age/vendor-provider.ts` posts the vendor token server-side and the
+gate unlocks NSFW only on `AgeVerificationResult.ok`. No government IDs,
+selfies, or card numbers are collected in Pulse forms — the vendor hosts
+anything like that. Verified-age cookies are `stub.v1` or `vendor.v1*`.
+
+## Newsletter and contact mail
+
+`src/lib/mail/ses.ts` is the one shared mail path: minimal SigV4 over fetch
+(no AWS SDK), plain text only. Subscribe (`/api/newsletter`) sends a single
+plain-text confirmation; contact (`/api/contact`) mails the desk inbox when
+`NEWS_TO` is set. Without SES env both endpoints answer "not configured"
+honestly — no fake success.
+
+No secrets belong in this folder. See `.env.example` for names and which are
+server-only.

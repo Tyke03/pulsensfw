@@ -11,6 +11,18 @@ export const COOKIE = {
 /** Marker set only by the stub verifier. Not an identity document. */
 export const AGE_STUB_VALUE = 'stub.v1';
 
+/**
+ * Verified-age cookie values: the stub marker or a vendor marker
+ * ("vendor.<provider-version>"). The vendor value is set only after
+ * AgeVerificationResult.ok from a real third-party check.
+ */
+export function ageCookieOk(value: string | undefined): boolean {
+  if (!value) return false;
+  return value === AGE_STUB_VALUE || /^vendor\.v\d+(\.[a-z0-9]+)?$/.test(value);
+}
+
+export const AGE_VENDOR_VALUE = 'vendor.v1';
+
 export type CookieStore = {
   get(name: string): { value: string } | undefined;
   set?(name: string, value: string, options?: Record<string, unknown>): void;
@@ -32,7 +44,7 @@ export function readReader(cookies: CookieStore, secure = false): ReaderMode {
     seedRaw = String(Math.floor(Math.random() * 1_000_000_000));
     cookies.set?.(COOKIE.seed, seedRaw, cookieBase(secure));
   }
-  const ageVerified = cookies.get(COOKIE.age)?.value === AGE_STUB_VALUE;
+  const ageVerified = ageCookieOk(cookies.get(COOKIE.age)?.value);
   const nsfw = ageVerified && cookies.get(COOKIE.nsfw)?.value === '1';
   return {
     ageVerified,

@@ -1,5 +1,14 @@
 ---
 import PulseRule from './PulseRule.astro';
+import { noticeCopy } from '../lib/site';
+import { mailConfig } from '../lib/mail/ses';
+
+const noticeCode = Astro.url.searchParams.get('notice');
+const newsNotice = noticeCode?.startsWith('news-') ? noticeCopy(noticeCode) : null;
+const mailConnected = mailConfig() !== null;
+const readerEmail = noticeCode === 'news-sent'
+  ? (Astro.url.searchParams.get('email') ?? '')
+  : '';
 ---
 <section class="newsletter-strip" aria-labelledby="newsletter-title">
   <div class="page newsletter-inner">
@@ -9,8 +18,20 @@ import PulseRule from './PulseRule.astro';
       <PulseRule />
     </div>
     <div>
-      <p class="dek">The list is not live yet. Until it is, send a note through the contact page and we will add you manually.</p>
-      <a class="c-btn c-btn--primary" href="/contact">Get on the list</a>
+      {newsNotice && <p class="meta newsletter-copy" role="status">{newsNotice}</p>}
+      {mailConnected ? (
+        <form method="post" action="/api/newsletter" class="newsletter-form" data-astro-reload>
+          <input type="hidden" name="return" value={Astro.url.pathname} />
+          <label class="sr-only" for="news-email">Email</label>
+          <input class="c-input" id="news-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com" value={readerEmail} />
+          <button class="c-btn c-btn--primary" type="submit">Get the one-honest-email list</button>
+        </form>
+      ) : (
+        <p class="dek">
+          Delivery is not connected on this deployment yet. The API answers
+          honestly until the SES keys exist — nothing here pretends success.
+        </p>
+      )}
     </div>
   </div>
 </section>

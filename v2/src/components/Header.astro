@@ -73,7 +73,7 @@ const { reader, topics, featured, section, returnTo } = Astro.props;
       </ul>
     </nav>
     <div class="header-tools">
-      <form class="header-search" action="/search" method="get" data-astro-reload>
+      <form class="header-search" action="/search" method="get" data-astro-reload data-search-live>
         <label class="sr-only" for="header-q">Search stars, sites, gear, and stories</label>
         <input class="c-input" id="header-q" name="q" type="search" placeholder="Search" />
         <button class="icon-btn" type="submit" aria-label="Search">
@@ -113,7 +113,7 @@ const { reader, topics, featured, section, returnTo } = Astro.props;
   <div class="modal-backdrop" data-close-dialog></div>
   <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="search-title">
     <p class="kicker" id="search-title">Search</p>
-    <form action="/search" method="get" data-astro-reload class="c-field">
+    <form action="/search" method="get" data-astro-reload class="c-field" data-search-live>
       <label class="sr-only" for="header-search">Search stars, sites, toys, games, and stories</label>
       <input class="c-input" id="header-search" name="q" type="search" placeholder="Stars, sites, toys, VR…" />
       <button class="c-btn c-btn--primary" type="submit">Search</button>

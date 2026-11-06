@@ -1,8 +1,9 @@
 /**
  * Age verification seam.
- * Phase 1 ships a stub. A later phase swaps in a third-party ID or
- * transactional-data verifier without rewriting the gate UI.
- * The stub must not collect government IDs, selfies, or card numbers.
+ * Phase 1 shipped a stub; round 2D adds the real third-party adapter behind
+ * env flags (see ./vendor-provider.ts). Swapping verifiers does not rewrite
+ * the gate UI. Neither path collects government IDs, selfies, or card
+ * numbers on this site.
  */
 export type AgeChallengeField = {
   name: string;

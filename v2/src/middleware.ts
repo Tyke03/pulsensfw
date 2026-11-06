@@ -1,16 +1,19 @@
 import { defineMiddleware } from 'astro:middleware';
+import { supabaseConfigured, supabaseServer } from './lib/auth/supabase';
 
-export const onRequest = defineMiddleware(async (_context, next) => {
-  const response = await next();
-  response.headers.set('x-content-type-options', 'nosniff');
-  response.headers.set('referrer-policy', 'strict-origin-when-cross-origin');
-  response.headers.set('x-frame-options', 'SAMEORIGIN');
-  response.headers.set('permissions-policy', 'camera=(), microphone=(), geolocation=()');
-  const vary = response.headers.get('vary');
-  response.headers.set('vary', vary ? `${vary}, Cookie` : 'Cookie');
-  const type = response.headers.get('content-type') ?? '';
-  if (type.includes('text/html') && !response.headers.has('cache-control')) {
-    response.headers.set('cache-control', 'private, no-cache');
+/**
+ * Refresh the Supabase session on every request so access tokens rotate
+ * through the reader's browser cookies. Skipped entirely when the Supabase
+ * env is not configured (cookie-only reader state keeps working).
+ */
+export const onRequest = defineMiddleware(async (context, next) => {
+  if (supabaseConfigured()) {
+    const secure = context.url.protocol === 'https:';
+    try {
+      await supabaseServer(context.request, context.cookies, secure).auth.getUser();
+    } catch {
+      /* Session refresh is best-effort; pages keep rendering either way. */
+    }
   }
-  return response;
+  return next();
 });

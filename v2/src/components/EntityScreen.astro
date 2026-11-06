@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from './Breadcrumbs.astro';
 import EntityDataPanel from './EntityDataPanel.astro';
+import RelatedRow from './RelatedRow.astro';
 import StarProfile from './StarProfile.astro';
 import StoryCard from './StoryCard.astro';
 import NotFound from './states/NotFound.astro';
@@ -8,10 +9,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { BRAND_ART } from '../lib/brand/slots';
 import { getContentRepository } from '../lib/content/local-repository';
 import { presentEntityPage } from '../lib/content/present';
-import { routeTypes } from '../lib/content/entities';
+import { entityHit, relatedEntities, sameKindRelated } from '../lib/content/related';
+import { routeTypes, ENTITY_KIND } from '../lib/content/entities';
 import { readReader } from '../lib/reader/cookies';
+import { profileTablesConfigured } from '../lib/auth/supabase';
 import { SITE, TOPIC_LABEL } from '../lib/site';
-import type { EntityKind } from '../lib/content/types';
+import type { EntityKind, SearchHit } from '../lib/content/types';
 
 interface Props {
   kind: EntityKind;
@@ -30,8 +33,16 @@ for (const type of routeTypes(kind)) {
 if (!entity) Astro.response.status = 404;
 const page = entity ? presentEntityPage(entity, catalog, articles, reader) : null;
 const related = page?.relatedArticles ?? [];
+const relatedRef: SearchHit[] = (page ? relatedEntities(page.entity, catalog) : []).map((item) => entityHit(item, reader));
+const compareCandidates = page ? sameKindRelated(page.entity, catalog, 3) : [];
+const compareHref = page && compareCandidates.length > 0
+  ? `/compare?ids=${[page.entity.slug, ...compareCandidates.map((item) => item.slug)].join(',')}`
+  : null;
 const isStar = page?.entity.type === 'star';
 const title = page ? `${page.title} · ${SITE.name}` : `Page not found · ${SITE.name}`;
+const saveKind = page ? ENTITY_KIND[page.entity.type] : null;
+const entitySlug = page?.entity.slug ?? null;
+const saveReturn = Astro.url.pathname;
 ---
 <BaseLayout title={title} description={page?.dek ?? SITE.description} reader={reader} section={page?.topic} noindex={!page}>
   {page ? (
@@ -70,6 +81,30 @@ const title = page ? `${page.title} · ${SITE.name}` : `Page not found · ${SITE
           </div>
         </section>
       )}
+      {compareHref && (
+        <div class="search-types" style="margin-top:28px">
+          <span class="kicker">Compare</span>
+          <a class="c-chip c-chip--compare" href={compareHref}>Compare with related picks</a>
+        </div>
+      )}
+      {page && profileTablesConfigured() && (
+        <div class="search-types" style="margin-top:20px">
+          <span class="kicker">Your desk</span>
+          <form method="post" action="/api/reader/save" data-astro-reload>
+            <input type="hidden" name="slug" value={entitySlug} />
+            <input type="hidden" name="kind" value={saveKind ?? ''} />
+            <input type="hidden" name="return" value={saveReturn} />
+            <button class="c-btn c-btn--ghost" type="submit">Save for later</button>
+          </form>
+          <form method="post" action="/api/reader/follow" data-astro-reload>
+            <input type="hidden" name="slug" value={entitySlug} />
+            <input type="hidden" name="kind" value={saveKind ?? ''} />
+            <input type="hidden" name="return" value={saveReturn} />
+            <button class="c-btn c-btn--ghost" type="submit">Follow</button>
+          </form>
+        </div>
+      )}
+      <RelatedRow hits={relatedRef} uidPrefix={`entity-rel-${page?.slug ?? 'none'}`} title="Related on the desk" />
     </article>
   ) : (
     <NotFound articles={articles} reader={reader} />

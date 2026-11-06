@@ -1,4 +1,5 @@
 import type { AgeVerificationProvider, AgeVerificationProof } from './provider';
+import { createVendorAgeProvider } from './vendor-provider';
 
 export function createStubAgeProvider(): AgeVerificationProvider {
   return {
@@ -30,6 +31,16 @@ export function createStubAgeProvider(): AgeVerificationProvider {
   };
 }
 
+/**
+ * Provider selection: a real third-party verifier when both vendor env vars
+ * are set, the built-in stub otherwise. Local dev keeps working with no env.
+ * The interface in ./provider.ts does not change either way.
+ */
 export function getAgeVerificationProvider(): AgeVerificationProvider {
+  const apiUrl = import.meta.env.AGE_VENDOR_API_URL;
+  const apiKey = import.meta.env.AGE_VENDOR_API_KEY;
+  if (typeof apiUrl === 'string' && apiUrl.length > 0 && typeof apiKey === 'string' && apiKey.length > 0) {
+    return createVendorAgeProvider({ apiUrl, apiKey });
+  }
   return createStubAgeProvider();
 }

@@ -11,6 +11,7 @@ import {
   findEntityBySlug,
   lastCheckedLabel,
   pricingSummary,
+  routeTypes,
 } from './entities';
 import type { Entity, EntityType } from './entity-schema';
 import type {

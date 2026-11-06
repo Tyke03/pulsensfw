@@ -271,6 +271,7 @@ document.addEventListener('keydown', (event) => {
     document.querySelectorAll('.modal:not([hidden])').forEach((node) => {
       if (node instanceof HTMLElement && node.id !== '') closeDialog(node);
     });
+    closeAllLivePanels();
   }
   if ((event.key === 'Enter' || event.key === ' ') && target instanceof HTMLElement) {
     const trigger = target.closest('[data-mega-trigger]');
@@ -322,7 +323,117 @@ function bindCarousels() {
 document.addEventListener('astro:page-load', () => {
   root.classList.add('js');
   bindCarousels();
+  closeAllLivePanels();
 });
 
 root.classList.add('js');
 bindCarousels();
+
+/* ---- Live search (progressive enhancement only; forms still GET with JS off) ---- */
+const SEARCH_LIVE_MS = 260;
+const liveTimers = new WeakMap<HTMLInputElement, number>();
+const livePanels = new WeakMap<HTMLInputElement, HTMLElement>();
+const liveControllers = new WeakMap<HTMLInputElement, AbortController>();
+
+function closeAllLivePanels() {
+  document.querySelectorAll<HTMLDivElement>('.search-live:not([hidden])').forEach((panel) => {
+    panel.hidden = true;
+  });
+}
+
+function livePanelFor(input: HTMLInputElement): HTMLElement {
+  const existing = livePanels.get(input);
+  if (existing && existing.isConnected) return existing;
+  const panel = document.createElement('div');
+  panel.className = 'search-live';
+  panel.hidden = true;
+  input.form?.appendChild(panel);
+  livePanels.set(input, panel);
+  return panel;
+}
+
+type LiveHit = { title: string; href: string; kicker: string; topic: string };
+
+function lifSearchRow(hit: LiveHit): HTMLElement {
+  const link = document.createElement('a');
+  link.className = 'search-live-row';
+  link.href = hit.href;
+  const kicker = document.createElement('span');
+  kicker.className = 'search-live-kind';
+  kicker.textContent = hit.kicker;
+  const title = document.createElement('span');
+  title.className = 'search-live-title';
+  title.textContent = hit.title;
+  link.append(kicker, title);
+  return link;
+}
+
+async function runLiveSearch(input: HTMLInputElement) {
+  const q = input.value.trim();
+  const panel = livePanelFor(input);
+  if (!q) {
+    panel.hidden = true;
+    panel.replaceChildren();
+    return;
+  }
+  const controller = liveControllers.get(input);
+  if (controller) controller.abort();
+  const next = new AbortController();
+  liveControllers.set(input, next);
+  try {
+    const response = await fetch(`/api/search?q=${encodeURIComponent(q)}&type=all`, {
+      signal: next.signal,
+      credentials: 'same-origin',
+    });
+    if (!response.ok) {
+      panel.hidden = true;
+      return;
+    }
+    const data = (await response.json()) as { q: string; count: number; hits: LiveHit[] };
+    panel.replaceChildren();
+    for (const hit of data.hits.slice(0, 7)) panel.appendChild(lifSearchRow(hit));
+    const footer = document.createElement('a');
+    footer.className = 'search-live-all';
+    footer.href = `/search?q=${encodeURIComponent(data.q)}`;
+    footer.textContent = data.count > 0
+      ? `All results for “${data.q}”`
+      : `Nothing matches “${data.q}” yet — see the full search`;
+    panel.appendChild(footer);
+    panel.hidden = false;
+  } catch (error) {
+    if ((error as Error).name !== 'AbortError') panel.hidden = true;
+  }
+}
+
+document.addEventListener('input', (event) => {
+  const target = event.target;
+  if (!(target instanceof HTMLInputElement) || target.type !== 'search') return;
+  const form = target.form;
+  if (!form || !form.hasAttribute('data-search-live')) return;
+  window.clearTimeout(liveTimers.get(target));
+  const timer = window.setTimeout(() => {
+    void runLiveSearch(target);
+  }, SEARCH_LIVE_MS);
+  liveTimers.set(target, timer);
+});
+
+document.addEventListener('focusout', (event) => {
+  const target = event.target;
+  if (!(target instanceof HTMLInputElement)) return;
+  const form = target.form;
+  if (!form || !form.hasAttribute('data-search-live')) return;
+  const next = event.relatedTarget;
+  if (next instanceof Node && form.contains(next)) return;
+  window.setTimeout(() => {
+    const panel = livePanels.get(target);
+    if (panel && !panel.contains(document.activeElement)) panel.hidden = true;
+  }, 120);
+});
+
+document.addEventListener('click', (event) => {
+  if (!(event.target instanceof Element)) return;
+  if (event.target.closest('.search-live')) return;
+  document.querySelectorAll<HTMLDivElement>('.search-live:not([hidden])').forEach((node) => {
+    node.hidden = true;
+  });
+}, true);
