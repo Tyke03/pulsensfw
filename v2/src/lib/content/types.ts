@@ -88,6 +88,12 @@ export type RawArticle = {
   checkedAt?: Date;
   gear?: Gear;
   bodyText: string;
+  /**
+   * Runtime-visible body blocks for agent-published stories (round 2E).
+   * Local fixtures render compiled MDX instead; this stays optional so build
+   * schemas are untouched.
+   */
+  bodyBlocks?: import('../agent/state').BodyBlock[];
 };
 
 export type Subtopic = { id: string; label: string; description: string };

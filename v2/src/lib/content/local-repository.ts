@@ -2,6 +2,8 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import dealsJson from '../../content/deals.json';
 import topicsJson from '../../content/topics.json';
 import { findEntity } from './entities';
+import { HybridContentRepository } from './hybrid-repository';
+import { tryAgentStore } from '../agent/service';
 import type { Entity, EntityType } from './entity-schema';
 import type { ContentRepository } from './repository';
 import { byDateDesc, searchCatalog } from './present';
@@ -105,6 +107,16 @@ export const localContentRepository: ContentRepository = {
   },
 };
 
+/**
+ * Hybrid repository gate: agent-published overlay (Supabase when its env is
+ * configured, or the explicit dev-memory store) over the local seed. With no
+ * store everything behaves exactly as before (development fixtures remain
+ * the truth locally).
+ */
 export function getContentRepository(): ContentRepository {
+  const store = tryAgentStore();
+  if (store) {
+    return new HybridContentRepository(localContentRepository, store) as unknown as ContentRepository;
+  }
   return localContentRepository;
 }

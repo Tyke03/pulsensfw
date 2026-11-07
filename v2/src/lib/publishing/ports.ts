@@ -1,8 +1,11 @@
 /**
- * Later phases add an MCP endpoint and an HTTP API on this same content seam.
- * Local agents submit drafts with a drafts-only key. A QC agent publishes with
- * a separate publish key. Neither key is ever sent to the browser.
- * Phase 1 does not implement these ports and does not expose an admin route.
+ * Agent publishing seam (round 2E). Types only — implementations live in
+ * lib/agent/ (service + stores) and routes under pages/api/agent/.
+ *
+ * Two independent server-side credentials; scope is enforced per operation:
+ *   AGENT_DRAFT_KEY   — research, drafts, affiliate metadata (never publishes).
+ *   AGENT_PUBLISH_KEY — publish / unpublish / rollback (never drafts).
+ * Keys stay server-side; audits record a key fingerprint, never the key.
  */
 export type DraftInput = {
   slug: string;
@@ -12,15 +15,17 @@ export type DraftInput = {
   body: string;
 };
 
+export type AgentScopeName = 'draft' | 'publish';
+
+export interface ContentRepositoryInfo {
+  /** Active backend: local seeded fixtures, or local seed + agent store overlay. */
+  source: 'local-seed' | 'local-seed+agent-store';
+}
+
 export interface DraftSubmissionPort {
-  submitDraft(draft: DraftInput, auth: { keyScope: 'drafts' }): Promise<{ id: string; status: 'draft' }>;
+  submitDraft(draft: DraftInput, auth: { keyScope: AgentScopeName }): Promise<{ id: string; status: 'draft' }>;
 }
 
 export interface PublishPort {
   publish(id: string, auth: { keyScope: 'publish' }): Promise<{ status: 'published' }>;
-}
-
-export interface ContentRepositoryInfo {
-  /** Active backend. Phase 1 is always the local seed. */
-  source: 'local-seed';
 }

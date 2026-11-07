@@ -1,6 +1,7 @@
 ---
 import { getEntry, render } from 'astro:content';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import BlocksBody from '../../components/templates/BlocksBody.astro';
 import MediaFrame from '../../components/MediaFrame.astro';
 import StoryCard from '../../components/StoryCard.astro';
 import EntityReviewTemplate from '../../components/templates/EntityReviewTemplate.astro';
@@ -25,13 +26,15 @@ const raw = articles.find((article) => article.slug === slug) ?? null;
 if (!raw) Astro.response.status = 404;
 const entry = raw ? await getEntry('articles', slug) : undefined;
 const Content = entry ? (await render(entry)).Content : null;
+// Agent-published records carry a runtime block body instead of compiled MDX.
+const publishedBlocks = raw && !entry ? raw.bodyBlocks ?? null : null;
 const page = raw ? presentArticle(raw, reader, catalog) : null;
 const templateEntities = page ? buildTemplateEntities(page, catalog, reader) : [];
 const related = raw ? relatedArticles(articles, raw.slug, raw.topic, reader) : [];
 const title = page ? `${page.title} · ${SITE.name}` : `Page not found · ${SITE.name}`;
 ---
 <BaseLayout title={title} description={page?.dek ?? SITE.description} reader={reader} section={page?.topic} noindex={!page} ogType={page ? 'article' : 'website'}>
-  {page && Content ? (
+  {page && (Content ?? publishedBlocks) ? (
     <article class="page" style="padding-bottom:48px">
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: TOPIC_LABEL[page.topic], href: `/${page.topic}` }, { label: page.title }]} />
       <header class="article-hero">
@@ -43,13 +46,21 @@ const title = page ? `${page.title} · ${SITE.name}` : `Page not found · ${SITE
       </header>
 
       {page.kind === 'top_list' ? (
-        <TopListTemplate article={page} entities={templateEntities}><Content /></TopListTemplate>
+        <TopListTemplate article={page} entities={templateEntities}>
+          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} />}
+        </TopListTemplate>
       ) : page.kind === 'star_profile' ? (
-        <StarProfileTemplate article={page} entities={templateEntities}><Content /></StarProfileTemplate>
+        <StarProfileTemplate article={page} entities={templateEntities}>
+          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} />}
+        </StarProfileTemplate>
       ) : page.kind === 'site_review' || page.kind === 'review' ? (
-        <EntityReviewTemplate article={page} entities={templateEntities}><Content /></EntityReviewTemplate>
+        <EntityReviewTemplate article={page} entities={templateEntities}>
+          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} />}
+        </EntityReviewTemplate>
       ) : (
-        <GuideNewsTemplate article={page} entities={templateEntities}><Content /></GuideNewsTemplate>
+        <GuideNewsTemplate article={page} entities={templateEntities}>
+          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} />}
+        </GuideNewsTemplate>
       )}
 
       {page.explicitMedia.length > 0 && (

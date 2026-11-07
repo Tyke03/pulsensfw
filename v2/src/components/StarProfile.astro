@@ -47,8 +47,13 @@ const pricing = entity.pricing.from_price ?? entity.pricing.free_tier ?? null;
         {entity.tags.slice(0, 3).map((tag) => <span class="c-chip">{tag}</span>)}
       </p>
       <p class="entity-outbound">
-        <a class="c-btn c-btn--primary c-btn--small" href={entity.url} target="_blank" rel="noopener noreferrer">
-          Official pages
+        <a
+          class="c-btn c-btn--primary c-btn--small"
+          href={entity.affiliate_status === 'active' && entity.affiliate_url ? entity.affiliate_url : entity.url}
+          target="_blank"
+          rel={entity.affiliate_status === 'active' && entity.affiliate_url ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
+        >
+          {entity.affiliate_status === 'active' && entity.affiliate_url ? 'Visit (sponsored)' : 'Official pages'}
           <span class="sr-only"> (opens in a new tab)</span>
         </a>
         {pricing && <span class="meta star-pricing">{entity.pricing.model}{entity.pricing.from_price ? ` · from ${entity.pricing.from_price}` : entity.pricing.free_tier ? ` · free: ${entity.pricing.free_tier}` : ''}</span>}

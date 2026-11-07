@@ -67,6 +67,41 @@ npm run preview
 
 `npm run build` outputs a Cloudflare Worker. Do not deploy from this phase.
 
+## Agent access (round 2E)
+
+The site exposes an MCP endpoint plus a JSON HTTP API over the SAME service
+layer (`src/lib/agent/`). Two server-only bearer keys (`AGENT_DRAFT_KEY`,
+`AGENT_PUBLISH_KEY`) enforce per-operation scope: the drafts key handles
+research/drafts/affiliate metadata, the publish key handles
+publish/unpublish/rollback. Every mutation is idempotent (identical retries
+replay the stored result; a reused key with different input fails loudly) and
+drafts carry optimistic revision bases so concurrent edits fail instead of
+overwriting. Publication writes overlay published content into the hybrid
+content repository, so published changes appear on public pages, search and
+compare. `supabase/migrations/0002_agent_content.sql` carries the drafts,
+commits, audit trail and affiliate queue (append-only; service-role only).
+Role prompts live in `docs/agents/roles.md` (scheduling stays a doc-only
+example, never activated).
+
+## Persona Concierge (round 2F)
+
+`/concierge` mounts the MIT-licensed Persona widget over a server-enforced
+tool allowlist (search/compare/read of PUBLISHED content only). Answers cite
+real pages; the server validates citations and applies age/SFW filters to
+retrieval — the dev stub never unlocks production NSFW. The shared model
+ladder (`src/lib/models/`) routes prose calls through OneProvider tiers then
+a Venice fallback, with narrow refusal detection separate from outages, and
+per-session/daily/cost limits (migration 0003). Without model credentials the
+ Concierge answers "unconfigured" honestly; `CONCIERGE_DEV_MOCK=1` is a
+labeled dev-fixture mode for screenshots only.
+
+## Launch readiness (round 2G)
+
+`npm run launch:audit` prints the code-complete / mocked / needs-live table
+without secrets; `docs/launch-readiness.md` carries the deployment,
+migration, backup, cutover and rollback steps. Production activation remains
+an owner decision.
+
 ## Reader controls
 
 - NSFW switch: off until the age stub passes, then opt-in. Changing it reloads so the server can add or remove image URLs.

@@ -1,0 +1,146 @@
+---
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { readReader } from '../lib/reader/cookies';
+import { conciergeGate } from '../lib/concierge/service';
+import { SITE } from '../lib/site';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const gate = conciergeGate(Astro.cookies, Astro.url.protocol === 'https:');
+const gateOk = gate.status === 'ok' ? gate : null;
+const state = gateOk
+  ? (gateOk.modelPlan === 'dev-fixture'
+    ? 'Dev fixture mode: a scripted answer path replaces the model for local screenshots. Labeled everywhere, never shipped as real.'
+    : 'Live model ladder: strongest suitable prose models first, then the fallback tier — attempts bounded, fallback reachable.')
+  : 'The Concierge is not configured on this deployment yet — no model credentials. Everything else keeps working; answers arrive when MODELS_* env exists.';
+const nsfwLabel = gateOk
+  ? (gateOk.nsfwAllowed
+    ? (gateOk.ageMode === 'vendor-ok'
+      ? 'NSFW retrieval: unlocked by verified age.'
+      : 'NSFW retrieval: unlocked in dev (stub acceptable only without vendor env).')
+    : 'NSFW retrieval: locked — SFW by default; production needs real verified age (a saved preference is not verification).')
+  : 'NSFW retrieval: locked while the Concierge is unconfigured.';
+---
+<BaseLayout title={`Concierge · ${SITE.name}`} description="Ask the desk: search, compare, and read published reviews with citations." reader={reader} noindex>
+  <div class="page" style="padding:24px 0 48px;max-width:880px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Concierge' }]} />
+    <p class="kicker">Persona Concierge</p>
+    <h1>Ask the desk</h1>
+    <p class="dek">
+      The Concierge can only search, compare, and read published reviews — citations link to real
+      pages. No mutation tools, no drafts, no side effects.
+    </p>
+    <div class="concierge-state">
+      <p class="meta"><strong>State:</strong> {state}</p>
+      <p class="meta">{nsfwLabel}</p>
+    </div>
+    <section id="concierge-chat" class="concierge-chat" aria-label="Concierge chat"></section>
+    <p class="meta">
+      UI by <a href="https://www.persona-chat.dev/" rel="noopener noreferrer">Persona</a> (MIT), mounted
+      docked over this desk's server-side tool allowlist. Tools and age/SFW gates run on the server —
+      the client sees labeled text and rendered page links only.
+    </p>
+  </div>
+</BaseLayout>
+
+<script>
+  import '@runtypelabs/persona/widget.css';
+  import { initAgentWidget } from '@runtypelabs/persona';
+
+  type ConciergeCitation = { label: string; href: string };
+  /** Mirror of Persona's request payload message (not exported at top level). */
+  type PayloadMessage = { role: 'user' | 'assistant' | 'tool' | 'system'; content: unknown };
+
+  type ConciergeFrame =
+    | { type: 'status'; stage: string; label: string }
+    | { type: 'tool'; tool: string; summary: string; citations?: ConciergeCitation[] }
+    | { type: 'citations'; citations: ConciergeCitation[] }
+    | { type: 'final'; text: string; citations: ConciergeCitation[]; model: string }
+    | { type: 'error'; error: string; human: string };
+
+  let pendingCitations: ConciergeCitation[] = [];
+
+  function contentToText(content: unknown): string {
+    if (typeof content === 'string') return content;
+    if (Array.isArray(content)) {
+      return content.map((part) => (typeof part === 'string' ? part : (part as { text?: string })?.text ?? '')).join(' ');
+    }
+    return '';
+  }
+
+  function mountConcierge() {
+    const target = document.getElementById('concierge-chat');
+    if (!target) return;
+    pendingCitations = [];
+    initAgentWidget({
+      target: '#concierge-chat',
+      config: {
+        apiUrl: '/api/concierge',
+        launcher: {
+          mountMode: 'docked',
+          autoExpand: true,
+          title: 'Pulse Concierge',
+          subtitle: 'Search · Compare · Read — cited answers from the published desk',
+        },
+        brand: { accent: '#ff4f9a', neutral: '#100c14', radius: 'md', density: 'comfortable' },
+        // The desk's own SSE contract, adapted through Persona's pluggable
+        // hooks. Tool execution, the allowlist and the NSFW retrieval filter
+        // run server-side; the widget only renders labeled text and validated
+        // page links.
+        customFetch: async (_url, init, payload) => {
+          const messages: PayloadMessage[] = (payload as { messages?: PayloadMessage[] })?.messages ?? [];
+          const normalized = messages
+            .filter((message) => message.role === 'user' || message.role === 'assistant')
+            .map((message) => ({
+              role: message.role as 'user' | 'assistant',
+              content: contentToText(message.content),
+            }));
+          const prompt = normalized.filter((message) => message.role === 'user').at(-1)?.content ?? '';
+          return fetch('/api/concierge', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            credentials: 'same-origin',
+            body: JSON.stringify({ prompt, messages: normalized.slice(0, -1) }),
+            signal: init.signal,
+          });
+        },
+        parseSSEEvent: (data: unknown) => {
+          const frame = data as ConciergeFrame | null;
+          if (!frame || typeof frame !== 'object' || typeof frame.type !== 'string') return null;
+          if (frame.type === 'status') return null;
+          if (frame.type === 'tool') return null;
+          if (frame.type === 'citations') {
+            pendingCitations = (frame as { citations: ConciergeCitation[] }).citations ?? [];
+            return null;
+          }
+          if (frame.type === 'final') {
+            const citations = (frame as { citations: ConciergeCitation[] }).citations;
+            const links = (citations.length > 0 ? citations : pendingCitations)
+              .map((citation) => `[${citation.label}](${citation.href})`)
+              .join(' · ');
+            const citationBlock = links ? `\n\n**Citations:** ${links}` : '';
+            return { text: `${(frame as { text: string }).text}${citationBlock}` };
+          }
+          if (frame.type === 'error') {
+            // Non-transient desk states (unconfigured / quota / busy) surface
+            // as a visible, labeled assistant note — never a silent stall.
+            return { text: `⚠️ ${frame.human}`, done: true };
+          }
+          return null;
+        },
+      },
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', mountConcierge, { once: true });
+  } else {
+    mountConcierge();
+  }
+</script>
+
+<style is:global>
+  .concierge-chat { margin-top: 20px; min-height: 480px; }
+  .concierge-state { display: grid; gap: 4px; padding: 12px 16px; background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--r-md); margin: 14px 0 18px; }
+  .concierge-state .meta { margin: 0; }
+</style>

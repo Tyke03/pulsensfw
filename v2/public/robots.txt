@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
+# Reader account desk and concierge surface are noindex + account pages
+# should not be indexed.
+Disallow: /api/*
+Disallow: /you
+Disallow: /concierge
+
+# The agent endpoints require bearer credentials and are never crawlable.
 Sitemap: https://pulsensfw.com/sitemap.xml
