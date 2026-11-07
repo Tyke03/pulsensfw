@@ -78,7 +78,7 @@ async function handlerStateless(request: Request, ctx: McpContext): Promise<Resp
 function agentUnavailable(error: unknown): Response {
   void error;
   return agentJson(
-    { error: 'agent-unconfigured', message: 'Agent store is not configured. Set the Supabase service env (or AGENT_DEV_STORE=memory for local dev).' },
+    { error: 'agent-unconfigured', message: 'Agent store is not configured. Set NEON_DATABASE_URL (or AGENT_DEV_STORE=memory for local dev).' },
     503,
   );
 }

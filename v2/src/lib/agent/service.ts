@@ -35,7 +35,7 @@ import type {
 } from './state';
 import { requestHashOf } from './canonical';
 import { MemoryAgentStore } from './memory-store';
-import { SupabaseAgentStore } from './supabase-store';
+import { NeonAgentStore } from './neon-store';
 import type { SearchHit, SearchType } from '../content/types';
 import type { Entity, EntityType } from '../content/entity-schema';
 import { searchCatalog } from '../content/present';
@@ -55,9 +55,9 @@ export class AgentError extends Error {
   }
 }
 
-/** Any available agent store (Supabase, or the dev memory singleton), or null. */
+/** Any available agent store (Neon Postgres, or the dev memory singleton), or null. */
 export function tryAgentStore(): Store | null {
-  if (SupabaseAgentStore.available()) return new SupabaseAgentStore();
+  if (NeonAgentStore.available()) return new NeonAgentStore();
   if (import.meta.env.AGENT_DEV_STORE === 'memory') {
     const g = globalThis as { __pfAgentStore?: Store };
     if (!g.__pfAgentStore) g.__pfAgentStore = new MemoryAgentStore();
@@ -68,8 +68,8 @@ export function tryAgentStore(): Store | null {
 
 export function agentStore(): Store {
   const store = tryAgentStore();
-  if (store) return store;
-  throw new AgentError('agent-unconfigured', 503, 'Agent store is not configured. Set the Supabase service env (or AGENT_DEV_STORE=memory for local dev).');
+  if (store) return store; // Success path: a configured Neon env or dev memory.
+  throw new AgentError('agent-unconfigured', 503, 'Agent store is not configured. Set NEON_DATABASE_URL (or AGENT_DEV_STORE=memory for local dev).');
 }
 
 type ScopeCheck = { ok: true } | { ok: false; code: string; httpStatus: number };

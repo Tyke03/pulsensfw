@@ -1,5 +1,7 @@
 import type { APIRoute } from 'astro';
-import { getReaderSession, profileTablesConfigured, supabaseAdmin } from '../../../lib/auth/supabase';
+import { getServerSession, neonAuthConfigured } from '../../../lib/auth/neon';
+import { upsertReaderProfile } from '../../../lib/auth/reader-store';
+import { requireNeon } from '../../../lib/db/pg';
 import { isSameOrigin } from '../../../lib/http/same-origin';
 import { safePath } from '../../../lib/http/safe-path';
 import { COOKIE, cookieBase, readReader } from '../../../lib/reader/cookies';
@@ -21,15 +23,14 @@ export const POST: APIRoute = async ({ request, cookies, redirect }) => {
     return redirect(locked, 303);
   }
   cookies.set(COOKIE.nsfw, enabled ? '1' : '0', cookieBase(secure));
-  // Signed-in readers: mirror the choice into the Supabase profile. The
+  // Signed-in readers: mirror the choice into the Neon reader profile. The
   // cookie stays the fast path used by every page render.
-  if (profileTablesConfigured()) {
-    const session = await getReaderSession(request, cookies, secure);
+  if (neonAuthConfigured()) {
+    const session = await getServerSession(request.headers);
     if (session) {
       try {
-        await supabaseAdmin()
-          .from('reader_profiles')
-          .upsert({ user_id: session.userId, nsfw_pref: enabled, updated_at: new Date().toISOString() });
+        const runner = await requireNeon();
+        await upsertReaderProfile(runner, session.userId, enabled);
       } catch {
         /* Cookie already saved; profile sync retries on the next toggle. */
       }

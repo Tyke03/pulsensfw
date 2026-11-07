@@ -6,11 +6,11 @@
  * server-side only (never sent to the reader's browser).
  */
 interface ImportMetaEnv {
-  /* Supabase reader accounts (round 2D) */
-  readonly PUBLIC_SUPABASE_URL?: string;
-  readonly PUBLIC_SUPABASE_ANON_KEY?: string;
-  /** Server-only. Bypasses RLS; never ship to the client. */
-  readonly SUPABASE_SERVICE_ROLE_KEY?: string;
+  /* Neon Postgres + Neon Auth (Managed Better Auth) — server-only. */
+  readonly NEON_DATABASE_URL?: string;
+  readonly DATABASE_URL?: string;
+  readonly NEON_AUTH_BASE_URL?: string;
+  readonly NEON_AUTH_COOKIE_SECRET?: string;
 
   /* Age verification vendor seam (round 2D). Empty = built-in stub stays on. */
   readonly AGE_VENDOR_API_URL?: string;

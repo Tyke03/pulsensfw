@@ -3,57 +3,56 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ReaderPanel from '../components/reader/ReaderPanel.astro';
 import { readReader } from '../lib/reader/cookies';
 import { SITE, noticeCopy } from '../lib/site';
+import { getServerSession, neonAuthConfigured, type SessionRow } from '../lib/auth/neon';
 import {
-  getReaderSession,
-  profileTablesConfigured,
-  supabaseAdmin,
-  type ReaderSession,
-} from '../lib/auth/supabase';
-import { findEntityBySlug, ENTITY_LABEL } from '../lib/content/entities';
+  getReaderProfile,
+  listReaderSaved,
+  listReaderFollows,
+  upsertReaderProfile,
+} from '../lib/auth/reader-store';
+import { requireNeon } from '../lib/db/pg';
+import { ENTITY_LABEL, findEntityBySlug } from '../lib/content/entities';
 import { getContentRepository } from '../lib/content/local-repository';
 import type { Catalog } from '../lib/content/types';
 
 const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
 const notice = Astro.url.searchParams.get('notice');
 const copy = noticeCopy(notice);
-const authConfigured = profileTablesConfigured();
-const secure = Astro.url.protocol === 'https:';
+const authConfigured = neonAuthConfigured();
 
-let session: ReaderSession | null = null;
-if (authConfigured) session = await getReaderSession(Astro.request, Astro.cookies, secure);
+let session: SessionRow | null = null;
+if (authConfigured) session = await getServerSession(Astro.request.headers);
 
 const repo = getContentRepository();
 const catalog: Catalog = await repo.listCatalog();
 
 let profile: { nsfwPref: boolean; createdAt: string; updatedAt: string } | null = null;
+let saved: Array<{ slug: string; kind: string; created_at: string }> = [];
+let follows: Array<{ slug: string; kind: string; created_at: string }> = [];
 if (session) {
   try {
-    const admin = supabaseAdmin();
-    const { data } = await admin
-      .from('reader_profiles')
-      .select('nsfw_pref, created_at, updated_at')
-      .eq('user_id', session.userId)
-      .maybeSingle();
-    if (data) {
+    const runner = await requireNeon();
+    const existing = await getReaderProfile(runner, session.userId);
+    if (existing) {
       profile = {
-        nsfwPref: Boolean(data.nsfw_pref),
-        createdAt: String(data.created_at ?? ''),
-        updatedAt: String(data.updated_at ?? ''),
+        nsfwPref: Boolean(existing.nsfw_pref),
+        createdAt: String(existing.created_at ?? ''),
+        updatedAt: String(existing.updated_at ?? ''),
       };
     } else {
       // First sign-in: seed the profile from the browser's cookie choice so
       // the account starts where the reader already was.
-      await admin
-        .from('reader_profiles')
-        .upsert({ user_id: session.userId, nsfw_pref: reader.nsfw, updated_at: new Date().toISOString() });
+      await upsertReaderProfile(runner, session.userId, reader.nsfw);
       profile = { nsfwPref: reader.nsfw, createdAt: '', updatedAt: '' };
     }
+    saved = await listReaderSaved(runner, session.userId);
+    follows = await listReaderFollows(runner, session.userId);
   } catch {
     profile = null;
   }
 }
 
-type ListRow = { slug: string; kind: 'star' | 'site' | 'ai' | 'product' | 'game' };
+type ListRow = { slug: string; kind: 'star' | 'site' | 'ai' | 'product' | 'game'; created_at: string };
 
 const KIND_ROUTES: Record<ListRow['kind'], string> = {
   star: '/stars/',
@@ -63,26 +62,17 @@ const KIND_ROUTES: Record<ListRow['kind'], string> = {
   game: '/games/',
 };
 
-async function listRows(table: 'saved_entities' | 'follows'): Promise<ListRow[]> {
-  if (!session) return [];
-  try {
-    const { data, error } = await supabaseAdmin()
-      .from(table)
-      .select('slug, kind')
-      .eq('user_id', session.userId)
-      .order('created_at', { ascending: false });
-    if (error) return [];
-    return (data ?? []).flatMap((row) => {
-      const kind = String(row.kind);
-      return kind in KIND_ROUTES ? [{ slug: String(row.slug), kind: kind as ListRow['kind'] }] : [];
-    });
-  } catch {
-    return [];
+function asRows(list: Array<{ slug: string; kind: string; created_at: string }>): ListRow[] {
+  const out: ListRow[] = [];
+  for (const row of list) {
+    if (row.kind in KIND_ROUTES) out.push({ slug: row.slug, kind: row.kind as ListRow['kind'], created_at: row.created_at });
   }
+  return out;
 }
 
-const saved = await listRows('saved_entities');
-const follows = await listRows('follows');
+const savedRows = asRows(saved);
+const followRows = asRows(follows);
+
 function nameOf(row: ListRow): string {
   return findEntityBySlug(catalog, row.slug)?.name ?? row.slug;
 }
@@ -122,10 +112,10 @@ function hrefOf(row: ListRow): string {
         <ReaderPanel reader={reader} returnTo="/you" />
         <section class="you-block">
           <h2>Saved</h2>
-          {saved.length === 0 && <p class="meta">Nothing saved yet. Open any review and hit Save.</p>}
-          {saved.length > 0 && (
+          {savedRows.length === 0 && <p class="meta">Nothing saved yet. Open any review and hit Save.</p>}
+          {savedRows.length > 0 && (
             <ul class="plain-list you-list">
-              {saved.map((row) => (
+              {savedRows.map((row) => (
                 <li>
                   {isLive(row)
                     ? <a href={hrefOf(row)}>{nameOf(row)}</a>
@@ -145,10 +135,10 @@ function hrefOf(row: ListRow): string {
         </section>
         <section class="you-block">
           <h2>Following</h2>
-          {follows.length === 0 && <p class="meta">No follows yet. Follow a star, site, or AI app you would check again.</p>}
-          {follows.length > 0 && (
+          {followRows.length === 0 && <p class="meta">No follows yet. Follow a star, site, or AI app you would check again.</p>}
+          {followRows.length > 0 && (
             <ul class="plain-list you-list">
-              {follows.map((row) => (
+              {followRows.map((row) => (
                 <li>
                   {isLive(row)
                     ? <a href={hrefOf(row)}>{nameOf(row)}</a>
@@ -168,7 +158,7 @@ function hrefOf(row: ListRow): string {
         </section>
         <section class="you-block">
           <h2>Account</h2>
-          <form method="post" action="/api/auth/sign-out" data-astro-reload>
+          <form method="post" action="/api/auth/adapter-sign-out" data-astro-reload>
             <input type="hidden" name="return" value="/you" />
             <button class="c-btn c-btn--secondary" type="submit">Sign out</button>
           </form>
@@ -180,29 +170,48 @@ function hrefOf(row: ListRow): string {
         <h1>Reader settings</h1>
         <p class="dek">
           You are browsing as a guest. Discreet mode, blur, and the age gate stay in this browser.
-          Sign in to carry saved pages and follows across devices — email link only, no password.
+          Sign in to carry saved pages and follows across devices — email and password, issued by
+          the desk's Neon Auth service.
         </p>
         <ReaderPanel reader={reader} returnTo="/you" />
         {authConfigured ? (
           <section class="you-block">
             <h2>Sign in</h2>
-            <form method="post" action="/api/auth/sign-in" class="stack" data-astro-reload>
+            <form method="post" action="/api/auth/adapter-sign-in" class="stack" data-astro-reload>
               <input type="hidden" name="return" value="/you" />
               <label class="c-field" for="auth-email">Email</label>
               <input class="c-input" id="auth-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+              <label class="c-field" for="auth-password">Password</label>
+              <input class="c-input" id="auth-password" name="password" type="password" autocomplete="current-password" required minlength="8" placeholder="at least 8 characters" />
               <div class="submit-row">
-                <button class="c-btn c-btn--primary" type="submit">Send the sign-in link</button>
+                <button class="c-btn c-btn--primary" type="submit">Sign in</button>
               </div>
             </form>
-            <p class="meta">One-time email link. We never ask for a card or an ID here.</p>
+            <h2>New here</h2>
+            <form method="post" action="/api/auth/adapter-sign-up" class="stack" data-astro-reload>
+              <input type="hidden" name="return" value="/you" />
+              <label class="c-field" for="signup-name">Name or handle</label>
+              <input class="c-input" id="signup-name" name="name" type="text" autocomplete="name" required maxlength="80" placeholder="Reader" />
+              <label class="c-field" for="signup-email">Email</label>
+              <input class="c-input" id="signup-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+              <label class="c-field" for="signup-password">Password</label>
+              <input class="c-input" id="signup-password" name="password" type="password" autocomplete="new-password" required minlength="8" placeholder="at least 8 characters" />
+              <div class="submit-row">
+                <button class="c-btn c-btn--secondary" type="submit">Create the account</button>
+              </div>
+            </form>
+            <p class="meta">
+              Sessions are verified on this server on every request. We never ask for a card or an ID
+              here; the managed Better Auth service (Neon Auth) stores the session.
+            </p>
           </section>
         ) : (
           <section class="you-block">
             <h2>Accounts are not wired up here</h2>
             <p class="meta">
-              The Supabase env is not set on this deployment
-              (PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY).
-              Everything on this page still works through this browser.
+              Neon Auth is not enabled on this deployment yet (NEON_AUTH_BASE_URL +
+              NEON_AUTH_COOKIE_SECRET unset, or the Better Auth service not enabled in the Neon
+              console). Everything on this page still works through this browser.
             </p>
           </section>
         )}

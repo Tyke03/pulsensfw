@@ -1,8 +1,8 @@
 /**
  * Usage + limit accounting for the shared model ladder (round 2F).
  *
- * Persisted daily totals in Supabase (`model_usage_daily`, migration 0003)
- * when the service env exists; in-memory counters per isolate otherwise
+ * Persisted daily totals in Neon Postgres (`model_usage_daily`, migration
+ * 0001 baseline § model usage) when the Neon env exists; in-memory counters
  * (documented honestly — dev counters reset with the server; production
  * uses the table). Enforces:
  *   - per-session turn ceiling per day,
@@ -13,7 +13,7 @@
  * Fail-closed: missing store or missing credentials produce the honest
  * "unavailable" state. No purchase path, no account creation, no keys.
  */
-import { supabaseConfigured, supabaseAdmin } from '../auth/supabase';
+import { neonRunner } from '../db/pg';
 
 export const SESSION_MAX_TURNS_DEFAULT = 30;
 export const CONCURRENCY_DEFAULT = 3;
@@ -61,7 +61,7 @@ export class UsageTracker {
   }
 
   get tableEnabled(): boolean {
-    return supabaseConfigured() && Boolean(import.meta.env.SUPABASE_SERVICE_ROLE_KEY);
+    return Boolean((import.meta.env.NEON_DATABASE_URL ?? import.meta.env.DATABASE_URL)?.trim());
   }
 
   private day(): string {
@@ -97,14 +97,21 @@ export class UsageTracker {
     this.local.set(key, row);
     if (!this.tableEnabled) return;
     try {
-      await supabaseAdmin().rpc('bump_model_usage_daily', {
-        p_day: this.day(),
-        p_session: sessionHash,
-        p_model: modelId,
-        p_prompt: prompt,
-        p_completion: completion,
-        p_cost_micro: costMicroUsd,
-      });
+      const runner = await neonRunner();
+      if (!runner) return;
+      await runner.query(
+        `INSERT INTO model_usage_daily (day, session_hash, model_id, calls, prompt_tokens, completion_tokens, est_cost_micro_usd)
+         VALUES ($1, $2, $3, 1, $4, $5, $6)
+         ON CONFLICT (day, session_hash, model_id) DO UPDATE SET
+           calls = model_usage_daily.calls + 1,
+           prompt_tokens = model_usage_daily.prompt_tokens + EXCLUDED.prompt_tokens,
+           completion_tokens = model_usage_daily.completion_tokens + EXCLUDED.completion_tokens,
+           est_cost_micro_usd = CASE
+             WHEN EXCLUDED.est_cost_micro_usd IS NULL THEN model_usage_daily.est_cost_micro_usd
+             ELSE COALESCE(model_usage_daily.est_cost_micro_usd, 0) + EXCLUDED.est_cost_micro_usd
+           END`,
+        [this.day(), sessionHash, modelId, prompt, completion, costMicroUsd],
+      );
     } catch {
       /* Table push failed; local aggregate keeps the session gate honest. */
     }

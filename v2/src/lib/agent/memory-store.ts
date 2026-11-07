@@ -3,8 +3,8 @@
  *
  * Used by unit tests and, only when `AGENT_DEV_STORE=memory` is set, by local
  * dev — never production: drafts and publications here vanish with the
- * isolate, and production content belongs in Supabase. Semantics mirror the
- * Supabase store: transactional idempotency (unique key), append-only
+ * isolate, and production content belongs in Neon Postgres. Semantics mirror
+ * the Neon store: transactional idempotency (unique key), append-only
  * revisions with unique (slug, seq), compare-and-set publication, audit
  * trail, affiliate queue.
  */

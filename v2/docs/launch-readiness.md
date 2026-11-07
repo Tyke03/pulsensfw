@@ -9,8 +9,8 @@ merge, affiliate activation, or real email happened in this round.
 | Surface | State | Needs for live |
 |---|---|---|
 | Content pages / search / compare / related | code complete (fixtures) | — |
-| Supabase accounts (magic link, RLS) | code complete + unit tests | project URL + keys |
-| Agent drafts/publish/rollback | code complete + tests (memory store) | Supabase project + agent keys + 0002 |
+| Accounts / saves / follows (Neon Auth + Neon Postgres) | code complete + unit tests (mock auth + pglite SQL) | enable Neon Auth in console + NEON_DATABASE_URL + 0001 baseline applied |
+| Agent drafts/publish/rollback | code complete + tests (pglite + memory) | Neon Postgres env + agent keys + baseline applied |
 | MCP endpoint | code complete (official SDK transport, stateless JSON) | agent keys |
 | HTTP API parity | code complete | agent keys |
 | Concierge (Persona widget + ladder) | code complete + tests (mock path) | MODELS_* keys (+ optional dev fixture for screenshots) |
@@ -66,11 +66,17 @@ Run `npm run launch:audit` for the current table (no secrets printed).
 
 ## 5. Deployment steps (owner-run; nothing executed this round)
 
-1. **Secrets service:** create the Supabase project; run
-   `supabase db push` with `supabase/migrations/{0001,0002,0003}*.sql`
-   (files under v2/supabase/migrations). Store keys in Wrangler secrets:
-   `wrangler secret put SUPABASE_SERVICE_ROLE_KEY` (etc. for every
-   server-only var in .env.example).
+1. **Neon Postgres + Auth (owner approval needed for enablement):** in the
+   Neon console create (or reuse) project `steep-field-24680180`, use a
+   **dev branch first** (`neon branches create`), apply
+   `v2/neon/migrations/0001_app_current_baseline.sql` via psql/Neon SQL
+   editor, enable **Better Auth** (Branch → Auth → Enable; sets the
+   `auth: true` flag in the root neon.ts config — that approval also flips
+   deployment state), then copy the Auth URL. Store server-only variables
+   with Wrangler secrets (`NEON_DATABASE_URL`, `NEON_AUTH_BASE_URL`,
+   `NEON_AUTH_COOKIE_SECRET`, and all other .env.example names marked
+   server-only). Root `.env.local` comes from the Neon CLI link — never
+   commit or overwrite it.
 2. **Age vendor:** provision account; put `AGE_VENDOR_API_URL` + key. Local
    dev keeps the stub automatically when unset.
 3. **Models:** pick prose model ids from the OFFICIAL catalogs only
@@ -91,8 +97,9 @@ Run `npm run launch:audit` for the current table (no secrets printed).
 
 ## 6. Backups + rollback
 
-- Supabase: enable PITR (dashboard) before go-live; nightly logical dump to
-  R2 optional via owner cron on their machine.
+- Neon Postgres: enable point-in-time restore on the production project
+  before go-live (plan feature); nightly logical dump to R2 optional via
+  owner cron on their machine.
 - Worker rollback: `wrangler rollback <deployment-id>` returns to the prior
   bundle; content rollback is data-level (agent store revisions) —
   `rollback` tool + `unpublish` never erase history.
