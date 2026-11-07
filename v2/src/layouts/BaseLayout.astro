@@ -1,0 +1,101 @@
+---
+import '../styles/site.css';
+import { ClientRouter } from 'astro:transitions';
+import { Font } from 'astro:assets';
+import AgeGate from '../components/AgeGate.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import TabBar from '../components/TabBar.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { presentArticle } from '../lib/content/present';
+import { readReader } from '../lib/reader/cookies';
+import { SITE, noticeCopy } from '../lib/site';
+import type { ReaderMode } from '../lib/content/types';
+
+interface Props {
+  title: string;
+  description?: string;
+  section?: string;
+  reader?: ReaderMode;
+  noindex?: boolean;
+  ogType?: 'website' | 'article';
+}
+const {
+  title,
+  description = SITE.description,
+  section,
+  noindex = false,
+  ogType = 'website',
+} = Astro.props;
+const secure = Astro.url.protocol === 'https:';
+const reader = Astro.props.reader ?? readReader(Astro.cookies, secure);
+const returnTo = Astro.url.pathname;
+const repo = getContentRepository();
+const topics = await repo.listTopics();
+const articles = await repo.listArticles();
+const featured = Object.fromEntries(topics.map((topic) => {
+  const match = articles.find((article) => article.topic === topic.id);
+  return [topic.id, match ? presentArticle(match, reader) : undefined];
+}));
+const notice = noticeCopy(Astro.url.searchParams.get('notice'));
+const fullTitle = reader.discreet ? SITE.discreetTitle : title;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
+const ageFailed = Astro.url.searchParams.get('notice') === 'age-failed';
+---
+<!doctype html>
+<html lang="en" data-age={reader.ageVerified ? '1' : '0'} data-nsfw={reader.nsfw ? '1' : '0'} data-discreet={reader.discreet ? '1' : '0'} data-blur={reader.blur ? '1' : '0'} class:list={{ 'is-blur': reader.blur, 'is-discreet': reader.discreet }}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content={reader.discreet ? '#2c2c30' : '#100c14'} />
+    <meta name="description" content={reader.discreet ? 'Notes' : description} />
+    <meta name="rating" content="adult" />
+    <meta name="pulse:title" content={title} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical.href} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical.href} />
+    <meta property="og:image" content={new URL('/og-default.png', Astro.site ?? Astro.url.origin).href} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={new URL('/og-default.png', Astro.site ?? Astro.url.origin).href} />
+    <link id="favicon" rel="icon" href={reader.discreet ? '/favicon-discreet.svg' : '/favicon-32.png'} type="image/png" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>{fullTitle}</title>
+    <Font cssVariable="--font-inter" preload={[{ weight: 400, style: 'normal' }]} />
+    <Font cssVariable="--font-grotesk" preload={[{ weight: 600, style: 'normal' }]} />
+    <Font cssVariable="--font-mono" />
+    <ClientRouter />
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <div class="nav-loader" aria-hidden="true">
+      <svg viewBox="0 0 88 16"><path d="M1 9 H28 L34 9 L38 2 L44 14 L48 5 L52 9 H87" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </div>
+    {!reader.ageVerified && <AgeGate returnTo={returnTo} failed={ageFailed} />}
+    <div id="site" inert={!reader.ageVerified ? true : undefined}>
+      <div class="chrome">
+        <Header reader={reader} topics={topics} featured={featured} section={section} returnTo={returnTo} />
+        <div id="pulse-rail" class="pulse-rail" transition:persist="pulse-rail">
+          <canvas id="pulse-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+      <main id="content">
+        <slot />
+      </main>
+      <Footer topics={topics} />
+      <TabBar path={Astro.url.pathname} />
+    </div>
+    {notice && <div class="toaster" role="status">{notice}</div>}
+    <div id="toaster" class="toaster" hidden></div>
+    <script>
+      import '../scripts/pulse.ts';
+      import '../scripts/shell.ts';
+    </script>
+  </body>
+</html>

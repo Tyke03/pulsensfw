@@ -1,0 +1,34 @@
+---
+import ErrorState from '../components/states/ErrorState.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { readReader } from '../lib/reader/cookies';
+import { SITE, noticeCopy } from '../lib/site';
+import { mailConfig } from '../lib/mail/ses';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const notice = Astro.url.searchParams.get('notice');
+const copy = noticeCopy(notice);
+const mailConnected = mailConfig() !== null && Boolean(mailConfig()?.contactInbox);
+---
+<BaseLayout title={`Contact · ${SITE.name}`} description="Write the desk. Mail runs through Amazon SES when configured." reader={reader}>
+  <article class="page" style="padding-bottom:48px;max-width:720px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Contact' }]} />
+    <p class="kicker">Contact</p>
+    <h1>Write the desk</h1>
+    <p class="dek">
+      {mailConnected
+        ? 'Notes reach the desk by plain-text email. We never ask for an ID or a card to answer.'
+        : 'Email delivery is not connected on this deployment. Nothing is stored and nothing is sent — the API answers honestly.'}
+    </p>
+    {notice === 'contact-unconfigured' && <ErrorState title="The desk is not connected" body="Nothing was stored or sent. Wire the SES env keys (see .env.example) to turn delivery on." />}
+    {notice === 'contact-invalid' && <ErrorState title="That form is incomplete" body="Add a name, an email with a domain, and a message." />}
+    {copy && notice !== 'contact-unconfigured' && notice !== 'contact-invalid' && <p class="meta">{copy}</p>}
+    <form method="post" action="/api/contact" class="stack" data-astro-reload style="display:grid;gap:12px;margin-top:16px">
+      <input type="hidden" name="return" value="/contact" />
+      <label class="c-field">Name <input class="c-input" name="name" autocomplete="name" required /></label>
+      <label class="c-field">Email <input class="c-input" name="email" type="email" autocomplete="email" required /></label>
+      <label class="c-field">Message <textarea class="c-textarea" name="message" required></textarea></label>
+      <button class="c-btn c-btn--primary" type="submit">Submit</button>
+    </form>
+  </article>
+</BaseLayout>

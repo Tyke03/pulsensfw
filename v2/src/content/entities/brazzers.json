@@ -1,0 +1,94 @@
+{
+  "slug": "brazzers",
+  "type": "site",
+  "name": "Brazzers",
+  "url": "https://www.brazzers.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "creator_program"
+  ],
+  "summary": "The flagship premium studio brand: long-running exclusive HD series, high-production scenes with top-billed performers, and a network of branded spin-off sites under one membership.",
+  "tags": [
+    "premium",
+    "studio",
+    "hd",
+    "exclusive"
+  ],
+  "ranking_rationale": "Filled the premium-studio slot on our own editorial call: the studio's official pages verified live and it is an industry-standard premium subscription. No pricing was captured first-party at check time, so the score is withheld rather than guessed.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No first-party price verified at check time — the checkout is behind an age/payment gate. Do not quote reseller figures."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": null,
+  "pros": [
+    "High-production exclusive content with top performers",
+    "Network of branded sites under one membership",
+    "Industry-standard brand since the mid-2000s"
+  ],
+  "cons": [
+    "Full-price membership; no meaningful free browsing",
+    "Price behind an age gate, not verified here",
+    "Trial auto-renews at a higher rate (two independent sources report this)"
+  ],
+  "image": null,
+  "facts": [
+    {
+      "key": "Offering",
+      "value": "HD/4K exclusive scenes, top-pornstar productions, high-end series",
+      "source_url": "https://www.brazzers.com/about",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Fetched via search snippet of the official about page."
+    },
+    {
+      "key": "Network",
+      "value": "Multiple branded sites under one membership (official network listing)",
+      "source_url": "https://www.brazzers.com/sites/?action=our-sites",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Recognition",
+      "value": "Pornhub Awards 'Most Popular Channel' — reported five consecutive years (industry reporting)",
+      "source_url": "https://aiwards.com/studio/brazzers",
+      "checked": "2026-10-27",
+      "evidence_type": "aggregator",
+      "notes": "Background context only, not used for inclusion."
+    },
+    {
+      "key": "Reported price",
+      "value": "Conflicting reports: $25.99 vs $29.99/month (annual $92.99 vs $119.99) — kept null",
+      "source_url": "https://www.adultforce.com",
+      "checked": "2026-10-27",
+      "evidence_type": "aggregator",
+      "notes": "Third-party figures conflict and the official checkout is age-walled. Do not publish either figure."
+    },
+    {
+      "key": "Official affiliate program",
+      "value": "AdultForce is listed as the affiliate program (brazzers.com AFFILIATE_PROGRAM_URL points there; Brazzers is a named partner brand)",
+      "source_url": "https://www.adultforce.com",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-10-27",
+  "affiliate": {
+    "program_name": "AdultForce (Brazzers offer)",
+    "network": "AdultForce",
+    "commission": "Revshare / pay-per-signup / pay-per-lead — per-offer rates inside the network; Brazzers-specific % not published publicly, 15-business-day payout cycle",
+    "cookie_days": null,
+    "signup_url": "https://www.adultforce.com/signup",
+    "notes": "brazzers.com config points its affiliate program URL at adultforce.com; AdultForce lists Brazzers as a partner brand.",
+    "checked": "2026-10-27"
+  }
+}

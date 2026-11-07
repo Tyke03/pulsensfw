@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+---
+<BaseLayout title={`Affiliate disclosure · ${SITE.name}`} description="How affiliate links will be labeled when they exist." reader={reader}>
+  <article class="page" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Affiliate disclosure' }]} />
+    <p class="kicker">Disclosure</p>
+    <h1>Affiliate disclosure</h1>
+    <div class="prose">
+      <p>Some outbound links are affiliate links. They are marked in the entity record and on the page with a “sponsored” relationship. The current tracked links are CrushOn AI and SpicyChat. Every other outbound link is plain.</p>
+      <p>An affiliate commission does not change a score, a rank, or a fact. If a product is not worth the money, the link does not make it worth the money. Prices are snapshots with a checked date; always confirm the current offer at checkout.</p>
+      <p>When a link can pay the desk, the line on it will read: Affiliate link—if you choose to try it, PulseNSFW may earn a commission at no extra cost to you. Straight news does not carry that link. A story gets at most one.</p>
+    </div>
+  </article>
+</BaseLayout>

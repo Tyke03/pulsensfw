@@ -1,0 +1,15 @@
+---
+import ErrorState from '../../components/states/ErrorState.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readReader } from '../../lib/reader/cookies';
+import { SITE } from '../../lib/site';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+---
+<BaseLayout title={`Something failed · ${SITE.name}`} reader={reader} noindex>
+  <div class="page" style="padding:32px 0 48px">
+    <ErrorState title="The desk could not load this row" body="This is the designed error state. In production it is what a failed content fetch looks like. Retry, or go back to the front.">
+      <a class="c-btn c-btn--primary" href="/">Back home</a>
+      <a class="c-btn c-btn--secondary" href="/preview/error">Try again</a>
+    </ErrorState>
+  </div>
+</BaseLayout>

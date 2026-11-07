@@ -1,0 +1,594 @@
+[
+  {
+    "canonical_id": "agnai",
+    "platform": "Agnai",
+    "nsfw_first_party": {
+      "answer": "unresolved",
+      "url": "https://github.com/agnaistic/agnai",
+      "quote_or_paraphrase": "The official repository documents fictional-character roleplay and user-selected model providers, but the inspected first-party material does not expressly authorize sexual adult content.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://github.com/agnaistic/agnai"
+    },
+    "red_flags": [],
+    "excluded_accounts": [
+      {
+        "account": "sceuick",
+        "reason": "staff"
+      }
+    ],
+    "operator": "Agnaistic open-source project; legal entity unverified",
+    "white_label_family": "",
+    "notes": "Accessed 2026-11-03. Direct checks: official repository, live Settings page and attempted /terms page. Settings exposed only the application shell; /terms failed, so current hosted subscription prices and legal content permission remain unresolved. Repository explicitly separates third-party text backends from optional image generation and supports self-hosting. It warns that anonymous-mode browser storage is deleted when application data/cookies are cleared. A fetched Reddit thread contains multiple CosmosRP/Pawan connection failures; maintainer sceuick attributes them to upstream IP blocking, while Shiite_23 says Agnaistic's own presets still work. This is an integration outage, not evidence of an Agnai shutdown, content purge or sexual-content filter change. A separate privacy-fear thread supplies no verified evidence of human spying or a breach. Empty red_flags means no qualifying verified finding, not a clean bill of health. [1650][1651][1524][1523]"
+  },
+  {
+    "canonical_id": "ai-boyfriend-caitty",
+    "platform": "AI Boyfriend — Caitty",
+    "nsfw_first_party": {
+      "answer": "unresolved",
+      "url": "https://caitty.com/ai-boyfriend-app/",
+      "quote_or_paraphrase": "The official website offers romantic AI boyfriends and private galleries, but no explicit sexual adult-chat permission was verified.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": ""
+    },
+    "red_flags": [
+      {
+        "type": "deceptive_marketing",
+        "summary": "First-party privacy wording conflicts: the product page says it never shares personal data, while the linked-brand privacy policy permits collection and sharing of IDFA and advertising data with partners including AdMob. This is a documented disclosure inconsistency, not proof of unauthorized disclosure or a breach.",
+        "sources": [
+          {
+            "url": "https://caitty.com/ai-boyfriend-app/",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://caitty.com/ai-boyfriend-app/privacy",
+            "source_type": "first_party",
+            "date_shown": "Last updated: January 7, 2026",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "Caitty; Google Play developer identity 甘传立",
+    "white_label_family": "Caitty product portfolio; AI Boyfriend and AI Boyfriend 2 are distinct first-party apps, not proven white-label clones",
+    "notes": "Package ambiguity resolved rather than silently merged: caitty.com.aiboyfriend is AI Boyfriend; caitty.com.AiBoyfriend2Pro is AI Boyfriend 2. The original app advertises premium unlimited access to all boyfriends but does not clearly specify text/image accounting. AI Boyfriend 2 separately advertises optional Stars shared across chats, photos, gifts and calls, with Premium unlocking free chat plus 500 Stars monthly; that entitlement was not automatically assigned to the original app. The original product's privacy page is iOS-oriented, while the supplied platform is Android. Direct Terms-page retrieval failed, so its content restrictions and cancellation provisions were not inferred from snippets. Independent searches did not establish a page-verified qualifying complaint. [1504][1588][1648][1694]"
+  },
+  {
+    "canonical_id": "ai-boyfriend-chat-husby",
+    "platform": "AI Boyfriend Chat - Husby",
+    "nsfw_first_party": {
+      "answer": "unresolved",
+      "url": "https://www.aihusby.com/",
+      "quote_or_paraphrase": "The official product website advertises romantic and emotional conversations, voice and a photo feed, but does not expressly permit sexual adult chat.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": ""
+    },
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "Weappico Limited, App Store seller and copyright owner; developer attribution Iurii Filin",
+    "white_label_family": "",
+    "notes": "Resolved App Store ID 6448729671. Directly inspected the official website and US listing. The listing expressly places text communication among Premium features and lists multiple offers: weekly $7.99/$14.99, monthly $19.99/$29.99, annual $29.99/$59.99 and three-month $24.99/$49.99, plus Hearts purchases. These are listed product SKUs, not proof every offer is currently available to every account; the mapping between Hearts, photos and text remains unverified. Both exact Flycricket Terms and Privacy links embedded in the listing were attempted but failed. The website's no-third-party-message-sharing claim therefore could not be reconciled with a readable full policy. Regional review leads about failures to open the app could not be fetched and were not converted into findings or user counts. Product-hosted testimonials were not treated as independent evidence. [1505][1492]"
+  },
+  {
+    "canonical_id": "ai-boyfriend-love-chat-partner",
+    "platform": "AI Boyfriend:Love Chat Partner",
+    "nsfw_first_party": {
+      "answer": "unresolved",
+      "url": "https://play.google.com/store/apps/details?id=com.fjsh.alwayssupportiveboyfriend&hl=en_US",
+      "quote_or_paraphrase": "The resolved official listing offers emotional support and customizable virtual boyfriends, without explicit sexual adult-chat permission or a verified permissive web version.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": ""
+    },
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "fjsh; Google Play developer identity 藤本 祥",
+    "white_label_family": "",
+    "notes": "Previously unresolved Android identity is now verified as com.fjsh.alwayssupportiveboyfriend, with support zero@zerotoone.app. Official copy says all data stays on-device, while developer-provided Data safety declares third-party sharing of location, app/performance information and device identifiers, no collection, and data that cannot be deleted. Those declarations deserve scrutiny but do not prove chat leakage or a breach. Kimberly Kaschalk, May 15, 2026, reports an ad after each response and broken/random replies; monsurah Agunmate, August 3, 2026, praises expression changes but reports no audio and occasional nonresponse. BB Harris, June 22, 2026, reports a violent-content refusal that disappeared after deletion/reset and remains positive overall. A transient refusal does not establish tightening. No exact-app Terms/pricing page was successfully verified; a same-name privacy-policy candidate could not be retrieved or conclusively linked. No shared image-credit scheme was established. [1510]"
+  },
+  {
+    "canonical_id": "ai-friend-3d-talking-buddy",
+    "platform": "AI Friend 3D - Talking Buddy",
+    "nsfw_first_party": {
+      "answer": "unresolved",
+      "url": "https://yapailabs.com/privacy-policy/",
+      "quote_or_paraphrase": "The official policy documents general AI conversation, transcription and speech synthesis, but does not explicitly permit sexual adult conversation.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://yapailabs.com/privacy-policy/"
+    },
+    "red_flags": [],
+    "excluded_accounts": [
+      {
+        "account": "yapAI Labs / developer responses",
+        "reason": "staff"
+      }
+    ],
+    "operator": "YAPAI LABS YAPAY ZEKA TEKNOLOJILERI ANONIM SIRKETI",
+    "white_label_family": "",
+    "notes": "Resolved Android com.yapailabs.talkingbuddyai and iOS ID 6737452325. The directly inspected privacy policy, Last Updated Mar 05, 2025, states: Premium users receive a daily quota of 100 voice chats and unlimited text messaging, subject to fair use. It says complete dialogues are sent to OpenAI for generation, personalization extracts are retained in Firebase, and audio can be sent to Whisper; locally displayed 3D characters do not imply fully local inference. The linked Terms page failed. US App Store SKUs include $3.99/$5.99 weekly, $4.99/$8.99 monthly, $49.99 yearly and $119.99/$59.99 Elite yearly offers; actual checkout eligibility was not tested. Sam Judge criticizes subscription value and absent custom characters; Trickster Teedo praises the experience. Alice S reports crashes; the developer says a Galaxy-device issue was fixed. These are quality/value observations, not verified billing misconduct or shutdown evidence. [1635][1549][1624]"
+  },
+  {
+    "canonical_id": "ai-girlfriend-trumate",
+    "platform": "AI Girlfriend - TruMate",
+    "nsfw_first_party": {
+      "answer": "unresolved",
+      "url": "https://play.google.com/store/apps/details?id=com.aichatbot.aimate&hl=en",
+      "quote_or_paraphrase": "The exact product listing advertises romantic chat and bikini selfies, but does not expressly permit explicit sexual chat; no matching permissive web policy was verified.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": ""
+    },
+    "red_flags": [
+      {
+        "type": "billing",
+        "summary": "Jake Murphy reports buying an annual subscription and later encountering rewards designed around expensive coin bundles. Michael DeAngelo separately reports that many of the advertised first ten free messages are hidden unless a $15 monthly subscription is purchased. These are two monetization/entitlement complaints, not proof of unauthorized charges. The developer's reply to Jake says payment arrangements were improved and promises broader member access.",
+        "sources": [
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.aichatbot.aimate&hl=en",
+            "source_type": "independent_user",
+            "date_shown": "July 22, 2023; October 2, 2024",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.aichatbot.aimate&hl=en",
+            "source_type": "first_party",
+            "date_shown": "August 24, 2023",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 2,
+        "status": "recurring"
+      }
+    ],
+    "excluded_accounts": [
+      {
+        "account": "AI Design Labs / developer response",
+        "reason": "staff"
+      }
+    ],
+    "operator": "UFOTO LIMITED; developer label AI Design Labs",
+    "white_label_family": "",
+    "notes": "Exact package com.aichatbot.aimate was reverified. It is not the separately listed TruMate-Character AI & Story, package com.bliss.virtual.soulmate. Search results for a face-swap TruMate/NeoCortext privacy policy and unrelated TruMate subscription prices were excluded from attribution. Exact-product listing declares no collection/sharing, Data isn't encrypted and Data can't be deleted; these are developer disclosures, not a demonstrated breach. Generic Dude, December 21, 2024, gives a mixed review, praising try-before-buy and layout while criticizing subscription pressure and contextual errors. The original privacy link's destination was not exposed by extraction, and no exact-app ToS/pricing page was independently verified. "
+  },
+  {
+    "canonical_id": "ai-peeps",
+    "platform": "AI Peeps",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://aipeeps.com",
+      "quote_or_paraphrase": "Yes, for adults. After the 18+ confirmation, chats, images and videos can be explicit, and you choose how far the roleplay goes. Content involving minors or real people is never allowed.",
+      "verbatim": true
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://aipeeps.com"
+    },
+    "red_flags": [],
+    "excluded_accounts": [
+      {
+        "account": "Aipeeps / company-authored profile and replies",
+        "reason": "staff"
+      }
+    ],
+    "operator": "AI Peeps Lab di Biscione Valerio; Italian VAT 06062320657",
+    "white_label_family": "",
+    "notes": "Direct ToS inspection: /tos/, Last updated May 28, 2026. Sections 8–9 qualify uncensored marketing: prohibited content includes sexual coercion, minor-coded sexual content and nonconsensual real-person imagery; automated filters and necessary manual review of prompts, media and chat data are permitted. This establishes current boundaries, not a historical tightening. Homepage explicitly separates unlimited paid text from PeepCoins for images/video. Direct /pricing retrieval returned the homepage rather than a numeric plan table, so no checkout price was certified. Terms generally make delivered/available digital purchases final subject to mandatory law; no unused-period partial refunds, while cancellation preserves access through the paid period. Recurring card charges promise seven-day email notices; prepaid codes do not auto-renew. Trustpilot's inspected reports were positive, including Jack Snack's rapid support resolution and Diego Guzman's solved problem. Its merged-profile notice does not prove fake reviews, ownership change or a clone. No qualifying verified red flag found. [1587][1670][1608]"
+  },
+  {
+    "canonical_id": "ai-voice-assistant-fala-ai",
+    "platform": "AI Voice Assistant - Fala AI",
+    "nsfw_first_party": {
+      "answer": "unresolved",
+      "url": "https://apps.apple.com/us/app/ai-voice-assistant-fala-ai/id6741577068",
+      "quote_or_paraphrase": "The official listing describes a general voice/photo assistant, without explicit sexual adult-chat permission or a verified permissive web version.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": ""
+    },
+    "red_flags": [
+      {
+        "type": "billing",
+        "summary": "000submitter reports subscribing, encountering nonworking voices across two days and having an Apple refund request rejected. One firsthand service/refund account; references to other bad reviews were not counted as additional independent users.",
+        "sources": [
+          {
+            "url": "https://apps.apple.com/us/app/ai-voice-assistant-fala-ai/id6741577068",
+            "source_type": "independent_user",
+            "date_shown": "04/29/2025",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 1,
+        "status": "isolated"
+      },
+      {
+        "type": "deceptive_marketing",
+        "summary": "Documented historical brand-confusion warning: official version history says Sesame became Ses AI and later Fala AI after the developer was informed the former name caused confusion. The current listing explicitly disclaims affiliation with Sesame AI. This verifies a corrected naming-confusion issue, not a court finding of impersonation or fraud.",
+        "sources": [
+          {
+            "url": "https://apps.apple.com/us/app/ai-voice-assistant-fala-ai/id6741577068",
+            "source_type": "first_party",
+            "date_shown": "12/16/2025; Mar 24",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [
+      {
+        "account": "rohe.ai / Developer Response; Jenny, Customer Support Sesame",
+        "reason": "staff"
+      }
+    ],
+    "operator": "rohe technik OU; developer label rohe.ai",
+    "white_label_family": "",
+    "notes": "Resolved App Store ID 6741577068. Exact linked legal URLs, falaai.framer.website/terms-of-service and /privay-policy, were both attempted and failed. Listed US purchases: Weekly Pro $7.99, Sesame AI Voice Pro $24.99 with no clear period in that SKU name, Yearly Pro $89.99. $NOK$AMC reports deletion returning to onboarding; the developer's 07/02/2025 response says a delete-memory button was added. That is a reported deletion defect with a claimed fix, not a data breach. Ian'sBrick Studio praises voice interaction; ClassicalBuddy praises the concept but reports stale knowledge. Duplicate rendering of each review was counted once. No separate text/image-credit accounting was verified. "
+  },
+  {
+    "canonical_id": "aiallure",
+    "platform": "aiAllure",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://aiallure.com",
+      "quote_or_paraphrase": "The platform offers private NSFW AI chat, custom companion creation, fictional nude-style AI images, V5 videos, and a chat feature that keeps the same character identity across the whole experience.",
+      "verbatim": true
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://www.aiallure.com/faq"
+    },
+    "red_flags": [
+      {
+        "type": "billing",
+        "summary": "Murdhy reports a one-day subscription converting to a monthly charge despite an attempted cancellation, and says no refund was offered. Current first-party FAQ explicitly discloses that paid 24-hour trials become monthly unless canceled, while Terms promise no further charges after successful cancellation. Whether this user's cancellation completed is unresolved. Patrick Kokur separately criticizes paid unlocks, but is not counted as corroboration of the cancellation incident.",
+        "sources": [
+          {
+            "url": "https://www.trustpilot.com/review/aiallure.com",
+            "source_type": "independent_user",
+            "date_shown": "Jul 27, 2025; experience July 26, 2025",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://www.aiallure.com/faq",
+            "source_type": "first_party",
+            "date_shown": "Updated August 5, 2026",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://www.aiallure.com/legal/terms",
+            "source_type": "first_party",
+            "date_shown": "Last Updated: February 24, 2026",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 1,
+        "status": "isolated"
+      },
+      {
+        "type": "content_purge",
+        "summary": "Disclosed automatic retention/cleanup risk, not a verified historical purge: unlocked generated images and videos become eligible for deletion after 72 hours. Base locked storage is 100 images and 50 videos; larger vaults cost coins. Lifetime subscription access does not promise permanent media retention. No independent loss incident was verified.",
+        "sources": [
+          {
+            "url": "https://www.aiallure.com/faq",
+            "source_type": "first_party",
+            "date_shown": "Verified August 5, 2026",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "Novera Group s.r.o.; IČO 22152610; VAT CZ22152610",
+    "white_label_family": "",
+    "notes": "Direct legal Terms and detailed FAQ inspected. Current numeric monthly prices are 19.90/39.90/59.90 for Starter/Pro/Power; yearly totals 118.80/238.80/358.80; lifetime 199/399/599. FAQ says the same numeric amounts can be shown in USD, EUR or GBP by region; checkout currency controls. Core paid chat/images/video are uncapped but subject to queues, cooldowns, safety and fair use; optional premium processing/storage uses AllureCoins. This corrects treating homepage no-tokens wording as applying to every feature. Terms generally make purchases nonrefundable except mandatory law and specified exceptions, promise cancellation confirmation within 24 hours, and require 30 days' notice for price changes. Moderation includes prompt/output scanning and human review of flagged content, not absolute confidentiality from the operator. Patrick Kokur's extra-unlock criticism conflicts with Test Tester's unlimited-use praise and Mavic Films' positive live-call report; no affiliation was proven for any of them. [1534][1669][1607]"
+  },
+  {
+    "canonical_id": "aiboy-virtual-ai-boyfriend",
+    "platform": "AIBoy - Virtual AI Boyfriend",
+    "nsfw_first_party": {
+      "answer": "no",
+      "url": "https://www.aiboy.app/terms",
+      "quote_or_paraphrase": "content meant to arouse sexual excitement, such as the description of sexual activity, or that promotes sexual services (excluding sex education and wellness);",
+      "verbatim": true
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": ""
+    },
+    "red_flags": [
+      {
+        "type": "billing",
+        "summary": "Casey Delachante reports paying $25 for a monthly subscription, losing visible game data and requesting cancellation/refund after disappointing results. The developer acknowledges conversation-quality issues and says a free version exists, disputing the reviewer's no-trial implication. One firsthand complaint; no refund outcome or unauthorized charge was verified.",
+        "sources": [
+          {
+            "url": "https://play.google.com/store/apps/details?id=aiboy.companion.app&hl=en",
+            "source_type": "independent_user",
+            "date_shown": "June 7, 2026",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=aiboy.companion.app&hl=en",
+            "source_type": "first_party",
+            "date_shown": "June 8, 2026",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://aiboy.app/refund",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 1,
+        "status": "isolated"
+      },
+      {
+        "type": "deceptive_marketing",
+        "summary": "Legal counterparty ambiguity across current first-party surfaces: Android identifies LIFEPLUS HEALTH LTD, website/refund footer identifies A.S GRAND MOBILE VENTURES LIMITED, and January 2026 Terms/Privacy identify TEQUILAB LP. The documents also use FriendX titles and iOS-specific clauses despite Android availability. Their relationship and document precedence were not verified; this is an identity/disclosure warning, not proof of a clone or fraudulent ownership.",
+        "sources": [
+          {
+            "url": "https://play.google.com/store/apps/details?id=aiboy.companion.app&hl=en",
+            "source_type": "first_party",
+            "date_shown": "Updated on Oct 3, 2026",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://www.aiboy.app/terms",
+            "source_type": "first_party",
+            "date_shown": "Last updated: January 2026",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://www.aiboy.app/privacy",
+            "source_type": "first_party",
+            "date_shown": "Last modified: January 2026",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://aiboy.app/refund",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [
+      {
+        "account": "Life Plus Fitness / developer responses",
+        "reason": "staff"
+      }
+    ],
+    "operator": "Android: LIFEPLUS HEALTH LTD, developer label Life Plus Fitness; website/footer: A.S GRAND MOBILE VENTURES LIMITED; Terms/Privacy: TEQUILAB LP; relationship unresolved",
+    "white_label_family": "",
+    "notes": "Android identity now resolved as aiboy.companion.app, not the separate aiboy.app package. Published official-domain Terms ban sexual-arousal content; no permissive browser-chat policy was found. These Terms describe a mobile app and contain iOS-specific language, so application to every Android build is not independently established. The refund policy generally excludes refunds after a billing cycle begins, allows case-by-case technical-error claims within 30 days, and makes a website money-back offer conditional on checkout eligibility and usage proof; its four-consecutive-days requirement conflicts with a later three-days-of-screenshots instruction. Marie Koepsel reports successful free use and good memory, while Ali reports memory/story failures; developer says up to 50 messages and Premium extra memories. Privacy policy discloses OpenAI processing and advertising/analytics, unlike the Android no-data-collected declaration. This is not a verified breach. [1557][1633][1634][1684][1680]"
+  },
+  {
+    "canonical_id": "aimy-アイミー",
+    "platform": "Aimy (アイミー)",
+    "nsfw_first_party": {
+      "answer": "no",
+      "url": "https://aimmy.jp/terms_of_use",
+      "quote_or_paraphrase": "猥褻な行為又はストーカー行為を目的として本サービスを利用する行為",
+      "verbatim": true
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://aimmy.jp/"
+    },
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "Terms: アイミー株式会社 / aimy inc.; Google Play publisher: AISAAC INC.; relationship not independently verified",
+    "white_label_family": "",
+    "notes": "Direct Terms inspected, revised 2026年10月01日. Quoted Article 8(1)(7) prohibits use for obscene acts or stalking; Article 8(1)(5) also prohibits supplying obscene or youth-harmful information. Romantic flirtation and affectionate conversation are advertised, but explicit sexual permission was not found. Official homepage independently allocates five daily free conversations and unlimited conversation on ずっと仲良し, separate from dress-up gacha. Exact current numeric plan prices were not exposed by inspected first-party pages; third-party ¥980/¥2,980 quotes were not certified. Gems have no standard expiry under Article 6 but may be canceled on specified grounds including termination; this is a contractual caveat, not a verified confiscation incident. Terms permit submitted content use for promotion/improvement and do not guarantee message retention. Independent search was dominated by staff and point-reward marketing; no qualifying verified user incident was established, and no account was labeled affiliate solely from a snippet. [1589][1584]"
+  },
+  {
+    "canonical_id": "airfriend",
+    "platform": "Airfriend",
+    "nsfw_first_party": {
+      "answer": "no",
+      "url": "https://airfriend.ai/ja/tos/",
+      "quote_or_paraphrase": "性行為やわいせつな行為を目的とする行為",
+      "verbatim": true
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": "https://airfriend.ai/ja/subscriptions/"
+    },
+    "red_flags": [
+      {
+        "type": "policy_pivot",
+        "summary": "Confirmed historical monetization change: the June 4, 2024 update ended new purchases of the unlimited legacy Premium plan. Renewing legacy users retained unlimited Basic/Real AI only through July 7, 2024; from July 8 renewals received 1,000 points/month. One received AI message consumes one point, and zero points prevents further chat/call replies. This is a first-party entitlement change, not a user allegation or current platform shutdown.",
+        "sources": [
+          {
+            "url": "https://airfriend.ai/ja/subscriptions/",
+            "source_type": "first_party",
+            "date_shown": "2024年6月4日; 2024年7月7日; 2024年7月8日",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      },
+      {
+        "type": "billing",
+        "summary": "Published points expire one month after allocation, creating a use-it-or-lose-it subscription allowance. Official monthly prices/allowances shown are ¥1,200/400 points, ¥3,600/1,800, ¥7,200/3,600 and ¥14,400/7,200; free users receive 40 monthly points. These are disclosed official-page conditions, not evidence of unauthorized billing. Whether this older public table matches every current in-app offer was not tested.",
+        "sources": [
+          {
+            "url": "https://airfriend.ai/ja/subscriptions/",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "Airfriend, Inc. / エアフレンド株式会社",
+    "white_label_family": "",
+    "notes": "Web-published Terms govern the NSFW answer: the quote prohibits acts aimed at sexual or obscene activity, and Article 7 also bans sending obscene expressions. Terms allow supplemental rules to override them, but no inspected web supplemental adult exemption was verified. Search leads about a newer mobile R18 mode were not treated as a web permission; attempted current App Store fetch failed. Official Q&A verifies Android ai.airfriend.airfriend and iOS ID 6443962601, says the LINE version ended and is not planned to restart, and offers account migration. This is not closure of the entire service. Points are confirmed for text/voice, but no shared image-generation balance was established, so the image-credit question remains unresolved rather than equating all metered text with image-credit use. No qualifying independent complaint was page-verified. [1654][1657]"
+  },
+  {
+    "canonical_id": "alphazria",
+    "platform": "Alphazria",
+    "nsfw_first_party": {
+      "answer": "unresolved",
+      "url": "",
+      "quote_or_paraphrase": "",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": ""
+    },
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "",
+    "white_label_family": "",
+    "notes": "Accessed 2026-11-03. Primary homepage returned unreadable encoded-looking text; direct www Terms and pricing attempts failed. An extracted page title identified NSFW chat, but without readable policy/product text and reliable current status, no substantive permission or price was certified. An affiliate directory claims shutdown on September 9, 2026; excluded as evidence under the requested rules. A Reddit custom-roleplay lead could not be fetched. Consequently there is no verified shutdown flag, independent-user count, legal operator or credit scheme. Fetch/extraction failure is not itself proof of shutdown."
+  },
+  {
+    "canonical_id": "anima-ai",
+    "platform": "Anima AI",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://myanima.ai/blog/best-ai-sexting-apps",
+      "quote_or_paraphrase": "Premium plans include NSFW roleplay capabilities in romantic as well as erotic modes.",
+      "verbatim": true
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": ""
+    },
+    "red_flags": [
+      {
+        "type": "billing",
+        "summary": "Material first-party billing conditions: Terms section 6.6 permits repeated renewal attempts using progressively smaller amounts after a full charge is declined. A separate refund page imposes a 24-hour request window, while subscription Terms also preserve conditional EU/EEA/UK/Swiss withdrawal rights and route store purchases through store refund processes. These are contractual purchase risks, not proof of unauthorized charges or an adjudication of enforceability.",
+        "sources": [
+          {
+            "url": "https://myanima.ai/legal/terms",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://myanima.ai/legal/cancellation-policy",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://myanima.ai/legal/subscription-terms",
+            "source_type": "first_party",
+            "date_shown": "Last updated: 09 January 2025",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "Labane Corp. Ltd., Cyprus",
+    "white_label_family": "Labane / MyAnima product group; common operator with Anima: My Virtual AI Boyfriend verified, white-label licensing unverified",
+    "notes": "NSFW result upgraded from unresolved based on explicit own-product web copy, not third-party reviews. That January 7, 2026 article quotes $9.99/month and $39.99/year, but no current checkout confirmed those prices; generic subscription Terms defer to the purchase screen. Terms require cancellation at least 24 hours before period end, permit free/paid feature changes, grant a broad perpetual User Content publication/display license and say customer support is not obligatory. These clauses do not prove a breach or actual purge. Current legal pages promote GetHoney while saying Anima remains available; that is cross-promotion, not verified shutdown. A fetched paid-feature complaint lacked a visible username and exposed ambiguous ADMIN/MOD labels, so no independent-user count was assigned. Another historical ERP/memory discussion likewise lacked usable identities; it was not used to claim recurrence. [1573][1590][1591][1592][1689][1661]"
+  },
+  {
+    "canonical_id": "anima-my-virtual-ai-boyfriend",
+    "platform": "Anima: My Virtual AI Boyfriend",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://boyfriend.myanima.ai",
+      "quote_or_paraphrase": "While you indulge in naughty chats with him, we work around the clock to ensure your chats and naughty pics all stay safe.",
+      "verbatim": true
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": ""
+    },
+    "red_flags": [
+      {
+        "type": "billing",
+        "summary": "The boyfriend-specific Terms also permit renewal retries at progressively smaller amounts after a declined full charge and generally make web purchases nonrefundable subject to mandatory law. Subscription Terms distinguish store and website cancellation/refunds and say deleting the app does not cancel billing. This is the same operator-level contractual pattern observed for Anima AI, not a second independent complaint or proof of repeated misconduct.",
+        "sources": [
+          {
+            "url": "https://boyfriend.myanima.ai/legal/terms",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          },
+          {
+            "url": "https://boyfriend.myanima.ai/legal/subscription-terms",
+            "source_type": "first_party",
+            "date_shown": "Last updated: 09 January 2025",
+            "accessed": "2026-11-03",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [
+      {
+        "account": "LABANE CORP. Limited / developer responses",
+        "reason": "staff"
+      }
+    ],
+    "operator": "Labane Corp. Ltd.",
+    "white_label_family": "Labane / MyAnima product group; common operator with Anima AI verified, white-label licensing unverified",
+    "notes": "Resolved Android package ai.boyfriend.virtual.dating.lover.iboy. Explicit web product copy permits sexual fantasy/naughty conversation, satisfying the requested web-version rule without relying on store age ratings. Direct boyfriend-specific Terms and subscription Terms were inspected; no reliable current numeric checkout price or separate text/image balance was verified. Rakashael Connolly, February 28, 2022, reports weak retention; Audrey Gage, May 1, 2023, also reports forgetting while rating the app positively and describing adult behavior. These historical quality reports are not evidence of a current filter change, deliberate deception or a breach; repeated appearances are deduplicated. The web homepage's never-forgets language conflicts with its own legal disclaimers of conversational consistency, but no newly verified current performance test establishes deliberate false advertising. The boyfriend privacy page also contains inconsistent age references and broad analytics/advertising processing; no actual exposure incident was verified. [1703][1652][1653][1691][1494]"
+  }
+]

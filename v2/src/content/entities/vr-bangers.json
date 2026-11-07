@@ -1,0 +1,69 @@
+{
+  "slug": "vr-bangers",
+  "type": "site",
+  "name": "VR Bangers",
+  "url": "https://vrbangers.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "Premium VR studio: high-production VR scenes and spin-off brands (VRB Trans, VRB Gay, VRConk, etc.) with its own join/billing and an affiliate portal.",
+  "tags": [
+    "vr",
+    "studio",
+    "premium"
+  ],
+  "ranking_rationale": "Second VR entry on our own editorial call: a premium VR studio brand complementing the SLR aggregator pick. Own join-now page and studio product verified live; pricing is not published on the marketing pages at check time.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": "Teasers",
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No first-party price published on fetched pages; tracker figures not copied."
+  },
+  "platforms": [
+    "Web",
+    "Quest / SteamVR / PSVR / mobile VR"
+  ],
+  "score": null,
+  "pros": [
+    "High-production VR content incl. 6K/8K options",
+    "Multiple branded spin-offs under one brand family",
+    "Established studio since the mid-2010s"
+  ],
+  "cons": [
+    "Price not published outside checkout",
+    "Smaller library than aggregator sites by design"
+  ],
+  "image": null,
+  "facts": [
+    {
+      "key": "Offering",
+      "value": "Premium VR scenes, multiple branded spin-offs, own join-now page with age-gated checkout",
+      "source_url": "https://vrbangers.com/join-now/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Marketing",
+      "value": "Discounts and bundle offers shown on the studio homepage at check",
+      "source_url": "https://vrbangers.com/affiliates/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Percentages are sliding promos, not list prices."
+    }
+  ],
+  "affiliate": {
+    "program_name": "UnzipVR Affiliates (VR Bangers program)",
+    "network": "Own (in-house portal)",
+    "commission": "Unverified — JS-only portal; sign-up to see current rates",
+    "cookie_days": null,
+    "signup_url": "https://unzipvr.com/",
+    "notes": "VR Bangers’ \"Affiliates\" menu points to UnzipVR’s affiliate portal. Commission not published pre-signup.",
+    "checked": "2026-10-27"
+  },
+  "updated": "2026-10-27"
+}

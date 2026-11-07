@@ -1,0 +1,89 @@
+---
+/**
+ * Portrait-first star profile: big verified photo, identity block, quick-fact
+ * chips, then the checked record. Rendered both by the /stars/[id] entity page
+ * (via EntityScreen) and by StarProfileTemplate on story pages.
+ */
+import MediaFrame from './MediaFrame.astro';
+import { ENTITY_LABEL, lastCheckedLabel } from '../lib/content/entities';
+import type { Entity } from '../lib/content/entity-schema';
+import type { MediaView, TopicId } from '../lib/content/types';
+
+interface Props {
+  entity: Entity;
+  media: MediaView;
+  topic: TopicId;
+  uid: string;
+  /** Hide the hero name when the page already has an h1 with the same text. */
+  showName?: boolean;
+  /** Hide the entity summary when the page header already renders it as dek. */
+  showSummary?: boolean;
+}
+const { entity, media, topic, uid, showName = true, showSummary = true } = Astro.props;
+const pricing = entity.pricing.from_price ?? entity.pricing.free_tier ?? null;
+---
+
+<section class="star-profile" aria-label={`${entity.name} profile`}>
+  <div class="star-hero">
+    <div class="star-hero-media">
+      <MediaFrame media={media} topic={topic} uid={`star-hero-${uid}`} />
+    </div>
+    <div class="star-hero-body">
+      <p class="kicker">{ENTITY_LABEL[entity.type]} · Last checked {lastCheckedLabel(entity.updated)}</p>
+      {showName && <h2>{entity.name}</h2>}
+      {showSummary && <p class="dek">{entity.summary}</p>}
+      {entity.facts.length > 0 && (
+        <ul class="fact-chips">
+          {entity.facts.slice(0, 4).map((fact) => (
+            <li class="fact-chip">
+              <span class="fact-chip-key">{fact.key}</span>
+              <span class="fact-chip-value">{fact.value}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+      <p class="tag-row">
+        {entity.platforms.slice(0, 3).map((platform) => <span class="c-chip">{platform}</span>)}
+        {entity.tags.slice(0, 3).map((tag) => <span class="c-chip">{tag}</span>)}
+      </p>
+      <p class="entity-outbound">
+        <a
+          class="c-btn c-btn--primary c-btn--small"
+          href={entity.affiliate_status === 'active' && entity.affiliate_url ? entity.affiliate_url : entity.url}
+          target="_blank"
+          rel={entity.affiliate_status === 'active' && entity.affiliate_url ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
+        >
+          {entity.affiliate_status === 'active' && entity.affiliate_url ? 'Visit (sponsored)' : 'Official pages'}
+          <span class="sr-only"> (opens in a new tab)</span>
+        </a>
+        {pricing && <span class="meta star-pricing">{entity.pricing.model}{entity.pricing.from_price ? ` · from ${entity.pricing.from_price}` : entity.pricing.free_tier ? ` · free: ${entity.pricing.free_tier}` : ''}</span>}
+      </p>
+    </div>
+  </div>
+
+  {entity.facts.length > 0 && (
+    <section class="entity-sources star-record" aria-label={`${entity.name} record`}>
+      <h3>The record</h3>
+      <table class="spec">
+        <caption class="sr-only">Checked facts and sources for {entity.name}</caption>
+        <thead>
+          <tr><th scope="col">Fact</th><th scope="col">Value</th><th scope="col">Checked</th></tr>
+        </thead>
+        <tbody>
+          {entity.facts.map((fact) => (
+            <tr>
+              <th scope="row">{fact.key}</th>
+              <td>{fact.value}{fact.notes && <span class="meta"> — {fact.notes}</span>}</td>
+              <td><a href={fact.source_url} rel="noopener noreferrer">{lastCheckedLabel(fact.checked)}</a>{fact.evidence_type && <span class="meta"> · {fact.evidence_type}</span>}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {entity.image && (
+        <p class="meta">
+          Photo: {entity.image.license.replaceAll('-', ' ')} · <a href={entity.image.source_url} rel="noopener noreferrer">image source</a>
+        </p>
+      )}
+    </section>
+  )}
+</section>

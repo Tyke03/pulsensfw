@@ -1,0 +1,177 @@
+[
+  {
+    "canonical_id": "agnai",
+    "platform": "Agnai",
+    "nsfw_first_party": {"answer": "yes", "url": "https://agnai.chat/faq", "quote_or_paraphrase": "No, Agnaistic does not make any attempt to filter your responses.", "verbatim": true},
+    "chat_without_image_credits": {"answer": "yes", "url": "https://agnai.chat/"},
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "Open-source AGPL-3.0 project (developer: Sceuick, GitHub agnaistic)",
+    "white_label_family": "",
+    "notes": "Explicitly uncensored by design; guest mode stores data locally. No billing complaints or breach reports found."
+  },
+  {
+    "canonical_id": "ai-peeps",
+    "platform": "AI Peeps",
+    "nsfw_first_party": {"answer": "yes", "url": "https://aipeeps.com/", "quote_or_paraphrase": "Free NSFW AI chat with characters you create. Generate uncensored images and real video of the same character and talk by voice.", "verbatim": true},
+    "chat_without_image_credits": {"answer": "yes", "url": "https://aipeeps.com/faq/"},
+    "red_flags": [],
+    "excluded_accounts": [{"account": "u/ValerPepe", "reason": "staff"}],
+    "operator": "Valerio (solo developer, Italy)",
+    "white_label_family": "",
+    "notes": "Free unlimited chat; images/video need PeepCoins. Trustpilot ~4.6. Payment processing temporarily via G2A/Telegram while seeking mainstream processors. Developer staff account excluded from evidence."
+  },
+  {
+    "canonical_id": "aiallure",
+    "platform": "aiAllure",
+    "nsfw_first_party": {"answer": "yes", "url": "https://www.aiallure.com/legal/terms", "quote_or_paraphrase": "Service is intended exclusively for adults aged 18 or older", "verbatim": true},
+    "chat_without_image_credits": {"answer": "yes", "url": "https://www.aiallure.com/faq"},
+    "red_flags": [
+      {"type": "billing", "summary": "Trustpilot user reports paid trial auto-renewed to monthly charge without clear cancellation; no refunds offered.", "sources": [{"url": "https://www.trustpilot.com/review/aiallure.com", "source_type": "independent_user", "date_shown": "2026", "accessed": "2026-11-03", "verbatim": true}], "independent_users": 1, "status": "isolated"}
+    ],
+    "excluded_accounts": [],
+    "operator": "Novera Group s.r.o. (Czech Republic, IČO 22152610), Rybná 716/24, Prague 1",
+    "white_label_family": "",
+    "notes": "ToS: 'All sales are final due to the instant and custom nature of digital AI generation.' Live selfie age verification; 24-hour paid trial auto-renews to monthly. Trustpilot sample small (4 reviews)."
+  },
+  {
+    "canonical_id": "alphazria",
+    "platform": "Alphazria",
+    "nsfw_first_party": {"answer": "yes", "url": "https://alphazria.com/", "quote_or_paraphrase": "Alphazria offers a completely uncensored experience where you can customize characters, scenarios, and engage in immersive interactions", "verbatim": true},
+    "chat_without_image_credits": {"answer": "yes", "url": "https://alphazria.com/faq"},
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "Alphazria SAS (France, Siren 978080646)",
+    "white_label_family": "",
+    "notes": "Token system: 2 tokens/message, 25/image, 100/character; daily free tokens (sources vary 15–75). No complaints found."
+  },
+  {
+    "canonical_id": "anima-ai",
+    "platform": "Anima AI",
+    "nsfw_first_party": {"answer": "unresolved", "url": "https://myanima.ai/legal/terms", "quote_or_paraphrase": "Web version judged per store_build_may_differ rule; first-party terms do not explicitly state NSFW permission; third-party reviews claim a mature/NSFW toggle behind premium settings", "verbatim": false},
+    "chat_without_image_credits": {"answer": "unresolved", "url": "", "quote_or_paraphrase": "Conflicting third-party claims on free-tier limits (~40 msgs/day); no first-party pricing page captured"},
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "LABANE CORP. Limited (Cyprus, Vasili Michailidi 9, 3026 Limassol) — conflicting: some sources cite Apperry Ltd (UK)",
+    "white_label_family": "LABANE CORP (Anima, iGirl, LOVD, Matcha)",
+    "notes": "Privacy policy states data used to train AI models with no opt-out mentioned. Web NSFW unresolved (reviews only); note animateai.pro and animeai.app are different services. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "ai-boyfriend-caitty",
+    "platform": "AI Boyfriend — Caitty",
+    "nsfw_first_party": {"answer": "no", "url": "https://play.google.com/store/apps/details?id=caitty.com.aiboyfriend", "quote_or_paraphrase": "Start your journey for free: 40 messages a day, then an optional short video for 40 more. Upgrade to Premium for no forced ads, all 14 boyfriends, every gallery photo unlocked…", "verbatim": false},
+    "chat_without_image_credits": {"answer": "yes", "url": "https://play.google.com/store/apps/details?id=caitty.com.aiboyfriend"},
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "甘传立 (Gan Chuanli) / Caitty, Putian, Fujian, China",
+    "white_label_family": "Caitty (AI Girlfriend, AI Boyfriend 2, Everen, Amielle)",
+    "notes": "Premium ~$9.99/mo or $59.99/yr. No NSFW language in listing; no independent complaints found for this app. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "ai-boyfriend-chat-husby",
+    "platform": "AI Boyfriend Chat - Husby",
+    "nsfw_first_party": {"answer": "no", "url": "https://apps.apple.com/us/app/ai-boyfriend-chat-husby/id6448729671", "quote_or_paraphrase": "Husby is your AI-powered boyfriend… deep conversations, fun interactions, and emotional support… immersive photo feed", "verbatim": false},
+    "chat_without_image_credits": {"answer": "unresolved", "url": "https://apps.apple.com/us/app/ai-boyfriend-chat-husby/id6448729671"},
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "Iurii Filin / Weappico Limited",
+    "white_label_family": "",
+    "notes": "Premium unlocks voice messages, ASMR voice, stories; terms/privacy on flycricket.io. Google Play version exists (weappico.husby). 4.6/5, ~147K downloads; no complaints found. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "ai-boyfriend-love-chat-partner",
+    "platform": "AI Boyfriend:Love Chat Partner",
+    "nsfw_first_party": {"answer": "no", "url": "https://play.google.com/store/apps/details?id=com.fjsh.alwayssupportiveboyfriend", "quote_or_paraphrase": "All data stays on your device - your privacy is our priority. No registration required - access all features instantly.", "verbatim": false},
+    "chat_without_image_credits": {"answer": "yes", "url": "https://play.google.com/store/apps/details?id=com.fjsh.alwayssupportiveboyfriend"},
+    "red_flags": [
+      {"type": "deceptive_marketing", "summary": "'All data stays on your device' claim conflicts with an App Store reviewer's report that the app won't let them delete their data/account; Play data-safety also shows data cannot be deleted.", "sources": [{"url": "https://apps.apple.com/us/app/ai-boyfriend-love-chat-partner/id6605936526", "source_type": "independent_user", "date_shown": "unresolved", "accessed": "2026-11-03", "verbatim": false}], "independent_users": 1, "status": "isolated"}
+    ],
+    "excluded_accounts": [],
+    "operator": "藤本 祥 (Sho Fujimoto / fjsh), Tokyo, Japan",
+    "white_label_family": "fjsh (AI Boyfriend Maker: Moshas, AI Friend: Girlfriend Chat, Romance: AI Love & Dating Sim)",
+    "notes": "Privacy policy at shofj.com. Data-deletion conflict unresolved — single report. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "ai-friend-3d-talking-buddy",
+    "platform": "AI Friend 3D - Talking Buddy",
+    "nsfw_first_party": {"answer": "no", "url": "https://play.google.com/store/apps/details?id=com.yapailabs.talkingbuddyai", "quote_or_paraphrase": "Talking Buddy is a realistic 3D AI companion made for face-to-face voice chats. Each one has their own voice, personality, look, and backstory.", "verbatim": false},
+    "chat_without_image_credits": {"answer": "unresolved", "url": "https://play.google.com/store/apps/details?id=com.yapailabs.talkingbuddyai"},
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "yapAI Labs Artificial Intelligence Technologies Inc.",
+    "white_label_family": "yapAI Labs (also First Date AI: 3D Voice Chat)",
+    "notes": "Teen rating (Suggestive Themes); 3.9★; privacy at yapailabs.com/privacy-policy/. No complaints found. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "ai-girlfriend-trumate",
+    "platform": "AI Girlfriend - TruMate",
+    "nsfw_first_party": {"answer": "yes", "url": "https://play.google.com/store/apps/details?id=com.aichatbot.aimate", "quote_or_paraphrase": "Whether you want to see her in a bikini by the pool in the summer or in a special Halloween costume, just ask your exclusive AI Girlfriend in the chat and she'll fulfill your request.", "verbatim": true},
+    "chat_without_image_credits": {"answer": "unresolved", "url": "https://play.google.com/store/apps/details?id=com.aichatbot.aimate"},
+    "red_flags": [
+      {"type": "billing", "summary": "Store-review complaints about expensive coin bundles and purchase-driving daily rewards (carried from earlier research pass; distinct usernames not re-verified this cycle).", "sources": [{"url": "https://play.google.com/store/apps/details?id=com.aichatbot.aimate", "source_type": "independent_user", "date_shown": "2023-2026", "accessed": "2026-11-03", "verbatim": false}], "independent_users": 0, "status": "isolated"}
+    ],
+    "excluded_accounts": [],
+    "operator": "UFOTO LIMITED (Rm 902 9/F Wing Lung Bank Ctr, 636 Nathan Rd, Hong Kong); also published under AI Design Labs",
+    "white_label_family": "UFOTO (Photo Dance, AI Video Generator: AimeGen, TruMate-Character AI & Story)",
+    "notes": "Mature 17+; 1M+ downloads; privacy at res.ufotosoft.com; prior lead says data not encrypted (unverified this cycle). NSFW permission explicit in listing copy. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "ai-voice-assistant-fala-ai",
+    "platform": "AI Voice Assistant - Fala AI",
+    "nsfw_first_party": {"answer": "no", "url": "https://apps.apple.com/us/app/ai-voice-assistant-fala-ai/id6741577068", "quote_or_paraphrase": "Realistic, human-like voice conversations… Note: This application is not affiliated with or endorsed by Sesame AI.", "verbatim": false},
+    "chat_without_image_credits": {"answer": "unresolved", "url": "https://apps.apple.com/us/app/ai-voice-assistant-fala-ai/id6741577068"},
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "rohe technik OU (Estonia) / rohe.ai",
+    "white_label_family": "",
+    "notes": "Voice assistant, not companion app. Terms at falaai.framer.website/terms-of-service (now confirmed accessible); privacy at falaai.framer.website/privay-policy (sic). No complaints found. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "aiboy-virtual-ai-boyfriend",
+    "platform": "AIBoy - Virtual AI Boyfriend",
+    "nsfw_first_party": {"answer": "unresolved", "url": "https://play.google.com/store/apps/details?id=aiboy.companion.app", "quote_or_paraphrase": "Unlock Exclusive Photos: Deepen your relationship to unlock private galleries and beautiful artwork of your virtual partner", "verbatim": false},
+    "chat_without_image_credits": {"answer": "unresolved", "url": "https://aiboy.app"},
+    "red_flags": [
+      {"type": "billing", "summary": "User reports 'highway robbery' pricing, no trial, ~$25 monthly subscription, data loss after update, and refund demand.", "sources": [{"url": "https://play.google.com/store/apps/details?id=aiboy.companion.app", "source_type": "independent_user", "date_shown": "2026", "accessed": "2026-11-03", "verbatim": false}], "independent_users": 1, "status": "isolated"}
+    ],
+    "excluded_accounts": [],
+    "operator": "Tequilab LP (App Store seller) / Life Plus Fitness (Play developer) — discrepancy noted; may be publisher vs. developer entity",
+    "white_label_family": "",
+    "notes": "aiboy.app terms/privacy exist (aiboy.app/terms, aiboy.app/privacy). Multiple similarly named apps (iBoy, FriendX) create identity risk. Photo-gating suggests picture-paywall monetization. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "aimy-アイミー",
+    "platform": "Aimy (アイミー)",
+    "nsfw_first_party": {"answer": "no", "url": "https://play.google.com/store/apps/details?id=jp.aimy.mobile", "quote_or_paraphrase": "PERFECT FOR: Anyone who loves anime-style characters, Fashion and dress-up enthusiasts… Anyone seeking a personalized daily AI companion", "verbatim": false},
+    "chat_without_image_credits": {"answer": "unresolved", "url": "https://aimmy.jp/terms_of_use_en"},
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "AISAAC INC. / Aimy株式会社 (Japan)",
+    "white_label_family": "",
+    "notes": "Dress-up gacha monetization (Friend Gacha, Romance Tree) — noted as business model, not a red flag. Everyone 10+ rating; terms at aimmy.jp/terms_of_use_en. No complaints found. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "airfriend",
+    "platform": "Airfriend",
+    "nsfw_first_party": {"answer": "no", "url": "https://play.google.com/store/apps/details?id=ai.airfriend.airfriend", "quote_or_paraphrase": "Airfriend is an AI call and chat application that allows you to raise and talk to AI faves and friends… You can teach them what they might say and what you want them to say through conversation.", "verbatim": false},
+    "chat_without_image_credits": {"answer": "unresolved", "url": "https://airfriend.ai/ja/tos/"},
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "Airfriend, Inc. / エアフレンド株式会社 (Tokyo, Japan)",
+    "white_label_family": "",
+    "notes": "Terms Japanese-only at airfriend.ai/ja/tos/. Distinct from AirFriends (Demo Labs Pty Ltd, Australia). No complaints found. store_build_may_differ=true."
+  },
+  {
+    "canonical_id": "anima-my-virtual-ai-boyfriend",
+    "platform": "Anima: My Virtual AI Boyfriend",
+    "nsfw_first_party": {"answer": "unresolved", "url": "https://myanima.ai/legal/terms", "quote_or_paraphrase": "Store build judged; web version (myanima.ai) claimed by third parties to offer mature/NSFW behind premium, but first-party terms do not explicitly confirm — unresolved", "verbatim": false},
+    "chat_without_image_credits": {"answer": "yes", "url": "https://play.google.com/store/apps/details?id=anima.virtual.ai.robot.friend"},
+    "red_flags": [
+      {"type": "billing", "summary": "Reddit user asks about refunds for iGirl/Anima (same operator); subscription management complaints.", "sources": [{"url": "https://www.reddit.com/r/AnimaAI/comments/pl3ot0/how_can_i_refund_igirl_or_anima/", "source_type": "independent_user", "date_shown": "2021", "accessed": "2026-11-03", "verbatim": false}], "independent_users": 1, "status": "isolated"}
+    ],
+    "excluded_accounts": [],
+    "operator": "LABANE CORP. Limited (9 Vachili Michailidi, Limassol 3026, Cyprus)",
+    "white_label_family": "LABANE CORP (Anima, iGirl, LOVD, Matcha — same Play developer)",
+    "notes": "ToS Section 5.8 grants operator a 'non-exclusive, worldwide, transferable, PERPETUAL, IRREVOCABLE right to publish, distribute, publicly display and perform the User Content' (per CompanionWise review citing myanima.ai terms — verify against the terms page before citing verbatim). Store build differs from web; store content policies prohibit explicit NSFW. Some sources previously attributed operator to Apperry Ltd (UK). store_build_may_differ=true."
+  }
+]

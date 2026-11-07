@@ -1,0 +1,82 @@
+{
+  "slug": "abella-danger",
+  "type": "star",
+  "name": "Abella Danger",
+  "url": "https://en.wikipedia.org/wiki/Abella_Danger",
+  "affiliate_url": null,
+  "summary": "American former performer and director; one of the most-viewed performers on Pornhub before moving behind the camera and back to school.",
+  "tags": [
+    "american",
+    "former performer",
+    "director"
+  ],
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/abella-danger.jpg",
+    "alt": "SFW portrait of Abella Danger at the 2017 AVN Awards",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Abella_Danger_Tux_2017_(portrait_cropped).jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Born",
+      "value": "November 19, 1995, Miami",
+      "source_url": "https://en.wikipedia.org/wiki/Abella_Danger",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Debut",
+      "value": "July 2014 for Bang Bros",
+      "source_url": "https://en.wikipedia.org/wiki/Abella_Danger",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Director",
+      "value": "Yes; also directed adult films",
+      "source_url": "https://en.wikipedia.org/wiki/Abella_Danger",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Pornhub 2023",
+      "value": "Most Popular Female Performer; 1.89 billion views in 2023",
+      "source_url": "https://en.wikipedia.org/wiki/Abella_Danger",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "After performing",
+      "value": "Studying at the University of Miami from 2024",
+      "source_url": "https://en.wikipedia.org/wiki/Abella_Danger",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "X handle",
+      "value": "Unverified — no X profile link asserted",
+      "source_url": "https://x.com",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Candidate handles circulating in tracker/summary sources proved wrong, suspended, fan-run, or empty on 2026-10-27 (X API). handle_unverified flag set for the research agent to re-check."
+    }
+  ],
+  "updated": "2026-10-26",
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "ranking_rationale": "Icon-tier entity: sustained career record with Wikipedia/Commons documentation and an SFW license-clean portrait. Not part of a news-driven list.",
+  "handle_unverified": true
+}

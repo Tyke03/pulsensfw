@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GearLab from '../components/gear/GearLab.astro';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const sample = {
+  product: 'Layout demo',
+  score: 8.2,
+  ratings: [
+    { label: 'Comfort', value: 8.4 },
+    { label: 'Noise', value: 7.6 },
+    { label: 'Battery', value: 8.0 },
+  ],
+  specs: [
+    { label: 'Session', value: 'Timed block' },
+    { label: 'Noise', value: 'A number, not a whisper' },
+  ],
+  pros: ['The low end exists.', 'The claim matches the session.'],
+  cons: ['Heat still shows up.', 'The app is not the product.'],
+  verdict: 'Layout demo only. A score compares annoying traits. It is not a medical claim or a moral grade.',
+};
+---
+<BaseLayout title={`How we review · ${SITE.name}`} description="How Gear Lab scores, noise notes, and battery claims are meant to work." reader={reader}>
+  <article class="page" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'How we review' }]} />
+    <p class="kicker">Gear Lab</p>
+    <h1>How we review</h1>
+    <div class="prose">
+      <p>Noise gets a number at a set distance. Battery gets the pattern people actually use. A low setting has to be low. Scores compare products, not people, and the facts behind them carry a source and a checked date. The card below is a layout demo, not a live product score.</p>
+    </div>
+    <div style="margin-top:20px;max-width:420px">
+      <GearLab gear={sample} />
+    </div>
+  </article>
+</BaseLayout>

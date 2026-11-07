@@ -1,0 +1,86 @@
+{
+  "slug": "backyard-ai",
+  "type": "ai_app",
+  "name": "Backyard AI",
+  "url": "https://backyard.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [],
+  "summary": "Local/cloud character chat with lorebooks, author notes, and dynamic voices. A free 300-cloud-messages-per-week allowance exists, but new paid subscriptions and upgrades are currently unavailable.",
+  "tags": [
+    "nsfw",
+    "roleplay",
+    "local",
+    "voice"
+  ],
+  "ranking_rationale": "Official plans FAQ and docs verify the free weekly cloud allowance, lorebook context controls, and voices, and the product is active. But paid plans cannot currently be purchased at all, which makes it un-rankable against paid competitors — included conditionally at the bottom as an active local-first option.",
+  "pricing": {
+    "model": "Free tier only (purchases paused)",
+    "free_tier": "300 cloud messages per week + local chat on your own hardware",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Paid plans",
+        "price": "Unavailable",
+        "billing": "month",
+        "notes": "New paid subscriptions and plan upgrades are currently unavailable per the official plans page. Historic blog prices are not used."
+      }
+    ],
+    "notes": "Context differs by plan but exact token limits are not published in the current FAQ."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "Local (hardware)"
+  ],
+  "score": 6.5,
+  "pros": [
+    "Lorebooks and author notes give explicit narrative-context controls",
+    "Free weekly cloud allowance (300 messages)",
+    "Uncensored/unfiltered text generations per the vendor"
+  ],
+  "cons": [
+    "New paid subscriptions and upgrades currently unavailable",
+    "Android app not yet established — 'coming soon' in docs",
+    "iOS store availability unconfirmed"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier",
+      "value": "300 cloud messages per week",
+      "source_url": "https://backyard.ai/plans",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Paid plans",
+      "value": "Unavailable — new subscriptions/upgrades paused",
+      "source_url": "https://backyard.ai/plans",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Adult content",
+      "value": "Limited — text generations uncensored; community-sharing rules still apply; adult-specific permission details not fully verified",
+      "source_url": "https://backyard.ai/plans",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Context controls",
+      "value": "Lorebooks supply context, history, and memories; token limits not published",
+      "source_url": "https://backyard.ai/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-10-27"
+}

@@ -1,0 +1,14 @@
+---
+import { coverMarkup } from '../lib/media/cover-plate';
+import type { TopicId } from '../lib/content/types';
+
+interface Props {
+  plate: string;
+  topic: TopicId;
+  alt: string;
+  uid: string;
+}
+const { plate, topic, alt, uid } = Astro.props;
+const svg = coverMarkup({ plate, topic, alt, uid, decorative: true });
+---
+<Fragment set:html={svg} />

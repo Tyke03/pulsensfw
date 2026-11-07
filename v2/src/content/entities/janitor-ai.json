@@ -1,0 +1,123 @@
+{
+  "slug": "janitor-ai",
+  "type": "ai_app",
+  "name": "Janitor AI",
+  "url": "https://janitorai.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Character chat with unlimited free standard-model chat (~9k context), a paid Janitor+ upgrade for more context and priority access, and official iOS and Android apps.",
+  "tags": [
+    "nsfw",
+    "character chat",
+    "roleplay",
+    "freemium"
+  ],
+  "ranking_rationale": "The official help center verifies unlimited free standard-model chat, ~9k free context, a Janitor+ tier, and documented iOS/Android apps (4.6 iOS rating as a snapshot). The paid price could not be verified — the /plus page is bot-walled — so it ranks on the free entry point and app distribution, not price.",
+  "pricing": {
+    "model": "Freemium + Janitor+ subscription",
+    "free_tier": "Unlimited standard-model chat, ~9k context",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Janitor+",
+        "price": "Unverified",
+        "billing": "month",
+        "notes": "Official FAQ confirms the tier + ~5x context + priority access but omits the price; /plus was blocked by bot verification. No price guessed."
+      }
+    ],
+    "notes": "Billing management differs between web and app-store subscriptions; subscriptions are generally non-refundable."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Unlimited free standard-model chat is a real entry point",
+    "Official apps on both stores (iOS rating 4.6 from 5,157 ratings, snapshot)",
+    "Millions of community bots (vendor claim)"
+  ],
+  "cons": [
+    "Larger context and priority access are paid",
+    "Paid price unverified; official pricing page is bot-walled",
+    "Subscriptions generally non-refundable",
+    "Community-reported memory bug can wipe context when memory is edited - back up before paying",
+    "Bot definitions reported to get mirrored by scraper sites"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Free tier",
+      "value": "Unlimited standard-model chat, ~9k context tokens",
+      "source_url": "https://help.janitorai.com/en/article/faq-subscription-janitorai-1o8ccf2/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Janitor+",
+      "value": "~5x context + priority access; price unverified",
+      "source_url": "https://help.janitorai.com/en/article/faq-subscription-janitorai-1o8ccf2/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Do not reuse third-party price guesses."
+    },
+    {
+      "key": "Adult content",
+      "value": "Limited — Limitless bots can support adult text; Limited bots cannot; public bot imagery has stricter rules",
+      "source_url": "https://help.janitorai.com/en/article/bot-creation-guide-w-images-by-faylua-8jcbw1/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Apps",
+      "value": "Official iOS + Android apps documented",
+      "source_url": "https://help.janitorai.com/en/article/faq-janitorai-app-xam5o9/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "iOS store snapshot: 4.6 rating from 5,157 ratings."
+    },
+    {
+      "key": "Fan support",
+      "value": "Heavy - r/JanitorAI_Official threads 2024-2026 both praise the free catalog and critique JLLM",
+      "source_url": "https://www.reddit.com/r/JanitorAI_Official/comments/1okt47e/i_need_help_with_making_the_janitor_llm_mimic/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Community evidence with dated quotes, on file."
+    },
+    {
+      "key": "JLLM critiques",
+      "value": "Reported to soften villainous characters into bland ones and repeat romance loops; reported struggle with 3,500-5,000-token bots",
+      "source_url": "https://www.reddit.com/r/JanitorAI_Official/comments/1n2vr0h/what_is_so_bad_about_jllm_ive_been_using_it_since/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Token-size complaint community-reported, unverified."
+    },
+    {
+      "key": "Memory bug alert",
+      "value": "Community-reported critical bug: updating chat memory can wipe prior context and stop it reaching the model",
+      "source_url": "https://www.reddit.com/r/JanitorAI_Official/comments/1nvndw9/the_future_of_janitor_ai_and_ai_chatbot_websites/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "From the scam-hunt compilation; dealbreaker-flagged for memory-heavy use. Verdict: caution."
+    },
+    {
+      "key": "Bot-theft warning",
+      "value": "Community-reported: third-party scraper sites mirror published bot definitions",
+      "source_url": "https://www.reddit.com/r/SpicyChatAI/comments/1bfzl08/alternatives/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    }
+  ],
+  "updated": "2026-10-27"
+}

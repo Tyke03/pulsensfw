@@ -1,0 +1,68 @@
+{
+  "slug": "dreamjourney-ai",
+  "type": "ai_app",
+  "name": "Dreamjourney AI",
+  "url": "https://dreamjourneyai.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [],
+  "summary": "Story/character platform whose Memory Nexus automatically logs events and relationships instead of making you hand-build lorebooks, plus visual-novel dreamscapes with music and custom writing models that follow OOC instructions.",
+  "tags": [
+    "nsfw",
+    "memory",
+    "storytelling"
+  ],
+  "ranking_rationale": "Fan-scout records moderate support with two dated Reddit write-ups (2025) praising Memory Nexus for fixing relationship pacing versus JLLM. Complaints on file: credit-based consumption (no unlimited messaging), clunky mobile-first desktop UI, rerolls overwriting text without a community extension. Scam-hunt: no record (absence, not clearance). Cannot rank on price/value without a verified price; placed under the heavy group.",
+  "pricing": {
+    "model": "Unverified",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "Pricing could not be verified at check time; no third-party figure copied per desk rules."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Fan support",
+      "value": "Moderate - dedicated r/CharacterAIrunaways reviews 2025 comparing it to Janitor (\"100x better than jai's jllm... characters stay in character\")",
+      "source_url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1kod1ch/guys_i_finally_did_it/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Memory system",
+      "value": "Memory Nexus: automated lorebook/relationship tracking without manual upkeep",
+      "source_url": "https://dreamjourneyai.com/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Complaints",
+      "value": "Credit metering, clunky desktop UI, rerolls overwrite previous message without a community Discord extension",
+      "source_url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1p4xho1/followup_review_of_dreamjourneyai/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Scam-hunt record",
+      "value": "No record - absence noted, no clearance implied",
+      "source_url": "https://dreamjourneyai.com/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-10-27"
+}

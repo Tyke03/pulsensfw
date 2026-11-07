@@ -1,0 +1,213 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ReaderPanel from '../components/reader/ReaderPanel.astro';
+import { readReader } from '../lib/reader/cookies';
+import { SITE, noticeCopy } from '../lib/site';
+import {
+  getReaderSession,
+  profileTablesConfigured,
+  supabaseAdmin,
+  type ReaderSession,
+} from '../lib/auth/supabase';
+import { findEntityBySlug, ENTITY_LABEL } from '../lib/content/entities';
+import { getContentRepository } from '../lib/content/local-repository';
+import type { Catalog } from '../lib/content/types';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const notice = Astro.url.searchParams.get('notice');
+const copy = noticeCopy(notice);
+const authConfigured = profileTablesConfigured();
+const secure = Astro.url.protocol === 'https:';
+
+let session: ReaderSession | null = null;
+if (authConfigured) session = await getReaderSession(Astro.request, Astro.cookies, secure);
+
+const repo = getContentRepository();
+const catalog: Catalog = await repo.listCatalog();
+
+let profile: { nsfwPref: boolean; createdAt: string; updatedAt: string } | null = null;
+if (session) {
+  try {
+    const admin = supabaseAdmin();
+    const { data } = await admin
+      .from('reader_profiles')
+      .select('nsfw_pref, created_at, updated_at')
+      .eq('user_id', session.userId)
+      .maybeSingle();
+    if (data) {
+      profile = {
+        nsfwPref: Boolean(data.nsfw_pref),
+        createdAt: String(data.created_at ?? ''),
+        updatedAt: String(data.updated_at ?? ''),
+      };
+    } else {
+      // First sign-in: seed the profile from the browser's cookie choice so
+      // the account starts where the reader already was.
+      await admin
+        .from('reader_profiles')
+        .upsert({ user_id: session.userId, nsfw_pref: reader.nsfw, updated_at: new Date().toISOString() });
+      profile = { nsfwPref: reader.nsfw, createdAt: '', updatedAt: '' };
+    }
+  } catch {
+    profile = null;
+  }
+}
+
+type ListRow = { slug: string; kind: 'star' | 'site' | 'ai' | 'product' | 'game' };
+
+const KIND_ROUTES: Record<ListRow['kind'], string> = {
+  star: '/stars/',
+  site: '/sites/',
+  ai: '/ai/',
+  product: '/products/',
+  game: '/games/',
+};
+
+async function listRows(table: 'saved_entities' | 'follows'): Promise<ListRow[]> {
+  if (!session) return [];
+  try {
+    const { data, error } = await supabaseAdmin()
+      .from(table)
+      .select('slug, kind')
+      .eq('user_id', session.userId)
+      .order('created_at', { ascending: false });
+    if (error) return [];
+    return (data ?? []).flatMap((row) => {
+      const kind = String(row.kind);
+      return kind in KIND_ROUTES ? [{ slug: String(row.slug), kind: kind as ListRow['kind'] }] : [];
+    });
+  } catch {
+    return [];
+  }
+}
+
+const saved = await listRows('saved_entities');
+const follows = await listRows('follows');
+function nameOf(row: ListRow): string {
+  return findEntityBySlug(catalog, row.slug)?.name ?? row.slug;
+}
+
+function isLive(row: ListRow): boolean {
+  return findEntityBySlug(catalog, row.slug) !== null;
+}
+
+function kindLabel(row: ListRow): string {
+  const entity = findEntityBySlug(catalog, row.slug);
+  return entity ? ENTITY_LABEL[entity.type] : 'no longer tracked';
+}
+
+function hrefOf(row: ListRow): string {
+  const entity = findEntityBySlug(catalog, row.slug);
+  return entity ? `${KIND_ROUTES[row.kind]}${entity.slug}` : '#';
+}
+---
+<BaseLayout title={`Your desk · ${SITE.name}`} reader={reader} noindex>
+  <div class="page" style="padding:24px 0 48px;max-width:720px">
+    <p class="kicker">You</p>
+
+    {session ? (
+      <Fragment>
+        <h1>Your desk</h1>
+        <p class="dek">
+          Signed in as <strong>{session.email ?? 'reader'}</strong>. The age gate and these switches
+          stay in this browser as the fast path; saves and follows travel with the account.
+        </p>
+        {profile && (
+          <p class="meta">
+            NSFW preference on profile: {profile.nsfwPref ? 'on' : 'off'}
+            {profile.createdAt ?
+            ` · member since ${profile.createdAt.slice(0, 10)}` : ''}
+          </p>
+        )}
+        <ReaderPanel reader={reader} returnTo="/you" />
+        <section class="you-block">
+          <h2>Saved</h2>
+          {saved.length === 0 && <p class="meta">Nothing saved yet. Open any review and hit Save.</p>}
+          {saved.length > 0 && (
+            <ul class="plain-list you-list">
+              {saved.map((row) => (
+                <li>
+                  {isLive(row)
+                    ? <a href={hrefOf(row)}>{nameOf(row)}</a>
+                    : <span>{nameOf(row)}</span>}
+                  <span class="meta you-kind">{kindLabel(row)}</span>
+                  <form method="post" action="/api/reader/save" data-astro-reload>
+                    <input type="hidden" name="slug" value={row.slug} />
+                    <input type="hidden" name="kind" value={row.kind} />
+                    <input type="hidden" name="on" value="0" />
+                    <input type="hidden" name="return" value="/you" />
+                    <button class="c-btn c-btn--ghost" type="submit">Unsave</button>
+                  </form>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+        <section class="you-block">
+          <h2>Following</h2>
+          {follows.length === 0 && <p class="meta">No follows yet. Follow a star, site, or AI app you would check again.</p>}
+          {follows.length > 0 && (
+            <ul class="plain-list you-list">
+              {follows.map((row) => (
+                <li>
+                  {isLive(row)
+                    ? <a href={hrefOf(row)}>{nameOf(row)}</a>
+                    : <span>{nameOf(row)}</span>}
+                  <span class="meta you-kind">{kindLabel(row)}</span>
+                  <form method="post" action="/api/reader/follow" data-astro-reload>
+                    <input type="hidden" name="slug" value={row.slug} />
+                    <input type="hidden" name="kind" value={row.kind} />
+                    <input type="hidden" name="on" value="0" />
+                    <input type="hidden" name="return" value="/you" />
+                    <button class="c-btn c-btn--ghost" type="submit">Unfollow</button>
+                  </form>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+        <section class="you-block">
+          <h2>Account</h2>
+          <form method="post" action="/api/auth/sign-out" data-astro-reload>
+            <input type="hidden" name="return" value="/you" />
+            <button class="c-btn c-btn--secondary" type="submit">Sign out</button>
+          </form>
+          <p class="meta">Signing out keeps the age gate and reader switches on this browser.</p>
+        </section>
+      </Fragment>
+    ) : (
+      <Fragment>
+        <h1>Reader settings</h1>
+        <p class="dek">
+          You are browsing as a guest. Discreet mode, blur, and the age gate stay in this browser.
+          Sign in to carry saved pages and follows across devices — email link only, no password.
+        </p>
+        <ReaderPanel reader={reader} returnTo="/you" />
+        {authConfigured ? (
+          <section class="you-block">
+            <h2>Sign in</h2>
+            <form method="post" action="/api/auth/sign-in" class="stack" data-astro-reload>
+              <input type="hidden" name="return" value="/you" />
+              <label class="c-field" for="auth-email">Email</label>
+              <input class="c-input" id="auth-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+              <div class="submit-row">
+                <button class="c-btn c-btn--primary" type="submit">Send the sign-in link</button>
+              </div>
+            </form>
+            <p class="meta">One-time email link. We never ask for a card or an ID here.</p>
+          </section>
+        ) : (
+          <section class="you-block">
+            <h2>Accounts are not wired up here</h2>
+            <p class="meta">
+              The Supabase env is not set on this deployment
+              (PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY).
+              Everything on this page still works through this browser.
+            </p>
+          </section>
+        )}
+      </Fragment>
+    )}
+    {copy && <p class="meta notice-line session-notice">{copy}</p>}
+  </div>
+</BaseLayout>

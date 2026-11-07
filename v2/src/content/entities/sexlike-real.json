@@ -1,0 +1,79 @@
+{
+  "slug": "sexlike-real",
+  "type": "site",
+  "name": "SexLikeReal",
+  "url": "https://www.sexlikereal.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "The primary VR pick: a Netflix-style VR app (SLR app) serving one of the largest VR libraries (74,464 videos from 810 studios, self-reported), with Interactive toys, scripts, live cams, and webcam integration across headsets incl. Quest.",
+  "tags": [
+    "vr",
+    "aggregator",
+    "app",
+    "scripts"
+  ],
+  "ranking_rationale": "Primary VR pick on our own editorial call, backed by first-party pages: the SLR app positions itself as the one-click VR player across every major headset, and its own affiliate page documents the library scale. Price structure aggregates 800+ studios, so site-level price is governed per-studio.",
+  "pricing": {
+    "model": "Mixed — pay-per-video, per-studio memberships, and pass plans; governed per studio",
+    "free_tier": "Free and teaser videos",
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "Aggregator reports put premium around $–$/mo with conflicting figures; not accepted wholesale — the site itself prices per studio/video. Verify in checkout."
+  },
+  "platforms": [
+    "Web",
+    "Quest / SLR app",
+    "PSVR2 / PCVR / cardboard (app-supported)"
+  ],
+  "score": null,
+  "pros": [
+    "Dedicated cross-headset app (Quest-first)",
+    "Interactive scripts and toy integration",
+    "Largest library claim is its own, not a tracker’s — and consistent with the VR hub’s coverage"
+  ],
+  "cons": [
+    "Per-studio pricing maze: subscriptions do not cover everything",
+    "Site-level price unverified at check time"
+  ],
+  "image": null,
+  "facts": [
+    {
+      "key": "Library scale",
+      "value": "74,464 videos from 810 studios (self-reported on own affiliate page)",
+      "source_url": "https://affiliate.sexlikereal.com/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Vendor marketing figure at check time."
+    },
+    {
+      "key": "App",
+      "value": "\"Netflix-style\" SLR app one-click for each headset (vendor claim)",
+      "source_url": "https://affiliate.sexlikereal.com/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Catalog",
+      "value": "Straight 73,482 · Gay 428 · Transgender 554 videos (self-reported, discontinued-point check)",
+      "source_url": "https://affiliate.sexlikereal.com/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Snapshot; live catalog now likely higher."
+    }
+  ],
+  "affiliate": {
+    "program_name": "SexLikeReal VR Webmaster Affiliate",
+    "network": "Own (in-house)",
+    "commission": "Monthly Premium + Annual + rebills 35% · Lifetime Premium 15% · Pay-per-video 35% · Live cams and interactive scripts 15%",
+    "cookie_days": null,
+    "signup_url": "https://affiliate.sexlikereal.com/",
+    "notes": "First-party rates on the official affiliate page (\"100% conversion rate… get a share of every sale to new and existing SLR users\").",
+    "checked": "2026-10-27"
+  },
+  "updated": "2026-10-27"
+}

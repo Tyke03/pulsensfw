@@ -1,0 +1,90 @@
+{
+  "slug": "johnny-sins",
+  "type": "star",
+  "name": "Johnny Sins",
+  "url": "https://en.wikipedia.org/wiki/Johnny_Sins",
+  "affiliate_url": null,
+  "summary": "American performer, director, and YouTuber; one of the most-searched male performers and the subject of a long-running meme.",
+  "tags": [
+    "american",
+    "performer",
+    "director",
+    "youtuber"
+  ],
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "YouTube",
+    "X — https://x.com/JohnnySins"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/johnny-sins.jpg",
+    "alt": "SFW photo of Johnny Sins at the 2007 XRCO Awards",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Guy,_Ava_Lauren_at_XRCO_Awards_2007_1_(cropped).jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Born",
+      "value": "December 31, 1978, Pittsburgh",
+      "source_url": "https://en.wikipedia.org/wiki/Johnny_Sins",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Real name",
+      "value": "Steven Wolfe",
+      "source_url": "https://en.wikipedia.org/wiki/Johnny_Sins",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Brazzers scenes",
+      "value": "More than 1,000 as of April 2019",
+      "source_url": "https://en.wikipedia.org/wiki/Johnny_Sins",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "YouTube",
+      "value": "SinsTV, 2.1M+ subscribers as of January 2024",
+      "source_url": "https://en.wikipedia.org/wiki/Johnny_Sins",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Awards",
+      "value": "Multiple AVN wins and nominations",
+      "source_url": "https://en.wikipedia.org/wiki/Johnny_Sins",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "X handle",
+      "value": "@JohnnySins — verified first-party via the X API (profile resolves to Johnny Sins)",
+      "source_url": "https://x.com/JohnnySins",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Verified 2026-10-27. Known-bad lookalikes are recorded in the desk notes and must never be used."
+    },
+    {
+      "key": "X followers",
+      "value": "1,037,241 (X API, checked 2026-10-27)",
+      "source_url": "https://x.com/JohnnySins",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Point-in-time API count; moves over time."
+    }
+  ],
+  "updated": "2026-10-26",
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "ranking_rationale": "Icon-tier entity: sustained career record with Wikipedia/Commons documentation and an SFW license-clean portrait. Not part of a news-driven list."
+}
