@@ -221,3 +221,113 @@ describe('agent service — affiliate queue (draft scope)', () => {
     assert.equal(queue.length, 1);
   });
 });
+
+describe('publication idempotency regression (the live repro on setup-sfw-e969e730a587)', () => {
+  it('identical retry replays the original result with ZERO extra writes (no revision, no publication, no audit)', async () => {
+    const store = new MemoryAgentStore();
+    await upsertDraft(store, draftKey, { idempotencyKey: 'repro-draft-1', state: articleState, status: 'in_review', note: '', base: null });
+    const auditsAfterSeed = (await store.listAudit('test-story')).length; // 1 (draft-upsert)
+    const first = await publishDraft(store, publishKey, { idempotencyKey: 'repro-pub-1', slug: 'test-story', expectedVersion: 0 });
+    assert.equal(first.status, 'published');
+    const auditsAfterPublish = (await store.listAudit('test-story')).length;
+    assert.equal(auditsAfterPublish, auditsAfterSeed + 1);
+
+    // Identical retry: same key, same input → original result, nothing new.
+    const replay = await publishDraft(store, publishKey, { idempotencyKey: 'repro-pub-1', slug: 'test-story', expectedVersion: 0 });
+    assert.deepEqual(replay, first);
+    assert.equal((await store.listAudit('test-story')).length, auditsAfterPublish);
+    const revisionsNow = await store.listRevisions('test-story');
+    assert.equal(revisionsNow.length, 2); // draft + publish; no revision 3
+    const pointer = await store.getPublication('test-story');
+    assert.equal(pointer?.versionSeq, first.version);
+    assert.equal(pointer?.published, true);
+  });
+
+  it('same key + changed input → 409 idempotency-conflict BEFORE any mutation (the repro defect)', async () => {
+    const store = new MemoryAgentStore();
+    await upsertDraft(store, draftKey, { idempotencyKey: 'repro2-draft-1', state: articleState, status: 'in_review', note: '', base: null });
+    const first = await publishDraft(store, publishKey, { idempotencyKey: 'repro2-pub-1', slug: 'test-story', expectedVersion: 0 });
+    const auditsBefore = (await store.listAudit('test-story')).length;
+    const revisionsBefore = (await store.listRevisions('test-story')).length;
+    const pointerBefore = await store.getPublication('test-story');
+
+    let conflict: AgentError | null = null;
+    try {
+      await publishDraft(store, publishKey, { idempotencyKey: 'repro2-pub-1', slug: 'test-story', expectedVersion: 2 });
+    } catch (error) {
+      conflict = error as AgentError;
+    }
+    assert.ok(conflict);
+    assert.equal(conflict.code, 'idempotency-conflict');
+    assert.equal(conflict.httpStatus, 409);
+    // NOTHING moved: no revision 3, no pointer change, and — the defect fixed
+    // here — no audit written before the classification.
+    assert.equal((await store.listRevisions('test-story')).length, revisionsBefore);
+    const pointerAfter = await store.getPublication('test-story');
+    assert.deepEqual(pointerAfter, pointerBefore);
+    assert.equal((await store.listAudit('test-story')).length, auditsBefore);
+  });
+
+  it('concurrency + cross-transport parity: two racing identical publishes (one via MCP, one via HTTP — same shared service) yield exactly one win', async () => {
+    // MCP and HTTP both funnel into publishDraft → runIdempotent → the same
+    // claim. So racing two identical calls (any transport pairing) must give:
+    // exactly one success, one 409 conflict-inflight, ONE revision, ONE
+    // publication, ONE audit — and identical retries afterwards replay the
+    // stored winner without extra writes.
+    const store = new MemoryAgentStore();
+    await upsertDraft(store, draftKey, { idempotencyKey: 'repro3-draft-1', state: articleState, status: 'in_review', note: '', base: null });
+    const input = { idempotencyKey: 'repro3-pub-1', slug: 'test-story', expectedVersion: 0 };
+
+    const results = await Promise.allSettled([
+      publishDraft(store, publishKey, input), // imagine this one arrived via MCP
+      publishDraft(store, publishKey, input), // and this one via HTTP
+    ]);
+    const fulfilled = results.filter((r) => r.status === 'fulfilled');
+    const rejected = (results.filter((r) => r.status === 'rejected') as PromiseRejectedResult[]).map((r) => r.reason as AgentError);
+    assert.equal(fulfilled.length, 1);
+    assert.equal(rejected.length, 1);
+    assert.ok(fulfilled[0] && 'value' in fulfilled[0]);
+    const winner = (fulfilled[0] as PromiseFulfilledResult<{ status: string; version: number }>).value;
+    assert.equal(winner.status, 'published');
+    assert.ok(rejected[0]);
+    assert.equal(rejected[0].code, 'idempotency-inflight');
+    assert.equal(rejected[0].httpStatus, 409);
+
+    const revisions = await store.listRevisions('test-story');
+    assert.equal(revisions.length, 2); // draft + single publish revision
+    const audits = await store.listAudit('test-story');
+    assert.equal(audits.filter((row) => row.action === 'publish').length, 1);
+    const pointer = await store.getPublication('test-story');
+    assert.equal(pointer?.versionSeq, winner.version);
+    assert.equal(pointer?.published, true);
+
+    // Identical retry AFTER the race: stored outcome, zero writes.
+    const replay = await publishDraft(store, publishKey, input);
+    assert.deepEqual(replay, winner);
+    assert.equal((await store.listRevisions('test-story')).length, 2);
+  });
+
+  it('cleanup unpublish behaves after the fix (pointer → hidden; story 404s at the repo)', async () => {
+    const store = new MemoryAgentStore();
+    await upsertDraft(store, draftKey, { idempotencyKey: 'cleanup-draft-1', state: articleState, status: 'in_review', note: '', base: null });
+    await publishDraft(store, publishKey, { idempotencyKey: 'cleanup-pub-1', slug: 'test-story', expectedVersion: 0 });
+    const first = await publishDraft(store, publishKey, { idempotencyKey: 'cleanup-pub-1', slug: 'test-story', expectedVersion: 0 });
+    assert.equal(first.version, 2);
+    const publishedStates = await store.listPublishedStates();
+    assert.equal(publishedStates.length, 1);
+    const hidden = await unpublishDraft(store, publishKey, { idempotencyKey: 'cleanup-unpub-1', slug: 'test-story', expectedVersion: first.version });
+    assert.equal(hidden.status, 'unpublished');
+    assert.equal((await store.listPublishedStates()).length, 0);
+  });
+
+  it('rollback on the publish key still appends an audited revision and hides the pointer', async () => {
+    const store = new MemoryAgentStore();
+    await upsertDraft(store, draftKey, { idempotencyKey: 'rb-draft-1', state: articleState, status: 'draft', note: '', base: null });
+    const before = (await store.listRevisions('test-story')).length;
+    const rolled = await rollbackDraft(store, publishKey, { idempotencyKey: 'rb-rollback-1', slug: 'test-story', toSeq: 1 });
+    assert.equal(rolled.status, 'rolled_back');
+    const history = await store.listRevisions('test-story');
+    assert.equal(history.length, before + 1);
+    assert.ok((await store.listAudit('test-story')).some((row) => row.action === 'rollback'));
+  });
+});

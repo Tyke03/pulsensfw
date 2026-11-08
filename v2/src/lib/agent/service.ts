@@ -145,7 +145,15 @@ async function runIdempotent<T>(
   }
   const hash = await requestHashOf({ op, input });
   const scope = auth?.scope ?? 'none';
-  const claim = await store.claimIdempotency(input.idempotencyKey, hash, scope);
+  let claim;
+  try {
+    claim = await store.claimIdempotency(input.idempotencyKey, hash, scope);
+  } catch (error) {
+    // Fail closed: a broken claim system must never lead to replicated
+    // mutations (the live repro class). Migration 0006 supplies the RPC on
+    // Supabase; the dev memory path needs no migration.
+    throw new AgentError('agent-store-unavailable', 503, 'Idempotency claim failed; refusing all mutations. Error: ' + String((error as Error)?.message ?? error), { retryable: true });
+  }
   if (claim.status === 'stored') {
     return claim.outcome as T;
   }
@@ -156,7 +164,11 @@ async function runIdempotent<T>(
     throw new AgentError('idempotency-inflight', 409, 'Key is in flight. Retry briefly with the identical request to land on the stored result.', { retryable: true });
   }
   const result = await mutate();
-  await store.storeIdempotent(input.idempotencyKey, hash, scope, result);
+  try {
+    await store.storeIdempotent(input.idempotencyKey, hash, scope, result);
+  } catch (error) {
+    throw new AgentError('agent-store-unavailable', 503, 'The operation completed but the idempotency outcome could not be stored; the key is spent for this request. Verify the result server-side before retrying. Error: ' + String((error as Error)?.message ?? error), { retryable: false });
+  }
   return result;
 }
 
@@ -328,7 +340,10 @@ async function setPublished(
     throw new AgentError('unknown-draft', 404, `No draft for slug ${input.slug}.`);
   }
   const note = published ? `Published by QC (publish key) — revision ${draft.revisionSeq}.` : 'Unpublished by QC (publish key).';
-  await writeAudit(store, action, input.slug, auth, { note, expectedVersion: input.expectedVersion });
+  // The claim happens FIRST: a conflicting/failed classification returns
+  // 409/503 before ANY mutation — no audit, no revision, no pointer move
+  // (the live repro showed a changed-input retry writing a revision). The
+  // audit lives inside the claimed mutate, so identical replays write nothing.
   return runIdempotent(store, `publication:${action}`, auth, input, async () => {
     // Publication round = one audited revision, then a compare-and-set
     // pointer to that revision (agent_publications_view joins on it).
@@ -346,6 +361,7 @@ async function setPublished(
         revision.revisionSeq,
         input.expectedVersion > 0 ? input.expectedVersion : null,
       );
+      await writeAudit(store, action, input.slug, auth, { note, resultingVersion: record.versionSeq });
       return { slug: record.slug, status: published ? ('published' as const) : ('unpublished' as const), version: record.versionSeq };
     } catch (error) {
       if ((error as Error).message === 'stale-publication') {
@@ -377,10 +393,9 @@ export async function rollbackDraft(
   if (!target) {
     throw new AgentError('unknown-revision', 404, `No revision ${input.toSeq} for slug ${input.slug}. History is never erased.`);
   }
-  await writeAudit(store, 'rollback', input.slug, auth, { toSeq: input.toSeq });
   return runIdempotent(store, 'rollback', auth, input, async () => {
     // Rollback creates a NEW audited revision that restores the target state;
-    // it never erases history.
+    // it never erases history. The audit lives inside the claimed mutate.
     await store.upsertRevision({
       slug: input.slug,
       state: target.state,
@@ -388,6 +403,7 @@ export async function rollbackDraft(
       note: `Rollback to revision ${target.seq}; pointer unpublished.`,
       actorPrint: auth?.keyPrint ?? 'unknown',
     });
+    await writeAudit(store, 'rollback', input.slug, auth, { toSeq: input.toSeq });
     const publication = await store.getPublication(input.slug);
     if (publication?.published) {
       try {

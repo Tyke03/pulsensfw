@@ -31,13 +31,6 @@ import type {
 import type { IdempotencyOutcome, Store, UpsertRequest } from './store';
 import { fingerprintOf, STALE_PUBLICATION } from './canonical';
 
-type IdemRow = {
-  key_id: string;
-  request_hash: string;
-  scope: string;
-  outcome_json: UpsertOutcome | null;
-};
-
 type DraftRow = {
   slug: string;
   status: DraftStatus;
@@ -72,8 +65,6 @@ type AuditRow = {
   at: string;
 };
 
-const EMPTY_OUTCOME: UpsertOutcome = { slug: '', revisionSeq: 0, status: 'draft', fingerprint: '' };
-
 export class SupabaseAgentStore implements Store {
   readonly impl = 'supabase' as const;
 
@@ -87,37 +78,32 @@ export class SupabaseAgentStore implements Store {
   }
 
   async claimIdempotency(key: string, requestHash: string, scope: string): Promise<IdempotencyOutcome> {
-    const inserted = await this.db()
-      .from('agent_idempotency')
-      .upsert(
-        { key_id: key, request_hash: requestHash, scope },
-        { onConflict: 'key_id', ignoreDuplicates: true },
-      )
-      .select('key_id, request_hash, scope, outcome_json');
-    const rows = (inserted.data ?? []) as IdemRow[];
-    if (rows.length === 0) {
-      // Lost the unique race: read the winner's row and classify.
-      const read = await this.db()
-        .from('agent_idempotency')
-        .select('key_id, request_hash, scope, outcome_json')
-        .eq('key_id', key)
-        .limit(1);
-      const row = ((read.data ?? []) as IdemRow[]).at(0);
-      if (!row) return { status: 'conflict-inflight' };
-      return classify(row);
-    }
-    const row = rows[0];
-    if (row.request_hash !== requestHash || row.scope !== scope) return { status: 'conflict-current' };
-    return { status: 'free' };
+    // Single SQL statement (0006): INSERT .. ON CONFLICT DO NOTHING for a
+    // fresh key, or classify the winner row — the stored request_hash can
+    // never be rewritten by this path, so changed-input retries cannot
+    // reclassify themselves (the live bug reviewed in the repro).
+    const { data, error } = await this.db().rpc('agent_claim_idempotency', {
+      p_key: key,
+      p_scope: scope,
+      p_hash: requestHash,
+    });
+    if (error) throw error;
+    const row = ((data ?? []) as Array<{ claim_status?: string; outcome?: unknown }>).at(0);
+    if (!row?.claim_status) return { status: 'conflict-inflight' };
+    if (row.claim_status === 'free') return { status: 'free' };
+    if (row.claim_status === 'stored') return { status: 'stored', outcome: row.outcome };
+    if (row.claim_status === 'conflict-current') return { status: 'conflict-current' };
+    return { status: 'conflict-inflight' };
   }
 
   async storeIdempotent(key: string, requestHash: string, scope: string, outcome: unknown): Promise<void> {
-    await this.db()
-      .from('agent_idempotency')
-      .update({ outcome_json: outcome })
-      .eq('key_id', key)
-      .eq('request_hash', requestHash)
-      .eq('scope', scope);
+    const { error } = await this.db().rpc('agent_store_idempotent_outcome', {
+      p_key: key,
+      p_scope: scope,
+      p_hash: requestHash,
+      p_outcome: outcome as never,
+    });
+    if (error) throw error;
   }
 
   async upsertRevision(request: UpsertRequest): Promise<UpsertOutcome> {
@@ -315,8 +301,4 @@ export class SupabaseAgentStore implements Store {
 function isUniqueViolation(error: unknown): boolean {
   return Boolean(error) && typeof error === 'object' && 'code' in (error as Record<string, unknown>) &&
     (error as { code: string }).code === '23505';
-}
-
-function classify(row: IdemRow): IdempotencyOutcome {
-  return { status: 'stored', outcome: row.outcome_json ?? EMPTY_OUTCOME };
 }

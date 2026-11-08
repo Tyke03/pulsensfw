@@ -69,7 +69,9 @@ before(async () => {
     AS $fn$
       SELECT nullif(current_setting('request.jwt.claims.sub', true), '')::uuid
     $fn$;`);
-  // Real migrations first, in order.
+  // Real migrations first, in order. 0005/0006 come AFTER the posture
+  // emulation below (they revoke/emend the Supabase defaults), so only the
+  // baseline four run here.
   for (const file of ['0001_reader_profiles.sql', '0002_agent_content.sql', '0003_model_usage.sql', '0004_reconcile_fresh_baseline.sql']) {
     const sql = readFileSync(join(here, '..', '..', '..', 'supabase', 'migrations', file), 'utf8');
     await pglite.exec(sql);
@@ -90,9 +92,9 @@ before(async () => {
     await pglite.exec(`GRANT ALL ON public.${table} TO service_role;`);
   }
   await pglite.exec('ALTER ROLE service_role NOLOGIN BYPASSRLS;');
-  // Security-repair migration last.
-  {
-    const sql = readFileSync(join(here, '..', '..', '..', 'supabase', 'migrations', '0005_view_and_function_permissions.sql'), 'utf8');
+  // Security-repair migrations last, against that emulated posture.
+  for (const file of ['0005_view_and_function_permissions.sql', '0006_idempotency_claim_rpc.sql']) {
+    const sql = readFileSync(join(here, '..', '..', '..', 'supabase', 'migrations', file), 'utf8');
     await pglite.exec(sql);
   }
   // Emulate Supabase's default privileges on public tables (the live service
@@ -123,7 +125,7 @@ async function asRole<T>(role: string, fn: () => Promise<{ rows?: T[] } | void>)
   }
 }
 
-describe('Supabase migrations 0001–0004 (pglite integration — real SQL, local only)', () => {
+describe('Supabase migrations 0001–0006 (pglite integration — real SQL, local only)', () => {
   it('reader RLS: users see and write only their own saved rows', async () => {
     await rowsOf('INSERT INTO reader_profiles (user_id, nsfw_pref) VALUES ($1, false)', [USER_A]);
     await rowsOf('INSERT INTO saved_entities (user_id, slug, kind) VALUES ($1, $2, $3)', [USER_A, 'brazzers', 'site']);
@@ -319,6 +321,79 @@ describe('Supabase migrations 0001–0004 (pglite integration — real SQL, loca
       assert.ok((updated ?? []).length > 0);
       // Restore: penance for the probe.
       await rowsOf("UPDATE agent_revisions SET note = '' WHERE slug = 'sql-story' AND seq = 1");
+    });
+  });
+
+  describe('0006 idempotency claim RPCs (real SQL path for the live idempotency repro)', () => {
+    const KEY = 'repro-key-0006';
+    const HASH = 'hash-of-identical-input';
+    const OTHER_HASH = 'hash-of-changed-input';
+    const SCOPE = 'publish';
+
+    it('fresh claim → free, and the claim row can never be reclassified to free again', async () => {
+      const first = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, SCOPE, HASH]);
+      assert.equal(first.at(0)?.claim_status, 'free');
+      // Concurrent loser (what the racing twin hits): identical claim while
+      // the winner is in flight (no outcome yet) → conflict-inflight, and the
+      // row itself is untouched by the loser.
+      const loser = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, SCOPE, HASH]);
+      assert.equal(loser.at(0)?.claim_status, 'conflict-inflight');
+      // Last-line uniqueness: a raw duplicate insert resolves to a no-op.
+      const noop = await rowsOf(
+        "INSERT INTO agent_idempotency (key_id, request_hash, scope) VALUES ($1, $2, $3) ON CONFLICT (key_id) DO NOTHING RETURNING key_id",
+        [KEY, HASH, SCOPE],
+      );
+      assert.equal(noop.length, 0);
+    });
+
+    it('same key + changed input (or changed scope) → conflict-current, stored hash never rewritten', async () => {
+      const changed = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, SCOPE, OTHER_HASH]);
+      assert.equal(changed.at(0)?.claim_status, 'conflict-current');
+      const scopeChanged = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, 'publish2', HASH]);
+      assert.equal(scopeChanged.at(0)?.claim_status, 'conflict-current');
+      const row = await rowsOf('SELECT request_hash, scope FROM agent_idempotency WHERE key_id = $1', [KEY]);
+      assert.equal(row.length, 1); // still exactly one winner row
+      assert.equal(row.at(0)?.request_hash, HASH);
+      assert.equal(row.at(0)?.scope, SCOPE);
+    });
+
+    it('identical retry after the outcome lands → stored, outcome bytes intact', async () => {
+      await rowsOf('SELECT agent_store_idempotent_outcome($1, $2, $3, $4)', [KEY, SCOPE, HASH, JSON.stringify({ slug: 'repro-story', status: 'published', version: 2 })]);
+      const replay = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, SCOPE, HASH]);
+      assert.equal(replay.at(0)?.claim_status, 'stored');
+      assert.deepEqual(replay.at(0)?.outcome, { slug: 'repro-story', status: 'published', version: 2 });
+    });
+
+    it('outcome store is pinned to key+scope+hash: a mismatched hash lands nowhere', async () => {
+      await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', ['winner-key-0006b', 'hash-A', SCOPE]);
+      await rowsOf('SELECT agent_store_idempotent_outcome($1, $2, $3, $4)', ['winner-key-0006b', SCOPE, 'hash-WRONG', JSON.stringify({ bogus: true })]);
+      const row = await rowsOf('SELECT outcome_json FROM agent_idempotency WHERE key_id = $1', ['winner-key-0006b']);
+      assert.equal(row.at(0)?.outcome_json, null); // nothing attached to the wrong request
+    });
+
+    it('client roles are denied both RPCs (42501) — they are service_role-only', async () => {
+      for (const role of ['anon', 'authenticated']) {
+        let denied = false;
+        try {
+          await asRole(role, () => pglite.query("SELECT agent_claim_idempotency('x', 'y', 'z')"));
+        } catch (error) {
+          denied = String((error as { code?: string }).code) === '42501';
+        }
+        assert.equal(denied, true, `${role} must be denied`);
+      }
+    });
+
+    it('service_role can run claim+store end-to-end (the intended server-only caller)', async () => {
+      await pglite.query("SELECT set_config('role', 'service_role', false)");
+      try {
+        const claim = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', ['svc-key-0006', 'hash-svc', SCOPE]);
+        assert.equal(claim.at(0)?.claim_status, 'free');
+        await rowsOf('SELECT agent_store_idempotent_outcome($1, $2, $3, $4)', ['svc-key-0006', 'hash-svc', SCOPE, JSON.stringify({ ok: true })]);
+        const replay = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', ['svc-key-0006', 'hash-svc', SCOPE]);
+        assert.equal(replay.at(0)?.claim_status, 'stored');
+      } finally {
+        await pglite.query("SELECT set_config('role', 'postgres', false)");
+      }
     });
   });
 });
