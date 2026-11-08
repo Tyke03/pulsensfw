@@ -18,6 +18,15 @@ the recommended first target):
    search_path), defense-in-depth grants (no direct anon/authenticated
    access to pipeline/usage tables beneath RLS), reader_profiles.updated_at
    trigger, review comments
+5. `0005_view_and_function_permissions.sql` — security fix closing two
+   review findings: (a) default PUBLIC EXECUTE on the SECURITY DEFINER
+   `bump_model_usage_daily` revoked from PUBLIC/anon/authenticated, granted
+   to service_role only; (b) `agent_publications_view` set
+   `security_invoker = true` (views bypass underlying RLS by default) with
+   its anon/authenticated exposures revoked and service_role SELECT granted.
+   Reader RLS and the published-only overlay are untouched; the regression
+   tests below assert both denials and the service-role path via real SQL
+   role switches.
 
 History note: these same filenames were rehearsed during the round 2E–2G
 implementation; the 2026-11-06/07 interim used Neon Postgres (kept in
