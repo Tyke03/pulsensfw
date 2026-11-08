@@ -1,7 +1,7 @@
 /**
  * Agent store seam (round 2E).
  *
- * Implementations: neon-store.ts (production, Neon Postgres) and memory.ts
+ * Implementations: supabase-store.ts (production, Supabase) and memory.ts
  * (unit tests + explicit AGENT_DEV_STORE=memory dev mode, never production).
  * The store owns transactional idempotency, append-only revisions, publication
  * state and the audit trail. It never guesses scope — the service checks it.
@@ -33,7 +33,7 @@ export type UpsertRequest = {
 };
 
 export type Store = {
-  readonly impl: 'neon' | 'memory';
+  readonly impl: 'supabase' | 'memory';
 
   /* Idempotency (transactional unique key at the store). */
   claimIdempotency(key: string, requestHash: string, scope: string): Promise<IdempotencyOutcome>;

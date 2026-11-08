@@ -38,8 +38,7 @@ console.log('(No secrets are printed. Check env names only.)\n');
 const envLines = readEnvCommitExample();
 /** R2 media seam is round 2E scope-seated: docs + placeholder names now, credit/license/2257 in the schema already. */
 const groups: Array<{ label: string; names: string[] }> = [
-  { label: 'Neon Postgres', names: ['NEON_DATABASE_URL', 'DATABASE_URL'] },
-  { label: 'Neon Auth', names: ['NEON_AUTH_BASE_URL', 'NEON_AUTH_COOKIE_SECRET'] },
+  { label: 'Supabase', names: ['PUBLIC_SUPABASE_URL', 'PUBLIC_SUPABASE_ANON_KEY', 'SUPABASE_SERVICE_ROLE_KEY'] },
   { label: 'Agents', names: ['AGENT_DRAFT_KEY', 'AGENT_PUBLISH_KEY', 'AGENT_DEV_STORE'] },
   { label: 'Models', names: ['MODELS_MAIN_API_URL', 'MODELS_MAIN_API_KEY', 'MODELS_MAIN_IDS', 'MODELS_FALLBACK_API_URL', 'MODELS_FALLBACK_API_KEY', 'MODELS_FALLBACK_IDS', 'MODEL_DAILY_COST_CAP_USD'] },
   { label: 'Age vendor', names: ['AGE_VENDOR_API_URL', 'AGE_VENDOR_API_KEY'] },
@@ -68,9 +67,9 @@ row('Media', 'age/SFW delivery boundaries', 'mocked', 'presentImage gates explic
 row('Affiliate', 'rel="sponsored" placement', 'code-complete', 'EntityDataPanel + StarProfile use rel="sponsored noopener noreferrer" ONLY for active programs; inactive links stay plain.');
 row('Affiliate', 'disclosures', 'code-complete', '/affiliate-disclosure page exists and Footer/Sidebar render the label; affiliate is marked in rank rows.');
 row('Infra', 'Cloudflare deploy steps', 'code-complete', 'wrangler + @astrojs/cloudflare adapter configured; deploy commands live in docs/launch-readiness.md (updates: migrations, secrets, deployment, cutover, rollback).');
-row('Infra', 'migrations', 'code-complete', 'neon/migrations/0001_app_current_baseline.sql (single baseline; supabase/migrations retained as historical material, never executed). Apply on a Neon DEV branch via the Neon CLI/psql — owner-approval step.');
-row('Infra', 'backups', 'live-needed', 'Documented per docs/launch-readiness.md §backups (pg_dump / Neon PITR point-in-time restore on paid plans) — needs the Neon project.');
-row('Auth', 'Neon Auth (Managed Better Auth) email/password', 'mocked', 'Proxy + server-side /get-session verification implemented and unit-tested against mocks; live sign-in flow requires enabling Neon Auth in the console (root neon.ts auth flag) + NEON_AUTH_* vars.');
+row('Infra', 'migrations', 'code-complete', 'supabase/migrations: 0001 reader profiles+RLS, 0002 agent content+RLS, 0003 model usage; apply via `supabase db push`.');
+row('Infra', 'backups', 'live-needed', 'Documented per docs/launch-readiness.md §backups (pg_dump / Supabase PITR toggle) — needs a Supabase project.');
+row('Auth', 'Supabase email magic link', 'mocked', 'Round 2D implementation + unit tests; live sign-in needs the project URL + keys.');
 row('Mail', 'SES sends', 'mocked', 'SigV4 verified against the AWS official vector (unit); live send needs MAIL_* creds.');
 row('Models', 'ladder routing', 'mocked', 'Unit tested tiers/refusal-vs-outage/empty/budget; live check needs MODELS_* creds + an official /models manifest check per tier.');
 row('Concierge', 'age/SFW server gate', 'mocked', 'NSFW retrieval gating tested at the seed level; vendor-cookie gate verified in unit tests only.');

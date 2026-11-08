@@ -12,7 +12,7 @@ import { presentEntityPage } from '../lib/content/present';
 import { entityHit, relatedEntities, sameKindRelated } from '../lib/content/related';
 import { routeTypes, ENTITY_KIND } from '../lib/content/entities';
 import { readReader } from '../lib/reader/cookies';
-import { neonAuthConfigured } from '../lib/auth/neon';
+import { profileTablesConfigured } from '../lib/auth/supabase';
 import { SITE, TOPIC_LABEL } from '../lib/site';
 import type { EntityKind, SearchHit } from '../lib/content/types';
 
@@ -87,7 +87,7 @@ const saveReturn = Astro.url.pathname;
           <a class="c-chip c-chip--compare" href={compareHref}>Compare with related picks</a>
         </div>
       )}
-      {page && neonAuthConfigured() && (
+      {page && profileTablesConfigured() && (
         <div class="search-types" style="margin-top:20px">
           <span class="kicker">Your desk</span>
           <form method="post" action="/api/reader/save" data-astro-reload>

@@ -24,6 +24,11 @@ alter table model_usage_daily enable row level security;
 -- No policies: aggregate accounting is service-role only.
 
 -- Atomic upsert used by the server (service-role) to keep daily totals.
+-- Reconciliation note (2026-11-07 round): the original body aliased the
+-- insert target `AS u` while ALSO referencing `model_usage_daily.*` in the
+-- DO UPDATE clause — Postgres rejects that mix (checked against real SQL in
+-- the pglite suite). The alias is removed here; 0004 re-creates the same
+-- function with hardening on top.
 create or replace function public.bump_model_usage_daily(
   p_day date,
   p_session text,
@@ -32,7 +37,7 @@ create or replace function public.bump_model_usage_daily(
   p_completion bigint,
   p_cost_micro bigint
 ) returns void language sql as $$
-  insert into model_usage_daily as u (day, session_hash, model_id, calls, prompt_tokens, completion_tokens, est_cost_micro_usd)
+  insert into model_usage_daily (day, session_hash, model_id, calls, prompt_tokens, completion_tokens, est_cost_micro_usd)
   values (p_day, p_session, p_model, 1, p_prompt, p_completion, p_cost_micro)
   on conflict (day, session_hash, model_id) do update set
     calls = model_usage_daily.calls + 1,

@@ -1,17 +1,27 @@
-# migrations/ (supabase/legacy) — HISTORICAL, DO NOT EXECUTE
+# migrations — Supabase (project `pulsensfw`, ref `nlvirznczjtprsedrwnk`)
 
-These files described the round 2D–2G Supabase implementation (RLS policies,
-auth.users foreign keys, service-role access). The 2026-11 stack correction
-replaced Supabase with Neon Postgres + Neon Auth (Managed Better Auth):
+Order for the new dedicated project (NOT applied remotely as of the
+2026-11-07 round — owner-approval step; a dedicated dev branch/preview is
+the recommended first target):
 
-- The live schema lives in `v2/neon/migrations/0001_app_current_baseline.sql`
-  (plain Postgres; no RLS roles — service-layer isolation instead).
-- These files are retained as historical material only. They are NOT applied
-  by any tool anymore, and no consumer imports them. Do not run
-  `supabase db push` against anything from this folder.
+1. `0001_reader_profiles.sql` — reader tables + RLS owner-only policies
+   (legacy Supabase Auth `auth.users` FK + `auth.uid()` policies: this is
+   the Supabase-native pattern, correct again here)
+2. `0002_agent_content.sql` — agent pipeline: idempotency (transactional
+   unique key), append-only revisions, publications pointer,
+   affiliate queue, audit trail, published-content view
+3. `0003_model_usage.sql` — daily usage accounting + the
+   `bump_model_usage_daily` upsert function (superseded by the hardened
+   version in 0004)
+4. `0004_reconcile_fresh_baseline.sql` — follow-up that reconciles the
+   2026-11 round: privileged-function hardening (security definer, pinned
+   search_path), defense-in-depth grants (no direct anon/authenticated
+   access to pipeline/usage tables beneath RLS), reader_profiles.updated_at
+   trigger, review comments
 
-| Historical file | Replaced by |
-|---|---|
-| 0001_reader_profiles.sql | 0001_app_current_baseline.sql § reader tables |
-| 0002_agent_content.sql   | 0001_app_current_baseline.sql § agent pipeline |
-| 0003_model_usage.sql     | 0001_app_current_baseline.sql § model usage |
+History note: these same filenames were rehearsed during the round 2E–2G
+implementation; the 2026-11-06/07 interim used Neon Postgres (kept in
+`../neon/` as historical material — no Neon runtime remains in the app).
+Apply with the Supabase CLI (`supabase db push`) or the SQL editor after an
+owner review; the launch audit rows in `scripts/launch-audit.ts` mark this
+as the live-verification step.

@@ -4,23 +4,30 @@ Phase 1 shell for [pulsensfw.com](https://pulsensfw.com). Tagline: **The NSFW in
 
 This desk is for people who watch: stars, sites, VR, games, AI, and sex tech, with search across the entity catalog. It is not a creator-business or industry desk.
 
-Astro server-renders every page for Cloudflare Workers. Content is local MDX and JSON behind `getContentRepository()` with the agent-store overlay (Neon Postgres when configured). Every fact about a star, site, or AI app lives in exactly one place: the entity file.
+Astro server-renders every page for Cloudflare Workers. Content is local MDX and JSON behind `getContentRepository()` with the agent-store overlay (Supabase Postgres when configured). Every fact about a star, site, or AI app lives in exactly one place: the entity file.
 
-## Stack (2026-11 correction)
+## Stack (2026-11-07 final)
 
-This desk runs on **Neon Postgres + Neon Auth (Managed Better Auth)**, Astro SSR on
-Cloudflare, R2 for media and Amazon SES for plain-text mail. The earlier
-Supabase implementation was removed (`@supabase/*` packages, auth code, RLS
-assumptions and migrations are historical material only —
-`supabase/migrations/README.md`). What replaced what:
+This desk runs on **Supabase Postgres + Supabase Auth**, Astro SSR on
+Cloudflare, R2 for media and Amazon SES for plain-text mail, with local
+opencode agents + cron calling the site's MCP/HTTP endpoints. Project:
+`pulsensfw` (ref `nlvirznczjtprsedrwnk`, us-east-1) — created, ACTIVE_HEALTHY,
+nothing applied remotely yet.
 
-- Database: official Neon serverless driver over HTTP (`lib/db/pg.ts`,
-  `lib/agent/neon-store.ts`, reader store).
-- Auth: Managed Better Auth through the Neon Auth service; sessions are
-  verified server-side (`lib/auth/neon.ts`), reader isolation is enforced by
-  explicit `user_id` scoping in every statement (`lib/reader/…`).
-- Migrations: `v2/neon/migrations/` (single baseline; never applied remotely
-  in the correction round).
+Historical record: an interim (2026-11-06/07) replaced Supabase with Neon
+Postgres; that interim was reverted — the Neon artifacts (`../neon.ts` at the
+repo root, `.env.local` from the old CLI link, `v2/neon/migrations/`) are
+preserved untouched as reference material and read by no tooling. What the
+final stack looks like:
+
+- Database/auth: Supabase (`supabase-js` + `@supabase/ssr`; auth is Supabase
+  magic-link OTP). Sessions verified server-side (`lib/auth/supabase.ts`);
+  reader isolation comes from RLS owner-only policies (0001) PLUS explicit
+  `user_id` scoping in every server statement — never client input.
+- Migrations: `v2/supabase/migrations/` 0001 → 0004 (0004 reconciles the
+  interim round: hardened privileged function, defense-in-depth grants
+  (revoke anon/authenticated on pipeline/usage tables), updated_at trigger,
+  review comments). Held for owner approval; not applied remotely yet.
 - Everything else (agents, Concierge, age seam, SES, R2, model ladder) is
   unchanged behavior-wise.
 
@@ -96,9 +103,9 @@ replay the stored result; a reused key with different input fails loudly) and
 drafts carry optimistic revision bases so concurrent edits fail instead of
 overwriting. Publication writes overlay published content into the hybrid
 content repository, so published changes appear on public pages, search and
-compare. `v2/neon/migrations/0001_app_current_baseline.sql` carries the drafts,
-revisions, audit trail and affiliate queue (append-only; server service-key
-only).
+compare. `v2/supabase/migrations/0002_agent_content.sql` (reconciled by
+`0004_reconcile_fresh_baseline.sql`) carries the drafts, revisions, audit
+trail and affiliate queue (append-only; service-role only).
 Role prompts live in `docs/agents/roles.md` (scheduling stays a doc-only
 example, never activated).
 
@@ -143,15 +150,16 @@ an owner decision.
 
 ## Reader accounts (round 2D)
 
-- **Neon Auth (Managed Better Auth)**: email + password sessions via the managed
-  service; sessions verified server-side on every call (`lib/auth/neon.ts`).
-  Unconfigured → the desk stays honestly guest-only until the owner enables
-  the service (root `neon.ts` auth flag) and sets NEON_AUTH_* env.
-- `v2/neon/migrations/0001_app_current_baseline.sql` creates `reader_profiles`,
-  `reader_saved`, `reader_follows` plus the agent pipeline tables. Supabase's
-  RLS policies are replaced by service-layer isolation (every reader
-  statement filters by the verified session's user_id) and service-only
-  grants — managed Neon Auth does not provision RLS automatically.
+- **Supabase Auth**: email magic-link OTP sessions (no password stored on
+  this site); sessions verified server-side on every call
+  (`lib/auth/supabase.ts`). `SUPABASE_SERVICE_ROLE_KEY` is server-only; the
+  Anon key is the only key that reaches a browser. Unconfigured → the desk
+  stays honestly guest-only until the owner wires the NEW project's keys.
+- `v2/supabase/migrations/0001_reader_profiles.sql` creates `reader_profiles`,
+  `saved_entities`, `follows` — RLS owner-only policies (0001) PLUS the
+  server's verified-session `user_id` scoping on every statement (defense in
+  depth; never client input). `0004` adds hardened function/trigger/grants
+  for the new project.
 - Signed-out readers keep cookie preferences. Signed-in readers get saves and
   follows on `/you`; the age/NSFW cookie remains the fast path for the gate.
 - `/you` is the account desk: sign-in link, NSFW state, saved list, follows.
