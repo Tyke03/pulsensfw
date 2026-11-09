@@ -27,6 +27,14 @@
 --
 -- Grants follow Supabase guidance for privileged functions (security
 -- definer: pinned search_path, no PUBLIC/default execute, service_role only).
+--
+-- RESULT CONTRACT (added after live verification 2026-11-08): exactly ONE
+-- row, always. In PL/pgSQL `return query` appends and CONTINUES executing —
+-- so every classification branch ends with `return;`; the trailing
+-- unconditional `return query conflict-inflight` must not fire twice. The
+-- first live probe (pre-fix) returned trailing junk rows
+-- ([free, conflict-inflight], [stored, ...]); the store reads row 0 only,
+-- but the surface contract is one row, asserted by the SQL tests.
 
 create or replace function public.agent_claim_idempotency(
   p_key text,
@@ -50,6 +58,7 @@ begin
 
   if found then
     return query select 'free'::text, null::jsonb;
+    return;
   end if;
 
   select * into v_row from public.agent_idempotency where key_id = p_key;
@@ -57,17 +66,20 @@ begin
     -- Cannot happen against the unique key; defensive classification says
     -- nothing about the caller's request.
     return query select 'conflict-inflight'::text, null::jsonb;
+    return;
   end if;
 
   -- Same key + changed payload (or changed credential scope) is a hard
   -- conflict, reported without any mutation elsewhere.
   if v_row.scope is distinct from p_scope or v_row.request_hash is distinct from p_hash then
     return query select 'conflict-current'::text, null::jsonb;
+    return;
   end if;
 
   -- Identical retry: the original outcome exists untouched.
   if v_row.outcome_json is not null then
     return query select 'stored'::text, v_row.outcome_json;
+    return;
   end if;
 
   return query select 'conflict-inflight'::text, null::jsonb;

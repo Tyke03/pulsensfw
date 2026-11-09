@@ -93,7 +93,7 @@ before(async () => {
   }
   await pglite.exec('ALTER ROLE service_role NOLOGIN BYPASSRLS;');
   // Security-repair migrations last, against that emulated posture.
-  for (const file of ['0005_view_and_function_permissions.sql', '0006_idempotency_claim_rpc.sql']) {
+  for (const file of ['0005_view_and_function_permissions.sql', '0006_idempotency_claim_rpc.sql', '0007_publications_view_revisions_join.sql']) {
     const sql = readFileSync(join(here, '..', '..', '..', 'supabase', 'migrations', file), 'utf8');
     await pglite.exec(sql);
   }
@@ -125,7 +125,7 @@ async function asRole<T>(role: string, fn: () => Promise<{ rows?: T[] } | void>)
   }
 }
 
-describe('Supabase migrations 0001–0006 (pglite integration — real SQL, local only)', () => {
+describe('Supabase migrations 0001–0007 (pglite integration — real SQL, local only)', () => {
   it('reader RLS: users see and write only their own saved rows', async () => {
     await rowsOf('INSERT INTO reader_profiles (user_id, nsfw_pref) VALUES ($1, false)', [USER_A]);
     await rowsOf('INSERT INTO saved_entities (user_id, slug, kind) VALUES ($1, $2, $3)', [USER_A, 'brazzers', 'site']);
@@ -209,6 +209,9 @@ describe('Supabase migrations 0001–0006 (pglite integration — real SQL, loca
   });
 
   it('agent_publications_view only exposes published rows', async () => {
+    // 0007 contract: the overlay serves the immutable revision that the
+    // pointer NAMES (what is published), not the mutable drafts head.
+    await rowsOf("INSERT INTO agent_revisions (slug, seq, status_at, state, actor_print) VALUES ('view-story', 1, 'published', '{\"kind\":\"article\",\"slug\":\"view-story\",\"blocks\":[]}', 'k-test')");
     await rowsOf("INSERT INTO agent_drafts (slug, status, state, fingerprint, revision_seq, revised_at) VALUES ('view-story', 'published', '{\"kind\":\"article\",\"slug\":\"view-story\",\"blocks\":[]}', 'fp1', 1, now())");
     await rowsOf("INSERT INTO agent_publications (slug, published, version_seq) VALUES ('view-story', true, 1)");
     await rowsOf("INSERT INTO agent_drafts (slug, status, state, fingerprint, revision_seq, revised_at) VALUES ('unpub-story', 'in_review', '{\"kind\":\"article\",\"slug\":\"unpub-story\",\"blocks\":[]}', 'fp2', 1, now())");
@@ -332,11 +335,13 @@ describe('Supabase migrations 0001–0006 (pglite integration — real SQL, loca
 
     it('fresh claim → free, and the claim row can never be reclassified to free again', async () => {
       const first = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, SCOPE, HASH]);
+      assert.equal(first.length, 1); // result contract: exactly one row
       assert.equal(first.at(0)?.claim_status, 'free');
       // Concurrent loser (what the racing twin hits): identical claim while
       // the winner is in flight (no outcome yet) → conflict-inflight, and the
       // row itself is untouched by the loser.
       const loser = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, SCOPE, HASH]);
+      assert.equal(loser.length, 1);
       assert.equal(loser.at(0)?.claim_status, 'conflict-inflight');
       // Last-line uniqueness: a raw duplicate insert resolves to a no-op.
       const noop = await rowsOf(
@@ -348,8 +353,10 @@ describe('Supabase migrations 0001–0006 (pglite integration — real SQL, loca
 
     it('same key + changed input (or changed scope) → conflict-current, stored hash never rewritten', async () => {
       const changed = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, SCOPE, OTHER_HASH]);
+      assert.equal(changed.length, 1);
       assert.equal(changed.at(0)?.claim_status, 'conflict-current');
       const scopeChanged = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, 'publish2', HASH]);
+      assert.equal(scopeChanged.length, 1);
       assert.equal(scopeChanged.at(0)?.claim_status, 'conflict-current');
       const row = await rowsOf('SELECT request_hash, scope FROM agent_idempotency WHERE key_id = $1', [KEY]);
       assert.equal(row.length, 1); // still exactly one winner row
@@ -360,6 +367,7 @@ describe('Supabase migrations 0001–0006 (pglite integration — real SQL, loca
     it('identical retry after the outcome lands → stored, outcome bytes intact', async () => {
       await rowsOf('SELECT agent_store_idempotent_outcome($1, $2, $3, $4)', [KEY, SCOPE, HASH, JSON.stringify({ slug: 'repro-story', status: 'published', version: 2 })]);
       const replay = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', [KEY, SCOPE, HASH]);
+      assert.equal(replay.length, 1); // live probe regression: was [stored, conflict-inflight]
       assert.equal(replay.at(0)?.claim_status, 'stored');
       assert.deepEqual(replay.at(0)?.outcome, { slug: 'repro-story', status: 'published', version: 2 });
     });
@@ -387,13 +395,59 @@ describe('Supabase migrations 0001–0006 (pglite integration — real SQL, loca
       await pglite.query("SELECT set_config('role', 'service_role', false)");
       try {
         const claim = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', ['svc-key-0006', 'hash-svc', SCOPE]);
+        assert.equal(claim.length, 1);
         assert.equal(claim.at(0)?.claim_status, 'free');
         await rowsOf('SELECT agent_store_idempotent_outcome($1, $2, $3, $4)', ['svc-key-0006', 'hash-svc', SCOPE, JSON.stringify({ ok: true })]);
         const replay = await rowsOf('SELECT * FROM agent_claim_idempotency($1, $2, $3)', ['svc-key-0006', 'hash-svc', SCOPE]);
+        assert.equal(replay.length, 1);
         assert.equal(replay.at(0)?.claim_status, 'stored');
       } finally {
         await pglite.query("SELECT set_config('role', 'postgres', false)");
       }
+    });
+  });
+
+  describe("0007 published read model reads the pointer's own revision (live incident regression)", () => {
+    it('a stale attempt revision after publish does NOT hide the published story', async () => {
+      // Incident shape from the live round (evidence in 0007 header):
+      // draft rev1, publish rev2 + pointer v2, then the audited stale-CAS
+      // attempt writes rev3 AND advances the drafts head — a rejected 409
+      // request must never change what the storefront shows.
+      await rowsOf(
+        `INSERT INTO agent_revisions (slug, seq, status_at, state, actor_print)
+         VALUES
+           ('view-0007-story', 1, 'in_review', $1::jsonb, 'k-test'),
+           ('view-0007-story', 2, 'published', $2::jsonb, 'k-test'),
+           ('view-0007-story', 3, 'in_review', $3::jsonb, 'k-test')`,
+        [
+          JSON.stringify({ kind: 'article', title: 'v1 draft' }),
+          JSON.stringify({ kind: 'article', title: 'v2 published' }),
+          JSON.stringify({ kind: 'article', title: 'v3 stale attempt' }),
+        ],
+      );
+      await rowsOf(
+        `INSERT INTO agent_drafts (slug, status, state, fingerprint, revision_seq, revised_at)
+         VALUES ('view-0007-story', 'published', $1::jsonb, 'fp-0007', 3, now())`,
+        [JSON.stringify({ kind: 'article', title: 'v3 stale attempt' })],
+      );
+      await rowsOf(
+        "INSERT INTO agent_publications (slug, published, version_seq) VALUES ('view-0007-story', true, 2)",
+      );
+      const shown = await rowsOf(
+        'SELECT slug, state, version_seq FROM agent_publications_view WHERE slug = $1',
+        ['view-0007-story'],
+      );
+      assert.equal(shown.length, 1); // exactly the pointer's version
+      assert.equal(shown.at(0)?.version_seq, 2);
+      assert.equal(shown.at(0)?.state?.title, 'v2 published'); // the PUBLISHED bytes, not the draft head
+
+      // Hiding/unpublishing the pointer still removes it from the overlay.
+      await rowsOf('UPDATE agent_publications SET published = false WHERE slug = $1', ['view-0007-story']);
+      const gone = await rowsOf(
+        'SELECT slug FROM agent_publications_view WHERE slug = $1',
+        ['view-0007-story'],
+      );
+      assert.equal(gone.length, 0);
     });
   });
 });
