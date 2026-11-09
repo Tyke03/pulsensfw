@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readReader } from '../../lib/reader/cookies';
+import { SITE } from '../../lib/site';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+---
+<BaseLayout title={`Loading · ${SITE.name}`} reader={reader} noindex>
+  <div class="page" style="padding:20px 0 48px;display:grid;gap:16px" aria-busy="true" aria-live="polite">
+    <p class="kicker">Loading</p>
+    <div class="skel skel-line" style="width:40%;height:36px"></div>
+    <div class="skel" style="aspect-ratio:16/10"></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="skel skel-card"></div>
+      <div class="skel skel-card"></div>
+    </div>
+  </div>
+</BaseLayout>

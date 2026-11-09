@@ -1,0 +1,30 @@
+---
+import MediaFrame from './MediaFrame.astro';
+import ScoreBadge from './ScoreBadge.astro';
+import { TOPIC_LABEL } from '../lib/site';
+import type { ArticleCard } from '../lib/content/types';
+
+interface Props {
+  card: ArticleCard;
+  layout?: 'feature' | 'standard' | 'text' | 'editor' | 'guide' | 'rank' | 'stack';
+  rank?: number;
+  uid: string;
+  heading?: 'h2' | 'h3';
+}
+const { card, layout = 'standard', rank, uid, heading = 'h3' } = Astro.props;
+const showDek = layout === 'feature' || layout === 'editor' || layout === 'guide' || layout === 'stack';
+---
+<article class:list={['card', `card--${layout}`, layout === 'stack' && 'stack-item']}>
+  <MediaFrame media={card.media} topic={card.topic} uid={uid} />
+  <a class:list={['card-body', card.media.state !== 'withheld' && 'card-stretch']} href={card.href}>
+    <span class="card-meta">
+      <span class:list={['c-chip', `c-chip--${card.topic}`]}>{TOPIC_LABEL[card.topic]}</span>
+      {card.badges.map((badge) => <span class:list={['c-badge', `c-badge--${badge}`]}>{badge}</span>)}
+      {card.score !== null && layout !== 'stack' && layout !== 'text' && <ScoreBadge score={card.score} />}
+    </span>
+    {layout === 'rank' && <span class="rank-no">{String(rank ?? 0).padStart(2, '0')}</span>}
+    {heading === 'h2' ? <h2 class="card-title clamp-3">{card.title}</h2> : <h3 class="card-title clamp-3">{card.title}</h3>}
+    {showDek && <p class="dek clamp-2">{card.dek}</p>}
+    <p class="meta">{card.author} · {card.publishedLabel} · {card.readingMinutes} min</p>
+  </a>
+</article>

@@ -1,0 +1,179 @@
+---
+import EmptyState from '../components/states/EmptyState.astro';
+import HitCard from '../components/HitCard.astro';
+import RelatedRow from '../components/RelatedRow.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { searchCatalog } from '../lib/content/present';
+import { compareGroups, entityHit, recentOfKind, relatedForSearch } from '../lib/content/related';
+import { readReader } from '../lib/reader/cookies';
+import { SEARCH_FILTERS, SITE } from '../lib/site';
+import { SEARCH_TYPES, type EntityKind, type SearchHit, type SearchType } from '../lib/content/types';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const q = Astro.url.searchParams.get('q')?.trim() ?? '';
+const requested = Astro.url.searchParams.get('type') ?? 'all';
+const type: SearchType = (SEARCH_TYPES as readonly string[]).includes(requested) ? requested as SearchType : 'all';
+const repo = getContentRepository();
+const articles = await repo.listArticles();
+const catalog = await repo.listCatalog();
+const hits = !q && type === 'all'
+  ? []
+  : searchCatalog(articles, catalog, q, type, reader);
+const title = q ? `Search “${q}” · ${SITE.name}` : `Search · ${SITE.name}`;
+const related: SearchHit[] = (hits.length > 0 ? relatedForSearch(hits, catalog, articles) : []).map((entity) => entityHit(entity, reader));
+const chips = hits.length > 0 ? compareGroups(hits, catalog) : [];
+
+const PLURAL: Record<EntityKind, string> = {
+  star: 'stars',
+  site: 'sites',
+  ai: 'AI apps',
+  product: 'toys',
+  game: 'games',
+};
+const seeds = (['star', 'site', 'ai', 'product', 'game'] as EntityKind[])
+  .map((kind) => ({ kind, ids: recentOfKind(catalog, kind).slice(0, 4).map((entity) => entity.slug) }))
+  .filter((seed) => seed.ids.length >= 2);
+---
+<BaseLayout title={title} description="Search stars, sites, AI, toys, games, and stories." reader={reader} noindex>
+  <div class="page" style="padding:20px 0 48px">
+    <p class="kicker">Search</p>
+    <h1>{q ? `Results for “${q}”` : 'Search the desk'}</h1>
+    <form action="/search" method="get" data-astro-reload id="search-form" data-search-swap data-search-region="#search-panel" style="margin-top:16px">
+      <label class="sr-only" for="q">Search</label>
+      <input class="c-input" id="q" name="q" type="search" value={q} placeholder="Stars, sites, toys, VR, games…" />
+      <input type="hidden" name="type" value={type} />
+      <button class="c-btn c-btn--primary" type="submit">Search</button>
+    </form>
+    <div id="search-panel" aria-live="polite">
+      <div class="search-types">
+        {SEARCH_FILTERS.map((filter) => (
+          <a
+            class="c-chip"
+            href={`/search?type=${filter.id}${q ? `&q=${encodeURIComponent(q)}` : ''}`}
+            data-search-type={filter.id}
+            aria-current={type === filter.id ? 'page' : undefined}
+          >{filter.label}</a>
+        ))}
+      </div>
+      {!q && type === 'all' && (
+        <Fragment>
+          <EmptyState title="Ask for a name" body="Search covers stars, sites, toys, games, AI apps, and stories. Pick a type to browse that slice." />
+          {seeds.length > 0 && (
+            <div class="search-types">
+              {seeds.map((seed) => (
+                <a class="c-chip" href={`/compare?ids=${seed.ids.join(',')}`}>{`Compare recent ${PLURAL[seed.kind]}`}</a>
+              ))}
+            </div>
+          )}
+        </Fragment>
+      )}
+      {(q || type !== 'all') && hits.length === 0 && <EmptyState title="No matches" body={`Nothing in the catalog matches${q ? ` “${q}”` : ''}. Try a shorter word.`} />}
+      {hits.length > 0 && (
+        <div class="results">
+          {hits.map((hit, index) => <HitCard hit={hit} uid={`hit-${index}-${hit.href}`} />)}
+        </div>
+      )}
+      {chips.length > 0 && (
+        <div class="search-types compare-band">
+          <span class="kicker">Compare</span>
+          {chips.map((chip) => (
+            <a class="c-chip c-chip--compare" href={`/compare?ids=${chip.ids.join(',')}`}>{chip.label}</a>
+          ))}
+        </div>
+      )}
+      <RelatedRow hits={related} uidPrefix="search-related" title="Related to these results" />
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  // Progressive enhancement only. With JS off, the plain GET form above does
+  // everything; this debounce swaps the #search-panel subtree in place.
+  const DEBOUNCE_MS = 280;
+
+  const form = document.querySelector('[data-search-swap]');
+
+  function regionRoot(): HTMLElement | null {
+    if (!(form instanceof HTMLFormElement)) return null;
+    const selector = form.dataset.searchRegion;
+    if (!selector) return null;
+    return document.querySelector(selector);
+  }
+
+  async function swapResults(formElement: HTMLFormElement, signal: AbortSignal): Promise<'ok' | 'reload' | 'aborted'> {
+    const region = regionRoot();
+    if (!region) return 'reload';
+    const params = new URLSearchParams();
+    for (const [key, value] of new FormData(formElement).entries()) {
+      if (typeof value === 'string' && value) params.append(key, value);
+    }
+    try {
+      const response = await fetch(`/search?${params}`, { signal, credentials: 'same-origin' });
+      if (!response.ok) return 'reload';
+      const doc = new DOMParser().parseFromString(await response.text(), 'text/html');
+      const fresh = doc.getElementById('search-panel');
+      if (!fresh) return 'reload';
+      region.replaceChildren(...Array.from(fresh.childNodes));
+      document.title = doc.title;
+      history.replaceState(null, '', `/search?${params}`);
+      return 'ok';
+    } catch (error) {
+      return (error as Error).name === 'AbortError' ? 'aborted' : 'reload';
+    }
+  }
+
+  function currentForm(): HTMLFormElement | null {
+    return form instanceof HTMLFormElement ? form : null;
+  }
+
+  let controller: AbortController | null = null;
+  function run() {
+    const formElement = currentForm();
+    if (!formElement) return;
+    controller?.abort();
+    controller = new AbortController();
+    regionRoot()?.classList.add('is-searching');
+    void swapResults(formElement, controller.signal).then((state) => {
+      regionRoot()?.classList.remove('is-searching');
+      if (state === 'reload') {
+        const params = new URLSearchParams();
+        for (const [key, value] of new FormData(formElement).entries()) {
+          if (typeof value === 'string') params.append(key, value);
+        }
+        window.location.assign(`/search?${params}`);
+      }
+    });
+  }
+
+  if (form instanceof HTMLFormElement) {
+    let timer = 0;
+    const input = form.querySelector<HTMLInputElement>('input[name="q"]');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      run();
+    });
+    input?.addEventListener('input', () => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(run, DEBOUNCE_MS);
+    });
+    input?.addEventListener('search', () => {
+      if (input.value === '') run();
+    });
+    regionRoot()?.addEventListener('click', (event) => {
+      if (!(event.target instanceof Element)) return;
+      const chip = event.target.closest('[data-search-type]');
+      if (!(chip instanceof HTMLElement)) return;
+      event.preventDefault();
+      const nextType = chip.dataset.searchType ?? 'all';
+      const hidden = form.querySelector<HTMLInputElement>('input[name="type"]');
+      if (hidden) hidden.value = nextType;
+      document.querySelectorAll('[data-search-type]').forEach((node) => {
+        const element = node as HTMLElement;
+        if (element.dataset.searchType === nextType) element.setAttribute('aria-current', 'page');
+        else element.removeAttribute('aria-current');
+      });
+      run();
+    });
+  }
+</script>

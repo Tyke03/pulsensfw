@@ -1,0 +1,128 @@
+{
+  "slug": "muah-ai",
+  "type": "ai_app",
+  "name": "Muah AI",
+  "url": "https://muah.ai",
+  "affiliate_url": null,
+  "summary": "Uncensored companion app with chat, image, voice, and phone-call features. The 2024 data breach belongs in the buying decision.",
+  "tags": [
+    "nsfw",
+    "companion",
+    "voice",
+    "privacy"
+  ],
+  "pricing": {
+    "model": "Tiered subscription",
+    "free_tier": "Daily message limits",
+    "from_price": "$9.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "VIP",
+        "price": "$9.99",
+        "billing": "month",
+        "notes": "Chat, images, and voice"
+      },
+      {
+        "name": "UHD VIP",
+        "price": "$49.99",
+        "billing": "month",
+        "notes": "Higher image quality and memory"
+      },
+      {
+        "name": "Ultra VIP",
+        "price": "$99.99",
+        "billing": "month",
+        "notes": "Top tier"
+      }
+    ],
+    "notes": "Removed from major app stores; Android is a sideloaded APK. Confirm current features on the subscription screen."
+  },
+  "platforms": [
+    "Web",
+    "Android (sideload)"
+  ],
+  "score": 7,
+  "pros": [
+    "Voice and phone-call features",
+    "Uncensored chat",
+    "Image generation"
+  ],
+  "cons": [
+    "2024 data breach",
+    "No major app-store distribution",
+    "Top tiers are expensive",
+    "2024 data breach: 1.9M emails + prompts exposed (HIBP/404 Media)",
+    "Scam-hunt verdict: avoid - breach + astroturfing make it the least trustworthy reputation in the set"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "2024 breach",
+      "value": "Reported user data exposure",
+      "source_url": "https://www.girlfriendly.ai/muah-ai",
+      "checked": "2026-10-26",
+      "evidence_type": "aggregator",
+      "notes": " Third-party tracker snapshot — kept for context; not inclusion evidence."
+    },
+    {
+      "key": "VIP price",
+      "value": "$9.99 per month",
+      "source_url": "https://www.aiangels.io/muah-ai-pricing/",
+      "checked": "2026-10-26",
+      "evidence_type": "aggregator",
+      "notes": " Third-party tracker snapshot — kept for context; not inclusion evidence."
+    },
+    {
+      "key": "Ultra VIP price",
+      "value": "$99.99 per month",
+      "source_url": "https://www.aiangels.io/muah-ai-pricing/",
+      "checked": "2026-10-26",
+      "evidence_type": "aggregator",
+      "notes": " Third-party tracker snapshot — kept for context; not inclusion evidence."
+    },
+    {
+      "key": "Distribution",
+      "value": "Browser plus sideloaded Android APK",
+      "source_url": "https://pocketanimus.com/guides/muah-ai/",
+      "checked": "2026-10-26",
+      "evidence_type": "aggregator",
+      "notes": " Third-party tracker snapshot — kept for context; not inclusion evidence."
+    },
+    {
+      "key": "2024 data breach",
+      "value": "September 2024 breach exposed 1.9M email addresses alongside AI-image prompts; flagged Sensitive by HIBP; prompts included child-abuse content (404 Media reporting)",
+      "source_url": "https://haveibeenpwned.com/Breach/Muah",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "Serious trust signal. Watchlist placement reinforced."
+    },
+    {
+      "key": "Astroturfing",
+      "value": "Community-reported: documented bot-farm campaign promoting it using deliberately misspelled brand names (Mua, Miah, Mwah...)",
+      "source_url": "https://www.reddit.com/r/AI_Application/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: avoid (breach + astroturfing). Watchlist firm."
+    },
+    {
+      "key": "Play removal",
+      "value": "Community-reported: removed from Google Play 2024-05-07; Android users sideload from third parties",
+      "source_url": "https://www.reddit.com/r/AI_Application/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    }
+  ],
+  "updated": "2026-10-27",
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "ranking_rationale": "On the watchlist, not the v0 list: the record came through tracker sites only, and the desk rule is that inclusion or rank cannot rest on aggregator evidence alone until community evidence appears."
+}

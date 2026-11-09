@@ -1,0 +1,19 @@
+---
+import HitCard from './HitCard.astro';
+import type { SearchHit } from '../lib/content/types';
+
+interface Props {
+  hits: SearchHit[];
+  uidPrefix: string;
+  title?: string;
+}
+const { hits, uidPrefix, title = 'Related on the desk' } = Astro.props;
+---
+{hits.length > 0 && (
+  <section class="related-row" style="margin-top:28px" aria-labelledby="related-title">
+    <h2 id="related-title">{title}</h2>
+    <div class="results">
+      {hits.map((hit, index) => <HitCard hit={hit} uid={`${uidPrefix}-${index}`} />)}
+    </div>
+  </section>
+)}

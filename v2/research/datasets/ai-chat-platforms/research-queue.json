@@ -1,0 +1,59 @@
+{
+  "note": "Append-only queue of open research questions, one entry per platform and question. Rows are never deleted or edited once written: closure is a status change on the row (status: open -> closed with an outcome note), and the row itself stays with its trail. Append-only so nothing asked and nothing answered can disappear. Appenders: the owner/research directly, the writer (gaps surfaced while using tools/brief.py), and QC (tools/qc-to-queue.py translates a qc-notes.json into rows; no QC logic lives in the tool - QC is an LLM step). Every row records who asked and why; 'evidence_that_would_resolve' states what would close it. Seeds below are carried-over open items from the 2026-10-27 run's own record; they are questions, not evidence.",
+  "row_format": {
+    "added": "date the row was appended",
+    "platform": "platform slug from platforms.json (or 'category-wide')",
+    "question": "the open question, verbatim",
+    "asked_by": "who asked (owner | writer | qc | research | <name>)",
+    "why": "why it is open / what triggered it",
+    "evidence_that_would_resolve": "what evidence would close it (first-party preferred)",
+    "status": "open until closed; closed rows keep their outcome"
+  },
+  "rows": [
+    {
+      "added": "2026-11-04",
+      "platform": "crushon-ai",
+      "question": "First-party confirmation of its billing/cancellation terms, refund policy, operator identity, and the community tracker count - the current red-flag row rests on secondhand accounts and aggregator sites are excluded from user counts.",
+      "asked_by": "owner",
+      "why": "Owed re-verification from the red-flag close-out (2026-11-03 directive); placement of these facts is the owner's call once confirmed.",
+      "evidence_that_would_resolve": "Verbatim quotes + URLs with access dates from crushon.ai first-party pages only (ToS, privacy, support), named operator entities, and the tracker's own page.",
+      "status": "open"
+    },
+    {
+      "added": "2026-11-04",
+      "platform": "chai",
+      "question": "First-party confirmation of its billing/cancellation terms, refund policy, operator identity, and the community tracker count - the current red-flag row rests on secondhand accounts and aggregator sites are excluded from user counts.",
+      "asked_by": "owner",
+      "why": "Owed re-verification from the red-flag close-out (2026-11-03 directive); placement of these facts is the owner's call once confirmed.",
+      "evidence_that_would_resolve": "Verbatim quotes + URLs with access dates from chai first-party pages only (ToS, privacy, support), named operator entities, and the tracker's own page.",
+      "status": "open"
+    },
+    {
+      "added": "2026-11-04",
+      "platform": "aroused-ai",
+      "question": "Resolve the merged NSFW answer conflict: research sources disagree on whether NSFW is permitted (conflict between first-party test records).",
+      "asked_by": "redflags pipeline (conflict guard)",
+      "why": "nsfw_answer=conflict stays side by side and never silently collapses; the row is low-confidence until a first-party read settles it.",
+      "evidence_that_would_resolve": "A verbatim first-party NSFW-permission statement from the platform's own ToS/FAQ/content-policy pages, with URL + access date.",
+      "status": "open"
+    },
+    {
+      "added": "2026-11-04",
+      "platform": "pixelchat",
+      "question": "Resolve the merged NSFW answer conflict: research sources disagree on whether NSFW is permitted (conflict between first-party test records).",
+      "asked_by": "redflags pipeline (conflict guard)",
+      "why": "nsfw_answer=conflict stays side by side and never silently collapses; the row is low-confidence until a first-party read settles it.",
+      "evidence_that_would_resolve": "A verbatim first-party NSFW-permission statement from the platform's own ToS/FAQ/content-policy pages, with URL + access date.",
+      "status": "open"
+    },
+    {
+      "added": "2026-11-04",
+      "platform": "candy-ai",
+      "question": "Resolve scope_pending: whether Candy AI's hybrid web/store variants belong in scope (it has stayed scope_pending=true across every rerun because of its chat conflict).",
+      "asked_by": "scope pass (pending guard)",
+      "why": "The row is the only scope_pending=true platform; it never auto-resolves because its chat answers conflict.",
+      "evidence_that_would_resolve": "First-party facts separating the web product from its app-store wrappers (operator, domains, storefront owner), plus a first-party read that resolves the chat conflict.",
+      "status": "open"
+    }
+  ]
+}

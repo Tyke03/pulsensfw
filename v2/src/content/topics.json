@@ -1,0 +1,224 @@
+[
+  {
+    "id": "stars",
+    "label": "Stars & Creators",
+    "short": "Stars",
+    "href": "/stars",
+    "blurb": "People to watch: pornstars, OnlyFans models, X girls, Reddit creators. Example names, not real profiles.",
+    "subtopics": [
+      {
+        "id": "rising",
+        "label": "New & rising",
+        "description": "Names that showed up this month and already have a following."
+      },
+      {
+        "id": "vr",
+        "label": "VR performers",
+        "description": "Stars who shoot scenes you can stand inside."
+      },
+      {
+        "id": "solo",
+        "label": "Solo",
+        "description": "One person, a good camera, a clear niche."
+      },
+      {
+        "id": "couples",
+        "label": "Couples",
+        "description": "Pairs with a point of view and a back catalog."
+      }
+    ]
+  },
+  {
+    "id": "sites",
+    "label": "Sites",
+    "short": "Sites",
+    "href": "/sites",
+    "blurb": "Premium, tubes, cams, and OF-style platforms, scored the way a viewer actually uses them.",
+    "subtopics": [
+      {
+        "id": "premium",
+        "label": "Premium",
+        "description": "Paysites with a library, not a landing page."
+      },
+      {
+        "id": "tube",
+        "label": "Tubes",
+        "description": "Free players, playlists, and what the ads do to the night."
+      },
+      {
+        "id": "cams",
+        "label": "Cams",
+        "description": "Live rooms, tipping, and who is actually online."
+      },
+      {
+        "id": "platform",
+        "label": "OF-style",
+        "description": "Subscription pages and the feed around them."
+      },
+      {
+        "id": "niche",
+        "label": "Niche",
+        "description": "Sites that do one thing and do not apologize."
+      }
+    ]
+  },
+  {
+    "id": "ai",
+    "label": "AI",
+    "short": "AI",
+    "href": "/ai",
+    "blurb": "NSFW chatbots, companions, and image or video generators a person would actually open twice.",
+    "subtopics": [
+      {
+        "id": "chat",
+        "label": "Chat",
+        "description": "Memory, voice, and whether it still knows your name."
+      },
+      {
+        "id": "image",
+        "label": "Image & video",
+        "description": "Generators, limits, and what the free tier hides."
+      },
+      {
+        "id": "privacy",
+        "label": "Privacy",
+        "description": "What gets logged, and how you delete it."
+      }
+    ]
+  },
+  {
+    "id": "toys",
+    "label": "Toys & Tech",
+    "short": "Toys",
+    "href": "/toys",
+    "blurb": "Connected toys, wands, and the app that either keeps time or ruins it.",
+    "subtopics": [
+      {
+        "id": "wands",
+        "label": "Wands",
+        "description": "Power, shape of the rumble, and the neighbors."
+      },
+      {
+        "id": "couples",
+        "label": "Couples",
+        "description": "Sync, dropouts, and who holds the phone."
+      },
+      {
+        "id": "quiet",
+        "label": "Quiet",
+        "description": "Shared walls and honest noise."
+      },
+      {
+        "id": "app",
+        "label": "Apps",
+        "description": "The remote that is also a toy."
+      }
+    ]
+  },
+  {
+    "id": "vr",
+    "label": "VR & Games",
+    "short": "VR",
+    "href": "/vr",
+    "blurb": "VR porn sites, adult games, and the headset setup that survives a long scene.",
+    "subtopics": [
+      {
+        "id": "scenes",
+        "label": "VR scenes",
+        "description": "Studios and players worth the download."
+      },
+      {
+        "id": "games",
+        "label": "Adult games",
+        "description": "Games with sex in them, not a patch note."
+      },
+      {
+        "id": "headsets",
+        "label": "Headset setup",
+        "description": "Fit, fog, and the cable you will trip on."
+      },
+      {
+        "id": "haptics",
+        "label": "Haptics",
+        "description": "Toys and straps that try to match the picture."
+      }
+    ]
+  },
+  {
+    "id": "guides",
+    "label": "Guides",
+    "short": "Guides",
+    "href": "/guides",
+    "blurb": "How to set it up, how to watch it, and how to tell a recommendation from an ad.",
+    "subtopics": [
+      {
+        "id": "setup",
+        "label": "Setup",
+        "description": "First night, without a lecture."
+      },
+      {
+        "id": "watch",
+        "label": "How to watch",
+        "description": "Players, privacy windows, and headphones."
+      },
+      {
+        "id": "scoring",
+        "label": "How we score",
+        "description": "What a number on this desk actually means."
+      }
+    ]
+  },
+  {
+    "id": "lists",
+    "label": "Top Lists",
+    "short": "Lists",
+    "href": "/lists",
+    "blurb": "Ranked lists of stars, sites, toys, and scenes. Every row has its own picture.",
+    "subtopics": [
+      {
+        "id": "stars",
+        "label": "Stars",
+        "description": "Who is moving, by niche."
+      },
+      {
+        "id": "sites",
+        "label": "Sites",
+        "description": "Where to click first."
+      },
+      {
+        "id": "gear",
+        "label": "Gear",
+        "description": "Toys and headsets we would lend a friend."
+      }
+    ]
+  },
+  {
+    "id": "news",
+    "label": "News",
+    "short": "News",
+    "href": "/news",
+    "blurb": "New scenes, new sites, new apps, star news, and deals. The viewer side of the week.",
+    "subtopics": [
+      {
+        "id": "releases",
+        "label": "New releases",
+        "description": "Scenes and episodes that just landed."
+      },
+      {
+        "id": "launches",
+        "label": "New sites & apps",
+        "description": "Something you can open tonight."
+      },
+      {
+        "id": "stars",
+        "label": "Star news",
+        "description": "A name, a new series, a new page."
+      },
+      {
+        "id": "deals",
+        "label": "Deals",
+        "description": "Example prices. Not live offers."
+      }
+    ]
+  }
+]

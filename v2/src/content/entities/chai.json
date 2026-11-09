@@ -1,0 +1,123 @@
+{
+  "slug": "chai",
+  "type": "ai_app",
+  "name": "CHAI",
+  "url": "https://www.chai-research.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [],
+  "summary": "Established mobile-app platform for AI conversation with a free download and in-app subscriptions. Fictional adult-oriented text is allowed under the EULA; explicit image/video generation is not.",
+  "tags": [
+    "nsfw",
+    "mobile",
+    "ios",
+    "android"
+  ],
+  "ranking_rationale": "Store distribution is verifiable (App Store listing) and the EULA documents a limited adult-text policy. A numeric free quota, image generation, voice, and any memory specification were not verifiable, and CHAI WEB is still listed as coming soon — it ranks low on documented feature completeness, not on popularity.",
+  "pricing": {
+    "model": "Free download + in-app subscription",
+    "free_tier": "Free download; numeric free-message quota unverified",
+    "from_price": "$13.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Premium Subscription (Monthly)",
+        "price": "$13.99",
+        "billing": "month",
+        "notes": "Lowest explicitly qualified monthly subscription in the fetched US iOS catalog. The $9.99 'Premium Membership' SKU has no stated period and was not assumed monthly."
+      },
+      {
+        "name": "Premium Subscription (Annual)",
+        "price": "$134.99",
+        "billing": "year",
+        "notes": "$11.25/month effective. US iOS catalog for the mobile app, not Web Pro."
+      }
+    ],
+    "notes": "Not a guarantee of the cheapest web/Android/current personalized offer."
+  },
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "score": 6.2,
+  "pros": [
+    "Documented distribution on both mobile stores",
+    "Free download permits evaluation without a subscription",
+    "Fictional adult-oriented content permitted under the EULA"
+  ],
+  "cons": [
+    "Explicit image/video generation prohibited",
+    "Web product still listed as coming soon",
+    "Free-chat limits and memory capacity not quantified publicly",
+    "Scam-hunt verdict: avoid - community-reported weekly pricing creep after the free base was killed",
+    "Cancellation dark-pattern reports (retention screens, low-contrast continue control)"
+  ],
+  "image": {
+    "src": "/media/categories/ai/cover.png",
+    "alt": "PulseNSFW AI category cover used as the default app image",
+    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Monthly price",
+      "value": "$13.99/month (Premium Subscription, US iOS catalog)",
+      "source_url": "https://apps.apple.com/us/app/chai-social-ai-platform-chat/id1544750895",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Annual price",
+      "value": "$134.99/year = $11.25/mo effective",
+      "source_url": "https://apps.apple.com/us/app/chai-social-ai-platform-chat/id1544750895",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Adult content",
+      "value": "Limited — fictional adult-oriented content allowed; explicit images/videos prohibited",
+      "source_url": "https://www.chai-research.com/eula.html",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "July 28, 2026 mobile EULA; web FAQ describes moderated mature themes."
+    },
+    {
+      "key": "Minimum age",
+      "value": "18 (EULA)",
+      "source_url": "https://www.chai-research.com/eula.html",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Web product",
+      "value": "CHAI WEB listed as Coming Soon on the official site",
+      "source_url": "https://www.chai-research.com/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Free tier killed",
+      "value": "Community-reported: free tier effectively gone; Premium shifted to weekly billing with climbing prices (~$12/wk premium, ~$26/wk ultra reported)",
+      "source_url": "https://www.reddit.com/r/ChaiApp/comments/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Scam-hunt verdict: avoid. Weekly tiers and Play-rating collapse reported; store-rating counts unverified."
+    },
+    {
+      "key": "Cancellation",
+      "value": "Community-reported: multiple retention screens and a near-invisible continue-cancel control",
+      "source_url": "https://www.trustpilot.com/review/chai-research.com",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Historic pattern",
+      "value": "Community-reported: 2023-2026 complaint trail incl. free-trial conversion complaints",
+      "source_url": "https://complaintsboard.com",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    }
+  ],
+  "updated": "2026-10-27"
+}

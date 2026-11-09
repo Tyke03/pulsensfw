@@ -1,0 +1,84 @@
+{
+  "slug": "pornhub",
+  "type": "site",
+  "name": "Pornhub",
+  "url": "https://www.pornhub.com",
+  "affiliate_url": null,
+  "summary": "The default free tube: enormous library, heavy ad load on the free tier, and a paid tier that removes most of the friction.",
+  "tags": [
+    "tube",
+    "free",
+    "premium",
+    "mainstream"
+  ],
+  "pricing": {
+    "model": "Subscription",
+    "free_tier": "Tube: free videos with ads",
+    "from_price": "$9.99/mo",
+    "currency": "USD",
+    "plans": [
+      {
+        "name": "Premium",
+        "price": "$9.99",
+        "billing": "month",
+        "notes": "First-party help article: \"$9.99 a month with no catch\", easy cancel, live support"
+      }
+    ],
+    "notes": "Some payment methods offer a free trial beforehand. Tube stays free."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Huge free library",
+    "Fast player",
+    "Premium removes ads"
+  ],
+  "cons": [
+    "Ad density on the free tier",
+    "Studio content dominates the front page",
+    "Payment and privacy friction"
+  ],
+  "image": {
+    "src": "/media/categories/sites/cover.svg",
+    "alt": "PulseNSFW Sites category cover used as the default image",
+    "source_url": "https://pulsensfw.com/media/categories/sites/cover.svg",
+    "license": "own-art",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Launched",
+      "value": "2007",
+      "source_url": "https://en.wikipedia.org/wiki/Pornhub",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Owner",
+      "value": "Aylo",
+      "source_url": "https://en.wikipedia.org/wiki/Pornhub",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Free tier",
+      "value": "Ad-supported",
+      "source_url": "https://www.pornhub.com",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "Premium price",
+      "value": "$9.99/month",
+      "source_url": "https://help.pornhub.com/hc/en-us/articles/4419877632787-How-much-is-it",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "\"It’s $9.99 a month with no catch\" — official help center."
+    }
+  ],
+  "updated": "2026-10-27",
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "ranking_rationale": "Filled the tube slot on our own editorial call: the largest audience tube site, official pages verified. Kept despite third-party research files withholding site links — this desk names and links adult destinations."
+}

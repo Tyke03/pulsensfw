@@ -1,0 +1,56 @@
+---
+import { entityHref } from '../lib/content/entities';
+import { compareRows, compareSuggestions } from '../lib/content/compare';
+import type { Entity } from '../lib/content/entity-schema';
+import type { Catalog } from '../lib/content/types';
+
+interface Props {
+  entities: Entity[];
+  kindLabel: string;
+  catalog: Catalog;
+}
+const { entities, kindLabel, catalog } = Astro.props;
+const rows = compareRows(entities);
+const suggestions = compareSuggestions(catalog, entities);
+const suggestionHref = (slug: string) => {
+  const ids = [...entities.map((entity) => entity.slug), slug].slice(0, 4).join(',');
+  return `/compare?ids=${ids}`;
+};
+---
+<div class="compare">
+  <div class="compare-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th scope="col"><span class="sr-only">Field</span></th>
+          {entities.map((entity) => (
+            <th scope="col">
+              <a class="compare-name" href={entityHref(entity.type, entity.slug)}>{entity.name}</a>
+              <span class="compare-kind">{kindLabel}</span>
+            </th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr>
+            <th scope="row">{row.label}</th>
+            {row.values.map((value) => <td>{value}</td>)}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="meta compare-note">
+    Every cell comes from the entity record. A dash means we do not have that fact — nothing is
+    estimated or scraped on the fly.
+  </p>
+  {suggestions.length > 0 && (
+    <div class="compare-suggestions">
+      <span class="kicker">Add another</span>
+      {suggestions.map((entity) => (
+        <a class="c-chip" href={suggestionHref(entity.slug)}>+ {entity.name}</a>
+      ))}
+    </div>
+  )}
+</div>

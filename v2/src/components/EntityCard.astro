@@ -1,0 +1,23 @@
+---
+import MediaFrame from './MediaFrame.astro';
+import type { EntityCard as EntityCardModel } from '../lib/content/types';
+
+interface Props {
+  card: EntityCardModel;
+  uid: string;
+}
+const { card, uid } = Astro.props;
+---
+<article class="profile-card">
+  <MediaFrame media={card.media} topic={card.topic} uid={uid} />
+  <a class:list={['card-body', card.media.state !== 'withheld' && 'card-stretch']} href={card.href}>
+    <span class="kicker">{card.kicker}</span>
+    <strong class="card-title clamp-2">{card.title}</strong>
+    <span class="meta">{card.meta}</span>
+    {card.tags.length > 0 && (
+      <span class="tag-row">
+        {card.tags.slice(0, 3).map((tag) => <span class="c-chip">{tag}</span>)}
+      </span>
+    )}
+  </a>
+</article>

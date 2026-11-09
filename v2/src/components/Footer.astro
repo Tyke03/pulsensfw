@@ -1,0 +1,57 @@
+---
+import { SITE, SOCIALS } from '../lib/site';
+import type { Topic } from '../lib/content/types';
+import PulseRule from './PulseRule.astro';
+
+interface Props { topics: Topic[]; }
+const { topics } = Astro.props;
+const about = [
+  ['About', '/about'],
+  ['Editorial policy', '/editorial-policy'],
+  ['How we review', '/how-we-review'],
+  ['Affiliate disclosure', '/affiliate-disclosure'],
+  ['Contact', '/contact'],
+  ['Styleguide', '/styleguide'],
+];
+---
+<footer class="site-footer">
+  <div class="page footer-grid">
+    <div>
+      <p class="kicker">PulseNSFW</p>
+      <p>{SITE.tagline}</p>
+      <p class="dek">{SITE.description}</p>
+      <PulseRule />
+    </div>
+    <div>
+      <h2>Hubs</h2>
+      <ul>
+        {topics.map((topic) => <li><a href={topic.href}>{topic.label}</a></li>)}
+        <li><a href="/hubs">All sections</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Desk</h2>
+      <ul>
+        {about.map(([label, href]) => <li><a href={href}>{label}</a></li>)}
+        <li><a href="/deals">Deals</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Sister sites</h2>
+      <ul>
+        <li><a href="https://companionhub.app" rel="noopener noreferrer">Companion Hub</a></li>
+        <li><a href="https://www.deviantart.com/" rel="noopener noreferrer">DeviantArt</a></li>
+      </ul>
+      <h2>Socials</h2>
+      <ul>
+        {SOCIALS.map((social) => (
+          <li class="social-pending"><span>{social.label}</span> <span class="meta">Link pending</span></li>
+        ))}
+      </ul>
+    </div>
+  </div>
+  <div class="page footer-base">
+    <span>© {new Date().getFullYear()} PulseNSFW · Independent desk.</span>
+    <span>Affiliate links are marked. <a href="/affiliate-disclosure">Disclosure</a>.</span>
+  </div>
+</footer>

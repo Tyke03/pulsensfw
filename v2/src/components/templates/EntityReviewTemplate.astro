@@ -1,0 +1,60 @@
+---
+import EntityDataPanel from '../EntityDataPanel.astro';
+import GearLab from '../gear/GearLab.astro';
+import ScoreBadge from '../ScoreBadge.astro';
+import SourceList from './SourceList.astro';
+import { BRAND_ART } from '../../lib/brand/slots';
+import type { TemplateEntity } from '../../lib/content/templates';
+import type { ArticlePage } from '../../lib/content/types';
+
+interface Props {
+  article: ArticlePage;
+  entities: TemplateEntity[];
+}
+const { article, entities } = Astro.props;
+const first = entities[0];
+---
+<div class="template template--review">
+  <div class="template-lede">
+    <p class="kicker">
+      Review{first ? ` · ${first.kicker}` : ''}{article.checkedLabel ? ` · facts checked ${article.checkedLabel}` : ''}
+    </p>
+    <p class="dek">One record per subject. Score, pricing, and sources below update from the entity file, not from this page.</p>
+  </div>
+
+  <div class="review-stamp">
+    <span class="reviewer-chip">
+      <img class="reviewer-avatar" src={BRAND_ART.reviewerAvatar} alt="" width="72" height="72" loading="lazy" />
+      <img class="reviewer-badge" src={BRAND_ART.reviewerBadge} alt="Reviewed by PulseNSFW" width="132" height="40" loading="lazy" />
+    </span>
+    {first?.score !== null && first && <ScoreBadge score={first.score} />}
+    {article.checkedLabel && <span class="meta">Checked {article.checkedLabel}</span>}
+  </div>
+
+  {first && (
+    <EntityDataPanel
+      entity={first.entity}
+      media={first.media}
+      topic={first.topic}
+      uid={`review-${article.slug}`}
+    />
+  )}
+
+  {entities.length > 1 && (
+    <section class="hub-row">
+      <h2>Also in this review</h2>
+      <div class="profile-grid">
+        {entities.slice(1).map((item) => (
+          <a class="entity-mini" href={item.href}>
+            <strong>{item.title}</strong>
+            <span class="meta">{item.meta}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <div class="prose"><slot /></div>
+  {article.gear && <div class="gear-col" style="max-width:520px"><GearLab gear={article.gear} /></div>}
+  <SourceList sources={article.sources} />
+</div>

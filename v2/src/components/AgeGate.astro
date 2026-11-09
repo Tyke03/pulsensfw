@@ -1,0 +1,32 @@
+---
+import { getAgeVerificationProvider } from '../lib/age/stub-provider';
+import Logo from './Logo.astro';
+import PulseRule from './PulseRule.astro';
+
+interface Props { returnTo: string; failed?: boolean; }
+const { returnTo, failed = false } = Astro.props;
+const challenge = getAgeVerificationProvider().createChallenge();
+const field = challenge.fields[0];
+---
+<div class="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title">
+  <div class="age-card">
+    <Logo markId="gate" />
+    <PulseRule />
+    <p class="kicker">Adults only · 18+</p>
+    <h1 id="age-title">The desk is for adults.</h1>
+    <p>PulseNSFW is where you look up porn, stars, sites, VR, games, AI, and sex tech. SFW mode stays on until you opt in. The NSFW switch stays off until this check passes.</p>
+    <p class="disclosure">{challenge.disclosure}</p>
+    {failed && <p class="c-error" role="alert">Confirm you are 18 or older to enter.</p>}
+    <form method="post" action="/api/reader/age" class="stack" data-astro-reload>
+      <input type="hidden" name="return" value={returnTo} />
+      <label class="c-check">
+        <input type="checkbox" name={field?.name ?? 'over18'} value="yes" required />
+        <span>{field?.label}</span>
+      </label>
+      <div class="age-actions">
+        <button class="c-btn c-btn--primary" type="submit">Enter</button>
+        <a class="c-btn c-btn--secondary" href="https://www.wikipedia.org/">Leave</a>
+      </div>
+    </form>
+  </div>
+</div>

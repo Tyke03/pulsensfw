@@ -1,0 +1,30 @@
+---
+/**
+ * Runtime body renderer for agent-published articles (round 2E).
+ *
+ * Local fixtures render compiled MDX. Records published through the agent
+ * store carry a JSON block list — this renders the same shapes inside the
+ * same template shells, without an MDX compile in the Worker runtime.
+ */
+import type { BodyBlock } from '../../lib/agent/state';
+
+interface Props {
+  blocks: BodyBlock[];
+}
+const { blocks } = Astro.props;
+---
+<div class="article-body">
+  {blocks.map((block, index) => {
+    if (block.type === 'h2') return <h2 id={`b-${index}`}>{block.text}</h2>;
+    if (block.type === 'h3') return <h3 id={`b-${index}`}>{block.text}</h3>;
+    if (block.type === 'quote') return <blockquote>{block.text}</blockquote>;
+    if (block.type === 'ul') {
+      return (
+        <ul class="plain-list">
+          {block.items.map((item) => <li>{item}</li>)}
+        </ul>
+      );
+    }
+    return <p>{block.text}</p>;
+  })}
+</div>

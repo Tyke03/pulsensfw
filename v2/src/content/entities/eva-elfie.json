@@ -1,0 +1,82 @@
+{
+  "slug": "eva-elfie",
+  "type": "star",
+  "name": "Eva Elfie",
+  "url": "https://en.wikipedia.org/wiki/Eva_Elfie",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral",
+    "creator_program"
+  ],
+  "summary": "Russian performer and YouTuber (Yulia Romanova); AVN Best New Foreign Starlet winner, 2021. One of the most-followed performers on personal platforms per press coverage — no count asserted here.",
+  "tags": [
+    "performer",
+    "awards"
+  ],
+  "ranking_rationale": "Included on dated, sourced professional news or encyclopedic record, not on follower counts or aggregator lists. ",
+  "pricing": {
+    "model": "Personal brand — official platform pages not verified publicly",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No verified pricing for creator subscriptions at check time."
+  },
+  "platforms": [
+    "X — https://x.com/EvaElfie"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": null,
+  "facts": [
+    {
+      "key": "Identity",
+      "value": "Yulia Romanova, known professionally as Eva Elfie — Russian performer and YouTuber",
+      "source_url": "https://en.wikipedia.org/wiki/Eva_Elfie",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Award",
+      "value": "AVN Award Best New Foreign Starlet, 2021",
+      "source_url": "https://en.wikipedia.org/wiki/Eva_Elfie",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Adult verification",
+      "value": "18+ — public biographical record documents an adult stage career beginning 2018–2019",
+      "source_url": "https://en.wikipedia.org/wiki/Eva_Elfie",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "Encyclopedic record, not identity-document verification."
+    },
+    {
+      "key": "Profile handles",
+      "value": "Unverified — omitted",
+      "source_url": "https://en.wikipedia.org/wiki/Eva_Elfie",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Handle candidates circulating in tracker blogs were not confirmed against an owned account; omitted per policy."
+    },
+    {
+      "key": "X handle",
+      "value": "@EvaElfie — verified first-party via the X API (profile resolves to Eva Elfie)",
+      "source_url": "https://x.com/EvaElfie",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Verified 2026-10-27. Known-bad lookalikes are recorded in the desk notes and must never be used."
+    },
+    {
+      "key": "X followers",
+      "value": "1,380,133 (X API, checked 2026-10-27)",
+      "source_url": "https://x.com/EvaElfie",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Point-in-time API count; moves over time."
+    }
+  ],
+  "updated": "2026-10-27"
+}

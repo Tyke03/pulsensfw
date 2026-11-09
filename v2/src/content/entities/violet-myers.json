@@ -1,0 +1,82 @@
+{
+  "slug": "violet-myers",
+  "type": "star",
+  "name": "Violet Myers",
+  "url": "https://www.xbiz.com/news/295591/violet-myers-wins-xma-award",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral",
+    "creator_program"
+  ],
+  "summary": "Multi-XMA-winning performer; co-hosted the 2026 XMA Awards at the Hollywood Palladium with Kazumi and won Fav Female Star that night; also a two-time 2026 XMA nominee before winning.",
+  "tags": [
+    "performer",
+    "awards",
+    "2026 xma"
+  ],
+  "ranking_rationale": "Included on dated, sourced professional news or encyclopedic record, not on follower counts or aggregator lists. No profile link asserted that was not verified to resolve to this person; no image (license-clean portrait not found).",
+  "pricing": {
+    "model": "Personal brand — official platform pages not verified publicly",
+    "free_tier": null,
+    "from_price": null,
+    "currency": null,
+    "plans": [],
+    "notes": "No verified pricing for creator subscriptions at check time."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": null,
+  "facts": [
+    {
+      "key": "2026 XMAs",
+      "value": "Named Fav Female Star at the 2026 XMA Awards (January 18, 2026, Hollywood Palladium)",
+      "source_url": "https://www.xbiz.com/news/295591/violet-myers-wins-xma-award",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "XBIZ winner report; ceremony coverage also at ladirectmodels.com."
+    },
+    {
+      "key": "Hosting",
+      "value": "Co-hosted the 2026 XMAs with Kazumi (presented by Fansly)",
+      "source_url": "https://www.xbiz.com/news/294055/violet-myers-nabs-2-xmas-noms",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Nominations",
+      "value": "Two 2026 XMA nominations: Best Sex Scene — All-Sex and Fav Female Star",
+      "source_url": "https://www.xbiz.com/news/294055/violet-myers-nabs-2-xmas-noms",
+      "checked": "2026-10-27",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Adult verification",
+      "value": "18+ — a decade-long documented adult-industry record per XBIZ/AVN press archives",
+      "source_url": "https://www.xbiz.com/news/294055/violet-myers-nabs-2-xmas-noms",
+      "checked": "2026-10-27",
+      "evidence_type": "press",
+      "notes": "Industry press record; identity-document verification not available publicly."
+    },
+    {
+      "key": "Followers",
+      "value": "Unverified",
+      "source_url": "https://www.xbiz.com/news/295591/violet-myers-wins-xma-award",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "No dated follower report accepted this pass."
+    },
+    {
+      "key": "X handle",
+      "value": "Unverified — no X profile link asserted",
+      "source_url": "https://x.com",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party",
+      "notes": "Candidate handles circulating in tracker/summary sources proved wrong, suspended, fan-run, or empty on 2026-10-27 (X API). handle_unverified flag set for the research agent to re-check."
+    }
+  ],
+  "updated": "2026-10-27",
+  "handle_unverified": true
+}
