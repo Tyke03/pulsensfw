@@ -17,6 +17,7 @@
  */
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { supabaseAdmin, supabaseConfigured } from '../auth/supabase';
+import { runtimeEnv } from '../env';
 import type {
   AffiliatatePatch,
   AuditAction,
@@ -69,7 +70,7 @@ export class SupabaseAgentStore implements Store {
   readonly impl = 'supabase' as const;
 
   static available(): boolean {
-    return supabaseConfigured() && Boolean(import.meta.env.SUPABASE_SERVICE_ROLE_KEY);
+    return supabaseConfigured() && Boolean(runtimeEnv('SUPABASE_SERVICE_ROLE_KEY'));
   }
 
   private db(): SupabaseClient {

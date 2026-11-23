@@ -13,6 +13,8 @@
  *   MAIL_REPLY_TO           optional reply-to (list inbox)
  *   NEWS_TO                 optional destination checked for contact mail
  */
+import { runtimeEnvRecord } from '../env';
+
 const encoder = new TextEncoder();
 
 async function subtle(): Promise<SubtleLike> {
@@ -55,8 +57,7 @@ export function mailConfig(env: { [key: string]: string | undefined } = importMe
 }
 
 function importMetaEnvSafe(): { [key: string]: string | undefined } {
-  const maybe = (import.meta as unknown as { env?: Record<string, string | undefined> }).env;
-  return maybe ?? {};
+  return runtimeEnvRecord();
 }
 
 /* ---------------- SigV4 (Web Crypto, no SDK) ---------------- */

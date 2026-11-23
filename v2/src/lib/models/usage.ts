@@ -14,6 +14,7 @@
  * "unavailable" state. No purchase path, no account creation, no keys.
  */
 import { supabaseConfigured, supabaseAdmin } from '../auth/supabase';
+import { runtimeEnv, runtimeEnvRecord } from '../env';
 
 export const SESSION_MAX_TURNS_DEFAULT = 30;
 export const CONCURRENCY_DEFAULT = 3;
@@ -52,7 +53,7 @@ export class UsageTracker {
       costCapUsd: 0,
     },
   ) {
-    const env = (import.meta as unknown as { env?: Record<string, string | undefined> }).env ?? {};
+    const env = runtimeEnvRecord();
     this.opts.sessionMaxTurns = envNum(env.CONCIERGE_SESSION_MAX_TURNS, opts.sessionMaxTurns, 1, 200);
     this.opts.concurrencyCap = envNum(env.CONCIERGE_CONCURRENCY, opts.concurrencyCap, 1, 20);
     this.opts.costCapUsd = Number.parseFloat((env.MODEL_DAILY_COST_CAP_USD ?? '').trim());
@@ -61,7 +62,7 @@ export class UsageTracker {
   }
 
   get tableEnabled(): boolean {
-    return supabaseConfigured() && Boolean(import.meta.env.SUPABASE_SERVICE_ROLE_KEY);
+    return supabaseConfigured() && Boolean(runtimeEnv('SUPABASE_SERVICE_ROLE_KEY'));
   }
 
   private day(): string {

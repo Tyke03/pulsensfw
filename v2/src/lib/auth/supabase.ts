@@ -16,6 +16,7 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 import { createServerClient } from '@supabase/ssr';
 import type { AstroCookies } from 'astro';
+import { runtimeEnv } from '../env';
 
 export type ReaderSession = {
   userId: string;
@@ -28,15 +29,15 @@ function sbChunk(name: string): boolean {
 }
 
 export function supabaseConfigured(): boolean {
-  return Boolean(import.meta.env.PUBLIC_SUPABASE_URL && import.meta.env.PUBLIC_SUPABASE_ANON_KEY);
+  return Boolean(runtimeEnv('PUBLIC_SUPABASE_URL') && runtimeEnv('PUBLIC_SUPABASE_ANON_KEY'));
 }
 
 function url(): string {
-  return String(import.meta.env.PUBLIC_SUPABASE_URL ?? '');
+  return String(runtimeEnv('PUBLIC_SUPABASE_URL') ?? '');
 }
 
 function anonKey(): string {
-  return String(import.meta.env.PUBLIC_SUPABASE_ANON_KEY ?? '');
+  return String(runtimeEnv('PUBLIC_SUPABASE_ANON_KEY') ?? '');
 }
 
 /** Supabase session cookies are read from the incoming request header. */
@@ -106,7 +107,7 @@ export async function getReaderSession(
  * at call time when the key is absent, so UI can check first.
  */
 export function supabaseAdmin(): SupabaseClient {
-  const serviceKey = String(import.meta.env.SUPABASE_SERVICE_ROLE_KEY ?? '');
+  const serviceKey = String(runtimeEnv('SUPABASE_SERVICE_ROLE_KEY') ?? '');
   if (!supabaseConfigured() || !serviceKey) {
     throw new Error('Supabase service role is not configured');
   }
@@ -114,5 +115,5 @@ export function supabaseAdmin(): SupabaseClient {
 }
 
 export function profileTablesConfigured(): boolean {
-  return supabaseConfigured() && Boolean(import.meta.env.SUPABASE_SERVICE_ROLE_KEY);
+  return supabaseConfigured() && Boolean(runtimeEnv('SUPABASE_SERVICE_ROLE_KEY'));
 }

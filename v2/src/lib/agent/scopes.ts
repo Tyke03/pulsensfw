@@ -8,6 +8,8 @@
  * used by both the MCP endpoint and the HTTP API). Keys never reach browser
  * code, URLs, or logs — audits record a key fingerprint only.
  */
+import { runtimeEnv } from '../env';
+
 const encoder = new TextEncoder();
 
 export type AgentScope = 'draft' | 'publish';
@@ -42,8 +44,8 @@ function trimKey(raw: unknown): string {
 }
 
 export function agentKeysConfigured(): boolean {
-  const draft = trimKey(import.meta.env.AGENT_DRAFT_KEY).length > 0;
-  const publish = trimKey(import.meta.env.AGENT_PUBLISH_KEY).length > 0;
+  const draft = trimKey(runtimeEnv('AGENT_DRAFT_KEY')).length > 0;
+  const publish = trimKey(runtimeEnv('AGENT_PUBLISH_KEY')).length > 0;
   return draft || publish;
 }
 
@@ -51,8 +53,8 @@ export function agentKeysConfigured(): boolean {
 export async function resolveAgentAuth(bearer: string | null): Promise<AgentAuth | null> {
   const token = (bearer ?? '').replace(/^Bearer\s+/i, '').trim();
   if (!token) return null;
-  const draftKey = trimKey(import.meta.env.AGENT_DRAFT_KEY);
-  const publishKey = trimKey(import.meta.env.AGENT_PUBLISH_KEY);
+  const draftKey = trimKey(runtimeEnv('AGENT_DRAFT_KEY'));
+  const publishKey = trimKey(runtimeEnv('AGENT_PUBLISH_KEY'));
   if (draftKey && sameSecret(token, draftKey)) {
     return { scope: 'draft', keyPrint: (await sha256Hex(draftKey)).slice(0, 12) };
   }

@@ -36,6 +36,7 @@ import type {
 import { requestHashOf } from './canonical';
 import { MemoryAgentStore } from './memory-store';
 import { SupabaseAgentStore } from './supabase-store';
+import { runtimeEnv } from '../env';
 import type { SearchHit, SearchType } from '../content/types';
 import type { Entity, EntityType } from '../content/entity-schema';
 import { searchCatalog } from '../content/present';
@@ -58,7 +59,7 @@ export class AgentError extends Error {
 /** Any available agent store (Supabase, or the dev memory singleton), or null. */
 export function tryAgentStore(): Store | null {
   if (SupabaseAgentStore.available()) return new SupabaseAgentStore();
-  if (import.meta.env.AGENT_DEV_STORE === 'memory') {
+  if (runtimeEnv('AGENT_DEV_STORE') === 'memory') {
     const g = globalThis as { __pfAgentStore?: Store };
     if (!g.__pfAgentStore) g.__pfAgentStore = new MemoryAgentStore();
     return g.__pfAgentStore;

@@ -24,6 +24,7 @@ import { readReader } from '../reader/cookies';
 import type { CookieStore } from '../reader/cookies';
 import { runChat, ladderConfig, type ChatMessage, type ChatTool, type LadderGuard } from '../models/ladder';
 import { UsageTracker } from '../models/usage';
+import { runtimeEnvRecord } from '../env';
 import type { ReaderMode, RawArticle } from '../content/types';
 import type { EntityType, Entity } from '../content/entity-schema';
 
@@ -237,7 +238,7 @@ export type TurnResult =
 /** Dev fixture: scripted tool runs for local screenshots. Never production. */
 /** Runtime env access isolated so unit tests pass overrides. */
 function envSafe(): Record<string, string | undefined> {
-  return (import.meta as unknown as { env?: Record<string, string | undefined> }).env ?? {};
+  return runtimeEnvRecord();
 }
 
 /* Dev fixture: scripted tool runs for local screenshots. Never production. */

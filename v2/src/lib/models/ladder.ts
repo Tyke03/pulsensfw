@@ -18,6 +18,8 @@
  * the honest unavailable state. No purchases and no account creation happen
  * in code — only the owner can provision keys.
  */
+import { runtimeEnvRecord } from '../env';
+
 export type LadderGuard = {
   /** Cost/budget gate before a call. Not allowed → never attempts the call. */
   beforeCall(modelId: string): Promise<{ allowed: boolean; reason?: string }>;
@@ -98,7 +100,7 @@ export function ladderConfig(env: Record<string, string | undefined> = envSafe()
 }
 
 function envSafe(): Record<string, string | undefined> {
-  return (import.meta as unknown as { env?: Record<string, string | undefined> }).env ?? {};
+  return runtimeEnvRecord();
 }
 
 export type ChatMessage = {

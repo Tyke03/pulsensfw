@@ -1,5 +1,6 @@
 import type { AgeVerificationProvider, AgeVerificationProof } from './provider';
 import { createVendorAgeProvider } from './vendor-provider';
+import { runtimeEnv } from '../env';
 
 export function createStubAgeProvider(): AgeVerificationProvider {
   return {
@@ -9,7 +10,7 @@ export function createStubAgeProvider(): AgeVerificationProvider {
         providerId: 'stub.v1',
         title: 'Age check',
         disclosure:
-          'Phase 1 stub. This does not check an ID. A later release hands this step to a third-party ID or transactional-data verifier. No documents, selfies, or payment numbers are collected here.',
+          'This does not check an ID — no documents, selfies, or payment numbers are collected. Your preference stays in a browser cookie.',
         fields: [
           {
             name: 'over18',
@@ -37,8 +38,8 @@ export function createStubAgeProvider(): AgeVerificationProvider {
  * The interface in ./provider.ts does not change either way.
  */
 export function getAgeVerificationProvider(): AgeVerificationProvider {
-  const apiUrl = import.meta.env.AGE_VENDOR_API_URL;
-  const apiKey = import.meta.env.AGE_VENDOR_API_KEY;
+  const apiUrl = runtimeEnv('AGE_VENDOR_API_URL');
+  const apiKey = runtimeEnv('AGE_VENDOR_API_KEY');
   if (typeof apiUrl === 'string' && apiUrl.length > 0 && typeof apiKey === 'string' && apiKey.length > 0) {
     return createVendorAgeProvider({ apiUrl, apiKey });
   }
