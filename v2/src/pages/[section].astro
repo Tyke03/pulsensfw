@@ -7,7 +7,7 @@ import StoryCard from '../components/StoryCard.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { categoryHero } from '../lib/brand/slots';
 import { getContentRepository } from '../lib/content/local-repository';
-import { entitiesForTopic, presentArticle, risingStars, trendingStars } from '../lib/content/present';
+import { entitiesForTopic, matchesSubtopicFilter, presentArticle, risingStars, trendingStars } from '../lib/content/present';
 import { readReader } from '../lib/reader/cookies';
 import { SITE } from '../lib/site';
 import { TOPICS, type TopicId } from '../lib/content/types';
@@ -22,7 +22,14 @@ const topic = topics.find((item) => item.id === section);
 const articles = await repo.listArticles();
 const catalog = await repo.listCatalog();
 const filter = Astro.url.searchParams.get('topic');
-const matched = articles.filter((article) => article.topic === section && (!filter || article.tags.includes(filter)));
+const matched = articles
+  .filter((article) => {
+    const inHub = article.topic === section || article.tags.some((tag) => tag.toLowerCase() === section);
+    if (!inHub) return false;
+    if (!filter) return true;
+    return matchesSubtopicFilter(article.tags, filter);
+  })
+  .sort((a, b) => Number(b.topic === section) - Number(a.topic === section) || b.publishedAt.getTime() - a.publishedAt.getTime());
 const cards = matched.map((article) => presentArticle(article, reader, catalog));
 const entities = topic ? entitiesForTopic(catalog, topic.id, filter, reader) : [];
 const rising = topic?.id === 'stars' && !filter ? risingStars(catalog, reader) : [];
@@ -37,10 +44,10 @@ const entityLabel = topic?.id === 'stars'
       : topic?.id === 'toys'
         ? 'Gear'
         : topic?.id === 'vr'
-          ? 'Games'
+          ? 'VR & Games'
           : '';
 ---
-<BaseLayout title={topic ? `${topic.label} · ${SITE.name}` : `Page not found · ${SITE.name}`} description={topic?.blurb ?? SITE.description} reader={reader} section={known ? (section as TopicId) : undefined} noindex={!known}>
+<BaseLayout title={topic ? `${topic.label} · ${SITE.name}` : `Page not found · ${SITE.name}`} description={topic?.blurb ?? SITE.description} reader={reader} section={known ? (section as TopicId) : undefined} noindex={!known || (cards.length === 0 && entities.length === 0)}>
   {topic ? (
     <div class="page" style="padding-bottom:40px">
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: topic.label }]} />

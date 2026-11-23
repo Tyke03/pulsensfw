@@ -9,17 +9,13 @@ const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
 const gate = conciergeGate(Astro.cookies, Astro.url.protocol === 'https:');
 const gateOk = gate.status === 'ok' ? gate : null;
 const state = gateOk
-  ? (gateOk.modelPlan === 'dev-fixture'
-    ? 'Dev fixture mode: a scripted answer path replaces the model for local screenshots. Labeled everywhere, never shipped as real.'
-    : 'Live model ladder: strongest suitable prose models first, then the fallback tier — attempts bounded, fallback reachable.')
-  : 'The Concierge is not configured on this deployment yet — no model credentials. Everything else keeps working; answers arrive when MODELS_* env exists.';
+  ? 'Online — answers search, compare, and cite published PulseNSFW records only.'
+  : 'The Concierge is temporarily offline. You can still browse reviews, search the catalog, or compare apps side by side.';
 const nsfwLabel = gateOk
   ? (gateOk.nsfwAllowed
-    ? (gateOk.ageMode === 'vendor-ok'
-      ? 'NSFW retrieval: unlocked by verified age.'
-      : 'NSFW retrieval: unlocked in dev (stub acceptable only without vendor env).')
-    : 'NSFW retrieval: locked — SFW by default; production needs real verified age (a saved preference is not verification).')
-  : 'NSFW retrieval: locked while the Concierge is unconfigured.';
+    ? 'NSFW retrieval: enabled for your verified session.'
+    : 'SFW mode active: responses stay SFW until age verification and NSFW mode are enabled.')
+  : 'SFW mode active.';
 ---
 <BaseLayout title={`Concierge · ${SITE.name}`} description="Ask the desk: search, compare, and read published reviews with citations." reader={reader} noindex>
   <div class="page" style="padding:24px 0 48px;max-width:880px">

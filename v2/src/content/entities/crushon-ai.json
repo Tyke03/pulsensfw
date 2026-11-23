@@ -4,19 +4,19 @@
   "name": "CrushOn AI",
   "url": "https://crushon.ai",
   "affiliate_url": "https://crushon.ai/?ref=nzflztr&mist=1",
-  "affiliate_status": "active",
+  "affiliate_status": "paused",
   "monetization_methods": [
     "affiliate",
     "referral"
   ],
-  "summary": "Unfiltered character chat with a very large community library, persistent character memory, and a free tier with unlimited access to designated free models. One of two apps on this desk with a tracked link.",
+  "summary": "Unfiltered character chat with a large community card library and a testable free tier, currently held off our recommended list over reported billing, cancellation, and privacy red flags.",
   "tags": [
     "nsfw",
     "character chat",
     "roleplay",
     "freemium"
   ],
-  "ranking_rationale": "First-party pricing page (verified live in a browser) documents unlimited free-model access, a 100-credit free allowance, 8K free memory, voice messages, and a $5.99 monthly Standard plan. Adult text roleplay for 18+ users is in the official FAQ. Ranks high on testable free access, but the app-distribution picture is murky: iOS/Android apps are claimed by the FAQ with no verifiable store listing.",
+  "ranking_rationale": "First-party pricing documents unlimited access to designated free models, 100 monthly credits, 8K free memory, and a $5.99 monthly Standard plan. Despite testable free access, reported cancellation friction, non-refundable terms, processor churn, and heavy tracker counts keep it off our recommended Top 10.",
   "pricing": {
     "model": "Freemium subscription",
     "free_tier": "100 monthly credits + unlimited designated free models, 8K memory",
@@ -41,20 +41,20 @@
   "platforms": [
     "Web"
   ],
-  "score": 7.4,
+  "score": 4.8,
   "pros": [
     "Unlimited access to designated free models, separate from credits",
     "Free tier with 8K memory is testable before paying",
     "Voice messages and custom voices at paid tiers",
-    "Transparent pricing page"
+    "Clear tier breakdown once you switch to monthly billing"
   ],
   "cons": [
     "Free chat history deleted after 7 days of inactivity",
     "Annual-equivalent headline easily confused with monthly cost",
-    "Native apps claimed but no current store listing verified",
-    "Scam-hunt verdict: avoid - reported no manual cancel, non-refundable terms, and payment-processor churn",
-    "Community-reported: no confirmed encryption, ~45 trackers, chat-log collection",
-    "Trustpilot reported ~1.8/5 with support unresponsive (community count, unverified)"
+    "Native apps claimed in FAQ with no verified store listing",
+    "Trust review verdict: avoid — reported lack of self-serve cancel, non-refundable terms, and payment-processor churn",
+    "Community-reported: no confirmed encryption, heavy third-party tracking (~45 trackers), and chat-log collection",
+    "Low customer support ratings on Trustpilot (~1.8/5 reported)"
   ],
   "image": {
     "src": "/media/categories/ai/cover.png",
@@ -112,11 +112,11 @@
     },
     {
       "key": "Cancellation model",
-      "value": "Community-reported: no manual cancel or upgrade - subscriptions must lapse and be re-subscribed; current period non-refundable",
+      "value": "Community-reported: no manual cancel or upgrade — subscriptions must lapse and be re-subscribed; current period non-refundable",
       "source_url": "https://crushon.ai/terms-of-service",
       "checked": "2026-10-27",
       "evidence_type": "community",
-      "notes": "Scam-hunt verdict: avoid. Dropped from the v0 top 10 on this."
+      "notes": "Editorial trust verdict: avoid. Affiliate promotion paused until billing and cancellation issues are resolved."
     },
     {
       "key": "Payment churn",

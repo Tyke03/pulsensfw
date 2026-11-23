@@ -12,7 +12,7 @@
     "free",
     "power user"
   ],
-  "ranking_rationale": "Fan-scout records moderate support (two dated r/CharacterAIrunaways reviews incl. a 2026 follow-up, on file) for unfiltered unlogged chats, free rotating models and manual drip-filtering of low-effort bots. Complaints on file: complex interface, no dedicated mobile app, hit-or-miss free testing models, occasional language glitches. No verified price; scam-hunt has no record (absence, not clearance).",
+  "ranking_rationale": "Community feedback shows moderate support (two dated r/CharacterAIrunaways reviews incl. a 2026 follow-up, on file) for unfiltered unlogged chats, free rotating models and manual drip-filtering of low-effort bots. Complaints on file: complex interface, no dedicated mobile app, hit-or-miss free testing models, occasional language glitches. No verified price; Trust audit has no record (absence, not clearance).",
   "pricing": {
     "model": "Unverified",
     "free_tier": null,
@@ -58,7 +58,7 @@
       "evidence_type": "community"
     },
     {
-      "key": "Scam-hunt record",
+      "key": "Trust audit record",
       "value": "No record - absence noted, no clearance implied",
       "source_url": "https://app.wyvern.chat/",
       "checked": "2026-10-27",

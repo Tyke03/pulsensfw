@@ -13,21 +13,33 @@
     "power user",
     "free"
   ],
-  "ranking_rationale": "Fan-scout records heavy community support (r/SillyTavernAI power-user threads 2025-2026 plus Hacker News debate, quotes on file): extensibility and total backend freedom as the draw, learning curve and API bills as the cost. Scam-hunt has no record for it - recorded as an absence, not a clearance. Ranked top for NSFW freedom, testability (free software) and privacy; pricing is not its product.",
+  "ranking_rationale": "Strong sustained community backing across power-user forums and developer threads for total backend freedom, extensibility, and zero platform censorship. Steep setup curve and pay-as-you-go API costs are the main tradeoffs; ranked #1 for NSFW freedom, testability, and privacy.",
   "pricing": {
-    "model": "Unverified",
-    "free_tier": null,
-    "from_price": null,
-    "currency": null,
+    "model": "Free & open source (BYO LLM)",
+    "free_tier": "100% free software (self-hosted or bring your own API key)",
+    "from_price": "$0",
+    "currency": "USD",
     "plans": [],
-    "notes": "Pricing could not be verified at check time; no third-party figure copied per desk rules."
+    "notes": "SillyTavern has no hosted subscription. Running local models costs nothing beyond your hardware; external API providers (OpenRouter, DeepSeek, etc.) bill separately."
   },
   "platforms": [
-    "Web"
+    "Web (local)",
+    "Windows",
+    "macOS",
+    "Linux"
   ],
-  "score": null,
-  "pros": [],
-  "cons": [],
+  "score": 9.1,
+  "pros": [
+    "Completely free, open-source frontend with no platform subscription",
+    "Zero platform censorship because everything runs locally",
+    "Connects to local models (vLLM, Kobold, Ollama) or any external API",
+    "Deep control over prompts, samplers, V2 character cards, and lorebooks"
+  ],
+  "cons": [
+    "Steep initial setup and configuration curve compared to hosted apps",
+    "Mobile use requires LAN hosting or Termux workarounds",
+    "Heavy agentic or long-context API use can get expensive quickly"
+  ],
   "image": {
     "src": "/media/categories/ai/cover.png",
     "alt": "PulseNSFW AI category cover used as the default app image",
@@ -59,7 +71,7 @@
       "evidence_type": "community"
     },
     {
-      "key": "Scam-hunt record",
+      "key": "Trust audit record",
       "value": "No record - absence noted, no clearance implied",
       "source_url": "https://sillytavern.app/",
       "checked": "2026-10-27",

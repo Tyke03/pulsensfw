@@ -31,6 +31,15 @@ const PLURAL: Record<EntityKind, string> = {
   product: 'toys',
   game: 'games',
 };
+const populatedKinds = new Set<string>(catalog.entities.map((entity) => {
+  if (entity.type === 'ai_app' || entity.type === 'frontend') return 'ai';
+  return entity.type;
+}));
+const hasVr = catalog.entities.some((entity) => entity.type === 'game' || (entity.type === 'site' && entity.tags.some((t) => t.toLowerCase() === 'vr')));
+if (hasVr) populatedKinds.add('game');
+const activeFilters = SEARCH_FILTERS.filter((filter) =>
+  filter.id === 'all' || filter.id === 'article' || filter.id === type || populatedKinds.has(filter.id),
+);
 const seeds = (['star', 'site', 'ai', 'product', 'game'] as EntityKind[])
   .map((kind) => ({ kind, ids: recentOfKind(catalog, kind).slice(0, 4).map((entity) => entity.slug) }))
   .filter((seed) => seed.ids.length >= 2);
@@ -39,7 +48,7 @@ const seeds = (['star', 'site', 'ai', 'product', 'game'] as EntityKind[])
   <div class="page" style="padding:20px 0 48px">
     <p class="kicker">Search</p>
     <h1>{q ? `Results for “${q}”` : 'Search the desk'}</h1>
-    <form action="/search" method="get" data-astro-reload id="search-form" data-search-swap data-search-region="#search-panel" style="margin-top:16px">
+    <form class="home-search" action="/search" method="get" data-astro-reload id="search-form" data-search-swap data-search-region="#search-panel" style="margin-top:16px">
       <label class="sr-only" for="q">Search</label>
       <input class="c-input" id="q" name="q" type="search" value={q} placeholder="Stars, sites, toys, VR, games…" />
       <input type="hidden" name="type" value={type} />
@@ -47,7 +56,7 @@ const seeds = (['star', 'site', 'ai', 'product', 'game'] as EntityKind[])
     </form>
     <div id="search-panel" aria-live="polite">
       <div class="search-types">
-        {SEARCH_FILTERS.map((filter) => (
+        {activeFilters.map((filter) => (
           <a
             class="c-chip"
             href={`/search?type=${filter.id}${q ? `&q=${encodeURIComponent(q)}` : ''}`}

@@ -1,4 +1,4 @@
-import { byDateDesc, presentArticle, presentCatalog, presentDeal } from './present';
+import { byDateDesc, entitiesForTopic, presentArticle, presentCatalog, presentDeal } from './present';
 import type {
   ArticleCard,
   Catalog,
@@ -54,12 +54,17 @@ export function assembleHome(
       .map((article) => presentArticle(article, reader));
   }
   const entities = presentCatalog(catalog, reader);
+  const populatedTopics = topics.filter((topic) => {
+    const hasStories = ordered.some((article) => article.topic === topic.id || article.tags.some((tag) => tag.toLowerCase() === topic.id));
+    const hasEntities = entitiesForTopic(catalog, topic.id, null, reader).length > 0;
+    return hasStories || hasEntities;
+  });
   return {
     lead: presentArticle(leadRaw, reader),
     stack: stackRaw.map((article) => presentArticle(article, reader)),
     desk,
     rails,
-    topics,
+    topics: populatedTopics.length > 0 ? populatedTopics : topics,
     deals: deals.map((deal) => presentDeal(deal, reader)),
     rising: entities.filter((card) => card.type === 'star' && card.tags.includes('rising')).slice(0, 8),
     trendingStars: entities.filter((card) => card.type === 'star').sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 8),

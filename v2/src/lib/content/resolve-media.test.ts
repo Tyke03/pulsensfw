@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { assembleHome } from './assemble';
-import { presentArticle, searchCatalog } from './present';
+import { entitiesForTopic, matchesSubtopicFilter, presentArticle, searchCatalog } from './present';
 import { PLACEHOLDERS } from './resolve-media';
 import type { Catalog, RawArticle, RawImage, ReaderMode, Topic } from './types';
 import type { Entity } from './entity-schema';
@@ -140,4 +140,32 @@ test('a missing picture falls back to the category cover', async () => {
   const view = presentImage({ alt: 'Untitled', explicit: false, license: 'example' }, 'vr', 'fallback', sfw);
   assert.equal(view.state, 'file');
   if (view.state === 'file') assert.equal(view.src, '/media/categories/vr/cover.png');
+});
+
+test('subtopic filters match semantic aliases (/ai?topic=chat) and /vr includes VR sites', () => {
+  assert.equal(matchesSubtopicFilter(['nsfw', 'character chat', 'roleplay'], 'chat'), true);
+  assert.equal(matchesSubtopicFilter(['nsfw', 'image generation'], 'image'), true);
+  assert.equal(matchesSubtopicFilter(['nsfw', 'local', 'free'], 'privacy'), true);
+  const vrSite: Entity = {
+    slug: 'vr-bangers',
+    type: 'site',
+    name: 'VRBangers',
+    url: 'https://vrbangers.com',
+    affiliate_url: null,
+    affiliate_status: 'needs_search',
+    monetization_methods: [],
+    summary: 'VR studio',
+    tags: ['vr', 'studio', 'premium'],
+    pricing: { model: 'Subscription', free_tier: null, from_price: null, currency: 'USD', plans: [], notes: null },
+    platforms: ['Web'],
+    score: null,
+    pros: [],
+    cons: [],
+    image: null,
+    facts: [],
+    updated: '2026-10-27',
+  };
+  const vrCards = entitiesForTopic({ entities: [vrSite] }, 'vr', 'scenes', sfw);
+  assert.equal(vrCards.length, 1);
+  assert.equal(vrCards[0]?.slug, 'vr-bangers');
 });

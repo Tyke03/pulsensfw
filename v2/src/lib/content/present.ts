@@ -1,3 +1,4 @@
+import { entityHasActiveAffiliate, goHref } from '../affiliates/registry';
 import { presentImage } from './resolve-media';
 import { articleHref, formatDate } from './format';
 import {
@@ -73,8 +74,8 @@ export function presentEntity(entity: Entity, reader: ReaderMode): EntityCard {
     score: entity.score,
     pricing: entity.pricing,
     platforms: entity.platforms,
-    affiliateHref: entity.affiliate_status === 'active' ? entity.affiliate_url : null,
-    outboundHref: entity.affiliate_status === 'active' && entity.affiliate_url ? entity.affiliate_url : entity.url,
+    affiliateHref: entityHasActiveAffiliate(entity) ? goHref(entity.slug, { slot: 'dossier' }) : null,
+    outboundHref: entityHasActiveAffiliate(entity) ? goHref(entity.slug, { slot: 'dossier' }) : entity.url,
     updated: entity.updated,
     image: entity.image,
   };
@@ -224,15 +225,43 @@ const TOPIC_TYPE: Partial<Record<TopicId, EntityType>> = {
   vr: 'game',
 };
 
+const SUBTOPIC_ALIASES: Record<string, readonly string[]> = {
+  chat: ['chat', 'character chat', 'companion', 'roleplay', 'character cards', 'storytelling', 'multi-character'],
+  image: ['image', 'image generation', 'video', 'generator'],
+  privacy: ['privacy', 'local', 'unlogged', 'free', 'power user'],
+  scenes: ['scenes', 'vr', 'studio', 'aggregator', 'streaming'],
+  games: ['games', 'game'],
+  headsets: ['headsets', 'headset', 'vr'],
+  haptics: ['haptics', 'scripts', 'sync'],
+  premium: ['premium', 'studio', 'exclusive'],
+  tube: ['tube', 'free', 'mainstream'],
+  cams: ['cams', 'cam', 'live'],
+  platform: ['platform', 'onlyfans', 'creator'],
+  niche: ['niche', 'fetish'],
+  rising: ['rising', 'creator', '2026 xma'],
+  vr: ['vr', 'vr performer'],
+  solo: ['solo', 'creator', 'onlyfans'],
+  couples: ['couples', 'girl-girl'],
+};
+
+export function matchesSubtopicFilter(tags: readonly string[], filter: string): boolean {
+  const needle = filter.trim().toLowerCase();
+  if (!needle) return true;
+  const aliases = SUBTOPIC_ALIASES[needle] ?? [needle];
+  const lowered = tags.map((tag) => tag.toLowerCase());
+  return lowered.some((tag) => aliases.some((alias) => tag === alias || tag.includes(alias)));
+}
+
 export function entitiesForTopic(catalog: Catalog, topic: TopicId, filter: string | null, reader: ReaderMode): EntityCard[] {
   const type = TOPIC_TYPE[topic];
   if (!type) return [];
   return presentCatalog(catalog, reader).filter((card) => {
-    // Topic-based so sibling types (ai_app + frontend) share one section.
-    if (entityTopic(card.type) !== topic) return false;
+    // Topic-based so sibling types (ai_app + frontend) share one section,
+    // and VR sites surface under the VR & Games hub as well as Sites.
+    const belongs = entityTopic(card.type) === topic || (topic === 'vr' && card.type === 'site' && card.tags.some((tag) => tag.toLowerCase() === 'vr'));
+    if (!belongs) return false;
     if (!filter) return true;
-    if (filter === 'rising') return card.tags.includes('rising');
-    return card.tags.includes(filter);
+    return matchesSubtopicFilter(card.tags, filter);
   });
 }
 

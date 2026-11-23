@@ -1,6 +1,7 @@
 ---
 import MediaFrame from './MediaFrame.astro';
 import ScoreBadge from './ScoreBadge.astro';
+import { entityHasActiveAffiliate, goHref } from '../lib/affiliates/registry';
 import { ENTITY_LABEL, lastCheckedLabel, pricingRows } from '../lib/content/entities';
 import type { Entity } from '../lib/content/entity-schema';
 import type { MediaView, TopicId } from '../lib/content/types';
@@ -10,6 +11,8 @@ interface Props {
   media: MediaView;
   topic: TopicId;
   uid: string;
+  /** Optional article slug for /go/ click attribution. */
+  articleSlug?: string;
   /** Optional DOM id for in-page anchors (guide entity chips). */
   anchor?: string;
   /** Hide the panel name when the page header already renders it. */
@@ -19,9 +22,9 @@ interface Props {
   showSources?: boolean;
   compact?: boolean;
 }
-const { entity, media, topic, uid, anchor, showName = true, showSummary = true, showSources = true, compact = false } = Astro.props;
-const affiliate = entity.affiliate_status === 'active' && Boolean(entity.affiliate_url);
-const href = affiliate ? entity.affiliate_url : entity.url;
+const { entity, media, topic, uid, articleSlug, anchor, showName = true, showSummary = true, showSources = true, compact = false } = Astro.props;
+const affiliate = entityHasActiveAffiliate(entity);
+const href = affiliate ? goHref(entity.slug, { articleSlug, slot: 'dossier' }) : entity.url;
 const pricing = pricingRows(entity.pricing);
 ---
 <section class:list={["gear", "entity-data", compact && "entity-data--compact"]} id={anchor} aria-label={`${entity.name} review data`}>
@@ -63,11 +66,11 @@ const pricing = pricingRows(entity.pricing);
       )}
       <p class="entity-outbound">
         <a class="c-btn c-btn--primary c-btn--small" href={href} target="_blank" rel={affiliate ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}>
-          {affiliate ? 'Open with affiliate link' : 'Open ' + entity.name}
+          {`Visit ${entity.name}`}
           <span class="sr-only"> (opens in a new tab)</span>
         </a>
       </p>
-      {affiliate && <p class="meta">Affiliate link. PulseNSFW may earn a commission; the score is not for sale.</p>}
+      {affiliate && <p class="meta">Sponsored partner link · PulseNSFW may earn a commission at no extra cost to you. Scores are independent.</p>}
       {entity.tags.length > 0 && (
         <p class="tag-row">
           {entity.tags.map((tag) => <span class="c-chip">{tag}</span>)}

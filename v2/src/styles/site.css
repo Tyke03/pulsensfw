@@ -1322,3 +1322,59 @@ form[data-search-live] { position: relative; }
 @media (max-width: 767px) {
   .newsletter-form .c-btn { width: 100%; }
 }
+
+/* ---- Phase 1 UX polish: opaque mega-menu, subtle scrollbars, portrait framing, breadcrumbs, search hits ---- */
+.mega { z-index: 60; }
+.mega-panel { background: #1d1527; isolation: isolate; }
+.mega-links a { background: #140e1c; }
+.media--portrait > img { object-position: 50% 18%; }
+.scroller {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 79, 154, 0.35) transparent;
+}
+.scroller::-webkit-scrollbar { height: 6px; }
+.scroller::-webkit-scrollbar-track { background: transparent; }
+.scroller::-webkit-scrollbar-thumb { background: rgba(255, 79, 154, 0.35); border-radius: 999px; }
+.scroller::-webkit-scrollbar-thumb:hover { background: rgba(255, 79, 154, 0.6); }
+.breadcrumbs { align-items: center; }
+.breadcrumbs li { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; color: var(--text-soft); }
+.breadcrumbs [aria-current="page"] { display: inline-flex; align-items: center; }
+.search-hit .card-body { display: flex; flex-direction: column; gap: 8px; }
+.search-hit-link { color: var(--text); text-decoration: none; }
+.search-hit-link:hover { color: var(--magenta); }
+.reviewer-chip { flex-wrap: nowrap; }
+.reviewer-avatar { flex: 0 0 auto; min-width: 42px; }
+.reviewer-badge { flex: 0 0 auto; width: auto; max-width: none; }
+.story-grid .card--feature,
+.story-grid .card--text { width: 100%; }
+
+/* ---- Phase 4: Quick links box, native offer bridge block, affiliate disclosure ---- */
+.quick-links-box,
+.offer-block {
+  margin: 20px 0;
+  padding: 16px 18px;
+  background: var(--bg-2);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+  display: grid;
+  gap: 10px;
+}
+.quick-links-box { border-left: 3px solid var(--cyan); }
+.quick-links-box ul {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+}
+.quick-links-box a { font-weight: 600; }
+.offer-block {
+  border-left: 3px solid var(--magenta);
+  background: linear-gradient(135deg, rgba(255, 79, 154, 0.08), rgba(92, 242, 238, 0.05)), var(--bg-2);
+}
+.offer-block-copy { margin: 0; color: var(--text); font-size: 1rem; line-height: 1.5; }
+.offer-block-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.affiliate-disclosure-foot {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}

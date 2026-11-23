@@ -46,6 +46,7 @@ const isNews = article.kind === 'news';
             media={item.media}
             topic={item.topic}
             uid={`guide-panel-${article.slug}-${item.slug}`}
+            articleSlug={article.slug}
             anchor={`guide-${article.slug}-${item.slug}`}
             compact
           />

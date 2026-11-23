@@ -49,7 +49,7 @@
     "Explicit image/video generation prohibited",
     "Web product still listed as coming soon",
     "Free-chat limits and memory capacity not quantified publicly",
-    "Scam-hunt verdict: avoid - community-reported weekly pricing creep after the free base was killed",
+    "Trust audit verdict: avoid - community-reported weekly pricing creep after the free base was killed",
     "Cancellation dark-pattern reports (retention screens, low-contrast continue control)"
   ],
   "image": {
@@ -102,7 +102,7 @@
       "source_url": "https://www.reddit.com/r/ChaiApp/comments/",
       "checked": "2026-10-27",
       "evidence_type": "community",
-      "notes": "Scam-hunt verdict: avoid. Weekly tiers and Play-rating collapse reported; store-rating counts unverified."
+      "notes": "Trust audit verdict: avoid. Weekly tiers and Play-rating collapse reported; store-rating counts unverified."
     },
     {
       "key": "Cancellation",

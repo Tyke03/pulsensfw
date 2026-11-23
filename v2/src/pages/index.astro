@@ -23,6 +23,16 @@ const home = assembleHome(
   await repo.listCatalog(),
   reader,
 );
+const activeSearchFilters = SEARCH_FILTERS.filter((filter) => {
+  if (filter.id === 'all' || filter.id === 'article') return true;
+  return home.topics.some((topic) =>
+    (filter.id === 'star' && topic.id === 'stars') ||
+    (filter.id === 'site' && topic.id === 'sites') ||
+    (filter.id === 'ai' && topic.id === 'ai') ||
+    (filter.id === 'product' && topic.id === 'toys') ||
+    (filter.id === 'game' && topic.id === 'vr'),
+  );
+});
 const lead = home.lead;
 const rails: Array<{ id: RailId; layout: 'feature' | 'text' | 'editor' | 'guide' | 'rank' }> = [
   { id: 'trending', layout: 'feature' },
@@ -57,7 +67,7 @@ const jsonLd = {
         <button class="c-btn c-btn--primary" type="submit">Search</button>
       </form>
       <div class="search-types">
-        {SEARCH_FILTERS.map((filter) => (
+        {activeSearchFilters.map((filter) => (
           <a class="c-chip" href={`/search?type=${filter.id}`}>{filter.label}</a>
         ))}
       </div>
@@ -152,7 +162,7 @@ const jsonLd = {
     </div>
   </section>
 
-  {rails.map((rail, index) => (
+  {rails.filter((rail) => home.rails[rail.id].length > 0).map((rail, index) => (
     <section class:list={['band', index % 2 === 1 && 'band--raised']} aria-labelledby={`${rail.id}-title`}>
       <div class="rail-head">
         <div>
@@ -161,10 +171,10 @@ const jsonLd = {
         </div>
         <PulseRule />
         <div class="rail-actions">
-          <button class="icon-btn carousel-btn" type="button" data-carousel-prev data-carousel-target={`rail-${rail.id}`} aria-label={`Scroll ${RAIL_META[rail.id].title} backward`}>
+          <button class="icon-btn carousel-btn" type="button" data-carousel-prev data-carousel-target={`rail-${rail.id}`} aria-label={`Scroll ${RAIL_META[rail.id].title} backward`} style="transform:scaleX(-1)">
             <Icon name="chevron" />
           </button>
-          <button class="icon-btn carousel-btn" type="button" data-carousel-next data-carousel-target={`rail-${rail.id}`} aria-label={`Scroll ${RAIL_META[rail.id].title} forward`} style="transform:scaleX(-1)">
+          <button class="icon-btn carousel-btn" type="button" data-carousel-next data-carousel-target={`rail-${rail.id}`} aria-label={`Scroll ${RAIL_META[rail.id].title} forward`}>
             <Icon name="chevron" />
           </button>
           <a class="see-all" href={RAIL_META[rail.id].href}>See all</a>

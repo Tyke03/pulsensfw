@@ -10,15 +10,40 @@
 import type { Kind, TopicId, RawImage, ArticleSource } from '../content/types';
 import type { Entity } from '../content/entity-schema';
 
-export const BLOCK_TYPES = ['p', 'h2', 'h3', 'ul', 'quote'] as const;
+export const BLOCK_TYPES = ['p', 'h2', 'h3', 'ul', 'quote', 'quick_links', 'offer_block'] as const;
 export type BlockType = (typeof BLOCK_TYPES)[number];
+
+export type QuickLinkItem = {
+  label: string;
+  link_id: string;
+  note?: string;
+};
+
+export type OfferBlockVariant =
+  | 'main_stay'
+  | 'same_desk'
+  | 'cross_desk'
+  | 'tools_bridge'
+  | 'read_next_offer';
 
 export type BodyBlock =
   | { type: 'p'; text: string }
   | { type: 'h2'; text: string }
   | { type: 'h3'; text: string }
   | { type: 'ul'; items: string[] }
-  | { type: 'quote'; text: string };
+  | { type: 'quote'; text: string }
+  | { type: 'quick_links'; heading?: string; items: QuickLinkItem[] }
+  | {
+      type: 'offer_block';
+      block_id: string;
+      variant?: OfferBlockVariant;
+      bridge?: string;
+      copy: string;
+      cta_label: string;
+      link_id: string;
+      read_next_slug?: string;
+      read_next_title?: string;
+    };
 
 export type DraftArticleState = {
   kind: 'article';

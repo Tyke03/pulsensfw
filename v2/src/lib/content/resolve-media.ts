@@ -36,8 +36,8 @@ export function presentImage(image: RawImage, topic: TopicId, key: string, reade
       alt: 'Image withheld in SFW mode',
     };
   }
-  if (image.url) {
-    return { state: 'file', src: image.url, alt: image.alt };
+  if (image.url && image.url.trim()) {
+    return { state: 'file', src: image.url.trim(), alt: image.alt };
   }
   if (image.plate) {
     return { state: 'plate', plate: image.plate, topic, alt: image.alt };

@@ -18,6 +18,7 @@ import type { Catalog, RawArticle, RawDeal, SearchHit, SearchType, Topic } from 
 import type { Entity, EntityType } from './entity-schema';
 import type { Store } from '../agent/store';
 import type { DraftEntityState, DraftState } from '../agent/state';
+import { stripInlineTokens } from '../affiliates/registry';
 
 export type PublishedOverride = { slug: string; state: DraftState };
 
@@ -65,6 +66,17 @@ export class HybridContentRepository {
 
   private overrideToArticle(slug: string, state: DraftState): RawArticle | null {
     if (state.kind !== 'article') return null;
+    const blockText = (block: (typeof state.blocks)[number]): string => {
+      if (block.type === 'ul') return stripInlineTokens(block.items.join(' '));
+      if (block.type === 'quick_links') return block.items.map((item) => item.label).join(' ');
+      if (block.type === 'offer_block') return block.copy;
+      return stripInlineTokens(block.text ?? '');
+    };
+    const proseWords = state.blocks.reduce((count, block) => {
+      if (block.type === 'quick_links' || block.type === 'offer_block') return count;
+      const words = blockText(block).split(/\s+/).filter(Boolean).length;
+      return count + words;
+    }, 0);
     return {
       slug,
       title: state.title,
@@ -75,10 +87,7 @@ export class HybridContentRepository {
       badges: [],
       author: state.author || 'PulseNSFW desk',
       kicker: state.kicker || 'Desk',
-      readingMinutes: Math.max(1, Math.round(state.blocks.reduce((count, block) => {
-        const words = (block.type === 'ul' ? block.items.join(' ') : block.text ?? '').split(/\s+/).filter(Boolean).length;
-        return count + words;
-      }, 0) / 210)),
+      readingMinutes: Math.max(1, Math.round(proseWords / 210)),
       placement: 'stack',
       rails: [],
       tags: state.tags ?? [],
@@ -87,7 +96,7 @@ export class HybridContentRepository {
       entitySlugs: state.entities ?? [],
       sources: state.sources ?? [],
       checkedAt: state.checkedAt ? new Date(state.checkedAt) : undefined,
-      bodyText: state.blocks.map((block) => (block.type === 'ul' ? block.items.join(' · ') : block.text ?? '')).join('\n\n'),
+      bodyText: state.blocks.map(blockText).join('\n\n'),
       bodyBlocks: state.blocks,
     };
   }

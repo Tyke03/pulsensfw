@@ -92,8 +92,14 @@ before(async () => {
     await pglite.exec(`GRANT ALL ON public.${table} TO service_role;`);
   }
   await pglite.exec('ALTER ROLE service_role NOLOGIN BYPASSRLS;');
-  // Security-repair migrations last, against that emulated posture.
-  for (const file of ['0005_view_and_function_permissions.sql', '0006_idempotency_claim_rpc.sql', '0007_publications_view_revisions_join.sql']) {
+  // Security-repair and affiliate/claim-pool migrations last, against that emulated posture.
+  for (const file of [
+    '0005_view_and_function_permissions.sql',
+    '0006_idempotency_claim_rpc.sql',
+    '0007_publications_view_revisions_join.sql',
+    '0008_affiliate_registry_and_clicks.sql',
+    '0009_research_claim_pool.sql',
+  ]) {
     const sql = readFileSync(join(here, '..', '..', '..', 'supabase', 'migrations', file), 'utf8');
     await pglite.exec(sql);
   }
@@ -448,6 +454,57 @@ describe('Supabase migrations 0001–0007 (pglite integration — real SQL, loca
         ['view-0007-story'],
       );
       assert.equal(gone.length, 0);
+    });
+  });
+
+  describe('0008 affiliate registry & clicks + 0009 research claim pool', () => {
+    it('stores affiliate programs, links, and PII-free clicks under service_role while denying anon/authenticated', async () => {
+      await rowsOf(
+        `INSERT INTO affiliate_programs (program_id, brand, entity_slugs, signup_status, desks)
+         VALUES ('spicychat', 'SpicyChat', ARRAY['spicychat'], 'approved', ARRAY['ai'])`,
+      );
+      await rowsOf(
+        `INSERT INTO affiliate_links (link_id, program_id, entity_slug, scope, tracked_url, status)
+         VALUES ('spicychat', 'spicychat', 'spicychat', 'home', 'https://spicychat.ai?ref=oge3yjk', 'active')`,
+      );
+      await rowsOf(
+        `INSERT INTO affiliate_clicks (link_id, article_slug, slot, resolved_status)
+         VALUES ('spicychat', 'best-ai-companion-apps-2026', 'inline', 'active')`,
+      );
+
+      const clicks = await asRole('service_role', () =>
+        pglite.query("SELECT link_id, article_slug, slot FROM affiliate_clicks WHERE link_id = 'spicychat'"),
+      );
+      assert.equal((clicks ?? []).length, 1);
+
+      for (const role of ['anon', 'authenticated']) {
+        let denied = false;
+        try {
+          await asRole(role, () => pglite.query('SELECT link_id FROM affiliate_links'));
+        } catch (error) {
+          denied = String((error as { code?: string }).code) === '42501';
+        }
+        assert.equal(denied, true, `${role} must be denied affiliate_links`);
+      }
+    });
+
+    it('stores research claims with volatility TTLs under service_role while denying anon/authenticated', async () => {
+      await rowsOf(
+        `INSERT INTO research_claims (claim_id, desk, entity_slug, category, claim_key, claim_value, source_url, evidence_type, expires_at)
+         VALUES ('claim-1', 'ai', 'spicychat', 'pricing', 'monthly', '$5.95/mo', 'https://spicychat.ai/', 'first_party', now() + interval '14 days')`,
+      );
+      const rows = await asRole('service_role', () =>
+        pglite.query("SELECT claim_id, category FROM research_claims WHERE expires_at > now()"),
+      );
+      assert.equal((rows ?? []).length, 1);
+
+      let denied = false;
+      try {
+        await asRole('anon', () => pglite.query('SELECT claim_id FROM research_claims'));
+      } catch (error) {
+        denied = String((error as { code?: string }).code) === '42501';
+      }
+      assert.equal(denied, true);
     });
   });
 });

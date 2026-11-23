@@ -12,7 +12,7 @@
     "memory",
     "storytelling"
   ],
-  "ranking_rationale": "Fan-scout records moderate support with two dated Reddit write-ups (2025) praising Memory Nexus for fixing relationship pacing versus JLLM. Complaints on file: credit-based consumption (no unlimited messaging), clunky mobile-first desktop UI, rerolls overwriting text without a community extension. Scam-hunt: no record (absence, not clearance). Cannot rank on price/value without a verified price; placed under the heavy group.",
+  "ranking_rationale": "Community feedback shows moderate support with two dated Reddit write-ups (2025) praising Memory Nexus for fixing relationship pacing versus JLLM. Complaints on file: credit-based consumption (no unlimited messaging), clunky mobile-first desktop UI, rerolls overwriting text without a community extension. Trust audit: no record (absence, not clearance). Cannot rank on price/value without a verified price; placed under the heavy group.",
   "pricing": {
     "model": "Unverified",
     "free_tier": null,
@@ -57,7 +57,7 @@
       "evidence_type": "community"
     },
     {
-      "key": "Scam-hunt record",
+      "key": "Trust audit record",
       "value": "No record - absence noted, no clearance implied",
       "source_url": "https://dreamjourneyai.com/",
       "checked": "2026-10-27",

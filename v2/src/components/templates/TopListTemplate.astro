@@ -51,6 +51,7 @@ const pod = (index: number) => (index === 0 ? 'is-champion' : index < 3 ? 'is-po
           media={item.media}
           topic={item.topic}
           uid={`top-${article.slug}-${item.slug}`}
+          articleSlug={article.slug}
           compact
         />
       </li>

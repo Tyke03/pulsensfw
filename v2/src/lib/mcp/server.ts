@@ -33,6 +33,8 @@ import {
   type PublicRepo,
 } from '../agent/service';
 import { loadCompare, compareRows, compareSuggestions, parseCompareIds } from '../content/compare';
+import { loadRegistryLinksFromSupabase } from '../affiliates/registry';
+import { runArticlePreflight } from '../agent/preflight';
 import type { SearchType } from '../content/types';
 
 export type McpContext = {
@@ -142,6 +144,43 @@ export function buildMcpServer(ctx: McpContext): McpServer {
     },
   );
 
+  mcp.registerTool(
+    'preflight_draft',
+    {
+      title: 'Run free deterministic QC preflight',
+      description: 'Validates a stored article draft before LLM QC: clean slug, no staging copy, prose word count, internal links resolve, active /go/ affiliate placements, no affiliate links in headings/quotes, and avoid-verdict disqualification.',
+      inputSchema: {
+        slug: z.string().min(1),
+        requireAffiliateLink: z.boolean().default(true),
+      },
+    },
+    async ({ slug, requireAffiliateLink }) => {
+      try {
+        const draft = await ctx.store.getDraft(slug);
+        if (!draft) {
+          throw new AgentError('unknown-draft', 404, `No draft found for slug "${slug}".`);
+        }
+        if (draft.state.kind !== 'article') {
+          return jsonTool({ ok: true, kind: 'entity', issues: [] });
+        }
+        const [articles, catalog, registryLinks] = await Promise.all([
+          ctx.repo.listArticles(),
+          ctx.repo.listCatalog(),
+          loadRegistryLinksFromSupabase(),
+        ]);
+        const result = runArticlePreflight(draft.state, {
+          publishedArticleSlugs: articles.map((article) => article.slug),
+          catalog,
+          registryLinks,
+          requireAffiliateLink,
+        });
+        return jsonTool(result);
+      } catch (error) {
+        return toolResult(error);
+      }
+    },
+  );
+
   /* ---- Drafts: draft scope ---- */
   if (ctx.auth.scope === 'draft') {
     mcp.registerTool(
@@ -214,6 +253,26 @@ export function buildMcpServer(ctx: McpContext): McpServer {
                 z.object({ type: z.literal('h3'), text: z.string() }),
                 z.object({ type: z.literal('ul'), items: z.array(z.string()).min(1) }),
                 z.object({ type: z.literal('quote'), text: z.string() }),
+                z.object({
+                  type: z.literal('quick_links'),
+                  heading: z.string().optional(),
+                  items: z.array(z.object({
+                    label: z.string().min(1),
+                    link_id: z.string().regex(/^[a-z0-9][a-z0-9_-]{0,80}$/i),
+                    note: z.string().optional(),
+                  })).min(1),
+                }),
+                z.object({
+                  type: z.literal('offer_block'),
+                  block_id: z.string().min(1),
+                  variant: z.enum(['main_stay', 'same_desk', 'cross_desk', 'tools_bridge', 'read_next_offer']).optional(),
+                  bridge: z.string().optional(),
+                  copy: z.string().min(1),
+                  cta_label: z.string().min(1),
+                  link_id: z.string().regex(/^[a-z0-9][a-z0-9_-]{0,80}$/i),
+                  read_next_slug: z.string().optional(),
+                  read_next_title: z.string().optional(),
+                }),
               ])).min(1),
             }),
             z.object({

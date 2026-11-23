@@ -7,7 +7,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import TabBar from '../components/TabBar.astro';
 import { getContentRepository } from '../lib/content/local-repository';
-import { presentArticle } from '../lib/content/present';
+import { entitiesForTopic, presentArticle } from '../lib/content/present';
 import { readReader } from '../lib/reader/cookies';
 import { SITE, noticeCopy } from '../lib/site';
 import type { ReaderMode } from '../lib/content/types';
@@ -31,10 +31,18 @@ const secure = Astro.url.protocol === 'https:';
 const reader = Astro.props.reader ?? readReader(Astro.cookies, secure);
 const returnTo = Astro.url.pathname;
 const repo = getContentRepository();
-const topics = await repo.listTopics();
+const allTopics = await repo.listTopics();
 const articles = await repo.listArticles();
+const catalog = await repo.listCatalog();
+const deals = await repo.listDeals();
+const topics = allTopics.filter((topic) => {
+  const hasStories = articles.some((article) => article.topic === topic.id || article.tags.some((tag) => tag.toLowerCase() === topic.id));
+  const hasEntities = entitiesForTopic(catalog, topic.id, null, reader).length > 0;
+  return hasStories || hasEntities;
+});
 const featured = Object.fromEntries(topics.map((topic) => {
-  const match = articles.find((article) => article.topic === topic.id);
+  const match = articles.find((article) => article.topic === topic.id)
+    ?? articles.find((article) => article.tags.some((tag) => tag.toLowerCase() === topic.id));
   return [topic.id, match ? presentArticle(match, reader) : undefined];
 }));
 const notice = noticeCopy(Astro.url.searchParams.get('notice'));
@@ -88,7 +96,7 @@ const ageFailed = Astro.url.searchParams.get('notice') === 'age-failed';
       <main id="content">
         <slot />
       </main>
-      <Footer topics={topics} />
+      <Footer topics={topics} hasDeals={deals.length > 0} />
       <TabBar path={Astro.url.pathname} />
     </div>
     {notice && <div class="toaster" role="status">{notice}</div>}

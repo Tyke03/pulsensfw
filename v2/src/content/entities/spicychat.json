@@ -136,7 +136,7 @@
       "source_url": "https://spicyranked.com/reviews/spicychat-ai",
       "checked": "2026-10-27",
       "evidence_type": "community",
-      "notes": "Fan-scout tier: moderate."
+      "notes": "Community traction: moderate."
     },
     {
       "key": "Support & refunds",
@@ -144,7 +144,7 @@
       "source_url": "https://www.trustpilot.com/review/spicychat.ai",
       "checked": "2026-10-27",
       "evidence_type": "community",
-      "notes": "Trustpilot rating count unverified (bot-blocked). Scam-hunt verdict: caution; real operator NextDay AI Inc."
+      "notes": "Trustpilot rating count unverified (bot-blocked). Trust audit verdict: caution; real operator NextDay AI Inc."
     },
     {
       "key": "Clone-app warning",
@@ -152,7 +152,7 @@
       "source_url": "https://docs.spicychat.ai/advanced/mobile-apps",
       "checked": "2026-10-27",
       "evidence_type": "first_party",
-      "notes": "Biggest user-harm vector flagged by scam-hunt; matches our APK finding."
+      "notes": "Biggest user-harm vector flagged by Trust audit; matches our APK finding."
     }
   ],
   "updated": "2026-10-27"

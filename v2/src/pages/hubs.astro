@@ -8,7 +8,7 @@ import { SITE } from '../lib/site';
 const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
 const topics = await getContentRepository().listTopics();
 ---
-<BaseLayout title={`Sections · ${SITE.name}`} description="Every PulseNSFW hub in the phase 1 shell." reader={reader}>
+<BaseLayout title={`Sections · ${SITE.name}`} description="Browse every PulseNSFW desk, hub, and subtopic." reader={reader}>
   <div class="page" style="padding:20px 0 48px">
     <p class="kicker">Hubs</p>
     <h1>All sections</h1>

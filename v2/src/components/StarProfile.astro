@@ -5,6 +5,7 @@
  * (via EntityScreen) and by StarProfileTemplate on story pages.
  */
 import MediaFrame from './MediaFrame.astro';
+import { entityHasActiveAffiliate, goHref } from '../lib/affiliates/registry';
 import { ENTITY_LABEL, lastCheckedLabel } from '../lib/content/entities';
 import type { Entity } from '../lib/content/entity-schema';
 import type { MediaView, TopicId } from '../lib/content/types';
@@ -14,13 +15,16 @@ interface Props {
   media: MediaView;
   topic: TopicId;
   uid: string;
+  articleSlug?: string;
   /** Hide the hero name when the page already has an h1 with the same text. */
   showName?: boolean;
   /** Hide the entity summary when the page header already renders it as dek. */
   showSummary?: boolean;
 }
-const { entity, media, topic, uid, showName = true, showSummary = true } = Astro.props;
+const { entity, media, topic, uid, articleSlug, showName = true, showSummary = true } = Astro.props;
 const pricing = entity.pricing.from_price ?? entity.pricing.free_tier ?? null;
+const affiliate = entityHasActiveAffiliate(entity);
+const outboundHref = affiliate ? goHref(entity.slug, { articleSlug, slot: 'dossier' }) : entity.url;
 ---
 
 <section class="star-profile" aria-label={`${entity.name} profile`}>
@@ -49,11 +53,11 @@ const pricing = entity.pricing.from_price ?? entity.pricing.free_tier ?? null;
       <p class="entity-outbound">
         <a
           class="c-btn c-btn--primary c-btn--small"
-          href={entity.affiliate_status === 'active' && entity.affiliate_url ? entity.affiliate_url : entity.url}
+          href={outboundHref}
           target="_blank"
-          rel={entity.affiliate_status === 'active' && entity.affiliate_url ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
+          rel={affiliate ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
         >
-          {entity.affiliate_status === 'active' && entity.affiliate_url ? 'Visit (sponsored)' : 'Official pages'}
+          {affiliate ? `Visit ${entity.name}` : 'Official pages'}
           <span class="sr-only"> (opens in a new tab)</span>
         </a>
         {pricing && <span class="meta star-pricing">{entity.pricing.model}{entity.pricing.from_price ? ` · from ${entity.pricing.from_price}` : entity.pricing.free_tier ? ` · free: ${entity.pricing.free_tier}` : ''}</span>}

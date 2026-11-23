@@ -12,7 +12,7 @@
     "multi-character",
     "storytelling"
   ],
-  "ranking_rationale": "Fan-scout records moderate support (r/FictionLab threads and C.AI-refugee recommendations 2026, on file) for scenario/world-building focus and lack of ad/paywall friction on editing. Complaints on file: mid-sentence cutoffs, Glendora bugs and false-positive refusals, Oracle persona swings. Pricing claim unverified. Scam record, and the domain itself, need re-checking: the homepage sat behind a Cloudflare challenge at verification.",
+  "ranking_rationale": "Community feedback shows moderate support (r/FictionLab threads and C.AI-refugee recommendations 2026, on file) for scenario/world-building focus and lack of ad/paywall friction on editing. Complaints on file: mid-sentence cutoffs, Glendora bugs and false-positive refusals, Oracle persona swings. Pricing claim unverified. Scam record, and the domain itself, need re-checking: the homepage sat behind a Cloudflare challenge at verification.",
   "pricing": {
     "model": "Unverified",
     "free_tier": null,
@@ -59,7 +59,7 @@
     },
     {
       "key": "Scam record",
-      "value": "No scam-hunt record; site ownership not fully resolved at check (Cloudflare-gated) - re-check",
+      "value": "No Trust audit record; site ownership not fully resolved at check (Cloudflare-gated) - re-check",
       "source_url": "https://fictionlab.ai/",
       "checked": "2026-10-27",
       "evidence_type": "first_party"

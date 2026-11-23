@@ -47,19 +47,19 @@ const title = page ? `${page.title} · ${SITE.name}` : `Page not found · ${SITE
 
       {page.kind === 'top_list' ? (
         <TopListTemplate article={page} entities={templateEntities}>
-          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} />}
+          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} articleSlug={page.slug} />}
         </TopListTemplate>
       ) : page.kind === 'star_profile' ? (
         <StarProfileTemplate article={page} entities={templateEntities}>
-          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} />}
+          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} articleSlug={page.slug} />}
         </StarProfileTemplate>
       ) : page.kind === 'site_review' || page.kind === 'review' ? (
         <EntityReviewTemplate article={page} entities={templateEntities}>
-          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} />}
+          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} articleSlug={page.slug} />}
         </EntityReviewTemplate>
       ) : (
         <GuideNewsTemplate article={page} entities={templateEntities}>
-          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} />}
+          {Content ? <Content /> : <BlocksBody blocks={publishedBlocks ?? []} articleSlug={page.slug} />}
         </GuideNewsTemplate>
       )}
 

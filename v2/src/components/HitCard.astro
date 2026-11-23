@@ -11,12 +11,14 @@ const { hit, uid } = Astro.props;
 ---
 <article class="card card--standard search-hit">
   <MediaFrame media={hit.media} topic={hit.topic} uid={uid} />
-  <a class:list={['card-body', hit.media.state !== 'withheld' && 'card-stretch']} href={hit.href}>
-    <span class="card-meta">
+  <div class="card-body">
+    <div class="card-meta">
       <span class:list={['c-chip', `c-chip--${hit.topic}`]}>{TOPIC_LABEL[hit.topic]}</span>
       <span class="c-chip">{hit.kicker}</span>
-    </span>
-    <h2 class="card-title clamp-2">{hit.title}</h2>
-    <p class="dek clamp-2">{hit.dek}</p>
-  </a>
+    </div>
+    <h2 class="card-title clamp-2">
+      <a class:list={['search-hit-link', hit.media.state !== 'withheld' && 'card-stretch']} href={hit.href}>{hit.title}</a>
+    </h2>
+    {hit.dek && <p class="dek clamp-2">{hit.dek}</p>}
+  </div>
 </article>

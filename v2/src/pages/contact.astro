@@ -10,7 +10,7 @@ const notice = Astro.url.searchParams.get('notice');
 const copy = noticeCopy(notice);
 const mailConnected = mailConfig() !== null && Boolean(mailConfig()?.contactInbox);
 ---
-<BaseLayout title={`Contact · ${SITE.name}`} description="Write the desk. Mail runs through Amazon SES when configured." reader={reader}>
+<BaseLayout title={`Contact · ${SITE.name}`} description="Reach the PulseNSFW editorial desk." reader={reader}>
   <article class="page" style="padding-bottom:48px;max-width:720px">
     <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Contact' }]} />
     <p class="kicker">Contact</p>
@@ -18,17 +18,24 @@ const mailConnected = mailConfig() !== null && Boolean(mailConfig()?.contactInbo
     <p class="dek">
       {mailConnected
         ? 'Notes reach the desk by plain-text email. We never ask for an ID or a card to answer.'
-        : 'Email delivery is not connected on this deployment. Nothing is stored and nothing is sent — the API answers honestly.'}
+        : 'Direct inbox delivery is temporarily paused while we finalize our mail desk. You can search reviews, compare apps, or use Ask the Desk in the meantime.'}
     </p>
-    {notice === 'contact-unconfigured' && <ErrorState title="The desk is not connected" body="Nothing was stored or sent. Wire the SES env keys (see .env.example) to turn delivery on." />}
+    {notice === 'contact-unconfigured' && <ErrorState title="Inbox temporarily paused" body="Direct email submission is not active yet. Try Ask the Desk or check back soon." />}
     {notice === 'contact-invalid' && <ErrorState title="That form is incomplete" body="Add a name, an email with a domain, and a message." />}
     {copy && notice !== 'contact-unconfigured' && notice !== 'contact-invalid' && <p class="meta">{copy}</p>}
-    <form method="post" action="/api/contact" class="stack" data-astro-reload style="display:grid;gap:12px;margin-top:16px">
-      <input type="hidden" name="return" value="/contact" />
-      <label class="c-field">Name <input class="c-input" name="name" autocomplete="name" required /></label>
-      <label class="c-field">Email <input class="c-input" name="email" type="email" autocomplete="email" required /></label>
-      <label class="c-field">Message <textarea class="c-textarea" name="message" required></textarea></label>
-      <button class="c-btn c-btn--primary" type="submit">Submit</button>
-    </form>
+    {mailConnected ? (
+      <form method="post" action="/api/contact" class="stack" data-astro-reload style="display:grid;gap:12px;margin-top:16px">
+        <input type="hidden" name="return" value="/contact" />
+        <label class="c-field">Name <input class="c-input" name="name" autocomplete="name" required /></label>
+        <label class="c-field">Email <input class="c-input" name="email" type="email" autocomplete="email" required /></label>
+        <label class="c-field">Message <textarea class="c-textarea" name="message" required></textarea></label>
+        <button class="c-btn c-btn--primary" type="submit">Submit</button>
+      </form>
+    ) : (
+      <div class="submit-row" style="margin-top:16px">
+        <a class="c-btn c-btn--primary" href="/concierge">Ask the desk</a>
+        <a class="c-btn c-btn--secondary" href="/editorial-policy">Editorial policy</a>
+      </div>
+    )}
   </article>
 </BaseLayout>

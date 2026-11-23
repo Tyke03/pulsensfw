@@ -67,6 +67,7 @@ export type EntityFact = z.infer<typeof entityFactSchema>;
 
 export const AFFILIATE_STATUSES = [
   'active',
+  'paused',
   'needs_search',
   'program_found_signup_queued',
   'no_program',
