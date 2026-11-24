@@ -1,0 +1,79 @@
+{
+  "slug": "pictspace",
+  "type": "site",
+  "name": "pictSPACE",
+  "url": "https://pictspace.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japanese doujinshi circle storefront & pictSQUARE virtual-convention companion empowering BL, yuri & R-18 fan artists with private webshops.",
+  "tags": [
+    "hentai",
+    "doujinshi",
+    "manga",
+    "store"
+  ],
+  "ranking_rationale": "Powers thousands of independent Japanese R-18 & BL virtual-comiket circle shops (trade-off: Japanese-only interface).",
+  "pricing": {
+    "model": "Doujin circle storefront",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Powers thousands of independent Japanese R-18 & BL virtual-comiket circle shops",
+    "Supports password/age-gated digital downloads & mail-order books",
+    "Creator-first privacy controls"
+  ],
+  "cons": [
+    "Japanese-only interface",
+    "Individual circle shops open/close around event weekends"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pictspace.webp",
+    "alt": "pictSPACE logo and brand card",
+    "source_url": "https://pictspace.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://pictspace.net",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Doujin circle storefront",
+      "source_url": "https://pictspace.net",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pictspace.net",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pictspace.net",
+      "source_url": "https://pictspace.net",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

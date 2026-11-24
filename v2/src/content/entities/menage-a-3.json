@@ -1,0 +1,79 @@
+{
+  "slug": "menage-a-3",
+  "type": "site",
+  "name": "Pixie Trix Comix (Ménage à 3)",
+  "url": "https://pixietrixcomix.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Home of Gisele Lagace's beloved Montreal indie webcomic universe—housing the complete 11-year Ménage à 3 spicy rom-com archive free online.",
+  "tags": [
+    "comics",
+    "western",
+    "story",
+    "free"
+  ],
+  "ranking_rationale": "Thousands of completed full-page comedic & spicy romance strips readable free from Chapter 1 (trade-off: R-rated/topless comedic sexiness rather than explicit hardcore anatomy).",
+  "pricing": {
+    "model": "Free webcomic archive + PDF store",
+    "free_tier": "Full webcomic archives free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Thousands of completed full-page comedic & spicy romance strips readable free from Chapter 1",
+    "Crisp expressive comic-book lineart & genuinely lovable cast",
+    "Optional DRM-free PDF/print omnibus collections"
+  ],
+  "cons": [
+    "R-rated/topless comedic sexiness rather than explicit hardcore anatomy",
+    "Completed flagship series (spin-offs continue)"
+  ],
+  "image": {
+    "src": "/media/entities/sites/menage-a-3.webp",
+    "alt": "Pixie Trix Comix (Ménage à 3) logo and brand card",
+    "source_url": "https://pixietrixcomix.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://pixietrixcomix.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free webcomic archive + PDF store",
+      "source_url": "https://pixietrixcomix.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pixietrixcomix.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pixietrixcomix.com",
+      "source_url": "https://pixietrixcomix.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

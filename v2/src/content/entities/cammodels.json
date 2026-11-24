@@ -17,7 +17,7 @@
   "ranking_rationale": "Crisp modern responsive UI for mobile cam browsing; weighed against heavy per-minute gold/private monetization focus.",
   "pricing": {
     "model": "Per-minute credits & Gold shows",
-    "free_tier": "Free public chat previews",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

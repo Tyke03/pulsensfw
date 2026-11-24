@@ -1,0 +1,79 @@
+{
+  "slug": "2d-market",
+  "type": "site",
+  "name": "2D Market",
+  "url": "https://2d-market.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Official English digital storefront partnering directly with Japanese doujin circles & indie studios to sell DRM-free translated eroge and comics.",
+  "tags": [
+    "hentai",
+    "doujinshi",
+    "games",
+    "store"
+  ],
+  "ranking_rationale": "100% DRM-free direct downloads officially licensed from Japanese indie circles, weighed against smaller boutique catalog than DLsite or JAST USA.",
+  "pricing": {
+    "model": "DRM-free digital store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows"
+  ],
+  "score": 8.2,
+  "pros": [
+    "100% DRM-free direct downloads officially licensed from Japanese indie circles",
+    "Supports uncensored English doujinshi & animated indie games",
+    "Fair creator royalty share"
+  ],
+  "cons": [
+    "Smaller boutique catalog than DLsite or JAST USA",
+    "Site UI feels indie-functional"
+  ],
+  "image": {
+    "src": "/media/entities/sites/2d-market.webp",
+    "alt": "2D Market logo and brand card",
+    "source_url": "https://2d-market.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://2d-market.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "DRM-free digital store",
+      "source_url": "https://2d-market.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows",
+      "source_url": "https://2d-market.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "2d-market.com",
+      "source_url": "https://2d-market.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

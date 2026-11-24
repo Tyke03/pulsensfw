@@ -1,0 +1,77 @@
+{
+  "slug": "otobanana",
+  "type": "site",
+  "name": "OTOBANANA",
+  "url": "https://otobanana.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dedicated Japanese adult live voice-streaming & ASMR audio community where VTuber/anime-avatar voice creators broadcast R-18 audio rooms.",
+  "tags": [
+    "erotica",
+    "audio"
+  ],
+  "ranking_rationale": "Purpose-built R-18 Japanese voice & binaural ASMR streaming without YouTube/Twitch bans (trade-off: Japanese-only language & UI).",
+  "pricing": {
+    "model": "Freemium R-18 voice streams",
+    "free_tier": "Free public audio streams",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Purpose-built R-18 Japanese voice & binaural ASMR streaming without YouTube/Twitch bans",
+    "Clean mobile browser listening & tipping",
+    "Active Japanese indie VA community"
+  ],
+  "cons": [
+    "Japanese-only language & UI",
+    "Point tipping required for private/gift interactions"
+  ],
+  "image": {
+    "src": "/media/entities/sites/otobanana.webp",
+    "alt": "OTOBANANA logo and brand card",
+    "source_url": "https://otobanana.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://otobanana.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium R-18 voice streams",
+      "source_url": "https://otobanana.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://otobanana.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "otobanana.com",
+      "source_url": "https://otobanana.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

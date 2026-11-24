@@ -1,0 +1,80 @@
+{
+  "slug": "dippy-ai",
+  "type": "ai_app",
+  "name": "Dippy AI",
+  "url": "https://www.dippy.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mobile-first AI character chat & proactive messaging companion featuring chain-of-thought inner monologues and long-term memory.",
+  "tags": [
+    "chat",
+    "character-chat",
+    "roleplay",
+    "freemium"
+  ],
+  "ranking_rationale": "Visible 'Inner Thought' bubbles show what characters are privately thinking mid-scene, weighed against stricter app-store content guardrails than fully local or BYOK web tools.",
+  "pricing": {
+    "model": "Freemium mobile companion",
+    "free_tier": "Free chat with ads/limits",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Visible 'Inner Thought' bubbles show what characters are privately thinking mid-scene",
+    "Proactive check-in messages & clean native mobile apps",
+    "Generous free message tier"
+  ],
+  "cons": [
+    "Stricter app-store content guardrails than fully local or BYOK web tools",
+    "Super tier required for longest memory context"
+  ],
+  "image": {
+    "src": "/media/entities/ai/dippy-ai.webp",
+    "alt": "Dippy AI logo and brand card",
+    "source_url": "https://www.dippy.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://www.dippy.ai",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium mobile companion",
+      "source_url": "https://www.dippy.ai",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Web",
+      "source_url": "https://www.dippy.ai",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dippy.ai",
+      "source_url": "https://www.dippy.ai",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

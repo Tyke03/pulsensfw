@@ -1,0 +1,79 @@
+{
+  "slug": "active-duty",
+  "type": "site",
+  "name": "Active Duty",
+  "url": "https://www.activeduty.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running American all-male studio running since 2003—spotlighting athletic muscular newcomers in relaxed solo & duo auditions.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "amateur"
+  ],
+  "ranking_rationale": "Over 20 years of recognizable athletic American all-male archives (trade-off: conventional audition-couch framing).",
+  "pricing": {
+    "model": "All-male studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Over 20 years of recognizable athletic American all-male archives",
+    "Modern 4K studio upgrades inside Gamma/Next Door infrastructure",
+    "Smooth responsive streaming UI"
+  ],
+  "cons": [
+    "Conventional audition-couch framing",
+    "Older archive scenes in SD/720p"
+  ],
+  "image": {
+    "src": "/media/entities/sites/active-duty.webp",
+    "alt": "Active Duty logo and brand card",
+    "source_url": "https://www.activeduty.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.activeduty.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "All-male studio pass",
+      "source_url": "https://www.activeduty.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.activeduty.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "activeduty.com",
+      "source_url": "https://www.activeduty.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

@@ -73,8 +73,18 @@ export function relatedForSearch(
 ): Entity[] {
   if (catalog.entities.length <= 1) return [];
   const exclude = new Set<string>();
-  const tags = new Set<string>();
-  const topics = new Set<string>();
+  const tagCounts = new Map<string, number>();
+  const topicCounts = new Map<string, number>();
+  const addSeed = (seed: Entity) => {
+    if (exclude.has(seed.slug)) return;
+    exclude.add(seed.slug);
+    for (const tag of seed.tags) {
+      const key = tag.toLowerCase();
+      tagCounts.set(key, (tagCounts.get(key) ?? 0) + 1);
+    }
+    const tp = entityTopic(seed.type);
+    topicCounts.set(tp, (topicCounts.get(tp) ?? 0) + 1);
+  };
   for (const hitItem of hits) {
     if (hitItem.type === 'article') {
       const slug = hitItem.href.split('/').pop() ?? '';
@@ -82,29 +92,31 @@ export function relatedForSearch(
       if (!story) continue;
       for (const entitySlug of story.entitySlugs) {
         const seed = findEntityBySlug(catalog, entitySlug);
-        if (!seed) continue;
-        exclude.add(seed.slug);
-        for (const tag of seed.tags) tags.add(tag);
-        topics.add(entityTopic(seed.type));
+        if (seed) addSeed(seed);
       }
       continue;
     }
     const slug = hitItem.href.split('/').pop() ?? '';
     const seed = findEntityBySlug(catalog, slug);
-    if (!seed) continue;
-    exclude.add(seed.slug);
-    for (const tag of seed.tags) tags.add(tag);
-    topics.add(entityTopic(seed.type));
+    if (seed) addSeed(seed);
   }
   if (exclude.size === 0) return [];
   const scored = catalog.entities
     .filter((candidate) => !exclude.has(candidate.slug))
     .map((candidate) => {
-      const shared = sharedTags(candidate, tags);
-      const sameTopic = topics.has(entityTopic(candidate.type));
+      let tagScore = 0;
+      let shared = 0;
+      for (const tag of candidate.tags) {
+        const freq = tagCounts.get(tag.toLowerCase()) ?? 0;
+        if (freq > 0) {
+          shared += 1;
+          tagScore += 42 + Math.min(freq, 20) * 8;
+        }
+      }
+      const sameTopic = topicCounts.has(entityTopic(candidate.type));
       return {
         entity: candidate,
-        score: shared * 50 + (sameTopic && (shared > 0 || tags.size === 0) ? 120 : 0),
+        score: tagScore + (sameTopic && (shared > 0 || tagCounts.size === 0) ? 120 : 0),
       };
     })
     .filter((item) => item.score > 0);

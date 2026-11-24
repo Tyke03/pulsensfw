@@ -1,0 +1,80 @@
+{
+  "slug": "lesbea",
+  "type": "site",
+  "name": "Lesbea",
+  "url": "https://www.lesbea.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-key European all-girl studio from the SexArt/MetArt ecosystem filming sunlit, affectionate 4K lesbian encounters.",
+  "tags": [
+    "premium",
+    "studio",
+    "lesbian",
+    "european",
+    "4k"
+  ],
+  "ranking_rationale": "Crisp natural-light 4K European cinematography & unhurried romantic chemistry, weighed against uniform bright bedroom styling across releases.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Crisp natural-light 4K European cinematography & unhurried romantic chemistry",
+    "Includes high-resolution photo sets alongside every film",
+    "Bundled cleanly with MetArt network options"
+  ],
+  "cons": [
+    "Uniform bright bedroom styling across releases",
+    "Strictly soft-glamour lesbian focus"
+  ],
+  "image": {
+    "src": "/media/entities/sites/lesbea.webp",
+    "alt": "Lesbea logo and brand card",
+    "source_url": "https://www.lesbea.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.lesbea.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.lesbea.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.lesbea.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lesbea.com",
+      "source_url": "https://www.lesbea.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

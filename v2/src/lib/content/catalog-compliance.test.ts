@@ -121,6 +121,15 @@ const BANNED_STAR_SLUGS = new Set([
   'eimi-fukada',
   'miki-sunohara',
   'nanami-kawakami',
+  // Cycle 9 Critique #9 purges (multi-person / background-nudity / watermark)
+  'sara-jay',
+  'rebecca-lord',
+  'sienna-west',
+  'akari-hoshino',
+  'candy-manson',
+  'johan-volny',
+  'angela-stone',
+  'tarra-white',
 ]);
 
 const BANNED_NON_STAR_SLUGS = new Set([
@@ -146,6 +155,13 @@ const BANNED_NON_STAR_SLUGS = new Set([
   'pcgamingwiki',
   'unvale',
   'dr-pinkcake',
+  // Cycle 9 Critique #9 purges (ripper/parked/SFW-mainstream)
+  'onlygayvideo',
+  'porndish',
+  'centro-university',
+  'queerty',
+  'deviantart',
+  'dlsite-comipo',
 ]);
 
 const OFFENDER_TEXT_RE = /\b(?:convicted|sex offender|csam|child sexual|pedophil|traffick|homicide|murder)\b/i;

@@ -1,0 +1,78 @@
+{
+  "slug": "eurolive",
+  "type": "site",
+  "name": "EuroLive",
+  "url": "https://www.eurolive.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-standing European live webcam community featuring Dutch, German & international home broadcasters in 1-on-1 & peep-show rooms.",
+  "tags": [
+    "cams",
+    "live",
+    "european"
+  ],
+  "ranking_rationale": "Low-cost per-minute Peep Show mode alongside full 1-on-1 private chat (trade-off: classic older web UI).",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Low-cost per-minute Peep Show mode alongside full 1-on-1 private chat",
+    "Authentic Western European amateur broadcaster mix",
+    "Reliable EU billing"
+  ],
+  "cons": [
+    "Classic older web UI",
+    "Smaller late-night US timezone roster"
+  ],
+  "image": {
+    "src": "/media/entities/sites/eurolive.webp",
+    "alt": "EuroLive logo and brand card",
+    "source_url": "https://www.eurolive.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.eurolive.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.eurolive.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.eurolive.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "eurolive.com",
+      "source_url": "https://www.eurolive.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

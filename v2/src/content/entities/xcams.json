@@ -17,7 +17,7 @@
   "ranking_rationale": "Authentic European regional performers; weighed against smaller english us late-night roster.",
   "pricing": {
     "model": "Credits & private shows",
-    "free_tier": "Free public previews",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

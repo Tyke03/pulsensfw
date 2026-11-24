@@ -1,0 +1,60 @@
+{
+  "slug": "taylor-hayes",
+  "type": "star",
+  "name": "Taylor Hayes",
+  "url": "http://www.wikidata.org/entity/Q432046",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Taylor Hayes — American pornographic actress (b. 1975). Industry career documented from 1995.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/taylor-hayes.jpg",
+    "alt": "SFW portrait of Taylor Hayes",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taylor_Hayes_00010647_edit.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q432046 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q432046",
+      "checked": "2026-11-29",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1975",
+      "source_url": "http://www.wikidata.org/entity/Q432046",
+      "checked": "2026-11-29",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1995–present",
+      "source_url": "http://www.wikidata.org/entity/Q432046",
+      "checked": "2026-11-29",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-29"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "ishotmyself",
+  "type": "site",
+  "name": "IShotMyself",
+  "url": "https://www.ishotmyself.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Unique artistic self-portrait & solo-video project where real women worldwide photograph and film their own unscripted sensual self-expression.",
+  "tags": [
+    "premium",
+    "studio",
+    "solo",
+    "art",
+    "amateur"
+  ],
+  "ranking_rationale": "Zero camera crew in the room—performers control the tripod, timer & mood completely alone, weighed against strictly solo self-shot art & masturbation — zero couples or hardcore.",
+  "pricing": {
+    "model": "Artistic solo subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Zero camera crew in the room—performers control the tripod, timer & mood completely alone",
+    "Strikingly intimate, creative & authentic solo photography and HD/4K video",
+    "20+ years of ethical artist-style payouts"
+  ],
+  "cons": [
+    "Strictly solo self-shot art & masturbation (zero couples or hardcore)",
+    "Quiet contemplative pacing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ishotmyself.webp",
+    "alt": "IShotMyself logo and brand card",
+    "source_url": "https://www.ishotmyself.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.ishotmyself.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Artistic solo subscription",
+      "source_url": "https://www.ishotmyself.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.ishotmyself.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ishotmyself.com",
+      "source_url": "https://www.ishotmyself.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

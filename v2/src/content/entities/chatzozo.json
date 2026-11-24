@@ -17,7 +17,7 @@
   "ranking_rationale": "Strong authentic French & Belgian amateur broadcaster roster (trade-off: primarily French interface & chat culture).",
   "pricing": {
     "model": "Credits & private shows",
-    "free_tier": "Free public room access",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

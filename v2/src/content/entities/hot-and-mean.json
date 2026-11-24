@@ -1,0 +1,79 @@
+{
+  "slug": "hot-and-mean",
+  "type": "site",
+  "name": "Hot and Mean",
+  "url": "https://www.hotandmean.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Playful mainstream femdom, tease, and humiliation-roleplay studio casting top stars in glossy dominatrix scenarios.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k",
+    "story"
+  ],
+  "ranking_rationale": "Casts recognizable mainstream stars in accessible light-to-medium femdom vignettes (trade-off: scripted studio acting rather than real dungeon pro-Dommes).",
+  "pricing": {
+    "model": "Femdom studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Casts recognizable mainstream stars in accessible light-to-medium femdom vignettes",
+    "Polished 4K studio cameras & modern streaming player",
+    "Frequent updates"
+  ],
+  "cons": [
+    "Scripted studio acting rather than real dungeon pro-Dommes",
+    "Formulaic comedy-femdom setups"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hot-and-mean.webp",
+    "alt": "Hot and Mean logo and brand card",
+    "source_url": "https://www.hotandmean.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.hotandmean.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Femdom studio pass",
+      "source_url": "https://www.hotandmean.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.hotandmean.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hotandmean.com",
+      "source_url": "https://www.hotandmean.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

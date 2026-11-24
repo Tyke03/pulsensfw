@@ -17,7 +17,7 @@
   "ranking_rationale": "Genuine TikTok-style discovery swipe feed; weighed against heavy focus on teasers & ppv dms.",
   "pricing": {
     "model": "Discovery feed + creator subscriptions",
-    "free_tier": "Free swipe discovery feed",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

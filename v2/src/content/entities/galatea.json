@@ -17,7 +17,7 @@
   "ranking_rationale": "High-tension serialized romance enhanced by rich soundscapes and audio tracks (trade-off: wait timers and pricey point/subscription unlocks interrupt binge reading).",
   "pricing": {
     "model": "Points & annual Unlimited pass",
-    "free_tier": "Wait-timer free chapters",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

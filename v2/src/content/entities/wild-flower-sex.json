@@ -1,0 +1,79 @@
+{
+  "slug": "wild-flower-sex",
+  "type": "site",
+  "name": "Wild Flower",
+  "url": "https://wildflowersex.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Queer and non-binary-founded NYC pleasure collective curating gender-neutral body-safe silicone gear alongside candid intimacy education.",
+  "tags": [
+    "niche",
+    "queer",
+    "education",
+    "store"
+  ],
+  "ranking_rationale": "Drops binary 'his/hers' toy marketing so every product focuses purely on anatomy & sensation (trade-off: small curated boutique catalog).",
+  "pricing": {
+    "model": "Inclusive boutique store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Drops binary 'his/hers' toy marketing so every product focuses purely on anatomy & sensation",
+    "Strictly vetted body-safe medical silicone, glass & steel",
+    "Thoughtful inclusive sex-ed articles"
+  ],
+  "cons": [
+    "Small curated boutique catalog",
+    "Full MSRP boutique pricing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wild-flower-sex.webp",
+    "alt": "Wild Flower logo and brand card",
+    "source_url": "https://wildflowersex.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://wildflowersex.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Inclusive boutique store",
+      "source_url": "https://wildflowersex.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://wildflowersex.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wildflowersex.com",
+      "source_url": "https://wildflowersex.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

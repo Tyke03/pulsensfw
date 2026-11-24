@@ -1,0 +1,78 @@
+{
+  "slug": "gayporntube",
+  "type": "site",
+  "name": "GayPornTube",
+  "url": "https://www.gayporntube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Established free gay video tube & aggregator organizing amateur uploads, studio trailers, and niche tags cleanly.",
+  "tags": [
+    "tube",
+    "free",
+    "gay"
+  ],
+  "ranking_rationale": "Broad gay category & amateur video index (trade-off: banner ads around player without adblocker).",
+  "pricing": {
+    "model": "Free gay tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Broad gay category & amateur video index",
+    "Responsive mobile HTML5 player",
+    "Free playlist & rating features"
+  ],
+  "cons": [
+    "Banner ads around player without adblocker",
+    "Mixes short studio promos with full clips"
+  ],
+  "image": {
+    "src": "/media/entities/sites/gayporntube.webp",
+    "alt": "GayPornTube logo and brand card",
+    "source_url": "https://www.gayporntube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.gayporntube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free gay tube",
+      "source_url": "https://www.gayporntube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.gayporntube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "gayporntube.com",
+      "source_url": "https://www.gayporntube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

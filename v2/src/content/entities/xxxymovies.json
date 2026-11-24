@@ -1,0 +1,78 @@
+{
+  "slug": "xxxymovies",
+  "type": "site",
+  "name": "XXXYMovies",
+  "url": "https://www.xxxymovies.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Straightforward dark-mode free HD porn tube indexing studio channels, model filmographies, and duration-sorted clips.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Clean dark card layout with clear HD/length badges, weighed against smaller exclusive upload library.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free HD streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Clean dark card layout with clear HD/length badges",
+    "Fast HTML5 mobile scrubbing",
+    "No account needed"
+  ],
+  "cons": [
+    "Smaller exclusive upload library",
+    "Standard network ad banners"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xxxymovies.webp",
+    "alt": "XXXYMovies logo and brand card",
+    "source_url": "https://www.xxxymovies.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.xxxymovies.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.xxxymovies.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.xxxymovies.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xxxymovies.com",
+      "source_url": "https://www.xxxymovies.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

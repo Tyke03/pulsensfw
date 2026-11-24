@@ -1,0 +1,80 @@
+{
+  "slug": "iwara",
+  "type": "site",
+  "name": "Iwara",
+  "url": "https://www.iwara.tv",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The global community video hub for 3D MMD (MikuMikuDance), Blender anime dance, and R-18 fan-animation creators.",
+  "tags": [
+    "hentai",
+    "anime",
+    "3d",
+    "community",
+    "free"
+  ],
+  "ranking_rationale": "First-party upload home where 3D MMD & anime motion artists publish directly (trade-off: server transcoding & buffering occasionally lag during peak Asian evening hours).",
+  "pricing": {
+    "model": "100% free creator video hub",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "First-party upload home where 3D MMD & anime motion artists publish directly",
+    "Dedicated Ecchi/R-18 toggle & creator follow feeds",
+    "100% free community hosting"
+  ],
+  "cons": [
+    "Server transcoding & buffering occasionally lag during peak Asian evening hours",
+    "Focuses heavily on 3D MMD dance/short animations"
+  ],
+  "image": {
+    "src": "/media/entities/sites/iwara.webp",
+    "alt": "Iwara logo and brand card",
+    "source_url": "https://www.iwara.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.iwara.tv",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free creator video hub",
+      "source_url": "https://www.iwara.tv",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.iwara.tv",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "iwara.tv",
+      "source_url": "https://www.iwara.tv",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

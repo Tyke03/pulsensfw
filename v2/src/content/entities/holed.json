@@ -1,0 +1,79 @@
+{
+  "slug": "holed",
+  "type": "site",
+  "name": "Holed",
+  "url": "https://www.holed.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-intensity 4K gonzo showcase label from the PornPros network featuring enthusiastic star performances and bright studio optics.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo",
+    "4k"
+  ],
+  "ranking_rationale": "Sharp 4K 60fps camera clarity & energetic star roster (trade-off: pure hardcore gonzo with zero plot).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Sharp 4K 60fps camera clarity & energetic star roster",
+    "Full downloads & clean modern streaming UI",
+    "Included in PornPros network passes"
+  ],
+  "cons": [
+    "Pure hardcore gonzo with zero plot",
+    "Uniform bedroom sets"
+  ],
+  "image": {
+    "src": "/media/entities/sites/holed.webp",
+    "alt": "Holed logo and brand card",
+    "source_url": "https://www.holed.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.holed.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.holed.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.holed.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "holed.com",
+      "source_url": "https://www.holed.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

@@ -1,7 +1,7 @@
 {
   "slug": "osr2-plus",
   "type": "product",
-  "name": "OSR2+ / SR6 Open Stroker",
+  "name": "OSR2+ Open Stroker",
   "url": "https://www.patreon.com/tempestvr",
   "affiliate_url": null,
   "affiliate_status": "needs_search",
@@ -42,7 +42,7 @@
   ],
   "image": {
     "src": "/media/entities/products/osr2-plus.webp",
-    "alt": "OSR2+ / SR6 Open Stroker logo and brand card",
+    "alt": "OSR2+ Open Stroker logo and brand card",
     "source_url": "https://www.patreon.com/tempestvr",
     "license": "brand-kit",
     "nsfw": false

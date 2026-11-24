@@ -1,0 +1,78 @@
+{
+  "slug": "feelmore-adult",
+  "type": "site",
+  "name": "Feelmore Adult Gallery",
+  "url": "https://feelmore510.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Black-owned Oakland & Berkeley sex-positive adult gallery founded by Nenna Joiner—combining body-safe pleasure gear with community wellness.",
+  "tags": [
+    "niche",
+    "education",
+    "store"
+  ],
+  "ranking_rationale": "Trailblazing Black and woman-owned Oakland institution championing inclusive pleasure & art (trade-off: compact independent inventory).",
+  "pricing": {
+    "model": "Independent boutique store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Trailblazing Black and woman-owned Oakland institution championing inclusive pleasure & art",
+    "Vetted body-safe vibrators, harnesses, lubes & indie films",
+    "Warm community-centered curation"
+  ],
+  "cons": [
+    "Compact independent inventory",
+    "Boutique retail pricing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/feelmore-adult.webp",
+    "alt": "Feelmore Adult Gallery logo and brand card",
+    "source_url": "https://feelmore510.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://feelmore510.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Independent boutique store",
+      "source_url": "https://feelmore510.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://feelmore510.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "feelmore510.com",
+      "source_url": "https://feelmore510.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

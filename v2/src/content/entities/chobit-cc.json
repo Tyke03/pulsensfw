@@ -1,0 +1,78 @@
+{
+  "slug": "chobit-cc",
+  "type": "site",
+  "name": "Chobit",
+  "url": "https://chobit.cc",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "DLsite's official free Japanese audio/video preview & indie ASMR circle sampler hub where voice actresses post free R-18/all-ages trial tracks.",
+  "tags": [
+    "erotica",
+    "audio",
+    "free"
+  ],
+  "ranking_rationale": "Official malware-free sampler hub for Japanese binaural ASMR & R-18 voice drama circles (trade-off: hosts extended trial/sample tracks rather than full paid 2-hour commercial works).",
+  "pricing": {
+    "model": "100% free ASMR preview hub",
+    "free_tier": "Completely free listening",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Official malware-free sampler hub for Japanese binaural ASMR & R-18 voice drama circles",
+    "Instant browser waveform & video playback with direct DLsite circle links",
+    "100% free listening"
+  ],
+  "cons": [
+    "Hosts extended trial/sample tracks rather than full paid 2-hour commercial works",
+    "Japanese interface"
+  ],
+  "image": {
+    "src": "/media/entities/sites/chobit-cc.webp",
+    "alt": "Chobit logo and brand card",
+    "source_url": "https://chobit.cc",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://chobit.cc",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free ASMR preview hub",
+      "source_url": "https://chobit.cc",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://chobit.cc",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "chobit.cc",
+      "source_url": "https://chobit.cc",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

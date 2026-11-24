@@ -1,0 +1,78 @@
+{
+  "slug": "bangbus",
+  "type": "site",
+  "name": "BangBus",
+  "url": "https://www.bangbus.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Miami's iconic reality-comedy van studio running since 2000—preserving pop-culture adult history alongside modern 4K episodes.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo"
+  ],
+  "ranking_rationale": "Over 25 years of recognizable Miami reality-comedy adult archives (trade-off: loud prank/reality van formula feels dated in 2026).",
+  "pricing": {
+    "model": "Reality studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Over 25 years of recognizable Miami reality-comedy adult archives",
+    "Unlocks sister BangBros channels depending on tier",
+    "Fast modern streaming player"
+  ],
+  "cons": [
+    "Loud prank/reality van formula feels dated in 2026",
+    "Aggressive trial-to-rebill terms require attention"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bangbus.webp",
+    "alt": "BangBus logo and brand card",
+    "source_url": "https://www.bangbus.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.bangbus.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Reality studio subscription",
+      "source_url": "https://www.bangbus.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bangbus.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bangbus.com",
+      "source_url": "https://www.bangbus.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

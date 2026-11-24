@@ -1,0 +1,79 @@
+{
+  "slug": "true-amateurs",
+  "type": "site",
+  "name": "True Amateurs",
+  "url": "https://www.trueamateurs.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Aylo-backed amateur couples & solo showcase studio filming unscripted real-feeling bedroom encounters in crisp HD/4K.",
+  "tags": [
+    "premium",
+    "studio",
+    "amateur",
+    "couples"
+  ],
+  "ranking_rationale": "Relaxed natural bedroom chemistry without loud gonzo overacting (trade-off: polished studio cameras feel semi-pro rather than raw home video).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Relaxed natural bedroom chemistry without loud gonzo overacting",
+    "Polished modern streaming UI & fast mobile playback",
+    "Frequent weekly updates"
+  ],
+  "cons": [
+    "Polished studio cameras feel semi-pro rather than raw home video",
+    "Standalone pass modest vs network bundles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/true-amateurs.webp",
+    "alt": "True Amateurs logo and brand card",
+    "source_url": "https://www.trueamateurs.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.trueamateurs.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.trueamateurs.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.trueamateurs.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "trueamateurs.com",
+      "source_url": "https://www.trueamateurs.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

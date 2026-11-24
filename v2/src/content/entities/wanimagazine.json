@@ -1,0 +1,78 @@
+{
+  "slug": "wanimagazine",
+  "type": "site",
+  "name": "Wanimagazine",
+  "url": "https://www.wanimagazine.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Tokyo's legendary commercial adult manga publishing house—creators of COMIC Kairakuten, COMIC X-Eros, Bavel, and landmark artist tankobon.",
+  "tags": [
+    "hentai",
+    "manga",
+    "store"
+  ],
+  "ranking_rationale": "The gold-standard prestige publisher of Japanese commercial adult manga art (trade-off: Japanese publisher portal & print/partner checkout).",
+  "pricing": {
+    "model": "Official adult manga publisher",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Books"
+  ],
+  "score": 8.6,
+  "pros": [
+    "The gold-standard prestige publisher of Japanese commercial adult manga art",
+    "Official source for tankobon releases, artist exhibitions & Komiflo/Fakku licensing",
+    "Unmatched roster of superstar adult mangaka (Range Murata, Homunculus, oshioshio peers)"
+  ],
+  "cons": [
+    "Japanese publisher portal & print/partner checkout",
+    "Domestic print editions carry statutory mosaics"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wanimagazine.webp",
+    "alt": "Wanimagazine logo and brand card",
+    "source_url": "https://www.wanimagazine.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.wanimagazine.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Official adult manga publisher",
+      "source_url": "https://www.wanimagazine.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Books",
+      "source_url": "https://www.wanimagazine.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wanimagazine.com",
+      "source_url": "https://www.wanimagazine.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

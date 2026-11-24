@@ -17,7 +17,7 @@
   "ranking_rationale": "Reliable desktop and mobile WebRTC streaming uptime, weighed against aggressive VIP credit deposit upsells.",
   "pricing": {
     "model": "Tokens & credits",
-    "free_tier": "Free public previews",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

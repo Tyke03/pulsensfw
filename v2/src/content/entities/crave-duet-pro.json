@@ -1,0 +1,78 @@
+{
+  "slug": "crave-duet-pro",
+  "type": "product",
+  "name": "CRAVE Duet Pro",
+  "url": "https://lovecrave.com/products/duet-pro",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dual-pronged luxury metal & silicone clitoral vibrator disguised as a sleek USB flash drive—delivering surrounding dual-side vibration.",
+  "tags": [
+    "vibrator",
+    "luxury",
+    "waterproof",
+    "quiet"
+  ],
+  "ranking_rationale": "Twin surrounding arms cradle sensitive external anatomy from both sides simultaneously (trade-off: premium ~$149–$179 luxury build cost).",
+  "pricing": {
+    "model": "Hardware purchase (~$149)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Twin surrounding arms cradle sensitive external anatomy from both sides simultaneously",
+    "Doubles discreetly on a keychain/bag with metallic jewelry finish & USB-port charging",
+    "4 intensities × 4 patterns & waterproof"
+  ],
+  "cons": [
+    "Premium ~$149–$179 luxury build cost",
+    "Compact battery (~1.5 hours)"
+  ],
+  "image": {
+    "src": "/media/entities/products/crave-duet-pro.webp",
+    "alt": "CRAVE Duet Pro logo and brand card",
+    "source_url": "https://lovecrave.com/products/duet-pro",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://lovecrave.com/products/duet-pro",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$149)",
+      "source_url": "https://lovecrave.com/products/duet-pro",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://lovecrave.com/products/duet-pro",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lovecrave.com",
+      "source_url": "https://lovecrave.com/products/duet-pro",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

@@ -17,7 +17,7 @@
   "ranking_rationale": "Massive multi-decade US couples directory; weighed against early-2000s interface & cluttered menus.",
   "pricing": {
     "model": "Membership + VIP",
-    "free_tier": "Free basic account",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

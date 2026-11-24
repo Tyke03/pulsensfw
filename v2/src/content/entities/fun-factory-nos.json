@@ -1,0 +1,80 @@
+{
+  "slug": "fun-factory-nos",
+  "type": "product",
+  "name": "FUN FACTORY NOS",
+  "url": "https://us.funfactory.com/products/nos",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Flexible German-made Bluetooth vibrating couples cock ring engineered with curved dual-contact wings and deep low-frequency rumble.",
+  "tags": [
+    "couples",
+    "app",
+    "waterproof",
+    "luxury"
+  ],
+  "ranking_rationale": "Signature low-pitched German motor avoids numbing high-frequency tickle (trade-off: app UI feels basic compared with Lovense Remote).",
+  "pricing": {
+    "model": "Hardware purchase (~$129)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Signature low-pitched German motor avoids numbing high-frequency tickle",
+    "Soft flexible silicone ring stretches comfortably & pairs with smartphone app",
+    "Waterproof & travel-lock ready"
+  ],
+  "cons": [
+    "App UI feels basic compared with Lovense Remote",
+    "Premium ~$129 ring price"
+  ],
+  "image": {
+    "src": "/media/entities/products/fun-factory-nos.webp",
+    "alt": "FUN FACTORY NOS logo and brand card",
+    "source_url": "https://us.funfactory.com/products/nos",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://us.funfactory.com/products/nos",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$129)",
+      "source_url": "https://us.funfactory.com/products/nos",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone, iOS, Android",
+      "source_url": "https://us.funfactory.com/products/nos",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "us.funfactory.com",
+      "source_url": "https://us.funfactory.com/products/nos",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

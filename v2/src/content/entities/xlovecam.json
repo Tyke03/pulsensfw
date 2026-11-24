@@ -17,7 +17,7 @@
   "ranking_rationale": "Strong European & Latin performer representation; weighed against smaller english/us time-zone peak traffic.",
   "pricing": {
     "model": "Credits & tipping",
-    "free_tier": "Free public preview",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

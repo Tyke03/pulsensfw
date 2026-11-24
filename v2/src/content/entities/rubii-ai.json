@@ -1,0 +1,80 @@
+{
+  "slug": "rubii-ai",
+  "type": "ai_app",
+  "name": "Rubii",
+  "url": "https://rubii.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Anime-focused AI fandom & OC roleplay hub combining interactive character chats, visual stage backgrounds, and LoRA avatar creation.",
+  "tags": [
+    "chat",
+    "character-chat",
+    "roleplay",
+    "image"
+  ],
+  "ranking_rationale": "Polished anime visual-novel stage presentation with character sprites & voice (trade-off: gacha/ruby currency system burns fast on flagship LLM modes).",
+  "pricing": {
+    "model": "Freemium ruby credits",
+    "free_tier": "Free daily allowance",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Polished anime visual-novel stage presentation with character sprites & voice",
+    "Strong OC & anime fandom card community",
+    "Free daily ruby allowance"
+  ],
+  "cons": [
+    "Gacha/ruby currency system burns fast on flagship LLM modes",
+    "Public feed enforces cover-image SFW rules"
+  ],
+  "image": {
+    "src": "/media/entities/ai/rubii-ai.webp",
+    "alt": "Rubii logo and brand card",
+    "source_url": "https://rubii.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://rubii.ai",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium ruby credits",
+      "source_url": "https://rubii.ai",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://rubii.ai",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "rubii.ai",
+      "source_url": "https://rubii.ai",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

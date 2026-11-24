@@ -17,7 +17,7 @@
   "ranking_rationale": "Stable longtime platform since late 1990s; weighed against dated interface styling.",
   "pricing": {
     "model": "Credits & private shows",
-    "free_tier": "Public tease chat free",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

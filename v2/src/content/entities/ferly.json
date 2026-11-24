@@ -16,7 +16,7 @@
   "ranking_rationale": "Refined sensory audio + sex-positive guided intimacy; weighed against subscription needed beyond brief intro stories.",
   "pricing": {
     "model": "Mobile app subscription",
-    "free_tier": "Free starter intro",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

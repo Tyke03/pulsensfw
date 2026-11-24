@@ -17,7 +17,7 @@
   "ranking_rationale": "Smooth dark streaming player + integrated club feed; weighed against smaller broadcaster count than stripchat.",
   "pricing": {
     "model": "Tokens + creator subscriptions",
-    "free_tier": "Public rooms free",
+    "free_tier": null,
     "from_price": null,
     "currency": "USD",
     "plans": [],

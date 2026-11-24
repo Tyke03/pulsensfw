@@ -213,8 +213,9 @@ const entityLabel = topic?.id === 'stars'
                   if (!ft) return false;
                   const tags = e.tags.map((t) => t.toLowerCase());
                   if (tags.includes('free') || tags.includes('tube')) return true;
+                  if (/(teaser|trailer|trial|preview|lobby|account browsing|behind|signup|sign-up|\bbrowse\b|\bbrowsing\b|explorer|profiles|first episodes|opening|demo|storefront|paywall|sample)/i.test(ft)) return false;
                   if (/^(free (unlimited|reading|stream|public|gallery|search|community|random|posting|archive|open|to read)|completely free|100% free|full .*free|unlimited .*free|large free)/i.test(ft)) return true;
-                  return !/(teaser|trailer|trial|preview|account browsing|behind|signup|sign-up|\bbrowse\b|\bbrowsing\b|explorer|profiles|first episodes|demo|storefront|paywall|sample)/i.test(ft);
+                  return true;
                 }).length}</dd></div>
               </>
             )}
@@ -357,7 +358,7 @@ const entityLabel = topic?.id === 'stars'
                   <span class="ai-lb-rank">#{idx + 1}</span>
                   <span class="ai-lb-main">
                     <strong>{item.title}</strong>
-                    <span class="meta">{item.meta} · {item.pricing.free_tier ? 'Free tier available' : item.pricing.model}</span>
+                    <span class="meta">{item.meta} · {/^(100% free|completely free|free open)/i.test(item.pricing.free_tier ?? '') ? item.pricing.free_tier : item.pricing.free_tier ? 'Free tier available' : item.pricing.model}</span>
                   </span>
                   <span class="ai-lb-tags">
                     {item.tags.slice(0, 3).map((tag) => <span class="c-chip">{tag}</span>)}

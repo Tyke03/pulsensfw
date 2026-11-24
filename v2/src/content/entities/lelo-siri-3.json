@@ -1,0 +1,78 @@
+{
+  "slug": "lelo-siri-3",
+  "type": "product",
+  "name": "LELO SIRI 3",
+  "url": "https://www.lelo.com/siri-3",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Sound-responsive palm-sized luxury silicone external vibrator capable of pulsing dynamically to ambient room music or partner voice.",
+  "tags": [
+    "vibrator",
+    "quiet",
+    "waterproof",
+    "luxury"
+  ],
+  "ranking_rationale": "Ergonomic sculpted pebble fits naturally in the palm with plush velvety silicone (trade-off: sound-reactive mic mode is a fun novelty rather than core workhorse).",
+  "pricing": {
+    "model": "Hardware purchase (~$149)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Ergonomic sculpted pebble fits naturally in the palm with plush velvety silicone",
+    "Built-in acoustic mic mode pulses along to music or voice alongside 8 steady modes",
+    "IPX7 waterproof & USB rechargeable"
+  ],
+  "cons": [
+    "Sound-reactive mic mode is a fun novelty rather than core workhorse",
+    "Premium ~$149 bullet/palm price"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-siri-3.webp",
+    "alt": "LELO SIRI 3 logo and brand card",
+    "source_url": "https://www.lelo.com/siri-3",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lelo.com/siri-3",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$149)",
+      "source_url": "https://www.lelo.com/siri-3",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.lelo.com/siri-3",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lelo.com",
+      "source_url": "https://www.lelo.com/siri-3",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "we-live-together",
+  "type": "site",
+  "name": "We Live Together",
+  "url": "https://www.welivetogether.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Reality-diary style all-girl flagship series from Girlsway/Reality Kings chronicling affectionate female roommates across hundreds of episodes.",
+  "tags": [
+    "premium",
+    "studio",
+    "lesbian",
+    "couples"
+  ],
+  "ranking_rationale": "Relaxed affectionate roommate chemistry without harsh studio artificiality, weighed against older early-series episodes stream in 720p/1080p.",
+  "pricing": {
+    "model": "All-girl studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Relaxed affectionate roommate chemistry without harsh studio artificiality",
+    "Massive multi-hundred-episode archive featuring top stars",
+    "Smooth modern streaming"
+  ],
+  "cons": [
+    "Older early-series episodes stream in 720p/1080p",
+    "Best bundled via Reality Kings or Girlsway"
+  ],
+  "image": {
+    "src": "/media/entities/sites/we-live-together.webp",
+    "alt": "We Live Together logo and brand card",
+    "source_url": "https://www.welivetogether.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.welivetogether.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "All-girl studio pass",
+      "source_url": "https://www.welivetogether.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.welivetogether.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "welivetogether.com",
+      "source_url": "https://www.welivetogether.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

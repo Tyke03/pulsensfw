@@ -1,0 +1,79 @@
+{
+  "slug": "hookup-hotshot",
+  "type": "site",
+  "name": "Hookup Hotshot",
+  "url": "https://hookuphotshot.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Multiple-AVN-winning Los Angeles high-energy gonzo studio directed by Bryan Gozzling—filming crisp 4K auditions with breakout talent.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo",
+    "4k"
+  ],
+  "ranking_rationale": "Consistent AVN award winner known for discovering breakout newcomers first (trade-off: intense rough gonzo tone isn't aimed at romantic couples).",
+  "pricing": {
+    "model": "Gonzo studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Consistent AVN award winner known for discovering breakout newcomers first",
+    "Razor-sharp 4K studio lighting & high-energy performances",
+    "Included inside Evil Angel passes"
+  ],
+  "cons": [
+    "Intense rough gonzo tone isn't aimed at romantic couples",
+    "Minimalist studio-couch staging"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hookup-hotshot.webp",
+    "alt": "Hookup Hotshot logo and brand card",
+    "source_url": "https://hookuphotshot.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://hookuphotshot.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Gonzo studio subscription",
+      "source_url": "https://hookuphotshot.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hookuphotshot.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hookuphotshot.com",
+      "source_url": "https://hookuphotshot.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

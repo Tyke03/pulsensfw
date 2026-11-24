@@ -1,0 +1,78 @@
+{
+  "slug": "lethal-hardcore",
+  "type": "site",
+  "name": "Lethal Hardcore",
+  "url": "https://www.lethalhardcore.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Stoney Curtis's long-running American gonzo studio housing 25+ years of unscripted star showcases, squirt, and interracial series.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo"
+  ],
+  "ranking_rationale": "Massive multi-thousand-scene American gonzo vault dating back to the late 1990s (trade-off: raw camcorder gonzo aesthetic with zero cinema polish).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Massive multi-thousand-scene American gonzo vault dating back to the late 1990s",
+    "Frequent multi-scene DVD uploads",
+    "Simple fast member downloads"
+  ],
+  "cons": [
+    "Raw camcorder gonzo aesthetic with zero cinema polish",
+    "Classic early-2000s portal layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/lethal-hardcore.webp",
+    "alt": "Lethal Hardcore logo and brand card",
+    "source_url": "https://www.lethalhardcore.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.lethalhardcore.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.lethalhardcore.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.lethalhardcore.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lethalhardcore.com",
+      "source_url": "https://www.lethalhardcore.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}
