@@ -40,7 +40,13 @@
     "Per-studio pricing maze: subscriptions do not cover everything",
     "Site-level price unverified at check time"
   ],
-  "image": null,
+  "image": {
+    "src": "/media/entities/sites/sexlike-real.png",
+    "alt": "SexLikeReal logo and brand card",
+    "source_url": "https://www.sexlikereal.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Library scale",

@@ -28,7 +28,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/jennifer-white.jpg",
+    "alt": "Portrait of Jennifer White",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jennifer_White_at_AVN_Awards_2016_(cropped).jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Adult verification",

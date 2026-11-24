@@ -84,7 +84,7 @@ const entityLabel = topic?.id === 'stars'
       {entities.length > 0 && (
         <section class="hub-row" aria-labelledby="entity-hub">
           <h2 id="entity-hub">{filter ? topic.subtopics.find((sub) => sub.id === filter)?.label ?? entityLabel : entityLabel}</h2>
-          <div class="profile-grid">
+          <div class:list={['profile-grid', topic.id !== 'stars' && 'profile-grid--brand']}>
             {entities.map((card) => <EntityCard card={card} uid={`hub-ent-${card.id}`} />)}
           </div>
         </section>

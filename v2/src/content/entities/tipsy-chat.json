@@ -39,9 +39,9 @@
     "Community-reported: gem metering continues after paying, incl. a live gem-billing bug ($20 charged ~$54)"
   ],
   "image": {
-    "src": "/media/categories/ai/cover.png",
-    "alt": "PulseNSFW AI category cover used as the default app image",
-    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "src": "/media/entities/ai/tipsy-chat.png",
+    "alt": "Tipsy Chat logo and brand card",
+    "source_url": "https://tipsy.chat",
     "license": "brand-kit",
     "nsfw": false
   },

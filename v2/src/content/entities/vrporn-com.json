@@ -39,7 +39,13 @@
     "It is a hub: the actual memberships are the partner studios it links to",
     "Site-level pricing is spread across partners"
   ],
-  "image": null,
+  "image": {
+    "src": "/media/entities/sites/vrporn-com.png",
+    "alt": "VRPorn.com logo and brand card",
+    "source_url": "https://vrporn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "History",

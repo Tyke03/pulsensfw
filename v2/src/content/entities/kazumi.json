@@ -28,7 +28,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/kazumi.png",
+    "alt": "Kazumi editorial profile card",
+    "source_url": "https://www.xbiz.com/news/294055/violet-myers-nabs-2-xmas-noms",
+    "license": "brand-kit",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Hosting",

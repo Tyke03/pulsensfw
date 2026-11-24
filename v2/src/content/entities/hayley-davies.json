@@ -29,7 +29,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/hayley-davies.png",
+    "alt": "Hayley Davies editorial profile card",
+    "source_url": "https://grokipedia.com/page/Hayley_Davies",
+    "license": "brand-kit",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Birth date",

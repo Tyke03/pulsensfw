@@ -28,7 +28,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/octavia-red.jpg",
+    "alt": "Portrait of Octavia Red",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Octavia_Red.png",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Adult verification",

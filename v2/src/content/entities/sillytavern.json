@@ -41,9 +41,9 @@
     "Heavy agentic or long-context API use can get expensive quickly"
   ],
   "image": {
-    "src": "/media/categories/ai/cover.png",
-    "alt": "PulseNSFW AI category cover used as the default app image",
-    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "src": "/media/entities/ai/sillytavern.png",
+    "alt": "SillyTavern logo and brand card",
+    "source_url": "https://sillytavern.app",
     "license": "brand-kit",
     "nsfw": false
   },

@@ -31,7 +31,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/leana-lovings.png",
+    "alt": "Leana Lovings editorial profile card",
+    "source_url": "https://www.imdb.com/name/nm12941130/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Adult verification",

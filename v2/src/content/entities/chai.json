@@ -53,9 +53,9 @@
     "Cancellation dark-pattern reports (retention screens, low-contrast continue control)"
   ],
   "image": {
-    "src": "/media/categories/ai/cover.png",
-    "alt": "PulseNSFW AI category cover used as the default app image",
-    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "src": "/media/entities/ai/chai.png",
+    "alt": "CHAI logo and brand card",
+    "source_url": "https://www.chai-research.com",
     "license": "brand-kit",
     "nsfw": false
   },

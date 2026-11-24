@@ -41,10 +41,10 @@
     "Payment and privacy friction"
   ],
   "image": {
-    "src": "/media/categories/sites/cover.svg",
-    "alt": "PulseNSFW Sites category cover used as the default image",
-    "source_url": "https://pulsensfw.com/media/categories/sites/cover.svg",
-    "license": "own-art",
+    "src": "/media/entities/sites/pornhub.png",
+    "alt": "Pornhub logo and brand card",
+    "source_url": "https://www.pornhub.com",
+    "license": "brand-kit",
     "nsfw": false
   },
   "facts": [

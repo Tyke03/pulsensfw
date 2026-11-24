@@ -50,9 +50,9 @@
     "Community-reported instability: dropped sessions and lost context"
   ],
   "image": {
-    "src": "/media/categories/ai/cover.png",
-    "alt": "PulseNSFW AI category cover used as the default app image",
-    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "src": "/media/entities/ai/chub-ai.png",
+    "alt": "Chub AI logo and brand card",
+    "source_url": "https://chub.ai",
     "license": "brand-kit",
     "nsfw": false
   },

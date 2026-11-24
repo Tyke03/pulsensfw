@@ -28,7 +28,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/violet-myers.jpg",
+    "alt": "Portrait of Violet Myers",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Violet_Myers_(hru,_2022,_23minB).jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "2026 XMAs",

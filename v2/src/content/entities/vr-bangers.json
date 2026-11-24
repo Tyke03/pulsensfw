@@ -38,7 +38,13 @@
     "Price not published outside checkout",
     "Smaller library than aggregator sites by design"
   ],
-  "image": null,
+  "image": {
+    "src": "/media/entities/sites/vr-bangers.png",
+    "alt": "VR Bangers logo and brand card",
+    "source_url": "https://vrbangers.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Offering",

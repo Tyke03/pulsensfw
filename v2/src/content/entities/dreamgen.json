@@ -52,9 +52,9 @@
     "No fan-support record yet in community surveys - placed on trust merits alone"
   ],
   "image": {
-    "src": "/media/categories/ai/cover.png",
-    "alt": "PulseNSFW AI category cover used as the default app image",
-    "source_url": "https://pulsensfw.com/media/categories/ai/cover.png",
+    "src": "/media/entities/ai/dreamgen.png",
+    "alt": "DreamGen logo and brand card",
+    "source_url": "https://dreamgen.com",
     "license": "brand-kit",
     "nsfw": false
   },

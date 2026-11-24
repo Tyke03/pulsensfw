@@ -29,7 +29,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/brittany-andrews.jpg",
+    "alt": "Portrait of Brittany Andrews",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brittany_Andrews_2010_(cropped).jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Adult verification",

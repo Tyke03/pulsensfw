@@ -40,7 +40,13 @@
     "Price behind an age gate, not verified here",
     "Trial auto-renews at a higher rate (two independent sources report this)"
   ],
-  "image": null,
+  "image": {
+    "src": "/media/entities/sites/brazzers.png",
+    "alt": "Brazzers logo and brand card",
+    "source_url": "https://www.brazzers.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Offering",

@@ -28,7 +28,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/lauren-phillips.jpg",
+    "alt": "Portrait of Lauren Phillips",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lauren_Phillips_at_AVN_Adult_Entertainment_Expo_2016_(25545781992).jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Adult verification",

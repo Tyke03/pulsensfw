@@ -48,6 +48,23 @@ function asDate(value: Date | string): Date {
   return value instanceof Date ? value : new Date(value);
 }
 
+function formatCardMeta(entity: Entity): string {
+  if (entity.platforms.length === 0) return pricingSummary(entity.pricing);
+  const cleaned = entity.platforms
+    .map((entry) => {
+      const trimmed = entry.trim();
+      if (/not verified/i.test(trimmed)) return '';
+      return trimmed.replace(/\s*[—–-]\s*https?:\/\/\S+/gi, '').trim();
+    })
+    .filter(Boolean);
+  const unique = [...new Set(cleaned)];
+  if (unique.length > 0) return unique.join(' · ');
+  if (entity.type === 'star') {
+    return entity.tags.includes('creator') ? 'Independent creator' : 'Verified performer profile';
+  }
+  return pricingSummary(entity.pricing);
+}
+
 export function presentEntity(entity: Entity, reader: ReaderMode): EntityCard {
   const topic = entityTopic(entity.type);
   const kind = entityKind(entity.type);
@@ -61,7 +78,7 @@ export function presentEntity(entity: Entity, reader: ReaderMode): EntityCard {
     dek: entity.summary,
     topic,
     kicker: ENTITY_LABEL[entity.type],
-    meta: entity.platforms.length > 0 ? entity.platforms.join(' · ') : pricingSummary(entity.pricing),
+    meta: formatCardMeta(entity),
     tags: entity.tags,
     media: presentImage(entityToRawImage(entity), topic, `entity:${entity.type}:${entity.slug}`, reader),
     explicitMedia: [],
@@ -252,10 +269,14 @@ export function matchesSubtopicFilter(tags: readonly string[], filter: string): 
   return lowered.some((tag) => aliases.some((alias) => tag === alias || tag.includes(alias)));
 }
 
+export function hasRealPortrait(card: EntityCard): boolean {
+  return Boolean(card.image?.src) && card.image?.license !== 'brand-kit';
+}
+
 export function entitiesForTopic(catalog: Catalog, topic: TopicId, filter: string | null, reader: ReaderMode): EntityCard[] {
   const type = TOPIC_TYPE[topic];
   if (!type) return [];
-  return presentCatalog(catalog, reader).filter((card) => {
+  const items = presentCatalog(catalog, reader).filter((card) => {
     // Topic-based so sibling types (ai_app + frontend) share one section,
     // and VR sites surface under the VR & Games hub as well as Sites.
     const belongs = entityTopic(card.type) === topic || (topic === 'vr' && card.type === 'site' && card.tags.some((tag) => tag.toLowerCase() === 'vr'));
@@ -263,10 +284,15 @@ export function entitiesForTopic(catalog: Catalog, topic: TopicId, filter: strin
     if (!filter) return true;
     return matchesSubtopicFilter(card.tags, filter);
   });
+  if (topic === 'stars') return items.sort(creatorsFirst);
+  return items.sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title));
 }
 
-/** Stars page mix: creators (OnlyFans/X-style) first, then award-circuit performers; recency within each group. */
+/** Stars page mix: real photographs first, then creators (OnlyFans/X-style), then award-circuit performers; recency within each group. */
 function creatorsFirst(a: EntityCard, b: EntityCard): number {
+  const ap = hasRealPortrait(a) ? 0 : 1;
+  const bp = hasRealPortrait(b) ? 0 : 1;
+  if (ap !== bp) return ap - bp;
   const ac = a.tags.includes('creator') ? 0 : 1;
   const bc = b.tags.includes('creator') ? 0 : 1;
   return ac - bc || b.updated.localeCompare(a.updated);
@@ -274,15 +300,16 @@ function creatorsFirst(a: EntityCard, b: EntityCard): number {
 
 export function risingStars(catalog: Catalog, reader: ReaderMode): EntityCard[] {
   const stars = presentCatalog(catalog, reader).filter((card) => card.type === 'star');
-  const tagged = stars.filter((card) => card.tags.includes('rising'));
-  return (tagged.length > 0 ? tagged : stars).sort(creatorsFirst);
+  const tagged = stars.filter((card) => card.tags.includes('rising') || card.tags.includes('2026 xma') || card.tags.includes('creator'));
+  const pool = tagged.length >= 4 ? tagged : stars;
+  return pool.sort(creatorsFirst).slice(0, 8);
 }
 
 export function trendingStars(catalog: Catalog, reader: ReaderMode): EntityCard[] {
   const stars = presentCatalog(catalog, reader).filter((card) => card.type === 'star');
   const scored = stars.filter((card) => card.score !== null);
-  if (scored.length === 0) return stars.slice(0, 8).sort(creatorsFirst);
-  return scored.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+  if (scored.length === 0) return stars.sort(creatorsFirst).slice(0, 8);
+  return scored.sort((a, b) => Number(hasRealPortrait(b)) - Number(hasRealPortrait(a)) || (b.score ?? 0) - (a.score ?? 0));
 }
 
 export function byDateDesc(a: RawArticle, b: RawArticle): number {

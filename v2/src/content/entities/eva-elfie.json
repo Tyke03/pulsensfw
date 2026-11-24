@@ -29,7 +29,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/eva-elfie.jpg",
+    "alt": "Portrait of Eva Elfie",
+    "source_url": "https://commons.wikimedia.org/wiki/File:IMG-20260803-WA0010_Eva_Elfie.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Identity",

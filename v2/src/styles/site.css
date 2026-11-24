@@ -1378,3 +1378,106 @@ form[data-search-live] { position: relative; }
   padding-top: 12px;
   border-top: 1px solid var(--line);
 }
+
+/* ---- Visual & Media Upgrade Pass: aspect ratios, entity score badges, card hover polish ---- */
+.profile-media-wrap {
+  position: relative;
+}
+.profile-card--star .media {
+  aspect-ratio: 4 / 5;
+}
+.profile-card--brand .media {
+  aspect-ratio: 16 / 10;
+}
+.profile-scroller .profile-card--brand {
+  width: 280px;
+}
+.profile-grid--brand {
+  grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
+  gap: 16px;
+}
+.entity-data-media .media {
+  aspect-ratio: 16 / 10;
+}
+.profile-score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  height: 30px;
+  padding: 0 9px;
+  border-radius: var(--r-pill);
+  background: rgba(16, 12, 20, 0.86);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--line-strong);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+.profile-score b {
+  font-family: var(--font-display);
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+.profile-score--great {
+  color: #ff7eb6;
+  border-color: rgba(255, 79, 154, 0.65);
+  box-shadow: 0 0 14px rgba(255, 79, 154, 0.28), 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+.profile-score--good {
+  color: var(--cyan);
+  border-color: rgba(92, 242, 238, 0.55);
+  box-shadow: 0 0 12px rgba(92, 242, 238, 0.22), 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+.profile-score--mid {
+  color: var(--gold);
+  border-color: rgba(246, 198, 92, 0.55);
+}
+.profile-score--low {
+  color: var(--text-soft);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.profile-card,
+.card--standard,
+.card--feature,
+.card--text,
+.topic-tile,
+.list-entries a {
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.profile-card .media > img,
+.card .media > img,
+.topic-tile--art > img {
+  transition: transform 0.35s ease;
+}
+.profile-card:hover,
+.card--standard:hover,
+.card--feature:hover,
+.card--text:hover,
+.list-entries a:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--magenta) 52%, var(--line));
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.38), 0 0 0 1px rgba(255, 79, 154, 0.14);
+}
+.profile-card:hover .media > img,
+.card:hover .media > img {
+  transform: scale(1.03);
+}
+.topic-tile--art .kicker {
+  position: relative;
+  z-index: 1;
+}
+.topic-tile--art:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--tile, var(--magenta)) 68%, var(--line));
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.42);
+}
+.topic-tile--art:hover > img {
+  transform: scale(1.05);
+}

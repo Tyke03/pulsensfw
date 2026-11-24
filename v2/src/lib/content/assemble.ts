@@ -1,4 +1,4 @@
-import { byDateDesc, entitiesForTopic, presentArticle, presentCatalog, presentDeal } from './present';
+import { byDateDesc, entitiesForTopic, hasRealPortrait, presentArticle, presentCatalog, presentDeal } from './present';
 import type {
   ArticleCard,
   Catalog,
@@ -20,6 +20,7 @@ export type HomeModel = {
   deals: DealCard[];
   rising: EntityCard[];
   trendingStars: EntityCard[];
+  aiApps: EntityCard[];
   sites: EntityCard[];
 };
 
@@ -66,9 +67,22 @@ export function assembleHome(
     rails,
     topics: populatedTopics.length > 0 ? populatedTopics : topics,
     deals: deals.map((deal) => presentDeal(deal, reader)),
-    rising: entities.filter((card) => card.type === 'star' && card.tags.includes('rising')).slice(0, 8),
-    trendingStars: entities.filter((card) => card.type === 'star').sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 8),
-    sites: entities.filter((card) => card.type === 'site').slice(0, 8),
+    rising: entities
+      .filter((card) => card.type === 'star' && card.tags.includes('rising'))
+      .sort((a, b) => Number(hasRealPortrait(b)) - Number(hasRealPortrait(a)) || b.updated.localeCompare(a.updated))
+      .slice(0, 8),
+    trendingStars: entities
+      .filter((card) => card.type === 'star')
+      .sort((a, b) => Number(hasRealPortrait(b)) - Number(hasRealPortrait(a)) || (b.score ?? 0) - (a.score ?? 0) || b.updated.localeCompare(a.updated))
+      .slice(0, 10),
+    aiApps: entities
+      .filter((card) => card.type === 'ai_app' || card.type === 'frontend')
+      .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title))
+      .slice(0, 10),
+    sites: entities
+      .filter((card) => card.type === 'site')
+      .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title))
+      .slice(0, 8),
   };
 }
 

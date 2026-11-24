@@ -29,7 +29,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/sophie-rain.jpg",
+    "alt": "Portrait of Sophie Rain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Image_Sophie_Rain.jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Identity",

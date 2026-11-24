@@ -27,7 +27,13 @@
   "score": null,
   "pros": [],
   "cons": [],
-  "image": null,
+  "image": {
+    "src": "/media/entities/stars/eva-lovia.jpg",
+    "alt": "Portrait of Eva Lovia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eva_Lovia_Exxxotica_NJ_2014,_cropped.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
   "facts": [
     {
       "key": "Company record",

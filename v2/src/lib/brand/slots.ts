@@ -7,8 +7,8 @@ import type { TopicId } from '../content/types';
  * an article or entity has no picture of its own.
  */
 export const CATEGORY_ART: Record<TopicId, { hero: string; cover: string }> = {
-  stars: { hero: '/media/categories/stars/hero.svg', cover: '/media/categories/stars/cover.svg' },
-  sites: { hero: '/media/categories/sites/hero.svg', cover: '/media/categories/sites/cover.svg' },
+  stars: { hero: '/media/categories/stars/hero.png', cover: '/media/categories/stars/cover.png' },
+  sites: { hero: '/media/categories/sites/hero.png', cover: '/media/categories/sites/cover.png' },
   ai: { hero: '/media/categories/ai/hero.png', cover: '/media/categories/ai/cover.png' },
   toys: { hero: '/media/categories/toys/hero.png', cover: '/media/categories/toys/cover.png' },
   vr: { hero: '/media/categories/vr/hero.png', cover: '/media/categories/vr/cover.png' },
