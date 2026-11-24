@@ -1,0 +1,78 @@
+{
+  "slug": "luckycrush",
+  "type": "site",
+  "name": "LuckyCrush",
+  "url": "https://www.luckycrush.live",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Paid 1-on-1 gender-matched video chat roulette pairing real-time translation so matches work across languages.",
+  "tags": [
+    "cams",
+    "live",
+    "roulette"
+  ],
+  "ranking_rationale": "Guaranteed 1-on-1 matching with live translation; weighed against per-minute credits burn quickly.",
+  "pricing": {
+    "model": "Paid minutes (for men; free for women)",
+    "free_tier": "Free account creation",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Guaranteed 1-on-1 matching with live translation",
+    "Private instant cam-to-cam feel",
+    "No bot spam inside matched calls"
+  ],
+  "cons": [
+    "Per-minute credits burn quickly",
+    "Strict gender balance queues during peaks"
+  ],
+  "image": {
+    "src": "/media/entities/sites/luckycrush.webp",
+    "alt": "LuckyCrush logo and brand card",
+    "source_url": "https://www.luckycrush.live",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.luckycrush.live",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid minutes (for men; free for women)",
+      "source_url": "https://www.luckycrush.live",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.luckycrush.live",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "luckycrush.live",
+      "source_url": "https://www.luckycrush.live",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

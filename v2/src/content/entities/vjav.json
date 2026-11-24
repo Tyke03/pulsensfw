@@ -1,0 +1,78 @@
+{
+  "slug": "vjav",
+  "type": "site",
+  "name": "VJAV",
+  "url": "https://www.vjav.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Large free Japanese and Asian adult tube indexing long-form studio releases, studio codes, and uncensored niches.",
+  "tags": [
+    "tube",
+    "jav",
+    "niche"
+  ],
+  "ranking_rationale": "Deep catalog of classic and new Asian/JAV scenes; weighed against pop-unders on first player click.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Deep catalog of classic and new Asian/JAV scenes",
+    "Supports code and idol tags cleanly",
+    "Smooth multi-minute buffering"
+  ],
+  "cons": [
+    "Pop-unders on first player click",
+    "Occasional broken older mirrors"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vjav.webp",
+    "alt": "VJAV logo and brand card",
+    "source_url": "https://www.vjav.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.vjav.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.vjav.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.vjav.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vjav.com",
+      "source_url": "https://www.vjav.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

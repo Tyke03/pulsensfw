@@ -1,0 +1,56 @@
+{
+  "slug": "monica-mayhem",
+  "type": "star",
+  "name": "Monica Mayhem",
+  "url": "https://en.wikipedia.org/wiki/Monica_Mayhem",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Monica Mayhem is an Australian former pornographic actress, dancer and singer.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/monica-mayhem.jpg",
+    "alt": "SFW portrait of Monica Mayhem",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Monica_Mayhem,_February_2007.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Brisbane, Queensland, Australia",
+      "source_url": "https://en.wikipedia.org/wiki/Monica_Mayhem",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Monica Mayhem",
+      "source_url": "https://en.wikipedia.org/wiki/Monica_Mayhem",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "dorcelclub",
+  "type": "site",
+  "name": "DorcelClub",
+  "url": "https://www.dorcelclub.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "France's legendary Marc Dorcel streaming house—mixing chic European feature films, luxury mansions, and big casts.",
+  "tags": [
+    "premium",
+    "studio",
+    "european",
+    "4k"
+  ],
+  "ranking_rationale": "Feature-length European luxury features and glamour; weighed against multi-language audio mixes on older titles.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Feature-length European luxury features and glamour",
+    "Huge multi-decade vault alongside 4K hits",
+    "Authentic French/European stars"
+  ],
+  "cons": [
+    "Multi-language audio mixes on older titles",
+    "Pacing leans cinematic over instant action"
+  ],
+  "image": {
+    "src": "/media/entities/sites/dorcelclub.webp",
+    "alt": "DorcelClub logo and brand card",
+    "source_url": "https://www.dorcelclub.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.dorcelclub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.dorcelclub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.dorcelclub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dorcelclub.com",
+      "source_url": "https://www.dorcelclub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

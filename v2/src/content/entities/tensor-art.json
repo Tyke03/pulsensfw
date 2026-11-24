@@ -10,10 +10,10 @@
   ],
   "summary": "Browser-based cloud Stable Diffusion & Flux model host offering daily free credits, Comfy/WebUI pipelines, and LoRA hosting.",
   "tags": [
-    "nsfw",
     "image",
     "image generation",
-    "models"
+    "models",
+    "nsfw"
   ],
   "ranking_rationale": "Generous daily free credits test checkpoints before paying; weighed against stricter content guardrails on certain realistic nsfw tags vs local.",
   "pricing": {

@@ -8,10 +8,10 @@
   "monetization_methods": [],
   "summary": "Storytelling and co-writing platform with a strong lorebook system, image generation, and uncensored text models (Xialong, Krake, Llama 3 Erato). More writing desk than companion — watchlist.",
   "tags": [
-    "nsfw",
     "storytelling",
     "co-writing",
-    "lorebook"
+    "lorebook",
+    "nsfw"
   ],
   "ranking_rationale": "Watchlist, not the top 10: it is a writing/co-writing tool rather than a companion product, and there is no companion-facing free tier. Priced first-party on the official docs, so it still gets a full record.",
   "pricing": {
@@ -44,7 +44,7 @@
   "platforms": [
     "Web"
   ],
-  "score": null,
+  "score": 8.5,
   "pros": [
     "Lorebook + module system gives explicit world-memory control",
     "Opus: 28,672-token context documented",

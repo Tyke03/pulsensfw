@@ -1,0 +1,79 @@
+{
+  "slug": "grooby",
+  "type": "site",
+  "name": "Grooby",
+  "url": "https://www.grooby.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The pioneering independent trans adult network (TGirls.porn, Black-TGirls, GroobyGirls) spanning 25+ years of creator ownership.",
+  "tags": [
+    "premium",
+    "studio",
+    "trans",
+    "network"
+  ],
+  "ranking_rationale": "Enormous respectful independent archive since 1996; weighed against older site architecture.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Enormous respectful independent archive since 1996",
+    "Multi-network VIP pass covers dozens of niches",
+    "Strong photography + full scenes"
+  ],
+  "cons": [
+    "Older site architecture",
+    "Video resolution varies on 2000s vaults"
+  ],
+  "image": {
+    "src": "/media/entities/sites/grooby.webp",
+    "alt": "Grooby logo and brand card",
+    "source_url": "https://www.grooby.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.grooby.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.grooby.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.grooby.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "grooby.com",
+      "source_url": "https://www.grooby.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

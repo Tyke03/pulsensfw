@@ -1,0 +1,78 @@
+{
+  "slug": "streamray",
+  "type": "site",
+  "name": "Streamray",
+  "url": "https://www.streamray.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "White-label private show backbone running dozens of affiliate portals alongside Cams.com with stable HD video.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows"
+  ],
+  "ranking_rationale": "Consistent multi-region streaming CDN; weighed against aggressive banner promos across partner domains.",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": "Free lobby preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Consistent multi-region streaming CDN",
+    "Deep white-label model pool",
+    "Cam2Cam support"
+  ],
+  "cons": [
+    "Aggressive banner promos across partner domains",
+    "Very few open free shows"
+  ],
+  "image": {
+    "src": "/media/entities/sites/streamray.webp",
+    "alt": "Streamray logo and brand card",
+    "source_url": "https://www.streamray.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.streamray.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.streamray.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.streamray.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "streamray.com",
+      "source_url": "https://www.streamray.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

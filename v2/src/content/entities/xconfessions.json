@@ -1,0 +1,79 @@
+{
+  "slug": "xconfessions",
+  "type": "site",
+  "name": "XConfessions",
+  "url": "https://xconfessions.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Erika Lust's Barcelona indie cinema house turning reader-submitted fantasies into genuinely artistic, ethical short films.",
+  "tags": [
+    "premium",
+    "studio",
+    "story",
+    "couples"
+  ],
+  "ranking_rationale": "Genuine arthouse filmmaking, wardrobe, and ethical cred; weighed against short film format prioritizes art over huge weekly volume.",
+  "pricing": {
+    "model": "Indie cinema subscription / VOD",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Genuine arthouse filmmaking, wardrobe, and ethical cred",
+    "Diverse body types, queer stories, and real chemistry",
+    "Zero degrading porn tropes"
+  ],
+  "cons": [
+    "Short film format prioritizes art over huge weekly volume",
+    "Higher indie subscription fee"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xconfessions.webp",
+    "alt": "XConfessions logo and brand card",
+    "source_url": "https://xconfessions.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://xconfessions.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Indie cinema subscription / VOD",
+      "source_url": "https://xconfessions.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://xconfessions.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xconfessions.com",
+      "source_url": "https://xconfessions.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

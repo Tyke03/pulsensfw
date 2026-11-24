@@ -1,0 +1,79 @@
+{
+  "slug": "tushyraw",
+  "type": "site",
+  "name": "Tushy Raw",
+  "url": "https://www.tushyraw.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Greg Lansky's stripped-back gonzo imprint—combining Vixen-grade 4K clarity with unscripted raw camera presence.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo",
+    "4k"
+  ],
+  "ranking_rationale": "4K crystal clarity without glossy script filler; weighed against narrow single-act specialization.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "4K crystal clarity without glossy script filler",
+    "Zero over-produced slow-mo fluff",
+    "Unlocks cleanly under Vixen Network passes"
+  ],
+  "cons": [
+    "Narrow single-act specialization",
+    "Standalone pass costs nearly as much as bundles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tushyraw.webp",
+    "alt": "Tushy Raw logo and brand card",
+    "source_url": "https://www.tushyraw.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.tushyraw.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.tushyraw.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tushyraw.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tushyraw.com",
+      "source_url": "https://www.tushyraw.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

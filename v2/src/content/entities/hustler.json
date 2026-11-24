@@ -1,0 +1,78 @@
+{
+  "slug": "hustler",
+  "type": "site",
+  "name": "Hustler VIP",
+  "url": "https://www.hustler.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Larry Flynt's flagship digital network uniting Hustler Video, Beaver Hunt, Barely Legal, and glossy pictorial archives.",
+  "tags": [
+    "premium",
+    "studio",
+    "network"
+  ],
+  "ranking_rationale": "Large multi-brand network included in VIP pass; weighed against aging visual ui.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Large multi-brand network included in VIP pass",
+    "Long-running institutional catalog",
+    "Uncut magazine + hardcore scenes"
+  ],
+  "cons": [
+    "Aging visual UI",
+    "Cross-sell banners inside members portal"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hustler.webp",
+    "alt": "Hustler VIP logo and brand card",
+    "source_url": "https://www.hustler.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.hustler.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.hustler.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.hustler.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hustler.com",
+      "source_url": "https://www.hustler.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "vivid",
+  "type": "site",
+  "name": "Vivid",
+  "url": "https://www.vivid.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic Hollywood adult studio housing decades of Vivid Girl classics, parody features, and modern releases.",
+  "tags": [
+    "premium",
+    "studio",
+    "classic"
+  ],
+  "ranking_rationale": "Unbeatable 1990s–2010s Vivid Girl feature archive; weighed against slower modern 4k output compared to vmg/adult time.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Unbeatable 1990s–2010s Vivid Girl feature archive",
+    "Celebrated celebrity-era star roster",
+    "Single portal streaming"
+  ],
+  "cons": [
+    "Slower modern 4K output compared to VMG/Adult Time",
+    "Older video encodes on 90s Vault"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vivid.webp",
+    "alt": "Vivid logo and brand card",
+    "source_url": "https://www.vivid.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.vivid.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.vivid.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.vivid.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vivid.com",
+      "source_url": "https://www.vivid.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

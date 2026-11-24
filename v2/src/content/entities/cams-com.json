@@ -1,0 +1,78 @@
+{
+  "slug": "cams-com",
+  "type": "site",
+  "name": "Cams.com",
+  "url": "https://www.cams.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran FriendFinder cam network offering multilingual chat rooms, private shows, and Cam2Cam streams.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows"
+  ],
+  "ranking_rationale": "Stable longtime platform since late 1990s; weighed against dated interface styling.",
+  "pricing": {
+    "model": "Credits & private shows",
+    "free_tier": "Public tease chat free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Stable longtime platform since late 1990s",
+    "Solid category sorting and member club discounts",
+    "Works reliably on older browsers"
+  ],
+  "cons": [
+    "Dated interface styling",
+    "Steep per-minute private defaults"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cams-com.webp",
+    "alt": "Cams.com logo and brand card",
+    "source_url": "https://www.cams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.cams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits & private shows",
+      "source_url": "https://www.cams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.cams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cams.com",
+      "source_url": "https://www.cams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

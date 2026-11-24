@@ -1,0 +1,78 @@
+{
+  "slug": "erotica-x",
+  "type": "site",
+  "name": "Erotica X",
+  "url": "https://www.eroticax.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Mason's romantic couples flagship celebrated for warm cinematography, genuine kissing, and female-friendly pacing.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples"
+  ],
+  "ranking_rationale": "Sensual unscripted chemistry and soft filmic look; weighed against slower scene cadence.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Sensual unscripted chemistry and soft filmic look",
+    "Zero sleazy camera angles",
+    "Part of O.L. Entertainment / Adult Time ecosystem"
+  ],
+  "cons": [
+    "Slower scene cadence",
+    "Strict romantic couples lane"
+  ],
+  "image": {
+    "src": "/media/entities/sites/erotica-x.webp",
+    "alt": "Erotica X logo and brand card",
+    "source_url": "https://www.eroticax.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.eroticax.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.eroticax.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.eroticax.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "eroticax.com",
+      "source_url": "https://www.eroticax.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

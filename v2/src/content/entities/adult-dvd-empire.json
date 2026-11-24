@@ -1,0 +1,78 @@
+{
+  "slug": "adult-dvd-empire",
+  "type": "site",
+  "name": "Adult DVD Empire VOD",
+  "url": "https://www.adultdvdempire.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The gold-standard mainstream adult e-commerce & unlimited streaming VOD warehouse spanning 100k+ studio titles.",
+  "tags": [
+    "vod",
+    "database",
+    "premium"
+  ],
+  "ranking_rationale": "Biggest searchable legal studio DVD & scene VOD catalog; weighed against ui feels like an early-2010s storefront.",
+  "pricing": {
+    "model": "Unlimited VOD pass + pay-per-minute + discs",
+    "free_tier": "Free catalog & trailers",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Biggest searchable legal studio DVD & scene VOD catalog",
+    "Granular cast, director, and tag metadata",
+    "Pay-per-minute VOD or unlimited passes"
+  ],
+  "cons": [
+    "UI feels like an early-2010s storefront",
+    "Individual movie buys run high without bundle deals"
+  ],
+  "image": {
+    "src": "/media/entities/sites/adult-dvd-empire.webp",
+    "alt": "Adult DVD Empire VOD logo and brand card",
+    "source_url": "https://www.adultdvdempire.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Legal VOD Storefront",
+      "source_url": "https://www.adultdvdempire.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Unlimited VOD pass + pay-per-minute + discs",
+      "source_url": "https://www.adultdvdempire.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.adultdvdempire.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "adultdvdempire.com",
+      "source_url": "https://www.adultdvdempire.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

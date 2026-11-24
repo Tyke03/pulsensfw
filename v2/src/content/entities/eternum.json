@@ -1,0 +1,80 @@
+{
+  "slug": "eternum",
+  "type": "game",
+  "name": "Eternum",
+  "url": "https://caribdis.itch.io/eternum",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Caribdis's wildly praised sci-fi simulation-romance VN combining Ready Player One world-hopping, heart, and killer comedic writing.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "story"
+  ],
+  "ranking_rationale": "Gold-standard writing, humor, and genuine emotional stakes; weighed against ongoing episodic development means waiting for next major builds.",
+  "pricing": {
+    "model": "Freeware + Patreon updates",
+    "free_tier": "Full current chapters free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android"
+  ],
+  "score": 9.2,
+  "pros": [
+    "Gold-standard writing, humor, and genuine emotional stakes",
+    "Jaw-dropping expressive Daz animations & custom UI",
+    "100% free updates with optional Patreon support"
+  ],
+  "cons": [
+    "Ongoing episodic development means waiting for next major builds",
+    "Not a sandbox grind game"
+  ],
+  "image": {
+    "src": "/media/entities/games/eternum.webp",
+    "alt": "Eternum logo and brand card",
+    "source_url": "https://caribdis.itch.io/eternum",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://caribdis.itch.io/eternum",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freeware + Patreon updates",
+      "source_url": "https://caribdis.itch.io/eternum",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Android",
+      "source_url": "https://caribdis.itch.io/eternum",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "caribdis.itch.io",
+      "source_url": "https://caribdis.itch.io/eternum",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

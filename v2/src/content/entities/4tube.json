@@ -1,0 +1,78 @@
+{
+  "slug": "4tube",
+  "type": "site",
+  "name": "4tube",
+  "url": "https://www.4tube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ad-lighter mainstream tube focused on multi-studio teasers, performer profiles, and 1080p streams.",
+  "tags": [
+    "tube",
+    "hd",
+    "studio"
+  ],
+  "ranking_rationale": "Noticeably cleaner UI than ad-soaked tubes; weighed against smaller raw scene volume.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Noticeably cleaner UI than ad-soaked tubes",
+    "Good studio channel grouping",
+    "Responsive HTML5 mobile video"
+  ],
+  "cons": [
+    "Smaller raw scene volume",
+    "Heavy studio upsell links"
+  ],
+  "image": {
+    "src": "/media/entities/sites/4tube.webp",
+    "alt": "4tube logo and brand card",
+    "source_url": "https://www.4tube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.4tube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.4tube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.4tube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "4tube.com",
+      "source_url": "https://www.4tube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

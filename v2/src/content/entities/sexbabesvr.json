@@ -1,0 +1,79 @@
+{
+  "slug": "sexbabesvr",
+  "type": "site",
+  "name": "SexBabesVR",
+  "url": "https://www.sexbabesvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Czech-based VR pioneer famed for ultra-sharp European beauty shoots, binaural spatial audio, and natural lighting.",
+  "tags": [
+    "vr",
+    "studio",
+    "european"
+  ],
+  "ranking_rationale": "Refined European look + crisp spatial audio; weighed against high focus on solo/couples slow glam over big group sets.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Refined European look + crisp spatial audio",
+    "Great 8K sideload and streaming compatibility",
+    "Fair pricing promos"
+  ],
+  "cons": [
+    "High focus on solo/couples slow glam over big group sets",
+    "Modest monthly release count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sexbabesvr.webp",
+    "alt": "SexBabesVR logo and brand card",
+    "source_url": "https://www.sexbabesvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://www.sexbabesvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://www.sexbabesvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR",
+      "source_url": "https://www.sexbabesvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sexbabesvr.com",
+      "source_url": "https://www.sexbabesvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

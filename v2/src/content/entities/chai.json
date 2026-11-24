@@ -8,10 +8,10 @@
   "monetization_methods": [],
   "summary": "Established mobile-app platform for AI conversation with a free download and in-app subscriptions. Fictional adult-oriented text is allowed under the EULA; explicit image/video generation is not.",
   "tags": [
-    "nsfw",
     "mobile",
     "ios",
-    "android"
+    "android",
+    "nsfw"
   ],
   "ranking_rationale": "Store distribution is verifiable (App Store listing) and the EULA documents a limited adult-text policy. A numeric free quota, image generation, voice, and any memory specification were not verifiable, and CHAI WEB is still listed as coming soon — it ranks low on documented feature completeness, not on popularity.",
   "pricing": {

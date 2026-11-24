@@ -10,10 +10,10 @@
   ],
   "summary": "Prompt-driven AI image generator focused on anime and photoreal adult character creation with lookalike tags and canvas outpainting tools.",
   "tags": [
-    "nsfw",
     "image",
     "image generation",
-    "generator"
+    "generator",
+    "nsfw"
   ],
   "ranking_rationale": "Approachable web UI for quick character image generation without managing local checkpoints; held back by credit paywalls and rigid likeness policies.",
   "pricing": {

@@ -1,0 +1,80 @@
+{
+  "slug": "jan-ai",
+  "type": "ai_app",
+  "name": "Jan",
+  "url": "https://jan.ai",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Open-source privacy-first ChatGPT alternative running 100% offline GGUF models or optional BYO API keys locally.",
+  "tags": [
+    "local",
+    "privacy",
+    "chat",
+    "nsfw"
+  ],
+  "ranking_rationale": "Open-source GPL/AGPL transparency with local-first storage; weighed against lighter character-card tools than sillytavern.",
+  "pricing": {
+    "model": "Free open-source",
+    "free_tier": "Free unlimited local chat",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Open-source GPL/AGPL transparency with local-first storage",
+    "Built-in model hub + Cortex engine",
+    "Runs seamlessly alongside cloud keys"
+  ],
+  "cons": [
+    "Lighter character-card tools than SillyTavern",
+    "Occasional extension churn between updates"
+  ],
+  "image": {
+    "src": "/media/entities/ai/jan-ai.webp",
+    "alt": "Jan logo and brand card",
+    "source_url": "https://jan.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://jan.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open-source",
+      "source_url": "https://jan.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://jan.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "jan.ai",
+      "source_url": "https://jan.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

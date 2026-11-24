@@ -1,0 +1,79 @@
+{
+  "slug": "nubile-films",
+  "type": "site",
+  "name": "Nubile Films",
+  "url": "https://www.nubilefilms.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Sensual, warm-toned storytelling flagship inside the Nubiles Network balancing intimate chemistry with polished 4K polish.",
+  "tags": [
+    "premium",
+    "studio",
+    "story",
+    "couples"
+  ],
+  "ranking_rationale": "Soft-focus romantic aesthetic without cheesy scripts; weighed against cross-promos to sister hardcore hubs.",
+  "pricing": {
+    "model": "Studio / Nubiles Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Soft-focus romantic aesthetic without cheesy scripts",
+    "Included across full Nubiles Network passes",
+    "Consistent performer chemistry"
+  ],
+  "cons": [
+    "Cross-promos to sister hardcore hubs",
+    "Smaller standalone catalog"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nubile-films.webp",
+    "alt": "Nubile Films logo and brand card",
+    "source_url": "https://www.nubilefilms.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.nubilefilms.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / Nubiles Network subscription",
+      "source_url": "https://www.nubilefilms.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.nubilefilms.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nubilefilms.com",
+      "source_url": "https://www.nubilefilms.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

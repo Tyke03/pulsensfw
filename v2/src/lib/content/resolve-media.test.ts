@@ -230,4 +230,10 @@ test('searchCatalog matches multi-word synonym and multi-brand queries without s
   assert.deepEqual(camHits.map((h) => h.title), ['Chaturbate', 'Stripchat']);
   assert.equal(searchCatalog([], catalog, 'Chaturbate Stripchat', 'all', sfw).length, 2);
   assert.equal(matchesSubtopicFilter(cameo.tags, 'tube'), false);
+  assert.equal(matchesSubtopicFilter(['performer', 'solo'], 'creators'), false);
+  assert.equal(matchesSubtopicFilter(['performer', 'creator'], 'creators'), true);
+  assert.equal(matchesSubtopicFilter(['vr', 'studio', 'streaming'], 'headsets'), false);
+  assert.equal(matchesSubtopicFilter(['vr', 'headsets', 'player'], 'headsets'), true);
+  assert.equal(matchesSubtopicFilter(['performer', 'hall of fame'], 'icons'), true);
+  assert.equal(matchesSubtopicFilter(['performer', 'veteran'], 'icons'), false);
 });

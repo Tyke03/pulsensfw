@@ -1,0 +1,79 @@
+{
+  "slug": "virtualtaboo",
+  "type": "site",
+  "name": "VirtualTaboo",
+  "url": "https://virtualtaboo.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "CzechVR sister studio dedicated to dramatic 3D 180° roleplay plots with strong acting and 8K camera clarity.",
+  "tags": [
+    "vr",
+    "studio",
+    "story"
+  ],
+  "ranking_rationale": "Strong acting and tense cinematic lighting; weighed against roleplay niche narrows broad appeal.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Strong acting and tense cinematic lighting",
+    "Crystal-clear scale tuning from CzechVR engineers",
+    "Interactive toy scripts on most modern scenes"
+  ],
+  "cons": [
+    "Roleplay niche narrows broad appeal",
+    "Heavy cross-sell with CzechVR bundles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/virtualtaboo.webp",
+    "alt": "VirtualTaboo logo and brand card",
+    "source_url": "https://virtualtaboo.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://virtualtaboo.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://virtualtaboo.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR",
+      "source_url": "https://virtualtaboo.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "virtualtaboo.com",
+      "source_url": "https://virtualtaboo.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

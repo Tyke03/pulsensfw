@@ -1,0 +1,79 @@
+{
+  "slug": "wifey",
+  "type": "site",
+  "name": "Wifey",
+  "url": "https://www.wifey.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Vixen's romantic and playful couples imprint centered on intimate luxury settings and sharp 4K production.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k",
+    "story"
+  ],
+  "ranking_rationale": "Warm intimate chemistry and high-end sets; weighed against smaller scene library than flagship siblings.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Warm intimate chemistry and high-end sets",
+    "Modern crisp player and gallery tools",
+    "Strong A-list talent roster"
+  ],
+  "cons": [
+    "Smaller scene library than flagship siblings",
+    "High single-site monthly price"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wifey.webp",
+    "alt": "Wifey logo and brand card",
+    "source_url": "https://www.wifey.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.wifey.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.wifey.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.wifey.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wifey.com",
+      "source_url": "https://www.wifey.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

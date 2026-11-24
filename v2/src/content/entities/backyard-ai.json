@@ -8,10 +8,10 @@
   "monetization_methods": [],
   "summary": "Local/cloud character chat with lorebooks, author notes, and dynamic voices. A free 300-cloud-messages-per-week allowance exists, but new paid subscriptions and upgrades are currently unavailable.",
   "tags": [
-    "nsfw",
     "roleplay",
     "local",
-    "voice"
+    "voice",
+    "nsfw"
   ],
   "ranking_rationale": "Official plans FAQ and docs verify the free weekly cloud allowance, lorebook context controls, and voices, and the product is active. But paid plans cannot currently be purchased at all, which makes it un-rankable against paid competitors — included conditionally at the bottom as an active local-first option.",
   "pricing": {

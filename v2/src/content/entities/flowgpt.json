@@ -1,0 +1,80 @@
+{
+  "slug": "flowgpt",
+  "type": "ai_app",
+  "name": "FlowGPT",
+  "url": "https://flowgpt.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Web/app character & prompt community hosting thousands of anime/fantasy RP bots alongside creative AI tools.",
+  "tags": [
+    "chat",
+    "character chat",
+    "roleplay",
+    "nsfw"
+  ],
+  "ranking_rationale": "Huge user-built anime and fantasy character catalog; weighed against content filter rules fluctuate across modes.",
+  "pricing": {
+    "model": "Freemium subscriptions",
+    "free_tier": "Daily free chats",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Huge user-built anime and fantasy character catalog",
+    "Fast browser & app roleplay response",
+    "Free starter messaging tier"
+  ],
+  "cons": [
+    "Content filter rules fluctuate across modes",
+    "Upsell Flux currency prompts"
+  ],
+  "image": {
+    "src": "/media/entities/ai/flowgpt.webp",
+    "alt": "FlowGPT logo and brand card",
+    "source_url": "https://flowgpt.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://flowgpt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium subscriptions",
+      "source_url": "https://flowgpt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://flowgpt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "flowgpt.com",
+      "source_url": "https://flowgpt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

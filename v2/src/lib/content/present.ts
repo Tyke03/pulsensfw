@@ -368,7 +368,7 @@ export function searchCatalog(
 
   return finalSet
     .sort((a, b) => b.matchedTokens - a.matchedTokens || b.rankScore - a.rankScore || a.item.hit.title.localeCompare(b.item.hit.title))
-    .slice(0, 24)
+    .slice(0, 36)
     .map((entry) => entry.item.hit);
 }
 
@@ -387,9 +387,9 @@ const SUBTOPIC_ALIASES: Record<string, readonly string[]> = {
   local: ['local', 'offline', 'gguf', 'power user'],
   scenes: ['scenes', 'vr', 'studio', 'aggregator', 'streaming'],
   games: ['games', 'game'],
-  headsets: ['headsets', 'headset', 'vr'],
+  headsets: ['headsets', 'headset', 'player', 'pcvr'],
   haptics: ['haptics', 'scripts', 'sync'],
-  premium: ['premium', 'paysite', 'exclusive'],
+  premium: ['premium', 'paysite', 'exclusive', 'vod'],
   tube: ['tube', 'tubes'],
   cams: ['cams', 'cam', 'live', 'tokens', 'roulette', 'private-shows'],
   platform: ['platform', 'onlyfans', 'creator', 'clips'],
@@ -402,6 +402,9 @@ const SUBTOPIC_ALIASES: Record<string, readonly string[]> = {
   vr: ['vr', 'vr performer', 'scripts'],
   solo: ['solo', 'creator', 'onlyfans'],
   couples: ['couples', 'girl-girl', 'wearable'],
+  icons: ['hall of fame'],
+  creators: ['creator', 'onlyfans'],
+  awards: ['awards'],
   wands: ['wands', 'wand', 'cordless'],
   quiet: ['quiet', 'air-pulse', 'sonic', 'whisper'],
   app: ['app', 'haptics', 'bluetooth', 'scripts'],
@@ -428,7 +431,10 @@ export function entitiesForTopic(catalog: Catalog, topic: TopicId, filter: strin
   const type = TOPIC_TYPE[topic];
   if (!type) return [];
   const items = presentCatalog(catalog, reader).filter((card) => {
-    const belongs = entityTopic(card.type) === topic || (topic === 'vr' && card.type === 'site' && card.tags.some((tag) => tag.toLowerCase() === 'vr'));
+    const belongs =
+      entityTopic(card.type) === topic ||
+      (topic === 'vr' && card.type === 'site' && card.tags.some((tag) => tag.toLowerCase() === 'vr')) ||
+      (topic === 'vr' && filter === 'haptics' && card.type === 'product' && card.tags.some((tag) => tag.toLowerCase() === 'vr'));
     if (!belongs) return false;
     if (!filter) return true;
     return matchesSubtopicFilter(card.tags, filter);

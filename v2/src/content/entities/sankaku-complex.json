@@ -1,0 +1,79 @@
+{
+  "slug": "sankaku-complex",
+  "type": "site",
+  "name": "Sankaku Complex",
+  "url": "https://chan.sankakucomplex.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Massive anime/illustration booru & gaming/otaku news hub indexing tens of millions of tagged artworks and cosplays.",
+  "tags": [
+    "comics",
+    "hentai",
+    "booru",
+    "anime"
+  ],
+  "ranking_rationale": "Huge booru volume with detailed artist/series metadata; weighed against strict daily page-depth & rate caps for anonymous guests.",
+  "pricing": {
+    "model": "Free guest browse + Sankaku+ tier",
+    "free_tier": "Browsing & search free (rate-capped)",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Huge booru volume with detailed artist/series metadata",
+    "Active multi-tag complex search queries",
+    "Fast dark interface"
+  ],
+  "cons": [
+    "Strict daily page-depth & rate caps for anonymous guests",
+    "Frequent Sankaku+ upsell prompts"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sankaku-complex.webp",
+    "alt": "Sankaku Complex logo and brand card",
+    "source_url": "https://chan.sankakucomplex.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://chan.sankakucomplex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free guest browse + Sankaku+ tier",
+      "source_url": "https://chan.sankakucomplex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://chan.sankakucomplex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "chan.sankakucomplex.com",
+      "source_url": "https://chan.sankakucomplex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

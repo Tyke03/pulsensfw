@@ -40,7 +40,7 @@ const sortMode = rawSort === 'az' || rawSort === 'score' || rawSort === 'feature
   : (topic?.id === 'stars' ? 'featured' : 'score');
 const letterParam = topic?.id === 'stars' ? (Astro.url.searchParams.get('letter') ?? '').toUpperCase().slice(0, 1) : '';
 const pageParam = Math.max(1, Number.parseInt(Astro.url.searchParams.get('page') ?? '1', 10) || 1);
-const PAGE_SIZE = 24;
+const PAGE_SIZE = 30;
 
 function hubHref(opts: { topic?: string | null; sort?: string | null; letter?: string | null; page?: number | null }): string {
   const params = new URLSearchParams();
@@ -67,11 +67,16 @@ const matched = articles
 const cards = matched.map((article) => presentArticle(article, reader, catalog));
 
 const allEntities = topic ? entitiesForTopic(catalog, topic.id, null, reader) : [];
-let entities = topic ? entitiesForTopic(catalog, topic.id, filter, reader) : [];
+const topicEntities = topic ? entitiesForTopic(catalog, topic.id, filter, reader) : [];
+let entities = topicEntities;
+
+function normInitial(title: string): string {
+  return title.trim().charAt(0).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+}
 
 if (letterParam && topic?.id === 'stars') {
   entities = entities.filter((card) => {
-    const first = card.title.trim().charAt(0).toUpperCase();
+    const first = normInitial(card.title);
     return letterParam === '#' ? !/^[A-Z]$/.test(first) : first === letterParam;
   });
 }
@@ -97,7 +102,7 @@ const allFilterCount = isEntityHub
   ? allEntities.length
   : articles.filter((a) => a.topic === section || a.tags.some((t) => t.toLowerCase() === section)).length;
 
-const showCarousels = !filter && !letterParam && pageParam === 1;
+const showCarousels = !filter && !letterParam && pageParam === 1 && sortMode !== 'az';
 const rising = topic?.id === 'stars' && showCarousels ? risingStars(catalog, reader) : [];
 const trending = topic?.id === 'stars' && showCarousels ? trendingStars(catalog, reader) : [];
 const icons = topic?.id === 'stars' && showCarousels ? iconStars(catalog, reader) : [];
@@ -111,8 +116,8 @@ const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 const letterCounts = new Map<string, number>();
 if (topic?.id === 'stars') {
   for (const ch of LETTERS) letterCounts.set(ch, 0);
-  for (const card of allEntities) {
-    const ch = card.title.trim().charAt(0).toUpperCase();
+  for (const card of topicEntities) {
+    const ch = normInitial(card.title);
     if (letterCounts.has(ch)) letterCounts.set(ch, (letterCounts.get(ch) ?? 0) + 1);
   }
 }
@@ -122,10 +127,10 @@ const aiTop5 = topic?.id === 'ai' && showCarousels
   : [];
 
 const TOY_PICKS: Array<{ slug: string; badge: string; reason: string }> = [
-  { slug: 'the-handy', badge: 'Best VR & Scripts', reason: 'High-speed Wi-Fi linear stroker with open .funscript and DeoVR/SLR sync.' },
-  { slug: 'lovense-lush-3', badge: 'Best App & Cams', reason: 'Industry-standard remote bullet with magnetic charging and universal cam support.' },
+  { slug: 'osr2-plus', badge: 'Top Rated · VR', reason: 'Open-source multi-axis desktop stroker delivering 9.3 precision .funscript sync.' },
+  { slug: 'the-handy', badge: 'Best Turnkey VR', reason: 'High-speed Wi-Fi linear stroker with open .funscript and DeoVR/SLR sync.' },
   { slug: 'womanizer-premium-2', badge: 'Best Whisper-Quiet', reason: 'Contactless air-pulse stimulation with Smart Silence body-proximity shutoff.' },
-  { slug: 'magic-wand-rechargeable', badge: 'Best Classic Wand', reason: 'Cordless low-frequency rumble without high-pitched hand buzz.' },
+  { slug: 'lovense-lush-3', badge: 'Best App & Cams', reason: 'Industry-standard remote bullet with magnetic charging and universal cam support.' },
 ];
 const toyPicks = topic?.id === 'toys' && showCarousels
   ? TOY_PICKS.flatMap((pick) => {
@@ -134,7 +139,8 @@ const toyPicks = topic?.id === 'toys' && showCarousels
     })
   : [];
 
-const vrGames = topic?.id === 'vr' && !filter ? entities.filter((c) => c.type === 'game') : [];
+const vrPlayers = topic?.id === 'vr' && !filter ? entities.filter((c) => c.type === 'game' && c.tags.some((t) => ['headsets', 'player'].includes(t.toLowerCase()))) : [];
+const vrAdultGames = topic?.id === 'vr' && !filter ? entities.filter((c) => c.type === 'game' && !c.tags.some((t) => ['headsets', 'player'].includes(t.toLowerCase()))) : [];
 const vrStudios = topic?.id === 'vr' && !filter ? entities.filter((c) => c.type === 'site') : [];
 
 // Pagination for large directories (skip splitting on /vr All view which uses two grouped grids)
@@ -355,14 +361,29 @@ const entityLabel = topic?.id === 'stars'
         </section>
       )}
 
-      {/* /vr distinct layout: Games vs VR Porn Studios split */}
-      {topic.id === 'vr' && !filter && (vrGames.length > 0 || vrStudios.length > 0) ? (
+      {/* /vr distinct layout: Adult Games vs VR Video Players vs VR Porn Studios */}
+      {topic.id === 'vr' && !filter && (vrAdultGames.length > 0 || vrPlayers.length > 0 || vrStudios.length > 0) ? (
         <>
-          {vrGames.length > 0 && (
+          <div class="hub-row hub-toolbar">
+            <h2>Browse VR &amp; Games ({entities.length})</h2>
+            <div class="sort-pills" role="group" aria-label="Sort VR directory">
+              <a class="c-chip" href={hubHref({ sort: 'score', page: 1 })} aria-current={sortMode === 'score' ? 'page' : undefined}>Top Rated</a>
+              <a class="c-chip" href={hubHref({ sort: 'az', page: 1 })} aria-current={sortMode === 'az' ? 'page' : undefined}>A–Z</a>
+            </div>
+          </div>
+          {vrAdultGames.length > 0 && (
             <section class="hub-row" aria-labelledby="vr-games-hub">
-              <h2 id="vr-games-hub">Interactive VR &amp; adult games ({vrGames.length})</h2>
+              <h2 id="vr-games-hub">Interactive adult games ({vrAdultGames.length})</h2>
               <div class="profile-grid profile-grid--brand">
-                {vrGames.map((card) => <EntityCard card={card} uid={`hub-game-${card.id}`} />)}
+                {vrAdultGames.map((card) => <EntityCard card={card} uid={`hub-game-${card.id}`} />)}
+              </div>
+            </section>
+          )}
+          {vrPlayers.length > 0 && (
+            <section class="hub-row" aria-labelledby="vr-players-hub">
+              <h2 id="vr-players-hub">VR video players &amp; headset setup ({vrPlayers.length})</h2>
+              <div class="profile-grid profile-grid--brand">
+                {vrPlayers.map((card) => <EntityCard card={card} uid={`hub-player-${card.id}`} />)}
               </div>
             </section>
           )}

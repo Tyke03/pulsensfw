@@ -1,0 +1,69 @@
+{
+  "slug": "morgpie",
+  "type": "star",
+  "name": "Morgpie",
+  "url": "https://en.wikipedia.org/wiki/Morgpie",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Morgpie is an American Twitch streamer, OnlyFans model, startup founder, and pornographic film actress. A content creator, she is best known for her popularization of sexually suggestive niche genres on Twitch, referred to as metas by the platform's community.",
+  "tags": [
+    "performer",
+    "rising",
+    "awards",
+    "onlyfans",
+    "creator",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "OnlyFans",
+    "X",
+    "Instagram",
+    "Twitch"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/morgpie.jpg",
+    "alt": "SFW portrait of Morgpie",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Morgpie_at_Renfaire_by_Knut_Spildrejorde.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Credits",
+      "value": "Online streamer, Streamer, model, pornographic film actress",
+      "source_url": "https://en.wikipedia.org/wiki/Morgpie",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "As an adult content creator, she has received various industry award nominations.",
+      "source_url": "https://en.wikipedia.org/wiki/Morgpie",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "A content creator, she is best known for her popularization of sexually suggestive niche genres on Twitch, referred to as metas by the platform's community.",
+      "source_url": "https://en.wikipedia.org/wiki/Morgpie",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

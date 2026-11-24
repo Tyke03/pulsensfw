@@ -1,0 +1,78 @@
+{
+  "slug": "ixxx",
+  "type": "site",
+  "name": "iXXX",
+  "url": "https://www.ixxx.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean multi-source tube search portal pulling HD streams and niche tags across partner free networks.",
+  "tags": [
+    "tube",
+    "search",
+    "meta"
+  ],
+  "ranking_rationale": "Tidy visual grid across multiple sources; weighed against pop-under promos on initial click.",
+  "pricing": {
+    "model": "Free meta-tube index",
+    "free_tier": "Free indexing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Tidy visual grid across multiple sources",
+    "Strong tag autocomplete and filters",
+    "Mobile-friendly player frame"
+  ],
+  "cons": [
+    "Pop-under promos on initial click",
+    "Heavy reliance on partner embed libraries"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ixxx.webp",
+    "alt": "iXXX logo and brand card",
+    "source_url": "https://www.ixxx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.ixxx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube index",
+      "source_url": "https://www.ixxx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.ixxx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ixxx.com",
+      "source_url": "https://www.ixxx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

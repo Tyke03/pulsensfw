@@ -1,0 +1,78 @@
+{
+  "slug": "nudevista",
+  "type": "site",
+  "name": "NudeVista",
+  "url": "https://www.nudevista.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Power-user video search engine indexing dozens of free tubes simultaneously with strict query syntax and length sliders.",
+  "tags": [
+    "tube",
+    "search",
+    "meta"
+  ],
+  "ranking_rationale": "Best-in-class boolean keyword & length search; weighed against sparsely styled text-heavy results.",
+  "pricing": {
+    "model": "Free meta-tube search",
+    "free_tier": "Free indexing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Best-in-class boolean keyword & length search",
+    "Zero-account fast query interface",
+    "Deduplicates source links nicely"
+  ],
+  "cons": [
+    "Sparsely styled text-heavy results",
+    "Outbound links vary in ad quality"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nudevista.webp",
+    "alt": "NudeVista logo and brand card",
+    "source_url": "https://www.nudevista.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.nudevista.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube search",
+      "source_url": "https://www.nudevista.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.nudevista.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nudevista.com",
+      "source_url": "https://www.nudevista.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

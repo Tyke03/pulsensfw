@@ -1,0 +1,78 @@
+{
+  "slug": "camcontacts",
+  "type": "site",
+  "name": "CamContacts",
+  "url": "https://www.camcontacts.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran European-backed independent cam portal centering on 1-on-1 private chat and lower-pressure browsing.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows"
+  ],
+  "ranking_rationale": "Low-clutter classic room grid; weighed against older aesthetic.",
+  "pricing": {
+    "model": "Credits & privates",
+    "free_tier": "Public preview free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Low-clutter classic room grid",
+    "Strong European model base",
+    "Transparent rate cards"
+  ],
+  "cons": [
+    "Older aesthetic",
+    "Smaller traffic than Stripchat"
+  ],
+  "image": {
+    "src": "/media/entities/sites/camcontacts.webp",
+    "alt": "CamContacts logo and brand card",
+    "source_url": "https://www.camcontacts.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.camcontacts.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits & privates",
+      "source_url": "https://www.camcontacts.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.camcontacts.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "camcontacts.com",
+      "source_url": "https://www.camcontacts.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

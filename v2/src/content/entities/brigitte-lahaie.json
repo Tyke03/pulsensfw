@@ -1,0 +1,72 @@
+{
+  "slug": "brigitte-lahaie",
+  "type": "star",
+  "name": "Brigitte Lahaie",
+  "url": "https://en.wikipedia.org/wiki/Brigitte_Lahaie",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Brigitte Lahaie is a French radio talk show host, mainstream film actress and former pornographic actress. She performed in erotic films from 1976 through 1980 and is a member of the XRCO Hall of Fame.",
+  "tags": [
+    "performer",
+    "former performer",
+    "hall of fame",
+    "awards"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/brigitte-lahaie.jpg",
+    "alt": "SFW portrait of Brigitte Lahaie",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brigitte_Lahaie,_2014_(cropped).JPG",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "1976–1995 (pornographic films), 1978–present (film & TV)",
+      "source_url": "https://en.wikipedia.org/wiki/Brigitte_Lahaie",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Tourcoing, Nord-Pas-de-Calais, France",
+      "source_url": "https://en.wikipedia.org/wiki/Brigitte_Lahaie",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Actress, radio host",
+      "source_url": "https://en.wikipedia.org/wiki/Brigitte_Lahaie",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "She performed in erotic films from 1976 through 1980 and is a member of the XRCO Hall of Fame.",
+      "source_url": "https://en.wikipedia.org/wiki/Brigitte_Lahaie",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

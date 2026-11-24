@@ -1,0 +1,80 @@
+{
+  "slug": "dlsite",
+  "type": "site",
+  "name": "DLsite",
+  "url": "https://www.dlsite.com/maniax/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japan's indispensable official digital doujin storefront hosting indie manga, ASMR/R18 audio works, and RPGMaker/Unity games.",
+  "tags": [
+    "hentai",
+    "doujinshi",
+    "games",
+    "audio"
+  ],
+  "ranking_rationale": "Official creator-direct store with global English payment support; weighed against machine-translated titles on unlocalized japanese listings.",
+  "pricing": {
+    "model": "Per-item digital store + points",
+    "free_tier": "Free demos & sample chapters",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "Android"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Official creator-direct store with global English payment support",
+    "Unbeatable library of indie Japanese ASMR & R18 games",
+    "Frequent 30–50% circle sales and DRM-free downloads"
+  ],
+  "cons": [
+    "Machine-translated titles on unlocalized Japanese listings",
+    "Complex tagging filter UI for newcomers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/dlsite.webp",
+    "alt": "DLsite logo and brand card",
+    "source_url": "https://www.dlsite.com/maniax/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.dlsite.com/maniax/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-item digital store + points",
+      "source_url": "https://www.dlsite.com/maniax/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, Android",
+      "source_url": "https://www.dlsite.com/maniax/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dlsite.com",
+      "source_url": "https://www.dlsite.com/maniax/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

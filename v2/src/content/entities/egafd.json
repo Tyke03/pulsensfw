@@ -1,0 +1,77 @@
+{
+  "slug": "egafd",
+  "type": "site",
+  "name": "EGAFD",
+  "url": "https://www.egafd.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Essential European Girls Adult Film Database—the gold standard credit index for European performers, Private/Dorcel releases, and directors.",
+  "tags": [
+    "forums",
+    "database",
+    "european"
+  ],
+  "ranking_rationale": "Unmatched accuracy for 1980s–2020s European adult cinema; weighed against bare-bones archival table ui.",
+  "pricing": {
+    "model": "Free specialist database",
+    "free_tier": "Full lookup free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Unmatched accuracy for 1980s–2020s European adult cinema",
+    "Tracks obscure studio aliases cleanly",
+    "Pure clean archival reference"
+  ],
+  "cons": [
+    "Bare-bones archival table UI",
+    "Covers European actresses primarily"
+  ],
+  "image": {
+    "src": "/media/entities/sites/egafd.webp",
+    "alt": "EGAFD logo and brand card",
+    "source_url": "https://www.egafd.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.egafd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free specialist database",
+      "source_url": "https://www.egafd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.egafd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "egafd.com",
+      "source_url": "https://www.egafd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

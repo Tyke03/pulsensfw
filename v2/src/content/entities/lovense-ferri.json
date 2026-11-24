@@ -1,0 +1,80 @@
+{
+  "slug": "lovense-ferri",
+  "type": "product",
+  "name": "Lovense Ferri",
+  "url": "https://www.lovense.com/ferri-panty-vibrator",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Strong magnetic panty vibrator with app/long-distance cam sync built for quiet discreet wear outside the home.",
+  "tags": [
+    "couples",
+    "app",
+    "quiet",
+    "wearable"
+  ],
+  "ranking_rationale": "Ultra-secure magnetic clasp stays planted while walking; weighed against firm silicone bump isn't subtle during hard sitting.",
+  "pricing": {
+    "model": "One-time purchase ($99 MSRP)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Ultra-secure magnetic clasp stays planted while walking",
+    "Seamless Lovense Remote + cam tip sync",
+    "Quiet enough under jeans or dresses"
+  ],
+  "cons": [
+    "Firm silicone bump isn't subtle during hard sitting",
+    "Smaller battery than wand/G-spot toys"
+  ],
+  "image": {
+    "src": "/media/entities/products/lovense-ferri.webp",
+    "alt": "Lovense Ferri logo and brand card",
+    "source_url": "https://www.lovense.com/ferri-panty-vibrator",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lovense.com/ferri-panty-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase ($99 MSRP)",
+      "source_url": "https://www.lovense.com/ferri-panty-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Bluetooth",
+      "source_url": "https://www.lovense.com/ferri-panty-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lovense.com",
+      "source_url": "https://www.lovense.com/ferri-panty-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

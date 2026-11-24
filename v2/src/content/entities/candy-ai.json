@@ -10,10 +10,10 @@
   ],
   "summary": "Multimedia companion product: text, generated images/video, and voice in one app. Free browsing previews exist, but paid media runs through a monthly token allowance.",
   "tags": [
-    "nsfw",
     "companion",
     "image generation",
-    "freemium"
+    "freemium",
+    "nsfw"
   ],
   "ranking_rationale": "First-party subscription and product pages verify $13.99 recurring monthly (with a $9.99 intro month), the $47.88 annual offer, voice interaction, and adult-generation features. Free tier is a 7-day trial per marketing, not a permanent allowance — weaker testability than its rivals, so it ranks as a multimedia pick, not a free-first pick.",
   "pricing": {

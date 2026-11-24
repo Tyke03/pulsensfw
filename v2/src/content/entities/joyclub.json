@@ -1,0 +1,80 @@
+{
+  "slug": "joyclub",
+  "type": "site",
+  "name": "JOYclub",
+  "url": "https://www.joyclub.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Massive European sex-positive lifestyle network uniting swinger events, verified clubs, kink groups, and educational erotica.",
+  "tags": [
+    "niche",
+    "fetish",
+    "community",
+    "erotica"
+  ],
+  "ranking_rationale": "Biggest real-world club/event verified network in Europe; weighed against event density highest in europe (especially dach/uk).",
+  "pricing": {
+    "model": "Freemium community + VIP pass",
+    "free_tier": "Profile, club listings & events free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Biggest real-world club/event verified network in Europe",
+    "Strong consent & age verification norms",
+    "Clean sleek German/global community UI"
+  ],
+  "cons": [
+    "Event density highest in Europe (especially DACH/UK)",
+    "Messaging and group perks need Club VIP"
+  ],
+  "image": {
+    "src": "/media/entities/sites/joyclub.webp",
+    "alt": "JOYclub logo and brand card",
+    "source_url": "https://www.joyclub.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.joyclub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium community + VIP pass",
+      "source_url": "https://www.joyclub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.joyclub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "joyclub.com",
+      "source_url": "https://www.joyclub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

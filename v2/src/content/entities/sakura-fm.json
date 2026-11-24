@@ -10,10 +10,10 @@
   ],
   "summary": "Accessible web & mobile character roleplay app popular for active community bots, group chats, and straightforward free-tier messaging.",
   "tags": [
-    "nsfw",
     "chat",
     "character chat",
-    "roleplay"
+    "roleplay",
+    "nsfw"
   ],
   "ranking_rationale": "Easy character creation and memory summaries; weighed against explicit erp filters vary by server/tier settings.",
   "pricing": {

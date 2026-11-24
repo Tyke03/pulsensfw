@@ -10,11 +10,11 @@
   ],
   "summary": "Privacy-first, uncensored inference platform running open-weight text, code, and image models with local browser chat storage and zero prompt logging.",
   "tags": [
-    "nsfw",
     "privacy",
     "chat",
     "image",
-    "unlogged"
+    "unlogged",
+    "nsfw"
   ],
   "ranking_rationale": "Stands out for combining real no-log browser storage architecture with uncensored open-weight chat and image generation in one clean web UI.",
   "pricing": {

@@ -10,12 +10,12 @@
   ],
   "summary": "The powerhouse node-based local image & video pipeline powering Flux, SDXL, Wan, and custom LoRA workflows with zero cloud censorship.",
   "tags": [
-    "nsfw",
     "local",
     "image",
     "image generation",
     "power user",
-    "free"
+    "free",
+    "nsfw"
   ],
   "ranking_rationale": "Unrivaled control over image, inpainting, LoRAs, and AI video pipelines; weighed against steep node-graph learning curve for casual users.",
   "pricing": {

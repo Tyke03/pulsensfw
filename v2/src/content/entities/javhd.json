@@ -1,0 +1,78 @@
+{
+  "slug": "javhd",
+  "type": "site",
+  "name": "JAVHD",
+  "url": "https://www.javhd.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flagship legal streaming membership and sample portal uniting top Japanese uncensored and studio producers in 1080p/4K.",
+  "tags": [
+    "tube",
+    "jav",
+    "premium"
+  ],
+  "ranking_rationale": "Official licensed uncensored Japanese catalog; weighed against paywall required for full uncensored scenes.",
+  "pricing": {
+    "model": "Subscription + free sample trailers",
+    "free_tier": "Trailers & previews free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Official licensed uncensored Japanese catalog",
+    "Clean 1080p/4K downloads + subtitles",
+    "Verified performer pages"
+  ],
+  "cons": [
+    "Paywall required for full uncensored scenes",
+    "Upsell cross-links inside trailers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/javhd.webp",
+    "alt": "JAVHD logo and brand card",
+    "source_url": "https://www.javhd.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.javhd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription + free sample trailers",
+      "source_url": "https://www.javhd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.javhd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "javhd.com",
+      "source_url": "https://www.javhd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

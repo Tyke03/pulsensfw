@@ -1,0 +1,78 @@
+{
+  "slug": "bentbox",
+  "type": "site",
+  "name": "BentBox",
+  "url": "https://www.bentbox.co",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Curated photo-set and clip storefront beloved by art-nude models, alt-glamour photographers, and indie stars.",
+  "tags": [
+    "platform",
+    "clips",
+    "glamour"
+  ],
+  "ranking_rationale": "No recurring subscription trap—buy standalone photo/video boxes; weighed against much smaller library than manyvids.",
+  "pricing": {
+    "model": "Pay-per-box photo & video sets",
+    "free_tier": "Free gallery previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "No recurring subscription trap—buy standalone photo/video boxes",
+    "Minimalist sleek gallery design",
+    "Strong alt-nude and glamour photographer community"
+  ],
+  "cons": [
+    "Much smaller library than ManyVids",
+    "No live cam integration"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bentbox.webp",
+    "alt": "BentBox logo and brand card",
+    "source_url": "https://www.bentbox.co",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.bentbox.co",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-per-box photo & video sets",
+      "source_url": "https://www.bentbox.co",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bentbox.co",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bentbox.co",
+      "source_url": "https://www.bentbox.co",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

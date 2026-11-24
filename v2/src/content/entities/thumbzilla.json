@@ -1,0 +1,78 @@
+{
+  "slug": "thumbzilla",
+  "type": "site",
+  "name": "Thumbzilla",
+  "url": "https://www.thumbzilla.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mobile-first curated free tube sister-linked to mainstream Aylo networks with large thumbnail cards.",
+  "tags": [
+    "tube",
+    "hd",
+    "mainstream"
+  ],
+  "ranking_rationale": "Big clear preview cards great on phones; weighed against mostly mirrors mainstream uploads.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Big clear preview cards great on phones",
+    "Low visual clutter around video frame",
+    "Consistent streaming CDN"
+  ],
+  "cons": [
+    "Mostly mirrors mainstream uploads",
+    "Fewer advanced power filters"
+  ],
+  "image": {
+    "src": "/media/entities/sites/thumbzilla.webp",
+    "alt": "Thumbzilla logo and brand card",
+    "source_url": "https://www.thumbzilla.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.thumbzilla.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.thumbzilla.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.thumbzilla.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "thumbzilla.com",
+      "source_url": "https://www.thumbzilla.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

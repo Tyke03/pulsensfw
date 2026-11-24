@@ -1,0 +1,79 @@
+{
+  "slug": "whirligig-vr",
+  "type": "game",
+  "name": "Whirligig VR Player",
+  "url": "https://www.whirligig.xyz",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Customizable PCVR utility player favored by tinkerers for every projection lens format and OpenVR/script-sync hooks.",
+  "tags": [
+    "vr",
+    "headsets",
+    "haptics"
+  ],
+  "ranking_rationale": "Supports virtually every niche 180/360/fisheye lens preset; weighed against windows pcvr only (no standalone quest native app).",
+  "pricing": {
+    "model": "Paid PCVR Steam app ($3.99)",
+    "free_tier": "Free evaluation build",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "PCVR",
+    "Steam"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Supports virtually every niche 180/360/fisheye lens preset",
+    "Deep keyboard/gamepad shortcut & script-sync compatibility",
+    "Super affordable Steam utility"
+  ],
+  "cons": [
+    "Windows PCVR only (no standalone Quest native app)",
+    "Utilitarian developer menu UI"
+  ],
+  "image": {
+    "src": "/media/entities/games/whirligig-vr.webp",
+    "alt": "Whirligig VR Player logo and brand card",
+    "source_url": "https://www.whirligig.xyz",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://www.whirligig.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid PCVR Steam app ($3.99)",
+      "source_url": "https://www.whirligig.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, PCVR, Steam",
+      "source_url": "https://www.whirligig.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "whirligig.xyz",
+      "source_url": "https://www.whirligig.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

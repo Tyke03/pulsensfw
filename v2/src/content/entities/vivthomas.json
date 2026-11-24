@@ -1,0 +1,79 @@
+{
+  "slug": "vivthomas",
+  "type": "site",
+  "name": "VivThomas",
+  "url": "https://www.vivthomas.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Beloved European sensual lesbian and erotic cinema pioneer prized for unhurried chemistry and sun-drenched locations.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples",
+    "european"
+  ],
+  "ranking_rationale": "Authentic unhurried chemistry and art direction; weighed against softcore-to-hardcore mix may surprise hardcore hunters.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Authentic unhurried chemistry and art direction",
+    "Huge back catalog of European classics",
+    "Bundled across MetArt Network"
+  ],
+  "cons": [
+    "Softcore-to-hardcore mix may surprise hardcore hunters",
+    "Older archive encodes on early 2000s shoots"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vivthomas.webp",
+    "alt": "VivThomas logo and brand card",
+    "source_url": "https://www.vivthomas.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.vivthomas.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.vivthomas.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.vivthomas.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vivthomas.com",
+      "source_url": "https://www.vivthomas.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

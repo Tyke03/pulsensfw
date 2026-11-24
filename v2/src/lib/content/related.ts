@@ -99,12 +99,14 @@ export function relatedForSearch(
   if (exclude.size === 0) return [];
   const scored = catalog.entities
     .filter((candidate) => !exclude.has(candidate.slug))
-    .map((candidate) => ({
-      entity: candidate,
-      score:
-        (topics.has(entityTopic(candidate.type)) ? 200 : 0) +
-        sharedTags(candidate, tags) * 20,
-    }))
+    .map((candidate) => {
+      const shared = sharedTags(candidate, tags);
+      const sameTopic = topics.has(entityTopic(candidate.type));
+      return {
+        entity: candidate,
+        score: shared * 50 + (sameTopic && (shared > 0 || tags.size === 0) ? 120 : 0),
+      };
+    })
     .filter((item) => item.score > 0);
   return rank(scored).slice(0, RELATED_MAX);
 }
@@ -137,7 +139,7 @@ export function compareGroups(hits: SearchHit[], catalog: Catalog): CompareGroup
     .filter(([, list]) => list.length >= 2)
     .map(([kind, list]) => ({
       kind,
-      label: `Compare ${list.length} ${KIND_PLURAL[kind]}`,
+      label: list.length > 4 ? `Compare top 4 ${KIND_PLURAL[kind]}` : `Compare ${list.length} ${KIND_PLURAL[kind]}`,
       ids: list.slice(0, 4).map((entity) => entity.slug),
     }));
 }

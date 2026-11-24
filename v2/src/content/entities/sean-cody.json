@@ -1,0 +1,79 @@
+{
+  "slug": "sean-cody",
+  "type": "site",
+  "name": "Sean Cody",
+  "url": "https://www.seancody.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flagship San Diego all-American gay studio renowned for clean studio lighting, athletic amateurs, and classic exclusives.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "amateur"
+  ],
+  "ranking_rationale": "Iconic two-decade catalog of all-American models; weighed against scripted banter feels formulaic.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Iconic two-decade catalog of all-American models",
+    "Clean modern Aylo player and 4K upgrades",
+    "High production reliability"
+  ],
+  "cons": [
+    "Scripted banter feels formulaic",
+    "Repeated exclusivity overlaps in MindGeek bundles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sean-cody.webp",
+    "alt": "Sean Cody logo and brand card",
+    "source_url": "https://www.seancody.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.seancody.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.seancody.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.seancody.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "seancody.com",
+      "source_url": "https://www.seancody.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -10,11 +10,11 @@
   ],
   "summary": "Classic local Stable Diffusion browser interface featuring approachable sliders, ADetailer/ControlNet extensions, and huge tutorial history.",
   "tags": [
-    "nsfw",
     "local",
     "image",
     "image generation",
-    "free"
+    "free",
+    "nsfw"
   ],
   "ranking_rationale": "Much friendlier slider/prompt UI than ComfyUI node graphs; weighed against slower development vs forge and comfyui for flux/video models.",
   "pricing": {

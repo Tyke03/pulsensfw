@@ -144,6 +144,7 @@ describe('compareGroups', () => {
     const hits = bigList.map((item) => ({ type: 'ai' as const, href: `/ai/${item.slug}` })).slice(0, 5);
     const groups = compareGroups(hits as never, big);
     assert.equal(groups[0].ids.length, 4);
+    assert.equal(groups[0].label, 'Compare top 4 AI apps');
   });
 });
 

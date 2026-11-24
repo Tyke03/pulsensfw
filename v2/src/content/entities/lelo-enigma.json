@@ -1,0 +1,77 @@
+{
+  "slug": "lelo-enigma",
+  "type": "product",
+  "name": "LELO Enigma",
+  "url": "https://www.lelo.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Luxury dual-action stimulator uniting LELO's signature sonic clitoral suction cup with an articulated internal G-spot tip.",
+  "tags": [
+    "quiet",
+    "sonic",
+    "waterproof"
+  ],
+  "ranking_rationale": "Simultaneous contactless SenSonic suction + deep G-spot rumble; weighed against zero app connectivity or long-distance sync.",
+  "pricing": {
+    "model": "One-time purchase (~$199)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Simultaneous contactless SenSonic suction + deep G-spot rumble",
+    "Silky medical silicone and 1-year warranty",
+    "Fully waterproof IPX7"
+  ],
+  "cons": [
+    "Zero app connectivity or long-distance sync",
+    "Heavy handle price sits around $199–$239"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-enigma.webp",
+    "alt": "LELO Enigma logo and brand card",
+    "source_url": "https://www.lelo.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lelo.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase (~$199)",
+      "source_url": "https://www.lelo.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.lelo.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lelo.com",
+      "source_url": "https://www.lelo.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "tubegalore",
+  "type": "site",
+  "name": "TubeGalore",
+  "url": "https://www.tubegalore.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran multi-tube search index letting power users filter clips across dozens of mainstream tubes by length and source.",
+  "tags": [
+    "tube",
+    "search",
+    "meta"
+  ],
+  "ranking_rationale": "Excellent multi-tube duration and date filtering; weighed against acts as an index rather than first-party host.",
+  "pricing": {
+    "model": "Free meta-tube index",
+    "free_tier": "Free indexing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Excellent multi-tube duration and date filtering",
+    "Links straight to source players cleanly",
+    "Minimal bloat vs typical tube dumps"
+  ],
+  "cons": [
+    "Acts as an index rather than first-party host",
+    "Visual style feels classic Web 2.0"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tubegalore.webp",
+    "alt": "TubeGalore logo and brand card",
+    "source_url": "https://www.tubegalore.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.tubegalore.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube index",
+      "source_url": "https://www.tubegalore.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tubegalore.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tubegalore.com",
+      "source_url": "https://www.tubegalore.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "zak-spears",
+  "type": "star",
+  "name": "Zak Spears",
+  "url": "https://en.wikipedia.org/wiki/Zak_Spears",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Zak Spears is an American gay pornographic film actor. Spears appeared in the feature film The Doom Generation (1995) using his real name, Khristofor Rossianov.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/zak-spears.jpg",
+    "alt": "SFW portrait of Zak Spears",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zak_Spears.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Chicago, Illinois",
+      "source_url": "https://en.wikipedia.org/wiki/Zak_Spears",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Spears appeared in the feature film The Doom Generation (1995) using his real name, Khristofor Rossianov.",
+      "source_url": "https://en.wikipedia.org/wiki/Zak_Spears",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Spears also appeared in the black comedy feature film Forgiving the Franklins (2006) under the name Khris Scaramanga.",
+      "source_url": "https://en.wikipedia.org/wiki/Zak_Spears",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

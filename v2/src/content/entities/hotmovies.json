@@ -1,0 +1,78 @@
+{
+  "slug": "hotmovies",
+  "type": "site",
+  "name": "HotMovies",
+  "url": "https://www.hotmovies.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Minute-billing legal VOD theater housing 300k+ scenes across thousands of classic and modern adult studios.",
+  "tags": [
+    "vod",
+    "studio",
+    "premium"
+  ],
+  "ranking_rationale": "Huge cross-studio library without multi-site subs; weighed against old visual theme.",
+  "pricing": {
+    "model": "Prepaid streaming minutes",
+    "free_tier": "Free trailers and galleries",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Huge cross-studio library without multi-site subs",
+    "Minute-wallet never expires",
+    "Detailed scene time-stamps before paying"
+  ],
+  "cons": [
+    "Old visual theme",
+    "New releases carry higher minute multipliers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hotmovies.webp",
+    "alt": "HotMovies logo and brand card",
+    "source_url": "https://www.hotmovies.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Legal VOD Storefront",
+      "source_url": "https://www.hotmovies.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Prepaid streaming minutes",
+      "source_url": "https://www.hotmovies.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.hotmovies.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hotmovies.com",
+      "source_url": "https://www.hotmovies.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

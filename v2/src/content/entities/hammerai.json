@@ -10,11 +10,11 @@
   ],
   "summary": "Friendly desktop and web character chat client emphasizing 100% private in-browser/Ollama local model execution with free uncensored roleplay.",
   "tags": [
-    "nsfw",
     "privacy",
     "local",
     "chat",
-    "free"
+    "free",
+    "nsfw"
   ],
   "ranking_rationale": "Easier on-ramp to local uncensored character chat than SillyTavern + KoboldCpp, delivering privacy and free tiers without terminal tinkering.",
   "pricing": {

@@ -1,0 +1,79 @@
+{
+  "slug": "metartx",
+  "type": "site",
+  "name": "MetArtX",
+  "url": "https://www.metartx.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-art glamour and explicit erotica imprint inside the MetArt Network blending crisp photography with intense couples sets.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "4k"
+  ],
+  "ranking_rationale": "Signature MetArt cinematography pushed further; weighed against requires total bundle to unlock all sister sites.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Signature MetArt cinematography pushed further",
+    "Full 4K videos + hi-res editorial stills",
+    "Zero artificial studio sets"
+  ],
+  "cons": [
+    "Requires Total bundle to unlock all sister sites",
+    "Selective niche cast"
+  ],
+  "image": {
+    "src": "/media/entities/sites/metartx.webp",
+    "alt": "MetArtX logo and brand card",
+    "source_url": "https://www.metartx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.metartx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.metartx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.metartx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "metartx.com",
+      "source_url": "https://www.metartx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

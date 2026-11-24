@@ -11,10 +11,10 @@
   ],
   "summary": "Character roleplay with a huge community library, a genuinely testable free tier (avatar generation included), tiered context, Semantic Memory 2.0, and paid TTS at the top tier.",
   "tags": [
-    "nsfw",
     "character chat",
     "roleplay",
-    "freemium"
+    "freemium",
+    "nsfw"
   ],
   "ranking_rationale": "Official plans-and-features support article documents the full tier table — context tokens, memory tools, image generation, TTS — and the subscribe page shows $5.95. The free tier includes avatar generation, so it can be evaluated before paying. Downweighted slightly by TTS being locked to the top tier and the absence of a currently supported native iOS app.",
   "pricing": {

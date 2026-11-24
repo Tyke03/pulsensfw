@@ -1,0 +1,79 @@
+{
+  "slug": "belami-online",
+  "type": "site",
+  "name": "BelAmi Online",
+  "url": "https://www.belamionline.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "George Duroy's Bratislava-founded prestige studio famed for cinematic European photography and three decades of classics.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "Art-house European cinematography and timeless models; weighed against standalone pricing is steep without annual discount.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Art-house European cinematography and timeless models",
+    "Deep archival vault plus modern 4K sets",
+    "Clean member UI"
+  ],
+  "cons": [
+    "Standalone pricing is steep without annual discount",
+    "Specific twink/athletic house look"
+  ],
+  "image": {
+    "src": "/media/entities/sites/belami-online.webp",
+    "alt": "BelAmi Online logo and brand card",
+    "source_url": "https://www.belamionline.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.belamionline.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.belamionline.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.belamionline.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "belamionline.com",
+      "source_url": "https://www.belamionline.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

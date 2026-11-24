@@ -1,0 +1,78 @@
+{
+  "slug": "bdsmlr",
+  "type": "site",
+  "name": "BDSMLR",
+  "url": "https://bdsmlr.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Tumblr-style adult microblogging platform created after 2018 bans—hosting rebloggable fetish photography, GIFs, and caps.",
+  "tags": [
+    "niche",
+    "fetish",
+    "erotica"
+  ],
+  "ranking_rationale": "Classic dashboard reblog flow similar to vintage NSFW Tumblr; weighed against noticeably slow page speed during peak traffic.",
+  "pricing": {
+    "model": "Free microblogging network",
+    "free_tier": "Free account & blogging",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Classic dashboard reblog flow similar to vintage NSFW Tumblr",
+    "Rich fetish, caption, and aesthetic niche blogs",
+    "No strict nudity purges"
+  ],
+  "cons": [
+    "Noticeably slow page speed during peak traffic",
+    "Dated search & moderation controls"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bdsmlr.webp",
+    "alt": "BDSMLR logo and brand card",
+    "source_url": "https://bdsmlr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://bdsmlr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free microblogging network",
+      "source_url": "https://bdsmlr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://bdsmlr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bdsmlr.com",
+      "source_url": "https://bdsmlr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

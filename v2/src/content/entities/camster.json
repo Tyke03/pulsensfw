@@ -1,0 +1,78 @@
+{
+  "slug": "camster",
+  "type": "site",
+  "name": "Camster",
+  "url": "https://www.camster.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Clean Streamate/white-label cam site focusing on fast mobile match filters and multi-category room cards.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows"
+  ],
+  "ranking_rationale": "Fast trait filtering and dark interface; weighed against mostly white-label performers.",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": "Free public preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Fast trait filtering and dark interface",
+    "Stable HD video frames",
+    "Zero login needed to preview"
+  ],
+  "cons": [
+    "Mostly white-label performers",
+    "Expensive private rates"
+  ],
+  "image": {
+    "src": "/media/entities/sites/camster.webp",
+    "alt": "Camster logo and brand card",
+    "source_url": "https://www.camster.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.camster.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.camster.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.camster.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "camster.com",
+      "source_url": "https://www.camster.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

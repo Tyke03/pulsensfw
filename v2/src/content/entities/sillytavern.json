@@ -8,10 +8,10 @@
   "monetization_methods": [],
   "summary": "Local-first LLM roleplay frontend for power users: total control over prompts, samplers, V2 character cards and lorebooks, plus any backend (local vLLM/Kobold/Oobabooga or OpenRouter/DeepSeek). Zero platform censorship because there is no platform server.",
   "tags": [
-    "nsfw",
     "local",
     "power user",
-    "free"
+    "free",
+    "nsfw"
   ],
   "ranking_rationale": "Strong sustained community backing across power-user forums and developer threads for total backend freedom, extensibility, and zero platform censorship. Steep setup curve and pay-as-you-go API costs are the main tradeoffs; ranked #1 for NSFW freedom, testability, and privacy.",
   "pricing": {

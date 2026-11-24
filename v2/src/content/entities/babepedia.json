@@ -1,0 +1,78 @@
+{
+  "slug": "babepedia",
+  "type": "site",
+  "name": "Babepedia",
+  "url": "https://www.babepedia.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Community-maintained visual encyclopedia indexing thousands of glamour models, OnlyFans stars, measurements, and aliases.",
+  "tags": [
+    "forums",
+    "database",
+    "performers"
+  ],
+  "ranking_rationale": "Huge active wiki of glamour and OnlyFans creator bios; weighed against standard sidebar ads.",
+  "pricing": {
+    "model": "Free ad-supported wiki",
+    "free_tier": "Full encyclopedia free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Huge active wiki of glamour and OnlyFans creator bios",
+    "Helpful social link & lookalike discovery",
+    "Free open community access"
+  ],
+  "cons": [
+    "Standard sidebar ads",
+    "Relies on volunteer moderation"
+  ],
+  "image": {
+    "src": "/media/entities/sites/babepedia.webp",
+    "alt": "Babepedia logo and brand card",
+    "source_url": "https://www.babepedia.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.babepedia.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported wiki",
+      "source_url": "https://www.babepedia.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.babepedia.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "babepedia.com",
+      "source_url": "https://www.babepedia.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

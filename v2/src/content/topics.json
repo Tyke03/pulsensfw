@@ -25,6 +25,21 @@
         "id": "couples",
         "label": "Couples",
         "description": "Pairs with a point of view and a back catalog."
+      },
+      {
+        "id": "icons",
+        "label": "Hall of Fame",
+        "description": "Inducted legends, classic icons, and multi-decade careers."
+      },
+      {
+        "id": "creators",
+        "label": "OnlyFans & Creators",
+        "description": "Independent subscription creators and direct-to-fan talent."
+      },
+      {
+        "id": "awards",
+        "label": "Award Winners",
+        "description": "Performers with verified AVN, XBIZ, XMA, or XRCO wins."
       }
     ]
   },

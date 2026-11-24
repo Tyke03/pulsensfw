@@ -1,0 +1,78 @@
+{
+  "slug": "penthouse-gold",
+  "type": "site",
+  "name": "Penthouse Gold",
+  "url": "https://penthousegold.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Official digital archive and studio hub for Penthouse Pets—pairing classic pictorials with solo and hardcore video.",
+  "tags": [
+    "premium",
+    "studio",
+    "glamour"
+  ],
+  "ranking_rationale": "Decades of iconic Penthouse Pet glamour archives; weighed against ui feels slower than aylo/gamma networks.",
+  "pricing": {
+    "model": "Studio & archive subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Decades of iconic Penthouse Pet glamour archives",
+    "Clean softcore + hardcore split filters",
+    "Hi-res magazine spreads included"
+  ],
+  "cons": [
+    "UI feels slower than Aylo/Gamma networks",
+    "Mixed modern video volume"
+  ],
+  "image": {
+    "src": "/media/entities/sites/penthouse-gold.webp",
+    "alt": "Penthouse Gold logo and brand card",
+    "source_url": "https://penthousegold.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://penthousegold.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio & archive subscription",
+      "source_url": "https://penthousegold.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://penthousegold.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "penthousegold.com",
+      "source_url": "https://penthousegold.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

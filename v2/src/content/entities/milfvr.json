@@ -1,0 +1,81 @@
+{
+  "slug": "milfvr",
+  "type": "site",
+  "name": "MilfVR",
+  "url": "https://www.milfvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Leading mature-niche VR specialist crafting sharp 7K/8K stereoscopic POV scenarios with veteran industry icons.",
+  "tags": [
+    "vr",
+    "studio",
+    "premium",
+    "streaming"
+  ],
+  "ranking_rationale": "Clean sharp 7K/8K stereoscopic optics and close framing; weighed against standalone membership repeats virtualrealporn style sets.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR",
+    "PSVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Clean sharp 7K/8K stereoscopic optics and close framing",
+    "Standout mature star cast",
+    "DeoVR / SLR + direct MP4 downloads"
+  ],
+  "cons": [
+    "Standalone membership repeats VirtualRealPorn style sets",
+    "Scripts stick to classic tropes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/milfvr.webp",
+    "alt": "MilfVR logo and brand card",
+    "source_url": "https://www.milfvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://www.milfvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://www.milfvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR, PSVR",
+      "source_url": "https://www.milfvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "milfvr.com",
+      "source_url": "https://www.milfvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

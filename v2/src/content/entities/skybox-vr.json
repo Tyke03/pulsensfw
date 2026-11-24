@@ -1,0 +1,79 @@
+{
+  "slug": "skybox-vr",
+  "type": "game",
+  "name": "SKYBOX VR Player",
+  "url": "https://skybox.xyz",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Ultra-sleek VR theater player supporting SMB/DLNA local network PC streaming, crisp 8K 180° playback, and IMAX environments.",
+  "tags": [
+    "vr",
+    "headsets",
+    "player"
+  ],
+  "ranking_rationale": "Seamless local SMB/AirScreen Wi-Fi streaming without transferring 20GB files; weighed against lacks native slr/deovr interactive script-sync server out of box.",
+  "pricing": {
+    "model": "Paid headset app ($9.99)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Meta Quest",
+    "PCVR",
+    "PICO"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Seamless local SMB/AirScreen Wi-Fi streaming without transferring 20GB files",
+    "Silky smooth 8K hardware decode on Quest 3",
+    "Clean modern cinema UI"
+  ],
+  "cons": [
+    "Lacks native SLR/DeoVR interactive script-sync server out of box",
+    "One-time Quest store purchase"
+  ],
+  "image": {
+    "src": "/media/entities/games/skybox-vr.webp",
+    "alt": "SKYBOX VR Player logo and brand card",
+    "source_url": "https://skybox.xyz",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://skybox.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid headset app ($9.99)",
+      "source_url": "https://skybox.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Meta Quest, PCVR, PICO",
+      "source_url": "https://skybox.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "skybox.xyz",
+      "source_url": "https://skybox.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

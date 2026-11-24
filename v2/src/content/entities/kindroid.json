@@ -10,10 +10,10 @@
   ],
   "summary": "Build-your-own companion with Cascaded Memory, voice calls, voice/video calls, selfies, and video avatars. The free tier is gone; everything now runs through subscriptions and metered credits.",
   "tags": [
-    "nsfw",
     "companion",
     "memory",
-    "voice"
+    "voice",
+    "nsfw"
   ],
   "ranking_rationale": "First-party docs (updated Oct 13, 2026) verify adult roleplay permission, multimedia generation, voice, and a layered memory system across web, iOS, and Android. Cheapest monthly web price could not be verified — App Store shows an unqualified $15.99 SKU — so it ranks on documented features, not on price.",
   "pricing": {

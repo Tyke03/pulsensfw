@@ -1,0 +1,79 @@
+{
+  "slug": "helix-studios",
+  "type": "site",
+  "name": "Helix Studios",
+  "url": "https://www.helixstudios.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Modern California gay studio known for high-key daylight cinematography, youthful story themes, and smooth 4K streams.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "4k"
+  ],
+  "ranking_rationale": "Clean daylight aesthetics and crisp audio; weighed against narrow single-aesthetic niche.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Clean daylight aesthetics and crisp audio",
+    "Zero shady popups inside member hub",
+    "Consistent weekly scenes"
+  ],
+  "cons": [
+    "Narrow single-aesthetic niche",
+    "Standalone site fee"
+  ],
+  "image": {
+    "src": "/media/entities/sites/helix-studios.webp",
+    "alt": "Helix Studios logo and brand card",
+    "source_url": "https://www.helixstudios.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.helixstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.helixstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.helixstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "helixstudios.com",
+      "source_url": "https://www.helixstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

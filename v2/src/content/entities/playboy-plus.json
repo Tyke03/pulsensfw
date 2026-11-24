@@ -1,0 +1,79 @@
+{
+  "slug": "playboy-plus",
+  "type": "site",
+  "name": "Playboy Plus",
+  "url": "https://www.playboyplus.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Playboy's signature high-art nude photography and softcore video portal spanning modern Playmates and archival legends.",
+  "tags": [
+    "premium",
+    "studio",
+    "glamour",
+    "art"
+  ],
+  "ranking_rationale": "Museum-grade art nude editorial photography; weighed against strictly nude/softcore pictorials (no hardcore).",
+  "pricing": {
+    "model": "Glamour subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Museum-grade art nude editorial photography",
+    "Deep Playmate vault from 1953 to present",
+    "Ad-free gallery browser"
+  ],
+  "cons": [
+    "Strictly nude/softcore pictorials (no hardcore)",
+    "Moderate monthly update pace"
+  ],
+  "image": {
+    "src": "/media/entities/sites/playboy-plus.webp",
+    "alt": "Playboy Plus logo and brand card",
+    "source_url": "https://www.playboyplus.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.playboyplus.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Glamour subscription",
+      "source_url": "https://www.playboyplus.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.playboyplus.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "playboyplus.com",
+      "source_url": "https://www.playboyplus.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

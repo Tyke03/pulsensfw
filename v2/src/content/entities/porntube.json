@@ -1,0 +1,78 @@
+{
+  "slug": "porntube",
+  "type": "site",
+  "name": "PornTube",
+  "url": "https://www.porntube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Established multi-category free tube pairing clean dark layouts with studio channels and curated playlists.",
+  "tags": [
+    "tube",
+    "streaming",
+    "hd"
+  ],
+  "ranking_rationale": "Sleek modern dark layout with hover previews; weighed against moderate banner promos.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Full free library with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Sleek modern dark layout with hover previews",
+    "Solid channel and pornstar pages",
+    "Consistent HD playback speeds"
+  ],
+  "cons": [
+    "Moderate banner promos",
+    "Smaller niche archive than XHamster"
+  ],
+  "image": {
+    "src": "/media/entities/sites/porntube.webp",
+    "alt": "PornTube logo and brand card",
+    "source_url": "https://www.porntube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.porntube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.porntube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.porntube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "porntube.com",
+      "source_url": "https://www.porntube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

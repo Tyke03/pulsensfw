@@ -10,10 +10,10 @@
   ],
   "summary": "Fast mobile-first character chat app (formerly Poly.AI) offering vast user character libraries and voice modes with looser adult filters in Passion mode.",
   "tags": [
-    "nsfw",
     "chat",
     "character chat",
-    "mobile"
+    "mobile",
+    "nsfw"
   ],
   "ranking_rationale": "Fast snappy mobile apps on iOS and Android; weighed against aggressive in-app coins/premium upsell popups.",
   "pricing": {

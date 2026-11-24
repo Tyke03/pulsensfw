@@ -1,0 +1,78 @@
+{
+  "slug": "sweet-sinner",
+  "type": "site",
+  "name": "Sweet Sinner",
+  "url": "https://www.sweetsinner.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Jacky St. James's signature romance drama imprint prioritizing believable dialogue, marriage plots, and real tension.",
+  "tags": [
+    "premium",
+    "studio",
+    "story"
+  ],
+  "ranking_rationale": "Best traditional dramatic romance plotting in adult; weighed against slower build-ups before sex scenes.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Best traditional dramatic romance plotting in adult",
+    "Great veteran actors and ensemble casts",
+    "Part of Mile High / Adult Time hubs"
+  ],
+  "cons": [
+    "Slower build-ups before sex scenes",
+    "Smaller standalone catalog"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sweet-sinner.webp",
+    "alt": "Sweet Sinner logo and brand card",
+    "source_url": "https://www.sweetsinner.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.sweetsinner.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.sweetsinner.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sweetsinner.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sweetsinner.com",
+      "source_url": "https://www.sweetsinner.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

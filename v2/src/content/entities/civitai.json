@@ -10,11 +10,11 @@
   ],
   "summary": "The central hub for open-source Stable Diffusion, Flux, SDXL, and video LoRA weights plus a browser Buzz-based cloud image & video generator.",
   "tags": [
-    "nsfw",
     "image",
     "image generation",
     "models",
-    "community"
+    "community",
+    "nsfw"
   ],
   "ranking_rationale": "Indispensable community index for open AI image checkpoints, LoRAs, and prompts—even if on-site generator Buzz rules and payment compliance tighten periodically.",
   "pricing": {

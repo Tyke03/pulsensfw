@@ -1,0 +1,78 @@
+{
+  "slug": "aebn",
+  "type": "site",
+  "name": "AEBN VOD",
+  "url": "https://straight.aebn.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Adult Entertainment Broadcast Network—the legacy industry backbone for pay-per-minute scenes and VR/straight/gay VOD.",
+  "tags": [
+    "vod",
+    "studio",
+    "premium"
+  ],
+  "ranking_rationale": "Vast multi-studio catalog going back decades; weighed against browser ui is functional but dated.",
+  "pricing": {
+    "model": "Pay-per-minute streaming credits",
+    "free_tier": "Free previews & scene timelines",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Vast multi-studio catalog going back decades",
+    "Pay strictly for minutes actually watched",
+    "Supports straight, gay, trans, and VR theaters"
+  ],
+  "cons": [
+    "Browser UI is functional but dated",
+    "Minute bundles cost more than flat-rate studio passes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/aebn.webp",
+    "alt": "AEBN VOD logo and brand card",
+    "source_url": "https://straight.aebn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Legal VOD Storefront",
+      "source_url": "https://straight.aebn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-per-minute streaming credits",
+      "source_url": "https://straight.aebn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://straight.aebn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "straight.aebn.com",
+      "source_url": "https://straight.aebn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

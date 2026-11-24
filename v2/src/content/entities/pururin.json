@@ -1,0 +1,78 @@
+{
+  "slug": "pururin",
+  "type": "site",
+  "name": "Pururin",
+  "url": "https://pururin.to",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-running clean dark-theme doujinshi archive featuring sharp scans, clear circle indexes, and fast image loading.",
+  "tags": [
+    "hentai",
+    "doujinshi",
+    "manga"
+  ],
+  "ranking_rationale": "Clean minimal UI without distracting side clutter; weighed against wait limits on zip downloads.",
+  "pricing": {
+    "model": "Free reader + VIP downloads",
+    "free_tier": "Online gallery reader free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Clean minimal UI without distracting side clutter",
+    "Strong tag & collection pages",
+    "Fast page preloading"
+  ],
+  "cons": [
+    "Wait limits on ZIP downloads",
+    "Occasional mirror/domain switches"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pururin.webp",
+    "alt": "Pururin logo and brand card",
+    "source_url": "https://pururin.to",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://pururin.to",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free reader + VIP downloads",
+      "source_url": "https://pururin.to",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pururin.to",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pururin.to",
+      "source_url": "https://pururin.to",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

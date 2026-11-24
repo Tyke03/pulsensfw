@@ -1,0 +1,64 @@
+{
+  "slug": "eva-henger",
+  "type": "star",
+  "name": "Éva Henger",
+  "url": "https://en.wikipedia.org/wiki/%C3%89va_Henger",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Éva Henger is an Italian-Hungarian actress, television personality, singer, model, internet personality, and former pornographic actress.",
+  "tags": [
+    "performer",
+    "former performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/eva-henger.jpg",
+    "alt": "SFW portrait of Éva Henger",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eva_Henger-65960.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "1986–present",
+      "source_url": "https://en.wikipedia.org/wiki/%C3%89va_Henger",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Győr, Győr–Moson–Sopron, Hungary",
+      "source_url": "https://en.wikipedia.org/wiki/%C3%89va_Henger",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Actress, television host, singer, showgirl, model, dancer, former pornographic actress",
+      "source_url": "https://en.wikipedia.org/wiki/%C3%89va_Henger",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

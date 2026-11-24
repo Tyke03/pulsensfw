@@ -1,0 +1,78 @@
+{
+  "slug": "slipshine",
+  "type": "site",
+  "name": "Slipshine",
+  "url": "https://www.slipshine.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Iconic 25-year indie webcomic collective publishing original creator-owned erotic comics from top indie cartoonists.",
+  "tags": [
+    "comics",
+    "western",
+    "indie"
+  ],
+  "ranking_rationale": "Genuine creator-owned indie webcomics (no slop); weighed against small release stream.",
+  "pricing": {
+    "model": "Webcomic subscription",
+    "free_tier": "Preview strips free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Genuine creator-owned indie webcomics (no slop)",
+    "Long continuous runs and anthology stories",
+    "Direct support to artists"
+  ],
+  "cons": [
+    "Small release stream",
+    "Dated 2000s-era archive layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/slipshine.webp",
+    "alt": "Slipshine logo and brand card",
+    "source_url": "https://www.slipshine.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.slipshine.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Webcomic subscription",
+      "source_url": "https://www.slipshine.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.slipshine.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "slipshine.net",
+      "source_url": "https://www.slipshine.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

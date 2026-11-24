@@ -11,10 +11,10 @@
   ],
   "summary": "Unfiltered character chat with a large community card library and a testable free tier, currently held off our recommended list over reported billing, cancellation, and privacy red flags.",
   "tags": [
-    "nsfw",
     "character chat",
     "roleplay",
-    "freemium"
+    "freemium",
+    "nsfw"
   ],
   "ranking_rationale": "First-party pricing documents unlimited access to designated free models, 100 monthly credits, 8K free memory, and a $5.99 monthly Standard plan. Despite testable free access, reported cancellation friction, non-refundable terms, processor churn, and heavy tracker counts keep it off our recommended Top 10.",
   "pricing": {

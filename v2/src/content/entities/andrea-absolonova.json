@@ -1,0 +1,64 @@
+{
+  "slug": "andrea-absolonova",
+  "type": "star",
+  "name": "Andrea Absolonová",
+  "url": "https://en.wikipedia.org/wiki/Andrea_Absolonov%C3%A1",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Andrea Absolonová (26 December 1976 – 9 December 2004), also known by the pseudonym Lea De Mae, was a Czech diver and a member of the Czech high diving national team, later an adult model and pornographic actress. She died from brain cancer on 9 December 2004, at the age of 27.",
+  "tags": [
+    "performer",
+    "former performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/andrea-absolonova.jpg",
+    "alt": "SFW portrait of Andrea Absolonová",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lea_De_Mae_2.JPG",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "1990–1999 (diving), 1999–2004 (pornography)",
+      "source_url": "https://en.wikipedia.org/wiki/Andrea_Absolonov%C3%A1",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Prague, Czechoslovakia",
+      "source_url": "https://en.wikipedia.org/wiki/Andrea_Absolonov%C3%A1",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Diving, Pornographic actress, Model",
+      "source_url": "https://en.wikipedia.org/wiki/Andrea_Absolonov%C3%A1",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

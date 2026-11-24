@@ -67,7 +67,7 @@
     },
     {
       "key": "Modding",
-      "value": "Self-contained .var community package manager via VaM Hub",
+      "value": "Self-contained.var community package manager via VaM Hub",
       "source_url": "https://hub.virtamate.com",
       "checked": "2026-11-23",
       "evidence_type": "first_party"
