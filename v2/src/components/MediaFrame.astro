@@ -1,0 +1,34 @@
+---
+import CoverPlate from './CoverPlate.astro';
+import Icon from './Icon.astro';
+import type { MediaView, TopicId } from '../lib/content/types';
+
+interface Props {
+  media: MediaView;
+  topic: TopicId;
+  uid: string;
+}
+const { media, topic, uid } = Astro.props;
+const isPortrait = topic === 'stars';
+const hasFileSrc = (media.state === 'file' || media.state === 'explicit' || media.state === 'withheld') && Boolean(media.src);
+---
+<div class:list={['media', isPortrait && 'media--portrait']}>
+  {media.state === 'plate' && <CoverPlate plate={media.plate} topic={media.topic} alt={media.alt} uid={uid} />}
+  {media.state === 'file' && hasFileSrc && <img src={media.src} alt={media.alt} width="1200" height="750" loading="eager" />}
+  {media.state === 'explicit' && hasFileSrc && <img src={media.src} alt={media.alt} width="1200" height="750" loading="eager" />}
+  {media.state === 'withheld' && (
+    <>
+      {hasFileSrc && <img src={media.src} alt="" width="1200" height="750" loading="eager" />}
+      <div class="withheld">
+        <div class="withheld-full">
+          <p>Available in NSFW mode</p>
+          <button class="c-btn c-btn--primary c-btn--small" type="submit" form="nsfw-toggle">Enable NSFW</button>
+        </div>
+        <button class="withheld-compact" type="submit" form="nsfw-toggle" title="Available in NSFW mode" aria-label="Available in NSFW mode. Enable NSFW">
+          <Icon name="eye" size={18} />
+          <span>NSFW</span>
+        </button>
+      </div>
+    </>
+  )}
+</div>

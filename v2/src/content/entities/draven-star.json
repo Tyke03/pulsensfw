@@ -1,0 +1,63 @@
+{
+  "slug": "draven-star",
+  "type": "star",
+  "name": "Draven Star",
+  "url": "http://www.wikidata.org/entity/Q52563316",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Draven Star — American pornographic actress. Industry career documented from 2009.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/draven-star.jpg",
+    "alt": "SFW portrait of Draven Star",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Draven_Star_at_AVN_Adult_Entertainment_Expo_2016_(25571843251).jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q52563316 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q52563316",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2009–present",
+      "source_url": "http://www.wikidata.org/entity/Q52563316",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1988",
+      "source_url": "http://www.wikidata.org/entity/Q52563316",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

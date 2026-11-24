@@ -1,0 +1,63 @@
+{
+  "slug": "wendy-whoppers",
+  "type": "star",
+  "name": "Wendy Whoppers",
+  "url": "http://www.wikidata.org/entity/Q526558",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Wendy Whoppers — American feature dancer and pornographic actress (b. 1970). Industry career documented from 1992.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/wendy-whoppers.jpg",
+    "alt": "SFW portrait of Wendy Whoppers",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wendy_Whoppers_Tiger.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q526558 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q526558",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1970",
+      "source_url": "http://www.wikidata.org/entity/Q526558",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1992–present",
+      "source_url": "http://www.wikidata.org/entity/Q526558",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

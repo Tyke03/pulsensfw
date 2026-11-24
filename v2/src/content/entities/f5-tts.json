@@ -1,0 +1,80 @@
+{
+  "slug": "f5-tts",
+  "type": "ai_app",
+  "name": "F5-TTS",
+  "url": "https://github.com/SWivid/F5-TTS",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "High-fidelity open-source flow-matching zero-shot text-to-speech & voice-cloning engine running locally with Gradio UI.",
+  "tags": [
+    "local",
+    "voice",
+    "open-source",
+    "offline"
+  ],
+  "ranking_rationale": "Crisp zero-shot voice matching from a short clean reference audio clip (trade-off: needs ~4–6GB VRAM for snappy real-time sentence streaming).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free MIT license",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Crisp zero-shot voice matching from a short clean reference audio clip",
+    "100% local MIT-licensed execution without cloud voice bans",
+    "Includes built-in Gradio studio & API"
+  ],
+  "cons": [
+    "Needs ~4–6GB VRAM for snappy real-time sentence streaming",
+    "Occasional pacing artifacts on very long emotional paragraphs"
+  ],
+  "image": {
+    "src": "/media/entities/ai/f5-tts.webp",
+    "alt": "F5-TTS logo and brand card",
+    "source_url": "https://github.com/SWivid/F5-TTS",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/SWivid/F5-TTS",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/SWivid/F5-TTS",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS",
+      "source_url": "https://github.com/SWivid/F5-TTS",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/SWivid/F5-TTS",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

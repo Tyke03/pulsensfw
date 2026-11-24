@@ -1,0 +1,72 @@
+{
+  "slug": "mick-blue",
+  "type": "star",
+  "name": "Mick Blue",
+  "url": "https://en.wikipedia.org/wiki/Mick_Blue",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mick Blue is an Austrian adult entertainer and adult film director. He has won over 25 awards including the 2015 and 2017 AVN Award for Male Performer of the Year and the XBIZ Award for Male Performer of the Year in 2022.",
+  "tags": [
+    "performer",
+    "hall of fame",
+    "awards",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/mick-blue.jpg",
+    "alt": "SFW portrait of Mick Blue",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mick_Blue_2015.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Graz, Austria",
+      "source_url": "https://en.wikipedia.org/wiki/Mick_Blue",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "He has won over 25 awards including the 2015 and 2017 AVN Award for Male Performer of the Year and the XBIZ Award for Male Performer of the Year in 2022.",
+      "source_url": "https://en.wikipedia.org/wiki/Mick_Blue",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "He was inducted into the AVN Hall of Fame in 2017.",
+      "source_url": "https://en.wikipedia.org/wiki/Mick_Blue",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1976",
+      "source_url": "http://www.wikidata.org/entity/Q86123",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

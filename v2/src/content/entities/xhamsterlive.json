@@ -1,0 +1,79 @@
+{
+  "slug": "xhamsterlive",
+  "type": "site",
+  "name": "xHamsterLive",
+  "url": "https://xhamsterlive.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Full-featured live cam powerhouse powered by Stripchat's tech stack—linking huge traffic, Lovense toy sync, and HD streams.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens",
+    "hd"
+  ],
+  "ranking_rationale": "Enormous 24/7 global room count across every niche; weighed against aggressive token upsells inside top rooms.",
+  "pricing": {
+    "model": "Tokens & private shows",
+    "free_tier": "Free public room streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Enormous 24/7 global room count across every niche",
+    "Crisp 1080p streams & built-in Lovense interactive tipping",
+    "Clean dark-mode mobile grid"
+  ],
+  "cons": [
+    "Aggressive token upsells inside top rooms",
+    "Shares underlying performers with Stripchat"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xhamsterlive.webp",
+    "alt": "xHamsterLive logo and brand card",
+    "source_url": "https://xhamsterlive.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://xhamsterlive.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & private shows",
+      "source_url": "https://xhamsterlive.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://xhamsterlive.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xhamsterlive.com",
+      "source_url": "https://xhamsterlive.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "spizoo",
+  "type": "site",
+  "name": "Spizoo",
+  "url": "https://www.spizoo.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "4K mainstream network combining Spizoo Originals, Raw Attack, and VIP star showcases in crisp modern players.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k"
+  ],
+  "ranking_rationale": "Solid multi-studio 4K streaming library; weighed against generic studio premises.",
+  "pricing": {
+    "model": "Studio network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Solid multi-studio 4K streaming library",
+    "Fast mobile player & downloadable scenes",
+    "Good promo deals on annual billing"
+  ],
+  "cons": [
+    "Generic studio premises",
+    "Standard retention billing friction"
+  ],
+  "image": {
+    "src": "/media/entities/sites/spizoo.webp",
+    "alt": "Spizoo logo and brand card",
+    "source_url": "https://www.spizoo.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.spizoo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio network subscription",
+      "source_url": "https://www.spizoo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.spizoo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "spizoo.com",
+      "source_url": "https://www.spizoo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

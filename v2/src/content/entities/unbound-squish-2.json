@@ -1,0 +1,78 @@
+{
+  "slug": "unbound-squish-2",
+  "type": "product",
+  "name": "Unbound Squish II",
+  "url": "https://unboundbabes.com/products/squish",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Plush ultra-soft silicone palm vibrator flexing smoothly against external anatomy with whisper-quiet rumbles under $55.",
+  "tags": [
+    "vibrator",
+    "quiet",
+    "budget",
+    "waterproof"
+  ],
+  "ranking_rationale": "Remarkably pillowy squishy texture avoids hard-plastic jabbing (trade-off: gentle clitoral rumble rather than deep penetrating wand power).",
+  "pricing": {
+    "model": "Hardware purchase (~$49)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Remarkably pillowy squishy texture avoids hard-plastic jabbing",
+    "Budget friendly ~$49 price with discreet waterproof travel build",
+    "Simple intuitive two-button speeds"
+  ],
+  "cons": [
+    "Gentle clitoral rumble rather than deep penetrating wand power",
+    "Modest ~60-minute runtime"
+  ],
+  "image": {
+    "src": "/media/entities/products/unbound-squish-2.webp",
+    "alt": "Unbound Squish II logo and brand card",
+    "source_url": "https://unboundbabes.com/products/squish",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://unboundbabes.com/products/squish",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$49)",
+      "source_url": "https://unboundbabes.com/products/squish",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://unboundbabes.com/products/squish",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "unboundbabes.com",
+      "source_url": "https://unboundbabes.com/products/squish",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

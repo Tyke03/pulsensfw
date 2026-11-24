@@ -1,0 +1,78 @@
+{
+  "slug": "lelo-ora-3",
+  "type": "product",
+  "name": "LELO ORA 3",
+  "url": "https://www.lelo.com/ora-3",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Sculpted luxury rotating PreMotion stimulator blending an internal spinning silicone bead beneath supple velvety skin.",
+  "tags": [
+    "vibrator",
+    "luxury",
+    "waterproof",
+    "quiet"
+  ],
+  "ranking_rationale": "Unique smooth circular PreMotion orb simulates gentle oral circling unlike buzzing tips (trade-off: fixed rotating orb takes careful angling with plenty of water-based lube).",
+  "pricing": {
+    "model": "Hardware purchase (~$179)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Unique smooth circular PreMotion orb simulates gentle oral circling unlike buzzing tips",
+    "Heirloom waterproof LELO craftsmanship and sleek grip loop",
+    "Whisper quiet motor operation"
+  ],
+  "cons": [
+    "Fixed rotating orb takes careful angling with plenty of water-based lube",
+    "Steep $179 boutique price"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-ora-3.webp",
+    "alt": "LELO ORA 3 logo and brand card",
+    "source_url": "https://www.lelo.com/ora-3",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lelo.com/ora-3",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$179)",
+      "source_url": "https://www.lelo.com/ora-3",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.lelo.com/ora-3",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lelo.com",
+      "source_url": "https://www.lelo.com/ora-3",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

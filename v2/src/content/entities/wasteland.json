@@ -1,0 +1,79 @@
+{
+  "slug": "wasteland",
+  "type": "site",
+  "name": "Wasteland",
+  "url": "https://www.wasteland.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "One of the internet's pioneering consensual BDSM & fetish multimedia archives since 1995—combining studio bondage films, stories & photo vaults.",
+  "tags": [
+    "premium",
+    "studio",
+    "bdsm",
+    "erotica"
+  ],
+  "ranking_rationale": "30-year historic BDSM multimedia library uniting films, audio, erotica & tutorials, weighed against dated 2000s interface & mixed SD/HD archival footage.",
+  "pricing": {
+    "model": "BDSM archive subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "30-year historic BDSM multimedia library uniting films, audio, erotica & tutorials",
+    "Authentically rooted in consensual kink community culture",
+    "Huge archival breadth"
+  ],
+  "cons": [
+    "Dated 2000s interface & mixed SD/HD archival footage",
+    "Slower modern 4K output"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wasteland.webp",
+    "alt": "Wasteland logo and brand card",
+    "source_url": "https://www.wasteland.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.wasteland.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "BDSM archive subscription",
+      "source_url": "https://www.wasteland.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.wasteland.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wasteland.com",
+      "source_url": "https://www.wasteland.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

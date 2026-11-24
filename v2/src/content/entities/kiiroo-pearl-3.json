@@ -1,0 +1,81 @@
+{
+  "slug": "kiiroo-pearl-3",
+  "type": "product",
+  "name": "Kiiroo Pearl 3",
+  "url": "https://www.kiiroo.com/products/pearl3",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Touch-sensitive interactive G-spot rabbit vibe pairing seamlessly over the web with partner Keon strokers for long-distance physical feel.",
+  "tags": [
+    "app",
+    "couples",
+    "smart-app",
+    "haptics"
+  ],
+  "ranking_rationale": "Touch-sensor ring sends live stroke intensity directly to a partner's Kiiroo Keon; weighed against short external clitoral tickler arm doesn't reach every anatomy cleanly.",
+  "pricing": {
+    "model": "Hardware purchase (~$179)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "PC/VR",
+    "Standalone"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Touch-sensor ring sends live stroke intensity directly to a partner's Kiiroo Keon",
+    "Supports 2D/VR FeelConnect sync and cam rooms cleanly",
+    "Ergonomic 4-pattern + manual slide controls"
+  ],
+  "cons": [
+    "Short external clitoral tickler arm doesn't reach every anatomy cleanly",
+    "Plastic touch handle feels stiff beside full-silicone LELOs"
+  ],
+  "image": {
+    "src": "/media/entities/products/kiiroo-pearl-3.webp",
+    "alt": "Kiiroo Pearl 3 logo and brand card",
+    "source_url": "https://www.kiiroo.com/products/pearl3",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.kiiroo.com/products/pearl3",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$179)",
+      "source_url": "https://www.kiiroo.com/products/pearl3",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, PC/VR, Standalone",
+      "source_url": "https://www.kiiroo.com/products/pearl3",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kiiroo.com",
+      "source_url": "https://www.kiiroo.com/products/pearl3",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

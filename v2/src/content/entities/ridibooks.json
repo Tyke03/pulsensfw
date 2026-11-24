@@ -1,0 +1,80 @@
+{
+  "slug": "ridibooks",
+  "type": "site",
+  "name": "RIDI",
+  "url": "https://ridibooks.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "South Korea's colossal digital bookstore & webtoon hub publishing thousands of top adult 19+ webnovels and uncut manhwa adaptations.",
+  "tags": [
+    "hentai",
+    "comics",
+    "manhwa",
+    "stories"
+  ],
+  "ranking_rationale": "Unrivaled legal digital vault combining both original 19+ webnovels AND manhwa (trade-off: primarily Korean-language catalog).",
+  "pricing": {
+    "model": "Per-episode & ebook purchases",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Unrivaled legal digital vault combining both original 19+ webnovels AND manhwa",
+    "Razor-sharp viewer and DRM-smooth library tracking",
+    "Supports major romance/BL/adult categories cleanly"
+  ],
+  "cons": [
+    "Primarily Korean-language catalog",
+    "19+ catalog requires adult verification checks"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ridibooks.webp",
+    "alt": "RIDI logo and brand card",
+    "source_url": "https://ridibooks.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://ridibooks.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-episode & ebook purchases",
+      "source_url": "https://ridibooks.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://ridibooks.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ridibooks.com",
+      "source_url": "https://ridibooks.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

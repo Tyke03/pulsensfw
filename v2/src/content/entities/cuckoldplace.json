@@ -1,0 +1,77 @@
+{
+  "slug": "cuckoldplace",
+  "type": "site",
+  "name": "CuckoldPlace",
+  "url": "https://www.cuckoldplace.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran couples-focused lifestyle forum and user-submitted media community centered around hotwife and cuckold dynamics.",
+  "tags": [
+    "niche",
+    "community",
+    "couples"
+  ],
+  "ranking_rationale": "Active authentic amateur couples blogs & photo threads; weighed against early-2000s vbulletin design.",
+  "pricing": {
+    "model": "Free forum + VIP supporter",
+    "free_tier": "Free forum reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Active authentic amateur couples blogs & photo threads",
+    "Detailed real-world advice discussions",
+    "Free open forum browsing"
+  ],
+  "cons": [
+    "Early-2000s vBulletin design",
+    "Mix of authentic couples and roleplay fantasies"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cuckoldplace.webp",
+    "alt": "CuckoldPlace logo and brand card",
+    "source_url": "https://www.cuckoldplace.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.cuckoldplace.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free forum + VIP supporter",
+      "source_url": "https://www.cuckoldplace.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.cuckoldplace.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cuckoldplace.com",
+      "source_url": "https://www.cuckoldplace.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

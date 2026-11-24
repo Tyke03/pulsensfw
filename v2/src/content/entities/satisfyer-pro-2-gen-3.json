@@ -1,0 +1,80 @@
+{
+  "slug": "satisfyer-pro-2-gen-3",
+  "type": "product",
+  "name": "Satisfyer Pro 2 Gen 3 Connect",
+  "url": "https://us.satisfyer.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Upgraded Gen 3 edition pairing classic iconic Satisfyer air-pulse waves with Liquid Air cap AND Bluetooth app pattern programming under $60.",
+  "tags": [
+    "air-pulse",
+    "app",
+    "waterproof",
+    "budget"
+  ],
+  "ranking_rationale": "Unbeatable value uniting contactless air-pulse suction, Liquid membrane tip & Bluetooth app (trade-off: app UX lacks deep cam-tipping ecosystem of Lovense).",
+  "pricing": {
+    "model": "Hardware purchase (~$55)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Standalone"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Unbeatable value uniting contactless air-pulse suction, Liquid membrane tip & Bluetooth app",
+    "Sub-10-second pairing opens infinite custom vibration patterns",
+    "100% waterproof & magnetic USB recharge"
+  ],
+  "cons": [
+    "App UX lacks deep cam-tipping ecosystem of Lovense",
+    "Louder motor pitch above level 7 than Dame Aer"
+  ],
+  "image": {
+    "src": "/media/entities/products/satisfyer-pro-2-gen-3.webp",
+    "alt": "Satisfyer Pro 2 Gen 3 Connect logo and brand card",
+    "source_url": "https://us.satisfyer.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://us.satisfyer.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$55)",
+      "source_url": "https://us.satisfyer.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Standalone",
+      "source_url": "https://us.satisfyer.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "us.satisfyer.com",
+      "source_url": "https://us.satisfyer.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

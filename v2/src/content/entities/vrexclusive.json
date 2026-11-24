@@ -1,0 +1,80 @@
+{
+  "slug": "vrexclusive",
+  "type": "site",
+  "name": "VRExclusive",
+  "url": "https://vrexclusive.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "European stereoscopic VR studio producing natural-light solo and POV couples scenes in downloadable 6K/8K formats.",
+  "tags": [
+    "vr",
+    "studio",
+    "european",
+    "streaming"
+  ],
+  "ranking_rationale": "Clean European natural-light VR cinematography, weighed against smaller catalog than CzechVR or VRBangers.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Clean European natural-light VR cinematography",
+    "DRM-free multi-resolution headset downloads",
+    "Simple ad-free member library"
+  ],
+  "cons": [
+    "Smaller catalog than CzechVR or VRBangers",
+    "Infrequent updates"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrexclusive.webp",
+    "alt": "VRExclusive logo and brand card",
+    "source_url": "https://vrexclusive.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://vrexclusive.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://vrexclusive.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://vrexclusive.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrexclusive.com",
+      "source_url": "https://vrexclusive.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

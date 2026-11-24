@@ -1,0 +1,78 @@
+{
+  "slug": "hardx",
+  "type": "site",
+  "name": "Hard X",
+  "url": "https://www.hardx.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Mason's pure raw gonzo powerhouse famous for sleek monochrome/clean studio sets, A-list stars, and intense chemistry.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo"
+  ],
+  "ranking_rationale": "Mason's razor-sharp camera focus without fake acting; weighed against zero storyline plots.",
+  "pricing": {
+    "model": "Studio subscription (O.L. / Adult Time)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Mason's razor-sharp camera focus without fake acting",
+    "Top-shelf American stars performing at peak energy",
+    "Uncut raw dialogue and sound"
+  ],
+  "cons": [
+    "Zero storyline plots",
+    "Standalone site narrower than Adult Time bundle"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hardx.webp",
+    "alt": "Hard X logo and brand card",
+    "source_url": "https://www.hardx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.hardx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription (O.L. / Adult Time)",
+      "source_url": "https://www.hardx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.hardx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hardx.com",
+      "source_url": "https://www.hardx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "mia-isabella",
+  "type": "star",
+  "name": "Mia Isabella",
+  "url": "https://en.wikipedia.org/wiki/Mia_Isabella",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mia Isabella is an American transgender retired pornographic film actress.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/mia-isabella.jpg",
+    "alt": "SFW portrait of Mia Isabella",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mia_Isabella_2011_AVN.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Chicago, Illinois, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Mia_Isabella",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic film actress",
+      "source_url": "https://en.wikipedia.org/wiki/Mia_Isabella",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1985",
+      "source_url": "http://www.wikidata.org/entity/Q18044188",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

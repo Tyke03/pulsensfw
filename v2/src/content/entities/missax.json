@@ -1,0 +1,78 @@
+{
+  "slug": "missax",
+  "type": "site",
+  "name": "MissaX",
+  "url": "https://www.missax.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Independent taboo drama studio praised for intense psychological tension, sharp dialogue, and authentic star acting.",
+  "tags": [
+    "premium",
+    "studio",
+    "story"
+  ],
+  "ranking_rationale": "Compelling dramatic storylines rarely seen in mainstream porn; weighed against heavy taboo plot themes aren't for light viewing.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Compelling dramatic storylines rarely seen in mainstream porn",
+    "Includes AllHerLuv sister library in bundles",
+    "Strong female creative direction"
+  ],
+  "cons": [
+    "Heavy taboo plot themes aren't for light viewing",
+    "Modest monthly release count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/missax.webp",
+    "alt": "MissaX logo and brand card",
+    "source_url": "https://www.missax.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.missax.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.missax.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.missax.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "missax.com",
+      "source_url": "https://www.missax.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

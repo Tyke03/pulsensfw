@@ -1,0 +1,79 @@
+{
+  "slug": "hegre",
+  "type": "site",
+  "name": "Hegre.com",
+  "url": "https://www.hegre.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Petter Hegre's celebrated nude art, tantric massage, and erotic yoga studio filmed with museum-grade medium-format clarity.",
+  "tags": [
+    "niche",
+    "art",
+    "yoga",
+    "massage"
+  ],
+  "ranking_rationale": "Extraordinary fine-art lighting, color, and nude portraiture; weighed against premium subscription cost is high for non-explicit nudity.",
+  "pricing": {
+    "model": "Art membership subscription",
+    "free_tier": "Free photo previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Extraordinary fine-art lighting, color, and nude portraiture",
+    "Unique focus on tantric massage and body positivity",
+    "Clean distraction-free design"
+  ],
+  "cons": [
+    "Premium subscription cost is high for non-explicit nudity",
+    "Niche artistic pacing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hegre.webp",
+    "alt": "Hegre.com logo and brand card",
+    "source_url": "https://www.hegre.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.hegre.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Art membership subscription",
+      "source_url": "https://www.hegre.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.hegre.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hegre.com",
+      "source_url": "https://www.hegre.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

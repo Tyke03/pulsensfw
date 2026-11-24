@@ -1,0 +1,79 @@
+{
+  "slug": "evenicle",
+  "type": "game",
+  "name": "Evenicle",
+  "url": "https://store.steampowered.com/app/955560/Evenicle/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "AliceSoft's massive 60-hour adventure RPG officially localized in English—combining light-hearted harem humor with genuinely solid JRPG exploration.",
+  "tags": [
+    "games",
+    "jrpg",
+    "anime",
+    "pc"
+  ],
+  "ranking_rationale": "True full-scale world-map JRPG campaign lasting 50–60+ hours; weighed against aging 2015 ui aspect & repetitive late-game random encounters.",
+  "pricing": {
+    "model": "One-time Steam purchase (~$45)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.4,
+  "pros": [
+    "True full-scale world-map JRPG campaign lasting 50–60+ hours",
+    "Clean official Steam localization preserving original uncensored scenes",
+    "Memorable party comedy and boss battles"
+  ],
+  "cons": [
+    "Aging 2015 UI aspect & repetitive late-game random encounters",
+    "Steeper base RPG price (~$45 retail)"
+  ],
+  "image": {
+    "src": "/media/entities/games/evenicle.webp",
+    "alt": "Evenicle logo and brand card",
+    "source_url": "https://store.steampowered.com/app/955560/Evenicle/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/955560/Evenicle/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$45)",
+      "source_url": "https://store.steampowered.com/app/955560/Evenicle/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Steam",
+      "source_url": "https://store.steampowered.com/app/955560/Evenicle/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/955560/Evenicle/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "cazzofilm",
+  "type": "site",
+  "name": "Cazzo Film",
+  "url": "https://www.cazzofilm.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Historic Berlin all-male erotica studio acclaimed for gritty artistic realism, authentic everyday German performers, and cultural cinema awards.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "Genuine indie European grit—lightyears removed from glossy plastic studios; weighed against raw vintage video aesthetic divides clean-glamour viewers.",
+  "pricing": {
+    "model": "Studio pass & VOD",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Genuine indie European grit—lightyears removed from glossy plastic studios",
+    "30+ year catalog directed by Jörg Andreas and Jurgen Bruning",
+    "Minimalist ad-free archival store"
+  ],
+  "cons": [
+    "Raw vintage video aesthetic divides clean-glamour viewers",
+    "Pay-per-film/bundle pricing rather than endless streaming"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cazzofilm.webp",
+    "alt": "Cazzo Film logo and brand card",
+    "source_url": "https://www.cazzofilm.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.cazzofilm.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio pass & VOD",
+      "source_url": "https://www.cazzofilm.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.cazzofilm.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cazzofilm.com",
+      "source_url": "https://www.cazzofilm.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

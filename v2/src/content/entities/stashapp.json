@@ -1,0 +1,81 @@
+{
+  "slug": "stashapp",
+  "type": "site",
+  "name": "Stash",
+  "url": "https://stashapp.cc",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Self-hosted open-source personal adult video organizer, studio/star metadata scraper, and DeoVR/HereSphere library server—the Plex of NSFW.",
+  "tags": [
+    "forums",
+    "database",
+    "open-source",
+    "tools"
+  ],
+  "ranking_rationale": "Completely private local self-hosted organizer linking seamlessly with ThePornDB & Funscripts; weighed against requires basic local docker or desktop install.",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free local software",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Docker"
+  ],
+  "score": 9.3,
+  "pros": [
+    "Completely private local self-hosted organizer linking seamlessly with ThePornDB & Funscripts",
+    "Auto-tags performers, scenes, markers & previews at lightning speed",
+    "Vibrant plugin ecosystem & totally free"
+  ],
+  "cons": [
+    "Requires basic local Docker or desktop install",
+    "Large local video collections still require your own storage/files"
+  ],
+  "image": {
+    "src": "/media/entities/sites/stashapp.webp",
+    "alt": "Stash logo and brand card",
+    "source_url": "https://stashapp.cc",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://stashapp.cc",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://stashapp.cc",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Docker",
+      "source_url": "https://stashapp.cc",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "stashapp.cc",
+      "source_url": "https://stashapp.cc",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "wowgirls",
+  "type": "site",
+  "name": "WowGirls",
+  "url": "https://www.wowgirls.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "European beauty & natural erotic studio blending soft-lit solo masturbation, girl-girl pairings, and glamour sets.",
+  "tags": [
+    "premium",
+    "studio",
+    "solo"
+  ],
+  "ranking_rationale": "High-res photo + 4K video pairings; weighed against overlaps heavily with teendreams/ultrafilms styles.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "High-res photo + 4K video pairings",
+    "Natural European aesthetics",
+    "Clean player and fast downloads"
+  ],
+  "cons": [
+    "Overlaps heavily with TeenDreams/UltraFilms styles",
+    "Higher monthly fee without multi-month promo"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wowgirls.webp",
+    "alt": "WowGirls logo and brand card",
+    "source_url": "https://www.wowgirls.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.wowgirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.wowgirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.wowgirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wowgirls.com",
+      "source_url": "https://www.wowgirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

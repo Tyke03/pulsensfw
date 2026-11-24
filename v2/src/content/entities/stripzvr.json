@@ -1,0 +1,80 @@
+{
+  "slug": "stripzvr",
+  "type": "site",
+  "name": "StripzVR",
+  "url": "https://www.stripzvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Boutique European 8K VR studio crafted entirely around intimate solo stripteases, eye-contact dances, and lingerie showcases.",
+  "tags": [
+    "vr",
+    "studio",
+    "solo",
+    "glamour"
+  ],
+  "ranking_rationale": "Best-in-class intimate solo lap-dance framing in 8K VR (trade-off: strictly solo non-explicit/glamour striptease format).",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Best-in-class intimate solo lap-dance framing in 8K VR",
+    "Zero noisy dialogue—pure music, atmosphere, and eye contact",
+    "Fast DeoVR & direct MP4 file downloads"
+  ],
+  "cons": [
+    "Strictly solo non-explicit/glamour striptease format",
+    "Niche small release catalog"
+  ],
+  "image": {
+    "src": "/media/entities/sites/stripzvr.webp",
+    "alt": "StripzVR logo and brand card",
+    "source_url": "https://www.stripzvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://www.stripzvr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://www.stripzvr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://www.stripzvr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "stripzvr.com",
+      "source_url": "https://www.stripzvr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

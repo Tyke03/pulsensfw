@@ -1,0 +1,78 @@
+{
+  "slug": "thinkdiffusion",
+  "type": "ai_app",
+  "name": "ThinkDiffusion",
+  "url": "https://www.thinkdiffusion.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Managed private cloud GPU workstations booting pre-configured Automatic1111, Forge, ComfyUI & Kohya desktops straight inside your browser.",
+  "tags": [
+    "cloud",
+    "gpu",
+    "image",
+    "privacy"
+  ],
+  "ranking_rationale": "Full private local-style ComfyUI / Forge / Kohya desktop in browser with persistent storage—zero Linux setup (trade-off: hourly cloud workstation billing requires remembering to shut down timers).",
+  "pricing": {
+    "model": "Hourly cloud workstation",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Full private local-style ComfyUI / Forge / Kohya desktop in browser with persistent storage—zero Linux setup",
+    "100% private workspace: load any Civitai/HuggingFace checkpoint or LoRA with zero content filters",
+    "Spin up 16GB–48GB GPUs on demand"
+  ],
+  "cons": [
+    "Hourly cloud workstation billing requires remembering to shut down timers",
+    "Higher hourly rate than raw DIY RunPod/Vast containers"
+  ],
+  "image": {
+    "src": "/media/entities/ai/thinkdiffusion.webp",
+    "alt": "ThinkDiffusion logo and brand card",
+    "source_url": "https://www.thinkdiffusion.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://www.thinkdiffusion.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hourly cloud workstation",
+      "source_url": "https://www.thinkdiffusion.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.thinkdiffusion.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "thinkdiffusion.com",
+      "source_url": "https://www.thinkdiffusion.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

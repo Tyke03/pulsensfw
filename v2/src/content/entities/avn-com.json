@@ -1,0 +1,78 @@
+{
+  "slug": "avn-com",
+  "type": "site",
+  "name": "AVN",
+  "url": "https://avn.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Adult Video News—historic trade magazine, Hall of Fame custodian, studio review source, and performer filmography index.",
+  "tags": [
+    "forums",
+    "database",
+    "performers"
+  ],
+  "ranking_rationale": "Authoritative industry Hall of Fame & annual AVN Awards source; weighed against older dense magazine navigation.",
+  "pricing": {
+    "model": "Free editorial + trade news",
+    "free_tier": "Full reviews, news & indexes free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Authoritative industry Hall of Fame & annual AVN Awards source",
+    "Detailed star bios, interviews & studio reviews",
+    "Reliable factual press baseline"
+  ],
+  "cons": [
+    "Older dense magazine navigation",
+    "Banner promos for AVN Stars/Expo"
+  ],
+  "image": {
+    "src": "/media/entities/sites/avn-com.webp",
+    "alt": "AVN logo and brand card",
+    "source_url": "https://avn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://avn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free editorial + trade news",
+      "source_url": "https://avn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://avn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "avn.com",
+      "source_url": "https://avn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

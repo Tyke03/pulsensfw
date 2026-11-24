@@ -1,0 +1,78 @@
+{
+  "slug": "harmony-films",
+  "type": "site",
+  "name": "Harmony Films",
+  "url": "https://www.harmonyvision.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Acclaimed British-European hardcore studio blending London/Prague location shoots, stylized fetish wardrobe, and international stars.",
+  "tags": [
+    "premium",
+    "studio",
+    "european"
+  ],
+  "ranking_rationale": "Distinct high-energy UK/European direction pairing glossy fetish styling with top talent, weighed against dated portal layout.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Distinct high-energy UK/European direction pairing glossy fetish styling with top talent",
+    "Full DVD movie streams and scene downloads",
+    "Strong multi-decade European star roster"
+  ],
+  "cons": [
+    "Dated portal layout",
+    "Slower release cadence than Aylo networks"
+  ],
+  "image": {
+    "src": "/media/entities/sites/harmony-films.webp",
+    "alt": "Harmony Films logo and brand card",
+    "source_url": "https://www.harmonyvision.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.harmonyvision.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.harmonyvision.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.harmonyvision.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "harmonyvision.com",
+      "source_url": "https://www.harmonyvision.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

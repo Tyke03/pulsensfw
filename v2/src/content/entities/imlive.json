@@ -1,0 +1,78 @@
+{
+  "slug": "imlive",
+  "type": "site",
+  "name": "ImLive",
+  "url": "https://www.imlive.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running private & group cam site featuring multi-host rooms, voice calls, and loyalty discount promotions.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows"
+  ],
+  "ranking_rationale": "Active private/group chat rooms and audio options; weighed against aged visual design.",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": "Free lobby preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Active private/group chat rooms and audio options",
+    "Veteran stable platform since 2002",
+    "Regular first-time credit promos"
+  ],
+  "cons": [
+    "Aged visual design",
+    "Aggressive checkout upsell banners"
+  ],
+  "image": {
+    "src": "/media/entities/sites/imlive.webp",
+    "alt": "ImLive logo and brand card",
+    "source_url": "https://www.imlive.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.imlive.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.imlive.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.imlive.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "imlive.com",
+      "source_url": "https://www.imlive.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

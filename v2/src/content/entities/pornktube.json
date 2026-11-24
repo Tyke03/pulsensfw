@@ -1,0 +1,78 @@
+{
+  "slug": "pornktube",
+  "type": "site",
+  "name": "PornKTube",
+  "url": "https://www.pornktube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast straightforward free HD porn tube indexing full-length and promo clips with clean duration sorting and mobile playback.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Clean responsive dark video grid (trade-off: standard banner ads).",
+  "pricing": {
+    "model": "Free HD tube",
+    "free_tier": "Free streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Clean responsive dark video grid",
+    "Reliable HTML5 mobile streaming",
+    "Simple duration & HD filters"
+  ],
+  "cons": [
+    "Standard banner ads",
+    "Smaller archive than top-10 mega-tubes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pornktube.webp",
+    "alt": "PornKTube logo and brand card",
+    "source_url": "https://www.pornktube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.pornktube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free HD tube",
+      "source_url": "https://www.pornktube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.pornktube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornktube.com",
+      "source_url": "https://www.pornktube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "monica-rise",
+  "type": "star",
+  "name": "Monica Rise",
+  "url": "http://www.wikidata.org/entity/Q53953639",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Monica Rise — American pornographic actress.",
+  "tags": [
+    "performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/monica-rise.jpg",
+    "alt": "SFW portrait of Monica Rise",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Monica_Rise_-_AVN_Expo_%26_AVN_Awards_(8393217127).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q53953639 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q53953639",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q53953639",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1992",
+      "source_url": "http://www.wikidata.org/entity/Q53953639",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "vicki-richter",
+  "type": "star",
+  "name": "Vicki Richter",
+  "url": "http://www.wikidata.org/entity/Q453573",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Vicki Richter — American pornographic actress (b. 1977). Industry career documented from 2001.",
+  "tags": [
+    "performer",
+    "veteran",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/vicki-richter.jpg",
+    "alt": "SFW portrait of Vicki Richter",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vicki_Richter.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q453573 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q453573",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1977",
+      "source_url": "http://www.wikidata.org/entity/Q453573",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2001–present",
+      "source_url": "http://www.wikidata.org/entity/Q453573",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

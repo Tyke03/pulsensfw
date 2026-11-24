@@ -1,0 +1,81 @@
+{
+  "slug": "sunrider-liberation-day",
+  "type": "game",
+  "name": "Sunrider: Liberation Day",
+  "url": "https://store.steampowered.com/app/358750/Sunrider_Liberation_Day/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Turn-based hex-grid space-opera mecha tactical RPG blending Battleship command warfare with sharp anime bridge-crew banter.",
+  "tags": [
+    "games",
+    "strategy",
+    "visual-novel",
+    "pc"
+  ],
+  "ranking_rationale": "Deep challenging turn-based flagship & mecha grid combat worthy of non-adult tactics games (trade-off: notoriously demanding tactical difficulty spikes require careful mech positioning).",
+  "pricing": {
+    "model": "One-time Steam purchase (~$25)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Deep challenging turn-based flagship & mecha grid combat worthy of non-adult tactics games",
+    "Charismatic voice-acted sci-fi ensemble and dramatic war stakes",
+    "Seamless free Steam uncensored restoration DLC"
+  ],
+  "cons": [
+    "Notoriously demanding tactical difficulty spikes require careful mech positioning",
+    "Heavy text dialogue blocks between fleet battles"
+  ],
+  "image": {
+    "src": "/media/entities/games/sunrider-liberation-day.webp",
+    "alt": "Sunrider: Liberation Day logo and brand card",
+    "source_url": "https://store.steampowered.com/app/358750/Sunrider_Liberation_Day/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/358750/Sunrider_Liberation_Day/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$25)",
+      "source_url": "https://store.steampowered.com/app/358750/Sunrider_Liberation_Day/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/358750/Sunrider_Liberation_Day/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/358750/Sunrider_Liberation_Day/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

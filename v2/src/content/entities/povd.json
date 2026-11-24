@@ -1,0 +1,79 @@
+{
+  "slug": "povd",
+  "type": "site",
+  "name": "POVD",
+  "url": "https://www.povd.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Dedicated high-frame-rate 4K point-of-view showcase studio from the PornPros/Teamskeet family pairing crisp close-focus optics with top US talent.",
+  "tags": [
+    "premium",
+    "studio",
+    "pov",
+    "4k"
+  ],
+  "ranking_rationale": "Razor-sharp 60fps 4K eye-level POV cinematography, weighed against single-camera POV angle across all scenes.",
+  "pricing": {
+    "model": "4K POV studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Razor-sharp 60fps 4K eye-level POV cinematography",
+    "Strong North American breakout & starlet lineup",
+    "Fast clean responsive streaming player & downloads"
+  ],
+  "cons": [
+    "Single-camera POV angle across all scenes",
+    "Best value bundled inside multi-site network pass"
+  ],
+  "image": {
+    "src": "/media/entities/sites/povd.webp",
+    "alt": "POVD logo and brand card",
+    "source_url": "https://www.povd.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.povd.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "4K POV studio pass",
+      "source_url": "https://www.povd.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.povd.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "povd.com",
+      "source_url": "https://www.povd.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

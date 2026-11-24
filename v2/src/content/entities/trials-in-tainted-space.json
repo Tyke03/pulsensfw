@@ -1,0 +1,82 @@
+{
+  "slug": "trials-in-tainted-space",
+  "type": "game",
+  "name": "Trials in Tainted Space",
+  "url": "https://www.fenoxo.com/play-games/tits/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fenoxo's colossal sci-fi open-world erotic text RPG featuring planets, deep character morphs, and millions of branching prose words.",
+  "tags": [
+    "games",
+    "text-rpg",
+    "sci-fi",
+    "free"
+  ],
+  "ranking_rationale": "Unmatched encyclopedic depth of character customization and side quests; weighed against minimal static portraits—95% prose text reading.",
+  "pricing": {
+    "model": "100% free + Patreon supporters",
+    "free_tier": "Complete game free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Unmatched encyclopedic depth of character customization and side quests",
+    "100% free browser & offline HTML release with endless replayability",
+    "Frequent active writer updates"
+  ],
+  "cons": [
+    "Minimal static portraits—95% prose text reading",
+    "Overwhelming stat mechanics initially"
+  ],
+  "image": {
+    "src": "/media/entities/games/trials-in-tainted-space.webp",
+    "alt": "Trials in Tainted Space logo and brand card",
+    "source_url": "https://www.fenoxo.com/play-games/tits/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://www.fenoxo.com/play-games/tits/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free + Patreon supporters",
+      "source_url": "https://www.fenoxo.com/play-games/tits/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, macOS, Linux, Android",
+      "source_url": "https://www.fenoxo.com/play-games/tits/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fenoxo.com",
+      "source_url": "https://www.fenoxo.com/play-games/tits/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

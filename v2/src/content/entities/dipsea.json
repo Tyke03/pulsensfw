@@ -1,0 +1,79 @@
+{
+  "slug": "dipsea",
+  "type": "site",
+  "name": "Dipsea",
+  "url": "https://www.dipseastories.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Studio-produced sensual audio stories, sleep sessions, and romantic roleplay voice experiences designed with theatrical soundscapes.",
+  "tags": [
+    "erotica",
+    "audio",
+    "subscription"
+  ],
+  "ranking_rationale": "High-production voice acting and immersive spatial audio; weighed against strict subscription gate after brief trial.",
+  "pricing": {
+    "model": "Subscription app (annual / monthly)",
+    "free_tier": "Brief free trial",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.5,
+  "pros": [
+    "High-production voice acting and immersive spatial audio",
+    "Polished mobile app with offline listening",
+    "Thoughtful consent-forward writing across genders"
+  ],
+  "cons": [
+    "Strict subscription gate after brief trial",
+    "Lighter on raw hardcore explicitness"
+  ],
+  "image": {
+    "src": "/media/entities/sites/dipsea.webp",
+    "alt": "Dipsea logo and brand card",
+    "source_url": "https://www.dipseastories.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.dipseastories.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription app (annual / monthly)",
+      "source_url": "https://www.dipseastories.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.dipseastories.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dipseastories.com",
+      "source_url": "https://www.dipseastories.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

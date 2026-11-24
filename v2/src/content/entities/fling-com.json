@@ -1,0 +1,78 @@
+{
+  "slug": "fling-com",
+  "type": "site",
+  "name": "Fling.com",
+  "url": "https://www.fling.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Classic casual personals & photo-share network geared toward local hookups, amateur sexting, and kink tags.",
+  "tags": [
+    "niche",
+    "dating",
+    "casual"
+  ],
+  "ranking_rationale": "Simple fast explicit-friendly photo profile galleries; weighed against heavy automated flirt-bot messaging prompts for free profiles.",
+  "pricing": {
+    "model": "Membership tiers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.0,
+  "pros": [
+    "Simple fast explicit-friendly photo profile galleries",
+    "Large historical casual hookup index",
+    "Works straight in mobile browser"
+  ],
+  "cons": [
+    "Heavy automated flirt-bot messaging prompts for free profiles",
+    "Aggressive renewal upsells"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fling-com.webp",
+    "alt": "Fling.com logo and brand card",
+    "source_url": "https://www.fling.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.fling.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Membership tiers",
+      "source_url": "https://www.fling.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.fling.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fling.com",
+      "source_url": "https://www.fling.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "lelo-tiani-harmony",
+  "type": "product",
+  "name": "LELO TIANI Harmony",
+  "url": "https://www.lelo.com/tiani-harmony",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Dual-motor hinged couples C-ring vibrator pairing simultaneous internal/external rumble with Bluetooth smartphone pattern control.",
+  "tags": [
+    "couples",
+    "app",
+    "waterproof",
+    "luxury"
+  ],
+  "ranking_rationale": "Smooth adjustable hinge accommodates diverse partner anatomy comfortably (trade-off: Bluetooth signal drops slightly when fully covered between two bodies).",
+  "pricing": {
+    "model": "Hardware purchase (~$189)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Smooth adjustable hinge accommodates diverse partner anatomy comfortably",
+    "Two synchronized motors transmit deep vibration to both partners",
+    "IPX7 waterproof & silky medical silicone"
+  ],
+  "cons": [
+    "Bluetooth signal drops slightly when fully covered between two bodies",
+    "Premium ~$189 retail price"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-tiani-harmony.webp",
+    "alt": "LELO TIANI Harmony logo and brand card",
+    "source_url": "https://www.lelo.com/tiani-harmony",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lelo.com/tiani-harmony",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$189)",
+      "source_url": "https://www.lelo.com/tiani-harmony",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone, iOS, Android",
+      "source_url": "https://www.lelo.com/tiani-harmony",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lelo.com",
+      "source_url": "https://www.lelo.com/tiani-harmony",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

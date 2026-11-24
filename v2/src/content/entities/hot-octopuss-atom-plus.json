@@ -1,0 +1,78 @@
+{
+  "slug": "hot-octopuss-atom-plus",
+  "type": "product",
+  "name": "Hot Octopuss Atom Plus",
+  "url": "https://www.hotoctopuss.com/product/atom-plus/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Dual-motor stretchable couples vibrating ring combining strong external clitoral stimulation with base perineal Tremor rumble.",
+  "tags": [
+    "couples",
+    "wearable",
+    "quiet",
+    "waterproof"
+  ],
+  "ranking_rationale": "Dual opposing motors deliver crisp simultaneous sensations cleanly for both partners (trade-off: bulkier ring silhouette adds brief positioning learning curve).",
+  "pricing": {
+    "model": "Hardware purchase (~$119)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Dual opposing motors deliver crisp simultaneous sensations cleanly for both partners",
+    "Soft forgiving elastomer band fits comfortably without pinchy tightness",
+    "Includes remote control & 100% waterproof sealing"
+  ],
+  "cons": [
+    "Bulkier ring silhouette adds brief positioning learning curve",
+    "Slight charging dock alignment quirk"
+  ],
+  "image": {
+    "src": "/media/entities/products/hot-octopuss-atom-plus.webp",
+    "alt": "Hot Octopuss Atom Plus logo and brand card",
+    "source_url": "https://www.hotoctopuss.com/product/atom-plus/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.hotoctopuss.com/product/atom-plus/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$119)",
+      "source_url": "https://www.hotoctopuss.com/product/atom-plus/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.hotoctopuss.com/product/atom-plus/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hotoctopuss.com",
+      "source_url": "https://www.hotoctopuss.com/product/atom-plus/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

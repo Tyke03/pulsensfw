@@ -1,0 +1,62 @@
+{
+  "slug": "tayte-hanson",
+  "type": "star",
+  "name": "Tayte Hanson",
+  "url": "http://www.wikidata.org/entity/Q122844686",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Tayte Hanson — American pornographic actor.",
+  "tags": [
+    "performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/tayte-hanson.jpg",
+    "alt": "SFW portrait of Tayte Hanson",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tayte_Hanson_(26257522436).jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q122844686 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q122844686",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q122844686",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1989",
+      "source_url": "http://www.wikidata.org/entity/Q122844686",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

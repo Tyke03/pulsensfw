@@ -1,0 +1,78 @@
+{
+  "slug": "pornerbros",
+  "type": "site",
+  "name": "PornerBros",
+  "url": "https://www.pornerbros.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Cleanly laid-out free tube featuring crisp studio previews, pornstar tags, and quick mobile sorting.",
+  "tags": [
+    "tube",
+    "hd",
+    "mainstream"
+  ],
+  "ranking_rationale": "Uncluttered thumbnail grid; weighed against smaller community features.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Uncluttered thumbnail grid",
+    "Reliable adaptive bitrate streaming",
+    "Good length filtering"
+  ],
+  "cons": [
+    "Smaller community features",
+    "Mix of short promotional clips"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pornerbros.webp",
+    "alt": "PornerBros logo and brand card",
+    "source_url": "https://www.pornerbros.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.pornerbros.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.pornerbros.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.pornerbros.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornerbros.com",
+      "source_url": "https://www.pornerbros.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "mihiro-kaneko",
+  "type": "star",
+  "name": "Mihiro Kaneko",
+  "url": "https://en.wikipedia.org/wiki/Mihiro",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mihiro Kaneko — Japanese actress, tarento and AV idol.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/mihiro-kaneko.jpg",
+    "alt": "SFW portrait of Mihiro Kaneko",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fresh_Summer_Fes!!_Gold_Division_IMG_9094.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q1319455 (Japan)",
+      "source_url": "http://www.wikidata.org/entity/Q1319455",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Mihiro",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1982",
+      "source_url": "http://www.wikidata.org/entity/Q1319455",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

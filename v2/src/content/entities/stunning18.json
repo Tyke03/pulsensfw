@@ -1,0 +1,78 @@
+{
+  "slug": "stunning18",
+  "type": "site",
+  "name": "Stunning18",
+  "url": "https://www.stunning18.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Bright glamour solo & soft-lit showcase site inside MetArt / Nubiles-adjacent art-erotica circles.",
+  "tags": [
+    "premium",
+    "studio",
+    "glamour"
+  ],
+  "ranking_rationale": "High-res glamour photography sets paired with video; weighed against narrow aesthetic range.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "High-res glamour photography sets paired with video",
+    "Clean uncluttered gallery interface",
+    "No popups inside members portal"
+  ],
+  "cons": [
+    "Narrow aesthetic range",
+    "Light release tempo"
+  ],
+  "image": {
+    "src": "/media/entities/sites/stunning18.webp",
+    "alt": "Stunning18 logo and brand card",
+    "source_url": "https://www.stunning18.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.stunning18.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.stunning18.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.stunning18.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "stunning18.com",
+      "source_url": "https://www.stunning18.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

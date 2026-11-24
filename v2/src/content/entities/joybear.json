@@ -1,0 +1,79 @@
+{
+  "slug": "joybear",
+  "type": "site",
+  "name": "JoyBear Pictures",
+  "url": "https://www.joybear.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Award-winning British ethical erotica label blending sensual scripted vignettes, romantic humor, and natural UK/EU casts.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples",
+    "story"
+  ],
+  "ranking_rationale": "Charming British romance & witty realistic dialogue; weighed against small archival scene count.",
+  "pricing": {
+    "model": "Studio pass & film purchases",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Charming British romance & witty realistic dialogue",
+    "Ethical indie studio values",
+    "Clean direct DRM-free downloads"
+  ],
+  "cons": [
+    "Small archival scene count",
+    "Minimal updates per year"
+  ],
+  "image": {
+    "src": "/media/entities/sites/joybear.webp",
+    "alt": "JoyBear Pictures logo and brand card",
+    "source_url": "https://www.joybear.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.joybear.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio pass & film purchases",
+      "source_url": "https://www.joybear.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.joybear.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "joybear.com",
+      "source_url": "https://www.joybear.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

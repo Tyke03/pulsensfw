@@ -1,0 +1,79 @@
+{
+  "slug": "himeros-tv",
+  "type": "site",
+  "name": "Himeros.tv",
+  "url": "https://himeros.tv",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Conscious queer erotica pioneer created by Davey Wavey pairing intimate male passion, authentic communication & body positivity.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "story"
+  ],
+  "ranking_rationale": "Celebrates authentic emotional vulnerability, kissing & diverse male bodies, weighed against smaller catalog update volume than corporate studios.",
+  "pricing": {
+    "model": "Indie studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Celebrates authentic emotional vulnerability, kissing & diverse male bodies",
+    "Respectful behind-the-scenes conversations with cast",
+    "Clean ad-free indie cinema portal"
+  ],
+  "cons": [
+    "Smaller catalog update volume than corporate studios",
+    "Deliberate intimate pacing rather than rapid hardcore action"
+  ],
+  "image": {
+    "src": "/media/entities/sites/himeros-tv.webp",
+    "alt": "Himeros.tv logo and brand card",
+    "source_url": "https://himeros.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://himeros.tv",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Indie studio subscription",
+      "source_url": "https://himeros.tv",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://himeros.tv",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "himeros.tv",
+      "source_url": "https://himeros.tv",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "freshwomen",
+  "type": "game",
+  "name": "FreshWomen",
+  "url": "https://store.steampowered.com/app/1350650/FreshWomen/",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Massive-selling Steam adult college romance/mystery visual novel balancing crisp Unreal-grade lighting and branching routes.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "romance"
+  ],
+  "ranking_rationale": "Best-selling polished Steam launcher integration; weighed against season-by-season dlc pricing splits full story.",
+  "pricing": {
+    "model": "Steam release (Season 1 + DLC)",
+    "free_tier": "Free demo",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Steam"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Best-selling polished Steam launcher integration",
+    "Distinct personalities across female love interests",
+    "Frequent seasonal animation polish"
+  ],
+  "cons": [
+    "Season-by-season DLC pricing splits full story",
+    "Melodramatic college soap beats"
+  ],
+  "image": {
+    "src": "/media/entities/games/freshwomen.webp",
+    "alt": "FreshWomen logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1350650/FreshWomen/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1350650/FreshWomen/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Steam release (Season 1 + DLC)",
+      "source_url": "https://store.steampowered.com/app/1350650/FreshWomen/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Steam",
+      "source_url": "https://store.steampowered.com/app/1350650/FreshWomen/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1350650/FreshWomen/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "javdatabase",
+  "type": "site",
+  "name": "JAVDatabase",
+  "url": "https://www.javdatabase.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean, richly indexed English reference database tracking thousands of Japanese AV idols, release codes, studio labels, and biographies.",
+  "tags": [
+    "forums",
+    "database",
+    "jav"
+  ],
+  "ranking_rationale": "Clean modern English profiles solving broken Japanese idol transliterations (trade-off: contains display banner ads and affiliate VOD links).",
+  "pricing": {
+    "model": "Free reference database",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Clean modern English profiles solving broken Japanese idol transliterations",
+    "Helpful measurements, debut year, studio & co-star cross-links",
+    "Instant filter search by genre & idol"
+  ],
+  "cons": [
+    "Contains display banner ads and affiliate VOD links",
+    "Covers Japanese industry data only"
+  ],
+  "image": {
+    "src": "/media/entities/sites/javdatabase.webp",
+    "alt": "JAVDatabase logo and brand card",
+    "source_url": "https://www.javdatabase.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.javdatabase.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free reference database",
+      "source_url": "https://www.javdatabase.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.javdatabase.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "javdatabase.com",
+      "source_url": "https://www.javdatabase.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

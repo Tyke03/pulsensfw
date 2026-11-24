@@ -1,0 +1,78 @@
+{
+  "slug": "bondage-com",
+  "type": "site",
+  "name": "Bondage.com",
+  "url": "https://www.bondage.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-running BDSM and fetish social portal offering personals, photo blogs, fantasy groups, and instructional tips.",
+  "tags": [
+    "niche",
+    "bdsm",
+    "community"
+  ],
+  "ranking_rationale": "Established classic fetish social community with zero mainstream censorship, weighed against dated late-2000s visual design.",
+  "pricing": {
+    "model": "Freemium fetish community",
+    "free_tier": "Free profile browse & forums",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Established classic fetish social community with zero mainstream censorship",
+    "Free profile discovery and niche discussion rooms",
+    "Clear boundary tagging"
+  ],
+  "cons": [
+    "Dated late-2000s visual design",
+    "Premium VIP locks advanced DM filters"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bondage-com.webp",
+    "alt": "Bondage.com logo and brand card",
+    "source_url": "https://www.bondage.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.bondage.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium fetish community",
+      "source_url": "https://www.bondage.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bondage.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bondage.com",
+      "source_url": "https://www.bondage.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

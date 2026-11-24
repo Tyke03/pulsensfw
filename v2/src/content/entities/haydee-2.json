@@ -1,0 +1,79 @@
+{
+  "slug": "haydee-2",
+  "type": "game",
+  "name": "Haydee 2",
+  "url": "https://store.steampowered.com/app/1444650/Haydee_2/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Unforgiving retro-style Resident Evil / Metroidvania sci-fi facility puzzle shooter famed for huge Steam Workshop custom outfits & maps.",
+  "tags": [
+    "games",
+    "action",
+    "3d",
+    "pc"
+  ],
+  "ranking_rationale": "Brilliantly intricate interconnected sci-fi labyrinth puzzling and scarce-ammo tension (trade-off: zero handholding—punishing save rooms & maze difficulty overwhelm casual players).",
+  "pricing": {
+    "model": "One-time Steam purchase (~$25)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Brilliantly intricate interconnected sci-fi labyrinth puzzling and scarce-ammo tension",
+    "Colossal thriving Steam Workshop library of maps & character mods",
+    "Rock-solid native 60fps Engine"
+  ],
+  "cons": [
+    "Zero handholding—punishing save rooms & maze difficulty overwhelm casual players",
+    "Pure sci-fi survival puzzle game rather than dating narrative"
+  ],
+  "image": {
+    "src": "/media/entities/games/haydee-2.webp",
+    "alt": "Haydee 2 logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1444650/Haydee_2/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1444650/Haydee_2/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$25)",
+      "source_url": "https://store.steampowered.com/app/1444650/Haydee_2/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Steam",
+      "source_url": "https://store.steampowered.com/app/1444650/Haydee_2/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1444650/Haydee_2/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

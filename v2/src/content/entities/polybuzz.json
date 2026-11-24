@@ -1,0 +1,79 @@
+{
+  "slug": "polybuzz",
+  "type": "ai_app",
+  "name": "PolyBuzz",
+  "url": "https://www.polybuzz.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast mobile-first character chat app (formerly Poly.AI) offering vast user character libraries and voice modes with looser adult filters in Passion mode.",
+  "tags": [
+    "chat",
+    "character chat",
+    "mobile"
+  ],
+  "ranking_rationale": "Fast snappy mobile apps on iOS and Android; weighed against aggressive in-app coins/premium upsell popups.",
+  "pricing": {
+    "model": "Freemium subscription",
+    "free_tier": "Free character chat with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Fast snappy mobile apps on iOS and Android",
+    "Enormous anime/OC character catalog",
+    "Generous unlimited standard chat"
+  ],
+  "cons": [
+    "Aggressive in-app coins/premium upsell popups",
+    "Better models & longer memory locked behind steep subscriptions"
+  ],
+  "image": {
+    "src": "/media/entities/ai/polybuzz.webp",
+    "alt": "PolyBuzz logo and brand card",
+    "source_url": "https://www.polybuzz.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://www.polybuzz.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium subscription",
+      "source_url": "https://www.polybuzz.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.polybuzz.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "polybuzz.ai",
+      "source_url": "https://www.polybuzz.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

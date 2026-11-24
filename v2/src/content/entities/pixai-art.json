@@ -1,0 +1,80 @@
+{
+  "slug": "pixai-art",
+  "type": "ai_app",
+  "name": "PixAI.Art",
+  "url": "https://pixai.art",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Colossal anime-specialized cloud LoRA & Flux art generator loved by illustrators for effortless character consistency and daily credits.",
+  "tags": [
+    "image",
+    "anime",
+    "lora",
+    "cloud"
+  ],
+  "ranking_rationale": "Huge curated anime LoRA library with crisp prompt helpers; weighed against tightens mature/explicit filters under app store updates compared with civitai/local.",
+  "pricing": {
+    "model": "Freemium daily credits + Membership",
+    "free_tier": "Daily free check-in generation credits",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Huge curated anime LoRA library with crisp prompt helpers",
+    "Generous daily free check-in credits allow casual testing without a card",
+    "Fast cloud rendering"
+  ],
+  "cons": [
+    "Tightens mature/explicit filters under App Store updates compared with Civitai/local",
+    "Busy credit-upsell store banners"
+  ],
+  "image": {
+    "src": "/media/entities/ai/pixai-art.webp",
+    "alt": "PixAI.Art logo and brand card",
+    "source_url": "https://pixai.art",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://pixai.art",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium daily credits + Membership",
+      "source_url": "https://pixai.art",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://pixai.art",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pixai.art",
+      "source_url": "https://pixai.art",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

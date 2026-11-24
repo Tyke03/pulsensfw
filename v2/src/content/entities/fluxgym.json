@@ -1,0 +1,79 @@
+{
+  "slug": "fluxgym",
+  "type": "ai_app",
+  "name": "FluxGym",
+  "url": "https://github.com/cocktailpeanut/fluxgym",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Dead-simple local web UI squeezing clean FLUX.1 Dev LoRA training comfortably into 12GB consumer GPUs via Kohya scripts.",
+  "tags": [
+    "local",
+    "image",
+    "open-source",
+    "training"
+  ],
+  "ranking_rationale": "Makes training custom local Flux LoRAs approachable with automatic Florence-2 captioning, weighed against single-purpose Flux LoRA trainer (use SwarmUI/ComfyUI for actual generation).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free via Pinokio/Git",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Makes training custom local Flux LoRAs approachable with automatic Florence-2 captioning",
+    "Runs in 12GB–16GB consumer VRAM via memory quantization",
+    "100% offline local privacy"
+  ],
+  "cons": [
+    "Single-purpose Flux LoRA trainer (use SwarmUI/ComfyUI for actual generation)",
+    "Needs patience over multi-hour training loops on 12GB cards"
+  ],
+  "image": {
+    "src": "/media/entities/ai/fluxgym.webp",
+    "alt": "FluxGym logo and brand card",
+    "source_url": "https://github.com/cocktailpeanut/fluxgym",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/cocktailpeanut/fluxgym",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/cocktailpeanut/fluxgym",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/cocktailpeanut/fluxgym",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/cocktailpeanut/fluxgym",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

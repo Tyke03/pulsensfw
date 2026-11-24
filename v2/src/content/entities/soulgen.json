@@ -1,0 +1,71 @@
+{
+  "slug": "soulgen",
+  "type": "ai_app",
+  "name": "SoulGen",
+  "url": "https://www.soulgen.net",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Prompt-driven AI image generator focused on anime and photoreal adult character creation with lookalike tags and canvas outpainting tools.",
+  "tags": [
+    "image",
+    "image generation",
+    "generator"
+  ],
+  "ranking_rationale": "Approachable web UI for quick character image generation without managing local checkpoints; held back by credit paywalls and rigid likeness policies.",
+  "pricing": {
+    "model": "Subscription + generation credits",
+    "free_tier": "Trial preview heavily blurred/watermarked until paid plan",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check soulgen.net pricing page before checkout; pay attention to auto-renewal settings."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 6.7,
+  "pros": [
+    "No local GPU or ComfyUI workflow setup required",
+    "Handles both stylized anime and photorealistic presets cleanly",
+    "Includes simple canvas expand/outpaint and background edit sliders"
+  ],
+  "cons": [
+    "Free tier gates usable downloads behind subscription + credit top-ups",
+    "Far less customizable than local SDXL/Flux or Civitai LoRA workflows"
+  ],
+  "image": {
+    "src": "/media/entities/ai/soulgen.png",
+    "alt": "SoulGen logo and brand card",
+    "source_url": "https://www.soulgen.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cloud AI character image & anime generator",
+      "source_url": "https://www.soulgen.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Features",
+      "value": "Tag-driven character prompts, outpainting, and anime/real modes",
+      "source_url": "https://www.soulgen.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access",
+      "value": "Browser-based credit and subscription model",
+      "source_url": "https://www.soulgen.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

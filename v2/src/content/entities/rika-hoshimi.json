@@ -1,0 +1,63 @@
+{
+  "slug": "rika-hoshimi",
+  "type": "star",
+  "name": "Rika Hoshimi",
+  "url": "https://en.wikipedia.org/wiki/Rika_Hoshimi",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Rika Hoshimi is a Japanese former AV idol, gravure model and actress.",
+  "tags": [
+    "performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/rika-hoshimi.jpg",
+    "alt": "SFW portrait of Rika Hoshimi",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Virgin_concerto_20191005_161233.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Numazu, Shizuoka, Japan",
+      "source_url": "https://en.wikipedia.org/wiki/Rika_Hoshimi",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Rika Hoshimi",
+      "source_url": "https://en.wikipedia.org/wiki/Rika_Hoshimi",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1990",
+      "source_url": "http://www.wikidata.org/entity/Q7334000",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

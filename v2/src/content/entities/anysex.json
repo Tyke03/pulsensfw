@@ -1,0 +1,78 @@
+{
+  "slug": "anysex",
+  "type": "site",
+  "name": "AnySex",
+  "url": "https://anysex.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran compact free tube focused on lightweight loading across low-bandwidth desktop and phone browsers.",
+  "tags": [
+    "tube",
+    "mainstream",
+    "streaming"
+  ],
+  "ranking_rationale": "Tiny fast-loading pages; weighed against legacy 2010s look.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.0,
+  "pros": [
+    "Tiny fast-loading pages",
+    "Zero login walls",
+    "Simple straightforward categories"
+  ],
+  "cons": [
+    "Legacy 2010s look",
+    "Mix of low-res classic uploads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/anysex.webp",
+    "alt": "AnySex logo and brand card",
+    "source_url": "https://anysex.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://anysex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://anysex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://anysex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "anysex.com",
+      "source_url": "https://anysex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

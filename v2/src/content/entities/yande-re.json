@@ -1,0 +1,77 @@
+{
+  "slug": "yande-re",
+  "type": "site",
+  "name": "yande.re",
+  "url": "https://yande.re",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Classic high-resolution anime & game-book CG scan booru famed for lossless ultra-HD artbook scans and wallpaper PNGs.",
+  "tags": [
+    "comics",
+    "hentai",
+    "booru"
+  ],
+  "ranking_rationale": "Best source specifically for lossless artbook scans and huge PNGs; weighed against niche focus on high-res cg/scans vs quick rule34 sketches.",
+  "pricing": {
+    "model": "Free imageboard booru",
+    "free_tier": "Full browse & lossless downloads free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Best source specifically for lossless artbook scans and huge PNGs",
+    "Clean minimalist booru syntax shared with Danbooru",
+    "Zero pop-under malware"
+  ],
+  "cons": [
+    "Niche focus on high-res CG/scans vs quick rule34 sketches",
+    "2000s booru interface"
+  ],
+  "image": {
+    "src": "/media/entities/sites/yande-re.webp",
+    "alt": "yande.re logo and brand card",
+    "source_url": "https://yande.re",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://yande.re",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free imageboard booru",
+      "source_url": "https://yande.re",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://yande.re",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "yande.re",
+      "source_url": "https://yande.re",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

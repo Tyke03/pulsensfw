@@ -1,0 +1,80 @@
+{
+  "slug": "vrspy",
+  "type": "site",
+  "name": "VRspy",
+  "url": "https://vrspy.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Vibrant dark-mode European VR porn studio delivering 8K passthrough videos, solo/couple POV, and interactive Handy funscripts.",
+  "tags": [
+    "vr",
+    "studio",
+    "8k",
+    "interactive"
+  ],
+  "ranking_rationale": "Sharp chroma-key passthrough releases for mixed reality headsets; weighed against mostly european newcomer cast.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Sharp chroma-key passthrough releases for mixed reality headsets",
+    "High-bitrate 8K downloads & toy sync support",
+    "Crisp modern UX"
+  ],
+  "cons": [
+    "Mostly European newcomer cast",
+    "Extra cost standalone vs mega-aggregator bundles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrspy.webp",
+    "alt": "VRspy logo and brand card",
+    "source_url": "https://vrspy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://vrspy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://vrspy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://vrspy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrspy.com",
+      "source_url": "https://vrspy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

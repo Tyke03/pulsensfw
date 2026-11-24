@@ -1,0 +1,79 @@
+{
+  "slug": "mr-man",
+  "type": "site",
+  "name": "Mr. Man",
+  "url": "https://www.mrman.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dedicated male celebrity & mainstream cinema nudity reference database from the Mr. Skin team cataloging TV/film scene timestamps cleanly.",
+  "tags": [
+    "database",
+    "directory",
+    "gay",
+    "forums"
+  ],
+  "ranking_rationale": "Massive accurate film/TV scene timestamp catalog saving blind searching across shows (trade-off: full HD scene galleries paywalled behind monthly membership).",
+  "pricing": {
+    "model": "Freemium database subscription",
+    "free_tier": "Free index & actor search",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Massive accurate film/TV scene timestamp catalog saving blind searching across shows",
+    "High-quality editorial roundups & actor filmographies",
+    "Smooth modern responsive UI"
+  ],
+  "cons": [
+    "Full HD scene galleries paywalled behind monthly membership",
+    "Covers mainstream TV/cinema nudity rather than commercial hardcore studios"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mr-man.webp",
+    "alt": "Mr. Man logo and brand card",
+    "source_url": "https://www.mrman.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.mrman.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium database subscription",
+      "source_url": "https://www.mrman.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.mrman.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mrman.com",
+      "source_url": "https://www.mrman.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "40somethingmag",
+  "type": "site",
+  "name": "40 Something Mag",
+  "url": "https://www.40somethingmag.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic Score Group publication & video studio devoted exclusively to real 40+, 50+, and curvy mature models.",
+  "tags": [
+    "premium",
+    "studio",
+    "niche"
+  ],
+  "ranking_rationale": "Genuine everyday mature women—not 28-year-olds in MILF wigs (trade-off: legacy 2000s magazine site layout).",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Genuine everyday mature women—not 28-year-olds in MILF wigs",
+    "Multi-decade Score archive of digital magazines and full scenes",
+    "Unpretentious amateur charm"
+  ],
+  "cons": [
+    "Legacy 2000s magazine site layout",
+    "Smaller 4K video catalog ratio"
+  ],
+  "image": {
+    "src": "/media/entities/sites/40somethingmag.webp",
+    "alt": "40 Something Mag logo and brand card",
+    "source_url": "https://www.40somethingmag.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.40somethingmag.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.40somethingmag.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.40somethingmag.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "40somethingmag.com",
+      "source_url": "https://www.40somethingmag.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

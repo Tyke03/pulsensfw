@@ -1,0 +1,81 @@
+{
+  "slug": "manyvids",
+  "type": "site",
+  "name": "ManyVids",
+  "url": "https://www.manyvids.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "Indie creator marketplace built around a-la-carte clip purchases, custom video orders, creator clubs, and live cams—complete with real category search.",
+  "tags": [
+    "platform",
+    "creator",
+    "clips",
+    "store"
+  ],
+  "ranking_rationale": "Standout pick for viewers who prefer buying individual indie clips over juggling monthly subscriptions, supported by strong search and custom-request tools.",
+  "pricing": {
+    "model": "A-la-carte clip store + optional creator clubs & live streams",
+    "free_tier": "Free browsing and short clip previews; clips and clubs priced per creator",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Clip prices, custom videos, and club subscriptions are set per creator; no site-wide monthly fee required."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Buy individual clips a la carte without recurring subscriptions",
+    "Actual category search, tags, and previews for discovering creators",
+    "Built-in custom video requests, physical store items, and live cams"
+  ],
+  "cons": [
+    "Individual clip prices can add up faster than an all-access studio pass",
+    "Interface mixes clips, clubs, and cams in a busy layout",
+    "Production polish ranges from studio-grade to webcam-casual"
+  ],
+  "image": {
+    "src": "/media/entities/sites/manyvids.webp",
+    "alt": "ManyVids logo and brand card",
+    "source_url": "https://www.manyvids.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Indie creator clip store and club platform",
+      "source_url": "https://www.manyvids.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2014 in Montreal, Canada",
+      "source_url": "https://en.wikipedia.org/wiki/ManyVids",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "A-la-carte video purchases plus optional creator clubs and tips",
+      "source_url": "https://www.manyvids.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Searchable indie clip marketplace with custom video ordering",
+      "source_url": "https://www.manyvids.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

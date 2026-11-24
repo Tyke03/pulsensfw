@@ -1,0 +1,63 @@
+{
+  "slug": "alexis-ford",
+  "type": "star",
+  "name": "Alexis Ford",
+  "url": "http://www.wikidata.org/entity/Q4027361",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Alexis Ford — Pornographic performer (b. 1988). Industry career documented from 2008.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/alexis-ford.jpg",
+    "alt": "SFW portrait of Alexis Ford",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alexis_Ford,_Exxxotica_Miami_2010_1.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q4027361 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q4027361",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2008–retired",
+      "source_url": "http://www.wikidata.org/entity/Q4027361",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1988",
+      "source_url": "http://www.wikidata.org/entity/Q4027361",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

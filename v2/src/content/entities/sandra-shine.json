@@ -1,0 +1,64 @@
+{
+  "slug": "sandra-shine",
+  "type": "star",
+  "name": "Sandra Shine",
+  "url": "http://www.wikidata.org/entity/Q256498",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sandra Shine — Hungarian pornographic actress and director (b. 1981). Industry career documented from 1999.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/sandra-shine.jpg",
+    "alt": "SFW portrait of Sandra Shine",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sandra_Shine.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q256498 (Hungary)",
+      "source_url": "http://www.wikidata.org/entity/Q256498",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1981",
+      "source_url": "http://www.wikidata.org/entity/Q256498",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1999–present",
+      "source_url": "http://www.wikidata.org/entity/Q256498",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

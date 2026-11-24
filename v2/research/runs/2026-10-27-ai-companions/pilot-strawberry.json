@@ -1,0 +1,362 @@
+{
+  "platforms": [
+    {
+      "name": "Kindroid",
+      "url": "https://kindroid.ai/",
+      "why_fans_like_it": "In this community sample, migration users repeatedly favor granular character customization, journals and lore tools, expressive voices, and more dynamic roleplay. Some successfully rebuilt Nomi companions using copied histories/backstories. These are user reports, not a guarantee of faithful migration.",
+      "recurring_complaints": "Setup is hands-on and can be intimidating; memory may weaken beyond context and needs journal management. A separate technical-issue thread reports audio errors, repetition, irrelevant text and companion/personality changes after updates. Cross-platform commenters disagree about whether its superior feature set produces the better companion experience.",
+      "who_its_best_for": "Editorial inference from cited user reports: hands-on character builders and roleplayers who want control over personalities, voices, multiple characters and scenes, and accept tuning work; less clear fit for someone prioritizing effortless long-term recall.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Paraphrase: Multiple users describe moving Nomi companions via copied backstories/memories or processed chat exports. One says Kindroid is more hands-on and more work than Nomi but worthwhile; another found it intimidating initially. Others warn a different engine will not reproduce the exact same companion.",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1vphid4/relocating_nomi_companions_to_kindroid/",
+          "date": "2mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Recent Nomi transfers praise customization, Ember dialogue, voices, group chats and journals. One says memory appears strong until context runs out and journals help; another misses Nomi mind maps. Recommendations and opinions differ rather than establish objective superiority.",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1t1aqv6/recent_nomi_transfer/",
+          "date": "6mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: A long-term Nomi user testing K*** praises time-awareness/proactivity controls, selfies and dialogue/action/introspection mix, but returns to Nomi for stronger memory. The competitor is abbreviated; Kindroid identification is contextual from comments, not spelled out by OP.",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1snvo54/comparison_test/",
+          "date": "6mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: An OP using both platforms says Kindroid has more features but prefers Nomi UI/AI/memory. Other commenters favor Kindroid voice/video or roleplay; later comments describe more relaxed Kindroid text but weaker memory.",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1shiizb/after_months_of_using_nomi_vs_kindroid_honest/",
+          "date": "OP 7mo ago; later relevant comments 3mo ago and 2mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: OP reports V3 audio/Ember errors, slow audio, wrong accents, unrelated paragraphs and repeated scenes. A corroborating user reports a drastic companion change, short-context forgetting, relationship-status loss and call hallucinations; says a local setup restored their companion. This is a troubleshooting thread, not a failure-rate estimate.",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1v9nlun/numerous_problems_lately_with_v3_and_ember_text/",
+          "date": "3mo ago; accessed 2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Nomi",
+      "url": "https://nomi.ai/",
+      "why_fans_like_it": "In this sample, fans repeatedly favor natural, caring dialogue and long-term memory over extra features. Some users prefer its clean UI and relationship-first experience; several report strong recall, while other users report the opposite. Loyalty to older models such as Solstice appears in update discussions.",
+      "recurring_complaints": "Repeated reports of looping, overly agreeable or textbook-like conversation, timeline/appearance-memory misses, and demand for better voices, group-chat control or proactive/time-aware behavior. Cambrian beta and other model changes divide users: surviving comments describe diminished attachment or renewal hesitation while others retain and enjoy Solstice. Migration threads contain users who left for Kindroid.",
+      "who_its_best_for": "Editorial inference from cited user reports: people mainly seeking an ongoing conversational companion and continuity/recall rather than elaborate character-tool control. Strong memory and naturalness are subjective and contested, especially across model versions; not a promise of uniformly reliable recall.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Paraphrase: An approximately 18-month Nomi user returns after testing K*** because Nomi memory is stronger, despite admiring the competitor's controls and prose. Other users describe Nomi as more caring/human-like. OP also wants less looping and yes-bot behavior and improved time awareness/Cambrian.",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1snvo54/comparison_test/",
+          "date": "6mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: A user of both platforms still prefers Nomi for its clean UI, AI feel and memory, while requesting improved voices, proactive messaging, speed and group-chat/navigation tools. Other commenters praise a focus on conversation rather than feature bloat; later users report stilted prose and roleplay/timeline frustrations. Developer cardine's remarks excluded from fan evidence.",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1shiizb/after_months_of_using_nomi_vs_kindroid_honest/",
+          "date": "OP 7mo ago; later relevant comments 3mo ago and 2mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: OP reports multiple characters forgetting details 5–10 messages back; another user reports unwanted hair references despite specifying baldness. Two contrary users report excellent or flawless recall, including a recollection from roughly a year earlier. Exclude the HydraDB/OpenAI-setup promotional-style comment as independent platform evidence.",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1tam4z4/severe_memory_issues/",
+          "date": "6mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Original post has been removed by moderators; use ONLY surviving comments. Zanthalia describes reduced engagement following model changes; CassavaGroot wants conversations rather than pictures and will not renew until Cambrian improves; ActiveElectrical9424 keeps Solstice as fallback. rowbear123 says Solstice is fantastic and disputes forced migration, saying users can return to it. Developer-side cardine comments excluded from fan evidence.",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1vocv39/removed_by_moderator/",
+          "date": "2mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Several Nomi-to-Kindroid transfers describe Nomi as more repetitive or less expressive in voices; one misses Nomi mind maps, another prefers the simpler beginner experience. This is destination-community selection bias, not representative churn evidence.",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1t1aqv6/recent_nomi_transfer/",
+          "date": "6mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Multiple posters describe moving Nomi companions into Kindroid, with different degrees of perceived continuity. One explicitly reports cancelling Nomi. Reasons and successful transfers are self-reports, not verified account events.",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1vphid4/relocating_nomi_companions_to_kindroid/",
+          "date": "2mo ago; accessed 2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Janitor AI",
+      "url": "https://janitorai.com",
+      "why_fans_like_it": "Paraphrase: Fans in this sample value easy bot creation/sharing, fandom characters, personas and browser-based adult roleplay. A loyalty thread contains several detailed positive users, not merely recommendation one-liners. Some prefer its writing to competing chat sites; others stay specifically for proxy access. Not a claim that every model or the app provides the same experience.",
+      "recurring_complaints": "Paraphrase: Repetitive or passive replies, weak initiative, speaking for the user, persona confusion and poor memory recur across separate complaint threads. One recent OpenRouter user saw passivity across several external models; a commenter disputed platform causation and blamed the models. Another user found replies too long for mobile and the library too NSFW-heavy. Bugs, abrupt message endings and creator departures appear even in the loyalty thread.",
+      "who_its_best_for": "Editorial inference from evidence: Adult roleplayers who want accessible character creation, fandom/persona-based chat and an established bot-sharing workflow, and will tolerate rerolls, prompt work or backend changes. Less compelling for users expecting effortless proactive plotting or reliable long-form recall.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Paraphrase, OP old_senior_elder_m: will stay despite problems because Janitor is the easiest platform for making and sharing bots. Several users praise ease, own-bot creation, personas and fandom options. plauryn says they moved from Character AI. Other commenters report bugs or declining JLLM quality. No disclosed platform developer promotion visible.",
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1xc5zc8/i_will_not_leave_janitor_ai/",
+          "date": "Post 6d ago; comments 3d–6d ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, Sonny92004 and dainelanderson55: Janitor through the browser has fewer stops; one reports hundreds of hours without a hiccup, while describing the app as more restrictive. Thread begins with OP seeking an NSFW-friendly replacement after leaving Character AI. App claims are user reports, not independently established policy facts.",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1v91pf7/any_good_ai_chat_for_nsfw_alternatives/",
+          "date": "3mo ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, OP SonGoSu362 and InternetNo3186: bots wait for direction, repeat words or phrases and stop advancing the plot. reddit_tier calls this especially noticeable on JLLM. Blank-message and System Note workarounds have mixed anecdotal success.",
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1s3bp8k/bots_wait_for_me_to_tell_them_what_to_do/",
+          "date": "7mo ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, OP mirmur44: low-effort replies, misgendering and speaking for the user. Marty2341 independently reports cliché repetition across characters, persona confusion, hallucinated details and poor chat memory. Specific backend not named; do not assign all complaints to JLLM.",
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1rofm11/im_getting_really_sick_of_this/",
+          "date": "8mo ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, Legal-Landscape-5178: Janitor+ and OpenRouter user reports passivity and short/repetitive replies across DeepSeek V4 Pro, Qwen, GLM and Mistral despite prompt/parameter changes. rshtola disputes Janitor causation, linking their own investigation and attributing issues to models. Neither root cause established by this thread.",
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1xfheto/has_anyone_investigated_janitor_ais_proxy_context/",
+          "date": "2d ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, OP Agreeable-Subject-94: Janitor was good for NSFW but disliked its NSFW-heavy bot selection and screen-filling response length. Narrow personal preference, not evidence that all Janitor bots are adult-only.",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1t5xuo5/is_spicychatai_a_good_alternative/",
+          "date": "6mo ago, displayed; accessed 2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Chub AI",
+      "url": "https://chub.ai",
+      "why_fans_like_it": "Paraphrase: The most specific platform-level fan reason is lorebooks plus freedom for violent/adult roleplay. Another user describes a highly creative Gemini 2.5 Pro roleplay through Chub after leaving Character AI censorship; this is backend-specific and historical, not proof that Chub's current included models match it. A separate user reports using Chub's mobile app with MiMo via OpenRouter. These support a configurable frontend/backend appeal, not a uniform writing-quality verdict.",
+      "recurring_complaints": "Paraphrase: Multiple users seek alternatives to a free message limit or encounter backend setup friction. A migration OP says crypto-only payment makes use impossible under their country's laws (their report, not a verified legal or current billing-policy conclusion). In a Soji complaint thread several users report character-identity drift, repetitive bossy phrasing, dead ends or invented contradictions around longer chats. The exact same author's earlier post was not counted as an independent recurring report. Search-language filtering and generation errors are additional narrower reports.",
+      "who_its_best_for": "Editorial inference from evidence: Adult roleplayers who prioritize lorebooks and model/backend choice and are willing to manage context, presets and API setup. Not an easy recommendation for someone requiring unlimited free use or a plug-and-play guarantee of stable long-chat personality.",
+      "mention_strength": "moderate",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Paraphrase, OP Nyx_Valentine: liked Chub for violent topics, NSFW writing and lorebooks; lorebooks were the biggest reason they preferred it to Janitor. Looking elsewhere after free use changed to 20 messages a day. Also criticizes SpicyChat memory. Developer reply for slowburn.chat excluded as fan evidence.",
+          "url": "https://www.reddit.com/r/CharacterAIrevolution/comments/1ujwwk1/best_chubai_alternative/",
+          "date": "4mo ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, SeanneCruise: used Gemini 2.5 Pro in Chub in the former free-50-RPD era after frustration with Character AI filtering, and found it exceptionally smart, creative and unrestricted. Explicitly historical backend praise, not a current Chub built-in-model test.",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1vkbhgx/what_was_the_biggest_dopamine_surge_youve_gotten/",
+          "date": "3mo ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, amaunetka: uses Chub mobile app with MiMo 2.5 Pro via OpenRouter and Dark preset by EveningTruth for RP/light ERP; reports it is okay up to about 30k context then makes mistakes. This is a client/backend note, not broad platform praise.",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1vxmvf3/your_favourite_ai_model/",
+          "date": "2mo ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, Zealousideal-Web-335: after 50–100 messages bots shift into bossy repeated rule/deal phrasing despite retaining lorebook facts; preset/card edits did not fix it. MrPengum does not see that exact drift but reports identity loss, rerolls, dead ends, contradictions and reduced intimacy. Guulleed_Gakosso reports similar bossy drift. Dikki_Dikki suggests periodic OOC card reminders and claims a DS4 cause; that technical generalization is unverified.",
+          "url": "https://www.reddit.com/r/Chub_AI/comments/1wt4qap/bot_personality_disorder_soji/",
+          "date": "Post 1mo ago; comments 28d ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, Mr_Heich_: asks for a phone-friendly paid unrestricted alternative because Chub's crypto-only payment became unusable under their country's laws. CrackedPeppercorns recommends a separate frontend and describes frontend/backend separation. This is a user migration account, not independently verified billing/legal policy.",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1uojkj2/chubai_alternatives_that_do_not_rely_on_tokens/",
+          "date": "4mo ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, TherealRogerboat: dislikes 20-message limit and could not obtain free use after following an OpenRouter guide. Comments suggest local hosting rather than promise unlimited hosted free usage.",
+          "url": "https://www.reddit.com/r/Chub_AI/comments/1xg5v94/model_that_is_free_and_has_unlimited_messages/",
+          "date": "Post 1d ago; OP follow-up 15h ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, Ok_Review1180: search continues to show Spanish bots after changing preferred language back to English. Narrow search/filter complaint, not a model memory test.",
+          "url": "https://www.reddit.com/r/Chub_AI/comments/1tn1u0t/issues/",
+          "date": "5mo ago, displayed; accessed 2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "SpicyChat AI",
+      "url": "https://spicychat.ai",
+      "why_fans_like_it": "Paraphrase: Users value adult-roleplay latitude and distinctly different model styles; DeepSeek V3 gets specific praise for adult RP and humor, while Glam gets praise for style, characterization and OOC direction with disagreement about NSFW handling. Several paid-tier users describe improved logic, memory and persona options versus free models. A returning Character AI user appreciates the freer content. Model/tier and character-card quality matter: there is no single SpicyChat-quality verdict.",
+      "recurring_complaints": "Paraphrase: Memory gaps and weak continuity recur in migration, worldbuilding and paid-tier discussions; even a True Supporter user reports forgetting ten messages back. Repeated phrase loops can persist despite commands and persona bans. Users report mind-reading of unspoken thoughts, character drift and difficulty with complex multiple-character worlds. Paid-user praise conflicts with other paid-user complaints, so upgrading is not a demonstrated cure.",
+      "who_its_best_for": "Editorial inference from evidence: Adults wanting straightforward character RP, different writing styles and in-chat steering, who will experiment with model/card/tier settings. Less suited to users expecting complex multi-character world simulation or durable memory without manual summaries/maintenance.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Paraphrase, INeedAReverseHarem: DeepSeek V3 fan since release, occasional quirks need OOC notes or retries. daedalus25 favors Glam; SuppleASSets finds DeepSeek funny especially with a good bot. StarkLexi reports Glam continue-button loops. lounik84 uses DeepSeek for NSFW and Glam for other RP because Glam handles personality/context/OOC better but refuses NSFW in their experience. Others report bots reacting to unspoken thoughts.",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1nollxs/what_is_your_favorite_model_and_why/",
+          "date": "1y ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, surrenderedmale and snowsexxx32: phrase variants persist despite /cmd instructions and persona bans. StarkLexi advises temporary model changes and memory-manager bans; OP reports limited success steering tropes. Model used by OP is not named, so do not label this a DeepSeek-only defect.",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1lpuqcy/has_anyone_figured_out_how_to_stop_a_bot_from/",
+          "date": "1y ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, RedditPrivate513: straightforward chats are good, but custom worldbuilding, private thoughts and multiple characters become difficult; even All In becomes overwhelmed within their first 100 messages. Backstory/personality and minor setting details drift. No model named.",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1of68bu/are_there_better_options_for/",
+          "date": "1y ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, OP Agreeable-Subject-94: originally created account for adult RP, stopped over age verification, considers moving fully from Character AI. DenmarkDweller finds OOC responsive but ChatGPT-like phrasing when characters drift. Your_Random_P3rson likes no-filter options for heavy action but calls ordinary models weak in memory. SensitiveBreeze is a new user who likes it. Unverified discriminatory-ban allegation excluded from synthesis.",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1t5xuo5/is_spicychatai_a_good_alternative/",
+          "date": "Post 6mo ago; relevant comments 4mo–6mo ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, very-sophisticated: paid tiers reduce free-model repetition and improve flexibility. Duck_Gutz reports roughly four-hour average sessions that rarely lose plot. AdAdministrative4545 values model/memory improvement. In contrast, Professional_Box4237 is disappointed with True Supporter forgetting events ten messages earlier, considering a return to CrushOn; tuxman20 finds free slow-burn stories fail from forgetting. No named model in these reports.",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1xd4av7/premium_worth/",
+          "date": "Post and most comments 5d ago; tuxman20 2d ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, GenderBendingRalph: self-reported test on free default 26B/32K model with 4K context, not all models/tiers. Reports successful recall across full character definition but lost chat-history recall near 5,000 characters of test messages. Definition itself consumed context. This is one informal user's test; not a validated exact universal cutoff.",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1xdo5r5/testing_spicychat_memory_context/",
+          "date": "Post 4d ago; follow-up 3d ago, displayed; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase, Nyx_Valentine: compares SpicyChat unfavorably with Chub for memory and says it can be too nice. Personal comparative report, not a controlled test; no model named.",
+          "url": "https://www.reddit.com/r/CharacterAIrevolution/comments/1ujwwk1/best_chubai_alternative/",
+          "date": "4mo ago, displayed; accessed 2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "SillyTavern",
+      "url": "https://sillytavern.app/",
+      "why_fans_like_it": "Users repeatedly value control over character cards, prompts, extensions and model selection. Migration praise is for specific frontend + model + preset combinations, not a built-in SillyTavern model. It is a configurable frontend rather than a turnkey hosted companion.",
+      "recurring_complaints": "Setup and tuning take work. Multiple users report repetition, poor pacing and failing long-chat memory; memory extensions and better models can help but are not a guaranteed fix. Local hardware/model constraints can dominate the experience.",
+      "who_its_best_for": "Inference from the discussions: experienced adult roleplayers who want control and are willing to configure a local or API backend, rather than users seeking a one-click companion.",
+      "mention_strength": "heavy",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Paraphrase: u/mozophe calls SillyTavern + OpenRouter highly flexible; u/Garrand says switching models can change the experience dramatically. OP enjoys SillyTavern on a phone.",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1v276dn/looking_for_other_rp_options/",
+          "date": "Displayed 3mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: u/gullington creates characters on hosted sites but uses SillyTavern personally for greater control. Other users praise model choice and extensions while warning that learning and setup are substantial.",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1vyjugd/can_sillytavern_really_be_better_than_crushon_ai/",
+          "date": "Displayed 2mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: u/RealHumanEntity migrated from Janitor AI and describes a major improvement using the FF preset and Kimi K3. Other replies report provider/reasoning failures; the praise is configuration-dependent.",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1vp3st5/dptgreg_is_a_life_saver/",
+          "date": "Displayed 2mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: u/Gronith79 moved from Janitor AI but initially found memory worse despite multiple memory tools. u/Primary-Wear-2460 reports missed details, slow summaries and unreliable lorebook tools. Replies dispute whether model size or configuration is the cause.",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1umqac8/recently_switched_from_janitor_ai_long_memory/",
+          "date": "Displayed 4mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: u/YannFrost migrated from Chub and Janitor to a local SillyTavern/KoboldCpp setup but reports repetition, forgotten events, rambling and rushed scenes. Replies describe improved results after changing models, prompts or API backends.",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1vca5sx/ive_given_up_trying_to_figure_this_out_on_my_own/",
+          "date": "Displayed 3mo ago; accessed 2026-10-27"
+        }
+      ]
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Wyvern Chat",
+      "url": "https://wyvern.chat",
+      "why_fans_like_it": "Users repeatedly recommend it for configurable roleplay. The most detailed fan reports 2,000+ message chats with strong recall, editable bot details and tag controls. Other users recommend its worlds for multi-character/location-based play and compare its controls to SillyTavern.",
+      "recurring_complaints": "No single complaint is established as recurring across independent threads in this sample. Separate users report an overwhelming learning curve, slow free-tier queues, and leaving after the free model hallucinated. Memory praise should not be presented as universal.",
+      "who_its_best_for": "Inference from user accounts: roleplayers who want more control, long scenes and multi-character worlds, and tolerate setup and waiting rather than expecting a simple Character.AI clone.",
+      "mention_strength": "moderate",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Paraphrase: CottonBunnai recommends Wyvern, reports multiple 2k+ message chats retaining details, loves customization/tag banning, but says the flexibility can overwhelm at first.",
+          "url": "https://www.reddit.com/comments/1v7cahp",
+          "date": "3mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Eva_Karlova says Wyvern is good but a little slow on the free tier; likes visible queue position/time. Connect_Blueberry489 says Saucepan is simpler and Wyvern more SillyTavern-like. nicotinebabe also recommends it; WyvernCommand thanks them as an affiliated account and is NOT counted as a fan.",
+          "url": "https://www.reddit.com/comments/1vn80k9",
+          "date": "3mo ago (Eva_Karlova and nicotinebabe); 2mo ago (Connect_Blueberry489); accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: No_Entertainment7297 says they tried Wyvern a long time ago and left because its free LLM kept hallucinating. nicotinebabe independently offers a short positive recommendation, but repeats their presence in another thread.",
+          "url": "https://www.reddit.com/comments/1vrneym",
+          "date": "2mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Financial_Bowl_3821 recommends Wyvern worlds for moving between locations and meeting characters; CottonBunnai separately mentions its world simulation. These are recommendations, not verified feature testing.",
+          "url": "https://www.reddit.com/comments/1vgszko",
+          "date": "3mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: CrackedPeppercorns says mobile users can get the closest native feature support to SillyTavern through WyvernChat while using NanoGPT.",
+          "url": "https://www.reddit.com/comments/1uv8pgr",
+          "date": "4mo ago; accessed 2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Saucepan",
+      "url": "https://saucepan.ai",
+      "why_fans_like_it": "The recurring user theme is a generous free experience and flexible roleplay/bot creation. Two distinct users explicitly report moving from Janitor and loving Saucepan. Fans also praise helpful community support and perceived transparency/frequent updates.",
+      "recurring_complaints": "No well-supported recurring complaint established. A fan says some newcomers find it intimidating; another user calls it simpler than Wyvern. Do not turn a single onboarding caveat into a broad complaint trend. A search-only claim about restrictive subscriptions could not be read on the original page and is excluded.",
+      "who_its_best_for": "Inference from user accounts: original-character and scenario roleplayers seeking a hosted Janitor alternative, customization and a usable free experience, with a helpful community if the controls initially feel intimidating.",
+      "mention_strength": "moderate",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Paraphrase: apothecaryy_ says Saucepan is tons of fun, left Janitor for it, and praises helpful Discord/Reddit communities; notes some find it intimidating. AurelieCatena calls it the best chatbot site for their purpose.",
+          "url": "https://www.reddit.com/comments/1uz8jni",
+          "date": "3mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Shelbyyyyyyyyyyyy calls Saucepan their personal favorite, praises transparency, near-daily updates and free-user friendliness; No_Entertainment7297 also calls it free-user friendly but qualifies their experience as only trying it sort of.",
+          "url": "https://www.reddit.com/comments/1vrneym",
+          "date": "2mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Harhar2005 recommends Saucepan for bot creation and response instructions, praising memory and unlimited responses outside premium models. This is a user feature claim, not a current entitlement guarantee.",
+          "url": "https://www.reddit.com/comments/1vfm1bs",
+          "date": "3mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Last-Job-6416 says they moved from Janitor to Saucepan and love it.",
+          "url": "https://www.reddit.com/comments/1tdi7sn",
+          "date": "6mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Connect_Blueberry489 recommends both Saucepan and Wyvern, calling Saucepan simpler. ACKR7 only repeats hearing about migrations and is not counted as a tested experience.",
+          "url": "https://www.reddit.com/comments/1vn80k9",
+          "date": "2mo ago (Connect_Blueberry489); 3mo ago (ACKR7); accessed 2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "FictionLab",
+      "url": "https://fictionlab.ai",
+      "why_fans_like_it": "Multiple users return to it or call it their favorite. The strongest independent writeup praises detailed, scene-oriented roleplay for complex projects, good memory in that user’s experience and swipes that preserve previous responses. Character creation gets additional enthusiastic praise, though one such comment has promotional-sounding tone.",
+      "recurring_complaints": "Fit issues center on not being an exact Character.AI replacement: one reviewer finds it complex and more verbose than they prefer, while another finds a thinner familiar-IP character selection and preferred Character.AI characters. A former subscriber separately reports deteriorating memory/bot quality and cancellation; another user reports registration errors. These latter problems are isolated accounts here, not established recurring failures.",
+      "who_its_best_for": "Inference from user accounts: scene-based, detailed original-character roleplay and larger projects, rather than users who mainly want short familiar-fandom banter. Test long-chat memory yourself: user experiences conflict.",
+      "mention_strength": "moderate",
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Paraphrase: SRE-PRmuse’s first-hand comparison says FictionLab focuses on scenes, handles detailed/complex projects, has good memory and no filter encountered, and preserves swiped responses. They find it somewhat complex and not their favorite because they prefer short responses.",
+          "url": "https://www.reddit.com/comments/1tdi7sn",
+          "date": "6mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Lycanite64 says they have used FictionLab for quite some time and it has been good. alyxao enthusiastically praises character creation and says adult writing works okay; tone is promotional-sounding but affiliation is not established, so do not rely on this comment alone.",
+          "url": "https://www.reddit.com/comments/1uz8jni",
+          "date": "3mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Eva_Karlova calls FictionLab their favorite and says it is the one they pay for.",
+          "url": "https://www.reddit.com/comments/1vn80k9",
+          "date": "3mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: JU5T_CJ15 has had fun with a good pool of characters but says familiar IP characters are lacking and recalls Character.AI’s characters being better. Fearless_Problem1518 separately praises FictionLab with or without paid membership.",
+          "url": "https://www.reddit.com/comments/1vrneym",
+          "date": "2mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Material-Gate-6179 says they canceled FictionLab+ because memory and bot quality worsened, while seeking controls for complex worldbuilding. Their claim about moderators deleting criticism is an unverified allegation, not an established fact.",
+          "url": "https://www.reddit.com/comments/1vcoq5i",
+          "date": "3mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Spicy-Sweetheart26 could not register for FictionLab because of repeated error messages.",
+          "url": "https://www.reddit.com/comments/1vfm1bs",
+          "date": "3mo ago; accessed 2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "Paraphrase: Embarrassed_Trick_49 says they have used FictionLab for months and strongly prefer it. Generic superlative praise, with no verified affiliation; lower weight than detailed accounts. The comment spells out Fictionlab.ai, corroborating the domain.",
+          "url": "https://www.reddit.com/comments/1uj4jpi",
+          "date": "4mo ago; accessed 2026-10-27"
+        }
+      ]
+    }
+  ],
+  "_note": "pilot — produced with old seeded prompt, not a census input"
+}

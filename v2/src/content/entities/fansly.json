@@ -1,0 +1,81 @@
+{
+  "slug": "fansly",
+  "type": "site",
+  "name": "Fansly",
+  "url": "https://fansly.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The strongest OnlyFans rival on pure product craft: adds an algorithmic For You discovery feed, multi-tier subscriptions, media previews, and broader fetish tolerance.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription",
+    "discovery"
+  ],
+  "ranking_rationale": "Out-engineers OnlyFans for actual viewers thanks to real internal search, a TikTok-style For You feed, transparent tier perks, and fewer abrupt kink bans.",
+  "pricing": {
+    "model": "Per-creator tiered subscriptions + PPV & tips",
+    "free_tier": "Free account signup with built-in FYP preview browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Subscription tiers and individual post unlocks are set by each creator; check each profile."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Built-in For You discovery feed and working internal search",
+    "Multi-tier subscriptions make it clearer what your money unlocks",
+    "Allows creators to attach free teaser previews to locked posts",
+    "More welcoming to fetish, cosplay, and indie creators than OnlyFans"
+  ],
+  "cons": [
+    "Still lacks some mainstream celebrity creators exclusive to OnlyFans",
+    "Multi-tier pricing pages can feel complex on busy profiles",
+    "PPV inbox upsells still exist on popular accounts"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fansly.png",
+    "alt": "Fansly logo and brand card",
+    "source_url": "https://fansly.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator subscription & discovery platform",
+      "source_url": "https://fansly.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2020; operated by Select Media LLC (USA)",
+      "source_url": "https://en.wikipedia.org/wiki/Fansly",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Tiered per-creator subscriptions, tips, and PPV media",
+      "source_url": "https://fansly.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Algorithmic FYP discovery feed and multi-tier creator memberships",
+      "source_url": "https://fansly.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

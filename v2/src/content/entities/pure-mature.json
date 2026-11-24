@@ -1,0 +1,78 @@
+{
+  "slug": "pure-mature",
+  "type": "site",
+  "name": "Pure Mature",
+  "url": "https://www.puremature.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-budget mature & glamorous veteran showcase series combining refined bedroom lighting and 4K video.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k"
+  ],
+  "ranking_rationale": "Classier calm tone than cheesy MILF parodies; weighed against modest standalone episode volume.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Classier calm tone than cheesy MILF parodies",
+    "Strong veteran cast and crisp audio",
+    "Multi-network bundle options"
+  ],
+  "cons": [
+    "Modest standalone episode volume",
+    "Typical billing retention hurdles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pure-mature.webp",
+    "alt": "Pure Mature logo and brand card",
+    "source_url": "https://www.puremature.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.puremature.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.puremature.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.puremature.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "puremature.com",
+      "source_url": "https://www.puremature.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

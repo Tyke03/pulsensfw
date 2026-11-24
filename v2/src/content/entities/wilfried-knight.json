@@ -1,0 +1,64 @@
+{
+  "slug": "wilfried-knight",
+  "type": "star",
+  "name": "Wilfried Knight",
+  "url": "https://en.wikipedia.org/wiki/Wilfried_Knight",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Wilfried Knight (19 February 1975 – 5 March 2013) was a French gay pornographic film actor and model. Born in Châlons-sur-Marne, France, he later worked primarily in the United States and appeared in productions for several major studios in the gay adult film industry.",
+  "tags": [
+    "performer",
+    "former performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/wilfried-knight.jpg",
+    "alt": "SFW portrait of Wilfried Knight",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wilfried_Knight_(cropped).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Châlons-sur-Marne, France",
+      "source_url": "https://en.wikipedia.org/wiki/Wilfried_Knight",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Born in Châlons-sur-Marne, France, he later worked primarily in the United States and appeared in productions for several major studios in the gay adult film industry.",
+      "source_url": "https://en.wikipedia.org/wiki/Wilfried_Knight",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1975",
+      "source_url": "http://www.wikidata.org/entity/Q4019825",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

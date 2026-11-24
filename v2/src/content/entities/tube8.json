@@ -1,0 +1,78 @@
+{
+  "slug": "tube8",
+  "type": "site",
+  "name": "Tube8",
+  "url": "https://www.tube8.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Classic 2007-era free tube blending amateur uploads, community playlists, and mainstream category feeds.",
+  "tags": [
+    "tube",
+    "mainstream",
+    "streaming"
+  ],
+  "ranking_rationale": "Deep archive of older web uploads; weighed against older interface density.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Deep archive of older web uploads",
+    "Community comments and playlists",
+    "Supports full mobile playback"
+  ],
+  "cons": [
+    "Older interface density",
+    "Pop-under ads without blocker"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tube8.webp",
+    "alt": "Tube8 logo and brand card",
+    "source_url": "https://www.tube8.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.tube8.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.tube8.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tube8.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tube8.com",
+      "source_url": "https://www.tube8.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

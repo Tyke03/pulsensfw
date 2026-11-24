@@ -1,0 +1,77 @@
+{
+  "slug": "aneros-progasm",
+  "type": "product",
+  "name": "Aneros Progasm Classic",
+  "url": "https://www.aneros.com/products/progasm-classic",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-fullness, non-motorized prostate trainer engineered for experienced pelvic-floor riders seeking deep internal pressure.",
+  "tags": [
+    "prostate",
+    "hands-free",
+    "manual"
+  ],
+  "ranking_rationale": "Zero motors, batteries, or buzzing—translates every subtle PC-muscle squeeze cleanly, weighed against firm hard-plastic body demands patient warmup and generous lube.",
+  "pricing": {
+    "model": "Hardware purchase (~$60)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Zero motors, batteries, or buzzing—translates every subtle PC-muscle squeeze cleanly",
+    "Largest Aneros fullness profile amplifies feedback once relaxed",
+    "Virtually indestructible medical-grade ABS body"
+  ],
+  "cons": [
+    "Firm hard-plastic body demands patient warmup and generous lube",
+    "Not suited to absolute anal beginners"
+  ],
+  "image": {
+    "src": "/media/entities/products/aneros-progasm.webp",
+    "alt": "Aneros Progasm Classic logo and brand card",
+    "source_url": "https://www.aneros.com/products/progasm-classic",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.aneros.com/products/progasm-classic",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$60)",
+      "source_url": "https://www.aneros.com/products/progasm-classic",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.aneros.com/products/progasm-classic",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "aneros.com",
+      "source_url": "https://www.aneros.com/products/progasm-classic",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

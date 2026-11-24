@@ -1,0 +1,80 @@
+{
+  "slug": "coomeet",
+  "type": "site",
+  "name": "CooMeet",
+  "url": "https://coomeet.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Verified-partner 1-on-1 adult & dating video roulette guaranteeing real female match partners via strict ID screening.",
+  "tags": [
+    "cams",
+    "live",
+    "roulette"
+  ],
+  "ranking_rationale": "Eliminates male-heavy spam ratios via verified creator hosts; weighed against expensive minute/tier packs after short free demo.",
+  "pricing": {
+    "model": "Subscription minutes & credits",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Eliminates male-heavy spam ratios via verified creator hosts",
+    "Real-time multi-language auto-translation overlay",
+    "Clean instant browser WebRTC cam2cam"
+  ],
+  "cons": [
+    "Expensive minute/tier packs after short free demo",
+    "Structured around commercial hosts rather than casual strangers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/coomeet.webp",
+    "alt": "CooMeet logo and brand card",
+    "source_url": "https://coomeet.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://coomeet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription minutes & credits",
+      "source_url": "https://coomeet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web, iOS, Android",
+      "source_url": "https://coomeet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "coomeet.com",
+      "source_url": "https://coomeet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

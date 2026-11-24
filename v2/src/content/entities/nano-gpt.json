@@ -1,0 +1,79 @@
+{
+  "slug": "nano-gpt",
+  "type": "ai_app",
+  "name": "NanoGPT",
+  "url": "https://nano-gpt.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "No-subscription privacy-first pay-per-prompt gateway offering unlogged access to 100+ uncensored RP LLMs, DeepSeek, and Flux image models.",
+  "tags": [
+    "chat",
+    "image",
+    "api",
+    "privacy"
+  ],
+  "ranking_rationale": "Zero monthly subscription—top up $5 via card or crypto and pay tiny fractions of a cent per prompt (trade-off: pay-as-you-go balance requires occasional manual top-up).",
+  "pricing": {
+    "model": "Pay-per-prompt (no subscription)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Zero monthly subscription—top up $5 via card or crypto and pay tiny fractions of a cent per prompt",
+    "Zero server-side conversation logging (chats stay in your local browser storage) + OpenAI-compatible API for SillyTavern",
+    "Includes uncensored roleplay fine-tunes alongside frontier models"
+  ],
+  "cons": [
+    "Pay-as-you-go balance requires occasional manual top-up",
+    "Utilitarian multi-model interface"
+  ],
+  "image": {
+    "src": "/media/entities/ai/nano-gpt.webp",
+    "alt": "NanoGPT logo and brand card",
+    "source_url": "https://nano-gpt.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://nano-gpt.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-per-prompt (no subscription)",
+      "source_url": "https://nano-gpt.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://nano-gpt.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nano-gpt.com",
+      "source_url": "https://nano-gpt.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

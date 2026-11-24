@@ -1,0 +1,78 @@
+{
+  "slug": "pocketstars",
+  "type": "site",
+  "name": "PocketStars",
+  "url": "https://pocketstars.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Creator subscription network offering feed memberships, video stores, and audio/custom messaging.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "Supports video store + subscription in one profile; weighed against modest creator library compared with onlyfans.",
+  "pricing": {
+    "model": "Subscriptions & clip store",
+    "free_tier": "Free account signup",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Supports video store + subscription in one profile",
+    "Kink-tolerant terms",
+    "Clean straightforward checkout"
+  ],
+  "cons": [
+    "Modest creator library compared with OnlyFans",
+    "Basic search filtering"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pocketstars.webp",
+    "alt": "PocketStars logo and brand card",
+    "source_url": "https://pocketstars.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://pocketstars.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscriptions & clip store",
+      "source_url": "https://pocketstars.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pocketstars.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pocketstars.com",
+      "source_url": "https://pocketstars.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

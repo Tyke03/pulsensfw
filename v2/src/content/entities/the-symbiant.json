@@ -1,0 +1,81 @@
+{
+  "slug": "the-symbiant",
+  "type": "game",
+  "name": "The Symbiant",
+  "url": "https://store.steampowered.com/app/1883090/The_Symbiant/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Richly voiced sci-fi queer romance visual novel exploring alien-human cultural sparks aboard an interstellar starship.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "gay",
+    "sci-fi"
+  ],
+  "ranking_rationale": "Stellar full English voice acting that elevates emotional & spicy scenes alike (trade-off: exclusively male-male romance).",
+  "pricing": {
+    "model": "One-time Steam purchase",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Stellar full English voice acting that elevates emotional & spicy scenes alike",
+    "Original space-opera worldbuilding beyond Earth slice-of-life",
+    "Official uncensored DLC seamlessly supported"
+  ],
+  "cons": [
+    "Exclusively male-male romance",
+    "Shorter ~6–8 hour focused novel length"
+  ],
+  "image": {
+    "src": "/media/entities/games/the-symbiant.webp",
+    "alt": "The Symbiant logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1883090/The_Symbiant/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1883090/The_Symbiant/",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase",
+      "source_url": "https://store.steampowered.com/app/1883090/The_Symbiant/",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/1883090/The_Symbiant/",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1883090/The_Symbiant/",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

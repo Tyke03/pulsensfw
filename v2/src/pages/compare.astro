@@ -1,0 +1,156 @@
+---
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CompareTable from '../components/CompareTable.astro';
+import EmptyState from '../components/states/EmptyState.astro';
+import ErrorState from '../components/states/ErrorState.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { COMPARE_MAX, COMPARE_MIN, loadCompare, parseCompareIds } from '../lib/content/compare';
+import { getContentRepository } from '../lib/content/local-repository';
+import { recentOfKind } from '../lib/content/related';
+import { entityKind } from '../lib/content/entities';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+import type { Entity } from '../lib/content/entity-schema';
+import type { EntityKind } from '../lib/content/types';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const repo = getContentRepository();
+const catalog = await repo.listCatalog();
+const ids = parseCompareIds(Astro.url.searchParams.get('ids'));
+const compare = loadCompare(catalog, ids);
+const shareHref = new URL(Astro.url.pathname + Astro.url.search, Astro.url.origin).href;
+
+const PLURAL: Record<EntityKind, string> = {
+  star: 'stars',
+  site: 'sites',
+  ai: 'AI apps',
+  product: 'toys',
+  game: 'games',
+};
+
+/** One ready-to-open link per kind that has 2+ catalog entries. */
+const seeds = (['star', 'site', 'ai', 'product', 'game'] as EntityKind[])
+  .map((kind) => ({ kind, ids: recentOfKind(catalog, kind).map((entity) => entity.slug) }))
+  .filter((seed) => seed.ids.length >= COMPARE_MIN);
+
+function sameKindIds(list: Entity[], kind: EntityKind): string[] {
+  return list.filter((entity) => entityKind(entity.type) === kind).slice(0, COMPARE_MAX).map((entity) => entity.slug);
+}
+
+const mixedGroups: Array<{ kind: EntityKind; ids: string[] }> | null = compare.status === 'mixed'
+  ? (['star', 'site', 'ai', 'product', 'game'] as EntityKind[])
+      .map((kind) => ({ kind, ids: sameKindIds(compare.ready, kind) }))
+      .filter((group) => group.ids.length >= COMPARE_MIN)
+  : null;
+
+const title = compare.status === 'ok' ? `Compare ${compare.kindPlural} · ${SITE.name}` : `Compare · ${SITE.name}`;
+---
+<BaseLayout title={title} description={`Put 2–4 of one kind side by side: score, pricing, platforms, NSFW notes. ${SITE.name} compare.`} reader={reader} noindex>
+  <article class="page" style="padding:24px 0 48px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Compare' }]} />
+    <p class="kicker">Compare</p>
+    <h1>{compare.status === 'ok' ? `${compare.kindLabel} side by side` : 'Compare'}</h1>
+    <p class="dek">
+      {COMPARE_MIN}–{COMPARE_MAX} of one kind — all sites, or all AI apps. Only facts already checked
+      into the catalog show up; an empty cell stays a dash.
+    </p>
+    {compare.status === 'ok' && (
+      <Fragment>
+        <div class="compare-share">
+          <label class="sr-only" for="compare-share-input">Shareable link</label>
+          <input id="compare-share-input" class="c-input" readonly value={shareHref} data-compare-share />
+          <button class="c-btn c-btn--secondary" type="button" data-compare-copy>Copy link</button>
+        </div>
+        <CompareTable entities={compare.entities} kindLabel={compare.kindLabel} catalog={catalog} />
+      </Fragment>
+    )}
+    {compare.status === 'empty' && (
+      <Fragment>
+        <EmptyState
+          title="Pick two to four of one kind"
+          body="Open any star, site, or AI app page and hit Compare, or build your own link: /compare?ids=one, two, three as slugs."
+        />
+        {seeds.length > 0 && (
+          <div class="search-types">
+            <span class="kicker">Start somewhere</span>
+            {seeds.map((seed) => (
+              <a class="c-chip" href={`/compare?ids=${seed.ids.join(',')}`}>{`Compare ${PLURAL[seed.kind]}`}</a>
+            ))}
+          </div>
+        )}
+      </Fragment>
+    )}
+    {compare.status === 'too-few' && (
+      <Fragment>
+        <ErrorState
+          title="Add at least one more"
+          body={
+            compare.ready.length === 1
+              ? `Only ${compare.ready[0].name} is in this link. Add a second of the same kind — or open ${compare.ready[0].name} and use its Compare chip.`
+              : `One id is not a comparison. Add a second of the same kind to the link.`
+          }
+        />
+        {compare.ready.length === 1 && (
+          <div class="search-types">
+            {seeds
+              .filter((seed) => seed.kind === entityKind(compare.ready[0].type))
+              .map((seed) => (
+                <a class="c-chip" href={`/compare?ids=${[compare.ready[0].slug, ...seed.ids.filter((id) => id !== compare.ready[0].slug)].slice(0, COMPARE_MAX).join(',')}`}>
+                  {`Compare with recent ${PLURAL[seed.kind]}`}
+                </a>
+              ))}
+          </div>
+        )}
+      </Fragment>
+    )}
+    {compare.status === 'unknown-id' && (
+      <Fragment>
+        <ErrorState
+          title="We do not have that page"
+          body={`No catalog match for: ${compare.missing.join(', ')}. Check the slug in the link and try again.`}
+        />
+        {compare.ready.length >= 2 && (
+          <div class="search-types">
+            <a class="c-chip" href={`/compare?ids=${compare.ready.slice(0, COMPARE_MAX).map((entity) => entity.slug).join(',')}`}>
+              Compare the found ones
+            </a>
+          </div>
+        )}
+      </Fragment>
+    )}
+    {compare.status === 'mixed' && (
+      <Fragment>
+        <ErrorState
+          title="Mixing kinds does not compare"
+          body={`This link spans ${compare.kindLabels.join(', ')}. A comparison only makes sense within one kind — all sites, or all AI apps. Trim the ids list to one kind.`}
+        />
+        {mixedGroups && mixedGroups.length > 0 && (
+          <div class="search-types">
+            {mixedGroups.map((group) => (
+              <a class="c-chip" href={`/compare?ids=${group.ids.join(',')}`}>{`Compare these ${PLURAL[group.kind]}`}</a>
+            ))}
+          </div>
+        )}
+      </Fragment>
+    )}
+  </article>
+</BaseLayout>
+
+<script is:inline>
+  document.addEventListener('click', (event) => {
+    if (!(event.target instanceof Element)) return;
+    if (!event.target.matches('[data-compare-copy]')) return;
+    const input = document.querySelector('[data-compare-share]');
+    if (!(input instanceof HTMLInputElement)) return;
+    input.select();
+    (async () => {
+      try {
+        await navigator.clipboard.writeText(input.value);
+        event.target.textContent = 'Copied';
+        window.setTimeout(() => { event.target.textContent = 'Copy link'; }, 2000);
+      } catch {
+        input.select();
+      }
+    })();
+  });
+</script>

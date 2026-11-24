@@ -1,0 +1,78 @@
+{
+  "slug": "mfc-share",
+  "type": "site",
+  "name": "MFC Share",
+  "url": "https://share.myfreecams.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "MyFreeCams' official fan-club and clip marketplace uniting live cam stars' recorded VOD packs, custom orders, and monthly clubs.",
+  "tags": [
+    "cams",
+    "live",
+    "creator"
+  ],
+  "ranking_rationale": "Buy recorded sets and fan clubs directly from your favorite MFC cam models, weighed against cluttered early-2010s web styling mirrors classic MFC.",
+  "pricing": {
+    "model": "Token unlocks & monthly clubs",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Buy recorded sets and fan clubs directly from your favorite MFC cam models",
+    "Seamless shared MFC token wallet and creator verification",
+    "Zero sketchy third-party rip risk"
+  ],
+  "cons": [
+    "Cluttered early-2010s web styling mirrors classic MFC",
+    "Creator upload frequency varies wildly"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mfc-share.webp",
+    "alt": "MFC Share logo and brand card",
+    "source_url": "https://share.myfreecams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://share.myfreecams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Token unlocks & monthly clubs",
+      "source_url": "https://share.myfreecams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://share.myfreecams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "share.myfreecams.com",
+      "source_url": "https://share.myfreecams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

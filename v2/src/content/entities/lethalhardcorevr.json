@@ -1,0 +1,79 @@
+{
+  "slug": "lethalhardcorevr",
+  "type": "site",
+  "name": "LethalHardcoreVR",
+  "url": "https://lethalhardcorevr.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Hardcore POV VR studio specializing in unscripted amateur-style action and raw close-up intensity.",
+  "tags": [
+    "vr",
+    "studio",
+    "streaming"
+  ],
+  "ranking_rationale": "Unscripted energetic gonzo pacing in VR; weighed against basic set design and lighting.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": "Free 3D trailers",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Unscripted energetic gonzo pacing in VR",
+    "Supports interactive Handy/Kiiroo funscripts",
+    "Solid 7K/8K downloads"
+  ],
+  "cons": [
+    "Basic set design and lighting",
+    "Repetitive intro structure"
+  ],
+  "image": {
+    "src": "/media/entities/sites/lethalhardcorevr.webp",
+    "alt": "LethalHardcoreVR logo and brand card",
+    "source_url": "https://lethalhardcorevr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://lethalhardcorevr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://lethalhardcorevr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://lethalhardcorevr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lethalhardcorevr.com",
+      "source_url": "https://lethalhardcorevr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "alltalk-tts",
+  "type": "ai_app",
+  "name": "AllTalk TTS",
+  "url": "https://github.com/erew123/alltalk_tts",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Open-source local Coqui/XTTS expressive voice engine bringing zero-filter voice synthesis natively into SillyTavern & Oobabooga.",
+  "tags": [
+    "local",
+    "open-source",
+    "voice",
+    "privacy"
+  ],
+  "ranking_rationale": "Clones expressive custom character voices locally with zero cloud safety bans or per-minute bills (trade-off: consumes 2GB–4GB extra VRAM alongside your running LLM).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Clones expressive custom character voices locally with zero cloud safety bans or per-minute bills",
+    "One-click native integration inside SillyTavern chats for live spoken RP replies",
+    "100% private offline audio generation"
+  ],
+  "cons": [
+    "Consumes 2GB–4GB extra VRAM alongside your running LLM",
+    "Python setup via Pinokio/script"
+  ],
+  "image": {
+    "src": "/media/entities/ai/alltalk-tts.webp",
+    "alt": "AllTalk TTS logo and brand card",
+    "source_url": "https://github.com/erew123/alltalk_tts",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/erew123/alltalk_tts",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/erew123/alltalk_tts",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS",
+      "source_url": "https://github.com/erew123/alltalk_tts",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/erew123/alltalk_tts",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

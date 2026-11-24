@@ -1,0 +1,52 @@
+---
+import ScoreBadge from '../ScoreBadge.astro';
+import type { Gear } from '../../lib/content/types';
+
+interface Props { gear: Gear; }
+const { gear } = Astro.props;
+---
+<section class="gear" aria-label={`Gear Lab card for ${gear.product}`}>
+  <div class="gear-top">
+    <ScoreBadge score={gear.score} size="lg" />
+    <div>
+      <p class="kicker">Gear Lab</p>
+      <h2>{gear.product}</h2>
+    </div>
+  </div>
+  <div class="verdict">
+    <h3>The verdict</h3>
+    <p>{gear.verdict}</p>
+  </div>
+  <div class="split">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>{gear.pros.map((item) => <li>{item}</li>)}</ul>
+    </div>
+    <div class="cons">
+      <h3>Cons</h3>
+      <ul>{gear.cons.map((item) => <li>{item}</li>)}</ul>
+    </div>
+  </div>
+  <div class="ratings">
+    {gear.ratings.map((row) => (
+      <div class="rating-row">
+        <span>{row.label}</span>
+        <div class="rating-track" role="img" aria-label={`${row.label} ${row.value} out of 10`}>
+          <div class="rating-fill" style={`width:${Math.max(0, Math.min(100, row.value * 10))}%`}></div>
+        </div>
+        <b>{row.value.toFixed(1)}</b>
+      </div>
+    ))}
+  </div>
+  <table class="spec">
+    <caption class="sr-only">Specifications for {gear.product}</caption>
+    <tbody>
+      {gear.specs.map((row) => (
+        <tr>
+          <th scope="row">{row.label}</th>
+          <td>{row.value}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</section>

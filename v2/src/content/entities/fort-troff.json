@@ -1,0 +1,79 @@
+{
+  "slug": "fort-troff",
+  "type": "site",
+  "name": "Fort Troff",
+  "url": "https://www.forttroff.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Premier male fetish, leather, harness, chastity & heavy-duty silicone gear manufacturer built specifically for gay & kink players.",
+  "tags": [
+    "niche",
+    "gay",
+    "bdsm",
+    "store"
+  ],
+  "ranking_rationale": "Purpose-engineered heavy-duty silicone, sport harnesses & metal gear built to last (trade-off: hyper-masculine marketing & sizing focus).",
+  "pricing": {
+    "model": "Male fetish gear store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Purpose-engineered heavy-duty silicone, sport harnesses & metal gear built to last",
+    "Discreet fast US shipping & frequent holiday gear sales",
+    "Own-brand engineering rather than generic dropshipped clones"
+  ],
+  "cons": [
+    "Hyper-masculine marketing & sizing focus",
+    "Premium pricing on metalwork & leather"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fort-troff.webp",
+    "alt": "Fort Troff logo and brand card",
+    "source_url": "https://www.forttroff.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.forttroff.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Male fetish gear store",
+      "source_url": "https://www.forttroff.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.forttroff.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "forttroff.com",
+      "source_url": "https://www.forttroff.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

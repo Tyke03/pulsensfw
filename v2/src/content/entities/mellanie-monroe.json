@@ -1,0 +1,63 @@
+{
+  "slug": "mellanie-monroe",
+  "type": "star",
+  "name": "Mellanie Monroe",
+  "url": "http://www.wikidata.org/entity/Q24961585",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mellanie Monroe — American pornographic actress (b. 1976). Industry career documented from 2009.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/mellanie-monroe.jpg",
+    "alt": "SFW portrait of Mellanie Monroe",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mellanie_Monroe_-_AVN_Expo_Photos_Las_Vegas_2013_(8421916709).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q24961585 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q24961585",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1976",
+      "source_url": "http://www.wikidata.org/entity/Q24961585",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2009–present",
+      "source_url": "http://www.wikidata.org/entity/Q24961585",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

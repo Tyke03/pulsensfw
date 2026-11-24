@@ -1,0 +1,78 @@
+{
+  "slug": "uberlube",
+  "type": "site",
+  "name": "Überlube",
+  "url": "https://www.uberlube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clinical-grade pure dimethicone luxury silicone lubricant renowned for long-lasting silkiness, zero stickiness & nightstand-worthy glass pump.",
+  "tags": [
+    "niche",
+    "wellness",
+    "store"
+  ],
+  "ranking_rationale": "Literally four pure ingredients delivering long-lasting silky glide with zero tacky residue, though pure silicone formulas cannot pair directly with silicone toys.",
+  "pricing": {
+    "model": "Luxury wellness storefront",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Literally four pure ingredients—glides smoothly with zero tacky residue",
+    "Heavy apothecary frosted glass pump bottle blends elegantly anywhere",
+    "Recommended widely by gynecologists and dermatologists"
+  ],
+  "cons": [
+    "Pure silicone formulas cannot touch silicone toys cleanly (pair with water-based for toys)",
+    "Higher price per ounce than drugstore brands"
+  ],
+  "image": {
+    "src": "/media/entities/sites/uberlube.webp",
+    "alt": "Überlube logo and brand card",
+    "source_url": "https://www.uberlube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.uberlube.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Luxury wellness storefront",
+      "source_url": "https://www.uberlube.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.uberlube.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "uberlube.com",
+      "source_url": "https://www.uberlube.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "kitty-media",
+  "type": "site",
+  "name": "Kitty Media",
+  "url": "https://media-blasters.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Media Blasters' iconic North American licensing arm distributing uncensored classic and modern Japanese hentai OVAs on legal Blu-ray/DVD.",
+  "tags": [
+    "hentai",
+    "anime",
+    "premium"
+  ],
+  "ranking_rationale": "One of the longest-running legal physical hentai anime licensors outside Japan (trade-off: focused on physical discs & boutique licensing windows rather than instant streaming).",
+  "pricing": {
+    "model": "Physical Blu-ray / DVD & licensed VOD",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Physical Media"
+  ],
+  "score": 7.7,
+  "pros": [
+    "One of the longest-running legal physical hentai anime licensors outside Japan",
+    "Uncensored official English sub & dub collector editions",
+    "Preserves cult OVA classics cleanly"
+  ],
+  "cons": [
+    "Focused on physical discs & boutique licensing windows rather than instant streaming",
+    "Small yearly acquisition volume"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kitty-media.webp",
+    "alt": "Kitty Media logo and brand card",
+    "source_url": "https://media-blasters.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://media-blasters.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Physical Blu-ray / DVD & licensed VOD",
+      "source_url": "https://media-blasters.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Physical Media",
+      "source_url": "https://media-blasters.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "media-blasters.com",
+      "source_url": "https://media-blasters.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

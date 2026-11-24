@@ -1,0 +1,86 @@
+{
+  "slug": "the-handy",
+  "type": "product",
+  "name": "The Handy",
+  "url": "https://www.thehandy.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Precision Wi-Fi + Bluetooth linear stroker engineered for high-speed VR video synchronization, open `.funscript` scripting, and hands-free mount rigs.",
+  "tags": [
+    "app",
+    "haptics",
+    "vr",
+    "stroker",
+    "scripts"
+  ],
+  "ranking_rationale": "Undisputed gold standard for interactive VR scenes and community funscripts—nothing else matches its stroke speed, responsiveness, and open Wi-Fi API.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "Handyverse web player & HandyFeeling scripts included",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official store for current bundle pricing; additional sleeves and hands-free mounts sold separately."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android",
+    "VR Sync",
+    "Wi-Fi",
+    "Bluetooth"
+  ],
+  "score": 9.2,
+  "pros": [
+    "Blistering linear stroke speed with millimeter-accurate VR timecode sync",
+    "Open Wi-Fi API works natively with DeoVR, SexLikeReal, HereSphere, and Intiface",
+    "True open `.funscript` ecosystem with thousands of synced community videos",
+    "Accepts aftermarket sleeves via its velcro-band carrier"
+  ],
+  "cons": [
+    "Must plug into AC wall power (no internal battery)",
+    "Fast reciprocating motor is noticeably loud without headphones",
+    "True hands-free VR bliss almost requires buying a desk mount accessory"
+  ],
+  "image": {
+    "src": "/media/entities/products/the-handy.webp",
+    "alt": "The Handy logo and brand card",
+    "source_url": "https://www.thehandy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Wi-Fi & Bluetooth automated linear stroker",
+      "source_url": "https://www.thehandy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "VR & script sync",
+      "value": "Supports DeoVR, SLR Interactive, HereSphere, Intiface, and.funscript",
+      "source_url": "https://www.thehandy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Power",
+      "value": "Wall-powered DC adapter for zero torque sag during high-speed strokes",
+      "source_url": "https://www.thehandy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Manufacturer",
+      "value": "Sweet Tech AS (Norway)",
+      "source_url": "https://www.thehandy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

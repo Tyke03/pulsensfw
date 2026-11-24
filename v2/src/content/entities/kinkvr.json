@@ -1,0 +1,79 @@
+{
+  "slug": "kinkvr",
+  "type": "site",
+  "name": "KinkVR",
+  "url": "https://www.kinkvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Authentic immersive BDSM, bondage, and femdom 180°/3D VR studio bringing first-person kink scenarios inside headsets.",
+  "tags": [
+    "vr",
+    "studio",
+    "fetish"
+  ],
+  "ranking_rationale": "True specialist BDSM/femdom VR—not generic vanilla scripts; weighed against heavy kink focus narrows casual appeal.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR"
+  ],
+  "score": 8.1,
+  "pros": [
+    "True specialist BDSM/femdom VR—not generic vanilla scripts",
+    "Solid Czech/US studio camera scale",
+    "Compatible across Quest & PCVR"
+  ],
+  "cons": [
+    "Heavy kink focus narrows casual appeal",
+    "Smaller library count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kinkvr.webp",
+    "alt": "KinkVR logo and brand card",
+    "source_url": "https://www.kinkvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://www.kinkvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://www.kinkvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR",
+      "source_url": "https://www.kinkvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kinkvr.com",
+      "source_url": "https://www.kinkvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

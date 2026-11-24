@@ -1,0 +1,78 @@
+{
+  "slug": "audiodesires",
+  "type": "site",
+  "name": "AudioDesires",
+  "url": "https://www.audiodesires.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Professionally acted immersive audio erotica stories blending crisp spatial SFX, varied voices, and consent-centered writing.",
+  "tags": [
+    "erotica",
+    "audio",
+    "subscription"
+  ],
+  "ranking_rationale": "Rich stereo soundscape design and talented voice casts; weighed against requires paid subscription past initial trial.",
+  "pricing": {
+    "model": "Monthly / annual audio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Rich stereo soundscape design and talented voice casts",
+    "Clean categorized filters (solo, couples, romance, dominance)",
+    "Respectful ethical production"
+  ],
+  "cons": [
+    "Requires paid subscription past initial trial",
+    "Smaller total story catalog than Quinn"
+  ],
+  "image": {
+    "src": "/media/entities/sites/audiodesires.webp",
+    "alt": "AudioDesires logo and brand card",
+    "source_url": "https://www.audiodesires.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.audiodesires.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Monthly / annual audio pass",
+      "source_url": "https://www.audiodesires.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.audiodesires.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "audiodesires.com",
+      "source_url": "https://www.audiodesires.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

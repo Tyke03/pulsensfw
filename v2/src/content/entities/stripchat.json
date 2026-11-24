@@ -1,0 +1,83 @@
+{
+  "slug": "stripchat",
+  "type": "site",
+  "name": "Stripchat",
+  "url": "https://stripchat.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "Sleek, fast-growing live cam leader pairing dark-mode polish and strong mobile streams with widespread interactive toy sync and dedicated VR cam rooms.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens",
+    "interactive"
+  ],
+  "ranking_rationale": "Chaturbate's sharpest challenger on product design: cleaner dark UI, strong mobile streaming, high room count, and real VR cam support.",
+  "pricing": {
+    "model": "Token-based tipping & private shows",
+    "free_tier": "Public live rooms open to watch without buying tokens",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Token bundles and optional Ultimate perks vary by tier; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "VR headset browser"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Modern dark-mode interface with crisp thumbnails and fast filters",
+    "Huge global roster of solo, couple, and trans broadcasters",
+    "Widespread Lovense/interactive toy integration plus VR cam rooms",
+    "Smooth mobile web player with low latency"
+  ],
+  "cons": [
+    "Token spending escalates quickly in gamified rooms",
+    "Frequent pop-ups prompting registration or token top-ups",
+    "Some studio-run rooms feel less personal than indie cams"
+  ],
+  "image": {
+    "src": "/media/entities/sites/stripchat.png",
+    "alt": "Stripchat logo and brand card",
+    "source_url": "https://stripchat.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Live adult webcam platform",
+      "source_url": "https://stripchat.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2016; operated by Technius Ltd (Cyprus)",
+      "source_url": "https://en.wikipedia.org/wiki/Stripchat",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Open public rooms with paid tokens for tips, privates, and fan clubs",
+      "source_url": "https://stripchat.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Modern dark UI, mobile optimization, and live 180-degree VR cam rooms",
+      "source_url": "https://stripchat.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

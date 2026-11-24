@@ -1,0 +1,64 @@
+{
+  "slug": "jade-jolie",
+  "type": "star",
+  "name": "Jade Jolie",
+  "url": "https://en.wikipedia.org/wiki/Jade_Jolie",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jade Jolie is an adult film performer from the United States (b. 1986). Verified adult filmography indexed via Wikidata and Wikimedia Commons.",
+  "tags": [
+    "performer",
+    "veteran",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/jade-jolie.jpg",
+    "alt": "SFW portrait of Jade Jolie",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jade_Jolie_crop.jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q64714883 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q64714883",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1986",
+      "source_url": "http://www.wikidata.org/entity/Q64714883",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Jade_Jolie",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

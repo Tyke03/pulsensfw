@@ -1,0 +1,74 @@
+{
+  "slug": "taylor-wane",
+  "type": "star",
+  "name": "Taylor Wane",
+  "url": "https://en.wikipedia.org/wiki/Taylor_Wane",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Taylor Wane is a British actress, model, and former pornographic film performer, director, model, and entrepreneur. She was inducted into the AVN Hall of Fame in 2005 and the XRCO Hall of Fame in 2014 as well as Legends Hall of Fame.",
+  "tags": [
+    "performer",
+    "former performer",
+    "hall of fame",
+    "awards",
+    "director",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/taylor-wane.jpg",
+    "alt": "SFW portrait of Taylor Wane",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taylor_Wane_2008.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Gateshead, Tyne and Wear, England",
+      "source_url": "https://en.wikipedia.org/wiki/Taylor_Wane",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Actress, model, pornographic film performer, director, model, entrepreneur",
+      "source_url": "https://en.wikipedia.org/wiki/Taylor_Wane",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "She was inducted into the AVN Hall of Fame in 2005 and the XRCO Hall of Fame in 2014 as well as Legends Hall of Fame.",
+      "source_url": "https://en.wikipedia.org/wiki/Taylor_Wane",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1968",
+      "source_url": "http://www.wikidata.org/entity/Q461948",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

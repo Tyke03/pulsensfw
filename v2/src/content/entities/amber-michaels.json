@@ -1,0 +1,63 @@
+{
+  "slug": "amber-michaels",
+  "type": "star",
+  "name": "Amber Michaels",
+  "url": "http://www.wikidata.org/entity/Q442215",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Amber Michaels — Pornographic performer (b. 1968). Industry career documented from 1998.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/amber-michaels.jpg",
+    "alt": "SFW portrait of Amber Michaels",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Amber_Michaels_CES2000_2.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q442215 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q442215",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1998–retired",
+      "source_url": "http://www.wikidata.org/entity/Q442215",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1968",
+      "source_url": "http://www.wikidata.org/entity/Q442215",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

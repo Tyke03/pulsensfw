@@ -1,0 +1,63 @@
+{
+  "slug": "lezley-zen",
+  "type": "star",
+  "name": "Lezley Zen",
+  "url": "https://en.wikipedia.org/wiki/Lezley_Zen",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lezley Zen — American pornographic actress. Industry career documented from 1998.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/lezley-zen.jpg",
+    "alt": "SFW portrait of Lezley Zen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lezley_Zen,_September_2006,_2.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q221339 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q221339",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1998–present",
+      "source_url": "https://en.wikipedia.org/wiki/Lezley_Zen",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1974",
+      "source_url": "http://www.wikidata.org/entity/Q221339",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

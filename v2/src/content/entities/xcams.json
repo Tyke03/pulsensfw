@@ -1,0 +1,78 @@
+{
+  "slug": "xcams",
+  "type": "site",
+  "name": "Xcams",
+  "url": "https://www.xcams.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Popular Western European webcam portal prized for Dutch, French, German, and amateur regional performers.",
+  "tags": [
+    "cams",
+    "live",
+    "european"
+  ],
+  "ranking_rationale": "Authentic European regional performers; weighed against smaller english us late-night roster.",
+  "pricing": {
+    "model": "Credits & private shows",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Authentic European regional performers",
+    "Clear tip/private credit display",
+    "Clean dark UI"
+  ],
+  "cons": [
+    "Smaller English US late-night roster",
+    "Minimal free explicit rooms"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xcams.webp",
+    "alt": "Xcams logo and brand card",
+    "source_url": "https://www.xcams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.xcams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits & private shows",
+      "source_url": "https://www.xcams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.xcams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xcams.com",
+      "source_url": "https://www.xcams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

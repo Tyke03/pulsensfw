@@ -1,0 +1,63 @@
+{
+  "slug": "jazmin",
+  "type": "star",
+  "name": "Jazmin",
+  "url": "https://en.wikipedia.org/wiki/Jazmin_Chaudhry",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jazmin — Bangladeshi pornographic actress. Industry career documented from 2004.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/jazmin.jpg",
+    "alt": "SFW portrait of Jazmin",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jazmin_adjusted.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q935899 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q935899",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2004–2008",
+      "source_url": "https://en.wikipedia.org/wiki/Jazmin_Chaudhry",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1985",
+      "source_url": "http://www.wikidata.org/entity/Q935899",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

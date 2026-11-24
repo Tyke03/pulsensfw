@@ -1,0 +1,64 @@
+{
+  "slug": "allanah-starr",
+  "type": "star",
+  "name": "Allanah Starr",
+  "url": "http://www.wikidata.org/entity/Q3565048",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Allanah Starr — American former pornographic actress. Industry career documented from 2002.",
+  "tags": [
+    "performer",
+    "former performer",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/allanah-starr.jpg",
+    "alt": "SFW portrait of Allanah Starr",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Miss_Allanah_Starr.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3565048 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q3565048",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2002–retired",
+      "source_url": "http://www.wikidata.org/entity/Q3565048",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q3565048",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

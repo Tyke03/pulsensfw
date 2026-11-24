@@ -1,0 +1,80 @@
+{
+  "slug": "ollama",
+  "type": "ai_app",
+  "name": "Ollama",
+  "url": "https://ollama.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Lightweight open-source CLI & daemon runtime to pull, quantize, and serve uncensored local LLMs in one command.",
+  "tags": [
+    "local",
+    "offline",
+    "gguf",
+    "open-source"
+  ],
+  "ranking_rationale": "Single-command model pulling and OpenAI API compatibility; weighed against cli-first setup expects terminal familiarity.",
+  "pricing": {
+    "model": "Free open-source (MIT)",
+    "free_tier": "100% free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Single-command model pulling and OpenAI API compatibility",
+    "Tiny system footprint great for headless servers",
+    "Massive community model library"
+  ],
+  "cons": [
+    "CLI-first setup expects terminal familiarity",
+    "Defaults to censored base models until you pick Dolphin/uncensored tags"
+  ],
+  "image": {
+    "src": "/media/entities/ai/ollama.webp",
+    "alt": "Ollama logo and brand card",
+    "source_url": "https://ollama.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://ollama.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open-source (MIT)",
+      "source_url": "https://ollama.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://ollama.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ollama.com",
+      "source_url": "https://ollama.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

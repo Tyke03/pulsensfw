@@ -1,0 +1,78 @@
+{
+  "slug": "keezmovies",
+  "type": "site",
+  "name": "KeezMovies",
+  "url": "https://www.keezmovies.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Curated mainstream free tube presenting crisp category tiles, HD playlists, and reliable streaming mirrors.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream"
+  ],
+  "ranking_rationale": "Clean responsive player with quick seek bar; weighed against redundant overlap with sister mainstream tubes.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Clean responsive player with quick seek bar",
+    "Well-curated daily featured feed",
+    "Reliable uptime on mobile web"
+  ],
+  "cons": [
+    "Redundant overlap with sister mainstream tubes",
+    "Basic tag depth"
+  ],
+  "image": {
+    "src": "/media/entities/sites/keezmovies.webp",
+    "alt": "KeezMovies logo and brand card",
+    "source_url": "https://www.keezmovies.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.keezmovies.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.keezmovies.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.keezmovies.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "keezmovies.com",
+      "source_url": "https://www.keezmovies.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

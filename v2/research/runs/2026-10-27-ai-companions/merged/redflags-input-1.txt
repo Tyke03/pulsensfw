@@ -1,0 +1,60 @@
+canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
+agnai|Agnai|agnai.chat|byok_local_frontends|false|false
+ai-angels|AI Angels|aiangels.io|hosted_character_hubs|true|false
+ai-boyfriend-6hive-ou|AI Boyfriend — 6Hive OU|play.google.com|hosted_character_hubs|false|true
+ai-boyfriend-caitty|AI Boyfriend — Caitty|play.google.com|hosted_character_hubs|false|true
+ai-boyfriend-chat-husby|AI Boyfriend Chat - Husby|apps.apple.com|dedicated_virtual_companions|false|true
+ai-boyfriend-love-chat-partner|AI Boyfriend:Love Chat Partner|play.google.com|hosted_character_hubs|false|true
+ai-character-cards|AI Character Cards|aicharactercards.com|hybrid_hub_and_frontend|false|false
+ai-dungeon|AI Dungeon|aidungeon.com|interactive_story_engines|false|false
+ai-friend-3d-talking-buddy|AI Friend 3D - Talking Buddy||hosted_character_hubs|false|true
+ai-girlfriend-trumate|AI Girlfriend - TruMate|play.google.com|hosted_character_hubs|false|true
+ai-girlfriend-wtf|AI Girlfriend WTF|aigirlfriend.wtf|hosted_character_hubs|false|false
+ai-life-ai-companion-chat|AI Life — AI Companion & Chat||hosted_character_hubs|false|true
+ai-peeps|AI Peeps|aipeeps.com|hosted_character_hubs|false|false
+ai-voice-assistant-fala-ai|AI Voice Assistant - Fala AI||hosted_character_hubs|false|true
+aiallure|aiAllure|aiallure.com|hosted_character_hubs|false|false
+aiboy-virtual-ai-boyfriend|AIBoy - Virtual AI Boyfriend|play.google.com|hosted_character_hubs|false|true
+aihentaichat|AIHentaiChat|aihentaichat.com|hosted_character_hubs|false|false
+aimour-ai|AIMOUR.AI|aimour.ai|hosted_character_hubs|false|false
+aimy-アイミー|Aimy (アイミー)|play.google.com|dedicated_virtual_companions|false|true
+aipornchat-online|AiPornChat.online|aipornchat.online|hosted_character_hubs|false|false
+airfriend|Airfriend|play.google.com|dedicated_virtual_companions|false|true
+aiwaifu|AiWaifu|aiwaifu.me|hosted_character_hubs|false|false
+alive-ai|Alive AI|aliveai.app|hosted_character_hubs|false|false
+alphazria|Alphazria|alphazria.com|hosted_character_hubs|false|false
+amorlink-ai|AmorLink AI|amorlink.ai|hosted_character_hubs|false|false
+angel-ai|Angel AI|angel.ai|hosted_character_hubs|false|false
+anima-ai|Anima AI|myanima.ai|dedicated_virtual_companions|false|true
+anima-my-virtual-ai-boyfriend|Anima: My Virtual AI Boyfriend|play.google.com|hosted_character_hubs|false|true
+anime-gf|Anime.gf|animegf.com|dedicated_virtual_companions|false|false
+aroused-ai|Aroused AI|aroused.ai|hosted_character_hubs|false|false
+backyard-ai-faraday-faraday-dev-byai|Backyard AI (Faraday / Faraday.dev / BYAI)|backyard.ai|byok_local_frontends|false|false
+besties-call-your-ai-friend|Besties - Call your AI Friend||hosted_character_hubs|false|true
+botbooru|Botbooru|botbooru.com|hybrid_hub_and_frontend|false|false
+botify|Botify|play.google.com|dedicated_virtual_companions|false|true
+boyfi-ai-partner-boyfriend|Boyfi - AI Partner & Boyfriend|apps.apple.com|dedicated_virtual_companions|false|true
+brazzers-ai|Brazzers.ai|brazzers.ai|hosted_character_hubs|false|false
+camsoda-ai|CamSoda AI|camsoda.com|hosted_character_hubs|false|false
+candy-ai|Candy AI|candy.ai|hosted_character_hubs|true|false
+carter-chat|Carter Chat|carter.chat|dedicated_virtual_companions|false|false
+chai|Chai|chai-research.com|dedicated_virtual_companions|false|true
+character-tavern|Character Tavern|character-tavern.com|hybrid_hub_and_frontend|false|false
+characterhub|CharacterHub|characterhub.org|hybrid_hub_and_frontend|false|false
+charactersphere-ai|CharacterSphere.ai|charactersphere.ai|hosted_character_hubs|false|false
+charbot|Charbot|apps.apple.com|hosted_character_hubs|false|false
+chat-de-personajes-con-ia|Chat de personajes con IA|play.google.com|hosted_character_hubs|false|false
+chat-ia-de-personajes-anime|Chat IA de Personajes Anime|play.google.com|hosted_character_hubs|false|true
+chatfai|ChatFAI|chatfai.com|hosted_character_hubs|false|false
+chatup-ai|ChatUp AI|aichattings.com|hosted_character_hubs|false|false
+cherrypop-ai|CherryPop AI|cherrypop.ai|hosted_character_hubs|false|false
+chub-ai|Chub AI|chub.ai|hybrid_hub_and_frontend|false|false
+clank-world|Clank World|apps.apple.com|hosted_character_hubs|false|true
+clonella|Clonella|clonella.com|hosted_character_hubs|false|false
+cotogoto|CotoGoto||hosted_character_hubs|false|true
+cotomo|Cotomo|cotomo.ai|dedicated_virtual_companions|false|true
+couple-me|Couple Me|couple.me|hosted_character_hubs|false|false
+craveu-ai|CraveU AI|craveu.ai|hosted_character_hubs|false|false
+createporn|CreatePorn|createporn.com|hosted_character_hubs|false|false
+crushi-ai|Crushi AI|crushi.ai|hosted_character_hubs|false|false
+crushie|Crushie|play.google.com|dedicated_virtual_companions|false|true

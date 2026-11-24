@@ -1,0 +1,79 @@
+{
+  "slug": "kohya-ss",
+  "type": "ai_app",
+  "name": "Kohya_ss GUI",
+  "url": "https://github.com/bmaltais/kohya_ss",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The definitive local Gradio workbench for training custom SDXL, Pony, and Flux LoRAs on private image datasets completely offline.",
+  "tags": [
+    "local",
+    "image",
+    "open-source",
+    "training"
+  ],
+  "ranking_rationale": "Train uncensored custom styles, characters, and concepts locally on 12GB+ GPUs (trade-off: dense hyperparameter menus demand careful guide reading).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Train uncensored custom styles, characters, and concepts locally on 12GB+ GPUs",
+    "Fine-grained learning-rate, block-weight, and captioning controls",
+    "100% private offline training"
+  ],
+  "cons": [
+    "Dense hyperparameter menus demand careful guide reading",
+    "Heavy local VRAM requirement during Flux training"
+  ],
+  "image": {
+    "src": "/media/entities/ai/kohya-ss.webp",
+    "alt": "Kohya_ss GUI logo and brand card",
+    "source_url": "https://github.com/bmaltais/kohya_ss",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/bmaltais/kohya_ss",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/bmaltais/kohya_ss",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/bmaltais/kohya_ss",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/bmaltais/kohya_ss",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

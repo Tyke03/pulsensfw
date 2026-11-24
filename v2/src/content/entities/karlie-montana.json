@@ -1,0 +1,63 @@
+{
+  "slug": "karlie-montana",
+  "type": "star",
+  "name": "Karlie Montana",
+  "url": "http://www.wikidata.org/entity/Q1764472",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Karlie Montana — American pornographic actress (b. 1986). Industry career documented from 2004.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/karlie-montana.jpg",
+    "alt": "SFW portrait of Karlie Montana",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Karlie_Montana_at_Island_Fever_4_party_2.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q1764472 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q1764472",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1986",
+      "source_url": "http://www.wikidata.org/entity/Q1764472",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2004–present",
+      "source_url": "http://www.wikidata.org/entity/Q1764472",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

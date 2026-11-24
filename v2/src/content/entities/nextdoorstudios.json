@@ -1,0 +1,79 @@
+{
+  "slug": "nextdoorstudios",
+  "type": "site",
+  "name": "Next Door Studios",
+  "url": "https://www.nextdoorstudios.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Gamma / Adult Time's massive gay studio collective bundling Next Door Buddies, Raw, and Active Duty.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "network"
+  ],
+  "ranking_rationale": "Enormous multi-brand gay archive under one pass; weighed against mixed quality across older legacy sister sites.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Enormous multi-brand gay archive under one pass",
+    "Strong mix of story, amateur-style, and bareback showcases",
+    "Reliable 4K streaming"
+  ],
+  "cons": [
+    "Mixed quality across older legacy sister sites",
+    "Cross-brand interface churn"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nextdoorstudios.webp",
+    "alt": "Next Door Studios logo and brand card",
+    "source_url": "https://www.nextdoorstudios.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.nextdoorstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.nextdoorstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.nextdoorstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nextdoorstudios.com",
+      "source_url": "https://www.nextdoorstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

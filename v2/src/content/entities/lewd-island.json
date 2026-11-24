@@ -1,0 +1,78 @@
+{
+  "slug": "lewd-island",
+  "type": "game",
+  "name": "Lewd Island",
+  "url": "https://www.lewdisland.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Stylized 3D tropical-island survival dating sandbox combining base crafting, flirting mini-games, and unlocked cutscenes.",
+  "tags": [
+    "games",
+    "sandbox",
+    "survival"
+  ],
+  "ranking_rationale": "Genuine light crafting & camp gameplay beyond clicking dialogue; weighed against grindy resource collection loops late-game.",
+  "pricing": {
+    "model": "Free public builds + Patreon early access",
+    "free_tier": "Public releases free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Android"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Genuine light crafting & camp gameplay beyond clicking dialogue",
+    "Bright stylized cartoon-3D characters",
+    "Regular supporter patches"
+  ],
+  "cons": [
+    "Grindy resource collection loops late-game",
+    "Smaller animation polish vs top VNs"
+  ],
+  "image": {
+    "src": "/media/entities/games/lewd-island.webp",
+    "alt": "Lewd Island logo and brand card",
+    "source_url": "https://www.lewdisland.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://www.lewdisland.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free public builds + Patreon early access",
+      "source_url": "https://www.lewdisland.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Android",
+      "source_url": "https://www.lewdisland.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lewdisland.com",
+      "source_url": "https://www.lewdisland.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

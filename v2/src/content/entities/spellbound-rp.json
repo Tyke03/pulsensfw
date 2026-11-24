@@ -1,0 +1,78 @@
+{
+  "slug": "spellbound-rp",
+  "type": "ai_app",
+  "name": "Spellbound",
+  "url": "https://tryspellbound.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Interactive narrative RP studio praised for strong chapter continuity, clean literary formatting, and mature romance storytelling.",
+  "tags": [
+    "chat",
+    "roleplay",
+    "writing"
+  ],
+  "ranking_rationale": "Feels like collaborative fiction with character stats rather than shallow single-line chat (trade-off: credits drain during heavy 100+ turn marathons).",
+  "pricing": {
+    "model": "Freemium + Unlimited story plans",
+    "free_tier": "Free monthly starter chapters",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Feels like collaborative fiction with character stats rather than shallow single-line chat",
+    "Generous story memory windows keep long romance/fantasy plots coherent",
+    "Zero intrusive spam ads"
+  ],
+  "cons": [
+    "Credits drain during heavy 100+ turn marathons",
+    "Focused on guided fiction stories rather than voice calls"
+  ],
+  "image": {
+    "src": "/media/entities/ai/spellbound-rp.webp",
+    "alt": "Spellbound logo and brand card",
+    "source_url": "https://tryspellbound.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://tryspellbound.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium + Unlimited story plans",
+      "source_url": "https://tryspellbound.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://tryspellbound.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tryspellbound.com",
+      "source_url": "https://tryspellbound.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

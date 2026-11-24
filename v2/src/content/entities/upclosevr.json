@@ -1,0 +1,80 @@
+{
+  "slug": "upclosevr",
+  "type": "site",
+  "name": "UpCloseVR",
+  "url": "https://www.upclosevr.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Precision macro-lens 180-degree VR studio engineered for intimate close-up focus calibration without eye strain on high-res headsets.",
+  "tags": [
+    "vr",
+    "studio",
+    "4k",
+    "8k"
+  ],
+  "ranking_rationale": "Thoughtful IPD & close-focus lens tuning avoids painful cross-eyed VR blur, weighed against smaller catalog depth than legacy giants.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Thoughtful IPD & close-focus lens tuning avoids painful cross-eyed VR blur",
+    "Crisp 8K downloads & DeoVR integration",
+    "Consistent sensual solo and couples scenes"
+  ],
+  "cons": [
+    "Smaller catalog depth than legacy giants",
+    "Repetitive bedroom staging"
+  ],
+  "image": {
+    "src": "/media/entities/sites/upclosevr.webp",
+    "alt": "UpCloseVR logo and brand card",
+    "source_url": "https://www.upclosevr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://www.upclosevr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://www.upclosevr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://www.upclosevr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "upclosevr.com",
+      "source_url": "https://www.upclosevr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

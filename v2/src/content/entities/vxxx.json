@@ -1,0 +1,78 @@
+{
+  "slug": "vxxx",
+  "type": "site",
+  "name": "VXXX",
+  "url": "https://vxxx.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modernized dark-mode free HD tube pairing AI-tagged performer profiles, timeline chapter markers, and fast global CDN scrubbing.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Clean responsive dark grid with timeline chapter markers (trade-off: shares clip backend with TXXX network).",
+  "pricing": {
+    "model": "Free HD tube",
+    "free_tier": "Free HD streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Clean responsive dark grid with timeline chapter markers",
+    "Accurate automatic star recognition tags",
+    "Smooth mobile browser playback"
+  ],
+  "cons": [
+    "Shares clip backend with TXXX network",
+    "Standard banner ads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vxxx.webp",
+    "alt": "VXXX logo and brand card",
+    "source_url": "https://vxxx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://vxxx.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free HD tube",
+      "source_url": "https://vxxx.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://vxxx.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vxxx.com",
+      "source_url": "https://vxxx.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

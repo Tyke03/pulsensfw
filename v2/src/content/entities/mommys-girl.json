@@ -1,0 +1,80 @@
+{
+  "slug": "mommys-girl",
+  "type": "site",
+  "name": "Mommy's Girl",
+  "url": "https://www.mommysgirl.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Girlsway / Adult Time's popular all-girl roleplay drama channel pairing veteran icons with rising stars in 4K.",
+  "tags": [
+    "premium",
+    "studio",
+    "lesbian",
+    "story",
+    "4k"
+  ],
+  "ranking_rationale": "Strong generational star pairings & committed acting, weighed against strictly step-roleplay lesbian premise.",
+  "pricing": {
+    "model": "All-girl studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Strong generational star pairings & committed acting",
+    "Polished Adult Time 4K player & scene filters",
+    "Huge searchable episode archive"
+  ],
+  "cons": [
+    "Strictly step-roleplay lesbian premise",
+    "Best value inside full Adult Time pass"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mommys-girl.webp",
+    "alt": "Mommy's Girl logo and brand card",
+    "source_url": "https://www.mommysgirl.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.mommysgirl.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "All-girl studio pass",
+      "source_url": "https://www.mommysgirl.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.mommysgirl.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mommysgirl.com",
+      "source_url": "https://www.mommysgirl.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

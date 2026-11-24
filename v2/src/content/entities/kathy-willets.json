@@ -1,0 +1,63 @@
+{
+  "slug": "kathy-willets",
+  "type": "star",
+  "name": "Kathy Willets",
+  "url": "http://www.wikidata.org/entity/Q5958602",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Kathy Willets — American former pornographic actress (b. 1958). Industry career documented from 1994.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/kathy-willets.jpg",
+    "alt": "SFW portrait of Kathy Willets",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kathy_Willets.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q5958602 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q5958602",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1958",
+      "source_url": "http://www.wikidata.org/entity/Q5958602",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1994–retired",
+      "source_url": "http://www.wikidata.org/entity/Q5958602",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

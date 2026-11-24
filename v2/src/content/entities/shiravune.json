@@ -1,0 +1,80 @@
+{
+  "slug": "shiravune",
+  "type": "site",
+  "name": "Shiravune",
+  "url": "https://www.shiravune.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "DMM / EXNOA's premier English localization powerhouse licensing classic Japanese visual novels and Aquaplus/Norn hits uncensored.",
+  "tags": [
+    "hentai",
+    "games",
+    "visual-novel",
+    "publisher"
+  ],
+  "ranking_rationale": "Brings major historic Japanese eroge classics cleanly into English; weighed against always-online drm reported on older johren releases (steam improves).",
+  "pricing": {
+    "model": "Digital storefront & Steam publisher",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Brings major historic Japanese eroge classics cleanly into English",
+    "Sells uncensored editions simultaneously on Johren, Steam & GOG/direct",
+    "Consistent polished translation craft"
+  ],
+  "cons": [
+    "Always-online DRM reported on older Johren releases (Steam improves)",
+    "Pricey ~$30–$45 launch pricing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/shiravune.webp",
+    "alt": "Shiravune logo and brand card",
+    "source_url": "https://www.shiravune.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.shiravune.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Digital storefront & Steam publisher",
+      "source_url": "https://www.shiravune.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, Steam",
+      "source_url": "https://www.shiravune.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "shiravune.com",
+      "source_url": "https://www.shiravune.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

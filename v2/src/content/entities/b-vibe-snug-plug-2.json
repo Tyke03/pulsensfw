@@ -1,0 +1,77 @@
+{
+  "slug": "b-vibe-snug-plug-2",
+  "type": "product",
+  "name": "b-Vibe Snug Plug 2",
+  "url": "https://www.bvibe.com/snug-plug-2.html",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Weighted, seamless liquid-silicone graduated plug giving comforting fullness during solo sessions or partnered warm-up.",
+  "tags": [
+    "plug",
+    "couples",
+    "ergonomic"
+  ],
+  "ranking_rationale": "Internal steel ball adds subtle satisfying weight & movement; weighed against non-vibrating hardware only.",
+  "pricing": {
+    "model": "Hardware purchase (~$49)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Internal steel ball adds subtle satisfying weight & movement",
+    "Ultra-thin flexible neck stays comfortable sitting",
+    "Includes sleek antibacterial travel case & training guide"
+  ],
+  "cons": [
+    "Non-vibrating hardware only",
+    "Heavier weight takes getting used to for beginners"
+  ],
+  "image": {
+    "src": "/media/entities/products/b-vibe-snug-plug-2.webp",
+    "alt": "b-Vibe Snug Plug 2 logo and brand card",
+    "source_url": "https://www.bvibe.com/snug-plug-2.html",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.bvibe.com/snug-plug-2.html",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$49)",
+      "source_url": "https://www.bvibe.com/snug-plug-2.html",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.bvibe.com/snug-plug-2.html",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bvibe.com",
+      "source_url": "https://www.bvibe.com/snug-plug-2.html",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

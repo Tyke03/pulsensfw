@@ -1,0 +1,77 @@
+{
+  "slug": "fun-factory-bi-stronic",
+  "type": "product",
+  "name": "FUN FACTORY Bi-Stronic Fusion",
+  "url": "https://www.funfactory.com/en/vibrators/bistronic-fusion/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "German-engineered marvel uniting real reciprocating magnet-driven thrusting inside the shaft with pulsing clitoral rabbit vibration.",
+  "tags": [
+    "rabbits",
+    "luxury",
+    "waterproof"
+  ],
+  "ranking_rationale": "True motorless magnetic thrusting piston creates natural in-and-out motion no static buzzer can fake (trade-off: noticeably heavier and thicker — ~1.5\"+ diameter than minimalist rabbits).",
+  "pricing": {
+    "model": "Hardware purchase (~$199)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.9,
+  "pros": [
+    "True motorless magnetic thrusting piston creates natural in-and-out motion no static buzzer can fake",
+    "Dual independent intensity controls across thrusting & vibrating motors",
+    "Precision German silicone & submersible waterproof sealing"
+  ],
+  "cons": [
+    "Noticeably heavier and thicker (~1.5\"+ diameter) than minimalist rabbits",
+    "Premium $199 price & proprietary magnetic charger"
+  ],
+  "image": {
+    "src": "/media/entities/products/fun-factory-bi-stronic.webp",
+    "alt": "FUN FACTORY Bi-Stronic Fusion logo and brand card",
+    "source_url": "https://www.funfactory.com/en/vibrators/bistronic-fusion/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.funfactory.com/en/vibrators/bistronic-fusion/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$199)",
+      "source_url": "https://www.funfactory.com/en/vibrators/bistronic-fusion/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.funfactory.com/en/vibrators/bistronic-fusion/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "funfactory.com",
+      "source_url": "https://www.funfactory.com/en/vibrators/bistronic-fusion/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

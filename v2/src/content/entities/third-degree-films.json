@@ -1,0 +1,78 @@
+{
+  "slug": "third-degree-films",
+  "type": "site",
+  "name": "3rd Degree Films",
+  "url": "https://www.3rddegreefilms.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Established American DVD-era gonzo studio archive preserving star showcases across top 2000s–2010s contract & freelance talent.",
+  "tags": [
+    "premium",
+    "studio",
+    "mainstream"
+  ],
+  "ranking_rationale": "Extensive multi-thousand-scene American star filmography archive (trade-off: primarily archival vault appeal rather than new 2026 shoots).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Extensive multi-thousand-scene American star filmography archive",
+    "Easy scene-by-disc navigation",
+    "Stable streaming player"
+  ],
+  "cons": [
+    "Primarily archival vault appeal rather than new 2026 shoots",
+    "Functional legacy site template"
+  ],
+  "image": {
+    "src": "/media/entities/sites/third-degree-films.webp",
+    "alt": "3rd Degree Films logo and brand card",
+    "source_url": "https://www.3rddegreefilms.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.3rddegreefilms.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.3rddegreefilms.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.3rddegreefilms.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "3rddegreefilms.com",
+      "source_url": "https://www.3rddegreefilms.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

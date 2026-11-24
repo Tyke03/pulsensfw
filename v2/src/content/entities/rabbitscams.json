@@ -1,0 +1,78 @@
+{
+  "slug": "rabbitscams",
+  "type": "site",
+  "name": "RabbitsCams",
+  "url": "https://rabbitscams.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Streamate-powered cam portal combining fast trait filtering, model previews, and streamlined mobile private chat.",
+  "tags": [
+    "cams",
+    "live",
+    "roulette"
+  ],
+  "ranking_rationale": "Rapid instant trait filters without clutter; weighed against white-label catalog mirrors jerkmate/streamate.",
+  "pricing": {
+    "model": "Per-minute privates",
+    "free_tier": "Free browsing & preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Rapid instant trait filters without clutter",
+    "Stable Streamate HD streams",
+    "Great phone browser layout"
+  ],
+  "cons": [
+    "White-label catalog mirrors Jerkmate/Streamate",
+    "Private-first pricing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/rabbitscams.webp",
+    "alt": "RabbitsCams logo and brand card",
+    "source_url": "https://rabbitscams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://rabbitscams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-minute privates",
+      "source_url": "https://rabbitscams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://rabbitscams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "rabbitscams.com",
+      "source_url": "https://rabbitscams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

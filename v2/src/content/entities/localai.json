@@ -1,0 +1,81 @@
+{
+  "slug": "localai",
+  "type": "ai_app",
+  "name": "LocalAI",
+  "url": "https://localai.io",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Self-hosted drop-in OpenAI API replacement running local GGUF chats, Flux/SD images & offline voice cloning cleanly inside Docker.",
+  "tags": [
+    "local",
+    "open-source",
+    "api",
+    "chat"
+  ],
+  "ranking_rationale": "Single self-hosted local container serves chat, image gen, embeddings & TTS privately (trade-off: config YAML tuning demands moderate dev familiarity vs turnkey Ollama).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free MIT license",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Docker"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Single self-hosted local container serves chat, image gen, embeddings & TTS privately",
+    "100% local & offline with zero cloud telemetry or censorship filters",
+    "Clean web playground + standard API"
+  ],
+  "cons": [
+    "Config YAML tuning demands moderate dev familiarity vs turnkey Ollama",
+    "Image/voice backends consume substantial VRAM simultaneously"
+  ],
+  "image": {
+    "src": "/media/entities/ai/localai.webp",
+    "alt": "LocalAI logo and brand card",
+    "source_url": "https://localai.io",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://localai.io",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://localai.io",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, macOS, Windows, Docker",
+      "source_url": "https://localai.io",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "localai.io",
+      "source_url": "https://localai.io",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

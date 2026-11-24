@@ -1,0 +1,74 @@
+{
+  "slug": "hammerai",
+  "type": "ai_app",
+  "name": "HammerAI",
+  "url": "https://www.hammerai.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Friendly desktop and web character chat client emphasizing 100% private in-browser/Ollama local model execution with free uncensored roleplay.",
+  "tags": [
+    "privacy",
+    "local",
+    "chat",
+    "free"
+  ],
+  "ranking_rationale": "Easier on-ramp to local uncensored character chat than SillyTavern + KoboldCpp, delivering privacy and free tiers without terminal tinkering.",
+  "pricing": {
+    "model": "Free local app + optional cloud Pro tiers",
+    "free_tier": "Local desktop & free cloud chat models available free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Local mode via Ollama/Desktop is free; optional cloud plans unlock hosted larger models."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Clean beginner-friendly alternative to SillyTavern for private local models",
+    "Connects smoothly to local Ollama or downloadable GGUF weights",
+    "Free tier supports immediate character chat without paywall blocks"
+  ],
+  "cons": [
+    "Fewer advanced lorebook and prompt-engineering knobs than SillyTavern",
+    "Free cloud models have tighter context windows than paid local hardware"
+  ],
+  "image": {
+    "src": "/media/entities/ai/hammerai.webp",
+    "alt": "HammerAI logo and brand card",
+    "source_url": "https://www.hammerai.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Privacy-focused local & cloud character chat app",
+      "source_url": "https://www.hammerai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Local privacy",
+      "value": "Desktop app runs models directly via Ollama with zero cloud logging",
+      "source_url": "https://www.hammerai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platform support",
+      "value": "Web, Windows, macOS, and Linux clients",
+      "source_url": "https://www.hammerai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

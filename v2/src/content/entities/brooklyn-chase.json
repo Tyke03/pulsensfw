@@ -1,0 +1,63 @@
+{
+  "slug": "brooklyn-chase",
+  "type": "star",
+  "name": "Brooklyn Chase",
+  "url": "http://www.wikidata.org/entity/Q20656321",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Brooklyn Chase — American pornographic actress (b. 1985). Industry career documented from 2007.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/brooklyn-chase.jpg",
+    "alt": "SFW portrait of Brooklyn Chase",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Chase_AVN_Expo_2015.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q20656321 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q20656321",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2007–present",
+      "source_url": "http://www.wikidata.org/entity/Q20656321",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1985",
+      "source_url": "http://www.wikidata.org/entity/Q20656321",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

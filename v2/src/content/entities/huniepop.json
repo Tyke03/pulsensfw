@@ -1,0 +1,81 @@
+{
+  "slug": "huniepop",
+  "type": "game",
+  "name": "HuniePop",
+  "url": "https://store.steampowered.com/app/339800/HuniePop/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The witty genre-defining match-3 dating sim on Steam pairing surprisingly addictive puzzle combos with sharp voice acting.",
+  "tags": [
+    "games",
+    "puzzle",
+    "dating-sim",
+    "pc"
+  ],
+  "ranking_rationale": "Legitimately tight, addictive match-3 combo mechanics; weighed against steam edition requires free uncensored patch for explicit cgs.",
+  "pricing": {
+    "model": "One-time Steam purchase (~$10)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Legitimately tight, addictive match-3 combo mechanics",
+    "Memorable sharp-tongued full English voice cast",
+    "Frequent deep Steam sales under $3"
+  ],
+  "cons": [
+    "Steam edition requires free uncensored patch for explicit CGs",
+    "Minimal story plot beyond date puzzles"
+  ],
+  "image": {
+    "src": "/media/entities/games/huniepop.webp",
+    "alt": "HuniePop logo and brand card",
+    "source_url": "https://store.steampowered.com/app/339800/HuniePop/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/339800/HuniePop/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$10)",
+      "source_url": "https://store.steampowered.com/app/339800/HuniePop/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/339800/HuniePop/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/339800/HuniePop/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

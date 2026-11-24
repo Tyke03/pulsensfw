@@ -1,0 +1,78 @@
+{
+  "slug": "porn300",
+  "type": "site",
+  "name": "Porn300",
+  "url": "https://www.porn300.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean modern HD tube sorting studio releases, amateur uploads, and creator clips with responsive mobile cards.",
+  "tags": [
+    "tube",
+    "hd",
+    "streaming"
+  ],
+  "ranking_rationale": "Clean dark UI and large thumbnails; weighed against limited advanced filters.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Clean dark UI and large thumbnails",
+    "Good mobile touch controls",
+    "Solid related-clip engine"
+  ],
+  "cons": [
+    "Limited advanced filters",
+    "Pop ads on initial taps"
+  ],
+  "image": {
+    "src": "/media/entities/sites/porn300.webp",
+    "alt": "Porn300 logo and brand card",
+    "source_url": "https://www.porn300.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.porn300.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.porn300.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.porn300.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "porn300.com",
+      "source_url": "https://www.porn300.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

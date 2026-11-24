@@ -1,0 +1,77 @@
+{
+  "slug": "dame-zee",
+  "type": "product",
+  "name": "Dame Zee",
+  "url": "https://www.dame.com/products/zee",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dual-ended ergonomic silicone dildo engineered by Dame with one slim gentle curve and one broader G-spot/prostate bulb—plus harness compatibility.",
+  "tags": [
+    "dildo",
+    "manual",
+    "waterproof"
+  ],
+  "ranking_rationale": "Two distinct diameters & curves in one seamless platinum-cure medical silicone sculpt (trade-off: purely manual silicone sculpt — zero motor vibration).",
+  "pricing": {
+    "model": "Hardware purchase (~$85)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Two distinct diameters & curves in one seamless platinum-cure medical silicone sculpt",
+    "Harness-compatible center ridge works solo or partnered with zero batteries to fail",
+    "Dishwasher/boil-safe hygiene"
+  ],
+  "cons": [
+    "Purely manual silicone sculpt — zero motor vibration",
+    "Requires generous water-based lube"
+  ],
+  "image": {
+    "src": "/media/entities/products/dame-zee.webp",
+    "alt": "Dame Zee logo and brand card",
+    "source_url": "https://www.dame.com/products/zee",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.dame.com/products/zee",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$85)",
+      "source_url": "https://www.dame.com/products/zee",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.dame.com/products/zee",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dame.com",
+      "source_url": "https://www.dame.com/products/zee",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "gelbooru",
+  "type": "site",
+  "name": "Gelbooru",
+  "url": "https://gelbooru.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The largest open-tag anime/hentai booru imageboard—unmatched for boolean tag queries across millions of illustrations.",
+  "tags": [
+    "hentai",
+    "booru",
+    "art",
+    "free"
+  ],
+  "ranking_rationale": "Millions of granular artist/character/pose tags; weighed against noisy ad placements.",
+  "pricing": {
+    "model": "Free ad-supported booru",
+    "free_tier": "Free image search",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Millions of granular artist/character/pose tags",
+    "Fast boolean tag search + pools",
+    "Essential research index for anime illustrators"
+  ],
+  "cons": [
+    "Noisy ad placements",
+    "Requires account settings tweak or filters for safety"
+  ],
+  "image": {
+    "src": "/media/entities/sites/gelbooru.webp",
+    "alt": "Gelbooru logo and brand card",
+    "source_url": "https://gelbooru.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://gelbooru.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported booru",
+      "source_url": "https://gelbooru.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://gelbooru.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "gelbooru.com",
+      "source_url": "https://gelbooru.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

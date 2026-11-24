@@ -1,0 +1,78 @@
+{
+  "slug": "hitomi-la",
+  "type": "site",
+  "name": "Hitomi.la",
+  "url": "https://hitomi.la",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-resolution doujinshi, manga, and game CG mirror featuring instantaneous multi-tag instant autocomplete search.",
+  "tags": [
+    "hentai",
+    "doujinshi",
+    "free"
+  ],
+  "ranking_rationale": "Massive Japanese/Korean/English doujin & CG library; weighed against intrusive popup ads without ublock.",
+  "pricing": {
+    "model": "Free ad-supported reader",
+    "free_tier": "Free browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Massive Japanese/Korean/English doujin & CG library",
+    "Fast WebP high-res image viewer",
+    "Snappy tag filtering"
+  ],
+  "cons": [
+    "Intrusive popup ads without uBlock",
+    "Minimal comment community"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hitomi-la.webp",
+    "alt": "Hitomi.la logo and brand card",
+    "source_url": "https://hitomi.la",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://hitomi.la",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported reader",
+      "source_url": "https://hitomi.la",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hitomi.la",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hitomi.la",
+      "source_url": "https://hitomi.la",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

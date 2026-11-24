@@ -1,0 +1,70 @@
+{
+  "slug": "cathy-barry",
+  "type": "star",
+  "name": "Cathy Barry",
+  "url": "https://en.wikipedia.org/wiki/Cathy_Barry",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Cathy Barry is an English glamour model and pornographic actress. Along with her filmmaker husband Phil Barry, she also runs the adult film production and distribution company Pumpkin Media TV.",
+  "tags": [
+    "performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/cathy-barry.jpg",
+    "alt": "SFW portrait of Cathy Barry",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cathy_Barry_iafd.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Bristol, England",
+      "source_url": "https://en.wikipedia.org/wiki/Cathy_Barry",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Along with her filmmaker husband Phil Barry, she also runs the adult film production and distribution company Pumpkin Media TV.",
+      "source_url": "https://en.wikipedia.org/wiki/Cathy_Barry",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Barry stars in her own DVD series, Cathy's Diaries.",
+      "source_url": "https://en.wikipedia.org/wiki/Cathy_Barry",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1967",
+      "source_url": "http://www.wikidata.org/entity/Q467039",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

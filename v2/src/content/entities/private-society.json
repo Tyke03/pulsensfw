@@ -1,0 +1,80 @@
+{
+  "slug": "private-society",
+  "type": "site",
+  "name": "Private Society",
+  "url": "https://privatesociety.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Modern 4K lifestyle, swinger-party, and adventurous real-couples showcase studio filming upscale house-party encounters.",
+  "tags": [
+    "premium",
+    "studio",
+    "amateur",
+    "couples",
+    "4k"
+  ],
+  "ranking_rationale": "Authentic lifestyle/couples chemistry filmed in sharp modern 4K (trade-off: niche swinger/group-couple focus).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Authentic lifestyle/couples chemistry filmed in sharp modern 4K",
+    "Clean dark responsive streaming UI",
+    "DRM-free full scene downloads"
+  ],
+  "cons": [
+    "Niche swinger/group-couple focus",
+    "Moderate monthly scene output"
+  ],
+  "image": {
+    "src": "/media/entities/sites/private-society.webp",
+    "alt": "Private Society logo and brand card",
+    "source_url": "https://privatesociety.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://privatesociety.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://privatesociety.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://privatesociety.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "privatesociety.com",
+      "source_url": "https://privatesociety.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

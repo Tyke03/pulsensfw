@@ -1,0 +1,78 @@
+{
+  "slug": "ok-xxx",
+  "type": "site",
+  "name": "OK.XXX",
+  "url": "https://ok.xxx",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern streamlined free tube focusing on clean mobile playback, rapid previews, and popular performer categories.",
+  "tags": [
+    "tube",
+    "hd",
+    "streaming"
+  ],
+  "ranking_rationale": "Crisp dark interface and smooth previews; weighed against smaller long-tail library.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Crisp dark interface and smooth previews",
+    "Minimal page clutter",
+    "Fast CDN streaming"
+  ],
+  "cons": [
+    "Smaller long-tail library",
+    "Moderate overlay ads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ok-xxx.webp",
+    "alt": "OK.XXX logo and brand card",
+    "source_url": "https://ok.xxx",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://ok.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://ok.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://ok.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ok.xxx",
+      "source_url": "https://ok.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

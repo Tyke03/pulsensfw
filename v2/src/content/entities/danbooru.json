@@ -1,0 +1,78 @@
+{
+  "slug": "danbooru",
+  "type": "site",
+  "name": "Danbooru",
+  "url": "https://danbooru.donmai.us",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The gold-standard curated anime/erotic illustration booru famous for obsessive artist attribution, wiki tag definitions, and clean layout.",
+  "tags": [
+    "hentai",
+    "booru",
+    "art"
+  ],
+  "ranking_rationale": "Strict curator standards keep low-effort junk and AI spam minimal; weighed against free accounts limit searches to 2 tags per query.",
+  "pricing": {
+    "model": "Free (2-tag limit) + Gold/Platinum one-time upgrades",
+    "free_tier": "Free unlimited browsing with 2-tag queries",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Strict curator standards keep low-effort junk and AI spam minimal",
+    "Every post links verified Pixiv/X artist sources",
+    "Best wiki documentation for anime art tags"
+  ],
+  "cons": [
+    "Free accounts limit searches to 2 tags per query",
+    "Strict quality gate means fewer raw variations"
+  ],
+  "image": {
+    "src": "/media/entities/sites/danbooru.webp",
+    "alt": "Danbooru logo and brand card",
+    "source_url": "https://danbooru.donmai.us",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://danbooru.donmai.us",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free (2-tag limit) + Gold/Platinum one-time upgrades",
+      "source_url": "https://danbooru.donmai.us",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://danbooru.donmai.us",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "danbooru.donmai.us",
+      "source_url": "https://danbooru.donmai.us",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

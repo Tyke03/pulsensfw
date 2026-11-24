@@ -1,0 +1,78 @@
+{
+  "slug": "8muses",
+  "type": "site",
+  "name": "8muses",
+  "url": "https://comics.8muses.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Deepest, best-organized reader for Western adult comics, Patreon series, and serialized erotic graphic novels.",
+  "tags": [
+    "comics",
+    "western",
+    "free"
+  ],
+  "ranking_rationale": "Clean folder hierarchy by artist and series title; weighed against strict copyright takedowns hit top artists.",
+  "pricing": {
+    "model": "Free ad-supported reader",
+    "free_tier": "Free reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Clean folder hierarchy by artist and series title",
+    "Crisp fast page viewer",
+    "Definitive index of Western NSFW illustrators"
+  ],
+  "cons": [
+    "Strict copyright takedowns hit top artists",
+    "Pop ads on free clicks"
+  ],
+  "image": {
+    "src": "/media/entities/sites/8muses.webp",
+    "alt": "8muses logo and brand card",
+    "source_url": "https://comics.8muses.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://comics.8muses.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported reader",
+      "source_url": "https://comics.8muses.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://comics.8muses.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "comics.8muses.com",
+      "source_url": "https://comics.8muses.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

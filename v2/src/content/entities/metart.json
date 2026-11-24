@@ -1,0 +1,79 @@
+{
+  "slug": "metart",
+  "type": "site",
+  "name": "MetArt",
+  "url": "https://www.metart.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The benchmark fine-art erotic photography and softcore cinematography house—curating natural models across sunlit locations.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "solo"
+  ],
+  "ranking_rationale": "Unmatched fine-art photography archive; weighed against predominantly softcore / solo erotica.",
+  "pricing": {
+    "model": "Art erotica subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Unmatched fine-art photography archive",
+    "Pure aesthetic focus without cheesy scripts",
+    "Optional MetArt Network bundle unlocks SexArt & VivThomas"
+  ],
+  "cons": [
+    "Predominantly softcore / solo erotica",
+    "Full-network upgrades cost extra"
+  ],
+  "image": {
+    "src": "/media/entities/sites/metart.webp",
+    "alt": "MetArt logo and brand card",
+    "source_url": "https://www.metart.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.metart.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Art erotica subscription",
+      "source_url": "https://www.metart.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.metart.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "metart.com",
+      "source_url": "https://www.metart.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

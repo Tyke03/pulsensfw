@@ -1,0 +1,78 @@
+{
+  "slug": "camsloveaholics",
+  "type": "site",
+  "name": "CamsLoveaholics",
+  "url": "https://www.camsloveaholics.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "International live webcam site featuring strong Eastern European & Latina broadcaster representation and dual-stream HD rooms.",
+  "tags": [
+    "cams",
+    "live",
+    "european"
+  ],
+  "ranking_rationale": "Large active slate of European solo and couple rooms (trade-off: frequent credit bonus modal popups).",
+  "pricing": {
+    "model": "Tokens & private rooms",
+    "free_tier": "Free public room streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Large active slate of European solo and couple rooms",
+    "Crisp fullscreen dark video grid with interactive tip menus",
+    "Free cam2cam options in select tiers"
+  ],
+  "cons": [
+    "Frequent credit bonus modal popups",
+    "Mixed English fluency across regional rooms"
+  ],
+  "image": {
+    "src": "/media/entities/sites/camsloveaholics.webp",
+    "alt": "CamsLoveaholics logo and brand card",
+    "source_url": "https://www.camsloveaholics.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.camsloveaholics.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & private rooms",
+      "source_url": "https://www.camsloveaholics.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.camsloveaholics.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "camsloveaholics.com",
+      "source_url": "https://www.camsloveaholics.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

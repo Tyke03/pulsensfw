@@ -1,0 +1,78 @@
+{
+  "slug": "all-over-30",
+  "type": "site",
+  "name": "All Over 30",
+  "url": "https://www.allover30.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran independent studio founded in 1998 featuring everyday real women aged 30+ to 60+ across authentic solo and couple scenes.",
+  "tags": [
+    "premium",
+    "studio",
+    "niche"
+  ],
+  "ranking_rationale": "Over 25 years celebrating natural mature performers with real personalities, weighed against early-2000s member interface.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Over 25 years celebrating natural mature performers with real personalities",
+    "Transparent performer interviews & unretouched photography",
+    "Includes photo archives alongside scenes"
+  ],
+  "cons": [
+    "Early-2000s member interface",
+    "Less modern 4K camera saturation"
+  ],
+  "image": {
+    "src": "/media/entities/sites/all-over-30.webp",
+    "alt": "All Over 30 logo and brand card",
+    "source_url": "https://www.allover30.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.allover30.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.allover30.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.allover30.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "allover30.com",
+      "source_url": "https://www.allover30.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

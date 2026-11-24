@@ -1,0 +1,72 @@
+{
+  "slug": "subverse",
+  "type": "game",
+  "name": "Subverse",
+  "url": "https://store.steampowered.com/app/1034140/Subverse/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Full-budget sci-fi comedy RPG blending twin-stick space shmup combat, grid-based tactical missions, and animated relationship reward scenes.",
+  "tags": [
+    "games",
+    "sci-fi",
+    "rpg",
+    "pc"
+  ],
+  "ranking_rationale": "Delivers genuine arcade shooter + tactical RPG gameplay loops alongside polished 3D character animation rather than pure click-through slideshows.",
+  "pricing": {
+    "model": "One-time purchase",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check Steam regional pricing (final Complete edition includes all main chapters)."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Playable tactical grid combat and twin-stick space battles between story beats",
+    "High-budget 3D character models, voice acting, and custom scene viewer",
+    "Complete chapter roadmap released on Steam without ongoing live-service fees"
+  ],
+  "cons": [
+    "Campy space-parody writing isn't for everyone",
+    "SHMUP and grid stages get repetitive over back-to-back grinding"
+  ],
+  "image": {
+    "src": "/media/entities/games/subverse.png",
+    "alt": "Subverse logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1034140/Subverse/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sci-fi tactical RPG & adult action game",
+      "source_url": "https://store.steampowered.com/app/1034140/Subverse/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Developer",
+      "value": "Studio FOW Interactive",
+      "source_url": "https://store.steampowered.com/app/1034140/Subverse/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Distribution",
+      "value": "Complete multi-chapter release on Steam (Windows)",
+      "source_url": "https://store.steampowered.com/app/1034140/Subverse/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

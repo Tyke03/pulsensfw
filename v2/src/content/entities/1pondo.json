@@ -1,0 +1,78 @@
+{
+  "slug": "1pondo",
+  "type": "site",
+  "name": "1Pondo",
+  "url": "https://www.1pondo.tv/en/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Premier uncensored Japanese AV label famed for natural glamour lighting, top AV idol debuts, and crisp uncensored HD video.",
+  "tags": [
+    "premium",
+    "studio",
+    "jav"
+  ],
+  "ranking_rationale": "Top production values among uncensored Japanese studios; weighed against expensive monthly membership compared with us networks.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Top production values among uncensored Japanese studios",
+    "Massive lineup of beloved AV idols in full uncensored HD",
+    "Clean English interface & bundle options with Caribbeancom"
+  ],
+  "cons": [
+    "Expensive monthly membership compared with US networks",
+    "Rigid cancellation countdown timers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/1pondo.webp",
+    "alt": "1Pondo logo and brand card",
+    "source_url": "https://www.1pondo.tv/en/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.1pondo.tv/en/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.1pondo.tv/en/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.1pondo.tv/en/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "1pondo.tv",
+      "source_url": "https://www.1pondo.tv/en/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "pornhits",
+  "type": "site",
+  "name": "PornHits",
+  "url": "https://www.pornhits.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ad-lighter free tube delivering curated mainstream clips and clean tag discovery without heavy bloat.",
+  "tags": [
+    "tube",
+    "hd",
+    "streaming"
+  ],
+  "ranking_rationale": "Noticeably calmer banner footprint; weighed against smaller total index.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Noticeably calmer banner footprint",
+    "Smooth timeline hover thumbs",
+    "Decent 1080p share"
+  ],
+  "cons": [
+    "Smaller total index",
+    "Basic sorting"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pornhits.webp",
+    "alt": "PornHits logo and brand card",
+    "source_url": "https://www.pornhits.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.pornhits.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.pornhits.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.pornhits.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornhits.com",
+      "source_url": "https://www.pornhits.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

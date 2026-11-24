@@ -1,0 +1,78 @@
+{
+  "slug": "flirt-com",
+  "type": "site",
+  "name": "Flirt.com",
+  "url": "https://www.flirt.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Casual adult chat & live webcam meetup portal built around quick text/cam flirting and local matches.",
+  "tags": [
+    "cams",
+    "live",
+    "chat"
+  ],
+  "ranking_rationale": "Quick casual browser chat onboarding; weighed against aggressive subscription auto-renew messaging.",
+  "pricing": {
+    "model": "Membership + credits",
+    "free_tier": "Free signup & browse",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Quick casual browser chat onboarding",
+    "Mix of chat rooms and video cams",
+    "Simple layout"
+  ],
+  "cons": [
+    "Aggressive subscription auto-renew messaging",
+    "Smaller authentic amateur pool"
+  ],
+  "image": {
+    "src": "/media/entities/sites/flirt-com.webp",
+    "alt": "Flirt.com logo and brand card",
+    "source_url": "https://www.flirt.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.flirt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Membership + credits",
+      "source_url": "https://www.flirt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.flirt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "flirt.com",
+      "source_url": "https://www.flirt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

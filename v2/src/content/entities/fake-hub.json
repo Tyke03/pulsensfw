@@ -1,0 +1,78 @@
+{
+  "slug": "fake-hub",
+  "type": "site",
+  "name": "FakeHub",
+  "url": "https://www.fakehub.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Aylo's massive British comedy-reality network home to Fake Taxi, Fake Agent, and Public Agent.",
+  "tags": [
+    "premium",
+    "studio",
+    "comedy"
+  ],
+  "ranking_rationale": "Huge catalog of viral premise comedy scenes; weighed against heavily scripted faux-reality premise gets repetitive.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Huge catalog of viral premise comedy scenes",
+    "Single login covers 10+ Fake sub-series",
+    "Frequent new episodes"
+  ],
+  "cons": [
+    "Heavily scripted faux-reality premise gets repetitive",
+    "British slang & format narrows appeal"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fake-hub.webp",
+    "alt": "FakeHub logo and brand card",
+    "source_url": "https://www.fakehub.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.fakehub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.fakehub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.fakehub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fakehub.com",
+      "source_url": "https://www.fakehub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

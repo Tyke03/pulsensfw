@@ -1,0 +1,79 @@
+{
+  "slug": "steve-holmes",
+  "type": "star",
+  "name": "Steve Holmes",
+  "url": "https://en.wikipedia.org/wiki/Steve_Holmes_(actor)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Steve Holmes is a German pornographic actor, producer and director. He has received several adult industry awards, including the AVN Award for Male Foreign Performer of the Year in 2005 and 2006.",
+  "tags": [
+    "performer",
+    "hall of fame",
+    "awards",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/steve-holmes.jpg",
+    "alt": "SFW portrait of Steve Holmes",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Steve_Holmes_2019_by_Glenn_Francis.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "1996–present",
+      "source_url": "https://en.wikipedia.org/wiki/Steve_Holmes_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Sibiu, Romania",
+      "source_url": "https://en.wikipedia.org/wiki/Steve_Holmes_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic actor",
+      "source_url": "https://en.wikipedia.org/wiki/Steve_Holmes_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "He has received several adult industry awards, including the AVN Award for Male Foreign Performer of the Year in 2005 and 2006.",
+      "source_url": "https://en.wikipedia.org/wiki/Steve_Holmes_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1961",
+      "source_url": "http://www.wikidata.org/entity/Q77571",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

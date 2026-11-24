@@ -1,0 +1,78 @@
+{
+  "slug": "babestation",
+  "type": "site",
+  "name": "Babestation",
+  "url": "https://www.babestation.tv",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Britain's iconic late-night TV and live webcam studio network spotlighting UK glamour models and live call/cam streams.",
+  "tags": [
+    "cams",
+    "live",
+    "british"
+  ],
+  "ranking_rationale": "Unmatched UK & British glamour model niche; weighed against mostly british accents and uk evening peaks.",
+  "pricing": {
+    "model": "Credits & UK phone/cam shows",
+    "free_tier": "Live free stage broadcast",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Unmatched UK & British glamour model niche",
+    "Synchronized TV-style live stage shows + privates",
+    "Reputable regulated UK billing"
+  ],
+  "cons": [
+    "Mostly British accents and UK evening peaks",
+    "Soft-to-hard tease gating pushes private credits"
+  ],
+  "image": {
+    "src": "/media/entities/sites/babestation.webp",
+    "alt": "Babestation logo and brand card",
+    "source_url": "https://www.babestation.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.babestation.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits & UK phone/cam shows",
+      "source_url": "https://www.babestation.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.babestation.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "babestation.tv",
+      "source_url": "https://www.babestation.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

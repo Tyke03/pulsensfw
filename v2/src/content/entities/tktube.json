@@ -1,0 +1,79 @@
+{
+  "slug": "tktube",
+  "type": "site",
+  "name": "tkTube",
+  "url": "https://tktube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dedicated free Asian and JAV streaming tube known for fast servers, code-number search, and crisp 1080p playback.",
+  "tags": [
+    "tube",
+    "free",
+    "jav",
+    "niche"
+  ],
+  "ranking_rationale": "Searchable by official JAV studio code; weighed against focuses mostly on asian/jav niches.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Searchable by official JAV studio code",
+    "Fast unbuffered 1080p streams",
+    "Clean minimal UI"
+  ],
+  "cons": [
+    "Focuses mostly on Asian/JAV niches",
+    "Pop ads on initial player tap"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tktube.webp",
+    "alt": "tkTube logo and brand card",
+    "source_url": "https://tktube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://tktube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://tktube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://tktube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tktube.com",
+      "source_url": "https://tktube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

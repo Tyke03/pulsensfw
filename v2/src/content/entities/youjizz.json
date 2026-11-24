@@ -1,0 +1,78 @@
+{
+  "slug": "youjizz",
+  "type": "site",
+  "name": "YouJizz",
+  "url": "https://www.youjizz.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran free tube running since 2007 with massive user uploads, rapid previews, and straightforward category navigation.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream"
+  ],
+  "ranking_rationale": "Deep archive of classic web clips; weighed against outdated layout and pop-ups.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 6.9,
+  "pros": [
+    "Deep archive of classic web clips",
+    "Quick timeline hover previews",
+    "Zero login required"
+  ],
+  "cons": [
+    "Outdated layout and pop-ups",
+    "Mixed 480p–720p older uploads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/youjizz.webp",
+    "alt": "YouJizz logo and brand card",
+    "source_url": "https://www.youjizz.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.youjizz.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.youjizz.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.youjizz.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "youjizz.com",
+      "source_url": "https://www.youjizz.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "sglang",
+  "type": "ai_app",
+  "name": "SGLang",
+  "url": "https://github.com/sgl-project/sglang",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "High-throughput open-source LLM & vision-language serving engine featuring RadixAttention prefix caching ideal for long multi-turn RP system prompts.",
+  "tags": [
+    "local",
+    "open-source",
+    "api",
+    "inference"
+  ],
+  "ranking_rationale": "RadixAttention automatically caches shared character-card & lorebook prefixes for near-instant replies (trade-off: Linux CUDA server focus—overkill for single-laptop casual chat).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free Apache-2.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "Docker"
+  ],
+  "score": 8.2,
+  "pros": [
+    "RadixAttention automatically caches shared character-card & lorebook prefixes for near-instant replies",
+    "OpenAI-compatible API drops straight into SillyTavern or Open WebUI",
+    "100% free open-source"
+  ],
+  "cons": [
+    "Linux CUDA server focus—overkill for single-laptop casual chat",
+    "Fewer niche fiction samplers than KoboldCpp"
+  ],
+  "image": {
+    "src": "/media/entities/ai/sglang.webp",
+    "alt": "SGLang logo and brand card",
+    "source_url": "https://github.com/sgl-project/sglang",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/sgl-project/sglang",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/sgl-project/sglang",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, Docker",
+      "source_url": "https://github.com/sgl-project/sglang",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/sgl-project/sglang",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

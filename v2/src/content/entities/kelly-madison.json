@@ -1,0 +1,79 @@
+{
+  "slug": "kelly-madison",
+  "type": "site",
+  "name": "Kelly Madison Media",
+  "url": "https://www.kellymadison.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running independent studio uniting TeenFidelity, PornFidelity, and Kelly Madison's original husband-wife POV showcases since 2001.",
+  "tags": [
+    "premium",
+    "studio",
+    "pov",
+    "glamour"
+  ],
+  "ranking_rationale": "Ultra-clean high-key 4K lighting across PornFidelity & TeenFidelity; weighed against conservative visual template changes little scene-to-scene.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Ultra-clean high-key 4K lighting across PornFidelity & TeenFidelity",
+    "20+ year independent consistency",
+    "Transparent star/studio tagging"
+  ],
+  "cons": [
+    "Conservative visual template changes little scene-to-scene",
+    "Higher standalone pricing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kelly-madison.webp",
+    "alt": "Kelly Madison Media logo and brand card",
+    "source_url": "https://www.kellymadison.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.kellymadison.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.kellymadison.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.kellymadison.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kellymadison.com",
+      "source_url": "https://www.kellymadison.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

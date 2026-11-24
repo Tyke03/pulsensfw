@@ -1,0 +1,61 @@
+{
+  "slug": "jade-venus",
+  "type": "star",
+  "name": "Jade Venus",
+  "url": "http://www.wikidata.org/entity/Q114679611",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jade Venus — American transgender pornographic actress (b. 2000). Industry career documented from 2020.",
+  "tags": [
+    "performer",
+    "rising",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/jade-venus.jpg",
+    "alt": "SFW portrait of Jade Venus",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jade_venus.jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q114679611 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q114679611",
+      "checked": "2026-11-29",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "2000",
+      "source_url": "http://www.wikidata.org/entity/Q114679611",
+      "checked": "2026-11-29",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2020–present",
+      "source_url": "http://www.wikidata.org/entity/Q114679611",
+      "checked": "2026-11-29",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-29"
+}

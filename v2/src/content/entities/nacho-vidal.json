@@ -1,0 +1,73 @@
+{
+  "slug": "nacho-vidal",
+  "type": "star",
+  "name": "Nacho Vidal",
+  "url": "https://en.wikipedia.org/wiki/Nacho_Vidal",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ignacio Jordà González, better known as Nacho Vidal, is a Spanish pornographic actor and director.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director",
+    "gay",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nacho-vidal.jpg",
+    "alt": "SFW portrait of Nacho Vidal",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nacho_Vidal_(cropped).jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "1997–present",
+      "source_url": "https://en.wikipedia.org/wiki/Nacho_Vidal",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Mataró, Barcelona, Spain",
+      "source_url": "https://en.wikipedia.org/wiki/Nacho_Vidal",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Adult performer, director, producer, writer, editor",
+      "source_url": "https://en.wikipedia.org/wiki/Nacho_Vidal",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1973",
+      "source_url": "http://www.wikidata.org/entity/Q1255380",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

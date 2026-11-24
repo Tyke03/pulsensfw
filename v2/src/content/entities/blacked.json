@@ -1,0 +1,81 @@
+{
+  "slug": "blacked",
+  "type": "site",
+  "name": "Blacked",
+  "url": "https://www.blacked.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The pioneering Vixen Media Group studio that brought luxury fashion photography, slow-burn buildup, and 4K cinema polish to interracial adult video.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k",
+    "exclusive",
+    "cinematic"
+  ],
+  "ranking_rationale": "Transformed studio production standards with immaculate 4K visuals and marquee performer debuts; specialized focus and premium pricing mean Vixen Plus is usually the smarter buy.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; standalone or included in Vixen Plus network bundle. Check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Industry-leading 4K lighting, framing, and set design",
+    "Frequent high-profile showcase scenes with A-list performers",
+    "Ad-free, modern streaming interface with full downloads"
+  ],
+  "cons": [
+    "Narrow genre focus by design",
+    "Premium standalone pricing—better value inside Vixen Plus",
+    "Fewer monthly releases than megastudio networks"
+  ],
+  "image": {
+    "src": "/media/entities/sites/blacked.png",
+    "alt": "Blacked logo and brand card",
+    "source_url": "https://www.blacked.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Luxury cinematic premium studio",
+      "source_url": "https://www.blacked.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2014; operated by Vixen Media Group",
+      "source_url": "https://en.wikipedia.org/wiki/Blacked",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid subscription (standalone or Vixen Plus bundle)",
+      "source_url": "https://www.blacked.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Cinema-grade 4K production and marquee performer showcases",
+      "source_url": "https://www.blacked.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

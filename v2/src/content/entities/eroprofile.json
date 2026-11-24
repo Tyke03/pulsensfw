@@ -1,0 +1,78 @@
+{
+  "slug": "eroprofile",
+  "type": "site",
+  "name": "EroProfile",
+  "url": "https://www.eroprofile.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Community-driven amateur upload site pairing user videos, photo galleries, and webcam forum profiles.",
+  "tags": [
+    "tube",
+    "free",
+    "amateur"
+  ],
+  "ranking_rationale": "Genuine older user-submitted amateur library; weighed against dated late-2000s html design.",
+  "pricing": {
+    "model": "Free community tube + VIP",
+    "free_tier": "Free browsing & uploads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Genuine older user-submitted amateur library",
+    "Includes both photo sets and homemade clips",
+    "Free community messaging"
+  ],
+  "cons": [
+    "Dated late-2000s HTML design",
+    "Cluttered sidebar ads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/eroprofile.webp",
+    "alt": "EroProfile logo and brand card",
+    "source_url": "https://www.eroprofile.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.eroprofile.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community tube + VIP",
+      "source_url": "https://www.eroprofile.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.eroprofile.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "eroprofile.com",
+      "source_url": "https://www.eroprofile.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

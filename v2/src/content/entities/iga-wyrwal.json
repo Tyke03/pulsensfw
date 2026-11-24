@@ -1,0 +1,64 @@
+{
+  "slug": "iga-wyrwal",
+  "type": "star",
+  "name": "Iga Wyrwał",
+  "url": "https://en.wikipedia.org/wiki/Iga_Wyrwa%C5%82",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Iga Wyrwał — Polish actress and former glamour model (b. 1989).",
+  "tags": [
+    "performer",
+    "former performer",
+    "glamour"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/iga-wyrwal.jpg",
+    "alt": "SFW portrait of Iga Wyrwał",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Iga_Wyrwal.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q2504253 (Poland)",
+      "source_url": "http://www.wikidata.org/entity/Q2504253",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1989",
+      "source_url": "http://www.wikidata.org/entity/Q2504253",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–retired",
+      "source_url": "https://en.wikipedia.org/wiki/Iga_Wyrwa%C5%82",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

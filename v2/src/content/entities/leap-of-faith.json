@@ -1,0 +1,80 @@
+{
+  "slug": "leap-of-faith",
+  "type": "game",
+  "name": "Leap of Faith",
+  "url": "https://store.steampowered.com/app/1768640/Leap_of_Faith/",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Heartfelt completed comedy-romance VN blending mental-health sensitivity, witty banter, and glossy 3D animations.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "romance"
+  ],
+  "ranking_rationale": "Warm relatable characters & genuinely touching romance arcs; weighed against linear romance lanes once locked.",
+  "pricing": {
+    "model": "Paid Steam app ($14.99)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Warm relatable characters & genuinely touching romance arcs",
+    "Completed standalone full story on Steam",
+    "Zero cheap shock filler"
+  ],
+  "cons": [
+    "Linear romance lanes once locked",
+    "Modest mini-game gameplay"
+  ],
+  "image": {
+    "src": "/media/entities/games/leap-of-faith.webp",
+    "alt": "Leap of Faith logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1768640/Leap_of_Faith/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1768640/Leap_of_Faith/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid Steam app ($14.99)",
+      "source_url": "https://store.steampowered.com/app/1768640/Leap_of_Faith/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/1768640/Leap_of_Faith/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1768640/Leap_of_Faith/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

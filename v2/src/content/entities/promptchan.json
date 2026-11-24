@@ -1,0 +1,78 @@
+{
+  "slug": "promptchan",
+  "type": "ai_app",
+  "name": "Promptchan AI",
+  "url": "https://promptchan.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-volume uncensored image & short video community gallery letting users remix prompts, styles, and AI chats.",
+  "tags": [
+    "image",
+    "image generation",
+    "chat"
+  ],
+  "ranking_rationale": "Massive public community feed for remixing anime & photoreal prompts; weighed against watermarks and queues on free tier.",
+  "pricing": {
+    "model": "Freemium + Pro/Gems",
+    "free_tier": "Limited daily free renders",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Massive public community feed for remixing anime & photoreal prompts",
+    "Zero-censorship image presets",
+    "Decent mobile web browser UI"
+  ],
+  "cons": [
+    "Watermarks and queues on free tier",
+    "Gem pricing escalates on video/high-res"
+  ],
+  "image": {
+    "src": "/media/entities/ai/promptchan.webp",
+    "alt": "Promptchan AI logo and brand card",
+    "source_url": "https://promptchan.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://promptchan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium + Pro/Gems",
+      "source_url": "https://promptchan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://promptchan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "promptchan.com",
+      "source_url": "https://promptchan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "mlc-llm",
+  "type": "ai_app",
+  "name": "MLC LLM",
+  "url": "https://llm.mlc.ai",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Universal compiler & on-device inference runtime running quantized open LLMs natively across iOS, Android, Vulkan, Metal, and WebGPU.",
+  "tags": [
+    "local",
+    "open-source",
+    "offline",
+    "mobile"
+  ],
+  "ranking_rationale": "Runs private offline open-weight LLMs directly on iPhones, Android phones & Apple Silicon via Metal/Vulkan, weighed against smaller curated pre-compiled model list than raw GGUF loaders.",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free Apache-2.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Runs private offline open-weight LLMs directly on iPhones, Android phones & Apple Silicon via Metal/Vulkan",
+    "Zero cloud calls or content-moderation proxies",
+    "100% free open-source"
+  ],
+  "cons": [
+    "Smaller curated pre-compiled model list than raw GGUF loaders",
+    "Phone RAM limits models to 3B–8B sizes"
+  ],
+  "image": {
+    "src": "/media/entities/ai/mlc-llm.webp",
+    "alt": "MLC LLM logo and brand card",
+    "source_url": "https://llm.mlc.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://llm.mlc.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://llm.mlc.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, macOS, Windows, Linux",
+      "source_url": "https://llm.mlc.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "llm.mlc.ai",
+      "source_url": "https://llm.mlc.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "immoral-live",
+  "type": "site",
+  "name": "Immoral Live",
+  "url": "https://immorallive.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Interactive party-show & unscripted studio founded by Porno Dan—combining recorded live-audience comedy/sex shows with HD archives.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo",
+    "amateur"
+  ],
+  "ranking_rationale": "Spontaneous unscripted live-show energy & playful games (trade-off: loud party-host banter isn't for everyone).",
+  "pricing": {
+    "model": "Multi-series studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Spontaneous unscripted live-show energy & playful games",
+    "Large multi-series archive unlocked under one login",
+    "Full HD downloads"
+  ],
+  "cons": [
+    "Loud party-host banter isn't for everyone",
+    "Studio lighting feels casual"
+  ],
+  "image": {
+    "src": "/media/entities/sites/immoral-live.webp",
+    "alt": "Immoral Live logo and brand card",
+    "source_url": "https://immorallive.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://immorallive.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Multi-series studio pass",
+      "source_url": "https://immorallive.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://immorallive.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "immorallive.com",
+      "source_url": "https://immorallive.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "netfapx",
+  "type": "site",
+  "name": "Netfapx",
+  "url": "https://netfapx.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean Netflix-inspired dark free tube organizing full-length HD scenes neatly by performer portrait cards, studios, and categories.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Sleek dark streaming-app UI with crisp performer headshots & studio badges, weighed against smaller total clip count than mega-tubes.",
+  "pricing": {
+    "model": "Free HD streaming portal",
+    "free_tier": "Free HD streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Sleek dark streaming-app UI with crisp performer headshots & studio badges",
+    "Minimal text clutter and fast player loading",
+    "Easy star filmography browsing"
+  ],
+  "cons": [
+    "Smaller total clip count than mega-tubes",
+    "Uses third-party video host embeds"
+  ],
+  "image": {
+    "src": "/media/entities/sites/netfapx.webp",
+    "alt": "Netfapx logo and brand card",
+    "source_url": "https://netfapx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://netfapx.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free HD streaming portal",
+      "source_url": "https://netfapx.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://netfapx.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "netfapx.com",
+      "source_url": "https://netfapx.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "sexstories",
+  "type": "site",
+  "name": "SexStories",
+  "url": "https://www.sexstories.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast dark-mode free erotica story directory offering short-read quick stories, tags, and instant chapter navigation.",
+  "tags": [
+    "erotica",
+    "stories",
+    "free"
+  ],
+  "ranking_rationale": "Zero-nonsense dark reading UI; weighed against smaller editorial community than literotica.",
+  "pricing": {
+    "model": "Free ad-supported archive",
+    "free_tier": "Free reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Zero-nonsense dark reading UI",
+    "Fast browsing without heavy login walls",
+    "Good length and rating sorting"
+  ],
+  "cons": [
+    "Smaller editorial community than Literotica",
+    "Sidebar ads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sexstories.webp",
+    "alt": "SexStories logo and brand card",
+    "source_url": "https://www.sexstories.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.sexstories.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported archive",
+      "source_url": "https://www.sexstories.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sexstories.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sexstories.com",
+      "source_url": "https://www.sexstories.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

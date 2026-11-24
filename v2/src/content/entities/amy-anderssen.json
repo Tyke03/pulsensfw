@@ -1,0 +1,63 @@
+{
+  "slug": "amy-anderssen",
+  "type": "star",
+  "name": "Amy Anderssen",
+  "url": "http://www.wikidata.org/entity/Q20646511",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Amy Anderssen — Pornographic performer (b. 1985). Industry career documented from 2006.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/amy-anderssen.jpg",
+    "alt": "SFW portrait of Amy Anderssen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Amy_Anderssen_Forbidden_City_party_2007-03-31_7.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q20646511 (Canada)",
+      "source_url": "http://www.wikidata.org/entity/Q20646511",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2006–retired",
+      "source_url": "http://www.wikidata.org/entity/Q20646511",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1985",
+      "source_url": "http://www.wikidata.org/entity/Q20646511",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

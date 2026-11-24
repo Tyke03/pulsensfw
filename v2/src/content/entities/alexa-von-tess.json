@@ -1,0 +1,63 @@
+{
+  "slug": "alexa-von-tess",
+  "type": "star",
+  "name": "Alexa Von Tess",
+  "url": "http://www.wikidata.org/entity/Q20670440",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Alexa Von Tess — American pornographic actress (born 1986).",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/alexa-von-tess.jpg",
+    "alt": "SFW portrait of Alexa Von Tess",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alexa_Von_Tess_at_Shoot_Barely_Legal_70_4.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q20670440 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q20670440",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q20670440",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1986",
+      "source_url": "http://www.wikidata.org/entity/Q20670440",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "wd14-tagger-webui",
+  "type": "ai_app",
+  "name": "SmilingWolf WD Tagger",
+  "url": "https://huggingface.co/SmilingWolf/wd-eva02-large-tagger-v3",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The gold-standard open-weight Danbooru/e621 image auto-tagger powering dataset captioning and prompt interrogation across Pony, Illustrious & ComfyUI.",
+  "tags": [
+    "local",
+    "image",
+    "models",
+    "open-source"
+  ],
+  "ranking_rationale": "Blazing-fast millisecond tag prediction across 10,000+ Danbooru character, clothing & pose tags (trade-off: outputs comma-separated booru tags rather than natural-language prose sentences).",
+  "pricing": {
+    "model": "100% free open-weight model",
+    "free_tier": "Completely free Apache-2.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Blazing-fast millisecond tag prediction across 10,000+ Danbooru character, clothing & pose tags",
+    "Built directly into Kohya_ss, Forge, ComfyUI & OneTrainer",
+    "Tiny VRAM/CPU footprint & 100% offline"
+  ],
+  "cons": [
+    "Outputs comma-separated booru tags rather than natural-language prose sentences",
+    "Trained primarily on anime/illustration aesthetics"
+  ],
+  "image": {
+    "src": "/media/entities/ai/wd14-tagger-webui.webp",
+    "alt": "SmilingWolf WD Tagger logo and brand card",
+    "source_url": "https://huggingface.co/SmilingWolf/wd-eva02-large-tagger-v3",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://huggingface.co/SmilingWolf/wd-eva02-large-tagger-v3",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open-weight model",
+      "source_url": "https://huggingface.co/SmilingWolf/wd-eva02-large-tagger-v3",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://huggingface.co/SmilingWolf/wd-eva02-large-tagger-v3",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "huggingface.co",
+      "source_url": "https://huggingface.co/SmilingWolf/wd-eva02-large-tagger-v3",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

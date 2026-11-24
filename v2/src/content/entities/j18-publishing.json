@@ -1,0 +1,78 @@
+{
+  "slug": "j18-publishing",
+  "type": "site",
+  "name": "J18 Publishing",
+  "url": "https://j18.pub",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Official English hentai manga publisher translating uncensored Japanese tankobon & anthology creators for Western readers.",
+  "tags": [
+    "hentai",
+    "manga",
+    "doujinshi"
+  ],
+  "ranking_rationale": "Official uncensored high-res creator-licensed manga; weighed against much smaller catalog than massive free mirrors.",
+  "pricing": {
+    "model": "Digital store + reader",
+    "free_tier": "Free chapter samples",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Official uncensored high-res creator-licensed manga",
+    "Modern clean web reader + DRM-free CBZ/PDF",
+    "Direct creator royalties"
+  ],
+  "cons": [
+    "Much smaller catalog than massive free mirrors",
+    "Per-volume costs add up quickly"
+  ],
+  "image": {
+    "src": "/media/entities/sites/j18-publishing.webp",
+    "alt": "J18 Publishing logo and brand card",
+    "source_url": "https://j18.pub",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://j18.pub",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Digital store + reader",
+      "source_url": "https://j18.pub",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://j18.pub",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "j18.pub",
+      "source_url": "https://j18.pub",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

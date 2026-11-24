@@ -1,0 +1,78 @@
+{
+  "slug": "mylf",
+  "type": "site",
+  "name": "MYLF",
+  "url": "https://www.mylf.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flagship mature-performer network uniting MomDrip, Milfty, and 15+ sub-series with polished 4K production.",
+  "tags": [
+    "premium",
+    "studio",
+    "network"
+  ],
+  "ranking_rationale": "Massive roster of top 30+ veterans and icons; weighed against formulaic parody family scripts.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Massive roster of top 30+ veterans and icons",
+    "Single pass unlocks huge network library",
+    "Consistent crisp 4K video"
+  ],
+  "cons": [
+    "Formulaic parody family scripts",
+    "Frequent network upsell popups inside members portal"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mylf.webp",
+    "alt": "MYLF logo and brand card",
+    "source_url": "https://www.mylf.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.mylf.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.mylf.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.mylf.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mylf.com",
+      "source_url": "https://www.mylf.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

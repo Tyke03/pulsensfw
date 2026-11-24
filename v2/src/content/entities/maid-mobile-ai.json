@@ -1,0 +1,82 @@
+{
+  "slug": "maid-mobile-ai",
+  "type": "ai_app",
+  "name": "Maid",
+  "url": "https://github.com/Mobile-Artificial-Intelligence/maid",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Cross-platform open-source Flutter mobile client running local llama.cpp GGUF models or connecting privately to home Ollama/OpenAI LAN servers.",
+  "tags": [
+    "local",
+    "chat",
+    "offline",
+    "mobile",
+    "open-source"
+  ],
+  "ranking_rationale": "Switch seamlessly between on-phone offline GGUF and your home desktop's Ollama/KoboldCpp over Wi-Fi (trade-off: occasional UI rough edges between Flutter releases).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free MIT license",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Android",
+    "iOS",
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Switch seamlessly between on-phone offline GGUF and your home desktop's Ollama/KoboldCpp over Wi-Fi",
+    "Supports SillyTavern character cards (.json/.png) natively",
+    "100% free MIT open-source"
+  ],
+  "cons": [
+    "Occasional UI rough edges between Flutter releases",
+    "On-device speed depends heavily on flagship mobile SoCs"
+  ],
+  "image": {
+    "src": "/media/entities/ai/maid-mobile-ai.webp",
+    "alt": "Maid logo and brand card",
+    "source_url": "https://github.com/Mobile-Artificial-Intelligence/maid",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/Mobile-Artificial-Intelligence/maid",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/Mobile-Artificial-Intelligence/maid",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Android, iOS, Windows, Linux",
+      "source_url": "https://github.com/Mobile-Artificial-Intelligence/maid",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/Mobile-Artificial-Intelligence/maid",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

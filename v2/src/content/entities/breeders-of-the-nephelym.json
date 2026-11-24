@@ -1,0 +1,79 @@
+{
+  "slug": "breeders-of-the-nephelym",
+  "type": "game",
+  "name": "Breeders of the Nephelym",
+  "url": "https://store.steampowered.com/app/1161770/Breeders_of_the_Nephelym_Alpha/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Wildly popular free open-world Unreal-Engine monster-taming & breeding 3D sandbox offering deep genetic trait mixing on Steam.",
+  "tags": [
+    "games",
+    "sandbox",
+    "3d",
+    "free"
+  ],
+  "ranking_rationale": "Surprising open-world exploration paired with detailed 3D animation & breeding genetics, weighed against early-access rough edges in combat feel & Quest polish.",
+  "pricing": {
+    "model": "100% free + optional supporter DLC",
+    "free_tier": "Free core build on Steam",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Surprising open-world exploration paired with detailed 3D animation & breeding genetics",
+    "Completely free core release downloadable directly via Steam",
+    "Thriving active custom-region community"
+  ],
+  "cons": [
+    "Early-access rough edges in combat feel & quest polish",
+    "Strictly fantasy monster-girl themes"
+  ],
+  "image": {
+    "src": "/media/entities/games/breeders-of-the-nephelym.webp",
+    "alt": "Breeders of the Nephelym logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1161770/Breeders_of_the_Nephelym_Alpha/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1161770/Breeders_of_the_Nephelym_Alpha/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free + optional supporter DLC",
+      "source_url": "https://store.steampowered.com/app/1161770/Breeders_of_the_Nephelym_Alpha/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Steam",
+      "source_url": "https://store.steampowered.com/app/1161770/Breeders_of_the_Nephelym_Alpha/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1161770/Breeders_of_the_Nephelym_Alpha/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

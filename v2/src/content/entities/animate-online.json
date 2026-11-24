@@ -1,0 +1,79 @@
+{
+  "slug": "animate-online",
+  "type": "site",
+  "name": "Animate Online",
+  "url": "https://www.animate-onlineshop.jp",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japan's flagship anime, manga, drama CD, and specialty collector bookstore chain carrying both mainstream and 18+ TL/BL/doujin lines.",
+  "tags": [
+    "hentai",
+    "manga",
+    "doujinshi",
+    "store"
+  ],
+  "ranking_rationale": "Official first-party source for exclusive bonus booklets, voice drama CDs & limited editions (trade-off: Japanese-only interface requiring proxy shipping services for international delivery).",
+  "pricing": {
+    "model": "Retail storefront",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Physical Media"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Official first-party source for exclusive bonus booklets, voice drama CDs & limited editions",
+    "Colossal physical and digital book selection across every imprint",
+    "Trusted flagship Japanese retail chain"
+  ],
+  "cons": [
+    "Japanese-only interface requiring proxy shipping services for international delivery",
+    "Separate adult-content gating on web checkout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/animate-online.webp",
+    "alt": "Animate Online logo and brand card",
+    "source_url": "https://www.animate-onlineshop.jp",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.animate-onlineshop.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Retail storefront",
+      "source_url": "https://www.animate-onlineshop.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Physical Media",
+      "source_url": "https://www.animate-onlineshop.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "animate-onlineshop.jp",
+      "source_url": "https://www.animate-onlineshop.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

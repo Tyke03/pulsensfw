@@ -1,0 +1,78 @@
+{
+  "slug": "good-vibrations",
+  "type": "site",
+  "name": "Good Vibrations",
+  "url": "https://www.goodvibes.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Historic San Francisco educator-founded wellness storefront setting industry body-safety & pleasure education benchmarks since 1977.",
+  "tags": [
+    "niche",
+    "education",
+    "store"
+  ],
+  "ranking_rationale": "Vetted sexologist editorial library & honest product comparison reviews, weighed against higher MSRP pricing than grey-market wholesalers.",
+  "pricing": {
+    "model": "Retail store + free guides",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Vetted sexologist editorial library & honest product comparison reviews",
+    "Strict medical-grade material standards across every listed vibe & dildo",
+    "Iconic community heritage"
+  ],
+  "cons": [
+    "Higher MSRP pricing than grey-market wholesalers",
+    "Traditional e-commerce search filters"
+  ],
+  "image": {
+    "src": "/media/entities/sites/good-vibrations.webp",
+    "alt": "Good Vibrations logo and brand card",
+    "source_url": "https://www.goodvibes.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.goodvibes.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Retail store + free guides",
+      "source_url": "https://www.goodvibes.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.goodvibes.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "goodvibes.com",
+      "source_url": "https://www.goodvibes.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

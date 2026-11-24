@@ -1,0 +1,64 @@
+{
+  "slug": "pat-myne",
+  "type": "star",
+  "name": "Pat Myne",
+  "url": "http://www.wikidata.org/entity/Q5999461",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Pat Myne — American pornographic actor & director (b. 1966). Industry career documented from 1992.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/pat-myne.jpg",
+    "alt": "SFW portrait of Pat Myne",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pat_Myne_2011_AVN.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q5999461 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q5999461",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1966",
+      "source_url": "http://www.wikidata.org/entity/Q5999461",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1992–present",
+      "source_url": "http://www.wikidata.org/entity/Q5999461",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

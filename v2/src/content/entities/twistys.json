@@ -1,0 +1,79 @@
+{
+  "slug": "twistys",
+  "type": "site",
+  "name": "Twistys",
+  "url": "https://www.twistys.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Aylo's dedicated solo and girl-girl glamour network showcasing bright natural lighting and A-list star galleries.",
+  "tags": [
+    "premium",
+    "studio",
+    "solo",
+    "couples"
+  ],
+  "ranking_rationale": "Large 4K glamour solo and girl-girl catalog; weighed against girl-girl & solo focus only.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Large 4K glamour solo and girl-girl catalog",
+    "High-res photo sets alongside videos",
+    "Familiar Aylo streaming player"
+  ],
+  "cons": [
+    "Girl-girl & solo focus only",
+    "Standard subscription upsell funnels"
+  ],
+  "image": {
+    "src": "/media/entities/sites/twistys.webp",
+    "alt": "Twistys logo and brand card",
+    "source_url": "https://www.twistys.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.twistys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.twistys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.twistys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "twistys.com",
+      "source_url": "https://www.twistys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

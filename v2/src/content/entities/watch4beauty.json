@@ -1,0 +1,79 @@
+{
+  "slug": "watch4beauty",
+  "type": "site",
+  "name": "Watch4Beauty",
+  "url": "https://www.watch4beauty.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Elite European high-fashion nude art and softcore cinema magazine showcasing breathtaking location shoots and top art models.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "solo"
+  ],
+  "ranking_rationale": "Editorial fashion-magazine lighting, lenses, and stunning global travel sets (trade-off: strictly solo art-nude/softcore photography & film — zero hardcore).",
+  "pricing": {
+    "model": "Art magazine subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Editorial fashion-magazine lighting, lenses, and stunning global travel sets",
+    "Ultra-crisp 4K solo features and gallery portfolios",
+    "Distinct aesthetic voice within European erotica"
+  ],
+  "cons": [
+    "Strictly solo art-nude/softcore photography & film (zero hardcore)",
+    "Higher subscription tier"
+  ],
+  "image": {
+    "src": "/media/entities/sites/watch4beauty.webp",
+    "alt": "Watch4Beauty logo and brand card",
+    "source_url": "https://www.watch4beauty.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.watch4beauty.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Art magazine subscription",
+      "source_url": "https://www.watch4beauty.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.watch4beauty.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "watch4beauty.com",
+      "source_url": "https://www.watch4beauty.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "lovehoney",
+  "type": "site",
+  "name": "Lovehoney",
+  "url": "https://www.lovehoney.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Global mainstream pleasure & lingerie superstore known for transparent customer ratings, beginner starter kits, and frequent holiday sales.",
+  "tags": [
+    "niche",
+    "couples",
+    "store"
+  ],
+  "ranking_rationale": "Thousands of verified real buyer reviews help benchmark noise and battery life (trade-off: massive catalog includes budget plastic novelties beside luxury silicone).",
+  "pricing": {
+    "model": "Online superstore",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Thousands of verified real buyer reviews help benchmark noise and battery life",
+    "Affordable reliable in-house lines alongside flagship brands (Womanizer, LELO, We-Vibe)",
+    "Discreet fast global shipping warehouses"
+  ],
+  "cons": [
+    "Massive catalog includes budget plastic novelties beside luxury silicone",
+    "Aggressive promo email campaigns"
+  ],
+  "image": {
+    "src": "/media/entities/sites/lovehoney.webp",
+    "alt": "Lovehoney logo and brand card",
+    "source_url": "https://www.lovehoney.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.lovehoney.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Online superstore",
+      "source_url": "https://www.lovehoney.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.lovehoney.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lovehoney.com",
+      "source_url": "https://www.lovehoney.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

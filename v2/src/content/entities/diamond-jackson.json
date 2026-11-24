@@ -1,0 +1,63 @@
+{
+  "slug": "diamond-jackson",
+  "type": "star",
+  "name": "Diamond Jackson",
+  "url": "http://www.wikidata.org/entity/Q15220219",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Diamond Jackson — American pornographic actress (b. 1966). Industry career documented from 2007.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/diamond-jackson.jpg",
+    "alt": "SFW portrait of Diamond Jackson",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Diamond_Jackson_Exxxotica_Miami_2011.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q15220219 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q15220219",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2007–present",
+      "source_url": "http://www.wikidata.org/entity/Q15220219",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1966",
+      "source_url": "http://www.wikidata.org/entity/Q15220219",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

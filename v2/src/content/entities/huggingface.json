@@ -1,0 +1,78 @@
+{
+  "slug": "huggingface",
+  "type": "ai_app",
+  "name": "Hugging Face",
+  "url": "https://huggingface.co",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The essential open-weights library hosting tens of thousands of uncensored GGUF, EXL2, RP fine-tunes, and Safetensors checkpoints.",
+  "tags": [
+    "models",
+    "open-source",
+    "hub"
+  ],
+  "ranking_rationale": "Direct canonical download source for Midnight-Miqu, Stheno, Wayfarer & Pony model weights (trade-off: cloud Inference API restricts mature uses—download weights for local private use instead).",
+  "pricing": {
+    "model": "Free open hub + paid Pro compute",
+    "free_tier": "Unlimited free weight downloads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Direct canonical download source for Midnight-Miqu, Stheno, Wayfarer & Pony model weights",
+    "Built-in model cards track quant sizes, chat templates, and licenses cleanly",
+    "100% free direct model file pulls"
+  ],
+  "cons": [
+    "Cloud Inference API restricts mature uses—download weights for local private use instead",
+    "Interface caters cleanly to builders"
+  ],
+  "image": {
+    "src": "/media/entities/ai/huggingface.webp",
+    "alt": "Hugging Face logo and brand card",
+    "source_url": "https://huggingface.co",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://huggingface.co",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open hub + paid Pro compute",
+      "source_url": "https://huggingface.co",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://huggingface.co",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "huggingface.co",
+      "source_url": "https://huggingface.co",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

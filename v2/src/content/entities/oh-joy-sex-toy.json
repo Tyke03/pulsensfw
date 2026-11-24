@@ -1,0 +1,78 @@
+{
+  "slug": "oh-joy-sex-toy",
+  "type": "site",
+  "name": "Oh Joy Sex Toy",
+  "url": "https://www.ohjoysextoy.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Erika Moen & Matthew Nolan's acclaimed weekly educational webcomic reviewing sex toys, kinks, and anatomy honestly.",
+  "tags": [
+    "comics",
+    "erotica",
+    "guides"
+  ],
+  "ranking_rationale": "Gold-standard humorous honest illustrated sex-ed & toy reviews; weighed against comic strips mix health advice alongside nsfw humor.",
+  "pricing": {
+    "model": "Free webcomic + Patreon/books",
+    "free_tier": "Entire archive free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Gold-standard humorous honest illustrated sex-ed & toy reviews",
+    "Zero corporate sponsorship bias",
+    "Massive free 10+ year weekly archive"
+  ],
+  "cons": [
+    "Comic strips mix health advice alongside NSFW humor",
+    "Basic blog archive search"
+  ],
+  "image": {
+    "src": "/media/entities/sites/oh-joy-sex-toy.webp",
+    "alt": "Oh Joy Sex Toy logo and brand card",
+    "source_url": "https://www.ohjoysextoy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.ohjoysextoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free webcomic + Patreon/books",
+      "source_url": "https://www.ohjoysextoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.ohjoysextoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ohjoysextoy.com",
+      "source_url": "https://www.ohjoysextoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "rule34-us",
+  "type": "site",
+  "name": "Rule34.us",
+  "url": "https://rule34.us",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-speed fanart and Rule34 booru offering fast tag autocomplete, video loops, and minimal downtime during traffic spikes.",
+  "tags": [
+    "comics",
+    "rule34",
+    "booru",
+    "free"
+  ],
+  "ranking_rationale": "Fast reliable backup booru when Rule34.xxx slows down; weighed against heavily saturated with ai-generated fanart unless filtered.",
+  "pricing": {
+    "model": "Free ad-supported booru",
+    "free_tier": "Full index free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Fast reliable backup booru when Rule34.xxx slows down",
+    "Zero-login dark/classic tag query speed",
+    "Good WebM animation playback"
+  ],
+  "cons": [
+    "Heavily saturated with AI-generated fanart unless filtered",
+    "Dated minimalist styling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/rule34-us.webp",
+    "alt": "Rule34.us logo and brand card",
+    "source_url": "https://rule34.us",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://rule34.us",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported booru",
+      "source_url": "https://rule34.us",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://rule34.us",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "rule34.us",
+      "source_url": "https://rule34.us",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

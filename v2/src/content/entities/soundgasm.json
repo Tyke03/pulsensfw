@@ -1,0 +1,77 @@
+{
+  "slug": "soundgasm",
+  "type": "site",
+  "name": "Soundgasm",
+  "url": "https://soundgasm.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The de-facto audio hosting backbone behind r/GoneWildAudio and indie NSFW voice actors—simple direct streaming links.",
+  "tags": [
+    "erotica",
+    "audio"
+  ],
+  "ranking_rationale": "Direct uncompressed creator voice/roleplay audio hosting; weighed against zero built-in discovery/browse feed (links come from reddit/creators).",
+  "pricing": {
+    "model": "Free creator audio host",
+    "free_tier": "100% free audio listening & uploads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Direct uncompressed creator voice/roleplay audio hosting",
+    "Zero pre-roll ads interrupting immersion",
+    "Works smoothly with script-sync links"
+  ],
+  "cons": [
+    "Zero built-in discovery/browse feed (links come from Reddit/creators)",
+    "Minimalist white/gray player card"
+  ],
+  "image": {
+    "src": "/media/entities/sites/soundgasm.webp",
+    "alt": "Soundgasm logo and brand card",
+    "source_url": "https://soundgasm.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://soundgasm.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free creator audio host",
+      "source_url": "https://soundgasm.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://soundgasm.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "soundgasm.net",
+      "source_url": "https://soundgasm.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

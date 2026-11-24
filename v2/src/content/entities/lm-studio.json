@@ -1,0 +1,79 @@
+{
+  "slug": "lm-studio",
+  "type": "ai_app",
+  "name": "LM Studio",
+  "url": "https://lmstudio.ai",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Zero-telemetry desktop GGUF runner that turns Apple Silicon or Windows/Linux GPUs into a private local model server.",
+  "tags": [
+    "local",
+    "privacy",
+    "chat"
+  ],
+  "ranking_rationale": "Cleanest turnkey GUI for downloading and serving GGUF models; weighed against closed-source desktop binary despite local weights.",
+  "pricing": {
+    "model": "Free local desktop app",
+    "free_tier": "100% free local use",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Cleanest turnkey GUI for downloading and serving GGUF models",
+    "Drop-in OpenAI-compatible localhost server for SillyTavern",
+    "Strict offline local execution with zero cloud logs"
+  ],
+  "cons": [
+    "Closed-source desktop binary despite local weights",
+    "No native roleplay character cards UI (pair with SillyTavern)"
+  ],
+  "image": {
+    "src": "/media/entities/ai/lm-studio.webp",
+    "alt": "LM Studio logo and brand card",
+    "source_url": "https://lmstudio.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://lmstudio.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free local desktop app",
+      "source_url": "https://lmstudio.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://lmstudio.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lmstudio.ai",
+      "source_url": "https://lmstudio.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

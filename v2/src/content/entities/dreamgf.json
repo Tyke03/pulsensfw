@@ -1,0 +1,78 @@
+{
+  "slug": "dreamgf",
+  "type": "ai_app",
+  "name": "DreamGF",
+  "url": "https://dreamgf.ai",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running AI girlfriend builder combining custom portrait creation, dating sim chats, and explicit photo unlocks.",
+  "tags": [
+    "companion",
+    "image generation",
+    "chat"
+  ],
+  "ranking_rationale": "Clean straightforward appearance sliders for beginners; weighed against steep paywall tiers for uncensored chats & photos.",
+  "pricing": {
+    "model": "Tiered monthly subscriptions",
+    "free_tier": "Free limited character preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Clean straightforward appearance sliders for beginners",
+    "Consistent character visual styling",
+    "Includes voice notes"
+  ],
+  "cons": [
+    "Steep paywall tiers for uncensored chats & photos",
+    "Shallow memory across sessions"
+  ],
+  "image": {
+    "src": "/media/entities/ai/dreamgf.webp",
+    "alt": "DreamGF logo and brand card",
+    "source_url": "https://dreamgf.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://dreamgf.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tiered monthly subscriptions",
+      "source_url": "https://dreamgf.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://dreamgf.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dreamgf.ai",
+      "source_url": "https://dreamgf.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

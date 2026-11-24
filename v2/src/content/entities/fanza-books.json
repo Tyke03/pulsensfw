@@ -1,0 +1,80 @@
+{
+  "slug": "fanza-books",
+  "type": "site",
+  "name": "FANZA Books",
+  "url": "https://book.dmm.co.jp",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "DMM/FANZA's titan official Japanese e-book platform hosting hundreds of thousands of licensed adult tankobon, magazines, and manga volumes.",
+  "tags": [
+    "hentai",
+    "manga",
+    "doujinshi",
+    "store"
+  ],
+  "ranking_rationale": "Unmatched authoritative legal digital manga & magazine catalog in Japan, weighed against strict Japanese region/IP & payment rules outside Japan.",
+  "pricing": {
+    "model": "Digital book store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Unmatched authoritative legal digital manga & magazine catalog in Japan",
+    "Massive seasonal 10-yen / 50%-back DMM point sales",
+    "Clean DMM Books reader app on mobile/web"
+  ],
+  "cons": [
+    "Strict Japanese region/IP & payment rules outside Japan",
+    "Commercial mosaic censoring follows Japanese statute"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fanza-books.webp",
+    "alt": "FANZA Books logo and brand card",
+    "source_url": "https://book.dmm.co.jp",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://book.dmm.co.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Digital book store",
+      "source_url": "https://book.dmm.co.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://book.dmm.co.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "book.dmm.co.jp",
+      "source_url": "https://book.dmm.co.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

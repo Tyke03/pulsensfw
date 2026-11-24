@@ -1,0 +1,79 @@
+{
+  "slug": "poipiku",
+  "type": "site",
+  "name": "Poipiku",
+  "url": "https://poipiku.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ultra-popular Japanese image-box portal engineered explicitly to host spoiler, sensitive, and NSFW fanart behind passcode/age gates for X artists.",
+  "tags": [
+    "comics",
+    "art",
+    "hentai",
+    "community"
+  ],
+  "ranking_rationale": "Essential companion repository storing explicit sketches shared by thousands of X artists (trade-off: designed primarily as an image dropbox linked from X rather than standalone search engine).",
+  "pricing": {
+    "model": "Freemium art dropbox",
+    "free_tier": "Free image hosting & viewing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Essential companion repository storing explicit sketches shared by thousands of X artists",
+    "Built-in blurred spoiler cards & reaction stickers",
+    "Zero heavy bloat—fast mobile grid"
+  ],
+  "cons": [
+    "Designed primarily as an image dropbox linked from X rather than standalone search engine",
+    "Japanese-first interface prompts"
+  ],
+  "image": {
+    "src": "/media/entities/sites/poipiku.webp",
+    "alt": "Poipiku logo and brand card",
+    "source_url": "https://poipiku.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://poipiku.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium art dropbox",
+      "source_url": "https://poipiku.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://poipiku.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "poipiku.com",
+      "source_url": "https://poipiku.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "omgyes",
+  "type": "site",
+  "name": "OMGYes",
+  "url": "https://www.omgyes.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Indiana University-partnered research platform translating thousands of women's real sexual pleasure experiences into honest video guides and simulations.",
+  "tags": [
+    "erotica",
+    "education",
+    "research"
+  ],
+  "ranking_rationale": "Backed by peer-reviewed scientific surveys and clinical precision; weighed against strictly focused on pleasure education rather than pure fantasy erotica.",
+  "pricing": {
+    "model": "One-time season purchase ($49–$69)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Backed by peer-reviewed scientific surveys and clinical precision",
+    "Tasteful unperformative demos & interactive touch exercises",
+    "One-time purchase model (no sneaky recurring monthly bill!)"
+  ],
+  "cons": [
+    "Strictly focused on pleasure education rather than pure fantasy erotica",
+    "Separate one-time purchases per Season"
+  ],
+  "image": {
+    "src": "/media/entities/sites/omgyes.webp",
+    "alt": "OMGYes logo and brand card",
+    "source_url": "https://www.omgyes.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.omgyes.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time season purchase ($49–$69)",
+      "source_url": "https://www.omgyes.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.omgyes.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "omgyes.com",
+      "source_url": "https://www.omgyes.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

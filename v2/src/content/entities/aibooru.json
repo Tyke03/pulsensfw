@@ -1,0 +1,79 @@
+{
+  "slug": "aibooru",
+  "type": "site",
+  "name": "AIBooru",
+  "url": "https://aibooru.online",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dedicated Danbooru-powered imageboard engineered specifically to organize AI-generated anime & fanart cleanly away from human artist boorus.",
+  "tags": [
+    "comics",
+    "booru",
+    "rule34",
+    "free"
+  ],
+  "ranking_rationale": "Keeps human-drawn boorus cleaner by housing high-precision AI model/prompt tags here (trade-off: catalog skews uniformly toward synthetic LoRA styles).",
+  "pricing": {
+    "model": "Free community booru",
+    "free_tier": "Full index browsing free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Keeps human-drawn boorus cleaner by housing high-precision AI model/prompt tags here",
+    "Fast Danbooru tag autocomplete and prompt-metadata inspection panels",
+    "Zero login barrier"
+  ],
+  "cons": [
+    "Catalog skews uniformly toward synthetic LoRA styles",
+    "Strict site moderation on real-person likenesses"
+  ],
+  "image": {
+    "src": "/media/entities/sites/aibooru.webp",
+    "alt": "AIBooru logo and brand card",
+    "source_url": "https://aibooru.online",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://aibooru.online",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community booru",
+      "source_url": "https://aibooru.online",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://aibooru.online",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "aibooru.online",
+      "source_url": "https://aibooru.online",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "elexis-monroe",
+  "type": "star",
+  "name": "Elexis Monroe",
+  "url": "http://www.wikidata.org/entity/Q16631826",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Elexis Monroe — American pornographic actress and film director (b. 1979). Industry career documented from 2001.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/elexis-monroe.jpg",
+    "alt": "SFW portrait of Elexis Monroe",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Elexis_Monroe.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q16631826 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q16631826",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2001–present",
+      "source_url": "http://www.wikidata.org/entity/Q16631826",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1979",
+      "source_url": "http://www.wikidata.org/entity/Q16631826",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

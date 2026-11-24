@@ -1,0 +1,78 @@
+{
+  "slug": "bish-uk",
+  "type": "site",
+  "name": "BISH UK",
+  "url": "https://www.bishuk.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Candid, shame-free UK relationship, consent, pleasure & body-image education hub written by veteran sex educator Justin Hancock.",
+  "tags": [
+    "niche",
+    "education",
+    "free"
+  ],
+  "ranking_rationale": "Down-to-earth, zero-hype honesty correcting unrealistic porn myths around bodies & pleasure (trade-off: purely educational articles—zero commercial media or store).",
+  "pricing": {
+    "model": "100% free sex-ed resource",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Down-to-earth, zero-hype honesty correcting unrealistic porn myths around bodies & pleasure",
+    "100% free, ad-free, tracker-free public-interest sex education",
+    "Praised by therapists & educators internationally"
+  ],
+  "cons": [
+    "Purely educational articles—zero commercial media or store",
+    "Simple blog typography"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bish-uk.webp",
+    "alt": "BISH UK logo and brand card",
+    "source_url": "https://www.bishuk.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.bishuk.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free sex-ed resource",
+      "source_url": "https://www.bishuk.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bishuk.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bishuk.com",
+      "source_url": "https://www.bishuk.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

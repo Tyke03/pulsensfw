@@ -1,0 +1,79 @@
+{
+  "slug": "vr-kanojo",
+  "type": "game",
+  "name": "VR Kanojo",
+  "url": "https://store.steampowered.com/app/751440/VR_Kanojo/",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Illusion's pioneer first-person interactive VR roommate sim delivering direct touch, gaze physics, and intimate PCVR presence.",
+  "tags": [
+    "games",
+    "vr",
+    "anime"
+  ],
+  "ranking_rationale": "Landmark early PCVR interactive body/touch physics; weighed against requires manual external r18 uncensor patch + feels dated next to vam.",
+  "pricing": {
+    "model": "Paid PCVR Steam game ($49.99)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "PCVR",
+    "Steam"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Landmark early PCVR interactive body/touch physics",
+    "Works out-of-the-box on Valve Index / Quest Link",
+    "Easy Steam storefront access"
+  ],
+  "cons": [
+    "Requires manual external R18 uncensor patch + feels dated next to VAM",
+    "Very short content scope for full retail price"
+  ],
+  "image": {
+    "src": "/media/entities/games/vr-kanojo.webp",
+    "alt": "VR Kanojo logo and brand card",
+    "source_url": "https://store.steampowered.com/app/751440/VR_Kanojo/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/751440/VR_Kanojo/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid PCVR Steam game ($49.99)",
+      "source_url": "https://store.steampowered.com/app/751440/VR_Kanojo/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, PCVR, Steam",
+      "source_url": "https://store.steampowered.com/app/751440/VR_Kanojo/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/751440/VR_Kanojo/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

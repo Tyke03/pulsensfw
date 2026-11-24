@@ -1,0 +1,79 @@
+{
+  "slug": "cherry-tv",
+  "type": "site",
+  "name": "Cherry.tv",
+  "url": "https://cherry.tv",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Sleek dark-themed newer cam network emphasizing high creator payouts, toy sync, and uncluttered HD streams.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens",
+    "interactive"
+  ],
+  "ranking_rationale": "Modern low-clutter dark UI; weighed against smaller online room catalog than top 3 rivals.",
+  "pricing": {
+    "model": "Token tipping & fan clubs",
+    "free_tier": "Free public cam chat",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Modern low-clutter dark UI",
+    "Fast loading 1080p streams & Lovense support",
+    "Free token welcome mechanics on promos"
+  ],
+  "cons": [
+    "Smaller online room catalog than top 3 rivals",
+    "Newer ecosystem still building depth"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cherry-tv.webp",
+    "alt": "Cherry.tv logo and brand card",
+    "source_url": "https://cherry.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://cherry.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Token tipping & fan clubs",
+      "source_url": "https://cherry.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://cherry.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cherry.tv",
+      "source_url": "https://cherry.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

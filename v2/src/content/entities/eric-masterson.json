@@ -1,0 +1,63 @@
+{
+  "slug": "eric-masterson",
+  "type": "star",
+  "name": "Eric Masterson",
+  "url": "https://en.wikipedia.org/wiki/Eric_Masterson_(actor)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Eric Masterson — American pornographic actor (b. 1970). Industry career documented from 1998.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/eric-masterson.jpg",
+    "alt": "SFW portrait of Eric Masterson",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eric_Masterson_Tampa_2005.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q5387058 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q5387058",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1970",
+      "source_url": "http://www.wikidata.org/entity/Q5387058",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1998–present",
+      "source_url": "https://en.wikipedia.org/wiki/Eric_Masterson_(actor)",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

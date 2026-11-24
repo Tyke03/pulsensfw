@@ -1,0 +1,78 @@
+{
+  "slug": "playvids",
+  "type": "site",
+  "name": "PlayVids",
+  "url": "https://www.playvids.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Responsive mainstream free HD porn tube indexing full-length scene cuts, studio channels & fast-loading streams without signup.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Low-clutter dark layout with fast player start times (trade-off: banner ad overlays during mobile playback).",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free HD streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Low-clutter dark layout with fast player start times",
+    "Generous full-length HD upload share across popular studio niches",
+    "Clean performer and channel sorting"
+  ],
+  "cons": [
+    "Banner ad overlays during mobile playback",
+    "Smaller indie amateur catalog vs mega-tubes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/playvids.webp",
+    "alt": "PlayVids logo and brand card",
+    "source_url": "https://www.playvids.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.playvids.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.playvids.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.playvids.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "playvids.com",
+      "source_url": "https://www.playvids.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

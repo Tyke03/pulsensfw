@@ -1,0 +1,79 @@
+{
+  "slug": "cam4",
+  "type": "site",
+  "name": "CAM4",
+  "url": "https://www.cam4.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran amateur-friendly free public cam network known for laid-back open rooms, couples cams, and casual exhibitionists.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens",
+    "amateur"
+  ],
+  "ranking_rationale": "Genuninely authentic amateur and couples rooms; weighed against uneven amateur webcam video quality.",
+  "pricing": {
+    "model": "Token tipping + privates",
+    "free_tier": "Free public rooms",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Genuninely authentic amateur and couples rooms",
+    "Free public shows without constant private nagging",
+    "Global audience across Europe and Americas"
+  ],
+  "cons": [
+    "Uneven amateur webcam video quality",
+    "Less slick than Stripchat"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cam4.webp",
+    "alt": "CAM4 logo and brand card",
+    "source_url": "https://www.cam4.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.cam4.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Token tipping + privates",
+      "source_url": "https://www.cam4.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.cam4.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cam4.com",
+      "source_url": "https://www.cam4.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

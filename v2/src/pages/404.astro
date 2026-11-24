@@ -1,0 +1,14 @@
+---
+import NotFound from '../components/states/NotFound.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContentRepository } from '../lib/content/local-repository';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const articles = await getContentRepository().listArticles();
+Astro.response.status = 404;
+---
+<BaseLayout title={`Page not found · ${SITE.name}`} reader={reader} noindex>
+  <NotFound articles={articles} reader={reader} />
+</BaseLayout>

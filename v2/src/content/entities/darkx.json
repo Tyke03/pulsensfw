@@ -1,0 +1,78 @@
+{
+  "slug": "darkx",
+  "type": "site",
+  "name": "Dark X",
+  "url": "https://www.darkx.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Mason's slick interracial flagship studio showcasing glossy studio lighting and intense, unscripted star pairings.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo"
+  ],
+  "ranking_rationale": "Distinct high-contrast studio cinematography; weighed against slow-ish scene release cadence.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Distinct high-contrast studio cinematography",
+    "Celebrated star showcases without cringe scripts",
+    "Bundled across O.L. Entertainment hubs"
+  ],
+  "cons": [
+    "Slow-ish scene release cadence",
+    "Pure gonzo format"
+  ],
+  "image": {
+    "src": "/media/entities/sites/darkx.webp",
+    "alt": "Dark X logo and brand card",
+    "source_url": "https://www.darkx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.darkx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.darkx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.darkx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "darkx.com",
+      "source_url": "https://www.darkx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

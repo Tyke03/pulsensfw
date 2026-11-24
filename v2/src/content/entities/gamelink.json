@@ -1,0 +1,78 @@
+{
+  "slug": "gamelink",
+  "type": "site",
+  "name": "GameLink VOD",
+  "url": "https://www.gamelink.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running pay-per-view and digital download storefront carrying licensed studio features and classics.",
+  "tags": [
+    "vod",
+    "studio",
+    "premium"
+  ],
+  "ranking_rationale": "Downloadable DRM-free MP4 options on purchases; weighed against dated e-commerce design.",
+  "pricing": {
+    "model": "Minutes + DRM-free downloads",
+    "free_tier": "Free trailers",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Downloadable DRM-free MP4 options on purchases",
+    "Clean minute + flat-rate hybrid plans",
+    "Good retro/classic studio vault"
+  ],
+  "cons": [
+    "Dated e-commerce design",
+    "Smaller community footprint than ADE/HotMovies"
+  ],
+  "image": {
+    "src": "/media/entities/sites/gamelink.webp",
+    "alt": "GameLink VOD logo and brand card",
+    "source_url": "https://www.gamelink.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Legal VOD Storefront",
+      "source_url": "https://www.gamelink.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Minutes + DRM-free downloads",
+      "source_url": "https://www.gamelink.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.gamelink.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "gamelink.com",
+      "source_url": "https://www.gamelink.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

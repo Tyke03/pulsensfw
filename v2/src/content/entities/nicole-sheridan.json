@@ -1,0 +1,63 @@
+{
+  "slug": "nicole-sheridan",
+  "type": "star",
+  "name": "Nicole Sheridan",
+  "url": "http://www.wikidata.org/entity/Q448300",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nicole Sheridan — American pornographic actress (b. 1975). Industry career documented from 1998.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nicole-sheridan.jpg",
+    "alt": "SFW portrait of Nicole Sheridan",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nicole_Sheridan_AVN_Expo_2007.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q448300 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q448300",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1975",
+      "source_url": "http://www.wikidata.org/entity/Q448300",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1998–present",
+      "source_url": "http://www.wikidata.org/entity/Q448300",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

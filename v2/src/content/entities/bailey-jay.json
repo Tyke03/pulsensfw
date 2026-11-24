@@ -1,0 +1,63 @@
+{
+  "slug": "bailey-jay",
+  "type": "star",
+  "name": "Bailey Jay",
+  "url": "https://en.wikipedia.org/wiki/Bailey_Jay",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Bailey Jay is an American transgender pornographic film actress, adult model, presenter and podcaster.",
+  "tags": [
+    "performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/bailey-jay.jpg",
+    "alt": "SFW portrait of Bailey Jay",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bailey_Jay_at_AVN_Awards_2011_1_(crop).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Credits",
+      "value": "Pornographic film actress, adult model, presenter, podcaster",
+      "source_url": "https://en.wikipedia.org/wiki/Bailey_Jay",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Bailey Jay",
+      "source_url": "https://en.wikipedia.org/wiki/Bailey_Jay",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1988",
+      "source_url": "http://www.wikidata.org/entity/Q30585",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

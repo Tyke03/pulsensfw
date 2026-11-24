@@ -1,0 +1,79 @@
+{
+  "slug": "allthingsworn",
+  "type": "site",
+  "name": "AllThingsWorn",
+  "url": "https://www.allthingsworn.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Massive global fetish marketplace connecting thousands of independent sellers offering worn items, custom video orders, and sexting.",
+  "tags": [
+    "platform",
+    "creator",
+    "niche",
+    "fetish"
+  ],
+  "ranking_rationale": "Giant active worldwide seller & buyer community with user reviews, weighed against aggressive member credit packages and messaging tier upsells.",
+  "pricing": {
+    "model": "Credits & per-order sales",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Giant active worldwide seller & buyer community with user reviews",
+    "Dedicated custom video, clip shop, and discreet physical item workflows",
+    "Clean verification system for legitimate creators"
+  ],
+  "cons": [
+    "Aggressive member credit packages and messaging tier upsells",
+    "Early-2010s busy layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/allthingsworn.webp",
+    "alt": "AllThingsWorn logo and brand card",
+    "source_url": "https://www.allthingsworn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.allthingsworn.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits & per-order sales",
+      "source_url": "https://www.allthingsworn.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.allthingsworn.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "allthingsworn.com",
+      "source_url": "https://www.allthingsworn.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

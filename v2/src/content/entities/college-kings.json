@@ -1,0 +1,80 @@
+{
+  "slug": "college-kings",
+  "type": "game",
+  "name": "College Kings",
+  "url": "https://store.steampowered.com/app/1466090/College_Kings__Act_I/",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "High-production university campus comedy & fighter drama VN featuring polished UI, voice lines, and branching routes.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "comedy"
+  ],
+  "ranking_rationale": "Clean mainstream-grade UI, fight mini-games & music; weighed against act 2/3 paid expansions split full story.",
+  "pricing": {
+    "model": "Free Act 1 + Paid Acts on Steam",
+    "free_tier": "Full Act I free on Steam",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Clean mainstream-grade UI, fight mini-games & music",
+    "Smooth Act 1 Steam free-to-start onboarding",
+    "Consistent multi-season updates"
+  ],
+  "cons": [
+    "Act 2/3 paid expansions split full story",
+    "Bro-fraternity humor style isn't for everyone"
+  ],
+  "image": {
+    "src": "/media/entities/games/college-kings.webp",
+    "alt": "College Kings logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1466090/College_Kings__Act_I/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1466090/College_Kings__Act_I/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free Act 1 + Paid Acts on Steam",
+      "source_url": "https://store.steampowered.com/app/1466090/College_Kings__Act_I/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/1466090/College_Kings__Act_I/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1466090/College_Kings__Act_I/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

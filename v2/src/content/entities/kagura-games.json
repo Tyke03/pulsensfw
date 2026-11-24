@@ -1,0 +1,80 @@
+{
+  "slug": "kagura-games",
+  "type": "site",
+  "name": "Kagura Games",
+  "url": "https://www.kaguragames.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Top official English publisher bringing acclaimed Japanese indie RPGMaker adult adventures (like Karryn's Prison) to Steam with free official uncensored patches.",
+  "tags": [
+    "hentai",
+    "games",
+    "rpg",
+    "publisher"
+  ],
+  "ranking_rationale": "Official localized English versions of top Japanese indie adult RPGs; weighed against patching steam titles requires an extra quick download step.",
+  "pricing": {
+    "model": "Per-game Steam / Direct store",
+    "free_tier": "Free official 18+ restoration patches",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Official localized English versions of top Japanese indie adult RPGs",
+    "Seamless Steam store integration + free 18+ patch distribution",
+    "Active quality testing & community support"
+  ],
+  "cons": [
+    "Patching Steam titles requires an extra quick download step",
+    "RPGMaker aesthetics stay traditional 2D"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kagura-games.webp",
+    "alt": "Kagura Games logo and brand card",
+    "source_url": "https://www.kaguragames.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.kaguragames.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-game Steam / Direct store",
+      "source_url": "https://www.kaguragames.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, Steam",
+      "source_url": "https://www.kaguragames.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kaguragames.com",
+      "source_url": "https://www.kaguragames.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

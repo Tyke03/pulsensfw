@@ -1,0 +1,78 @@
+{
+  "slug": "admireme",
+  "type": "site",
+  "name": "AdmireMe.VIP",
+  "url": "https://admireme.vip",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "UK-born creator subscription hub popular across British and European glamour/adult models.",
+  "tags": [
+    "platform",
+    "creator",
+    "uk"
+  ],
+  "ranking_rationale": "Strong UK & European creator community; weighed against smaller us performer footprint.",
+  "pricing": {
+    "model": "Creator subscriptions",
+    "free_tier": "Free browsing with creator tiers",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Strong UK & European creator community",
+    "Explicit-friendly creator agreements",
+    "Live chat and pay-to-view options"
+  ],
+  "cons": [
+    "Smaller US performer footprint",
+    "Visual interface feels dated"
+  ],
+  "image": {
+    "src": "/media/entities/sites/admireme.webp",
+    "alt": "AdmireMe.VIP logo and brand card",
+    "source_url": "https://admireme.vip",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://admireme.vip",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions",
+      "source_url": "https://admireme.vip",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://admireme.vip",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "admireme.vip",
+      "source_url": "https://admireme.vip",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

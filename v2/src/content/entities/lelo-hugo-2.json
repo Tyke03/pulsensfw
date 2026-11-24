@@ -1,0 +1,81 @@
+{
+  "slug": "lelo-hugo-2",
+  "type": "product",
+  "name": "LELO Hugo 2",
+  "url": "https://www.lelo.com/hugo-2",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "App-connected dual-motor SenseMotion prostate massager blending external perineal buzz with deep internal prostate rumble.",
+  "tags": [
+    "plug",
+    "quiet",
+    "app",
+    "couples"
+  ],
+  "ranking_rationale": "Powerful dual internal + external motors with app control; weighed against motion-tilt sensemotion remote takes practice.",
+  "pricing": {
+    "model": "One-time purchase (~$219)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth",
+    "Remote"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Powerful dual internal + external motors with app control",
+    "Smooth angled ergonomic neck avoids slippage",
+    "IPX7 waterproof"
+  ],
+  "cons": [
+    "Motion-tilt SenseMotion remote takes practice",
+    "Premium price (~$219)"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-hugo-2.webp",
+    "alt": "LELO Hugo 2 logo and brand card",
+    "source_url": "https://www.lelo.com/hugo-2",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lelo.com/hugo-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase (~$219)",
+      "source_url": "https://www.lelo.com/hugo-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Bluetooth, Remote",
+      "source_url": "https://www.lelo.com/hugo-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lelo.com",
+      "source_url": "https://www.lelo.com/hugo-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

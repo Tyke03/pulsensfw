@@ -1,0 +1,71 @@
+{
+  "slug": "lelo-sona-2-cruise",
+  "type": "product",
+  "name": "LELO Sona 2 Cruise",
+  "url": "https://www.lelo.com/sona-2-cruise",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Luxury sonic-wave clitoral massager using LELO's SenSonic broad acoustic pulses and Cruise Control power reserve when pressed firmly.",
+  "tags": [
+    "quiet",
+    "sonic",
+    "waterproof",
+    "luxury"
+  ],
+  "ranking_rationale": "Smooth body-safe silicone, broad sonic resonance rather than tight pinpoint suction, and Cruise Control anti-stall engineering shine, though hard rims divide taste.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official LELO store for current pricing."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Cruise Control boosts motor power automatically when pressed firmly",
+    "Single-piece ultra-smooth silicone body cleans quickly and is IPX7 waterproof",
+    "Broader acoustic wave feel reaches deeper tissue than narrow air nozzles"
+  ],
+  "cons": [
+    "Proprietary DC barrel charger instead of standard USB-C",
+    "Higher intensity sonic rattle is less stealthy than Womanizer Smart Silence"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-sona-2-cruise.png",
+    "alt": "LELO Sona 2 Cruise logo and brand card",
+    "source_url": "https://www.lelo.com/sona-2-cruise",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sonic-wave clitoral stimulator",
+      "source_url": "https://www.lelo.com/sona-2-cruise",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Signature tech",
+      "value": "SenSonic pulses + Cruise Control automatic torque boost",
+      "source_url": "https://www.lelo.com/sona-2-cruise",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Materials",
+      "value": "Body-safe silicone, IPX7 waterproof",
+      "source_url": "https://www.lelo.com/sona-2-cruise",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

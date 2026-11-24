@@ -1,0 +1,79 @@
+{
+  "slug": "4xvr",
+  "type": "game",
+  "name": "4XVR Video Player",
+  "url": "https://www.4xvr.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-precision VR cinema player engineered for ultra-high-bitrate 8K 180/360 stereoscopic clips, ISO/3D Blu-ray, and SMB NAS streaming.",
+  "tags": [
+    "vr",
+    "player",
+    "video"
+  ],
+  "ranking_rationale": "Crystal-clear native stereoscopic decoding and SMB/DLNA local network streaming; weighed against paid pro unlock (~$30) needed past short trial playback.",
+  "pricing": {
+    "model": "Free demo + One-time Pro license",
+    "free_tier": "Free short clip playback test",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Meta Quest",
+    "PICO",
+    "PCVR"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Crystal-clear native stereoscopic decoding and SMB/DLNA local network streaming",
+    "Zero account telemetry required for standalone Meta Quest & PICO playback",
+    "Clean cinema ergonomics & passthrough toggle"
+  ],
+  "cons": [
+    "Paid Pro unlock (~$30) needed past short trial playback",
+    "No built-in online store discovery like DeoVR"
+  ],
+  "image": {
+    "src": "/media/entities/games/4xvr.webp",
+    "alt": "4XVR Video Player logo and brand card",
+    "source_url": "https://www.4xvr.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://www.4xvr.net",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free demo + One-time Pro license",
+      "source_url": "https://www.4xvr.net",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Meta Quest, PICO, PCVR",
+      "source_url": "https://www.4xvr.net",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "4xvr.net",
+      "source_url": "https://www.4xvr.net",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "sinsvr",
+  "type": "site",
+  "name": "SinsVR",
+  "url": "https://sinsvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-end German/European 8K VR studio crafted by SinsLife veterans—famed for crisp 60fps stereo cameras and intimate solo/POV shoots.",
+  "tags": [
+    "vr",
+    "studio",
+    "european",
+    "8k"
+  ],
+  "ranking_rationale": "Exceptionally sharp 8K 60fps European camera rigs with zero scale distortion, weighed against smaller specialized European cast.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Exceptionally sharp 8K 60fps European camera rigs with zero scale distortion",
+    "Interactive haptic script compatibility out of the box",
+    "Clean modern VR portal"
+  ],
+  "cons": [
+    "Smaller specialized European cast",
+    "Premium standalone pricing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sinsvr.webp",
+    "alt": "SinsVR logo and brand card",
+    "source_url": "https://sinsvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://sinsvr.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://sinsvr.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://sinsvr.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sinsvr.com",
+      "source_url": "https://sinsvr.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

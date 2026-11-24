@@ -1,0 +1,78 @@
+{
+  "slug": "dinotube",
+  "type": "site",
+  "name": "DinoTube",
+  "url": "https://www.dinotube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean visual meta-tube aggregator sorting millions of categorized partner clips with hover previews and dead-link removal.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Comprehensive category directory with crisp hover video previews (trade-off: outbound clicks open external tube tabs).",
+  "pricing": {
+    "model": "Free meta-tube index",
+    "free_tier": "Free clip discovery",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Comprehensive category directory with crisp hover video previews",
+    "Consistent dead-link pruning",
+    "Mobile friendly"
+  ],
+  "cons": [
+    "Outbound clicks open external tube tabs",
+    "Standard promo tiles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/dinotube.webp",
+    "alt": "DinoTube logo and brand card",
+    "source_url": "https://www.dinotube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.dinotube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube index",
+      "source_url": "https://www.dinotube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.dinotube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dinotube.com",
+      "source_url": "https://www.dinotube.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

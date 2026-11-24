@@ -1,0 +1,78 @@
+{
+  "slug": "manuelferrara",
+  "type": "site",
+  "name": "ManuelFerrara.com",
+  "url": "https://www.manuelferrara.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Director-performer Manuel Ferrara's signature gonzo studio spotlighting intimate one-on-one star chemistry and raw handheld realism.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo"
+  ],
+  "ranking_rationale": "Immediate natural chemistry and high-end star roster; weighed against small independent release rate per month.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Immediate natural chemistry and high-end star roster",
+    "Full downloads & 4K player streams",
+    "Consistent performer-focused framing"
+  ],
+  "cons": [
+    "Small independent release rate per month",
+    "Zero storyline variety"
+  ],
+  "image": {
+    "src": "/media/entities/sites/manuelferrara.webp",
+    "alt": "ManuelFerrara.com logo and brand card",
+    "source_url": "https://www.manuelferrara.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.manuelferrara.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.manuelferrara.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.manuelferrara.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "manuelferrara.com",
+      "source_url": "https://www.manuelferrara.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

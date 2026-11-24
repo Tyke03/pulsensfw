@@ -1,0 +1,79 @@
+{
+  "slug": "bilatinmen",
+  "type": "site",
+  "name": "BiLatinMen",
+  "url": "https://www.bilatinmen.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Established Latin American independent studio showcasing athletic Mexican, Colombian, and Central/South American men in solo & duo shoots.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "amateur"
+  ],
+  "ranking_rationale": "Over 20 years of exclusive Latin talent rarely seen on US corporate networks, weighed against dated early-2000s member HTML layout.",
+  "pricing": {
+    "model": "Latin studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Over 20 years of exclusive Latin talent rarely seen on US corporate networks",
+    "Includes high-res photo galleries alongside HD/4K videos",
+    "Authentic regional production"
+  ],
+  "cons": [
+    "Dated early-2000s member HTML layout",
+    "High share of solo shoots beside duo scenes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bilatinmen.webp",
+    "alt": "BiLatinMen logo and brand card",
+    "source_url": "https://www.bilatinmen.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.bilatinmen.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Latin studio subscription",
+      "source_url": "https://www.bilatinmen.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bilatinmen.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bilatinmen.com",
+      "source_url": "https://www.bilatinmen.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

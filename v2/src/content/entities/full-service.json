@@ -1,0 +1,81 @@
+{
+  "slug": "full-service",
+  "type": "game",
+  "name": "Full Service",
+  "url": "https://store.steampowered.com/app/1262730/Full_Service/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Vibrant LGBTQ+ bara/BL romantic dating sim set in an upscale spa with buff charming love interests and slick 2D CG polish.",
+  "tags": [
+    "games",
+    "dating-sim",
+    "bara",
+    "anime"
+  ],
+  "ranking_rationale": "Rare high-budget polished English bara/gay dating sim with vibrant full art; weighed against classic choice-tree visual novel with light stat scheduling.",
+  "pricing": {
+    "model": "One-time Steam / Itch purchase (~$25)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Rare high-budget polished English bara/gay dating sim with vibrant full art",
+    "Warm consensual romance choices alongside optional explicit uncut patch",
+    "Smooth Steam/Itch release"
+  ],
+  "cons": [
+    "Classic choice-tree visual novel with light stat scheduling",
+    "Requires free uncensored patch for 18+ scenes on Steam"
+  ],
+  "image": {
+    "src": "/media/entities/games/full-service.webp",
+    "alt": "Full Service logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1262730/Full_Service/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1262730/Full_Service/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam / Itch purchase (~$25)",
+      "source_url": "https://store.steampowered.com/app/1262730/Full_Service/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/1262730/Full_Service/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1262730/Full_Service/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

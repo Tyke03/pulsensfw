@@ -1,0 +1,63 @@
+{
+  "slug": "nina-roberts",
+  "type": "star",
+  "name": "Nina Roberts",
+  "url": "https://en.wikipedia.org/wiki/Nina_Roberts",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nina Roberts — French pornographic actress and writer. Industry career documented from 2002.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nina-roberts.jpg",
+    "alt": "SFW portrait of Nina Roberts",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nina_Roberts_2.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q275681 (France)",
+      "source_url": "http://www.wikidata.org/entity/Q275681",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2002–present",
+      "source_url": "https://en.wikipedia.org/wiki/Nina_Roberts",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1979",
+      "source_url": "http://www.wikidata.org/entity/Q275681",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

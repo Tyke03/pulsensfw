@@ -1,0 +1,13 @@
+---
+import { ICONS, type IconName } from './icons';
+
+interface Props {
+  name: IconName;
+  size?: number;
+}
+const { name, size = 22 } = Astro.props;
+const markup = ICONS[name];
+---
+<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <Fragment set:html={markup} />
+</svg>

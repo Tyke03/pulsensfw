@@ -1,0 +1,78 @@
+{
+  "slug": "kindgirls",
+  "type": "site",
+  "name": "KindGirls",
+  "url": "https://www.kindgirls.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-running SFW/NSFW glamour model gallery index curating natural photography sets with clean zero-sleaze links.",
+  "tags": [
+    "forums",
+    "database",
+    "glamour"
+  ],
+  "ranking_rationale": "Tidy chronological index of natural European glamour sets; weighed against modest update volume.",
+  "pricing": {
+    "model": "Free curated photo directory",
+    "free_tier": "Free browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Tidy chronological index of natural European glamour sets",
+    "Low-popup clean gallery browsing",
+    "Great artist/photographer credits"
+  ],
+  "cons": [
+    "Modest update volume",
+    "Links often point to paysite trials"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kindgirls.webp",
+    "alt": "KindGirls logo and brand card",
+    "source_url": "https://www.kindgirls.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.kindgirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free curated photo directory",
+      "source_url": "https://www.kindgirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.kindgirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kindgirls.com",
+      "source_url": "https://www.kindgirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

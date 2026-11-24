@@ -1,0 +1,63 @@
+{
+  "slug": "kyla-king",
+  "type": "star",
+  "name": "Kyla King",
+  "url": "http://www.wikidata.org/entity/Q4793240",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Kyla King — Dutch pornographic actress (b. 1983). Industry career documented from 2004.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/kyla-king.jpg",
+    "alt": "SFW portrait of Kyla King",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kyla_King_at_Penthouse_Talent_Call_3.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q4793240 (Kingdom of the Netherlands)",
+      "source_url": "http://www.wikidata.org/entity/Q4793240",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1983",
+      "source_url": "http://www.wikidata.org/entity/Q4793240",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2004–2009",
+      "source_url": "http://www.wikidata.org/entity/Q4793240",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "exotic4k",
+  "type": "site",
+  "name": "Exotic4K",
+  "url": "https://www.exotic4k.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-definition TeamSkeet flagship dedicated to Latina, Ebony, Asian, and international performers filmed in ultra-crisp 4K.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k"
+  ],
+  "ranking_rationale": "Super sharp 4K cinematography and vibrant color grading (trade-off: almost zero plot dialogue beyond quick intro banter).",
+  "pricing": {
+    "model": "Studio / TeamSkeet subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Super sharp 4K cinematography and vibrant color grading",
+    "Easy upgrade bundling with the full TeamSkeet mega-network",
+    "Top-tier modern star bookings"
+  ],
+  "cons": [
+    "Almost zero plot dialogue beyond quick intro banter",
+    "Standalone pass costs poorly relative to full TeamSkeet bundle"
+  ],
+  "image": {
+    "src": "/media/entities/sites/exotic4k.webp",
+    "alt": "Exotic4K logo and brand card",
+    "source_url": "https://www.exotic4k.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.exotic4k.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / TeamSkeet subscription",
+      "source_url": "https://www.exotic4k.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.exotic4k.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "exotic4k.com",
+      "source_url": "https://www.exotic4k.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

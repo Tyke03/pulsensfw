@@ -1,0 +1,78 @@
+{
+  "slug": "milfy",
+  "type": "site",
+  "name": "MILFY",
+  "url": "https://www.milfy.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Vixen Media Group's newest luxury flagship celebrating veteran and mature stars with high-budget 4K artistry.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k"
+  ],
+  "ranking_rationale": "Elevated cinematic look rare in mature-niche sites; weighed against younger catalog size vs vixen or blacked.",
+  "pricing": {
+    "model": "Studio / VMG Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Elevated cinematic look rare in mature-niche sites",
+    "All-star roster of iconic veterans",
+    "Zero cheap gonzo tropes"
+  ],
+  "cons": [
+    "Younger catalog size vs Vixen or Blacked",
+    "Premium price tier"
+  ],
+  "image": {
+    "src": "/media/entities/sites/milfy.webp",
+    "alt": "MILFY logo and brand card",
+    "source_url": "https://www.milfy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.milfy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / VMG Network subscription",
+      "source_url": "https://www.milfy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.milfy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "milfy.com",
+      "source_url": "https://www.milfy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

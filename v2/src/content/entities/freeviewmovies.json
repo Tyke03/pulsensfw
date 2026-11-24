@@ -1,0 +1,78 @@
+{
+  "slug": "freeviewmovies",
+  "type": "site",
+  "name": "FreeViewMovies",
+  "url": "https://www.freeviewmovies.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran dark-theme free porn tube offering organized channel feeds and fast direct HTML5 video streams.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream"
+  ],
+  "ranking_rationale": "Quick player buffering with simple quality controls, weighed against heavy affiliate cross-promos on pause.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Quick player buffering with simple quality controls",
+    "Decent category breakdown across mainstream genres",
+    "No signup required"
+  ],
+  "cons": [
+    "Heavy affiliate cross-promos on pause",
+    "Slower daily upload cadence"
+  ],
+  "image": {
+    "src": "/media/entities/sites/freeviewmovies.webp",
+    "alt": "FreeViewMovies logo and brand card",
+    "source_url": "https://www.freeviewmovies.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.freeviewmovies.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.freeviewmovies.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.freeviewmovies.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "freeviewmovies.com",
+      "source_url": "https://www.freeviewmovies.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

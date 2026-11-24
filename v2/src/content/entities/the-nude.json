@@ -1,0 +1,77 @@
+{
+  "slug": "the-nude",
+  "type": "site",
+  "name": "The Nude",
+  "url": "https://www.thenude.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Comprehensive fine-art nude model & photographer encyclopedia linking every studio shoot across MetArt, Hegre, Playboy, and Joymii.",
+  "tags": [
+    "forums",
+    "database",
+    "glamour"
+  ],
+  "ranking_rationale": "Unmatched index specifically for glamour & fine-art nude models; weighed against minimalistic text-list interface.",
+  "pricing": {
+    "model": "Free art-model encyclopedia",
+    "free_tier": "Full index free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Unmatched index specifically for glamour & fine-art nude models",
+    "Links authentic official photographer sites cleanly",
+    "Strict verification against deepfakes/fakes"
+  ],
+  "cons": [
+    "Minimalistic text-list interface",
+    "Limited mobile gesture optimization"
+  ],
+  "image": {
+    "src": "/media/entities/sites/the-nude.webp",
+    "alt": "The Nude logo and brand card",
+    "source_url": "https://www.thenude.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.thenude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free art-model encyclopedia",
+      "source_url": "https://www.thenude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.thenude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "thenude.com",
+      "source_url": "https://www.thenude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

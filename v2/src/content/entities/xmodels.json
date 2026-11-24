@@ -1,0 +1,78 @@
+{
+  "slug": "xmodels",
+  "type": "site",
+  "name": "Xmodels",
+  "url": "https://www.xmodels.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "European independent model club offering custom video requests, photo feeds, and 1-on-1 cam/chat bookings directly with creators.",
+  "tags": [
+    "platform",
+    "creator",
+    "european"
+  ],
+  "ranking_rationale": "Clean German/European independent creator directory & custom order flow; weighed against euro-centric performer base & dated web framework.",
+  "pricing": {
+    "model": "Creator clubs & custom requests",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Clean German/European independent creator directory & custom order flow",
+    "Transparent pricing badges",
+    "Multi-year industry presence"
+  ],
+  "cons": [
+    "Euro-centric performer base & dated web framework",
+    "Paywalled unlock fees per creator"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xmodels.webp",
+    "alt": "Xmodels logo and brand card",
+    "source_url": "https://www.xmodels.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.xmodels.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator clubs & custom requests",
+      "source_url": "https://www.xmodels.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.xmodels.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xmodels.com",
+      "source_url": "https://www.xmodels.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

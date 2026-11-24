@@ -1,0 +1,79 @@
+{
+  "slug": "newgrounds-adult",
+  "type": "site",
+  "name": "Newgrounds Adult",
+  "url": "https://www.newgrounds.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Legendary creator-owned portal hosting top indie Flash/HTML5 adult animations, parody loops, and pixel/3D art.",
+  "tags": [
+    "comics",
+    "hentai",
+    "games",
+    "3d"
+  ],
+  "ranking_rationale": "Home to premier indie NSFW animators and micro-games; weighed against requires free registered account over 18+ gate for adult filter.",
+  "pricing": {
+    "model": "Free account + Supporter option",
+    "free_tier": "Free viewing & indie web games",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Home to premier indie NSFW animators and micro-games",
+    "Clean moderated creator portal with zero malware",
+    "Free HTML5 web games and animation loops"
+  ],
+  "cons": [
+    "Requires free registered account over 18+ gate for Adult filter",
+    "UI splits SFW and A-rated feeds"
+  ],
+  "image": {
+    "src": "/media/entities/sites/newgrounds-adult.webp",
+    "alt": "Newgrounds Adult logo and brand card",
+    "source_url": "https://www.newgrounds.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.newgrounds.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free account + Supporter option",
+      "source_url": "https://www.newgrounds.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.newgrounds.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "newgrounds.com",
+      "source_url": "https://www.newgrounds.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

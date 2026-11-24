@@ -1,0 +1,79 @@
+{
+  "slug": "karups",
+  "type": "site",
+  "name": "Karups",
+  "url": "https://www.karups.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic three-site amateur-glamour brand (KarupsPC, KarupsOW, KarupsHA) famous for natural unpolished models since 1998.",
+  "tags": [
+    "premium",
+    "studio",
+    "glamour",
+    "amateur"
+  ],
+  "ranking_rationale": "25+ year legacy of genuine non-plastic glamour models; weighed against slower weekly video release volume.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "25+ year legacy of genuine non-plastic glamour models",
+    "Full bundle unlocks all three sister brands + high-res photos",
+    "Bright, honest homemade & solo vibe"
+  ],
+  "cons": [
+    "Slower weekly video release volume",
+    "Softcore-leaning photo emphasis on older vaults"
+  ],
+  "image": {
+    "src": "/media/entities/sites/karups.webp",
+    "alt": "Karups logo and brand card",
+    "source_url": "https://www.karups.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.karups.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.karups.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.karups.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "karups.com",
+      "source_url": "https://www.karups.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

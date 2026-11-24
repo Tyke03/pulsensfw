@@ -1,0 +1,78 @@
+{
+  "slug": "czech-av",
+  "type": "site",
+  "name": "Czech AV",
+  "url": "https://www.czechav.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flagship Czech network uniting Czech Casting, Czech Streets, Czech Massage, and 30+ European reality-style paysites under one pass.",
+  "tags": [
+    "premium",
+    "studio",
+    "european"
+  ],
+  "ranking_rationale": "Massive 35-site European reality bundle on one pass; weighed against repetitive scripted premise across sister sites.",
+  "pricing": {
+    "model": "Mega-network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Massive 35-site European reality bundle on one pass",
+    "Iconic amateur-feel casting & massage formats",
+    "High-bitrate 4K downloads with photo sets"
+  ],
+  "cons": [
+    "Repetitive scripted premise across sister sites",
+    "Mixed English subtitling on older scenes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/czech-av.webp",
+    "alt": "Czech AV logo and brand card",
+    "source_url": "https://www.czechav.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.czechav.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Mega-network subscription",
+      "source_url": "https://www.czechav.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.czechav.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "czechav.com",
+      "source_url": "https://www.czechav.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

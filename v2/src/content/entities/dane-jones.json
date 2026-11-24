@@ -1,0 +1,79 @@
+{
+  "slug": "dane-jones",
+  "type": "site",
+  "name": "DaneJones",
+  "url": "https://www.danejones.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Romantic European & British couples erotica label filming warm, sunlit bedroom intimacy with affectionate pacing.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples",
+    "european"
+  ],
+  "ranking_rationale": "Warm soft-lit romantic chemistry ideal for couples watching together (trade-off: gentle unhurried formula stays uniform across releases).",
+  "pricing": {
+    "model": "Couples studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Warm soft-lit romantic chemistry ideal for couples watching together",
+    "Clean modern responsive player & HD/4K downloads",
+    "Strong UK & Central European cast"
+  ],
+  "cons": [
+    "Gentle unhurried formula stays uniform across releases",
+    "Moderate catalog update pace"
+  ],
+  "image": {
+    "src": "/media/entities/sites/dane-jones.webp",
+    "alt": "DaneJones logo and brand card",
+    "source_url": "https://www.danejones.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.danejones.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Couples studio subscription",
+      "source_url": "https://www.danejones.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.danejones.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "danejones.com",
+      "source_url": "https://www.danejones.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

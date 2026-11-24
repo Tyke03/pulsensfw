@@ -1,0 +1,78 @@
+{
+  "slug": "proporn",
+  "type": "site",
+  "name": "ProPorn",
+  "url": "https://www.proporn.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean mainstream tube focusing on fast HTML5 buffer performance and curated playlists.",
+  "tags": [
+    "tube",
+    "hd",
+    "streaming"
+  ],
+  "ranking_rationale": "Clean grid spacing; weighed against smaller daily volume than mega-tubes.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Clean grid spacing",
+    "Reliable MP4 playback on phones",
+    "Low visual spam"
+  ],
+  "cons": [
+    "Smaller daily volume than mega-tubes",
+    "Standard banner ads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/proporn.webp",
+    "alt": "ProPorn logo and brand card",
+    "source_url": "https://www.proporn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.proporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.proporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.proporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "proporn.com",
+      "source_url": "https://www.proporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

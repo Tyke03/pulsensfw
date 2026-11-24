@@ -1,0 +1,78 @@
+{
+  "slug": "devils-film",
+  "type": "site",
+  "name": "Devil's Film",
+  "url": "https://www.devilsfilm.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Historic comedy, parody, and feature studio running decades of eclectic all-sex releases from big-star spoofs to taboo scenarios.",
+  "tags": [
+    "premium",
+    "studio",
+    "parody"
+  ],
+  "ranking_rationale": "Massive eclectic catalog of features and parody classics; weighed against heavy legacy dvd rips alongside modern 4k shoots.",
+  "pricing": {
+    "model": "Studio / Gamma network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Massive eclectic catalog of features and parody classics",
+    "Part of Adult Time / Gamma ecosystem reliability",
+    "Frequent multi-scene anthology films"
+  ],
+  "cons": [
+    "Heavy legacy DVD rips alongside modern 4K shoots",
+    "Less refined visual aesthetic than Vixen or Blacked"
+  ],
+  "image": {
+    "src": "/media/entities/sites/devils-film.webp",
+    "alt": "Devil's Film logo and brand card",
+    "source_url": "https://www.devilsfilm.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.devilsfilm.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / Gamma network subscription",
+      "source_url": "https://www.devilsfilm.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.devilsfilm.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "devilsfilm.com",
+      "source_url": "https://www.devilsfilm.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

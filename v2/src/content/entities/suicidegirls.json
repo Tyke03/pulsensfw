@@ -1,0 +1,79 @@
+{
+  "slug": "suicidegirls",
+  "type": "site",
+  "name": "SuicideGirls",
+  "url": "https://www.suicidegirls.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Iconic alt-model photography and community network celebrating tattoos, piercings, punk style, and creator-driven sets.",
+  "tags": [
+    "niche",
+    "alt",
+    "photos",
+    "community"
+  ],
+  "ranking_rationale": "Authentic alt, goth, and punk model community since 2001; weighed against mostly artistic nudity/pin-up photography rather than explicit video.",
+  "pricing": {
+    "model": "Monthly community membership",
+    "free_tier": "Free teaser blogs",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Authentic alt, goth, and punk model community since 2001",
+    "Huge high-res editorial photo archive + member blogs",
+    "Respectful model-positive ethos"
+  ],
+  "cons": [
+    "Mostly artistic nudity/pin-up photography rather than explicit video",
+    "Website UI feels cluttered"
+  ],
+  "image": {
+    "src": "/media/entities/sites/suicidegirls.webp",
+    "alt": "SuicideGirls logo and brand card",
+    "source_url": "https://www.suicidegirls.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.suicidegirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Monthly community membership",
+      "source_url": "https://www.suicidegirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.suicidegirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "suicidegirls.com",
+      "source_url": "https://www.suicidegirls.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

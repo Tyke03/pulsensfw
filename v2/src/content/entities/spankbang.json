@@ -1,0 +1,80 @@
+{
+  "slug": "spankbang",
+  "type": "site",
+  "name": "SpankBang",
+  "url": "https://spankbang.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Viewer-favorite free tube prized for long-form HD and 4K uploads, crisp animated hover previews, and dense user-curated playlists.",
+  "tags": [
+    "tube",
+    "free",
+    "hd",
+    "playlists"
+  ],
+  "ranking_rationale": "Stronger long-form HD/4K availability and playlist discovery than most free rivals, balanced by aggressive pop-under redirects and frequent DMCA removals.",
+  "pricing": {
+    "model": "Ad-supported free tube",
+    "free_tier": "Free HD/4K streaming and community playlists with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Free ad-supported access with no subscription paywall for 1080p or 4K playback."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "High proportion of full-length HD and 4K uploads",
+    "Responsive hover previews make scanning scenes fast",
+    "Deep community-curated playlists for niche tastes"
+  ],
+  "cons": [
+    "Aggressive pop-under and redirect ads without ad-blocking",
+    "Frequent DMCA takedowns leave gaps in saved playlists",
+    "Search relevance can drift on multi-word queries"
+  ],
+  "image": {
+    "src": "/media/entities/sites/spankbang.png",
+    "alt": "SpankBang logo and brand card",
+    "source_url": "https://spankbang.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free HD/4K adult video tube",
+      "source_url": "https://spankbang.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2013; independently operated",
+      "source_url": "https://spankbang.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported streaming up to 4K",
+      "source_url": "https://spankbang.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Long-form HD/4K clips paired with deep user-built playlists",
+      "source_url": "https://spankbang.com",
+      "checked": "2026-11-23",
+      "evidence_type": "hands_on"
+    }
+  ],
+  "updated": "2026-11-23"
+}

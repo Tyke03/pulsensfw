@@ -1,0 +1,73 @@
+{
+  "slug": "venice-ai",
+  "type": "ai_app",
+  "name": "Venice.ai",
+  "url": "https://venice.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Privacy-first, uncensored inference platform running open-weight text, code, and image models with local browser chat storage and zero prompt logging.",
+  "tags": [
+    "privacy",
+    "chat",
+    "image",
+    "unlogged"
+  ],
+  "ranking_rationale": "Stands out for combining real no-log browser storage architecture with uncensored open-weight chat and image generation in one clean web UI.",
+  "pricing": {
+    "model": "Freemium subscription + Pro API",
+    "free_tier": "Generous daily free prompts for anonymous/free users",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check venice.ai/pricing for current Pro monthly/annual plans and API token rates."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "API"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Conversations stay stored locally in your browser rather than centralized servers",
+    "Uncensored open-weight text and image models under one clean web interface",
+    "Usable immediately on the free tier before creating an account"
+  ],
+  "cons": [
+    "Lacks dedicated roleplay character-card managers or lorebook systems like Chub/SpicyChat",
+    "Clearing browser site data deletes unbacked local chat threads"
+  ],
+  "image": {
+    "src": "/media/entities/ai/venice-ai.webp",
+    "alt": "Venice.ai logo and brand card",
+    "source_url": "https://venice.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Privacy-first uncensored AI chat & image generator",
+      "source_url": "https://venice.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Privacy architecture",
+      "value": "Prompt history kept client-side in browser storage; encrypted stateless inference",
+      "source_url": "https://venice.ai/privacy-policy",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Models",
+      "value": "Curated open-weight LLMs (Dolphin/Llama/DeepSeek) and uncensored image models",
+      "source_url": "https://venice.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

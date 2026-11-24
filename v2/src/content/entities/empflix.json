@@ -1,0 +1,78 @@
+{
+  "slug": "empflix",
+  "type": "site",
+  "name": "EMPFlix",
+  "url": "https://www.empflix.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran free video portal offering classic web uploads, niche playlists, and fast HTML5 browser playback.",
+  "tags": [
+    "tube",
+    "mainstream",
+    "streaming"
+  ],
+  "ranking_rationale": "Long-running catalog going back 15+ years; weighed against aging interface.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.0,
+  "pros": [
+    "Long-running catalog going back 15+ years",
+    "Zero login needed to watch",
+    "Simple tag navigation"
+  ],
+  "cons": [
+    "Aging interface",
+    "Pop ads on initial taps"
+  ],
+  "image": {
+    "src": "/media/entities/sites/empflix.webp",
+    "alt": "EMPFlix logo and brand card",
+    "source_url": "https://www.empflix.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.empflix.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.empflix.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.empflix.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "empflix.com",
+      "source_url": "https://www.empflix.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

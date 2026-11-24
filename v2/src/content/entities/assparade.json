@@ -1,0 +1,79 @@
+{
+  "slug": "assparade",
+  "type": "site",
+  "name": "AssParade",
+  "url": "https://www.assparade.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flagship Miami curve-and-glamour showcase channel from BangBros celebrating Latina, Brazilian & curvy stars in sunny 4K shoots.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo",
+    "4k"
+  ],
+  "ranking_rationale": "20+ years spotlighting top Latina, Brazilian & curvy performers in bright Miami villas, weighed against formulaic poolside twerk-to-bedroom structure.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "20+ years spotlighting top Latina, Brazilian & curvy performers in bright Miami villas",
+    "Sharp 4K modern camera upgrades",
+    "Huge multi-thousand-scene vault"
+  ],
+  "cons": [
+    "Formulaic poolside twerk-to-bedroom structure",
+    "Best bundled inside full BangBros pass"
+  ],
+  "image": {
+    "src": "/media/entities/sites/assparade.webp",
+    "alt": "AssParade logo and brand card",
+    "source_url": "https://www.assparade.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.assparade.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.assparade.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.assparade.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "assparade.com",
+      "source_url": "https://www.assparade.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

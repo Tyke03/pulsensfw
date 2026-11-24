@@ -1,0 +1,71 @@
+{
+  "slug": "dany-verissimo",
+  "type": "star",
+  "name": "Dany Verissimo",
+  "url": "https://en.wikipedia.org/wiki/Dany_Verissimo",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dany Verissimo is a French actress and model. She originally worked from 2001 to 2002 as a pornographic actress under the stage name Ally Mac Tyana before starting a mainstream career.",
+  "tags": [
+    "performer",
+    "veteran",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/dany-verissimo.jpg",
+    "alt": "SFW portrait of Dany Verissimo",
+    "source_url": "https://commons.wikimedia.org/wiki/File:DanyVerissimoPetit.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "2001–present",
+      "source_url": "https://en.wikipedia.org/wiki/Dany_Verissimo",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Vitry-sur-Seine, France",
+      "source_url": "https://en.wikipedia.org/wiki/Dany_Verissimo",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Actress, model (person), model",
+      "source_url": "https://en.wikipedia.org/wiki/Dany_Verissimo",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1982",
+      "source_url": "http://www.wikidata.org/entity/Q463361",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

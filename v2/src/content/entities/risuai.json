@@ -1,0 +1,80 @@
+{
+  "slug": "risuai",
+  "type": "ai_app",
+  "name": "RisuAI",
+  "url": "https://risuai.xyz",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Multi-platform AI roleplay studio featuring Lua scripting, emotion sprites, TTS plugins, and full BYO/local LLM freedom.",
+  "tags": [
+    "chat",
+    "character chat",
+    "local"
+  ],
+  "ranking_rationale": "Incredible plugin & regex power matching top roleplay setups; weighed against steeper setup curve for new users.",
+  "pricing": {
+    "model": "Free open-source web/desktop + RisuRealm",
+    "free_tier": "Free core client & BYO key mode",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "macOS",
+    "Android"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Incredible plugin & regex power matching top roleplay setups",
+    "Desktop app + browser sync + local model bridges",
+    "Zero platform censorship over BYO prompts"
+  ],
+  "cons": [
+    "Steeper setup curve for new users",
+    "Complex regex/CBS macro menus"
+  ],
+  "image": {
+    "src": "/media/entities/ai/risuai.webp",
+    "alt": "RisuAI logo and brand card",
+    "source_url": "https://risuai.xyz",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://risuai.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open-source web/desktop + RisuRealm",
+      "source_url": "https://risuai.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, macOS, Android",
+      "source_url": "https://risuai.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "risuai.xyz",
+      "source_url": "https://risuai.xyz",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

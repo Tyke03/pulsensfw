@@ -1,0 +1,461 @@
+[
+  {
+    "canonical_id": "ai-angels",
+    "platform": "ai-angels",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://www.aiangels.io",
+      "quote_or_paraphrase": "Product copy markets adult AI girlfriend chat and uncensored companion interactions.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": "https://www.aiangels.io"
+    },
+    "red_flags": [
+      {
+        "type": "white_label_clone",
+        "summary": "Operates using the standard token-gated AI girlfriend web template associated with offshore Baltic/Cyprus companion networks.",
+        "sources": [
+          {
+            "url": "https://www.aiangels.io",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "AiAppDevelopment OÜ (Estonia)",
+    "white_label_family": "Candy AI / DreamGF style token-gated companion hub",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false)."
+  },
+  {
+    "canonical_id": "candy-ai",
+    "platform": "Candy AI",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://candy.ai/terms-of-service",
+      "quote_or_paraphrase": "18+ adult virtual companion platform offering uncensored roleplay, on-demand NSFW images, videos, and voice notes.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://candy.ai/terms-of-service"
+    },
+    "red_flags": [
+      {
+        "type": "billing",
+        "summary": "Multiple independent Reddit users report unexpected or confusing recurring charges under the billing descriptor 'EverAI' or 'ever ai 08', hidden plan pricing prior to sign-up, rapid token depletion requiring extra payments on top of subscriptions (even to create new characters), and a strict 24-hour / 20-token refund cutoff outside the EU/UK. Conflicting user reports on r/Scams note that users who intentionally subscribed can cancel via a small 'unsubscribe' link at the bottom of settings.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Scams/comments/1i6m5lf/everai_fraudulently_charged_my_card/",
+            "source_type": "independent_user",
+            "date_shown": "2y ago / 1y ago",
+            "accessed": "2026-11-02",
+            "verbatim": false
+          },
+          {
+            "url": "https://www.reddit.com/r/Chatbots/comments/1ssrqfp/candy_is_the_worst_shit_i_encountered_the_last/",
+            "source_type": "independent_user",
+            "date_shown": "4mo ago / 6mo ago",
+            "accessed": "2026-11-02",
+            "verbatim": false
+          },
+          {
+            "url": "https://candy.ai/terms-of-service",
+            "source_type": "first_party",
+            "date_shown": "September 22, 2026",
+            "accessed": "2026-11-02",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 8,
+        "status": "recurring"
+      },
+      {
+        "type": "deceptive_marketing",
+        "summary": "Subreddit moderators across r/ChatGPT and r/Chatbots document that Candy AI operates a massive automated spam and astroturfing bot farm posting thousands of fake customer reviews daily. Additionally, Candy AI's homepage claims 'end-to-end encryption' while its Privacy Notice (rev. Oct 16, 2026) permits human review of de-identified conversations for AI training and 3-year post-inactivity data retention.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1k5fnis/my_digital_boyfriend_diaries_an_experimental/",
+            "source_type": "independent_user",
+            "date_shown": "2025/2026",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          },
+          {
+            "url": "https://www.reddit.com/r/Chatbots/comments/1is6a4f/anyone_tried_the_candy_ai_chatbot_whats_the_sweet/",
+            "source_type": "independent_user",
+            "date_shown": "2y ago",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          },
+          {
+            "url": "https://candy.ai/privacy-policy",
+            "source_type": "first_party",
+            "date_shown": "October 16, 2026",
+            "accessed": "2026-11-02",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 3,
+        "status": "recurring"
+      },
+      {
+        "type": "white_label_clone",
+        "summary": "Archetype and commercial marketing partner for the Scrile AI and Triple Minds 'Candy AI Clone' white-label software ecosystem.",
+        "sources": [
+          {
+            "url": "https://www.scrile.com/ai/candy-ai-clone",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": false
+          },
+          {
+            "url": "https://contra.com/community/TbzUoumI-top-white-label-ai-companion-platform-companies",
+            "source_type": "news",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": false
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "EverAI Limited (56 Central Business Centre, Triq Is-Soll, Santa Venera SVR 1833, Malta, Reg. No. C107181)",
+    "white_label_family": "Candy AI / EverAI / Scrile / Triple Minds archetype",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false). Excluded promotional accounts u/Expert_Doughnut_4020, u/aiyumeko, and u/Extension_Doubt_8866 flagged by subreddit moderators as astroturfing bots."
+  },
+  {
+    "canonical_id": "cuties-ai",
+    "platform": "cuties-ai",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://www.scribd.com/document/950198568/Sd-General-Terms-and-Conditions-280824-134725",
+      "quote_or_paraphrase": "General Terms and Conditions state that Cuties.ai 'offers paid packages that allow users to generate more content and send more messages to their virtual girlfriends' for 18+ users.",
+      "verbatim": true
+    },
+    "chat_without_image_credits": {
+      "answer": "unresolved",
+      "url": "https://cuties.ai"
+    },
+    "red_flags": [
+      {
+        "type": "white_label_clone",
+        "summary": "Uses the shared General Terms and Conditions template ('virtual girlfriends' package boilerplate) deployed across DreamAI SRL and white-label clone properties.",
+        "sources": [
+          {
+            "url": "https://www.scribd.com/document/950198568/Sd-General-Terms-and-Conditions-280824-134725",
+            "source_type": "first_party",
+            "date_shown": "August 28, 2024",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "Cuties.ai",
+    "white_label_family": "DreamGF / Candy AI white-label template family",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false)."
+  },
+  {
+    "canonical_id": "darlink-ai",
+    "platform": "DarLink AI",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://darlink.ai/terms-and-conditions",
+      "quote_or_paraphrase": "Offers 18+ AI companion chat, personalized adult photos, videos, and voice messages.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://darlink.ai/terms-and-conditions"
+    },
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "DarLink AI",
+    "white_label_family": "Candy AI style companion hub",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false)."
+  },
+  {
+    "canonical_id": "dreamgf",
+    "platform": "DreamGF",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://dreamgf.ai/terms",
+      "quote_or_paraphrase": "18+ adult AI girlfriend platform offering uncensored chat, voice messages, and NSFW image generation.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://dreamgf.ai/terms"
+    },
+    "red_flags": [
+      {
+        "type": "billing",
+        "summary": "Independent users on Reddit (r/Chatbots 'Is dreamgf.ai a scam?') and Trustpilot (2.5/5 TrustScore, 3 of 4 reviews 1-star) report charges occurring after cancellation attempts and steep quarterly rebilling jumps ($29.97 initial payment followed by $77.97 every 3 months).",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Chatbots/comments/1encdzm/is_dreamgfai_a_scam/",
+            "source_type": "independent_user",
+            "date_shown": "2y ago",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          },
+          {
+            "url": "https://www.trustpilot.com/review/dreamgf.ai",
+            "source_type": "independent_user",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          }
+        ],
+        "independent_users": 4,
+        "status": "recurring"
+      },
+      {
+        "type": "white_label_clone",
+        "summary": "Flagship domain of the DreamAI SRL multi-site network (alongside eHentai.ai, DreamBF, and FantasyGF) and the primary commercial template cloned by Triple Minds ($16,000) and Fanso ($1,500).",
+        "sources": [
+          {
+            "url": "https://ehentai.ai/affiliate-policy",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          },
+          {
+            "url": "https://fanso.io/dreamgf-clone",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          },
+          {
+            "url": "https://tripleminds.co/white-label/dreamgf-clone/",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "DreamAI SRL (Bucharest, Romania, Sector 1, 11 C.C. Arion Str., Reg. No. J40/12952/2023, CUI 48479324)",
+    "white_label_family": "DreamAI SRL (DreamGF / DreamBF / eHentai.ai / FantasyGF)",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false)."
+  },
+  {
+    "canonical_id": "ehentai-ai",
+    "platform": "ehentai-ai",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://ehentai.ai/terms",
+      "quote_or_paraphrase": "Owned and operated by DreamAI SRL for 18+ anime/adult chat and image generation.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://ehentai.ai/terms"
+    },
+    "red_flags": [
+      {
+        "type": "white_label_clone",
+        "summary": "Operated by DreamAI SRL as a white-label anime/hentai clone of DreamGF; its Content Removal Policy directs users to contact@dreamgf and its Affiliate Policy cross-lists DreamGF, eHenta, DreamBF, and Fantasy AI.",
+        "sources": [
+          {
+            "url": "https://ehentai.ai/terms",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          },
+          {
+            "url": "https://ehentai.ai/deletion-strategy",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          },
+          {
+            "url": "https://ehentai.ai/affiliate-policy",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "DreamAI SRL (Bucharest, Romania, Reg. No. J40/12952/2023, CUI 48479324)",
+    "white_label_family": "DreamAI SRL (DreamGF / DreamBF / eHentai.ai / FantasyGF)",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false)."
+  },
+  {
+    "canonical_id": "fantasygf",
+    "platform": "FantasyGF",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://fantasygf.ai",
+      "quote_or_paraphrase": "18+ adult virtual girlfriend platform offering uncensored chat, voice calls, and NSFW image generation.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://fantasygf.ai"
+    },
+    "red_flags": [
+      {
+        "type": "white_label_clone",
+        "summary": "Part of the DreamAI SRL / Candy AI clone ecosystem; cross-referenced in DreamAI SRL's affiliate brand-bidding restrictions alongside DreamGF, eHentai.ai, and DreamBF.",
+        "sources": [
+          {
+            "url": "https://ehentai.ai/affiliate-policy",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "DreamAI SRL / FantasyGF",
+    "white_label_family": "DreamAI SRL (DreamGF / DreamBF / eHentai.ai / FantasyGF)",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false)."
+  },
+  {
+    "canonical_id": "girlfriendgpt",
+    "platform": "GirlfriendGPT",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://gptgirlfriend.online",
+      "quote_or_paraphrase": "Uncensored 18+ adult AI companion hub offering adult roleplay, voice, and NSFW images.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://gptgirlfriend.online"
+    },
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "GirlfriendGPT",
+    "white_label_family": "Candy AI / GirlfriendGPT style companion hub",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false). Free trial tightly capped at 20 messages before subscription paywall."
+  },
+  {
+    "canonical_id": "muah-ai",
+    "platform": "muah-ai",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://muah.ai",
+      "quote_or_paraphrase": "Adult companion platform with uncensored chat settings and NSFW features.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://muah.ai"
+    },
+    "red_flags": [
+      {
+        "type": "data_breach",
+        "summary": "In October 2024, Malwarebytes and Australia's eSafety Commissioner documented a major data breach at Muah.AI in which user chat prompts revealing intimate personal fantasies were stolen and linked directly to users' personal email addresses and real names, despite the platform's 'absolute privacy' and encryption assurances.",
+        "sources": [
+          {
+            "url": "https://www.malwarebytes.com/blog/news/2024/10/ai-girlfriend-site-breached-user-fantasies-stolen",
+            "source_type": "news",
+            "date_shown": "October 2024",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          },
+          {
+            "url": "https://www.esafety.gov.au/key-topics/esafety-guide/muahai",
+            "source_type": "news",
+            "date_shown": "May 9, 2025",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "MUAH.AI (Founded by Harvard Han; Los Angeles, California, USA)",
+    "white_label_family": "",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false). Subscription tiers bundle text, photo, and voice without per-image token deductions."
+  },
+  {
+    "canonical_id": "secret-desires-ai",
+    "platform": "Secret Desires AI",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://secretdesires.ai",
+      "quote_or_paraphrase": "Marketed for uncensored 18+ adult fantasies, roleplay, NSFW images, and voice messages.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://secretdesires.ai"
+    },
+    "red_flags": [],
+    "excluded_accounts": [],
+    "operator": "Secret Desires AI",
+    "white_label_family": "Candy AI / Secret Desires companion hub",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false). Excluded self-promotional/comparative shill comments (e.g., u/ExactMistake8979 on r/Chatbots)."
+  },
+  {
+    "canonical_id": "soulkyn-ai",
+    "platform": "Soulkyn AI",
+    "nsfw_first_party": {
+      "answer": "yes",
+      "url": "https://soulkyn.com/l/en-US/legal/privacy-notice",
+      "quote_or_paraphrase": "18+ adult AI companion and image/chat platform permitting NSFW content within the bounds of its Blocked Content Policy.",
+      "verbatim": false
+    },
+    "chat_without_image_credits": {
+      "answer": "yes",
+      "url": "https://soulkyn.com"
+    },
+    "red_flags": [
+      {
+        "type": "white_label_clone",
+        "summary": "Privacy Notice Section 11 stipulates that personal information is retained for 6 (six) years after account closure, sharing the exact 6-year post-termination retention boilerplate found in Kupid AI's privacy policy.",
+        "sources": [
+          {
+            "url": "https://soulkyn.com/l/en-US/legal/privacy-notice",
+            "source_type": "first_party",
+            "date_shown": "",
+            "accessed": "2026-11-02",
+            "verbatim": true
+          }
+        ],
+        "independent_users": 0,
+        "status": "isolated"
+      }
+    ],
+    "excluded_accounts": [],
+    "operator": "Soulkyn.com",
+    "white_label_family": "Cyprus/EU 6-year-retention companion template (Kupid AI / Soulkyn AI)",
+    "notes": "Borderline (category: hosted_character_hubs, scope_pending: true, store_build_may_differ: false)."
+  }
+]

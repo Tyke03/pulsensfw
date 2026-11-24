@@ -1,0 +1,79 @@
+{
+  "slug": "realitylovers",
+  "type": "site",
+  "name": "RealityLovers",
+  "url": "https://realitylovers.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "European pioneer of ultra-immersive 180-degree POV VR porn and Kiiroo/Lovense interactive script sync across 8K headsets.",
+  "tags": [
+    "vr",
+    "studio",
+    "interactive"
+  ],
+  "ranking_rationale": "Deep POV acting chemistry with superb interactive toy scripting; weighed against smaller weekly release pace than vr bangers.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Deep POV acting chemistry with superb interactive toy scripting",
+    "Sharp 8K spatial visuals on Quest 3 and PCVR",
+    "Direct MP4 downloads plus DeoVR/SLR streaming"
+  ],
+  "cons": [
+    "Smaller weekly release pace than VR Bangers",
+    "High standalone monthly pricing before promos"
+  ],
+  "image": {
+    "src": "/media/entities/sites/realitylovers.webp",
+    "alt": "RealityLovers logo and brand card",
+    "source_url": "https://realitylovers.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://realitylovers.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://realitylovers.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://realitylovers.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "realitylovers.com",
+      "source_url": "https://realitylovers.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "konachan",
+  "type": "site",
+  "name": "Konachan",
+  "url": "https://konachan.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sister booru to yande.re specializing cleanly in wide anime wallpaper artwork, aspect-ratio search, and uncensored fanart.",
+  "tags": [
+    "comics",
+    "hentai",
+    "booru"
+  ],
+  "ranking_rationale": "Excellent resolution & aspect-ratio filtering for artwork; weighed against mixed sfw and r18 feeds require explicit rating tags.",
+  "pricing": {
+    "model": "Free imageboard booru",
+    "free_tier": "Full browse & download free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Excellent resolution & aspect-ratio filtering for artwork",
+    "Fast clean dark interface",
+    "Great anime artist attribution"
+  ],
+  "cons": [
+    "Mixed SFW and R18 feeds require explicit rating tags",
+    "Aging interface"
+  ],
+  "image": {
+    "src": "/media/entities/sites/konachan.webp",
+    "alt": "Konachan logo and brand card",
+    "source_url": "https://konachan.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://konachan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free imageboard booru",
+      "source_url": "https://konachan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://konachan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "konachan.com",
+      "source_url": "https://konachan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

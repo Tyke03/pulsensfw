@@ -1,0 +1,63 @@
+{
+  "slug": "amber-lynn",
+  "type": "star",
+  "name": "Amber Lynn",
+  "url": "https://en.wikipedia.org/wiki/Amber_Lynn",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Amber Lynn is an American pornographic film actress and mainstream actress, radio host, model, exotic dancer, advocate and humanitarian.",
+  "tags": [
+    "performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/amber-lynn.jpg",
+    "alt": "SFW portrait of Amber Lynn",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Amber_Lynn_at_the_50th_Anniversary_of_Deep_Throat_Event.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Orange, California, United States",
+      "source_url": "https://en.wikipedia.org/wiki/Amber_Lynn",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic film actress, mainstream actress, radio host, model, exotic dancer, advocate, humanitarian",
+      "source_url": "https://en.wikipedia.org/wiki/Amber_Lynn",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1964",
+      "source_url": "http://www.wikidata.org/entity/Q238566",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

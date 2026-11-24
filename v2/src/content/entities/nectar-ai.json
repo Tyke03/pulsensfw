@@ -1,0 +1,79 @@
+{
+  "slug": "nectar-ai",
+  "type": "ai_app",
+  "name": "Nectar AI",
+  "url": "https://trynectar.ai",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Polished adult companion & image creator offering custom-trained visual personas, voice replies, and multi-scenario fantasy chat.",
+  "tags": [
+    "chat",
+    "image",
+    "companion",
+    "roleplay"
+  ],
+  "ranking_rationale": "Consistent custom visual persona renders linked directly to chat scenes; weighed against steep credit drain for heavy image + voice interactions.",
+  "pricing": {
+    "model": "Freemium credits + Premium tiers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Consistent custom visual persona renders linked directly to chat scenes",
+    "Fast onboarding & varied prebuilt archetypes",
+    "Supports voice notes cleanly"
+  ],
+  "cons": [
+    "Steep credit drain for heavy image + voice interactions",
+    "Rigid subscription cancellation windows reported"
+  ],
+  "image": {
+    "src": "/media/entities/ai/nectar-ai.webp",
+    "alt": "Nectar AI logo and brand card",
+    "source_url": "https://trynectar.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://trynectar.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium credits + Premium tiers",
+      "source_url": "https://trynectar.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://trynectar.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "trynectar.ai",
+      "source_url": "https://trynectar.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "robert-van-damme",
+  "type": "star",
+  "name": "Robert Van Damme",
+  "url": "https://en.wikipedia.org/wiki/Robert_Van_Damme",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Robert Van Damme — Czech ice hockey player and pornographic actor.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/robert-van-damme.jpg",
+    "alt": "SFW portrait of Robert Van Damme",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Robert_Van_Damme.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q983468 (Czech Republic)",
+      "source_url": "http://www.wikidata.org/entity/Q983468",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Robert_Van_Damme",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1969",
+      "source_url": "http://www.wikidata.org/entity/Q983468",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "dxlive",
+  "type": "site",
+  "name": "DXLive",
+  "url": "https://www.dxlive.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Japan's flagship bilingual English/Japanese adult cam network broadcasting thousands of Asian & JAV-style performers since 2001.",
+  "tags": [
+    "cams",
+    "live",
+    "jav"
+  ],
+  "ranking_rationale": "Authentic Japanese & Asian cam talent rare on US networks; weighed against high per-minute point costs vs token tip rooms.",
+  "pricing": {
+    "model": "Points per minute & tipping",
+    "free_tier": "Free lobby preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Authentic Japanese & Asian cam talent rare on US networks",
+    "Real-time translated chat features and clear billing",
+    "Supports multi-party cam chat"
+  ],
+  "cons": [
+    "High per-minute point costs vs token tip rooms",
+    "Dated desktop web layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/dxlive.webp",
+    "alt": "DXLive logo and brand card",
+    "source_url": "https://www.dxlive.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.dxlive.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Points per minute & tipping",
+      "source_url": "https://www.dxlive.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.dxlive.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dxlive.com",
+      "source_url": "https://www.dxlive.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

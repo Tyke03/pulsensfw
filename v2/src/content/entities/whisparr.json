@@ -1,0 +1,81 @@
+{
+  "slug": "whisparr",
+  "type": "site",
+  "name": "Whisparr",
+  "url": "https://whisparr.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Open-source self-hosted adult movie/scene metadata organizer modeled cleanly on Sonarr/Radarr and integrated natively with ThePornDB.",
+  "tags": [
+    "tools",
+    "open-source",
+    "database",
+    "forums"
+  ],
+  "ranking_rationale": "Automates local library metadata tagging, studio sorting & performer cataloging cleanly (trade-off: assumes technical familiarity with self-hosted Servarr tooling).",
+  "pricing": {
+    "model": "100% free open-source software",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS",
+    "Docker"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Automates local library metadata tagging, studio sorting & performer cataloging cleanly",
+    "100% open-source, self-hosted & private across Docker, Windows, and Linux",
+    "Seamless API integration with ThePornDB and Stash"
+  ],
+  "cons": [
+    "Assumes technical familiarity with self-hosted Servarr tooling",
+    "Separate companion tools needed for playback"
+  ],
+  "image": {
+    "src": "/media/entities/sites/whisparr.webp",
+    "alt": "Whisparr logo and brand card",
+    "source_url": "https://whisparr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://whisparr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open-source software",
+      "source_url": "https://whisparr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS, Docker",
+      "source_url": "https://whisparr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "whisparr.com",
+      "source_url": "https://whisparr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

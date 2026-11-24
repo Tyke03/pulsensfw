@@ -1,0 +1,79 @@
+{
+  "slug": "submissive-guide",
+  "type": "site",
+  "name": "Submissive Guide",
+  "url": "https://www.submissiveguide.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran practical BDSM mentorship & safety resource active since 2008—helping consensual partners build communication, protocols & boundaries.",
+  "tags": [
+    "niche",
+    "bdsm",
+    "education",
+    "free"
+  ],
+  "ranking_rationale": "Deep thoughtful long-form articles written specifically around healthy submissive agency & consent (trade-off: classic WordPress blog format).",
+  "pricing": {
+    "model": "100% free education resource",
+    "free_tier": "Completely free reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Deep thoughtful long-form articles written specifically around healthy submissive agency & consent",
+    "Practical worksheets for negotiation checklists, drop management & protocol clarity",
+    "100% free open educational resource"
+  ],
+  "cons": [
+    "Classic WordPress blog format",
+    "Centers specifically on D/s perspective rather than video demos"
+  ],
+  "image": {
+    "src": "/media/entities/sites/submissive-guide.webp",
+    "alt": "Submissive Guide logo and brand card",
+    "source_url": "https://www.submissiveguide.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.submissiveguide.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free education resource",
+      "source_url": "https://www.submissiveguide.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.submissiveguide.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "submissiveguide.com",
+      "source_url": "https://www.submissiveguide.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

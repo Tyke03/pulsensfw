@@ -1,0 +1,78 @@
+{
+  "slug": "sheezy-art",
+  "type": "site",
+  "name": "Sheezy.Art",
+  "url": "https://sheezy.art",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern independent illustrator showcase revival featuring customizable profile journals, comic folders, and strictly human-only art rules.",
+  "tags": [
+    "comics",
+    "art",
+    "community"
+  ],
+  "ranking_rationale": "Cozy nostalgic DeviantArt/SheezyArt ethos paired with crisp dark UI; weighed against smaller community scale while growing steadily.",
+  "pricing": {
+    "model": "Free art community",
+    "free_tier": "Free gallery browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Cozy nostalgic DeviantArt/SheezyArt ethos paired with crisp dark UI",
+    "Permits tagged mature/18+ human illustrations alongside SFW portfolios",
+    "Strict human-made art policy against AI clutter"
+  ],
+  "cons": [
+    "Smaller community scale while growing steadily",
+    "Requires free account for mature gallery toggles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sheezy-art.webp",
+    "alt": "Sheezy.Art logo and brand card",
+    "source_url": "https://sheezy.art",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://sheezy.art",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free art community",
+      "source_url": "https://sheezy.art",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://sheezy.art",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sheezy.art",
+      "source_url": "https://sheezy.art",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

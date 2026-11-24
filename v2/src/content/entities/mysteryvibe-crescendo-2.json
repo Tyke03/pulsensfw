@@ -1,0 +1,80 @@
+{
+  "slug": "mysteryvibe-crescendo-2",
+  "type": "product",
+  "name": "MysteryVibe Crescendo 2",
+  "url": "https://mysteryvibe.com/products/crescendo-2",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flexible 6-motor ergonomic smart vibrator bending cleanly to any curve—allowing solo G-spot/clitoral combos or partner positioning.",
+  "tags": [
+    "app",
+    "smart-app",
+    "couples",
+    "quiet"
+  ],
+  "ranking_rationale": "Sculptable steel spine holds custom curve angles reliably; weighed against silicone stiffness makes tight tight-spot bending tricky for weak grip.",
+  "pricing": {
+    "model": "Hardware purchase (~$149)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Standalone"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Sculptable steel spine holds custom curve angles reliably",
+    "Six individually controllable vibration motors via app",
+    "Deep quiet rumble across entire shaft"
+  ],
+  "cons": [
+    "Silicone stiffness makes tight tight-spot bending tricky for weak grip",
+    "App UX lags hardware build quality"
+  ],
+  "image": {
+    "src": "/media/entities/products/mysteryvibe-crescendo-2.webp",
+    "alt": "MysteryVibe Crescendo 2 logo and brand card",
+    "source_url": "https://mysteryvibe.com/products/crescendo-2",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://mysteryvibe.com/products/crescendo-2",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$149)",
+      "source_url": "https://mysteryvibe.com/products/crescendo-2",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Standalone",
+      "source_url": "https://mysteryvibe.com/products/crescendo-2",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mysteryvibe.com",
+      "source_url": "https://mysteryvibe.com/products/crescendo-2",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

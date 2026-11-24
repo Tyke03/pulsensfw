@@ -1,0 +1,36 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import NotFound from '../../components/states/NotFound.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getContentRepository } from '../../lib/content/local-repository';
+import { presentArticle } from '../../lib/content/present';
+import { readReader } from '../../lib/reader/cookies';
+import { RAIL_META, SITE } from '../../lib/site';
+import { RAIL_IDS, type RailId } from '../../lib/content/types';
+
+const rail = Astro.params.rail ?? '';
+const known = (RAIL_IDS as readonly string[]).includes(rail);
+if (!known) Astro.response.status = 404;
+const meta = known ? RAIL_META[rail as RailId] : null;
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const articles = await getContentRepository().listArticles();
+const cards = articles.filter((article) => known && article.rails.includes(rail as RailId)).map((article) => presentArticle(article, reader));
+---
+<BaseLayout title={meta ? `${meta.title} · ${SITE.name}` : `Page not found · ${SITE.name}`} description={meta?.lede ?? SITE.description} reader={reader} noindex={!known}>
+  {meta ? (
+    <div class="page" style="padding-bottom:40px">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: meta.title }]} />
+      <header class="hub-head">
+        <p class="kicker">Desk</p>
+        <h1>{meta.title}</h1>
+        <p class="dek">{meta.lede}</p>
+      </header>
+      <div class="story-grid">
+        {cards.map((card, index) => <StoryCard card={card} layout={index === 0 ? 'feature' : 'text'} uid={`desk-${card.slug}`} heading={index === 0 ? 'h2' : 'h3'} />)}
+      </div>
+    </div>
+  ) : (
+    <NotFound articles={articles} reader={reader} />
+  )}
+</BaseLayout>

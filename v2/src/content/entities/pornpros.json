@@ -1,0 +1,79 @@
+{
+  "slug": "pornpros",
+  "type": "site",
+  "name": "PornPros",
+  "url": "https://www.pornpros.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Major Florida multi-studio paysite network uniting Passion HD, Lubed, Holed, Exotic4K, MassageCreep & 20+ glossy 4K channels.",
+  "tags": [
+    "premium",
+    "studio",
+    "mainstream",
+    "4k"
+  ],
+  "ranking_rationale": "One network pass unlocks 20+ specialized 4K series from oil/glamour to couples, weighed against heavy reliance on campy reality/massage tropes on sub-channels.",
+  "pricing": {
+    "model": "20-site network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "One network pass unlocks 20+ specialized 4K series from oil/glamour to couples",
+    "Consistent high-frame-rate 4K cinematography & top US talent",
+    "Fast modern streaming hub"
+  ],
+  "cons": [
+    "Heavy reliance on campy reality/massage tropes on sub-channels",
+    "Aggressive upsell checkboxes during signup"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pornpros.webp",
+    "alt": "PornPros logo and brand card",
+    "source_url": "https://www.pornpros.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.pornpros.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "20-site network subscription",
+      "source_url": "https://www.pornpros.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.pornpros.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornpros.com",
+      "source_url": "https://www.pornpros.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

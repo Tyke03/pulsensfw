@@ -1,0 +1,79 @@
+{
+  "slug": "vrbtrans",
+  "type": "site",
+  "name": "VRB Trans",
+  "url": "https://www.vrbtrans.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "VR Bangers' flagship high-budget transgender VR label applying 8K production values, binaural sound, and big-name trans casts.",
+  "tags": [
+    "vr",
+    "studio",
+    "trans"
+  ],
+  "ranking_rationale": "Best-in-class 8K/binaural production quality in trans VR; weighed against slower release cadence than vr bangers main site.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Best-in-class 8K/binaural production quality in trans VR",
+    "Detailed theatrical sets mirroring flagship VR Bangers shoots",
+    "Interactive toy script sync across top scenes"
+  ],
+  "cons": [
+    "Slower release cadence than VR Bangers main site",
+    "Separate billing pass from flagship unless bundled"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrbtrans.webp",
+    "alt": "VRB Trans logo and brand card",
+    "source_url": "https://www.vrbtrans.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://www.vrbtrans.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://www.vrbtrans.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://www.vrbtrans.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrbtrans.com",
+      "source_url": "https://www.vrbtrans.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

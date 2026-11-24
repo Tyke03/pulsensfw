@@ -1,0 +1,81 @@
+{
+  "slug": "sasha-grey",
+  "type": "star",
+  "name": "Sasha Grey",
+  "url": "https://en.wikipedia.org/wiki/Sasha_Grey",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Marina Ann Hantzis (Sasha Grey) is an American actress, model, writer, musician, and former pornographic film actress. She began her acting career in the pornographic film industry, winning 15 awards for her work between 2007 and 2010, including the AVN Award for Female Performer of the Year in 2008.",
+  "tags": [
+    "former performer",
+    "creator",
+    "hall of fame",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "Twitch",
+    "YouTube",
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/sasha-grey.jpg",
+    "alt": "SFW portrait of Sasha Grey",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sasha_Grey_2010.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "2006–present",
+      "source_url": "https://en.wikipedia.org/wiki/Sasha_Grey",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "North Highlands, California, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Sasha_Grey",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic actress, Online streamer, streamer, model, author, DJ, musician",
+      "source_url": "https://en.wikipedia.org/wiki/Sasha_Grey",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "She began her acting career in the pornographic film industry, winning 15 awards for her work between 2007 and 2010, including the AVN Award for Female Performer of the Year in 2008.",
+      "source_url": "https://en.wikipedia.org/wiki/Sasha_Grey",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1988",
+      "source_url": "http://www.wikidata.org/entity/Q2709",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

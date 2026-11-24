@@ -1,0 +1,78 @@
+{
+  "slug": "xlovecam",
+  "type": "site",
+  "name": "XLoveCam",
+  "url": "https://www.xlovecam.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "European-heavy webcam hub offering deep language filters, live shows, and clear pay-per-minute transparency.",
+  "tags": [
+    "cams",
+    "live",
+    "european"
+  ],
+  "ranking_rationale": "Strong European & Latin performer representation; weighed against smaller english/us time-zone peak traffic.",
+  "pricing": {
+    "model": "Credits & tipping",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Strong European & Latin performer representation",
+    "Clean multi-language room filters",
+    "Clear pre-show pricing rates"
+  ],
+  "cons": [
+    "Smaller English/US time-zone peak traffic",
+    "Dated sidebar aesthetics"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xlovecam.webp",
+    "alt": "XLoveCam logo and brand card",
+    "source_url": "https://www.xlovecam.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.xlovecam.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits & tipping",
+      "source_url": "https://www.xlovecam.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.xlovecam.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xlovecam.com",
+      "source_url": "https://www.xlovecam.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

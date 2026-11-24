@@ -1,0 +1,62 @@
+{
+  "slug": "ramona-flour",
+  "type": "star",
+  "name": "Ramona Flour",
+  "url": "http://www.wikidata.org/entity/Q53863396",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ramona Flour — American pornographic model.",
+  "tags": [
+    "performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/ramona-flour.jpg",
+    "alt": "SFW portrait of Ramona Flour",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ramona_Flour_at_AVN_Adult_Entertainment_Expo_(25033905124).jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q53863396",
+      "source_url": "http://www.wikidata.org/entity/Q53863396",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q53863396",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1991",
+      "source_url": "http://www.wikidata.org/entity/Q53863396",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

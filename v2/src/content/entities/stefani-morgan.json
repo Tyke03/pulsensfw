@@ -1,0 +1,60 @@
+{
+  "slug": "stefani-morgan",
+  "type": "star",
+  "name": "Stefani Morgan",
+  "url": "http://www.wikidata.org/entity/Q448288",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Stefani Morgan — American pornographic actress (b. 1985). Industry career documented from 2005.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/stefani-morgan.jpg",
+    "alt": "SFW portrait of Stefani Morgan",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stefani_Morgan_at_AEE_2007_Wednesday_1.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q448288 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q448288",
+      "checked": "2026-11-29",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1985",
+      "source_url": "http://www.wikidata.org/entity/Q448288",
+      "checked": "2026-11-29",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2005–present",
+      "source_url": "http://www.wikidata.org/entity/Q448288",
+      "checked": "2026-11-29",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-29"
+}

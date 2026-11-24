@@ -1,0 +1,63 @@
+{
+  "slug": "jodie-moore",
+  "type": "star",
+  "name": "Jodie Moore",
+  "url": "http://www.wikidata.org/entity/Q540518",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jodie Moore — Australian pornographic actress and stripper, born 1976 (b. 1976). Industry career documented from 2001.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/jodie-moore.jpg",
+    "alt": "SFW portrait of Jodie Moore",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jodie_Moore_iafd.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q540518 (Australia)",
+      "source_url": "http://www.wikidata.org/entity/Q540518",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2001–present",
+      "source_url": "http://www.wikidata.org/entity/Q540518",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1976",
+      "source_url": "http://www.wikidata.org/entity/Q540518",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

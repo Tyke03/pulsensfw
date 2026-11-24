@@ -1,0 +1,78 @@
+{
+  "slug": "wicked",
+  "type": "site",
+  "name": "Wicked Pictures",
+  "url": "https://www.wicked.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Storied feature studio famed for Stormy Daniels, Jessica Drake, Brad Armstrong epics, and big couples dramas.",
+  "tags": [
+    "premium",
+    "studio",
+    "story"
+  ],
+  "ranking_rationale": "Deep vault of award-winning scripted couples features; weighed against older ui search layout.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Deep vault of award-winning scripted couples features",
+    "Strong female-friendly pacing and production",
+    "Includes classics and newer releases"
+  ],
+  "cons": [
+    "Older UI search layout",
+    "Fewer ultra-fast weekly uploads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wicked.webp",
+    "alt": "Wicked Pictures logo and brand card",
+    "source_url": "https://www.wicked.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.wicked.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.wicked.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.wicked.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wicked.com",
+      "source_url": "https://www.wicked.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

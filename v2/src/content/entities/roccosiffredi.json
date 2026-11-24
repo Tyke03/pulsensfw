@@ -1,0 +1,79 @@
+{
+  "slug": "roccosiffredi",
+  "type": "site",
+  "name": "RoccoSiffredi.com",
+  "url": "https://www.roccosiffredi.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Rocco Siffredi's personal flagship European studio archiving decades of Budapest auditions, raw gonzo chemistry, and powerhouse star showcases.",
+  "tags": [
+    "premium",
+    "studio",
+    "european",
+    "gonzo"
+  ],
+  "ranking_rationale": "Authentic unscripted European energy & Rocco's historic vault; weighed against intense rough gonzo tone divides casual viewers.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Authentic unscripted European energy & Rocco's historic vault",
+    "4K new releases alongside remastered classics",
+    "Strong Budapest & international performer discoveries"
+  ],
+  "cons": [
+    "Intense rough gonzo tone divides casual viewers",
+    "Older standalone site layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/roccosiffredi.webp",
+    "alt": "RoccoSiffredi.com logo and brand card",
+    "source_url": "https://www.roccosiffredi.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.roccosiffredi.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.roccosiffredi.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.roccosiffredi.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "roccosiffredi.com",
+      "source_url": "https://www.roccosiffredi.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

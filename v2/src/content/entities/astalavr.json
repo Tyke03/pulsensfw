@@ -1,0 +1,80 @@
+{
+  "slug": "astalavr",
+  "type": "site",
+  "name": "AstalaVR",
+  "url": "https://astalavr.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Creative cosplay & pop-culture parody 180-degree VR studio pairing detailed costumes and neon lighting with 8K stereoscopic cameras.",
+  "tags": [
+    "vr",
+    "studio",
+    "cosplay",
+    "8k"
+  ],
+  "ranking_rationale": "Dedicated anime, gaming & sci-fi cosplay VR focus with high costume effort (trade-off: niche cosplay focus).",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Dedicated anime, gaming & sci-fi cosplay VR focus with high costume effort",
+    "Crisp 8K downloads & SLR/DeoVR streaming integration",
+    "Funscript haptic support"
+  ],
+  "cons": [
+    "Niche cosplay focus",
+    "Smaller monthly release volume"
+  ],
+  "image": {
+    "src": "/media/entities/sites/astalavr.webp",
+    "alt": "AstalaVR logo and brand card",
+    "source_url": "https://astalavr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://astalavr.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://astalavr.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://astalavr.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "astalavr.com",
+      "source_url": "https://astalavr.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

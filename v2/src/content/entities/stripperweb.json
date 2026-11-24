@@ -1,0 +1,77 @@
+{
+  "slug": "stripperweb",
+  "type": "site",
+  "name": "StripperWeb Forums",
+  "url": "https://www.stripperweb.com/forum/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Historic peer-to-peer discussion forum where exotic dancers, cam performers, and independent creators trade financial, tax, safety & marketing tips.",
+  "tags": [
+    "forums",
+    "community",
+    "creators"
+  ],
+  "ranking_rationale": "Invaluable decades of honest performer-to-performer safety & tax wisdom; weighed against classic 2000s vbulletin aesthetic.",
+  "pricing": {
+    "model": "Free performer forum",
+    "free_tier": "Free public reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Invaluable decades of honest performer-to-performer safety & tax wisdom",
+    "Minimal shady agency astroturfing thanks to veteran moderators",
+    "Open readable threads"
+  ],
+  "cons": [
+    "Classic 2000s vBulletin aesthetic",
+    "Performer work focus rather than consumer site reviews"
+  ],
+  "image": {
+    "src": "/media/entities/sites/stripperweb.webp",
+    "alt": "StripperWeb Forums logo and brand card",
+    "source_url": "https://www.stripperweb.com/forum/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.stripperweb.com/forum/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free performer forum",
+      "source_url": "https://www.stripperweb.com/forum/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.stripperweb.com/forum/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "stripperweb.com",
+      "source_url": "https://www.stripperweb.com/forum/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

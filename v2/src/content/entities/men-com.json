@@ -1,0 +1,79 @@
+{
+  "slug": "men-com",
+  "type": "site",
+  "name": "Men.com",
+  "url": "https://www.men.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Aylo's mega-budget gay studio famous for viral parodies, comedic scripts, blockbuster sets, and A-list exclusives.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "comedy"
+  ],
+  "ranking_rationale": "Biggest budget set pieces and viral comedy in gay adult; weighed against campy comedy writing can overshadow realism.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Biggest budget set pieces and viral comedy in gay adult",
+    "Daily/multi-weekly 4K releases",
+    "Massive star roster"
+  ],
+  "cons": [
+    "Campy comedy writing can overshadow realism",
+    "Aggressive MindGeek cross-billing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/men-com.webp",
+    "alt": "Men.com logo and brand card",
+    "source_url": "https://www.men.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.men.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.men.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.men.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "men.com",
+      "source_url": "https://www.men.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

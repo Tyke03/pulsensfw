@@ -1,0 +1,79 @@
+{
+  "slug": "scribblehub",
+  "type": "site",
+  "name": "Scribble Hub",
+  "url": "https://www.scribblehub.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Vibrant modern web-novel serial site welcoming mature 18+ original fantasy romance, litRPG, and smut chapters cleanly with detailed tags.",
+  "tags": [
+    "erotica",
+    "stories",
+    "fiction",
+    "free"
+  ],
+  "ranking_rationale": "Crisp modern reader mode with font/dark controls & dense trope filtering; weighed against heavily skewed toward web-novel anime/isekai & harem genres.",
+  "pricing": {
+    "model": "100% free web-novel reader",
+    "free_tier": "Free unlimited reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Crisp modern reader mode with font/dark controls & dense trope filtering",
+    "Huge ongoing community of original smut & progression-fantasy writers",
+    "Totally free serialized chapters"
+  ],
+  "cons": [
+    "Heavily skewed toward web-novel anime/isekai & harem genres",
+    "Self-published amateur editing variance"
+  ],
+  "image": {
+    "src": "/media/entities/sites/scribblehub.webp",
+    "alt": "Scribble Hub logo and brand card",
+    "source_url": "https://www.scribblehub.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.scribblehub.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free web-novel reader",
+      "source_url": "https://www.scribblehub.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.scribblehub.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "scribblehub.com",
+      "source_url": "https://www.scribblehub.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

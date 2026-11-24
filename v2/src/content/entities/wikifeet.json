@@ -1,0 +1,78 @@
+{
+  "slug": "wikifeet",
+  "type": "site",
+  "name": "wikiFeet",
+  "url": "https://www.wikifeet.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Massive community-moderated visual database scoring and cataloging celebrity and model photography since 2008.",
+  "tags": [
+    "niche",
+    "photos",
+    "fetish"
+  ],
+  "ranking_rationale": "Enormous community-verified photo library with strict SFW focus; weighed against cluttered classic sidebar layout and ad slots.",
+  "pricing": {
+    "model": "Free ad-supported database",
+    "free_tier": "Free browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Enormous community-verified photo library with strict SFW focus",
+    "Consistent high-resolution photo resolution checks",
+    "Easy search by star and rating"
+  ],
+  "cons": [
+    "Cluttered classic sidebar layout and ad slots",
+    "Zero nudity or explicit galleries (see wikiFeet X)"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wikifeet.webp",
+    "alt": "wikiFeet logo and brand card",
+    "source_url": "https://www.wikifeet.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.wikifeet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported database",
+      "source_url": "https://www.wikifeet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.wikifeet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wikifeet.com",
+      "source_url": "https://www.wikifeet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

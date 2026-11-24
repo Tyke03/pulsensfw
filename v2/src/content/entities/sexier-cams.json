@@ -1,0 +1,78 @@
+{
+  "slug": "sexier-cams",
+  "type": "site",
+  "name": "Sexier",
+  "url": "https://www.sexier.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Independent low-pressure amateur cam community blending casual video chats, custom photo albums, and direct per-minute shows.",
+  "tags": [
+    "cams",
+    "live",
+    "amateur"
+  ],
+  "ranking_rationale": "Laid-back indie vibe rather than giant studio cam farms, weighed against smaller concurrent broadcaster count outside evening US hours.",
+  "pricing": {
+    "model": "Credits & tipping",
+    "free_tier": "Free profile & public preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Laid-back indie vibe rather than giant studio cam farms",
+    "Supports both instant tips and custom photo purchases",
+    "Straightforward mobile layout"
+  ],
+  "cons": [
+    "Smaller concurrent broadcaster count outside evening US hours",
+    "Dated web typography"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sexier-cams.webp",
+    "alt": "Sexier logo and brand card",
+    "source_url": "https://www.sexier.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.sexier.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits & tipping",
+      "source_url": "https://www.sexier.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sexier.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sexier.com",
+      "source_url": "https://www.sexier.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

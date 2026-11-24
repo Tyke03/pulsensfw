@@ -1,0 +1,63 @@
+{
+  "slug": "a-j-bailey",
+  "type": "star",
+  "name": "A.J. Bailey",
+  "url": "http://www.wikidata.org/entity/Q20664346",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "A.J. Bailey — American pornographic actress (born 1980).",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/a-j-bailey.jpg",
+    "alt": "SFW portrait of A.J. Bailey",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A.J._Bailey_at_Cassia_Riley%27s_Thursday_Night_Party_At_Basque_2.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q20664346 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q20664346",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q20664346",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1980",
+      "source_url": "http://www.wikidata.org/entity/Q20664346",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "uschi-digard",
+  "type": "star",
+  "name": "Uschi Digard",
+  "url": "https://en.wikipedia.org/wiki/Uschi_Digard",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Uschi Digard is the stage name of a softcore pornographic actress and pin-up model active between 1968 and 1982. Born in Europe, she was said to be aged thirty-two in 1977 and sixty in 2006, but her date of birth is not known.",
+  "tags": [
+    "performer",
+    "solo",
+    "veteran",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/uschi-digard.jpg",
+    "alt": "SFW portrait of Uschi Digard",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Uschi_Digard_(1975_photo_still).jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Credits",
+      "value": "Softcore pornographic actress, pin-up model",
+      "source_url": "https://en.wikipedia.org/wiki/Uschi_Digard",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Born in Europe, she was said to be aged thirty-two in 1977 and sixty in 2006, but her date of birth is not known.",
+      "source_url": "https://en.wikipedia.org/wiki/Uschi_Digard",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "She emigrated to the United States in 1968 and settled in California.",
+      "source_url": "https://en.wikipedia.org/wiki/Uschi_Digard",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1948",
+      "source_url": "http://www.wikidata.org/entity/Q448079",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

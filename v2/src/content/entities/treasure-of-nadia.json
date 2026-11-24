@@ -1,0 +1,74 @@
+{
+  "slug": "treasure-of-nadia",
+  "type": "game",
+  "name": "Treasure of Nadia",
+  "url": "https://store.steampowered.com/app/1801970/Treasure_of_Nadia/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Complete 30+ hour treasure-hunting adventure RPG blending Zelda-like cave exploration, puzzle quests, item crafting, and animated romance scenes.",
+  "tags": [
+    "games",
+    "adventure",
+    "visual-novel",
+    "pc"
+  ],
+  "ranking_rationale": "One of the few finished, huge-campaign adult adventure games with real exploration maps and progression loops; loses points only on backtracking and grind.",
+  "pricing": {
+    "model": "One-time purchase",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Complete game available on Steam."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Massive finished 30+ hour campaign with real map traversal and puzzle dungeons",
+    "Overhauled animated 3D scenes vs predecessor Lust Epidemic",
+    "Built-in cheat/gallery helpers once completed for scene replay"
+  ],
+  "cons": [
+    "Significant backtracking across Cape Desperation to craft quest tools",
+    "Over-the-top soap opera plot twists"
+  ],
+  "image": {
+    "src": "/media/entities/games/treasure-of-nadia.png",
+    "alt": "Treasure of Nadia logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1801970/Treasure_of_Nadia/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Completed adult adventure RPG",
+      "source_url": "https://store.steampowered.com/app/1801970/Treasure_of_Nadia/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Developer",
+      "value": "NLT Media",
+      "source_url": "https://store.steampowered.com/app/1801970/Treasure_of_Nadia/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Series order",
+      "value": "Direct sequel to Lust Epidemic, followed by The Genesis Order",
+      "source_url": "https://store.steampowered.com/app/1801970/Treasure_of_Nadia/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

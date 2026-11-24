@@ -1,0 +1,63 @@
+{
+  "slug": "felix-vicious",
+  "type": "star",
+  "name": "Felix Vicious",
+  "url": "http://www.wikidata.org/entity/Q3742318",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Felix Vicious — American pornographic actress (b. 1983). Industry career documented from 2002.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/felix-vicious.jpg",
+    "alt": "SFW portrait of Felix Vicious",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Felix_Vicious_at_AVN_Adult_Entertainment_Expo_2008_1_(crop).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3742318 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q3742318",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2002–present",
+      "source_url": "http://www.wikidata.org/entity/Q3742318",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1983",
+      "source_url": "http://www.wikidata.org/entity/Q3742318",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

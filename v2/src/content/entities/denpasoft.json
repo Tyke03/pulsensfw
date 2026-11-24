@@ -1,0 +1,78 @@
+{
+  "slug": "denpasoft",
+  "type": "site",
+  "name": "Denpasoft",
+  "url": "https://denpasoft.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Major official English 18+ visual-novel publisher & uncut patch store partnering directly with top Japanese VN studios.",
+  "tags": [
+    "hentai",
+    "games",
+    "visual-novel"
+  ],
+  "ranking_rationale": "Official DRM-free uncensored Japanese visual novels (Nekopara, etc.); weighed against strict store pricing above grey-market keys.",
+  "pricing": {
+    "model": "Per-game digital store",
+    "free_tier": "Free patches & demos",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Official DRM-free uncensored Japanese visual novels (Nekopara, etc.)",
+    "Direct support to original creators and localization teams",
+    "Regular seasonal bundle discounts"
+  ],
+  "cons": [
+    "Strict store pricing above grey-market keys",
+    "Store checkout UI feels dated"
+  ],
+  "image": {
+    "src": "/media/entities/sites/denpasoft.webp",
+    "alt": "Denpasoft logo and brand card",
+    "source_url": "https://denpasoft.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://denpasoft.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-game digital store",
+      "source_url": "https://denpasoft.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows",
+      "source_url": "https://denpasoft.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "denpasoft.com",
+      "source_url": "https://denpasoft.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

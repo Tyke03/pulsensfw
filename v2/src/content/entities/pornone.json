@@ -1,0 +1,78 @@
+{
+  "slug": "pornone",
+  "type": "site",
+  "name": "PornOne",
+  "url": "https://pornone.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Responsive mobile-first HD tube pairing clean performer tags with fast adaptive streaming.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Mobile-friendly responsive cards; weighed against moderate pop-under ads.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Mobile-friendly responsive cards",
+    "High share of 1080p uploads",
+    "Good related-video recommendations"
+  ],
+  "cons": [
+    "Moderate pop-under ads",
+    "Smaller long-tail archive"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pornone.webp",
+    "alt": "PornOne logo and brand card",
+    "source_url": "https://pornone.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://pornone.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://pornone.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pornone.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornone.com",
+      "source_url": "https://pornone.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

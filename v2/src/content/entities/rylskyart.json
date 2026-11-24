@@ -1,0 +1,79 @@
+{
+  "slug": "rylskyart",
+  "type": "site",
+  "name": "RylskyArt",
+  "url": "https://www.rylskyart.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Acclaimed European fine-art nude & sensual solo studio directed by photographer Andrey Rylsky—pairing sculpted cinema lighting with 4K clarity.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "european"
+  ],
+  "ranking_rationale": "Stunning warm studio portraiture and tasteful solo 4K erotica (trade-off: purely solo/art-nude sensual focus).",
+  "pricing": {
+    "model": "Art studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Stunning warm studio portraiture and tasteful solo 4K erotica",
+    "Part of the trusted MetArt/Rylsky high-resolution photography ecosystem",
+    "Full ZIP gallery & 4K MP4 downloads"
+  ],
+  "cons": [
+    "Purely solo/art-nude sensual focus",
+    "Quiet studio ambiance"
+  ],
+  "image": {
+    "src": "/media/entities/sites/rylskyart.webp",
+    "alt": "RylskyArt logo and brand card",
+    "source_url": "https://www.rylskyart.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.rylskyart.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Art studio subscription",
+      "source_url": "https://www.rylskyart.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.rylskyart.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "rylskyart.com",
+      "source_url": "https://www.rylskyart.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

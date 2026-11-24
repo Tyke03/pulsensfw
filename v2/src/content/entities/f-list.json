@@ -1,0 +1,78 @@
+{
+  "slug": "f-list",
+  "type": "site",
+  "name": "F-List",
+  "url": "https://www.f-list.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The internet's massive free adult text roleplay & custom character-profile hub supporting hyper-detailed kink yes/no/maybe lists.",
+  "tags": [
+    "comics",
+    "furry",
+    "erotica",
+    "community"
+  ],
+  "ranking_rationale": "Granular 'Yes / Maybe / No' kink matrices prevent awkward negotiation before roleplaying (trade-off: utilitarian dark 2000s interface takes learning).",
+  "pricing": {
+    "model": "100% free community",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Granular 'Yes / Maybe / No' kink matrices prevent awkward negotiation before roleplaying",
+    "Dedicated F-Chat browser client hosts thousands of specialized rooms 24/7",
+    "Completely free zero-paywall community utility"
+  ],
+  "cons": [
+    "Utilitarian dark 2000s interface takes learning",
+    "Thrives strictly on live collaborative writing & chat—not comic hosting"
+  ],
+  "image": {
+    "src": "/media/entities/sites/f-list.webp",
+    "alt": "F-List logo and brand card",
+    "source_url": "https://www.f-list.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.f-list.net",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free community",
+      "source_url": "https://www.f-list.net",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.f-list.net",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "f-list.net",
+      "source_url": "https://www.f-list.net",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "evil-angel",
+  "type": "site",
+  "name": "Evil Angel",
+  "url": "https://www.evilangel.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The iconic director-led gonzo powerhouse founded by John Stagliano in 1989, uniting legends like Rocco Siffredi, Manuel Ferrara, and Jonni Darkko in one huge archive.",
+  "tags": [
+    "premium",
+    "studio",
+    "hd",
+    "exclusive",
+    "gonzo"
+  ],
+  "ranking_rationale": "Unmatched three-decade gonzo vault with genuine director autonomy and raw intensity; skips glossy scripts in favor of high-energy performance.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Enormous 35+ year archive of classic and modern gonzo scenes",
+    "Distinctive roster of auteur directors with signature styles",
+    "High-intensity performances without bloated scripted filler",
+    "Clean Gamma-powered streaming and download platform"
+  ],
+  "cons": [
+    "Raw, intense style is not aimed at softcore or romantic viewers",
+    "Classic vault titles reflect older standard-definition eras",
+    "No free full-scene tier"
+  ],
+  "image": {
+    "src": "/media/entities/sites/evil-angel.png",
+    "alt": "Evil Angel logo and brand card",
+    "source_url": "https://www.evilangel.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Director-led gonzo premium studio",
+      "source_url": "https://www.evilangel.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Founded 1989 by John Stagliano; online platform via Gamma Entertainment",
+      "source_url": "https://en.wikipedia.org/wiki/Evil_Angel_(studio)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid membership subscription with streaming and downloads",
+      "source_url": "https://www.evilangel.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Roster of famous independent directors controlling their own lines",
+      "source_url": "https://www.evilangel.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

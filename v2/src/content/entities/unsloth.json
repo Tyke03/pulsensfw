@@ -1,0 +1,78 @@
+{
+  "slug": "unsloth",
+  "type": "ai_app",
+  "name": "Unsloth",
+  "url": "https://unsloth.ai",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Ultra-efficient open-source LLM fine-tuning & Dynamic GGUF quantization engine cutting VRAM usage up to 70% at 2x speed.",
+  "tags": [
+    "local",
+    "open-source",
+    "models"
+  ],
+  "ranking_rationale": "Dynamic 4-bit GGUF quantizations preserve noticeably sharper creative prose on Llama/Qwen/Gemma (trade-off: multi-GPU distributed training lives in commercial enterprise tiers).",
+  "pricing": {
+    "model": "Open-source core",
+    "free_tier": "Free Apache-2.0 library & GGUFs",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "Windows"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Dynamic 4-bit GGUF quantizations preserve noticeably sharper creative prose on Llama/Qwen/Gemma",
+    "Ready-to-run Colab & local notebooks let anyone LoRA-tune a 8B–14B RP model on a single GPU",
+    "Free open-source core"
+  ],
+  "cons": [
+    "Multi-GPU distributed training lives in commercial enterprise tiers",
+    "Python/Notebook workflow"
+  ],
+  "image": {
+    "src": "/media/entities/ai/unsloth.webp",
+    "alt": "Unsloth logo and brand card",
+    "source_url": "https://unsloth.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://unsloth.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Open-source core",
+      "source_url": "https://unsloth.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, Windows",
+      "source_url": "https://unsloth.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "unsloth.ai",
+      "source_url": "https://unsloth.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

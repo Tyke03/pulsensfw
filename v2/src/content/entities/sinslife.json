@@ -1,0 +1,78 @@
+{
+  "slug": "sinslife",
+  "type": "site",
+  "name": "SinsLife",
+  "url": "https://www.sinslife.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Johnny Sins and Kissa Sins's independent studio hub blending personal POV, travel shoots, and candid chemistry.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo"
+  ],
+  "ranking_rationale": "Direct independent star production free of megacorp scripts; weighed against irregular upload cadence compared with daily networks.",
+  "pricing": {
+    "model": "Independent studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Direct independent star production free of megacorp scripts",
+    "Authentic chemistry between Johnny, Kissa & guests",
+    "4K MP4 downloads included"
+  ],
+  "cons": [
+    "Irregular upload cadence compared with daily networks",
+    "Smaller overall vault"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sinslife.webp",
+    "alt": "SinsLife logo and brand card",
+    "source_url": "https://www.sinslife.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.sinslife.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Independent studio subscription",
+      "source_url": "https://www.sinslife.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sinslife.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sinslife.com",
+      "source_url": "https://www.sinslife.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

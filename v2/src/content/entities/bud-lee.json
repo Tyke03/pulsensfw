@@ -1,0 +1,64 @@
+{
+  "slug": "bud-lee",
+  "type": "star",
+  "name": "Bud Lee",
+  "url": "https://en.wikipedia.org/wiki/Bud_Lee_(pornographer)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Bud Lee — American adult film director (born 1955). Industry career documented from 1983.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/bud-lee.jpg",
+    "alt": "SFW portrait of Bud Lee",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bud_Lee,_September_2006.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q1000505 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q1000505",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1983–2022",
+      "source_url": "https://en.wikipedia.org/wiki/Bud_Lee_(pornographer)",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1955",
+      "source_url": "http://www.wikidata.org/entity/Q1000505",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

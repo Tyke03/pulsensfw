@@ -1,0 +1,78 @@
+{
+  "slug": "family-strokes",
+  "type": "site",
+  "name": "Family Strokes",
+  "url": "https://www.familystrokes.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "TeamSkeet's blockbuster comedic step-family drama network mixing glossy 4K shoots with absurd scenario humor.",
+  "tags": [
+    "premium",
+    "studio",
+    "story"
+  ],
+  "ranking_rationale": "Strong comedic camp + high production budget; weighed against repetitive single premise trope.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Strong comedic camp + high production budget",
+    "Huge back catalog of viral performers",
+    "Part of TeamSkeet All Access"
+  ],
+  "cons": [
+    "Repetitive single premise trope",
+    "Checkout upsell toggles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/family-strokes.webp",
+    "alt": "Family Strokes logo and brand card",
+    "source_url": "https://www.familystrokes.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.familystrokes.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.familystrokes.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.familystrokes.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "familystrokes.com",
+      "source_url": "https://www.familystrokes.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

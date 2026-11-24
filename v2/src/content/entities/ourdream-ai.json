@@ -1,0 +1,77 @@
+{
+  "slug": "ourdream-ai",
+  "type": "ai_app",
+  "name": "OurDream AI",
+  "url": "https://ourdream.ai",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Unfiltered adult AI companion & image/video generator letting users build custom NSFW partners, voices, and photos.",
+  "tags": [
+    "companion",
+    "image generation"
+  ],
+  "ranking_rationale": "Sharp explicit image generation synced inside roleplay chat; weighed against expensive dreamcoins burn on video/image requests.",
+  "pricing": {
+    "model": "Subscription + credits",
+    "free_tier": "Limited free signup trial",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Sharp explicit image generation synced inside roleplay chat",
+    "Supports animated clip generation",
+    "No moralizing refusals"
+  ],
+  "cons": [
+    "Expensive DreamCoins burn on video/image requests",
+    "Standard subscription retention warnings apply"
+  ],
+  "image": {
+    "src": "/media/entities/ai/ourdream-ai.webp",
+    "alt": "OurDream AI logo and brand card",
+    "source_url": "https://ourdream.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://ourdream.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription + credits",
+      "source_url": "https://ourdream.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://ourdream.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ourdream.ai",
+      "source_url": "https://ourdream.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

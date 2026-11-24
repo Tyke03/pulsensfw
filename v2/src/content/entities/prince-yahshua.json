@@ -1,0 +1,64 @@
+{
+  "slug": "prince-yahshua",
+  "type": "star",
+  "name": "Prince Yahshua",
+  "url": "https://en.wikipedia.org/wiki/Prince_Yahshua",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Prince Yahshua is an American-French pornographic film actor and director.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/prince-yahshua.jpg",
+    "alt": "SFW portrait of Prince Yahshua",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Prince_Yashua_2019_by_Glenn_Francis.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Chicago, Illinois, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Prince_Yahshua",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Prince Yahshua",
+      "source_url": "https://en.wikipedia.org/wiki/Prince_Yahshua",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1970",
+      "source_url": "http://www.wikidata.org/entity/Q7244300",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "lovense-domi-2",
+  "type": "product",
+  "name": "Lovense Domi 2",
+  "url": "https://www.lovense.com/bluetooth-wand-vibrator",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Compact Bluetooth-connected mini wand delivering surprisingly deep Lovense-synced rumble for solo play, cam shows, and partner control.",
+  "tags": [
+    "wands",
+    "app",
+    "couples",
+    "haptics"
+  ],
+  "ranking_rationale": "Much stronger low-frequency rumble than typical mini wands; weighed against smaller battery and head reach than a full magic wand.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "Lovense Remote app free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Much stronger low-frequency rumble than typical mini wands",
+    "Full Lovense Remote app & cam tipping integration",
+    "Swivel neck & easy clean silicone head"
+  ],
+  "cons": [
+    "Smaller battery and head reach than a full Magic Wand",
+    "Loud at upper intensities"
+  ],
+  "image": {
+    "src": "/media/entities/products/lovense-domi-2.webp",
+    "alt": "Lovense Domi 2 logo and brand card",
+    "source_url": "https://www.lovense.com/bluetooth-wand-vibrator",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lovense.com/bluetooth-wand-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time hardware",
+      "source_url": "https://www.lovense.com/bluetooth-wand-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Bluetooth",
+      "source_url": "https://www.lovense.com/bluetooth-wand-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lovense.com",
+      "source_url": "https://www.lovense.com/bluetooth-wand-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

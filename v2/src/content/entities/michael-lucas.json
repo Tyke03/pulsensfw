@@ -1,0 +1,72 @@
+{
+  "slug": "michael-lucas",
+  "type": "star",
+  "name": "Michael Lucas",
+  "url": "https://en.wikipedia.org/wiki/Michael_Lucas_(director)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Michael Lucas is a Russian-born American and Israeli businessman, pornographic film actor and director. He is the founder and CEO of Lucas Entertainment, which New York magazine in 2006 called New York's largest gay adult film company.",
+  "tags": [
+    "performer",
+    "hall of fame",
+    "awards",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/michael-lucas.jpg",
+    "alt": "SFW portrait of Michael Lucas",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Michael_Lucas_Puerto_Vallarta_2023_(Photo_By_Mano_Martinez).jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Moscow, Russian SFSR, Soviet Union",
+      "source_url": "https://en.wikipedia.org/wiki/Michael_Lucas_(director)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "His 2006 film Michael Lucas' La Dolce Vita won a record 14 GayVN Awards.",
+      "source_url": "https://en.wikipedia.org/wiki/Michael_Lucas_(director)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "He is the founder and CEO of Lucas Entertainment, which New York magazine in 2006 called New York's largest gay adult film company.",
+      "source_url": "https://en.wikipedia.org/wiki/Michael_Lucas_(director)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1972",
+      "source_url": "http://www.wikidata.org/entity/Q578414",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

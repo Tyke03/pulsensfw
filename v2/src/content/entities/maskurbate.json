@@ -1,0 +1,79 @@
+{
+  "slug": "maskurbate",
+  "type": "site",
+  "name": "Maskurbate",
+  "url": "https://www.maskurbate.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Independent Canadian masked-performer gay & bi studio spotlighting athletic curious/anonymous guys in candid 4K encounters.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "amateur"
+  ],
+  "ranking_rationale": "Distinct masked-anonymity hook attracts athletic guys who avoid public studio careers (trade-off: masks obscure facial expressions by design).",
+  "pricing": {
+    "model": "Indie gay studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Distinct masked-anonymity hook attracts athletic guys who avoid public studio careers",
+    "Crisp 4K video & authentic unscripted energy",
+    "DRM-free downloads"
+  ],
+  "cons": [
+    "Masks obscure facial expressions by design",
+    "Simple apartment backdrops"
+  ],
+  "image": {
+    "src": "/media/entities/sites/maskurbate.webp",
+    "alt": "Maskurbate logo and brand card",
+    "source_url": "https://www.maskurbate.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.maskurbate.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Indie gay studio pass",
+      "source_url": "https://www.maskurbate.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.maskurbate.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "maskurbate.com",
+      "source_url": "https://www.maskurbate.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

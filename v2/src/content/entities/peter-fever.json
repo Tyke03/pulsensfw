@@ -1,0 +1,78 @@
+{
+  "slug": "peter-fever",
+  "type": "site",
+  "name": "Peter Fever",
+  "url": "https://www.peterfever.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Trailblazing Asian-American and Pacific Islander all-male adult studio delivering crisp 4K muscle, romance, and lifestyle series.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay"
+  ],
+  "ranking_rationale": "Fills a huge underrepresented niche spotlighting Asian & Pacific Islander men in adult film (trade-off: fewer weekly shoots than Aylo mega-networks).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Fills a huge underrepresented niche spotlighting Asian & Pacific Islander men in adult film",
+    "Includes original comic/model tie-ins and 4K downloads",
+    "Clean modern site navigation"
+  ],
+  "cons": [
+    "Fewer weekly shoots than Aylo mega-networks",
+    "Niche regional talent roster"
+  ],
+  "image": {
+    "src": "/media/entities/sites/peter-fever.webp",
+    "alt": "Peter Fever logo and brand card",
+    "source_url": "https://www.peterfever.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.peterfever.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.peterfever.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.peterfever.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "peterfever.com",
+      "source_url": "https://www.peterfever.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

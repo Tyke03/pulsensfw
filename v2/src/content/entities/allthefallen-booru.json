@@ -1,0 +1,78 @@
+{
+  "slug": "allthefallen-booru",
+  "type": "site",
+  "name": "All The Fallen Booru",
+  "url": "https://booru.allthefallen.moe",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast Danbooru-engine community archive preserving classic fanart, doujinshi illustrations & Western comic sets with full tag sorting.",
+  "tags": [
+    "comics",
+    "booru",
+    "hentai",
+    "free"
+  ],
+  "ranking_rationale": "Deep boolean tag tree and artist aliases without ad malware, weighed against strict minimal moderation UI feel.",
+  "pricing": {
+    "model": "Free community booru",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Deep boolean tag tree and artist aliases without ad malware",
+    "Zero account wall required for standard browsing",
+    "Crisp fast grid"
+  ],
+  "cons": [
+    "Strict minimal moderation UI feel",
+    "Mixed artist uploads alongside cropped pages"
+  ],
+  "image": {
+    "src": "/media/entities/sites/allthefallen-booru.webp",
+    "alt": "All The Fallen Booru logo and brand card",
+    "source_url": "https://booru.allthefallen.moe",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://booru.allthefallen.moe",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community booru",
+      "source_url": "https://booru.allthefallen.moe",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://booru.allthefallen.moe",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "booru.allthefallen.moe",
+      "source_url": "https://booru.allthefallen.moe",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

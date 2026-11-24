@@ -1,0 +1,79 @@
+{
+  "slug": "smart-bitches",
+  "type": "site",
+  "name": "Smart Bitches, Trashy Books",
+  "url": "https://smartbitches.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Wildly witty, deeply knowledgeable community book review blog dissecting high-heat romance, historical erotica, and kink tropes since 2005.",
+  "tags": [
+    "erotica",
+    "books",
+    "reviews",
+    "free"
+  ],
+  "ranking_rationale": "Candid, hilarious grade reviews spot tropes, consent red flags, and hidden gems accurately (trade-off: covers primarily romance novels rather than fanfic or amateur shorts).",
+  "pricing": {
+    "model": "100% free editorial site",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Candid, hilarious grade reviews spot tropes, consent red flags, and hidden gems accurately",
+    "Legendary 'Help a Bitch Out' lost-book detective forum",
+    "Zero paywall reading"
+  ],
+  "cons": [
+    "Covers primarily romance novels rather than fanfic or amateur shorts",
+    "Busy classic editorial blog layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/smart-bitches.webp",
+    "alt": "Smart Bitches, Trashy Books logo and brand card",
+    "source_url": "https://smartbitches.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://smartbitches.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free editorial site",
+      "source_url": "https://smartbitches.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://smartbitches.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "smartbitches.com",
+      "source_url": "https://smartbitches.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

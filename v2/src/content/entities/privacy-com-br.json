@@ -1,0 +1,78 @@
+{
+  "slug": "privacy-com-br",
+  "type": "site",
+  "name": "Privacy",
+  "url": "https://privacy.com.br",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Brazil's dominant domestic creator subscription powerhouse hosting mainstream influencers, athletes, and adult creators.",
+  "tags": [
+    "platform",
+    "creator",
+    "latam"
+  ],
+  "ranking_rationale": "Leading Brazilian creator economy platform supporting Pix & local cards; weighed against foreign cards encounter regional pix checkout hurdles outside brazil.",
+  "pricing": {
+    "model": "Creator subscriptions",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Leading Brazilian creator economy platform supporting Pix & local cards",
+    "Smooth mobile profile feed & private chat",
+    "Massive Portuguese-language catalog"
+  ],
+  "cons": [
+    "Foreign cards encounter regional PIX checkout hurdles outside Brazil",
+    "Portuguese-only primary UI"
+  ],
+  "image": {
+    "src": "/media/entities/sites/privacy-com-br.webp",
+    "alt": "Privacy logo and brand card",
+    "source_url": "https://privacy.com.br",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://privacy.com.br",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions",
+      "source_url": "https://privacy.com.br",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://privacy.com.br",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "privacy.com.br",
+      "source_url": "https://privacy.com.br",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

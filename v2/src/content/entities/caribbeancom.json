@@ -1,0 +1,78 @@
+{
+  "slug": "caribbeancom",
+  "type": "site",
+  "name": "Caribbeancom",
+  "url": "https://www.caribbeancom.com/eng/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Major legal uncensored Japanese adult video (JAV) studio streaming full HD scenes outside mainland mosaic rules.",
+  "tags": [
+    "premium",
+    "studio",
+    "jav"
+  ],
+  "ranking_rationale": "Legal uncensored Japanese AV productions in full HD; weighed against high ~$40+/mo standalone japanese billing tier.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Legal uncensored Japanese AV productions in full HD",
+    "Iconic multi-decade star catalog & code-number sorting",
+    "Single billing option bundles sister site 1Pondo"
+  ],
+  "cons": [
+    "High ~$40+/mo standalone Japanese billing tier",
+    "Older site UX despite English translation"
+  ],
+  "image": {
+    "src": "/media/entities/sites/caribbeancom.webp",
+    "alt": "Caribbeancom logo and brand card",
+    "source_url": "https://www.caribbeancom.com/eng/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.caribbeancom.com/eng/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.caribbeancom.com/eng/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.caribbeancom.com/eng/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "caribbeancom.com",
+      "source_url": "https://www.caribbeancom.com/eng/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

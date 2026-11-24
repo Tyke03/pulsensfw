@@ -1,0 +1,77 @@
+{
+  "slug": "njoy-pure-plug-2",
+  "type": "product",
+  "name": "njoy Pure Plug 2.0",
+  "url": "https://www.njoytoys.com/products/pureplug2.php",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Hand-polished solid surgical-grade 316L stainless steel butt plug offering luxurious heft, effortless mirror-smooth glide, and temperature play.",
+  "tags": [
+    "plug",
+    "luxury",
+    "glass-metal"
+  ],
+  "ranking_rationale": "Indestructible solid stainless steel never degrades, peels, or absorbs odors (trade-off: substantial ~300g+ metal heft challenges extended standing wear on first tries).",
+  "pricing": {
+    "model": "Hardware purchase (~$109)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Indestructible solid stainless steel never degrades, peels, or absorbs odors",
+    "Weighted flared anatomy curve stimulates deep effortlessly",
+    "Compatible safely with any lube (silicone, water, oil)"
+  ],
+  "cons": [
+    "Substantial ~300g+ metal heft challenges extended standing wear on first tries",
+    "Premium artisan steel pricing (~$109+)"
+  ],
+  "image": {
+    "src": "/media/entities/products/njoy-pure-plug-2.webp",
+    "alt": "njoy Pure Plug 2.0 logo and brand card",
+    "source_url": "https://www.njoytoys.com/products/pureplug2.php",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.njoytoys.com/products/pureplug2.php",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$109)",
+      "source_url": "https://www.njoytoys.com/products/pureplug2.php",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.njoytoys.com/products/pureplug2.php",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "njoytoys.com",
+      "source_url": "https://www.njoytoys.com/products/pureplug2.php",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

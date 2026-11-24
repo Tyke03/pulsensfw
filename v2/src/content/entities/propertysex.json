@@ -1,0 +1,78 @@
+{
+  "slug": "propertysex",
+  "type": "site",
+  "name": "PropertySex",
+  "url": "https://www.propertysex.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic MindGeek/Aylo real-estate comedy series turning open-house tours into glossy 4K star showcases.",
+  "tags": [
+    "premium",
+    "studio",
+    "comedy"
+  ],
+  "ranking_rationale": "Light-hearted bright daytime aesthetic; weighed against same single open-house gimmick every episode.",
+  "pricing": {
+    "model": "Studio / Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Light-hearted bright daytime aesthetic",
+    "Great A-list performer roster",
+    "Bundled neatly inside Brazzers/Aylo multi-passes"
+  ],
+  "cons": [
+    "Same single open-house gimmick every episode",
+    "Steep standalone monthly billing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/propertysex.webp",
+    "alt": "PropertySex logo and brand card",
+    "source_url": "https://www.propertysex.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.propertysex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / Network subscription",
+      "source_url": "https://www.propertysex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.propertysex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "propertysex.com",
+      "source_url": "https://www.propertysex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

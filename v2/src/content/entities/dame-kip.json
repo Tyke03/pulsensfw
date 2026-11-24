@@ -1,0 +1,78 @@
+{
+  "slug": "dame-kip",
+  "type": "product",
+  "name": "Dame Kip",
+  "url": "https://dame.com/products/kip",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Beveled, ultra-responsive palm vibrator pairing soft medical-grade silicone cushioning with Dame's quietest warm-rumble motor.",
+  "tags": [
+    "vibrator",
+    "quiet",
+    "clitoral",
+    "waterproof"
+  ],
+  "ranking_rationale": "Angled beveled tip hugs anatomy comfortably without harsh buzzing points (trade-off: fixed speeds only — 5 steady levels + 5 modest patterns).",
+  "pricing": {
+    "model": "Hardware purchase (~$95)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Angled beveled tip hugs anatomy comfortably without harsh buzzing points",
+    "Minimal hand fatigue with quiet low-frequency acoustics",
+    "USB rechargeable & waterproof"
+  ],
+  "cons": [
+    "Fixed speeds only (5 steady levels + 5 modest patterns)",
+    "Mid-range ~$95 pricing"
+  ],
+  "image": {
+    "src": "/media/entities/products/dame-kip.webp",
+    "alt": "Dame Kip logo and brand card",
+    "source_url": "https://dame.com/products/kip",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://dame.com/products/kip",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$95)",
+      "source_url": "https://dame.com/products/kip",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://dame.com/products/kip",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dame.com",
+      "source_url": "https://dame.com/products/kip",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

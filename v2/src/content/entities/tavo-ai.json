@@ -1,0 +1,78 @@
+{
+  "slug": "tavo-ai",
+  "type": "ai_app",
+  "name": "Tavo",
+  "url": "https://tavoai.dev",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sleek native iOS & Android mobile roleplay client embracing local GGUF offline play, SillyTavern PNG cards & custom OpenAI/Claude keys.",
+  "tags": [
+    "chat",
+    "roleplay",
+    "privacy"
+  ],
+  "ranking_rationale": "Runs pure SillyTavern V2 character cards natively in a gorgeous buttery-smooth mobile app (trade-off: mobile on-device local LLMs still constrained by phone RAM/heat).",
+  "pricing": {
+    "model": "Free app + Pro perks + BYOK",
+    "free_tier": "Free native mobile RP client",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Runs pure SillyTavern V2 character cards natively in a gorgeous buttery-smooth mobile app",
+    "Supports direct offline on-device local models OR any BYOK uncensored API cleanly",
+    "Complete local chat privacy on your phone"
+  ],
+  "cons": [
+    "Mobile on-device local LLMs still constrained by phone RAM/heat",
+    "Advanced features locked behind optional Supporter pass"
+  ],
+  "image": {
+    "src": "/media/entities/ai/tavo-ai.webp",
+    "alt": "Tavo logo and brand card",
+    "source_url": "https://tavoai.dev",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://tavoai.dev",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free app + Pro perks + BYOK",
+      "source_url": "https://tavoai.dev",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android",
+      "source_url": "https://tavoai.dev",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tavoai.dev",
+      "source_url": "https://tavoai.dev",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

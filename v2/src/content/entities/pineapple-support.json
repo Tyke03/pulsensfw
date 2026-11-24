@@ -1,0 +1,78 @@
+{
+  "slug": "pineapple-support",
+  "type": "site",
+  "name": "Pineapple Support",
+  "url": "https://pineapplesupport.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Accredited non-profit founded by Leya Tanit delivering free and subsidized mental-health therapy exclusively to verified adult industry workers.",
+  "tags": [
+    "community",
+    "advocacy",
+    "health",
+    "forums"
+  ],
+  "ranking_rationale": "Life-saving confidential therapist matching tailored to performers, cam models & creators (trade-off: strictly serves active adult-industry workers and creators).",
+  "pricing": {
+    "model": "Non-profit charitable network",
+    "free_tier": "Free / subsidized creator support",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Life-saving confidential therapist matching tailored to performers, cam models & creators",
+    "Peer support groups & emergency aid grants funded transparently",
+    "Warm stigma-free community resource"
+  ],
+  "cons": [
+    "Strictly serves active adult-industry workers and creators",
+    "Support waitlists can form during industry surges"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pineapple-support.webp",
+    "alt": "Pineapple Support logo and brand card",
+    "source_url": "https://pineapplesupport.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://pineapplesupport.org",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Non-profit charitable network",
+      "source_url": "https://pineapplesupport.org",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://pineapplesupport.org",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pineapplesupport.org",
+      "source_url": "https://pineapplesupport.org",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "exllamav2",
+  "type": "ai_app",
+  "name": "ExLlamaV2",
+  "url": "https://github.com/turboderp-org/exllamav2",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Turbocharged CUDA quantization library squeezing huge 70B and 120B uncensored roleplay models comfortably into multi-24GB VRAM setups.",
+  "tags": [
+    "local",
+    "open-source",
+    "inference",
+    "models"
+  ],
+  "ranking_rationale": "Industry-leading 4-bit EXL2 perplexity vs speed ratio on RTX 3090/4090 GPUs (trade-off: cUDA/NVIDIA focused — non-Mac).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free MIT license",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Industry-leading 4-bit EXL2 perplexity vs speed ratio on RTX 3090/4090 GPUs",
+    "Enables ultra-fast long-context 70B writing without massive cloud bills",
+    "Zero content restrictions"
+  ],
+  "cons": [
+    "CUDA/NVIDIA focused (non-Mac)",
+    "Command-line/library engine pairing best with Oobabooga or TabbyAPI"
+  ],
+  "image": {
+    "src": "/media/entities/ai/exllamav2.webp",
+    "alt": "ExLlamaV2 logo and brand card",
+    "source_url": "https://github.com/turboderp-org/exllamav2",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/turboderp-org/exllamav2",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/turboderp-org/exllamav2",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/turboderp-org/exllamav2",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/turboderp-org/exllamav2",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

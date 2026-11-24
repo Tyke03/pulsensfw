@@ -1,0 +1,80 @@
+{
+  "slug": "redtube",
+  "type": "site",
+  "name": "RedTube",
+  "url": "https://www.redtube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Polished Aylo-owned free tube with reliable CDN streaming, clean category hubs, and mainstream studio teasers.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream",
+    "streaming"
+  ],
+  "ranking_rationale": "Clean interface and dependable playback backed by Aylo infrastructure, though substantial catalog overlap with Pornhub limits its unique edge.",
+  "pricing": {
+    "model": "Ad-supported free tube",
+    "free_tier": "Full free tube catalog with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Free ad-supported viewing; full studio scenes link out to paid Aylo partner sites."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Clean dark UI and reliable high-speed CDN playback",
+    "Verified model and studio channel hubs",
+    "Solid category curation for quick browsing"
+  ],
+  "cons": [
+    "Heavy catalog overlap with Pornhub and YouPorn",
+    "Smaller independent creator community than Pornhub",
+    "Ad overlays and studio upsell banners throughout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/redtube.png",
+    "alt": "RedTube logo and brand card",
+    "source_url": "https://www.redtube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free adult video tube",
+      "source_url": "https://www.redtube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2007; owned by Aylo (formerly MindGeek)",
+      "source_url": "https://en.wikipedia.org/wiki/RedTube",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported viewing with partner studio referrals",
+      "source_url": "https://www.redtube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Fast Aylo CDN delivery and streamlined category browsing",
+      "source_url": "https://www.redtube.com",
+      "checked": "2026-11-23",
+      "evidence_type": "hands_on"
+    }
+  ],
+  "updated": "2026-11-23"
+}

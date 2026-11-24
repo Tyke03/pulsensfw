@@ -1,0 +1,70 @@
+{
+  "slug": "robert-kerman",
+  "type": "star",
+  "name": "Robert Kerman",
+  "url": "https://en.wikipedia.org/wiki/Robert_Kerman",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Robert Charles Kerman (December 16, 1947 – December 27, 2018), also known as R. Bolla, was an American actor who had a pornographic acting career during what is considered to be the \"golden age\" period of the porn film industry during the mid-1970s to the early/mid-1980s.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/robert-kerman.jpg",
+    "alt": "SFW portrait of Robert Kerman",
+    "source_url": "https://commons.wikimedia.org/wiki/File:RobertKerman1978.jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "New York City, New York, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Robert_Kerman",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Bolla, was an American actor who had a pornographic acting career during what is considered to be the \"golden age\" period of the porn film industry during the mid-1970s to the early/mid-1980s.",
+      "source_url": "https://en.wikipedia.org/wiki/Robert_Kerman",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "As Bolla, he appeared in well over 100 pornographic films, most famously Debbie Does Dallas (1978).",
+      "source_url": "https://en.wikipedia.org/wiki/Robert_Kerman",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1947",
+      "source_url": "http://www.wikidata.org/entity/Q1291283",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

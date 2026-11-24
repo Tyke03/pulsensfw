@@ -1,0 +1,80 @@
+{
+  "slug": "virtualrealporn",
+  "type": "site",
+  "name": "VirtualRealPorn",
+  "url": "https://virtualrealporn.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Barcelona-based industry pioneer shooting crystal-clear 6K/8K 180° VR with unmatched binaural 3D spatial sound.",
+  "tags": [
+    "vr",
+    "studio",
+    "streaming"
+  ],
+  "ranking_rationale": "Industry benchmark binaural spatial audio & natural lighting; weighed against slower release pace than czechvr or slr originals.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR",
+    "PSVR"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Industry benchmark binaural spatial audio & natural lighting",
+    "First major VR studio still producing top European casts",
+    "Native Oculus/Quest/DeoVR integration"
+  ],
+  "cons": [
+    "Slower release pace than CzechVR or SLR originals",
+    "Pricey standalone billing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/virtualrealporn.webp",
+    "alt": "VirtualRealPorn logo and brand card",
+    "source_url": "https://virtualrealporn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://virtualrealporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://virtualrealporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR, PSVR",
+      "source_url": "https://virtualrealporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "virtualrealporn.com",
+      "source_url": "https://virtualrealporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

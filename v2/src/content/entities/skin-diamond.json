@@ -1,0 +1,71 @@
+{
+  "slug": "skin-diamond",
+  "type": "star",
+  "name": "Skin Diamond",
+  "url": "https://en.wikipedia.org/wiki/Skin_Diamond",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Raylin Joy, formerly known by her stage name Skin Diamond, is an American actress, model, singer-songwriter and retired pornographic actress. Joy left adult film in 2016 to pursue other interests such as songwriting and mainstream acting.",
+  "tags": [
+    "performer",
+    "former performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/skin-diamond.jpg",
+    "alt": "SFW portrait of Skin Diamond",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Skin_Diamond_at_AVN_Adult_Entertainment_Expo_2016_(25664531015).jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Ventura, California, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Skin_Diamond",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Actress, model, singer-songwriter, pornographic actress",
+      "source_url": "https://en.wikipedia.org/wiki/Skin_Diamond",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Joy left adult film in 2016 to pursue other interests such as songwriting and mainstream acting.",
+      "source_url": "https://en.wikipedia.org/wiki/Skin_Diamond",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1987",
+      "source_url": "http://www.wikidata.org/entity/Q246970",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

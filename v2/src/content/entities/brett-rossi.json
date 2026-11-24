@@ -1,0 +1,71 @@
+{
+  "slug": "brett-rossi",
+  "type": "star",
+  "name": "Brett Rossi",
+  "url": "https://en.wikipedia.org/wiki/Brett_Rossi",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Scottine Ross (Brett Rossi) is an American model, entertainer, dancer and former pornographic film actress.",
+  "tags": [
+    "performer",
+    "former performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/brett-rossi.jpg",
+    "alt": "SFW portrait of Brett Rossi",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brett_Rossi_in_2025_(cropped).jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "2010–present",
+      "source_url": "https://en.wikipedia.org/wiki/Brett_Rossi",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Fontana, California, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Brett_Rossi",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Model, dancer, pornographic film actress",
+      "source_url": "https://en.wikipedia.org/wiki/Brett_Rossi",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1989",
+      "source_url": "http://www.wikidata.org/entity/Q16302530",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

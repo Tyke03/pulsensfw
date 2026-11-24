@@ -1,0 +1,63 @@
+{
+  "slug": "lara-roxx",
+  "type": "star",
+  "name": "Lara Roxx",
+  "url": "https://en.wikipedia.org/wiki/Lara_Roxx",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lara Roxx is a Canadian former pornographic film actress who, in March 2004, became the first of three known individuals in four years to contract HIV while making a U.S. pornographic video.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/lara-roxx.jpg",
+    "alt": "SFW portrait of Lara Roxx",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lara_Roxx_2007_(cropped).jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Credits",
+      "value": "Pornographic film actress",
+      "source_url": "https://en.wikipedia.org/wiki/Lara_Roxx",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Lara Roxx",
+      "source_url": "https://en.wikipedia.org/wiki/Lara_Roxx",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1982",
+      "source_url": "http://www.wikidata.org/entity/Q431022",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

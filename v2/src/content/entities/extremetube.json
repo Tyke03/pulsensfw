@@ -1,0 +1,78 @@
+{
+  "slug": "extremetube",
+  "type": "site",
+  "name": "ExtremeTube",
+  "url": "https://www.extremetube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Aylo sister tube tailored toward intense scenes, fetish categories, and fast adaptive desktop/mobile streaming.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Fast CDN speeds backed by major infrastructure; weighed against shares much of its clip index with youporn/tube8.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Fast CDN speeds backed by major infrastructure",
+    "Crisp hover previews on desktop",
+    "Wide selection of intense studio categories"
+  ],
+  "cons": [
+    "Shares much of its clip index with YouPorn/Tube8",
+    "Standard network ad slots"
+  ],
+  "image": {
+    "src": "/media/entities/sites/extremetube.webp",
+    "alt": "ExtremeTube logo and brand card",
+    "source_url": "https://www.extremetube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.extremetube.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.extremetube.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.extremetube.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "extremetube.com",
+      "source_url": "https://www.extremetube.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "rude-com",
+  "type": "site",
+  "name": "Rude.com",
+  "url": "https://www.rude.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Classic adult amateur webcam community blending free chat rooms, candid photo albums, and live private shows.",
+  "tags": [
+    "cams",
+    "live",
+    "amateur"
+  ],
+  "ranking_rationale": "Relaxed non-corporate amateur vibe; weighed against modest streaming bitrate on older webcams.",
+  "pricing": {
+    "model": "Tokens & privates",
+    "free_tier": "Free public chat & galleries",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Relaxed non-corporate amateur vibe",
+    "Community blogs alongside live cam rooms",
+    "Easy room discovery"
+  ],
+  "cons": [
+    "Modest streaming bitrate on older webcams",
+    "Older UI theme"
+  ],
+  "image": {
+    "src": "/media/entities/sites/rude-com.webp",
+    "alt": "Rude.com logo and brand card",
+    "source_url": "https://www.rude.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.rude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & privates",
+      "source_url": "https://www.rude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.rude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "rude.com",
+      "source_url": "https://www.rude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

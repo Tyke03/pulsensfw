@@ -1,0 +1,63 @@
+{
+  "slug": "gemma-massey",
+  "type": "star",
+  "name": "Gemma Massey",
+  "url": "http://www.wikidata.org/entity/Q3100329",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Gemma Massey — British pornographic actress (b. 1984). Industry career documented from 2010.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/gemma-massey.jpg",
+    "alt": "SFW portrait of Gemma Massey",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gemma_Massey_at_AEE_2007_Wednesday_1.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3100329 (United Kingdom)",
+      "source_url": "http://www.wikidata.org/entity/Q3100329",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2010–present",
+      "source_url": "http://www.wikidata.org/entity/Q3100329",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q3100329",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

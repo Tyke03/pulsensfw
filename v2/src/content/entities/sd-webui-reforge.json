@@ -1,0 +1,78 @@
+{
+  "slug": "sd-webui-reforge",
+  "type": "ai_app",
+  "name": "SD WebUI reForge",
+  "url": "https://github.com/Panchovix/stable-diffusion-webui-reForge",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Actively engineered Forge fork sustaining A1111 extension compatibility alongside blazing SDXL/Flux memory management.",
+  "tags": [
+    "local",
+    "image",
+    "open-source"
+  ],
+  "ranking_rationale": "Runs massive older A1111 ControlNet & regional prompter scripts cleanly atop fast Forge VRAM speedups (trade-off: assumes local Python/Git install on 8GB+ GPUs).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Runs massive older A1111 ControlNet & regional prompter scripts cleanly atop fast Forge VRAM speedups",
+    "Zero content censorship—full local weights & LoRAs",
+    "Active community issue triage"
+  ],
+  "cons": [
+    "Assumes local Python/Git install on 8GB+ GPUs",
+    "Interface reflects dense classic WebUI menus"
+  ],
+  "image": {
+    "src": "/media/entities/ai/sd-webui-reforge.webp",
+    "alt": "SD WebUI reForge logo and brand card",
+    "source_url": "https://github.com/Panchovix/stable-diffusion-webui-reForge",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/Panchovix/stable-diffusion-webui-reForge",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/Panchovix/stable-diffusion-webui-reForge",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/Panchovix/stable-diffusion-webui-reForge",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/Panchovix/stable-diffusion-webui-reForge",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

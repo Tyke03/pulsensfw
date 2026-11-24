@@ -1,0 +1,78 @@
+{
+  "slug": "lobstertube",
+  "type": "site",
+  "name": "LobsterTube",
+  "url": "https://lobstertube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Iconic high-volume video index aggregating millions of tagged clips from verified partner tubes under one minimalist search bar.",
+  "tags": [
+    "tube",
+    "free",
+    "aggregator"
+  ],
+  "ranking_rationale": "Enormous indexed clip pool spanning classic and modern niches (trade-off: ad banners surround search results).",
+  "pricing": {
+    "model": "Free ad-supported aggregator",
+    "free_tier": "Completely free search",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Enormous indexed clip pool spanning classic and modern niches",
+    "Snappy desktop thumbnail scrubbing",
+    "Simple zero-clutter category sidebar"
+  ],
+  "cons": [
+    "Ad banners surround search results",
+    "Outbound tube quality varies by host"
+  ],
+  "image": {
+    "src": "/media/entities/sites/lobstertube.webp",
+    "alt": "LobsterTube logo and brand card",
+    "source_url": "https://lobstertube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://lobstertube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported aggregator",
+      "source_url": "https://lobstertube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://lobstertube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lobstertube.com",
+      "source_url": "https://lobstertube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

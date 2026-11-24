@@ -1,0 +1,79 @@
+{
+  "slug": "misskey-io",
+  "type": "site",
+  "name": "Misskey.io",
+  "url": "https://misskey.io",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japan's flagship fediverse microblogging community embraced by tens of thousands of anime, VTuber, and NSFW illustrators with CW toggles.",
+  "tags": [
+    "comics",
+    "art",
+    "community",
+    "hentai"
+  ],
+  "ranking_rationale": "Clean Japanese artist culture with native sensitive-media CW blurs built in (trade-off: Japanese-first default community language).",
+  "pricing": {
+    "model": "100% free community",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Clean Japanese artist culture with native sensitive-media CW blurs built in",
+    "Vibrant real-time fanart timelines without algorithmic suppression",
+    "Free open social network account"
+  ],
+  "cons": [
+    "Japanese-first default community language",
+    "Rapid server traffic slows timelines during major Comiket events"
+  ],
+  "image": {
+    "src": "/media/entities/sites/misskey-io.webp",
+    "alt": "Misskey.io logo and brand card",
+    "source_url": "https://misskey.io",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://misskey.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free community",
+      "source_url": "https://misskey.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://misskey.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "misskey.io",
+      "source_url": "https://misskey.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

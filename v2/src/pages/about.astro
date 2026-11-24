@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+---
+<BaseLayout title={`About · ${SITE.name}`} description={SITE.description} reader={reader}>
+  <article class="page prose-page" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
+    <p class="kicker">About</p>
+    <img class="about-header" src="/media/brand/about-header.png" alt="PulseNSFW brand header" width="1200" height="420" />
+    <h1>{SITE.tagline}</h1>
+    <div class="prose">
+      <p>{SITE.description}</p>
+      <p>This is the place you open when you want the new stuff: stars, sites, VR, games, AI, and the toys that go with them. One desk, one search, instead of twelve tabs. It is written for people who watch, not for people who run a studio.</p>
+      <p>We publish reviews, ranked lists, guides, and news for people who watch. We do not cover the creator business, and we do not score people. Products and services get a number; a performer gets a sourced profile.</p>
+      <h2 id="data">How the data works</h2>
+      <p>Stars, sites, apps, toys, and games are one entity collection. An article points at entity slugs instead of copying scores, prices, or pros and cons. Each fact carries a source URL and a checked date. When something changes, the entity record changes and every article that points at it updates.</p>
+      <p>Two links are currently tracked: CrushOn and SpicyChat. They are marked in the entity record and on the page. The score is not for sale. See the <a href="/affiliate-disclosure">affiliate disclosure</a>.</p>
+      <p>Sister sites stay in the footer: <a href="https://companionhub.app">companionhub.app</a>.</p>
+    </div>
+  </article>
+</BaseLayout>

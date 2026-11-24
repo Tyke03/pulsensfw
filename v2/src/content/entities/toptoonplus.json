@@ -1,0 +1,79 @@
+{
+  "slug": "toptoonplus",
+  "type": "site",
+  "name": "Toptoon Plus",
+  "url": "https://toptoonplus.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Official English wing of major Korean adult webtoon publisher Toptoon—hosting uncensored vertical manhwa romance and drama legally.",
+  "tags": [
+    "hentai",
+    "comics",
+    "manhwa",
+    "premium"
+  ],
+  "ranking_rationale": "Licensed uncut official English chapters directly supporting creators; weighed against microtransaction coin model gets expensive over long runs.",
+  "pricing": {
+    "model": "Coin unlocks & timed free chapters",
+    "free_tier": "First episodes free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Licensed uncut official English chapters directly supporting creators",
+    "Smooth mobile vertical scroll web reader",
+    "Frequent complimentary episode events"
+  ],
+  "cons": [
+    "Microtransaction coin model gets expensive over long runs",
+    "Requires web browser access for full 18+ catalog"
+  ],
+  "image": {
+    "src": "/media/entities/sites/toptoonplus.webp",
+    "alt": "Toptoon Plus logo and brand card",
+    "source_url": "https://toptoonplus.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://toptoonplus.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Coin unlocks & timed free chapters",
+      "source_url": "https://toptoonplus.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://toptoonplus.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "toptoonplus.com",
+      "source_url": "https://toptoonplus.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

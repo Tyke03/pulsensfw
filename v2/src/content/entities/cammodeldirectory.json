@@ -1,0 +1,78 @@
+{
+  "slug": "cammodeldirectory",
+  "type": "site",
+  "name": "CamModelDirectory",
+  "url": "https://www.cammodeldirectory.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Streamate's clean official performer discovery index letting viewers filter private-show models cleanly by rates, niche, and availability.",
+  "tags": [
+    "cams",
+    "live",
+    "database"
+  ],
+  "ranking_rationale": "Clean focused performer profiles showing private rates upfront (trade-off: strictly connects to paid per-minute private/exclusive shows).",
+  "pricing": {
+    "model": "Per-minute private billing",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Clean focused performer profiles showing private rates upfront",
+    "Reliable Streamate-backed encrypted streaming and billing",
+    "Minimal flashing casino-like token popups"
+  ],
+  "cons": [
+    "Strictly connects to paid per-minute private/exclusive shows",
+    "Sparse free public room shows"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cammodeldirectory.webp",
+    "alt": "CamModelDirectory logo and brand card",
+    "source_url": "https://www.cammodeldirectory.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.cammodeldirectory.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-minute private billing",
+      "source_url": "https://www.cammodeldirectory.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.cammodeldirectory.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cammodeldirectory.com",
+      "source_url": "https://www.cammodeldirectory.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

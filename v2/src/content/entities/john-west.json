@@ -1,0 +1,60 @@
+{
+  "slug": "john-west",
+  "type": "star",
+  "name": "John West",
+  "url": "http://www.wikidata.org/entity/Q122766545",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "John West — American pornographic actor (b. 1971).",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/john-west.jpg",
+    "alt": "SFW portrait of John West",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John_West.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q122766545 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q122766545",
+      "checked": "2026-11-29",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1971",
+      "source_url": "http://www.wikidata.org/entity/Q122766545",
+      "checked": "2026-11-29",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q122766545",
+      "checked": "2026-11-29",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-29"
+}

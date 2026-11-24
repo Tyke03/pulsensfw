@@ -1,0 +1,71 @@
+{
+  "slug": "jenna-haze",
+  "type": "star",
+  "name": "Jenna Haze",
+  "url": "https://en.wikipedia.org/wiki/Jenna_Haze",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jenna Haze is an American former pornographic film actress.",
+  "tags": [
+    "performer",
+    "former performer",
+    "awards"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/jenna-haze.jpg",
+    "alt": "SFW portrait of Jenna Haze",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jenna_Haze_2009.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Credits",
+      "value": "Pornographic film actress",
+      "source_url": "https://en.wikipedia.org/wiki/Jenna_Haze",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "Haze has won numerous pornography industry awards, including the 2003 AVN Award for Best New Starlet and the 2009 AVN Award for Female Performer of the Year, making her the second performer in history to win both awards in the course of her career, after Missy.",
+      "source_url": "https://en.wikipedia.org/wiki/Jenna_Haze",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Haze has won numerous pornography industry awards, including the 2003 AVN Award for Best New Starlet and the 2009 AVN Award for Female Performer of the Year, making her the second performer in history to win.",
+      "source_url": "https://en.wikipedia.org/wiki/Jenna_Haze",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1982",
+      "source_url": "http://www.wikidata.org/entity/Q231677",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "aidungeon",
+  "type": "ai_app",
+  "name": "AI Dungeon",
+  "url": "https://aidungeon.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The pioneering open-ended interactive fantasy text adventure engine—now upgraded with multi-model LLMs, world info lorebooks, and adult private modes.",
+  "tags": [
+    "chat",
+    "storytelling",
+    "roleplay"
+  ],
+  "ranking_rationale": "Unmatched decades-refined world-info lorebooks and co-op story tools; weighed against higher tiers required for top 70b+ prose models & long 16k–32k contexts.",
+  "pricing": {
+    "model": "Free tier + Paid tiers ($10–$30/mo)",
+    "free_tier": "Free unlimited Griffin/entry play",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Unmatched decades-refined world-info lorebooks and co-op story tools",
+    "Permits explicit private solo worlds when toggled cleanly inside Mature settings",
+    "Free unlimited entry LLM tier"
+  ],
+  "cons": [
+    "Higher tiers required for top 70B+ prose models & long 16K–32K contexts",
+    "Strict ban on public publishing of explicit scenarios"
+  ],
+  "image": {
+    "src": "/media/entities/ai/aidungeon.webp",
+    "alt": "AI Dungeon logo and brand card",
+    "source_url": "https://aidungeon.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://aidungeon.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free tier + Paid tiers ($10–$30/mo)",
+      "source_url": "https://aidungeon.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://aidungeon.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "aidungeon.com",
+      "source_url": "https://aidungeon.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

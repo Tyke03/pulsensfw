@@ -1,0 +1,78 @@
+{
+  "slug": "castingcouch-x",
+  "type": "site",
+  "name": "CastingCouch-X",
+  "url": "https://www.castingcouch-x.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-clarity audition-format studio casting real newcomers alongside upbeat conversational interviews and crisp 4K close-ups.",
+  "tags": [
+    "premium",
+    "studio",
+    "amateur"
+  ],
+  "ranking_rationale": "Believable unhurried interview lead-ins make performers shine; weighed against strict repetitive audition room format.",
+  "pricing": {
+    "model": "Studio / Bundle subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Believable unhurried interview lead-ins make performers shine",
+    "Sharp 4K lighting & NetVideoGirls bundle option",
+    "Consistently fresh faces"
+  ],
+  "cons": [
+    "Strict repetitive audition room format",
+    "Separate upsell paths inside bundle"
+  ],
+  "image": {
+    "src": "/media/entities/sites/castingcouch-x.webp",
+    "alt": "CastingCouch-X logo and brand card",
+    "source_url": "https://www.castingcouch-x.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.castingcouch-x.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / Bundle subscription",
+      "source_url": "https://www.castingcouch-x.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.castingcouch-x.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "castingcouch-x.com",
+      "source_url": "https://www.castingcouch-x.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "llama-factory",
+  "type": "ai_app",
+  "name": "LLaMA-Factory",
+  "url": "https://github.com/hiyouga/LLaMA-Factory",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Unified zero-code & CLI fine-tuning studio for training custom LoRA/QLoRA roleplay and creative-writing LLMs across 100+ open architectures.",
+  "tags": [
+    "local",
+    "open-source",
+    "models"
+  ],
+  "ranking_rationale": "Browser LlamaBoard GUI + fast Unsloth/FlashAttention2 QLoRA fine-tuning on consumer GPUs (trade-off: requires Linux/WSL2 CUDA setup and curated JSONL datasets).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free Apache-2.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "Windows"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Browser LlamaBoard GUI + fast Unsloth/FlashAttention2 QLoRA fine-tuning on consumer GPUs",
+    "Supports DPO/ORPO preference alignment popular for uncensored prose & RP tuning",
+    "100% free Apache-2.0 open-source"
+  ],
+  "cons": [
+    "Requires Linux/WSL2 CUDA setup and curated JSONL datasets",
+    "Fine-tuning demands 12–24GB+ VRAM"
+  ],
+  "image": {
+    "src": "/media/entities/ai/llama-factory.webp",
+    "alt": "LLaMA-Factory logo and brand card",
+    "source_url": "https://github.com/hiyouga/LLaMA-Factory",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/hiyouga/LLaMA-Factory",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/hiyouga/LLaMA-Factory",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, Windows",
+      "source_url": "https://github.com/hiyouga/LLaMA-Factory",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/hiyouga/LLaMA-Factory",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

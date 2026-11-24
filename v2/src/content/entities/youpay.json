@@ -1,0 +1,79 @@
+{
+  "slug": "youpay",
+  "type": "site",
+  "name": "YouPay",
+  "url": "https://youpay.co",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Adult-friendly anonymous creator gifting storefront built explicitly around adult creators' high-risk chargeback & privacy protections.",
+  "tags": [
+    "platform",
+    "creator",
+    "gifts",
+    "privacy"
+  ],
+  "ranking_rationale": "Pro-SW policies with zero sudden NSFW account closures (trade-off: slightly higher checkout convenience fees on luxury items).",
+  "pricing": {
+    "model": "Per-gift checkout",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Pro-SW policies with zero sudden NSFW account closures",
+    "Instant cart checkout without exposing buyer/seller locations",
+    "Strong presence among cam models & OnlyFans stars"
+  ],
+  "cons": [
+    "Slightly higher checkout convenience fees on luxury items",
+    "Smaller retailer catalog integration than Throne"
+  ],
+  "image": {
+    "src": "/media/entities/sites/youpay.webp",
+    "alt": "YouPay logo and brand card",
+    "source_url": "https://youpay.co",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://youpay.co",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-gift checkout",
+      "source_url": "https://youpay.co",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://youpay.co",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "youpay.co",
+      "source_url": "https://youpay.co",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

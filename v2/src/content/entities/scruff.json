@@ -1,0 +1,80 @@
+{
+  "slug": "scruff",
+  "type": "site",
+  "name": "SCRUFF",
+  "url": "https://www.scruff.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Independent LGBTQ+-owned dating, travel, and queer nightlife community lauded for security, zero invasive data brokers, and event listings.",
+  "tags": [
+    "niche",
+    "dating",
+    "queer",
+    "events"
+  ],
+  "ranking_rationale": "Reliable non-spammy global gay/bi/trans community with real travel & Woof features; weighed against best grid distance & message filters locked behind pro tier.",
+  "pricing": {
+    "model": "Free core app + SCRUFF Pro",
+    "free_tier": "Unlimited basic chats & local grids free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Reliable non-spammy global gay/bi/trans community with real travel & Woof features",
+    "High engineering craft and transparent privacy ethics",
+    "Built-in Venture travel & Hosting local event hubs"
+  ],
+  "cons": [
+    "Best grid distance & message filters locked behind Pro tier",
+    "Primarily focused on gay, bi, trans & queer men"
+  ],
+  "image": {
+    "src": "/media/entities/sites/scruff.webp",
+    "alt": "SCRUFF logo and brand card",
+    "source_url": "https://www.scruff.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.scruff.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free core app + SCRUFF Pro",
+      "source_url": "https://www.scruff.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.scruff.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "scruff.com",
+      "source_url": "https://www.scruff.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

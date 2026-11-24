@@ -1,0 +1,79 @@
+{
+  "slug": "menatplay",
+  "type": "site",
+  "name": "MenAtPlay",
+  "url": "https://www.menatplay.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Distinctive European gay fetish studio famously revolving exclusively around sharp tailored business suits, offices, and power seduction.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "suits"
+  ],
+  "ranking_rationale": "Bespoke suit-fetish niche executed with sleek glossy 4K production; weighed against narrow fetish theme limits broad appeal.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Bespoke suit-fetish niche executed with sleek glossy 4K production",
+    "High editorial photography polish alongside full video scenes",
+    "Strong European cast"
+  ],
+  "cons": [
+    "Narrow fetish theme limits broad appeal",
+    "Slower release schedule than mega-networks"
+  ],
+  "image": {
+    "src": "/media/entities/sites/menatplay.webp",
+    "alt": "MenAtPlay logo and brand card",
+    "source_url": "https://www.menatplay.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.menatplay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.menatplay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.menatplay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "menatplay.com",
+      "source_url": "https://www.menatplay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

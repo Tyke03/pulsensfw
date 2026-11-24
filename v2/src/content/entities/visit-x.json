@@ -1,0 +1,78 @@
+{
+  "slug": "visit-x",
+  "type": "site",
+  "name": "VISIT-X",
+  "url": "https://www.visit-x.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Germany's iconic veteran webcam, live stream, and amateur clip club starring DACH performers in HD private and group cams.",
+  "tags": [
+    "cams",
+    "live",
+    "european"
+  ],
+  "ranking_rationale": "Strong authentic German, Swiss & Austrian webcam roster; weighed against primarily german-language rooms & descriptions.",
+  "pricing": {
+    "model": "Coins & per-minute shows",
+    "free_tier": "Free public teaser chat",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Strong authentic German, Swiss & Austrian webcam roster",
+    "Combines live shows, amateur clip shop, and 1-on-1 messaging",
+    "Stable long-running European platform"
+  ],
+  "cons": [
+    "Primarily German-language rooms & descriptions",
+    "Higher Euro minute billing rates"
+  ],
+  "image": {
+    "src": "/media/entities/sites/visit-x.webp",
+    "alt": "VISIT-X logo and brand card",
+    "source_url": "https://www.visit-x.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.visit-x.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Coins & per-minute shows",
+      "source_url": "https://www.visit-x.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.visit-x.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "visit-x.net",
+      "source_url": "https://www.visit-x.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

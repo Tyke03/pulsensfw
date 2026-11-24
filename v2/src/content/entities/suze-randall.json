@@ -1,0 +1,64 @@
+{
+  "slug": "suze-randall",
+  "type": "star",
+  "name": "Suze Randall",
+  "url": "https://en.wikipedia.org/wiki/Suze_Randall",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Suze Randall is an adult film performer from the United Kingdom (b. 1946), active since 1972. Verified adult filmography indexed via Wikidata and Wikimedia Commons.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/suze-randall.jpg",
+    "alt": "SFW portrait of Suze Randall",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Suze_Randall_2009.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q431529 (United Kingdom)",
+      "source_url": "http://www.wikidata.org/entity/Q431529",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1946",
+      "source_url": "http://www.wikidata.org/entity/Q431529",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1972–present",
+      "source_url": "https://en.wikipedia.org/wiki/Suze_Randall",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "vrintimacy",
+  "type": "site",
+  "name": "VRIntimacy",
+  "url": "https://vrintimacy.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sensual POV 180-degree VR studio emphasizing eye contact, unhurried romantic pacing, and crisp binaural audio.",
+  "tags": [
+    "vr",
+    "studio",
+    "couples",
+    "streaming"
+  ],
+  "ranking_rationale": "Natural close-up eye contact & spatial whisper audio heighten immersion, weighed against smaller boutique vault.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Natural close-up eye contact & spatial whisper audio heighten immersion",
+    "Clean Quest & PCVR file downloads",
+    "Avoids jarring camera angle jumps"
+  ],
+  "cons": [
+    "Smaller boutique vault",
+    "Soft-to-medium romantic pacing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrintimacy.webp",
+    "alt": "VRIntimacy logo and brand card",
+    "source_url": "https://vrintimacy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://vrintimacy.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://vrintimacy.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://vrintimacy.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrintimacy.com",
+      "source_url": "https://vrintimacy.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

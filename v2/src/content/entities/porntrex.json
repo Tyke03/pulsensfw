@@ -1,0 +1,78 @@
+{
+  "slug": "porntrex",
+  "type": "site",
+  "name": "PornTrex",
+  "url": "https://www.porntrex.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-bitrate 1080p/4K free tube known for newer studio scenes, model indexes, and fast HTML5 streaming.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Consistent 1080p and 4K clip uploads; weighed against intrusive pop ads on click.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Full HD library free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Consistent 1080p and 4K clip uploads",
+    "Organized playlists and studio hubs",
+    "Reliable CDN speeds"
+  ],
+  "cons": [
+    "Intrusive pop ads on click",
+    "Mixed copyright takedown churn"
+  ],
+  "image": {
+    "src": "/media/entities/sites/porntrex.webp",
+    "alt": "PornTrex logo and brand card",
+    "source_url": "https://www.porntrex.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.porntrex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.porntrex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.porntrex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "porntrex.com",
+      "source_url": "https://www.porntrex.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

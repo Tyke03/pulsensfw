@@ -1,0 +1,63 @@
+{
+  "slug": "marie-konishi",
+  "type": "star",
+  "name": "Marie Konishi",
+  "url": "http://www.wikidata.org/entity/Q15902801",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Marie Konishi — Japanese AV idol (b. 1992). Industry career documented from 2013.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/marie-konishi.jpg",
+    "alt": "SFW portrait of Marie Konishi",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Konishimarie1_2017.03.11.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q15902801 (Japan)",
+      "source_url": "http://www.wikidata.org/entity/Q15902801",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1992",
+      "source_url": "http://www.wikidata.org/entity/Q15902801",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2013–present",
+      "source_url": "http://www.wikidata.org/entity/Q15902801",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

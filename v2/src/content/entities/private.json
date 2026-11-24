@@ -1,0 +1,78 @@
+{
+  "slug": "private",
+  "type": "site",
+  "name": "Private",
+  "url": "https://www.private.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Historic European blockbuster brand blending sunny Mediterranean locations, feature plots, and a huge multi-decade archive.",
+  "tags": [
+    "premium",
+    "studio",
+    "european"
+  ],
+  "ranking_rationale": "Rich 1990s–2020s European blockbuster library; weighed against inconsistent dubbing on vintage classics.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Rich 1990s–2020s European blockbuster library",
+    "Distinct sunlit Mediterranean glamour aesthetic",
+    "4K modern originals included"
+  ],
+  "cons": [
+    "Inconsistent dubbing on vintage classics",
+    "Older site browse tools"
+  ],
+  "image": {
+    "src": "/media/entities/sites/private.webp",
+    "alt": "Private logo and brand card",
+    "source_url": "https://www.private.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.private.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.private.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.private.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "private.com",
+      "source_url": "https://www.private.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "kobe-tai",
+  "type": "star",
+  "name": "Kobe Tai",
+  "url": "https://en.wikipedia.org/wiki/Kobe_Tai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Kobe Tai — American pornographic actress. Industry career documented from 1996.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/kobe-tai.jpg",
+    "alt": "SFW portrait of Kobe Tai",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kobe_Tai_00010944.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q256032 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q256032",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1996–present",
+      "source_url": "https://en.wikipedia.org/wiki/Kobe_Tai",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1972",
+      "source_url": "http://www.wikidata.org/entity/Q256032",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

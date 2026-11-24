@@ -1,0 +1,79 @@
+{
+  "slug": "make-love-not-porn",
+  "type": "site",
+  "name": "MakeLoveNotPorn",
+  "url": "https://makelovenotporn.tv",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Cindy Gallop's pioneering real-world sex platform showcasing authentic, unscripted couples loving each other—awkwardness, laughter and all.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples",
+    "amateur"
+  ],
+  "ranking_rationale": "Genuinely real couples intimacy—zero scripted porn tropes; weighed against smaller catalog than commercial networks.",
+  "pricing": {
+    "model": "Pay-per-rental ($5/video) & bundles",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Genuinely real couples intimacy—zero scripted porn tropes",
+    "Transparent revenue-sharing pay-per-rental model",
+    "Strong ethical verification & consent focus"
+  ],
+  "cons": [
+    "Smaller catalog than commercial networks",
+    "Per-video rental pricing adds up quickly"
+  ],
+  "image": {
+    "src": "/media/entities/sites/make-love-not-porn.webp",
+    "alt": "MakeLoveNotPorn logo and brand card",
+    "source_url": "https://makelovenotporn.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://makelovenotporn.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-per-rental ($5/video) & bundles",
+      "source_url": "https://makelovenotporn.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://makelovenotporn.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "makelovenotporn.tv",
+      "source_url": "https://makelovenotporn.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

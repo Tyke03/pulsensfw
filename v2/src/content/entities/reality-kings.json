@@ -1,0 +1,81 @@
+{
+  "slug": "reality-kings",
+  "type": "site",
+  "name": "Reality Kings",
+  "url": "https://www.realitykings.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running Miami-born studio network housing dozens of glossy reality-styled series like Money Talks, Milf Hunter, and We Live Together under one pass.",
+  "tags": [
+    "premium",
+    "studio",
+    "hd",
+    "exclusive",
+    "network"
+  ],
+  "ranking_rationale": "Massive 25-year vault and reliable weekly release volume across dozens of recognizable series; docks points for formulaic setups and dated checkout upsells.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; check official checkout. Network bundles with other Aylo brands may appear at signup."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Huge archive spanning 25+ years and dozens of branded series",
+    "Consistent HD/4K production values and well-known performers",
+    "Single login covers the entire Reality Kings sub-site lineup"
+  ],
+  "cons": [
+    "Scripts and reality setups feel repetitive over time",
+    "Checkout flow leans on trial auto-renewals and cross-sells",
+    "No meaningful free browsing beyond short trailers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/reality-kings.png",
+    "alt": "Reality Kings logo and brand card",
+    "source_url": "https://www.realitykings.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium multi-series studio network",
+      "source_url": "https://www.realitykings.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Founded 2000 in Miami; owned by Aylo",
+      "source_url": "https://en.wikipedia.org/wiki/Reality_Kings",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid membership subscription with streaming and downloads",
+      "source_url": "https://www.realitykings.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "All-in-one network access to flagship series like Milf Hunter and Money Talks",
+      "source_url": "https://www.realitykings.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

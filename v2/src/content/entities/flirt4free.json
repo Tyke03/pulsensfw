@@ -1,0 +1,78 @@
+{
+  "slug": "flirt4free",
+  "type": "site",
+  "name": "Flirt4Free",
+  "url": "https://www.flirt4free.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Established North American cam platform known for HD studio-quality feeds, strict model verification, and structured private shows.",
+  "tags": [
+    "cams",
+    "live",
+    "hd"
+  ],
+  "ranking_rationale": "Clean HD video and polished interface; weighed against smaller online room count than chaturbate.",
+  "pricing": {
+    "model": "Credits & private shows",
+    "free_tier": "Public browsing and SFW/tease chat free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Clean HD video and polished interface",
+    "Transparent credit tipping and group/private rates",
+    "Minimal spammy bot clutter"
+  ],
+  "cons": [
+    "Smaller online room count than Chaturbate",
+    "Fewer free public explicit shows"
+  ],
+  "image": {
+    "src": "/media/entities/sites/flirt4free.webp",
+    "alt": "Flirt4Free logo and brand card",
+    "source_url": "https://www.flirt4free.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.flirt4free.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits & private shows",
+      "source_url": "https://www.flirt4free.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.flirt4free.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "flirt4free.com",
+      "source_url": "https://www.flirt4free.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

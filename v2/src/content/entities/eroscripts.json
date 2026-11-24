@@ -1,0 +1,79 @@
+{
+  "slug": "eroscripts",
+  "type": "site",
+  "name": "EroScripts",
+  "url": "https://discuss.eroscripts.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The premier community forum where scripters share free funscript haptic motion tracks timed to scenes for The Handy, Keon, and OSR2.",
+  "tags": [
+    "forums",
+    "community",
+    "haptics",
+    "funscript"
+  ],
+  "ranking_rationale": "Thousands of community-timed tactile .funscript tracks paired across studio & VR scenes; weighed against many scripts link out to scenes you still source/own separately.",
+  "pricing": {
+    "model": "100% free Discourse community",
+    "free_tier": "Completely free forum access",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Thousands of community-timed tactile .funscript tracks paired across studio & VR scenes",
+    "Supportive script creators & open scripting tools like OpenFunscripter",
+    "Clean Discourse forum search"
+  ],
+  "cons": [
+    "Many scripts link out to scenes you still source/own separately",
+    "Free registration needed to download most attachments"
+  ],
+  "image": {
+    "src": "/media/entities/sites/eroscripts.webp",
+    "alt": "EroScripts logo and brand card",
+    "source_url": "https://discuss.eroscripts.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://discuss.eroscripts.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free Discourse community",
+      "source_url": "https://discuss.eroscripts.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://discuss.eroscripts.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "discuss.eroscripts.com",
+      "source_url": "https://discuss.eroscripts.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

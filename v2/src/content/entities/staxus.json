@@ -1,0 +1,79 @@
+{
+  "slug": "staxus",
+  "type": "site",
+  "name": "Staxus",
+  "url": "https://staxus.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Europe's premier modern gay European all-male studio producing glossy Prague and Budapest 4K shoots with international cast.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "Crisp European 4K cinematography and upbeat location variety, weighed against formulaic romantic setups across weekly updates.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Crisp European 4K cinematography and upbeat location variety",
+    "Huge multi-year archive with clear performer indexing",
+    "Smooth responsive streaming player"
+  ],
+  "cons": [
+    "Formulaic romantic setups across weekly updates",
+    "Strict recurring membership upsells"
+  ],
+  "image": {
+    "src": "/media/entities/sites/staxus.webp",
+    "alt": "Staxus logo and brand card",
+    "source_url": "https://staxus.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://staxus.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://staxus.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://staxus.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "staxus.com",
+      "source_url": "https://staxus.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

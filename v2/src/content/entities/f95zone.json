@@ -1,0 +1,77 @@
+{
+  "slug": "f95zone",
+  "type": "site",
+  "name": "F95zone",
+  "url": "https://f95zone.to",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The undisputed central community forum and release tracker for adult indie games, Ren'Py visual novels, mods, and translation patches.",
+  "tags": [
+    "forums",
+    "games",
+    "community"
+  ],
+  "ranking_rationale": "Single hub tracking virtually every indie adult game release; weighed against must create a free account to see images/release trackers.",
+  "pricing": {
+    "model": "Free community forum",
+    "free_tier": "Free membership",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Single hub tracking virtually every indie adult game release",
+    "Active developer Q&A, mod threads, and honest community reviews",
+    "Clean search by engine, tags, status, and version"
+  ],
+  "cons": [
+    "Must create a free account to see images/release trackers",
+    "Dense classic XenForo forum UI"
+  ],
+  "image": {
+    "src": "/media/entities/sites/f95zone.webp",
+    "alt": "F95zone logo and brand card",
+    "source_url": "https://f95zone.to",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://f95zone.to",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community forum",
+      "source_url": "https://f95zone.to",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://f95zone.to",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "f95zone.to",
+      "source_url": "https://f95zone.to",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

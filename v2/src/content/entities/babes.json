@@ -1,0 +1,78 @@
+{
+  "slug": "babes",
+  "type": "site",
+  "name": "Babes",
+  "url": "https://www.babes.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Bright, editorial-style glamour studio prioritizing high-fashion styling, slow pacing, and A-list couple scenes.",
+  "tags": [
+    "premium",
+    "studio",
+    "glamour"
+  ],
+  "ranking_rationale": "Crisp 4K fashion-editorial aesthetic; weighed against smaller weekly output vs mega-networks.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Crisp 4K fashion-editorial aesthetic",
+    "Less frenetic pacing than mainstream studios",
+    "Strong photo gallery companions"
+  ],
+  "cons": [
+    "Smaller weekly output vs mega-networks",
+    "Shares many performers with sister Aylo sites"
+  ],
+  "image": {
+    "src": "/media/entities/sites/babes.webp",
+    "alt": "Babes logo and brand card",
+    "source_url": "https://www.babes.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.babes.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.babes.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.babes.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "babes.com",
+      "source_url": "https://www.babes.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

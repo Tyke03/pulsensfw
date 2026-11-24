@@ -1,0 +1,79 @@
+{
+  "slug": "ych-commishes",
+  "type": "site",
+  "name": "YCH.Commishes",
+  "url": "https://ych.commishes.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-speed live auction & commission marketplace where thousands of human anime and furry illustrators auction custom 18+ YCH art slots.",
+  "tags": [
+    "comics",
+    "furry",
+    "art",
+    "commissions"
+  ],
+  "ranking_rationale": "Best marketplace for finding active custom SFW & NSFW character commission artists; weighed against auction timers can move fast on popular slots.",
+  "pricing": {
+    "model": "Commission auction marketplace",
+    "free_tier": "Free browsing & artist listings",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Best marketplace for finding active custom SFW & NSFW character commission artists",
+    "Reputation scores & portfolio histories reduce buyer risk",
+    "Clear mature filter toggles"
+  ],
+  "cons": [
+    "Auction timers can move fast on popular slots",
+    "Minimalist utilitarian table layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ych-commishes.webp",
+    "alt": "YCH.Commishes logo and brand card",
+    "source_url": "https://ych.commishes.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://ych.commishes.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Commission auction marketplace",
+      "source_url": "https://ych.commishes.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://ych.commishes.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ych.commishes.com",
+      "source_url": "https://ych.commishes.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "joymii",
+  "type": "site",
+  "name": "Joymii",
+  "url": "https://www.joymii.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Sensual European couples studio prized for warm natural lighting, realistic chemistry, and refined erotic pacing.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples"
+  ],
+  "ranking_rationale": "Authentic unhurried chemistry and warm color grading; weighed against slower release pace (several per month).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Authentic unhurried chemistry and warm color grading",
+    "Zero artificial 'porn-acting' tropes",
+    "Sharp 4K streams and downloadable sets"
+  ],
+  "cons": [
+    "Slower release pace (several per month)",
+    "Focused strictly on sensual couples & trios"
+  ],
+  "image": {
+    "src": "/media/entities/sites/joymii.webp",
+    "alt": "Joymii logo and brand card",
+    "source_url": "https://www.joymii.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.joymii.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.joymii.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.joymii.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "joymii.com",
+      "source_url": "https://www.joymii.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

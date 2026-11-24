@@ -1,0 +1,79 @@
+{
+  "slug": "new-sensations",
+  "type": "site",
+  "name": "New Sensations",
+  "url": "https://www.newsensations.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran California studio balancing critically acclaimed 'Romance Series' scripted features with high-energy mainstream showcases.",
+  "tags": [
+    "premium",
+    "studio",
+    "story",
+    "couples"
+  ],
+  "ranking_rationale": "Best-in-class romantic feature films alongside hot gonzo lines; weighed against mixes romantic drama and heavy gonzo inconsistently in search.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Best-in-class romantic feature films alongside hot gonzo lines",
+    "Single pass unlocks Hot Wife XXX & Romance Series vaults",
+    "Consistent cast of top US performers"
+  ],
+  "cons": [
+    "Mixes romantic drama and heavy gonzo inconsistently in search",
+    "Standard monthly price without annual deal"
+  ],
+  "image": {
+    "src": "/media/entities/sites/new-sensations.webp",
+    "alt": "New Sensations logo and brand card",
+    "source_url": "https://www.newsensations.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.newsensations.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.newsensations.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.newsensations.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "newsensations.com",
+      "source_url": "https://www.newsensations.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

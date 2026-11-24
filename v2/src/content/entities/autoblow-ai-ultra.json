@@ -1,0 +1,73 @@
+{
+  "slug": "autoblow-ai-ultra",
+  "type": "product",
+  "name": "Autoblow AI Ultra",
+  "url": "https://autoblow.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Motorized vertical-grip oral simulator trained on machine-learning technique timing profiles with replaceable sleeves and optional VR script connectivity.",
+  "tags": [
+    "stroker",
+    "ai",
+    "haptics",
+    "tech"
+  ],
+  "ranking_rationale": "Delivers uniquely varied tempo and rhythm modes out of the box without needing external scripts; kept out of top tier by size, noise, and wall-power constraints.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "Standalone modes work without any app or subscription",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official Autoblow store for current pricing and sleeve packs."
+  },
+  "platforms": [
+    "Standalone",
+    "Web",
+    "VR Sync"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Variable rhythm & tempo programs require zero app setup or phone pairing",
+    "Interchangeable internal grip sleeves adjust texture and tightness",
+    "Strong vertical-motion motor handles longer sessions without stalling"
+  ],
+  "cons": [
+    "Large desktop footprint that lacks discretion for travel",
+    "Mechanical drive noise is noticeable outside closed-back headphones"
+  ],
+  "image": {
+    "src": "/media/entities/products/autoblow-ai-ultra.png",
+    "alt": "Autoblow AI Ultra logo and brand card",
+    "source_url": "https://autoblow.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Motorized multi-tempo stroker hardware",
+      "source_url": "https://autoblow.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Modes",
+      "value": "Pre-programmed variable oral-simulation tempo profiles plus manual control",
+      "source_url": "https://autoblow.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Maintenance",
+      "value": "Detachable top collar and washable interchangeable sleeves",
+      "source_url": "https://autoblow.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

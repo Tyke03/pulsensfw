@@ -1,0 +1,78 @@
+{
+  "slug": "aryion",
+  "type": "site",
+  "name": "Aryion (Eka's Portal)",
+  "url": "https://aryion.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-standing specialized fantasy, transformation, and monster illustration archive running cleanly since 2005 with active forums.",
+  "tags": [
+    "comics",
+    "furry",
+    "art",
+    "erotica"
+  ],
+  "ranking_rationale": "Decades of tightly tagged fantasy artwork and community stories, weighed against highly specific fetish niche isn't for general audiences.",
+  "pricing": {
+    "model": "Free community archive",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Decades of tightly tagged fantasy artwork and community stories",
+    "Clean classic gallery folders by artist and theme",
+    "Free zero-paywall reading"
+  ],
+  "cons": [
+    "Highly specific fetish niche isn't for general audiences",
+    "Mid-2000s HTML styling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/aryion.webp",
+    "alt": "Aryion (Eka's Portal) logo and brand card",
+    "source_url": "https://aryion.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://aryion.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community archive",
+      "source_url": "https://aryion.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://aryion.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "aryion.com",
+      "source_url": "https://aryion.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

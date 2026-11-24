@@ -1,0 +1,79 @@
+{
+  "slug": "mark-davis",
+  "type": "star",
+  "name": "Mark Davis",
+  "url": "https://en.wikipedia.org/wiki/Mark_Davis_(actor)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mark Davis is an English former pornographic actor, director, and exotic dancer. In 1998, The Independent labeled him \"Britain's biggest male porn star in America\".",
+  "tags": [
+    "performer",
+    "former performer",
+    "awards",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/mark-davis.jpg",
+    "alt": "SFW portrait of Mark Davis",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mark_Davis_DSC_0041.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "1993–2012, 2016–present",
+      "source_url": "https://en.wikipedia.org/wiki/Mark_Davis_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "London, England",
+      "source_url": "https://en.wikipedia.org/wiki/Mark_Davis_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic actor, director, exotic dancer",
+      "source_url": "https://en.wikipedia.org/wiki/Mark_Davis_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "He has been inducted into the AVN and XRCO Halls of Fame.",
+      "source_url": "https://en.wikipedia.org/wiki/Mark_Davis_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1965",
+      "source_url": "http://www.wikidata.org/entity/Q712302",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

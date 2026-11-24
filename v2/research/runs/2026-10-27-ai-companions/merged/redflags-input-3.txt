@@ -1,0 +1,60 @@
+canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
+latenight-ai|LateNight AI|latenight.ai|hosted_character_hubs|false|false
+linky-ai|Linky AI|google.com|dedicated_virtual_companions|false|true
+livec-living-ai-companion|LiveC - Living AI Companion||hosted_character_hubs|false|true
+lm-studio|LM Studio|lmstudio.ai|byok_local_frontends|false|false
+lovechat|LoveChat|lovech.at|hosted_character_hubs|false|false
+loverse|LOVERSE||hosted_character_hubs|false|true
+lovescape|Lovescape|lovescape.com|dedicated_virtual_companions|false|false
+luna-meine-ki-freundin|Luna: Meine KI-Freundin|play.google.com|dedicated_virtual_companions|false|true
+lunatalk-lunatalk-루나톡|LunaTalk / Lunatalk / 루나톡|lunatalk.ai|hosted_character_hubs|false|true
+lustcrush-ai|LustCrush AI|lustcrush.ai|hosted_character_hubs|false|false
+lustgf|LustGF|lustgf.ai|hosted_character_hubs|false|false
+lusychat-ai|LusyChat AI|lusychat.ai|hosted_character_hubs|false|false
+luvr-ai|Luvr AI|luvr.ai|hosted_character_hubs|false|false
+messengerx-io|MessengerX.io|messengerx.io|hosted_character_hubs|false|false
+miku-gg|Miku.gg|miku.gg|byok_local_frontends|false|false
+minitavern|MiniTavern|mini-tavern.com|byok_local_frontends|false|true
+miraimind|MiraiMind|play.google.com|dedicated_virtual_companions|false|true
+mistrezz-ai|Mistrezz AI|mistrezz.ai|hosted_character_hubs|false|false
+moescape-ai|Moescape AI|moescape.ai|hosted_character_hubs|false|false
+moox|MooX||hosted_character_hubs|false|true
+moreyou-ai|MoreYou.ai||hosted_character_hubs|false|false
+muah-ai|Muah AI|muah.ai|hosted_character_hubs|true|false
+my-ai-friend|My AI Friend|play.google.com|dedicated_virtual_companions|false|false
+mybabes-ai|MyBabes AI|mybabes.ai|hosted_character_hubs|false|false
+mybunny-ai|MyBunny AI|mybunnyai.com|hosted_character_hubs|false|false
+mydreamboy|MyDreamBoy|mydreamboy.com|hosted_character_hubs|false|false
+mylovely-ai|MyLovely AI|mylovely.ai|hosted_character_hubs|false|false
+nastia-ai|Nastia AI|nastia.ai|dedicated_virtual_companions|false|false
+nectar-ai-trynectar|Nectar AI (TryNectar)|trynectar.ai|hosted_character_hubs|false|false
+netwrck|Netwrck|netwrck.com|hosted_character_hubs|false|false
+neverend|Neverend|apps.apple.com|hosted_character_hubs|false|false
+nofiltergpt|NoFilterGPT|nofiltergpt.com|hosted_character_hubs|false|false
+nomi-ai|Nomi AI|nomi.ai|dedicated_virtual_companions|false|false
+novelai|NovelAI|novelai.net|interactive_story_engines|false|false
+nsfw-ai-chat|NSFW AI Chat|nsfwaichat.com|hosted_character_hubs|false|false
+nsfw-character-ai|NSFW Character AI|nsfwcharacter.ai|hosted_character_hubs|false|false
+nsfwbots|NSFWBots|nsfwbots.com|hosted_character_hubs|false|false
+nsfwgirlfriend|NSFWGirlfriend|nsfwgirlfriend.com|hosted_character_hubs|false|false
+nsfwgpt-ai|NsfwGPT.AI|nsfwgpt-ai.com|hosted_character_hubs|false|false
+nsfwlover|NSFWLover|nsfwlover.com|hosted_character_hubs|false|false
+ohchat|OhChat|ohchat.com|hosted_character_hubs|false|false
+onlychar-ai|OnlyChar.AI|onlychar.ai|hosted_character_hubs|false|false
+oobabooga-text-generation-webui|Oobabooga (Text Generation WebUI)|github.com|byok_local_frontends|false|false
+oobabooga-textgen-text-generation-webui|Oobabooga textgen / text-generation-webui|github.com|byok_local_frontends|false|false
+ourdream-ai|OurDream AI|ourdream.ai|hosted_character_hubs|false|false
+paradot|Paradot|apps.apple.com|dedicated_virtual_companions|false|true
+pephop-ai|PepHop AI|pephop.ai|hosted_character_hubs|false|false
+perchance-ai|Perchance AI|perchance.org|hosted_character_hubs|false|false
+pixelchat|PixelChat||hosted_character_hubs|false|false
+poe|Poe|poe.com|hosted_character_hubs|false|true
+polybuzz-formerly-poly-ai|PolyBuzz (formerly Poly.AI)|polybuzz.ai|dedicated_virtual_companions|false|false
+pornify|Pornify|pornify.cc|hosted_character_hubs|false|false
+povchat|POVChat|povchat.ai|hosted_character_hubs|false|false
+privee-ai|Privee AI|priveeai.com|hosted_character_hubs|false|true
+promptchan-ai|Promptchan AI|promptchan.ai|hosted_character_hubs|false|false
+pygmalion-ai|Pygmalion AI|pygmalion.chat|hosted_character_hubs|false|false
+questie-ai|Questie.ai|questie.ai|byok_local_frontends|false|false
+risuai|RisuAI|risuai.xyz|byok_local_frontends|false|false
+roleplai-plai|RolePlai / PLAI|roleplai.app|hosted_character_hubs|false|true

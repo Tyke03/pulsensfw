@@ -1,0 +1,79 @@
+{
+  "slug": "blits-games",
+  "type": "game",
+  "name": "BLits Games",
+  "url": "https://www.blitsgames.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "BLits Games — official studio store behind acclaimed full-voiced adult gay visual novels (No, Thank You!!!, Camp Buddy Scoutmaster & Jock Studio demos).",
+  "tags": [
+    "games",
+    "visual-novel",
+    "gay",
+    "romance"
+  ],
+  "ranking_rationale": "High-production full English voice acting, CG galleries & upbeat romance routes, weighed against strictly gay/BL visual-novel catalog.",
+  "pricing": {
+    "model": "Official studio digital store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "score": 8.3,
+  "pros": [
+    "High-production full English voice acting, CG galleries & upbeat romance routes",
+    "Direct DRM-free digital downloads from official BLits storefront",
+    "Dedicated community & soundtrack extras"
+  ],
+  "cons": [
+    "Strictly gay/BL visual-novel catalog",
+    "Premium ~$40–$55 visual-novel pricing"
+  ],
+  "image": {
+    "src": "/media/entities/games/blits-games.webp",
+    "alt": "BLits Games logo and brand card",
+    "source_url": "https://www.blitsgames.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://www.blitsgames.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Official studio digital store",
+      "source_url": "https://www.blitsgames.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS",
+      "source_url": "https://www.blitsgames.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "blitsgames.com",
+      "source_url": "https://www.blitsgames.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

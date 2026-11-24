@@ -1,0 +1,41 @@
+---
+import MediaFrame from './MediaFrame.astro';
+import type { EntityCard as EntityCardModel } from '../lib/content/types';
+
+interface Props {
+  card: EntityCardModel;
+  uid: string;
+}
+const { card, uid } = Astro.props;
+const isStar = card.type === 'star';
+const scoreBand = card.score === null
+  ? null
+  : card.score >= 8.5
+    ? 'great'
+    : card.score >= 7.5
+      ? 'good'
+      : card.score >= 6
+        ? 'mid'
+        : 'low';
+---
+<article class:list={['profile-card', isStar ? 'profile-card--star' : 'profile-card--brand']}>
+  <div class="profile-media-wrap">
+    <MediaFrame media={card.media} topic={card.topic} uid={uid} />
+    {card.score !== null && scoreBand && (
+      <span class:list={['profile-score', `profile-score--${scoreBand}`]} title={`Pulse score ${card.score.toFixed(1)} out of 10`}>
+        <b>{card.score.toFixed(1)}</b>
+        <span class="sr-only">Pulse score {card.score.toFixed(1)} out of 10</span>
+      </span>
+    )}
+  </div>
+  <a class:list={['card-body', card.media.state !== 'withheld' && 'card-stretch']} href={card.href}>
+    <span class="kicker">{card.kicker}</span>
+    <strong class="card-title clamp-2">{card.title}</strong>
+    <span class="meta">{card.meta}</span>
+    {card.tags.length > 0 && (
+      <span class="tag-row">
+        {card.tags.slice(0, 3).map((tag) => <span class="c-chip">{tag}</span>)}
+      </span>
+    )}
+  </a>
+</article>

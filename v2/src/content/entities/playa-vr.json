@@ -1,0 +1,81 @@
+{
+  "slug": "playa-vr",
+  "type": "game",
+  "name": "PLAY'A VR Video Player",
+  "url": "https://playavr.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Clean minimalist VR cinema & streaming player backing VRPorn.com, Quest/PSVR apps, and spatial Passthrough playback.",
+  "tags": [
+    "vr",
+    "headsets",
+    "player",
+    "haptics"
+  ],
+  "ranking_rationale": "Super clean intuitive VR interface with easy passthrough & hand tracking; weighed against fewer deep tilt/haptic tinker knobs than heresphere.",
+  "pricing": {
+    "model": "Free VR player app",
+    "free_tier": "100% free headset app",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Meta Quest",
+    "PCVR",
+    "PSVR",
+    "Steam"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Super clean intuitive VR interface with easy passthrough & hand tracking",
+    "Seamless VRPorn.com & local USB/network playback",
+    "Available freely across major headset stores"
+  ],
+  "cons": [
+    "Fewer deep tilt/haptic tinker knobs than HereSphere",
+    "Tight ecosystem links to VRPorn"
+  ],
+  "image": {
+    "src": "/media/entities/games/playa-vr.webp",
+    "alt": "PLAY'A VR Video Player logo and brand card",
+    "source_url": "https://playavr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://playavr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free VR player app",
+      "source_url": "https://playavr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Meta Quest, PCVR, PSVR, Steam",
+      "source_url": "https://playavr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "playavr.com",
+      "source_url": "https://playavr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

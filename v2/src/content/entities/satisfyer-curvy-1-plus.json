@@ -1,0 +1,80 @@
+{
+  "slug": "satisfyer-curvy-1-plus",
+  "type": "product",
+  "name": "Satisfyer Curvy 1+",
+  "url": "https://www.satisfyer.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Budget champion combining Satisfyer's crisp air-pulse suction + internal vibration + full Bluetooth app pattern control.",
+  "tags": [
+    "quiet",
+    "air-pulse",
+    "app",
+    "budget"
+  ],
+  "ranking_rationale": "Rare combination of air-pulse AND full smartphone app under $60; weighed against app ui feels functional rather than luxury.",
+  "pricing": {
+    "model": "One-time purchase (~$55)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Rare combination of air-pulse AND full smartphone app under $60",
+    "Magnetic charging and waterproof finish",
+    "Solid multi-pattern presets"
+  ],
+  "cons": [
+    "App UI feels functional rather than luxury",
+    "Slightly louder motor on top gears"
+  ],
+  "image": {
+    "src": "/media/entities/products/satisfyer-curvy-1-plus.webp",
+    "alt": "Satisfyer Curvy 1+ logo and brand card",
+    "source_url": "https://www.satisfyer.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.satisfyer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase (~$55)",
+      "source_url": "https://www.satisfyer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Bluetooth",
+      "source_url": "https://www.satisfyer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "satisfyer.com",
+      "source_url": "https://www.satisfyer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

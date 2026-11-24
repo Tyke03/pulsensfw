@@ -1,0 +1,74 @@
+{
+  "slug": "being-a-dik",
+  "type": "game",
+  "name": "Being a DIK",
+  "url": "https://store.steampowered.com/app/1126320/Being_a_DIK__Season_1/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Top-rated college drama visual novel featuring sharp comedic writing, branching romance choices, mini-games, and remarkably expressive 3D renders.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "story",
+    "pc"
+  ],
+  "ranking_rationale": "Gold standard of story-first adult visual novels—players routinely praise the comedy, character chemistry, and choice consequences just as much as the explicit scenes.",
+  "pricing": {
+    "model": "Episodic Seasons / Patreon",
+    "free_tier": "Intro episode & demo free on Steam",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Sold by Season on Steam (Season 1 complete, Season 2 ongoing / early access via DrPinkCake Patreon)."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Genuinely funny writing, memorable cast, and branching path consequences",
+    "High cinematic lighting and facial animation quality for Daz3D renders",
+    "Optional free-roam puzzles and stat minigames keep pacing lively"
+  ],
+  "cons": [
+    "Episodic wait between late Season 2/3 installments",
+    "College frat setting won't click if you dislike slice-of-life drama"
+  ],
+  "image": {
+    "src": "/media/entities/games/being-a-dik.png",
+    "alt": "Being a DIK logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1126320/Being_a_DIK__Season_1/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Choice-driven 3D adult visual novel",
+      "source_url": "https://store.steampowered.com/app/1126320/Being_a_DIK__Season_1/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Developer",
+      "value": "DrPinkCake",
+      "source_url": "https://store.steampowered.com/app/1126320/Being_a_DIK__Season_1/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platform support",
+      "value": "Native Windows, macOS, and Linux builds via Steam",
+      "source_url": "https://store.steampowered.com/app/1126320/Being_a_DIK__Season_1/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

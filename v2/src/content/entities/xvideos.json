@@ -1,0 +1,81 @@
+{
+  "slug": "xvideos",
+  "type": "site",
+  "name": "XVideos",
+  "url": "https://www.xvideos.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-traffic free tube rival to Pornhub with a stripped-down fast player, huge international catalog, and an optional XVideos RED paid tier.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream",
+    "streaming"
+  ],
+  "ranking_rationale": "Consistent global traffic leader with quick video startup and deep international uploads; held back by dated UI, aggressive mobile ads, and uneven tagging.",
+  "pricing": {
+    "model": "Ad-supported free tube + optional paid tier (XVideos RED)",
+    "free_tier": "Full free tube library with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Core tube is free; XVideos RED ad-free and studio tier varies by plan and promo; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Massive global library across amateur and studio clips",
+    "Lightweight player loads quickly even on slow connections",
+    "Strong international and non-English category depth",
+    "Optional XVideos RED tier strips ads and unlocks full scenes"
+  ],
+  "cons": [
+    "Dated visual layout and cluttered browse grid",
+    "Aggressive banner and pop-under ads on mobile web",
+    "Search tagging and duplicate uploads can be messy"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xvideos.webp",
+    "alt": "XVideos logo and brand card",
+    "source_url": "https://www.xvideos.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free adult video tube",
+      "source_url": "https://www.xvideos.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2007; operated by WGCZ Holding (Prague)",
+      "source_url": "https://en.wikipedia.org/wiki/XVideos",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported streaming with optional XVideos RED membership",
+      "source_url": "https://www.xvideos.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Minimalist HTML5 player with fast scrubbing and huge international reach",
+      "source_url": "https://www.xvideos.com",
+      "checked": "2026-11-23",
+      "evidence_type": "hands_on"
+    }
+  ],
+  "updated": "2026-11-23"
+}

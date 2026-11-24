@@ -1,0 +1,81 @@
+{
+  "slug": "sillytavern",
+  "type": "ai_app",
+  "name": "SillyTavern",
+  "url": "https://sillytavern.app",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [],
+  "summary": "Local-first LLM roleplay frontend for power users: total control over prompts, samplers, V2 character cards and lorebooks, plus any backend (local vLLM/Kobold/Oobabooga or OpenRouter/DeepSeek). Zero platform censorship because there is no platform server.",
+  "tags": [
+    "local",
+    "power user",
+    "free"
+  ],
+  "ranking_rationale": "Strong sustained community backing across power-user forums and developer threads for total backend freedom, extensibility, and zero platform censorship. Steep setup curve and pay-as-you-go API costs are the main tradeoffs; ranked #1 for NSFW freedom, testability, and privacy.",
+  "pricing": {
+    "model": "Free & open source (BYO LLM)",
+    "free_tier": "100% free software (self-hosted or bring your own API key)",
+    "from_price": "$0",
+    "currency": "USD",
+    "plans": [],
+    "notes": "SillyTavern has no hosted subscription. Running local models costs nothing beyond your hardware; external API providers (OpenRouter, DeepSeek, etc.) bill separately."
+  },
+  "platforms": [
+    "Web (local)",
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Completely free, open-source frontend with no platform subscription",
+    "Zero platform censorship because everything runs locally",
+    "Connects to local models (vLLM, Kobold, Ollama) or any external API",
+    "Deep control over prompts, samplers, V2 character cards, and lorebooks"
+  ],
+  "cons": [
+    "Steep initial setup and configuration curve compared to hosted apps",
+    "Mobile use requires LAN hosting or Termux workarounds",
+    "Heavy agentic or long-context API use can get expensive quickly"
+  ],
+  "image": {
+    "src": "/media/entities/ai/sillytavern.png",
+    "alt": "SillyTavern logo and brand card",
+    "source_url": "https://sillytavern.app",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Fan support",
+      "value": "Heavy - power-user subreddit and Hacker News threads 2025-2026; a cited user spent $150+ in a month on agentic tool-use tokens",
+      "source_url": "https://www.reddit.com/r/SillyTavernAI/comments/1rzerxd/best_platform_for_building_ai_companions_in_2026/",
+      "checked": "2026-10-27",
+      "evidence_type": "community",
+      "notes": "Community evidence with dated quotes, on file."
+    },
+    {
+      "key": "Setup cost",
+      "value": "Free: open-source frontend; you pay the LLM backend you connect (or none, self-hosted)",
+      "source_url": "https://sillytavern.app/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Complaints",
+      "value": "Steep learning curve; lorebook keyword triggers finicky; mobile setup awkward (Termux/LAN); heavy tool-use runs up API bills",
+      "source_url": "https://news.ycombinator.com/item?id=43743819",
+      "checked": "2026-10-27",
+      "evidence_type": "community"
+    },
+    {
+      "key": "Trust audit record",
+      "value": "No record - absence noted, no clearance implied",
+      "source_url": "https://sillytavern.app/",
+      "checked": "2026-10-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-10-27"
+}

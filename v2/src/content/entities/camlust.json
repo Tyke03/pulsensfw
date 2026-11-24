@@ -1,0 +1,78 @@
+{
+  "slug": "camlust",
+  "type": "site",
+  "name": "CamLust",
+  "url": "https://www.camlust.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran live adult webcam site running Streamate/private-room feeds across 24/7 global broadcasters with crisp audio/video.",
+  "tags": [
+    "cams",
+    "live",
+    "mainstream"
+  ],
+  "ranking_rationale": "Dependable HD video bitrate and 1-on-1 cam2cam stability (trade-off: per-minute private rooms outnumber free explicit shows).",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": "Free lobby preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Dependable HD video bitrate and 1-on-1 cam2cam stability",
+    "Broad model pool online around the clock",
+    "Clean category filter tabs"
+  ],
+  "cons": [
+    "Per-minute private rooms outnumber free explicit shows",
+    "Shares underlying room pools with sister portals"
+  ],
+  "image": {
+    "src": "/media/entities/sites/camlust.webp",
+    "alt": "CamLust logo and brand card",
+    "source_url": "https://www.camlust.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.camlust.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.camlust.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.camlust.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "camlust.com",
+      "source_url": "https://www.camlust.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

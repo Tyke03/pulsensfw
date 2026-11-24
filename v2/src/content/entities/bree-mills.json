@@ -1,0 +1,64 @@
+{
+  "slug": "bree-mills",
+  "type": "star",
+  "name": "Bree Mills",
+  "url": "https://en.wikipedia.org/wiki/Bree_Mills",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Bree Mills — American director, screenwriter and producer of pornographic films (b. 1981). Industry career documented from 2015.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/bree-mills.jpg",
+    "alt": "SFW portrait of Bree Mills",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bree_Mills_2019_a_by_Glenn_Francis.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q26489391 (Canada)",
+      "source_url": "http://www.wikidata.org/entity/Q26489391",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1981",
+      "source_url": "http://www.wikidata.org/entity/Q26489391",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2015–present",
+      "source_url": "https://en.wikipedia.org/wiki/Bree_Mills",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

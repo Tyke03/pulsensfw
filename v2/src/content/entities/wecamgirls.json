@@ -1,0 +1,78 @@
+{
+  "slug": "wecamgirls",
+  "type": "site",
+  "name": "WeCamGirls",
+  "url": "https://www.wecamgirls.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern supportive cam-model & creator forum dedicated to gear recommendations, OBS setups, payout tracking, and creator burnout help.",
+  "tags": [
+    "forums",
+    "community",
+    "creators"
+  ],
+  "ranking_rationale": "Practical modern OBS, lighting & Lovelense troubleshooting threads for broadcasters; weighed against specifically creator-oriented rather than viewer directory.",
+  "pricing": {
+    "model": "Free creator community",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Practical modern OBS, lighting & Lovelense troubleshooting threads for broadcasters",
+    "Cleaner responsive forum UX than 2000s competitors",
+    "Strong creator camaraderie"
+  ],
+  "cons": [
+    "Specifically creator-oriented rather than viewer directory",
+    "Moderate daily thread velocity"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wecamgirls.webp",
+    "alt": "WeCamGirls logo and brand card",
+    "source_url": "https://www.wecamgirls.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.wecamgirls.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free creator community",
+      "source_url": "https://www.wecamgirls.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.wecamgirls.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wecamgirls.com",
+      "source_url": "https://www.wecamgirls.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

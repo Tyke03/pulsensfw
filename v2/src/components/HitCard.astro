@@ -1,0 +1,24 @@
+---
+import MediaFrame from './MediaFrame.astro';
+import { TOPIC_LABEL } from '../lib/site';
+import type { SearchHit } from '../lib/content/types';
+
+interface Props {
+  hit: SearchHit;
+  uid: string;
+}
+const { hit, uid } = Astro.props;
+---
+<article class="card card--standard search-hit">
+  <MediaFrame media={hit.media} topic={hit.topic} uid={uid} />
+  <div class="card-body">
+    <div class="card-meta">
+      <span class:list={['c-chip', `c-chip--${hit.topic}`]}>{TOPIC_LABEL[hit.topic]}</span>
+      {!TOPIC_LABEL[hit.topic].toLowerCase().startsWith(hit.kicker.toLowerCase()) && <span class="c-chip">{hit.kicker}</span>}
+    </div>
+    <h2 class="card-title clamp-2">
+      <a class:list={['search-hit-link', hit.media.state !== 'withheld' && 'card-stretch']} href={hit.href}>{hit.title}</a>
+    </h2>
+    {hit.dek && <p class="dek clamp-2">{hit.dek}</p>}
+  </div>
+</article>

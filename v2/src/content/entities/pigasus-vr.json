@@ -1,0 +1,78 @@
+{
+  "slug": "pigasus-vr",
+  "type": "game",
+  "name": "Pigasus VR Media Player",
+  "url": "https://hanginghatstudios.com/pigasus/",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Rock-solid Quest/PCVR local media player prized by power users for Samba network speeds, 3D LUT tinting, and privacy.",
+  "tags": [
+    "vr",
+    "headsets",
+    "player"
+  ],
+  "ranking_rationale": "Ultra-reliable local SAMBA/UPnP streaming with zero cloud telemetry; weighed against sparser ui than skybox or heresphere.",
+  "pricing": {
+    "model": "Paid headset app ($5.99)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Ultra-reliable local SAMBA/UPnP streaming with zero cloud telemetry",
+    "Granular IPD, tilt, zoom & color saturation adjustments",
+    "Supports haptic Handy/Intiface scripts via companion plugins"
+  ],
+  "cons": [
+    "Sparser UI than SKYBOX or HereSphere",
+    "Manual file-browser workflow"
+  ],
+  "image": {
+    "src": "/media/entities/games/pigasus-vr.webp",
+    "alt": "Pigasus VR Media Player logo and brand card",
+    "source_url": "https://hanginghatstudios.com/pigasus/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://hanginghatstudios.com/pigasus/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid headset app ($5.99)",
+      "source_url": "https://hanginghatstudios.com/pigasus/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Meta Quest, PCVR",
+      "source_url": "https://hanginghatstudios.com/pigasus/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hanginghatstudios.com",
+      "source_url": "https://hanginghatstudios.com/pigasus/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

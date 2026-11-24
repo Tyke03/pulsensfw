@@ -1,0 +1,78 @@
+{
+  "slug": "kasidie",
+  "type": "site",
+  "name": "Kasidie",
+  "url": "https://www.kasidie.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "West-Coast and US-strong swinger & open lifestyle event network powering vetted local house parties and hotel takeovers.",
+  "tags": [
+    "niche",
+    "couples",
+    "community"
+  ],
+  "ranking_rationale": "Strong verified US local house party & club ecosystem; weighed against regional density strongest in us west/southwest.",
+  "pricing": {
+    "model": "Paid membership + free trial",
+    "free_tier": "Basic event preview free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Strong verified US local house party & club ecosystem",
+    "Clean photo validation badges reduce catfish profiles",
+    "Easy couples-only event RSVP tools"
+  ],
+  "cons": [
+    "Regional density strongest in US West/Southwest",
+    "Aged interface aesthetics"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kasidie.webp",
+    "alt": "Kasidie logo and brand card",
+    "source_url": "https://www.kasidie.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.kasidie.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid membership + free trial",
+      "source_url": "https://www.kasidie.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.kasidie.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kasidie.com",
+      "source_url": "https://www.kasidie.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

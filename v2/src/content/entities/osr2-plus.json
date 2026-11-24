@@ -1,0 +1,81 @@
+{
+  "slug": "osr2-plus",
+  "type": "product",
+  "name": "OSR2+ Open Stroker",
+  "url": "https://www.patreon.com/tempestvr",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Multi-axis DIY/boutique robotic stroker platform adding pitch, roll, and twist motion to standard linear VR scripts via Intiface.",
+  "tags": [
+    "vr",
+    "app",
+    "haptics",
+    "scripts",
+    "power user"
+  ],
+  "ranking_rationale": "True multi-axis 3DOF/6DOF motion far beyond single-axis strokers; weighed against requires diy assembly or buying from community builders.",
+  "pricing": {
+    "model": "DIY kit / boutique builder purchase",
+    "free_tier": "MultiFunPlayer & Intiface software free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "VR Sync",
+    "USB"
+  ],
+  "score": 9.3,
+  "pros": [
+    "True multi-axis 3DOF/6DOF motion far beyond single-axis strokers",
+    "Open hardware & community scripts work seamlessly with DeoVR/VaM",
+    "Whisper-smooth brushless or servo variants from builders"
+  ],
+  "cons": [
+    "Requires DIY assembly or buying from community builders",
+    "Clunky desk clamp setup and software configuration"
+  ],
+  "image": {
+    "src": "/media/entities/products/osr2-plus.webp",
+    "alt": "OSR2+ Open Stroker logo and brand card",
+    "source_url": "https://www.patreon.com/tempestvr",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.patreon.com/tempestvr",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "DIY kit / boutique builder purchase",
+      "source_url": "https://www.patreon.com/tempestvr",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, VR Sync, USB",
+      "source_url": "https://www.patreon.com/tempestvr",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "patreon.com",
+      "source_url": "https://www.patreon.com/tempestvr",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

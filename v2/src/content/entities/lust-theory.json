@@ -1,0 +1,80 @@
+{
+  "slug": "lust-theory",
+  "type": "game",
+  "name": "Lust Theory",
+  "url": "https://store.steampowered.com/app/1789260/Lust_Theory/",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Beloved Groundhog-Day-meets-romance adult visual novel praised for sharp voice humor, slick renders, and tight pacing.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "comedy"
+  ],
+  "ranking_rationale": "Clean 3D renders paired with expressive animation loops; weighed against classic harem premise trope.",
+  "pricing": {
+    "model": "Paid indie download / Steam",
+    "free_tier": "Free demo chapters",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Clean 3D renders paired with expressive animation loops",
+    "Genuinely fun time-loop mystery hooks",
+    "Completed Season 1 package on Steam"
+  ],
+  "cons": [
+    "Classic harem premise trope",
+    "Linear key choices across episodes"
+  ],
+  "image": {
+    "src": "/media/entities/games/lust-theory.webp",
+    "alt": "Lust Theory logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1789260/Lust_Theory/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1789260/Lust_Theory/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid indie download / Steam",
+      "source_url": "https://store.steampowered.com/app/1789260/Lust_Theory/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/1789260/Lust_Theory/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1789260/Lust_Theory/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

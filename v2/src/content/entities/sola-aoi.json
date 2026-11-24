@@ -1,0 +1,71 @@
+{
+  "slug": "sola-aoi",
+  "type": "star",
+  "name": "Sola Aoi",
+  "url": "https://en.wikipedia.org/wiki/Sola_Aoi",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sola Aoi is a Japanese former AV idol, nude model, and actress. Starring in more than 600 adult films between 2002 and 2011, Aoi is widely considered to be one of the most popular adult videos (AV) idols of the 2000s.",
+  "tags": [
+    "performer",
+    "veteran",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/sola-aoi.jpg",
+    "alt": "SFW portrait of Sola Aoi",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aoi_Sora_%22Lazy_Hazy_Crazy%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_(22241441840)_(cropped).jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "2002–present",
+      "source_url": "https://en.wikipedia.org/wiki/Sola_Aoi",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Kanagawa, Japan",
+      "source_url": "https://en.wikipedia.org/wiki/Sola_Aoi",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "actor, Actress, tarento, talent, singing, singer",
+      "source_url": "https://en.wikipedia.org/wiki/Sola_Aoi",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1981",
+      "source_url": "http://www.wikidata.org/entity/Q287027",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

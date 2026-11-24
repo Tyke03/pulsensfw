@@ -1,0 +1,79 @@
+{
+  "slug": "eternal-desire",
+  "type": "site",
+  "name": "Eternal Desire",
+  "url": "https://www.eternaldesire.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-romance MetArt sister studio pairing glamorous cinema lighting with sensual, tender heterosexual couples filmmaking.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples",
+    "art"
+  ],
+  "ranking_rationale": "Lush filmic color grading and affectionate, unhurried romantic chemistry (trade-off: softer glamorized erotic tone rather than raw gonzo energy).",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Lush filmic color grading and affectionate, unhurried romantic chemistry",
+    "Easy access alongside MetArt network bundles",
+    "Full 4K streams and high-res photo sets"
+  ],
+  "cons": [
+    "Softer glamorized erotic tone rather than raw gonzo energy",
+    "Similar aesthetic template across releases"
+  ],
+  "image": {
+    "src": "/media/entities/sites/eternal-desire.webp",
+    "alt": "Eternal Desire logo and brand card",
+    "source_url": "https://www.eternaldesire.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.eternaldesire.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.eternaldesire.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.eternaldesire.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "eternaldesire.com",
+      "source_url": "https://www.eternaldesire.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

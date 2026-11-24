@@ -1,0 +1,80 @@
+{
+  "slug": "inkitt",
+  "type": "site",
+  "name": "Inkitt",
+  "url": "https://www.inkitt.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Reader-driven serialized novel platform hosting massive completed libraries of spicy adult romance, paranormal, and dark-romance fiction free.",
+  "tags": [
+    "erotica",
+    "stories",
+    "books",
+    "free"
+  ],
+  "ranking_rationale": "Thousands of complete novel-length steamy romance stories 100% free to read, weighed against heavy concentration on werewolf, billionaire, and fantasy romance tropes.",
+  "pricing": {
+    "model": "Free reading + optional author subs",
+    "free_tier": "Unlimited free novel reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Thousands of complete novel-length steamy romance stories 100% free to read",
+    "Clean responsive mobile app reader with offline caching",
+    "Active author updates"
+  ],
+  "cons": [
+    "Heavy concentration on werewolf, billionaire, and fantasy romance tropes",
+    "Top hit authors sometimes graduate exclusively to Galatea"
+  ],
+  "image": {
+    "src": "/media/entities/sites/inkitt.webp",
+    "alt": "Inkitt logo and brand card",
+    "source_url": "https://www.inkitt.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.inkitt.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free reading + optional author subs",
+      "source_url": "https://www.inkitt.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.inkitt.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "inkitt.com",
+      "source_url": "https://www.inkitt.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "laly-vallade",
+  "type": "star",
+  "name": "Laly Vallade",
+  "url": "https://en.wikipedia.org/wiki/Laly_Vallade",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Laly Vallade, also known just as Laly, is a French model, adult actress and DJ.",
+  "tags": [
+    "performer",
+    "veteran",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/laly-vallade.jpg",
+    "alt": "SFW portrait of Laly Vallade",
+    "source_url": "https://commons.wikimedia.org/wiki/File:LalyWiki.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Laly Vallade",
+      "source_url": "https://en.wikipedia.org/wiki/Laly_Vallade",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1981",
+      "source_url": "http://www.wikidata.org/entity/Q3216552",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "llama-cpp",
+  "type": "ai_app",
+  "name": "llama.cpp",
+  "url": "https://github.com/ggml-org/llama.cpp",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The foundational ultra-fast C/C++ GGUF inference engine powering nearly every uncensored local roleplay LLM setup across consumer GPUs and Macs.",
+  "tags": [
+    "local",
+    "open-source",
+    "inference",
+    "cli"
+  ],
+  "ranking_rationale": "Blazing fast CUDA, Metal, Vulkan, and CPU split inference for giant 70B+ GGUFs (trade-off: command-line flags reward technical tuning).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Docker"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Blazing fast CUDA, Metal, Vulkan, and CPU split inference for giant 70B+ GGUFs",
+    "Includes built-in minimalist `llama-server` web chat & OpenAI API endpoint",
+    "100% local, offline, and unmoderated"
+  ],
+  "cons": [
+    "Command-line flags reward technical tuning",
+    "Pure inference engine without rich RP avatar cards"
+  ],
+  "image": {
+    "src": "/media/entities/ai/llama-cpp.webp",
+    "alt": "llama.cpp logo and brand card",
+    "source_url": "https://github.com/ggml-org/llama.cpp",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/ggml-org/llama.cpp",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/ggml-org/llama.cpp",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Docker",
+      "source_url": "https://github.com/ggml-org/llama.cpp",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/ggml-org/llama.cpp",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

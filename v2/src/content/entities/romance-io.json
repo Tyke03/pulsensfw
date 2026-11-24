@@ -1,0 +1,79 @@
+{
+  "slug": "romance-io",
+  "type": "site",
+  "name": "Romance.io",
+  "url": "https://www.romance.io",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The internet's essential community-tagged spicy romance book finder filtering exact 'Steam Level' (1 to 5 Flames) across tropes and kinks.",
+  "tags": [
+    "erotica",
+    "books",
+    "database",
+    "free"
+  ],
+  "ranking_rationale": "Filter exact explicitness cleanly from closed-door to Explicit & Plentiful (trade-off: catalog links out to retailers/libraries rather than hosting full EPUB text).",
+  "pricing": {
+    "model": "100% free community index",
+    "free_tier": "Completely free search",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Filter exact explicitness cleanly from closed-door to Explicit & Plentiful",
+    "Deep boolean trope search (enemies-to-lovers, praise, reverse harem, etc.)",
+    "100% free, ad-light independent community project"
+  ],
+  "cons": [
+    "Catalog links out to retailers/libraries rather than hosting full EPUB text",
+    "Occasional unrated obscure indie novellas"
+  ],
+  "image": {
+    "src": "/media/entities/sites/romance-io.webp",
+    "alt": "Romance.io logo and brand card",
+    "source_url": "https://www.romance.io",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.romance.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free community index",
+      "source_url": "https://www.romance.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.romance.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "romance.io",
+      "source_url": "https://www.romance.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "tabbyapi",
+  "type": "ai_app",
+  "name": "TabbyAPI",
+  "url": "https://github.com/theroyallab/tabbyAPI",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Purpose-built OpenAI-compatible ExLlamaV2 server adored by SillyTavern marathon writers for blazing EXL2 token speed and CFG guidance.",
+  "tags": [
+    "local",
+    "open-source",
+    "api",
+    "inference"
+  ],
+  "ranking_rationale": "Exposes silky-smooth 4bpw–6bpw EXL2 speeds directly into SillyTavern (trade-off: requires Python/Linux or WSL setup plus pre-quantized EXL2 weights).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Exposes silky-smooth 4bpw–6bpw EXL2 speeds directly into SillyTavern",
+    "Supports dynamic sampler tweaks, banned tokens, and draft speculative decoding",
+    "Zero cloud censorship"
+  ],
+  "cons": [
+    "Requires Python/Linux or WSL setup plus pre-quantized EXL2 weights",
+    "No built-in chat frontend (API backend only)"
+  ],
+  "image": {
+    "src": "/media/entities/ai/tabbyapi.webp",
+    "alt": "TabbyAPI logo and brand card",
+    "source_url": "https://github.com/theroyallab/tabbyAPI",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/theroyallab/tabbyAPI",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/theroyallab/tabbyAPI",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/theroyallab/tabbyAPI",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/theroyallab/tabbyAPI",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

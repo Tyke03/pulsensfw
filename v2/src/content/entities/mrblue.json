@@ -1,0 +1,80 @@
+{
+  "slug": "mrblue",
+  "type": "site",
+  "name": "MrBlue",
+  "url": "https://www.mrblue.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Established Korean listed webtoon & digital manhwa platform hosting exclusive BL, romance, and adult martial-arts/drama webtoons.",
+  "tags": [
+    "hentai",
+    "comics",
+    "manga",
+    "store"
+  ],
+  "ranking_rationale": "Publicly listed official Korean webtoon publisher with deep exclusive BL & adult manhwa (trade-off: korean-only interface & adult verification barrier for foreign accounts).",
+  "pricing": {
+    "model": "Official webtoon storefront",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Publicly listed official Korean webtoon publisher with deep exclusive BL & adult manhwa",
+    "Crisp high-res vertical scroll viewer",
+    "Generous free preview episodes"
+  ],
+  "cons": [
+    "Korean-only interface & adult verification barrier for foreign accounts",
+    "Coin per-episode model"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mrblue.webp",
+    "alt": "MrBlue logo and brand card",
+    "source_url": "https://www.mrblue.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.mrblue.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Official webtoon storefront",
+      "source_url": "https://www.mrblue.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.mrblue.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mrblue.com",
+      "source_url": "https://www.mrblue.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

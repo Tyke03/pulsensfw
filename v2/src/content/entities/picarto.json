@@ -1,0 +1,79 @@
+{
+  "slug": "picarto",
+  "type": "site",
+  "name": "Picarto",
+  "url": "https://picarto.tv",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The classic creative livestreaming home for digital illustrators, comic artists, and Live2D riggers—explicitly permitting 18+ tagged art streams.",
+  "tags": [
+    "comics",
+    "art",
+    "streaming",
+    "community"
+  ],
+  "ranking_rationale": "Zero harsh censorship bans on NSFW figure drawing or comic sketching streams (trade-off: free tier limits stream bitrate & VOD storage).",
+  "pricing": {
+    "model": "Freemium streaming + creator tips",
+    "free_tier": "Free viewing & basic streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Zero harsh censorship bans on NSFW figure drawing or comic sketching streams",
+    "Low-latency multi-artist collab canvas streams",
+    "Clear 18+ age-gated room filtering"
+  ],
+  "cons": [
+    "Free tier limits stream bitrate & VOD storage",
+    "UI feels cluttered with promo badges"
+  ],
+  "image": {
+    "src": "/media/entities/sites/picarto.webp",
+    "alt": "Picarto logo and brand card",
+    "source_url": "https://picarto.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://picarto.tv",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium streaming + creator tips",
+      "source_url": "https://picarto.tv",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://picarto.tv",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "picarto.tv",
+      "source_url": "https://picarto.tv",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

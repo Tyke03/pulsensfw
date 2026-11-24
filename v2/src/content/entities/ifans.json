@@ -1,0 +1,78 @@
+{
+  "slug": "ifans",
+  "type": "site",
+  "name": "iFans",
+  "url": "https://ifans.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Adult-permissive creator club portal supporting tiered fan subscriptions, custom requests, and direct referral commissions.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "Open adult-friendly policies without arbitrary shadowbans; weighed against small standalone creator pool compared with fansly/onlyfans.",
+  "pricing": {
+    "model": "Creator subscriptions & tips",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Open adult-friendly policies without arbitrary shadowbans",
+    "Easy tiered memberships & private tip unlocks",
+    "Built-in referral share links"
+  ],
+  "cons": [
+    "Small standalone creator pool compared with Fansly/OnlyFans",
+    "Basic search filtering"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ifans.webp",
+    "alt": "iFans logo and brand card",
+    "source_url": "https://ifans.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://ifans.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions & tips",
+      "source_url": "https://ifans.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://ifans.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ifans.com",
+      "source_url": "https://ifans.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "storiesonline",
+  "type": "site",
+  "name": "StoriesOnline",
+  "url": "https://storiesonline.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Massive reader-curated erotic fiction library famous for strict tag filters, multi-chapter novels, and quality scores.",
+  "tags": [
+    "erotica",
+    "stories",
+    "fiction"
+  ],
+  "ranking_rationale": "Deep structured plot/theme filter engine; weighed against registration required after daily chapter caps.",
+  "pricing": {
+    "model": "Free account + Supporter pass",
+    "free_tier": "Core story library free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Deep structured plot/theme filter engine",
+    "Huge multi-chapter romance and sci-fi erotica novels",
+    "Free reading archive"
+  ],
+  "cons": [
+    "Registration required after daily chapter caps",
+    "Plain text-first layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/storiesonline.webp",
+    "alt": "StoriesOnline logo and brand card",
+    "source_url": "https://storiesonline.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://storiesonline.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free account + Supporter pass",
+      "source_url": "https://storiesonline.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://storiesonline.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "storiesonline.net",
+      "source_url": "https://storiesonline.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

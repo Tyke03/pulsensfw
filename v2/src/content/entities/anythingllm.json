@@ -1,0 +1,81 @@
+{
+  "slug": "anythingllm",
+  "type": "ai_app",
+  "name": "AnythingLLM",
+  "url": "https://anythingllm.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Polished all-in-one private desktop & Docker workspace for chatting with local uncensored Ollama/GGUF models and private document libraries.",
+  "tags": [
+    "local",
+    "chat",
+    "open-source",
+    "privacy"
+  ],
+  "ranking_rationale": "One-click installer bundles local LLM chat, vector RAG, and zero telemetry cleanly (trade-off: character-card roleplay features trail SillyTavern's specialized lorebooks).",
+  "pricing": {
+    "model": "Free open-source + optional cloud",
+    "free_tier": "100% free open-source desktop & Docker",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Docker"
+  ],
+  "score": 8.7,
+  "pros": [
+    "One-click installer bundles local LLM chat, vector RAG, and zero telemetry cleanly",
+    "Zero filter guardrails when paired with uncensored HuggingFace GGUF weights",
+    "Sleek modern cross-platform desktop UI"
+  ],
+  "cons": [
+    "Character-card roleplay features trail SillyTavern's specialized lorebooks",
+    "Requires decent local RAM/VRAM or API endpoint"
+  ],
+  "image": {
+    "src": "/media/entities/ai/anythingllm.webp",
+    "alt": "AnythingLLM logo and brand card",
+    "source_url": "https://anythingllm.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://anythingllm.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open-source + optional cloud",
+      "source_url": "https://anythingllm.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Docker",
+      "source_url": "https://anythingllm.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "anythingllm.com",
+      "source_url": "https://anythingllm.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

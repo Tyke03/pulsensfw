@@ -1,0 +1,79 @@
+{
+  "slug": "nhentai",
+  "type": "site",
+  "name": "nhentai",
+  "url": "https://nhentai.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The definitive high-speed doujinshi and adult manga reader famous for six-digit gallery IDs and razor-accurate tag search.",
+  "tags": [
+    "hentai",
+    "doujinshi",
+    "manga",
+    "free"
+  ],
+  "ranking_rationale": "Unrivaled searchable English/Japanese doujinshi index; weighed against pure image-reader archive (zero animated video).",
+  "pricing": {
+    "model": "100% free reader",
+    "free_tier": "Free unlimited browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Unrivaled searchable English/Japanese doujinshi index",
+    "Fast clean page-by-page reader with zero lag",
+    "Powerful tag inclusion/exclusion syntax"
+  ],
+  "cons": [
+    "Pure image-reader archive (zero animated video)",
+    "Strict copyright takedowns remove licensed Fakku titles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nhentai.webp",
+    "alt": "nhentai logo and brand card",
+    "source_url": "https://nhentai.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://nhentai.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free reader",
+      "source_url": "https://nhentai.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://nhentai.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nhentai.net",
+      "source_url": "https://nhentai.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "bdsmtest",
+  "type": "site",
+  "name": "BDSMTest",
+  "url": "https://bdsmtest.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The internet's most shared 25-archetype kink personality assessment helping individuals and couples explore desires and share scored profiles.",
+  "tags": [
+    "niche",
+    "community",
+    "quiz"
+  ],
+  "ranking_rationale": "Nuanced percentage breakdowns across Switch, Brat, Rope Bunny, Daddy/Mommy & more; weighed against no full video/community feed—strictly self-assessment utility.",
+  "pricing": {
+    "model": "100% free utility",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Nuanced percentage breakdowns across Switch, Brat, Rope Bunny, Daddy/Mommy & more",
+    "Instant shareable URL results for partner compatibility comparisons",
+    "Completely free with zero signup pressure"
+  ],
+  "cons": [
+    "No full video/community feed—strictly self-assessment utility",
+    "Visual UI looks purely functional"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bdsmtest.webp",
+    "alt": "BDSMTest logo and brand card",
+    "source_url": "https://bdsmtest.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://bdsmtest.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free utility",
+      "source_url": "https://bdsmtest.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://bdsmtest.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bdsmtest.org",
+      "source_url": "https://bdsmtest.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

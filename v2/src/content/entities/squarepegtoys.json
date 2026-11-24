@@ -1,0 +1,79 @@
+{
+  "slug": "squarepegtoys",
+  "type": "site",
+  "name": "SquarePegToys",
+  "url": "https://www.squarepegtoys.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Renowned boutique manufacturer hand-pouring ultra-soft squishy platinum-cure silicone plugs, stretchers & ergonomic toys in the USA.",
+  "tags": [
+    "niche",
+    "silicone",
+    "bdsm",
+    "store"
+  ],
+  "ranking_rationale": "Unmatched velvety ultra-soft proprietary silicone blend prized for comfortable wear (trade-off: premium artisan pricing).",
+  "pricing": {
+    "model": "Artisan silicone manufacturer",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Unmatched velvety ultra-soft proprietary silicone blend prized for comfortable wear",
+    "100% body-safe hand-poured American platinum silicone",
+    "Thoughtful anatomical progression sizing"
+  ],
+  "cons": [
+    "Premium artisan pricing",
+    "Soft silicone requires strict water-based lube care"
+  ],
+  "image": {
+    "src": "/media/entities/sites/squarepegtoys.webp",
+    "alt": "SquarePegToys logo and brand card",
+    "source_url": "https://www.squarepegtoys.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.squarepegtoys.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Artisan silicone manufacturer",
+      "source_url": "https://www.squarepegtoys.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.squarepegtoys.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "squarepegtoys.com",
+      "source_url": "https://www.squarepegtoys.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "wankz",
+  "type": "site",
+  "name": "Wankz",
+  "url": "https://www.wankz.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran multi-channel American paysite network uniting 30+ niche POV, MILF, glamour, and cosplay studios in one pass.",
+  "tags": [
+    "premium",
+    "studio",
+    "mainstream"
+  ],
+  "ranking_rationale": "Wide 30+ sub-site variety on a single login, weighed against formulaic POV premises across sub-brands.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Wide 30+ sub-site variety on a single login",
+    "Consistent crisp HD/4K streaming and clean mobile player",
+    "Deep performer archive including VR crossover sister sites"
+  ],
+  "cons": [
+    "Formulaic POV premises across sub-brands",
+    "Frequent bundle upsells"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wankz.webp",
+    "alt": "Wankz logo and brand card",
+    "source_url": "https://www.wankz.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.wankz.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.wankz.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.wankz.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wankz.com",
+      "source_url": "https://www.wankz.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

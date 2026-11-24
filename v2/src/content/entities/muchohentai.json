@@ -1,0 +1,78 @@
+{
+  "slug": "muchohentai",
+  "type": "site",
+  "name": "MuchoHentai",
+  "url": "https://muchohentai.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran organized free hentai streaming archive covering series by release year, studio, and uncensored tags.",
+  "tags": [
+    "hentai",
+    "anime",
+    "free"
+  ],
+  "ranking_rationale": "Organized series-by-series episode trees; weighed against basic design.",
+  "pricing": {
+    "model": "Free streaming",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Organized series-by-series episode trees",
+    "Covers uncensored releases cleanly",
+    "Clear mobile category menus"
+  ],
+  "cons": [
+    "Basic design",
+    "Pop-ups appear on mobile taps"
+  ],
+  "image": {
+    "src": "/media/entities/sites/muchohentai.webp",
+    "alt": "MuchoHentai logo and brand card",
+    "source_url": "https://muchohentai.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://muchohentai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free streaming",
+      "source_url": "https://muchohentai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://muchohentai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "muchohentai.com",
+      "source_url": "https://muchohentai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

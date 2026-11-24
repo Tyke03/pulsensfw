@@ -1,0 +1,78 @@
+{
+  "slug": "subscribestar-adult",
+  "type": "site",
+  "name": "SubscribeStar.adult",
+  "url": "https://subscribestar.adult",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Indispensable adult-friendly Patreon alternative powering 3D game devs, NSFW illustrators, cosplayers, and VNs.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "Go-to clean funding hub for indie adult games & NSFW artists; weighed against sparser discovery feed than patreon.",
+  "pricing": {
+    "model": "Monthly patronage tiers",
+    "free_tier": "Public creator posts free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Go-to clean funding hub for indie adult games & NSFW artists",
+    "Reliable strict Tier/Discord role integration",
+    "Zero sudden NSFW policy purges"
+  ],
+  "cons": [
+    "Sparser discovery feed than Patreon",
+    "Simple functional UI"
+  ],
+  "image": {
+    "src": "/media/entities/sites/subscribestar-adult.webp",
+    "alt": "SubscribeStar.adult logo and brand card",
+    "source_url": "https://subscribestar.adult",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://subscribestar.adult",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Monthly patronage tiers",
+      "source_url": "https://subscribestar.adult",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://subscribestar.adult",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "subscribestar.adult",
+      "source_url": "https://subscribestar.adult",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

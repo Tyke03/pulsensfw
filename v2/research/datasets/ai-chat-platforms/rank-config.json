@@ -1,0 +1,109 @@
+{
+  "title": "AI chat & companion platforms — ranked picks",
+  "category": "AI chat/companion platforms — dataset ai-chat-platforms (built 2026-11-04 from research run 2026-10-27-ai-companions)",
+  "read_dataset": "platforms.json rows in the --dataset directory: descriptive research facts (scope, usage, NSFW/chat evidence, red flags); the dataset itself is not a ranking",
+  "replacement_rule": "Replacement rule: a pick only leaves a list at a rerun when a higher-scoring evidenced row exists to replace it — the rerun is the arbiter, so never hand-edit outputs; adjust this config instead.",
+  "eligibility": {
+    "require": [
+      {
+        "column": "scope_decision",
+        "equals_any": ["in"],
+        "label": "merged scope decision = in (borderline rows stay in the dataset but are not ranked; scope out is not in the dataset)"
+      },
+      {
+        "column": "nsfw_answer",
+        "equals_any": ["yes"],
+        "label": "merged NSFW answer = yes"
+      }
+    ],
+    "exclusions": [
+      {
+        "column": "nsfw_answer",
+        "equals_any": ["conflict"],
+        "reason": "NSFW answer is 'conflict' — first-party sources disagree and are never silently collapsed; excluded from ranking and listed separately until re-verified first-party"
+      },
+      {
+        "column": "scope_decision",
+        "equals_any": ["borderline"],
+        "reason": "scope_decision=borderline — pending a resolved scope call, so not ranked"
+      }
+    ]
+  },
+  "lists": [
+    {
+      "id": "main",
+      "label": "Main picks — hosted hubs, companions, hybrids",
+      "categories": ["hosted_character_hubs", "dedicated_virtual_companions", "hybrid_hub_and_frontend"],
+      "size": 10,
+      "near_misses": 5
+    },
+    {
+      "id": "secondary",
+      "label": "Secondary picks — BYOK/local frontends and story engines",
+      "categories": ["byok_local_frontends", "interactive_story_engines"],
+      "size": 5,
+      "near_misses": 3
+    }
+  ],
+  "ignored_categories": {},
+  "provisional_rules": [
+    {
+      "column": "confidence",
+      "equals_any": ["low"],
+      "label": "low-confidence rows can rank but are flagged provisional"
+    }
+  ],
+  "factors": [
+    {
+      "id": "band",
+      "column": "usage_band",
+      "weight": 2,
+      "points": {"A": 4, "B": 3, "C": 2, "D": 1, "U": 0},
+      "unknown_points": 0,
+      "doc": "usage band from the usage pass; A = strongest observed usage signal, U = unknown/none recorded"
+    },
+    {
+      "id": "supply",
+      "column": "supply_runs",
+      "weight": 1,
+      "cap": 4,
+      "doc": "independent census runs that assessed the platform (0-4; unseen runs are not guessed)"
+    },
+    {
+      "id": "community",
+      "column": "community_users",
+      "weight": 1,
+      "cap": 5,
+      "doc": "distinct community users observed in census evidence, tier maxes summed A+B (lower-bound signal; capped at 5)"
+    },
+    {
+      "id": "confidence",
+      "column": "confidence",
+      "weight": 1.5,
+      "points": {"high": 3, "medium": 2, "low": 1},
+      "unknown_points": 0,
+      "doc": "research confidence: high = verbatim first-party NSFW + flags researched; medium = resolved NSFW or flags researched; low = unresolved/conflict/not_researched"
+    }
+  ],
+  "flags_factor": {
+    "weight": 1,
+    "column": "flags",
+    "status_units": {"recurring": 2, "isolated": 1},
+    "default_status_unit": 1,
+    "type_severity": {
+      "billing": 3,
+      "data_breach": 3,
+      "moderation_failure_csam_deepfake": 3,
+      "deceptive_marketing": 2,
+      "white_label_clone": 2,
+      "content_purge": 2,
+      "filter_tightening": 2,
+      "shutdown_risk": 2,
+      "policy_pivot": 1
+    },
+    "default_severity": 1,
+    "top_show": 3,
+    "doc": "penalty factor: cost = severity(type) x unit(status); recurring flags (2+ recounted independent users) cost 2x an isolated report; billing (incl. cancellation/refund disputes), data-breach and safety-failure issues weigh most; unknown flag types default to severity 1"
+  },
+  "score_documentation": "score = SUM(factor_weight x factor_points) - SUM(flags factor weight x severity(type) x unit(status)). Factor points come from the config maps above (unknown values score unknown_points, never guessed). usage band and confidence are value maps; supply and community are raw counts with caps; the flags factor subtracts, so it can pull a heavily-flagged platform down multiple slots. Near misses report their score gap and per-factor deltas to the last pick — that is 'what kept it out'."
+}

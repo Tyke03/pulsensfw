@@ -1,0 +1,79 @@
+{
+  "slug": "jerkay",
+  "type": "site",
+  "name": "Jerkay",
+  "url": "https://jerkay.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast anonymous adult video chat roulette explicitly dedicated to gay and bi men matching instant browser cams worldwide.",
+  "tags": [
+    "cams",
+    "live",
+    "gay",
+    "roulette"
+  ],
+  "ranking_rationale": "Zero-download quick random cam roulette focused on male/queer matches; weighed against mix of casual exhibitionists & rapid skips.",
+  "pricing": {
+    "model": "Free roulette + Pro filters",
+    "free_tier": "Free random male cam rooms",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Zero-download quick random cam roulette focused on male/queer matches",
+    "Free basic matching without heavy upsell hoops",
+    "Global 24/7 traffic"
+  ],
+  "cons": [
+    "Mix of casual exhibitionists & rapid skips",
+    "Basic early-2010s web styling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/jerkay.webp",
+    "alt": "Jerkay logo and brand card",
+    "source_url": "https://jerkay.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://jerkay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free roulette + Pro filters",
+      "source_url": "https://jerkay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://jerkay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "jerkay.com",
+      "source_url": "https://jerkay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

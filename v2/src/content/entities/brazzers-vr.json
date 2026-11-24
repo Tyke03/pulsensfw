@@ -1,0 +1,81 @@
+{
+  "slug": "brazzers-vr",
+  "type": "site",
+  "name": "Brazzers VR",
+  "url": "https://vr.brazzers.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Mainstream megastudio Brazzers's dedicated 180-degree stereoscopic VR catalog featuring huge mainstream stars.",
+  "tags": [
+    "vr",
+    "studio",
+    "premium",
+    "streaming"
+  ],
+  "ranking_rationale": "Huge A-list pornstar cast on 180°/3D rigs; weighed against slower vr upload pace than pure vr specialists.",
+  "pricing": {
+    "model": "Included in Brazzers pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Quest",
+    "DeoVR",
+    "PCVR"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Huge A-list pornstar cast on 180°/3D rigs",
+    "Included seamlessly inside main Brazzers membership",
+    "Works cleanly via web/DeoVR"
+  ],
+  "cons": [
+    "Slower VR upload pace than pure VR specialists",
+    "Camera rig height varies on early shoots"
+  ],
+  "image": {
+    "src": "/media/entities/sites/brazzers-vr.webp",
+    "alt": "Brazzers VR logo and brand card",
+    "source_url": "https://vr.brazzers.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://vr.brazzers.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Included in Brazzers pass",
+      "source_url": "https://vr.brazzers.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Quest, DeoVR, PCVR",
+      "source_url": "https://vr.brazzers.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vr.brazzers.com",
+      "source_url": "https://vr.brazzers.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

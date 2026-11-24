@@ -1,0 +1,78 @@
+{
+  "slug": "tbib",
+  "type": "site",
+  "name": "TBIB (The Big ImageBoard)",
+  "url": "https://tbib.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Meta-booru aggregator mirroring millions of posts across Danbooru, Gelbooru, Rule34, and Safebooru inside one searchable index.",
+  "tags": [
+    "comics",
+    "booru",
+    "aggregator",
+    "free"
+  ],
+  "ranking_rationale": "Search multiple classic boorus at once in one query; weighed against barebones 2000s ui with minimal quality curation.",
+  "pricing": {
+    "model": "Free meta-booru",
+    "free_tier": "Full search free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Search multiple classic boorus at once in one query",
+    "No paywalled tag limit",
+    "Clean plain grid"
+  ],
+  "cons": [
+    "Barebones 2000s UI with minimal quality curation",
+    "No artist comment threads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tbib.webp",
+    "alt": "TBIB (The Big ImageBoard) logo and brand card",
+    "source_url": "https://tbib.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://tbib.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-booru",
+      "source_url": "https://tbib.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://tbib.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tbib.org",
+      "source_url": "https://tbib.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "vgen",
+  "type": "site",
+  "name": "VGen",
+  "url": "https://vgen.co",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern artist-friendly commission marketplace dominating VTuber rigging, anime illustration & character art—with clean opt-in 18+ NSFW artist portfolios.",
+  "tags": [
+    "comics",
+    "art",
+    "hentai",
+    "community"
+  ],
+  "ranking_rationale": "Built-in escrow milestones, queue trackers & verified anti-scam artist badges (trade-off: artist accounts require verification codes to prevent AI-spam floods).",
+  "pricing": {
+    "model": "Verified artist commission market",
+    "free_tier": "Free browsing & buyer accounts",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Built-in escrow milestones, queue trackers & verified anti-scam artist badges",
+    "Clean opt-in 18+ NSFW toggle lets adult character & VTuber artists take commissions safely",
+    "Modern sleek dark UI beloved by Twitter/Pixiv artists"
+  ],
+  "cons": [
+    "Artist accounts require verification codes to prevent AI-spam floods",
+    "Strict rules prohibit non-consensual/real-person deepfakes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vgen.webp",
+    "alt": "VGen logo and brand card",
+    "source_url": "https://vgen.co",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://vgen.co",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Verified artist commission market",
+      "source_url": "https://vgen.co",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://vgen.co",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vgen.co",
+      "source_url": "https://vgen.co",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

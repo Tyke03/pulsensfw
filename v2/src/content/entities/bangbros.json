@@ -1,0 +1,81 @@
+{
+  "slug": "bangbros",
+  "type": "site",
+  "name": "BangBros",
+  "url": "https://www.bangbros.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Legacy Miami megastudio bundling dozens of high-energy gonzo and reality channels (BangBus, AssParade, Monsters of Cock) into one deep membership vault.",
+  "tags": [
+    "premium",
+    "studio",
+    "hd",
+    "exclusive",
+    "network"
+  ],
+  "ranking_rationale": "Enormous back catalog of Miami-era classics and niche sub-sites under one roof, balanced by cluttered navigation and aggressive upsell funnels.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Massive multi-decade catalog across 50+ themed sub-sites",
+    "Strong roster of classic and current mainstream performers",
+    "Full HD downloads and streaming included in membership"
+  ],
+  "cons": [
+    "Older archive scenes vary sharply in video quality",
+    "Checkout and member area push frequent add-on upsells",
+    "Formulaic gonzo pacing across newer releases"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bangbros.png",
+    "alt": "BangBros logo and brand card",
+    "source_url": "https://www.bangbros.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium multi-site studio network",
+      "source_url": "https://www.bangbros.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Founded 2000 in Miami, Florida; operated by BangBros Network",
+      "source_url": "https://en.wikipedia.org/wiki/Bang_Bros",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid all-network subscription",
+      "source_url": "https://www.bangbros.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Dozens of iconic Miami-era channels including BangBus and AssParade",
+      "source_url": "https://www.bangbros.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

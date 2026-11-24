@@ -1,0 +1,81 @@
+{
+  "slug": "lust-epidemic",
+  "type": "game",
+  "name": "Lust Epidemic",
+  "url": "https://store.steampowered.com/app/1262730/Lust_Epidemic/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "NLT Media's complete mystery-adventure visual novel launching the interconnected trilogy behind Treasure of Nadia and The Genesis Order.",
+  "tags": [
+    "games",
+    "adventure",
+    "visual-novel",
+    "pc"
+  ],
+  "ranking_rationale": "Complete finished story campaign with zero microtransactions; weighed against early 3d character renders feel stiff next to genesis order.",
+  "pricing": {
+    "model": "One-time Steam purchase (~$15)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Complete finished story campaign with zero microtransactions",
+    "Fun cheesy B-movie quarantine adventure tone & puzzle rooms",
+    "Native Steam support & walkthrough helpers"
+  ],
+  "cons": [
+    "Early 3D character renders feel stiff next to Genesis Order",
+    "Fetch-quest inventory running gets repetitive"
+  ],
+  "image": {
+    "src": "/media/entities/games/lust-epidemic.webp",
+    "alt": "Lust Epidemic logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1262730/Lust_Epidemic/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1262730/Lust_Epidemic/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$15)",
+      "source_url": "https://store.steampowered.com/app/1262730/Lust_Epidemic/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/1262730/Lust_Epidemic/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1262730/Lust_Epidemic/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

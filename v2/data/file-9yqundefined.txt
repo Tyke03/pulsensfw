@@ -1,0 +1,233 @@
+{
+  "platforms": [
+    {
+      "name": "Kindroid",
+      "red_flags": [
+        {"issue": "Policy reversal: app marketed as 'unfiltered/no private-thought policing' since launch, then on 2025-08-23 pushed content filters plus an AI monitoring layer; users report account locks triggered by AI misreads with no human review unless appealed.", "severity": "serious", "url": "https://www.reddit.com/r/AI_Application/comments/1mzwbpe/kindroid_an_ai_chatbot_who_previously_boasted_to/", "date": "2025-08-23"},
+        {"issue": "Privacy FAQ quietly rewritten 2026-09-26; the 'only you and the AI' framing removed — flagged content is decrypted and read by Trust & Safety staff, and the policy allows decryption for law enforcement.", "severity": "minor", "url": "https://elizareport.com/changelog/2026-09-26-kindroid-privacy-faq-rewrite/", "date": "2026-09-26"},
+        {"issue": "Free tier is not a free tier: new accounts get a one-time preview (50 messages, 5 selfies, 2 Kindroids), after which the account goes read-only. Not an ongoing free plan.", "severity": "serious", "url": "https://thebestaigirlfriendapp.com/reviews/kindroid/", "date": "2026-10-13"},
+        {"issue": "App-store vs web price gap: ~$50/yr difference on identical plans ($159.99/yr via Apple/Google vs $139.99 web), after a June 2026 hike; prices only visible at checkout.", "severity": "serious", "url": "https://www.reddit.com/r/KindroidAI/comments/1i6pi4z/kindroid_subscription_ended/", "date": "2025"},
+        {"issue": "Add-on stacking: Ultra and MAX memory tiers stack on top of the base sub plus paid selfie/audio credit packs, so the advertised price is a floor, not a cost.", "severity": "minor", "url": "https://affiny.blog/reviews/kindroid-review/", "date": "2026"},
+        {"issue": "App temporarily pulled from Google Play (Nov 2025), leaving renewing subscribers unable to resubscribe through the store mid-cycle.", "severity": "serious", "url": "https://www.reddit.com/r/KindroidAI/comments/1slwojj/kindroid_temporarily_unavailable_on_google_play/", "date": "2025-11"},
+        {"issue": "Trustpilot unclaimed profile ~2.6/5 from ~20 reviews; reports of paid voice-credit packs never crediting and no support reply.", "severity": "minor", "url": "https://www.trustpilot.com/review/kindroid.ai", "date": "2026"},
+        {"issue": "Recurring pattern of model/feature rollouts (e.g. April 2026 V5 image) breaking long-established character identities for existing users.", "severity": "minor", "url": "https://erotic.chat/reviews/kindroid/", "date": "2026-04"}
+      ],
+      "verdict": "caution",
+      "notes": "Product quality is genuinely well-regarded and the company is transparent by category standards, but the 'uncensored' brand and the free-tier framing both changed under users. The two real trust issues are the 2025 filter/monitoring pivot and app-store price padding."
+    },
+    {
+      "name": "Nomi",
+      "red_flags": [
+        {"issue": "Model updates repeatedly destroy established companion personalities and memories; documented across Reddit, Trustpilot and Medium. Users reported 75%+ of complaints being the same after a major update, and mass Nomi deletions.", "severity": "serious", "url": "https://www.reddit.com/r/NomiAI/comments/1qen6p3/ive_been_disappointed_here_lately_with_the_nomi/", "date": "2026"},
+        {"issue": "2024 beta update caused widespread personality destruction; founder publicly claimed 'no lasting impacts once turned off' while affected users had already lost months of history.", "severity": "serious", "url": "https://medium.com/@nomiai_exposed/the-beta-that-went-bananas-how-a-2024-personality-update-exposed-nomi-ais-pattern-of-engineered-d8d505c08bbd", "date": "2024"},
+        {"issue": "Trustpilot scores bounce 2.6–4/5 with refund/support complaints; reviewers report being told the product failure is on them, and 'buy more attempts' on broken features.", "severity": "minor", "url": "https://www.aigirlfriendbase.com/en/apps/nomi-ai-review", "date": "2026"},
+        {"issue": "Account deletion reported as broken on Trustpilot — delete flow never completes, data stays.", "severity": "minor", "url": "https://www.trustpilot.com/review/nomi.ai", "date": "2026"},
+        {"issue": "Free tier is a teaser (~50 messages / 2 images per day, one companion, restricted NSFW/voice), not a usable plan — a common complaint vs Character.AI's free unlimited.", "severity": "minor", "url": "https://aicompanionguides.com/blog/nomi-ai-late-to-party-worth-it/", "date": "2026"},
+        {"issue": "Group-chat context doesn't sync with 1:1 chats — a companion can forget an entire shared arc; breaks multi-persona setups.", "severity": "minor", "url": "https://www.reddit.com/r/NomiAI/comments/1uhxvcw/nomi_ai_review_from_a_mediumpower_user_not_for_me/", "date": "2026"}
+      ],
+      "verdict": "caution",
+      "notes": "Pricing is the most honest in the category — one flat plan, no tiers, no lifetime bait. The red flag is operational: updates that silently rewrite your companion, plus weak account-deletion and support. No breach, no billing trap."
+    },
+    {
+      "name": "SpicyChat",
+      "red_flags": [
+        {"issue": "Trustpilot sits around 2/5; complaints are consistent — bots forget, repeat, answer as the user, and free-tier queueing. Billing complaints layered on top.", "severity": "serious", "url": "https://spicyranked.com/reviews/spicychat-ai", "date": "2026"},
+        {"issue": "Effectively non-refundable once you've logged in; no refund route at all on crypto or Boosty payments. Stripe chargeback only works if you can document a service failure.", "severity": "serious", "url": "https://adultplatformreviews.wordpress.com/2026/08/04/spicychat-ai-review/", "date": "2026-08"},
+        {"issue": "No official app on the App Store or Google Play — every 'SpicyChat' app there is a third-party clone. The single most common way users get burned.", "severity": "serious", "url": "https://adultplatformreviews.wordpress.com/2026/08/04/spicychat-ai-review/", "date": "2026-08"},
+        {"issue": "Support tickets reportedly vanish from the portal mid-thread with dead URLs; multiple reviewers report no response for weeks.", "severity": "serious", "url": "https://www.trustpilot.com/review/spicychat.ai", "date": "2026"},
+        {"issue": "Free tier shrank twice in a year; ads and queues now the norm on free, and cross-session memory doesn't exist — every new chat starts from scratch.", "severity": "minor", "url": "https://pocketanimus.com/guides/spicychat-ai-pricing/", "date": "2026-06"}
+      ],
+      "verdict": "caution",
+      "notes": "Not a scam — real operator (NextDay AI Inc, Montreal) with a real product and a published binding dispute-resolution path. But the clone-app problem and the vanishing-ticket support pattern are the ones to watch. Pay via a channel with chargeback rights."
+    },
+    {
+      "name": "JanitorAI",
+      "red_flags": [
+        {"issue": "Memory bugs: 'critical' bug where updating chat memory wipes prior context and stops it being sent to the model at all — instructions silently ignored. Largely unacknowledged.", "severity": "serious", "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1lwub71/warning_critical_memory_bug_your_context_may_be/", "date": "2025"},
+        {"issue": "Internal moderation/CSAM controversy: founder ('Shep') admitted misreading incoming regulation; former moderators publicly alleged inconsistent enforcement, shadow-banning, and bans overturned for popular creators. Triggered an AMA and a Forbes piece.", "severity": "serious", "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1qe9wvt/ama_shep_janitor_updates_answers_and_whats_next/", "date": "2025-10"},
+        {"issue": "Users reporting 'out of the blue' bans and removal of NSFW images on a site that is definitionally NSFW.", "severity": "serious", "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1unp92n/why_dont_we_like_janitor_ai/", "date": "2026"},
+        {"issue": "First-ever paid tier (Janitor+, $12.99/mo, launched 2025-06-24) rolled out right after a sitewide UI refresh that was then partly gated behind the subscription — read by many as a bait-and-switch.", "severity": "minor", "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1ug4o5v/to_the_people_complaining_about_jai/", "date": "2025-06"},
+        {"issue": "NSFW on the free tier requires submitting government ID.", "severity": "minor", "url": "https://dupple.com/reviews/janitorai", "date": "2026"},
+        {"issue": "Founder publicly admits pushing changes to production without regard for user impact.", "severity": "minor", "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1m8l32k/important_update_nsfw_content_stays_deployment/", "date": "2025"}
+      ],
+      "verdict": "caution",
+      "notes": "Free and genuinely uncensored, but run by three people with documented moderation and release-process problems. The memory bug is the practical dealbreaker for long-form RP. Billing itself is clean."
+    },
+    {
+      "name": "CrushOn",
+      "red_flags": [
+        {"issue": "Trustpilot is dire: 1.8/5 from 22 reviews with ~84% one-star. Support scored 2/5 — tickets ignored, Discord support dismisses people.", "severity": "serious", "url": "https://botandbae.com/crushon-ai-review/", "date": "2026-10-18"},
+        {"issue": "You cannot manually cancel or upgrade a subscription — you must let it lapse and re-subscribe. Directly contradicted by their own help docs and terms at different times.", "severity": "serious", "url": "https://www.reddit.com/r/Crushon/comments/1co7hs7/how_do_i_cancel_my_subscription/", "date": "2024"},
+        {"issue": "Non-refundable: 'the current subscription period is non-refundable', no partial refunds, no mid-cycle credits.", "severity": "serious", "url": "https://crushon.ai/faq", "date": "2026"},
+        {"issue": "Payment-processor churn and opaque billing: Stripe ended the partnership, payments moved to SubscribeStar and assorted processors; no PayPal. Users describe being 'trapped in auto-bills' and blocking cards at the bank.", "severity": "serious", "url": "https://www.reddit.com/r/Crushon/comments/1c5xkve/anyone_who_pays_for_premium/", "date": "2024"},
+        {"issue": "Privacy: Mozilla flagged ~45 trackers, no confirmed encryption, and collection of chat logs, sexual preferences and mental-health indicators. Staff monitor chats.", "severity": "serious", "url": "https://www.aigirlfriend.wtf/is-crushon-ai-safe", "date": "2026"},
+        {"issue": "Operator identity doesn't line up: terms name TECHIEPIE LTD (Cyprus), while 'Crushon AI Corp' is listed in Washington and other directories place it in Menlo Park. Hard to know who you're contracting with.", "severity": "serious", "url": "https://crushon.ai/terms-of-service", "date": "2026"},
+        {"issue": "Age-check payment friction and inconsistent content refusals for a platform sold as unfiltered.", "severity": "minor", "url": "https://botandbae.com/crushon-ai-review/", "date": "2026"}
+      ],
+      "verdict": "avoid",
+      "notes": "The cancellation model alone — no manual cancel, non-refundable, processor churn — is a trap for casual subscribers. Combine with the worst Trustpilot distribution in the set and a muddled corporate identity."
+    },
+    {
+      "name": "Chub",
+      "red_flags": [
+        {"issue": "2026-06-28 restructure: site went crypto-only 'forever', free tier cut to 20 messages/day, the $5 Mercury tier removed leaving one $20/mo crypto-only plan, and most models deprecated. Triggered 'Chub is now dead' megathreads.", "severity": "serious", "url": "https://www.reddit.com/r/Chub_AI/comments/1uhj2nw/chub_updates/", "date": "2026-06-28"},
+        {"issue": "Crypto-only billing is a friction point — declined cards and users unwilling to hold crypto, i.e. a service making it hard to pay it.", "severity": "serious", "url": "https://discover.oreateai.com/discover/why-reddit-users-are-moving-from-chub-to-these-uncensored-ai-alternatives", "date": "2026"},
+        {"issue": "Chronic instability: dropped connections, laggy UI, lost info mid-session, cached error pages after updates. Owner communication criticised as absent.", "severity": "serious", "url": "https://www.reddit.com/r/Chub_AI/comments/1uhip7a/chub_is_now_dead/", "date": "2026"},
+        {"issue": "eSafety Commissioner confirmed zero dedicated trust-and-safety/moderation staff in Q3 2025; output filtering absent on ~89% of hosted models.", "severity": "minor", "url": "https://companionwise.com/reviews/chub-ai/", "date": "2025"},
+        {"issue": "Users banned from the official Discord; heavy-handed tag/visibility changes without on-site notice.", "severity": "minor", "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1qgk0k5/chub_ai_is_so_bad/", "date": "2026"}
+      ],
+      "verdict": "caution",
+      "notes": "Great character library and fully uncensored, but the 2026 restructure gutted the free tier and moved the whole business to crypto. If you don't already hold crypto, the friction is real."
+    },
+    {
+      "name": "Candy.ai",
+      "red_flags": [
+        {"issue": "Hidden token economy: paying the subscription does not remove token costs — 'you have to pay for literally everything on the app' after subbing. Tokens don't roll over between periods.", "severity": "serious", "url": "https://www.trustpilot.com/review/candy.ai?page=3", "date": "2026"},
+        {"issue": "Cancellation tied to losing access: users report you can't stop the next auto-debit without ending the account that day and forfeiting already-paid time.", "severity": "serious", "url": "https://www.trustpilot.com/review/candy.ai?page=5", "date": "2026"},
+        {"issue": "Chargeback threat policy: disputing a charge triggers internal investigation and 'wrongful' chargeback filers risk a blacklist from future service. A chargeback is also treated as instant cancellation.", "severity": "serious", "url": "https://candy.ai/complaint-policy", "date": "2026"},
+        {"issue": "Billing descriptor is 'EverAI' (Malta entity EverAI Limited C107181), not Candy AI — recurring cause of unrecognised-charge disputes.", "severity": "minor", "url": "https://zoftwarehub.com/products/candy-ai/zoftware-analysis", "date": "2026"},
+        {"issue": "Trustpilot is bimodal — roughly 50–58% five-star against 16–23% one-star — with reviewers explicitly alleging bait-and-switch and paid shills.", "severity": "minor", "url": "https://plisio.net/ai/candy-ai", "date": "2026"},
+        {"issue": "Trustpilot presence is muddled: a large profile is registered to the unrelated domain arthur-cleron.fr, and a second profile exists on candy-ai.eu, making the real score hard to read.", "severity": "minor", "url": "https://www.roborhythms.com/is-candy-ai-safe/", "date": "2026-09-24"},
+        {"issue": "Affiliate-driven distribution: ads surfaced on MrDeepFakes; EverAI's own answer was 'it's an affiliate marketing matter'.", "severity": "minor", "url": "https://findaiboyfriend.com/blog/is-candy-ai-safe/", "date": "2026"}
+      ],
+      "verdict": "caution",
+      "notes": "No documented data breach (notably, given the category). Legit operator under EU GDPR. The red flags are all monetisation design: tokens on top of subs, cancel-means-lose-access, and a chargeback policy that punishes disputing."
+    },
+    {
+      "name": "DreamGen",
+      "red_flags": [
+        {"issue": "Advertised 20–30% introductory discounts apply for one month only, then the full price applies — easy to mistake for the standing rate.", "severity": "minor", "url": "https://www.smutfinder.com/blog/dreamgen-ai-review", "date": "2026"},
+        {"issue": "Context/character drift on long sessions is a known issue — the failure mode the platform exists to solve still bites.", "severity": "minor", "url": "https://www.roborhythms.com/dreamgen-review/", "date": "2026"},
+        {"issue": "Older reviews and Reddit threads describe a V1 interface, model names and credit behaviour that no longer exist — buyers can be misled by stale guides.", "severity": "minor", "url": "https://www.smutfinder.com/blog/dreamgen-ai-review", "date": "2026"}
+      ],
+      "verdict": "clean",
+      "notes": "No red flags found of substance. Independently run, bootstrapped, small team, active dev in Discord/Reddit, prorated refunds by email, no documented security incident. Only real caveat: it's a narrative engine, not a companion app, so setup effort is high and casual users bounce."
+    },
+    {
+      "name": "CHAI",
+      "red_flags": [
+        {"issue": "Free tier effectively killed: as of April 2026 you can no longer send a single message without paying. The old unlimited-free product is gone.", "severity": "dealbreaker", "url": "https://www.roborhythms.com/chai-ai-subscription-paywall-2026/", "date": "2026-04"},
+        {"issue": "Pricing model switched to weekly billing and kept climbing (premium ~$12/week, ultra ~$26/week; ~$159.99/yr headline) — a large stealth increase vs the old ~$6.50/mo ultra.", "severity": "serious", "url": "https://www.reddit.com/r/ChaiUnofficial/comments/1sytv6g/chais_new_subscription_prices/", "date": "2026"},
+        {"issue": "Google Play rating collapsed to ~2.2–2.8 with 1-star reviews dominated by the paywall and message caps; Trustpilot rates it 'Poor' at 2.2/5.", "severity": "serious", "url": "https://unstar.app/blog/is-chai-legit-safe-ai-chat-app-reviews-2026", "date": "2026"},
+        {"issue": "Cancellation dark patterns: multiple retention screens, the continue-cancel control rendered in near-invisible light text, users charged after cancelling and refunds refused.", "severity": "serious", "url": "https://www.trustpilot.com/review/www.chai-ai.com", "date": "2026"},
+        {"issue": "ComplaintsBoard file with 20 complaints running from 2023 to Sept 2026, including 'signed up for free trial, cancelled before renewal, still charged $143.09' and a $134.99 yearly charge.", "severity": "serious", "url": "https://www.complaintsboard.com/chai-chat-with-ai-bots-b149590", "date": "2026-09-04"},
+        {"issue": "Country blocks forcing VPN use, plus token limits still applying after paying.", "severity": "minor", "url": "https://companionwise.com/reviews/chai-ai/", "date": "2026"},
+        {"issue": "No log export even for paying users.", "severity": "minor", "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wwe1ti/the_truth_about_chai_ai_making_120m_but_scamming/", "date": "2026"}
+      ],
+      "verdict": "avoid",
+      "notes": "Real company (Chai Research Corp), 10M+ installs, and the bots are liked. But it burned its free base, moved to weekly pricing, and the App Store (4.3) vs Google Play (2.2) split is a clean case study in store-rating divergence. Subscribe via the store only, never in-app card."
+    },
+    {
+      "name": "Muah",
+      "red_flags": [
+        {"issue": "Data breach 2024-09-17: 1.9M email addresses plus chatbot prompts leaked — many sexually explicit. Disclosed 2024-10-08. No independent audit published since.", "severity": "dealbreaker", "url": "https://haveibeenpwned.com/Breach/Muah", "date": "2024-09-17"},
+        {"issue": "Documented Reddit astroturfing/bot-farm campaign using deliberately misspelled brand names (Mua, Miah, Mwah, Mwuah) to dodge automod — drove mods across major AI subs to war on AI promo posting.", "severity": "serious", "url": "https://www.reddit.com/r/ChatGPT/comments/1f4dyr9/muah_ai_and_other_reddit_spam_campaigns/", "date": "2024"},
+        {"issue": "Removed from Google Play 2024-05-07 — Android users must sideload an APK from third parties; the app was a web wrapper requesting ~38 permissions.", "severity": "serious", "url": "https://www.appbrain.com/app/muah-ai/webviewgold.muahaiproject", "date": "2024-05-07"},
+        {"issue": "Billing/cancellation: Trustpilot cluster of users unable to view, change or cancel a subscription; one had to be refunded via PayPal with the warning 'under no circumstances give them your credit card info'. Cancellation requires emailing support or hunting a hidden link.", "severity": "serious", "url": "https://www.trustpilot.com/review/muah.ai", "date": "2026"},
+        {"issue": "Trustpilot sample is only ~4 reviews at 3.2/5 — near-useless as a signal, and itself contaminated by the bot farm.", "severity": "minor", "url": "https://www.aigirlfriend.wtf/muah-ai-review", "date": "2026"},
+        {"issue": "Non-refundable subscriptions; $99.99/mo ULTRA tier is where the (genuinely unique) phone-call feature lives — ~$1,200/yr.", "severity": "minor", "url": "https://muah.ai/info/tos.php", "date": "2026"}
+      ],
+      "verdict": "avoid",
+      "notes": "The breach plus the astroturfing make this the least trustworthy reputation in the set. Use a throwaway email and a disposable card if you try it. Its Trustpilot tells you almost nothing."
+    },
+    {
+      "name": "Tipsy Chat",
+      "red_flags": [
+        {"issue": "Free tier converted to a gem burn: ~2 gems deducted per message, ~80 for one image against ~50 gems from a daily login. Users report spending hundreds of pesos in days.", "severity": "serious", "url": "https://ahay.org/wiki/Secret_Way_To_Get_Free_Gems_In_Tipsy_Chat_Fast_with_FREE_PREMIUM_SUBSCRIPTION", "date": "2026"},
+        {"issue": "Paying a subscription does NOT remove gem costs — you pay the sub and still buy gems. Cited as the top complaint on app-store reviews.", "severity": "serious", "url": "https://mwm.ai/apps/tipsy-chat-live-your-story/6572296119", "date": "2026"},
+        {"issue": "Gem purchase billing bug: a $20 pack charged as ~$54, reported three separate times by one user; recurring payment errors.", "severity": "serious", "url": "https://mwm.ai/apps/tipsy-chat-live-your-story/6572296119", "date": "2026"},
+        {"issue": "Variable cost is opaque: the platform's own FAQ says using more memory raises the gem cost per message, so the same message costs different amounts.", "severity": "minor", "url": "https://prelulu.ai/tipsy-chat-pricing", "date": "2026"},
+        {"issue": "Escalating filter flagging — users report being unable to use words the bot itself uses; 'going downhill' threads.", "severity": "minor", "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1svgu2s/im_thinking_of_swapping_to_tipsy_chat/", "date": "2026"},
+        {"issue": "An app update wiped users' saved memories and blurred their own bot images, while the web version stayed normal.", "severity": "minor", "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ue1b5r/tipsy_app_sucked/", "date": "2026"},
+        {"issue": "11 of 13 models require a paid subscription; free users face queues and low-res character images.", "severity": "minor", "url": "https://tipsychat.tenereteam.com/", "date": "2026"}
+      ],
+      "verdict": "caution",
+      "notes": "Writing quality is the draw and the app-store score is high (4.6 from 13K), but the gem economy plus a live billing bug is a real money risk. Model the monthly gem cost before subscribing, not after."
+    },
+    {
+      "name": "NovelAI",
+      "red_flags": [
+        {"issue": "Payment processor Paddle repeatedly and randomly cancelled subscriptions — one user reported the 8th cancellation — with support described as hidden and intentionally vague.", "severity": "serious", "url": "https://www.reddit.com/r/NovelAi/comments/1i505vl/struggling_to_pay_get_payment_accepted_for_a/", "date": "2025"},
+        {"issue": "Forced processor migration (2025) sent false 'subscription cancelled' emails, broke card/PayPal updates, and left some users unable to pay at all.", "severity": "serious", "url": "https://www.reddit.com/r/NovelAi/comments/1izykvi/attention_novelai_subscribers_weve_updated_our/", "date": "2025"},
+        {"issue": "Subscription Anlas policy changed mid-subscription and Opus usage limits were introduced retroactively; described by users as 'one of the worst switch-ups' and by others as terms changing under existing subscribers.", "severity": "serious", "url": "https://www.reddit.com/r/NovelAi/comments/1vtyo4n/subscription_updates_usage_limits_subscription/", "date": "2026"},
+        {"issue": "Silent Anlas price increases for image generation without notice (e.g. 5→13 on defaults), plus a suspected bug draining the V5 quota while subscribed-and-expired.", "severity": "minor", "url": "https://www.reddit.com/r/NovelAi/comments/17jjrzi/why_did_the_anlas_cost_for_image_generation/", "date": "2023"},
+        {"issue": "Unused Anlas don't carry over and are eaten on resubscribe.", "severity": "minor", "url": "https://www.reddit.com/r/NovelAi/comments/18kpaio/so_wait_did_all_my_unused_anlas_just_get_eaten_up/", "date": "2023"}
+      ],
+      "verdict": "caution",
+      "notes": "Cancellation is genuinely easy and the company has long goodwill — the opposite of the dark-pattern crowd. The red flags are processor instability and unilateral mid-subscription policy changes to the credit system."
+    },
+    {
+      "name": "Replika",
+      "red_flags": [
+        {"issue": "Feb 2023: Luka removed ERP from all tiers, including users who had paid specifically for it, with no refunds, discounts or compensation — then partially rolled it back only for 'legacy' subscribers.", "severity": "dealbreaker", "url": "https://www.michaelghurston.com/2023/02/replika-charged-users-69-99-for-erp-then-discontinued-it/", "date": "2023-02"},
+        {"issue": "Measured fallout: refund mentions in r/Replika rose from 0.10% to 3.30% of posts (33x) and mental-health-crisis posts from 0.13% to 0.65%; mods pinned suicide hotlines.", "severity": "serious", "url": "https://mypresio.com/blog/replika-review-2026", "date": "2023"},
+        {"issue": "Italy's Garante banned the service (Feb 2023) over child-safety and age-verification failures, then fined Luka Inc €5M on 2025-05-19 for GDPR breaches, and opened a fresh investigation into AI training practices.", "severity": "serious", "url": "https://www.reuters.com/sustainability/boards-policy-regulation/italys-data-watchdog-fines-ai-company-replikas-developer-56-million-2025-05-19/", "date": "2025-05-19"},
+        {"issue": "Support told users it would not refund and did not care if they cancelled; a Change.org petition was launched.", "severity": "serious", "url": "https://www.reddit.com/r/replika/comments/10xmwo0/i_got_an_email_back_from_replika_they_will_not/", "date": "2023"}
+      ],
+      "verdict": "avoid",
+      "notes": "The canonical cautionary tale for this whole category: paid feature removed without refund. Everything downstream — Kindroid's credo, Nomi's flat pricing — exists as a reaction to this. Only defensible if you buy month-to-month."
+    },
+    {
+      "name": "Character.AI",
+      "red_flags": [
+        {"issue": "Filed Chapter 11 on 2026-10-12 in Delaware to pursue a court-supervised asset sale; Disney is the opening $20M bidder and would acqui-hire staff. Sale expected complete Nov–Dec 2026. User-data fate unconfirmed.", "severity": "dealbreaker", "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/", "date": "2026-10-12"},
+        {"issue": "40+ state AGs filed a Notice of Interest in the bankruptcy; allege age verification was inadequate from 2022–2025 so significant under-18 data was likely misclassified as adult data.", "severity": "serious", "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-urges-court-protect-children-and-consumers-characterai", "date": "2026-10"},
+        {"issue": "Model removed/replaced in June 2026 and partly paywalled — top-voted posts of the week were all about the model downgrade and users leaving.", "severity": "serious", "url": "https://www.nastia.ai/blog/character-ai-removed-models-2026", "date": "2026-06"},
+        {"issue": "Longstanding filter problem: a 174,882-signature petition, years of complaints, inconsistent per-user filter results, and benign content false-positives. c.ai+ unlocks nothing content-wise.", "severity": "serious", "url": "https://ourdream.ai/sex-chat/does-character-ai-still-have-a-filter", "date": "2026"},
+        {"issue": "Earlier settlement of teen-safety lawsuits and a federal product-liability ruling that outputs qualify as speech.", "severity": "serious", "url": "https://trulaw.com/ai-suicide-lawsuit/character-ai-lawsuit/", "date": "2025-05"}
+      ],
+      "verdict": "avoid",
+      "notes": "Not a billing risk so much as an existential one — you're buying into a company mid-bankruptcy sale. Pay month-to-month, expect a model swap to break your characters, and don't assume the free unlimited tier survives the acquisition."
+    },
+    {
+      "name": "Moemate",
+      "red_flags": [
+        {"issue": "Permanently shut down 2025-02-11. All accounts, characters and chat history wiped and unrecoverable; cited GPU costs outrunning revenue plus payment-processor and moderation pressure.", "severity": "dealbreaker", "url": "https://www.roborhythms.com/what-happened-to-moemate-ai/", "date": "2025-02-11"},
+        {"issue": "Early supporters and investors left frustrated; the advanced memory system made the loss of data feel personal.", "severity": "serious", "url": "https://scribehow.com/page/What_Happened_to_MoeMate_The_Full_Story_Behind_Its_Shutdown_2026__da-4rXMnQxyr7P_-3MGyfw", "date": "2025"}
+      ],
+      "verdict": "avoid",
+      "notes": "Defunct. Included because it's still cited as a live recommendation and because it's the clearest case of total data loss in the category — a reason to export anything you care about."
+    },
+    {
+      "name": "Polybuzz",
+      "red_flags": [
+        {"issue": "Forced ads every few chats plus 'take a break' ad walls just to exit a chat; ad rewards frequently fail and re-request another ad. Widely described as mobile-game monetisation grafted onto a chatbot.", "severity": "serious", "url": "https://www.reddit.com/r/polybuzz/comments/1m2s4nr/i_hate_this/", "date": "2025"},
+        {"issue": "Ad-free chat and lasting memory are both held behind the paywall; free tier is the product being degraded.", "severity": "minor", "url": "https://plisio.net/ai/polybuzz-ai", "date": "2026"},
+        {"issue": "False-advertising thread and complaints that NSFW bots are heavily censored while the app advertises 'no filters'.", "severity": "minor", "url": "https://www.reddit.com/r/polybuzz/comments/1khwj49/false_advertising/", "date": "2025"}
+      ],
+      "verdict": "caution",
+      "notes": "No breach, no billing trap — the complaint is an aggressive ad load and paywalled memory. Cheap annually, but you're buying out of the ads more than into features."
+    },
+    {
+      "name": "OurDream",
+      "red_flags": [
+        {"issue": "Free tier is ambiguous — the landing page says the first character and chat are free with no card, while Reddit reports you get ~55 coins and then must pay.", "severity": "minor", "url": "https://www.roborhythms.com/ourdream-ai-review/", "date": "2026"},
+        {"issue": "DreamCoins and pricing are the most common complaint theme; reports of billing surprises and vague privacy policy.", "severity": "minor", "url": "https://www.kalon.ai/blog/ourdream-ai-review", "date": "2026"},
+        {"issue": "Memory degrades after early good performance; fast NSFW escalation noted.", "severity": "minor", "url": "https://www.reddit.com/r/HeavenGF/comments/1q5dhtc/anyone_tried_ourdream_ai_hows_the_memory_and/", "date": "2026"}
+      ],
+      "verdict": "caution",
+      "notes": "Thin evidence base — heavy affiliate promotion, light independent verification. Entities confirmed in Delaware, New Mexico and Cyprus. No breach, no dramatic billing pattern."
+    },
+    {
+      "name": "Secret Desires AI",
+      "red_flags": [
+        {"issue": "Breach via misconfigured Amazon S3 buckets exposing stored logs — found by a journalist, not disclosed by the company.", "severity": "serious", "url": "https://www.reddit.com/r/BetterOffline/comments/1p82xm8/a_massive_breach_reveals_the_truth_behind_secret/", "date": "2026"},
+        {"issue": "No refunds; and users report bots that can't follow their own descriptions, break scenarios, and have 'horrible' memory.", "severity": "serious", "url": "https://www.reddit.com/r/CharacterAI_No_Filter/comments/1h81c2a/tired_of_secret_desires_ai_want_a_new_nsfw_chatbot/", "date": "2025"},
+        {"issue": "Voice quality consistently rated ~2.8/5 — 'rushed, like someone reading a script at 1.25x speed'.", "severity": "minor", "url": "https://scribehow.com/page/Secret_Desires_AI_Review_2026_Is_the_Hype_Bigger_Than_the_Experience__IyXNACLPReiGL2m0zNP-NA", "date": "2026"}
+      ],
+      "verdict": "avoid",
+      "notes": "The S3 misconfiguration plus a no-refund policy is a bad combination. Underexamined relative to its marketing footprint."
+    }
+  ],
+  "meta": {
+    "category_wide_flags": [
+      {"issue": "Affiliate-farm review economy: aiclirtguide.com, aicompanionguides.com, companionwise.com, roborhythms.com, scribehow, kalon.ai, honeychat.bot, virtualaipartner.com, thebestaigirlfriendapp.com, plisio.net and similar recycle near-identical claims and share boilerplate (e.g. copy-pasted 'no documented breach' paragraphs) while monetising affiliate links. Do not treat any single one as a source of record.", "severity": "serious", "url": "https://aicompanionguides.com/blog/how-to-spot-scam-ai-companion-apps-2026/", "date": "2026"},
+      {"issue": "Dead platforms still rank and still collect affiliate commissions: CarynAI collapsed early 2024 yet 'CarynAI Review 2026' pages with live sign-up buttons persist.", "severity": "minor", "url": "https://aicompanionguides.com/blog/how-to-spot-scam-ai-companion-apps-2026/", "date": "2026"},
+      {"issue": "Trustpilot is unreliable across this category: unclaimed profiles, mismatched domains (Candy's big profile sits on arthur-cleron.fr), tiny samples (Kindroid ~20, CrushOn ~22, Muah ~4) and bimodal 5-star/1-star splits.", "severity": "serious", "url": "https://www.roborhythms.com/is-candy-ai-safe/", "date": "2026-09-24"},
+      {"issue": "BBB is close to useless here — most operators aren't accredited and have no complaint file.", "severity": "minor", "url": "https://joindeleteme.com/is-it-scam/is-candy-ai-a-scam/", "date": "2026"},
+      {"issue": "Recurring structural pattern: free tier exists → monetises → free tier shrinks or dies → NSFW gets filtered under payment-processor/investor pressure → users migrate to the next launch. Named explicitly by users on r/JanitorAI.", "severity": "serious", "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1nvndw9/the_future_of_janitor_ai_and_ai_chatbot_websites/", "date": "2025"}
+    ],
+    "cleanest": ["DreamGen"],
+    "worst_offenders": ["Muah (breach + astroturfing)", "CrushOn (no cancel, non-refundable, identity mismatch)", "CHAI (free tier killed, weekly pricing, cancellation dark patterns)", "Replika (paid feature removed, no refunds, €5M fine)", "Character.AI (Chapter 11)"]
+  }
+}

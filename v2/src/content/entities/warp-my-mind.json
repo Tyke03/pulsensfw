@@ -1,0 +1,78 @@
+{
+  "slug": "warp-my-mind",
+  "type": "site",
+  "name": "WarpMyMind",
+  "url": "https://www.warpmymind.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Focused consensual erotic hypnosis & trance audio/script community pairing creative inductions, soundscapes & forum discussions.",
+  "tags": [
+    "erotica",
+    "audio",
+    "stories",
+    "niche"
+  ],
+  "ranking_rationale": "Clean rating & trigger tagging clearly marking hypnotic themes and inductions, weighed against single hyper-specialized niche focus.",
+  "pricing": {
+    "model": "Free community + creator packs",
+    "free_tier": "Free scripts & community audio",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Clean rating & trigger tagging clearly marking hypnotic themes and inductions",
+    "Supports both written text scripts and downloadable MP3 voice fills",
+    "Friendly consensual community guidelines"
+  ],
+  "cons": [
+    "Single hyper-specialized niche focus",
+    "Mid-2000s community HTML styling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/warp-my-mind.webp",
+    "alt": "WarpMyMind logo and brand card",
+    "source_url": "https://www.warpmymind.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.warpmymind.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community + creator packs",
+      "source_url": "https://www.warpmymind.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.warpmymind.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "warpmymind.com",
+      "source_url": "https://www.warpmymind.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

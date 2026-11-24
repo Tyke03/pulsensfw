@@ -1,0 +1,79 @@
+{
+  "slug": "adultfriendfinder",
+  "type": "site",
+  "name": "AdultFriendFinder",
+  "url": "https://adultfriendfinder.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The veteran adult hookup, swinger social, and member-webcam network boasting huge historical brand awareness and global member traffic.",
+  "tags": [
+    "niche",
+    "dating",
+    "swingers",
+    "lifestyle"
+  ],
+  "ranking_rationale": "Massive existing database of couples, swingers & casual lifestyle listings; weighed against relentless upgrade upsells; noisy spam/bot profiles in free browsing tiers.",
+  "pricing": {
+    "model": "Subscription membership tiers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Massive existing database of couples, swingers & casual lifestyle listings",
+    "Combines local personals, amateur cams, and user photo groups",
+    "Desktop + mobile browser reach"
+  ],
+  "cons": [
+    "Relentless upgrade upsells; noisy spam/bot profiles in free browsing tiers",
+    "1990s portal interface feel despite refreshes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/adultfriendfinder.webp",
+    "alt": "AdultFriendFinder logo and brand card",
+    "source_url": "https://adultfriendfinder.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://adultfriendfinder.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription membership tiers",
+      "source_url": "https://adultfriendfinder.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://adultfriendfinder.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "adultfriendfinder.com",
+      "source_url": "https://adultfriendfinder.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

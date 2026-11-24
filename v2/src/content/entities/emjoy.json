@@ -1,0 +1,77 @@
+{
+  "slug": "emjoy",
+  "type": "site",
+  "name": "Emjoy",
+  "url": "https://www.letsemjoy.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Science-backed intimacy and erotic audio story app built by sex therapists to blend spicy fiction with solo/couples coaching.",
+  "tags": [
+    "erotica",
+    "audio"
+  ],
+  "ranking_rationale": "High-production voice acting + wellness therapy guides; weighed against no free permanent tier beyond short trial.",
+  "pricing": {
+    "model": "App subscription",
+    "free_tier": "7-day trial",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "score": 8.0,
+  "pros": [
+    "High-production voice acting + wellness therapy guides",
+    "Discreet app icon and sleek calm UI",
+    "Great inclusive pacing"
+  ],
+  "cons": [
+    "No free permanent tier beyond short trial",
+    "Audio leans soft sensual vs raw explicit"
+  ],
+  "image": {
+    "src": "/media/entities/sites/emjoy.webp",
+    "alt": "Emjoy logo and brand card",
+    "source_url": "https://www.letsemjoy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.letsemjoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "App subscription",
+      "source_url": "https://www.letsemjoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android",
+      "source_url": "https://www.letsemjoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "letsemjoy.com",
+      "source_url": "https://www.letsemjoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

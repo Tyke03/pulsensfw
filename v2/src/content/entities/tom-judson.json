@@ -1,0 +1,71 @@
+{
+  "slug": "tom-judson",
+  "type": "star",
+  "name": "Tom Judson",
+  "url": "https://en.wikipedia.org/wiki/Tom_Judson",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Thomas R. Judson is an American musical theatre actor and composer, particularly for off-Broadway plays (including Vampire Lesbians of Sodom and White Cotton Sheets), and a retired pornographic film actor.",
+  "tags": [
+    "performer",
+    "former performer",
+    "awards"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/tom-judson.jpg",
+    "alt": "SFW portrait of Tom Judson",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Judson.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Goshen, New York, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Tom_Judson",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Theater actor, composer and adult film star",
+      "source_url": "https://en.wikipedia.org/wiki/Tom_Judson",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "As Mattox, he received the 2006 GayVN Awards Performer of the Year Award for his work in the industry.",
+      "source_url": "https://en.wikipedia.org/wiki/Tom_Judson",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1960",
+      "source_url": "http://www.wikidata.org/entity/Q3992489",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

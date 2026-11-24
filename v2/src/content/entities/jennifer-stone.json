@@ -1,0 +1,63 @@
+{
+  "slug": "jennifer-stone",
+  "type": "star",
+  "name": "Jennifer Stone",
+  "url": "http://www.wikidata.org/entity/Q5929211",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jennifer Stone — Czech pornographic actress (b. 1981). Industry career documented from 2002.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/jennifer-stone.jpg",
+    "alt": "SFW portrait of Jennifer Stone",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jennifer_Stone.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q5929211 (Czech Republic)",
+      "source_url": "http://www.wikidata.org/entity/Q5929211",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2002–present",
+      "source_url": "http://www.wikidata.org/entity/Q5929211",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1981",
+      "source_url": "http://www.wikidata.org/entity/Q5929211",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

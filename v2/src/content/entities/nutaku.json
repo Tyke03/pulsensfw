@@ -1,0 +1,79 @@
+{
+  "slug": "nutaku",
+  "type": "site",
+  "name": "Nutaku",
+  "url": "https://www.nutaku.net",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Biggest Western 18+ free-to-play browser & downloadable adult gacha, RPG, and strategy game storefront.",
+  "tags": [
+    "hentai",
+    "games",
+    "free"
+  ],
+  "ranking_rationale": "Huge accessible library of free browser/Android/PC adult games; weighed against heavy gacha & nutaku gold microtransaction paywalls.",
+  "pricing": {
+    "model": "Freemium store + Nutaku Gold",
+    "free_tier": "Large free browser/APK catalog",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "Android"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Huge accessible library of free browser/Android/PC adult games",
+    "Single account covers hundreds of R18 titles",
+    "Frequent seasonal giveaways"
+  ],
+  "cons": [
+    "Heavy gacha & Nutaku Gold microtransaction paywalls",
+    "Mixed production quality across third-party apps"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nutaku.webp",
+    "alt": "Nutaku logo and brand card",
+    "source_url": "https://www.nutaku.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.nutaku.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium store + Nutaku Gold",
+      "source_url": "https://www.nutaku.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, Android",
+      "source_url": "https://www.nutaku.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nutaku.net",
+      "source_url": "https://www.nutaku.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

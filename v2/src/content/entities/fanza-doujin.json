@@ -1,0 +1,79 @@
+{
+  "slug": "fanza-doujin",
+  "type": "site",
+  "name": "FANZA Doujin",
+  "url": "https://www.dmm.co.jp/dc/doujin/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "DMM's official colossal Japanese digital marketplace housing hundreds of thousands of creator doujinshi, CG packs, and ASMR voices.",
+  "tags": [
+    "hentai",
+    "doujinshi",
+    "manga",
+    "games"
+  ],
+  "ranking_rationale": "World's largest legitimate digital Japanese doujinshi & audio marketplace; weighed against japanese-only ui + foreign visa/mastercard merchant blocks require dmm points cards.",
+  "pricing": {
+    "model": "Digital store & points",
+    "free_tier": "Free sample pages & promo releases",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "World's largest legitimate digital Japanese doujinshi & audio marketplace",
+    "Frequent 50%–90% creator bundle sales",
+    "Direct DRM-free PDF/ZIP downloads on many works"
+  ],
+  "cons": [
+    "Japanese-only UI + foreign Visa/Mastercard merchant blocks require DMM Points cards",
+    "Overwhelming promotional layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fanza-doujin.webp",
+    "alt": "FANZA Doujin logo and brand card",
+    "source_url": "https://www.dmm.co.jp/dc/doujin/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.dmm.co.jp/dc/doujin/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Digital store & points",
+      "source_url": "https://www.dmm.co.jp/dc/doujin/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.dmm.co.jp/dc/doujin/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dmm.co.jp",
+      "source_url": "https://www.dmm.co.jp/dc/doujin/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

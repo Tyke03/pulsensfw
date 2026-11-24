@@ -1,0 +1,78 @@
+{
+  "slug": "perchance-ai",
+  "type": "ai_app",
+  "name": "Perchance AI",
+  "url": "https://perchance.org/ai-chat",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Completely free, no-signup, ad-supported web sandbox hosting uncensored community text roleplay and image generators.",
+  "tags": [
+    "chat",
+    "image",
+    "privacy"
+  ],
+  "ranking_rationale": "Zero account wall and genuinely unlimited free generations; weighed against minimal ui polish—resembles community code pages.",
+  "pricing": {
+    "model": "100% free ad-supported web",
+    "free_tier": "Unlimited free text & images",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Zero account wall and genuinely unlimited free generations",
+    "Surprising quality across community-made RP scripts",
+    "Total anonymity with local browser state"
+  ],
+  "cons": [
+    "Minimal UI polish—resembles community code pages",
+    "No mobile native app or long-term cloud backup"
+  ],
+  "image": {
+    "src": "/media/entities/ai/perchance-ai.webp",
+    "alt": "Perchance AI logo and brand card",
+    "source_url": "https://perchance.org/ai-chat",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://perchance.org/ai-chat",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free ad-supported web",
+      "source_url": "https://perchance.org/ai-chat",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://perchance.org/ai-chat",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "perchance.org",
+      "source_url": "https://perchance.org/ai-chat",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

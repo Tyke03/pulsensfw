@@ -1,0 +1,78 @@
+{
+  "slug": "lelo-soraya-2",
+  "type": "product",
+  "name": "LELO Soraya 2",
+  "url": "https://www.lelo.com/soraya-2",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Sculptural luxury dual-action rabbit vibrator balancing quiet sculpted ergonomic silicone with deep thumping clitoral vibration.",
+  "tags": [
+    "couples",
+    "quiet",
+    "rabbit",
+    "waterproof"
+  ],
+  "ranking_rationale": "Silk-smooth seamless silicone and quiet premium motor; weighed against zero app or cam connectivity.",
+  "pricing": {
+    "model": "One-time purchase (~$239)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Silk-smooth seamless silicone and quiet premium motor",
+    "Articulated ergonomic rabbit arm stays comfortably planted",
+    "1-year LELO warranty + waterproof IPX7"
+  ],
+  "cons": [
+    "Zero app or cam connectivity",
+    "Pricey luxury tier (~$239)"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-soraya-2.webp",
+    "alt": "LELO Soraya 2 logo and brand card",
+    "source_url": "https://www.lelo.com/soraya-2",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lelo.com/soraya-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase (~$239)",
+      "source_url": "https://www.lelo.com/soraya-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.lelo.com/soraya-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lelo.com",
+      "source_url": "https://www.lelo.com/soraya-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

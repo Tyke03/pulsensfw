@@ -1,0 +1,78 @@
+{
+  "slug": "dame-arc",
+  "type": "product",
+  "name": "Dame Arc",
+  "url": "https://www.dame.com/products/arc",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Curved weighted medical-grade silicone G-spot vibrator featuring a firm ridged bulb tip for effortless internal leverage.",
+  "tags": [
+    "vibrator",
+    "g-spot",
+    "waterproof",
+    "quiet"
+  ],
+  "ranking_rationale": "Smart curved spine & weighted feel apply firm internal pressure without hand fatigue, weighed against single internal motor — no dual rabbit arm.",
+  "pricing": {
+    "model": "Hardware purchase (~$115)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Smart curved spine & weighted feel apply firm internal pressure without hand fatigue",
+    "Plush seamless medical-grade silicone & intuitive 5-intensity controls",
+    "Waterproof & quiet"
+  ],
+  "cons": [
+    "Single internal motor (no dual rabbit arm)",
+    "Proprietary magnetic USB cable"
+  ],
+  "image": {
+    "src": "/media/entities/products/dame-arc.webp",
+    "alt": "Dame Arc logo and brand card",
+    "source_url": "https://www.dame.com/products/arc",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.dame.com/products/arc",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$115)",
+      "source_url": "https://www.dame.com/products/arc",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.dame.com/products/arc",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dame.com",
+      "source_url": "https://www.dame.com/products/arc",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

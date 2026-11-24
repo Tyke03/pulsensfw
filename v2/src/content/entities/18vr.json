@@ -1,0 +1,79 @@
+{
+  "slug": "18vr",
+  "type": "site",
+  "name": "18VR",
+  "url": "https://www.18vr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "BaDoink network's upbeat youthful-star 180-degree VR studio pairing crisp camera ergonomics with funscript support.",
+  "tags": [
+    "vr",
+    "studio",
+    "streaming"
+  ],
+  "ranking_rationale": "Reliable 6K/8K downloads & native Quest/SLR app compatibility; weighed against heavily formulaic pov storylines.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Reliable 6K/8K downloads & native Quest/SLR app compatibility",
+    "Clean binaural spatial audio calibration",
+    "Frequent bundle access across BaDoink VR labels"
+  ],
+  "cons": [
+    "Heavily formulaic POV storylines",
+    "Redundant if subscribed to BaDoink VR mega-pass"
+  ],
+  "image": {
+    "src": "/media/entities/sites/18vr.webp",
+    "alt": "18VR logo and brand card",
+    "source_url": "https://www.18vr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://www.18vr.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://www.18vr.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://www.18vr.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "18vr.com",
+      "source_url": "https://www.18vr.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

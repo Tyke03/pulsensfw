@@ -1,0 +1,79 @@
+{
+  "slug": "holovr",
+  "type": "site",
+  "name": "HoloGirlsVR",
+  "url": "https://www.hologirlsvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running independent LA VR studio offering both 180°/360° VR video and pioneering volumetric hologram captures.",
+  "tags": [
+    "vr",
+    "studio",
+    "cosplay"
+  ],
+  "ranking_rationale": "True volumetric VR / 360° camera heritage; weighed against older shoots show noticeable 4k/5k softness vs 8k rivals.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "True volumetric VR / 360° camera heritage",
+    "Strong cosplay and fetish variety",
+    "Friendly indie star casts"
+  ],
+  "cons": [
+    "Older shoots show noticeable 4K/5K softness vs 8K rivals",
+    "UI needs modernization"
+  ],
+  "image": {
+    "src": "/media/entities/sites/holovr.webp",
+    "alt": "HoloGirlsVR logo and brand card",
+    "source_url": "https://www.hologirlsvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://www.hologirlsvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://www.hologirlsvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR",
+      "source_url": "https://www.hologirlsvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hologirlsvr.com",
+      "source_url": "https://www.hologirlsvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

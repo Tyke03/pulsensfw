@@ -1,0 +1,73 @@
+{
+  "slug": "lovense-edge-2",
+  "type": "product",
+  "name": "Lovense Edge 2",
+  "url": "https://www.lovense.com/adjustable-prostate-massager",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Adjustable-angle dual-motor prostate massager combining a flexible internal neck, external perineum bulb, and long-distance app or cam-tip sync.",
+  "tags": [
+    "app",
+    "quiet",
+    "haptics",
+    "prostate"
+  ],
+  "ranking_rationale": "Solves the biggest fit problem in app-enabled P-spot hardware by letting you bend and lock the angle between its dual motors before play.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "Lovense Remote app is free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official Lovense store for current pricing."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Adjustable internal neck holds its custom angle comfortably",
+    "Dual independent motors hit both internal prostate and external perineum",
+    "Relatively quiet silicone housing compared with motorized strokers"
+  ],
+  "cons": [
+    "Wait-to-pair Bluetooth button placement takes practice hands-free",
+    "Requires generous water-based lube for comfortable insertion"
+  ],
+  "image": {
+    "src": "/media/entities/products/lovense-edge-2.png",
+    "alt": "Lovense Edge 2 logo and brand card",
+    "source_url": "https://www.lovense.com/adjustable-prostate-massager",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "App-controlled adjustable prostate massager",
+      "source_url": "https://www.lovense.com/adjustable-prostate-massager",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Ergonomics",
+      "value": "Bendable silicone neck locks angle to match anatomy",
+      "source_url": "https://www.lovense.com/adjustable-prostate-massager",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Ecosystem",
+      "value": "Compatible with Lovense Remote and cam tip extensions",
+      "source_url": "https://www.lovense.com/adjustable-prostate-massager",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

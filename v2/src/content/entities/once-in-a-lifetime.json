@@ -1,0 +1,80 @@
+{
+  "slug": "once-in-a-lifetime",
+  "type": "game",
+  "name": "Once in a Lifetime",
+  "url": "https://caribdis.itch.io/once-in-a-lifetime",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Caribdis's beloved completed mystery-comedy adult visual novel famed for razor-sharp pop-culture wit and charismatic characters.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "comedy"
+  ],
+  "ranking_rationale": "Completed full start-to-finish storyline with zero cliffhangers; weighed against early chapters show older daz render polish before eternum upgrades.",
+  "pricing": {
+    "model": "Freeware + Patreon legacy",
+    "free_tier": "Full complete game free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Completed full start-to-finish storyline with zero cliffhangers",
+    "Laugh-out-loud dialogue and lovable character cast",
+    "100% freeware download"
+  ],
+  "cons": [
+    "Early chapters show older Daz render polish before Eternum upgrades",
+    "Linear choice outcomes"
+  ],
+  "image": {
+    "src": "/media/entities/games/once-in-a-lifetime.webp",
+    "alt": "Once in a Lifetime logo and brand card",
+    "source_url": "https://caribdis.itch.io/once-in-a-lifetime",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://caribdis.itch.io/once-in-a-lifetime",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freeware + Patreon legacy",
+      "source_url": "https://caribdis.itch.io/once-in-a-lifetime",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Android",
+      "source_url": "https://caribdis.itch.io/once-in-a-lifetime",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "caribdis.itch.io",
+      "source_url": "https://caribdis.itch.io/once-in-a-lifetime",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

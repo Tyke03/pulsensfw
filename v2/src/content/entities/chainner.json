@@ -1,0 +1,80 @@
+{
+  "slug": "chainner",
+  "type": "ai_app",
+  "name": "chaiNNer",
+  "url": "https://github.com/chaiNNer-org/chaiNNer",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Cross-platform node-based desktop image-processing & batch ESRGAN upscaling studio beloved by local SDXL/Flux & game-modding artists.",
+  "tags": [
+    "local",
+    "image",
+    "open-source",
+    "offline"
+  ],
+  "ranking_rationale": "Clean visual node graph batch-upscales, face-restores & converts thousands of renders offline (trade-off: dedicated post-processing & upscaling studio rather than base txt2img diffusion).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free GPL-3.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Clean visual node graph batch-upscales, face-restores & converts thousands of renders offline",
+    "Supports PyTorch, NCNN (AMD/Intel Vulkan) & ONNX OpenModelDB upscalers seamlessly",
+    "100% free GPL-3.0 open-source"
+  ],
+  "cons": [
+    "Dedicated post-processing & upscaling studio rather than base txt2img diffusion",
+    "Node wiring takes 5 minutes to learn"
+  ],
+  "image": {
+    "src": "/media/entities/ai/chainner.webp",
+    "alt": "chaiNNer logo and brand card",
+    "source_url": "https://github.com/chaiNNer-org/chaiNNer",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/chaiNNer-org/chaiNNer",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/chaiNNer-org/chaiNNer",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://github.com/chaiNNer-org/chaiNNer",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/chaiNNer-org/chaiNNer",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

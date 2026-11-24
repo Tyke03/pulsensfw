@@ -1,0 +1,79 @@
+{
+  "slug": "girlcore",
+  "type": "site",
+  "name": "Girlcore",
+  "url": "https://www.girlcore.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Adult Time's bold 1980s neon synthwave lesbian anthology series blending punk-goth wardrobe, retro synth scoring, and intense passion.",
+  "tags": [
+    "premium",
+    "studio",
+    "alt",
+    "couples"
+  ],
+  "ranking_rationale": "Standout neon-noir art direction unlike any mainstream studio (trade-off: anthology episode volume is finite vs 20-year legacy studios).",
+  "pricing": {
+    "model": "Studio / Adult Time subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Standout neon-noir art direction unlike any mainstream studio",
+    "Stellar chemistry directed with real stylistic vision",
+    "Included automatically inside Adult Time all-access pass"
+  ],
+  "cons": [
+    "Anthology episode volume is finite vs 20-year legacy studios",
+    "Stylized retro camp may divide minimalist viewers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/girlcore.webp",
+    "alt": "Girlcore logo and brand card",
+    "source_url": "https://www.girlcore.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.girlcore.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / Adult Time subscription",
+      "source_url": "https://www.girlcore.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.girlcore.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "girlcore.com",
+      "source_url": "https://www.girlcore.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

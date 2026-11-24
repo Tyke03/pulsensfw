@@ -1,0 +1,79 @@
+{
+  "slug": "chutes-ai",
+  "type": "ai_app",
+  "name": "Chutes.ai",
+  "url": "https://chutes.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Decentralized serverless inference API adored across roleplay communities for blazing DeepSeek R1/V3 & open-weights RP proxies.",
+  "tags": [
+    "cloud",
+    "api",
+    "chat",
+    "budget"
+  ],
+  "ranking_rationale": "Aggressive value pricing & fast DeepSeek throughput popular for JanitorAI/SillyTavern proxies (trade-off: uptime/capacity can fluctuate during massive traffic spikes on free/cheap endpoints).",
+  "pricing": {
+    "model": "Freemium tier & pay-per-token API",
+    "free_tier": "Limited free community endpoint access",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Aggressive value pricing & fast DeepSeek throughput popular for JanitorAI/SillyTavern proxies",
+    "Supports standard OpenAI streaming endpoint drop-in",
+    "Clean dark developer dashboard"
+  ],
+  "cons": [
+    "Uptime/capacity can fluctuate during massive traffic spikes on free/cheap endpoints",
+    "Requires external frontend"
+  ],
+  "image": {
+    "src": "/media/entities/ai/chutes-ai.webp",
+    "alt": "Chutes.ai logo and brand card",
+    "source_url": "https://chutes.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://chutes.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium tier & pay-per-token API",
+      "source_url": "https://chutes.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://chutes.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "chutes.ai",
+      "source_url": "https://chutes.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

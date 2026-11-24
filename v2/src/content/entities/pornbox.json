@@ -1,0 +1,79 @@
+{
+  "slug": "pornbox",
+  "type": "site",
+  "name": "Pornbox",
+  "url": "https://pornbox.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-volume international studio VOD and digital scene marketplace offering DRM-free downloads across European, gonzo, and fetish labels.",
+  "tags": [
+    "premium",
+    "studio",
+    "vod",
+    "4k"
+  ],
+  "ranking_rationale": "Buy single DRM-free 4K scenes directly without locking into recurring subscriptions; weighed against bundle/credit economics reward bulk buyers over single scene checks.",
+  "pricing": {
+    "model": "Digital VOD scene store & credit packs",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Buy single DRM-free 4K scenes directly without locking into recurring subscriptions",
+    "Massive European studio partner library (LegalPorno, AnalVids, etc.)",
+    "Clean genre & performer filtering"
+  ],
+  "cons": [
+    "Bundle/credit economics reward bulk buyers over single scene checks",
+    "Heavy gonzo/euro visual style dominates catalog"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pornbox.webp",
+    "alt": "Pornbox logo and brand card",
+    "source_url": "https://pornbox.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://pornbox.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Digital VOD scene store & credit packs",
+      "source_url": "https://pornbox.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pornbox.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornbox.com",
+      "source_url": "https://pornbox.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

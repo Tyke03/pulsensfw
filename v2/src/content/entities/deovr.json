@@ -1,0 +1,77 @@
+{
+  "slug": "deovr",
+  "type": "game",
+  "name": "DeoVR Player",
+  "url": "https://deovr.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The universal native VR video player across Meta Quest, PCVR, and PICO—supporting 8K passthrough, hardware haptics sync, and direct browser streaming.",
+  "tags": [
+    "vr",
+    "headsets",
+    "haptics",
+    "scenes",
+    "player"
+  ],
+  "ranking_rationale": "Mandatory install for VR adult viewing thanks to crisp WebXR playback, DLNA network streaming, and universal Handy/Lovense/Kiiroo synchronization.",
+  "pricing": {
+    "model": "Freemium (player free; DeoVR Premium creator hub optional)",
+    "free_tier": "Full local, DLNA, and WebXR VR playback free",
+    "from_price": "$0",
+    "currency": "USD",
+    "plans": [],
+    "notes": "Core VR video player app is free across Quest, SteamVR, and PICO stores."
+  },
+  "platforms": [
+    "Meta Quest",
+    "SteamVR",
+    "PCVR",
+    "PICO",
+    "PSVR"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Sharp 8K/120fps hardware decoding with per-eye IPD, zoom, and tilt sliders",
+    "Built-in passthrough alpha masking for mixed-reality VR scenes",
+    "Natively connects The Handy, Lovense, Kiiroo, and OSR devices",
+    "Integrated browser loads SexLikeReal and major VR studios effortlessly"
+  ],
+  "cons": [
+    "Built-in DeoVR social feed restricts explicit content unless streaming third-party sites/DLNA",
+    "Occasional controller UI clutter during transport scrubbing"
+  ],
+  "image": {
+    "src": "/media/entities/games/deovr.png",
+    "alt": "DeoVR Player logo and brand card",
+    "source_url": "https://deovr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cross-platform VR video player & browser",
+      "source_url": "https://deovr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Haptic sync",
+      "value": "Native Bluetooth/Wi-Fi support for The Handy, Lovense, and Kiiroo",
+      "source_url": "https://deovr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Availability",
+      "value": "Free download on Meta Horizon Store, Steam, and PICO",
+      "source_url": "https://deovr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

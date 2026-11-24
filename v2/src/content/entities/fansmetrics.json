@@ -1,0 +1,78 @@
+{
+  "slug": "fansmetrics",
+  "type": "site",
+  "name": "FansMetrics",
+  "url": "https://fansmetrics.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean public discovery search engine indexing verified OnlyFans & Fansly creators by location, price, niche, and free-trial status.",
+  "tags": [
+    "directory",
+    "database",
+    "forums"
+  ],
+  "ranking_rationale": "Solves OnlyFans' total lack of internal creator search effortlessly (trade-off: index completeness relies on public creator metadata).",
+  "pricing": {
+    "model": "100% free creator search",
+    "free_tier": "Completely free search",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Solves OnlyFans' total lack of internal creator search effortlessly",
+    "Filter directly by Free account vs Paid tier, body tags, and country",
+    "Fast dark visual directory"
+  ],
+  "cons": [
+    "Index completeness relies on public creator metadata",
+    "Upsells featured creator promo placements"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fansmetrics.webp",
+    "alt": "FansMetrics logo and brand card",
+    "source_url": "https://fansmetrics.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://fansmetrics.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free creator search",
+      "source_url": "https://fansmetrics.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://fansmetrics.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fansmetrics.com",
+      "source_url": "https://fansmetrics.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

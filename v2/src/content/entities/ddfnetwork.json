@@ -1,0 +1,78 @@
+{
+  "slug": "ddfnetwork",
+  "type": "site",
+  "name": "DDF Network",
+  "url": "https://ddfnetwork.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Huge Budapest-anchored European mega-network spanning HandsOnHardcore, 1By-Day, HotLegsAndFeet, and VR Bangers ties.",
+  "tags": [
+    "premium",
+    "studio",
+    "european"
+  ],
+  "ranking_rationale": "Massive multi-niche European star catalog; weighed against heavy cross-site ui feels slightly dated.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Massive multi-niche European star catalog",
+    "Single login opens 10+ distinct sub-sites",
+    "Strong fetish + glamour variety"
+  ],
+  "cons": [
+    "Heavy cross-site UI feels slightly dated",
+    "Uneven quality across smaller sister sites"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ddfnetwork.webp",
+    "alt": "DDF Network logo and brand card",
+    "source_url": "https://ddfnetwork.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://ddfnetwork.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://ddfnetwork.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://ddfnetwork.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ddfnetwork.com",
+      "source_url": "https://ddfnetwork.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

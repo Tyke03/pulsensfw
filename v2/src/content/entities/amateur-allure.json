@@ -1,0 +1,79 @@
+{
+  "slug": "amateur-allure",
+  "type": "site",
+  "name": "Amateur Allure",
+  "url": "https://www.amateurallure.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic Ray Dark independent amateur franchise famous for energetic newcomer interviews and natural everyday starlets since 2006.",
+  "tags": [
+    "premium",
+    "studio",
+    "amateur",
+    "oral"
+  ],
+  "ranking_rationale": "Launchpad for dozens of major modern adult stars' earliest scenes; weighed against single predictable couch setup across almost every scene.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Launchpad for dozens of major modern adult stars' earliest scenes",
+    "Unpretentious low-cheese amateur vibe",
+    "Full 4K upgrade on newer drops"
+  ],
+  "cons": [
+    "Single predictable couch setup across almost every scene",
+    "Basic older web gallery layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/amateur-allure.webp",
+    "alt": "Amateur Allure logo and brand card",
+    "source_url": "https://www.amateurallure.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.amateurallure.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.amateurallure.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.amateurallure.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "amateurallure.com",
+      "source_url": "https://www.amateurallure.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

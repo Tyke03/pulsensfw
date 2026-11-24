@@ -1,0 +1,11 @@
+---
+import Icon from '../Icon.astro';
+interface Props { title: string; body: string; }
+const { title, body } = Astro.props;
+---
+<div class="error-state" role="alert">
+  <Icon name="alert" />
+  <h2>{title}</h2>
+  <p class="dek">{body}</p>
+  <slot />
+</div>

@@ -1,0 +1,64 @@
+{
+  "slug": "bamboo",
+  "type": "star",
+  "name": "Bamboo",
+  "url": "http://www.wikidata.org/entity/Q2881791",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Bamboo — French/Vietnamese pornographic actress and director (b. 1974). Industry career documented from 1997.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/bamboo.jpg",
+    "alt": "SFW portrait of Bamboo",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bamboo_La_Menteuse.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q2881791 (France)",
+      "source_url": "http://www.wikidata.org/entity/Q2881791",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1997–2009",
+      "source_url": "http://www.wikidata.org/entity/Q2881791",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1974",
+      "source_url": "http://www.wikidata.org/entity/Q2881791",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

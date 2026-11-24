@@ -1,0 +1,73 @@
+{
+  "slug": "lovense-nora",
+  "type": "product",
+  "name": "Lovense Nora",
+  "url": "https://www.lovense.com/bluetooth-remote-control-rabbit-vibrator",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Rotating-head app-controlled rabbit vibrator built for dual-stimulation solo play and two-way sync sessions alongside Max 2 or remote partner control.",
+  "tags": [
+    "app",
+    "couples",
+    "haptics",
+    "rabbit"
+  ],
+  "ranking_rationale": "Delivers dual independent motors and rotating internal shaft motion synced over Lovense's stable app layer; slightly held back by rotating-gear noise and shaft rigidity.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "Lovense Remote app is free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official Lovense store for current pricing."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Rotating bead shaft plus independent clitoral bunny tickler motor",
+    "Pairs directly with Lovense Max 2 for real-time couples feedback",
+    "IPX7 waterproof silicone shell for bath or shower use"
+  ],
+  "cons": [
+    "Internal rotating mechanism makes audible mechanical whirring",
+    "Rigid non-flexible neck does not suit every anatomy equally well"
+  ],
+  "image": {
+    "src": "/media/entities/products/lovense-nora.png",
+    "alt": "Lovense Nora logo and brand card",
+    "source_url": "https://www.lovense.com/bluetooth-remote-control-rabbit-vibrator",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Bluetooth rotating rabbit vibrator",
+      "source_url": "https://www.lovense.com/bluetooth-remote-control-rabbit-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Action",
+      "value": "Rotating shaft head + vibrating external arm",
+      "source_url": "https://www.lovense.com/bluetooth-remote-control-rabbit-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Waterproofing",
+      "value": "IPX7 waterproof silicone build",
+      "source_url": "https://www.lovense.com/bluetooth-remote-control-rabbit-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

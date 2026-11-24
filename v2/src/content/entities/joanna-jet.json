@@ -1,0 +1,65 @@
+{
+  "slug": "joanna-jet",
+  "type": "star",
+  "name": "Joanna Jet",
+  "url": "http://www.wikidata.org/entity/Q6205861",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Joanna Jet — British pornographic actress, pornographic film director (b. 1967). Industry career documented from 2000.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/joanna-jet.jpg",
+    "alt": "SFW portrait of Joanna Jet",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Joanna_Jett_2.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q6205861 (United Kingdom)",
+      "source_url": "http://www.wikidata.org/entity/Q6205861",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2000–present",
+      "source_url": "http://www.wikidata.org/entity/Q6205861",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1967",
+      "source_url": "http://www.wikidata.org/entity/Q6205861",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

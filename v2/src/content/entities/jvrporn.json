@@ -1,0 +1,79 @@
+{
+  "slug": "jvrporn",
+  "type": "site",
+  "name": "JVRPorn",
+  "url": "https://www.jvrporn.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Dedicated English-portal Japanese VR studio streaming native 180-degree Tokyo idol POV experiences directly to Quest and PCVR.",
+  "tags": [
+    "vr",
+    "studio",
+    "jav"
+  ],
+  "ranking_rationale": "One of the easiest English checkouts for authentic Japanese AV idol VR (trade-off: 1080p–6K source ceilings trail Western 8K cinema cameras).",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.0,
+  "pros": [
+    "One of the easiest English checkouts for authentic Japanese AV idol VR",
+    "Great immersive Tokyo bedroom/hotel atmosphere and spatial audio",
+    "Supports Handy/Kiiroo funscripts"
+  ],
+  "cons": [
+    "1080p–6K source ceilings trail Western 8K cinema cameras",
+    "Mosaic censorship remains per Japanese production rules"
+  ],
+  "image": {
+    "src": "/media/entities/sites/jvrporn.webp",
+    "alt": "JVRPorn logo and brand card",
+    "source_url": "https://www.jvrporn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://www.jvrporn.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://www.jvrporn.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://www.jvrporn.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "jvrporn.com",
+      "source_url": "https://www.jvrporn.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

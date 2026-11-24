@@ -1,0 +1,79 @@
+{
+  "slug": "public-agent",
+  "type": "site",
+  "name": "Public Agent",
+  "url": "https://www.publicagent.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Prague & European reality-POV studio from the FakeHub network showcasing Eastern & Central European newcomers in 4K.",
+  "tags": [
+    "premium",
+    "studio",
+    "european",
+    "pov"
+  ],
+  "ranking_rationale": "Crisp 4K European location & apartment shoots with charismatic Czech/Hungarian models (trade-off: repetitive street-scouted fantasy intro dialogue).",
+  "pricing": {
+    "model": "POV studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Crisp 4K European location & apartment shoots with charismatic Czech/Hungarian models",
+    "Included seamlessly inside the broader FakeHub network pass",
+    "Smooth mobile & desktop streaming"
+  ],
+  "cons": [
+    "Repetitive street-scouted fantasy intro dialogue",
+    "Poor standalone value compared with full FakeHub pass"
+  ],
+  "image": {
+    "src": "/media/entities/sites/public-agent.webp",
+    "alt": "Public Agent logo and brand card",
+    "source_url": "https://www.publicagent.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.publicagent.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "POV studio subscription",
+      "source_url": "https://www.publicagent.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.publicagent.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "publicagent.com",
+      "source_url": "https://www.publicagent.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

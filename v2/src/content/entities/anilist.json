@@ -1,0 +1,79 @@
+{
+  "slug": "anilist",
+  "type": "site",
+  "name": "AniList",
+  "url": "https://anilist.co",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Sleek modern anime, manga & doujinshi tracking database featuring a dedicated 18+ Adult content toggle, staff credits, and GraphQL API.",
+  "tags": [
+    "database",
+    "directory",
+    "anime"
+  ],
+  "ranking_rationale": "Cleanest modern UI & open GraphQL API for tracking both mainstream anime and 18+ OVA/H-manga libraries (trade-off: pure tracking & metadata community—zero streaming or downloads).",
+  "pricing": {
+    "model": "100% free database & tracker",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "API"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Cleanest modern UI & open GraphQL API for tracking both mainstream anime and 18+ OVA/H-manga libraries",
+    "18+ adult entries stay completely hidden until explicitly enabled in account settings",
+    "100% free & ad-free"
+  ],
+  "cons": [
+    "Pure tracking & metadata community—zero streaming or downloads",
+    "Requires free account login to toggle 18+ adult database visibility"
+  ],
+  "image": {
+    "src": "/media/entities/sites/anilist.webp",
+    "alt": "AniList logo and brand card",
+    "source_url": "https://anilist.co",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://anilist.co",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free database & tracker",
+      "source_url": "https://anilist.co",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web, API",
+      "source_url": "https://anilist.co",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "anilist.co",
+      "source_url": "https://anilist.co",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

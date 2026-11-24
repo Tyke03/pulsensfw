@@ -1,0 +1,77 @@
+{
+  "slug": "gevi",
+  "type": "site",
+  "name": "GEVI",
+  "url": "https://www.gayeroticvideoindex.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The Gay Erotic Video Index—scholarly crowd-maintained encyclopedia documenting tens of thousands of classic & modern all-male films and studios.",
+  "tags": [
+    "forums",
+    "database",
+    "gay"
+  ],
+  "ranking_rationale": "Unmatched authoritative credits, director notes, and vintage VHS/DVD release preservation, weighed against plain text-first academic web layout.",
+  "pricing": {
+    "model": "100% free encyclopedia",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Unmatched authoritative credits, director notes, and vintage VHS/DVD release preservation",
+    "Cross-references aliases, compilation re-releases, and scene breakdowns cleanly",
+    "Zero malware popups or ads"
+  ],
+  "cons": [
+    "Plain text-first academic web layout",
+    "Covers all-male productions exclusively"
+  ],
+  "image": {
+    "src": "/media/entities/sites/gevi.webp",
+    "alt": "GEVI logo and brand card",
+    "source_url": "https://www.gayeroticvideoindex.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.gayeroticvideoindex.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free encyclopedia",
+      "source_url": "https://www.gayeroticvideoindex.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.gayeroticvideoindex.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "gayeroticvideoindex.com",
+      "source_url": "https://www.gayeroticvideoindex.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

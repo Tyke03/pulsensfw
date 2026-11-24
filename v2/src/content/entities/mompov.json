@@ -1,0 +1,78 @@
+{
+  "slug": "mompov",
+  "type": "site",
+  "name": "MomPOV",
+  "url": "https://www.mompov.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running independent POV studio centered around mature performers, playful teasing, and straightforward first-person camerawork.",
+  "tags": [
+    "premium",
+    "studio",
+    "pov"
+  ],
+  "ranking_rationale": "Genuine first-person POV chemistry without distracting boom-mic clutter; weighed against narrow mature pov niche formula.",
+  "pricing": {
+    "model": "Studio / Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Genuine first-person POV chemistry without distracting boom-mic clutter",
+    "Bundled access inside Porn Pros Network ecosystem",
+    "Long-running stable archive"
+  ],
+  "cons": [
+    "Narrow mature POV niche formula",
+    "Dated web player UI"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mompov.webp",
+    "alt": "MomPOV logo and brand card",
+    "source_url": "https://www.mompov.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.mompov.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / Network subscription",
+      "source_url": "https://www.mompov.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.mompov.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mompov.com",
+      "source_url": "https://www.mompov.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

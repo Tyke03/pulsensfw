@@ -1,0 +1,78 @@
+{
+  "slug": "simply-hentai",
+  "type": "site",
+  "name": "Simply Hentai",
+  "url": "https://www.simply-hentai.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Multi-language doujinshi, western comics, and anime series hub featuring series-first browsing and dark themes.",
+  "tags": [
+    "hentai",
+    "doujinshi",
+    "comics"
+  ],
+  "ranking_rationale": "Great series/parody grouping across universes; weighed against aggressive pop-unders without blocker.",
+  "pricing": {
+    "model": "Free ad-supported reader",
+    "free_tier": "Full gallery reading free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Great series/parody grouping across universes",
+    "Clean sleek dark card UI",
+    "Includes both manga and Western 3D/illustrated sets"
+  ],
+  "cons": [
+    "Aggressive pop-unders without blocker",
+    "Tag taxonomy less strict than Danbooru"
+  ],
+  "image": {
+    "src": "/media/entities/sites/simply-hentai.webp",
+    "alt": "Simply Hentai logo and brand card",
+    "source_url": "https://www.simply-hentai.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.simply-hentai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported reader",
+      "source_url": "https://www.simply-hentai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.simply-hentai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "simply-hentai.com",
+      "source_url": "https://www.simply-hentai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

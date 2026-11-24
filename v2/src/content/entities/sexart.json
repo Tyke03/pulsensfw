@@ -1,0 +1,79 @@
+{
+  "slug": "sexart",
+  "type": "site",
+  "name": "SexArt",
+  "url": "https://www.sexart.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "MetArt Network's dedicated couples hardcore imprint elevating authentic intimacy into warm fine-art erotica.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "couples"
+  ],
+  "ranking_rationale": "Arguably the best natural-light romantic filming online; weighed against lighter plot variety.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Arguably the best natural-light romantic filming online",
+    "High-res galleries paired with 4K full scenes",
+    "Unforced chemistry and European casts"
+  ],
+  "cons": [
+    "Lighter plot variety",
+    "Requires MetArt bundle for sister archives"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sexart.webp",
+    "alt": "SexArt logo and brand card",
+    "source_url": "https://www.sexart.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.sexart.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.sexart.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sexart.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sexart.com",
+      "source_url": "https://www.sexart.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

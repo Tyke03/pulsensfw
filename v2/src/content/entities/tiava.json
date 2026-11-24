@@ -1,0 +1,78 @@
+{
+  "slug": "tiava",
+  "type": "site",
+  "name": "Tiava",
+  "url": "https://www.tiava.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran categorized porn search engine indexing partner tube streams across 300+ classic niches since 2005.",
+  "tags": [
+    "tube",
+    "free",
+    "aggregator"
+  ],
+  "ranking_rationale": "Clean classic directory breakdown by niche; weighed against outbound link aggregator rather than original host.",
+  "pricing": {
+    "model": "Free meta-tube index",
+    "free_tier": "Free video search & previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Clean classic directory breakdown by niche",
+    "Fast outgoing search preview cards",
+    "Zero account walls"
+  ],
+  "cons": [
+    "Outbound link aggregator rather than original host",
+    "2010s tabular design"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tiava.webp",
+    "alt": "Tiava logo and brand card",
+    "source_url": "https://www.tiava.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.tiava.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube index",
+      "source_url": "https://www.tiava.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tiava.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tiava.com",
+      "source_url": "https://www.tiava.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

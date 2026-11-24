@@ -1,0 +1,79 @@
+{
+  "slug": "gwasi",
+  "type": "site",
+  "name": "GWASI",
+  "url": "https://gwasi.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The indispensable speed-search engine indexing tens of thousands of Reddit GoneWildAudio, PillowTalkAudio, and script posts instantly.",
+  "tags": [
+    "erotica",
+    "audio",
+    "aggregator",
+    "free"
+  ],
+  "ranking_rationale": "Sub-second boolean search across voice tags, tropes, length & speaker; weighed against index points outward to reddit & soundgasm links rather than hosting mp3s natively.",
+  "pricing": {
+    "model": "100% free community index",
+    "free_tier": "Completely free search",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Sub-second boolean search across voice tags, tropes, length & speaker",
+    "Directly uncovers scripts paired with every audio fill",
+    "Clean ad-free utility built by the GWA community"
+  ],
+  "cons": [
+    "Index points outward to Reddit & Soundgasm links rather than hosting MP3s natively",
+    "Minimal visual polish (functional table layout)"
+  ],
+  "image": {
+    "src": "/media/entities/sites/gwasi.webp",
+    "alt": "GWASI logo and brand card",
+    "source_url": "https://gwasi.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://gwasi.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free community index",
+      "source_url": "https://gwasi.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://gwasi.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "gwasi.com",
+      "source_url": "https://gwasi.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

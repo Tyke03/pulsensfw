@@ -1,0 +1,78 @@
+{
+  "slug": "early2bed",
+  "type": "site",
+  "name": "Early to Bed",
+  "url": "https://www.early2bed.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Beloved Chicago queer/feminist educator-owned sex-toy boutique curating strictly body-safe harnesses, gender-affirming gear, and leather.",
+  "tags": [
+    "niche",
+    "education",
+    "store"
+  ],
+  "ranking_rationale": "Zero toxic jelly plastics—every toy rigorously vetted by practicing sex educators (trade-off: small independent shop keeps higher prices than giant discounters).",
+  "pricing": {
+    "model": "Boutique educator retailer",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Zero toxic jelly plastics—every toy rigorously vetted by practicing sex educators",
+    "Industry benchmark for inclusive queer, trans & strap-on sizing advice",
+    "Detailed honest video reviews"
+  ],
+  "cons": [
+    "Small independent shop keeps higher prices than giant discounters",
+    "Smaller flashy novelty count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/early2bed.webp",
+    "alt": "Early to Bed logo and brand card",
+    "source_url": "https://www.early2bed.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.early2bed.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Boutique educator retailer",
+      "source_url": "https://www.early2bed.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.early2bed.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "early2bed.com",
+      "source_url": "https://www.early2bed.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

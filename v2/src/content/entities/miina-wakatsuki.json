@@ -1,0 +1,62 @@
+{
+  "slug": "miina-wakatsuki",
+  "type": "star",
+  "name": "Miina Wakatsuki",
+  "url": "http://www.wikidata.org/entity/Q55539633",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Miina Wakatsuki — Japanese AV idol.",
+  "tags": [
+    "performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/miina-wakatsuki.jpg",
+    "alt": "SFW portrait of Miina Wakatsuki",
+    "source_url": "https://commons.wikimedia.org/wiki/File:20230804_TRE_%E5%8F%B0%E5%8C%97%E5%9C%8B%E9%9A%9B%E6%88%90%E4%BA%BA%E5%B1%95_%E2%98%85_%E6%99%82%E7%94%B0%E4%BA%9C%E7%BE%8E_%E5%A7%AB%E5%92%B2_%E3%81%AF%E3%81%AA_%E8%8B%A5%E6%9C%88%E3%81%BF%E3%81%84%E3%81%AA_%E9%80%A2%E8%A6%8B_%E3%83%AA%E3%82%AB_Nia_%E6%9C%A8%E4%B8%8B%E3%81%B2%E3%81%BE%E3%82%8A07.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q55539633 (Japan)",
+      "source_url": "http://www.wikidata.org/entity/Q55539633",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q55539633",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1995",
+      "source_url": "http://www.wikidata.org/entity/Q55539633",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

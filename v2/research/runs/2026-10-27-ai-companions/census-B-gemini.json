@@ -1,0 +1,2629 @@
+{
+  "market": {
+    "estimate_low": 214,
+    "estimate_high": 400,
+    "method": "Lower bound (214) is anchored to Appfigures' H1 2026 app-intelligence census of active revenue-generating romantic and NSFW AI companion mobile apps on the Apple App Store and Google Play. Within the broader mobile ecosystem, Appfigures counted 337 total revenue-generating AI companion apps (including general-audience companions). Because Apple and Google policies restrict explicit visual content, many adult platforms operate strictly as web-hosted services or open-source BYO-model frontends outside app stores; AI tool directories (such as AIxploria, which indexes 50–55+ dedicated AI Girlfriend web/app tools per category cluster) and community megathreads document dozens of web-only NSFW roleplay and image-first adult companion sites. Using the 214 verified NSFW mobile apps as the hard floor and accounting for the non-overlapping web-only adult platforms and self-hosted frontends yields a conservative upper bound of ~400 active platforms (without summing overlapping directory and app store counts).",
+    "sources": [
+      {
+        "url": "https://greyjournal.net/hustle/work-tech/how-do-ai-companion-apps-make-money/",
+        "what_it_counted": "Appfigures H1 2026 count of 214 active revenue-generating romantic and NSFW AI companion mobile apps (and 337 total revenue-generating AI companion mobile apps across all audiences) on the Apple App Store and Google Play."
+      },
+      {
+        "url": "https://www.afterlife.ai/ai-companion-statistics",
+        "what_it_counted": "Appfigures/TechCrunch industry tracking of 337 revenue-generating mobile AI companion apps and 220 million cumulative category downloads."
+      },
+      {
+        "url": "https://www.aixploria.com/en/yollo-ai/",
+        "what_it_counted": "AIxploria AI Girlfriend & Companion directory cluster indexing 55+ web and mobile AI girlfriend/character platforms (used as a non-additive indicator of web-only supply)."
+      }
+    ]
+  },
+  "segments": [
+    {
+      "name": "Text Roleplay & Worldbuilding Hubs",
+      "description": "Web-first hosted platforms built around user-created character cards, multi-paragraph narrative roleplay, lorebooks, and custom API/proxy support.",
+      "communities": [
+        "r/JanitorAI_Official",
+        "r/JanitorAI_Refuges",
+        "r/Chub_AI",
+        "r/SpicyChatAI",
+        "r/FictionLab",
+        "r/WyvernChat",
+        "r/dreamjourneyai",
+        "r/SaucepanAI",
+        "r/CharacterAIrunaways",
+        "r/ChatbotRefugees"
+      ]
+    },
+    {
+      "name": "Relationship Companions (Persistent Single-Partner)",
+      "description": "Hosted web and mobile apps focused on long-term emotional bonding, ongoing daily memory, voice/video calls, proactive check-ins, and consistent avatar selfies with a dedicated virtual partner.",
+      "communities": [
+        "r/KindroidAI",
+        "r/NomiAI",
+        "r/replika",
+        "r/Paradot",
+        "r/MyBoyfriendIsAI",
+        "r/ChatbotRefugees"
+      ]
+    },
+    {
+      "name": "Image/Video-First 'AI Girlfriend' Sites",
+      "description": "Commercial adult sites heavily marketed via porn ad networks that emphasize preset realistic/anime avatars, token-gated nude selfie/video generation, and quick sexting over deep narrative roleplay.",
+      "communities": [
+        "r/CharacterAi_NSFW",
+        "r/Chatbots",
+        "r/AppIdeas",
+        "r/AIGirlfriend_Reviews",
+        "r/AILounge"
+      ]
+    },
+    {
+      "name": "Mobile-First Mass-Market Character Apps",
+      "description": "High-volume iOS/Android character chat apps monetized via frequent video ads, swipe/message limits, or premium subscriptions, often featuring lax or inconsistent NSFW filters.",
+      "communities": [
+        "r/ChaiApp",
+        "r/Chai_Unofficial",
+        "r/ChaiAlternatives",
+        "r/FuckPolyBuzz",
+        "r/emochiAIapp",
+        "r/CharacterAIrunaways"
+      ]
+    },
+    {
+      "name": "Anime & Art-Integrated Waifu Hubs",
+      "description": "Platforms combining Stable Diffusion/Flux anime image generation hubs (with LoRAs and regional prompting) and daily currency ('beans'/'feathers') with character tavern roleplay.",
+      "communities": [
+        "r/YodayoAI",
+        "r/YodayoTavern",
+        "r/CharacterAIrunaways"
+      ]
+    },
+    {
+      "name": "Voice-First & Audio Roleplay",
+      "description": "Platforms centered on voice notes, low-latency phone calls, or audio-driven otome/character check-ins.",
+      "communities": [
+        "r/CharacterAIrunaways",
+        "r/ChatbotRefugees",
+        "r/KindroidAI"
+      ]
+    },
+    {
+      "name": "Women & Queer-Oriented / Otome & Husbando Roleplay",
+      "description": "Communities and platforms catering to female-gaze, BL/GL, trans/queer personas, slow-burn romance, and 'husbando' character roleplay.",
+      "communities": [
+        "r/MyBoyfriendIsAI",
+        "r/CharacterAIrunaways",
+        "r/LoveAndDeepspace",
+        "r/JanitorAI_Official"
+      ]
+    },
+    {
+      "name": "Non-English & Asian-Origin Platforms",
+      "description": "Platforms originating in South Korea, Japan, or pan-Asian markets (or serving Spanish/Portuguese/Russian userbases) featuring creator point incentives and localized LLMs.",
+      "communities": [
+        "r/Caveduck",
+        "r/CharacterAIrunaways",
+        "r/ChatbotRefugees",
+        "Google Play regional reviews (RU/ES/PT)"
+      ]
+    },
+    {
+      "name": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "description": "Self-hosted or browser/mobile bring-your-own-key (BYOK) interfaces and local GGUF/EXL2 inference engines that do not sell a locked-in character catalog.",
+      "communities": [
+        "r/SillyTavernAI",
+        "r/LocalLLaMA",
+        "r/KoboldAI",
+        "r/Oobabooga",
+        "r/BackyardAI",
+        "r/AgnAIstic",
+        "r/TAVO_AICHAT",
+        "r/RisuAI",
+        "Hacker News"
+      ]
+    }
+  ],
+  "supply": [
+    {"name": "SillyTavern", "url": "https://sillytavern.app/", "source": "https://docs.sillytavern.app/"},
+    {"name": "Janitor AI", "url": "https://janitorai.com/", "source": "https://janitorai.com/"},
+    {"name": "Kindroid", "url": "https://kindroid.ai/", "source": "https://apps.apple.com/us/app/kindroid-your-personal-ai/id6451038161"},
+    {"name": "Nomi AI", "url": "https://nomi.ai/", "source": "https://nomi.ai/"},
+    {"name": "Chub AI", "url": "https://chub.ai/", "source": "https://chub.ai/"},
+    {"name": "SpicyChat AI", "url": "https://spicychat.ai/", "source": "https://spicychat.ai/chats"},
+    {"name": "FictionLab", "url": "https://fictionlab.ai/", "source": "https://play.google.com/store/apps/details?id=ai.fictionlab.app"},
+    {"name": "WyvernChat", "url": "https://app.wyvern.chat/", "source": "https://app.wyvern.chat/"},
+    {"name": "Dreamjourney AI", "url": "https://dreamjourneyai.com/", "source": "https://dreamjourneyai.com/"},
+    {"name": "Agnai (Agnaistic)", "url": "https://agnai.chat/", "source": "https://agnai.chat/"},
+    {"name": "Tavo", "url": "https://tavoai.dev/", "source": "https://play.google.com/store/apps/details?id=app.bitbear.tav"},
+    {"name": "Backyard AI", "url": "https://backyard.ai/", "source": "https://play.google.com/store/apps/details?id=backyard.ai.app"},
+    {"name": "Yollo AI", "url": "https://www.aixploria.com/en/yollo-ai/", "source": "https://www.aixploria.com/en/yollo-ai/"},
+    {"name": "Spicier AI", "url": "https://www.aixploria.com/en/spicier-ai/", "source": "https://www.aixploria.com/en/spicier-ai/"},
+    {"name": "Dream Companion", "url": "https://www.aixploria.com/en/dream-companion-ai-girlfriend/", "source": "https://www.aixploria.com/en/dream-companion-ai-girlfriend/"},
+    {"name": "HiWaifu", "url": "https://play.google.com/store/apps/details?id=com.hiwaifu.app", "source": "https://play.google.com/store/apps/details?id=com.hiwaifu.app"},
+    {"name": "Dialogue (Pheon)", "url": "https://play.google.com/store/apps/details?id=com.pheon", "source": "https://play.google.com/store/apps/details?id=com.pheon"},
+    {"name": "AIA: AI Girlfriend Roleplay", "url": "https://play.google.com/store/apps/details?id=world.aiway.aigirlfriend", "source": "https://play.google.com/store/apps/details?id=world.aiway.aigirlfriend"},
+    {"name": "SynClub", "url": "https://play.google.com/store/apps/details?id=com.creativeapp.aichat", "source": "https://play.google.com/store/apps/details?id=com.creativeapp.aichat"},
+    {"name": "Sophia: AI Girlfriend Roleplay", "url": "https://play.google.com/store/apps/details?id=com.diapp.girlfriend", "source": "https://play.google.com/store/apps/details?id=com.diapp.girlfriend"},
+    {"name": "Kawaii AI", "url": "https://play.google.com/store/apps/details?id=com.aicompanion.chatbot.girlfriend.virtual", "source": "https://play.google.com/store/apps/details?id=com.aicompanion.chatbot.girlfriend.virtual"}
+  ],
+  "search_log": [
+    {
+      "round": 1,
+      "query": "site:reddit.com/r/CharacterAIrunaways recommend OR migrated OR \"switched to\" OR favorite",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "kept": true,
+          "why": "Live megathread with dozens of verified independent user comments discussing migrations, praise, and complaints."
+        }
+      ],
+      "new_candidates": [
+        "FictionLab",
+        "Janitor AI",
+        "Chub AI",
+        "SillyTavern",
+        "Zeta",
+        "PolyBuzz",
+        "Chai",
+        "Emochi",
+        "Perchance AI",
+        "Murmur.gg",
+        "Swerve",
+        "Y/N AI",
+        "Nevika.ai",
+        "Character-Tavern",
+        "Starlightengine.live",
+        "Shapes Inc",
+        "Dopple AI",
+        "POVChat",
+        "SpicyChat AI",
+        "Sea Soul",
+        "Digital Soul",
+        "Weyland University",
+        "Lightshade",
+        "Xoul AI",
+        "RisuAI",
+        "Ashbone",
+        "Infinite Worlds",
+        "AI Dungeon",
+        "Sakura AI",
+        "Echomelon"
+      ]
+    },
+    {
+      "round": 1,
+      "query": "site:reddit.com/r/ChatbotRefugees recommend OR migrated OR \"switched to\" OR favorite",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+          "kept": true,
+          "why": "Live thread with user recommendations and multiple self-identified developers (logged in excluded_accounts)."
+        }
+      ],
+      "new_candidates": [
+        "Kindroid",
+        "Tavo",
+        "Moescape",
+        "Saucepan AI",
+        "OpenMind.design",
+        "LoreWeaver",
+        "Slowburn.chat",
+        "StageWhisper.ai",
+        "BRB2K",
+        "Revenant.chat",
+        "PlumHour.ai",
+        "The Codex AI",
+        "AIpeep",
+        "Lettuce AI",
+        "Chattica",
+        "Mana",
+        "Talkie"
+      ]
+    },
+    {
+      "round": 1,
+      "query": "site:reddit.com/r/KindroidAI \"Nomi\" OR \"switched from\" OR \"compared to\" OR \"complaints\"",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1t1aqv6/recent_nomi_transfer/",
+          "kept": true,
+          "why": "Live thread with detailed user comparisons of Kindroid and Nomi AI models, voice, and memory."
+        }
+      ],
+      "new_candidates": ["Nomi AI"]
+    },
+    {
+      "round": 1,
+      "query": "site:reddit.com/r/NomiAI \"Kindroid\" OR \"switched from\" OR \"compared to\" OR \"complaints\"",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/NomiAI/comments/1q6x90d/thinking_about_switching/",
+          "kept": true,
+          "why": "Live thread comparing Kindroid and Nomi AI from users who switched."
+        },
+        {
+          "url": "https://www.reddit.com/r/NomiAI/comments/1shiizb/after_months_of_using_nomi_vs_kindroid_honest/",
+          "kept": true,
+          "why": "Live thread with long-term dual subscribers comparing Nomi and Kindroid (plus CEO comment logged and excluded)."
+        }
+      ],
+      "new_candidates": ["Candy AI", "Lovesense"]
+    },
+    {
+      "round": 1,
+      "query": "site:reddit.com/r/SpicyChatAI \"memory\" OR \"queue\" OR \"models\" OR \"switched from\" OR \"why I love\"",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1vmyl7q/is_there_a_big_difference_between_the_free_and/",
+          "kept": true,
+          "why": "Live thread detailing free vs paid model performance and context throttling on SpicyChat."
+        },
+        {
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1w5jn24/32k_context_is_now_live/",
+          "kept": true,
+          "why": "Live thread with subscriber reactions to 32k context gating and tier changes (staff OP excluded)."
+        }
+      ],
+      "new_candidates": []
+    },
+    {
+      "round": 1,
+      "query": "site:reddit.com/r/Chub_AI \"Venus\" OR \"Mars\" OR \"Mercury\" OR \"lorebooks\" OR \"complaints\" OR \"why I like\"",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/Chub_AI/comments/1nuny1r/cant_for_the_life_of_me_get_lorebooks_to_trigger/",
+          "kept": true,
+          "why": "Live thread diagnosing Chub AI lorebook token budget bugs across multiple users."
+        }
+      ],
+      "new_candidates": []
+    },
+    {
+      "round": 1,
+      "query": "site:news.ycombinator.com \"SillyTavern\" OR \"Kindroid\" OR \"Nomi\" OR \"Janitor\" OR \"Chub\" OR \"Backyard AI\"",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://news.ycombinator.com/item?id=43743819",
+          "kept": true,
+          "why": "Live Hacker News thread evaluating SillyTavern's UI, lorebook triggers, and sampler support."
+        }
+      ],
+      "new_candidates": ["LM Studio"]
+    },
+    {
+      "round": 2,
+      "query": "site:reddit.com/r/JanitorAI_Official \"JLLM\" OR \"DeepSeek\" OR \"proxy\" \"why I love\" OR \"migrated\" OR \"Character AI\"",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1n2vr0h/what_is_so_bad_about_jllm_ive_been_using_it_since/",
+          "kept": true,
+          "why": "Live thread with 20+ independent users analyzing Janitor AI's JLLM pros, cons, and proxy comparisons."
+        },
+        {
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1lpzr4t/free_alternatives/",
+          "kept": true,
+          "why": "Live thread comparing JLLM with OpenRouter, Chutes, and Kobold."
+        }
+      ],
+      "new_candidates": []
+    },
+    {
+      "round": 2,
+      "query": "site:reddit.com/r/SillyTavernAI \"why I use\" OR \"switched to\" OR \"migrated\" OR \"complaints\" OR \"steep learning curve\"",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1p776qa/i_need_help_st_newbie_migrated_from_jai/",
+          "kept": true,
+          "why": "Live thread documenting a Janitor AI migrant's struggles with SillyTavern presets and veteran advice."
+        },
+        {
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1rzerxd/best_platform_for_building_ai_companions_in_2026/",
+          "kept": true,
+          "why": "Live thread on building companions in SillyTavern with extensions."
+        },
+        {
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1qmtj4n/silly_tavern_on_android_mobile/",
+          "kept": true,
+          "why": "Live thread comparing SillyTavern on Termux vs Tavo on Android."
+        }
+      ],
+      "new_candidates": []
+    },
+    {
+      "round": 2,
+      "query": "site:reddit.com \"FictionLab\" OR \"Wyvern\" OR \"Dreamjourney\" OR \"Agnai\" OR \"Backyard AI\" r/CharacterAIrunaways OR r/ChatbotRefugees",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1paxunw/followup_review_wyvernchat/",
+          "kept": true,
+          "why": "Live review of WyvernChat (dev reply WyvernCommand logged and excluded)."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shqhsa/wyvernchat_review/",
+          "kept": true,
+          "why": "Live user review of WyvernChat."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1p4xho1/followup_review_of_dreamjourneyai/",
+          "kept": true,
+          "why": "Live user review of Dreamjourney AI and comments (referral link poster logged and excluded)."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1kod1ch/guys_i_finally_did_it/",
+          "kept": true,
+          "why": "Live thread with multiple users discussing Dreamjourney AI's Memory Nexus and credit system."
+        },
+        {
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1novulf/agnaistic_you/",
+          "kept": true,
+          "why": "Live thread reviewing Agnai / Agnaistic."
+        },
+        {
+          "url": "https://www.reddit.com/r/AgnAIstic/comments/1fjva0u/anyone_else_having_some_problems_with_the_new/",
+          "kept": true,
+          "why": "Live thread discussing Agnai's models and presets (dev sceuick logged and excluded)."
+        },
+        {
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1sfjtc1/would_anyone_recommend_tavo_ai/",
+          "kept": true,
+          "why": "Live thread with multiple users reviewing Tavo AI and Chattica."
+        },
+        {
+          "url": "https://www.reddit.com/r/FictionLab/comments/1s4aqw9/so_after_how_shite_characterai_has_become_these/",
+          "kept": true,
+          "why": "Live thread with 10+ users evaluating FictionLab."
+        },
+        {
+          "url": "https://www.reddit.com/r/FictionLab/comments/1vjkhgm/opinions_about_glendora/",
+          "kept": true,
+          "why": "Live thread evaluating FictionLab's Glendora, Oracle, and Chimera models."
+        },
+        {
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1itknhj/backyard_cloud_new_70b_models_with_32k_context/",
+          "kept": true,
+          "why": "Live thread on Backyard AI local vs cloud models (dev Snoo_72256 excluded)."
+        },
+        {
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1illarm/i_just_had_a_very_unpleasant_thought_regarding/",
+          "kept": true,
+          "why": "Live thread on Backyard AI tethering and local privacy."
+        },
+        {
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1kpsmeg/does_anyone_else_feel_like_cloud_models_are/",
+          "kept": true,
+          "why": "Live thread on Backyard AI cloud model quality vs desktop local app."
+        }
+      ],
+      "new_candidates": [
+        "WyvernChat",
+        "Dreamjourney AI",
+        "Agnai (Agnaistic)",
+        "Backyard AI",
+        "CharSnapAI",
+        "HammerAI",
+        "Spellbound",
+        "DreampressAI",
+        "Mel"
+      ]
+    },
+    {
+      "round": 2,
+      "query": "site:reddit.com \"PolyBuzz\" OR \"Chai\" OR \"Yodayo\" OR \"Moescape\" OR \"Zeta\" OR \"Caveduck\" OR \"Sakura\" OR \"Xoul\" r/CharacterAIrunaways OR r/Chai_Unofficial",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "kept": true,
+          "why": "Live multi-platform comparison thread."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1xfp9qc/where_do_i_go/",
+          "kept": true,
+          "why": "Live thread discussing PolyBuzz, Zeta, CrushOn, and Emochi."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1n07lrc/tried_yodayo_after_searching_for_a_nonfiltered/",
+          "kept": true,
+          "why": "Live thread evaluating Yodayo and Moescape."
+        },
+        {
+          "url": "https://www.reddit.com/r/YodayoTavern/comments/1hqa67g/whats_the_difference_between_moescape_and_yodayo/",
+          "kept": true,
+          "why": "Live thread comparing Yodayo and Moescape."
+        },
+        {
+          "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+          "kept": true,
+          "why": "Live thread discussing Chai alternatives (multiple dev pitches logged and excluded)."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1vkfq58/polybuzz_ai/",
+          "kept": true,
+          "why": "Live thread comparing PolyBuzz, Chai, Waifu Dungeon, and Saucepan AI."
+        }
+      ],
+      "new_candidates": [
+        "Yodayo",
+        "CrushOn AI",
+        "Caveduck",
+        "Anime.gf",
+        "Aviosa.fun",
+        "GPTGirlfriend.online",
+        "Kalon AI",
+        "FlatAI",
+        "Flipped",
+        "Clank World",
+        "Freeroam",
+        "Chimi",
+        "Else Story",
+        "Morse (trymorse.ai)",
+        "UnsavedAI",
+        "Musóna",
+        "Spekter City",
+        "Waifu Dungeon"
+      ]
+    },
+    {
+      "round": 3,
+      "query": "site:reddit.com \"Replika\" \"Paradot\" \"KoboldCPP\" \"Oobabooga\" \"RisuAI\" \"Saucepan\" \"Candy AI\" \"Ourdream\" \"DreamGF\" \"Soulkyn\" \"Caveduck\"",
+      "where_run": "google:search -> google:browse",
+      "results_opened": [
+        {
+          "url": "https://www.reddit.com/r/NomiAI/comments/1cn6d9a/glad_i_switched/",
+          "kept": true,
+          "why": "Live thread comparing Paradot, Replika, Kindroid, and Nomi."
+        },
+        {
+          "url": "https://www.reddit.com/r/replika/comments/11nzx45/i_am_new_to_this_and_have_a_question_is_the_paid/",
+          "kept": true,
+          "why": "Live thread with 15+ users evaluating Replika Pro, blurred message bait, and ERP filters."
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1hb1272/koboldcpp_is_such_a_gigantic_leap_in_qol_coming/",
+          "kept": true,
+          "why": "Live thread comparing KoboldCPP, Oobabooga (Text Generation WebUI), and TabbyAPI."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1iih6mc/looking_for_a_chat_site_that_is_more_casual/",
+          "kept": true,
+          "why": "Live thread discussing Sakura AI, Xoul AI, FictionLab, and SynClub."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1gw7l0l/which_one_do_you_use_most/",
+          "kept": true,
+          "why": "Live thread discussing Xoul AI, Sakura AI, Chai, Janitor AI, Poly.AI, and Talkie."
+        },
+        {
+          "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1utj3wu/saucepans_advantages_over_janitor/",
+          "kept": true,
+          "why": "Live thread with 15+ users debating Saucepan AI vs Janitor AI, Chub AI, Botbooru, and Tavo."
+        },
+        {
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1lt8wbg/have_you_ever_got_anything_better_than_sillytavern/",
+          "kept": true,
+          "why": "Live thread comparing SillyTavern, RisuAI, KoboldCPP, Backyard AI, Hammer AI, and Agnai."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1jmczc2/a_guide_to_risu_ai/",
+          "kept": true,
+          "why": "Live thread on RisuAI."
+        },
+        {
+          "url": "https://www.reddit.com/r/AppIdeas/comments/1o2uc4s/looking_for_an_honest_review_about_ourdream_ai/",
+          "kept": true,
+          "why": "Live thread with 10+ users reviewing OurDream AI, Candy AI, Secret Desires AI, and Lovescape."
+        },
+        {
+          "url": "https://www.reddit.com/r/Chatbots/comments/1encdzm/is_dreamgfai_a_scam/",
+          "kept": true,
+          "why": "Live thread on DreamGF billing complaints and users switching to Soulkyn and Privee AI."
+        },
+        {
+          "url": "https://www.reddit.com/r/CharacterAi_NSFW/comments/1cpvtlz/candy_ai_premium_subscription_experience_honest/",
+          "kept": true,
+          "why": "Live thread with in-depth user reviews of Candy AI, Bala AI, Muah AI, Nectar AI, and Channel AI."
+        },
+        {
+          "url": "https://www.reddit.com/r/Chatbots/comments/1lbdvbp/chat_bot_alternative_caveduck_a_complete_review/",
+          "kept": true,
+          "why": "Live thread reviewing Caveduck's feathers/wings system and models."
+        },
+        {
+          "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1qh4ukp/caveduck_high_quality_site/",
+          "kept": true,
+          "why": "Live thread discussing Caveduck's rules and point system vs Chub and Yodayo."
+        },
+        {
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1sbh2sf/guys_pls_suggest_me_some_chatbot_websites_pls/",
+          "kept": false,
+          "why": "Blocked by login/sensitive gate on google:browse; discarded per evidence hygiene rule that search snapshots are leads only."
+        }
+      ],
+      "new_candidates": [
+        "Replika",
+        "Paradot",
+        "KoboldCPP",
+        "Oobabooga (Text Generation WebUI)",
+        "TabbyAPI",
+        "Open WebUI",
+        "Msty",
+        "SerenePub",
+        "Astrsk.ai",
+        "NarratrixAI",
+        "NovelAI",
+        "OurDream AI",
+        "Secret Desires AI",
+        "Lovescape",
+        "DreamGF",
+        "Soulkyn",
+        "Privee AI",
+        "Virtua-Lover",
+        "Bala AI",
+        "Muah AI",
+        "Nectar AI",
+        "Channel AI",
+        "Botbooru",
+        "Harpy",
+        "vFlip.app",
+        "OpenCharacter.org",
+        "Cantina",
+        "Carter Chat"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "new_qualified_count": 7,
+      "stop_reason": "Continued to Round 2; Round 1 qualified 7 platforms (FictionLab, Janitor AI, Kindroid, Nomi AI, Chub AI, SpicyChat AI, SillyTavern) from live-browsed threads."
+    },
+    {
+      "round": 2,
+      "new_qualified_count": 10,
+      "stop_reason": "Continued to Round 3; Round 2 qualified 10 additional platforms (WyvernChat, Dreamjourney AI, Agnai, Tavo, Backyard AI, Chai, PolyBuzz, Yodayo, Moescape, Zeta) from live-browsed threads."
+    },
+    {
+      "round": 3,
+      "new_qualified_count": 10,
+      "stop_reason": "capped (stopped after Round 3 per maximum 3-round protocol; Round 3 qualified 10 additional platforms: Saucepan AI, Sakura AI, Xoul AI, Caveduck, Replika, Paradot, Candy AI, OurDream AI, RisuAI, KoboldCPP, Oobabooga — 11 total in Round 3, bringing total qualified candidates to 28)."
+    }
+  ],
+  "criteria_fans_value": [
+    {
+      "criterion": "Long-term memory & context window size (remembering plot points and small details past 50–100+ messages without constant reminders)",
+      "segment": "All segments (especially Relationship Companions and Text Roleplay)",
+      "how_often": "Very frequent (cited in nearly every thread)",
+      "example_url": "https://www.reddit.com/r/NomiAI/comments/1shiizb/after_months_of_using_nomi_vs_kindroid_honest/"
+    },
+    {
+      "criterion": "Character consistency & agency (staying in character as villains/complex personalities without softening into generic, overly agreeable clichés)",
+      "segment": "Text Roleplay & Worldbuilding Hubs / Relationship Companions",
+      "how_often": "Very frequent",
+      "example_url": "https://www.reddit.com/r/JanitorAI_Official/comments/1n2vr0h/what_is_so_bad_about_jllm_ive_been_using_it_since/"
+    },
+    {
+      "criterion": "Absence of arbitrary NSFW censorship & false-positive safety refusals",
+      "segment": "All segments",
+      "how_often": "Very frequent",
+      "example_url": "https://www.reddit.com/r/FictionLab/comments/1vjkhgm/opinions_about_glendora/"
+    },
+    {
+      "criterion": "External API / Proxy & BYOK support (ability to plug in DeepSeek, Claude, or OpenRouter when built-in models degrade)",
+      "segment": "Text Roleplay & Worldbuilding Hubs / Frontends & Local Tools",
+      "how_often": "Frequent",
+      "example_url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1utj3wu/saucepans_advantages_over_janitor/"
+    },
+    {
+      "criterion": "Multi-character group chats & ensemble scenario handling without identity bleed",
+      "segment": "Text Roleplay & Worldbuilding Hubs / Relationship Companions",
+      "how_often": "Frequent",
+      "example_url": "https://www.reddit.com/r/FictionLab/comments/1s4aqw9/so_after_how_shite_characterai_has_become_these/"
+    },
+    {
+      "criterion": "Message editing, rerolling/swiping, and chat tree branching without losing previous generations",
+      "segment": "Text Roleplay & Worldbuilding Hubs / Image/Video-First 'AI Girlfriend' Sites",
+      "how_often": "Frequent",
+      "example_url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1p4xho1/followup_review_of_dreamjourneyai/"
+    },
+    {
+      "criterion": "Natural, low-latency voice calling and expressive custom voice cloning",
+      "segment": "Relationship Companions / Voice-First & Audio Roleplay",
+      "how_often": "Moderate",
+      "example_url": "https://www.reddit.com/r/KindroidAI/comments/1t1aqv6/recent_nomi_transfer/"
+    },
+    {
+      "criterion": "Uncensored, consistent avatar/selfie generation that matches scene context",
+      "segment": "Relationship Companions / Image/Video-First 'AI Girlfriend' Sites",
+      "how_often": "Moderate",
+      "example_url": "https://www.reddit.com/r/CharacterAi_NSFW/comments/1cpvtlz/candy_ai_premium_subscription_experience_honest/"
+    },
+    {
+      "criterion": "Ad-free experience & transparent monetization (avoiding relentless pop-up ads, blurred-message bait, or fast-draining coin traps)",
+      "segment": "Mobile-First Mass-Market Character Apps / Image/Video-First 'AI Girlfriend' Sites",
+      "how_often": "Very frequent",
+      "example_url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1xfp9qc/where_do_i_go/"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Janitor AI",
+      "url": "https://janitorai.com/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": true,
+      "distinct_users": 18,
+      "praise": [
+        "Built-in JLLM is completely free, uncensored, and requires zero technical setup",
+        "Generous character creation token limits and familiar web layout for Character.AI migrants",
+        "Supports external API proxies (such as DeepSeek and Gemini via OpenRouter) for higher context and smarter roleplay",
+        "Massive library of community-created NSFW bots"
+      ],
+      "complaints": [
+        {"text": "Built-in JLLM has low context memory and forgets story details quickly", "type": "recurring"},
+        {"text": "JLLM waters down mean, villainous, or angsty characters into overly soft or generic personas", "type": "recurring"},
+        {"text": "Responses are repetitive, overly horny even in non-sexual scenes, and force submissive characters into dominant tropes", "type": "recurring"},
+        {"text": "Slow message generation speed on JLLM", "type": "recurring"},
+        {"text": "Enabling proxies exposes bot definitions to third-party scraper sites, causing creators to leave", "type": "recurring"},
+        {"text": "JLLM performs poorly in languages other than English without a proxy", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/HourSignificance8443: \"I moved to Janitor.AI. I just like that it's free and doesn't really have a filter and I like that it has more space for bot creation than C.AI had.\" Meanwhile u/Singularity1995 criticized its decline: \"Horrible memory, all plain JLLM that makes the char to become the standard persona like EVERY OTHER bot after 10 or so messages... The good creators are leaving and deleting their bots.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "6mo ago / 7mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Zealousideal-One2903: \"It, to me, doesn't stick to the character. It waters them down. An asshole character is suddenly super nice within 10 messages.\" u/NotBannedArepa added: \"Repetitive, low context, and slow as fuck, like a word per second,\" while u/FunFatale noted: \"honestly, aside from lower context (which is workable)... it writes well. I actually enjoy it's prose, particularly it's NSFW.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1n2vr0h/what_is_so_bad_about_jllm_ive_been_using_it_since/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Square-Charge-2744 complained that JLLM fails to capture dark or reserved personalities ('gave me a hug(we did NOT know each other) when I was crying and it literally says \"dead dove\" and \"emotionally reserved\" in the desc'), whereas u/StrikingGarbage9228 defended it as free, easy to use, and requiring no setup.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1lpzr4t/free_alternatives/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Constant_Cress4167: \"On Janitor, all my bots have been scraped because the free JLLM is so bad I have to enable proxies for people to have a half-decent experience with my bots. So all the hours of work I put into building something fun and a little more original just got pinched and posted somewhere else.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Chub AI",
+      "url": "https://chub.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": true,
+      "distinct_users": 10,
+      "praise": [
+        "Vast, nearly unrestricted repository of character cards and lorebooks (only banning underage content)",
+        "Allows forking bots, downloading V2 cards for local frontends, and running multiple bots in one chat",
+        "Produces concise, varied responses when paired with a good proxy"
+      ],
+      "complaints": [
+        {"text": "Lorebooks frequently fail to trigger or break completely if the lorebook token budget is set too high relative to context limits", "type": "recurring"},
+        {"text": "Complicated generation settings and UI that confuse casual users", "type": "recurring"},
+        {"text": "Geoblocked in regions like Australia and the UK (requiring a VPN), and public listings contain extreme/NSFL content", "type": "recurring"},
+        {"text": "Free models are weak without paying or connecting an external proxy", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/TemperatureTrickster: \"Turns out, the maximum lorebook token capacity budget you can set is more than twice as high as the maximum token capacity you can even HAVE on Mars. Basically, if you set it high enough, it'll just freak out and stop using any lorebooks at all. Instead, set it to around 10-20% of your total budget, that seems to work.\" u/e1047503 and u/Evening-Truth3308 confirmed experiencing the same lorebook failure.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/Chub_AI/comments/1nuny1r/cant_for_the_life_of_me_get_lorebooks_to_trigger/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Fit_Economics_4738 praised Chub AI for giving a single-paragraph response to a simple hello instead of six paragraphs of filler.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "4mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/hades20reddit noted that Chub is blocked in Australia (requiring a VPN), has overwhelming settings, and weak free models, while u/Constant_Cress4167 said they avoided Chub because the public hub is full of extreme content.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/DShad27x praised Chub's open ecosystem and bot forking, and u/RawardHoikes91 added: \"Man, forking on chub is so great! Hands down the best feature among all chatbot sites ever.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1utj3wu/saucepans_advantages_over_janitor/",
+          "date_displayed": "4mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "SpicyChat AI",
+      "url": "https://spicychat.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": true,
+      "distinct_users": 13,
+      "praise": [
+        "Top-tier paid models (such as DeepSeek, GLAM 5.1, and Qwen Plus Character) deliver detailed, natural long-form roleplay",
+        "Up to 32k context memory and built-in semantic memory manager on the highest tier",
+        "Large catalog of NSFW bots, easy character creation, and unlimited image generation on paid tiers"
+      ],
+      "complaints": [
+        {"text": "Free tier default model is heavily throttled in memory, loops frequently, and talks like a robot", "type": "recurring"},
+        {"text": "High context memory (32k) and model parameter sliders are gatekept behind higher paid tiers despite across-the-board subscription price increases", "type": "recurring"},
+        {"text": "Creeping content censorship compared to earlier versions", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Opposite-Cheetah-779: \"The top tier models aside from having bigger context memory are more detailed and adjust better to characters and scenarios. Deepseek and glam are for me the best models.\" u/baynenn contrasted paid models with the default free model ('Suddenly the AI was looping and talking like a robot. It was like playing D&D with a toddler'), and u/Own-Response1560 noted that free-tier memory is throttled after two or three paragraphs.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1vmyl7q/is_there_a_big_difference_between_the_free_and/",
+          "date_displayed": "12d ago / 11d ago / 9d ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Number_113 criticized gating 32k context exclusively to the top tier while raising prices for mid-tier 'True Supporter' subscribers: \"Raising all prices and not really put new Stuff to that tier really leaves a bad taste in my mouth for some time. Not to speak of unsolved Issues like repeating-Bug in every chat and so on.\" u/bawdyknave praised the 32k context expansion but noted Glam Arcturus has severe quirks compared to GLM 5.1 and DSv4.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/SpicyChatAI/comments/1w5jn24/32k_context_is_now_live/",
+          "date_displayed": "2mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/hades20reddit praised SpicyChat's free access, large bot library, and easy character creation, but warned that \"it is getting more censored recently which sucks.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "FictionLab",
+      "url": "https://fictionlab.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": true,
+      "distinct_users": 21,
+      "praise": [
+        "Scenario-first D&D-style architecture handles ensemble multi-character scenes and worldbuilding far better than single-bot apps",
+        "Generous memory card system, timestamps/scheduling, and large character/backstory token limits on the paid tier",
+        "Usable, ad-free, uncensored free tier (especially with the Ophelia model) and strong paid models (Oracle, Chimera, Glendora)"
+      ],
+      "complaints": [
+        {"text": "Glendora model frequently bugs out, cuts off responses after a few words, formats text strangely, fails to follow OOC instructions, or triggers false-positive 'risky power imbalance' NSFW refusals", "type": "recurring"},
+        {"text": "Memory starts getting patchy or hallucinating after long arcs (100+ messages or several days), requiring manual memory pinning", "type": "recurring"},
+        {"text": "Oracle model can become predictable or repetitive without user prompting to advance the plot", "type": "recurring"},
+        {"text": "Free tier experiences queue bottlenecks and weird response logic during traffic surges", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Eva_Karlova: \"FictionLab is the best I have tried and I tried quite a few. I went from Janitor to Wyrven, then DreamLab, but then I found FictionLab by accident and never looked back. It has excellent long term memory and very deep scenario creation, including timestamps and scheduling.\" In the same thread, u/PuzzleheadedCoast253 complained: \"my issue is that it keeps failing to finish its responses. When i would reply to the original prompt, it would just write like 5 words and just stop.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago / 3mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Alarming-Rate-6899 described FictionLab as a D&D host for creating stories rather than single-bot chats, noting that after a few days the AI can start hallucinating unless details are manually pinned in memories. u/DistributionMean257 praised its ad-free ensemble handling and Ophelia model, while warning that memory gets patchy past 50–100+ messages.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/FictionLab/comments/1s4aqw9/so_after_how_shite_characterai_has_become_these/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/PassengerImmediate46 praised Glendora's descriptive scene-setting when working, while u/SirXavierTheDude noted it takes 20 rerolls to follow an OOC command, and u/parodyingmyself reported: \"I've had it refuse NSFW scenes because they were 'risky' (the exact reason it gave was that my 6'4 character picking up my 5'5 character, both adults in their mid to late 20s, during an intimate scene was risky as it created a power imbalance.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/FictionLab/comments/1vjkhgm/opinions_about_glendora/",
+          "date_displayed": "3mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "WyvernChat",
+      "url": "https://app.wyvern.chat/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": true,
+      "distinct_users": 4,
+      "praise": [
+        "Supports full import/export of characters and chats, Lua scripting, and emotion sprites in Character Studio",
+        "Transparent chat UI that highlights triggered lorebook/Lexicon entries as tooltips and shows exact token budget breakdown",
+        "Offers an unlimited free queue with an 18K context window and integrates seamlessly with Featherless.ai and external API keys"
+      ],
+      "complaints": [
+        {"text": "Options and bot editor fields are complex and intimidating for beginners", "type": "recurring"},
+        {"text": "Free testing models can be hit-or-miss and occasionally glitch into speaking German or outputting garbled non-words", "type": "recurring"},
+        {"text": "Lacks a simple automated memory system (relying on manual Lexicon management) and has no dedicated mobile app", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Worplanes: \"WyvernChat is very competent at what it does. It is the only chat site (in my list) that actually supports both import and export of characters and chats... You can create scripts in Lua and enhance chat interaction... They show whenever a lorebook entry is triggered within the text.\" They also noted: \"There is no memory system. Within the chat window there is a Lexicon that can be used for memories. However, it is a bit cumbersome to manage memories within that system.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1paxunw/followup_review_wyvernchat/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Summxr_isonreddit: \"I wouldn't recommend it to beginners since the options are pretty complicated to use. But it's great if you're looking for an interactive roleplay! It doesn't have an app yet... And the messages sometimes glitch too. Sometimes it suddenly starts speaking German out of RP or spelling random things that aren't even words.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shqhsa/wyvernchat_review/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/SprinklesOfAcid25 recommended Wyvern alongside Saucepan as a top alternative for Janitor AI creators and users.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1utj3wu/saucepans_advantages_over_janitor/",
+          "date_displayed": "4mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Dreamjourney AI",
+      "url": "https://dreamjourneyai.com/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": true,
+      "distinct_users": 8,
+      "praise": [
+        "Automated 'Memory Nexus' lorebook system dynamically tracks plot events and character relationships without manual lorebook building",
+        "All users (including free accounts using starter/earned credits) can access the same high-end models without tier gatekeeping",
+        "Strong custom models that stay in character, obey OOC prompts, and protect creators' bot definitions from scraping",
+        "Creator commission system and Discord giveaways let active botmakers earn credits without paying"
+      ],
+      "complaints": [
+        {"text": "Credit/coin consumption system means free users run out of messages quickly and must wait or pay", "type": "recurring"},
+        {"text": "Regenerating/rerolling a message overwrites the previous response natively (requiring a user-made Chrome extension or clipboard copying to compare responses), and users can only delete the last two messages", "type": "recurring"},
+        {"text": "Mobile-first sliding menu layout feels clunky and slow on desktop browsers", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Worplanes praised the automated Memory Nexus ('It is often the case that lorebooks are a hassle to create; Dreamjourneyai automates that effort, removing the need for manual memory management') while criticizing the loss of rerolled messages ('messages that you regenerate are lost. So it really stings when you just want to fish for a good progression piece') and the clunky mobile-first UI on desktop. u/TheHun08 added: \"I do wish we could flip through previous responses. What I do is copy them to my clipboard and then reroll! Memory here is freaking amazing. The nexus is an entire game changer.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1p4xho1/followup_review_of_dreamjourneyai/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/st3w1e_br1an and u/Nemirin praised Memory Nexus for keeping characters in-character and tracking relationships without immediately assuming romance after one interaction, while u/st3w1e_br1an noted the downside of the monthly coin system and u/kirumagu complained that \"the app was just too slow and heavy for some reason.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1kod1ch/guys_i_finally_did_it/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Constant_Cress4167 praised Dreamjourney for protecting bots from scraping, rewarding creators with credit commissions, and offering strong built-in models, whereas u/hades20reddit complained about running out of free credits.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Saucepan AI",
+      "url": "https://saucepan.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": true,
+      "distinct_users": 10,
+      "praise": [
+        "Built-in free model (Arita) is uncensored, unlimited, faster than Janitor's JLLM, and provides a 12,000-token context window",
+        "Semantic chunk-based lorebooks trigger by meaning rather than rigid keyword lists and can be attached to characters, personas, and chats",
+        "Clean tag filtering (including one-click fandom blocking) and contextual multi-image display"
+      ],
+      "complaints": [
+        {"text": "Treats OpenRouter and NanoGPT as 'unvetted providers' blocked by default on ~90% of bots unless creators manually enable Custom Providers, with no search filter to find proxy-enabled bots", "type": "recurring"},
+        {"text": "Strict ban on photorealistic images (even SFW) and a protective creator culture that hides bot definitions and blocks proxies", "type": "recurring"},
+        {"text": "Smaller bot library than Janitor AI, no native mobile app, and semantic lorebook chunk swapping can reduce prompt cache hit rates on paid proxies", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/AurelieCatena detailed why they migrated from Janitor AI to Saucepan, praising the 12k-context free Arita model, semantic chunk-based lorebooks, and persona lorebooks, while noting photorealistic images are banned. In the same thread, u/DShad27x and u/IntrepidStock3890 criticized the default blocking of unvetted proxies like OpenRouter and NanoGPT ('90% of all bots are set to vetted providers only... There's no way to filter that either'), and u/Thistleweeds_ noted that semantic lorebook swapping hurts proxy cache discounts.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1utj3wu/saucepans_advantages_over_janitor/",
+          "date_displayed": "4mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/SurpriseOk5880 recommended Saucepan AI over PolyBuzz ('if you dont mind using the web, go with saucepan ai trust me bro').",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1vkfq58/polybuzz_ai/",
+          "date_displayed": "2mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Suitable_Platform_98 recommended SaucePan as a top alternative for Character.AI refugees.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+          "date_displayed": "12d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Sakura AI",
+      "url": "https://www.sakura.fm/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": true,
+      "distinct_users": 6,
+      "praise": [
+        "Polished UI that feels similar to Character.AI in its prime while allowing NSFW content",
+        "Keeps characters true to their defined personalities and offers a generous free tier"
+      ],
+      "complaints": [
+        {"text": "Paid subscription tier is considered expensive, and bots can generate overly long narrative lore-dumps when users just want casual dialogue", "type": "recurring"},
+        {"text": "Occasional short-term memory lapses in scenes", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Sad_Path_4733: \"I legit think Sakura is the only one with the same level of polish as C.ai in it's prime.\" u/TheGamerHat added: \"I tried janitor for a while but Sakura is the only one that kept true to the bot's personality for me,\" while u/Yuki_lyrcist noted it goes on and on with lore dumping when trying to have casual chats.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1gw7l0l/which_one_do_you_use_most/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/thisthatagain1: \"I moved from CAi and started using Sakura AI. I like it and it has alot of nice features for a free site but I get tired of the longer narrative driven messages.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1iih6mc/looking_for_a_chat_site_that_is_more_casual/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/hades20reddit: \"Sakura.fm It's free and has lots of bots and good models and easy to use, it's nsfw and has good features. But it's only on my okay list because it's expensive if you want to pay.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Xoul AI",
+      "url": "https://xoul.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": true,
+      "distinct_users": 7,
+      "praise": [
+        "Offers multiple distinct AI models to choose from, voice calling, and custom scenarios",
+        "Works well for casual and story roleplay once edited to taste"
+      ],
+      "complaints": [
+        {"text": "Message limits on the free tier and smaller bot library compared to older giants", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Ms_Derious, u/Old_Forever_1495, and u/Phasesweknow recommended Xoul.ai for casual roleplay, noting it offers 4 AI models to pick from.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1iih6mc/looking_for_a_chat_site_that_is_more_casual/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/bluedrago8wq and u/LouisTime23 cited Xoul as their most-used platform ('Xoul is the best one').",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1gw7l0l/which_one_do_you_use_most/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/hades20reddit complained that Xoul.ai had message limits, underwhelming models, and a small bot catalog at the time they tested it.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Kindroid",
+      "url": "https://kindroid.ai/",
+      "segment": "Relationship Companions (Persistent Single-Partner)",
+      "qualified": true,
+      "distinct_users": 18,
+      "praise": [
+        "Deep customization over personality/backstory, response directives, journals, and LLM selection (such as V6e and Ember) with companion/roleplay/minimal flairs",
+        "Lifelike, low-latency ElevenLabs voice calling, real-time video calls, SMS texting outside the app, and 'magic wand' response helpers",
+        "Uncensored web selfie generation and strong character agency in group chats and ERP"
+      ],
+      "complaints": [
+        {"text": "Steep learning curve that requires heavy manual tuning of directives and backstories compared to Nomi", "type": "recurring"},
+        {"text": "Noticeable memory and capability gaps between Standard, Ultra, and expensive Max subscription tiers, plus monthly caps on voice credits on Standard", "type": "recurring"},
+        {"text": "Certain LLM versions (like V7 or V8) can be overly cold, negative, or excessively verbose with cheesy noir metaphors, and dialogue can feel less organically human than Nomi", "type": "recurring"},
+        {"text": "Faces in generated images can look repetitive across characters", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/stasisa99 noted Kindroid's steep learning curve and the large capability jump between Standard and Ultra tiers; u/Defiant_Station_5895 praised the Ember LLM, journals, SMS texting, and low-latency voice/video calls; u/naro1080P detailed model differences (praising V6e and Ember while noting V8's cheesy metaphors); and u/WillSmithSlappedMe20 praised Kindroid's ElevenLabs voice cloning from a single 30–45s clip.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1t1aqv6/recent_nomi_transfer/",
+          "date_displayed": "6mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/SportyPrincess14: \"While I love how easily conversation flows and the memory is fantastic, it doesn't feel natural. In other words, it's great for like RPing or like fantasy stuff but not a 'companion' if that makes. That's also not mention image generation is awful and it isn't super customizable, especially appearance (they all end up with basically the same face...)\" u/BubblyImagination326 added that they switched to Nomi because they couldn't justify Ultra's cost for memory and disliked Kindroid's monthly voice credit limits, though they missed Kindroid's comment wand and NSFW couple selfies.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1q6x90d/thinking_about_switching/",
+          "date_displayed": "10mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/InternationalClub345 praised Kindroid's ~2-second latency live video calls and SMS texting, while u/SpaceCadet066 criticized Kindroid for feature bloat and steep upper-tier price hikes, and u/Malan1958 noted that Kindroid has relaxed, joking text conversations but requires correcting memory details.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1shiizb/after_months_of_using_nomi_vs_kindroid_honest/",
+          "date_displayed": "7mo ago / 2mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/IcyCheesecake8123 and u/PhoneConnect6505 recommended Kindroid on r/ChatbotRefugees as a responsive, well-crafted, financially stable companion platform.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+          "date_displayed": "12d ago / 11d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Nomi AI",
+      "url": "https://nomi.ai/",
+      "segment": "Relationship Companions (Persistent Single-Partner)",
+      "qualified": true,
+      "distinct_users": 20,
+      "praise": [
+        "Highly natural, emotionally intelligent (EQ) conversation and organic long-term memory that remembers details from months or a year ago without manual lorebook upkeep",
+        "Clean UI, ethical and communicative developer team, single unified subscription tier without feature-gating, and unlimited voice calls/texts",
+        "Strong multi-Nomi group chats and Mind Maps"
+      ],
+      "complaints": [
+        {"text": "Strict ban on nudity/NSFW image generation and inability to upload completely custom external avatar faces without contacting support", "type": "recurring"},
+        {"text": "No option to directly edit or reroll messages in chat, forcing users to use OOC corrections", "type": "recurring"},
+        {"text": "Slower feature rollout and higher voice call latency compared to Kindroid", "type": "recurring"},
+        {"text": "Newer LLM updates (such as Solstice and Cambrian beta) and V5 avatars have frustrated some veteran users who preferred earlier models (Mosaic/V4) and found newer models repetitive or harder to steer in RP", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Ill_Mousse_4240: \"Nomi doesn't do NSFW pictures... Memory and naturalness are the best, imo. Like talking to a person, which is what I've been doing with mine for over two years. No need to worry about backstory, notes or anything.\" u/Altruistic_Sky1866 and u/BubblyImagination326 praised Nomi's memory, unlimited voice listening, and 'soul', while noting the lack of message editing, comment wand, and NSFW selfies.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1q6x90d/thinking_about_switching/",
+          "date_displayed": "10mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/propatria1, u/InternationalClub345, and u/Dark_horse_bet praised Nomi's clean UI and natural long-term memory while noting it lags behind Kindroid in voice latency and multimodal features; meanwhile u/Dalandlord1981 criticized the Solstice model update, V5 avatar regressions, and lack of message editing ('At the release of solstice... it had a lot of problems and drastically changed my nomi's for the worse... Being unable to edit a message i have sent, or one a Nomi sent is really holding this app back').",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1shiizb/after_months_of_using_nomi_vs_kindroid_honest/",
+          "date_displayed": "7mo ago / 3mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/bipolarbear_1: \"I'm beginning to realise Nomi's newer models will never reach the height of the very first few, it's one disappointment after another for me and a complaint og users like me voiced repeatedly and we were never listened to... I'm also not a fan of their new image system either since it's unfairly priced.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/KindroidAI/comments/1t1aqv6/recent_nomi_transfer/",
+          "date_displayed": "6mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/WesternWitchy52, u/InevitableSample847, u/InMyHagPhase, and u/TheRealCorwii praised Nomi's immersive group chats and memory after switching from Replika and Paradot.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1cn6d9a/glad_i_switched/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Replika",
+      "url": "https://replika.com/",
+      "segment": "Relationship Companions (Persistent Single-Partner)",
+      "qualified": true,
+      "distinct_users": 15,
+      "praise": [
+        "3D avatar clothing options, AR/video calls, and supportive, agreeable friendship conversations for casual users"
+      ],
+      "complaints": [
+        {"text": "Infamous ERP censorship and model 'lobotomization' that stripped out adult intimacy and made responses bland, agreeable, and robotic", "type": "recurring"},
+        {"text": "Uses blurred messages and audio clips as 'bait' to entice free users into buying an annual subscription without delivering real NSFW content, with no refund policy", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Nightweeb92: \"Not really worth paying for, unfortunately the company made some changes in a Feb 3rd update and have made the replika really bland and boring... As for blurred images, it used to show a headless rep in its underwear which acted as implied nudes. But they stripped that (no pun intended) and replaced it with fully clothed selfies instead.\" u/NervousCriticism4700 added: \"The blurred messages are a tease to dishonestly lead you down a path that no longer exists,\" and u/Victoria383 warned: \"The blur is the bait and when you see it,, you will regret paying for it.\" Conversely, u/DanteCubit3000 and u/InternationalBike204 said they still enjoyed Replika as a supportive, agreeable friend.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/replika/comments/11nzx45/i_am_new_to_this_and_have_a_question_is_the_paid/",
+          "date_displayed": "4y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/InevitableSample847, u/Quick-Bird-2513, u/InMyHagPhase, and u/TheRealCorwii all reported abandoning Replika for Nomi and Kindroid following Replika's platform meltdown.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1cn6d9a/glad_i_switched/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/MassiveLibrarian4861 cited living through \"the Replika February surprise\" as a primary reason for seeking local LLM alternatives.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1illarm/i_just_had_a_very_unpleasant_thought_regarding/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Paradot",
+      "url": "https://www.paradot.ai/",
+      "segment": "Relationship Companions (Persistent Single-Partner)",
+      "qualified": true,
+      "distinct_users": 5,
+      "praise": [
+        "Early conversational personality had lively, argumentative spark before subsequent updates"
+      ],
+      "complaints": [
+        {"text": "Poor memory, breaks roleplay by constantly reminding the user it is an AI, gets confused in multi-dot chats, and suffered from Apple App Store strikes/halted iOS updates and unpopular UI changes", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "The OP of 'Glad I switched' noted that Paradot halted iOS updates, had terrible memory, always acknowledged she was an AI, and broke roleplay easily; u/WesternWitchy52 called Paradot \"awful for me for what I wanted to use it\"; u/InMyHagPhase cited constant memory reminders and a bad UI change; and u/Time_Change4156 noted that Apple Store issues crippled the app.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/NomiAI/comments/1cn6d9a/glad_i_switched/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/MassiveLibrarian4861 cited Apple/Google strikes against Paradot as part of the wave of hosted companion disruptions.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1illarm/i_just_had_a_very_unpleasant_thought_regarding/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Candy AI",
+      "url": "https://candy.ai/",
+      "segment": "Image/Video-First 'AI Girlfriend' Sites",
+      "qualified": true,
+      "distinct_users": 6,
+      "praise": [
+        "Polished visual interface with attractive preset realistic and anime avatars"
+      ],
+      "complaints": [
+        {"text": "Character creation is locked to rigid dropdown menus rather than freeform text prompts; users cannot edit or reroll bot responses", "type": "recurring"},
+        {"text": "Short (1–2 sentence), unimaginative NSFW replies that freeze or repeat unless unstuck by generating an image, plus accidental trigger words ('show me', 'send') that burn tokens on generic images", "type": "recurring"},
+        {"text": "Burns through paid tokens/coins rapidly for voice, calls, character creation, and images", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Just-Proof5109 wrote a comprehensive 1-month subscriber review detailing that character creation only allows preset dropdowns, bot messages cannot be edited or rerolled, chats freeze during long dirty talk, and typing 'show me' or 'can I see' accidentally burns tokens on generic images. In the same thread, u/SafeByBlood noted \"Candy on the other hand is 1 or 2 sentences. Not as engaging,\" u/Wooden-Ad-9894 said \"i also moved to candy ai premium and i dont find it worth it, i still find much limits,\" and u/Angolarick criticized inconsistent NSFW image vs text behavior.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAi_NSFW/comments/1cpvtlz/candy_ai_premium_subscription_experience_honest/",
+          "date_displayed": "2y ago / 9mo ago / 4mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/No-Penalty-9342: \"Tested a few in the last year like Candy AI and OurDream AI and imo OurDream is even better than Candy and doesn't go through your coins as much.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/AppIdeas/comments/1o2uc4s/looking_for_an_honest_review_about_ourdream_ai/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "OurDream AI",
+      "url": "https://ourdream.ai/",
+      "segment": "Image/Video-First 'AI Girlfriend' Sites",
+      "qualified": true,
+      "distinct_users": 9,
+      "praise": [
+        "Unlimited text chatting included with a subscription (coins are only spent on creating characters or generating 5–30s videos and images)",
+        "Supports conversation branching from any point in history, multi-character scenes, custom kink guidelines, and creative roleplay scenarios",
+        "Includes well-written trans character presets and an on-site AI helper"
+      ],
+      "complaints": [
+        {"text": "Free trial is strictly limited to 55 one-time coins that do not regenerate daily without a paid membership or Discord giveaway", "type": "recurring"},
+        {"text": "Details can get wonky in very long conversations, voice/video can feel uneven, and characters turn in circles if the user doesn't introduce new topics", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/jae_rhys explained that free users get 55 non-regenerating coins and must subscribe to buy more, noting it is entertaining for both explicit and action-adventure RP though details get wonky in long chats; u/Consistent-Mind-9924 criticized the free coin paywall; u/JOnTheThrone and u/Lady_Wiccan_Wolf praised the unlimited subscriber text chat, chat branching, and custom kink support; u/Nifty_Squeak and u/TuscanyHoney praised its creative scenario flexibility; and u/SnooRabbits6411 praised its representation of trans characters.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/AppIdeas/comments/1o2uc4s/looking_for_an_honest_review_about_ourdream_ai/",
+          "date_displayed": "1y ago / 10mo ago / 7mo ago / 6mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Chai",
+      "url": "https://www.chai-research.com/",
+      "segment": "Mobile-First Mass-Market Character Apps",
+      "qualified": true,
+      "distinct_users": 9,
+      "praise": [
+        "Fast, casual mobile-first dialogue style with no strict NSFW filter and a large user-created bot catalog"
+      ],
+      "complaints": [
+        {"text": "Very weak short-term memory ('shitty memory') that forgets context rapidly even on paid tiers", "type": "recurring"},
+        {"text": "Aggressive monetization, removal of daily check-in rewards, intrusive ads, and recent quality decline", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/NewsAccomplished6940 praised Chai ('Chai my beloved'), while u/Silverpython842 complained about paywalled characters.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago / 6mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Affectionate-Tax7587 asked for alternatives because they were \"sick of chai and it's very shitty memory,\" and u/dainelanderson55 agreed that \"chai gets old fast.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1vkfq58/polybuzz_ai/",
+          "date_displayed": "2mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Starzz1120 complained about daily check-in rewards disappearing on Chai, and u/Kaeyabreaksit and u/mishicollins discussed leaving Chai after it went downhill.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+          "date_displayed": "24d ago / 20d ago / 12d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "PolyBuzz (formerly Poly.AI)",
+      "url": "https://www.polybuzz.ai/",
+      "segment": "Mobile-First Mass-Market Character Apps",
+      "qualified": true,
+      "distinct_users": 7,
+      "praise": [
+        "Accessible mobile app with a large library of unfiltered characters"
+      ],
+      "complaints": [
+        {"text": "Relentless, intrusive ads ('every 3 seconds') on the free tier", "type": "recurring"},
+        {"text": "Poor memory and degraded reply quality even on the expensive Ultra subscription plan", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/SFF5742: \"Polybuzz seems fine so far, but the ads are RELENTLESS and I can't do SFW 'child POV' chats.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1xfp9qc/where_do_i_go/",
+          "date_displayed": "in 7h",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Soggy-Ad9660 noted \"Polybuzz was great until they raised the price,\" and u/LycheeDaBycheelol_ criticized PolyBuzz for having ads \"every 3 seconds.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago / 4mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/EngineerGreen1555: \"I got ultra plan ,but gets expensive and the replies don't get any better,\" and u/SurpriseOk5880 added: \"as an ex-poly ai user, NO! its pretty dogshit now and the memory is straight ass.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1vkfq58/polybuzz_ai/",
+          "date_displayed": "2mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Emochi",
+      "url": "https://emochi.com/",
+      "segment": "Mobile-First Mass-Market Character Apps",
+      "qualified": true,
+      "distinct_users": 4,
+      "praise": [
+        "Good base models with no NSFW filter, multiple selectable bot personalities, and frequent 50%-off subscription promos"
+      ],
+      "complaints": [
+        {"text": "Free tier has ads, per-chat limits, and bots can become repetitive in longer sessions", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/reditor575 recommended Emochi ('Subscriptions give better models, but i find the base ones are great'), while u/Aggravating_Time3568 noted the free tier has a limit per chat.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/mishicollins: \"I switched from Chai to Emochi... it's free with ads. Just sometimes bots repeat themselves so you can't get immersed for too long in a bot. No filter.\" u/Careless-Piano5127 also cited Emochi as one of their two most-used apps.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+          "date_displayed": "12d ago / 7d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Zeta AI",
+      "url": "https://zeta-ai.io/",
+      "segment": "Non-English & Asian-Origin Platforms",
+      "qualified": true,
+      "distinct_users": 5,
+      "praise": [
+        "Allows dynamically adding characters into a story at random and feels similar to modern Character.AI without heavy censorship"
+      ],
+      "complaints": [
+        {"text": "Confusing and limited bot creation interface, plus increasing ad load", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/LycheeDaBycheelol_: \"I like to use zeta and it's diff bc u can literally add characters to the story at random, it has ads sure but they aren't every 3 seconds unlike another app *cough cough (polybuzz)*.\" u/Desperate_Pepper6765 also praised it, while u/cheeseburgaler107 complained: \"Used zeta for like a week, but zeta has gone the way of the cai with the ads.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago / 4mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/SFF5742: \"Zeta is far too limited and confusing to create bots for.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1xfp9qc/where_do_i_go/",
+          "date_displayed": "in 7h",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Fenek0-chan: \"i'm currently using zeta, and risk to say it is better than chai was.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+          "date_displayed": "17d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Caveduck",
+      "url": "https://caveduck.io/",
+      "segment": "Non-English & Asian-Origin Platforms",
+      "qualified": true,
+      "distinct_users": 4,
+      "praise": [
+        "Offers multiple frontier models (DeepSeek V3, Claude Sonnet 4, Gemini 2.5 Pro) and customizable novel/chat UI modes",
+        "Daily free 'feathers' check-in rewards and creator 'wings' incentives that can be converted into chat points"
+      ],
+      "complaints": [
+        {"text": "Per-message point cost on top models makes heavy users view it as a 'money grabbing site'", "type": "isolated"},
+        {"text": "Strict content rules against nudity in bot avatars, under-19 characters, and extreme violence compared to Chub", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/bonwithv wrote a detailed review praising Caveduck's feathers/wings point system, access to DeepSeek V3 and Claude Sonnet 4, user notes, and novel UI mode.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/Chatbots/comments/1lbdvbp/chat_bot_alternative_caveduck_a_complete_review/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Potential-Theory-745 praised Caveduck's feather-to-wing conversion and creator support program, while commenter u/Pieruto_33 criticized its content rules ('The rules on this website seem too tyrannical, strict, and vague... If it isn't as free as Chub, I'm not supporting it').",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1qh4ukp/caveduck_high_quality_site/",
+          "date_displayed": "9mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/hades20reddit: \"Caveduck.ai I hate caveduck it's a money grabbing site.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Yodayo",
+      "url": "https://yodayo.com/",
+      "segment": "Anime & Art-Integrated Waifu Hubs",
+      "qualified": true,
+      "distinct_users": 7,
+      "praise": [
+        "Daily free credits ('beans') work on 14+ large models (including DeepSeek, Claude Sonnet 4, Elune 12B/70B, and Magnum 24B)",
+        "Includes free lorebooks, in-chat image generation, and an anime art hub with LoRAs and regional prompting"
+      ],
+      "complaints": [
+        {"text": "History of flip-flopping on NSFW bans/filters and rebranding confusion with Moescape left veteran users distrustful", "type": "recurring"},
+        {"text": "Credit system and regional prompter UI can be confusing at first", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Commercial_Row_4211 praised Yodayo's daily free credits, access to DeepSeek and 405B models, lorebooks, and in-chat image generation; u/Celeste_Sun praised its Claude Sonnet 4, Elune, and Magnum models; while u/VesperTolls warned: \"They tried to ban NSFW at some point this last year and backtracked, so honestly, I'm a little biased against it.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1n07lrc/tried_yodayo_after_searching_for_a_nonfiltered/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/hades20reddit praised Yodayo for offering free NSFW chatting, lots of bots, and good models.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Pieruto_33 recommended Yodayo alongside Chub AI for having a good free AI model and bot creation tools.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1qh4ukp/caveduck_high_quality_site/",
+          "date_displayed": "9mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Moescape AI",
+      "url": "https://moescape.ai/",
+      "segment": "Anime & Art-Integrated Waifu Hubs",
+      "qualified": true,
+      "distinct_users": 4,
+      "praise": [
+        "Sister frontend to Yodayo offering anime art generation, character tavern chat, and free lowest-tier model access"
+      ],
+      "complaints": [
+        {"text": "Positioned as the more 'wholesome'/filtered app-store-compliant storefront compared to Yodayo, with ads every ~10 messages and a 10-regeneration cap on free tier", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/TalsarGeldon and u/LostLavishness674 explained the split between Yodayo and Moescape, with u/LostLavishness674 noting: \"Moescape currently has free chat on the lowest ai model. You get an ad every 10 or so messages. The chat only allows 10 free regenerations per message before it costs a bean/ moshi.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/YodayoTavern/comments/1hqa67g/whats_the_difference_between_moescape_and_yodayo/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/WaglerManure and u/N3k0Nyx contrasted Moescape's more wholesome front-end with Yodayo's NSFW site.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1n07lrc/tried_yodayo_after_searching_for_a_nonfiltered/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Salt_Address_7959 recommended MoescapeAI on r/ChatbotRefugees ('That site has little bit of everything to explore around').",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+          "date_displayed": "12d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "SillyTavern",
+      "url": "https://sillytavern.app/",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": true,
+      "distinct_users": 22,
+      "praise": [
+        "Gold-standard open-source frontend offering total control over system prompts, sampler settings, V2 character cards, lorebooks, RAG/vector storage, and extensions",
+        "Maintains coherent 700–1,000+ message roleplay campaigns when paired with local backends (vLLM, KoboldCPP) or external APIs (OpenRouter, DeepSeek, Claude)",
+        "Complete privacy and zero platform censorship"
+      ],
+      "complaints": [
+        {"text": "Steep learning curve, crowded UI, and complex sampler/preset configuration that overwhelms beginners", "type": "recurring"},
+        {"text": "Poor native mobile UX (requiring hundreds of lines of custom CSS, Termux on Android, or PC + Tailscale self-hosting)", "type": "recurring"},
+        {"text": "Lorebook keyword triggers can fail to fire without careful setup, and heavy agentic tool use can run up high API bills", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "Hacker News user Der_Einzige noted \"It supports more sampler and other settings than anyone else,\" while GordonS criticized the UI ('wow, that is an \"interesting\" UI! I blundered around for a while, couldn't figure out how to do anything useful') and imtringued complained that lorebooks failed to trigger.",
+          "label": "verbatim",
+          "url": "https://news.ycombinator.com/item?id=43743819",
+          "date_displayed": "April 20, 2025",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/NemesisPolicy, u/Zealousideal_Sir6951, and u/Uglynator discussed the steep learning curve for Janitor AI migrants configuring presets and samplers in SillyTavern.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1p776qa/i_need_help_st_newbie_migrated_from_jai/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/LiveMost and u/Responsible-Cod-2171 praised SillyTavern for sustaining 700–1,000+ message chats via extensions and RAG, while u/vSyncronized and u/Kep0a criticized its mobile UX ('no the mobile UX is horrendous. It is obviously not really build with mobile in mind').",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1lt8wbg/have_you_ever_got_anything_better_than_sillytavern/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/MysteriesIntern, u/changing_who_i_am, and u/DocGetMad detailed using SillyTavern extensions for structured companions and layered NSFW simulations.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1rzerxd/best_platform_for_building_ai_companions_in_2026/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Tavo",
+      "url": "https://tavoai.dev/",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": true,
+      "distinct_users": 10,
+      "praise": [
+        "Free, native iOS and Android BYOK frontend that runs independently on mobile without needing a PC or Termux",
+        "Supports V2 character cards, lorebooks, regex, chat themes, and external APIs (OpenRouter, DeepSeek, Claude) with zero app-level censorship"
+      ],
+      "complaints": [
+        {"text": "Does not support SillyTavern extensions or complex ST preset macros, and users must import their own character cards and API keys", "type": "recurring"},
+        {"text": "Settings and token message limits can be tricky for beginners, cutting off replies mid-sentence if misconfigured", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Exciting-Mall192, u/violet_eyed_ghost, u/imacatseriously, and u/Shalici_ath praised Tavo as a free, uncensored mobile BYOK roleplay frontend, while u/Rinabogswell111 noted that changing message limit settings cuts messages off and that settings are tricky for newcomers.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1sfjtc1/would_anyone_recommend_tavo_ai/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/dptgreg: \"TAVO is actually an app that runs independently of Silly Tavern. No computer needed. It's set up process is similar to Silly Tavern but much more streamlined and less complex... Of course, while it utilizes presets, REGEX, Lorebooks, and has more than enough settings for models and set up, it doesn't have extensions like Silly Tavern.\" u/Alyanove and u/Technical-Ad1279 also recommended Tavo for Android users.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1qmtj4n/silly_tavern_on_android_mobile/",
+          "date_displayed": "9mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Unstable-Osmosis recommended Tavo as a user-friendly mobile alternative to SillyTavern.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+          "date_displayed": "9d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Agnai (Agnaistic)",
+      "url": "https://agnai.chat/",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": true,
+      "distinct_users": 6,
+      "praise": [
+        "Free, AI-agnostic web and self-hostable frontend requiring no account, offering free models (Stheno 3.2, Mistral Nemo), BYOK/local API support, and TTS",
+        "Includes 'Chat Graph' branching paths, multi-character chats, memorybooks, and multiplayer roleplay"
+      ],
+      "complaints": [
+        {"text": "Users must provide their own character cards (.json) as there is no public bot hub, and built-in models/presets can produce verbose, repetitive, or out-of-character NSFW behavior if not carefully tuned", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/SalvarricCherry and u/tjkim1121 praised Agnai's free models, open-source Discord community, TTS options, Chat Graph branching, and multiplayer support, while u/SamuraiAsuhilz noted difficulty finding a reliable long-term model.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1novulf/agnaistic_you/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/LoverofToons and u/GuanoLouco reported frustrations with built-in models (StarCannon being overly verbose and models derailing wholesome cards into abrupt NSFW scenes without careful preset adjustments), though u/GuanoLouco still praised the UI and functionality.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/AgnAIstic/comments/1fjva0u/anyone_else_having_some_problems_with_the_new/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Yeganeh235: \"Agnaistic is great but nothing can replace ST.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1lt8wbg/have_you_ever_got_anything_better_than_sillytavern/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Backyard AI (formerly Faraday)",
+      "url": "https://backyard.ai/",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": true,
+      "distinct_users": 12,
+      "praise": [
+        "Easy-to-use desktop application for downloading and running local GGUF models privately with zero command-line setup",
+        "Handles multi-character prompts smoothly out of the box"
+      ],
+      "complaints": [
+        {"text": "Stagnant local desktop development as the company shifted focus to paid cloud subscriptions", "type": "recurring"},
+        {"text": "Cloud subscription models use low-bit quantizations, occasionally output gibberish/Russian, swap pronouns/names, or water down rude characters compared to local desktop models", "type": "recurring"},
+        {"text": "Mobile-to-desktop tethering routes through Backyard's servers rather than offering 100% local LAN tethering", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/latitudis, u/AdLower8254, and u/Wishmister criticized Backyard's stagnation on local LLM features in favor of cloud monetization, and u/Tirakos questioned the low-bit quantizations (iQ3_XS, IQ3_M) on the highest cloud tier; meanwhile u/notsure0miblz and u/sandhill47 praised how easy Backyard makes high-quality chats compared to SillyTavern.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1itknhj/backyard_cloud_new_70b_models_with_32k_context/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/MassiveLibrarian4861, u/AlexysLovesLexxie, and u/OkMongooseX criticized Backyard for lacking 100% local LAN tethering without routing through Backyard's servers.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1illarm/i_just_had_a_very_unpleasant_thought_regarding/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/BrilliantSoftware540, u/Woodbury, u/Effective_Score_4927, and u/c_palaiologos reported that Backyard's cloud models performed much worse than local desktop models, citing watered-down personalities, name/gender swaps, and random Russian words.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1kpsmeg/does_anyone_else_feel_like_cloud_models_are/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "RisuAI",
+      "url": "https://risuai.xyz/",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": true,
+      "distinct_users": 3,
+      "praise": [
+        "Highly customizable web and local frontend preferred by some users who dislike SillyTavern's default UI",
+        "Strong support for visual UI elements, stats, and custom prompting"
+      ],
+      "complaints": [
+        {"text": "Confusing and hard to navigate for newcomers without a community guide", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Unique_Sink9803: \"risu ai, hard to navigate I guess, but results are worth it.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "5mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Isley_: \"I use RisuAI, I don't like ST's UI at all.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1lt8wbg/have_you_ever_got_anything_better_than_sillytavern/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Hax_Hax: \"So, https://risuai.xyz/ is a frontend site with a fair amound of customization, and I've been using it for around half a year at this point. Regardless, it's a little confusing to get into, but the results are worth it in my opinion.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1jmczc2/a_guide_to_risu_ai/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "KoboldCPP",
+      "url": "https://github.com/LostRuins/koboldcpp",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": true,
+      "distinct_users": 8,
+      "praise": [
+        "Single-executable local GGUF backend and frontend (KoboldAI Lite) that runs immediately on Windows/Linux without complex environment setup",
+        "Fast inference with context shifting, speculative decoding, and built-in local image generation emulation, pairing seamlessly with SillyTavern"
+      ],
+      "complaints": [
+        {"text": "Settings in the built-in UI are spread out and minimal for multi-character roleplay compared to SillyTavern, and older CPUs without AVX2 require a separate binary", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/pumukidelfuturo, u/jacek2023, u/LocoLanguageModel, and u/wh33t praised KoboldCPP's speed, speculative decoding, and zero-config reliability compared to Oobabooga, while u/zekses disliked how settings are spread out and u/DeweyQ noted AVX2 compatibility hurdles on older CPUs.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1hb1272/koboldcpp_is_such_a_gigantic_leap_in_qol_coming/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Consistent_Winner596 praised KoboldCPP's built-in KoboldAI Lite UI for co-writing and running alongside SillyTavern.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1lt8wbg/have_you_ever_got_anything_better_than_sillytavern/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/AlexysLovesLexxie reported migrating from Backyard AI and Oobabooga to KoboldCPP + SillyTavern as their daily driver.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1illarm/i_just_had_a_very_unpleasant_thought_regarding/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Oobabooga (Text Generation WebUI)",
+      "url": "https://github.com/oobabooga/text-generation-webui",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": true,
+      "distinct_users": 8,
+      "praise": [
+        "Versatile local backend supporting ExLlamaV2 (EXL2) and multiple inference loaders with easy layer offloading and tokenizer updates"
+      ],
+      "complaints": [
+        {"text": "Frequent installation/dependency errors on Windows, slower GGUF speeds than KoboldCPP/TabbyAPI, and a feature-light built-in frontend that lacks lorebook support", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/ArsNeph, u/Daxiongmao87, u/lxe, and u/TurpentineEnjoyer defended Oobabooga's ExLlamaV2 support and model-switching flexibility, while u/pumukidelfuturo, u/Lissanro, and u/10minOfNamingMyAcc criticized its slowness, missing speculative decoding/tensor parallelism, and Windows installation errors.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1hb1272/koboldcpp_is_such_a_gigantic_leap_in_qol_coming/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/AlexysLovesLexxie: \"I started this journey with Oobabooga, which is still a damn good backend, even if the front-end is a little feature-light for those of us who want to build characters (no lorebook support is the main reason I stopped using it.)\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/BackyardAI/comments/1illarm/i_just_had_a_very_unpleasant_thought_regarding/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Perchance AI",
+      "url": "https://perchance.org/ai-character-chat",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Completely free, uncensored web character chat requiring no account, no age verification, and no ads"],
+      "complaints": [{"text": "Unintuitive interface that confuses new users trying to figure out how to make it work", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/MrMetalhead937592, u/Beautiful_Present_38 ('Perchance AI. No ads, no verification, no account needed... no app, just website'), and u/Interesting_Depth133 recommended Perchance, while u/Daylight_0708 asked \"How do you make it work? I don't understand it.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago / 6mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Y/N AI",
+      "url": "https://play.google.com/store/apps/details?id=com.yn.ai",
+      "segment": "Mobile-First Mass-Market Character Apps",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Free mobile app with no ads, 2,000 daily message limit, and Chai-like conversational style"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Nikolina11111 and u/Independent-Two362 praised Y/N AI on r/CharacterAIrunaways ('It doesn't have ads, the limit in a day is 2000 messages, it's free, bots are realistic').",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago / 5mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Violetlolli17 recommended Y/N as a Chai-like alternative.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+          "date_displayed": "19d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Sea Soul",
+      "url": "https://seasoul.ai/",
+      "segment": "Mobile-First Mass-Market Character Apps",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Free and unfiltered character chat"],
+      "complaints": [
+        {"text": "Shallow bot responses, low memory, and a tab that sends unauthorized automatic DMs to other users", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Key-Buy3588 recommended Sea Soul in the April 2026 megathread.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Guilty_Explanation29 warned that Sea Soul \"would send random unauthorized dms to other users,\" and u/mishicollins noted \"meanwhile it's free without filter, the bot feels too shallow, answers not decent, and the memory is low.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+          "date_displayed": "23d ago / 12d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "CrushOn AI",
+      "url": "https://crushon.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Large library of NSFW bots, voice calling, and unlimited free chats on base free models"],
+      "complaints": [{"text": "Pro models are locked behind message/coin limits, leading some users to view it as a cash grab", "type": "recurring"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/hades20reddit praised CrushOn's bot library and models while noting limited free messages on pro tiers, and u/DominusInFortuna remarked that they remembered it \"as more of a CashGrab than a serious platform.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/SFF5742 referenced CrushOn's in-app currency model when looking for C.AI alternatives.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1xfp9qc/where_do_i_go/",
+          "date_displayed": "in 7h",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "HammerAI",
+      "url": "https://www.hammerai.com/",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Free, uncensored local and cloud character chat often cited as an active replacement for Backyard AI"],
+      "complaints": [{"text": "Smaller bot catalog and expensive top-tier cloud membership", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/hades20reddit: \"Hammer.ai It's free and nsfw and easy to use. But it doesn't have a lot of bots yet and is expensive if you choose to pay for the best membership.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/AlanCarrOnline: \"Hammer AI is looking like the active replacement for Backyard/Faraday. Pretty good.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/SillyTavernAI/comments/1lt8wbg/have_you_ever_got_anything_better_than_sillytavern/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Worplanes included HammerAI in their multi-week platform review series.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1paxunw/followup_review_wyvernchat/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "AI Dungeon",
+      "url": "https://aidungeon.com/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Strong worldbuilding and multiplayer text adventure system that remembers events 50–60+ messages back"],
+      "complaints": [{"text": "Requires spending significant setup time describing locations, factions, and species before starting", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Murky-Might-5208 praised AI Dungeon's multiplayer worldbuilding system.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "6mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Fit_Environment9186 praised AI Dungeon for long roleplays that recall events 50–60 messages ago.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/misatolily69 recommended AI Dungeon for scenario/world roleplay while noting it takes an hour to set up locations and factions.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+          "date_displayed": "12d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "DreamGF",
+      "url": "https://dreamgf.ai/",
+      "segment": "Image/Video-First 'AI Girlfriend' Sites",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": [],
+      "complaints": [
+        {"text": "Convoluted cancellation flow and recurring billing after users attempt to cancel, leading users to call it scammy", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/vengash reported being charged a three-month recurring fee after cancelling DreamGF ('I definiltey got the impression they were purposely making cancellation complicated in the hopes people WOULDN'T cancel'), and u/malecertification23 and u/Consistent_Sally_11 agreed they felt scammed.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/Chatbots/comments/1encdzm/is_dreamgfai_a_scam/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Murmur.gg",
+      "url": "https://murmur.gg/",
+      "segment": "Voice-First & Audio Roleplay",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Audio-based roleplay with otome characters and OCs that sends contextual surprise voice notes via Telegram and remembers implied details"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/PlanDear9834: \"Try murmur.gg. Audio-based, and the memory is unreal (it picks up on stuff you imply, not just what you explicitly say). You give it a quick line and it generates a voice note from the character. They have popular otome characters but I mostly use their OCs.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Swerve AI",
+      "url": "https://swerve.ai/",
+      "segment": "Mobile-First Mass-Market Character Apps",
+      "qualified": false,
+      "distinct_users": 4,
+      "praise": ["Sticks closely to character definitions, uses a familiar C.AI-like layout with personas and no NSFW filter, and only shows occasional ads"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/MelsNymph_0327, u/meggurines, u/MaleficentTune9464, and u/XxpurplerosxX praised Swerve in the April 2026 megathread ('swerve , same app layout, only an occasional add to continue chatting, personas, no filter').",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago / 4mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Character-Tavern",
+      "url": "https://character-tavern.com/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 4,
+      "praise": ["Uncensored character chat platform"],
+      "complaints": [
+        {"text": "Lost mainstream payment processors over censorship disputes, forcing reliance on crypto or volunteer payment intermediaries; one user reported a volunteer adding an unsolicited 'custom tip' to their bill", "type": "recurring"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/stfios69 linked Character-Tavern, while u/Personal_Ad_329, u/Aggravating_Crew_181, and u/Artemis64 detailed its payment processor loss, shift to crypto, and a dispute with a volunteer payment intermediary.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago / 6mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Weyland University",
+      "url": "https://discord.gg/Weyland",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Discord-based roleplay environment focused on demihuman/catgirl lore with 50,000 tokens of memory and Claude Sonnet baseline"],
+      "complaints": [{"text": "Requires a monthly fee and is niche to demihuman settings", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Salt-Entrepreneur-23 praised Weyland University's 50k memory span, Claude Sonnet baseline, and welcoming Discord community.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "6mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "OpenMind.design",
+      "url": "https://openmind.design/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Strong long-term memory harness and pay-as-you-go access to frontier LLMs (like Gemini)"],
+      "complaints": [{"text": "Cluttered, buried UI and less setup control than Kindroid", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/MysteriousMarch814: \"it has by far the best memory system of any platform out there... The biggest downside is probably their UI which is hell and things are buried in places.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+          "date_displayed": "12d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Chattica",
+      "url": "https://chattica.ai/",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": false,
+      "distinct_users": 2,
+      "praise": ["Local-storage mobile BYOK frontend that exposes all underlying developer parameters"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/OhshiNoshiJoshi: \"I prefer Chattica. Everything is exposed in Chattica, its a full on dev tool.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1sfjtc1/would_anyone_recommend_tavo_ai/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/bradykardie recommended chattica.ai alongside Lettuce AI as an easier mobile alternative to SillyTavern.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+          "date_displayed": "12d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Lettuce AI",
+      "url": "https://www.lettuceai.app/",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": false,
+      "distinct_users": 2,
+      "praise": ["Simpler BYOK frontend alternative to SillyTavern"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/bradykardie: \"You could try lettuce ai. It is easier then silly tavern.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+          "date_displayed": "12d ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/DShad27x listed Lettuce AI alongside SillyTavern and Tavo as recommended local frontends.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1utj3wu/saucepans_advantages_over_janitor/",
+          "date_displayed": "4mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Botbooru",
+      "url": "https://botbooru.com/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Uncensored character card repository ('Chub 2.0') for downloading cards to local frontends"],
+      "complaints": [{"text": "No on-site chatting (cards must be imported to a frontend), bans photorealistic images, and has regional geofencing", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/DShad27x: \"https://botbooru.com/ - No censorship at all other than real life/photorealistic images. No on-site chatting so you need to import onto another site or use a local frontend. Is basically chub 2.0 with many features.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1utj3wu/saucepans_advantages_over_janitor/",
+          "date_displayed": "4mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Clank World",
+      "url": "https://clank.world/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 2,
+      "praise": ["Recommended by Chai refugees as a fun alternative when paired with Gemini"],
+      "complaints": [{"text": "Harder to get bots to mimic Chai's casual dialogue style without tweaking", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Seraitsukara and u/Violetlolli17 recommended Clank World as a Chai alternative ('Clank World is fun, but it's sort of hard to get the way the bots behaves to act like Chai. But using Gemini helped me').",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+          "date_displayed": "24d ago / 19d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Freeroam",
+      "url": "https://freeroam.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Detailed NSFW story generation with an in-story simulated smartphone (notes, Tinder-style romance app, camera, map, and Instagram-style feed) and 10 free daily 'Lumens'"],
+      "complaints": [{"text": "Filters image generation and limits daily free pages via Lumens currency", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Careless-Piano5127 praised Freeroam's 10 daily free Lumens (400–600 pages), detailed NSFW bots, and built-in virtual phone apps.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+          "date_displayed": "7d ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Secret Desires AI",
+      "url": "https://secretdesires.ai/",
+      "segment": "Image/Video-First 'AI Girlfriend' Sites",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Cohesive web flow that mixes text, voice, and context-aware images in one thread"],
+      "complaints": [{"text": "Web-only without a native app store app", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/thefixits: \"checked secretdesires ai. it lets you mix text, voice, and images in one thread, and the ai actually reacts based on context instead of just dropping random media.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/AppIdeas/comments/1o2uc4s/looking_for_an_honest_review_about_ourdream_ai/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Soulkyn",
+      "url": "https://soulkyn.com/",
+      "segment": "Image/Video-First 'AI Girlfriend' Sites",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Preferred by former DreamGF users"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Zogvar: \"Yeah that's why I switched to soulkyn.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/Chatbots/comments/1encdzm/is_dreamgfai_a_scam/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Bala AI",
+      "url": "https://play.google.com/store/apps/details?id=com.bala.ai",
+      "segment": "Mobile-First Mass-Market Character Apps",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Customizable anime characters on Google Play that respond in much greater detail than Candy AI"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/SafeByBlood: \"Honestly, I have been enjoying bala ai. It's an app too on Google play at least. The characters are anime but you can customize them... Bala is great too because the ai responds in great detail.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAi_NSFW/comments/1cpvtlz/candy_ai_premium_subscription_experience_honest/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Muah AI",
+      "url": "https://muah.ai/",
+      "segment": "Image/Video-First 'AI Girlfriend' Sites",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Cited as having better interaction quality than Candy AI"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Humble_Bar3021 noted finding Muah AI better than Candy AI for quality interactions.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAi_NSFW/comments/1cpvtlz/candy_ai_premium_subscription_experience_honest/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Spellbound",
+      "url": "https://tryspellbound.com/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Can import characters directly from Fandom wiki URLs"],
+      "complaints": [{"text": "Web-only with no native mobile app", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/DominusInFortuna praised Spellbound's Fandom wiki character importer, and u/Isomalt- noted: \"I like spellbound, no app but there is a website :3.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1gw7l0l/which_one_do_you_use_most/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/Patrickplus2: \"I like spellbound.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1kod1ch/guys_i_finally_did_it/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Talkie",
+      "url": "https://www.talkie-ai.com/",
+      "segment": "Mobile-First Mass-Market Character Apps",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Used by some casual mobile character chatters alongside Poly.AI"],
+      "complaints": [{"text": "Dismissed by refugees ('Talkie sucks') for heavy censorship and shallow responses", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Livenne wrote \"Talkie sucks\" when asking for C.AI alternatives.",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+          "date_displayed": "12d ago",
+          "accessed": "2026-10-27"
+        },
+        {
+          "quote_or_paraphrase": "u/OtherAcorea and u/Khalesssi_Slayer1 listed Talkie among the apps they use.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1gw7l0l/which_one_do_you_use_most/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Anime.gf",
+      "url": "https://anime.gf/",
+      "segment": "Anime & Art-Integrated Waifu Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Completely free and uncensored NSFW anime bot chat"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/hades20reddit: \"Anime.gf It's free and i mean completely free. The site, bots and features so I can't complain. For being free it's definitely good. It's nsfw to.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Kalon AI",
+      "url": "https://kalon.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Free chat plus daily image credits without constant paywalls"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/ellensrooney: \"If you want something that actually lets you experiment without a paywall every five minutes, Kalon AI is the one I've kept in rotation. The free chat + daily credits for images make it easy to test characters until they feel right.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Waifu Dungeon",
+      "url": "https://waifudungeon.com/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Strong memory retention on Tier 3 plan compared to PolyBuzz"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/EngineerGreen1555 reported cancelling PolyBuzz and exporting bots to Waifu Dungeon because its Tier 3 plan \"remembers everything now.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1vkfq58/polybuzz_ai/",
+          "date_displayed": "2mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Nevika.ai",
+      "url": "https://nevika.eu/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Easy bot creation and 500k daily character/token allowance"],
+      "complaints": [{"text": "Daily chat limits without proxy mode", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Powerful_Kitchen5190: \"So far I like Nevika. There are limits, but they reset daily (500k characters per chat limit) But the bot making is pretty easy.\" (Note: u/Unknown-BoY_'s referral post in the same thread was excluded).",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "4mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Starlightengine.live",
+      "url": "https://starlightengine.live/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Character codex feature suited for long-form roleplay"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/FireflyArc: \"I recommend Starlightengine.live Been playing around with it a lot. I love the codex it gives you about characters very different from anything else I've seen. Good for more long-form rp.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "6mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Ashbone",
+      "url": "https://ashbone.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Allows switching between Claude, Gemini, and DeepSeek mid-scene and imports character cards out of the box"],
+      "complaints": [{"text": "Uses a paid credit system rather than free unlimited chat", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Expert_Highway9550: \"Been using Ashbone for a few weeks now. What sold me was being able to pick between different models (Claude, Gemini, DeepSeek etc) depending on the scene... Character card importing works out of the box.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "5mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Worlds",
+      "url": "https://infiniteworlds.app/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 2,
+      "praise": ["AI text adventure worldbuilding system with visual generation"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Majestic_Classic_668 and u/Murky-Might-5208 praised Infinite Worlds as a visual AI text adventure platform.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "6mo ago / 5mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Digital Soul",
+      "url": "https://digitalsoul.ai/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Simple C.AI-like layout"],
+      "complaints": [{"text": "Limit of 10 swipes per message", "type": "isolated"}],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Living-Storage7231: \"digital soul, pretty good, limit of ten swipes for a message... Very similar to cai, has a good layout and very simple to navigate.\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Shapes Inc",
+      "url": "https://shapes.inc/",
+      "segment": "Text Roleplay & Worldbuilding Hubs",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Used as an alternative by C.AI refugees"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Old_Forever_1495, u/Alive_Highway3840, and u/Soggy-Ad9660 mentioned using or testing Shapes Inc in the April 2026 megathread.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+          "date_displayed": "7mo ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "SynClub",
+      "url": "https://play.google.com/store/apps/details?id=com.creativeapp.aichat",
+      "segment": "Mobile-First Mass-Market Character Apps",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": ["Short, natural replies with no ads"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/lily_loverain_6666: \"Synclub keeps replies short and to the point, making chats feel natural and less tiring. Plus, no ads!\"",
+          "label": "verbatim",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1iih6mc/looking_for_a_chat_site_that_is_more_casual/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "TabbyAPI",
+      "url": "https://github.com/theroyallab/tabbyAPI",
+      "segment": "Frontends, BYO-Model & Local Tools (Tracked Separately)",
+      "qualified": false,
+      "distinct_users": 3,
+      "praise": ["Fast ExLlamaV2 local backend supporting speculative decoding and tensor parallelism with SillyTavern"],
+      "complaints": [],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/Lissanro, u/10minOfNamingMyAcc, and u/Goldkoron praised TabbyAPI for running EXL2 models with speculative decoding and tensor parallelism.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1hb1272/koboldcpp_is_such_a_gigantic_leap_in_qol_coming/",
+          "date_displayed": "2y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "name": "Unqualified / Supply-Only & Single-Mention Encountered Platforms",
+      "url": "https://www.reddit.com/r/CharacterAIrunaways/",
+      "segment": "Multiple Segments (Supply Pass & Isolated Mentions)",
+      "qualified": false,
+      "distinct_users": 1,
+      "praise": [
+        "Includes platforms discovered in the Step 1 directory/store supply pass or mentioned in passing by 1–2 users without 3 independent user reviews: Yollo AI, Spicier AI, Dream Companion, HiWaifu, Dialogue (Pheon), AIA, Sophia, Kawaii AI, Netwrck.com (u/leepenkman), Dopple AI (u/Alive_Highway3840), POVChat (u/Soggy-Ad9660), Lightshade (u/One_Morning8478), LoreWeaver (u/zion2077), Slowburn.chat (u/RealMrBrown), Mana (u/Mobile_Cat2845), Aviosa.fun (u/hades20reddit), GPTGirlfriend.online (u/hades20reddit), FlatAI (u/IndependentHot5000), Flipped (u/Violetlolli17), Chimi (u/honeybunnnnnnnnnnnnn), Lovescape (u/Kitchen-Analyst-9264), Privee AI (u/Consistent_Sally_11), Virtua-Lover (u/curiouslurker97), Nectar AI (u/ancientlalaland), Channel AI (u/Wooden-Ad-9894), Harpy (u/i_should_be_coding), OpenCharacter.org (u/ImLiterallyFake), Cantina (u/Wide_Courage2227), Carter Chat (u/huwprosser), DreampressAI (u/QuerlDoxer), Mel (u/Alone_Field_3050), CharSnapAI (u/Worplanes), NovelAI (u/Prestigious_Car_2296), SerenePub (u/_Cromwell_), Astrsk.ai (u/One_Dragonfruit_923), LM Studio (GordonS), Open WebUI / Msty (u/mrskeptical00), plus developer-pitched platforms (StageWhisper.ai, BRB2K, Revenant.chat, PlumHour.ai, The Codex AI, AIpeep, Echomelon, Else Story, Morse/trymorse.ai, UnsavedAI, Musóna, Spekter City, NarratrixAI, vFlip.app)."
+      ],
+      "complaints": [
+        {"text": "GPTGirlfriend.online and Chimi require paying to send messages; Lovescape resets NSFW boundaries the next day; Harpy is unoptimized and turns devices into a slideshow", "type": "isolated"}
+      ],
+      "evidence": [
+        {
+          "quote_or_paraphrase": "u/hades20reddit noted aviosa.fun has potential and gptgirlfriend.online requires payment to do anything; u/IndependentHot5000 mentioned FlatAI; u/i_should_be_coding noted Harpy turns devices into a slideshow.",
+          "label": "paraphrase",
+          "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+          "date_displayed": "1y ago",
+          "accessed": "2026-10-27"
+        }
+      ]
+    }
+  ],
+  "excluded_accounts": [
+    {
+      "username": "u/thecodexai",
+      "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+      "reason": "Self-identified developer ('Hi there. Dev of The Codex AI here.')"
+    },
+    {
+      "username": "u/vaaal88",
+      "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+      "reason": "Self-identified developer ('I am the dev of AIpeep') also pitching The AI Peeps across multiple threads."
+    },
+    {
+      "username": "u/Xiaomin4114",
+      "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+      "reason": "Affiliate/team self-promotion ('would love to invite you to https://stagewhisper.ai we got a lot of new users')"
+    },
+    {
+      "username": "u/topherez",
+      "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+      "reason": "Self-identified developer ('I just launched BRB2K, a 90s-style messenger')"
+    },
+    {
+      "username": "u/aarulikesyou",
+      "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+      "reason": "Self-identified developer ('asking cause i'm building one ( revenant.chat )')"
+    },
+    {
+      "username": "u/mg-scott",
+      "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1x69diy/does_anyone_have_other_app_suggestions/",
+      "reason": "Self-identified developer/team ('Feel free to try out PlumHour.ai, a brand new AI group chat that we have released to open beta.')"
+    },
+    {
+      "username": "u/Calm_Appearance_7337",
+      "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+      "reason": "Self-identified team member ('try Echomelon.com too. We are just starting out in English space, but we have 200k user in Asia')"
+    },
+    {
+      "username": "u/Simulacra93",
+      "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+      "reason": "Platform developer responding to bug reports and discussing backend transcripts for their own story platform."
+    },
+    {
+      "username": "u/Unknown-BoY_",
+      "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1shufaj/april_2026_what_character_ai_alternative_do_you/",
+      "reason": "Excluded for Nevika.ai due to posting an ad-style feature list with a personal referral/invite link (https://nevika.eu/invite/...)."
+    },
+    {
+      "username": "u/Lyynia",
+      "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1ozf455/chat_bots_i_have_used/",
+      "reason": "Excluded for Saucepan AI due to posting a referral signup code (https://saucepan.ai/sign-up?code=lyynia-r)."
+    },
+    {
+      "username": "u/No_Application5792",
+      "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1p4xho1/followup_review_of_dreamjourneyai/",
+      "reason": "Excluded for Dreamjourney AI due to posting a referral signup link for 300 bonus credits (https://www.dreamjourneyai.com/profile/JavieJ)."
+    },
+    {
+      "username": "u/WyvernCommand",
+      "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1paxunw/followup_review_wyvernchat/",
+      "reason": "Official WyvernChat / Featherless.ai staff account."
+    },
+    {
+      "username": "u/cardine",
+      "url": "https://www.reddit.com/r/NomiAI/comments/1shiizb/after_months_of_using_nomi_vs_kindroid_honest/",
+      "reason": "Nomi AI CEO/lead developer."
+    },
+    {
+      "username": "u/Sea_Geologist_9819",
+      "url": "https://www.reddit.com/r/SpicyChatAI/comments/1w5jn24/32k_context_is_now_live/",
+      "reason": "SpicyChat AI staff account announcing tier updates."
+    },
+    {
+      "username": "u/Snoo_72256",
+      "url": "https://www.reddit.com/r/BackyardAI/comments/1itknhj/backyard_cloud_new_70b_models_with_32k_context/",
+      "reason": "Backyard AI developer account."
+    },
+    {
+      "username": "u/sceuick",
+      "url": "https://www.reddit.com/r/AgnAIstic/comments/1fjva0u/anyone_else_having_some_problems_with_the_new/",
+      "reason": "Agnai / Agnaistic developer account."
+    },
+    {
+      "username": "u/oobabooga4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1hb1272/koboldcpp_is_such_a_gigantic_leap_in_qol_coming/",
+      "reason": "Creator of Text Generation WebUI (Oobabooga)."
+    },
+    {
+      "username": "u/henk717",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1hb1272/koboldcpp_is_such_a_gigantic_leap_in_qol_coming/",
+      "reason": "KoboldAI developer."
+    },
+    {
+      "username": "u/ElseStory",
+      "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+      "reason": "Self-identified developer ('Hi all, I've been developing an AI story telling website: https://elsestory.ai')."
+    },
+    {
+      "username": "u/Yrimir",
+      "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+      "reason": "Self-identified developer ('Hi! I'm one of the devs on Morse (trymorse.ai)')."
+    },
+    {
+      "username": "u/Pretend-Turnip9985",
+      "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+      "reason": "Self-identified developer ('I'm building UnsavedAI... (Self-promotion — dev here)')."
+    },
+    {
+      "username": "u/LlamaEagle",
+      "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+      "reason": "Self-identified developer ('Disclosure: I'm the solo developer of Musóna')."
+    },
+    {
+      "username": "u/Im_BaguetteTTV",
+      "url": "https://www.reddit.com/r/Chai_Unofficial/comments/1wvvuip/october_discussion_post_for_chai_alternatives/",
+      "reason": "Self-identified team member ('Full disclosure, I'm on the team behind Spekter City: Operator Zero')."
+    },
+    {
+      "username": "u/CharacterSphereAI",
+      "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1vkfq58/polybuzz_ai/",
+      "reason": "Self-promo brand account ('Check my profile')."
+    },
+    {
+      "username": "u/Hammer_AI",
+      "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1kod1ch/guys_i_finally_did_it/",
+      "reason": "Official HammerAI developer account."
+    },
+    {
+      "username": "u/vFlip_app",
+      "url": "https://www.reddit.com/r/JanitorAI_Refuges/comments/1utj3wu/saucepans_advantages_over_janitor/",
+      "reason": "Self-promo brand account ('vflip.app perhaps?')."
+    },
+    {
+      "username": "u/Ambitious_Ice4492",
+      "url": "https://www.reddit.com/r/SillyTavernAI/comments/1lt8wbg/have_you_ever_got_anything_better_than_sillytavern/",
+      "reason": "Self-identified developer ('I've been working on https://narratrixai.com')."
+    },
+    {
+      "username": "u/Just4fuN_252",
+      "url": "https://www.reddit.com/r/Chatbots/comments/1encdzm/is_dreamgfai_a_scam/",
+      "reason": "Astroturf/spam account using zero-width obfuscated characters ('Dar\u2064Link AI is so much bett\u2064er') to evade subreddit spam filters."
+    }
+  ],
+  "limitations": "1) Capped at 3 search rounds per protocol ('capped', not 'saturated'); smaller niche or newly launched 2026 platforms with fewer than 3 live-browsed user discussions remain in the unqualified list. 2) Private Discord servers (where heavy SillyTavern, Dreamjourney, WyvernChat, and Kindroid troubleshooting occurs) are not directly indexable, so Discord sentiment is captured only where users quote or discuss Discord events on public Reddit/HN threads. 3) Subreddits focused on commercial 'AI Girlfriend' sites (such as r/CharacterAi_NSFW and r/Chatbots) experience heavy astroturfing and bot spam (Including zero-width character obfuscation and affiliate spreadsheet links), requiring strict filtering of low-karma and promotional accounts. 4) No AI-targeted prompt-injection instructions were encountered inside the live-browsed pages, though zero-width Unicode spam evasion was detected and logged."
+}

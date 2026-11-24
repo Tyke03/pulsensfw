@@ -1,0 +1,78 @@
+{
+  "slug": "seduced-ai",
+  "type": "ai_app",
+  "name": "Seduced AI",
+  "url": "https://www.seduced.ai",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "No-code cloud adult image and animated video prompt studio tailored around easy preset styles and fast GPU renders.",
+  "tags": [
+    "image",
+    "image generation",
+    "video"
+  ],
+  "ranking_rationale": "Fast instant poses & preset tags without learning LoRAs; weighed against token pricing runs expensive per hd batch.",
+  "pricing": {
+    "model": "Credit packs + monthly plans",
+    "free_tier": "Small free starter render credits",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Fast instant poses & preset tags without learning LoRAs",
+    "Supports short looping animated clips",
+    "No local GPU needed"
+  ],
+  "cons": [
+    "Token pricing runs expensive per HD batch",
+    "Less control than local ComfyUI/Forge"
+  ],
+  "image": {
+    "src": "/media/entities/ai/seduced-ai.webp",
+    "alt": "Seduced AI logo and brand card",
+    "source_url": "https://www.seduced.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://www.seduced.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credit packs + monthly plans",
+      "source_url": "https://www.seduced.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.seduced.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "seduced.ai",
+      "source_url": "https://www.seduced.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

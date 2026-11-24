@@ -1,0 +1,79 @@
+{
+  "slug": "whyp-it",
+  "type": "site",
+  "name": "Whyp",
+  "url": "https://whyp.it",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean, fast modern audio-track sharing platform widely adopted by NSFW/GWA voice creators for crisp waveform players and reliable embeds.",
+  "tags": [
+    "erotica",
+    "audio",
+    "tools",
+    "free"
+  ],
+  "ranking_rationale": "Sleek modern waveform player & reliable uptime superior to aging legacy hosts (trade-off: free creator tier limits total storage minutes unless upgraded to Pro).",
+  "pricing": {
+    "model": "Freemium audio host",
+    "free_tier": "Free listening & starter uploads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Sleek modern waveform player & reliable uptime superior to aging legacy hosts",
+    "Supports lossless/high-bitrate uploads & clean Reddit/Patreon link sharing",
+    "Zero sleazy ad overlays for listeners"
+  ],
+  "cons": [
+    "Free creator tier limits total storage minutes unless upgraded to Pro",
+    "Private/unlisted host rather than a searchable public directory"
+  ],
+  "image": {
+    "src": "/media/entities/sites/whyp-it.webp",
+    "alt": "Whyp logo and brand card",
+    "source_url": "https://whyp.it",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://whyp.it",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium audio host",
+      "source_url": "https://whyp.it",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://whyp.it",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "whyp.it",
+      "source_url": "https://whyp.it",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

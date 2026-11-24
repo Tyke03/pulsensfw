@@ -1,0 +1,79 @@
+{
+  "slug": "tgstorytime",
+  "type": "site",
+  "name": "TGStorytime",
+  "url": "https://tgstorytime.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern community-moderated fiction archive hosting well-formatted transformation, gender-bend, and sci-fi romance serials.",
+  "tags": [
+    "erotica",
+    "stories",
+    "niche",
+    "free"
+  ],
+  "ranking_rationale": "Clean dark-mode chapter reader, reading lists & author subscriptions far nicer than 1990s archives (trade-off: specifically focused on transformation/TG genres).",
+  "pricing": {
+    "model": "100% free + supporter tips",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Clean dark-mode chapter reader, reading lists & author subscriptions far nicer than 1990s archives",
+    "Consistent tagging for slow-burn plot vs explicit smut",
+    "100% free community portal"
+  ],
+  "cons": [
+    "Specifically focused on transformation/TG genres",
+    "Ongoing serials pause periodically between author updates"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tgstorytime.webp",
+    "alt": "TGStorytime logo and brand card",
+    "source_url": "https://tgstorytime.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://tgstorytime.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free + supporter tips",
+      "source_url": "https://tgstorytime.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://tgstorytime.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tgstorytime.com",
+      "source_url": "https://tgstorytime.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

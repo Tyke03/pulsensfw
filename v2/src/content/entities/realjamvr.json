@@ -1,0 +1,79 @@
+{
+  "slug": "realjamvr",
+  "type": "site",
+  "name": "RealJamVR",
+  "url": "https://realjamvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-clarity European & international VR studio delivering intimate couples and girl-girl scenarios up to 8K.",
+  "tags": [
+    "vr",
+    "studio",
+    "streaming"
+  ],
+  "ranking_rationale": "Warm natural cinematography in VR close-ups; weighed against smaller catalog than vr bangers.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": "Free 3D trailer previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Warm natural cinematography in VR close-ups",
+    "Clean passthrough-ready green-screen releases",
+    "Included across SLR / DeoVR ecosystems"
+  ],
+  "cons": [
+    "Smaller catalog than VR Bangers",
+    "Fewer US studio stars"
+  ],
+  "image": {
+    "src": "/media/entities/sites/realjamvr.webp",
+    "alt": "RealJamVR logo and brand card",
+    "source_url": "https://realjamvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://realjamvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://realjamvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://realjamvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "realjamvr.com",
+      "source_url": "https://realjamvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "shevibe",
+  "type": "site",
+  "name": "SheVibe",
+  "url": "https://shevibe.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Independent family-run boutique celebrated by enthusiasts for meticulous authentic brand sourcing, detailed video teardowns, and zero counterfeits.",
+  "tags": [
+    "niche",
+    "education",
+    "store"
+  ],
+  "ranking_rationale": "Authorized dealer direct guarantees zero dangerous counterfeit silicone clones (trade-off: curated boutique selection prioritizes quality over 5,000 cheap novelties).",
+  "pricing": {
+    "model": "Boutique online retailer",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Authorized dealer direct guarantees zero dangerous counterfeit silicone clones",
+    "Thoughtful nuanced blog comparisons of similar air-pulse & wand models",
+    "Friendly fast discreet fulfillment"
+  ],
+  "cons": [
+    "Curated boutique selection prioritizes quality over 5,000 cheap novelties",
+    "US-centered shipping perks"
+  ],
+  "image": {
+    "src": "/media/entities/sites/shevibe.webp",
+    "alt": "SheVibe logo and brand card",
+    "source_url": "https://shevibe.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://shevibe.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Boutique online retailer",
+      "source_url": "https://shevibe.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://shevibe.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "shevibe.com",
+      "source_url": "https://shevibe.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

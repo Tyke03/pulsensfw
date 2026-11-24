@@ -1,0 +1,75 @@
+{
+  "slug": "replika",
+  "type": "ai_app",
+  "name": "Replika",
+  "url": "https://replika.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-running 3D-avatar AI companion featuring voice calls, AR mode, and emotional coaching, tempered by restrictive relationship paywalls and legacy filter shifts.",
+  "tags": [
+    "companion",
+    "chat",
+    "voice",
+    "mobile"
+  ],
+  "ranking_rationale": "Wins on polished 3D avatar presentation, voice calling, and memory continuity for everyday companionship, though adult ERP rules and pricey tiers lag purpose-built NSFW apps.",
+  "pricing": {
+    "model": "Freemium subscription (Replika Pro / Ultra)",
+    "free_tier": "Limited friend-mode text chat free; relationship modes paywalled",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "In-app subscription pricing varies across Web, iOS, and Android."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android",
+    "Meta Quest"
+  ],
+  "score": 6.6,
+  "pros": [
+    "Polished customizable 3D avatar with room decor and voice/AR calls",
+    "Structured diary entries and long-term emotional memory features",
+    "Dedicated native apps on iOS, Android, and Meta Quest VR"
+  ],
+  "cons": [
+    "Romantic partner/adult features gated behind expensive annual Pro/Ultra tiers",
+    "History of sudden safety-filter rollbacks eroded long-time user trust",
+    "Scripted therapy-speak surfaces frequently under suggestive prompts"
+  ],
+  "image": {
+    "src": "/media/entities/ai/replika.png",
+    "alt": "Replika logo and brand card",
+    "source_url": "https://replika.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "3D-avatar AI companion app",
+      "source_url": "https://replika.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Developer",
+      "value": "Luka, Inc. (San Francisco)",
+      "source_url": "https://en.wikipedia.org/wiki/Replika",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android, plus dedicated Meta Quest VR client",
+      "source_url": "https://replika.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

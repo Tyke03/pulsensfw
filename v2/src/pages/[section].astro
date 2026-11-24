@@ -1,0 +1,526 @@
+---
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import EntityCard from '../components/EntityCard.astro';
+import Icon from '../components/Icon.astro';
+import ScoreBadge from '../components/ScoreBadge.astro';
+import EmptyState from '../components/states/EmptyState.astro';
+import NotFound from '../components/states/NotFound.astro';
+import StoryCard from '../components/StoryCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { categoryHero } from '../lib/brand/slots';
+import { getContentRepository } from '../lib/content/local-repository';
+import {
+  entitiesForTopic,
+  featuredSites,
+  hasRealPortrait,
+  iconStars,
+  isVeteranStar,
+  matchesSubtopicFilter,
+  presentArticle,
+  risingStars,
+  siteSpotlights,
+  trendingStars,
+} from '../lib/content/present';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+import { TOPICS, type EntityCard as EntityCardModel, type TopicId } from '../lib/content/types';
+
+const section = Astro.params.section ?? '';
+const known = (TOPICS as readonly string[]).includes(section);
+if (!known) Astro.response.status = 404;
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+const repo = getContentRepository();
+const topics = await repo.listTopics();
+const topic = topics.find((item) => item.id === section);
+const articles = await repo.listArticles();
+const catalog = await repo.listCatalog();
+const filter = Astro.url.searchParams.get('topic');
+const rawSort = Astro.url.searchParams.get('sort');
+const defaultSort = topic?.id === 'stars' || (topic?.id === 'sites' && !filter) ? 'featured' : 'score';
+const sortMode = rawSort === 'az' || rawSort === 'score' || rawSort === 'featured'
+  ? rawSort
+  : defaultSort;
+const letterParam = topic?.id === 'stars' ? (Astro.url.searchParams.get('letter') ?? '').toUpperCase().slice(0, 1) : '';
+const pageParam = Math.max(1, Number.parseInt(Astro.url.searchParams.get('page') ?? '1', 10) || 1);
+const PAGE_SIZE = 30;
+
+function hubHref(opts: { topic?: string | null; sort?: string | null; letter?: string | null; page?: number | null }): string {
+  const params = new URLSearchParams();
+  const nextTopic = opts.topic !== undefined ? opts.topic : filter;
+  const nextSort = opts.sort !== undefined ? opts.sort : rawSort;
+  const nextLetter = opts.letter !== undefined ? opts.letter : letterParam;
+  const nextPage = opts.page !== undefined ? opts.page : 1;
+  if (nextTopic) params.set('topic', nextTopic);
+  if (nextSort && nextSort !== defaultSort) params.set('sort', nextSort);
+  if (nextLetter) params.set('letter', nextLetter);
+  if (nextPage && nextPage > 1) params.set('page', String(nextPage));
+  const qs = params.toString();
+  return `${topic?.href ?? `/${section}`}${qs ? `?${qs}` : ''}`;
+}
+
+const matched = articles
+  .filter((article) => {
+    const inHub = article.topic === section || article.tags.some((tag) => tag.toLowerCase() === section);
+    if (!inHub) return false;
+    if (!filter) return true;
+    return matchesSubtopicFilter(article.tags, filter);
+  })
+  .sort((a, b) => Number(b.topic === section) - Number(a.topic === section) || b.publishedAt.getTime() - a.publishedAt.getTime());
+const cards = matched.map((article) => presentArticle(article, reader, catalog));
+
+const allEntities = topic ? entitiesForTopic(catalog, topic.id, null, reader) : [];
+const topicEntities = topic ? entitiesForTopic(catalog, topic.id, filter, reader) : [];
+let entities = topicEntities;
+
+function normInitial(title: string): string {
+  return title.trim().charAt(0).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+}
+
+if (letterParam && topic?.id === 'stars') {
+  entities = entities.filter((card) => {
+    const first = normInitial(card.title);
+    return letterParam === '#' ? !/^[A-Z]$/.test(first) : first === letterParam;
+  });
+}
+
+if (sortMode === 'az') {
+  entities = [...entities].sort((a, b) => a.title.localeCompare(b.title));
+} else if (sortMode === 'score') {
+  entities = [...entities].sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title));
+} else if (sortMode === 'featured' && topic?.id === 'sites') {
+  entities = featuredSites(entities);
+}
+
+const isEntityHub = Boolean(topic && ['stars', 'sites', 'ai', 'toys', 'vr'].includes(topic.id));
+const subtopicCounts = new Map<string, number>();
+if (topic) {
+  for (const sub of topic.subtopics) {
+    const count = isEntityHub
+      ? entitiesForTopic(catalog, topic.id, sub.id, reader).length
+      : articles.filter((a) => (a.topic === section || a.tags.some((t) => t.toLowerCase() === section)) && matchesSubtopicFilter(a.tags, sub.id)).length;
+    subtopicCounts.set(sub.id, count);
+  }
+}
+const visibleSubtopics = topic ? topic.subtopics.filter((sub) => (subtopicCounts.get(sub.id) ?? 0) > 0) : [];
+const allFilterCount = isEntityHub
+  ? allEntities.length
+  : articles.filter((a) => a.topic === section || a.tags.some((t) => t.toLowerCase() === section)).length;
+
+const showCarousels = !filter && !letterParam && pageParam === 1 && sortMode !== 'az';
+const rising = topic?.id === 'stars' && showCarousels ? risingStars(catalog, reader) : [];
+const trending = topic?.id === 'stars' && showCarousels ? trendingStars(catalog, reader) : [];
+const icons = topic?.id === 'stars' && showCarousels ? iconStars(catalog, reader) : [];
+const spotlights = topic?.id === 'sites' && showCarousels ? siteSpotlights(catalog, reader) : [];
+
+// On unfiltered /stars Featured grid, show non-shelf stars before repeating top carousels on page 1
+if (topic?.id === 'stars' && sortMode === 'featured' && !filter && !letterParam && pageParam === 1) {
+  const shelfSlugs = new Set([...rising.map((c) => c.slug), ...trending.map((c) => c.slug)]);
+  entities = [...entities.filter((c) => !shelfSlugs.has(c.slug)), ...entities.filter((c) => shelfSlugs.has(c.slug))];
+}
+
+// Distinct data widgets per category
+const starPortraitCount = topic?.id === 'stars' ? allEntities.filter(hasRealPortrait).length : 0;
+const starVetCount = topic?.id === 'stars' ? allEntities.filter(isVeteranStar).length : 0;
+const starRisingCount = topic?.id === 'stars' ? entitiesForTopic(catalog, 'stars', 'rising', reader).length : 0;
+const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const letterCounts = new Map<string, number>();
+if (topic?.id === 'stars') {
+  for (const ch of LETTERS) letterCounts.set(ch, 0);
+  for (const card of topicEntities) {
+    const ch = normInitial(card.title);
+    if (letterCounts.has(ch)) letterCounts.set(ch, (letterCounts.get(ch) ?? 0) + 1);
+  }
+}
+
+const aiTop5 = topic?.id === 'ai' && showCarousels
+  ? allEntities.filter((c) => c.score !== null).slice(0, 5)
+  : [];
+
+const TOY_PICKS: Array<{ slug: string; badge: string; reason: string }> = [
+  { slug: 'osr2-plus', badge: 'Top Rated · VR', reason: 'Open-source multi-axis desktop stroker delivering 9.3 precision .funscript sync.' },
+  { slug: 'the-handy', badge: 'Best Turnkey VR', reason: 'High-speed Wi-Fi linear stroker with open .funscript and DeoVR/SLR sync.' },
+  { slug: 'womanizer-premium-2', badge: 'Best Whisper-Quiet', reason: 'Contactless air-pulse stimulation with Smart Silence body-proximity shutoff.' },
+  { slug: 'lovense-lush-3', badge: 'Best App & Cams', reason: 'Industry-standard remote bullet with magnetic charging and universal cam support.' },
+];
+const toyPicks = topic?.id === 'toys' && showCarousels
+  ? TOY_PICKS.flatMap((pick) => {
+      const card = allEntities.find((c) => c.slug === pick.slug);
+      return card ? [{ ...pick, card }] : [];
+    })
+  : [];
+
+const vrPlayers = topic?.id === 'vr' && !filter ? entities.filter((c) => c.type === 'game' && c.tags.some((t) => ['headsets', 'player'].includes(t.toLowerCase()))) : [];
+const vrAdultGames = topic?.id === 'vr' && !filter ? entities.filter((c) => c.type === 'game' && !c.tags.some((t) => ['headsets', 'player'].includes(t.toLowerCase()))) : [];
+const vrStudios = topic?.id === 'vr' && !filter ? entities.filter((c) => c.type === 'site') : [];
+
+// Pagination for large directories (skip splitting on /vr All view which uses two grouped grids)
+const usePagination = topic?.id !== 'vr' || Boolean(filter);
+const totalPages = usePagination ? Math.max(1, Math.ceil(entities.length / PAGE_SIZE)) : 1;
+const safePage = Math.min(pageParam, totalPages);
+const pagedEntities: EntityCardModel[] = usePagination
+  ? entities.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
+  : entities;
+
+const pageNums = new Set<number>([1, totalPages]);
+for (let d = -2; d <= 2; d++) {
+  const p = safePage + d;
+  if (p >= 1 && p <= totalPages) pageNums.add(p);
+}
+const sortedPages = [...pageNums].sort((a, b) => a - b);
+const pagerTokens: Array<number | 'ellipsis'> = [];
+for (let i = 0; i < sortedPages.length; i++) {
+  if (i > 0 && sortedPages[i] - sortedPages[i - 1] > 1) pagerTokens.push('ellipsis');
+  pagerTokens.push(sortedPages[i]);
+}
+
+const [lead, ...rest] = cards;
+const entityLabel = topic?.id === 'stars'
+  ? 'Profiles'
+  : topic?.id === 'sites'
+    ? 'All Sites & Platforms'
+    : topic?.id === 'ai'
+      ? 'Apps'
+      : topic?.id === 'toys'
+        ? 'All Gear'
+        : topic?.id === 'vr'
+          ? 'VR & Games'
+          : '';
+---
+<BaseLayout title={topic ? `${topic.label} · ${SITE.name}` : `Page not found · ${SITE.name}`} description={topic?.blurb ?? SITE.description} reader={reader} section={known ? (section as TopicId) : undefined} noindex={!known || (cards.length === 0 && entities.length === 0)}>
+  {topic ? (
+    <div class="page" style="padding-bottom:40px">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: topic.label }]} />
+      <header class="hub-head">
+        <p class="kicker">{topic.short}</p>
+        <h1>{topic.label}</h1>
+        <p class="dek" style="max-width:56ch">{topic.blurb}</p>
+        {isEntityHub && (
+          <dl class="hub-stats" aria-label={`${topic.label} directory summary`}>
+            <div><dt>Indexed</dt><dd>{allEntities.length}</dd></div>
+            {topic.id === 'stars' && (
+              <>
+                <div><dt>CC Portraits</dt><dd>{starPortraitCount}</dd></div>
+                <div><dt>New &amp; Rising</dt><dd>{starRisingCount}</dd></div>
+                <div><dt>Icons &amp; Vets</dt><dd>{starVetCount}</dd></div>
+              </>
+            )}
+            {topic.id === 'sites' && (
+              <>
+                <div><dt>Categories</dt><dd>{visibleSubtopics.length}</dd></div>
+                <div><dt>VR Ready</dt><dd>{allEntities.filter((e) => e.tags.some((t) => t.toLowerCase() === 'vr')).length}</dd></div>
+                <div><dt>Free &amp; Freemium</dt><dd>{allEntities.filter((e) => {
+                  const ft = (e.pricing.free_tier ?? '').trim();
+                  if (!ft) return false;
+                  const tags = e.tags.map((t) => t.toLowerCase());
+                  if (tags.includes('free') || tags.includes('tube')) return true;
+                  if (/(teaser|trailer|trial|preview|lobby|account browsing|behind|signup|sign-up|\bbrowse\b|\bbrowsing\b|explorer|profiles|first episodes|opening|demo|storefront|paywall|sample)/i.test(ft)) return false;
+                  if (/^(free (unlimited|reading|stream|public|gallery|search|community|random|posting|archive|open|to read)|completely free|100% free|full .*free|unlimited .*free|large free)/i.test(ft)) return true;
+                  return true;
+                }).length}</dd></div>
+              </>
+            )}
+            {topic.id === 'ai' && (
+              <>
+                <div><dt>Scored</dt><dd>{allEntities.filter((e) => e.score !== null).length}</dd></div>
+                <div><dt>Local / Private</dt><dd>{allEntities.filter((e) => matchesSubtopicFilter(e.tags, 'local') || matchesSubtopicFilter(e.tags, 'privacy')).length}</dd></div>
+              </>
+            )}
+            {topic.id === 'toys' && (
+              <>
+                <div><dt>App &amp; Sync</dt><dd>{allEntities.filter((e) => matchesSubtopicFilter(e.tags, 'app')).length}</dd></div>
+                <div><dt>VR Compatible</dt><dd>{allEntities.filter((e) => matchesSubtopicFilter(e.tags, 'vr')).length}</dd></div>
+              </>
+            )}
+            {topic.id === 'vr' && (
+              <>
+                <div><dt>Games &amp; Players</dt><dd>{allEntities.filter((e) => e.type === 'game').length}</dd></div>
+                <div><dt>VR Studios</dt><dd>{allEntities.filter((e) => e.type === 'site').length}</dd></div>
+              </>
+            )}
+          </dl>
+        )}
+      </header>
+      <div class="hub-hero">
+        <img src={categoryHero(topic.id)} alt="" />
+      </div>
+      <div class="filters">
+        <a class="c-chip" href={hubHref({ topic: null, page: 1 })} aria-current={!filter ? 'page' : undefined}>
+          All ({allFilterCount})
+        </a>
+        {visibleSubtopics.map((sub) => (
+          <a class="c-chip" href={hubHref({ topic: sub.id, page: 1 })} aria-current={filter === sub.id ? 'page' : undefined}>
+            {sub.label} ({subtopicCounts.get(sub.id) ?? 0})
+          </a>
+        ))}
+      </div>
+
+      {/* /stars distinct shelves: New & Rising, Trending Active, Hall of Fame */}
+      {rising.length > 0 && (
+        <section class="hub-row" aria-labelledby="rising-hub">
+          <div class="rail-head">
+            <div>
+              <p class="kicker">2019+ breakouts &amp; newcomers</p>
+              <h2 id="rising-hub">New &amp; rising</h2>
+            </div>
+            <div class="rail-actions">
+              <button class="icon-btn carousel-btn" type="button" data-carousel-prev data-carousel-target="hub-rail-rising" aria-label="Scroll New & rising backward" style="transform:scaleX(-1)"><Icon name="chevron" /></button>
+              <button class="icon-btn carousel-btn" type="button" data-carousel-next data-carousel-target="hub-rail-rising" aria-label="Scroll New & rising forward"><Icon name="chevron" /></button>
+              <a class="see-all" href={hubHref({ topic: 'rising', page: 1 })}>View all rising</a>
+            </div>
+          </div>
+          <div class="scroller profile-scroller" id="hub-rail-rising" data-carousel tabindex="0">
+            {rising.map((card) => <EntityCard card={card} uid={`hub-rise-${card.id}`} />)}
+          </div>
+        </section>
+      )}
+      {trending.length > 0 && (
+        <section class="hub-row" aria-labelledby="trend-hub">
+          <div class="rail-head">
+            <div>
+              <p class="kicker">Most searched active talent</p>
+              <h2 id="trend-hub">Trending active</h2>
+            </div>
+            <div class="rail-actions">
+              <button class="icon-btn carousel-btn" type="button" data-carousel-prev data-carousel-target="hub-rail-trend" aria-label="Scroll Trending active backward" style="transform:scaleX(-1)"><Icon name="chevron" /></button>
+              <button class="icon-btn carousel-btn" type="button" data-carousel-next data-carousel-target="hub-rail-trend" aria-label="Scroll Trending active forward"><Icon name="chevron" /></button>
+            </div>
+          </div>
+          <div class="scroller profile-scroller" id="hub-rail-trend" data-carousel tabindex="0">
+            {trending.map((card) => <EntityCard card={card} uid={`hub-trend-${card.id}`} />)}
+          </div>
+        </section>
+      )}
+      {icons.length > 0 && (
+        <section class="hub-row" aria-labelledby="icons-hub">
+          <div class="rail-head">
+            <div>
+              <p class="kicker">Hall of Fame &amp; career icons</p>
+              <h2 id="icons-hub">Legends &amp; Hall of Fame</h2>
+            </div>
+            <div class="rail-actions">
+              <button class="icon-btn carousel-btn" type="button" data-carousel-prev data-carousel-target="hub-rail-icons" aria-label="Scroll Legends backward" style="transform:scaleX(-1)"><Icon name="chevron" /></button>
+              <button class="icon-btn carousel-btn" type="button" data-carousel-next data-carousel-target="hub-rail-icons" aria-label="Scroll Legends forward"><Icon name="chevron" /></button>
+            </div>
+          </div>
+          <div class="scroller profile-scroller" id="hub-rail-icons" data-carousel tabindex="0">
+            {icons.map((card) => <EntityCard card={card} uid={`hub-icon-${card.id}`} />)}
+          </div>
+        </section>
+      )}
+
+      {/* /sites distinct layout: ThePornDude-style Category Matrix Cards */}
+      {spotlights.length > 0 && (
+        <section class="hub-row" aria-labelledby="site-categories-hub">
+          <div class="rail-head">
+            <div>
+              <p class="kicker">Browse by vertical</p>
+              <h2 id="site-categories-hub">Site categories ({spotlights.length})</h2>
+            </div>
+          </div>
+          <div class="site-cat-grid">
+            {spotlights.map((shelf) => (
+              <div class="site-cat-card">
+                <div class="site-cat-head">
+                  <h3><a href={shelf.href}>{shelf.title}</a></h3>
+                  <span class="meta">{shelf.count} sites</span>
+                </div>
+                <ol class="site-cat-list">
+                  {shelf.items.map((item) => (
+                    <li>
+                      <a href={item.href}>
+                        <span class="site-cat-name">{item.title}</span>
+                        {item.score !== null && <span class="site-cat-score">{item.score.toFixed(1)}</span>}
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+                <a class="site-cat-more" href={shelf.href}>View all {shelf.count} →</a>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* /ai distinct layout: Top 5 Scored Leaderboard */}
+      {aiTop5.length > 0 && (
+        <section class="hub-row" aria-labelledby="ai-leaderboard-title">
+          <div class="rail-head">
+            <div>
+              <p class="kicker">Benchmark rankings</p>
+              <h2 id="ai-leaderboard-title">Top 5 AI platforms right now</h2>
+            </div>
+            <a class="see-all" href={`/compare?ids=${aiTop5.slice(0, 4).map((item) => item.slug).join(',')}`}>Compare top 4 tools</a>
+          </div>
+          <ol class="ai-leaderboard">
+            {aiTop5.map((item, idx) => (
+              <li>
+                <a class="ai-lb-row" href={item.href}>
+                  <span class="ai-lb-rank">#{idx + 1}</span>
+                  <span class="ai-lb-main">
+                    <strong>{item.title}</strong>
+                    <span class="meta">{item.meta} · {/^(100% free|completely free|free open)/i.test(item.pricing.free_tier ?? '') ? item.pricing.free_tier : item.pricing.free_tier ? 'Free tier available' : item.pricing.model}</span>
+                  </span>
+                  <span class="ai-lb-tags">
+                    {item.tags.slice(0, 3).map((tag) => <span class="c-chip">{tag}</span>)}
+                  </span>
+                  {item.score !== null && <ScoreBadge score={item.score} />}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {/* /toys distinct layout: Best By Use-Case Buyer's Strip */}
+      {toyPicks.length > 0 && (
+        <section class="hub-row" aria-labelledby="toys-picks-title">
+          <p class="kicker">Quick buyer's guide</p>
+          <h2 id="toys-picks-title">Best by use-case</h2>
+          <div class="toys-picks">
+            {toyPicks.map((pick) => (
+              <a class="toy-pick-card" href={pick.card.href}>
+                <div class="toy-pick-top">
+                  <span class="c-badge c-badge--new">{pick.badge}</span>
+                  {pick.card.score !== null && <ScoreBadge score={pick.card.score} />}
+                </div>
+                <strong>{pick.card.title}</strong>
+                <p class="meta">{pick.reason}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* /vr distinct layout: Adult Games vs VR Video Players vs VR Porn Studios */}
+      {topic.id === 'vr' && !filter && (vrAdultGames.length > 0 || vrPlayers.length > 0 || vrStudios.length > 0) ? (
+        <>
+          <div class="hub-row hub-toolbar">
+            <h2>Browse VR &amp; Games ({entities.length})</h2>
+            <div class="sort-pills" role="group" aria-label="Sort VR directory">
+              <a class="c-chip" href={hubHref({ sort: 'score', page: 1 })} aria-current={sortMode === 'score' ? 'page' : undefined}>Top Rated</a>
+              <a class="c-chip" href={hubHref({ sort: 'az', page: 1 })} aria-current={sortMode === 'az' ? 'page' : undefined}>A–Z</a>
+            </div>
+          </div>
+          {vrAdultGames.length > 0 && (
+            <section class="hub-row" aria-labelledby="vr-games-hub">
+              <h2 id="vr-games-hub">Interactive adult games ({vrAdultGames.length})</h2>
+              <div class="profile-grid profile-grid--brand">
+                {vrAdultGames.map((card) => <EntityCard card={card} uid={`hub-game-${card.id}`} />)}
+              </div>
+            </section>
+          )}
+          {vrPlayers.length > 0 && (
+            <section class="hub-row" aria-labelledby="vr-players-hub">
+              <h2 id="vr-players-hub">VR video players &amp; headset setup ({vrPlayers.length})</h2>
+              <div class="profile-grid profile-grid--brand">
+                {vrPlayers.map((card) => <EntityCard card={card} uid={`hub-player-${card.id}`} />)}
+              </div>
+            </section>
+          )}
+          {vrStudios.length > 0 && (
+            <section class="hub-row" aria-labelledby="vr-studios-hub">
+              <h2 id="vr-studios-hub">VR porn studios &amp; aggregators ({vrStudios.length})</h2>
+              <div class="profile-grid profile-grid--brand">
+                {vrStudios.map((card) => <EntityCard card={card} uid={`hub-vrstudio-${card.id}`} />)}
+              </div>
+            </section>
+          )}
+        </>
+      ) : (entities.length > 0 || (topic.id === 'stars' && (filter || letterParam))) && (
+        <section class="hub-row" aria-labelledby="entity-hub">
+          <div class="hub-toolbar">
+            <h2 id="entity-hub">
+              {filter ? (topic.subtopics.find((sub) => sub.id === filter)?.label ?? entityLabel) : entityLabel}
+              {letterParam ? ` · ${letterParam}` : ''} ({entities.length})
+            </h2>
+            {entities.length > 6 && (
+              <div class="sort-pills" role="group" aria-label="Sort directory">
+                {topic.id === 'stars' ? (
+                  <>
+                    <a class="c-chip" href={hubHref({ sort: 'featured', page: 1 })} aria-current={sortMode === 'featured' ? 'page' : undefined}>Featured</a>
+                    <a class="c-chip" href={hubHref({ sort: 'az', page: 1 })} aria-current={sortMode === 'az' ? 'page' : undefined}>A–Z</a>
+                  </>
+                ) : topic.id === 'sites' && !filter ? (
+                  <>
+                    <a class="c-chip" href={hubHref({ sort: 'featured', page: 1 })} aria-current={sortMode === 'featured' ? 'page' : undefined}>Featured</a>
+                    <a class="c-chip" href={hubHref({ sort: 'score', page: 1 })} aria-current={sortMode === 'score' ? 'page' : undefined}>Top Rated</a>
+                    <a class="c-chip" href={hubHref({ sort: 'az', page: 1 })} aria-current={sortMode === 'az' ? 'page' : undefined}>A–Z</a>
+                  </>
+                ) : (
+                  <>
+                    <a class="c-chip" href={hubHref({ sort: 'score', page: 1 })} aria-current={sortMode === 'score' ? 'page' : undefined}>Top Rated</a>
+                    <a class="c-chip" href={hubHref({ sort: 'az', page: 1 })} aria-current={sortMode === 'az' ? 'page' : undefined}>A–Z</a>
+                  </>
+                )}
+              </div>
+            )}
+          </div>
+          {topic.id === 'stars' && (
+            <nav class="alpha-bar" aria-label="Jump by first letter">
+              <a class="alpha-key" href={hubHref({ letter: null, page: 1 })} aria-current={!letterParam ? 'page' : undefined}>All</a>
+              {LETTERS.map((ch) => {
+                const count = letterCounts.get(ch) ?? 0;
+                return count > 0 ? (
+                  <a class="alpha-key" href={hubHref({ letter: ch, page: 1 })} aria-current={letterParam === ch ? 'page' : undefined} title={`${count} starting with ${ch}`}>{ch}</a>
+                ) : (
+                  <span class="alpha-key is-empty" aria-disabled="true">{ch}</span>
+                );
+              })}
+            </nav>
+          )}
+          {pagedEntities.length > 0 ? (
+            <div class:list={['profile-grid', topic.id !== 'stars' && 'profile-grid--brand']}>
+              {pagedEntities.map((card) => <EntityCard card={card} uid={`hub-ent-${card.id}`} />)}
+            </div>
+          ) : (
+            <EmptyState title="No matches for that filter" body="Try clearing the letter or category filter to browse the full directory.">
+              <a class="c-btn c-btn--primary" href={topic.href}>Reset filters</a>
+            </EmptyState>
+          )}
+          {totalPages > 1 && (
+            <nav class="pager" aria-label="Directory pagination">
+              {safePage > 1 ? (
+                <a class="c-btn c-btn--secondary c-btn--small" href={hubHref({ page: safePage - 1 })}>Previous</a>
+              ) : (
+                <span class="c-btn c-btn--secondary c-btn--small" aria-disabled="true">Previous</span>
+              )}
+              <div class="pager-pages">
+                {pagerTokens.map((tok) => (
+                  tok === 'ellipsis' ? (
+                    <span class="pager-gap" aria-hidden="true">…</span>
+                  ) : (
+                    <a class="pager-num" href={hubHref({ page: tok })} aria-current={tok === safePage ? 'page' : undefined}>{tok}</a>
+                  )
+                ))}
+              </div>
+              {safePage < totalPages ? (
+                <a class="c-btn c-btn--secondary c-btn--small" href={hubHref({ page: safePage + 1 })}>Next</a>
+              ) : (
+                <span class="c-btn c-btn--secondary c-btn--small" aria-disabled="true">Next</span>
+              )}
+              <span class="meta">{entities.length} entries</span>
+            </nav>
+          )}
+        </section>
+      )}
+
+      {cards.length === 0 && entities.length === 0 && !(topic.id === 'stars' && letterParam) ? (
+        <EmptyState title="Nothing in this slice yet" body="There is no story or profile under that filter yet. Try the full hub.">
+          <a class="c-btn c-btn--primary" href={topic.href}>Clear filter</a>
+        </EmptyState>
+      ) : cards.length > 0 && (
+        <section class="hub-row" aria-labelledby="stories-hub">
+          <h2 id="stories-hub">From the desk</h2>
+          <div class="story-grid">
+            {lead && <StoryCard card={lead} layout="feature" uid={`hub-${lead.slug}`} heading="h2" />}
+            <div class="rest">
+              {rest.map((card) => <StoryCard card={card} layout="text" uid={`hub-rest-${card.slug}`} />)}
+            </div>
+          </div>
+        </section>
+      )}
+    </div>
+  ) : (
+    <NotFound articles={articles} reader={reader} />
+  )}
+</BaseLayout>

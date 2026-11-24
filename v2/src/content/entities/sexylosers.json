@@ -1,0 +1,78 @@
+{
+  "slug": "sexylosers",
+  "type": "site",
+  "name": "Sexy Losers",
+  "url": "https://www.sexylosers.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Legendary dark-humor satirical adult webcomic running intermittently since 1999—pioneering irreverent indie NSFW strip comedy.",
+  "tags": [
+    "comics",
+    "western",
+    "comedy",
+    "free"
+  ],
+  "ranking_rationale": "Classic unvarnished indie webcomic wit spanning 25+ years; weighed against crude absurdist dark comedy isn't romantic or gentle.",
+  "pricing": {
+    "model": "100% free webcomic",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Classic unvarnished indie webcomic wit spanning 25+ years",
+    "Fast static strip navigation with zero bloat",
+    "Totally free"
+  ],
+  "cons": [
+    "Crude absurdist dark comedy isn't romantic or gentle",
+    "Sparse modern updates"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sexylosers.webp",
+    "alt": "Sexy Losers logo and brand card",
+    "source_url": "https://www.sexylosers.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.sexylosers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free webcomic",
+      "source_url": "https://www.sexylosers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.sexylosers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sexylosers.com",
+      "source_url": "https://www.sexylosers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

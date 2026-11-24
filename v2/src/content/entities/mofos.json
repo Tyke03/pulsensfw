@@ -1,0 +1,81 @@
+{
+  "slug": "mofos",
+  "type": "site",
+  "name": "Mofos",
+  "url": "https://www.mofos.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-volume Aylo gonzo and POV network housing long-running series like Public Pickups, I Know That Girl, and Share My BF under one membership.",
+  "tags": [
+    "premium",
+    "studio",
+    "hd",
+    "exclusive",
+    "network"
+  ],
+  "ranking_rationale": "Deep archive of casual POV and gonzo series with dependable streaming, though newer scenes feel predictable compared to auteur-led networks.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Large back catalog of POV and gonzo series under one login",
+    "Dependable Aylo streaming speed and mobile playback",
+    "Frequent promos and cross-network bundle options"
+  ],
+  "cons": [
+    "Staging and pickup premises feel formulaic over time",
+    "Older scenes show dated camera quality",
+    "Upsell-heavy signup funnel"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mofos.png",
+    "alt": "Mofos logo and brand card",
+    "source_url": "https://www.mofos.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium POV and gonzo studio network",
+      "source_url": "https://www.mofos.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2008; owned by Aylo (formerly MindGeek)",
+      "source_url": "https://www.mofos.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid membership subscription",
+      "source_url": "https://www.mofos.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Multi-series POV and gonzo vault including I Know That Girl",
+      "source_url": "https://www.mofos.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "india",
+  "type": "star",
+  "name": "India",
+  "url": "https://en.wikipedia.org/wiki/India_(actress)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "India is a former pornographic actress, singer and rapper. She began working as an adult actress in around 1998 and has since appeared in over 200 videos.",
+  "tags": [
+    "performer",
+    "former performer",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/india.jpg",
+    "alt": "SFW portrait of India",
+    "source_url": "https://commons.wikimedia.org/wiki/File:India_the_rapper_(2002_Adult_Entertainment_Expo).png",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Credits",
+      "value": "Pornographic actress, singer, rapper",
+      "source_url": "https://en.wikipedia.org/wiki/India_(actress)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "She began working as an adult actress in around 1998 and has since appeared in over 200 videos.",
+      "source_url": "https://en.wikipedia.org/wiki/India_(actress)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "For five years, she was an exclusive contract girl for the production company Video Team, and she has an exclusive sex toy line, manufactured by California Exotic Novelties.",
+      "source_url": "https://en.wikipedia.org/wiki/India_(actress)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1977",
+      "source_url": "http://www.wikidata.org/entity/Q274592",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

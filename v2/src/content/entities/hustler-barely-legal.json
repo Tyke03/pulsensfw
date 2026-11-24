@@ -1,0 +1,78 @@
+{
+  "slug": "hustler-barely-legal",
+  "type": "site",
+  "name": "Barely Legal",
+  "url": "https://www.barelylegal.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Hustler's long-standing digital studio imprint archiving 25+ years of youthful 18+ mainstream magazine & video shoots.",
+  "tags": [
+    "premium",
+    "studio",
+    "network"
+  ],
+  "ranking_rationale": "Huge archival Vault unlocked with Hustler VIP passes; weighed against legacy early-2000s interface.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Huge archival Vault unlocked with Hustler VIP passes",
+    "Verified age-checked historical shoots",
+    "Mix of sets and scenes"
+  ],
+  "cons": [
+    "Legacy early-2000s interface",
+    "Aggressive cross-brand promos"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hustler-barely-legal.webp",
+    "alt": "Barely Legal logo and brand card",
+    "source_url": "https://www.barelylegal.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.barelylegal.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.barelylegal.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.barelylegal.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "barelylegal.com",
+      "source_url": "https://www.barelylegal.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "heresphere",
+  "type": "game",
+  "name": "HereSphere VR Video Player",
+  "url": "https://store.steampowered.com/app/1234730/HereSphere_VR_Video_Player/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Enthusiast PCVR & Quest video player featuring real-time autofocus depth shaders, crystal-clear stereoscopy, and zero-lag Handy/OSR2 haptics.",
+  "tags": [
+    "vr",
+    "headsets",
+    "haptics",
+    "scenes",
+    "player"
+  ],
+  "ranking_rationale": "Autofocus depth adjustment fixes eye-strain distortion on 180° VR video; weighed against paid license after demo (higher cost than free deovr).",
+  "pricing": {
+    "model": "One-time purchase + free Steam/Quest demo",
+    "free_tier": "Time-limited evaluation demo free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Meta Quest",
+    "PCVR",
+    "SteamVR"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Autofocus depth adjustment fixes eye-strain distortion on 180° VR video",
+    "Deep Intiface/Handy/OSR2 timecode & pitch/roll sync",
+    "Full XBVR / Stash home media server integration"
+  ],
+  "cons": [
+    "Paid license after demo (higher cost than free DeoVR)",
+    "Dense advanced calibration UI"
+  ],
+  "image": {
+    "src": "/media/entities/games/heresphere.webp",
+    "alt": "HereSphere VR Video Player logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1234730/HereSphere_VR_Video_Player/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1234730/HereSphere_VR_Video_Player/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase + free Steam/Quest demo",
+      "source_url": "https://store.steampowered.com/app/1234730/HereSphere_VR_Video_Player/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Meta Quest, PCVR, SteamVR",
+      "source_url": "https://store.steampowered.com/app/1234730/HereSphere_VR_Video_Player/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1234730/HereSphere_VR_Video_Player/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

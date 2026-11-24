@@ -1,0 +1,81 @@
+{
+  "slug": "livejasmin",
+  "type": "site",
+  "name": "LiveJasmin",
+  "url": "https://www.livejasmin.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "Long-running luxury cam network emphasizing studio-lit HD streams, strict model presentation standards, and one-on-one per-minute private shows.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows",
+    "hd"
+  ],
+  "ranking_rationale": "Unmatched lighting, camera polish, and curated private-show quality, but explicit action sits behind pricey per-minute billing rather than open public rooms.",
+  "pricing": {
+    "model": "Credit-based per-minute private shows",
+    "free_tier": "Public teaser chat lobbies before entering paid private rooms",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Per-minute private rates vary by model; credit bundles vary by package. Check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Consistently high HD video, lighting, and audio standards",
+    "Curated, polished feel ideal for one-on-one private sessions",
+    "Established platform operating for over two decades"
+  ],
+  "cons": [
+    "Public chat is non-explicit; explicit shows require paid privates",
+    "Per-minute credit burn can add up quickly",
+    "Feels more corporate and studio-managed than indie token sites"
+  ],
+  "image": {
+    "src": "/media/entities/sites/livejasmin.png",
+    "alt": "LiveJasmin logo and brand card",
+    "source_url": "https://www.livejasmin.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium private-show live cam platform",
+      "source_url": "https://www.livejasmin.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2001; operated by Docler Holding / Byborg Enterprises",
+      "source_url": "https://en.wikipedia.org/wiki/LiveJasmin",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Teaser public chat with credit-billed per-minute private shows",
+      "source_url": "https://www.livejasmin.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Strict HD broadcast quality and polished private one-on-one shows",
+      "source_url": "https://www.livejasmin.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "piczel",
+  "type": "site",
+  "name": "Piczel.tv",
+  "url": "https://piczel.tv",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-bitrate independent art livestreaming and commission-board platform cherished by NSFW digital painters after major site purges.",
+  "tags": [
+    "comics",
+    "art",
+    "streaming",
+    "community"
+  ],
+  "ranking_rationale": "Super crisp low-compression screen-share quality shows fine brush lines, weighed against smaller viewer discovery foot traffic than Twitch/Picarto.",
+  "pricing": {
+    "model": "Freemium artist platform",
+    "free_tier": "Free watching & basic streams",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Super crisp low-compression screen-share quality shows fine brush lines",
+    "Supports 18+ adult illustration streams openly behind clear age gates",
+    "Helpful commission status boards"
+  ],
+  "cons": [
+    "Smaller viewer discovery foot traffic than Twitch/Picarto",
+    "Occasional server maintenance hiccups"
+  ],
+  "image": {
+    "src": "/media/entities/sites/piczel.webp",
+    "alt": "Piczel.tv logo and brand card",
+    "source_url": "https://piczel.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://piczel.tv",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium artist platform",
+      "source_url": "https://piczel.tv",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://piczel.tv",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "piczel.tv",
+      "source_url": "https://piczel.tv",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

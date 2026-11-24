@@ -1,0 +1,79 @@
+{
+  "slug": "frolicme",
+  "type": "site",
+  "name": "FrolicMe",
+  "url": "https://www.frolicme.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Women-led British erotic arts studio pairing sensual audio stories, gentle short films, and intimate photo essays.",
+  "tags": [
+    "erotica",
+    "audio",
+    "art",
+    "story"
+  ],
+  "ranking_rationale": "Warm sensual mood spanning film, voice audio, and written pieces; weighed against subscription required for full library beyond samplers.",
+  "pricing": {
+    "model": "Subscription membership",
+    "free_tier": "Free written erotica & sample audio",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Warm sensual mood spanning film, voice audio, and written pieces",
+    "Transparent ethical studio practices celebrating diverse desire",
+    "Clean dark editorial presentation"
+  ],
+  "cons": [
+    "Subscription required for full library beyond samplers",
+    "Focuses strictly on tender/sensual pacing rather than raw gonzo"
+  ],
+  "image": {
+    "src": "/media/entities/sites/frolicme.webp",
+    "alt": "FrolicMe logo and brand card",
+    "source_url": "https://www.frolicme.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.frolicme.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription membership",
+      "source_url": "https://www.frolicme.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.frolicme.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "frolicme.com",
+      "source_url": "https://www.frolicme.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

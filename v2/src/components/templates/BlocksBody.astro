@@ -1,0 +1,168 @@
+---
+/**
+ * Runtime body renderer for agent-published articles.
+ *
+ * Supports structured paragraphs, headings, lists, quotes, Quick Links boxes,
+ * and native "Read next + Partner Spotlight" offer blocks.
+ * - Inline affiliate tokens `[[go:<link_id>|<label>]]` route through `/go/<link_id>`
+ *   with `rel="sponsored noopener noreferrer"` and NEVER accept raw external URLs.
+ * - Inline internal tokens `[[internal:/path|<label>]]` are validated via safePath.
+ * - Headings (`h2`, `h3`) and `quote` blocks never render affiliate links.
+ */
+import type { BodyBlock } from '../../lib/agent/state';
+import { goHref, isValidLinkId, parseInlineSegments } from '../../lib/affiliates/registry';
+import { safePath } from '../../lib/http/safe-path';
+
+interface Props {
+  blocks: BodyBlock[];
+  articleSlug?: string;
+}
+const { blocks, articleSlug } = Astro.props;
+
+const hasSponsoredLink = blocks.some((block) => {
+  if (block.type === 'quick_links') return block.items.some((item) => isValidLinkId(item.link_id));
+  if (block.type === 'offer_block') return isValidLinkId(block.link_id);
+  if (block.type === 'p') {
+    return parseInlineSegments(block.text, { allowAffiliate: true }).some((seg) => seg.type === 'affiliate');
+  }
+  if (block.type === 'ul') {
+    return block.items.some((item) =>
+      parseInlineSegments(item, { allowAffiliate: true }).some((seg) => seg.type === 'affiliate'),
+    );
+  }
+  return false;
+});
+---
+<div class="article-body">
+  {blocks.map((block, index) => {
+    if (block.type === 'h2') {
+      const segs = parseInlineSegments(block.text, { allowAffiliate: false });
+      return (
+        <h2 id={`b-${index}`}>
+          {segs.map((seg) => (seg.type === 'internal' ? <a href={seg.href}>{seg.label}</a> : seg.type === 'text' ? seg.text : seg.label))}
+        </h2>
+      );
+    }
+    if (block.type === 'h3') {
+      const segs = parseInlineSegments(block.text, { allowAffiliate: false });
+      return (
+        <h3 id={`b-${index}`}>
+          {segs.map((seg) => (seg.type === 'internal' ? <a href={seg.href}>{seg.label}</a> : seg.type === 'text' ? seg.text : seg.label))}
+        </h3>
+      );
+    }
+    if (block.type === 'quote') {
+      const segs = parseInlineSegments(block.text, { allowAffiliate: false });
+      return (
+        <blockquote>
+          {segs.map((seg) => (seg.type === 'internal' ? <a href={seg.href}>{seg.label}</a> : seg.type === 'text' ? seg.text : seg.label))}
+        </blockquote>
+      );
+    }
+    if (block.type === 'ul') {
+      return (
+        <ul class="plain-list">
+          {block.items.map((item) => {
+            const segs = parseInlineSegments(item, { allowAffiliate: true });
+            return (
+              <li>
+                {segs.map((seg) => {
+                  if (seg.type === 'affiliate') {
+                    return (
+                      <a
+                        href={goHref(seg.linkId, { articleSlug, slot: 'inline' })}
+                        target="_blank"
+                        rel="sponsored noopener noreferrer"
+                      >
+                        {seg.label}
+                      </a>
+                    );
+                  }
+                  if (seg.type === 'internal') return <a href={seg.href}>{seg.label}</a>;
+                  return seg.text;
+                })}
+              </li>
+            );
+          })}
+        </ul>
+      );
+    }
+    if (block.type === 'quick_links') {
+      const validItems = block.items.filter((item) => isValidLinkId(item.link_id));
+      if (validItems.length === 0) return null;
+      return (
+        <aside class="quick-links-box" aria-label={block.heading ?? 'Quick links'}>
+          <p class="kicker">{block.heading ?? 'Quick links'}</p>
+          <ul>
+            {validItems.map((item) => (
+              <li>
+                <a
+                  href={goHref(item.link_id, { articleSlug, slot: 'quicklinks' })}
+                  target="_blank"
+                  rel="sponsored noopener noreferrer"
+                >
+                  {item.label}
+                </a>
+                {item.note && <span class="meta"> — {item.note}</span>}
+              </li>
+            ))}
+          </ul>
+          <p class="meta">Sponsored partner links · <a href="/affiliate-disclosure">Disclosure</a></p>
+        </aside>
+      );
+    }
+    if (block.type === 'offer_block') {
+      if (!isValidLinkId(block.link_id)) return null;
+      const readNextHref = block.read_next_slug ? safePath(`/story/${block.read_next_slug}`, '') : '';
+      return (
+        <aside class="offer-block" data-offer-block={block.block_id} aria-label="Partner recommendation">
+          <p class="kicker">{block.bridge ?? 'Partner spotlight'}</p>
+          <p class="offer-block-copy">{block.copy}</p>
+          <div class="offer-block-actions">
+            <a
+              class="c-btn c-btn--primary c-btn--small"
+              href={goHref(block.link_id, { articleSlug, slot: 'offer' })}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+            >
+              {block.cta_label}
+              <span class="sr-only"> (sponsored partner link, opens in a new tab)</span>
+            </a>
+            {readNextHref && block.read_next_title && (
+              <a class="c-btn c-btn--secondary c-btn--small" href={readNextHref}>
+                Read next: {block.read_next_title}
+              </a>
+            )}
+          </div>
+          <p class="meta">Sponsored partner link · PulseNSFW may earn a commission at no extra cost to you. <a href="/affiliate-disclosure">Disclosure</a></p>
+        </aside>
+      );
+    }
+    const segs = parseInlineSegments(block.text, { allowAffiliate: true });
+    return (
+      <p>
+        {segs.map((seg) => {
+          if (seg.type === 'affiliate') {
+            return (
+              <a
+                href={goHref(seg.linkId, { articleSlug, slot: 'inline' })}
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+              >
+                {seg.label}
+              </a>
+            );
+          }
+          if (seg.type === 'internal') return <a href={seg.href}>{seg.label}</a>;
+          return seg.text;
+        })}
+      </p>
+    );
+  })}
+
+  {hasSponsoredLink && (
+    <p class="meta affiliate-disclosure-foot">
+      Affiliate disclosure: Some links on this page route through <code>/go/</code> partner links. If you try a partner, PulseNSFW may earn a commission at no extra cost to you. Rankings and scores are never for sale. <a href="/affiliate-disclosure">Full policy</a>.
+    </p>
+  )}
+</div>

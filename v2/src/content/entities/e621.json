@@ -1,0 +1,79 @@
+{
+  "slug": "e621",
+  "type": "site",
+  "name": "e621",
+  "url": "https://e621.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Technically the best-built booru on the internet—enforcing strict artist tagging, native WebM/MP4 support, and clean moderation.",
+  "tags": [
+    "comics",
+    "furry",
+    "booru",
+    "free"
+  ],
+  "ranking_rationale": "Unrivaled search parser, pool reader, and blacklists; weighed against furry/anthro art community niche specifically.",
+  "pricing": {
+    "model": "100% free community booru",
+    "free_tier": "Full unrestricted access free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Unrivaled search parser, pool reader, and blacklists",
+    "Zero intrusive pop-up ads",
+    "Supports full animated WebM loops and sequential comics"
+  ],
+  "cons": [
+    "Furry/anthro art community niche specifically",
+    "Steeper tag syntax learning curve for casual users"
+  ],
+  "image": {
+    "src": "/media/entities/sites/e621.webp",
+    "alt": "e621 logo and brand card",
+    "source_url": "https://e621.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://e621.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free community booru",
+      "source_url": "https://e621.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://e621.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "e621.net",
+      "source_url": "https://e621.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

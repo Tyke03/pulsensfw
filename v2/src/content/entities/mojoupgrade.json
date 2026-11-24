@@ -1,0 +1,79 @@
+{
+  "slug": "mojoupgrade",
+  "type": "site",
+  "name": "MojoUpgrade",
+  "url": "https://mojoupgrade.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Beloved private couples intimacy quiz revealing ONLY the fantasies and kinks BOTH partners rate as 'Yes' or 'If Partner Wants'.",
+  "tags": [
+    "niche",
+    "couples",
+    "quiz",
+    "free"
+  ],
+  "ranking_rationale": "Eliminates awkward rejection embarrassment by hiding unshared fantasies cleanly (trade-off: aged straightforward web UI).",
+  "pricing": {
+    "model": "100% free couples quiz",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Eliminates awkward rejection embarrassment by hiding unshared fantasies cleanly",
+    "Covers gentle romance to advanced kink gradually",
+    "Completely free and takes 10 minutes"
+  ],
+  "cons": [
+    "Aged straightforward web UI",
+    "Best suited to couples/partners rather than solo browsing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mojoupgrade.webp",
+    "alt": "MojoUpgrade logo and brand card",
+    "source_url": "https://mojoupgrade.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://mojoupgrade.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free couples quiz",
+      "source_url": "https://mojoupgrade.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://mojoupgrade.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mojoupgrade.com",
+      "source_url": "https://mojoupgrade.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

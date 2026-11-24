@@ -1,0 +1,78 @@
+{
+  "slug": "dame-fin",
+  "type": "product",
+  "name": "Dame Fin",
+  "url": "https://dame.com/products/fin",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Ergonomic silicone vibrator designed explicitly by Dame to nestle seamlessly between two fingers like a gentle extension of your hand.",
+  "tags": [
+    "couples",
+    "wearable",
+    "quiet",
+    "waterproof"
+  ],
+  "ranking_rationale": "Zero bulky plastic handle getting between partners during intimacy (trade-off: pinpoint subtle warmth rather than intense wand-grade punch).",
+  "pricing": {
+    "model": "Hardware purchase (~$85)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Zero bulky plastic handle getting between partners during intimacy",
+    "Optional soft tether strap secures Fin effortlessly hands-free",
+    "Warm quiet low-pitched rumble & IPX7 waterproof"
+  ],
+  "cons": [
+    "Pinpoint subtle warmth rather than intense wand-grade punch",
+    "Short ~45-minute max intensity battery"
+  ],
+  "image": {
+    "src": "/media/entities/products/dame-fin.webp",
+    "alt": "Dame Fin logo and brand card",
+    "source_url": "https://dame.com/products/fin",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://dame.com/products/fin",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$85)",
+      "source_url": "https://dame.com/products/fin",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://dame.com/products/fin",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dame.com",
+      "source_url": "https://dame.com/products/fin",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

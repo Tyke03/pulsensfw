@@ -1,0 +1,64 @@
+---
+import { SITE, SOCIALS } from '../lib/site';
+import type { Topic } from '../lib/content/types';
+import PulseRule from './PulseRule.astro';
+
+interface Props { topics: Topic[]; hasDeals?: boolean; }
+const { topics, hasDeals = false } = Astro.props;
+const about = [
+  ['About', '/about'],
+  ['Editorial policy', '/editorial-policy'],
+  ['How we review', '/how-we-review'],
+  ['Affiliate disclosure', '/affiliate-disclosure'],
+  ['Ask the desk', '/concierge'],
+  ['Contact', '/contact'],
+];
+const activeSocials = SOCIALS.filter((social) => Boolean(social.href));
+const footerDescription = SITE.description.startsWith(SITE.tagline)
+  ? SITE.description.slice(SITE.tagline.length).trim()
+  : SITE.description;
+---
+<footer class="site-footer">
+  <div class="page footer-grid">
+    <div>
+      <p class="kicker">PulseNSFW</p>
+      <p>{SITE.tagline}</p>
+      {footerDescription && <p class="dek">{footerDescription}</p>}
+      <PulseRule />
+    </div>
+    <div>
+      <h2>Hubs</h2>
+      <ul>
+        {topics.map((topic) => <li><a href={topic.href}>{topic.label}</a></li>)}
+        <li><a href="/hubs">All sections</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Desk</h2>
+      <ul>
+        {about.map(([label, href]) => <li><a href={href}>{label}</a></li>)}
+        {hasDeals && <li><a href="/deals">Deals</a></li>}
+      </ul>
+    </div>
+    <div>
+      <h2>Sister sites</h2>
+      <ul>
+        <li><a href="https://companionhub.app" rel="noopener noreferrer">Companion Hub</a></li>
+      </ul>
+      {activeSocials.length > 0 && (
+        <>
+          <h2>Socials</h2>
+          <ul>
+            {activeSocials.map((social) => (
+              <li><a href={social.href} rel="noopener noreferrer">{social.label}</a></li>
+            ))}
+          </ul>
+        </>
+      )}
+    </div>
+  </div>
+  <div class="page footer-base">
+    <span>© {new Date().getFullYear()} PulseNSFW · Independent desk.</span>
+    <span>Affiliate links are marked. <a href="/affiliate-disclosure">Disclosure</a>.</span>
+  </div>
+</footer>

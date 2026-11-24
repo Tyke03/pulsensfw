@@ -1,0 +1,79 @@
+{
+  "slug": "blackedraw",
+  "type": "site",
+  "name": "Blacked Raw",
+  "url": "https://www.blackedraw.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Pure unscripted gonzo twin to Blacked featuring raw handheld cinematography, A-list stars, and 4K clarity.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo",
+    "4k"
+  ],
+  "ranking_rationale": "Authentic handheld energy paired with 4K quality; weighed against strict niche focus.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Authentic handheld energy paired with 4K quality",
+    "Zero cheesy acting setups",
+    "Strong star lineup"
+  ],
+  "cons": [
+    "Strict niche focus",
+    "Bundled promos beat monthly billing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/blackedraw.webp",
+    "alt": "Blacked Raw logo and brand card",
+    "source_url": "https://www.blackedraw.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.blackedraw.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.blackedraw.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.blackedraw.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "blackedraw.com",
+      "source_url": "https://www.blackedraw.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

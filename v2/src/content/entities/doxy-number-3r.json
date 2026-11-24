@@ -1,0 +1,77 @@
+{
+  "slug": "doxy-number-3r",
+  "type": "product",
+  "name": "Doxy No. 3R",
+  "url": "https://doxy.uk/product/doxy-number-3r-cordless/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "British-engineered titanium-aluminum rechargeable compact wand delivering rigid low-buzz kinetic rumble and gorgeous machined finish.",
+  "tags": [
+    "wands",
+    "luxury",
+    "metal"
+  ],
+  "ranking_rationale": "Rigid aluminum shaft eliminates handle-shake numbing in your hand, weighed against firm narrow head feels less pillow-soft than Plush Wand domes.",
+  "pricing": {
+    "model": "Hardware purchase (~$179)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Rigid aluminum shaft eliminates handle-shake numbing in your hand",
+    "Deep throaty low-RPM rumble built specifically for powerful external release",
+    "Quick-start safety travel lock"
+  ],
+  "cons": [
+    "Firm narrow head feels less pillow-soft than Plush Wand domes",
+    "Not intended for full tub submersion"
+  ],
+  "image": {
+    "src": "/media/entities/products/doxy-number-3r.webp",
+    "alt": "Doxy No. 3R logo and brand card",
+    "source_url": "https://doxy.uk/product/doxy-number-3r-cordless/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://doxy.uk/product/doxy-number-3r-cordless/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$179)",
+      "source_url": "https://doxy.uk/product/doxy-number-3r-cordless/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://doxy.uk/product/doxy-number-3r-cordless/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "doxy.uk",
+      "source_url": "https://doxy.uk/product/doxy-number-3r-cordless/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

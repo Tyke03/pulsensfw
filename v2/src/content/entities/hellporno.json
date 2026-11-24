@@ -1,0 +1,78 @@
+{
+  "slug": "hellporno",
+  "type": "site",
+  "name": "HellPorno",
+  "url": "https://hellporno.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "General mainstream free tube organizing studio highlights and viral clips cleanly by orientation and date.",
+  "tags": [
+    "tube",
+    "mainstream",
+    "streaming"
+  ],
+  "ranking_rationale": "Clear sorting by upload recency and rating; weighed against heavy promo overlays.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Clear sorting by upload recency and rating",
+    "Reliable streaming speed",
+    "Quick tag filters"
+  ],
+  "cons": [
+    "Heavy promo overlays",
+    "Lots of cropped studio teasers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hellporno.webp",
+    "alt": "HellPorno logo and brand card",
+    "source_url": "https://hellporno.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://hellporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://hellporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hellporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hellporno.com",
+      "source_url": "https://hellporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

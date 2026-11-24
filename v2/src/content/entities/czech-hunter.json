@@ -1,0 +1,79 @@
+{
+  "slug": "czech-hunter",
+  "type": "site",
+  "name": "Czech Hunter",
+  "url": "https://czechhunter.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "World-famous Prague all-male reality-POV studio running for nearly two decades with crisp 4K outdoor & apartment encounters.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "One of the most recognizable gay European POV brands globally (trade-off: repetitive reality-negotiation intro premise).",
+  "pricing": {
+    "model": "Gay studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "One of the most recognizable gay European POV brands globally",
+    "Sharp 4K modern video bitrate & consistent weekly Prague shoots",
+    "Included in CzechGAV multi-site bundles"
+  ],
+  "cons": [
+    "Repetitive reality-negotiation intro premise",
+    "POV handheld camera framing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/czech-hunter.webp",
+    "alt": "Czech Hunter logo and brand card",
+    "source_url": "https://czechhunter.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://czechhunter.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Gay studio subscription",
+      "source_url": "https://czechhunter.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://czechhunter.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "czechhunter.com",
+      "source_url": "https://czechhunter.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

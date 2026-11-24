@@ -1,0 +1,79 @@
+{
+  "slug": "why-not-bi",
+  "type": "site",
+  "name": "Why Not Bi?",
+  "url": "https://www.whynotbi.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Adult Time's hugely popular flagship bisexual couples & threesome studio delivering playful acting, natural diversity, and bright 4K sets.",
+  "tags": [
+    "premium",
+    "studio",
+    "bi",
+    "couples"
+  ],
+  "ranking_rationale": "One of the rare high-budget studios prioritizing true MMF bisexual chemistry; weighed against shares standalone upsells inside adult time funnel.",
+  "pricing": {
+    "model": "Studio / Adult Time subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "One of the rare high-budget studios prioritizing true MMF bisexual chemistry",
+    "Zero weird shame tropes—upbeat playful scripts",
+    "Full access included via Adult Time pass"
+  ],
+  "cons": [
+    "Shares standalone upsells inside Adult Time funnel",
+    "Moderate weekly episode count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/why-not-bi.webp",
+    "alt": "Why Not Bi? logo and brand card",
+    "source_url": "https://www.whynotbi.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.whynotbi.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / Adult Time subscription",
+      "source_url": "https://www.whynotbi.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.whynotbi.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "whynotbi.com",
+      "source_url": "https://www.whynotbi.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

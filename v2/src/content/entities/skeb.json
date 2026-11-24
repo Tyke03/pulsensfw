@@ -1,0 +1,79 @@
+{
+  "slug": "skeb",
+  "type": "site",
+  "name": "Skeb",
+  "url": "https://skeb.jp",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japan's wildly popular commission marketplace linking global fans directly with thousands of anime and R-18 illustrators with zero haggling.",
+  "tags": [
+    "hentai",
+    "art",
+    "comics",
+    "commissions"
+  ],
+  "ranking_rationale": "Access world-class Japanese Pixiv/X artists without language barriers via auto-translation, weighed against no drafts, no back-and-forth edits—clients trust the artist's interpretation.",
+  "pricing": {
+    "model": "Per-commission pricing",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Access world-class Japanese Pixiv/X artists without language barriers via auto-translation",
+    "Simple fixed-price no-revision workflow protects both fan and artist cleanly",
+    "Supports explicit R-18 illustrated requests transparently"
+  ],
+  "cons": [
+    "No drafts, no back-and-forth edits—clients trust the artist's interpretation",
+    "Card payment fraud checks can reject occasional non-3DS foreign cards"
+  ],
+  "image": {
+    "src": "/media/entities/sites/skeb.webp",
+    "alt": "Skeb logo and brand card",
+    "source_url": "https://skeb.jp",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://skeb.jp",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-commission pricing",
+      "source_url": "https://skeb.jp",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://skeb.jp",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "skeb.jp",
+      "source_url": "https://skeb.jp",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "vrhush",
+  "type": "site",
+  "name": "VRHush",
+  "url": "https://www.vrhush.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Boutique VR studio focused on slow-burn sensual pacing, intimate lighting, and clean 6K–8K framing rather than frantic assembly-line shoots.",
+  "tags": [
+    "vr",
+    "studio",
+    "streaming",
+    "premium"
+  ],
+  "ranking_rationale": "Carves out a clear boutique lane in adult VR with intimate lighting, realistic scale, and unhurried performer chemistry—smaller catalog, high craft.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": "Short VR trailers",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest / PCVR",
+    "DeoVR / downloadable MP4"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Intimate, sensual pacing that feels less rushed than volume VR studios",
+    "Clean 6K–8K visual quality with accurate scale calibration",
+    "Strong casting of both mainstream stars and boutique performers"
+  ],
+  "cons": [
+    "Smaller total scene count than megastudio VR networks",
+    "Slower release cadence",
+    "Narrower genre variety if you want hardcore or cosplay"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrhush.png",
+    "alt": "VRHush logo and brand card",
+    "source_url": "https://www.vrhush.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Boutique sensual VR adult studio",
+      "source_url": "https://www.vrhush.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2016; independent VR adult studio",
+      "source_url": "https://www.vrhush.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid VR membership with streaming and direct downloads",
+      "source_url": "https://www.vrhush.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Slow-burn sensual direction and intimate VR framing",
+      "source_url": "https://www.vrhush.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

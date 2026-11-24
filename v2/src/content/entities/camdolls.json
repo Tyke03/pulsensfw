@@ -1,0 +1,78 @@
+{
+  "slug": "camdolls",
+  "type": "site",
+  "name": "CamDolls",
+  "url": "https://camdolls.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Active token-driven live cam room hub pairing global solo models and couples with interactive tip vibes and dark mobile layout.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens"
+  ],
+  "ranking_rationale": "Fast responsive HTML5 cam grid with Lovense tip toys enabled (trade-off: shares select traffic channels with multi-network token hubs).",
+  "pricing": {
+    "model": "Tokens & private shows",
+    "free_tier": "Free public room streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Fast responsive HTML5 cam grid with Lovense tip toys enabled",
+    "Clear filters across language, room type & goal bars",
+    "Minimal clutter on room entry"
+  ],
+  "cons": [
+    "Shares select traffic channels with multi-network token hubs",
+    "Heavy token bonus prompts"
+  ],
+  "image": {
+    "src": "/media/entities/sites/camdolls.webp",
+    "alt": "CamDolls logo and brand card",
+    "source_url": "https://camdolls.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://camdolls.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & private shows",
+      "source_url": "https://camdolls.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://camdolls.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "camdolls.com",
+      "source_url": "https://camdolls.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

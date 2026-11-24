@@ -1,0 +1,79 @@
+{
+  "slug": "falcon-studios",
+  "type": "site",
+  "name": "Falcon Studios",
+  "url": "https://www.falconstudios.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "San Francisco's legendary 1971 powerhouse combining historic classic cinema with crisp modern 4K releases.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "classic"
+  ],
+  "ranking_rationale": "50+ years of indispensable gay adult cinema history; weighed against steep retail single-site rate unless bundled.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "50+ years of indispensable gay adult cinema history",
+    "A-list exclusive stars and scenic California locations",
+    "Huge searchable feature catalog"
+  ],
+  "cons": [
+    "Steep retail single-site rate unless bundled",
+    "Early archival titles show film grain"
+  ],
+  "image": {
+    "src": "/media/entities/sites/falcon-studios.webp",
+    "alt": "Falcon Studios logo and brand card",
+    "source_url": "https://www.falconstudios.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.falconstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.falconstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.falconstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "falconstudios.com",
+      "source_url": "https://www.falconstudios.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

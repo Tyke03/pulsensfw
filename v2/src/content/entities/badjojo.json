@@ -1,0 +1,78 @@
+{
+  "slug": "badjojo",
+  "type": "site",
+  "name": "BadJoJo",
+  "url": "https://www.badjojo.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Multi-channel video search aggregator indexing free clips across top partner tubes with solid length and freshness filters.",
+  "tags": [
+    "forums",
+    "aggregator",
+    "tube"
+  ],
+  "ranking_rationale": "Indexes multiple tubes cleanly in one search bar; weighed against outbound affiliate/tube pops on click.",
+  "pricing": {
+    "model": "Free clip aggregator",
+    "free_tier": "Free search",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Indexes multiple tubes cleanly in one search bar",
+    "Fast inline previews on desktop",
+    "Quick mobile UI"
+  ],
+  "cons": [
+    "Outbound affiliate/tube pops on click",
+    "Limited original curation"
+  ],
+  "image": {
+    "src": "/media/entities/sites/badjojo.webp",
+    "alt": "BadJoJo logo and brand card",
+    "source_url": "https://www.badjojo.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.badjojo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free clip aggregator",
+      "source_url": "https://www.badjojo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.badjojo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "badjojo.com",
+      "source_url": "https://www.badjojo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

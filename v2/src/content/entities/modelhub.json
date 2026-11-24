@@ -1,0 +1,78 @@
+{
+  "slug": "modelhub",
+  "type": "site",
+  "name": "Modelhub",
+  "url": "https://www.modelhub.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Aylo's creator-owned clip marketplace connected loosely to Pornhub verified amateur creators.",
+  "tags": [
+    "platform",
+    "creator",
+    "clips"
+  ],
+  "ranking_rationale": "Buy permanent DRM-free indie clips; weighed against tight mainstream content guidelines.",
+  "pricing": {
+    "model": "Per-video purchases & tips",
+    "free_tier": "Free creator storefronts",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Buy permanent DRM-free indie clips",
+    "Large verified amateur catalog",
+    "Fast checkout if using Aylo accounts"
+  ],
+  "cons": [
+    "Tight mainstream content guidelines",
+    "Blurred identity with Pornhub Verified"
+  ],
+  "image": {
+    "src": "/media/entities/sites/modelhub.webp",
+    "alt": "Modelhub logo and brand card",
+    "source_url": "https://www.modelhub.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.modelhub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-video purchases & tips",
+      "source_url": "https://www.modelhub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.modelhub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "modelhub.com",
+      "source_url": "https://www.modelhub.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

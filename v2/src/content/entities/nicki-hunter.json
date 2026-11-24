@@ -1,0 +1,57 @@
+{
+  "slug": "nicki-hunter",
+  "type": "star",
+  "name": "Nicki Hunter",
+  "url": "https://en.wikipedia.org/wiki/Nicki_Hunter",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nicki Hunter is an American pornographic film director, producer, make-up artist, radio personality, and former pornographic film actress.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nicki-hunter.jpg",
+    "alt": "SFW portrait of Nicki Hunter",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nicki_Hunter_2010.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Credits",
+      "value": "Pornographic film director, producer, make-up artist, radio personality, pornographic film actress",
+      "source_url": "https://en.wikipedia.org/wiki/Nicki_Hunter",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Nicki Hunter",
+      "source_url": "https://en.wikipedia.org/wiki/Nicki_Hunter",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

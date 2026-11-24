@@ -1,0 +1,78 @@
+{
+  "slug": "dirtyroulette",
+  "type": "site",
+  "name": "DirtyRoulette",
+  "url": "https://dirtyroulette.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Random 1-on-1 adult cam2cam chat roulette letting adults match instantly without heavy registration.",
+  "tags": [
+    "cams",
+    "live",
+    "roulette"
+  ],
+  "ranking_rationale": "Instant random adult cam2cam matching; weighed against skewed gender ratio in free public roulette.",
+  "pricing": {
+    "model": "Freemium credits for filters",
+    "free_tier": "Free random cam chat",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.0,
+  "pros": [
+    "Instant random adult cam2cam matching",
+    "Quick country and gender filter toggles",
+    "Zero software download"
+  ],
+  "cons": [
+    "Skewed gender ratio in free public roulette",
+    "Requires Plus credits for strict gender filtering"
+  ],
+  "image": {
+    "src": "/media/entities/sites/dirtyroulette.webp",
+    "alt": "DirtyRoulette logo and brand card",
+    "source_url": "https://dirtyroulette.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://dirtyroulette.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium credits for filters",
+      "source_url": "https://dirtyroulette.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://dirtyroulette.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dirtyroulette.com",
+      "source_url": "https://dirtyroulette.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

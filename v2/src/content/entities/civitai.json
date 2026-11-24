@@ -1,0 +1,72 @@
+{
+  "slug": "civitai",
+  "type": "ai_app",
+  "name": "Civitai",
+  "url": "https://civitai.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The central hub for open-source Stable Diffusion, Flux, SDXL, and video LoRA weights plus a browser Buzz-based cloud image & video generator.",
+  "tags": [
+    "image",
+    "image generation",
+    "models",
+    "community"
+  ],
+  "ranking_rationale": "Indispensable community index for open AI image checkpoints, LoRAs, and prompts—even if on-site generator Buzz rules and payment compliance tighten periodically.",
+  "pricing": {
+    "model": "Free model downloads + Buzz credits / Supporter tiers",
+    "free_tier": "Model downloads free; small daily free Buzz generation allowance",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Open model downloads stay free; on-site cloud generation uses Buzz tokens or paid Supporter tiers."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Unrivaled library of community SDXL, Flux, Pony, and Illustrious checkpoints and LoRAs",
+    "Shows exact prompt metadata, sampler settings, and seed recipes under showcase images",
+    "On-site cloud generator tests LoRAs cleanly without local GPU setup"
+  ],
+  "cons": [
+    "Payment-processor compliance restricts certain explicit tags on cloud Buzz generation",
+    "Heavy page scripts and Buzz monetization popups clutter browsing"
+  ],
+  "image": {
+    "src": "/media/entities/ai/civitai.png",
+    "alt": "Civitai logo and brand card",
+    "source_url": "https://civitai.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Open-source AI image model repository & cloud generator",
+      "source_url": "https://civitai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Ecosystem",
+      "value": "Hosts checkpoints, LoRAs, embeddings, workflows, and bounties",
+      "source_url": "https://civitai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "NSFW toggle",
+      "value": "Blurred/mature content filters customizable per account tier",
+      "source_url": "https://civitai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

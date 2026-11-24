@@ -1,0 +1,79 @@
+{
+  "slug": "four-chambers",
+  "type": "site",
+  "name": "Four Chambers",
+  "url": "https://www.fourchambers.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Vex Ashley's visionary UK experimental art-porn cinema house crafting dreamy 16mm-style sensual shorts, fashion styling, and bold choreography.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "indie"
+  ],
+  "ranking_rationale": "True museum-grade cinematography and surreal art-house aesthetic; weighed against small seasonal catalog drop rate.",
+  "pricing": {
+    "model": "Independent studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "True museum-grade cinematography and surreal art-house aesthetic",
+    "One-of-a-kind soundtrack & color palette completely unlike commercial porn",
+    "Respectful ethical indie production"
+  ],
+  "cons": [
+    "Small seasonal catalog drop rate",
+    "Art-film abstract pacing isn't for quick utilitarian browsing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/four-chambers.webp",
+    "alt": "Four Chambers logo and brand card",
+    "source_url": "https://www.fourchambers.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.fourchambers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Independent studio pass",
+      "source_url": "https://www.fourchambers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.fourchambers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fourchambers.com",
+      "source_url": "https://www.fourchambers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

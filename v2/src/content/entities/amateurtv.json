@@ -1,0 +1,79 @@
+{
+  "slug": "amateurtv",
+  "type": "site",
+  "name": "Amateur.tv",
+  "url": "https://www.amateur.tv",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Spain-founded independent cam network booming across Europe and Latin America with genuine amateur rooms.",
+  "tags": [
+    "cams",
+    "live",
+    "european",
+    "tokens"
+  ],
+  "ranking_rationale": "Vibrant Spanish/LatAm and European community; weighed against smaller north american model pool.",
+  "pricing": {
+    "model": "Token tipping + privates",
+    "free_tier": "Free public rooms",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Vibrant Spanish/LatAm and European community",
+    "Low-pressure friendly vibe",
+    "Transparent token economy"
+  ],
+  "cons": [
+    "Smaller North American model pool",
+    "Chat interface feels busy"
+  ],
+  "image": {
+    "src": "/media/entities/sites/amateurtv.webp",
+    "alt": "Amateur.tv logo and brand card",
+    "source_url": "https://www.amateur.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.amateur.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Token tipping + privates",
+      "source_url": "https://www.amateur.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.amateur.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "amateur.tv",
+      "source_url": "https://www.amateur.tv",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

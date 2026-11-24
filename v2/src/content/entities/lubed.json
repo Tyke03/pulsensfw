@@ -1,0 +1,79 @@
+{
+  "slug": "lubed",
+  "type": "site",
+  "name": "Lubed",
+  "url": "https://www.lubed.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Glossy 4K oil-and-glamour specialty studio delivering sunlit poolside solo and hardcore showcases bathed in studio shimmer.",
+  "tags": [
+    "premium",
+    "studio",
+    "glamour",
+    "4k"
+  ],
+  "ranking_rationale": "Gorgeous high-key oil highlights and sharp 4K slow-motion camerawork, weighed against single hyper-specific aesthetic grows repetitive over binge sessions.",
+  "pricing": {
+    "model": "Studio / TeamSkeet subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Gorgeous high-key oil highlights and sharp 4K slow-motion camerawork",
+    "Strong A-list performer roster under TeamSkeet's umbrella",
+    "Clean modern responsive player"
+  ],
+  "cons": [
+    "Single hyper-specific aesthetic grows repetitive over binge sessions",
+    "Best bought inside full TeamSkeet bundle"
+  ],
+  "image": {
+    "src": "/media/entities/sites/lubed.webp",
+    "alt": "Lubed logo and brand card",
+    "source_url": "https://www.lubed.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.lubed.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / TeamSkeet subscription",
+      "source_url": "https://www.lubed.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.lubed.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lubed.com",
+      "source_url": "https://www.lubed.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

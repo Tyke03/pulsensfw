@@ -1,0 +1,77 @@
+{
+  "slug": "bvibe-rimming-plug-petite",
+  "type": "product",
+  "name": "b-Vibe Rimming Plug Petite",
+  "url": "https://www.bvibe.com/rimming-plug-petite",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Compact dual-stimulation silicone plug combining rotating neck beads at the rim with rumbly tip vibration and wireless remote.",
+  "tags": [
+    "plug",
+    "waterproof",
+    "couples"
+  ],
+  "ranking_rationale": "Rotating internal neck beads mimic rimming sensation distinctly from plain buzz (trade-off: rotating bead mechanism sounds slightly louder than vibration alone).",
+  "pricing": {
+    "model": "Hardware purchase (~$145)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Rotating internal neck beads mimic rimming sensation distinctly from plain buzz",
+    "Petite approachable sizing engineered by certified anal-play educator Alicia Sinclair",
+    "Splashproof & includes wireless remote"
+  ],
+  "cons": [
+    "Rotating bead mechanism sounds slightly louder than vibration alone",
+    "Premium ~$145 price"
+  ],
+  "image": {
+    "src": "/media/entities/products/bvibe-rimming-plug-petite.webp",
+    "alt": "b-Vibe Rimming Plug Petite logo and brand card",
+    "source_url": "https://www.bvibe.com/rimming-plug-petite",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.bvibe.com/rimming-plug-petite",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$145)",
+      "source_url": "https://www.bvibe.com/rimming-plug-petite",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.bvibe.com/rimming-plug-petite",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bvibe.com",
+      "source_url": "https://www.bvibe.com/rimming-plug-petite",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

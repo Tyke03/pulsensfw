@@ -1,0 +1,81 @@
+{
+  "slug": "mikupad",
+  "type": "ai_app",
+  "name": "Mikupad",
+  "url": "https://github.com/lmg-anon/mikupad",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Ultra-clean single-HTML-file completion notebook tailored specifically to prose storytellers running local KoboldCpp or llama.cpp.",
+  "tags": [
+    "local",
+    "open-source",
+    "writing",
+    "chat"
+  ],
+  "ranking_rationale": "Single local HTML file opens straight into an editable co-writing prose canvas (trade-off: requires pointing at an active local inference server first).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free HTML/JS utility",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Single local HTML file opens straight into an editable co-writing prose canvas",
+    "Color-coded token probabilities and inline branch rerolls beat rigid chat bubbles for fiction",
+    "Zero cloud accounts or filtering"
+  ],
+  "cons": [
+    "Requires pointing at an active local inference server first",
+    "Minimalist dev aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/ai/mikupad.webp",
+    "alt": "Mikupad logo and brand card",
+    "source_url": "https://github.com/lmg-anon/mikupad",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/lmg-anon/mikupad",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/lmg-anon/mikupad",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, macOS, Linux",
+      "source_url": "https://github.com/lmg-anon/mikupad",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/lmg-anon/mikupad",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

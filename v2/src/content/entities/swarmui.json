@@ -1,0 +1,79 @@
+{
+  "slug": "swarmui",
+  "type": "ai_app",
+  "name": "SwarmUI",
+  "url": "https://github.com/mcmonkeyprojects/SwarmUI",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "ComfyUI-backed powerhouse local image/video GUI blending simple prompt sliders, multi-GPU scaling, and Flux/SDXL/Wan speed.",
+  "tags": [
+    "image",
+    "local",
+    "open-source"
+  ],
+  "ranking_rationale": "Combines ComfyUI's raw power with an intuitive tab-based interface; weighed against install takes basic python/git familiarity.",
+  "pricing": {
+    "model": "Free & open-source",
+    "free_tier": "100% free local download",
+    "from_price": "$0",
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Combines ComfyUI's raw power with an intuitive tab-based interface",
+    "Zero content censorship—full local open-weights control",
+    "Fast multi-GPU batch generation & native Flux/LTX support"
+  ],
+  "cons": [
+    "Install takes basic Python/Git familiarity",
+    "Overwhelming parameter menus for total novices"
+  ],
+  "image": {
+    "src": "/media/entities/ai/swarmui.webp",
+    "alt": "SwarmUI logo and brand card",
+    "source_url": "https://github.com/mcmonkeyprojects/SwarmUI",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/mcmonkeyprojects/SwarmUI",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free & open-source",
+      "source_url": "https://github.com/mcmonkeyprojects/SwarmUI",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS",
+      "source_url": "https://github.com/mcmonkeyprojects/SwarmUI",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/mcmonkeyprojects/SwarmUI",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

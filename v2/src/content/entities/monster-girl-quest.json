@@ -1,0 +1,78 @@
+{
+  "slug": "monster-girl-quest",
+  "type": "game",
+  "name": "Monster Girl Quest (Complete)",
+  "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ077406.html",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Legendary sprawling 3-part monster-girl adventure saga famous for shockingly epic shonen boss music, humor, and massive sequel RPGs.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "rpg",
+    "fantasy"
+  ],
+  "ranking_rationale": "Starts like comedy smut and unexpectedly blooms into a gripping epic RPG story; weighed against purely linear rock-paper-scissors encounter battle system in part 1–3.",
+  "pricing": {
+    "model": "Digital release (Part Trilogy)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Starts like comedy smut and unexpectedly blooms into a gripping epic RPG story",
+    "Colossal encyclopedic creature cast & iconic battle soundtrack",
+    "Runs cleanly anywhere"
+  ],
+  "cons": [
+    "Purely linear rock-paper-scissors encounter battle system in Part 1–3",
+    "Official digital English patches take extra care on older stores"
+  ],
+  "image": {
+    "src": "/media/entities/games/monster-girl-quest.webp",
+    "alt": "Monster Girl Quest (Complete) logo and brand card",
+    "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ077406.html",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ077406.html",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Digital release (Part Trilogy)",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ077406.html",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ077406.html",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dlsite.com",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ077406.html",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

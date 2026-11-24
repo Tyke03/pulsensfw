@@ -1,0 +1,79 @@
+{
+  "slug": "domai",
+  "type": "site",
+  "name": "Domai",
+  "url": "https://www.domai.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Classic pioneering independent art-nude photography sanctuary running since 1996 with museum-quality monochrome & color sets.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "glamour"
+  ],
+  "ranking_rationale": "25+ years of iconic editorial nude artistry; weighed against minimal modern video compared with photography.",
+  "pricing": {
+    "model": "Archive subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "25+ years of iconic editorial nude artistry",
+    "Zero intrusive network cross-selling",
+    "Pure still photography heritage"
+  ],
+  "cons": [
+    "Minimal modern video compared with photography",
+    "Retro gallery layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/domai.webp",
+    "alt": "Domai logo and brand card",
+    "source_url": "https://www.domai.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.domai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Archive subscription",
+      "source_url": "https://www.domai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.domai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "domai.com",
+      "source_url": "https://www.domai.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

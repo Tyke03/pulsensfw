@@ -1,0 +1,79 @@
+{
+  "slug": "trans-angels",
+  "type": "site",
+  "name": "TransAngels",
+  "url": "https://www.transangels.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-budget glossy flagship studio for trans performers—combining Brazzers-level lighting, 4K cameras, and top stars.",
+  "tags": [
+    "premium",
+    "studio",
+    "trans",
+    "4k"
+  ],
+  "ranking_rationale": "Best-in-class 4K lighting and polish in the trans niche; weighed against formulaic glossy mainstream scripts.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Best-in-class 4K lighting and polish in the trans niche",
+    "Huge roster pairing top trans stars and cis stars",
+    "Part of MindGeek bundle options"
+  ],
+  "cons": [
+    "Formulaic glossy mainstream scripts",
+    "Strict niche lane"
+  ],
+  "image": {
+    "src": "/media/entities/sites/trans-angels.webp",
+    "alt": "TransAngels logo and brand card",
+    "source_url": "https://www.transangels.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.transangels.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.transangels.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.transangels.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "transangels.com",
+      "source_url": "https://www.transangels.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

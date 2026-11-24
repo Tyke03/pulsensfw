@@ -1,0 +1,78 @@
+{
+  "slug": "fooocus",
+  "type": "ai_app",
+  "name": "Fooocus",
+  "url": "https://github.com/lllyasviel/Fooocus",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "lllyasviel's streamlined SDXL offline image studio giving Midjourney-simple prompts alongside local LoRA & inpainting freedom.",
+  "tags": [
+    "local",
+    "image",
+    "image generation"
+  ],
+  "ranking_rationale": "Zero node-spaghetti—generates stunning SDXL renders out of the box; weighed against maintenance pace slowed in favor of forge/comfyui.",
+  "pricing": {
+    "model": "Free open-source (GPL-3.0)",
+    "free_tier": "100% free local generation",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Zero node-spaghetti—generates stunning SDXL renders out of the box",
+    "Full local privacy with zero cloud censorship filters",
+    "Great built-in inpainting & face swaps"
+  ],
+  "cons": [
+    "Maintenance pace slowed in favor of Forge/ComfyUI",
+    "SDXL-focused rather than latest Flux/SD3 pipelines"
+  ],
+  "image": {
+    "src": "/media/entities/ai/fooocus.webp",
+    "alt": "Fooocus logo and brand card",
+    "source_url": "https://github.com/lllyasviel/Fooocus",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/lllyasviel/Fooocus",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open-source (GPL-3.0)",
+      "source_url": "https://github.com/lllyasviel/Fooocus",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/lllyasviel/Fooocus",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/lllyasviel/Fooocus",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

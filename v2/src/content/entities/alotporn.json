@@ -1,0 +1,78 @@
+{
+  "slug": "alotporn",
+  "type": "site",
+  "name": "AlotPorn",
+  "url": "https://www.alotporn.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "No-frills category tube prioritizing rapid thumbnail loading, direct playback, and low script overhead.",
+  "tags": [
+    "tube",
+    "mainstream",
+    "streaming"
+  ],
+  "ranking_rationale": "Very lightweight pages that load quickly; weighed against old-school visual styling.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.0,
+  "pros": [
+    "Very lightweight pages that load quickly",
+    "Minimal account walls",
+    "Handy tag sorting"
+  ],
+  "cons": [
+    "Old-school visual styling",
+    "Basic search syntax"
+  ],
+  "image": {
+    "src": "/media/entities/sites/alotporn.webp",
+    "alt": "AlotPorn logo and brand card",
+    "source_url": "https://www.alotporn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.alotporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.alotporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.alotporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "alotporn.com",
+      "source_url": "https://www.alotporn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

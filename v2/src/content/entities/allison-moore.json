@@ -1,0 +1,63 @@
+{
+  "slug": "allison-moore",
+  "type": "star",
+  "name": "Allison Moore",
+  "url": "http://www.wikidata.org/entity/Q17457581",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Allison Moore — Pornographic performer (b. 1984). Industry career documented from 2010.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/allison-moore.jpg",
+    "alt": "SFW portrait of Allison Moore",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Allison_Moore_AVN_Adult_Entertainment_Expo_2013.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q17457581 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q17457581",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2010–retired",
+      "source_url": "http://www.wikidata.org/entity/Q17457581",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q17457581",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

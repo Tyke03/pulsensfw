@@ -1,0 +1,78 @@
+{
+  "slug": "shakker-ai",
+  "type": "ai_app",
+  "name": "Shakker AI",
+  "url": "https://www.shakker.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Feature-rich online Flux & SDXL LoRA training and generation studio combining rich anime/photorealistic models with canvas tools.",
+  "tags": [
+    "image",
+    "cloud",
+    "models"
+  ],
+  "ranking_rationale": "Friendly cloud LoRA training + instant model playground directly in browser (trade-off: online generation enforces server safety filters tighter than local setups).",
+  "pricing": {
+    "model": "Freemium daily tokens + Pro plans",
+    "free_tier": "Daily free generation credits",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Friendly cloud LoRA training + instant model playground directly in browser",
+    "Clean daily free generation stamina credits",
+    "Strong anime & illustrative community weights"
+  ],
+  "cons": [
+    "Online generation enforces server safety filters tighter than local setups",
+    "Busy credit/subscription UI"
+  ],
+  "image": {
+    "src": "/media/entities/ai/shakker-ai.webp",
+    "alt": "Shakker AI logo and brand card",
+    "source_url": "https://www.shakker.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://www.shakker.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium daily tokens + Pro plans",
+      "source_url": "https://www.shakker.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.shakker.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "shakker.ai",
+      "source_url": "https://www.shakker.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "annie-cruz",
+  "type": "star",
+  "name": "Annie Cruz",
+  "url": "http://www.wikidata.org/entity/Q36271",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Annie Cruz — American pornographic actress (b. 1984). Industry career documented from 2004.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/annie-cruz.jpg",
+    "alt": "SFW portrait of Annie Cruz",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Annie_Cruz_at_AVN_Awards_2011_1_(crop).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q36271 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q36271",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2004–present",
+      "source_url": "http://www.wikidata.org/entity/Q36271",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q36271",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

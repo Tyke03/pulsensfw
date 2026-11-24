@@ -1,0 +1,78 @@
+{
+  "slug": "bellesa-house",
+  "type": "site",
+  "name": "Bellesa Films",
+  "url": "https://www.bellesafilms.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Jacky St. James and Bellesa's unscripted passion project—letting top pornstars choose their own real partners with zero forced choreography.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples"
+  ],
+  "ranking_rationale": "Performers genuinely pick their co-stars, wardrobe & mood for palpable real sparks (trade-off: unscripted chemistry pacing runs calmer than rapid-cut gonzo).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Performers genuinely pick their co-stars, wardrobe & mood for palpable real sparks",
+    "Crisp cinema visuals without plastic studio fakery",
+    "Critically acclaimed multiple XBIZ/AVN wins"
+  ],
+  "cons": [
+    "Unscripted chemistry pacing runs calmer than rapid-cut gonzo",
+    "Standalone site separate from free Bellesa aggregator"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bellesa-house.webp",
+    "alt": "Bellesa Films logo and brand card",
+    "source_url": "https://www.bellesafilms.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.bellesafilms.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.bellesafilms.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bellesafilms.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bellesafilms.com",
+      "source_url": "https://www.bellesafilms.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

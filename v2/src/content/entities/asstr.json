@@ -1,0 +1,77 @@
+{
+  "slug": "asstr",
+  "type": "site",
+  "name": "ASSTR",
+  "url": "https://www.asstr.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Historic Usenet-era alt.sex.stories text repository—the deepest unfiltered archive of classic indie erotic fiction online.",
+  "tags": [
+    "erotica",
+    "stories",
+    "fiction"
+  ],
+  "ranking_rationale": "Legendarily deep pre-algorithm archive going back to 1990s Usenet; weighed against spartan raw 1995 web ui requires manual directory navigation.",
+  "pricing": {
+    "model": "100% free volunteer archive",
+    "free_tier": "Zero-ad full archive",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Legendarily deep pre-algorithm archive going back to 1990s Usenet",
+    "Zero ads or trackers on raw HTML pages",
+    "Cult favorite author archives"
+  ],
+  "cons": [
+    "Spartan raw 1995 web UI requires manual directory navigation",
+    "Zero modern tagging filters"
+  ],
+  "image": {
+    "src": "/media/entities/sites/asstr.webp",
+    "alt": "ASSTR logo and brand card",
+    "source_url": "https://www.asstr.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.asstr.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free volunteer archive",
+      "source_url": "https://www.asstr.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.asstr.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "asstr.org",
+      "source_url": "https://www.asstr.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

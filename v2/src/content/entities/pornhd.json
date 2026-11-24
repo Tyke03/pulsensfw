@@ -1,0 +1,78 @@
+{
+  "slug": "pornhd",
+  "type": "site",
+  "name": "PornHD",
+  "url": "https://www.pornhd.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean studio-oriented free HD porn tube showcasing official high-definition partner previews and star-sorted channels.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Strictly curates clean 720p/1080p studio-grade clips over blurry camrips (trade-off: many videos are 8–12 minute official studio teasers).",
+  "pricing": {
+    "model": "Free ad-supported HD tube",
+    "free_tier": "Free HD streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Strictly curates clean 720p/1080p studio-grade clips over blurry camrips",
+    "Polished modern card grid & performer pages",
+    "Fast player startup"
+  ],
+  "cons": [
+    "Many videos are 8–12 minute official studio teasers",
+    "Upsell links to partner paysites"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pornhd.webp",
+    "alt": "PornHD logo and brand card",
+    "source_url": "https://www.pornhd.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.pornhd.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported HD tube",
+      "source_url": "https://www.pornhd.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.pornhd.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornhd.com",
+      "source_url": "https://www.pornhd.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

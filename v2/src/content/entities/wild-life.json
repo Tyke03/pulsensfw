@@ -1,0 +1,77 @@
+{
+  "slug": "wild-life",
+  "type": "game",
+  "name": "Wild Life",
+  "url": "https://www.adeptusworks.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Open-world Unreal Engine sci-fi island RPG featuring extensive full-body customization, exploration, and procedural scenes.",
+  "tags": [
+    "games",
+    "sandbox",
+    "3d"
+  ],
+  "ranking_rationale": "Stunning Unreal Engine character shaders and custom sliders; weighed against slow milestone cadence & demanding gpu requirements.",
+  "pricing": {
+    "model": "Patreon early access + free demos",
+    "free_tier": "Free public alpha demos",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Stunning Unreal Engine character shaders and custom sliders",
+    "Actual 3D open-world exploration & crafting beyond dialogue",
+    "Supports wide body-morphing presets"
+  ],
+  "cons": [
+    "Slow milestone cadence & demanding GPU requirements",
+    "High Patreon development cycle"
+  ],
+  "image": {
+    "src": "/media/entities/games/wild-life.webp",
+    "alt": "Wild Life logo and brand card",
+    "source_url": "https://www.adeptusworks.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://www.adeptusworks.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Patreon early access + free demos",
+      "source_url": "https://www.adeptusworks.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows",
+      "source_url": "https://www.adeptusworks.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "adeptusworks.com",
+      "source_url": "https://www.adeptusworks.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

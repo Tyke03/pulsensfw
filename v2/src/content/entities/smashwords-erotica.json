@@ -1,0 +1,78 @@
+{
+  "slug": "smashwords-erotica",
+  "type": "site",
+  "name": "Smashwords Erotica",
+  "url": "https://www.smashwords.com/shelves/home/1231/newest/any",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Major open indie ebook retailer & distributor famously welcoming explicit romance and kink novellas free of Amazon KDP bans.",
+  "tags": [
+    "erotica",
+    "stories",
+    "books"
+  ],
+  "ranking_rationale": "Buy DRM-free EPUB/Kindle books directly from indie erotica authors; weighed against mainstream storefront browsing requires 18+ account toggle.",
+  "pricing": {
+    "model": "Per-book purchase + thousands of free novellas",
+    "free_tier": "Thousands of $0 free ebooks",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Buy DRM-free EPUB/Kindle books directly from indie erotica authors",
+    "Huge shelf of $0 free promo novellas",
+    "Transparent sales charts & series linking"
+  ],
+  "cons": [
+    "Mainstream storefront browsing requires 18+ account toggle",
+    "Quality varies wildly across self-published indies"
+  ],
+  "image": {
+    "src": "/media/entities/sites/smashwords-erotica.webp",
+    "alt": "Smashwords Erotica logo and brand card",
+    "source_url": "https://www.smashwords.com/shelves/home/1231/newest/any",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.smashwords.com/shelves/home/1231/newest/any",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-book purchase + thousands of free novellas",
+      "source_url": "https://www.smashwords.com/shelves/home/1231/newest/any",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.smashwords.com/shelves/home/1231/newest/any",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "smashwords.com",
+      "source_url": "https://www.smashwords.com/shelves/home/1231/newest/any",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

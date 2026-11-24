@@ -1,0 +1,77 @@
+{
+  "slug": "diffusionbee",
+  "type": "ai_app",
+  "name": "DiffusionBee",
+  "url": "https://diffusionbee.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Ultra-simple native macOS one-click offline Stable Diffusion desktop installer built cleanly for Apple Silicon Macs.",
+  "tags": [
+    "local",
+    "image",
+    "open-source"
+  ],
+  "ranking_rationale": "True drag-and-drop Mac DMG app requiring zero terminal, Python, or Conda fights (trade-off: trails Draw Things slightly on advanced Flux/ControlNet bleeding-edge updates).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free Mac app",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "macOS"
+  ],
+  "score": 8.2,
+  "pros": [
+    "True drag-and-drop Mac DMG app requiring zero terminal, Python, or Conda fights",
+    "Runs 100% privately offline on M-series Unified Memory with zero content filtering",
+    "Built-in inpainting & LoRA tabs"
+  ],
+  "cons": [
+    "Trails Draw Things slightly on advanced Flux/ControlNet bleeding-edge updates",
+    "macOS exclusive"
+  ],
+  "image": {
+    "src": "/media/entities/ai/diffusionbee.webp",
+    "alt": "DiffusionBee logo and brand card",
+    "source_url": "https://diffusionbee.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://diffusionbee.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://diffusionbee.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "macOS",
+      "source_url": "https://diffusionbee.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "diffusionbee.com",
+      "source_url": "https://diffusionbee.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

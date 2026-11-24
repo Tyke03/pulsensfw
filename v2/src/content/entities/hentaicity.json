@@ -1,0 +1,78 @@
+{
+  "slug": "hentaicity",
+  "type": "site",
+  "name": "HentaiCity",
+  "url": "https://www.hentaicity.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran dark-themed hentai anime & 3D animation streaming tube offering fast category sorting and weekly updates.",
+  "tags": [
+    "hentai",
+    "anime",
+    "free"
+  ],
+  "ranking_rationale": "Solid 3D SFM/Blender loop mixing alongside traditional 2D OVAs; weighed against pop ads on initial player tap.",
+  "pricing": {
+    "model": "Free streaming",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Solid 3D SFM/Blender loop mixing alongside traditional 2D OVAs",
+    "Fast HTML5 embeds",
+    "Zero login needed"
+  ],
+  "cons": [
+    "Pop ads on initial player tap",
+    "Weaker multi-tag search vs Hanime"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hentaicity.webp",
+    "alt": "HentaiCity logo and brand card",
+    "source_url": "https://www.hentaicity.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.hentaicity.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free streaming",
+      "source_url": "https://www.hentaicity.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.hentaicity.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hentaicity.com",
+      "source_url": "https://www.hentaicity.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

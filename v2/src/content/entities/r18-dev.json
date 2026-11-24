@@ -1,0 +1,78 @@
+{
+  "slug": "r18-dev",
+  "type": "site",
+  "name": "R18.dev",
+  "url": "https://r18.dev",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast community-maintained open JSON & web catalog preserving clean Japanese AV release metadata, actress rosters, and cover tags.",
+  "tags": [
+    "forums",
+    "database",
+    "jav",
+    "api"
+  ],
+  "ranking_rationale": "Blazing-fast lightweight minimalist reference preserving accurate DVD/VOD IDs & translations (trade-off: barebones reference-utility interface).",
+  "pricing": {
+    "model": "100% free open metadata hub",
+    "free_tier": "Completely free API & web DB",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Blazing-fast lightweight minimalist reference preserving accurate DVD/VOD IDs & translations",
+    "Open JSON API endpoints invaluable for Stash/media scraper developers",
+    "Zero popup spam"
+  ],
+  "cons": [
+    "Barebones reference-utility interface",
+    "Covers metadata strictly (zero media streaming)"
+  ],
+  "image": {
+    "src": "/media/entities/sites/r18-dev.webp",
+    "alt": "R18.dev logo and brand card",
+    "source_url": "https://r18.dev",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://r18.dev",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open metadata hub",
+      "source_url": "https://r18.dev",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://r18.dev",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "r18.dev",
+      "source_url": "https://r18.dev",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

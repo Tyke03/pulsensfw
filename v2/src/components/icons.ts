@@ -1,0 +1,25 @@
+export const ICONS = {
+  search: '<circle cx="11" cy="11" r="6"/><path d="M16 16 L20 20"/>',
+  user: '<circle cx="12" cy="8" r="3.2"/><path d="M6 19c1.4-2.8 3.2-4.2 6-4.2S16.6 16.2 18 19"/>',
+  close: '<path d="M7 7 L17 17 M17 7 L7 17"/>',
+  chevron: '<path d="M9 6 L15 12 L9 18"/>',
+  arrow: '<path d="M5 12 H19 M13 6 L19 12 L13 18"/>',
+  home: '<path d="M4 11 L12 4 L20 11 V20 H15 V14 H9 V20 H4 Z"/>',
+  grid: '<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>',
+  tag: '<path d="M4 12 L12 4 H20 V12 L12 20 Z"/><circle cx="15" cy="9" r="1.2" fill="currentColor" stroke="none"/>',
+  eye: '<path d="M2 12 C5 7 9 5 12 5 S19 7 22 12 C19 17 15 19 12 19 S5 17 2 12 Z"/><circle cx="12" cy="12" r="2.4"/>',
+  blur: '<circle cx="8" cy="10" r="2"/><circle cx="14" cy="8" r="2"/><circle cx="16" cy="14" r="2"/><circle cx="10" cy="15" r="2"/>',
+  check: '<path d="M5 12 L10 17 L19 7"/>',
+  alert: '<path d="M12 4 L21 19 H3 Z"/><path d="M12 10 V14 M12 17 H12.1"/>',
+  info: '<circle cx="12" cy="12" r="8"/><path d="M12 11 V17 M12 8 H12.1"/>',
+  external: '<path d="M10 6 H6 V18 H18 V14 M11 13 L18 6 M14 6 H18 V10"/>',
+  lock: '<rect x="6" y="11" width="12" height="8" rx="2"/><path d="M8 11 V8 a4 4 0 0 1 8 0 V11"/>',
+  spark: '<path d="M12 3 L13.6 9.2 L20 11 L13.6 12.8 L12 19 L10.4 12.8 L4 11 L10.4 9.2 Z"/>',
+  pulse: '<path d="M3 12 H7 L9 12 L11 7 L13 17 L15 10 L17 12 H21"/>',
+  headset: '<path d="M5 13 V11 a7 7 0 0 1 14 0 V13"/><rect x="4" y="13" width="4" height="6" rx="1"/><rect x="16" y="13" width="4" height="6" rx="1"/>',
+  chat: '<path d="M5 6 H19 V15 H9 L5 18 Z"/>',
+  news: '<path d="M5 6 H15 V18 H5 Z M15 9 H19 V18 H15"/>',
+  menu: '<path d="M5 7 H19 M5 12 H19 M5 17 H19"/>',
+} as const;
+
+export type IconName = keyof typeof ICONS;

@@ -1,0 +1,77 @@
+{
+  "slug": "fun-factory-volta",
+  "type": "product",
+  "name": "FUN FACTORY Volta",
+  "url": "https://www.funfactory.com/en/vibrators/volta/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "German-engineered dual-flutter stimulator whose pulsing silicone wings deliver rich broad external sensation or precise tip play.",
+  "tags": [
+    "vibrator",
+    "quiet",
+    "external"
+  ],
+  "ranking_rationale": "Unique fluttering double tips envelop nerves evenly without numbing; weighed against proprietary magnetic charger shouldn't be lost.",
+  "pricing": {
+    "model": "Hardware purchase (~$119)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Unique fluttering double tips envelop nerves evenly without numbing",
+    "Crisp tactile buttons + waterproof Click 'n' Charge magnetic cable",
+    "Zero cheap tinny rattle even at full speed"
+  ],
+  "cons": [
+    "Proprietary magnetic charger shouldn't be lost",
+    "Firm flexible tips divide fans vs classic air pulses"
+  ],
+  "image": {
+    "src": "/media/entities/products/fun-factory-volta.webp",
+    "alt": "FUN FACTORY Volta logo and brand card",
+    "source_url": "https://www.funfactory.com/en/vibrators/volta/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.funfactory.com/en/vibrators/volta/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$119)",
+      "source_url": "https://www.funfactory.com/en/vibrators/volta/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.funfactory.com/en/vibrators/volta/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "funfactory.com",
+      "source_url": "https://www.funfactory.com/en/vibrators/volta/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

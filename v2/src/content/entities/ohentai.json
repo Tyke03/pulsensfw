@@ -1,0 +1,78 @@
+{
+  "slug": "ohentai",
+  "type": "site",
+  "name": "Ohentai",
+  "url": "https://ohentai.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean distraction-light free hentai streaming archive organized by uncensored/censored status, genre, and release year.",
+  "tags": [
+    "hentai",
+    "anime",
+    "free"
+  ],
+  "ranking_rationale": "Low visual clutter compared with ad-bloated OVA sites; weighed against smaller 3d clip inventory.",
+  "pricing": {
+    "model": "Free streaming",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Low visual clutter compared with ad-bloated OVA sites",
+    "Handy Uncensored quick toggle in header",
+    "Consistent English-subbed archive"
+  ],
+  "cons": [
+    "Smaller 3D clip inventory",
+    "Occasional broken older video mirrors"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ohentai.webp",
+    "alt": "Ohentai logo and brand card",
+    "source_url": "https://ohentai.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://ohentai.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free streaming",
+      "source_url": "https://ohentai.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://ohentai.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ohentai.org",
+      "source_url": "https://ohentai.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

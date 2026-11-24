@@ -1,0 +1,63 @@
+{
+  "slug": "jeannie-pepper",
+  "type": "star",
+  "name": "Jeannie Pepper",
+  "url": "https://en.wikipedia.org/wiki/Jeannie_Pepper",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jeannie Pepper — American adult film actress (b. 1958). Industry career documented from 1983.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/jeannie-pepper.jpg",
+    "alt": "SFW portrait of Jeannie Pepper",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jeannie_Pepper_at_IA2000_2_(cropped).jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3076975 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q3076975",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1958",
+      "source_url": "http://www.wikidata.org/entity/Q3076975",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1983–2011",
+      "source_url": "https://en.wikipedia.org/wiki/Jeannie_Pepper",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

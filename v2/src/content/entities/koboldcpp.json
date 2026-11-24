@@ -1,0 +1,74 @@
+{
+  "slug": "koboldcpp",
+  "type": "ai_app",
+  "name": "KoboldCpp",
+  "url": "https://github.com/LostRuins/koboldcpp",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Self-contained single-executable local LLM, image, and TTS backend powering SillyTavern and local GGUF roleplay with total offline privacy.",
+  "tags": [
+    "privacy",
+    "local",
+    "free",
+    "power user"
+  ],
+  "ranking_rationale": "Zero-telemetry single-file local runner trusted by almost every local-AI roleplayer—unmatched convenience once you pick a GGUF file, limited only by your own VRAM.",
+  "pricing": {
+    "model": "Free & open source",
+    "free_tier": "100% free (AGPL-3.0 open source)",
+    "from_price": "$0",
+    "currency": "USD",
+    "plans": [],
+    "notes": "Completely free single binary with zero cloud fees or accounts."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Single executable runs llama.cpp GGUF models with zero Python dependency headaches",
+    "Built-in Kobold Lite UI plus instant API backend for SillyTavern",
+    "100% offline execution—nothing ever leaves your machine",
+    "Supports Vulkan, CUDA, Metal, and CPU offload out of the box"
+  ],
+  "cons": [
+    "Output speed and intelligence depend entirely on your local GPU/RAM specs",
+    "Technical quantization and context-cache toggles confuse absolute beginners"
+  ],
+  "image": {
+    "src": "/media/entities/ai/koboldcpp.png",
+    "alt": "KoboldCpp logo and brand card",
+    "source_url": "https://github.com/LostRuins/koboldcpp",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local single-file LLM & multimodal inference runner",
+      "source_url": "https://github.com/LostRuins/koboldcpp",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "License & price",
+      "value": "Free AGPL-3.0 open-source software ($0)",
+      "source_url": "https://github.com/LostRuins/koboldcpp",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Integration",
+      "value": "Standard backend API for SillyTavern, Agnaistic, and Kobold Lite",
+      "source_url": "https://github.com/LostRuins/koboldcpp",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

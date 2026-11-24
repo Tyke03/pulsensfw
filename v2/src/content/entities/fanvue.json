@@ -1,0 +1,78 @@
+{
+  "slug": "fanvue",
+  "type": "site",
+  "name": "Fanvue",
+  "url": "https://www.fanvue.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast-growing UK-based OnlyFans challenger pairing clean subscriptions with built-in AI creator messaging tools.",
+  "tags": [
+    "platform",
+    "creator",
+    "onlyfans"
+  ],
+  "ranking_rationale": "Modern smooth mobile/desktop UI; weighed against disclosed ai personas mix into creator discovery.",
+  "pricing": {
+    "model": "Creator monthly subscriptions + PPV",
+    "free_tier": "Free accounts & previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Modern smooth mobile/desktop UI",
+    "Allows legal AI-assisted creator chats & virtual personas",
+    "Clear paywalls & tipping"
+  ],
+  "cons": [
+    "Disclosed AI personas mix into creator discovery",
+    "Smaller star roster than OnlyFans/Fansly"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fanvue.webp",
+    "alt": "Fanvue logo and brand card",
+    "source_url": "https://www.fanvue.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.fanvue.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator monthly subscriptions + PPV",
+      "source_url": "https://www.fanvue.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.fanvue.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fanvue.com",
+      "source_url": "https://www.fanvue.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

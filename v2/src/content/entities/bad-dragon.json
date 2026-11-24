@@ -1,0 +1,78 @@
+{
+  "slug": "bad-dragon",
+  "type": "site",
+  "name": "Bad Dragon",
+  "url": "https://bad-dragon.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The global benchmark for custom hand-poured platinum-cure fantasy silicone sculpts offering custom firmness, sizes, and marbling.",
+  "tags": [
+    "niche",
+    "fantasy",
+    "store"
+  ],
+  "ranking_rationale": "Unrivaled artisan custom-color marbling, soft-to-firm durometer choices & medical-grade silicone, weighed against high premium pricing & 4–8+ week custom pour lead times.",
+  "pricing": {
+    "model": "Custom artisan storefront",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Unrivaled artisan custom-color marbling, soft-to-firm durometer choices & medical-grade silicone",
+    "Huge inventory drops alongside bespoke build-your-own orders",
+    "Passionate niche fan community"
+  ],
+  "cons": [
+    "High premium pricing & 4–8+ week custom pour lead times",
+    "Distinct fantastical creature aesthetics divide minimalist shoppers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bad-dragon.webp",
+    "alt": "Bad Dragon logo and brand card",
+    "source_url": "https://bad-dragon.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://bad-dragon.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Custom artisan storefront",
+      "source_url": "https://bad-dragon.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://bad-dragon.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bad-dragon.com",
+      "source_url": "https://bad-dragon.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

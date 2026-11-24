@@ -1,0 +1,83 @@
+{
+  "slug": "badoinkvr",
+  "type": "site",
+  "name": "BaDoinkVR",
+  "url": "https://badoinkvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Pioneering VR studio network combining polished POV camera ergonomics, interactive toy scripts, and multi-brand passes (BabeVR, VRCosplayX, KinkVR).",
+  "tags": [
+    "vr",
+    "studio",
+    "streaming",
+    "premium",
+    "scripts"
+  ],
+  "ranking_rationale": "Long-standing VR standard-setter with standout multi-site variety (including VRCosplayX), comfortable POV camera height, and broad headset compatibility.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": "Short teaser previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; bundle passes unlock sister VR lines like VRCosplayX and BabeVR. Check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest / PCVR / Vision Pro web",
+    "Dedicated VR app & downloads"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Multi-site network covers mainstream, cosplay (VRCosplayX), and kink VR",
+    "Well-calibrated POV camera angles reduce VR eye strain",
+    "Supports interactive haptic toy scripts across hundreds of scenes",
+    "Works smoothly across Meta Quest, PCVR, and downloadable formats"
+  ],
+  "cons": [
+    "Full network bundle costs more than single-site plans",
+    "Older 2015–2017 archive scenes show lower early-VR resolution",
+    "No substantial free library beyond trailers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/badoinkvr.png",
+    "alt": "BaDoinkVR logo and brand card",
+    "source_url": "https://badoinkvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium VR adult studio network",
+      "source_url": "https://badoinkvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2015; operated by BaDoink",
+      "source_url": "https://en.wikipedia.org/wiki/BaDoink",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid membership subscription (single site or multi-VR bundle)",
+      "source_url": "https://badoinkvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Sister brands like VRCosplayX and KinkVR plus interactive toy scripts",
+      "source_url": "https://badoinkvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

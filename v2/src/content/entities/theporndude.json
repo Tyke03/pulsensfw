@@ -1,0 +1,78 @@
+{
+  "slug": "theporndude",
+  "type": "site",
+  "name": "ThePornDude",
+  "url": "https://theporndude.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The internet's most comprehensive curated adult link index categorizing 1,000+ reviewed tubes, cams, paysites, hentai, and tech destinations.",
+  "tags": [
+    "forums",
+    "aggregator",
+    "directory"
+  ],
+  "ranking_rationale": "Exhaustive category map across the entire adult web; weighed against affiliate-heavy sponsored badge placements.",
+  "pricing": {
+    "model": "Free curated link directory",
+    "free_tier": "Free directory index",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Exhaustive category map across the entire adult web",
+    "Quick editorial summaries flag paywalls vs free destinations",
+    "Handy safe/blocked flag system"
+  ],
+  "cons": [
+    "Affiliate-heavy sponsored badge placements",
+    "Surface-level reviews compared with deep hands-on dossiers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/theporndude.webp",
+    "alt": "ThePornDude logo and brand card",
+    "source_url": "https://theporndude.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://theporndude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free curated link directory",
+      "source_url": "https://theporndude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://theporndude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "theporndude.com",
+      "source_url": "https://theporndude.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

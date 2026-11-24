@@ -1,0 +1,79 @@
+{
+  "slug": "corbin-fisher",
+  "type": "site",
+  "name": "Corbin Fisher",
+  "url": "https://www.corbinfisher.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic pioneering gay amateur-glamour studio famed for athletic college guys, crisp camera work, and huge multi-decade vault.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "amateur"
+  ],
+  "ranking_rationale": "20+ year vault of iconic athletic American newcomers; weighed against higher standalone monthly price.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "20+ year vault of iconic athletic American newcomers",
+    "Sharp 4K lighting and candid chemistry",
+    "Easy searchable model timelines"
+  ],
+  "cons": [
+    "Higher standalone monthly price",
+    "Formulaic interview setups"
+  ],
+  "image": {
+    "src": "/media/entities/sites/corbin-fisher.webp",
+    "alt": "Corbin Fisher logo and brand card",
+    "source_url": "https://www.corbinfisher.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.corbinfisher.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.corbinfisher.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.corbinfisher.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "corbinfisher.com",
+      "source_url": "https://www.corbinfisher.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

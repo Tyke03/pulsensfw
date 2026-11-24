@@ -1,0 +1,79 @@
+{
+  "slug": "wankitnowvr",
+  "type": "site",
+  "name": "WankItNowVR",
+  "url": "https://wankitnowvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "British & European 180-degree POV VR network starring fresh UK glamour talent across crisp Quest-compatible scenarios.",
+  "tags": [
+    "vr",
+    "studio",
+    "european"
+  ],
+  "ranking_rationale": "Distinct British/UK star talent rare on US VR studios; weighed against moderate scene cadence.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Distinct British/UK star talent rare on US VR studios",
+    "Reliable 6K–8K streaming & DeoVR integration",
+    "Playful cheeky humor"
+  ],
+  "cons": [
+    "Moderate scene cadence",
+    "Basic web UI styling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wankitnowvr.webp",
+    "alt": "WankItNowVR logo and brand card",
+    "source_url": "https://wankitnowvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://wankitnowvr.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://wankitnowvr.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://wankitnowvr.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wankitnowvr.com",
+      "source_url": "https://wankitnowvr.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

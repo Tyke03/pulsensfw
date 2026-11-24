@@ -1,0 +1,78 @@
+{
+  "slug": "darkfans",
+  "type": "site",
+  "name": "DarkFans",
+  "url": "https://darkfans.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Privacy-centered creator subscription alternative supporting both explicit real-human creators and crypto/card payouts.",
+  "tags": [
+    "platform",
+    "creator",
+    "onlyfans"
+  ],
+  "ranking_rationale": "Creator-friendly payouts and sleek dark layout; weighed against smaller mainstream performer catalog.",
+  "pricing": {
+    "model": "Creator monthly subs + PPV",
+    "free_tier": "Free accounts & previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Creator-friendly payouts and sleek dark layout",
+    "Supports explicit fetish & adult creators fairly",
+    "Clean PPV unlock system"
+  ],
+  "cons": [
+    "Smaller mainstream performer catalog",
+    "Growing discovery tools"
+  ],
+  "image": {
+    "src": "/media/entities/sites/darkfans.webp",
+    "alt": "DarkFans logo and brand card",
+    "source_url": "https://darkfans.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://darkfans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator monthly subs + PPV",
+      "source_url": "https://darkfans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://darkfans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "darkfans.com",
+      "source_url": "https://darkfans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

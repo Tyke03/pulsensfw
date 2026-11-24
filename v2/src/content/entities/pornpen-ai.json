@@ -1,0 +1,77 @@
+{
+  "slug": "pornpen-ai",
+  "type": "ai_app",
+  "name": "PornPen.ai",
+  "url": "https://pornpen.ai",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Specialized plug-and-play tag-driven adult AI image & GIF generator built for zero-prompt-engineering beginners.",
+  "tags": [
+    "image",
+    "cloud"
+  ],
+  "ranking_rationale": "Simple tap-tag builder creates images cleanly without prompt syntax; weighed against free tier enforces long queues & blurred resolution.",
+  "pricing": {
+    "model": "Freemium + Pro membership",
+    "free_tier": "Free queued tag generation",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Simple tap-tag builder creates images cleanly without prompt syntax",
+    "Includes video/GIF loop generation perks",
+    "Fast mobile dark mode"
+  ],
+  "cons": [
+    "Free tier enforces long queues & blurred resolution",
+    "Less photorealistic precision than Civitai/Flux workflows"
+  ],
+  "image": {
+    "src": "/media/entities/ai/pornpen-ai.webp",
+    "alt": "PornPen.ai logo and brand card",
+    "source_url": "https://pornpen.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://pornpen.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium + Pro membership",
+      "source_url": "https://pornpen.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pornpen.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornpen.ai",
+      "source_url": "https://pornpen.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

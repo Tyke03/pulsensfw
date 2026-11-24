@@ -1,0 +1,65 @@
+{
+  "slug": "nicole-block",
+  "type": "star",
+  "name": "Nicole Block",
+  "url": "https://en.wikipedia.org/wiki/Nicole_Block",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nicole Block — Chilean pornographic actress and model. Industry career documented from 2016.",
+  "tags": [
+    "performer",
+    "onlyfans",
+    "creator"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "OnlyFans",
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nicole-block.jpg",
+    "alt": "SFW portrait of Nicole Block",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Premios_Pulsar_2017_-_Nicole_Block_-_01_(cropped).jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q37816373 (Chile)",
+      "source_url": "http://www.wikidata.org/entity/Q37816373",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2016–present",
+      "source_url": "https://en.wikipedia.org/wiki/Nicole_Block",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1989",
+      "source_url": "http://www.wikidata.org/entity/Q37816373",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

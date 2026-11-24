@@ -1,0 +1,81 @@
+{
+  "slug": "modal-serverless",
+  "type": "ai_app",
+  "name": "Modal",
+  "url": "https://modal.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Serverless Python GPU cloud beloved by power users for deploying private scale-to-zero ComfyUI, vLLM & Wan video containers—with $30/month free credits.",
+  "tags": [
+    "cloud",
+    "gpu",
+    "api",
+    "privacy"
+  ],
+  "ranking_rationale": "Generous $30/month recurring free GPU credit covers hours of private A10G/L40S/H100 inference (trade-off: requires running a short Python CLI deploy script — `modal deploy`).",
+  "pricing": {
+    "model": "Serverless per-second GPU",
+    "free_tier": "$30/month free GPU credits",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "API"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Generous $30/month recurring free GPU credit covers hours of private A10G/L40S/H100 inference",
+    "Scale-to-zero billing means you pay $0.00 the second your ComfyUI or vLLM prompt finishes",
+    "100% private isolated Python containers with zero content snooping"
+  ],
+  "cons": [
+    "Requires running a short Python CLI deploy script (`modal deploy`)",
+    "Built for technical tinkerers rather than non-coders"
+  ],
+  "image": {
+    "src": "/media/entities/ai/modal-serverless.webp",
+    "alt": "Modal logo and brand card",
+    "source_url": "https://modal.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://modal.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Serverless per-second GPU",
+      "source_url": "https://modal.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, macOS, Windows, API",
+      "source_url": "https://modal.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "modal.com",
+      "source_url": "https://modal.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "nao-oikawa",
+  "type": "star",
+  "name": "Nao Oikawa",
+  "url": "https://en.wikipedia.org/wiki/Nao_Oikawa",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nao Oikawa is a Japanese actress, TV personality and was also a former AV idol who was very popular in the early 2000s.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nao-oikawa.jpg",
+    "alt": "SFW portrait of Nao Oikawa",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nao_Oikawa_2022-04-01.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "2000–present",
+      "source_url": "https://en.wikipedia.org/wiki/Nao_Oikawa",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Hiroshima, Japan",
+      "source_url": "https://en.wikipedia.org/wiki/Nao_Oikawa",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Actress, TV Personality, AV idol",
+      "source_url": "https://en.wikipedia.org/wiki/Nao_Oikawa",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1981",
+      "source_url": "http://www.wikidata.org/entity/Q3048607",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

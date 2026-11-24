@@ -1,0 +1,58 @@
+{
+  "slug": "sheila-kennedy",
+  "type": "star",
+  "name": "Sheila Kennedy",
+  "url": "https://en.wikipedia.org/wiki/Sheila_Kennedy",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sheila Kennedy is an erotic model and actress who was the December 1981 Penthouse Pet of the Month and the 1983 Pet of the Year.",
+  "tags": [
+    "performer",
+    "veteran",
+    "awards",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/sheila-kennedy.jpg",
+    "alt": "SFW portrait of Sheila Kennedy",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sheila_Kennedy.JPG",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Memphis, Tennessee, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Sheila_Kennedy",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Sheila Kennedy",
+      "source_url": "https://en.wikipedia.org/wiki/Sheila_Kennedy",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

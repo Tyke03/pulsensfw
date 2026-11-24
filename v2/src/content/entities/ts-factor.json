@@ -1,0 +1,78 @@
+{
+  "slug": "ts-factor",
+  "type": "site",
+  "name": "TS Factor",
+  "url": "https://www.tsfactor.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Independent trans showcase studio filming solo, girl-girl, and couples encounters across US and Latin American performers.",
+  "tags": [
+    "premium",
+    "studio",
+    "trans"
+  ],
+  "ranking_rationale": "Authentic independent production supporting diverse trans talent, weighed against modest indie apartment lighting.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Authentic independent production supporting diverse trans talent",
+    "DRM-free full scene downloads",
+    "Long-running archive"
+  ],
+  "cons": [
+    "Modest indie apartment lighting",
+    "Older web layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ts-factor.webp",
+    "alt": "TS Factor logo and brand card",
+    "source_url": "https://www.tsfactor.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.tsfactor.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.tsfactor.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tsfactor.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tsfactor.com",
+      "source_url": "https://www.tsfactor.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

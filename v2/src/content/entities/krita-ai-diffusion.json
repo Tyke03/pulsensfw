@@ -1,0 +1,80 @@
+{
+  "slug": "krita-ai-diffusion",
+  "type": "ai_app",
+  "name": "Krita AI Diffusion",
+  "url": "https://github.com/Acly/krita-ai-diffusion",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Native ComfyUI-powered painting & precise regional inpainting plugin inside Krita—draw poses with brushes while Flux/SDXL renders locally.",
+  "tags": [
+    "local",
+    "image",
+    "open-source",
+    "editing"
+  ],
+  "ranking_rationale": "Draw masks, poses, and live canvas doodles that render instantaneously with zero censorship (trade-off: takes initial ComfyUI model-folder linking during first install).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free GPL plugin",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Draw masks, poses, and live canvas doodles that render instantaneously with zero censorship",
+    "Full Photoshop-grade layers + non-destructive local ComfyUI control",
+    "Supports custom local checkpoints & ControlNet"
+  ],
+  "cons": [
+    "Takes initial ComfyUI model-folder linking during first install",
+    "Requires capable local GPU for live mode"
+  ],
+  "image": {
+    "src": "/media/entities/ai/krita-ai-diffusion.webp",
+    "alt": "Krita AI Diffusion logo and brand card",
+    "source_url": "https://github.com/Acly/krita-ai-diffusion",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/Acly/krita-ai-diffusion",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/Acly/krita-ai-diffusion",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://github.com/Acly/krita-ai-diffusion",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/Acly/krita-ai-diffusion",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

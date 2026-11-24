@@ -1,0 +1,79 @@
+{
+  "slug": "onetrainer",
+  "type": "ai_app",
+  "name": "OneTrainer",
+  "url": "https://github.com/Nerogar/OneTrainer",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Clean modern unified local training application supporting Flux, SDXL, Cascade, and LoRA fine-tuning without spaghetti CLI flags.",
+  "tags": [
+    "local",
+    "image",
+    "open-source",
+    "training"
+  ],
+  "ranking_rationale": "Clean standalone desktop UI simpler to configure than raw Kohya scripts (trade-off: requires 8GB–24GB VRAM depending on checkpoint family).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Clean standalone desktop UI simpler to configure than raw Kohya scripts",
+    "Supports memory-saving masked training, EMA, and custom concept configs offline",
+    "Zero cloud moderation blocks"
+  ],
+  "cons": [
+    "Requires 8GB–24GB VRAM depending on checkpoint family",
+    "Technical hobbyist learning curve"
+  ],
+  "image": {
+    "src": "/media/entities/ai/onetrainer.webp",
+    "alt": "OneTrainer logo and brand card",
+    "source_url": "https://github.com/Nerogar/OneTrainer",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/Nerogar/OneTrainer",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/Nerogar/OneTrainer",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/Nerogar/OneTrainer",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/Nerogar/OneTrainer",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

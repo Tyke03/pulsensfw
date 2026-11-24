@@ -1,0 +1,79 @@
+{
+  "slug": "we-are-hairy",
+  "type": "site",
+  "name": "WeAreHairy",
+  "url": "https://www.wearehairy.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Natural body-positivity independent studio celebrating unshaven everyday amateur women & couples in relaxed, unretouched HD/4K shoots.",
+  "tags": [
+    "premium",
+    "studio",
+    "amateur",
+    "niche"
+  ],
+  "ranking_rationale": "Refreshing unretouched natural aesthetic free of plastic commercial clichés (trade-off: dedicated specifically to natural/unshaven niche).",
+  "pricing": {
+    "model": "Indie studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Refreshing unretouched natural aesthetic free of plastic commercial clichés",
+    "Warm candid model interviews, high-res photos & 4K downloads",
+    "15+ years of consistent independent curation"
+  ],
+  "cons": [
+    "Dedicated specifically to natural/unshaven niche",
+    "Simple utilitarian member layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/we-are-hairy.webp",
+    "alt": "WeAreHairy logo and brand card",
+    "source_url": "https://www.wearehairy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.wearehairy.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Indie studio subscription",
+      "source_url": "https://www.wearehairy.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.wearehairy.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wearehairy.com",
+      "source_url": "https://www.wearehairy.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

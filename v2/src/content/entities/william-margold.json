@@ -1,0 +1,73 @@
+{
+  "slug": "william-margold",
+  "type": "star",
+  "name": "William Margold",
+  "url": "https://en.wikipedia.org/wiki/William_Margold",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "William Margold (October 2, 1943 – January 17, 2017) was an American pornographic film actor and porn film director. Known as Bill Margold, he was a former director of the Free Speech Coalition and was a co-founder of X-Rated Critics Organization (XRCO) and Fans of X-Rated Entertainment (FOXE).",
+  "tags": [
+    "performer",
+    "former performer",
+    "hall of fame",
+    "awards",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/william-margold.jpg",
+    "alt": "SFW portrait of William Margold",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bill_Margold_2011.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Washington, D.C., U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/William_Margold",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic film actor, porn film director",
+      "source_url": "https://en.wikipedia.org/wiki/William_Margold",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "Known as Bill Margold, he was a former director of the Free Speech Coalition and was a co-founder of X-Rated Critics Organization (XRCO) and Fans of X-Rated Entertainment (FOXE).",
+      "source_url": "https://en.wikipedia.org/wiki/William_Margold",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1943",
+      "source_url": "http://www.wikidata.org/entity/Q8015113",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

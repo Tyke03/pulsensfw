@@ -1,0 +1,78 @@
+{
+  "slug": "indexxx",
+  "type": "site",
+  "name": "Indexxx",
+  "url": "https://www.indexxx.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-speed glamour & adult model link directory tracking studio sets across MetArt, Hegre, Playboy, and Playmates.",
+  "tags": [
+    "forums",
+    "database",
+    "performers"
+  ],
+  "ranking_rationale": "Best encyclopedia specifically for art-nude & glamour models; weighed against minimal user review discussion.",
+  "pricing": {
+    "model": "Free model directory",
+    "free_tier": "Full lookup free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Best encyclopedia specifically for art-nude & glamour models",
+    "Fast model-by-studio cross-reference",
+    "Clean grid navigation"
+  ],
+  "cons": [
+    "Minimal user review discussion",
+    "Mixed affiliate banner links"
+  ],
+  "image": {
+    "src": "/media/entities/sites/indexxx.webp",
+    "alt": "Indexxx logo and brand card",
+    "source_url": "https://www.indexxx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.indexxx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free model directory",
+      "source_url": "https://www.indexxx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.indexxx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "indexxx.com",
+      "source_url": "https://www.indexxx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

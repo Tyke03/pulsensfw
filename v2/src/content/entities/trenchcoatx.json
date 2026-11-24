@@ -1,0 +1,79 @@
+{
+  "slug": "trenchcoatx",
+  "type": "site",
+  "name": "TrenchcoatX",
+  "url": "https://www.trenchcoatx.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Joanna Angel, Stoya, and Kayden Kross's independent cinema collective producing boundary-pushing erotic shorts curated by star directors.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "indie"
+  ],
+  "ranking_rationale": "Genuine auteur curation by iconic star-directors; weighed against very selective catalog volume compared with commercial hubs.",
+  "pricing": {
+    "model": "Studio subscription & digital store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Genuine auteur curation by iconic star-directors",
+    "Stylized artful lighting & bold original concepts",
+    "Fair direct artist support"
+  ],
+  "cons": [
+    "Very selective catalog volume compared with commercial hubs",
+    "Niche artistic taste"
+  ],
+  "image": {
+    "src": "/media/entities/sites/trenchcoatx.webp",
+    "alt": "TrenchcoatX logo and brand card",
+    "source_url": "https://www.trenchcoatx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.trenchcoatx.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription & digital store",
+      "source_url": "https://www.trenchcoatx.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.trenchcoatx.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "trenchcoatx.com",
+      "source_url": "https://www.trenchcoatx.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

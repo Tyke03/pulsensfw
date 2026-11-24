@@ -1,0 +1,80 @@
+{
+  "slug": "taggui",
+  "type": "ai_app",
+  "name": "TagGUI",
+  "url": "https://github.com/jhc13/taggui",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Fast desktop dataset-captioning & booru-tag editor integrating JoyCaption, WD14 Tagger, Florence-2 & batch find/replace for LoRA creators.",
+  "tags": [
+    "local",
+    "image",
+    "models",
+    "open-source"
+  ],
+  "ranking_rationale": "Makes curating clean 50-image Flux/SDXL/Pony LoRA training datasets 5x faster (trade-off: pure LoRA dataset-prep utility rather than an image generator).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free GPL-3.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Makes curating clean 50-image Flux/SDXL/Pony LoRA training datasets 5x faster",
+    "Runs WD14 & VLM captioners locally inside a snappy native Qt desktop table",
+    "100% free GPL-3.0 open-source"
+  ],
+  "cons": [
+    "Pure LoRA dataset-prep utility rather than an image generator",
+    "VLM auto-captioning needs local GPU VRAM"
+  ],
+  "image": {
+    "src": "/media/entities/ai/taggui.webp",
+    "alt": "TagGUI logo and brand card",
+    "source_url": "https://github.com/jhc13/taggui",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/jhc13/taggui",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/jhc13/taggui",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS",
+      "source_url": "https://github.com/jhc13/taggui",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/jhc13/taggui",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "eurocreme",
+  "type": "site",
+  "name": "Eurocreme",
+  "url": "https://www.eurocreme.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Flagship UK all-male studio running since 2001 across British twink, leather, lad, and European ensemble series.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "Deep 20+ year UK & Eastern European catalog across diverse series (trade-off: recurring subscription billing promos require careful cancellation attention).",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Deep 20+ year UK & Eastern European catalog across diverse series",
+    "Polished crisp HD streaming player",
+    "Clear performer and tag sorting"
+  ],
+  "cons": [
+    "Recurring subscription billing promos require careful cancellation attention",
+    "Mixes vault scenes beside fresh 4K releases"
+  ],
+  "image": {
+    "src": "/media/entities/sites/eurocreme.webp",
+    "alt": "Eurocreme logo and brand card",
+    "source_url": "https://www.eurocreme.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.eurocreme.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.eurocreme.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.eurocreme.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "eurocreme.com",
+      "source_url": "https://www.eurocreme.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

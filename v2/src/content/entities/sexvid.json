@@ -1,0 +1,78 @@
+{
+  "slug": "sexvid",
+  "type": "site",
+  "name": "SexVid",
+  "url": "https://www.sexvid.xxx",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-volume European/global free tube indexing multi-language categories and fast mobile MP4 streams.",
+  "tags": [
+    "tube",
+    "hd",
+    "streaming"
+  ],
+  "ranking_rationale": "Fast direct mobile streams; weighed against generic tube template look.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.0,
+  "pros": [
+    "Fast direct mobile streams",
+    "Wide international category coverage",
+    "Simple duration filters"
+  ],
+  "cons": [
+    "Generic tube template look",
+    "Duplicate clip titles across mirrors"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sexvid.webp",
+    "alt": "SexVid logo and brand card",
+    "source_url": "https://www.sexvid.xxx",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.sexvid.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.sexvid.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sexvid.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sexvid.xxx",
+      "source_url": "https://www.sexvid.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

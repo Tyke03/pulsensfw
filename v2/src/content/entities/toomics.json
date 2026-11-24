@@ -1,0 +1,81 @@
+{
+  "slug": "toomics",
+  "type": "site",
+  "name": "Toomics",
+  "url": "https://global.toomics.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Official licensed global Korean webtoon platform hosting an expansive mature 18+ romance and drama manhwa catalog on web.",
+  "tags": [
+    "hentai",
+    "comics",
+    "manhwa",
+    "premium"
+  ],
+  "ranking_rationale": "100% legal licensed translations with sharp studio artwork; weighed against mature 18+ section requires web browser access (hidden in mobile app stores).",
+  "pricing": {
+    "model": "Flat VIP subscription ($9.99/mo)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.3,
+  "pros": [
+    "100% legal licensed translations with sharp studio artwork",
+    "Predictable flat-rate monthly VIP membership unlike predatory coin-only sites",
+    "Smooth mobile web vertical reader"
+  ],
+  "cons": [
+    "Mature 18+ section requires web browser access (hidden in mobile app stores)",
+    "Slower chapter drop pace on some completed series"
+  ],
+  "image": {
+    "src": "/media/entities/sites/toomics.webp",
+    "alt": "Toomics logo and brand card",
+    "source_url": "https://global.toomics.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://global.toomics.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Flat VIP subscription ($9.99/mo)",
+      "source_url": "https://global.toomics.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web, iOS, Android",
+      "source_url": "https://global.toomics.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "global.toomics.com",
+      "source_url": "https://global.toomics.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

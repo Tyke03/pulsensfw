@@ -1,0 +1,77 @@
+{
+  "slug": "getchu",
+  "type": "site",
+  "name": "Getchu",
+  "url": "https://www.getchu.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japan's flagship official storefront & database for licensed R-18 PC bishoujo visual novels, doujin goods, and character figures.",
+  "tags": [
+    "hentai",
+    "games",
+    "store"
+  ],
+  "ranking_rationale": "Authoritative primary source tracking every official Japanese visual novel release date & patch (trade-off: 100% Japanese text interface requiring browser translation outside Japan).",
+  "pricing": {
+    "model": "Retail / digital storefront",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Authoritative primary source tracking every official Japanese visual novel release date & patch",
+    "Official digital PC downloads (via partner DL/auth) and collector merch",
+    "Trusted over 25 years of Japanese eroge history"
+  ],
+  "cons": [
+    "100% Japanese text interface requiring browser translation outside Japan",
+    "Strict regional IP checks on certain digital storefront wings"
+  ],
+  "image": {
+    "src": "/media/entities/sites/getchu.webp",
+    "alt": "Getchu logo and brand card",
+    "source_url": "https://www.getchu.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.getchu.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Retail / digital storefront",
+      "source_url": "https://www.getchu.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.getchu.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "getchu.com",
+      "source_url": "https://www.getchu.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

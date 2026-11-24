@@ -1,0 +1,81 @@
+{
+  "slug": "openmodeldb",
+  "type": "ai_app",
+  "name": "OpenModelDB",
+  "url": "https://openmodeldb.info",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Community-curated repository of hundreds of free ESRGAN, SPAN & DAT super-resolution upscaler models essential for crisp ComfyUI & Forge hires-fix.",
+  "tags": [
+    "local",
+    "image",
+    "models",
+    "open-source"
+  ],
+  "ranking_rationale": "Visual side-by-side slider previews compare anime, skin-texture & photo upscalers before downloading (trade-off: pure upscaler model repository — pairs inside ComfyUI/Forge/ChaiNNer).",
+  "pricing": {
+    "model": "100% free model database",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Visual side-by-side slider previews compare anime, skin-texture & photo upscalers before downloading",
+    "Home of community staples like 4x-UltraSharp, Foolhardy Remacri & 4x_NMKD",
+    "100% free, zero-ad open resource"
+  ],
+  "cons": [
+    "Pure upscaler model repository (pairs inside ComfyUI/Forge/ChaiNNer)",
+    "Does not host base txt2img checkpoints"
+  ],
+  "image": {
+    "src": "/media/entities/ai/openmodeldb.webp",
+    "alt": "OpenModelDB logo and brand card",
+    "source_url": "https://openmodeldb.info",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://openmodeldb.info",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free model database",
+      "source_url": "https://openmodeldb.info",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, macOS, Linux",
+      "source_url": "https://openmodeldb.info",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "openmodeldb.info",
+      "source_url": "https://openmodeldb.info",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "aria-giovanni",
+  "type": "star",
+  "name": "Aria Giovanni",
+  "url": "https://en.wikipedia.org/wiki/Aria_Giovanni",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Aria Giovanni is an adult film performer from the United States (b. 1977), active since 2000. Verified adult filmography indexed via Wikidata and Wikimedia Commons.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/aria-giovanni.jpg",
+    "alt": "SFW portrait of Aria Giovanni",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aria_Giovanni_at_2005_AEE_Sunday_1.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q35998 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q35998",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1977",
+      "source_url": "http://www.wikidata.org/entity/Q35998",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2000–present",
+      "source_url": "https://en.wikipedia.org/wiki/Aria_Giovanni",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

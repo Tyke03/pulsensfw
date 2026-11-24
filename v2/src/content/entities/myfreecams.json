@@ -1,0 +1,80 @@
+{
+  "slug": "myfreecams",
+  "type": "site",
+  "name": "MyFreeCams",
+  "url": "https://www.myfreecams.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran community-driven cam platform with loyal independent broadcasters, personal fan clubs (MFC Share), and a classic chat-first atmosphere.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens",
+    "community"
+  ],
+  "ranking_rationale": "Beloved by regulars for authentic independent models and tight-knit room chat, though its throwback UI and smaller scale show its age.",
+  "pricing": {
+    "model": "Token-based tipping & private shows",
+    "free_tier": "Public rooms open to watch",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Token bundles vary by package; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "High proportion of genuine independent broadcasters",
+    "Strong hangout and community chat culture inside rooms",
+    "MFC Share add-on lets models sell clip packs and fan clubs"
+  ],
+  "cons": [
+    "Dated 2000s interface and clunky mobile web experience",
+    "Smaller broadcaster volume than Chaturbate or Stripchat",
+    "Heavy focus on female solo rooms with limited other categories"
+  ],
+  "image": {
+    "src": "/media/entities/sites/myfreecams.png",
+    "alt": "MyFreeCams logo and brand card",
+    "source_url": "https://www.myfreecams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Community live adult webcam platform",
+      "source_url": "https://www.myfreecams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2004; long-running independent cam network",
+      "source_url": "https://en.wikipedia.org/wiki/MyFreeCams",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Public token-tipping rooms with private shows and MFC Share",
+      "source_url": "https://www.myfreecams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Independent model community and MFC Share creator storefronts",
+      "source_url": "https://www.myfreecams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

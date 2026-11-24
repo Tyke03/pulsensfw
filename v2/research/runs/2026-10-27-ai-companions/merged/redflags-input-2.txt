@@ -1,0 +1,60 @@
+canonical_id|name|primary_domain|category_id|scope_pending|store_build_may_differ
+crushon-ai|CrushOn.AI|crushon.ai|hosted_character_hubs|false|false
+cuties-ai|Cuties AI|cuties.ai|hosted_character_hubs|true|false
+darlink-ai|DarLink AI|darlink.ai|hosted_character_hubs|true|false
+deepmode|DeepMode|deepmode.com|hosted_character_hubs|false|false
+dippy|Dippy|dippy.ai|dedicated_virtual_companions|false|true
+discutez-avec-un-ami-ia|Discutez avec un ami IA|apps.apple.com|dedicated_virtual_companions|false|false
+dopple-ai|Dopple.AI|dopple.ai|dedicated_virtual_companions|false|true
+dream-companion|Dream Companion|aixploria.com|hosted_character_hubs|false|false
+dreambf|DreamBF|dreambf.ai|hosted_character_hubs|false|false
+dreamgen|DreamGen|dreamgen.com|interactive_story_engines|false|false
+dreamgf|DreamGF|dreamgf.ai|hosted_character_hubs|true|false
+dreamjourney-ai|Dreamjourney AI|dreamjourneyai.com|hosted_character_hubs|false|false
+dreampress-ai|Dreampress AI|dreampress.ai|hosted_character_hubs|false|false
+eden-ai|Eden AI|edenai.com|hosted_character_hubs|false|false
+ehentai-ai|eHentai.ai|ehentai.ai|hosted_character_hubs|true|false
+emochi|Emochi|google.com|dedicated_virtual_companions|false|true
+erogen-ai|Erogen AI|erogen.ai|hosted_character_hubs|false|false
+eroplay-ai|EroPlay AI|eroplay.ai|hosted_character_hubs|false|false
+eternal-ai|Eternal AI|eternalai.org|hosted_character_hubs|false|false
+eva-ai|EVA AI|eva.ai|dedicated_virtual_companions|false|true
+fantasia|Fantasia|play.google.com|dedicated_virtual_companions|false|true
+fantasygf|FantasyGF|fantasygf.ai|hosted_character_hubs|true|false
+fictionlab|FictionLab|fictionlab.ai|hosted_character_hubs|false|false
+flai|Flai||hosted_character_hubs|false|false
+flipped|Flipped|flipped.chat|hosted_character_hubs|false|true
+flirtcam-ai|FlirtCam AI|flirtcam.ai|hosted_character_hubs|false|false
+flowgpt|FlowGPT|flowgpt.com|hosted_character_hubs|false|true
+friendogram|Friendogram||hosted_character_hubs|false|false
+fuckd-ai|Fuckd.ai|fuckd.ai|hosted_character_hubs|false|false
+funfun-ai|FunFun AI|funfun.ai|hosted_character_hubs|false|false
+fykoo|Fykoo|fykoo.com|hosted_character_hubs|false|false
+girlfriendgpt|GirlfriendGPT|gptgirlfriend.online|hosted_character_hubs|true|false
+girlfriendly-ai|Girlfriendly AI|girlfriendly.ai|dedicated_virtual_companions|false|false
+hammerai|HammerAI|hammerai.com|byok_local_frontends|false|false
+harpy-chat|Harpy Chat|harpy.chat|hosted_character_hubs|false|false
+herahaven|HeraHaven|herahaven.com|hosted_character_hubs|false|false
+hi-waifu|Hi Waifu|hiwaifu.com|dedicated_virtual_companions|false|false
+him-ai-boyfriend-chat|Him - AI Boyfriend Chat|apps.apple.com|dedicated_virtual_companions|false|true
+hiromivoice-asmrtist-とai通話|HiromiVoice - ASMRtist とAI通話||hosted_character_hubs|false|true
+honeychat|HoneyChat|honeychat.bot|dedicated_virtual_companions|false|false
+honeypot|HoneyPot|honeypot.com|hosted_character_hubs|false|false
+hotchat|HotChat|play.google.com|hosted_character_hubs|false|false
+hottalks-ai|HotTalks AI|hottalks.ai|hosted_character_hubs|false|false
+ia-namorada-virtual-coupleai|IA Namorada Virtual CoupleAI|play.google.com|hosted_character_hubs|false|true
+imate-ai-boyfriend-who-cares|Imate - AI boyfriend who cares|play.google.com|hosted_character_hubs|false|false
+intimate-ai|Intimate AI|intimate.ai|dedicated_virtual_companions|false|false
+isekai-zero|Isekai Zero|isekaizero.com|hosted_character_hubs|false|false
+janitor-ai|Janitor AI|janitorai.com|dedicated_virtual_companions|false|false
+jannyai|JannyAI|jannyai.com|hybrid_hub_and_frontend|false|false
+joi-ai|Joi AI|joi.com|dedicated_virtual_companions|false|false
+joyland-ai|Joyland AI|joyland.ai|hosted_character_hubs|false|false
+juicy-ai|Juicy AI|juicy-ai.com|hosted_character_hubs|false|false
+juicychat-ai|JuicyChat.AI|juicychat.ai|hosted_character_hubs|false|false
+k-k|K / K***||dedicated_virtual_companions|false|false
+kajiwoto|Kajiwoto|kajiwoto.ai|hosted_character_hubs|false|false
+kindroid|Kindroid|kindroid.ai|dedicated_virtual_companions|false|true
+kink-ai|Kink AI|kink.ai|hosted_character_hubs|false|false
+koboldai|KoboldAI|github.com|byok_local_frontends|false|false
+kupid-ai|Kupid AI|kupid.ai|dedicated_virtual_companions|false|false

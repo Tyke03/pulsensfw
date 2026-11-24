@@ -1,0 +1,78 @@
+{
+  "slug": "homemoviestube",
+  "type": "site",
+  "name": "HomeMoviesTube",
+  "url": "https://www.homemoviestube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dedicated classic free amateur tube archiving real homemade couples recordings, solo uploads, and throwback web clips.",
+  "tags": [
+    "tube",
+    "free",
+    "amateur"
+  ],
+  "ranking_rationale": "Strong emphasis on authentic homemade video over glossy studios, weighed against older visual interface and mixed camera resolution.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free amateur streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Strong emphasis on authentic homemade video over glossy studios",
+    "Zero registration barrier",
+    "Fast tag discovery"
+  ],
+  "cons": [
+    "Older visual interface and mixed camera resolution",
+    "Standard tube ad slots"
+  ],
+  "image": {
+    "src": "/media/entities/sites/homemoviestube.webp",
+    "alt": "HomeMoviesTube logo and brand card",
+    "source_url": "https://www.homemoviestube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.homemoviestube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.homemoviestube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.homemoviestube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "homemoviestube.com",
+      "source_url": "https://www.homemoviestube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

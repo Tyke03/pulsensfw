@@ -1,0 +1,62 @@
+{
+  "slug": "mami-nagase",
+  "type": "star",
+  "name": "Mami Nagase",
+  "url": "http://www.wikidata.org/entity/Q11549172",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mami Nagase — Japanese model.",
+  "tags": [
+    "performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/mami-nagase.jpg",
+    "alt": "SFW portrait of Mami Nagase",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E9%95%B7%E7%80%AC%E9%BA%BB%E7%BE%8E_%E3%80%90_Mami_Nagase_%E3%80%91.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q11549172 (Japan)",
+      "source_url": "http://www.wikidata.org/entity/Q11549172",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q11549172",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1992",
+      "source_url": "http://www.wikidata.org/entity/Q11549172",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

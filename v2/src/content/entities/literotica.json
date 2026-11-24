@@ -1,0 +1,79 @@
+{
+  "slug": "literotica",
+  "type": "site",
+  "name": "Literotica",
+  "url": "https://www.literotica.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The internet's library of written and audio erotica—hosting hundreds of thousands of reader-rated stories across every genre.",
+  "tags": [
+    "erotica",
+    "stories",
+    "audio",
+    "free"
+  ],
+  "ranking_rationale": "Enormous 25+ year archive of written stories and spoken audio; weighed against outdated category navigation and slow mobile pages.",
+  "pricing": {
+    "model": "100% free reader + optional ad-free VIP",
+    "free_tier": "Free reading & audio streams",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Enormous 25+ year archive of written stories and spoken audio",
+    "Reader rating scores help filter quality fiction from amateur drafts",
+    "Clean distracting-free dark reading mode"
+  ],
+  "cons": [
+    "Outdated category navigation and slow mobile pages",
+    "Mixed quality in uncurated new submissions"
+  ],
+  "image": {
+    "src": "/media/entities/sites/literotica.webp",
+    "alt": "Literotica logo and brand card",
+    "source_url": "https://www.literotica.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.literotica.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free reader + optional ad-free VIP",
+      "source_url": "https://www.literotica.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.literotica.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "literotica.com",
+      "source_url": "https://www.literotica.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

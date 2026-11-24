@@ -1,0 +1,79 @@
+{
+  "slug": "self-serv-toys",
+  "type": "site",
+  "name": "Self Serve Toys",
+  "url": "https://www.selfservetoys.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Albuquerque's acclaimed sex-educator-staffed pleasure shop famous for rigorous body-safe toy curation, video classes & medical referrals.",
+  "tags": [
+    "niche",
+    "education",
+    "queer",
+    "store"
+  ],
+  "ranking_rationale": "100% phthalate-free body-safe curation vetted by certified sex educators (trade-off: independent boutique pricing vs warehouse chains).",
+  "pricing": {
+    "model": "Educator boutique & classes",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "100% phthalate-free body-safe curation vetted by certified sex educators",
+    "Extensive on-demand digital intimacy & anatomy classes",
+    "Trusted by pelvic-health clinicians"
+  ],
+  "cons": [
+    "Independent boutique pricing vs warehouse chains",
+    "US shipping focus"
+  ],
+  "image": {
+    "src": "/media/entities/sites/self-serv-toys.webp",
+    "alt": "Self Serve Toys logo and brand card",
+    "source_url": "https://www.selfservetoys.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.selfservetoys.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Educator boutique & classes",
+      "source_url": "https://www.selfservetoys.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.selfservetoys.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "selfservetoys.com",
+      "source_url": "https://www.selfservetoys.com",
+      "checked": "2026-11-29",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-29"
+}

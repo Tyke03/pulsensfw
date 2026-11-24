@@ -1,0 +1,79 @@
+{
+  "slug": "bi-empire",
+  "type": "site",
+  "name": "BiEmpire",
+  "url": "https://www.biempire.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Modern 4K studio dedicated exclusively to enthusiastic MMF bisexual threesomes & couples exploration with top North American stars.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k",
+    "couples"
+  ],
+  "ranking_rationale": "High-clarity 4K cinematography tailored specifically to balanced bi threesomes, weighed against formulaic living-room intros.",
+  "pricing": {
+    "model": "4K bi studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "High-clarity 4K cinematography tailored specifically to balanced bi threesomes",
+    "Casts charismatic mainstream stars in genuine bi scenarios",
+    "Clean modern responsive player"
+  ],
+  "cons": [
+    "Formulaic living-room intros",
+    "Modest standalone archive size"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bi-empire.webp",
+    "alt": "BiEmpire logo and brand card",
+    "source_url": "https://www.biempire.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.biempire.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "4K bi studio subscription",
+      "source_url": "https://www.biempire.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.biempire.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "biempire.com",
+      "source_url": "https://www.biempire.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

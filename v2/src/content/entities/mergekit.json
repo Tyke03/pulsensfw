@@ -1,0 +1,79 @@
+{
+  "slug": "mergekit",
+  "type": "ai_app",
+  "name": "mergekit",
+  "url": "https://github.com/arcee-ai/mergekit",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The essential open-source toolkit powering SLERP, DARE-TIES & Frankenmerge combinations across almost every top Hugging Face roleplay model.",
+  "tags": [
+    "local",
+    "open-source",
+    "models"
+  ],
+  "ranking_rationale": "Enables merging storytelling, prose, and instruction models on CPU/low-VRAM without full retraining (trade-off: CLI YAML tool aimed at model creators rather than end chatters).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free LGPL-3.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Enables merging storytelling, prose, and instruction models on CPU/low-VRAM without full retraining",
+    "Powers virtually the entire Hugging Face creative/RP model-merging scene",
+    "100% free open-source"
+  ],
+  "cons": [
+    "CLI YAML tool aimed at model creators rather than end chatters",
+    "Bad merge weights can degrade long-context coherence"
+  ],
+  "image": {
+    "src": "/media/entities/ai/mergekit.webp",
+    "alt": "mergekit logo and brand card",
+    "source_url": "https://github.com/arcee-ai/mergekit",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/arcee-ai/mergekit",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/arcee-ai/mergekit",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, macOS, Windows",
+      "source_url": "https://github.com/arcee-ai/mergekit",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/arcee-ai/mergekit",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "krea-ai",
+  "type": "ai_app",
+  "name": "Krea AI",
+  "url": "https://www.krea.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ultra-responsive real-time visual canvas and enhancer excelling at style-consistent Flux LoRA training and skin-texture upscaling.",
+  "tags": [
+    "image",
+    "cloud",
+    "video",
+    "editing"
+  ],
+  "ranking_rationale": "Real-time canvas slider morphs sketches and compositions live at interactive framerates, weighed against strict cloud moderation blocks explicit NSFW generation on hosted servers.",
+  "pricing": {
+    "model": "Freemium + Pro tiers",
+    "free_tier": "Free daily compute units",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Real-time canvas slider morphs sketches and compositions live at interactive framerates",
+    "Industry-best natural skin-pore upscaler rescues plastic AI portraits",
+    "Built-in clean style training"
+  ],
+  "cons": [
+    "Strict cloud moderation blocks explicit NSFW generation on hosted servers",
+    "Compute units tighten fast on Pro upscaling"
+  ],
+  "image": {
+    "src": "/media/entities/ai/krea-ai.webp",
+    "alt": "Krea AI logo and brand card",
+    "source_url": "https://www.krea.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://www.krea.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium + Pro tiers",
+      "source_url": "https://www.krea.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.krea.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "krea.ai",
+      "source_url": "https://www.krea.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

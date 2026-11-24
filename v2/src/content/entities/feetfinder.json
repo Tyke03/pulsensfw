@@ -1,0 +1,78 @@
+{
+  "slug": "feetfinder",
+  "type": "site",
+  "name": "FeetFinder",
+  "url": "https://www.feetfinder.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "ID-verified niche foot-fetish marketplace connecting buyers with custom photo sets, clips, and private requests.",
+  "tags": [
+    "platform",
+    "clips",
+    "fetish"
+  ],
+  "ranking_rationale": "Focused verified marketplace free of mainstream spam; weighed against many creators sell only non-nude sets.",
+  "pricing": {
+    "model": "Buyer membership + per-album/custom buys",
+    "free_tier": "Basic browsing requires account",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Focused verified marketplace free of mainstream spam",
+    "Escrow buyer protection on custom requests",
+    "Active global creator pool"
+  ],
+  "cons": [
+    "Many creators sell only non-nude sets",
+    "Upsell membership boosts push visibility"
+  ],
+  "image": {
+    "src": "/media/entities/sites/feetfinder.webp",
+    "alt": "FeetFinder logo and brand card",
+    "source_url": "https://www.feetfinder.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.feetfinder.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Buyer membership + per-album/custom buys",
+      "source_url": "https://www.feetfinder.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.feetfinder.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "feetfinder.com",
+      "source_url": "https://www.feetfinder.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

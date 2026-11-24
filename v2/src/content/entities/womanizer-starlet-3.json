@@ -1,0 +1,78 @@
+{
+  "slug": "womanizer-starlet-3",
+  "type": "product",
+  "name": "Womanizer Starlet 3",
+  "url": "https://www.womanizer.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Pocket-sized ultra-affordable travel entry into Womanizer's genuine contactless Pleasure Air stimulation.",
+  "tags": [
+    "quiet",
+    "air-pulse",
+    "waterproof",
+    "budget"
+  ],
+  "ranking_rationale": "Smallest travel footprint with real contactless air-pulse power; weighed against shorter 30-min battery + 6 intensity steps only.",
+  "pricing": {
+    "model": "One-time purchase (~$59)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Smallest travel footprint with real contactless air-pulse power",
+    "Unbeatable value price tier (~$59)",
+    "Waterproof & super discreet"
+  ],
+  "cons": [
+    "Shorter 30-min battery + 6 intensity steps only",
+    "No Smart Silence touch-off"
+  ],
+  "image": {
+    "src": "/media/entities/products/womanizer-starlet-3.webp",
+    "alt": "Womanizer Starlet 3 logo and brand card",
+    "source_url": "https://www.womanizer.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.womanizer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase (~$59)",
+      "source_url": "https://www.womanizer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.womanizer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "womanizer.com",
+      "source_url": "https://www.womanizer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

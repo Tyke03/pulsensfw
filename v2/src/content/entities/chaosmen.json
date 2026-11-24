@@ -1,0 +1,79 @@
+{
+  "slug": "chaosmen",
+  "type": "site",
+  "name": "ChaosMen",
+  "url": "https://www.chaosmen.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Beloved independent all-male amateur studio running since 2005 showcasing real everyday guys with zero cheesy scripts.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "amateur"
+  ],
+  "ranking_rationale": "Genuine non-studio everyday performers with natural chemistry; weighed against minimal glossy studio lighting.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Genuine non-studio everyday performers with natural chemistry",
+    "Warm conversational interviews before scenes",
+    "20-year independent archive"
+  ],
+  "cons": [
+    "Minimal glossy studio lighting",
+    "Dated member interface"
+  ],
+  "image": {
+    "src": "/media/entities/sites/chaosmen.webp",
+    "alt": "ChaosMen logo and brand card",
+    "source_url": "https://www.chaosmen.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.chaosmen.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.chaosmen.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.chaosmen.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "chaosmen.com",
+      "source_url": "https://www.chaosmen.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

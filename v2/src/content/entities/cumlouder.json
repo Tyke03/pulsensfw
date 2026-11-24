@@ -1,0 +1,78 @@
+{
+  "slug": "cumlouder",
+  "type": "site",
+  "name": "CumLouder",
+  "url": "https://www.cumlouder.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Spain's premier commercial porn studio producing high-energy 4K European scenes, Latina showcases, and POV adventures.",
+  "tags": [
+    "premium",
+    "studio",
+    "european"
+  ],
+  "ranking_rationale": "Enormous library of Spanish, European, and Latina stars; weighed against heavy spanish-language scene audio/titles.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Enormous library of Spanish, European, and Latina stars",
+    "Energetic unscripted pacing",
+    "High bitrate 4K player"
+  ],
+  "cons": [
+    "Heavy Spanish-language scene audio/titles",
+    "Pop-heavy sales funnels on teaser pages"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cumlouder.webp",
+    "alt": "CumLouder logo and brand card",
+    "source_url": "https://www.cumlouder.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.cumlouder.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.cumlouder.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.cumlouder.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cumlouder.com",
+      "source_url": "https://www.cumlouder.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

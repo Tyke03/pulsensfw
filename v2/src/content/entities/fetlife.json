@@ -1,0 +1,79 @@
+{
+  "slug": "fetlife",
+  "type": "site",
+  "name": "FetLife",
+  "url": "https://fetlife.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The global social network for BDSM, kink, and fetish communities—used primarily for local events, munches, discussion groups, and personal profiles.",
+  "tags": [
+    "niche",
+    "fetish",
+    "community"
+  ],
+  "ranking_rationale": "Irreplaceable as the real-world directory for kink events and niche communities; scored for community utility rather than streaming polish, as search and UI remain bare-bones.",
+  "pricing": {
+    "model": "Free community social network + optional Supporter membership",
+    "free_tier": "Core profiles, local events, groups, writings, and photo feeds are free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Core community access is free; optional paid Supporter tier adds video hosting and extra profile tools. Check official site."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Unmatched global directory of local munches, workshops, and kink events",
+    "Thousands of active fetish discussion groups and educational threads",
+    "Core membership is genuinely free without intrusive ad networks"
+  ],
+  "cons": [
+    "Not a streaming porn site—video features are basic and secondary",
+    "Search and discovery tools are intentionally limited",
+    "Interface feels functional and dated compared to modern social apps"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fetlife.png",
+    "alt": "FetLife logo and brand card",
+    "source_url": "https://fetlife.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "BDSM and fetish social network",
+      "source_url": "https://fetlife.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2008 by John Baku; operated by BitLove Inc.",
+      "source_url": "https://en.wikipedia.org/wiki/FetLife",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Free social network with optional Supporter membership",
+      "source_url": "https://fetlife.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Local kink event calendars and community-moderated fetish groups",
+      "source_url": "https://fetlife.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

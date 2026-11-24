@@ -1,0 +1,63 @@
+{
+  "slug": "sasha-gabor",
+  "type": "star",
+  "name": "Sasha Gabor",
+  "url": "https://en.wikipedia.org/wiki/Sasha_Gabor",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sasha Gabor — Hungarian-Norwegian pornographic actor. Industry career documented from 1984.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/sasha-gabor.jpg",
+    "alt": "SFW portrait of Sasha Gabor",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sasha_Gabor.jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q527435 (Norway)",
+      "source_url": "http://www.wikidata.org/entity/Q527435",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1984–2008",
+      "source_url": "https://en.wikipedia.org/wiki/Sasha_Gabor",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1945",
+      "source_url": "http://www.wikidata.org/entity/Q527435",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

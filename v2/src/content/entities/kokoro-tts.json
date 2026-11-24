@@ -1,0 +1,80 @@
+{
+  "slug": "kokoro-tts",
+  "type": "ai_app",
+  "name": "Kokoro TTS",
+  "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Ultra-lightweight 82M-parameter Apache-2.0 open-weight TTS model delivering shockingly natural, expressive real-time voice synthesis locally.",
+  "tags": [
+    "local",
+    "voice",
+    "open-source",
+    "offline"
+  ],
+  "ranking_rationale": "Tiny 82M footprint runs faster than real-time even on CPU or low-VRAM alongside an LLM, weighed against no zero-shot 5-second voice cloning out of the box — uses curated/blended voice packs.",
+  "pricing": {
+    "model": "100% free open-weight",
+    "free_tier": "Completely free Apache-2.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Tiny 82M footprint runs faster than real-time even on CPU or low-VRAM alongside an LLM",
+    "Apache-2.0 permissive license with expressive voice blending ideal for SillyTavern voice replies",
+    "100% private offline audio"
+  ],
+  "cons": [
+    "No zero-shot 5-second voice cloning out of the box (uses curated/blended voice packs)",
+    "Limited language set compared with massive cloud APIs"
+  ],
+  "image": {
+    "src": "/media/entities/ai/kokoro-tts.webp",
+    "alt": "Kokoro TTS logo and brand card",
+    "source_url": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open-weight",
+      "source_url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "huggingface.co",
+      "source_url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

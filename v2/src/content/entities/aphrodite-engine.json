@@ -1,0 +1,79 @@
+{
+  "slug": "aphrodite-engine",
+  "type": "ai_app",
+  "name": "Aphrodite Engine",
+  "url": "https://github.com/PygmalionAI/aphrodite-engine",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "PygmalionAI's ultra-fast vLLM-derived inference backend tuned specifically for uncensored RP samplers, XTC, DRY & multi-user queues.",
+  "tags": [
+    "local",
+    "open-source",
+    "api",
+    "inference"
+  ],
+  "ranking_rationale": "Brings massive vLLM batching speed together with roleplay-essential DRY/XTC samplers (trade-off: targeted at Linux NVIDIA server setups rather than casual Windows double-clicks).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free AGPL-3.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "Docker"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Brings massive vLLM batching speed together with roleplay-essential DRY/XTC samplers",
+    "Drop-in OpenAI & Kobold API endpoints compatible directly with SillyTavern & Agnai",
+    "100% free open-source"
+  ],
+  "cons": [
+    "Targeted at Linux NVIDIA server setups rather than casual Windows double-clicks",
+    "Command-line configuration requires tech comfort"
+  ],
+  "image": {
+    "src": "/media/entities/ai/aphrodite-engine.webp",
+    "alt": "Aphrodite Engine logo and brand card",
+    "source_url": "https://github.com/PygmalionAI/aphrodite-engine",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/PygmalionAI/aphrodite-engine",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/PygmalionAI/aphrodite-engine",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, Docker",
+      "source_url": "https://github.com/PygmalionAI/aphrodite-engine",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/PygmalionAI/aphrodite-engine",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "seka",
+  "type": "star",
+  "name": "Seka",
+  "url": "https://en.wikipedia.org/wiki/Seka_(actress)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dorothiea Ivonniea Hundley (Seka) is an American pornographic film actress who was known in the 1980s as the \"Platinum Princess of Porn\". In 2013, she released an autobiography about her life and career titled Inside Seka.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/seka.jpg",
+    "alt": "SFW portrait of Seka",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Seka,_2007.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Radford, Virginia, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Seka_(actress)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic film actress",
+      "source_url": "https://en.wikipedia.org/wiki/Seka_(actress)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "In 2013, she released an autobiography about her life and career titled Inside Seka.",
+      "source_url": "https://en.wikipedia.org/wiki/Seka_(actress)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1954",
+      "source_url": "http://www.wikidata.org/entity/Q255121",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

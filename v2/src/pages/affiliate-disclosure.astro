@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { readReader } from '../lib/reader/cookies';
+import { SITE } from '../lib/site';
+const reader = readReader(Astro.cookies, Astro.url.protocol === 'https:');
+---
+<BaseLayout title={`Affiliate disclosure · ${SITE.name}`} description="How affiliate links and partner recommendations work on PulseNSFW." reader={reader}>
+  <article class="page" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Affiliate disclosure' }]} />
+    <p class="kicker">Disclosure</p>
+    <h1>Affiliate disclosure</h1>
+    <div class="prose">
+      <p>Some outbound links on PulseNSFW are affiliate links. They route through our <code>/go/</code> redirect links, carry <code>rel="sponsored noopener"</code>, and are clearly marked so you always know when a click can support the desk.</p>
+      <p>An affiliate relationship never changes a score, a rank, or a verdict. Rankings are locked from verified evidence before monetization links are placed, and products rated “avoid” do not receive affiliate endorsements. Prices are snapshots with a checked date — always confirm the current offer at checkout.</p>
+      <p>When an article covers a topic or news item without a direct partner program, we may include a clearly labeled partner spotlight or “Read next” recommendation at the bottom of the page. If you choose to try a recommended partner, PulseNSFW may earn a commission at no extra cost to you.</p>
+    </div>
+  </article>
+</BaseLayout>

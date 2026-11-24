@@ -1,0 +1,79 @@
+{
+  "slug": "rule34-xyz",
+  "type": "site",
+  "name": "Rule34.xyz",
+  "url": "https://rule34.xyz",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern sleek dark-mode Rule34 booru prized for rapid WebM/MP4 video loops, smart tag filtering, and zero popup spam.",
+  "tags": [
+    "comics",
+    "rule34",
+    "booru",
+    "free"
+  ],
+  "ranking_rationale": "Best modern dark interface of any Rule34 booru; weighed against smaller legacy archive than gelbooru or rule34.xxx.",
+  "pricing": {
+    "model": "Free community booru",
+    "free_tier": "Full browsing free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Best modern dark interface of any Rule34 booru",
+    "Supports high-bitrate MP4 loops & keyboard shortcuts cleanly",
+    "Low popup clutter"
+  ],
+  "cons": [
+    "Smaller legacy archive than Gelbooru or Rule34.xxx",
+    "Relies on community tagging discipline"
+  ],
+  "image": {
+    "src": "/media/entities/sites/rule34-xyz.webp",
+    "alt": "Rule34.xyz logo and brand card",
+    "source_url": "https://rule34.xyz",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://rule34.xyz",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community booru",
+      "source_url": "https://rule34.xyz",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://rule34.xyz",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "rule34.xyz",
+      "source_url": "https://rule34.xyz",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

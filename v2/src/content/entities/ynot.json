@@ -1,0 +1,78 @@
+{
+  "slug": "ynot",
+  "type": "site",
+  "name": "YNOT",
+  "url": "https://www.ynot.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Respected B2B adult-industry trade news publication, cam-award organizer, and legal policy tracker running since 1996.",
+  "tags": [
+    "forums",
+    "news",
+    "industry"
+  ],
+  "ranking_rationale": "Authoritative reporting on AV billing rules, age-verification laws & creator rights; weighed against aimed primarily at industry pros, studios & webmasters rather than casual fans.",
+  "pricing": {
+    "model": "Free industry trade publication",
+    "free_tier": "Completely free reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Authoritative reporting on AV billing rules, age-verification laws & creator rights",
+    "Insightful B2B columns beyond clickbait gossip",
+    "Hosts YNOT Cam Awards directory"
+  ],
+  "cons": [
+    "Aimed primarily at industry pros, studios & webmasters rather than casual fans",
+    "Clean traditional news portal layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ynot.webp",
+    "alt": "YNOT logo and brand card",
+    "source_url": "https://www.ynot.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.ynot.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free industry trade publication",
+      "source_url": "https://www.ynot.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.ynot.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ynot.com",
+      "source_url": "https://www.ynot.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "tenga-flip-orb",
+  "type": "product",
+  "name": "TENGA Flip Orb",
+  "url": "https://www.tenga.co/products/flip-orb/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Split-hinge Japanese reusable manual sleeve embedding firm floating internal elastomer spheres for distinct gliding knuckle-like pressure.",
+  "tags": [
+    "stroker",
+    "reusable",
+    "manual"
+  ],
+  "ranking_rationale": "Flip-open clamshell halves rinse spotlessly dry in seconds on built-in stand (trade-off: elastomer takes water-based lubricants strictly).",
+  "pricing": {
+    "model": "Hardware purchase (~$80)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Flip-open clamshell halves rinse spotlessly dry in seconds on built-in stand",
+    "Firm embedded spheres deliver crisp distinct sensations unlike soft ribbing",
+    "Discrete hard storage cover blends on any closet shelf"
+  ],
+  "cons": [
+    "Elastomer takes water-based lubricants strictly",
+    "Standard Japanese sizing feels snug for above-average girth"
+  ],
+  "image": {
+    "src": "/media/entities/products/tenga-flip-orb.webp",
+    "alt": "TENGA Flip Orb logo and brand card",
+    "source_url": "https://www.tenga.co/products/flip-orb/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.tenga.co/products/flip-orb/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$80)",
+      "source_url": "https://www.tenga.co/products/flip-orb/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.tenga.co/products/flip-orb/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tenga.co",
+      "source_url": "https://www.tenga.co/products/flip-orb/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "chyoa",
+  "type": "site",
+  "name": "CHYOA",
+  "url": "https://chyoa.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Massive interactive 'Choose Your Own Adventure' erotica tree where thousands of community authors fork chapters and choices.",
+  "tags": [
+    "erotica",
+    "stories",
+    "interactive",
+    "free"
+  ],
+  "ranking_rationale": "Unique collaborative branching chapter structure lets you steer the plot; weighed against dead-end unfinished story branches happen often.",
+  "pricing": {
+    "model": "100% free reader & writer portal",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Unique collaborative branching chapter structure lets you steer the plot",
+    "Huge multi-million-chapter story multiverse across every fetish",
+    "Free author contributions and clean mobile text view"
+  ],
+  "cons": [
+    "Dead-end unfinished story branches happen often",
+    "Dated minimal web aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/sites/chyoa.webp",
+    "alt": "CHYOA logo and brand card",
+    "source_url": "https://chyoa.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://chyoa.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free reader & writer portal",
+      "source_url": "https://chyoa.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://chyoa.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "chyoa.com",
+      "source_url": "https://chyoa.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}
