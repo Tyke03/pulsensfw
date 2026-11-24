@@ -1,0 +1,71 @@
+{
+  "slug": "satisfyer-pro-2",
+  "type": "product",
+  "name": "Satisfyer Pro 2",
+  "url": "https://www.satisfyer.com/us/satisfyer-pro-2",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The accessible, waterproof classic that popularized contactless air-pulse clitoral stimulation at a fraction of boutique pricing.",
+  "tags": [
+    "quiet",
+    "air-pulse",
+    "budget",
+    "waterproof"
+  ],
+  "ranking_rationale": "Unbeatable price-to-performance entry into air-pulse stimulation and genuinely waterproof operation—only missing luxury noise dampening and app features.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official Satisfyer store or major retailers for current pricing."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Budget-friendly entry price with proven contactless air-pulse performance",
+    "IPX7 waterproof and runs surprisingly quiet once positioned against skin",
+    "11 pressure-wave intensity levels with intuitive +/- buttons"
+  ],
+  "cons": [
+    "Magnetic charger pins lack alignment strength on older runs",
+    "Lacks skin-proximity Smart Silence auto-shutoff"
+  ],
+  "image": {
+    "src": "/media/entities/products/satisfyer-pro-2.png",
+    "alt": "Satisfyer Pro 2 logo and brand card",
+    "source_url": "https://www.satisfyer.com/us/satisfyer-pro-2",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Budget contactless air-pulse stimulator",
+      "source_url": "https://www.satisfyer.com/us/satisfyer-pro-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Waterproofing",
+      "value": "IPX7 waterproof medical-grade silicone head",
+      "source_url": "https://www.satisfyer.com/us/satisfyer-pro-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Controls",
+      "value": "11 air-pressure wave intensities, quiet underwater mode",
+      "source_url": "https://www.satisfyer.com/us/satisfyer-pro-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

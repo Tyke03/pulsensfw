@@ -1,0 +1,82 @@
+{
+  "slug": "chaturbate",
+  "type": "site",
+  "name": "Chaturbate",
+  "url": "https://chaturbate.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "The world's largest freemium live cam network: thousands of rooms live around the clock, open public tipping, and deep interactive toy/bot support.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens",
+    "interactive"
+  ],
+  "ranking_rationale": "Unmatched live broadcaster liquidity across every demographic and kink, backed by a vibrant open tip-bot and Lovense ecosystem—despite a utilitarian layout.",
+  "pricing": {
+    "model": "Token-based tipping & private shows",
+    "free_tier": "Public live rooms and chat are open to watch without buying tokens",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Token bundles vary by package size and payment method; public browsing requires no payment. Check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Largest live room selection online at any hour across all categories",
+    "Public tip-driven shows let you watch without mandatory private fees",
+    "Massive ecosystem of tip games, bots, and Bluetooth toy sync",
+    "Zero paywall to lurk and test stream quality"
+  ],
+  "cons": [
+    "No-frills layout looks dated next to Stripchat",
+    "Popular rooms move too fast for personal chat without big tips",
+    "Stream quality varies widely depending on each broadcaster's setup"
+  ],
+  "image": {
+    "src": "/media/entities/sites/chaturbate.png",
+    "alt": "Chaturbate logo and brand card",
+    "source_url": "https://chaturbate.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Live adult webcam platform",
+      "source_url": "https://chaturbate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2011; operated by Multi Media LLC (California)",
+      "source_url": "https://en.wikipedia.org/wiki/Chaturbate",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Open public rooms with optional paid tokens for tips and privates",
+      "source_url": "https://chaturbate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Programmable room bots/apps and huge interactive Lovense toy adoption",
+      "source_url": "https://chaturbate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "hands_on"
+    }
+  ],
+  "updated": "2026-11-23"
+}

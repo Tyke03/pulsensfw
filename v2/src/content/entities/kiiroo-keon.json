@@ -1,0 +1,76 @@
+{
+  "slug": "kiiroo-keon",
+  "type": "product",
+  "name": "Kiiroo Keon",
+  "url": "https://www.kiiroo.com/pages/keon",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Cordless, ergonomic linear stroker paired with Kiiroo's FeelMe AI video-sync catalog, cam sites, and Pearl/PowerBlow partner toys.",
+  "tags": [
+    "app",
+    "haptics",
+    "vr",
+    "stroker",
+    "couples"
+  ],
+  "ranking_rationale": "Best grab-and-go cordless interactive stroker with sleek enclosure styling and built-in Kiiroo partner sync, though slower peak speed and pricier proprietary sleeves trail The Handy for VR power users.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "Kiiroo FeelConnect app is free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official Kiiroo store for current pricing; interactive FeelMe video plans sold separately."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth",
+    "VR Sync"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Cordless battery operation lets you use it anywhere without wall cables",
+    "Refined grip housing hides mechanical rail and accepts Kiiroo Feel sleeves",
+    "Built-in RealFeel & FeelConnect partner/cam-platform ecosystem"
+  ],
+  "cons": [
+    "Heavier in hand than basic sleeves and noticeably bulkier than The Handy track alone",
+    "Proprietary Feel sleeve refills cost more than generic open sleeves",
+    "Slower max stroke speed than wired linear rails"
+  ],
+  "image": {
+    "src": "/media/entities/products/kiiroo-keon.png",
+    "alt": "Kiiroo Keon logo and brand card",
+    "source_url": "https://www.kiiroo.com/pages/keon",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cordless automated linear masturbator",
+      "source_url": "https://www.kiiroo.com/pages/keon",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Power",
+      "value": "Rechargeable internal battery (~3–4 hours USB charging)",
+      "source_url": "https://www.kiiroo.com/pages/keon",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Sync partner",
+      "value": "Syncs with Kiiroo Pearl2/Feel partners, SexLikeReal, and cam platforms",
+      "source_url": "https://www.kiiroo.com/pages/keon",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

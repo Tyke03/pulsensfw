@@ -35,6 +35,7 @@ import {
 import { loadCompare, compareRows, compareSuggestions, parseCompareIds } from '../content/compare';
 import { loadRegistryLinksFromSupabase } from '../affiliates/registry';
 import { runArticlePreflight } from '../agent/preflight';
+import { ENTITY_LICENSES } from '../content/entity-schema';
 import type { SearchType } from '../content/types';
 
 export type McpContext = {
@@ -240,7 +241,7 @@ export function buildMcpServer(ctx: McpContext): McpServer {
                 alt: z.string().min(1),
                 url: z.string().optional(),
                 sourceUrl: z.string().optional(),
-                license: z.enum(['press-kit', 'affiliate-asset', 'screenshot', 'own-art', 'brand-kit', 'cc-by-4.0', 'cc-by-sa-4.0', 'cc-by-3.0', 'cc-by-sa-2.5', 'public-domain']),
+                license: z.enum(ENTITY_LICENSES),
                 explicit: z.literal(false),
                 plate: z.string().optional(),
                 credit: z.string().optional(),

@@ -1,0 +1,84 @@
+{
+  "slug": "lovense-lush-3",
+  "type": "product",
+  "name": "Lovense Lush 3",
+  "url": "https://www.lovense.com/bluetooth-remote-control-vibrator",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The benchmark app-controlled bullet vibrator: upgraded magnetic pin charging, a reshaped stay-put tail antenna, and seamless cam-platform sync.",
+  "tags": [
+    "app",
+    "couples",
+    "quiet",
+    "haptics",
+    "wearable"
+  ],
+  "ranking_rationale": "Wins on software ecosystem reliability—nearly every major cam site, tip bot, and long-distance couples workflow supports Lush 3 out of the box—plus quiet lower-power operation.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "Lovense Remote app is free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official Lovense store for current pricing and seasonal bundle offers."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth",
+    "VR Sync"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Deepest interactive cam-site and tip-bot integration in adult tech",
+    "Magnetic USB charging and fixed tail antenna eliminate Lush 1/2 connection drops",
+    "Relatively quiet at low-to-medium settings for discreet wearable use",
+    "Reliable long-distance partner control via Lovense Remote"
+  ],
+  "cons": [
+    "Magnetic charger pin alignment can be finicky on flat surfaces",
+    "Firmware-locked Bluetooth protocol restricts open local scripts compared with buttplug.io favorites",
+    "Maximum speed is audible in very quiet rooms"
+  ],
+  "image": {
+    "src": "/media/entities/products/lovense-lush-3.png",
+    "alt": "Lovense Lush 3 logo and brand card",
+    "source_url": "https://www.lovense.com/bluetooth-remote-control-vibrator",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "App-controlled wearable bullet vibrator",
+      "source_url": "https://www.lovense.com/bluetooth-remote-control-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Connectivity",
+      "value": "Bluetooth + Lovense Remote app + PC USB dongle option",
+      "source_url": "https://www.lovense.com/bluetooth-remote-control-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Battery & charge",
+      "value": "Magnetic USB charging; up to ~4.5–5 hours continuous use advertised",
+      "source_url": "https://www.lovense.com/bluetooth-remote-control-vibrator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Native integration across Chaturbate, Stripchat, and partner sync",
+      "source_url": "https://www.lovense.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

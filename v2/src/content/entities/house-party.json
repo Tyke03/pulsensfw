@@ -1,0 +1,72 @@
+{
+  "slug": "house-party",
+  "type": "game",
+  "name": "House Party",
+  "url": "https://store.steampowered.com/app/611790/House_Party/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Social puzzle-comedy sandbox set at a chaotic suburban party where every NPC follows schedules, reacts to inventory hijinks, and unlocks custom stories.",
+  "tags": [
+    "games",
+    "sandbox",
+    "comedy",
+    "pc"
+  ],
+  "ranking_rationale": "Brings classic point-and-click puzzle comedy into a 3D branching sandbox with Steam Workshop custom stories; note explicit uncensor patch is separate from base Steam install.",
+  "pricing": {
+    "model": "One-time purchase + DLC packs",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Base game sold on Steam; official free/paid Explicit Patch available via Eek! Games website."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Reacts hilariously to weird item combinations and multi-NPC dialogue chains",
+    "Rich Steam Workshop & Custom Story Creator extends replayability",
+    "Full voice acting and guest celebrity DLCs (Doja Cat, Game Grumps)"
+  ],
+  "cons": [
+    "Requires downloading the separate explicit patch from developer's site to remove censors",
+    "2010s Unity animations show their age close up"
+  ],
+  "image": {
+    "src": "/media/entities/games/house-party.png",
+    "alt": "House Party logo and brand card",
+    "source_url": "https://store.steampowered.com/app/611790/House_Party/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "3D branching comedy adventure sandbox",
+      "source_url": "https://store.steampowered.com/app/611790/House_Party/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Developer",
+      "value": "Eek! Games, LLC",
+      "source_url": "https://store.steampowered.com/app/611790/House_Party/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Censor note",
+      "value": "Steam release ships censored; explicit patch distributed externally",
+      "source_url": "https://games.eekllc.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "magic-wand-rechargeable",
+  "type": "product",
+  "name": "Magic Wand Rechargeable",
+  "url": "https://magicwandoriginal.com/magic-wand-rechargeable/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The official cordless successor to the Hitachi Magic Wand: deep, rumbly full-sized head vibration freed from the AC power cord.",
+  "tags": [
+    "wands",
+    "cordless",
+    "classic"
+  ],
+  "ranking_rationale": "Nothing beats the genuine Magic Wand motor's low-frequency rumble without numbing buzz; cordless convenience wins most buyers over even against the wired Original.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official Magic Wand site or authorized retailers for current pricing (beware counterfeits on marketplaces)."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Authentic deep, low-frequency rumble unmatched by tiny bullet wands",
+    "Cordless lithium battery runs up to ~3 hours plus works plugged in",
+    "Silicone head and 4 intensity levels + 4 pulse patterns"
+  ],
+  "cons": [
+    "Not waterproof—damp-cloth wipe only",
+    "Loud deep hum and hefty ~1.3 lb frame are impossible to pocket"
+  ],
+  "image": {
+    "src": "/media/entities/products/magic-wand-rechargeable.png",
+    "alt": "Magic Wand Rechargeable logo and brand card",
+    "source_url": "https://magicwandoriginal.com/magic-wand-rechargeable/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Full-size cordless percussion/vibration wand",
+      "source_url": "https://magicwandoriginal.com/magic-wand-rechargeable/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Modes",
+      "value": "4 continuous power levels + 4 vibration patterns",
+      "source_url": "https://magicwandoriginal.com/magic-wand-rechargeable/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Battery",
+      "value": "Cordless rechargeable + plug-in pass-through use",
+      "source_url": "https://magicwandoriginal.com/magic-wand-rechargeable/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

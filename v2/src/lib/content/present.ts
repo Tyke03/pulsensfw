@@ -258,7 +258,10 @@ const SUBTOPIC_ALIASES: Record<string, readonly string[]> = {
   rising: ['rising', 'creator', '2026 xma'],
   vr: ['vr', 'vr performer'],
   solo: ['solo', 'creator', 'onlyfans'],
-  couples: ['couples', 'girl-girl'],
+  couples: ['couples', 'girl-girl', 'wearable'],
+  wands: ['wands', 'wand', 'cordless'],
+  quiet: ['quiet', 'air-pulse', 'sonic', 'whisper'],
+  app: ['app', 'haptics', 'bluetooth', 'scripts'],
 };
 
 export function matchesSubtopicFilter(tags: readonly string[], filter: string): boolean {

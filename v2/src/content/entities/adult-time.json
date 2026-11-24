@@ -1,0 +1,83 @@
+{
+  "slug": "adult-time",
+  "type": "site",
+  "name": "Adult Time",
+  "url": "https://www.adulttime.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Gamma Entertainment's flagship streaming hub bundling 300+ channels (Pure Taboo, Girlsway, 21Sextury, Transfixed, Vivid) into a modern Netflix-style library.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k",
+    "exclusive",
+    "network"
+  ],
+  "ranking_rationale": "Best overall value-per-dollar in premium streaming: marries a genuinely modern Netflix-style interface with massive channel breadth and acclaimed original series.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; one subscription unlocks hundreds of partner channels and originals. Check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "Smart TV / casting"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Hundreds of studios and channels included under one subscription",
+    "Modern streaming UI with watchlists, series episodes, and smart search",
+    "Acclaimed original lines including Pure Taboo, Girlsway, and Transfixed",
+    "Strong inclusivity across straight, lesbian, trans, and niche lines"
+  ],
+  "cons": [
+    "Vast catalog mixes brand-new 4K originals with older partner archives",
+    "Some add-on partner networks still cost extra depending on plan",
+    "Trial terms auto-renew at standard rates if not cancelled"
+  ],
+  "image": {
+    "src": "/media/entities/sites/adult-time.png",
+    "alt": "Adult Time logo and brand card",
+    "source_url": "https://www.adulttime.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "All-in-one premium adult streaming network",
+      "source_url": "https://www.adulttime.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2019 by Gamma Entertainment (CCO Bree Mills)",
+      "source_url": "https://en.wikipedia.org/wiki/Adult_Time",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Single subscription unlocking 300+ channels and original series",
+      "source_url": "https://www.adulttime.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Netflix-style streaming platform with episodic original productions",
+      "source_url": "https://www.adulttime.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

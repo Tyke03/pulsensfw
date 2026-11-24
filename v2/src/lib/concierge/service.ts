@@ -207,10 +207,17 @@ async function lazyDefaultRepo(): Promise<ConciergeRepo> {
   };
 }
 
-/** Citations the model may hyperlink: only URLs the tools actually returned. */export function validateCitations(returned: ConciergeCitation[], text: string): ConciergeCitation[] {
-  const referenced = returned.filter((citation) => text.includes(citation.href));
+/** Citations the model may hyperlink: only URLs the tools actually returned, deduplicated by href. */
+export function validateCitations(returned: ConciergeCitation[], text: string): ConciergeCitation[] {
+  const seen = new Set<string>();
+  const unique = returned.filter((citation) => {
+    if (seen.has(citation.href)) return false;
+    seen.add(citation.href);
+    return true;
+  });
+  const referenced = unique.filter((citation) => text.includes(citation.href));
   if (referenced.length > 0) return referenced;
-  return returned.slice(0, 6);
+  return unique.slice(0, 6);
 }
 
 const SYSTEM_PROMPT = [
@@ -233,6 +240,7 @@ export type TurnResult =
   tokenCeiling: number;
   tracker: UsageTracker;
   fetchImpl?: typeof fetch;
+  onTool?: (result: ToolResult) => void;
 };
 
 /** Dev fixture: scripted tool runs for local screenshots. Never production. */
@@ -384,6 +392,7 @@ export async function runTurn(options: TurnOptions): Promise<TurnResult> {
       // Allowlist enforcement happens again inside runTool.
       const result = await runTool(name, payload, options.reader);
       results.push(result);
+      options.onTool?.(result);
       messages.push({ role: 'tool', content: JSON.stringify({ summary: result.summary, payload: result.payload }), tool_call_id: call.id });
     }
   }

@@ -1,0 +1,71 @@
+{
+  "slug": "womanizer-premium-2",
+  "type": "product",
+  "name": "Womanizer Premium 2",
+  "url": "https://www.womanizer.com/us/womanizer-premium-2",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flagship contactless Pleasure Air clitoral stimulator with Autopilot intensity variation and Smart Silence body-proximity shutoff.",
+  "tags": [
+    "quiet",
+    "air-pulse",
+    "waterproof"
+  ],
+  "ranking_rationale": "Benchmark air-pulse engineering: Smart Silence keeps it whisper-quiet until skin contact and Autopilot prevents sensory numbness—offset only by premium pricing.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official Womanizer store for current pricing."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Smart Silence automatically pauses suction motor until skin contact",
+    "14 gentle-to-intense air-pulse levels plus Autopilot variation mode",
+    "Completely contactless stimulation avoids over-numbing direct vibration",
+    "IPX7 waterproof body with long rechargeable battery life"
+  ],
+  "cons": [
+    "No Bluetooth or app remote control",
+    "Commanding flagship price next to entry air-pulse clones"
+  ],
+  "image": {
+    "src": "/media/entities/products/womanizer-premium-2.png",
+    "alt": "Womanizer Premium 2 logo and brand card",
+    "source_url": "https://www.womanizer.com/us/womanizer-premium-2",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Contactless Pleasure Air clitoral stimulator",
+      "source_url": "https://www.womanizer.com/us/womanizer-premium-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Signature tech",
+      "value": "Smart Silence skin-proximity sensor & 14 intensity levels",
+      "source_url": "https://www.womanizer.com/us/womanizer-premium-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Build",
+      "value": "IPX7 waterproof, magnetic USB charging",
+      "source_url": "https://www.womanizer.com/us/womanizer-premium-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

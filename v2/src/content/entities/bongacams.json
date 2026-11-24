@@ -1,0 +1,81 @@
+{
+  "slug": "bongacams",
+  "type": "site",
+  "name": "BongaCams",
+  "url": "https://bongacams.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "High-traffic international live cam site with massive European and Latin American broadcaster density, quick stream loads, and multi-tier tipping.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens",
+    "interactive"
+  ],
+  "ranking_rationale": "Deep international performer pool and reliable streams keep it a top-tier cam hub, though a busy interface and promo overlays lag Stripchat.",
+  "pricing": {
+    "model": "Token-based tipping & private shows",
+    "free_tier": "Public live rooms open to watch",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Token packs vary by bundle and region; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Huge European and Latin American broadcaster selection",
+    "Fast stream startup and wide tag filtering",
+    "Supports interactive tip-activated toys and group shows"
+  ],
+  "cons": [
+    "Busy page layout with frequent promo banners",
+    "Heavy presence of studio-managed rooms",
+    "Fewer custom room apps than Chaturbate"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bongacams.png",
+    "alt": "BongaCams logo and brand card",
+    "source_url": "https://bongacams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "International live adult webcam platform",
+      "source_url": "https://bongacams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2012; European-operated live cam network",
+      "source_url": "https://en.wikipedia.org/wiki/BongaCams",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Public tipping rooms plus paid private and group shows",
+      "source_url": "https://bongacams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Strong round-the-clock European and international broadcaster volume",
+      "source_url": "https://bongacams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "hands_on"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -22,6 +22,7 @@ export type HomeModel = {
   trendingStars: EntityCard[];
   aiApps: EntityCard[];
   sites: EntityCard[];
+  products: EntityCard[];
 };
 
 const RAILS: RailId[] = ['trending', 'latest', 'editors', 'guides', 'top10'];
@@ -83,6 +84,10 @@ export function assembleHome(
       .filter((card) => card.type === 'site')
       .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title))
       .slice(0, 8),
+    products: entities
+      .filter((card) => card.type === 'product')
+      .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title))
+      .slice(0, 10),
   };
 }
 

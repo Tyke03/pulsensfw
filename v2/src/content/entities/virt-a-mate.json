@@ -1,0 +1,77 @@
+{
+  "slug": "virt-a-mate",
+  "type": "game",
+  "name": "Virt-A-Mate",
+  "url": "https://www.virtamate.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "PCVR and desktop physics-driven adult sandbox studio powering thousands of user-created scenes, custom character morphs, and synchronized haptics.",
+  "tags": [
+    "vr",
+    "games",
+    "headsets",
+    "sandbox",
+    "pcvr"
+  ],
+  "ranking_rationale": "Still the deepest real-time VR character physics and community modding platform on PC; penalized by steep GPU requirements, Patreon pricing, and 2010s-style UI friction.",
+  "pricing": {
+    "model": "Patreon subscription key + free demo tier",
+    "free_tier": "Free Creator / Demo version unlocks basic testing locally",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Managed via official MeshedVR Patreon tiers; check virtamate.com before subscribing."
+  },
+  "platforms": [
+    "Windows",
+    "PCVR",
+    "SteamVR",
+    "OpenXR",
+    "Meta Quest Link"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Unmatched real-time soft-body physics and inverse kinematics in VR",
+    "Massive `.var` community package ecosystem of rooms, clothes, animations, and looks",
+    "Supports Buttplug.io / Intiface haptic toy plugins directly inside scenes"
+  ],
+  "cons": [
+    "Demands a strong dedicated PC GPU for smooth VR frame rates",
+    "Dense technical menus feel intimidating on your first few launches",
+    "No native standalone Quest build (requires PC Link / Virtual Desktop)"
+  ],
+  "image": {
+    "src": "/media/entities/games/virt-a-mate.png",
+    "alt": "Virt-A-Mate logo and brand card",
+    "source_url": "https://www.virtamate.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "PCVR physics adult sandbox & scene creator",
+      "source_url": "https://www.virtamate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Developer",
+      "value": "MeshedVR",
+      "source_url": "https://www.virtamate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Modding",
+      "value": "Self-contained .var community package manager via VaM Hub",
+      "source_url": "https://hub.virtamate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

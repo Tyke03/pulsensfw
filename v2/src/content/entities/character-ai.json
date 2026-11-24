@@ -1,0 +1,74 @@
+{
+  "slug": "character-ai",
+  "type": "ai_app",
+  "name": "Character.AI",
+  "url": "https://character.ai",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The mainstream giant of character roleplay—famous for huge community bots, snappy voice calls, and a strict SFW content filter that pushes NSFW users elsewhere.",
+  "tags": [
+    "chat",
+    "character chat",
+    "filtered",
+    "mainstream"
+  ],
+  "ranking_rationale": "Scored strictly on an adult-companion desk: top-notch voice latency and massive bot variety, heavily penalized for strict NSFW filters and frequent false-positive blocks.",
+  "pricing": {
+    "model": "Freemium subscription (c.ai+)",
+    "free_tier": "Unlimited filtered text chat & basic voice features free with waiting room",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check character.ai for current c.ai+ subscription pricing."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 5.4,
+  "pros": [
+    "Massive community library of SFW fandom, RPG, and comedy personas",
+    "Low-latency native iOS/Android apps and realistic character voice calls",
+    "Generous free unlimited text messaging tier"
+  ],
+  "cons": [
+    "Strict SFW filter blocks explicit adult roleplay and often trips on romantic drama",
+    "Aggressive moderation updates trigger repetitive 'couldn't generate a reply' refusals",
+    "Does not store unlogged private chats (corporate cloud data retention)"
+  ],
+  "image": {
+    "src": "/media/entities/ai/character-ai.png",
+    "alt": "Character.AI logo and brand card",
+    "source_url": "https://character.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Mainstream (SFW-filtered) character AI chat platform",
+      "source_url": "https://character.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "NSFW policy",
+      "value": "Explicit adult & NSFW sexual content strictly prohibited by filter",
+      "source_url": "https://character.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Apps",
+      "value": "Official native iOS, Android, and Web clients",
+      "source_url": "https://character.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

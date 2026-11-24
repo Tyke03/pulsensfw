@@ -1,0 +1,67 @@
+{
+  "slug": "amouranth",
+  "type": "star",
+  "name": "Amouranth",
+  "url": "https://en.wikipedia.org/wiki/Amouranth",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Kaitlyn Michelle Siragusa (Amouranth ) is an American social media personality, online streamer, and adult content creator. She is also known for her ASMR-themed livestreams and adult entertainment on Twitch and Kick.",
+  "tags": [
+    "creator",
+    "onlyfans",
+    "solo",
+    "rising"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "Twitch",
+    "Kick",
+    "OnlyFans",
+    "X"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/amouranth.jpg",
+    "alt": "SFW portrait of Amouranth",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Amouranth_at_DreamHack_Atlanta_2024.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Houston, Texas, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Amouranth",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Twitch streamer, YouTuber, OnlyFans model",
+      "source_url": "https://en.wikipedia.org/wiki/Amouranth",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "She is also known for her ASMR-themed livestreams and adult entertainment on Twitch and Kick.",
+      "source_url": "https://en.wikipedia.org/wiki/Amouranth",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

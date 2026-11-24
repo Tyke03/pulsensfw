@@ -1,0 +1,81 @@
+{
+  "slug": "teamskeet",
+  "type": "site",
+  "name": "TeamSkeet",
+  "url": "https://www.teamskeet.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-output Miami studio network spanning dozens of youth-oriented and taboo-comedy series (Family Strokes, Sis Loves Me, Shoplyfter, Black Valley Girls).",
+  "tags": [
+    "premium",
+    "studio",
+    "hd",
+    "exclusive",
+    "network"
+  ],
+  "ranking_rationale": "Prolific network with strong scouting of rising talent and high release cadence across 30+ sub-sites, though heavily reliant on repetitive step-family tropes.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Frequent weekly updates across 30+ distinct series",
+    "Consistently scouts rising performers early in their careers",
+    "Modern member site with fast streaming and downloads"
+  ],
+  "cons": [
+    "Heavy dependence on repetitive step-family fantasy premises",
+    "Checkout pushes bundle upsells and promotional auto-renewals",
+    "Less cinematic polish than Vixen Media Group studios"
+  ],
+  "image": {
+    "src": "/media/entities/sites/teamskeet.png",
+    "alt": "TeamSkeet logo and brand card",
+    "source_url": "https://www.teamskeet.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium multi-series studio network",
+      "source_url": "https://www.teamskeet.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Founded 2009 in Miami; operated by Paper Street Media",
+      "source_url": "https://en.wikipedia.org/wiki/TeamSkeet",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid all-network subscription",
+      "source_url": "https://www.teamskeet.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "30+ active series with steady casting of rising performers",
+      "source_url": "https://www.teamskeet.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

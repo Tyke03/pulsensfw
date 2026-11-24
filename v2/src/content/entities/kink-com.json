@@ -1,0 +1,82 @@
+{
+  "slug": "kink-com",
+  "type": "site",
+  "name": "Kink.com",
+  "url": "https://www.kink.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The defining BDSM and fetish studio since 1997, pairing rigorous pre- and post-scene consent interviews with 30+ iconic channels under one membership.",
+  "tags": [
+    "niche",
+    "fetish",
+    "premium",
+    "studio",
+    "bdsm"
+  ],
+  "ranking_rationale": "Gold-standard authority in BDSM and fetish production for nearly 30 years: huge 30+ channel vault (Hogtied, Device Bondage, Sex and Submission) and visible consent ethics.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": "Free scene trailers and performer interviews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; full membership unlocks 30+ BDSM and fetish channels. Check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Unmatched 30+ channel archive spanning every major BDSM sub-genre",
+    "Signature pre- and post-scene interviews emphasize performer consent",
+    "Consistent production craft and authentic fetish practitioners",
+    "Single login covers straight, queer, and femdom/maledom channels"
+  ],
+  "cons": [
+    "Intense BDSM focus is specialized by design",
+    "Older Armory-era archive clips show lower legacy resolution",
+    "Full catalog requires a paid subscription"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kink-com.png",
+    "alt": "Kink.com logo and brand card",
+    "source_url": "https://www.kink.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium BDSM and fetish studio network",
+      "source_url": "https://www.kink.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Founded 1997 in San Francisco by Peter Acworth (Cybernet Entertainment)",
+      "source_url": "https://en.wikipedia.org/wiki/Kink.com",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid all-channel subscription with streaming and downloads",
+      "source_url": "https://www.kink.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "30+ specialized BDSM lines paired with on-camera consent interviews",
+      "source_url": "https://www.kink.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

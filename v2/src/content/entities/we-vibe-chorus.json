@@ -1,0 +1,74 @@
+{
+  "slug": "we-vibe-chorus",
+  "type": "product",
+  "name": "We-Vibe Chorus",
+  "url": "https://www.we-vibe.com/us/chorus",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Adjustable C-shaped couples vibrator engineered to stay in place during partnered sex, pairing squeeze-sensitive remote control with the We-Vibe app.",
+  "tags": [
+    "couples",
+    "app",
+    "quiet",
+    "wearable"
+  ],
+  "ranking_rationale": "Clever squeeze remote and bendable C-frame fit make Chorus the most practical partnered-wearable design on the market, though internal fit still depends on couple anatomy.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "We-Vibe app is free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official We-Vibe store for current pricing."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth",
+    "RF Remote"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Adjustable internal/external arms customize clamp fit before wear",
+    "Pressure-sensitive Squeeze Remote changes intensity intuitively in the dark",
+    "AnkorLink antenna keeps app signal stable even in water or under blankets"
+  ],
+  "cons": [
+    "Wearing inside during penetrative sex still narrows room depending on partners",
+    "Premium price tag for a compact couples vibe"
+  ],
+  "image": {
+    "src": "/media/entities/products/we-vibe-chorus.png",
+    "alt": "We-Vibe Chorus logo and brand card",
+    "source_url": "https://www.we-vibe.com/us/chorus",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "App & squeeze-remote couples vibrator",
+      "source_url": "https://www.we-vibe.com/us/chorus",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Controller",
+      "value": "Included Squeeze Remote + We-Vibe app via AnkorLink",
+      "source_url": "https://www.we-vibe.com/us/chorus",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Charging",
+      "value": "USB rechargeable travel charging case included",
+      "source_url": "https://www.we-vibe.com/us/chorus",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

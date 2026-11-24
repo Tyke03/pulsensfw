@@ -1,0 +1,81 @@
+{
+  "slug": "tushy",
+  "type": "site",
+  "name": "Tushy",
+  "url": "https://www.tushy.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Vixen Media Group's high-gloss 4K studio devoted to upscale, sunlit scenes with top performers and sleek editorial art direction.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k",
+    "exclusive",
+    "cinematic"
+  ],
+  "ranking_rationale": "Applies Vixen's signature cinema polish and marquee casting to a dedicated niche with standout consistency, though best bought through the Vixen Plus network pass.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; available standalone or via Vixen Plus. Check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Top-shelf 4K cinematography and bright editorial art direction",
+    "High-profile performer debuts and consistent scene quality",
+    "Clean, fast streaming player with offline downloads"
+  ],
+  "cons": [
+    "Single-niche library limits variety as a standalone sub",
+    "Release pace is measured rather than daily",
+    "Better cost-per-scene inside Vixen Plus than solo"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tushy.png",
+    "alt": "Tushy logo and brand card",
+    "source_url": "https://www.tushy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Luxury niche premium studio",
+      "source_url": "https://www.tushy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2015; operated by Vixen Media Group",
+      "source_url": "https://en.wikipedia.org/wiki/Vixen_Media_Group",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid subscription (standalone or Vixen Plus bundle)",
+      "source_url": "https://www.tushy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Editorial-grade 4K visuals paired with top-tier casting",
+      "source_url": "https://www.tushy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

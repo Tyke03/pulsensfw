@@ -1,0 +1,75 @@
+{
+  "slug": "lovense-max-2",
+  "type": "product",
+  "name": "Lovense Max 2",
+  "url": "https://www.lovense.com/male-masturbator",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "App-connected vibrating and air-pump contraction sleeve built primarily for two-way couples sync (especially paired with Lovense Nora) and cam interaction.",
+  "tags": [
+    "app",
+    "couples",
+    "haptics",
+    "stroker"
+  ],
+  "ranking_rationale": "Strongest for bi-directional Lovense partner sync—motion/pressure data talks directly to a partner's toy—though less mechanical than true linear strokers like The Handy.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "Lovense Remote app is free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Check official store for current pricing; replacement TPE sleeves sold separately."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth",
+    "VR Sync"
+  ],
+  "score": 7.9,
+  "pros": [
+    "True two-way partner sync pairs smoothly with Lovense Nora or Lush",
+    "Adjustable air-vent suction plus internal contraction ribs",
+    "Easy open-ended TPE sleeve removal for rinsing and drying"
+  ],
+  "cons": [
+    "Uses vibration + air-bladder squeeze rather than full up-and-down stroke mechanics",
+    "Bulkier body weighs heavily during longer solo sessions",
+    "Audible pump motor at higher contraction settings"
+  ],
+  "image": {
+    "src": "/media/entities/products/lovense-max-2.png",
+    "alt": "Lovense Max 2 logo and brand card",
+    "source_url": "https://www.lovense.com/male-masturbator",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "App-controlled contraction & vibration stroker",
+      "source_url": "https://www.lovense.com/male-masturbator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Connectivity",
+      "value": "Bluetooth + Lovense Remote + two-way partner sync",
+      "source_url": "https://www.lovense.com/male-masturbator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Maintenance",
+      "value": "Removable, replaceable open-ended TPE sleeve",
+      "source_url": "https://www.lovense.com/male-masturbator",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

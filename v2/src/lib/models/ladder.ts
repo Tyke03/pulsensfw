@@ -161,15 +161,29 @@ async function callOnce(
   try {
     const response = await fetchImpl(`${tier.baseUrl.replace(/\/$/, '')}/chat/completions`, {
       method: 'POST',
-      headers: { authorization: `Bearer ${apiKey}`, 'content-type': 'application/json' },
+      headers: {
+        authorization: `Bearer ${apiKey}`,
+        'content-type': 'application/json',
+        'user-agent': 'PulseNSFW-Concierge/1.0',
+      },
       body: JSON.stringify(body),
       signal: controller.signal,
     });
-    if (response.status >= 500) return 'outage';
-    if (response.status === 401 || response.status === 403) return 'outage'; // creds bad — not a policy answer
-    if (response.status === 429) return 'outage';
+    if (response.status >= 500) {
+      console.error(`[ladder] ${tier.modelId} HTTP ${response.status}`);
+      return 'outage';
+    }
+    if (response.status === 401 || response.status === 403) {
+      console.error(`[ladder] ${tier.modelId} auth HTTP ${response.status}`);
+      return 'outage'; // creds bad — not a policy answer
+    }
+    if (response.status === 429) {
+      console.error(`[ladder] ${tier.modelId} rate-limited HTTP 429`);
+      return 'outage';
+    }
     if (!response.ok) {
       const detail = await response.text();
+      console.error(`[ladder] ${tier.modelId} HTTP ${response.status}: ${detail.slice(0, 240)}`);
       // Provider-level policy gate for the model itself.
       if (detail && /policy|refus/i.test(detail.slice(0, 500))) return 'policy';
       return 'outage';

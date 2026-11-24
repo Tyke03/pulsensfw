@@ -61,7 +61,7 @@ const jsonLd = {
     <div class="page">
       <p class="kicker">{SITE.tagline}</p>
       <h2 id="home-search-title">Find it before the tab binge.</h2>
-      <p class="dek">Stars, sites, AI, VR, and the stories on this desk. One index, one search, fewer tabs.</p>
+      <p class="dek">Stars, sites, AI, toys, VR, and the stories on this desk. One index, one search, fewer tabs.</p>
       <form class="home-search" action="/search" method="get" data-astro-reload data-search-live>
         <label class="sr-only" for="home-q">Search</label>
         <input class="c-input" id="home-q" name="q" type="search" placeholder="Angela White, CrushOn, Pornhub, VR…" />
@@ -189,7 +189,33 @@ const jsonLd = {
     </div>
   </section>
 
-  <section class="band band--raised" aria-labelledby="hubs-title">
+  {home.products.length > 0 && (
+    <section class="band band--raised" aria-labelledby="toys-title">
+      <div class="rail-head">
+        <div>
+          <p class="kicker">App-synced haptics, VR strokers, wands</p>
+          <h2 id="toys-title">Toys &amp; tech</h2>
+        </div>
+        <PulseRule />
+        <div class="rail-actions">
+          <button class="icon-btn carousel-btn" type="button" data-carousel-prev data-carousel-target="rail-toys" aria-label="Scroll Toys & tech backward" style="transform:scaleX(-1)">
+            <Icon name="chevron" />
+          </button>
+          <button class="icon-btn carousel-btn" type="button" data-carousel-next data-carousel-target="rail-toys" aria-label="Scroll Toys & tech forward">
+            <Icon name="chevron" />
+          </button>
+          <a class="see-all" href="/toys">All toys &amp; tech</a>
+        </div>
+      </div>
+      <div class="scroller-bleed">
+        <div class="scroller profile-scroller" id="rail-toys" data-carousel tabindex="0">
+          {home.products.map((card) => <EntityCard card={card} uid={`toy-${card.id}`} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="band" aria-labelledby="hubs-title">
     <div class="section-head">
       <h2 id="hubs-title">Sections</h2>
       <PulseRule />
@@ -208,7 +234,7 @@ const jsonLd = {
   </section>
 
   {rails.filter((rail) => home.rails[rail.id].length > 0).map((rail, index) => (
-    <section class:list={['band', index % 2 === 1 && 'band--raised']} aria-labelledby={`${rail.id}-title`}>
+    <section class:list={['band', index % 2 === 0 && 'band--raised']} aria-labelledby={`${rail.id}-title`}>
       <div class="rail-head">
         <div>
           <p class="kicker">{RAIL_META[rail.id].lede}</p>

@@ -1,0 +1,83 @@
+{
+  "slug": "clips4sale",
+  "type": "site",
+  "name": "Clips4Sale",
+  "url": "https://www.clips4sale.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "The deepest long-tail fetish clip marketplace online: thousands of independent creator and studio stores selling individual downloads with zero mandatory subscription.",
+  "tags": [
+    "niche",
+    "platform",
+    "fetish",
+    "creator",
+    "clips"
+  ],
+  "ranking_rationale": "Unrivaled long-tail fetish depth—if a specific kink exists, dozens of indie stores cover it here a la carte—offset by a utilitarian storefront UI and per-clip pricing.",
+  "pricing": {
+    "model": "A-la-carte clip marketplace",
+    "free_tier": "Free catalog browsing and short clip previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Clips are purchased individually with no required monthly subscription; pricing is set per independent store."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Deepest long-tail fetish and niche category catalog on the web",
+    "Pay only for the exact clips you want—no recurring subscriptions",
+    "Thousands of independent producers and specialized fetish studios",
+    "Direct DRM-free MP4 downloads on purchased clips"
+  ],
+  "cons": [
+    "Per-clip pricing gets expensive for binge viewers",
+    "Visual design and video quality vary wildly across independent stores",
+    "Preview clips are often very short"
+  ],
+  "image": {
+    "src": "/media/entities/sites/clips4sale.png",
+    "alt": "Clips4Sale logo and brand card",
+    "source_url": "https://www.clips4sale.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Independent fetish clip marketplace",
+      "source_url": "https://www.clips4sale.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2003; long-running fetish clip storefront network",
+      "source_url": "https://en.wikipedia.org/wiki/Clips4Sale",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "A-la-carte individual clip purchases (no subscription required)",
+      "source_url": "https://www.clips4sale.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Thousands of specialized indie fetish stores with direct downloads",
+      "source_url": "https://www.clips4sale.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

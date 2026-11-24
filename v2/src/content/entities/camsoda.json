@@ -1,0 +1,81 @@
+{
+  "slug": "camsoda",
+  "type": "site",
+  "name": "CamSoda",
+  "url": "https://www.camsoda.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "Tech-forward cam site known for early interactive toy sync, 360-degree camera streams, and scheduled live shows from mainstream pornstars.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens",
+    "interactive"
+  ],
+  "ranking_rationale": "Creative tech features and regular pornstar guest broadcasts give it real personality, even though total concurrent room count trails Chaturbate and Stripchat.",
+  "pricing": {
+    "model": "Token-based tipping & private shows",
+    "free_tier": "Public rooms open to watch",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Token bundles vary by size; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Regular scheduled live shows featuring well-known pornstars",
+    "Strong interactive haptic toy support and clean modern UI",
+    "Fun specialty formats including 360-degree and themed shows"
+  ],
+  "cons": [
+    "Smaller concurrent room roster than Chaturbate or Stripchat",
+    "Off-peak hours can feel quieter in niche categories",
+    "Private and voyeur rates vary widely by broadcaster"
+  ],
+  "image": {
+    "src": "/media/entities/sites/camsoda.png",
+    "alt": "CamSoda logo and brand card",
+    "source_url": "https://www.camsoda.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Interactive live adult webcam platform",
+      "source_url": "https://www.camsoda.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2014; operated by CamSoda LLC (Florida)",
+      "source_url": "https://en.wikipedia.org/wiki/CamSoda",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Open public tipping rooms plus paid private shows",
+      "source_url": "https://www.camsoda.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Pornstar live-show events and interactive haptic toy integration",
+      "source_url": "https://www.camsoda.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

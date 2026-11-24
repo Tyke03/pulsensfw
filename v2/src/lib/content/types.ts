@@ -21,7 +21,10 @@ export const LICENSES = [
   'cc-by-4.0',
   'cc-by-sa-4.0',
   'cc-by-3.0',
+  'cc-by-sa-3.0',
   'cc-by-sa-2.5',
+  'cc-by-2.0',
+  'cc-by-sa-2.0',
   'public-domain',
   'example',
 ] as const;

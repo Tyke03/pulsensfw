@@ -1,0 +1,80 @@
+{
+  "slug": "loyalfans",
+  "type": "site",
+  "name": "LoyalFans",
+  "url": "https://www.loyalfans.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "All-in-one creator platform combining monthly feeds, clip stores, live streams, and direct one-on-one video calls—popular with fetish and pro performers.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription",
+    "video-calls"
+  ],
+  "ranking_rationale": "Strong feature breadth—especially native one-on-one video calls and fetish-friendly moderation—though a smaller creator base than OnlyFans or Fansly.",
+  "pricing": {
+    "model": "Per-creator subscriptions + clip store, live streams & paid video calls",
+    "free_tier": "Free account creation; creator feeds and calls priced individually",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Subscriptions, video-call per-minute rates, and store clips are set by each creator."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Native one-on-one video calls and live streaming built in",
+    "Combines subscription feeds with an a-la-carte video store",
+    "Popular hub for femdom, fetish, and veteran adult performers"
+  ],
+  "cons": [
+    "Smaller overall creator catalog than OnlyFans or Fansly",
+    "Discovery tools are modest compared to Fansly's FYP",
+    "Per-minute video call costs vary widely by creator"
+  ],
+  "image": {
+    "src": "/media/entities/sites/loyalfans.png",
+    "alt": "LoyalFans logo and brand card",
+    "source_url": "https://www.loyalfans.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator subscription & video-call platform",
+      "source_url": "https://www.loyalfans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2020; creator-focused adult subscription platform",
+      "source_url": "https://www.loyalfans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-creator subscriptions, store clips, live streams, and calls",
+      "source_url": "https://www.loyalfans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Integrated paid video calls alongside feeds and clip stores",
+      "source_url": "https://www.loyalfans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

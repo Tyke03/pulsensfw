@@ -19,11 +19,12 @@ import { sharedTracker } from '../../lib/models/usage';
 import { readReader } from '../../lib/reader/cookies';
 import { fingerprintOf } from '../../lib/agent/canonical';
 import { isSameOrigin } from '../../lib/http/same-origin';
+import { runtimeEnv } from '../../lib/env';
 
 export const prerender = false;
 
 function env(key: string): string {
-  return ((import.meta as unknown as { env?: Record<string, string | undefined> }).env?.[key] ?? '').trim();
+  return (runtimeEnv(key) ?? '').trim();
 }
 
 function num(key: string, fallback: number, min: number, max: number): number {
@@ -93,9 +94,12 @@ export const POST: APIRoute = async ({ request, cookies }) => {
           reader: { ...readerReal, nsfw: gateOk.nsfwAllowed },
           sessionHash,
           maxAttempts: num('CONCIERGE_MAX_ATTEMPTS', 3, 1, 4),
-          timeoutMs: Math.min(90_000, Math.max(5_000, num('CONCIERGE_TIMEOUT_MS', 45_000, 5000, 90_000))),
+          timeoutMs: Math.min(90_000, Math.max(5_000, num('CONCIERGE_TIMEOUT_MS', 18_000, 5000, 90_000))),
           tokenCeiling: Math.min(2000, Math.max(200, num('CONCIERGE_TOKEN_CEILING', 1200, 200, 2000))),
           tracker: sharedTracker,
+          onTool: (toolResult) => {
+            push({ type: 'tool', tool: toolResult.tool, summary: toolResult.summary, citations: toolResult.citations });
+          },
         });
         if (result.status !== 'ok') {
           const human = result.reason === 'unconfigured'

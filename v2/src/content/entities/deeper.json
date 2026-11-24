@@ -1,0 +1,82 @@
+{
+  "slug": "deeper",
+  "type": "site",
+  "name": "Deeper",
+  "url": "https://www.deeper.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Kayden Kross's director-driven Vixen Media Group imprint blending moody arthouse lighting, psychological drama, and intense, unhurried performances.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k",
+    "exclusive",
+    "cinematic"
+  ],
+  "ranking_rationale": "Arguably the strongest directorial voice in modern studio adult film—atmospheric, story-forward, and visually striking, with a smaller catalog than decade-old rivals.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; standalone or bundled inside Vixen Plus. Check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Distinctive moody cinematography and strong acting direction",
+    "Feature-length multi-part dramas alongside standalone scenes",
+    "Unusually high chemistry and pacing under Kayden Kross",
+    "Bundled into Vixen Plus alongside Vixen, Blacked, and Tushy"
+  ],
+  "cons": [
+    "Smaller back catalog than legacy networks",
+    "Slower narrative openings will not suit viewers skipping straight to action",
+    "Premium standalone pricing outside the Vixen Plus bundle"
+  ],
+  "image": {
+    "src": "/media/entities/sites/deeper.png",
+    "alt": "Deeper logo and brand card",
+    "source_url": "https://www.deeper.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Director-driven cinematic premium studio",
+      "source_url": "https://www.deeper.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2019 by Kayden Kross under Vixen Media Group",
+      "source_url": "https://en.wikipedia.org/wiki/Vixen_Media_Group",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid subscription (standalone or Vixen Plus bundle)",
+      "source_url": "https://www.deeper.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Psychological drama, arthouse lighting, and feature-length narratives",
+      "source_url": "https://www.deeper.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

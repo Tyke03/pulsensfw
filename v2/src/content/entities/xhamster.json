@@ -1,0 +1,82 @@
+{
+  "slug": "xhamster",
+  "type": "site",
+  "name": "xHamster",
+  "url": "https://xhamster.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate",
+    "referral"
+  ],
+  "summary": "Feature-rich free tube combining a deep amateur catalog, modern filtering, and an integrated paid studio clip store via Faphouse.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream",
+    "amateur"
+  ],
+  "ranking_rationale": "Stands out among major tubes for strong amateur/homemade depth and sharp duration/resolution filters, offset by busy cam-banner cross-promotions.",
+  "pricing": {
+    "model": "Ad-supported free tube + separate paid studio clips (Faphouse)",
+    "free_tier": "Free tube videos, creator feeds, and erotica with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Core tube is free; Faphouse studio passes and integrated live cams are billed separately. Check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Deep amateur and creator-uploaded catalog",
+    "Clean modern player with granular duration, date, and 4K filters",
+    "Active community playlists and creator profile pages",
+    "Integrated VR video category on the free tier"
+  ],
+  "cons": [
+    "Heavy cross-promotion of live cam rooms across browse pages",
+    "Regional age-verification blocks in several jurisdictions",
+    "Faphouse paywalled clips mix into standard search results"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xhamster.png",
+    "alt": "xHamster logo and brand card",
+    "source_url": "https://xhamster.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free adult video tube and creator hub",
+      "source_url": "https://xhamster.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2007; operated by Hammy Media Ltd (Cyprus)",
+      "source_url": "https://en.wikipedia.org/wiki/XHamster",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube with optional Faphouse studio store",
+      "source_url": "https://xhamster.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "Granular video filtering and one of the deepest amateur libraries online",
+      "source_url": "https://xhamster.com",
+      "checked": "2026-11-23",
+      "evidence_type": "hands_on"
+    }
+  ],
+  "updated": "2026-11-23"
+}

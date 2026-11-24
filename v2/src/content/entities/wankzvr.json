@@ -1,0 +1,83 @@
+{
+  "slug": "wankzvr",
+  "type": "site",
+  "name": "WankzVR",
+  "url": "https://www.wankzvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-output VR porn studio known for crisp 7K/8K 180-degree encodes, reliable scale calibration, A-list pornstar casting, and native haptic script support.",
+  "tags": [
+    "vr",
+    "studio",
+    "streaming",
+    "premium",
+    "scripts"
+  ],
+  "ranking_rationale": "One of the most dependable standalone VR studios: consistent optical scale, frequent updates with recognizable stars, and synchronized interactive toy scripts.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": "Short VR trailers",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Varies by plan and promo; check official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest / PCVR / PSVR",
+    "DeoVR / downloadable MP4"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Sharp 7K and 8K 180-degree stereoscopic video options",
+    "Strong mainstream pornstar roster and steady release schedule",
+    "Synchronized interactive haptic scripts for supported toys",
+    "Clean direct downloads and DeoVR/Quest browser compatibility"
+  ],
+  "cons": [
+    "Standalone subscription covers one studio rather than an aggregator catalog",
+    "High-bitrate 8K downloads consume heavy local storage",
+    "Checkout promos auto-renew at full price unless managed"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wankzvr.png",
+    "alt": "WankzVR logo and brand card",
+    "source_url": "https://www.wankzvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium VR adult studio",
+      "source_url": "https://www.wankzvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Founded / Operator",
+      "value": "Launched 2016; flagship VR studio of the Wankz network",
+      "source_url": "https://www.wankzvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid VR membership with streaming and direct headset downloads",
+      "source_url": "https://www.wankzvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Standout feature",
+      "value": "High-resolution 7K/8K encodes with interactive toy script sync",
+      "source_url": "https://www.wankzvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}
