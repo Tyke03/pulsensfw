@@ -1,0 +1,78 @@
+{
+  "slug": "royalcams",
+  "type": "site",
+  "name": "RoyalCams",
+  "url": "https://royalcams.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Dark-mode live webcam portal emphasizing Lovense toy integration, clean room filters, and active European & American performers.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens"
+  ],
+  "ranking_rationale": "Built-in interactive Lovense toy vibrations visible live in chat (trade-off: shares part of its multi-network traffic with sister rooms).",
+  "pricing": {
+    "model": "Tokens & tipping",
+    "free_tier": "Free public cam chat",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Built-in interactive Lovense toy vibrations visible live in chat",
+    "Responsive fast dark-theme HTML5 room layout",
+    "Direct private & voyeur spy-mode toggles"
+  ],
+  "cons": [
+    "Shares part of its multi-network traffic with sister rooms",
+    "Aggressive VIP token upsells"
+  ],
+  "image": {
+    "src": "/media/entities/sites/royalcams.webp",
+    "alt": "RoyalCams logo and brand card",
+    "source_url": "https://royalcams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://royalcams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & tipping",
+      "source_url": "https://royalcams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://royalcams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "royalcams.com",
+      "source_url": "https://royalcams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

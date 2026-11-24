@@ -1,0 +1,79 @@
+{
+  "slug": "vast-ai",
+  "type": "ai_app",
+  "name": "Vast.ai",
+  "url": "https://vast.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Peer-to-peer GPU marketplace delivering the lowest hourly prices online for renting multi-GPU VRAM to run huge 70B+ RP models or train Flux LoRAs.",
+  "tags": [
+    "cloud",
+    "gpu",
+    "models",
+    "budget"
+  ],
+  "ranking_rationale": "Rock-bottom hourly rental pricing on dual RTX 3090 / 4090 nodes (trade-off: community host uptime/bandwidth speeds vary—vet verified hosts carefully).",
+  "pricing": {
+    "model": "Hourly spot cloud GPU",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Rock-bottom hourly rental pricing on dual RTX 3090 / 4090 nodes",
+    "Completely customizable Docker templates with zero filter babysitting",
+    "Clean live TFLOPS/dollar sorting sliders"
+  ],
+  "cons": [
+    "Community host uptime/bandwidth speeds vary—vet verified hosts carefully",
+    "Steeper technical setup than turnkey chat apps"
+  ],
+  "image": {
+    "src": "/media/entities/ai/vast-ai.webp",
+    "alt": "Vast.ai logo and brand card",
+    "source_url": "https://vast.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://vast.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hourly spot cloud GPU",
+      "source_url": "https://vast.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://vast.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vast.ai",
+      "source_url": "https://vast.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

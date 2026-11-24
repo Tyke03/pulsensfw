@@ -1,0 +1,78 @@
+{
+  "slug": "alohatube",
+  "type": "site",
+  "name": "AlohaTube",
+  "url": "https://www.alohatube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Categorized adult tube directory indexing trending clips across dozens of mainstream partner tubes in a compact grid.",
+  "tags": [
+    "tube",
+    "free",
+    "aggregator"
+  ],
+  "ranking_rationale": "Straightforward directory tree sorting by category and popularity (trade-off: sends clicks out to third-party tubes).",
+  "pricing": {
+    "model": "Free meta-tube directory",
+    "free_tier": "Free unlimited browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Straightforward directory tree sorting by category and popularity",
+    "Low-script lightweight browse experience",
+    "Instant preview thumbnails"
+  ],
+  "cons": [
+    "Sends clicks out to third-party tubes",
+    "Classic tabular visual styling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/alohatube.webp",
+    "alt": "AlohaTube logo and brand card",
+    "source_url": "https://www.alohatube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.alohatube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube directory",
+      "source_url": "https://www.alohatube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.alohatube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "alohatube.com",
+      "source_url": "https://www.alohatube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

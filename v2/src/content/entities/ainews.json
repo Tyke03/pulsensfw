@@ -1,0 +1,78 @@
+{
+  "slug": "ainews",
+  "type": "site",
+  "name": "AINews",
+  "url": "https://ainews.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran Adult Industry News journal covering studio launches, performer milestones, legal rulings, and trade expo recaps since 1998.",
+  "tags": [
+    "news",
+    "reviews",
+    "forums"
+  ],
+  "ranking_rationale": "25+ year historical press archive of adult web & studio evolutions (trade-off: trade-press layout feels dated vs modern media sites).",
+  "pricing": {
+    "model": "Free industry trade publication",
+    "free_tier": "Completely free reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "25+ year historical press archive of adult web & studio evolutions",
+    "Direct candid studio press releases & event reporting",
+    "Clean lightweight article pages"
+  ],
+  "cons": [
+    "Trade-press layout feels dated vs modern media sites",
+    "Heavy sponsor ad banners"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ainews.webp",
+    "alt": "AINews logo and brand card",
+    "source_url": "https://ainews.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://ainews.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free industry trade publication",
+      "source_url": "https://ainews.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://ainews.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ainews.com",
+      "source_url": "https://ainews.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

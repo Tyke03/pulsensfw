@@ -1,0 +1,77 @@
+{
+  "slug": "tenga-egg",
+  "type": "product",
+  "name": "TENGA EGG Series",
+  "url": "https://www.tenga.co/products/egg-series/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Pocket-sized ultra-stretchy egg sleeve offering inventive varied internal textures under $10—stretching smoothly to fit any size.",
+  "tags": [
+    "stroker",
+    "budget",
+    "discreet"
+  ],
+  "ranking_rationale": "Ultra-budget ~$9 price fits effortlessly in carry-on luggage with zero weight (trade-off: designed primarily as single-to-few-use sleeves due to thin tear risk).",
+  "pricing": {
+    "model": "Hardware purchase (~$9)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Ultra-budget ~$9 price fits effortlessly in carry-on luggage with zero weight",
+    "Soft stretchy elastomer conforms comfortably regardless of girth",
+    "Six distinct geometric texture patterns in Wavy, Clicker, Twister packs"
+  ],
+  "cons": [
+    "Designed primarily as single-to-few-use sleeves due to thin tear risk",
+    "Requires careful drying if reused several times"
+  ],
+  "image": {
+    "src": "/media/entities/products/tenga-egg.webp",
+    "alt": "TENGA EGG Series logo and brand card",
+    "source_url": "https://www.tenga.co/products/egg-series/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.tenga.co/products/egg-series/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$9)",
+      "source_url": "https://www.tenga.co/products/egg-series/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.tenga.co/products/egg-series/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tenga.co",
+      "source_url": "https://www.tenga.co/products/egg-series/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

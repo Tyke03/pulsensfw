@@ -46,7 +46,7 @@
   "facts": [
     {
       "key": "Category",
-      "value": "Ai Platform",
+      "value": "AI Platform",
       "source_url": "https://www.mage.space",
       "checked": "2026-11-24",
       "evidence_type": "first_party"

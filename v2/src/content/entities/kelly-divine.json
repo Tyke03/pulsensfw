@@ -1,0 +1,63 @@
+{
+  "slug": "kelly-divine",
+  "type": "star",
+  "name": "Kelly Divine",
+  "url": "http://www.wikidata.org/entity/Q3194891",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Kelly Divine — American pornographic actress (b. 1984). Industry career documented from 2007.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/kelly-divine.jpg",
+    "alt": "SFW portrait of Kelly Divine",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kelly_Divine_AEE_2013_2_(cropped).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3194891 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q3194891",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q3194891",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2007–2016",
+      "source_url": "http://www.wikidata.org/entity/Q3194891",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

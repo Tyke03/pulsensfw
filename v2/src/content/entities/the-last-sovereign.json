@@ -1,0 +1,80 @@
+{
+  "slug": "the-last-sovereign",
+  "type": "game",
+  "name": "The Last Sovereign",
+  "url": "https://store.steampowered.com/app/951830/The_Last_Sovereign/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sierra Lee's astonishing 100+ hour free strategic RPG celebrated across RPG forums for deep kingdom politics, economic choices & complex writing.",
+  "tags": [
+    "games",
+    "rpg",
+    "free",
+    "pc"
+  ],
+  "ranking_rationale": "Arguably the best-written strategic macro-RPG plot in the entire adult-game scene (trade-off: uses classic RPG Maker VX Ace stock visuals initially—play for the brilliance, not 3D graphics).",
+  "pricing": {
+    "model": "100% free + Patreon supporters",
+    "free_tier": "Complete game free on Steam",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "Steam"
+  ],
+  "score": 9.2,
+  "pros": [
+    "Arguably the best-written strategic macro-RPG plot in the entire adult-game scene",
+    "Genuinely massive choices ripple dozens of hours later across nations & companions",
+    "100% free uncensored complete build on Steam"
+  ],
+  "cons": [
+    "Uses classic RPG Maker VX Ace stock visuals initially—play for the brilliance, not 3D graphics",
+    "Overwhelming political & investment tracking without walkthrough help"
+  ],
+  "image": {
+    "src": "/media/entities/games/the-last-sovereign.webp",
+    "alt": "The Last Sovereign logo and brand card",
+    "source_url": "https://store.steampowered.com/app/951830/The_Last_Sovereign/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/951830/The_Last_Sovereign/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free + Patreon supporters",
+      "source_url": "https://store.steampowered.com/app/951830/The_Last_Sovereign/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/951830/The_Last_Sovereign/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/951830/The_Last_Sovereign/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

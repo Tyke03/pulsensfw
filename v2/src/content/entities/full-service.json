@@ -50,7 +50,7 @@
   "facts": [
     {
       "key": "Category",
-      "value": "Vr & Games",
+      "value": "VR & Games",
       "source_url": "https://store.steampowered.com/app/1262730/Full_Service/",
       "checked": "2026-11-25",
       "evidence_type": "first_party"

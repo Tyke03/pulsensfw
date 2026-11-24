@@ -1,0 +1,78 @@
+{
+  "slug": "fux-com",
+  "type": "site",
+  "name": "FUX",
+  "url": "https://www.fux.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Crisp European-operated free tube emphasizing high-definition amateur and glamour clips with clean playlist tools.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Clean grid hierarchy and reliable 1080p streams (trade-off: requires free account for playlist saving).",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free HD clips with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Clean grid hierarchy and reliable 1080p streams",
+    "Strong European and amateur category coverage",
+    "Minimalist player without overwhelming clutter"
+  ],
+  "cons": [
+    "Requires free account for playlist saving",
+    "Moderate cam pop promos"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fux-com.webp",
+    "alt": "FUX logo and brand card",
+    "source_url": "https://www.fux.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.fux.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.fux.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.fux.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fux.com",
+      "source_url": "https://www.fux.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

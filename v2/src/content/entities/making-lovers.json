@@ -1,0 +1,79 @@
+{
+  "slug": "making-lovers",
+  "type": "game",
+  "name": "Making * Lovers",
+  "url": "https://store.steampowered.com/app/1231970/MakingLovers/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "SMEE's fast-paced laugh-out-loud adult romantic comedy visual novel skipping high-school tropes for relatable post-grad dating.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "dating-sim",
+    "pc"
+  ],
+  "ranking_rationale": "Actually funny banter and quick romantic escalation right from Chapter 1 (trade-off: main Steam build ships censored unless patched via NekoNyan's free official patch).",
+  "pricing": {
+    "model": "One-time Steam purchase (~$30)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Actually funny banter and quick romantic escalation right from Chapter 1",
+    "Refreshing adult working-world cast instead of repetitive teen classrooms",
+    "Official NekoNyan localization + crisp HD CGs"
+  ],
+  "cons": [
+    "Main Steam build ships censored unless patched via NekoNyan's free official patch",
+    "Light slice-of-life drama without deep plot twists"
+  ],
+  "image": {
+    "src": "/media/entities/games/making-lovers.webp",
+    "alt": "Making * Lovers logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1231970/MakingLovers/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1231970/MakingLovers/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$30)",
+      "source_url": "https://store.steampowered.com/app/1231970/MakingLovers/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Steam",
+      "source_url": "https://store.steampowered.com/app/1231970/MakingLovers/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1231970/MakingLovers/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

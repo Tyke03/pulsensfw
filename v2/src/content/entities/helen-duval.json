@@ -1,0 +1,64 @@
+{
+  "slug": "helen-duval",
+  "type": "star",
+  "name": "Helen Duval",
+  "url": "http://www.wikidata.org/entity/Q443573",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Helen Duval — Dutch pornographic actress, director, producer and entrepreneur (b. 1965). Industry career documented from 1993.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/helen-duval.jpg",
+    "alt": "SFW portrait of Helen Duval",
+    "source_url": "https://commons.wikimedia.org/wiki/File:HelenDuval.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q443573 (Kingdom of the Netherlands)",
+      "source_url": "http://www.wikidata.org/entity/Q443573",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1965",
+      "source_url": "http://www.wikidata.org/entity/Q443573",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1993–2003",
+      "source_url": "http://www.wikidata.org/entity/Q443573",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "ghost-ship",
+  "type": "site",
+  "name": "Ghost Ship (Seven Seas)",
+  "url": "https://sevenseasentertainment.com/series-list-ghost-ship/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Seven Seas Entertainment's wildly successful dedicated 18+ print & digital imprint bringing uncensored ecchi and spicy manga legally to bookstores.",
+  "tags": [
+    "hentai",
+    "manga",
+    "premium"
+  ],
+  "ranking_rationale": "Major mainstream North American publisher delivering physical & digital uncut releases (trade-off: digital releases vary by storefront (BookWalker, Kindle, Kobo)).",
+  "pricing": {
+    "model": "Retail print & digital volumes",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Books"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Major mainstream North American publisher delivering physical & digital uncut releases",
+    "High translation, lettering, and print production standards",
+    "Broad ecchi, yuri, and horror-erotica hits"
+  ],
+  "cons": [
+    "Digital releases vary by storefront (BookWalker, Kindle, Kobo)",
+    "Tame next to hardcore Fakku doujinshi—focuses on mainstream 18+ serialized manga"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ghost-ship.webp",
+    "alt": "Ghost Ship (Seven Seas) logo and brand card",
+    "source_url": "https://sevenseasentertainment.com/series-list-ghost-ship/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://sevenseasentertainment.com/series-list-ghost-ship/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Retail print & digital volumes",
+      "source_url": "https://sevenseasentertainment.com/series-list-ghost-ship/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Books",
+      "source_url": "https://sevenseasentertainment.com/series-list-ghost-ship/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sevenseasentertainment.com",
+      "source_url": "https://sevenseasentertainment.com/series-list-ghost-ship/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

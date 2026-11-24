@@ -1,0 +1,78 @@
+{
+  "slug": "titanmen",
+  "type": "site",
+  "name": "TitanMen",
+  "url": "https://www.titanmen.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Premier San Francisco gay adult studio famed for high-budget fetish, outdoor adventure, and leather features shot in razor-sharp 4K.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay"
+  ],
+  "ranking_rationale": "High production budgets and cinematic outdoor location shoots (trade-off: monthly membership cost sits higher than multi-studio bundles).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "High production budgets and cinematic outdoor location shoots",
+    "Deep catalog spanning rugged masc, fetish, and intense chemistry",
+    "Reliable 4K downloads and photo sets"
+  ],
+  "cons": [
+    "Monthly membership cost sits higher than multi-studio bundles",
+    "Classic leather focus leans more intense than casual romance"
+  ],
+  "image": {
+    "src": "/media/entities/sites/titanmen.webp",
+    "alt": "TitanMen logo and brand card",
+    "source_url": "https://www.titanmen.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.titanmen.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.titanmen.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.titanmen.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "titanmen.com",
+      "source_url": "https://www.titanmen.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "fal-ai",
+  "type": "ai_app",
+  "name": "fal.ai",
+  "url": "https://fal.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sub-second serverless inference API running Flux, Wan video, Kling, and custom LoRA endpoints with configurable safety-checker flags.",
+  "tags": [
+    "image",
+    "cloud",
+    "api",
+    "video"
+  ],
+  "ranking_rationale": "Blazing fast image/video generation latency via developer-friendly REST & playground UI (trade-off: built-in hosted playground imposes default safety flags unless toggled on supported API endpoints).",
+  "pricing": {
+    "model": "Pay-per-generation API",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Blazing fast image/video generation latency via developer-friendly REST & playground UI",
+    "Pay cleanly per-megapixel with custom LoRA weights URLs",
+    "Great engine backing third-party creative apps"
+  ],
+  "cons": [
+    "Built-in hosted playground imposes default safety flags unless toggled on supported API endpoints",
+    "Prepaid API billing complexity"
+  ],
+  "image": {
+    "src": "/media/entities/ai/fal-ai.webp",
+    "alt": "fal.ai logo and brand card",
+    "source_url": "https://fal.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://fal.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-per-generation API",
+      "source_url": "https://fal.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://fal.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fal.ai",
+      "source_url": "https://fal.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

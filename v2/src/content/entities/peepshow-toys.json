@@ -1,0 +1,78 @@
+{
+  "slug": "peepshow-toys",
+  "type": "site",
+  "name": "PeepShow Toys",
+  "url": "https://www.peepshowtoys.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Indie boutique & fantasy silicone showcase famed for high-craft small-batch artisan sculpts, honest video tours, and safe-material standards.",
+  "tags": [
+    "niche",
+    "fantasy",
+    "store"
+  ],
+  "ranking_rationale": "Best indie aggregator discovering small-studio artisan platinum-silicone makers (trade-off: artisan drops sell out quickly due to small-batch hand pours).",
+  "pricing": {
+    "model": "Indie artisan storefront",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Best indie aggregator discovering small-studio artisan platinum-silicone makers",
+    "Detailed sizing & firmness specs far clearer than generic stores",
+    "Discreet packaging & supportive community ethics"
+  ],
+  "cons": [
+    "Artisan drops sell out quickly due to small-batch hand pours",
+    "Boutique price points match indie manufacturing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/peepshow-toys.webp",
+    "alt": "PeepShow Toys logo and brand card",
+    "source_url": "https://www.peepshowtoys.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.peepshowtoys.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Indie artisan storefront",
+      "source_url": "https://www.peepshowtoys.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.peepshowtoys.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "peepshowtoys.com",
+      "source_url": "https://www.peepshowtoys.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

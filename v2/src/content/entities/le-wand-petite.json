@@ -1,0 +1,78 @@
+{
+  "slug": "le-wand-petite",
+  "type": "product",
+  "name": "Le Wand Petite",
+  "url": "https://lewandmassager.com/products/le-wand-petite",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Compact cordless travel wand compressing Le Wand's famous plush velvety head and seamless deep-thump rumble into a luggage-ready build.",
+  "tags": [
+    "wands",
+    "travel",
+    "rechargeable",
+    "waterproof"
+  ],
+  "ranking_rationale": "Shrunk down travel size hits surprisingly hard with rich low-frequency rumbles (trade-off: not as earth-shakingly powerful as corded Magic Wand Original).",
+  "pricing": {
+    "model": "Hardware purchase (~$145)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Shrunk down travel size hits surprisingly hard with rich low-frequency rumbles",
+    "Shower-friendly waterproof silicone neck plus luxe hard travel case",
+    "Works smoothly with Le Wand's mini silicone attachments"
+  ],
+  "cons": [
+    "Not as earth-shakingly powerful as corded Magic Wand Original",
+    "60-minute battery charges over proprietary DC pin"
+  ],
+  "image": {
+    "src": "/media/entities/products/le-wand-petite.webp",
+    "alt": "Le Wand Petite logo and brand card",
+    "source_url": "https://lewandmassager.com/products/le-wand-petite",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://lewandmassager.com/products/le-wand-petite",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$145)",
+      "source_url": "https://lewandmassager.com/products/le-wand-petite",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://lewandmassager.com/products/le-wand-petite",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lewandmassager.com",
+      "source_url": "https://lewandmassager.com/products/le-wand-petite",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

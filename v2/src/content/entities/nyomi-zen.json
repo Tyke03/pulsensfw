@@ -1,0 +1,63 @@
+{
+  "slug": "nyomi-zen",
+  "type": "star",
+  "name": "Nyomi Zen",
+  "url": "http://www.wikidata.org/entity/Q20671787",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nyomi Zen — Indonesian pornographic actress (b. 1982).",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nyomi-zen.jpg",
+    "alt": "SFW portrait of Nyomi Zen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nyomi_Zen_at_West_Coast_Party_1.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q20671787 (Indonesia)",
+      "source_url": "http://www.wikidata.org/entity/Q20671787",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1982",
+      "source_url": "http://www.wikidata.org/entity/Q20671787",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q20671787",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

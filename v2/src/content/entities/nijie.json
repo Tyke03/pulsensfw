@@ -1,0 +1,79 @@
+{
+  "slug": "nijie",
+  "type": "site",
+  "name": "Nijie",
+  "url": "https://nijie.info",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Uncensored-friendly Japanese illustration and comic community created as an explicit-permissive sanctuary alongside mainstream art hubs.",
+  "tags": [
+    "comics",
+    "hentai",
+    "art",
+    "community"
+  ],
+  "ranking_rationale": "Welcomes full R-18 illustrations & manga sketches rejected on mainstream feeds (trade-off: primarily Japanese UI and strict legal compliance registration walls).",
+  "pricing": {
+    "model": "Freemium Japanese art community",
+    "free_tier": "Free browsing & uploads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Welcomes full R-18 illustrations & manga sketches rejected on mainstream feeds",
+    "Clean bookmark & artist follow mechanics",
+    "Free basic browsing & posting"
+  ],
+  "cons": [
+    "Primarily Japanese UI and strict legal compliance registration walls",
+    "Heavy mobile ad placements without paid premium"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nijie.webp",
+    "alt": "Nijie logo and brand card",
+    "source_url": "https://nijie.info",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://nijie.info",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium Japanese art community",
+      "source_url": "https://nijie.info",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://nijie.info",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nijie.info",
+      "source_url": "https://nijie.info",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

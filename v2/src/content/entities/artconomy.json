@@ -1,0 +1,79 @@
+{
+  "slug": "artconomy",
+  "type": "site",
+  "name": "Artconomy",
+  "url": "https://artconomy.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern independent artist-empowerment marketplace uniting clean 18+ galleries, character sales, and built-in commission escrows.",
+  "tags": [
+    "comics",
+    "furry",
+    "art",
+    "community"
+  ],
+  "ranking_rationale": "Smooth modern UX unifying artwork feeds, adopts, and commission queues (trade-off: younger user pool compared with FurAffinity).",
+  "pricing": {
+    "model": "Free platform + 5% optional marketplace tools",
+    "free_tier": "Free account & gallery browse",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Smooth modern UX unifying artwork feeds, adopts, and commission queues",
+    "Permits tasteful and explicit 18+ art with crisp rating switches",
+    "Built by working artists with transparent terms"
+  ],
+  "cons": [
+    "Younger user pool compared with FurAffinity",
+    "Features expand steadily in smaller releases"
+  ],
+  "image": {
+    "src": "/media/entities/sites/artconomy.webp",
+    "alt": "Artconomy logo and brand card",
+    "source_url": "https://artconomy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://artconomy.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free platform + 5% optional marketplace tools",
+      "source_url": "https://artconomy.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://artconomy.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "artconomy.com",
+      "source_url": "https://artconomy.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "wetvr",
+  "type": "site",
+  "name": "WetVR",
+  "url": "https://wetvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-specular 8K stereoscopic VR studio devoted cleanly to oiled bodies, soapy shower POV, and sunlit pool glamour showcases.",
+  "tags": [
+    "vr",
+    "studio",
+    "glamour",
+    "8k"
+  ],
+  "ranking_rationale": "Spectacular 8K specular water & oil reflections in headset, weighed against single stylistic motif across most shoots.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Spectacular 8K specular water & oil reflections in headset",
+    "Top mainstream performers paired with bright summer sets",
+    "Fast direct downloads plus SLR streaming"
+  ],
+  "cons": [
+    "Single stylistic motif across most shoots",
+    "Higher standalone price vs mega-aggregators"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wetvr.webp",
+    "alt": "WetVR logo and brand card",
+    "source_url": "https://wetvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://wetvr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://wetvr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://wetvr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wetvr.com",
+      "source_url": "https://wetvr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

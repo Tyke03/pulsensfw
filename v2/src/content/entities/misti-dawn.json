@@ -1,0 +1,63 @@
+{
+  "slug": "misti-dawn",
+  "type": "star",
+  "name": "Misti Dawn",
+  "url": "http://www.wikidata.org/entity/Q3316978",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Misti Dawn — American pornographic actress and video game industry professional (b. 1986). Industry career documented from 2009.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/misti-dawn.jpg",
+    "alt": "SFW portrait of Misti Dawn",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Misti_Dawn_2017.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3316978 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q3316978",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1986",
+      "source_url": "http://www.wikidata.org/entity/Q3316978",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2009–present",
+      "source_url": "http://www.wikidata.org/entity/Q3316978",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

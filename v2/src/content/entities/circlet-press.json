@@ -1,0 +1,77 @@
+{
+  "slug": "circlet-press",
+  "type": "site",
+  "name": "Circlet Press",
+  "url": "https://www.circlet.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Pioneering independent publisher founded by Cecilia Tan in 1992, specializing in smart erotic science fiction, fantasy, and queer anthologies.",
+  "tags": [
+    "erotica",
+    "books",
+    "sci-fi"
+  ],
+  "ranking_rationale": "Over 30 years of thoughtful, literary speculative erotica and kink anthologies (trade-off: boutique small-press catalog moves slowly).",
+  "pricing": {
+    "model": "Per-book purchase",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Over 30 years of thoughtful, literary speculative erotica and kink anthologies",
+    "Direct DRM-free EPUB & print sales",
+    "Inclusive diverse voices absent from generic Amazon tropes"
+  ],
+  "cons": [
+    "Boutique small-press catalog moves slowly",
+    "Simple utilitarian publisher storefront"
+  ],
+  "image": {
+    "src": "/media/entities/sites/circlet-press.webp",
+    "alt": "Circlet Press logo and brand card",
+    "source_url": "https://www.circlet.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.circlet.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-book purchase",
+      "source_url": "https://www.circlet.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.circlet.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "circlet.com",
+      "source_url": "https://www.circlet.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

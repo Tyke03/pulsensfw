@@ -48,7 +48,7 @@
   "facts": [
     {
       "key": "Category",
-      "value": "Local Ai",
+      "value": "Local AI",
       "source_url": "https://github.com/mcmonkeyprojects/SwarmUI",
       "checked": "2026-11-24",
       "evidence_type": "first_party"

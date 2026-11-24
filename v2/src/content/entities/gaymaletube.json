@@ -1,0 +1,79 @@
+{
+  "slug": "gaymaletube",
+  "type": "site",
+  "name": "GayMaleTube",
+  "url": "https://www.gaymaletube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-speed categorized gay porn meta-search indexing partner tubes cleanly by tag, channel, and duration.",
+  "tags": [
+    "tube",
+    "free",
+    "gay",
+    "aggregator"
+  ],
+  "ranking_rationale": "Fast multi-tube aggregation across niche and studio categories (trade-off: links exit out to partner tubes with ads).",
+  "pricing": {
+    "model": "Free meta-tube aggregator",
+    "free_tier": "Completely free search",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Fast multi-tube aggregation across niche and studio categories",
+    "Clear high-contrast dark browse directory",
+    "Quick duration and HD toggle filters"
+  ],
+  "cons": [
+    "Links exit out to partner tubes with ads",
+    "Minimal editorial curation"
+  ],
+  "image": {
+    "src": "/media/entities/sites/gaymaletube.webp",
+    "alt": "GayMaleTube logo and brand card",
+    "source_url": "https://www.gaymaletube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.gaymaletube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube aggregator",
+      "source_url": "https://www.gaymaletube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.gaymaletube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "gaymaletube.com",
+      "source_url": "https://www.gaymaletube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

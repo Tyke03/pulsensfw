@@ -1,0 +1,78 @@
+{
+  "slug": "the-duchy",
+  "type": "site",
+  "name": "The Duchy",
+  "url": "https://www.theduchy.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Universally respected Japanese rope-bondage (shibari) instructional video & anatomy-safety library taught by veteran educator Jay Wiseman-era pros.",
+  "tags": [
+    "niche",
+    "education",
+    "bdsm"
+  ],
+  "ranking_rationale": "Clear step-by-step camera angles teaching nerve-safe chest, wrist, and suspension ties (trade-off: purely dedicated to rope artistry and safety—not general kink genres).",
+  "pricing": {
+    "model": "Educational membership",
+    "free_tier": "Free intro tie & safety guides",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Clear step-by-step camera angles teaching nerve-safe chest, wrist, and suspension ties",
+    "Honest safety & anatomy-first emphasis prevents rope injuries",
+    "Clean affordable membership compared with multi-tier networks"
+  ],
+  "cons": [
+    "Purely dedicated to rope artistry and safety—not general kink genres",
+    "Minimalist instructional design"
+  ],
+  "image": {
+    "src": "/media/entities/sites/the-duchy.webp",
+    "alt": "The Duchy logo and brand card",
+    "source_url": "https://www.theduchy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.theduchy.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Educational membership",
+      "source_url": "https://www.theduchy.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.theduchy.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "theduchy.com",
+      "source_url": "https://www.theduchy.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

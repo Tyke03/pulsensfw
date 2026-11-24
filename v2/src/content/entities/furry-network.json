@@ -1,0 +1,79 @@
+{
+  "slug": "furry-network",
+  "type": "site",
+  "name": "Furry Network",
+  "url": "https://furrynetwork.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern dark-mode furry artwork, character collection, and multimedia showcase prized for sleek UI contrast over older galleries.",
+  "tags": [
+    "comics",
+    "furry",
+    "art",
+    "community"
+  ],
+  "ranking_rationale": "Clean sleek dark aesthetic makes colorful character art pop, weighed against smaller upload volume and slower platform maintenance vs FurAffinity/Itaku.",
+  "pricing": {
+    "model": "Free artist gallery",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Clean sleek dark aesthetic makes colorful character art pop",
+    "Nice separation between Clean, Mature, and Explicit filters",
+    "Free zero-ad user experience"
+  ],
+  "cons": [
+    "Smaller upload volume and slower platform maintenance vs FurAffinity/Itaku",
+    "Fewer comic sequence tools"
+  ],
+  "image": {
+    "src": "/media/entities/sites/furry-network.webp",
+    "alt": "Furry Network logo and brand card",
+    "source_url": "https://furrynetwork.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://furrynetwork.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free artist gallery",
+      "source_url": "https://furrynetwork.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://furrynetwork.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "furrynetwork.com",
+      "source_url": "https://furrynetwork.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

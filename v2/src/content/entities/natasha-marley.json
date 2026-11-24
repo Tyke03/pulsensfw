@@ -1,0 +1,63 @@
+{
+  "slug": "natasha-marley",
+  "type": "star",
+  "name": "Natasha Marley",
+  "url": "http://www.wikidata.org/entity/Q25634060",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Natasha Marley — British porn actress (b. 1984). Industry career documented from 2010.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/natasha-marley.jpg",
+    "alt": "SFW portrait of Natasha Marley",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Natasha_Marley_at_AVN_Adult_Entertainment_Expo_2011.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q25634060 (United Kingdom)",
+      "source_url": "http://www.wikidata.org/entity/Q25634060",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q25634060",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2010–2013",
+      "source_url": "http://www.wikidata.org/entity/Q25634060",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

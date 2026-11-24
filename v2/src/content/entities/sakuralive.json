@@ -1,0 +1,78 @@
+{
+  "slug": "sakuralive",
+  "type": "site",
+  "name": "SakuraLive",
+  "url": "https://www.sakuralive.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running bilingual Japanese adult webcam site spotlighting authentic Tokyo & Asia-based performers in private & group streams.",
+  "tags": [
+    "cams",
+    "live",
+    "jav"
+  ],
+  "ranking_rationale": "Rare authentic English-friendly Japanese amateur & idol broadcasters (trade-off: per-minute private rates exceed US token-tipping norms).",
+  "pricing": {
+    "model": "Points per minute & tipping",
+    "free_tier": "Free lobby profile previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Rare authentic English-friendly Japanese amateur & idol broadcasters",
+    "Real-time chat translation helpers built into rooms",
+    "Reliable billing transparency"
+  ],
+  "cons": [
+    "Per-minute private rates exceed US token-tipping norms",
+    "Smaller daytime North American room count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sakuralive.webp",
+    "alt": "SakuraLive logo and brand card",
+    "source_url": "https://www.sakuralive.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.sakuralive.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Points per minute & tipping",
+      "source_url": "https://www.sakuralive.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sakuralive.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sakuralive.com",
+      "source_url": "https://www.sakuralive.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "ohmibod-fuse-2",
+  "type": "product",
+  "name": "OhMiBod Fuse 2",
+  "url": "https://ohmibod.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Bluetooth app-connected ergonomic partner stimulator syncing live to voice/ambient sound, cam-tipping platforms, and long-distance control.",
+  "tags": [
+    "app",
+    "haptics",
+    "wearable",
+    "couples"
+  ],
+  "ranking_rationale": "Rich remote mobile control across any internet connection + music beat response (trade-off: app interface requires initial Bluetooth pairing dance).",
+  "pricing": {
+    "model": "Hardware purchase (~$119)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Standalone"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Rich remote mobile control across any internet connection + music beat response",
+    "Gentle curved clitoral/external ridge stays comfortably positioned",
+    "Waterproof USB-rechargeable silky finish"
+  ],
+  "cons": [
+    "App interface requires initial Bluetooth pairing dance",
+    "Shorter internal reach than full rabbits"
+  ],
+  "image": {
+    "src": "/media/entities/products/ohmibod-fuse-2.webp",
+    "alt": "OhMiBod Fuse 2 logo and brand card",
+    "source_url": "https://ohmibod.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://ohmibod.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$119)",
+      "source_url": "https://ohmibod.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Standalone",
+      "source_url": "https://ohmibod.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ohmibod.com",
+      "source_url": "https://ohmibod.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

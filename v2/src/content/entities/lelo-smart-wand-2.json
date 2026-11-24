@@ -1,0 +1,78 @@
+{
+  "slug": "lelo-smart-wand-2",
+  "type": "product",
+  "name": "LELO Smart Wand 2 Large",
+  "url": "https://www.lelo.com/smart-wand-2-large",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Sculpted whisper-quiet luxury cordless wand pairing full bath submersion and 4-hour battery endurance with velvety smooth silicone.",
+  "tags": [
+    "wands",
+    "luxury",
+    "waterproof",
+    "quiet"
+  ],
+  "ranking_rationale": "Remarkably quiet next to traditional clunky massagers, weighed against higher ~$219 price than corded Magic Wand.",
+  "pricing": {
+    "model": "Hardware purchase (~$219)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Remarkably quiet next to traditional clunky massagers",
+    "100% waterproof and sleek continuous-silicone neck wipes clean effortlessly",
+    "Massive 4-hour continuous runtime per charge"
+  ],
+  "cons": [
+    "Higher ~$219 price than corded Magic Wand",
+    "Moderate neck flex absorbs some pressure under intense pushing"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-smart-wand-2.webp",
+    "alt": "LELO Smart Wand 2 Large logo and brand card",
+    "source_url": "https://www.lelo.com/smart-wand-2-large",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lelo.com/smart-wand-2-large",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$219)",
+      "source_url": "https://www.lelo.com/smart-wand-2-large",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.lelo.com/smart-wand-2-large",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lelo.com",
+      "source_url": "https://www.lelo.com/smart-wand-2-large",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

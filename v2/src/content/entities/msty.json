@@ -49,7 +49,7 @@
   "facts": [
     {
       "key": "Category",
-      "value": "Local Ai",
+      "value": "Local AI",
       "source_url": "https://msty.app",
       "checked": "2026-11-25",
       "evidence_type": "first_party"

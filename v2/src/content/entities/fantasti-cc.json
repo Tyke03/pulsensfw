@@ -1,0 +1,79 @@
+{
+  "slug": "fantasti-cc",
+  "type": "site",
+  "name": "Fantasti.cc",
+  "url": "https://fantasti.cc",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Unique community-curated video collection hub built around user-organized porn playlists, clip collages, and niche taste groups.",
+  "tags": [
+    "tube",
+    "free",
+    "community",
+    "aggregator"
+  ],
+  "ranking_rationale": "Discover deep niche clips curated by humans in themed collections, weighed against older 2010s CSS skin and ad slots.",
+  "pricing": {
+    "model": "Free community aggregator",
+    "free_tier": "Free collection browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Discover deep niche clips curated by humans in themed collections",
+    "Helpful community voting filters out low-effort spam",
+    "Dark grid keeps focus on playlists"
+  ],
+  "cons": [
+    "Older 2010s CSS skin and ad slots",
+    "Relies on third-party video embeds"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fantasti-cc.webp",
+    "alt": "Fantasti.cc logo and brand card",
+    "source_url": "https://fantasti.cc",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://fantasti.cc",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community aggregator",
+      "source_url": "https://fantasti.cc",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://fantasti.cc",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fantasti.cc",
+      "source_url": "https://fantasti.cc",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

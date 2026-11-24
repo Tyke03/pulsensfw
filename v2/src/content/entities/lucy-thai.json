@@ -1,0 +1,63 @@
+{
+  "slug": "lucy-thai",
+  "type": "star",
+  "name": "Lucy Thai",
+  "url": "http://www.wikidata.org/entity/Q3108897",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lucy Thai — American former pornographic actress (b. 1984). Industry career documented from 2003.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/lucy-thai.jpg",
+    "alt": "SFW portrait of Lucy Thai",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lucy_Thai_DSC_1597.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3108897 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q3108897",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q3108897",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2003–retired",
+      "source_url": "http://www.wikidata.org/entity/Q3108897",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "womanizer-duo-2",
+  "type": "product",
+  "name": "Womanizer Duo 2",
+  "url": "https://www.womanizer.com/us/womanizer-duo-2",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flagship dual-action air-pulse & G-spot rabbit pairing contactless Pleasure Air suction with deep internal rumble and Smart Silence.",
+  "tags": [
+    "rabbits",
+    "air-pulse",
+    "waterproof",
+    "quiet"
+  ],
+  "ranking_rationale": "Independent dual motors let you balance clitoral suction and internal vibration precisely, weighed against heavy luxury retail price (~$219).",
+  "pricing": {
+    "model": "Hardware purchase (~$219)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Independent dual motors let you balance clitoral suction and internal vibration precisely",
+    "Smart Silence prevents awkward buzzing until touching skin",
+    "14 intensity levels, ultra-quiet motor, IPX7 waterproof"
+  ],
+  "cons": [
+    "Heavy luxury retail price (~$219)",
+    "Fixed arm angle doesn't flex on every pelvic shape"
+  ],
+  "image": {
+    "src": "/media/entities/products/womanizer-duo-2.webp",
+    "alt": "Womanizer Duo 2 logo and brand card",
+    "source_url": "https://www.womanizer.com/us/womanizer-duo-2",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.womanizer.com/us/womanizer-duo-2",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$219)",
+      "source_url": "https://www.womanizer.com/us/womanizer-duo-2",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.womanizer.com/us/womanizer-duo-2",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "womanizer.com",
+      "source_url": "https://www.womanizer.com/us/womanizer-duo-2",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

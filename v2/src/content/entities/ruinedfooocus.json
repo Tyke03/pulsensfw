@@ -1,0 +1,78 @@
+{
+  "slug": "ruinedfooocus",
+  "type": "ai_app",
+  "name": "RuinedFooocus",
+  "url": "https://github.com/runew0lf/RuinedFooocus",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Active community-driven Fooocus fork keeping effortless one-click prompt styling while adding modern Flux checkpoints, LoRA browsers & wildcards.",
+  "tags": [
+    "local",
+    "image",
+    "open-source"
+  ],
+  "ranking_rationale": "Zero-headache installation brings Fooocus simplicity plus modern Flux/SDXL freedom (trade-off: fewer node-level superpowers than raw ComfyUI).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Zero-headache installation brings Fooocus simplicity plus modern Flux/SDXL freedom",
+    "Built-in visual LoRA browser and dynamic prompt wildcards",
+    "Completely private offline rendering"
+  ],
+  "cons": [
+    "Fewer node-level superpowers than raw ComfyUI",
+    "Windows/Linux GPU focused"
+  ],
+  "image": {
+    "src": "/media/entities/ai/ruinedfooocus.webp",
+    "alt": "RuinedFooocus logo and brand card",
+    "source_url": "https://github.com/runew0lf/RuinedFooocus",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/runew0lf/RuinedFooocus",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/runew0lf/RuinedFooocus",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/runew0lf/RuinedFooocus",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/runew0lf/RuinedFooocus",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

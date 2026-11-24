@@ -1,0 +1,79 @@
+{
+  "slug": "vr-hot",
+  "type": "game",
+  "name": "VR HOT",
+  "url": "https://vrhot.io",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Interactive PCVR physics-driven companion simulator supporting full 6DOF headset tracking, physics interaction, and modular rooms.",
+  "tags": [
+    "vr",
+    "games",
+    "sandbox",
+    "pcvr"
+  ],
+  "ranking_rationale": "True interactive 6DOF PCVR positioning and fluid physics rather than static 180 video (trade-off: requires strong desktop GPU tethered/AirLinked to Quest or Index).",
+  "pricing": {
+    "model": "Monthly supporter / direct unlock",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "PCVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "True interactive 6DOF PCVR positioning and fluid physics rather than static 180 video",
+    "Intuitive radial VR hand menus require zero keyboard gymnastics inside the headset",
+    "Active dev updates adding animations & customization"
+  ],
+  "cons": [
+    "Requires strong desktop GPU tethered/AirLinked to Quest or Index",
+    "Physics ragdoll moments can glitch playfully under fast moves"
+  ],
+  "image": {
+    "src": "/media/entities/games/vr-hot.webp",
+    "alt": "VR HOT logo and brand card",
+    "source_url": "https://vrhot.io",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://vrhot.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Monthly supporter / direct unlock",
+      "source_url": "https://vrhot.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, PCVR",
+      "source_url": "https://vrhot.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrhot.io",
+      "source_url": "https://vrhot.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

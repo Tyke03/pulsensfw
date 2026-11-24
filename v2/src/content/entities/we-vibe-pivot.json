@@ -1,0 +1,80 @@
+{
+  "slug": "we-vibe-pivot",
+  "type": "product",
+  "name": "We-Vibe Pivot",
+  "url": "https://www.we-vibe.com/us/pivot",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flexible medical-silicone smart C-ring targeting external partner pleasure AND enhanced shaft fullness simultaneously via We-Vibe App.",
+  "tags": [
+    "couples",
+    "wearable",
+    "app",
+    "waterproof"
+  ],
+  "ranking_rationale": "Ultra-stretchable comfortable silicone ring avoids pinchy plastic tightness (trade-off: added girth of silicone bumper takes brief getting used to).",
+  "pricing": {
+    "model": "Hardware purchase (~$109)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Standalone"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Ultra-stretchable comfortable silicone ring avoids pinchy plastic tightness",
+    "Powerful angled rumble tickler directly reaches clitoral anatomy during intimacy",
+    "Long-distance We-Vibe app pairing included"
+  ],
+  "cons": [
+    "Added girth of silicone bumper takes brief getting used to",
+    "Smaller ring vibration motor isn't a standalone wand"
+  ],
+  "image": {
+    "src": "/media/entities/products/we-vibe-pivot.webp",
+    "alt": "We-Vibe Pivot logo and brand card",
+    "source_url": "https://www.we-vibe.com/us/pivot",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.we-vibe.com/us/pivot",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$109)",
+      "source_url": "https://www.we-vibe.com/us/pivot",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Standalone",
+      "source_url": "https://www.we-vibe.com/us/pivot",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "we-vibe.com",
+      "source_url": "https://www.we-vibe.com/us/pivot",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

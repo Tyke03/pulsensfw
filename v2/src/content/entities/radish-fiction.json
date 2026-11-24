@@ -1,0 +1,79 @@
+{
+  "slug": "radish-fiction",
+  "type": "site",
+  "name": "Radish Fiction",
+  "url": "https://radishfiction.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Serialized bite-sized spicy romance app famous for cliffhanger romantic dramas, clean editorial curation, and Wait-to-Unlock episodes.",
+  "tags": [
+    "erotica",
+    "stories",
+    "books"
+  ],
+  "ranking_rationale": "Professional editorial curation gives cleaner prose than unedited fanfic sites, weighed against high coin cost for binging recent blockbuster serials immediately.",
+  "pricing": {
+    "model": "Coin unlocks & free wait-timers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Professional editorial curation gives cleaner prose than unedited fanfic sites",
+    "Generous daily 'Wait to Unlock' timers on completed series",
+    "Polished mobile dark reading mode"
+  ],
+  "cons": [
+    "High coin cost for binging recent blockbuster serials immediately",
+    "Mainstream romance emphasis limits niche kinks"
+  ],
+  "image": {
+    "src": "/media/entities/sites/radish-fiction.webp",
+    "alt": "Radish Fiction logo and brand card",
+    "source_url": "https://radishfiction.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://radishfiction.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Coin unlocks & free wait-timers",
+      "source_url": "https://radishfiction.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://radishfiction.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "radishfiction.com",
+      "source_url": "https://radishfiction.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

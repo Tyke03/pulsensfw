@@ -1,0 +1,79 @@
+{
+  "slug": "vllm",
+  "type": "ai_app",
+  "name": "vLLM",
+  "url": "https://github.com/vllm-project/vllm",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "High-throughput PagedAttention LLM serving engine prized for lightning-fast batching and long-context RP over multi-GPU setups.",
+  "tags": [
+    "local",
+    "open-source",
+    "api",
+    "inference"
+  ],
+  "ranking_rationale": "Delivers industry-best token throughput and rock-solid OpenAI-compatible RP APIs (trade-off: best suited to Linux NVIDIA GPUs rather than quick Windows consumer setups).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free Apache-2.0 engine",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "Docker"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Delivers industry-best token throughput and rock-solid OpenAI-compatible RP APIs",
+    "Handles giant 32K–128K character lorebooks smoothly on heavy VRAM rigs",
+    "Completely self-hosted & filter-free"
+  ],
+  "cons": [
+    "Best suited to Linux NVIDIA GPUs rather than quick Windows consumer setups",
+    "Heavier memory footprint than single-user llama.cpp"
+  ],
+  "image": {
+    "src": "/media/entities/ai/vllm.webp",
+    "alt": "vLLM logo and brand card",
+    "source_url": "https://github.com/vllm-project/vllm",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, Docker",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

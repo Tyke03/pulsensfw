@@ -1,0 +1,63 @@
+{
+  "slug": "john-strong",
+  "type": "star",
+  "name": "John Strong",
+  "url": "http://www.wikidata.org/entity/Q6259473",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "John Strong — Russian pornographic actor (b. 1969). Industry career documented from 1998.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/john-strong.jpg",
+    "alt": "SFW portrait of John Strong",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John_Strong_2005.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q6259473 (Soviet Union)",
+      "source_url": "http://www.wikidata.org/entity/Q6259473",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1969",
+      "source_url": "http://www.wikidata.org/entity/Q6259473",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1998–present",
+      "source_url": "http://www.wikidata.org/entity/Q6259473",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

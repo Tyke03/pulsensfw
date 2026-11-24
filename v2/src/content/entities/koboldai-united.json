@@ -47,7 +47,7 @@
   "facts": [
     {
       "key": "Category",
-      "value": "Local Ai",
+      "value": "Local AI",
       "source_url": "https://github.com/Henk717/KoboldAI",
       "checked": "2026-11-23",
       "evidence_type": "first_party"

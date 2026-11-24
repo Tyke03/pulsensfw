@@ -1,0 +1,81 @@
+{
+  "slug": "feabie",
+  "type": "site",
+  "name": "Feabie",
+  "url": "https://www.feabie.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Specialized social network and creator feed connecting body-positive curvy, feederism, and admirer communities openly.",
+  "tags": [
+    "platform",
+    "creator",
+    "niche",
+    "community"
+  ],
+  "ranking_rationale": "Welcoming niche community space with photo blogs, DMs, and tip jars (trade-off: very specific fetish community focus).",
+  "pricing": {
+    "model": "Free community + supporter perks",
+    "free_tier": "Free account & feed browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Welcoming niche community space with photo blogs, DMs, and tip jars",
+    "Active mobile web and native community feeds",
+    "Strict harassment moderation"
+  ],
+  "cons": [
+    "Very specific fetish community focus",
+    "Basic UI polish compared with modern creator apps"
+  ],
+  "image": {
+    "src": "/media/entities/sites/feabie.webp",
+    "alt": "Feabie logo and brand card",
+    "source_url": "https://www.feabie.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.feabie.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community + supporter perks",
+      "source_url": "https://www.feabie.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web, iOS, Android",
+      "source_url": "https://www.feabie.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "feabie.com",
+      "source_url": "https://www.feabie.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

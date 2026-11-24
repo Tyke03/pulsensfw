@@ -1,0 +1,79 @@
+{
+  "slug": "girls-out-west",
+  "type": "site",
+  "name": "Girls Out West",
+  "url": "https://www.girlsoutwest.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Leading Australian independent women-directed lesbian studio celebrating authentic tattooed, curvy, and girl-next-door real couples.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples",
+    "amateur"
+  ],
+  "ranking_rationale": "Refreshing authentic Australian accents and genuine unperformed orgasms, weighed against smaller weekly output vs North American mega-networks.",
+  "pricing": {
+    "model": "Independent studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Refreshing authentic Australian accents and genuine unperformed orgasms",
+    "Ethical women-led indie studio celebrating realistic bodies",
+    "Generous full-length scenes plus photo sets"
+  ],
+  "cons": [
+    "Smaller weekly output vs North American mega-networks",
+    "Handheld home lighting aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/sites/girls-out-west.webp",
+    "alt": "Girls Out West logo and brand card",
+    "source_url": "https://www.girlsoutwest.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.girlsoutwest.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Independent studio subscription",
+      "source_url": "https://www.girlsoutwest.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.girlsoutwest.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "girlsoutwest.com",
+      "source_url": "https://www.girlsoutwest.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

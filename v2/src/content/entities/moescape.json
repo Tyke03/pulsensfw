@@ -49,7 +49,7 @@
   "facts": [
     {
       "key": "Category",
-      "value": "Ai Platform",
+      "value": "AI Platform",
       "source_url": "https://moescape.ai",
       "checked": "2026-11-23",
       "evidence_type": "first_party"

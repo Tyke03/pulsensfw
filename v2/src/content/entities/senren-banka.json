@@ -1,0 +1,79 @@
+{
+  "slug": "senren-banka",
+  "type": "game",
+  "name": "Senren * Banka",
+  "url": "https://store.steampowered.com/app/1144400/SenrenBanka/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Yuzusoft's smash-hit hot-spring shrine mystery & supernatural sword visual novel delivering stunning CG polish and beloved routes.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "anime",
+    "pc"
+  ],
+  "ranking_rationale": "Top-tier Yuzusoft character art, Japanese vocal performances & effortless flowchart UX (trade-off: traditional slow-burn visual novel structure spans dozens of dialogue hours).",
+  "pricing": {
+    "model": "One-time Steam purchase (~$35)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Top-tier Yuzusoft character art, Japanese vocal performances & effortless flowchart UX",
+    "Blends cozy shrine mystery humor naturally with passionate romance",
+    "Seamless official English 18+ restoration patch"
+  ],
+  "cons": [
+    "Traditional slow-burn visual novel structure spans dozens of dialogue hours",
+    "Requires external patch on Steam build"
+  ],
+  "image": {
+    "src": "/media/entities/games/senren-banka.webp",
+    "alt": "Senren * Banka logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1144400/SenrenBanka/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1144400/SenrenBanka/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$35)",
+      "source_url": "https://store.steampowered.com/app/1144400/SenrenBanka/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Steam",
+      "source_url": "https://store.steampowered.com/app/1144400/SenrenBanka/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1144400/SenrenBanka/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

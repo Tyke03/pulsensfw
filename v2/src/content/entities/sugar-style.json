@@ -1,0 +1,79 @@
+{
+  "slug": "sugar-style",
+  "type": "game",
+  "name": "Sugar * Style",
+  "url": "https://store.steampowered.com/app/1536470/Sugar__Style/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Warm music-academy dorm romance visual novel praised for crisp character sprites, snappy humor, and affectionate adult scenes.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "dating-sim",
+    "pc"
+  ],
+  "ranking_rationale": "Strong cozy dorm ensemble cast where side girls chime in constantly (trade-off: requires patching off-Steam for adult routes).",
+  "pricing": {
+    "model": "One-time Steam purchase (~$30)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Strong cozy dorm ensemble cast where side girls chime in constantly",
+    "Polished UI with clear calendar/choice clarity",
+    "Seamless uncensored restoration patch via NekoNyan"
+  ],
+  "cons": [
+    "Requires patching off-Steam for adult routes",
+    "Pacing lingers comfortably before dramatic climaxes"
+  ],
+  "image": {
+    "src": "/media/entities/games/sugar-style.webp",
+    "alt": "Sugar * Style logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1536470/Sugar__Style/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1536470/Sugar__Style/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$30)",
+      "source_url": "https://store.steampowered.com/app/1536470/Sugar__Style/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Steam",
+      "source_url": "https://store.steampowered.com/app/1536470/Sugar__Style/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1536470/Sugar__Style/",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

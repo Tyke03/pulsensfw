@@ -1,0 +1,81 @@
+{
+  "slug": "xbvr",
+  "type": "site",
+  "name": "XBVR",
+  "url": "https://github.com/xbvr/xbvr",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Premier open-source self-hosted VR library organizer, metadata scraper, DeoVR/HereSphere LAN server, and synced funscript player.",
+  "tags": [
+    "tools",
+    "open-source",
+    "haptics",
+    "forums"
+  ],
+  "ranking_rationale": "Organizes massive local 8K scene drives seamlessly for Quest & PCVR via Wi-Fi LAN (trade-off: desktop server setup takes brief initial configuration).",
+  "pricing": {
+    "model": "100% free open-source tool",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS",
+    "Docker"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Organizes massive local 8K scene drives seamlessly for Quest & PCVR via Wi-Fi LAN",
+    "Scrapes official studio scene metadata cleanly & serves synced Handy/Buttplug funscripts",
+    "Zero telemetry or cloud lock-in"
+  ],
+  "cons": [
+    "Desktop server setup takes brief initial configuration",
+    "Strictly local library tooling (brings no streaming catalog)"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xbvr.webp",
+    "alt": "XBVR logo and brand card",
+    "source_url": "https://github.com/xbvr/xbvr",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://github.com/xbvr/xbvr",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open-source tool",
+      "source_url": "https://github.com/xbvr/xbvr",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS, Docker",
+      "source_url": "https://github.com/xbvr/xbvr",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/xbvr/xbvr",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

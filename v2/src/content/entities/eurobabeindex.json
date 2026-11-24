@@ -1,0 +1,77 @@
+{
+  "slug": "eurobabeindex",
+  "type": "site",
+  "name": "EuroBabeIndex",
+  "url": "https://www.eurobabeindex.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Massive historic directory indexing thousands of European glamour models, porn stars, and free gallery hubs since 2002.",
+  "tags": [
+    "forums",
+    "directory",
+    "database"
+  ],
+  "ranking_rationale": "Enormous alphabetical catalog of classic & modern European models often missed by US DBs, weighed against early-2000s link-directory aesthetic.",
+  "pricing": {
+    "model": "Free model directory",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Enormous alphabetical catalog of classic & modern European models often missed by US DBs",
+    "Links cross-studio credits cleanly",
+    "Zero login barrier"
+  ],
+  "cons": [
+    "Early-2000s link-directory aesthetic",
+    "Banner ads and partner gallery popups"
+  ],
+  "image": {
+    "src": "/media/entities/sites/eurobabeindex.webp",
+    "alt": "EuroBabeIndex logo and brand card",
+    "source_url": "https://www.eurobabeindex.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.eurobabeindex.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free model directory",
+      "source_url": "https://www.eurobabeindex.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.eurobabeindex.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "eurobabeindex.com",
+      "source_url": "https://www.eurobabeindex.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

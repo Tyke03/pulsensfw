@@ -1,0 +1,79 @@
+{
+  "slug": "curvage",
+  "type": "site",
+  "name": "Curvage",
+  "url": "https://curvage.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dedicated plus-size & BBW creator subscription platform combining fan clubs, custom clips, and judgment-free discovery.",
+  "tags": [
+    "platform",
+    "creator",
+    "niche",
+    "subscription"
+  ],
+  "ranking_rationale": "Empowering niche community spotlighting curvy/BBW creators specifically, weighed against smaller overall creator roster than generalist portals.",
+  "pricing": {
+    "model": "Creator subscriptions & clips",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Empowering niche community spotlighting curvy/BBW creators specifically",
+    "Built-in category discovery absent on OnlyFans",
+    "Supports tips, customs, and clip stores"
+  ],
+  "cons": [
+    "Smaller overall creator roster than generalist portals",
+    "Dated site design polish"
+  ],
+  "image": {
+    "src": "/media/entities/sites/curvage.webp",
+    "alt": "Curvage logo and brand card",
+    "source_url": "https://curvage.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://curvage.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions & clips",
+      "source_url": "https://curvage.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://curvage.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "curvage.com",
+      "source_url": "https://curvage.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

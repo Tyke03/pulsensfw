@@ -1,0 +1,78 @@
+{
+  "slug": "cam111",
+  "type": "site",
+  "name": "Cam111",
+  "url": "https://www.cam111.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Live webcam aggregator indexing active online models across major token cam networks with instant room previews.",
+  "tags": [
+    "cams",
+    "live",
+    "aggregator"
+  ],
+  "ranking_rationale": "Quick cross-network glance at who is currently broadcasting live (trade-off: redirects out to partner token rooms rather than native streaming).",
+  "pricing": {
+    "model": "Free cam index",
+    "free_tier": "Completely free discovery",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Quick cross-network glance at who is currently broadcasting live",
+    "Fast lightweight dark thumbnail wall",
+    "Minimal script bloat"
+  ],
+  "cons": [
+    "Redirects out to partner token rooms rather than native streaming",
+    "Sparse tag-level filtering"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cam111.webp",
+    "alt": "Cam111 logo and brand card",
+    "source_url": "https://www.cam111.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.cam111.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free cam index",
+      "source_url": "https://www.cam111.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.cam111.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cam111.com",
+      "source_url": "https://www.cam111.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

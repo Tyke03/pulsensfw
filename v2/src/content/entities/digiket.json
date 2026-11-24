@@ -1,0 +1,78 @@
+{
+  "slug": "digiket",
+  "type": "site",
+  "name": "DiGiket",
+  "url": "https://www.digiket.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran legal Japanese indie digital storefront specializing cleanly in uncensored/mosaic doujinshi, ASMR voices, and indie eroge.",
+  "tags": [
+    "hentai",
+    "doujinshi",
+    "comics",
+    "store"
+  ],
+  "ranking_rationale": "Friendly indie approval rules welcoming small niche circles missed by big stores (trade-off: 1990s/2000s Japanese web UI takes getting used to).",
+  "pricing": {
+    "model": "Digital per-item store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Friendly indie approval rules welcoming small niche circles missed by big stores",
+    "Frequently runs generous point-back bundle sales",
+    "Instant DRM-clean ZIP/PDF downloads after checkout"
+  ],
+  "cons": [
+    "1990s/2000s Japanese web UI takes getting used to",
+    "Non-Japanese cards sometimes require BitCash/point workarounds"
+  ],
+  "image": {
+    "src": "/media/entities/sites/digiket.webp",
+    "alt": "DiGiket logo and brand card",
+    "source_url": "https://www.digiket.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.digiket.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Digital per-item store",
+      "source_url": "https://www.digiket.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.digiket.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "digiket.com",
+      "source_url": "https://www.digiket.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

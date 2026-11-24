@@ -1,0 +1,78 @@
+{
+  "slug": "colt-studio",
+  "type": "site",
+  "name": "Colt Studio",
+  "url": "https://www.coltstudio.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Historic American all-male erotica institution operating since 1967, renowned for iconic muscle photography and cinematic classic releases.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay"
+  ],
+  "ranking_rationale": "Nearly six decades of legendary photography and classic film archives (trade-off: vintage backlist mixes softcore/classic pacing with modern HD).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Nearly six decades of legendary photography and classic film archives",
+    "Distinctive rugged masculine aesthetic unlike cookie-cutter modern studios",
+    "Clean HD remasters plus high-res photo galleries"
+  ],
+  "cons": [
+    "Vintage backlist mixes softcore/classic pacing with modern HD",
+    "Member UI shows its age"
+  ],
+  "image": {
+    "src": "/media/entities/sites/colt-studio.webp",
+    "alt": "Colt Studio logo and brand card",
+    "source_url": "https://www.coltstudio.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.coltstudio.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.coltstudio.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.coltstudio.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "coltstudio.com",
+      "source_url": "https://www.coltstudio.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

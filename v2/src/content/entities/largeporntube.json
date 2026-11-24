@@ -1,0 +1,78 @@
+{
+  "slug": "largeporntube",
+  "type": "site",
+  "name": "LargePornTube",
+  "url": "https://www.largeporntube.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran high-contrast free tube network cataloging broad mainstream clips alongside clean duration and rating filters.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream"
+  ],
+  "ranking_rationale": "Easy duration & release-date sorting for longer clips (trade-off: mixes teaser clips alongside full partner scenes).",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Easy duration & release-date sorting for longer clips",
+    "Stable cross-browser HTML5 player",
+    "Minimal heavy overlays"
+  ],
+  "cons": [
+    "Mixes teaser clips alongside full partner scenes",
+    "Generic design aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/sites/largeporntube.webp",
+    "alt": "LargePornTube logo and brand card",
+    "source_url": "https://www.largeporntube.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.largeporntube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.largeporntube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.largeporntube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "largeporntube.com",
+      "source_url": "https://www.largeporntube.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

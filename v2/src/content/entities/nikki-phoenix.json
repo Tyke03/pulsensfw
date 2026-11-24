@@ -1,0 +1,63 @@
+{
+  "slug": "nikki-phoenix",
+  "type": "star",
+  "name": "Nikki Phoenix",
+  "url": "http://www.wikidata.org/entity/Q28122409",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nikki Phoenix — American singer, model, actress, pornographic actress, and writer (b. 1987). Industry career documented from 2011.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nikki-phoenix.jpg",
+    "alt": "SFW portrait of Nikki Phoenix",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nikki_Phoenix_(RT_SF9A0489-cropped-small).jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q28122409 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q28122409",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1987",
+      "source_url": "http://www.wikidata.org/entity/Q28122409",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2011–present",
+      "source_url": "http://www.wikidata.org/entity/Q28122409",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

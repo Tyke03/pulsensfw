@@ -1,0 +1,78 @@
+{
+  "slug": "pornxs",
+  "type": "site",
+  "name": "PornXS",
+  "url": "https://pornxs.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean modern black-and-red free HD tube specializing in crisp studio teasers, mobile swipe navigation, and curated star hubs.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Sleek modern dark UI with sharp HD grid cards (trade-off: many clips cap at promo durations).",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Full HD free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Sleek modern dark UI with sharp HD grid cards",
+    "Low popup clutter compared with typical mid-tier tubes",
+    "Fast mobile video scrubber"
+  ],
+  "cons": [
+    "Many clips cap at promo durations",
+    "Smaller amateur upload share"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pornxs.webp",
+    "alt": "PornXS logo and brand card",
+    "source_url": "https://pornxs.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://pornxs.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://pornxs.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pornxs.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornxs.com",
+      "source_url": "https://pornxs.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "joyland-ai",
+  "type": "ai_app",
+  "name": "Joyland AI",
+  "url": "https://www.joyland.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Character-card roleplay and dating bot portal pairing anime-inspired avatars, story scenarios, and optional NSFW filter switches.",
+  "tags": [
+    "chat",
+    "roleplay",
+    "character chat"
+  ],
+  "ranking_rationale": "Easy instant signup with rich fan-crafted fantasy & anime bots (trade-off: tight daily message caps nudge users quickly toward Pro subscriptions).",
+  "pricing": {
+    "model": "Freemium + VIP subscription",
+    "free_tier": "Daily free starter messages",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Easy instant signup with rich fan-crafted fantasy & anime bots",
+    "Dedicated romantic & spicy memory presets",
+    "Smooth web & mobile dark mode"
+  ],
+  "cons": [
+    "Tight daily message caps nudge users quickly toward Pro subscriptions",
+    "Less deep lorebook fidelity than SillyTavern/Chub"
+  ],
+  "image": {
+    "src": "/media/entities/ai/joyland-ai.webp",
+    "alt": "Joyland AI logo and brand card",
+    "source_url": "https://www.joyland.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://www.joyland.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium + VIP subscription",
+      "source_url": "https://www.joyland.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.joyland.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "joyland.ai",
+      "source_url": "https://www.joyland.ai",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

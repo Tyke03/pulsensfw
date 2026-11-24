@@ -1,0 +1,65 @@
+{
+  "slug": "saika-kawakita",
+  "type": "star",
+  "name": "Saika Kawakita",
+  "url": "https://en.wikipedia.org/wiki/Saika_Kawakita",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Saika Kawakita — Japanese AV idol and singer (b. 1999). Industry career documented from 2018.",
+  "tags": [
+    "performer",
+    "onlyfans",
+    "creator"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "OnlyFans",
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/saika-kawakita.jpg",
+    "alt": "SFW portrait of Saika Kawakita",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Trend_Girls_Photo_Session_(May_3,_2025)IMG_8223.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q55407040 (Japan)",
+      "source_url": "http://www.wikidata.org/entity/Q55407040",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1999",
+      "source_url": "http://www.wikidata.org/entity/Q55407040",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2018–present",
+      "source_url": "https://en.wikipedia.org/wiki/Saika_Kawakita",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

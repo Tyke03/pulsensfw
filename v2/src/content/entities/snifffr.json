@@ -1,0 +1,79 @@
+{
+  "slug": "snifffr",
+  "type": "site",
+  "name": "Snifffr",
+  "url": "https://www.snifffr.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Independent UK & international creator marketplace dedicated cleanly to bespoke worn garments, customs, and direct creator packs.",
+  "tags": [
+    "platform",
+    "creator",
+    "niche",
+    "fetish"
+  ],
+  "ranking_rationale": "Clean user-friendly storefront interface without overwhelming banner clutter, weighed against smaller seller pool in North America than Sofia Gray/ATW.",
+  "pricing": {
+    "model": "Per-order & messaging credits",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Clean user-friendly storefront interface without overwhelming banner clutter",
+    "Verified seller badge checks & escrow dispute system",
+    "Accepts discrete payment methods cleanly"
+  ],
+  "cons": [
+    "Smaller seller pool in North America than Sofia Gray/ATW",
+    "Pay-per-conversation message model for free buyers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/snifffr.webp",
+    "alt": "Snifffr logo and brand card",
+    "source_url": "https://www.snifffr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.snifffr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-order & messaging credits",
+      "source_url": "https://www.snifffr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.snifffr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "snifffr.com",
+      "source_url": "https://www.snifffr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

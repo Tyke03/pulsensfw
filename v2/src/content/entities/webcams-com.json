@@ -1,0 +1,78 @@
+{
+  "slug": "webcams-com",
+  "type": "site",
+  "name": "Webcams.com",
+  "url": "https://www.webcams.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Historic mainstream adult webcam portal powered by Streamate infrastructure, offering thousands of live 24/7 private showrooms.",
+  "tags": [
+    "cams",
+    "live",
+    "mainstream"
+  ],
+  "ranking_rationale": "Clean distraction-free live grid without noisy token overlays (trade-off: very limited free public explicit teasing compared with Chaturbate).",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": "Free lobby preview streams",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Clean distraction-free live grid without noisy token overlays",
+    "Dependable high-uptime HD cam streams",
+    "Private 1-on-1 cam2cam support"
+  ],
+  "cons": [
+    "Very limited free public explicit teasing compared with Chaturbate",
+    "Shares backend model pool with Streamate"
+  ],
+  "image": {
+    "src": "/media/entities/sites/webcams-com.webp",
+    "alt": "Webcams.com logo and brand card",
+    "source_url": "https://www.webcams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.webcams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.webcams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.webcams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "webcams.com",
+      "source_url": "https://www.webcams.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

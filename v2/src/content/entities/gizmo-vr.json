@@ -1,0 +1,80 @@
+{
+  "slug": "gizmo-vr",
+  "type": "game",
+  "name": "GizmoVR Video Player",
+  "url": "https://gizmovr.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lightweight free 180/360 VR cinema & mobile browser player smoothing local and web stereoscopic playback across Quest, iOS, and Android.",
+  "tags": [
+    "vr",
+    "player",
+    "video"
+  ],
+  "ranking_rationale": "Built-in VR browser simplifies streaming straight from VR tubes on mobile headsets (trade-off: desktop PCVR decoding and NAS library UI trail Skybox/HereSphere).",
+  "pricing": {
+    "model": "Freemium VR player",
+    "free_tier": "Free core player on Quest & Mobile",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Meta Quest",
+    "iOS",
+    "Android",
+    "PCVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Built-in VR browser simplifies streaming straight from VR tubes on mobile headsets",
+    "Supports crisp 180 SBS/TB formats with adjustable IPD & screen tilt",
+    "Completely free core features"
+  ],
+  "cons": [
+    "Desktop PCVR decoding and NAS library UI trail Skybox/HereSphere",
+    "Mobile gyroscope mode drains battery fast"
+  ],
+  "image": {
+    "src": "/media/entities/games/gizmo-vr.webp",
+    "alt": "GizmoVR Video Player logo and brand card",
+    "source_url": "https://gizmovr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://gizmovr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium VR player",
+      "source_url": "https://gizmovr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Meta Quest, iOS, Android, PCVR",
+      "source_url": "https://gizmovr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "gizmovr.com",
+      "source_url": "https://gizmovr.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

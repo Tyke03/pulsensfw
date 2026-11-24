@@ -1,0 +1,80 @@
+{
+  "slug": "runpod",
+  "type": "ai_app",
+  "name": "RunPod",
+  "url": "https://www.runpod.io",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Premier on-demand cloud RTX 4090 and H100 GPU rental platform letting creators spin up private SwarmUI, ComfyUI, or vLLM containers per hour.",
+  "tags": [
+    "cloud",
+    "gpu",
+    "models",
+    "api"
+  ],
+  "ranking_rationale": "Rent uncensored RTX 4090s (~$0.34–$0.69/hr) with 1-click SwarmUI & Oobabooga templates (trade-off: takes 10 minutes learning SSH/pod templates vs click-and-type consumer toys).",
+  "pricing": {
+    "model": "Pay-per-second cloud GPU",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Linux",
+    "API"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Rent uncensored RTX 4090s (~$0.34–$0.69/hr) with 1-click SwarmUI & Oobabooga templates",
+    "Total privacy control over your own ephemeral pod volumes",
+    "Zero monthly commitment—pay strictly by the second"
+  ],
+  "cons": [
+    "Takes 10 minutes learning SSH/pod templates vs click-and-type consumer toys",
+    "Forget to stop idle pods and storage/GPU credit drains fast"
+  ],
+  "image": {
+    "src": "/media/entities/ai/runpod.webp",
+    "alt": "RunPod logo and brand card",
+    "source_url": "https://www.runpod.io",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://www.runpod.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-per-second cloud GPU",
+      "source_url": "https://www.runpod.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Linux, API",
+      "source_url": "https://www.runpod.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "runpod.io",
+      "source_url": "https://www.runpod.io",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

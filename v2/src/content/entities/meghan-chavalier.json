@@ -1,0 +1,64 @@
+{
+  "slug": "meghan-chavalier",
+  "type": "star",
+  "name": "Meghan Chavalier",
+  "url": "http://www.wikidata.org/entity/Q3853956",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Meghan Chavalier — American singer and pornographic actress (b. 1969).",
+  "tags": [
+    "performer",
+    "veteran",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/meghan-chavalier.jpg",
+    "alt": "SFW portrait of Meghan Chavalier",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MeghanChavalier.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3853956 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q3853956",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1969",
+      "source_url": "http://www.wikidata.org/entity/Q3853956",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q3853956",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "brasileirinhas",
+  "type": "site",
+  "name": "Brasileirinhas",
+  "url": "https://www.brasileirinhas.com.br",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Brazil's historic powerhouse adult studio operating since 1996, documenting iconic Brazilian performers, reality houses, and features.",
+  "tags": [
+    "premium",
+    "studio",
+    "latina"
+  ],
+  "ranking_rationale": "Deep 28-year cultural archive of authentic Brazilian adult cinema (trade-off: portuguese-only site navigation and Brazilian card billing quirks).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Deep 28-year cultural archive of authentic Brazilian adult cinema",
+    "Vibrant Casa das Brasileirinhas reality-show energy",
+    "Strong HD player performance"
+  ],
+  "cons": [
+    "Portuguese-only site navigation and Brazilian card billing quirks",
+    "Aggressive checkout cross-sells"
+  ],
+  "image": {
+    "src": "/media/entities/sites/brasileirinhas.webp",
+    "alt": "Brasileirinhas logo and brand card",
+    "source_url": "https://www.brasileirinhas.com.br",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.brasileirinhas.com.br",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.brasileirinhas.com.br",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.brasileirinhas.com.br",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "brasileirinhas.com.br",
+      "source_url": "https://www.brasileirinhas.com.br",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

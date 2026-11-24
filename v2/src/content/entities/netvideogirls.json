@@ -1,0 +1,78 @@
+{
+  "slug": "netvideogirls",
+  "type": "site",
+  "name": "NetVideoGirls",
+  "url": "https://www.netvideogirls.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic real-casting amateur pioneer active since 2002, showcasing unscripted first-time Florida auditions with natural models.",
+  "tags": [
+    "premium",
+    "studio",
+    "amateur"
+  ],
+  "ranking_rationale": "Genuinely unpolished candid interviews and real chemistry, weighed against lower camera lighting polish next to glossy studios.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Genuinely unpolished candid interviews and real chemistry",
+    "Over two decades of authentic amateur casting continuity",
+    "Simple straightforward DRM downloads"
+  ],
+  "cons": [
+    "Lower camera lighting polish next to glossy studios",
+    "Formulaic couch interview loop"
+  ],
+  "image": {
+    "src": "/media/entities/sites/netvideogirls.webp",
+    "alt": "NetVideoGirls logo and brand card",
+    "source_url": "https://www.netvideogirls.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.netvideogirls.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.netvideogirls.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.netvideogirls.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "netvideogirls.com",
+      "source_url": "https://www.netvideogirls.com",
+      "checked": "2026-11-26",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-26"
+}

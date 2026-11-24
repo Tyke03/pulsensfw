@@ -1,0 +1,63 @@
+{
+  "slug": "loni-evans",
+  "type": "star",
+  "name": "Loni Evans",
+  "url": "http://www.wikidata.org/entity/Q20647710",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Loni Evans — Canadian pornographic actress (b. 1990).",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/loni-evans.jpg",
+    "alt": "SFW portrait of Loni Evans",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Loni_Evans_-_2013_AVN_Expo_Photos_Las_Vegas_(8416910942).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q20647710 (Canada)",
+      "source_url": "http://www.wikidata.org/entity/Q20647710",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1990",
+      "source_url": "http://www.wikidata.org/entity/Q20647710",
+      "checked": "2026-11-26",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–2017",
+      "source_url": "http://www.wikidata.org/entity/Q20647710",
+      "checked": "2026-11-26",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-26"
+}
