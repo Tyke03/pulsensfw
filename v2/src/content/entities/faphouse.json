@@ -1,0 +1,78 @@
+{
+  "slug": "faphouse",
+  "type": "site",
+  "name": "FapHouse",
+  "url": "https://faphouse.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-volume indie studio & creator clip marketplace paired seamlessly with xHamster traffic and curated previews.",
+  "tags": [
+    "platform",
+    "clips",
+    "studio"
+  ],
+  "ranking_rationale": "Massive discovery boost via xHamster integration; weighed against aggressive banner promos across free preview clips.",
+  "pricing": {
+    "model": "Per-clip + creator memberships",
+    "free_tier": "Long free preview trailers",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Massive discovery boost via xHamster integration",
+    "Huge catalog of indie producers + amateur couples",
+    "Smooth 4K preview player"
+  ],
+  "cons": [
+    "Aggressive banner promos across free preview clips",
+    "High volume creates variable clip curation"
+  ],
+  "image": {
+    "src": "/media/entities/sites/faphouse.webp",
+    "alt": "FapHouse logo and brand card",
+    "source_url": "https://faphouse.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://faphouse.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-clip + creator memberships",
+      "source_url": "https://faphouse.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://faphouse.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "faphouse.com",
+      "source_url": "https://faphouse.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

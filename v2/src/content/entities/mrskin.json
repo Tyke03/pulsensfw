@@ -1,0 +1,78 @@
+{
+  "slug": "mrskin",
+  "type": "site",
+  "name": "Mr. Skin",
+  "url": "https://www.mrskin.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Famous structured index cataloguing verified mainstream film & prestige TV nude scenes by actor, director, and timestamp.",
+  "tags": [
+    "forums",
+    "database",
+    "performers"
+  ],
+  "ranking_rationale": "Exact verified Hollywood/streaming film scene timestamps; weighed against main content hd clips/stills sit behind paid membership.",
+  "pricing": {
+    "model": "Editorial index + VIP video vault",
+    "free_tier": "Text metadata & listings free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Exact verified Hollywood/streaming film scene timestamps",
+    "High-quality editorial reviews & Top 10 trivia",
+    "No sketchy malware streams"
+  ],
+  "cons": [
+    "Main content HD clips/stills sit behind paid membership",
+    "Covers mainstream cinema only (not porn studios)"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mrskin.webp",
+    "alt": "Mr. Skin logo and brand card",
+    "source_url": "https://www.mrskin.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.mrskin.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Editorial index + VIP video vault",
+      "source_url": "https://www.mrskin.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.mrskin.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mrskin.com",
+      "source_url": "https://www.mrskin.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

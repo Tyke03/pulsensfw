@@ -1756,3 +1756,42 @@ form[data-search-live] { position: relative; }
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+.pager {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pager-pages {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.pager-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-1);
+  color: var(--text);
+  font-family: var(--font-spec);
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+.pager-num:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+.pager-num[aria-current="page"] {
+  border-color: var(--magenta);
+  background: rgba(255, 79, 154, 0.16);
+  color: #fff;
+  font-weight: 700;
+}
+.pager-gap {
+  color: var(--muted);
+  padding: 0 4px;
+}

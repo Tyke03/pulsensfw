@@ -1,0 +1,78 @@
+{
+  "slug": "sis-loves-me",
+  "type": "site",
+  "name": "Sis Loves Me",
+  "url": "https://www.sislovesme.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Top-charting flagship series inside the TeamSkeet network famous for high-gloss lighting and top younger stars.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k"
+  ],
+  "ranking_rationale": "Bright ultra-clean 4K production; weighed against step-sibling script premise dominates every scene.",
+  "pricing": {
+    "model": "TeamSkeet Network pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Bright ultra-clean 4K production",
+    "Unlocks full TeamSkeet mega-network with bundle",
+    "Consistent star appearances"
+  ],
+  "cons": [
+    "Step-sibling script premise dominates every scene",
+    "Heavy funnel upsells at checkout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sis-loves-me.webp",
+    "alt": "Sis Loves Me logo and brand card",
+    "source_url": "https://www.sislovesme.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.sislovesme.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "TeamSkeet Network pass",
+      "source_url": "https://www.sislovesme.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sislovesme.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sislovesme.com",
+      "source_url": "https://www.sislovesme.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

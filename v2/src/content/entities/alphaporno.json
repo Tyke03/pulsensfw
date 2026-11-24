@@ -1,0 +1,78 @@
+{
+  "slug": "alphaporno",
+  "type": "site",
+  "name": "AlphaPorno",
+  "url": "https://www.alphaporno.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-running category tube prioritizing steady video streaming and quick performer keyword lookup.",
+  "tags": [
+    "tube",
+    "hd",
+    "mainstream"
+  ],
+  "ranking_rationale": "Simple low-clutter browsing; weighed against older ui polish.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Simple low-clutter browsing",
+    "Fast keyword matches",
+    "Lightweight player"
+  ],
+  "cons": [
+    "Older UI polish",
+    "Ad banners around video frame"
+  ],
+  "image": {
+    "src": "/media/entities/sites/alphaporno.webp",
+    "alt": "AlphaPorno logo and brand card",
+    "source_url": "https://www.alphaporno.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.alphaporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.alphaporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.alphaporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "alphaporno.com",
+      "source_url": "https://www.alphaporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

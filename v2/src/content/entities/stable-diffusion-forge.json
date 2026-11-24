@@ -1,0 +1,79 @@
+{
+  "slug": "stable-diffusion-forge",
+  "type": "ai_app",
+  "name": "SD WebUI Forge",
+  "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "lllyasviel's memory-optimized successor to Automatic1111 delivering dramatically faster Flux & SDXL local generation on consumer GPUs.",
+  "tags": [
+    "local",
+    "image",
+    "image generation",
+    "nsfw"
+  ],
+  "ranking_rationale": "Substantial VRAM speedups and Flux NF4 support on 8GB cards; weighed against smaller third-party node library than comfyui.",
+  "pricing": {
+    "model": "Free open-source",
+    "free_tier": "100% free local generation",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Substantial VRAM speedups and Flux NF4 support on 8GB cards",
+    "Drop-in familiar A1111 workflow + ControlNet stability",
+    "100% uncensored offline control"
+  ],
+  "cons": [
+    "Smaller third-party node library than ComfyUI",
+    "Fast upstream changes"
+  ],
+  "image": {
+    "src": "/media/entities/ai/stable-diffusion-forge.webp",
+    "alt": "SD WebUI Forge logo and brand card",
+    "source_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open-source",
+      "source_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "virtualrealgay",
+  "type": "site",
+  "name": "VirtualRealGay",
+  "url": "https://virtualrealgay.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-res stereoscopic 180° gay VR studio combining athletic European casts with VRP's crisp spatial audio.",
+  "tags": [
+    "vr",
+    "studio",
+    "gay"
+  ],
+  "ranking_rationale": "Clean 6K–8K optics and spatial audio realism; weighed against moderate update frequency.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Clean 6K–8K optics and spatial audio realism",
+    "Smooth sideload & streaming support",
+    "Respectable deep back catalog"
+  ],
+  "cons": [
+    "Moderate update frequency",
+    "Small script variety"
+  ],
+  "image": {
+    "src": "/media/entities/sites/virtualrealgay.webp",
+    "alt": "VirtualRealGay logo and brand card",
+    "source_url": "https://virtualrealgay.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://virtualrealgay.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://virtualrealgay.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR",
+      "source_url": "https://virtualrealgay.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "virtualrealgay.com",
+      "source_url": "https://virtualrealgay.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

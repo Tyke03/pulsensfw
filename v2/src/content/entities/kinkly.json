@@ -1,0 +1,77 @@
+{
+  "slug": "kinkly",
+  "type": "site",
+  "name": "Kinkly",
+  "url": "https://www.kinkly.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Approachable adult sex encyclopedia, kink dictionary, and couples intimacy guide covering terminology and safe toys.",
+  "tags": [
+    "niche",
+    "guides"
+  ],
+  "ranking_rationale": "Encyclopedic plain-English definitions of kinks & terms; weighed against heavy display ads across glossary pages.",
+  "pricing": {
+    "model": "Free ad-supported editorial",
+    "free_tier": "Full guides & dictionary free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Encyclopedic plain-English definitions of kinks & terms",
+    "Free guides great for curious beginners",
+    "Respectable educational tone"
+  ],
+  "cons": [
+    "Heavy display ads across glossary pages",
+    "Reviews lean affiliate-commercial"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kinkly.webp",
+    "alt": "Kinkly logo and brand card",
+    "source_url": "https://www.kinkly.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.kinkly.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported editorial",
+      "source_url": "https://www.kinkly.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.kinkly.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kinkly.com",
+      "source_url": "https://www.kinkly.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "francois-sagat",
+  "type": "star",
+  "name": "François Sagat",
+  "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Sagat",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "François Sagat is a French gay male pornographic film actor, model and director.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/francois-sagat.jpg",
+    "alt": "SFW portrait of François Sagat",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Folsom_Fair_2009_-_Fran%C3%A7ois_Sagat.jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "2004–present",
+      "source_url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Sagat",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Cognac, Charente, France",
+      "source_url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Sagat",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic actor, model, director, singer",
+      "source_url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Sagat",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

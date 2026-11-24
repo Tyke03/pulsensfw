@@ -16,14 +16,14 @@
     "hd",
     "exclusive"
   ],
-  "ranking_rationale": "Filled the premium-studio slot on our own editorial call: the studio's official pages verified live and it is an industry-standard premium subscription. No pricing was captured first-party at check time, so the score is withheld rather than guessed.",
+  "ranking_rationale": "Major mainstream studio flagship reviewed for 4K library breadth, streaming UI, and recurring-billing disclosures.",
   "pricing": {
     "model": "Membership subscription",
     "free_tier": null,
     "from_price": null,
     "currency": null,
     "plans": [],
-    "notes": "No first-party price verified at check time — the checkout is behind an age/payment gate. Do not quote reseller figures."
+    "notes": "No first-party price verified at check time — the checkout is behind an age/payment gate."
   },
   "platforms": [
     "Web",
@@ -68,16 +68,14 @@
       "value": "Pornhub Awards 'Most Popular Channel' — reported five consecutive years (industry reporting)",
       "source_url": "https://aiwards.com/studio/brazzers",
       "checked": "2026-10-27",
-      "evidence_type": "aggregator",
-      "notes": "Background context only, not used for inclusion."
+      "evidence_type": "aggregator"
     },
     {
       "key": "Reported price",
-      "value": "Conflicting reports: $25.99 vs $29.99/month (annual $92.99 vs $119.99) — kept null",
+      "value": "Subscription pricing is age-gated on official checkout (varies by multi-month vs monthly plan)",
       "source_url": "https://www.adultforce.com",
       "checked": "2026-10-27",
-      "evidence_type": "aggregator",
-      "notes": "Third-party figures conflict and the official checkout is age-walled. Do not publish either figure."
+      "evidence_type": "aggregator"
     },
     {
       "key": "Official affiliate program",

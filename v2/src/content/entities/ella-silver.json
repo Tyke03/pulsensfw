@@ -1,0 +1,62 @@
+{
+  "slug": "ella-silver",
+  "type": "star",
+  "name": "Ella Silver",
+  "url": "http://www.wikidata.org/entity/Q100271069",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ella Silver — British pornographic actress.",
+  "tags": [
+    "performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/ella-silver.jpg",
+    "alt": "SFW portrait of Ella Silver",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ella_Silver_Pet_of_the_Month_Nov_2018_-_by_Glenn_Francis.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q100271069",
+      "source_url": "http://www.wikidata.org/entity/Q100271069",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q100271069",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1990",
+      "source_url": "http://www.wikidata.org/entity/Q100271069",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

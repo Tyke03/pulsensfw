@@ -1,0 +1,80 @@
+{
+  "slug": "acting-lessons",
+  "type": "game",
+  "name": "Acting Lessons",
+  "url": "https://store.steampowered.com/app/1045520/Acting_Lessons/",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Dr. PinkCake's breakthrough completed emotional drama VN before Being a DIK—famous for real heartbreak and meaningful stakes.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "story"
+  ],
+  "ranking_rationale": "Completed emotionally gripping story where choices carry real weight; weighed against heavy dramatic tone can hit surprisingly emotional/sad.",
+  "pricing": {
+    "model": "Paid indie Steam app ($9.99)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Completed emotionally gripping story where choices carry real weight",
+    "Easy Steam install + achievements + crisp polish",
+    "Strong music score"
+  ],
+  "cons": [
+    "Heavy dramatic tone can hit surprisingly emotional/sad",
+    "Older UI compared with Being a DIK"
+  ],
+  "image": {
+    "src": "/media/entities/games/acting-lessons.webp",
+    "alt": "Acting Lessons logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1045520/Acting_Lessons/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://store.steampowered.com/app/1045520/Acting_Lessons/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid indie Steam app ($9.99)",
+      "source_url": "https://store.steampowered.com/app/1045520/Acting_Lessons/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/1045520/Acting_Lessons/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1045520/Acting_Lessons/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

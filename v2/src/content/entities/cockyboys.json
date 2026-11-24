@@ -1,0 +1,79 @@
+{
+  "slug": "cockyboys",
+  "type": "site",
+  "name": "CockyBoys",
+  "url": "https://www.cockyboys.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Award-sweeping New York independent gay cinema studio praised for indie filmmaking, inclusive casting, and genuine emotion.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "story"
+  ],
+  "ranking_rationale": "Genuine indie film direction and authentic performer intimacy; weighed against smaller weekly volume than aylo mega-networks.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Genuine indie film direction and authentic performer intimacy",
+    "Award-winning documentaries and series alongside hardcore",
+    "Modern clean streaming UI"
+  ],
+  "cons": [
+    "Smaller weekly volume than Aylo mega-networks",
+    "Indie pricing without massive discounts"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cockyboys.webp",
+    "alt": "CockyBoys logo and brand card",
+    "source_url": "https://www.cockyboys.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.cockyboys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.cockyboys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.cockyboys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cockyboys.com",
+      "source_url": "https://www.cockyboys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

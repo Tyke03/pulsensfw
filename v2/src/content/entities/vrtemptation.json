@@ -1,0 +1,79 @@
+{
+  "slug": "vrtemptation",
+  "type": "site",
+  "name": "VRTemptation",
+  "url": "https://www.vrtemptation.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Storyline-heavy European stereoscopic VR hub emphasizing sensual roleplay buildup before action.",
+  "tags": [
+    "vr",
+    "studio",
+    "story"
+  ],
+  "ranking_rationale": "Smooth high-framerate 60fps European shoots; weighed against modest monthly scene count.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Smooth high-framerate 60fps European shoots",
+    "Strong scripted roleplay scenarios",
+    "Clean MP4 downloads"
+  ],
+  "cons": [
+    "Modest monthly scene count",
+    "Overlaps cast with sister EU VR houses"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrtemptation.webp",
+    "alt": "VRTemptation logo and brand card",
+    "source_url": "https://www.vrtemptation.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://www.vrtemptation.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://www.vrtemptation.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR",
+      "source_url": "https://www.vrtemptation.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrtemptation.com",
+      "source_url": "https://www.vrtemptation.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

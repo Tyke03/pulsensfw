@@ -14,7 +14,7 @@
     "performer",
     "rising"
   ],
-  "ranking_rationale": "Included on dated, sourced professional news or encyclopedic record, not on follower counts or aggregator lists. ",
+  "ranking_rationale": "Included on dated, sourced professional news or encyclopedic record, not on follower counts or aggregator lists.",
   "pricing": {
     "model": "Personal brand — official platform pages not verified publicly",
     "free_tier": null,
@@ -51,7 +51,7 @@
       "source_url": "https://babewiki.com/performer/hayley-davies",
       "checked": "2026-10-27",
       "evidence_type": "aggregator",
-      "notes": "Background only, not inclusion evidence."
+      "notes": "Background only,"
     },
     {
       "key": "Recent work",

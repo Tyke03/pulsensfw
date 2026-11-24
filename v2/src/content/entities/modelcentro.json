@@ -1,0 +1,77 @@
+{
+  "slug": "modelcentro",
+  "type": "site",
+  "name": "ModelCentro",
+  "url": "https://www.modelcentro.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Turnkey personal website builder powering hundreds of independent pornstars' standalone .com member sites.",
+  "tags": [
+    "platform",
+    "creator"
+  ],
+  "ranking_rationale": "Lets stars run true standalone .com sites cleanly; weighed against individual sites look similar in template structure.",
+  "pricing": {
+    "model": "Individual creator site passes",
+    "free_tier": "Trailers free per creator",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Lets stars run true standalone .com sites cleanly",
+    "Reliable age-verified Epoch/CCBill checkouts",
+    "Deep legacy indie catalog"
+  ],
+  "cons": [
+    "Individual sites look similar in template structure",
+    "No unified master search inside member areas"
+  ],
+  "image": {
+    "src": "/media/entities/sites/modelcentro.webp",
+    "alt": "ModelCentro logo and brand card",
+    "source_url": "https://www.modelcentro.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.modelcentro.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Individual creator site passes",
+      "source_url": "https://www.modelcentro.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.modelcentro.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "modelcentro.com",
+      "source_url": "https://www.modelcentro.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

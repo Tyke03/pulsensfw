@@ -1,0 +1,80 @@
+{
+  "slug": "chasing-sunsets",
+  "type": "game",
+  "name": "Chasing Sunsets",
+  "url": "https://www.patreon.com/NoodleCup",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Atmospheric college-summer romance VN celebrated for lifelike lighting, relatable ensemble drama, and crisp animation.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "romance"
+  ],
+  "ranking_rationale": "Natural modern college writing & grounded ensemble friendships; weighed against ongoing long-form development.",
+  "pricing": {
+    "model": "Free public releases + Patreon",
+    "free_tier": "Public builds free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Natural modern college writing & grounded ensemble friendships",
+    "Sharp realistic skin lighting and smooth 60fps loops",
+    "Free public episode progression"
+  ],
+  "cons": [
+    "Ongoing long-form development",
+    "Slice-of-life pace builds gradually"
+  ],
+  "image": {
+    "src": "/media/entities/games/chasing-sunsets.webp",
+    "alt": "Chasing Sunsets logo and brand card",
+    "source_url": "https://www.patreon.com/NoodleCup",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://www.patreon.com/NoodleCup",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free public releases + Patreon",
+      "source_url": "https://www.patreon.com/NoodleCup",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Android",
+      "source_url": "https://www.patreon.com/NoodleCup",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "patreon.com",
+      "source_url": "https://www.patreon.com/NoodleCup",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

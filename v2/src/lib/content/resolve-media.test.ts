@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { assembleHome } from './assemble';
-import { entitiesForTopic, matchesSubtopicFilter, presentArticle, risingStars, searchCatalog, trendingStars } from './present';
+import { entitiesForTopic, featuredSites, matchesSubtopicFilter, presentArticle, presentEntity, risingStars, searchCatalog, trendingStars } from './present';
 import { PLACEHOLDERS } from './resolve-media';
 import type { Catalog, RawArticle, RawImage, ReaderMode, Topic } from './types';
 import type { Entity } from './entity-schema';
@@ -236,4 +236,37 @@ test('searchCatalog matches multi-word synonym and multi-brand queries without s
   assert.equal(matchesSubtopicFilter(['vr', 'headsets', 'player'], 'headsets'), true);
   assert.equal(matchesSubtopicFilter(['performer', 'hall of fame'], 'icons'), true);
   assert.equal(matchesSubtopicFilter(['performer', 'veteran'], 'icons'), false);
+});
+
+test('featuredSites interleaves top sites across verticals without duplicates', () => {
+  const mk = (slug: string, tags: string[], score: number) => presentEntity({
+    slug,
+    type: 'site',
+    name: slug,
+    url: `https://${slug}.com`,
+    affiliate_url: null,
+    affiliate_status: 'needs_search',
+    monetization_methods: [],
+    summary: slug,
+    tags,
+    pricing: { model: 'Free', free_tier: 'Yes', from_price: null, currency: 'USD', plans: [], notes: null },
+    platforms: ['Web'],
+    score,
+    pros: [],
+    cons: [],
+    image: null,
+    facts: [],
+    updated: '2026-11-23',
+  }, sfw);
+  const cards = [
+    mk('hentai-top', ['hentai', 'doujinshi'], 9.1),
+    mk('tube-1', ['tube'], 8.2),
+    mk('cam-1', ['cams', 'live'], 8.7),
+    mk('plat-1', ['platform', 'creator'], 8.8),
+    mk('prem-1', ['premium', 'studio'], 8.9),
+    mk('vr-1', ['vr', 'studio'], 8.5),
+  ];
+  const featured = featuredSites(cards);
+  assert.equal(featured.length, 6);
+  assert.deepEqual(featured.slice(0, 4).map((c) => c.slug), ['tube-1', 'cam-1', 'plat-1', 'prem-1']);
 });

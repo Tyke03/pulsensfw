@@ -1,0 +1,57 @@
+{
+  "slug": "peter-north",
+  "type": "star",
+  "name": "Peter North",
+  "url": "https://en.wikipedia.org/wiki/Peter_North_(actor)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Alden Joseph Brown (Peter North) is a Canadian retired pornographic actor, director and producer. He has 2,189 credits as an actor and 78 as a director.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/peter-north.jpg",
+    "alt": "SFW portrait of Peter North",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Peter_North_2010.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Halifax, Nova Scotia, Canada",
+      "source_url": "https://en.wikipedia.org/wiki/Peter_North_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "He has 2,189 credits as an actor and 78 as a director.",
+      "source_url": "https://en.wikipedia.org/wiki/Peter_North_(actor)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

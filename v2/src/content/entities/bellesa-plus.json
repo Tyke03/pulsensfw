@@ -1,0 +1,79 @@
+{
+  "slug": "bellesa-plus",
+  "type": "site",
+  "name": "Bellesa Plus",
+  "url": "https://www.bellesaplus.co",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Female-led streaming subscription uniting Bellesa Films, Bellesa House unscripted chemistry, and curated partner studios.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples",
+    "story"
+  ],
+  "ranking_rationale": "Genuine performer-chosen pairings on Bellesa House; weighed against smaller raw library vs adult time mega-vault.",
+  "pricing": {
+    "model": "Netflix-style streaming pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Genuine performer-chosen pairings on Bellesa House",
+    "Clean Netflix-inspired ad-free portal",
+    "Best curated multi-studio bundle for sensual/female-friendly porn"
+  ],
+  "cons": [
+    "Smaller raw library vs Adult Time mega-vault",
+    "Monthly subscription cost higher than budget bundles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bellesa-plus.webp",
+    "alt": "Bellesa Plus logo and brand card",
+    "source_url": "https://www.bellesaplus.co",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.bellesaplus.co",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Netflix-style streaming pass",
+      "source_url": "https://www.bellesaplus.co",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bellesaplus.co",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bellesaplus.co",
+      "source_url": "https://www.bellesaplus.co",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

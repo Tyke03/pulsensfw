@@ -1,0 +1,79 @@
+{
+  "slug": "the-life-erotic",
+  "type": "site",
+  "name": "The Life Erotic",
+  "url": "https://www.thelifeerotic.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Authentic sun-soaked sensual cinema & photography brand inside MetArt Network focused on real chemistry.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "couples"
+  ],
+  "ranking_rationale": "Warm candid couples & solo films with zero artificiality; weighed against modest standalone catalog.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Warm candid couples & solo films with zero artificiality",
+    "Bundles cleanly with SexArt and MetArt",
+    "Sharp hi-res stills included"
+  ],
+  "cons": [
+    "Modest standalone catalog",
+    "Light pacing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/the-life-erotic.webp",
+    "alt": "The Life Erotic logo and brand card",
+    "source_url": "https://www.thelifeerotic.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.thelifeerotic.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.thelifeerotic.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.thelifeerotic.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "thelifeerotic.com",
+      "source_url": "https://www.thelifeerotic.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

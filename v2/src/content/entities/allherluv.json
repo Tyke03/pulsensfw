@@ -1,0 +1,79 @@
+{
+  "slug": "allherluv",
+  "type": "site",
+  "name": "AllHerLuv",
+  "url": "https://www.allherluv.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "MissaX's romantic female-gaze anthology creating glossy, intimate, emotionally textured girl-girl erotic stories.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples",
+    "story"
+  ],
+  "ranking_rationale": "Director-driven intimacy tailored with care and glamour; weighed against slower output (quality-over-quantity cadence).",
+  "pricing": {
+    "model": "Studio / MissaX bundle",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Director-driven intimacy tailored with care and glamour",
+    "Included with MissaX bundle passes",
+    "Gorgeous wardrobe and lighting"
+  ],
+  "cons": [
+    "Slower output (quality-over-quantity cadence)",
+    "Higher indie subscription fee"
+  ],
+  "image": {
+    "src": "/media/entities/sites/allherluv.webp",
+    "alt": "AllHerLuv logo and brand card",
+    "source_url": "https://www.allherluv.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.allherluv.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / MissaX bundle",
+      "source_url": "https://www.allherluv.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.allherluv.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "allherluv.com",
+      "source_url": "https://www.allherluv.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

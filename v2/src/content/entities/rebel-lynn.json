@@ -1,0 +1,62 @@
+{
+  "slug": "rebel-lynn",
+  "type": "star",
+  "name": "Rebel Lynn",
+  "url": "http://www.wikidata.org/entity/Q52133628",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Rebel Lynn — American pornographic actress. Industry career documented from 2015.",
+  "tags": [
+    "performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/rebel-lynn.jpg",
+    "alt": "SFW portrait of Rebel Lynn",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rebel_Lynn.jpeg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q52133628 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q52133628",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2015–present",
+      "source_url": "http://www.wikidata.org/entity/Q52133628",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1996",
+      "source_url": "http://www.wikidata.org/entity/Q52133628",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

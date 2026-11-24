@@ -433,8 +433,7 @@ export function entitiesForTopic(catalog: Catalog, topic: TopicId, filter: strin
   const items = presentCatalog(catalog, reader).filter((card) => {
     const belongs =
       entityTopic(card.type) === topic ||
-      (topic === 'vr' && card.type === 'site' && card.tags.some((tag) => tag.toLowerCase() === 'vr')) ||
-      (topic === 'vr' && filter === 'haptics' && card.type === 'product' && card.tags.some((tag) => tag.toLowerCase() === 'vr'));
+      (topic === 'vr' && card.type === 'site' && card.tags.some((tag) => tag.toLowerCase() === 'vr'));
     if (!belongs) return false;
     if (!filter) return true;
     return matchesSubtopicFilter(card.tags, filter);
@@ -557,6 +556,34 @@ export function siteSpotlights(catalog: Catalog, reader: ReaderMode): SiteSpotli
       };
     })
     .filter((shelf) => shelf.count > 0);
+}
+
+export function featuredSites(cards: readonly EntityCard[]): EntityCard[] {
+  const sorted = [...cards].sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title));
+  const buckets = SITE_SPOTLIGHT_DEFS.map((def) => sorted.filter((c) => matchesSubtopicFilter(c.tags, def.id)));
+  const cursors = buckets.map(() => 0);
+  const out: EntityCard[] = [];
+  const seen = new Set<string>();
+  let progress = true;
+  while (progress) {
+    progress = false;
+    for (let bi = 0; bi < buckets.length; bi++) {
+      const bucket = buckets[bi];
+      while (cursors[bi] < bucket.length && seen.has(bucket[cursors[bi]].slug)) {
+        cursors[bi]++;
+      }
+      if (cursors[bi] < bucket.length) {
+        const picked = bucket[cursors[bi]++];
+        seen.add(picked.slug);
+        out.push(picked);
+        progress = true;
+      }
+    }
+  }
+  for (const card of sorted) {
+    if (!seen.has(card.slug)) out.push(card);
+  }
+  return out;
 }
 
 export function byDateDesc(a: RawArticle, b: RawArticle): number {

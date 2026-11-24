@@ -29,7 +29,7 @@
         "notes": "Official docs list this plan but do not name the currency or confirm it is the cheapest current subscription"
       }
     ],
-    "notes": "No current Chub-hosted price verified at check time. Kobold/Ooba connections can be free if you self-host. Do not substitute review-site figures."
+    "notes": "No current Chub-hosted price verified at check time. Kobold/Ooba connections can be free if you self-host."
   },
   "platforms": [
     "Web"
@@ -79,7 +79,7 @@
       "source_url": "https://docs.chub.ai/docs/the-basics/getting-started",
       "checked": "2026-10-27",
       "evidence_type": "first_party",
-      "notes": "Fresh subscription-page fetch failed. Do not substitute review-site $5 figures."
+      "notes": "Fresh subscription-page fetch failed."
     },
     {
       "key": "Hosted free quota",
@@ -125,7 +125,7 @@
       "source_url": "https://www.reddit.com/r/ChatbotRefugees/comments/",
       "checked": "2026-10-27",
       "evidence_type": "community",
-      "notes": "Free-tier cap community-reported, unverified. Trust audit verdict: caution."
+      "notes": "Free-tier cap community-reported, unverified. Reputation note (caution)."
     },
     {
       "key": "Stability",

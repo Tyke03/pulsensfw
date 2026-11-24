@@ -1,0 +1,79 @@
+{
+  "slug": "virtualrealtrans",
+  "type": "site",
+  "name": "VirtualRealTrans",
+  "url": "https://virtualrealtrans.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "VirtualRealPorn's flagship sister studio dedicated exclusively to high-resolution 180° trans VR performers and binaural sound.",
+  "tags": [
+    "vr",
+    "studio",
+    "trans"
+  ],
+  "ranking_rationale": "Best European cast & spatial audio in trans VR; weighed against lighter weekly release schedule.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Best European cast & spatial audio in trans VR",
+    "Clean Quest/PCVR/DeoVR streaming apps",
+    "Sharp natural scale calibration"
+  ],
+  "cons": [
+    "Lighter weekly release schedule",
+    "Standalone billing separate from VRP"
+  ],
+  "image": {
+    "src": "/media/entities/sites/virtualrealtrans.webp",
+    "alt": "VirtualRealTrans logo and brand card",
+    "source_url": "https://virtualrealtrans.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://virtualrealtrans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://virtualrealtrans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR",
+      "source_url": "https://virtualrealtrans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "virtualrealtrans.com",
+      "source_url": "https://virtualrealtrans.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

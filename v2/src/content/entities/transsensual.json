@@ -1,0 +1,79 @@
+{
+  "slug": "transsensual",
+  "type": "site",
+  "name": "TransSensual",
+  "url": "https://www.transsensual.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Nica Noelle's story-driven trans drama flagship balancing romantic acting, intense chemistry, and Gamma-grade production.",
+  "tags": [
+    "premium",
+    "studio",
+    "trans",
+    "story"
+  ],
+  "ranking_rationale": "Best storyline dialogue and dramatic acting in the trans genre; weighed against smaller scene count per month.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Best storyline dialogue and dramatic acting in the trans genre",
+    "Bundled neatly under Adult Time / Mile High networks",
+    "Respectful chemistry-led directing"
+  ],
+  "cons": [
+    "Smaller scene count per month",
+    "Dramatic plots build slowly"
+  ],
+  "image": {
+    "src": "/media/entities/sites/transsensual.webp",
+    "alt": "TransSensual logo and brand card",
+    "source_url": "https://www.transsensual.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.transsensual.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.transsensual.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.transsensual.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "transsensual.com",
+      "source_url": "https://www.transsensual.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

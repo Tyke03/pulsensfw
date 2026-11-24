@@ -1,0 +1,78 @@
+{
+  "slug": "maloum",
+  "type": "site",
+  "name": "Maloum",
+  "url": "https://www.maloum.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "German-engineered creator monetization network featuring TikTok-style vertical discovery reels and secure EU payouts.",
+  "tags": [
+    "platform",
+    "creator",
+    "european"
+  ],
+  "ranking_rationale": "Great vertical discovery feed helps creators get found; weighed against strong dach/german bias across top feeds.",
+  "pricing": {
+    "model": "Creator subscriptions + tips",
+    "free_tier": "Free previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Great vertical discovery feed helps creators get found",
+    "Clean German/English mobile web UI",
+    "No arbitrary sudden purges"
+  ],
+  "cons": [
+    "Strong DACH/German bias across top feeds",
+    "Requires signup to browse deeper feeds"
+  ],
+  "image": {
+    "src": "/media/entities/sites/maloum.webp",
+    "alt": "Maloum logo and brand card",
+    "source_url": "https://www.maloum.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.maloum.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions + tips",
+      "source_url": "https://www.maloum.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.maloum.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "maloum.com",
+      "source_url": "https://www.maloum.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "aubrey-kate",
+  "type": "star",
+  "name": "Aubrey Kate",
+  "url": "http://www.wikidata.org/entity/Q26838783",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Aubrey Kate — American transgender pornographic actress. Industry career documented from 2013.",
+  "tags": [
+    "performer",
+    "veteran",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/aubrey-kate.jpg",
+    "alt": "SFW portrait of Aubrey Kate",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aubrey_Kate.png",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q26838783 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q26838783",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2013–present",
+      "source_url": "http://www.wikidata.org/entity/Q26838783",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1992",
+      "source_url": "http://www.wikidata.org/entity/Q26838783",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

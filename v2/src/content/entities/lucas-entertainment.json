@@ -1,0 +1,79 @@
+{
+  "slug": "lucas-entertainment",
+  "type": "site",
+  "name": "Lucas Entertainment",
+  "url": "https://www.lucasentertainment.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Michael Lucas's glossy New York and Fire Island luxury gay studio featuring lavish destination shoots.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "Glamorous Fire Island & European destination sets; weighed against heavy glossy aesthetic lacks raw amateur feel.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Glamorous Fire Island & European destination sets",
+    "Strong international cast lineup",
+    "Consistent weekly 4K releases"
+  ],
+  "cons": [
+    "Heavy glossy aesthetic lacks raw amateur feel",
+    "Steep standalone monthly price"
+  ],
+  "image": {
+    "src": "/media/entities/sites/lucas-entertainment.webp",
+    "alt": "Lucas Entertainment logo and brand card",
+    "source_url": "https://www.lucasentertainment.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.lucasentertainment.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.lucasentertainment.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.lucasentertainment.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lucasentertainment.com",
+      "source_url": "https://www.lucasentertainment.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

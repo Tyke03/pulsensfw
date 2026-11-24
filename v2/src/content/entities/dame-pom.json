@@ -1,0 +1,77 @@
+{
+  "slug": "dame-pom",
+  "type": "product",
+  "name": "Dame Pom",
+  "url": "https://dame.com/products/pom",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Palm-sized supple flexible external vibe wrapping smoothly around fingers and body curves for effortless solo or partner touch.",
+  "tags": [
+    "quiet",
+    "couples",
+    "waterproof"
+  ],
+  "ranking_rationale": "Ultra-soft bendable body feels like an extension of hand; weighed against not a penetrative or air-pulse toy.",
+  "pricing": {
+    "model": "One-time purchase (~$95)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Ultra-soft bendable body feels like an extension of hand",
+    "5 crisp rumbly speeds & patterns",
+    "USB waterproof build"
+  ],
+  "cons": [
+    "Not a penetrative or air-pulse toy",
+    "Compact battery runtime (~1 hr)"
+  ],
+  "image": {
+    "src": "/media/entities/products/dame-pom.webp",
+    "alt": "Dame Pom logo and brand card",
+    "source_url": "https://dame.com/products/pom",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://dame.com/products/pom",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase (~$95)",
+      "source_url": "https://dame.com/products/pom",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://dame.com/products/pom",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dame.com",
+      "source_url": "https://dame.com/products/pom",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

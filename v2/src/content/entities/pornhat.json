@@ -1,0 +1,78 @@
+{
+  "slug": "pornhat",
+  "type": "site",
+  "name": "PornHat",
+  "url": "https://www.pornhat.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast streamlined free tube offering full-length clips, star tags, and uncluttered desktop layout.",
+  "tags": [
+    "tube",
+    "hd",
+    "streaming"
+  ],
+  "ranking_rationale": "Clean full-scene lengths on many clips; weighed against occasional dead links on old uploads.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Clean full-scene lengths on many clips",
+    "Fast video buffer speeds",
+    "Minimal text noise"
+  ],
+  "cons": [
+    "Occasional dead links on old uploads",
+    "Pop-under promos"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pornhat.webp",
+    "alt": "PornHat logo and brand card",
+    "source_url": "https://www.pornhat.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.pornhat.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.pornhat.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.pornhat.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pornhat.com",
+      "source_url": "https://www.pornhat.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

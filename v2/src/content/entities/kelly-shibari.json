@@ -1,0 +1,57 @@
+{
+  "slug": "kelly-shibari",
+  "type": "star",
+  "name": "Kelly Shibari",
+  "url": "https://en.wikipedia.org/wiki/Kelly_Shibari",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Kelly Shibari is a Japanese and American pornographic film actress and plus-size model.",
+  "tags": [
+    "performer",
+    "veteran",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/kelly-shibari.jpg",
+    "alt": "SFW portrait of Kelly Shibari",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kelly_Shibari_-_2013_AVN_Expo_Photos_Las_Vegas_(8413507436).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Japan",
+      "source_url": "https://en.wikipedia.org/wiki/Kelly_Shibari",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Kelly Shibari",
+      "source_url": "https://en.wikipedia.org/wiki/Kelly_Shibari",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

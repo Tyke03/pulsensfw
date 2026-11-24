@@ -1,0 +1,80 @@
+{
+  "slug": "oobabooga-textgen",
+  "type": "ai_app",
+  "name": "Text Generation WebUI",
+  "url": "https://github.com/oobabooga/text-generation-webui",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The legendary Swiss-Army Gradio web UI supporting ExLlamaV2, llama.cpp, LoRAs, extensions, and local roleplay.",
+  "tags": [
+    "local",
+    "offline",
+    "privacy",
+    "nsfw"
+  ],
+  "ranking_rationale": "Handles nearly every quantization backend (EXL2, GGUF, GPTQ); weighed against utilitarian gradio layout lacks sillytavern immersion.",
+  "pricing": {
+    "model": "Free open-source (AGPL)",
+    "free_tier": "100% free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Handles nearly every quantization backend (EXL2, GGUF, GPTQ)",
+    "Deep parameter tweaking (DRY/XTC samplers) before other UIs",
+    "100% private localhost execution"
+  ],
+  "cons": [
+    "Utilitarian Gradio layout lacks SillyTavern immersion",
+    "Extension updates occasionally break between releases"
+  ],
+  "image": {
+    "src": "/media/entities/ai/oobabooga-textgen.webp",
+    "alt": "Text Generation WebUI logo and brand card",
+    "source_url": "https://github.com/oobabooga/text-generation-webui",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://github.com/oobabooga/text-generation-webui",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open-source (AGPL)",
+      "source_url": "https://github.com/oobabooga/text-generation-webui",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS",
+      "source_url": "https://github.com/oobabooga/text-generation-webui",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/oobabooga/text-generation-webui",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

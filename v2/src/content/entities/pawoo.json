@@ -1,0 +1,78 @@
+{
+  "slug": "pawoo",
+  "type": "site",
+  "name": "Pawoo",
+  "url": "https://pawoo.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Giant Pixiv-rooted Japanese Mastodon/Fediverse instance bustling with anime artists posting uncensored sketches and WIPs.",
+  "tags": [
+    "comics",
+    "hentai",
+    "art"
+  ],
+  "ranking_rationale": "Enormous Japanese doujinshi/character illustrator community; weighed against primarily japanese ui and captions.",
+  "pricing": {
+    "model": "Free Fediverse community",
+    "free_tier": "Free browsing & account",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Enormous Japanese doujinshi/character illustrator community",
+    "Fast timeline feed with multi-image sets",
+    "Direct artist links to Fanbox/Skeb"
+  ],
+  "cons": [
+    "Primarily Japanese UI and captions",
+    "Corporate transfer history makes privacy nerds cautious"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pawoo.webp",
+    "alt": "Pawoo logo and brand card",
+    "source_url": "https://pawoo.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://pawoo.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free Fediverse community",
+      "source_url": "https://pawoo.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pawoo.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pawoo.net",
+      "source_url": "https://pawoo.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

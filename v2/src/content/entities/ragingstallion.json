@@ -1,0 +1,78 @@
+{
+  "slug": "ragingstallion",
+  "type": "site",
+  "name": "Raging Stallion",
+  "url": "https://www.ragingstallion.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Chris Ward's historic rugged masculinity flagship inside Falcon|NakedSword housing deep feature films and high-energy scenes.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay"
+  ],
+  "ranking_rationale": "Iconic leather, hairy, rugged aesthetic & 25-year library; weighed against niche rugged preference isn't universal.",
+  "pricing": {
+    "model": "Studio / NakedSword subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Iconic leather, hairy, rugged aesthetic & 25-year library",
+    "High production lighting and sound",
+    "Part of NakedSword bundle ecosystem"
+  ],
+  "cons": [
+    "Niche rugged preference isn't universal",
+    "Aging member archive layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ragingstallion.webp",
+    "alt": "Raging Stallion logo and brand card",
+    "source_url": "https://www.ragingstallion.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.ragingstallion.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / NakedSword subscription",
+      "source_url": "https://www.ragingstallion.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.ragingstallion.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ragingstallion.com",
+      "source_url": "https://www.ragingstallion.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

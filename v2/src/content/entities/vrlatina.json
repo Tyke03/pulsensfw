@@ -1,0 +1,79 @@
+{
+  "slug": "vrlatina",
+  "type": "site",
+  "name": "VRLatina",
+  "url": "https://www.vrlatina.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Dedicated stereoscopic 180° VR studio spotlighting Colombian, Brazilian, and Latin American models in crisp HD/4K–8K.",
+  "tags": [
+    "vr",
+    "studio",
+    "niche"
+  ],
+  "ranking_rationale": "Vibrant Latin American performer cast rarely seen on US studios; weighed against smaller catalog than generalist studios.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Quest",
+    "PCVR",
+    "DeoVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Vibrant Latin American performer cast rarely seen on US studios",
+    "Bright natural tropical sets",
+    "Works cleanly via DeoVR/download"
+  ],
+  "cons": [
+    "Smaller catalog than generalist studios",
+    "Inconsistent early bitrates"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrlatina.webp",
+    "alt": "VRLatina logo and brand card",
+    "source_url": "https://www.vrlatina.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://www.vrlatina.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://www.vrlatina.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Quest, PCVR, DeoVR",
+      "source_url": "https://www.vrlatina.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrlatina.com",
+      "source_url": "https://www.vrlatina.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

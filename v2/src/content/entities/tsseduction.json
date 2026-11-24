@@ -1,0 +1,78 @@
+{
+  "slug": "tsseduction",
+  "type": "site",
+  "name": "TS Seduction",
+  "url": "https://www.tsseduction.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Bisexual and trans-focused flagship studio highlighting glamorous trans women in polished multi-partner HD/4K scenes.",
+  "tags": [
+    "premium",
+    "studio",
+    "trans"
+  ],
+  "ranking_rationale": "Strong star roster and consistent crisp camerawork; weighed against older portal feel.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Strong star roster and consistent crisp camerawork",
+    "Part of Gamma / TransSensual ecosystem",
+    "Good tag organization"
+  ],
+  "cons": [
+    "Older portal feel",
+    "Specific niche focus"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tsseduction.webp",
+    "alt": "TS Seduction logo and brand card",
+    "source_url": "https://www.tsseduction.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.tsseduction.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.tsseduction.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tsseduction.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tsseduction.com",
+      "source_url": "https://www.tsseduction.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

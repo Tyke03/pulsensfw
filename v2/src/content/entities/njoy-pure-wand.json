@@ -1,0 +1,77 @@
+{
+  "slug": "njoy-pure-wand",
+  "type": "product",
+  "name": "njoy Pure Wand",
+  "url": "https://www.njoytoys.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic heavy surgical stainless-steel G-spot & P-spot wand delivering effortless lifetime pinpoint pressure zero motors can rival.",
+  "tags": [
+    "classic",
+    "quiet",
+    "waterproof"
+  ],
+  "ranking_rationale": "Unmatched unyielding leverage & lifetime surgical steel hygiene; weighed against substantial weight (~1 lb) isn't travel light.",
+  "pricing": {
+    "model": "One-time purchase (~$125)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Unmatched unyielding leverage & lifetime surgical steel hygiene",
+    "100% silent, temperature-responsive (warm/cool water), zero batteries",
+    "Ideal G-spot & prostate curve accuracy"
+  ],
+  "cons": [
+    "Substantial weight (~1 lb) isn't travel light",
+    "Non-vibrating manual tool"
+  ],
+  "image": {
+    "src": "/media/entities/products/njoy-pure-wand.webp",
+    "alt": "njoy Pure Wand logo and brand card",
+    "source_url": "https://www.njoytoys.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.njoytoys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase (~$125)",
+      "source_url": "https://www.njoytoys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.njoytoys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "njoytoys.com",
+      "source_url": "https://www.njoytoys.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

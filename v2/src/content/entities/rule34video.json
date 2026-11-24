@@ -1,0 +1,78 @@
+{
+  "slug": "rule34video",
+  "type": "site",
+  "name": "Rule34Video",
+  "url": "https://rule34video.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Focused animated loop & Blender/SFM 3D video tube indexing fandom animations with crisp 60fps 1080p streams.",
+  "tags": [
+    "comics",
+    "3d",
+    "hentai"
+  ],
+  "ranking_rationale": "True dedicated home for Blender/SFM/2D animated adult loops; weighed against pop ads without blocker.",
+  "pricing": {
+    "model": "Free ad-supported animated tube",
+    "free_tier": "Full streaming free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "True dedicated home for Blender/SFM/2D animated adult loops",
+    "Crisp 60fps MP4 playback and clean fandom tags",
+    "Minimal UI clutter vs generic tubes"
+  ],
+  "cons": [
+    "Pop ads without blocker",
+    "Creator reuploads occasionally spark DMCA churn"
+  ],
+  "image": {
+    "src": "/media/entities/sites/rule34video.webp",
+    "alt": "Rule34Video logo and brand card",
+    "source_url": "https://rule34video.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://rule34video.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported animated tube",
+      "source_url": "https://rule34video.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://rule34video.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "rule34video.com",
+      "source_url": "https://rule34video.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

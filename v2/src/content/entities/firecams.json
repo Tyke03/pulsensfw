@@ -1,0 +1,78 @@
+{
+  "slug": "firecams",
+  "type": "site",
+  "name": "FireCams",
+  "url": "https://www.firecams.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sleek dark-themed cam portal powered by Streamate & Flirt4Free backends with fast mobile trait filtering.",
+  "tags": [
+    "cams",
+    "live",
+    "hd"
+  ],
+  "ranking_rationale": "Fast responsive card filters on mobile; weighed against syndicated rooms overlap major parent networks.",
+  "pricing": {
+    "model": "Private credits",
+    "free_tier": "Free room previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Fast responsive card filters on mobile",
+    "High share of clean HD feeds",
+    "No intrusive popups"
+  ],
+  "cons": [
+    "Syndicated rooms overlap major parent networks",
+    "Limited free public explicit rooms"
+  ],
+  "image": {
+    "src": "/media/entities/sites/firecams.webp",
+    "alt": "FireCams logo and brand card",
+    "source_url": "https://www.firecams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.firecams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Private credits",
+      "source_url": "https://www.firecams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.firecams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "firecams.com",
+      "source_url": "https://www.firecams.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

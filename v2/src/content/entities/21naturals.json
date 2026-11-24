@@ -1,0 +1,79 @@
+{
+  "slug": "21naturals",
+  "type": "site",
+  "name": "21Naturals",
+  "url": "https://www.21naturals.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "21Sextury's dedicated natural-body European glamour network celebrating authentic un-augmented models.",
+  "tags": [
+    "premium",
+    "studio",
+    "european",
+    "glamour"
+  ],
+  "ranking_rationale": "Pure natural beauty focus across Central Europe; weighed against light on scripted narrative.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Pure natural beauty focus across Central Europe",
+    "Crisp daylight & indoor lighting",
+    "Bundled inside 21Sextury / Adult Time"
+  ],
+  "cons": [
+    "Light on scripted narrative",
+    "Standard Gamma member cross-sell"
+  ],
+  "image": {
+    "src": "/media/entities/sites/21naturals.webp",
+    "alt": "21Naturals logo and brand card",
+    "source_url": "https://www.21naturals.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.21naturals.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.21naturals.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.21naturals.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "21naturals.com",
+      "source_url": "https://www.21naturals.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

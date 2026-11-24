@@ -1,0 +1,78 @@
+{
+  "slug": "hclips",
+  "type": "site",
+  "name": "HClips",
+  "url": "https://hclips.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Large multi-category sister tube to Txxx featuring fast player mirrors and tag sorting.",
+  "tags": [
+    "tube",
+    "mainstream",
+    "streaming"
+  ],
+  "ranking_rationale": "Deep catalog across everyday niches; weighed against heavy cross-tube duplication.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Deep catalog across everyday niches",
+    "Fast CDN mirror switching",
+    "Mobile-friendly player"
+  ],
+  "cons": [
+    "Heavy cross-tube duplication",
+    "Standard pop-under banners"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hclips.webp",
+    "alt": "HClips logo and brand card",
+    "source_url": "https://hclips.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://hclips.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://hclips.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hclips.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hclips.com",
+      "source_url": "https://hclips.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

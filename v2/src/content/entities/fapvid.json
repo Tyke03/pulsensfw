@@ -1,0 +1,78 @@
+{
+  "slug": "fapvid",
+  "type": "site",
+  "name": "FapVid",
+  "url": "https://www.fapvid.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-speed traditional category tube featuring quick clips, amateur channels, and minimal account clutter.",
+  "tags": [
+    "tube",
+    "mainstream",
+    "streaming"
+  ],
+  "ranking_rationale": "Super quick page load times; weighed against older web design.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.0,
+  "pros": [
+    "Super quick page load times",
+    "Broad mainstream tags",
+    "Zero login needed"
+  ],
+  "cons": [
+    "Older web design",
+    "Lower average resolution on legacy scenes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fapvid.webp",
+    "alt": "FapVid logo and brand card",
+    "source_url": "https://www.fapvid.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.fapvid.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.fapvid.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.fapvid.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fapvid.com",
+      "source_url": "https://www.fapvid.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

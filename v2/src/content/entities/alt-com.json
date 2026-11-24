@@ -1,0 +1,78 @@
+{
+  "slug": "alt-com",
+  "type": "site",
+  "name": "ALT.com",
+  "url": "https://alt.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-running BDSM, alternative dating, and kink personals directory operating inside the FriendFinder ecosystem.",
+  "tags": [
+    "niche",
+    "fetish",
+    "bdsm"
+  ],
+  "ranking_rationale": "Enormous 20-year database of kink personal ads; weighed against very dated interface + aggressive upsells on messaging.",
+  "pricing": {
+    "model": "Membership subscription",
+    "free_tier": "Free browse & basic profile",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Enormous 20-year database of kink personal ads",
+    "Extensive BDSM role compatibility questionnaires",
+    "Supports regional event listings"
+  ],
+  "cons": [
+    "Very dated interface + aggressive upsells on messaging",
+    "Fake/inactive legacy profile clutter"
+  ],
+  "image": {
+    "src": "/media/entities/sites/alt-com.webp",
+    "alt": "ALT.com logo and brand card",
+    "source_url": "https://alt.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://alt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Membership subscription",
+      "source_url": "https://alt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://alt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "alt.com",
+      "source_url": "https://alt.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

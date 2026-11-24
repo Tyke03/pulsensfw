@@ -1,0 +1,80 @@
+{
+  "slug": "agnai-chat",
+  "type": "ai_app",
+  "name": "Agnai.chat",
+  "url": "https://agnai.chat",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Power-user web/self-hostable SillyTavern alternative uniting browser IndexedDB privacy, lorebooks, and BYO API/Kobold hooks.",
+  "tags": [
+    "chat",
+    "character chat",
+    "privacy",
+    "nsfw"
+  ],
+  "ranking_rationale": "Instant zero-install web client that runs anywhere SillyTavern feels heavy; weighed against busy power-user ui settings panel.",
+  "pricing": {
+    "model": "Free self-host + BYO key + Patreon",
+    "free_tier": "Unlimited local/BYO API mode free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Linux",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Instant zero-install web client that runs anywhere SillyTavern feels heavy",
+    "Self-hostable open source option + strong API connectors",
+    "Rich character card & lorebook tools"
+  ],
+  "cons": [
+    "Busy power-user UI settings panel",
+    "Hosted free models are rate-limited"
+  ],
+  "image": {
+    "src": "/media/entities/ai/agnai-chat.webp",
+    "alt": "Agnai.chat logo and brand card",
+    "source_url": "https://agnai.chat",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://agnai.chat",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free self-host + BYO key + Patreon",
+      "source_url": "https://agnai.chat",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Linux, Mobile web",
+      "source_url": "https://agnai.chat",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "agnai.chat",
+      "source_url": "https://agnai.chat",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

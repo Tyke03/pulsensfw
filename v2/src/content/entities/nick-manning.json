@@ -1,0 +1,65 @@
+{
+  "slug": "nick-manning",
+  "type": "star",
+  "name": "Nick Manning",
+  "url": "https://en.wikipedia.org/wiki/Nick_Manning",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nick Manning is an American pornographic actor and director. He has made several mainstream appearances, including Crank: High Voltage, Hogan Knows Best, and Sons of Anarchy.",
+  "tags": [
+    "performer",
+    "hall of fame",
+    "awards",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nick-manning.jpg",
+    "alt": "SFW portrait of Nick Manning",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nick_Manning_2010.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Chicago, Illinois, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Nick_Manning",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "In 2014, he was inducted into the AVN Hall of Fame.",
+      "source_url": "https://en.wikipedia.org/wiki/Nick_Manning",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "He has made several mainstream appearances, including Crank: High Voltage, Hogan Knows Best, and Sons of Anarchy.",
+      "source_url": "https://en.wikipedia.org/wiki/Nick_Manning",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

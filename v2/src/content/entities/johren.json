@@ -1,0 +1,78 @@
+{
+  "slug": "johren",
+  "type": "site",
+  "name": "Johren",
+  "url": "https://www.johren.games",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "DMM Games' official international English publishing arm bringing licensed Japanese R18 browser and VN titles abroad.",
+  "tags": [
+    "hentai",
+    "games",
+    "visual-novel"
+  ],
+  "ranking_rationale": "Direct official link to major DMM Japanese releases; weighed against proprietary client launcher & strict drm policies.",
+  "pricing": {
+    "model": "Digital store + Johren Credits",
+    "free_tier": "Free demos & F2P games",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Direct official link to major DMM Japanese releases",
+    "Full uncensored official translations",
+    "Supports Windows and browser titles"
+  ],
+  "cons": [
+    "Proprietary client launcher & strict DRM policies",
+    "Slow seasonal updates"
+  ],
+  "image": {
+    "src": "/media/entities/sites/johren.webp",
+    "alt": "Johren logo and brand card",
+    "source_url": "https://www.johren.games",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.johren.games",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Digital store + Johren Credits",
+      "source_url": "https://www.johren.games",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows",
+      "source_url": "https://www.johren.games",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "johren.games",
+      "source_url": "https://www.johren.games",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

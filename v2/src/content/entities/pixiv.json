@@ -1,0 +1,79 @@
+{
+  "slug": "pixiv",
+  "type": "site",
+  "name": "Pixiv R-18",
+  "url": "https://www.pixiv.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japan's monumental home for millions of original illustrators, manga artists, and official R-18 fanworks (toggleable).",
+  "tags": [
+    "comics",
+    "hentai",
+    "art"
+  ],
+  "ranking_rationale": "Authentic original Japanese/global artists direct from source; weighed against japanese censorship laws require mosaic/bar censoring on r-18 posts.",
+  "pricing": {
+    "model": "Free community + Pixiv Premium + Fanbox",
+    "free_tier": "Full viewing & following free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Authentic original Japanese/global artists direct from source",
+    "Zero spammy tube ads; Fanbox links let fans support artists",
+    "Unrivaled art quality"
+  ],
+  "cons": [
+    "Japanese censorship laws require mosaic/bar censoring on R-18 posts",
+    "Requires free logged-in account & R-18 setting"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pixiv.webp",
+    "alt": "Pixiv R-18 logo and brand card",
+    "source_url": "https://www.pixiv.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.pixiv.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community + Pixiv Premium + Fanbox",
+      "source_url": "https://www.pixiv.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.pixiv.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pixiv.net",
+      "source_url": "https://www.pixiv.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "sheer-com",
+  "type": "site",
+  "name": "Sheer",
+  "url": "https://www.sheer.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Aylo's dedicated independent clip & creator hub uniting verified indie performers with fast Pornhub-class CDN delivery.",
+  "tags": [
+    "platform",
+    "clips",
+    "creator"
+  ],
+  "ranking_rationale": "Ultra-fast global streaming infrastructure behind indie creators; weighed against heavy mainstream performer bias over niche kinks.",
+  "pricing": {
+    "model": "Creator subs + clip buys",
+    "free_tier": "Trailers & promos free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Ultra-fast global streaming infrastructure behind indie creators",
+    "Combines clip purchases and monthly fan passes",
+    "Clean dark UX"
+  ],
+  "cons": [
+    "Heavy mainstream performer bias over niche kinks",
+    "Corporate fee terms"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sheer-com.webp",
+    "alt": "Sheer logo and brand card",
+    "source_url": "https://www.sheer.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.sheer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subs + clip buys",
+      "source_url": "https://www.sheer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sheer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sheer.com",
+      "source_url": "https://www.sheer.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

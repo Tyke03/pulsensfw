@@ -1,0 +1,78 @@
+{
+  "slug": "baraag",
+  "type": "site",
+  "name": "Baraag",
+  "url": "https://baraag.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fediverse / Mastodon microblogging home for NSFW illustrators, Live2D animators, and comic artists after X/Tumblr bans.",
+  "tags": [
+    "comics",
+    "hentai",
+    "art"
+  ],
+  "ranking_rationale": "Chronological federated feed of real indie artists (zero algorithm suppression); weighed against interface shares clunky mastodon columns.",
+  "pricing": {
+    "model": "Free open Fediverse instance",
+    "free_tier": "Full account & feed free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Chronological federated feed of real indie artists (zero algorithm suppression)",
+    "Federates cleanly with Mastodon/ActivityPub instances",
+    "Active R18 illustration community"
+  ],
+  "cons": [
+    "Interface shares clunky Mastodon columns",
+    "Server load varies during spikes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/baraag.webp",
+    "alt": "Baraag logo and brand card",
+    "source_url": "https://baraag.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://baraag.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open Fediverse instance",
+      "source_url": "https://baraag.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://baraag.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "baraag.net",
+      "source_url": "https://baraag.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

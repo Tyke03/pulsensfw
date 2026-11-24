@@ -1,0 +1,64 @@
+{
+  "slug": "john-leslie",
+  "type": "star",
+  "name": "John Leslie",
+  "url": "https://en.wikipedia.org/wiki/John_Leslie_(director)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "John Leslie Nuzzo (January 25, 1945 – December 5, 2010) was an American pornographic film actor-director-producer. Usually credited under the name John Leslie, he also worked under a variety of pseudonyms, including John Leslie Dupre, Frederick Watson, and Lenny Lovely.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/john-leslie.jpg",
+    "alt": "SFW portrait of John Leslie",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John_Leslie_AEE_Las_Vegas_20070115_crop.jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "1975-2010",
+      "source_url": "https://en.wikipedia.org/wiki/John_Leslie_(director)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "East Liverpool, Ohio, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/John_Leslie_(director)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Usually credited under the name John Leslie, he also worked under a variety of pseudonyms, including John Leslie Dupre, Frederick Watson, and Lenny Lovely.",
+      "source_url": "https://en.wikipedia.org/wiki/John_Leslie_(director)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

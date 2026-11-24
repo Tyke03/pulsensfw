@@ -1,0 +1,58 @@
+{
+  "slug": "buck-adams",
+  "type": "star",
+  "name": "Buck Adams",
+  "url": "https://en.wikipedia.org/wiki/Buck_Adams",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Buck Adams was an American pornographic film actor and director.",
+  "tags": [
+    "performer",
+    "former performer",
+    "awards",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/buck-adams.jpg",
+    "alt": "SFW portrait of Buck Adams",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Buck_Adams_at_2005_AEE_Thursday.crop.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "United States",
+      "source_url": "https://en.wikipedia.org/wiki/Buck_Adams",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for Buck Adams",
+      "source_url": "https://en.wikipedia.org/wiki/Buck_Adams",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

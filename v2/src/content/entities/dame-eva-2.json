@@ -1,0 +1,78 @@
+{
+  "slug": "dame-eva-2",
+  "type": "product",
+  "name": "Dame Eva II",
+  "url": "https://dame.com/products/eva",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Clever wing-tucked hands-free clitoral vibrator engineered to stay anchored during partner sex without apps or straps.",
+  "tags": [
+    "couples",
+    "quiet",
+    "wearable",
+    "waterproof"
+  ],
+  "ranking_rationale": "Ingenious flexible tuck wings require zero straps or hands; weighed against wings take a session or two to position comfortably.",
+  "pricing": {
+    "model": "One-time purchase (~$135)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Ingenious flexible tuck wings require zero straps or hands",
+    "Deep rumbly vibration safe under body weight",
+    "Subtle matte aesthetic"
+  ],
+  "cons": [
+    "Wings take a session or two to position comfortably",
+    "No smart app controls"
+  ],
+  "image": {
+    "src": "/media/entities/products/dame-eva-2.webp",
+    "alt": "Dame Eva II logo and brand card",
+    "source_url": "https://dame.com/products/eva",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://dame.com/products/eva",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time purchase (~$135)",
+      "source_url": "https://dame.com/products/eva",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://dame.com/products/eva",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dame.com",
+      "source_url": "https://dame.com/products/eva",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

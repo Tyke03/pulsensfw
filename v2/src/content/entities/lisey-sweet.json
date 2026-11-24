@@ -1,0 +1,65 @@
+{
+  "slug": "lisey-sweet",
+  "type": "star",
+  "name": "Lisey Sweet",
+  "url": "http://www.wikidata.org/entity/Q54887679",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lisey Sweet — American pornographic actress (born 1989). Industry career documented from 2017.",
+  "tags": [
+    "performer",
+    "onlyfans",
+    "creator"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "OnlyFans",
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/lisey-sweet.jpg",
+    "alt": "SFW portrait of Lisey Sweet",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lisey_Sweet.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q54887679 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q54887679",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2017–present",
+      "source_url": "http://www.wikidata.org/entity/Q54887679",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1989",
+      "source_url": "http://www.wikidata.org/entity/Q54887679",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

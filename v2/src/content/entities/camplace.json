@@ -1,0 +1,78 @@
+{
+  "slug": "camplace",
+  "type": "site",
+  "name": "CamPlace",
+  "url": "https://www.camplace.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "European-run live cam network pairing clear category discovery, HD group shows, and friendly multi-currency tipping.",
+  "tags": [
+    "cams",
+    "live",
+    "tokens"
+  ],
+  "ranking_rationale": "Strong European model mix + smooth HTML5 rooms; weighed against smaller global roster than chaturbate.",
+  "pricing": {
+    "model": "Tokens & privates",
+    "free_tier": "Free public streams",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Strong European model mix + smooth HTML5 rooms",
+    "Transparent Gold vs Private credit structure",
+    "Clean UI"
+  ],
+  "cons": [
+    "Smaller global roster than Chaturbate",
+    "Login nudges after brief idle view"
+  ],
+  "image": {
+    "src": "/media/entities/sites/camplace.webp",
+    "alt": "CamPlace logo and brand card",
+    "source_url": "https://www.camplace.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.camplace.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & privates",
+      "source_url": "https://www.camplace.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.camplace.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "camplace.com",
+      "source_url": "https://www.camplace.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

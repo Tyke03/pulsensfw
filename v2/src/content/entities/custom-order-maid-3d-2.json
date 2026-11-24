@@ -1,0 +1,79 @@
+{
+  "slug": "custom-order-maid-3d-2",
+  "type": "game",
+  "name": "Custom Order Maid 3D 2",
+  "url": "https://kiss.com.jp",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Official English KISS anime customization, dance/management, and full VR-capable 3D studio powerhouse (COM3D2).",
+  "tags": [
+    "games",
+    "vr",
+    "anime"
+  ],
+  "ranking_rationale": "Colossal anime character & wardrobe customization depth; weighed against complex dated japanese menu hierarchy & expensive dlc packs.",
+  "pricing": {
+    "model": "Paid base + official DLCs",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "PCVR",
+    "Steam"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Colossal anime character & wardrobe customization depth",
+    "True native PCVR mode + rhythm/club management",
+    "Massive community mod & plugin library"
+  ],
+  "cons": [
+    "Complex dated Japanese menu hierarchy & expensive DLC packs",
+    "Setup requires R18 Steam/JAST patch"
+  ],
+  "image": {
+    "src": "/media/entities/games/custom-order-maid-3d-2.webp",
+    "alt": "Custom Order Maid 3D 2 logo and brand card",
+    "source_url": "https://kiss.com.jp",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://kiss.com.jp",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid base + official DLCs",
+      "source_url": "https://kiss.com.jp",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, PCVR, Steam",
+      "source_url": "https://kiss.com.jp",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kiss.com.jp",
+      "source_url": "https://kiss.com.jp",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

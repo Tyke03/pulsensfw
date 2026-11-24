@@ -1,0 +1,59 @@
+{
+  "slug": "john-stagliano",
+  "type": "star",
+  "name": "John Stagliano",
+  "url": "https://en.wikipedia.org/wiki/John_Stagliano",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "John Stagliano, also known as Buttman, is an American entrepreneur, former pornographic film actor, producer and director who founded and owns the Evil Angel pornographic film studio.",
+  "tags": [
+    "performer",
+    "former performer",
+    "awards",
+    "director",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/john-stagliano.jpg",
+    "alt": "SFW portrait of John Stagliano",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John_Stagliano_2009.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Chicago, Illinois, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/John_Stagliano",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Wikipedia bio",
+      "value": "Documented biography entry for John Stagliano",
+      "source_url": "https://en.wikipedia.org/wiki/John_Stagliano",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

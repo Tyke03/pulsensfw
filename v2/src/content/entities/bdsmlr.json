@@ -11,8 +11,7 @@
   "summary": "Tumblr-style adult microblogging platform created after 2018 bans—hosting rebloggable fetish photography, GIFs, and caps.",
   "tags": [
     "niche",
-    "fetish",
-    "erotica"
+    "fetish"
   ],
   "ranking_rationale": "Classic dashboard reblog flow similar to vintage NSFW Tumblr; weighed against noticeably slow page speed during peak traffic.",
   "pricing": {

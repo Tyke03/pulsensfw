@@ -1,0 +1,65 @@
+{
+  "slug": "charmane-star",
+  "type": "star",
+  "name": "Charmane Star",
+  "url": "https://en.wikipedia.org/wiki/Charmane_Star",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Charmane Star is a Filipino American pornographic actress who has appeared in over 300 films since 1998. She has also performed as a feature dancer and an automobile model.",
+  "tags": [
+    "performer",
+    "veteran",
+    "solo",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/charmane-star.jpg",
+    "alt": "SFW portrait of Charmane Star",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Charmane_Star_from_the_Everything_to_do_with_Sex_Show_2012_in_Toronto.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "1998-2016",
+      "source_url": "https://en.wikipedia.org/wiki/Charmane_Star",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Philippines",
+      "source_url": "https://en.wikipedia.org/wiki/Charmane_Star",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "She has also performed as a feature dancer and an automobile model.",
+      "source_url": "https://en.wikipedia.org/wiki/Charmane_Star",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

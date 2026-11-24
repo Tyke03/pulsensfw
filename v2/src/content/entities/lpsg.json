@@ -1,0 +1,78 @@
+{
+  "slug": "lpsg",
+  "type": "site",
+  "name": "LPSG",
+  "url": "https://www.lpsg.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Massive active forum community centered around male models, creators, OnlyFans performers, and candid platform discussions.",
+  "tags": [
+    "forums",
+    "forum",
+    "community"
+  ],
+  "ranking_rationale": "Unmatched forum thread volume covering male & creators culture; weighed against forum login required for attachments & deeper threads.",
+  "pricing": {
+    "model": "Free forum + VIP upgrade",
+    "free_tier": "Basic browsing free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Unmatched forum thread volume covering male & creators culture",
+    "Organized community polls & megathreads",
+    "Fast XenForo forum search"
+  ],
+  "cons": [
+    "Forum login required for attachments & deeper threads",
+    "Pop-ups and strict guest throttling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/lpsg.webp",
+    "alt": "LPSG logo and brand card",
+    "source_url": "https://www.lpsg.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.lpsg.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free forum + VIP upgrade",
+      "source_url": "https://www.lpsg.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.lpsg.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lpsg.org",
+      "source_url": "https://www.lpsg.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

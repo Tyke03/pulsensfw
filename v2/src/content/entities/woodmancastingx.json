@@ -1,0 +1,78 @@
+{
+  "slug": "woodmancastingx",
+  "type": "site",
+  "name": "Woodman Casting X",
+  "url": "https://www.woodmancastingx.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Pierre Woodman's decades-long Eastern European casting & audition vault housing thousands of classic screen tests.",
+  "tags": [
+    "premium",
+    "studio",
+    "european"
+  ],
+  "ranking_rationale": "Massive 25-year archival roster of European legends; weighed against very repetitive single studio office backdrop.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Massive 25-year archival roster of European legends",
+    "Authentic audition documentary roots",
+    "Consistent daily/weekly archive streams"
+  ],
+  "cons": [
+    "Very repetitive single studio office backdrop",
+    "Dated UI and polarizing persona"
+  ],
+  "image": {
+    "src": "/media/entities/sites/woodmancastingx.webp",
+    "alt": "Woodman Casting X logo and brand card",
+    "source_url": "https://www.woodmancastingx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.woodmancastingx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.woodmancastingx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.woodmancastingx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "woodmancastingx.com",
+      "source_url": "https://www.woodmancastingx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

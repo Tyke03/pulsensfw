@@ -1,0 +1,63 @@
+{
+  "slug": "kissa-sins",
+  "type": "star",
+  "name": "Kissa Sins",
+  "url": "http://www.wikidata.org/entity/Q45175086",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Kissa Sins is an adult film performer from the United States, active since 2015. Documented on Wikidata and Wikimedia Commons with verified performer credits.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/kissa-sins.jpg",
+    "alt": "SFW portrait of Kissa Sins",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kissa_Sins-_Manifesting_My_Life,_Not_Planning_It_(HRU_2019)_4.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q45175086 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q45175086",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2015–present",
+      "source_url": "http://www.wikidata.org/entity/Q45175086",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1987",
+      "source_url": "http://www.wikidata.org/entity/Q45175086",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}

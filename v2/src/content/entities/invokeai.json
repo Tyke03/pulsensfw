@@ -1,0 +1,80 @@
+{
+  "slug": "invokeai",
+  "type": "ai_app",
+  "name": "InvokeAI",
+  "url": "https://www.invoke.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Studio-grade open-source creative canvas combining non-destructive layer inpainting, workflows, and zero local censorship.",
+  "tags": [
+    "local",
+    "image",
+    "image generation",
+    "nsfw"
+  ],
+  "ranking_rationale": "Best unified Photoshop-like regional inpainting canvas for SD/Flux; weighed against slightly heavier ram footprint than forge.",
+  "pricing": {
+    "model": "Free open-source + Enterprise cloud",
+    "free_tier": "100% free local open-source edition",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Best unified Photoshop-like regional inpainting canvas for SD/Flux",
+    "Clean polished node + canvas hybrid UI",
+    "Offline privacy on your own GPU"
+  ],
+  "cons": [
+    "Slightly heavier RAM footprint than Forge",
+    "Enterprise focus sometimes shifts consumer UX"
+  ],
+  "image": {
+    "src": "/media/entities/ai/invokeai.webp",
+    "alt": "InvokeAI logo and brand card",
+    "source_url": "https://www.invoke.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://www.invoke.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free open-source + Enterprise cloud",
+      "source_url": "https://www.invoke.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://www.invoke.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "invoke.com",
+      "source_url": "https://www.invoke.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

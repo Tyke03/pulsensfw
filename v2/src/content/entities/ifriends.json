@@ -1,0 +1,77 @@
+{
+  "slug": "ifriends",
+  "type": "site",
+  "name": "iFriends",
+  "url": "https://www.ifriends.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Pioneer live webcam portal running continuously since 1996 featuring loyal veteran hosts and independent 1-on-1 rooms.",
+  "tags": [
+    "cams",
+    "live",
+    "classic"
+  ],
+  "ranking_rationale": "Authentic 1990s-rooted community with loyal longtime hosts; weighed against ultra-dated web 1.0 ui.",
+  "pricing": {
+    "model": "Per-minute private shows",
+    "free_tier": "Free lobby preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Authentic 1990s-rooted community with loyal longtime hosts",
+    "Simple direct room pricing",
+    "Great retro charm"
+  ],
+  "cons": [
+    "Ultra-dated Web 1.0 UI",
+    "Small concurrent room count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ifriends.webp",
+    "alt": "iFriends logo and brand card",
+    "source_url": "https://www.ifriends.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.ifriends.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-minute private shows",
+      "source_url": "https://www.ifriends.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.ifriends.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ifriends.com",
+      "source_url": "https://www.ifriends.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

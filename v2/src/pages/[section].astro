@@ -11,6 +11,7 @@ import { categoryHero } from '../lib/brand/slots';
 import { getContentRepository } from '../lib/content/local-repository';
 import {
   entitiesForTopic,
+  featuredSites,
   hasRealPortrait,
   iconStars,
   isVeteranStar,
@@ -35,9 +36,10 @@ const articles = await repo.listArticles();
 const catalog = await repo.listCatalog();
 const filter = Astro.url.searchParams.get('topic');
 const rawSort = Astro.url.searchParams.get('sort');
+const defaultSort = topic?.id === 'stars' || (topic?.id === 'sites' && !filter) ? 'featured' : 'score';
 const sortMode = rawSort === 'az' || rawSort === 'score' || rawSort === 'featured'
   ? rawSort
-  : (topic?.id === 'stars' ? 'featured' : 'score');
+  : defaultSort;
 const letterParam = topic?.id === 'stars' ? (Astro.url.searchParams.get('letter') ?? '').toUpperCase().slice(0, 1) : '';
 const pageParam = Math.max(1, Number.parseInt(Astro.url.searchParams.get('page') ?? '1', 10) || 1);
 const PAGE_SIZE = 30;
@@ -49,7 +51,7 @@ function hubHref(opts: { topic?: string | null; sort?: string | null; letter?: s
   const nextLetter = opts.letter !== undefined ? opts.letter : letterParam;
   const nextPage = opts.page !== undefined ? opts.page : 1;
   if (nextTopic) params.set('topic', nextTopic);
-  if (nextSort && nextSort !== (topic?.id === 'stars' ? 'featured' : 'score')) params.set('sort', nextSort);
+  if (nextSort && nextSort !== defaultSort) params.set('sort', nextSort);
   if (nextLetter) params.set('letter', nextLetter);
   if (nextPage && nextPage > 1) params.set('page', String(nextPage));
   const qs = params.toString();
@@ -85,6 +87,8 @@ if (sortMode === 'az') {
   entities = [...entities].sort((a, b) => a.title.localeCompare(b.title));
 } else if (sortMode === 'score') {
   entities = [...entities].sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title));
+} else if (sortMode === 'featured' && topic?.id === 'sites') {
+  entities = featuredSites(entities);
 }
 
 const isEntityHub = Boolean(topic && ['stars', 'sites', 'ai', 'toys', 'vr'].includes(topic.id));
@@ -108,10 +112,16 @@ const trending = topic?.id === 'stars' && showCarousels ? trendingStars(catalog,
 const icons = topic?.id === 'stars' && showCarousels ? iconStars(catalog, reader) : [];
 const spotlights = topic?.id === 'sites' && showCarousels ? siteSpotlights(catalog, reader) : [];
 
+// On unfiltered /stars Featured grid, show non-shelf stars before repeating top carousels on page 1
+if (topic?.id === 'stars' && sortMode === 'featured' && !filter && !letterParam && pageParam === 1) {
+  const shelfSlugs = new Set([...rising.map((c) => c.slug), ...trending.map((c) => c.slug)]);
+  entities = [...entities.filter((c) => !shelfSlugs.has(c.slug)), ...entities.filter((c) => shelfSlugs.has(c.slug))];
+}
+
 // Distinct data widgets per category
 const starPortraitCount = topic?.id === 'stars' ? allEntities.filter(hasRealPortrait).length : 0;
 const starVetCount = topic?.id === 'stars' ? allEntities.filter(isVeteranStar).length : 0;
-const starRisingCount = topic?.id === 'stars' ? risingStars(catalog, reader).length : 0;
+const starRisingCount = topic?.id === 'stars' ? entitiesForTopic(catalog, 'stars', 'rising', reader).length : 0;
 const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 const letterCounts = new Map<string, number>();
 if (topic?.id === 'stars') {
@@ -151,6 +161,18 @@ const pagedEntities: EntityCardModel[] = usePagination
   ? entities.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
   : entities;
 
+const pageNums = new Set<number>([1, totalPages]);
+for (let d = -2; d <= 2; d++) {
+  const p = safePage + d;
+  if (p >= 1 && p <= totalPages) pageNums.add(p);
+}
+const sortedPages = [...pageNums].sort((a, b) => a - b);
+const pagerTokens: Array<number | 'ellipsis'> = [];
+for (let i = 0; i < sortedPages.length; i++) {
+  if (i > 0 && sortedPages[i] - sortedPages[i - 1] > 1) pagerTokens.push('ellipsis');
+  pagerTokens.push(sortedPages[i]);
+}
+
 const [lead, ...rest] = cards;
 const entityLabel = topic?.id === 'stars'
   ? 'Profiles'
@@ -186,7 +208,7 @@ const entityLabel = topic?.id === 'stars'
               <>
                 <div><dt>Categories</dt><dd>{visibleSubtopics.length}</dd></div>
                 <div><dt>VR Ready</dt><dd>{allEntities.filter((e) => e.tags.some((t) => t.toLowerCase() === 'vr')).length}</dd></div>
-                <div><dt>Free &amp; Freemium</dt><dd>{allEntities.filter((e) => Boolean(e.pricing.free_tier)).length}</dd></div>
+                <div><dt>Free &amp; Freemium</dt><dd>{allEntities.filter((e) => e.pricing.free_tier && !/(teaser|trailer|trial|preview|account browsing|behind)/i.test(e.pricing.free_tier)).length}</dd></div>
               </>
             )}
             {topic.id === 'ai' && (
@@ -203,7 +225,7 @@ const entityLabel = topic?.id === 'stars'
             )}
             {topic.id === 'vr' && (
               <>
-                <div><dt>Adult Games</dt><dd>{allEntities.filter((e) => e.type === 'game').length}</dd></div>
+                <div><dt>Games &amp; Players</dt><dd>{allEntities.filter((e) => e.type === 'game').length}</dd></div>
                 <div><dt>VR Studios</dt><dd>{allEntities.filter((e) => e.type === 'site').length}</dd></div>
               </>
             )}
@@ -319,7 +341,7 @@ const entityLabel = topic?.id === 'stars'
               <p class="kicker">Benchmark rankings</p>
               <h2 id="ai-leaderboard-title">Top 5 AI platforms right now</h2>
             </div>
-            <a class="see-all" href="/compare?ids=comfyui,openrouter,sillytavern,koboldcpp">Compare top 4 tools</a>
+            <a class="see-all" href={`/compare?ids=${aiTop5.slice(0, 4).map((item) => item.slug).join(',')}`}>Compare top 4 tools</a>
           </div>
           <ol class="ai-leaderboard">
             {aiTop5.map((item, idx) => (
@@ -410,6 +432,12 @@ const entityLabel = topic?.id === 'stars'
                     <a class="c-chip" href={hubHref({ sort: 'featured', page: 1 })} aria-current={sortMode === 'featured' ? 'page' : undefined}>Featured</a>
                     <a class="c-chip" href={hubHref({ sort: 'az', page: 1 })} aria-current={sortMode === 'az' ? 'page' : undefined}>A–Z</a>
                   </>
+                ) : topic.id === 'sites' && !filter ? (
+                  <>
+                    <a class="c-chip" href={hubHref({ sort: 'featured', page: 1 })} aria-current={sortMode === 'featured' ? 'page' : undefined}>Featured</a>
+                    <a class="c-chip" href={hubHref({ sort: 'score', page: 1 })} aria-current={sortMode === 'score' ? 'page' : undefined}>Top Rated</a>
+                    <a class="c-chip" href={hubHref({ sort: 'az', page: 1 })} aria-current={sortMode === 'az' ? 'page' : undefined}>A–Z</a>
+                  </>
                 ) : (
                   <>
                     <a class="c-chip" href={hubHref({ sort: 'score', page: 1 })} aria-current={sortMode === 'score' ? 'page' : undefined}>Top Rated</a>
@@ -448,12 +476,21 @@ const entityLabel = topic?.id === 'stars'
               ) : (
                 <span class="c-btn c-btn--secondary c-btn--small" aria-disabled="true">Previous</span>
               )}
-              <span class="meta">Page {safePage} of {totalPages} · {entities.length} entries</span>
+              <div class="pager-pages">
+                {pagerTokens.map((tok) => (
+                  tok === 'ellipsis' ? (
+                    <span class="pager-gap" aria-hidden="true">…</span>
+                  ) : (
+                    <a class="pager-num" href={hubHref({ page: tok })} aria-current={tok === safePage ? 'page' : undefined}>{tok}</a>
+                  )
+                ))}
+              </div>
               {safePage < totalPages ? (
                 <a class="c-btn c-btn--secondary c-btn--small" href={hubHref({ page: safePage + 1 })}>Next</a>
               ) : (
                 <span class="c-btn c-btn--secondary c-btn--small" aria-disabled="true">Next</span>
               )}
+              <span class="meta">{entities.length} entries</span>
             </nav>
           )}
         </section>

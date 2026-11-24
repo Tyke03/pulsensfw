@@ -1,0 +1,78 @@
+{
+  "slug": "mym-fans",
+  "type": "site",
+  "name": "MYM.fans",
+  "url": "https://mym.fans",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "France and Europe's powerhouse subscription platform hosting thousands of European influencers, performers, and models.",
+  "tags": [
+    "platform",
+    "creator",
+    "onlyfans"
+  ],
+  "ranking_rationale": "Largest European creator ecosystem outside OnlyFans; weighed against heavy concentration of french/eu creators.",
+  "pricing": {
+    "model": "Creator subs + custom media",
+    "free_tier": "Free account browse",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Largest European creator ecosystem outside OnlyFans",
+    "Great custom private request ('Mym') workflow",
+    "Clean dark mobile UX"
+  ],
+  "cons": [
+    "Heavy concentration of French/EU creators",
+    "Blurred preview teasers require account login"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mym-fans.webp",
+    "alt": "MYM.fans logo and brand card",
+    "source_url": "https://mym.fans",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://mym.fans",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subs + custom media",
+      "source_url": "https://mym.fans",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://mym.fans",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mym.fans",
+      "source_url": "https://mym.fans",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

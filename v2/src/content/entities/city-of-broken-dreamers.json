@@ -1,0 +1,80 @@
+{
+  "slug": "city-of-broken-dreamers",
+  "type": "game",
+  "name": "City of Broken Dreamers",
+  "url": "https://www.patreon.com/phillygames",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Gritty cyberpunk noir detective visual novel uniting moody neon Blade Runner visuals with intricate relationship routes.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "story"
+  ],
+  "ranking_rationale": "Rich atmospheric cyberpunk noir mood rare in adult games; weighed against slow episodic release schedule across book two.",
+  "pricing": {
+    "model": "Free public builds + Patreon",
+    "free_tier": "Public Book 1+ free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Rich atmospheric cyberpunk noir mood rare in adult games",
+    "Deep high-contrast moody renders & soundtrack",
+    "Serious dramatic character arcs"
+  ],
+  "cons": [
+    "Slow episodic release schedule across Book Two",
+    "Heavy dark tone"
+  ],
+  "image": {
+    "src": "/media/entities/games/city-of-broken-dreamers.webp",
+    "alt": "City of Broken Dreamers logo and brand card",
+    "source_url": "https://www.patreon.com/phillygames",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://www.patreon.com/phillygames",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free public builds + Patreon",
+      "source_url": "https://www.patreon.com/phillygames",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Android",
+      "source_url": "https://www.patreon.com/phillygames",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "patreon.com",
+      "source_url": "https://www.patreon.com/phillygames",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

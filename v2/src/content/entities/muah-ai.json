@@ -53,7 +53,7 @@
     "No major app-store distribution",
     "Top tiers are expensive",
     "2024 data breach: 1.9M emails + prompts exposed (HIBP/404 Media)",
-    "Trust audit verdict: avoid - breach + astroturfing make it the least trustworthy reputation in the set"
+    "Reputation note (avoid) - breach + astroturfing make it the least trustworthy reputation in the set"
   ],
   "image": {
     "src": "/media/entities/ai/muah-ai.png",
@@ -68,32 +68,28 @@
       "value": "Reported user data exposure",
       "source_url": "https://www.girlfriendly.ai/muah-ai",
       "checked": "2026-10-26",
-      "evidence_type": "aggregator",
-      "notes": "Third-party tracker snapshot — kept for context; not inclusion evidence."
+      "evidence_type": "aggregator"
     },
     {
       "key": "VIP price",
       "value": "$9.99 per month",
       "source_url": "https://www.aiangels.io/muah-ai-pricing/",
       "checked": "2026-10-26",
-      "evidence_type": "aggregator",
-      "notes": "Third-party tracker snapshot — kept for context; not inclusion evidence."
+      "evidence_type": "aggregator"
     },
     {
       "key": "Ultra VIP price",
       "value": "$99.99 per month",
       "source_url": "https://www.aiangels.io/muah-ai-pricing/",
       "checked": "2026-10-26",
-      "evidence_type": "aggregator",
-      "notes": "Third-party tracker snapshot — kept for context; not inclusion evidence."
+      "evidence_type": "aggregator"
     },
     {
       "key": "Distribution",
       "value": "Browser plus sideloaded Android APK",
       "source_url": "https://pocketanimus.com/guides/muah-ai/",
       "checked": "2026-10-26",
-      "evidence_type": "aggregator",
-      "notes": "Third-party tracker snapshot — kept for context; not inclusion evidence."
+      "evidence_type": "aggregator"
     },
     {
       "key": "2024 data breach",
@@ -109,7 +105,7 @@
       "source_url": "https://www.reddit.com/r/AI_Application/comments/",
       "checked": "2026-10-27",
       "evidence_type": "community",
-      "notes": "Trust audit verdict: avoid (breach + astroturfing). Watchlist firm."
+      "notes": "Reputation note (avoid) (breach + astroturfing). Watchlist firm."
     },
     {
       "key": "Play removal",

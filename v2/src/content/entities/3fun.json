@@ -1,0 +1,78 @@
+{
+  "slug": "3fun",
+  "type": "site",
+  "name": "3Fun",
+  "url": "https://www.go3fun.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dedicated threesome & swinger-curious dating app offering photo privacy masks and joint couple verification.",
+  "tags": [
+    "niche",
+    "couples",
+    "alt"
+  ],
+  "ranking_rationale": "Focuses specifically on threesome & open-play matching; weighed against heavy bot/paywall friction for single male accounts.",
+  "pricing": {
+    "model": "Freemium + subscription",
+    "free_tier": "Free browse & daily swipes",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Focuses specifically on threesome & open-play matching",
+    "Useful photo-hiding/blurring tools for discreet couples",
+    "Active weekend event spikes"
+  ],
+  "cons": [
+    "Heavy bot/paywall friction for single male accounts",
+    "Messaging limits on free tier"
+  ],
+  "image": {
+    "src": "/media/entities/sites/3fun.webp",
+    "alt": "3Fun logo and brand card",
+    "source_url": "https://www.go3fun.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.go3fun.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium + subscription",
+      "source_url": "https://www.go3fun.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android",
+      "source_url": "https://www.go3fun.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "go3fun.com",
+      "source_url": "https://www.go3fun.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

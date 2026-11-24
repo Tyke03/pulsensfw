@@ -1,0 +1,71 @@
+{
+  "slug": "yua-mikami",
+  "type": "star",
+  "name": "Yua Mikami",
+  "url": "https://en.wikipedia.org/wiki/Yua_Mikami",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Momona Kitō (Yua Mikami) is a Japanese singer, YouTuber, and former adult video and film actress. She debuted as a member of the idol group SKE48 in 2009 before leaving in 2014.",
+  "tags": [
+    "performer",
+    "former performer",
+    "awards"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/yua-mikami.jpg",
+    "alt": "SFW portrait of Yua Mikami",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mikami_Yua_to_K-POP_CIMG6925_(cropped).jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "2009–2014, 2015–present",
+      "source_url": "https://en.wikipedia.org/wiki/Yua_Mikami",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Nagoya, Aichi Prefecture, Japan",
+      "source_url": "https://en.wikipedia.org/wiki/Yua_Mikami",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "AV idol, Japanese pornographic film actress, singer",
+      "source_url": "https://en.wikipedia.org/wiki/Yua_Mikami",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "She entered the adult entertainment industry in 2015 under the Muteki label and became one of the most popular and best-selling contemporary AV idols, winning several awards in the process.",
+      "source_url": "https://en.wikipedia.org/wiki/Yua_Mikami",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

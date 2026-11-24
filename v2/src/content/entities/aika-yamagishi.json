@@ -1,0 +1,62 @@
+{
+  "slug": "aika-yamagishi",
+  "type": "star",
+  "name": "Aika Yamagishi",
+  "url": "http://www.wikidata.org/entity/Q54867661",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Aika Yamagishi is an adult film performer from Japan. Documented on Wikidata and Wikimedia Commons with verified performer credits.",
+  "tags": [
+    "performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/aika-yamagishi.jpg",
+    "alt": "SFW portrait of Aika Yamagishi",
+    "source_url": "https://commons.wikimedia.org/wiki/File:CIMG3734yamagishi.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q54867661 (Japan)",
+      "source_url": "http://www.wikidata.org/entity/Q54867661",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q54867661",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1992",
+      "source_url": "http://www.wikidata.org/entity/Q54867661",
+      "checked": "2026-11-23",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-23"
+}
