@@ -1,0 +1,63 @@
+{
+  "slug": "lolo-ferrari",
+  "type": "star",
+  "name": "Lolo Ferrari",
+  "url": "https://en.wikipedia.org/wiki/Lolo_Ferrari",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lolo Ferrari — French dancer, pornographic actress, singer and television presenter (1963–2000). Industry career documented from 1995.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/lolo-ferrari.jpg",
+    "alt": "SFW portrait of Lolo Ferrari",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lolo_Ferrari_-_Mutter_Courage_(cropped).JPG",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q302446 (France)",
+      "source_url": "http://www.wikidata.org/entity/Q302446",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1995–1999",
+      "source_url": "https://en.wikipedia.org/wiki/Lolo_Ferrari",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1963",
+      "source_url": "http://www.wikidata.org/entity/Q302446",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

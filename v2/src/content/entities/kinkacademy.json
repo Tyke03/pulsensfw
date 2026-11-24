@@ -1,0 +1,78 @@
+{
+  "slug": "kinkacademy",
+  "type": "site",
+  "name": "Kink Academy",
+  "url": "https://www.kinkacademy.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Comprehensive safety-first BDSM video university featuring veteran educators teaching shibari, impact play, consent negotiation, and aftercare.",
+  "tags": [
+    "niche",
+    "education",
+    "bdsm"
+  ],
+  "ranking_rationale": "Hundreds of practical, non-performative technique & safety classes; weighed against aging 2010s member portal ux.",
+  "pricing": {
+    "model": "Educational subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Hundreds of practical, non-performative technique & safety classes",
+    "Taught by respected real-world kink educators",
+    "Searchable by skill level, anatomy, and gear"
+  ],
+  "cons": [
+    "Aging 2010s member portal UX",
+    "Higher monthly fee for occasional hobbyists"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kinkacademy.webp",
+    "alt": "Kink Academy logo and brand card",
+    "source_url": "https://www.kinkacademy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.kinkacademy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Educational subscription",
+      "source_url": "https://www.kinkacademy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.kinkacademy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kinkacademy.com",
+      "source_url": "https://www.kinkacademy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

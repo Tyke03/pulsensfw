@@ -1,0 +1,78 @@
+{
+  "slug": "jerkygirls",
+  "type": "site",
+  "name": "JerkyGirls",
+  "url": "https://www.jerkygirls.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran indie-friendly webcam, sexting, and private call marketplace where independent creators set their own per-minute rates.",
+  "tags": [
+    "cams",
+    "live",
+    "indie"
+  ],
+  "ranking_rationale": "Direct creator-set pricing across video, audio, and texting; weighed against aged early-2010s ux styling.",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": "Free profile & bio browse",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Direct creator-set pricing across video, audio, and texting",
+    "Strong cohort of indie North American creators",
+    "Built-in tip-to-vibe & private schedule calendar"
+  ],
+  "cons": [
+    "Aged early-2010s UX styling",
+    "Small concurrent online model count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/jerkygirls.webp",
+    "alt": "JerkyGirls logo and brand card",
+    "source_url": "https://www.jerkygirls.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.jerkygirls.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.jerkygirls.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.jerkygirls.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "jerkygirls.com",
+      "source_url": "https://www.jerkygirls.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

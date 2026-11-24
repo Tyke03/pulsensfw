@@ -1,0 +1,79 @@
+{
+  "slug": "myreadingmanga",
+  "type": "site",
+  "name": "MyReadingManga",
+  "url": "https://myreadingmanga.info",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The definitive high-speed global archive for BL, yaoi, and bara adult doujinshi & comic scanlations.",
+  "tags": [
+    "comics",
+    "hentai",
+    "gay",
+    "free"
+  ],
+  "ranking_rationale": "Unrivaled English-translated bara and yaoi comic archive; weighed against pop ads and anti-adblock overlays appear periodically.",
+  "pricing": {
+    "model": "Free community reader",
+    "free_tier": "Free unlimited reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Unrivaled English-translated bara and yaoi comic archive",
+    "Clean reader with pairing, artist & trope taxonomy",
+    "Zero account wall"
+  ],
+  "cons": [
+    "Pop ads and anti-adblock overlays appear periodically",
+    "Focused specifically on MLW/MLM themes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/myreadingmanga.webp",
+    "alt": "MyReadingManga logo and brand card",
+    "source_url": "https://myreadingmanga.info",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://myreadingmanga.info",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community reader",
+      "source_url": "https://myreadingmanga.info",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://myreadingmanga.info",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "myreadingmanga.info",
+      "source_url": "https://myreadingmanga.info",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

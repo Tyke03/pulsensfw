@@ -12,8 +12,7 @@
   "tags": [
     "image",
     "image generation",
-    "generator",
-    "nsfw"
+    "generator"
   ],
   "ranking_rationale": "Approachable web UI for quick character image generation without managing local checkpoints; held back by credit paywalls and rigid likeness policies.",
   "pricing": {

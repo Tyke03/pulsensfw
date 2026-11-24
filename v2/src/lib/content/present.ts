@@ -63,7 +63,8 @@ function formatCardMeta(entity: Entity): string {
     })
     .filter(Boolean);
   const unique = [...new Set(cleaned)];
-  if (unique.length > 0) return unique.join(' · ');
+  const shown = unique.length > 3 ? [...unique.slice(0, 2), `+${unique.length - 2} more`] : unique;
+  if (shown.length > 0) return shown.join(' · ');
   if (entity.type === 'star') {
     return entity.tags.includes('creator') ? 'Independent creator' : 'Verified performer profile';
   }
@@ -407,7 +408,7 @@ const SUBTOPIC_ALIASES: Record<string, readonly string[]> = {
   awards: ['awards'],
   wands: ['wands', 'wand', 'cordless'],
   quiet: ['quiet', 'air-pulse', 'sonic', 'whisper'],
-  app: ['app', 'haptics', 'bluetooth', 'scripts'],
+  app: ['app', 'smart-app', 'haptics', 'bluetooth', 'scripts'],
 };
 
 export function matchesSubtopicFilter(tags: readonly string[], filter: string): boolean {
@@ -436,6 +437,13 @@ export function entitiesForTopic(catalog: Catalog, topic: TopicId, filter: strin
       (topic === 'vr' && card.type === 'site' && card.tags.some((tag) => tag.toLowerCase() === 'vr'));
     if (!belongs) return false;
     if (!filter) return true;
+    if (topic === 'vr' && filter === 'scenes') return card.type === 'site';
+    if (topic === 'vr' && filter === 'games') {
+      return card.type === 'game' && !card.tags.some((t) => ['headsets', 'player'].includes(t.toLowerCase()));
+    }
+    if (topic === 'vr' && filter === 'headsets') {
+      return card.type === 'game' && matchesSubtopicFilter(card.tags, filter);
+    }
     return matchesSubtopicFilter(card.tags, filter);
   });
   if (topic === 'stars') return items.sort(creatorsFirst);

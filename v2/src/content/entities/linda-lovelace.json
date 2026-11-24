@@ -1,0 +1,63 @@
+{
+  "slug": "linda-lovelace",
+  "type": "star",
+  "name": "Linda Lovelace",
+  "url": "https://en.wikipedia.org/wiki/Linda_Lovelace",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Linda Lovelace — American pornographic actress (1949-2002).",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/linda-lovelace.jpg",
+    "alt": "SFW portrait of Linda Lovelace",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Linda_Lovelace_1986.jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q407 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q407",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1969–1975",
+      "source_url": "https://en.wikipedia.org/wiki/Linda_Lovelace",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1949",
+      "source_url": "http://www.wikidata.org/entity/Q407",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

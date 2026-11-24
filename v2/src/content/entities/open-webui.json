@@ -1,0 +1,80 @@
+{
+  "slug": "open-webui",
+  "type": "ai_app",
+  "name": "Open WebUI",
+  "url": "https://github.com/open-webui/open-webui",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The sleekest ChatGPT-grade local frontend for Ollama and OpenAI-compatible APIs—completely private, offline-capable, and filter-free.",
+  "tags": [
+    "chat",
+    "local",
+    "open-source"
+  ],
+  "ranking_rationale": "Zero telemetry—runs 100% locally on your hardware with uncensored models; weighed against requires local ollama/api model setup first.",
+  "pricing": {
+    "model": "Free & open-source",
+    "free_tier": "100% free Docker / Python install",
+    "from_price": "$0",
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS",
+    "Docker"
+  ],
+  "score": 9.2,
+  "pros": [
+    "Zero telemetry—runs 100% locally on your hardware with uncensored models",
+    "Clean modern mobile-friendly web UI & multi-model chat branching",
+    "Built-in RAG docs, voice mode & custom system prompts"
+  ],
+  "cons": [
+    "Requires local Ollama/API model setup first",
+    "Geared toward general/RP power users rather than instant dating-sim cards"
+  ],
+  "image": {
+    "src": "/media/entities/ai/open-webui.webp",
+    "alt": "Open WebUI logo and brand card",
+    "source_url": "https://github.com/open-webui/open-webui",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://github.com/open-webui/open-webui",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free & open-source",
+      "source_url": "https://github.com/open-webui/open-webui",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS, Docker",
+      "source_url": "https://github.com/open-webui/open-webui",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/open-webui/open-webui",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

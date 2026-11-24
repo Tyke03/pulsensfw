@@ -1,0 +1,79 @@
+{
+  "slug": "weasyl",
+  "type": "site",
+  "name": "Weasyl",
+  "url": "https://www.weasyl.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Artist-founded alternative illustration gallery praised for cleaner moderation, modern CSS, and respectful creator licensing.",
+  "tags": [
+    "comics",
+    "furry",
+    "art",
+    "community"
+  ],
+  "ranking_rationale": "Clean uncluttered dark/light gallery without bloated ads; weighed against smaller userbase than furaffinity.",
+  "pricing": {
+    "model": "Free artist community",
+    "free_tier": "Free account browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Clean uncluttered dark/light gallery without bloated ads",
+    "Supports art, comics, and literature cleanly",
+    "Zero invasive banner clutter"
+  ],
+  "cons": [
+    "Smaller userbase than FurAffinity",
+    "Requires free login to unlock explicit 18+ art tags"
+  ],
+  "image": {
+    "src": "/media/entities/sites/weasyl.webp",
+    "alt": "Weasyl logo and brand card",
+    "source_url": "https://www.weasyl.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.weasyl.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free artist community",
+      "source_url": "https://www.weasyl.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.weasyl.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "weasyl.com",
+      "source_url": "https://www.weasyl.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

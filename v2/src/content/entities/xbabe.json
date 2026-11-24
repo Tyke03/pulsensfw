@@ -1,0 +1,79 @@
+{
+  "slug": "xbabe",
+  "type": "site",
+  "name": "XBabe",
+  "url": "https://xbabe.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean dark-mode glamour free tube emphasizing high-definition couple and solo studio teasers with minimal clutter.",
+  "tags": [
+    "tube",
+    "free",
+    "hd",
+    "glamour"
+  ],
+  "ranking_rationale": "Polished dark gallery UI with sharp HD thumbnails; weighed against heavier share of shorter studio promos.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Full HD catalog free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Polished dark gallery UI with sharp HD thumbnails",
+    "Less popup aggression than old-school free tubes",
+    "Strong performer bio filtering"
+  ],
+  "cons": [
+    "Heavier share of shorter studio promos",
+    "Smaller niche fetish library"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xbabe.webp",
+    "alt": "XBabe logo and brand card",
+    "source_url": "https://xbabe.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://xbabe.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://xbabe.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://xbabe.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xbabe.com",
+      "source_url": "https://xbabe.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

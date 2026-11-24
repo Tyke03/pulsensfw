@@ -1,0 +1,79 @@
+{
+  "slug": "redgifs",
+  "type": "site",
+  "name": "RedGIFs",
+  "url": "https://www.redgifs.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The dominant verified-creator short-form NSFW GIF and sound-on vertical clip host embedded across Reddit and indie social feeds.",
+  "tags": [
+    "tube",
+    "free",
+    "amateur",
+    "gifs"
+  ],
+  "ranking_rationale": "Smooth endless swipe feed with crisp audio; weighed against short-loop emphasis rather than full 30-minute scenes.",
+  "pricing": {
+    "model": "Free creator-supported host",
+    "free_tier": "Unlimited clip & audio playback free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Smooth endless swipe feed with crisp audio",
+    "Creator verification badges and clean tag discovery",
+    "Zero shady popup redirects on core clip viewing"
+  ],
+  "cons": [
+    "Short-loop emphasis rather than full 30-minute scenes",
+    "Heavy OnlyFans bio promo overlays"
+  ],
+  "image": {
+    "src": "/media/entities/sites/redgifs.webp",
+    "alt": "RedGIFs logo and brand card",
+    "source_url": "https://www.redgifs.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.redgifs.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free creator-supported host",
+      "source_url": "https://www.redgifs.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.redgifs.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "redgifs.com",
+      "source_url": "https://www.redgifs.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

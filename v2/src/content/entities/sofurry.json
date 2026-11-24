@@ -1,0 +1,78 @@
+{
+  "slug": "sofurry",
+  "type": "site",
+  "name": "SoFurry",
+  "url": "https://www.sofurry.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-standing artist & writer community hosting furry illustrations, comics, music, and mature written stories side by side.",
+  "tags": [
+    "comics",
+    "furry",
+    "erotica",
+    "community"
+  ],
+  "ranking_rationale": "Balanced home for both NSFW artists AND long-form writers; weighed against dated mid-2010s web layout.",
+  "pricing": {
+    "model": "Free community gallery",
+    "free_tier": "Free browsing & uploads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Balanced home for both NSFW artists AND long-form writers",
+    "Clean tagging and story journal reader",
+    "Friendly commission culture"
+  ],
+  "cons": [
+    "Dated mid-2010s web layout",
+    "Smaller active daily traffic than FurAffinity/e621"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sofurry.webp",
+    "alt": "SoFurry logo and brand card",
+    "source_url": "https://www.sofurry.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.sofurry.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community gallery",
+      "source_url": "https://www.sofurry.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.sofurry.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sofurry.com",
+      "source_url": "https://www.sofurry.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

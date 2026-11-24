@@ -12,8 +12,7 @@
   "tags": [
     "local",
     "offline",
-    "privacy",
-    "nsfw"
+    "privacy"
   ],
   "ranking_rationale": "Handles nearly every quantization backend (EXL2, GGUF, GPTQ); weighed against utilitarian gradio layout lacks sillytavern immersion.",
   "pricing": {

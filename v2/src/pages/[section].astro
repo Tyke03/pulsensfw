@@ -208,7 +208,7 @@ const entityLabel = topic?.id === 'stars'
               <>
                 <div><dt>Categories</dt><dd>{visibleSubtopics.length}</dd></div>
                 <div><dt>VR Ready</dt><dd>{allEntities.filter((e) => e.tags.some((t) => t.toLowerCase() === 'vr')).length}</dd></div>
-                <div><dt>Free &amp; Freemium</dt><dd>{allEntities.filter((e) => e.pricing.free_tier && !/(teaser|trailer|trial|preview|account browsing|behind)/i.test(e.pricing.free_tier)).length}</dd></div>
+                <div><dt>Free &amp; Freemium</dt><dd>{allEntities.filter((e) => e.pricing.free_tier && !/(teaser|trailer|trial|preview|account browsing|behind|signup|sign-up|browse|browsing|explorer|profiles|first episodes|demo|storefront|paywall)/i.test(e.pricing.free_tier)).length}</dd></div>
               </>
             )}
             {topic.id === 'ai' && (

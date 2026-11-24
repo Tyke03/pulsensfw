@@ -1,0 +1,82 @@
+{
+  "slug": "corruption-of-champions-2",
+  "type": "game",
+  "name": "Corruption of Champions II",
+  "url": "https://www.fenoxo.com/play-games/coc2/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Official modern sequel to the genre-creating dark fantasy text RPG, upgrading party combat, illustrations, and branching storylines.",
+  "tags": [
+    "games",
+    "text-rpg",
+    "fantasy",
+    "free"
+  ],
+  "ranking_rationale": "Modern clean UI + party-based turn-based RPG combat; weighed against slow monthly drip of late-game story chapters.",
+  "pricing": {
+    "model": "Free download / optional Steam edition",
+    "free_tier": "Full core release free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Modern clean UI + party-based turn-based RPG combat",
+    "Sharp fantasy writing across sprawling regions & companions",
+    "Available completely free via web/itch or Steam"
+  ],
+  "cons": [
+    "Slow monthly drip of late-game story chapters",
+    "Heavily text-first presentation"
+  ],
+  "image": {
+    "src": "/media/entities/games/corruption-of-champions-2.webp",
+    "alt": "Corruption of Champions II logo and brand card",
+    "source_url": "https://www.fenoxo.com/play-games/coc2/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://www.fenoxo.com/play-games/coc2/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free download / optional Steam edition",
+      "source_url": "https://www.fenoxo.com/play-games/coc2/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, macOS, Linux, Steam",
+      "source_url": "https://www.fenoxo.com/play-games/coc2/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fenoxo.com",
+      "source_url": "https://www.fenoxo.com/play-games/coc2/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

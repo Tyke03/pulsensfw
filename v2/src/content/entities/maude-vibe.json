@@ -1,0 +1,77 @@
+{
+  "slug": "maude-vibe",
+  "type": "product",
+  "name": "maude Vibe",
+  "url": "https://getmaude.com/products/vibe",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic minimalist matte-silicone bullet vibe designed explicitly to sit cleanly on any modern nightstand without shouting 'plastic novelty'.",
+  "tags": [
+    "vibrator",
+    "quiet",
+    "design"
+  ],
+  "ranking_rationale": "Beautiful minimalist object design & soft whisper-quiet silicone; weighed against only 3 steady speeds (zero pulse patterns).",
+  "pricing": {
+    "model": "Hardware purchase (~$49)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Beautiful minimalist object design & soft whisper-quiet silicone",
+    "Three clean intuitive speed steps",
+    "100% waterproof and TSA-discreet"
+  ],
+  "cons": [
+    "Only 3 steady speeds (zero pulse patterns)",
+    "Modest power output vs pro-grade wands"
+  ],
+  "image": {
+    "src": "/media/entities/products/maude-vibe.webp",
+    "alt": "maude Vibe logo and brand card",
+    "source_url": "https://getmaude.com/products/vibe",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://getmaude.com/products/vibe",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$49)",
+      "source_url": "https://getmaude.com/products/vibe",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://getmaude.com/products/vibe",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "getmaude.com",
+      "source_url": "https://getmaude.com/products/vibe",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

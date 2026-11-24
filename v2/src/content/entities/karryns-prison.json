@@ -1,0 +1,79 @@
+{
+  "slug": "karryns-prison",
+  "type": "game",
+  "name": "Karryn's Prison",
+  "url": "https://store.steampowered.com/app/1619750/Karryns_Prison/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Critically acclaimed deep tactical turn-based prison-management RPG packed with skill trees, policy decrees, and massive mod support.",
+  "tags": [
+    "games",
+    "rpg",
+    "japanese",
+    "pc"
+  ],
+  "ranking_rationale": "Extraordinarily replayable tactical combat & policy management loop; weighed against punishing difficulty curve early in warden builds.",
+  "pricing": {
+    "model": "One-time Steam purchase (~$25)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Extraordinarily replayable tactical combat & policy management loop",
+    "Extensive Steam Workshop & community mod ecosystem",
+    "Polished Japanese art & dynamic UI"
+  ],
+  "cons": [
+    "Punishing difficulty curve early in Warden builds",
+    "Grindy prisoner-taming loops if mismanaged"
+  ],
+  "image": {
+    "src": "/media/entities/games/karryns-prison.webp",
+    "alt": "Karryn's Prison logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1619750/Karryns_Prison/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://store.steampowered.com/app/1619750/Karryns_Prison/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$25)",
+      "source_url": "https://store.steampowered.com/app/1619750/Karryns_Prison/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Steam",
+      "source_url": "https://store.steampowered.com/app/1619750/Karryns_Prison/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1619750/Karryns_Prison/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

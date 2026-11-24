@@ -1,0 +1,63 @@
+{
+  "slug": "marcus-london",
+  "type": "star",
+  "name": "Marcus London",
+  "url": "https://en.wikipedia.org/wiki/Marcus_London",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Marcus London — British pornographic actor. Industry career documented from 1995.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/marcus-london.jpg",
+    "alt": "SFW portrait of Marcus London",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Marcus_London_2010.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q6758292 (United Kingdom)",
+      "source_url": "http://www.wikidata.org/entity/Q6758292",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1995–present",
+      "source_url": "https://en.wikipedia.org/wiki/Marcus_London",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1968",
+      "source_url": "http://www.wikidata.org/entity/Q6758292",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

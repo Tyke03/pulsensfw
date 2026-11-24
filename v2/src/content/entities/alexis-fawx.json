@@ -1,0 +1,63 @@
+{
+  "slug": "alexis-fawx",
+  "type": "star",
+  "name": "Alexis Fawx",
+  "url": "https://en.wikipedia.org/wiki/Alexis_Fawx",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Alexis Fawx — American pornographic actress (born 1975). Industry career documented from 2010.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/alexis-fawx.jpg",
+    "alt": "SFW portrait of Alexis Fawx",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alexis_Fawx.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q27983037 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q27983037",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2010–present",
+      "source_url": "https://en.wikipedia.org/wiki/Alexis_Fawx",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1975",
+      "source_url": "http://www.wikidata.org/entity/Q27983037",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

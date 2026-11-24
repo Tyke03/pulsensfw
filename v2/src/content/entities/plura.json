@@ -1,0 +1,79 @@
+{
+  "slug": "plura",
+  "type": "site",
+  "name": "Plura",
+  "url": "https://plura.io",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sex-positive queer, poly, and kink community platform connecting users safely to vetted local workshops, munch meetups, and play parties.",
+  "tags": [
+    "niche",
+    "community",
+    "dating"
+  ],
+  "ranking_rationale": "Thoughtful consent verification & local real-world events discovery; weighed against stronger event density in major coastal metros.",
+  "pricing": {
+    "model": "Free social app + event tickets",
+    "free_tier": "Free profile & discovery",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Thoughtful consent verification & local real-world events discovery",
+    "Cleaner modern alternative to FetLife for event-first communities",
+    "Warm inclusive community norms"
+  ],
+  "cons": [
+    "Stronger event density in major coastal metros",
+    "Event tickets cost separately via organizers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/plura.webp",
+    "alt": "Plura logo and brand card",
+    "source_url": "https://plura.io",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://plura.io",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free social app + event tickets",
+      "source_url": "https://plura.io",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://plura.io",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "plura.io",
+      "source_url": "https://plura.io",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

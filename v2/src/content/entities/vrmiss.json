@@ -1,0 +1,80 @@
+{
+  "slug": "vrmiss",
+  "type": "site",
+  "name": "VRMiss",
+  "url": "https://vrmiss.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Boutique VR studio spotlighting warm, intimate solo striptease and playful couple POV scenarios filmed in 8K clarity.",
+  "tags": [
+    "vr",
+    "studio",
+    "solo",
+    "glamour"
+  ],
+  "ranking_rationale": "Natural sensual lighting and relaxed eye contact in VR; weighed against catalog size remains modest.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Natural sensual lighting and relaxed eye contact in VR",
+    "Great gentle pacing for solo headset sessions",
+    "Clean direct MP4 downloads"
+  ],
+  "cons": [
+    "Catalog size remains modest",
+    "Fewer heavy production sets"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrmiss.webp",
+    "alt": "VRMiss logo and brand card",
+    "source_url": "https://vrmiss.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://vrmiss.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://vrmiss.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://vrmiss.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrmiss.com",
+      "source_url": "https://vrmiss.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

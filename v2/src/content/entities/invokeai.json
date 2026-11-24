@@ -12,8 +12,7 @@
   "tags": [
     "local",
     "image",
-    "image generation",
-    "nsfw"
+    "image generation"
   ],
   "ranking_rationale": "Best unified Photoshop-like regional inpainting canvas for SD/Flux; weighed against slightly heavier ram footprint than forge.",
   "pricing": {

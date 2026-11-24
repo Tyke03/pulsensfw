@@ -1,0 +1,79 @@
+{
+  "slug": "sinvr",
+  "type": "game",
+  "name": "SinVR",
+  "url": "https://sinvr.co",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Downloadable real-time interactive Unity/PCVR adult sandbox lets players customize poses, rooms, and characters in VR.",
+  "tags": [
+    "games",
+    "vr",
+    "3d",
+    "interactive"
+  ],
+  "ranking_rationale": "True 6DOF interactive real-time 3D instead of fixed video; weighed against requires beefy gaming pc gpu—not standalone quest video.",
+  "pricing": {
+    "model": "One-time / Patreon tiers",
+    "free_tier": "Free downloadable demo build",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "PCVR"
+  ],
+  "score": 7.6,
+  "pros": [
+    "True 6DOF interactive real-time 3D instead of fixed video",
+    "Works smoothly with PCVR headsets or desktop mouse",
+    "Active creator scene mods"
+  ],
+  "cons": [
+    "Requires beefy gaming PC GPU—not standalone Quest video",
+    "Early-gen 3D character uncanny valley"
+  ],
+  "image": {
+    "src": "/media/entities/games/sinvr.webp",
+    "alt": "SinVR logo and brand card",
+    "source_url": "https://sinvr.co",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://sinvr.co",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time / Patreon tiers",
+      "source_url": "https://sinvr.co",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, PCVR",
+      "source_url": "https://sinvr.co",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sinvr.co",
+      "source_url": "https://sinvr.co",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

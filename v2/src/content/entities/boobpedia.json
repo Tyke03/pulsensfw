@@ -1,0 +1,78 @@
+{
+  "slug": "boobpedia",
+  "type": "site",
+  "name": "Boobpedia",
+  "url": "https://www.boobpedia.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The sprawling community-maintained encyclopedia indexing thousands of glamour, Pin-Up, Playboy, and adult film performers with trivia and career histories.",
+  "tags": [
+    "forums",
+    "directory",
+    "database"
+  ],
+  "ranking_rationale": "Enormous depth covering international models often absent from Wikipedia; weighed against mediawiki early-2000s visual theme & aggressive display ads.",
+  "pricing": {
+    "model": "100% free encyclopedia",
+    "free_tier": "Completely free browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Enormous depth covering international models often absent from Wikipedia",
+    "Helpful categorization by magazine era, nationality, and studios",
+    "Zero login barrier"
+  ],
+  "cons": [
+    "MediaWiki early-2000s visual theme & aggressive display ads",
+    "Inconsistent editorial citations on minor entries"
+  ],
+  "image": {
+    "src": "/media/entities/sites/boobpedia.webp",
+    "alt": "Boobpedia logo and brand card",
+    "source_url": "https://www.boobpedia.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.boobpedia.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free encyclopedia",
+      "source_url": "https://www.boobpedia.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.boobpedia.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "boobpedia.com",
+      "source_url": "https://www.boobpedia.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

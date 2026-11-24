@@ -1,0 +1,79 @@
+{
+  "slug": "burning-angel",
+  "type": "site",
+  "name": "BurningAngel",
+  "url": "https://www.burningangel.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Joanna Angel's pioneering tattooed, alt-punk hardcore studio combining irreverent humor with authentic indie-scene energy.",
+  "tags": [
+    "premium",
+    "studio",
+    "alt",
+    "punk"
+  ],
+  "ranking_rationale": "True punk/goth/alt authenticity led by Joanna Angel; weighed against slower modern original scene cadence.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "True punk/goth/alt authenticity led by Joanna Angel",
+    "Funny parody scripts and punk-rock soundtrack flair",
+    "Deep historic archive since 2002"
+  ],
+  "cons": [
+    "Slower modern original scene cadence",
+    "Polarizing alt-comedy tone"
+  ],
+  "image": {
+    "src": "/media/entities/sites/burning-angel.webp",
+    "alt": "BurningAngel logo and brand card",
+    "source_url": "https://www.burningangel.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.burningangel.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.burningangel.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.burningangel.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "burningangel.com",
+      "source_url": "https://www.burningangel.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

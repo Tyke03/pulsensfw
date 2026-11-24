@@ -1,0 +1,63 @@
+{
+  "slug": "sophie-evans",
+  "type": "star",
+  "name": "Sophie Evans",
+  "url": "https://en.wikipedia.org/wiki/Sophie_Evans_(actress)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sophie Evans — Hungarian pornographic actress. Industry career documented from 1997.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/sophie-evans.jpg",
+    "alt": "SFW portrait of Sophie Evans",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sophie_Evans_2003.jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q242964 (Hungary)",
+      "source_url": "http://www.wikidata.org/entity/Q242964",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1997–present",
+      "source_url": "https://en.wikipedia.org/wiki/Sophie_Evans_(actress)",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1976",
+      "source_url": "http://www.wikidata.org/entity/Q242964",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

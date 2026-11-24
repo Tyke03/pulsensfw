@@ -1,0 +1,63 @@
+{
+  "slug": "satine-phoenix",
+  "type": "star",
+  "name": "Satine Phoenix",
+  "url": "https://en.wikipedia.org/wiki/Satine_Phoenix",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Satine Phoenix — American former pornographic actress. Industry career documented from 2004.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/satine-phoenix.jpg",
+    "alt": "SFW portrait of Satine Phoenix",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Satine_Phoenix_Porn_Star_Karaoke_2007-05-01_1.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3449545 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q3449545",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2004–retired",
+      "source_url": "https://en.wikipedia.org/wiki/Satine_Phoenix",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1980",
+      "source_url": "http://www.wikidata.org/entity/Q3449545",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

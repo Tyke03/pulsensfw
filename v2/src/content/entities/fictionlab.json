@@ -9,8 +9,7 @@
   "summary": "Multi-character scenarios and world-building rather than single chatbots - an uncensored D&D-host layout with multi-level memory cards, OOC brainstorming commands, no ads, and large in-house models (Oracle, Glendora, Ophelia, 70B+).",
   "tags": [
     "multi-character",
-    "storytelling",
-    "nsfw"
+    "storytelling"
   ],
   "ranking_rationale": "Community feedback shows moderate support (r/FictionLab threads and C.AI-refugee recommendations 2026, on file) for scenario/world-building focus and lack of ad/paywall friction on editing. Complaints on file: mid-sentence cutoffs, Glendora bugs and false-positive refusals, Oracle persona swings. Pricing claim unverified. Scam record, and the domain itself, need re-checking: the homepage sat behind a Cloudflare challenge at verification.",
   "pricing": {

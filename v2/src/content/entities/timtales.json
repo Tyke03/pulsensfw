@@ -1,0 +1,79 @@
+{
+  "slug": "timtales",
+  "type": "site",
+  "name": "TimTales",
+  "url": "https://www.timtales.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Tim Kruger's European all-male studio celebrated globally for sunlit Mediterranean locations, intense chemistry, and charismatic cast.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "Vibrant unscripted European location shoots; weighed against mainstream bareback intensity isn't for mild tastes.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Vibrant unscripted European location shoots",
+    "Polished 4K visual quality with authentic performers",
+    "Strong international cast representation"
+  ],
+  "cons": [
+    "Mainstream bareback intensity isn't for mild tastes",
+    "Premium monthly tier price"
+  ],
+  "image": {
+    "src": "/media/entities/sites/timtales.webp",
+    "alt": "TimTales logo and brand card",
+    "source_url": "https://www.timtales.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.timtales.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.timtales.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.timtales.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "timtales.com",
+      "source_url": "https://www.timtales.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

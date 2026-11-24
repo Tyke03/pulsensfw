@@ -1,0 +1,63 @@
+{
+  "slug": "andy-san-dimas",
+  "type": "star",
+  "name": "Andy San Dimas",
+  "url": "http://www.wikidata.org/entity/Q433037",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Andy San Dimas — Pornographic performer (b. 1986). Industry career documented from 2007.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/andy-san-dimas.jpg",
+    "alt": "SFW portrait of Andy San Dimas",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Andy_San_Dimas_2_2010.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q433037 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q433037",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2007–retired",
+      "source_url": "http://www.wikidata.org/entity/Q433037",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1986",
+      "source_url": "http://www.wikidata.org/entity/Q433037",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

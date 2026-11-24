@@ -1,0 +1,77 @@
+{
+  "slug": "ulmf",
+  "type": "site",
+  "name": "ULMF",
+  "url": "https://ulmf.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Major adult gaming, visual-novel translation, and Ren'Py/RPGMaker modder discussion forum predating F95zone.",
+  "tags": [
+    "forums",
+    "games",
+    "community"
+  ],
+  "ranking_rationale": "Deep active community of indie adult-game modders & translators; weighed against classic phpbb layout requires free registration for attachments.",
+  "pricing": {
+    "model": "Free forum community",
+    "free_tier": "Free browsing & member registration",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Deep active community of indie adult-game modders & translators",
+    "Helpful technical walkthrough threads and save-file guides",
+    "Distinct forum culture from F95zone"
+  ],
+  "cons": [
+    "Classic phpBB layout requires free registration for attachments",
+    "Sparse official storefront integration"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ulmf.webp",
+    "alt": "ULMF logo and brand card",
+    "source_url": "https://ulmf.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://ulmf.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free forum community",
+      "source_url": "https://ulmf.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://ulmf.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ulmf.org",
+      "source_url": "https://ulmf.org",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

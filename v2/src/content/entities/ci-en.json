@@ -1,0 +1,79 @@
+{
+  "slug": "ci-en",
+  "type": "site",
+  "name": "Ci-en",
+  "url": "https://ci-en.dlsite.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "DLsite's official creator patronage platform hosting indie doujinshi illustrators, adult game developers, and ASMR circles.",
+  "tags": [
+    "platform",
+    "creator",
+    "hentai",
+    "games"
+  ],
+  "ranking_rationale": "Best home for tracking Japanese indie NSFW game demos & patches; weighed against mixed machine-translation ux for non-japanese users.",
+  "pricing": {
+    "model": "Monthly creator plans",
+    "free_tier": "Free follow & public devlog posts",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Best home for tracking Japanese indie NSFW game demos & patches",
+    "Tightly integrated with DLsite's trusted points wallet",
+    "Zero sudden SFW policy purges"
+  ],
+  "cons": [
+    "Mixed machine-translation UX for non-Japanese users",
+    "Card billing friction on international networks"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ci-en.webp",
+    "alt": "Ci-en logo and brand card",
+    "source_url": "https://ci-en.dlsite.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://ci-en.dlsite.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Monthly creator plans",
+      "source_url": "https://ci-en.dlsite.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://ci-en.dlsite.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ci-en.dlsite.com",
+      "source_url": "https://ci-en.dlsite.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

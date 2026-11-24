@@ -12,8 +12,7 @@
   "tags": [
     "local",
     "privacy",
-    "chat",
-    "nsfw"
+    "chat"
   ],
   "ranking_rationale": "Open-source GPL/AGPL transparency with local-first storage; weighed against lighter character-card tools than sillytavern.",
   "pricing": {

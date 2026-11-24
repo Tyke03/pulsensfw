@@ -1,0 +1,77 @@
+{
+  "slug": "dame-dip",
+  "type": "product",
+  "name": "Dame Dip",
+  "url": "https://www.dame.com/products/dip",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Approachable everyday silicone bullet vibrator blending ergonomic grip, quiet low-frequency rumble, and cheerful clinical polish.",
+  "tags": [
+    "vibrator",
+    "quiet",
+    "solo"
+  ],
+  "ranking_rationale": "Ergonomic gentle ridge stops hand fatigue; weighed against single pinpoint tip—not a broad wand massager.",
+  "pricing": {
+    "model": "Hardware purchase (~$65)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Ergonomic gentle ridge stops hand fatigue",
+    "Warm quiet low-pitched rumble rather than buzzy tingle",
+    "Medical-grade silicone, 100% waterproof, USB rechargeable"
+  ],
+  "cons": [
+    "Single pinpoint tip—not a broad wand massager",
+    "Lower top-end intensity than Magic Wand"
+  ],
+  "image": {
+    "src": "/media/entities/products/dame-dip.webp",
+    "alt": "Dame Dip logo and brand card",
+    "source_url": "https://www.dame.com/products/dip",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.dame.com/products/dip",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$65)",
+      "source_url": "https://www.dame.com/products/dip",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.dame.com/products/dip",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "dame.com",
+      "source_url": "https://www.dame.com/products/dip",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

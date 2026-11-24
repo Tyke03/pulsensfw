@@ -1,0 +1,78 @@
+{
+  "slug": "deviantclip",
+  "type": "site",
+  "name": "DeviantClip",
+  "url": "https://www.deviantclip.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran fetish and extreme-niche tube aggregating free bizarre/kink clip compilations and studio previews since 2006.",
+  "tags": [
+    "niche",
+    "tube",
+    "fetish"
+  ],
+  "ranking_rationale": "Broad coverage of obscure non-mainstream kinks; weighed against lots of short clip teasers leading to paysites.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Broad coverage of obscure non-mainstream kinks",
+    "Simple fast category directory",
+    "Minimal bloat"
+  ],
+  "cons": [
+    "Lots of short clip teasers leading to paysites",
+    "2000s visual layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/deviantclip.webp",
+    "alt": "DeviantClip logo and brand card",
+    "source_url": "https://www.deviantclip.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.deviantclip.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.deviantclip.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.deviantclip.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "deviantclip.com",
+      "source_url": "https://www.deviantclip.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

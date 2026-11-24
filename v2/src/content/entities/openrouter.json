@@ -13,8 +13,7 @@
     "chat",
     "privacy",
     "power user",
-    "api",
-    "nsfw"
+    "api"
   ],
   "ranking_rationale": "One unified API key unlocks dozens of uncensored roleplay models; weighed against requires pairing with a frontend like sillytavern or janitor.",
   "pricing": {

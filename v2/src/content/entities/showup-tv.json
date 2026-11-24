@@ -1,0 +1,79 @@
+{
+  "slug": "showup-tv",
+  "type": "site",
+  "name": "ShowUp.tv",
+  "url": "https://showup.tv",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Poland's dominant indie live cam platform showcasing genuine Central European amateur models and couples in high-bitrate public chat.",
+  "tags": [
+    "cams",
+    "live",
+    "european",
+    "amateur"
+  ],
+  "ranking_rationale": "Strong genuine Central & Eastern European amateur focus; weighed against primarily polish ui localization.",
+  "pricing": {
+    "model": "Tokens & private access",
+    "free_tier": "Free public chat streams",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Strong genuine Central & Eastern European amateur focus",
+    "Simple goal-bar token system without heavy agency fluff",
+    "Good 1080p stream stability"
+  ],
+  "cons": [
+    "Primarily Polish UI localization",
+    "Smaller English-speaking host ratio"
+  ],
+  "image": {
+    "src": "/media/entities/sites/showup-tv.webp",
+    "alt": "ShowUp.tv logo and brand card",
+    "source_url": "https://showup.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://showup.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & private access",
+      "source_url": "https://showup.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://showup.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "showup.tv",
+      "source_url": "https://showup.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "mage-space",
+  "type": "ai_app",
+  "name": "Mage.space",
+  "url": "https://www.mage.space",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Lightning-fast browser AI art workspace offering uncensored Flux, SDXL, Pony, and custom LoRA pipelines without local GPUs.",
+  "tags": [
+    "image",
+    "cloud"
+  ],
+  "ranking_rationale": "Runs uncensored custom community checkpoints directly in the browser; weighed against paid pro tiers needed for private queues & full lora selection.",
+  "pricing": {
+    "model": "Free tier + Pro/Pro+ plans",
+    "free_tier": "Free unlimited basic SD models",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Runs uncensored custom community checkpoints directly in the browser",
+    "Fast prompt iteration and private session mode",
+    "Clean dark UX"
+  ],
+  "cons": [
+    "Paid Pro tiers needed for private queues & full LoRA selection",
+    "Strict CSAM/non-consensual safety blocks on uploads"
+  ],
+  "image": {
+    "src": "/media/entities/ai/mage-space.webp",
+    "alt": "Mage.space logo and brand card",
+    "source_url": "https://www.mage.space",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://www.mage.space",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free tier + Pro/Pro+ plans",
+      "source_url": "https://www.mage.space",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.mage.space",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mage.space",
+      "source_url": "https://www.mage.space",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "sd-next",
+  "type": "ai_app",
+  "name": "SD.Next",
+  "url": "https://github.com/vladmandic/sdnext",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Modern actively engineered fork of Automatic1111 adding native Flux, Diffusers backend, AMD/Intel GPU acceleration, and clean UI.",
+  "tags": [
+    "image",
+    "local",
+    "open-source"
+  ],
+  "ranking_rationale": "Runs cleanly across NVIDIA, AMD ROCm, Apple Silicon & Intel Arc; weighed against dense settings tree rewards experienced users.",
+  "pricing": {
+    "model": "Free & open-source",
+    "free_tier": "100% free local download",
+    "from_price": "$0",
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Runs cleanly across NVIDIA, AMD ROCm, Apple Silicon & Intel Arc",
+    "Unrestricted local model & LoRA freedom",
+    "Much faster startup & memory handling than legacy A1111"
+  ],
+  "cons": [
+    "Dense settings tree rewards experienced users",
+    "Requires local VRAM (8GB+ recommended)"
+  ],
+  "image": {
+    "src": "/media/entities/ai/sd-next.webp",
+    "alt": "SD.Next logo and brand card",
+    "source_url": "https://github.com/vladmandic/sdnext",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://github.com/vladmandic/sdnext",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free & open-source",
+      "source_url": "https://github.com/vladmandic/sdnext",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS",
+      "source_url": "https://github.com/vladmandic/sdnext",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/vladmandic/sdnext",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

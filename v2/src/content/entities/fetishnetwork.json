@@ -1,0 +1,78 @@
+{
+  "slug": "fetishnetwork",
+  "type": "site",
+  "name": "Fetish Network",
+  "url": "https://www.fetishnetwork.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-volume commercial kink network bundling bondage, latex, femdom, spanking, and roleplay studios under one subscription.",
+  "tags": [
+    "niche",
+    "bdsm",
+    "premium"
+  ],
+  "ranking_rationale": "Wide spectrum of classic soft-to-medium kink sub-sites on one login; weighed against tame/campy scripts compared with raw indie clip stores.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Wide spectrum of classic soft-to-medium kink sub-sites on one login",
+    "Long-running archive dating back over 15 years",
+    "Reliable 4K downloads on modern shoots"
+  ],
+  "cons": [
+    "Tame/campy scripts compared with raw indie clip stores",
+    "Aggressive checkout cross-sells"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fetishnetwork.webp",
+    "alt": "Fetish Network logo and brand card",
+    "source_url": "https://www.fetishnetwork.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.fetishnetwork.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.fetishnetwork.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.fetishnetwork.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fetishnetwork.com",
+      "source_url": "https://www.fetishnetwork.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "wikifeet-x",
+  "type": "site",
+  "name": "wikiFeet X",
+  "url": "https://www.wikifeetx.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dedicated adult-industry wing of wikiFeet cataloging high-res verified performer foot-fetish galleries and scene tags.",
+  "tags": [
+    "niche",
+    "photos",
+    "fetish"
+  ],
+  "ranking_rationale": "Most comprehensive tagged foot-fetish index for adult performers; weighed against popup ads and strict image-hotlinking restrictions.",
+  "pricing": {
+    "model": "Free ad-supported gallery",
+    "free_tier": "Free browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Most comprehensive tagged foot-fetish index for adult performers",
+    "Links performer filmography directly with crisp photo galleries",
+    "Fast clean browsing"
+  ],
+  "cons": [
+    "Popup ads and strict image-hotlinking restrictions",
+    "Single hyper-specific niche"
+  ],
+  "image": {
+    "src": "/media/entities/sites/wikifeet-x.webp",
+    "alt": "wikiFeet X logo and brand card",
+    "source_url": "https://www.wikifeetx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.wikifeetx.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported gallery",
+      "source_url": "https://www.wikifeetx.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.wikifeetx.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "wikifeetx.com",
+      "source_url": "https://www.wikifeetx.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

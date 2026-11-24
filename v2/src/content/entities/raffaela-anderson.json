@@ -1,0 +1,63 @@
+{
+  "slug": "raffaela-anderson",
+  "type": "star",
+  "name": "Raffaëla Anderson",
+  "url": "https://en.wikipedia.org/wiki/Raffa%C3%ABla_Anderson",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Raffaëla Anderson — Berber French writer and actor, former adult film performer. Industry career documented from 1994.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/raffaela-anderson.jpg",
+    "alt": "SFW portrait of Raffaëla Anderson",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Raffaela_Anderson_Exhibition_99.2.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q206369 (France)",
+      "source_url": "http://www.wikidata.org/entity/Q206369",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1994–retired",
+      "source_url": "https://en.wikipedia.org/wiki/Raffa%C3%ABla_Anderson",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1976",
+      "source_url": "http://www.wikidata.org/entity/Q206369",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

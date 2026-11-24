@@ -1,0 +1,81 @@
+{
+  "slug": "lezhin-comics",
+  "type": "site",
+  "name": "Lezhin Comics",
+  "url": "https://www.lezhinus.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Official licensed Korean webtoon publisher famous for uncensored, studio-quality 18+ romance, BL, and adult drama series.",
+  "tags": [
+    "hentai",
+    "comics",
+    "manhwa",
+    "premium"
+  ],
+  "ranking_rationale": "100% legal official English translations paying original Korean creators; weighed against coin-per-episode pricing adds up fast on 100+ chapter series.",
+  "pricing": {
+    "model": "Coin packs & Wait-Until-Free",
+    "free_tier": "First episodes & promo waits free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.5,
+  "pros": [
+    "100% legal official English translations paying original Korean creators",
+    "Full high-res art in both mature web and uncensored web views",
+    "Polished bookmark & wait-free unlock promos"
+  ],
+  "cons": [
+    "Coin-per-episode pricing adds up fast on 100+ chapter series",
+    "Mobile app store rules require reading mature titles on mobile web"
+  ],
+  "image": {
+    "src": "/media/entities/sites/lezhin-comics.webp",
+    "alt": "Lezhin Comics logo and brand card",
+    "source_url": "https://www.lezhinus.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.lezhinus.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Coin packs & Wait-Until-Free",
+      "source_url": "https://www.lezhinus.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web, iOS, Android",
+      "source_url": "https://www.lezhinus.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lezhinus.com",
+      "source_url": "https://www.lezhinus.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -12,8 +12,7 @@
   "tags": [
     "local",
     "image",
-    "image generation",
-    "nsfw"
+    "image generation"
   ],
   "ranking_rationale": "Substantial VRAM speedups and Flux NF4 support on 8GB cards; weighed against smaller third-party node library than comfyui.",
   "pricing": {

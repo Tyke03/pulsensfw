@@ -1,0 +1,63 @@
+{
+  "slug": "aurora-jolie",
+  "type": "star",
+  "name": "Aurora Jolie",
+  "url": "http://www.wikidata.org/entity/Q2561906",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Aurora Jolie — American actress and pornographic actress. Industry career documented from 2006.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/aurora-jolie.jpg",
+    "alt": "SFW portrait of Aurora Jolie",
+    "source_url": "https://commons.wikimedia.org/wiki/File:AN_Aurora_Jolie_1.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q2561906 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q2561906",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2006–present",
+      "source_url": "http://www.wikidata.org/entity/Q2561906",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1988",
+      "source_url": "http://www.wikidata.org/entity/Q2561906",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

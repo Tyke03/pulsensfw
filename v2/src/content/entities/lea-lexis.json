@@ -1,0 +1,63 @@
+{
+  "slug": "lea-lexis",
+  "type": "star",
+  "name": "Lea Lexis",
+  "url": "http://www.wikidata.org/entity/Q6508202",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lea Lexis — Romanian pornographic actress. Industry career documented from 2007.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/lea-lexis.jpg",
+    "alt": "SFW portrait of Lea Lexis",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lea_Lexis_at_AVN_Awards_2016_(26606424441)_(cropped_3).jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q6508202 (Romania)",
+      "source_url": "http://www.wikidata.org/entity/Q6508202",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2007–present",
+      "source_url": "http://www.wikidata.org/entity/Q6508202",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1988",
+      "source_url": "http://www.wikidata.org/entity/Q6508202",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

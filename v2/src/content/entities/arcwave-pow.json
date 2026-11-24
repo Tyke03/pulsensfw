@@ -1,0 +1,77 @@
+{
+  "slug": "arcwave-pow",
+  "type": "product",
+  "name": "Arcwave Pow",
+  "url": "https://www.arcwave.com/pow",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Travel-friendly manual vacuum stroker using an adjustable suction valve and ultra-soft CleanTech silicone for clean everyday performance.",
+  "tags": [
+    "stroker",
+    "quiet",
+    "budget"
+  ],
+  "ranking_rationale": "Zero charging needed—instant mechanical suction control; weighed against manual stroke requires both hands for tightest valve sealing.",
+  "pricing": {
+    "model": "Hardware purchase (~$79)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Zero charging needed—instant mechanical suction control",
+    "Easy twist-open cleanup and discreet matte-white desk storage cup",
+    "Durable non-sticky CleanTech silicone"
+  ],
+  "cons": [
+    "Manual stroke requires both hands for tightest valve sealing",
+    "Slightly firmer opening ring"
+  ],
+  "image": {
+    "src": "/media/entities/products/arcwave-pow.webp",
+    "alt": "Arcwave Pow logo and brand card",
+    "source_url": "https://www.arcwave.com/pow",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.arcwave.com/pow",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$79)",
+      "source_url": "https://www.arcwave.com/pow",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.arcwave.com/pow",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "arcwave.com",
+      "source_url": "https://www.arcwave.com/pow",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

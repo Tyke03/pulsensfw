@@ -1,0 +1,78 @@
+{
+  "slug": "seaart-ai",
+  "type": "ai_app",
+  "name": "SeaArt AI",
+  "url": "https://www.seaart.ai",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Massive community LoRA, Flux, and workflow studio pairing Swift/Comfy cloud pipelines with rich anime & realistic styling.",
+  "tags": [
+    "image",
+    "cloud"
+  ],
+  "ranking_rationale": "Enormous community LoRA & checkpoint hub similar to Civitai + cloud GPU; weighed against aggressive paywall nags & tight mature visibility filters on free mode.",
+  "pricing": {
+    "model": "Freemium daily stamina + VIP tiers",
+    "free_tier": "Free daily stamina generation",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Enormous community LoRA & checkpoint hub similar to Civitai + cloud GPU",
+    "Supports ComfyUI cloud workflows directly in browser",
+    "Fast daily stamina refreshes"
+  ],
+  "cons": [
+    "Aggressive paywall nags & tight mature visibility filters on free mode",
+    "UI overloaded with gamified banners"
+  ],
+  "image": {
+    "src": "/media/entities/ai/seaart-ai.webp",
+    "alt": "SeaArt AI logo and brand card",
+    "source_url": "https://www.seaart.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://www.seaart.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium daily stamina + VIP tiers",
+      "source_url": "https://www.seaart.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.seaart.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "seaart.ai",
+      "source_url": "https://www.seaart.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

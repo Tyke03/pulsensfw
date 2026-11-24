@@ -1,0 +1,63 @@
+{
+  "slug": "cara-lott",
+  "type": "star",
+  "name": "Cara Lott",
+  "url": "https://en.wikipedia.org/wiki/Cara_Lott",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Cara Lott — American pornographic actress. Industry career documented from 1981.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/cara-lott.jpg",
+    "alt": "SFW portrait of Cara Lott",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cara_Lott_adjusted.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q4382425 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q4382425",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1981–2009",
+      "source_url": "https://en.wikipedia.org/wiki/Cara_Lott",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1961",
+      "source_url": "http://www.wikidata.org/entity/Q4382425",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

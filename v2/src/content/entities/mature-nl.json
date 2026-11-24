@@ -1,0 +1,79 @@
+{
+  "slug": "mature-nl",
+  "type": "site",
+  "name": "Mature.nl",
+  "url": "https://www.mature.nl",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran Dutch and European mature-model studio running since 1999 with real 40+ and 50+ amateur performers.",
+  "tags": [
+    "premium",
+    "studio",
+    "european",
+    "niche"
+  ],
+  "ranking_rationale": "Genuine unpolished European mature performers since 1999; weighed against old-fashioned web design.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Genuine unpolished European mature performers since 1999",
+    "Over 25 years of consistent original archives",
+    "Clean categorized photo sets alongside full scenes"
+  ],
+  "cons": [
+    "Old-fashioned web design",
+    "Lower production polish vs slick US studios"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mature-nl.webp",
+    "alt": "Mature.nl logo and brand card",
+    "source_url": "https://www.mature.nl",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.mature.nl",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.mature.nl",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.mature.nl",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mature.nl",
+      "source_url": "https://www.mature.nl",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

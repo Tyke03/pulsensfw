@@ -1,0 +1,80 @@
+{
+  "slug": "mirror-game",
+  "type": "game",
+  "name": "Mirror",
+  "url": "https://store.steampowered.com/app/644560/Mirror/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ultra-popular budget dark-fantasy match-3 RPG famous for crisp Live2D animations, branch endings, and snappy puzzle encounters.",
+  "tags": [
+    "games",
+    "puzzle",
+    "anime",
+    "pc"
+  ],
+  "ranking_rationale": "Bargain sub-$2 price delivers polished Live2D artwork & crisp voice lines; weighed against sequel project imploded (only enjoy original mirror #1).",
+  "pricing": {
+    "model": "One-time Steam purchase (~$2)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Steam"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Bargain sub-$2 price delivers polished Live2D artwork & crisp voice lines",
+    "Clever dark-fantasy vignette choices",
+    "Minimal disk footprint & quick sessions"
+  ],
+  "cons": [
+    "Sequel project imploded (only enjoy original Mirror #1)",
+    "Needs official DLC/patch step on Steam for uncensored gallery"
+  ],
+  "image": {
+    "src": "/media/entities/games/mirror-game.webp",
+    "alt": "Mirror logo and brand card",
+    "source_url": "https://store.steampowered.com/app/644560/Mirror/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://store.steampowered.com/app/644560/Mirror/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$2)",
+      "source_url": "https://store.steampowered.com/app/644560/Mirror/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Steam",
+      "source_url": "https://store.steampowered.com/app/644560/Mirror/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/644560/Mirror/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

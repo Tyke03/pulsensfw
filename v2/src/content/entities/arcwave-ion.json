@@ -1,0 +1,78 @@
+{
+  "slug": "arcwave-ion",
+  "type": "product",
+  "name": "Arcwave Ion",
+  "url": "https://www.arcwave.com/ion",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Revolutionary Pleasure Air stroker engineered by Womanizer's parent team—targeting frenulum nerve endings with clean vacuum pressure waves.",
+  "tags": [
+    "air-pulse",
+    "quiet",
+    "stroker",
+    "premium"
+  ],
+  "ranking_rationale": "Unique contactless air-pulse sensation unlike any vibrating sleeve; weighed against fit accommodates most standard anatomy cleanly—very tight above 2\" girth.",
+  "pricing": {
+    "model": "Hardware purchase (~$179)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Unique contactless air-pulse sensation unlike any vibrating sleeve",
+    "Smart-Silence sensor activates suction only upon skin contact",
+    "Waterproof, hygienic CleanTech silicone & dock base"
+  ],
+  "cons": [
+    "Fit accommodates most standard anatomy cleanly—very tight above 2\" girth",
+    "High luxury retail price"
+  ],
+  "image": {
+    "src": "/media/entities/products/arcwave-ion.webp",
+    "alt": "Arcwave Ion logo and brand card",
+    "source_url": "https://www.arcwave.com/ion",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.arcwave.com/ion",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$179)",
+      "source_url": "https://www.arcwave.com/ion",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.arcwave.com/ion",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "arcwave.com",
+      "source_url": "https://www.arcwave.com/ion",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

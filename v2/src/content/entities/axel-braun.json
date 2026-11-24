@@ -1,0 +1,64 @@
+{
+  "slug": "axel-braun",
+  "type": "star",
+  "name": "Axel Braun",
+  "url": "https://en.wikipedia.org/wiki/Axel_Braun",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Axel Braun — Italian adult film director. Industry career documented from 1990.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/axel-braun.jpg",
+    "alt": "SFW portrait of Axel Braun",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Axel_Braun_October_2010.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q345838 (Italy)",
+      "source_url": "http://www.wikidata.org/entity/Q345838",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1990–present",
+      "source_url": "https://en.wikipedia.org/wiki/Axel_Braun",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1966",
+      "source_url": "http://www.wikidata.org/entity/Q345838",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

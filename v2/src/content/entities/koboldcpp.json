@@ -13,8 +13,7 @@
     "privacy",
     "local",
     "free",
-    "power user",
-    "nsfw"
+    "power user"
   ],
   "ranking_rationale": "Zero-telemetry single-file local runner trusted by almost every local-AI roleplayer—unmatched convenience once you pick a GGUF file, limited only by your own VRAM.",
   "pricing": {

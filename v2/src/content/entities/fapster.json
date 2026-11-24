@@ -1,0 +1,78 @@
+{
+  "slug": "fapster",
+  "type": "site",
+  "name": "Fapster",
+  "url": "https://www.fapster.xxx",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean modern black-and-pink free HD tube spotlighting full-length scenes and curated playlists.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Sleek responsive card layout; weighed against smaller library vs mega-tubes.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free HD streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Sleek responsive card layout",
+    "Good percentage of full-duration uploads",
+    "Easy duration & HD filters"
+  ],
+  "cons": [
+    "Smaller library vs mega-tubes",
+    "Standard overlay ads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fapster.webp",
+    "alt": "Fapster logo and brand card",
+    "source_url": "https://www.fapster.xxx",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.fapster.xxx",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.fapster.xxx",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.fapster.xxx",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fapster.xxx",
+      "source_url": "https://www.fapster.xxx",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

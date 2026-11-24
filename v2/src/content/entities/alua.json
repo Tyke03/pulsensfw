@@ -1,0 +1,79 @@
+{
+  "slug": "alua",
+  "type": "site",
+  "name": "Alua",
+  "url": "https://www.alua.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mobile-first paid messaging and exclusive photo-share platform connecting models directly with fans for 1-on-1 chat.",
+  "tags": [
+    "platform",
+    "creator",
+    "chat"
+  ],
+  "ranking_rationale": "Fast clean iOS/Android & web paid-messaging focus; weighed against credit balance drains rapidly during active chatting.",
+  "pricing": {
+    "model": "Paid messaging credits & PPV",
+    "free_tier": "Free signup & discovery browse",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Fast clean iOS/Android & web paid-messaging focus",
+    "Transparent per-message & private-photo paywalls",
+    "Active glamour/influencer creator pool"
+  ],
+  "cons": [
+    "Credit balance drains rapidly during active chatting",
+    "Leans softer/glamour vs full explicit studios"
+  ],
+  "image": {
+    "src": "/media/entities/sites/alua.webp",
+    "alt": "Alua logo and brand card",
+    "source_url": "https://www.alua.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.alua.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid messaging credits & PPV",
+      "source_url": "https://www.alua.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.alua.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "alua.com",
+      "source_url": "https://www.alua.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

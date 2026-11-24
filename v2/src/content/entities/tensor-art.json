@@ -12,8 +12,7 @@
   "tags": [
     "image",
     "image generation",
-    "models",
-    "nsfw"
+    "models"
   ],
   "ranking_rationale": "Generous daily free credits test checkpoints before paying; weighed against stricter content guardrails on certain realistic nsfw tags vs local.",
   "pricing": {

@@ -1,0 +1,77 @@
+{
+  "slug": "tenga-aero",
+  "type": "product",
+  "name": "TENGA AERO",
+  "url": "https://www.tenga.co/products/aero-series/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Precision Japanese reusable manual stroker featuring a click-dial suction ring offering 10 calibrated pressure intensities.",
+  "tags": [
+    "stroker",
+    "quiet",
+    "reusable"
+  ],
+  "ranking_rationale": "Tactile 10-step airflow suction dial changes sensation mid-session; weighed against narrower entry sizing compared with oversized us sleeves.",
+  "pricing": {
+    "model": "Hardware purchase (~$65)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Tactile 10-step airflow suction dial changes sensation mid-session",
+    "Smooth durable internal elastomer with ventilated drying stand",
+    "Compact discreet hard storage shell"
+  ],
+  "cons": [
+    "Narrower entry sizing compared with oversized US sleeves",
+    "Elastomer takes water-based lube only"
+  ],
+  "image": {
+    "src": "/media/entities/products/tenga-aero.webp",
+    "alt": "TENGA AERO logo and brand card",
+    "source_url": "https://www.tenga.co/products/aero-series/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.tenga.co/products/aero-series/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$65)",
+      "source_url": "https://www.tenga.co/products/aero-series/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.tenga.co/products/aero-series/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tenga.co",
+      "source_url": "https://www.tenga.co/products/aero-series/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

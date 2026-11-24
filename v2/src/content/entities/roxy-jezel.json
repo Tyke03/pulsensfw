@@ -1,0 +1,63 @@
+{
+  "slug": "roxy-jezel",
+  "type": "star",
+  "name": "Roxy Jezel",
+  "url": "https://en.wikipedia.org/wiki/Roxy_Jezel",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Roxy Jezel — British-Thai pornographic actress. Industry career documented from 2003.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/roxy-jezel.jpg",
+    "alt": "SFW portrait of Roxy Jezel",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Roxy_Jezel,_2007.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q448068 (United Kingdom)",
+      "source_url": "http://www.wikidata.org/entity/Q448068",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2003–present",
+      "source_url": "https://en.wikipedia.org/wiki/Roxy_Jezel",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1982",
+      "source_url": "http://www.wikidata.org/entity/Q448068",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

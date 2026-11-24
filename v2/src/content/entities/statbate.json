@@ -1,0 +1,77 @@
+{
+  "slug": "statbate",
+  "type": "site",
+  "name": "Statbate",
+  "url": "https://statbate.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Real-time cam industry analytics tracking top-tipping tokens, room schedules, and rank velocity across Chaturbate, Stripchat, and BongaCams.",
+  "tags": [
+    "forums",
+    "analytics",
+    "directory"
+  ],
+  "ranking_rationale": "Invaluable transparent earnings & trend charts for cam models and fans; weighed against advanced historical tip breakdowns paywalled behind pro.",
+  "pricing": {
+    "model": "Freemium analytics SaaS",
+    "free_tier": "Free live rankings & basic profiles",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Invaluable transparent earnings & trend charts for cam models and fans",
+    "Shows peak streaming hours and top-room leaderboards",
+    "Crisp modern SaaS table UI"
+  ],
+  "cons": [
+    "Advanced historical tip breakdowns paywalled behind Pro",
+    "Data strictly covers public token platforms"
+  ],
+  "image": {
+    "src": "/media/entities/sites/statbate.webp",
+    "alt": "Statbate logo and brand card",
+    "source_url": "https://statbate.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://statbate.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium analytics SaaS",
+      "source_url": "https://statbate.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://statbate.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "statbate.com",
+      "source_url": "https://statbate.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

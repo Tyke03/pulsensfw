@@ -1,0 +1,79 @@
+{
+  "slug": "alfie-comic",
+  "type": "site",
+  "name": "Alfie (Buttsmithy)",
+  "url": "https://buttsmithy.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "InCase's critically acclaimed, richly painted NSFW fantasy graphic novel following halfling Alfie across a heartfelt world.",
+  "tags": [
+    "comics",
+    "western",
+    "story",
+    "free"
+  ],
+  "ranking_rationale": "Genuine museum-grade painted comic art and nuanced character writing; weighed against wait weeks between major chapter drops (though deeply rewarding).",
+  "pricing": {
+    "model": "Free webcomic + Patreon supporters",
+    "free_tier": "Full high-res comic free online",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Genuine museum-grade painted comic art and nuanced character writing",
+    "100% free high-res webcomic release without popup spam",
+    "Beloved multi-year epic reaching over 1,000 story pages"
+  ],
+  "cons": [
+    "Wait weeks between major chapter drops (though deeply rewarding)",
+    "Slow burn pacing mixes humor, fantasy & erotica"
+  ],
+  "image": {
+    "src": "/media/entities/sites/alfie-comic.webp",
+    "alt": "Alfie (Buttsmithy) logo and brand card",
+    "source_url": "https://buttsmithy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://buttsmithy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free webcomic + Patreon supporters",
+      "source_url": "https://buttsmithy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://buttsmithy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "buttsmithy.com",
+      "source_url": "https://buttsmithy.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

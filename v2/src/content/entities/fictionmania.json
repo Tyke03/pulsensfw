@@ -1,0 +1,78 @@
+{
+  "slug": "fictionmania",
+  "type": "site",
+  "name": "Fictionmania",
+  "url": "https://www.fictionmania.tv",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Historic specialist fiction archive running since 1995 devoted cleanly to transformation, TG, and gender-swap erotica.",
+  "tags": [
+    "erotica",
+    "stories",
+    "niche",
+    "free"
+  ],
+  "ranking_rationale": "30-year continuous curated text archive with fast rating sort; weighed against strictly niche genre focus.",
+  "pricing": {
+    "model": "100% free archive",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "30-year continuous curated text archive with fast rating sort",
+    "Loads instantaneously on any browser with zero ads bloat",
+    "Rich rating/length metadata"
+  ],
+  "cons": [
+    "Strictly niche genre focus",
+    "1990s web formatting"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fictionmania.webp",
+    "alt": "Fictionmania logo and brand card",
+    "source_url": "https://www.fictionmania.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.fictionmania.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free archive",
+      "source_url": "https://www.fictionmania.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.fictionmania.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fictionmania.tv",
+      "source_url": "https://www.fictionmania.tv",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

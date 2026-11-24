@@ -1,0 +1,77 @@
+{
+  "slug": "aneros-helix-syn-v",
+  "type": "product",
+  "name": "Aneros Helix Syn V",
+  "url": "https://www.aneros.com/products/helix-syn-trident",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Velvety silicone non-motorized ergonomic prostate massager responding purely to natural pelvic floor contractions for hands-free bliss.",
+  "tags": [
+    "prostate",
+    "quiet",
+    "hands-free"
+  ],
+  "ranking_rationale": "Silicone coating eliminates hard-plastic discomfort of original Aneros; weighed against steep learning curve requiring relaxation over sessions.",
+  "pricing": {
+    "model": "Hardware purchase (~$65)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Silicone coating eliminates hard-plastic discomfort of original Aneros",
+    "True hands-free rhythmic pelvic feedback with zero motors or batteries",
+    "Proven ergonomic shape trusted for decades"
+  ],
+  "cons": [
+    "Steep learning curve requiring relaxation over sessions",
+    "Not an instant plug-and-play vibe"
+  ],
+  "image": {
+    "src": "/media/entities/products/aneros-helix-syn-v.webp",
+    "alt": "Aneros Helix Syn V logo and brand card",
+    "source_url": "https://www.aneros.com/products/helix-syn-trident",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.aneros.com/products/helix-syn-trident",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$65)",
+      "source_url": "https://www.aneros.com/products/helix-syn-trident",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.aneros.com/products/helix-syn-trident",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "aneros.com",
+      "source_url": "https://www.aneros.com/products/helix-syn-trident",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

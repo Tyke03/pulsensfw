@@ -1,0 +1,78 @@
+{
+  "slug": "tsplayground",
+  "type": "site",
+  "name": "TS Playground",
+  "url": "https://www.tsplayground.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Long-running transgender adult studio network known for polished European and American cast showcases in HD.",
+  "tags": [
+    "niche",
+    "trans",
+    "premium"
+  ],
+  "ranking_rationale": "Consistent multi-year library starring top trans performers; weighed against older member interface design.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Consistent multi-year library starring top trans performers",
+    "Clean mobile & desktop streaming",
+    "Includes still gallery downloads"
+  ],
+  "cons": [
+    "Older member interface design",
+    "Separate pass from TransAngels"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tsplayground.webp",
+    "alt": "TS Playground logo and brand card",
+    "source_url": "https://www.tsplayground.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.tsplayground.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.tsplayground.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tsplayground.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tsplayground.com",
+      "source_url": "https://www.tsplayground.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

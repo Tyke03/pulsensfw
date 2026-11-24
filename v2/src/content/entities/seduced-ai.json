@@ -12,8 +12,7 @@
   "tags": [
     "image",
     "image generation",
-    "video",
-    "nsfw"
+    "video"
   ],
   "ranking_rationale": "Fast instant poses & preset tags without learning LoRAs; weighed against token pricing runs expensive per hd batch.",
   "pricing": {

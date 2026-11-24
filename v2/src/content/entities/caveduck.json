@@ -1,0 +1,78 @@
+{
+  "slug": "caveduck",
+  "type": "ai_app",
+  "name": "Caveduck",
+  "url": "https://caveduck.io",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Customizable character chat platform offering model-switching (including unrestricted RP models), image prompts, and lore memories.",
+  "tags": [
+    "chat",
+    "roleplay"
+  ],
+  "ranking_rationale": "Switch underlying chat LLM freely depending on prose style vs price; weighed against feather/credit drain adds up rapidly on top models.",
+  "pricing": {
+    "model": "Pay-per-feather credits",
+    "free_tier": "Daily free starter feathers",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Switch underlying chat LLM freely depending on prose style vs price",
+    "Supports dynamic scene image triggers during chat",
+    "Uncensored toggle with clear character cards"
+  ],
+  "cons": [
+    "Feather/credit drain adds up rapidly on top models",
+    "Cluttered marketplace UI"
+  ],
+  "image": {
+    "src": "/media/entities/ai/caveduck.webp",
+    "alt": "Caveduck logo and brand card",
+    "source_url": "https://caveduck.io",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://caveduck.io",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-per-feather credits",
+      "source_url": "https://caveduck.io",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://caveduck.io",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "caveduck.io",
+      "source_url": "https://caveduck.io",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

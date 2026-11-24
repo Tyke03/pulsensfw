@@ -1,0 +1,63 @@
+{
+  "slug": "karen-summer",
+  "type": "star",
+  "name": "Karen Summer",
+  "url": "https://en.wikipedia.org/wiki/Karen_Summer",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Karen Summer — American pornographic actress. Industry career documented from 1982.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/karen-summer.jpg",
+    "alt": "SFW portrait of Karen Summer",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Karen_Summer_2015.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q18739021 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q18739021",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1982–2018",
+      "source_url": "https://en.wikipedia.org/wiki/Karen_Summer",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1962",
+      "source_url": "http://www.wikidata.org/entity/Q18739021",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

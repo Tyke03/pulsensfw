@@ -1,0 +1,78 @@
+{
+  "slug": "porndex",
+  "type": "site",
+  "name": "PornDex",
+  "url": "https://porndex.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-standing curated directory categorizing mainstream tubes, paysites, cam networks, and fetish portals with quick summaries.",
+  "tags": [
+    "forums",
+    "directory",
+    "reviews"
+  ],
+  "ranking_rationale": "Fast minimalist one-page scan across classic destinations; weighed against short blurbs lack deep hands-on ux critiques.",
+  "pricing": {
+    "model": "Free web directory",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Fast minimalist one-page scan across classic destinations",
+    "Low script overhead and clean dark framing",
+    "Helpful quick safety filters"
+  ],
+  "cons": [
+    "Short blurbs lack deep hands-on UX critiques",
+    "Static reviews update infrequently"
+  ],
+  "image": {
+    "src": "/media/entities/sites/porndex.webp",
+    "alt": "PornDex logo and brand card",
+    "source_url": "https://porndex.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://porndex.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free web directory",
+      "source_url": "https://porndex.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://porndex.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "porndex.com",
+      "source_url": "https://porndex.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

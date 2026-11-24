@@ -1,0 +1,77 @@
+{
+  "slug": "infermatic-ai",
+  "type": "ai_app",
+  "name": "InfermaticAI",
+  "url": "https://infermatic.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dedicated flat-rate uncensored 70B LLM API built explicitly for heavy SillyTavern and long-form NSFW creative writers.",
+  "tags": [
+    "chat",
+    "api"
+  ],
+  "ranking_rationale": "Uncensored 70B models served cleanly at flat monthly pricing; weighed against focused strictly on text apis (bring your own frontend like sillytavern).",
+  "pricing": {
+    "model": "Flat monthly subscription ($15/mo)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Uncensored 70B models served cleanly at flat monthly pricing",
+    "Fast stable throughput prized by marathon RP writers",
+    "Zero content judgment logs"
+  ],
+  "cons": [
+    "Focused strictly on text APIs (bring your own frontend like SillyTavern)",
+    "Small curated model list vs OpenRouter"
+  ],
+  "image": {
+    "src": "/media/entities/ai/infermatic-ai.webp",
+    "alt": "InfermaticAI logo and brand card",
+    "source_url": "https://infermatic.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://infermatic.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Flat monthly subscription ($15/mo)",
+      "source_url": "https://infermatic.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://infermatic.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "infermatic.ai",
+      "source_url": "https://infermatic.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

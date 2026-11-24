@@ -1,0 +1,78 @@
+{
+  "slug": "hentaipulse",
+  "type": "site",
+  "name": "HentaiPulse",
+  "url": "https://hentaipulse.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Archival English-subbed hentai streaming index housing classic 1990s and 2000s OVA series cleanly by letter.",
+  "tags": [
+    "hentai",
+    "anime",
+    "free"
+  ],
+  "ranking_rationale": "Deep catalog of classic 1990s/2000s anime OVAs; weighed against dated ui and video resolutions on classics.",
+  "pricing": {
+    "model": "Free streaming",
+    "free_tier": "Free streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Deep catalog of classic 1990s/2000s anime OVAs",
+    "Fast plain dark HTML browsing",
+    "Simple episode lists"
+  ],
+  "cons": [
+    "Dated UI and video resolutions on classics",
+    "Ads in player sidebar"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hentaipulse.webp",
+    "alt": "HentaiPulse logo and brand card",
+    "source_url": "https://hentaipulse.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://hentaipulse.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free streaming",
+      "source_url": "https://hentaipulse.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hentaipulse.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hentaipulse.com",
+      "source_url": "https://hentaipulse.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -11,8 +11,9 @@
   "summary": "Lightweight open-source CLI & daemon runtime to pull, quantize, and serve uncensored local LLMs in one command.",
   "tags": [
     "local",
-    "privacy",
-    "nsfw"
+    "offline",
+    "gguf",
+    "open-source"
   ],
   "ranking_rationale": "Single-command model pulling and OpenAI API compatibility; weighed against cli-first setup expects terminal familiarity.",
   "pricing": {

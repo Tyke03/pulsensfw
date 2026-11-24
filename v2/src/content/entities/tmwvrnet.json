@@ -1,0 +1,79 @@
+{
+  "slug": "tmwvrnet",
+  "type": "site",
+  "name": "TMWVRNet",
+  "url": "https://www.tmwvrnet.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Leading dedicated transgender 180-degree VR porn network delivering frequent 8K scenes starring popular trans stars.",
+  "tags": [
+    "vr",
+    "studio",
+    "trans"
+  ],
+  "ranking_rationale": "Consistent weekly releases in crisp 7K–8K stereoscopy; weighed against minimal scripted set variety.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Consistent weekly releases in crisp 7K–8K stereoscopy",
+    "One of the deepest dedicated trans VR libraries online",
+    "Supports major toy scripts & DeoVR"
+  ],
+  "cons": [
+    "Minimal scripted set variety",
+    "Older storefront visual styling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tmwvrnet.webp",
+    "alt": "TMWVRNet logo and brand card",
+    "source_url": "https://www.tmwvrnet.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://www.tmwvrnet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://www.tmwvrnet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://www.tmwvrnet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tmwvrnet.com",
+      "source_url": "https://www.tmwvrnet.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -12,8 +12,7 @@
   "tags": [
     "local",
     "privacy",
-    "chat",
-    "nsfw"
+    "chat"
   ],
   "ranking_rationale": "Cleanest turnkey GUI for downloading and serving GGUF models; weighed against closed-source desktop binary despite local weights.",
   "pricing": {

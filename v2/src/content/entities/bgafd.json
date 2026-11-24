@@ -1,0 +1,77 @@
+{
+  "slug": "bgafd",
+  "type": "site",
+  "name": "BGAFD",
+  "url": "https://www.bgafd.co.uk",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The British Girls Adult Film Database—documenting UK adult performers, Ben Dover classics, and British studios since the 1970s.",
+  "tags": [
+    "forums",
+    "directory",
+    "database"
+  ],
+  "ranking_rationale": "Unmatched authoritative credits for British performers & classic UK porn; weighed against barebones 2000s html layout.",
+  "pricing": {
+    "model": "Free independent database",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Unmatched authoritative credits for British performers & classic UK porn",
+    "Tracks rare physical VHS/DVD UK releases absent from US databases",
+    "Completely ad-clean archival pages"
+  ],
+  "cons": [
+    "Barebones 2000s HTML layout",
+    "Strictly focused on British industry talent"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bgafd.webp",
+    "alt": "BGAFD logo and brand card",
+    "source_url": "https://www.bgafd.co.uk",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.bgafd.co.uk",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free independent database",
+      "source_url": "https://www.bgafd.co.uk",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.bgafd.co.uk",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bgafd.co.uk",
+      "source_url": "https://www.bgafd.co.uk",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

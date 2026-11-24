@@ -1,0 +1,79 @@
+{
+  "slug": "pantydeal",
+  "type": "site",
+  "name": "Pantydeal",
+  "url": "https://www.pantydeal.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-standing verified fetish marketplace where independent creators sell custom photo sets, audio notes, and bespoke physical items.",
+  "tags": [
+    "platform",
+    "creator",
+    "niche",
+    "fetish"
+  ],
+  "ranking_rationale": "Established since 2013 with solid buyer review scores; weighed against subscription/access fees stack on heavy users.",
+  "pricing": {
+    "model": "Per-order & optional member perks",
+    "free_tier": "Free account browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Established since 2013 with solid buyer review scores",
+    "Broad European & North American seller diversity",
+    "Optional clip store tiers"
+  ],
+  "cons": [
+    "Subscription/access fees stack on heavy users",
+    "2010s directory layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pantydeal.webp",
+    "alt": "Pantydeal logo and brand card",
+    "source_url": "https://www.pantydeal.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.pantydeal.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-order & optional member perks",
+      "source_url": "https://www.pantydeal.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.pantydeal.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pantydeal.com",
+      "source_url": "https://www.pantydeal.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

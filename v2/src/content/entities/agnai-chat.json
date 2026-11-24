@@ -12,8 +12,7 @@
   "tags": [
     "chat",
     "character chat",
-    "privacy",
-    "nsfw"
+    "privacy"
   ],
   "ranking_rationale": "Instant zero-install web client that runs anywhere SillyTavern feels heavy; weighed against busy power-user ui settings panel.",
   "pricing": {

@@ -1,0 +1,78 @@
+{
+  "slug": "fanplace",
+  "type": "site",
+  "name": "Fanplace",
+  "url": "https://fanplace.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast minimalist creator club portal supporting tiered NSFW memberships, audio drops, and zero-friction swipe feeds.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "Clean clutter-free mobile profile feed; weighed against younger creator roster still scaling up.",
+  "pricing": {
+    "model": "Creator subscriptions & PPV",
+    "free_tier": "Free account signup",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Clean clutter-free mobile profile feed",
+    "Zero shadowbans on adult keywords",
+    "Built-in referral tools"
+  ],
+  "cons": [
+    "Younger creator roster still scaling up",
+    "Limited advanced discovery filters"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fanplace.webp",
+    "alt": "Fanplace logo and brand card",
+    "source_url": "https://fanplace.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://fanplace.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions & PPV",
+      "source_url": "https://fanplace.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://fanplace.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fanplace.com",
+      "source_url": "https://fanplace.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

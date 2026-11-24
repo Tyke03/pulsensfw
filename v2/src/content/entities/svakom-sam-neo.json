@@ -1,0 +1,80 @@
+{
+  "slug": "svakom-sam-neo",
+  "type": "product",
+  "name": "SVAKOM Sam Neo",
+  "url": "https://www.svakom.com/products/sam-neo",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "App-connected rhythmic suction and vibration stroker supporting FeelConnect webcam tipping and Buttplug.io PC script sync.",
+  "tags": [
+    "app",
+    "smart-app",
+    "haptics",
+    "vr"
+  ],
+  "ranking_rationale": "Combines rhythmic tongue-style vibration AND suction modes; weighed against loud pump motor compared with arcwave.",
+  "pricing": {
+    "model": "Hardware purchase (~$119)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "PC/Intiface"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Combines rhythmic tongue-style vibration AND suction modes",
+    "Bluetooth app + Buttplug.io / webcam-tipping sync support",
+    "Easy slide-out silicone sleeve cleanup"
+  ],
+  "cons": [
+    "Loud pump motor compared with Arcwave",
+    "Shorter internal sleeve depth"
+  ],
+  "image": {
+    "src": "/media/entities/products/svakom-sam-neo.webp",
+    "alt": "SVAKOM Sam Neo logo and brand card",
+    "source_url": "https://www.svakom.com/products/sam-neo",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.svakom.com/products/sam-neo",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$119)",
+      "source_url": "https://www.svakom.com/products/sam-neo",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, PC/Intiface",
+      "source_url": "https://www.svakom.com/products/sam-neo",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "svakom.com",
+      "source_url": "https://www.svakom.com/products/sam-neo",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

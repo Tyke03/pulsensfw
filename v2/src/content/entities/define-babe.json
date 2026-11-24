@@ -1,0 +1,78 @@
+{
+  "slug": "define-babe",
+  "type": "site",
+  "name": "DefineBabe",
+  "url": "https://www.definebabe.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Cleanly structured adult performer & studio directory featuring linked aliases, career spans, awards lists, and scene metadata.",
+  "tags": [
+    "forums",
+    "directory",
+    "database"
+  ],
+  "ranking_rationale": "Fast cross-referencing of obscure performer aliases & studio scenes; weighed against minimal bio commentary beyond credits.",
+  "pricing": {
+    "model": "Free ad-supported directory",
+    "free_tier": "Free directory lookups",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Fast cross-referencing of obscure performer aliases & studio scenes",
+    "Tidy dark/slate data cards",
+    "Includes photographers and boutique studio rosters"
+  ],
+  "cons": [
+    "Minimal bio commentary beyond credits",
+    "Ad banners in margins"
+  ],
+  "image": {
+    "src": "/media/entities/sites/define-babe.webp",
+    "alt": "DefineBabe logo and brand card",
+    "source_url": "https://www.definebabe.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.definebabe.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported directory",
+      "source_url": "https://www.definebabe.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.definebabe.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "definebabe.com",
+      "source_url": "https://www.definebabe.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

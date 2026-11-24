@@ -1,0 +1,63 @@
+{
+  "slug": "linzi-drew",
+  "type": "star",
+  "name": "Linzi Drew",
+  "url": "https://en.wikipedia.org/wiki/Linzi_Drew",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Linzi Drew — British pornographic actress. Industry career documented from 1989.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/linzi-drew.jpg",
+    "alt": "SFW portrait of Linzi Drew",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Linzi_Drew,_1986_(cropped).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q6555222 (United Kingdom)",
+      "source_url": "http://www.wikidata.org/entity/Q6555222",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1989–present",
+      "source_url": "https://en.wikipedia.org/wiki/Linzi_Drew",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1958",
+      "source_url": "http://www.wikidata.org/entity/Q6555222",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

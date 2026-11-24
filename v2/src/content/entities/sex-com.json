@@ -1,0 +1,79 @@
+{
+  "slug": "sex-com",
+  "type": "site",
+  "name": "Sex.com",
+  "url": "https://www.sex.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Iconic adult Pinterest-style visual pinboard and tube aggregator indexing trending clips, curated GIF boards, and category walls.",
+  "tags": [
+    "tube",
+    "free",
+    "gifs",
+    "aggregator"
+  ],
+  "ranking_rationale": "Huge visual masonry pinboards of trending clips and animated GIFs; weighed against many short teaser clips redirecting out to sponsor paysites.",
+  "pricing": {
+    "model": "Free visual aggregator",
+    "free_tier": "Unlimited pinboard & clip browsing free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Huge visual masonry pinboards of trending clips and animated GIFs",
+    "Clean dark/classic grid filtering by orientation and popularity",
+    "Links cleanly across reputable studio & creator destinations"
+  ],
+  "cons": [
+    "Many short teaser clips redirecting out to sponsor paysites",
+    "Requires adblock on peak mobile sessions"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sex-com.webp",
+    "alt": "Sex.com logo and brand card",
+    "source_url": "https://www.sex.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.sex.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free visual aggregator",
+      "source_url": "https://www.sex.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sex.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sex.com",
+      "source_url": "https://www.sex.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

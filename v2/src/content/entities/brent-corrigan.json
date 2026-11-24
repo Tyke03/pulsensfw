@@ -1,0 +1,63 @@
+{
+  "slug": "brent-corrigan",
+  "type": "star",
+  "name": "Brent Corrigan",
+  "url": "https://en.wikipedia.org/wiki/Brent_Corrigan",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Brent Corrigan — American film and pornographic actor. Industry career documented from 2004.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/brent-corrigan.jpg",
+    "alt": "SFW portrait of Brent Corrigan",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SeanR.jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q31549 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q31549",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2004–present",
+      "source_url": "https://en.wikipedia.org/wiki/Brent_Corrigan",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1986",
+      "source_url": "http://www.wikidata.org/entity/Q31549",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

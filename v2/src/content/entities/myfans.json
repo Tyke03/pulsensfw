@@ -1,0 +1,78 @@
+{
+  "slug": "myfans",
+  "type": "site",
+  "name": "myfans",
+  "url": "https://myfans.jp",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japan's fastest-growing explicit creator subscription hub often dubbed the Japanese OnlyFans—built cleanly for solo & couple video drops.",
+  "tags": [
+    "platform",
+    "creator",
+    "jav"
+  ],
+  "ranking_rationale": "Exploding catalog of active Japanese indie creators & couples; weighed against primarily japanese ui and yen credit card payments.",
+  "pricing": {
+    "model": "Creator subscriptions & individual plans",
+    "free_tier": "Free preview timeline",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Exploding catalog of active Japanese indie creators & couples",
+    "Polished mobile dark UI & high-bitrate video player",
+    "Direct single-video & monthly sub support"
+  ],
+  "cons": [
+    "Primarily Japanese UI and Yen credit card payments",
+    "Short preview teasers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/myfans.webp",
+    "alt": "myfans logo and brand card",
+    "source_url": "https://myfans.jp",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://myfans.jp",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions & individual plans",
+      "source_url": "https://myfans.jp",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://myfans.jp",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "myfans.jp",
+      "source_url": "https://myfans.jp",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

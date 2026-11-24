@@ -1,0 +1,77 @@
+{
+  "slug": "featherless-ai",
+  "type": "ai_app",
+  "name": "Featherless.ai",
+  "url": "https://featherless.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Flat-rate serverless inference platform hosting thousands of HuggingFace 8B–70B+ uncensored roleplay models for SillyTavern and Agnai.",
+  "tags": [
+    "chat",
+    "api"
+  ],
+  "ranking_rationale": "True flat monthly fee with zero per-token overage shocks; weighed against cold-start model swap takes ~20–40 seconds.",
+  "pricing": {
+    "model": "Flat monthly API tiers ($10–$25/mo)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 8.7,
+  "pros": [
+    "True flat monthly fee with zero per-token overage shocks",
+    "Plug straight into SillyTavern/JanitorAI/RisuAI with one OpenAI URL",
+    "Hosts niche HuggingFace RP fine-tunes nobody else keeps warm"
+  ],
+  "cons": [
+    "Cold-start model swap takes ~20–40 seconds",
+    "Monthly subscription offers limited concurrent queue slots"
+  ],
+  "image": {
+    "src": "/media/entities/ai/featherless-ai.webp",
+    "alt": "Featherless.ai logo and brand card",
+    "source_url": "https://featherless.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://featherless.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Flat monthly API tiers ($10–$25/mo)",
+      "source_url": "https://featherless.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://featherless.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "featherless.ai",
+      "source_url": "https://featherless.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

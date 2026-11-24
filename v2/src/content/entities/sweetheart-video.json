@@ -1,0 +1,78 @@
+{
+  "slug": "sweetheart-video",
+  "type": "site",
+  "name": "Sweetheart Video",
+  "url": "https://www.sweetheartvideo.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Beloved Mile High studio dedicated to natural girl-girl romance, expressive kissing, and authentic chemistry between female performers.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples"
+  ],
+  "ranking_rationale": "Warm realistic lesbian chemistry prioritized over acrobatic posing; weighed against aged member portal ui.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Warm realistic lesbian chemistry prioritized over acrobatic posing",
+    "Huge multi-year archive directed by Dana Vespoli and Ricky Greenwood",
+    "Minimal fake-moan tropes"
+  ],
+  "cons": [
+    "Aged member portal UI",
+    "Fewer splashy 4K effects shots"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sweetheart-video.webp",
+    "alt": "Sweetheart Video logo and brand card",
+    "source_url": "https://www.sweetheartvideo.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.sweetheartvideo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.sweetheartvideo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sweetheartvideo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sweetheartvideo.com",
+      "source_url": "https://www.sweetheartvideo.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "xoul-ai",
+  "type": "ai_app",
+  "name": "Xoul.AI",
+  "url": "https://xoul.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Story-driven character & multi-bot group chat AI roleplay studio prized for deep scenario lorebooks and expressive voices.",
+  "tags": [
+    "chat",
+    "roleplay"
+  ],
+  "ranking_rationale": "Multi-character group chats & rich shared scenario rooms; weighed against strict daily queue pressure during us evenings.",
+  "pricing": {
+    "model": "Free tier + Paid plans",
+    "free_tier": "Generous free chat tier",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Multi-character group chats & rich shared scenario rooms",
+    "Good memory retention and unfiltered adult RP toggles",
+    "Active custom voice & scenario library"
+  ],
+  "cons": [
+    "Strict daily queue pressure during US evenings",
+    "Monetization/feature cadence shifts periodically"
+  ],
+  "image": {
+    "src": "/media/entities/ai/xoul-ai.webp",
+    "alt": "Xoul.AI logo and brand card",
+    "source_url": "https://xoul.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://xoul.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free tier + Paid plans",
+      "source_url": "https://xoul.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://xoul.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xoul.ai",
+      "source_url": "https://xoul.ai",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

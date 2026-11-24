@@ -1,0 +1,79 @@
+{
+  "slug": "xbooru",
+  "type": "site",
+  "name": "XBooru",
+  "url": "https://xbooru.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Gelbooru-powered Western comics, cartoon fanart, and 3D CG booru organized cleanly around multi-tag boolean queries.",
+  "tags": [
+    "comics",
+    "rule34",
+    "booru",
+    "free"
+  ],
+  "ranking_rationale": "Strong focus on Western comics, furries & 3D animations; weighed against aging 2000s css layout.",
+  "pricing": {
+    "model": "Free ad-supported booru",
+    "free_tier": "Free image & WebM browse",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Strong focus on Western comics, furries & 3D animations",
+    "Fast boolean + score sorting",
+    "Clean familiar booru mechanics"
+  ],
+  "cons": [
+    "Aging 2000s CSS layout",
+    "Moderate ad banners"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xbooru.webp",
+    "alt": "XBooru logo and brand card",
+    "source_url": "https://xbooru.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://xbooru.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported booru",
+      "source_url": "https://xbooru.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://xbooru.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xbooru.com",
+      "source_url": "https://xbooru.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

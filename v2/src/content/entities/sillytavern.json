@@ -10,8 +10,7 @@
   "tags": [
     "local",
     "power user",
-    "free",
-    "nsfw"
+    "free"
   ],
   "ranking_rationale": "Strong sustained community backing across power-user forums and developer threads for total backend freedom, extensibility, and zero platform censorship. Steep setup curve and pay-as-you-go API costs are the main tradeoffs; ranked #1 for NSFW freedom, testability, and privacy.",
   "pricing": {

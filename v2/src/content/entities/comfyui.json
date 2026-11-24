@@ -14,8 +14,7 @@
     "image",
     "image generation",
     "power user",
-    "free",
-    "nsfw"
+    "free"
   ],
   "ranking_rationale": "Unrivaled control over image, inpainting, LoRAs, and AI video pipelines; weighed against steep node-graph learning curve for casual users.",
   "pricing": {

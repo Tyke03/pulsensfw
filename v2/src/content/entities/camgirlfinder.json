@@ -1,0 +1,78 @@
+{
+  "slug": "camgirlfinder",
+  "type": "site",
+  "name": "CamgirlFinder",
+  "url": "https://camgirlfinder.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Cross-network live webcam search engine helping viewers track online cam performers, schedules, and past broadcast logs across Chaturbate/Stripchat/MFC.",
+  "tags": [
+    "forums",
+    "directory",
+    "database"
+  ],
+  "ranking_rationale": "Saves hours hunting performers across 6+ cam platforms simultaneously; weighed against includes third-party broadcast history ads/upsells.",
+  "pricing": {
+    "model": "Free cam search utility",
+    "free_tier": "Free basic performer search",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Saves hours hunting performers across 6+ cam platforms simultaneously",
+    "Reverse username search across cam networks",
+    "Clean fast utility design"
+  ],
+  "cons": [
+    "Includes third-party broadcast history ads/upsells",
+    "Minimal aesthetic polish"
+  ],
+  "image": {
+    "src": "/media/entities/sites/camgirlfinder.webp",
+    "alt": "CamgirlFinder logo and brand card",
+    "source_url": "https://camgirlfinder.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://camgirlfinder.net",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free cam search utility",
+      "source_url": "https://camgirlfinder.net",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://camgirlfinder.net",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "camgirlfinder.net",
+      "source_url": "https://camgirlfinder.net",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

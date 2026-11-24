@@ -13,8 +13,7 @@
     "privacy",
     "local",
     "chat",
-    "free",
-    "nsfw"
+    "free"
   ],
   "ranking_rationale": "Easier on-ramp to local uncensored character chat than SillyTavern + KoboldCpp, delivering privacy and free tiers without terminal tinkering.",
   "pricing": {

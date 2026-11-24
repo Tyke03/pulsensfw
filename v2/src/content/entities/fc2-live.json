@@ -1,0 +1,79 @@
+{
+  "slug": "fc2-live",
+  "type": "site",
+  "name": "FC2 Live Adult",
+  "url": "https://live.fc2.com/adult/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Massive Japanese amateur live-streaming hub blending solo bedroom broadcasts, couples streams, and real-time tipping.",
+  "tags": [
+    "cams",
+    "live",
+    "amateur",
+    "jav"
+  ],
+  "ranking_rationale": "Vast authentic amateur Japanese & Taiwanese broadcaster community; weighed against mixed english-language interface polish.",
+  "pricing": {
+    "model": "Points tipping & ticket shows",
+    "free_tier": "Free public broadcasts",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Vast authentic amateur Japanese & Taiwanese broadcaster community",
+    "Low-pressure casual streams before private ticket shows",
+    "Native dark player on mobile"
+  ],
+  "cons": [
+    "Mixed English-language interface polish",
+    "Aggressive strict spam filters on foreign payment cards"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fc2-live.webp",
+    "alt": "FC2 Live Adult logo and brand card",
+    "source_url": "https://live.fc2.com/adult/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://live.fc2.com/adult/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Points tipping & ticket shows",
+      "source_url": "https://live.fc2.com/adult/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://live.fc2.com/adult/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "live.fc2.com",
+      "source_url": "https://live.fc2.com/adult/",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

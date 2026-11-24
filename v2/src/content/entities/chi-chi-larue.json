@@ -1,0 +1,64 @@
+{
+  "slug": "chi-chi-larue",
+  "type": "star",
+  "name": "Chi Chi LaRue",
+  "url": "https://en.wikipedia.org/wiki/Chi_Chi_LaRue",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Chi Chi LaRue — American pornographic film director and actor.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/chi-chi-larue.jpg",
+    "alt": "SFW portrait of Chi Chi LaRue",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chi_Chi_LaRue.jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q708085 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q708085",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Chi_Chi_LaRue",
+      "checked": "2026-11-24",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1959",
+      "source_url": "http://www.wikidata.org/entity/Q708085",
+      "checked": "2026-11-24",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-24"
+}

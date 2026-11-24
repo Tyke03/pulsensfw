@@ -1,0 +1,78 @@
+{
+  "slug": "fansoda",
+  "type": "site",
+  "name": "Fansoda",
+  "url": "https://fansoda.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "CamSoda-connected creator subscription site uniting fan memberships, live-cam crossovers, and paid DMs under one account.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "Easy crossover with CamSoda tokens & verified models; weighed against modest standalone traffic compared with fansly.",
+  "pricing": {
+    "model": "Subscriptions & token PPV",
+    "free_tier": "Free browsing & explorer",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Easy crossover with CamSoda tokens & verified models",
+    "Kink-friendly adult policies",
+    "Direct clip packs & subscriptions"
+  ],
+  "cons": [
+    "Modest standalone traffic compared with Fansly",
+    "Cluttered cross-promo banners"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fansoda.webp",
+    "alt": "Fansoda logo and brand card",
+    "source_url": "https://fansoda.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://fansoda.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscriptions & token PPV",
+      "source_url": "https://fansoda.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://fansoda.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fansoda.com",
+      "source_url": "https://fansoda.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

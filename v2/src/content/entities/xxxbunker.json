@@ -1,0 +1,78 @@
+{
+  "slug": "xxxbunker",
+  "type": "site",
+  "name": "XXXBunker",
+  "url": "https://www.xxxbunker.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-speed classic tube aggregator delivering full streams, straightforward playlists, and minimal page clutter.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream"
+  ],
+  "ranking_rationale": "Fast thumbnail grid browsing; weighed against older mid-2010s interface.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free video streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.0,
+  "pros": [
+    "Fast thumbnail grid browsing",
+    "Straightforward search by performer or tag",
+    "Clean video embed playback"
+  ],
+  "cons": [
+    "Older mid-2010s interface",
+    "Occasional broken older partner embeds"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xxxbunker.webp",
+    "alt": "XXXBunker logo and brand card",
+    "source_url": "https://www.xxxbunker.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.xxxbunker.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.xxxbunker.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.xxxbunker.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xxxbunker.com",
+      "source_url": "https://www.xxxbunker.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}

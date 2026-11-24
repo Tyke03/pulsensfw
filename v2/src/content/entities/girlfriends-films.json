@@ -1,0 +1,78 @@
+{
+  "slug": "girlfriends-films",
+  "type": "site",
+  "name": "Girlfriends Films",
+  "url": "https://www.girlfriendsfilms.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Historic dedicated lesbian adult powerhouse behind Women Seeking Women, Lesbian Seductions, and Mother-Daughter Exchange Club.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples"
+  ],
+  "ranking_rationale": "Massive multi-decade all-female catalog with long unhurried scenes; weighed against dated website ui and older compression on early 2000s vaults.",
+  "pricing": {
+    "model": "Studio / VOD subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Massive multi-decade all-female catalog with long unhurried scenes",
+    "Iconic multi-part series featuring top stars",
+    "Straightforward VOD & full streaming pass"
+  ],
+  "cons": [
+    "Dated website UI and older compression on early 2000s vaults",
+    "Consistent visual template feels uniform"
+  ],
+  "image": {
+    "src": "/media/entities/sites/girlfriends-films.webp",
+    "alt": "Girlfriends Films logo and brand card",
+    "source_url": "https://www.girlfriendsfilms.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.girlfriendsfilms.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / VOD subscription",
+      "source_url": "https://www.girlfriendsfilms.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.girlfriendsfilms.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "girlfriendsfilms.com",
+      "source_url": "https://www.girlfriendsfilms.com",
+      "checked": "2026-11-24",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-24"
+}
