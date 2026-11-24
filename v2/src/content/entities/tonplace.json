@@ -1,0 +1,78 @@
+{
+  "slug": "tonplace",
+  "type": "site",
+  "name": "TonPlace",
+  "url": "https://ton.place",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mobile-first vertical short-video & adult-friendly creator subscription portal featuring crypto/TON payouts and TikTok-style reels.",
+  "tags": [
+    "platform",
+    "creator",
+    "short-form"
+  ],
+  "ranking_rationale": "Snappy swipeable vertical clip discovery feed; weighed against noticeable crypto/promo banner density.",
+  "pricing": {
+    "model": "Subscriptions & paid unlocks",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Snappy swipeable vertical clip discovery feed",
+    "Low creator commission barrier draws international indie posters",
+    "Works natively in mobile browsers"
+  ],
+  "cons": [
+    "Noticeable crypto/promo banner density",
+    "Modest catalog depth outside Eastern Europe/Latin America"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tonplace.webp",
+    "alt": "TonPlace logo and brand card",
+    "source_url": "https://ton.place",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://ton.place",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscriptions & paid unlocks",
+      "source_url": "https://ton.place",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://ton.place",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ton.place",
+      "source_url": "https://ton.place",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "benaughty",
+  "type": "site",
+  "name": "BeNaughty",
+  "url": "https://www.benaughty.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-traffic mainstream casual flirting & dating network offering rapid icebreaker quizzes and mobile swipe matching.",
+  "tags": [
+    "niche",
+    "dating",
+    "casual"
+  ],
+  "ranking_rationale": "Simple fast casual matchmaking UI on mobile web; weighed against messaging requires expensive paid subscription; noisy auto-like teasers.",
+  "pricing": {
+    "model": "Subscription membership",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 6.9,
+  "pros": [
+    "Simple fast casual matchmaking UI on mobile web",
+    "Active urban metro registrations",
+    "Quick photo upload onboarding"
+  ],
+  "cons": [
+    "Messaging requires expensive paid subscription; noisy auto-like teasers",
+    "Less authentic niche kink depth than FetLife/Plura"
+  ],
+  "image": {
+    "src": "/media/entities/sites/benaughty.webp",
+    "alt": "BeNaughty logo and brand card",
+    "source_url": "https://www.benaughty.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.benaughty.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription membership",
+      "source_url": "https://www.benaughty.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.benaughty.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "benaughty.com",
+      "source_url": "https://www.benaughty.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

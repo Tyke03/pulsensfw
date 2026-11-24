@@ -1,0 +1,79 @@
+{
+  "slug": "aorta-films",
+  "type": "site",
+  "name": "Aorta Films",
+  "url": "https://www.aortafilms.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Independent queer adult filmmaking lab showcasing authentic bodies, artistic lighting, and experimental erotic storytelling.",
+  "tags": [
+    "premium",
+    "studio",
+    "queer",
+    "art"
+  ],
+  "ranking_rationale": "Thoughtful queer cinema crafted outside commercial factory molds; weighed against boutique seasonal release cadence.",
+  "pricing": {
+    "model": "Studio membership & digital store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Thoughtful queer cinema crafted outside commercial factory molds",
+    "Strong ethical performer care & artistic direction",
+    "Direct fair filmmaker monetization"
+  ],
+  "cons": [
+    "Boutique seasonal release cadence",
+    "Niche indie aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/sites/aorta-films.webp",
+    "alt": "Aorta Films logo and brand card",
+    "source_url": "https://www.aortafilms.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.aortafilms.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio membership & digital store",
+      "source_url": "https://www.aortafilms.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.aortafilms.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "aortafilms.com",
+      "source_url": "https://www.aortafilms.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

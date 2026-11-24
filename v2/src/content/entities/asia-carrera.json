@@ -51,6 +51,13 @@
       "source_url": "https://en.wikipedia.org/wiki/Asia_Carrera",
       "checked": "2026-11-23",
       "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1973",
+      "source_url": "http://www.wikidata.org/entity/Q540597",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
     }
   ],
   "updated": "2026-11-23"

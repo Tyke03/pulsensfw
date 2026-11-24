@@ -1,0 +1,78 @@
+{
+  "slug": "sexu",
+  "type": "site",
+  "name": "Sexu",
+  "url": "https://sexu.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Bright-contrast fast free video tube spotlighting clean tag discovery, verified models, and rapid CDN streaming.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Fast lightweight video page startup; weighed against heavy cam-banner strip beside player.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Fast lightweight video page startup",
+    "Sharp category and duration filters",
+    "Solid amateur and studio blend"
+  ],
+  "cons": [
+    "Heavy cam-banner strip beside player",
+    "Duplicate uploads across sister tubes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sexu.webp",
+    "alt": "Sexu logo and brand card",
+    "source_url": "https://sexu.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://sexu.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://sexu.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://sexu.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sexu.com",
+      "source_url": "https://sexu.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

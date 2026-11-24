@@ -1,0 +1,78 @@
+{
+  "slug": "liveprivates",
+  "type": "site",
+  "name": "LivePrivates",
+  "url": "https://www.liveprivates.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Established Streamate-powered private-cam brand delivering strict 1-on-1 cam2cam shows and HD audio without free-chat spam chaos.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows"
+  ],
+  "ranking_rationale": "Backed by Streamate's rock-solid WebRTC video and payment reliability; weighed against no explicit free public shows (tip/tease before private).",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": "Free lobby previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Backed by Streamate's rock-solid WebRTC video and payment reliability",
+    "Strict model ID vetting & quiet room etiquette",
+    "Fast category filters"
+  ],
+  "cons": [
+    "No explicit free public shows (tip/tease before private)",
+    "Shares underlying hosts with Streamate network"
+  ],
+  "image": {
+    "src": "/media/entities/sites/liveprivates.webp",
+    "alt": "LivePrivates logo and brand card",
+    "source_url": "https://www.liveprivates.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.liveprivates.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.liveprivates.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.liveprivates.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "liveprivates.com",
+      "source_url": "https://www.liveprivates.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

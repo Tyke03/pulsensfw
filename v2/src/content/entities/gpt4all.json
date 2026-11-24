@@ -1,0 +1,80 @@
+{
+  "slug": "gpt4all",
+  "type": "ai_app",
+  "name": "GPT4All",
+  "url": "https://www.nomic.ai/gpt4all",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Beginner-friendly open-source desktop runner executing local 3B–14B GGUF models completely offline on CPU or GPU with local doc chat.",
+  "tags": [
+    "chat",
+    "local",
+    "offline",
+    "open-source"
+  ],
+  "ranking_rationale": "Runs easily even on standard laptops without expensive Nvidia GPUs; weighed against smaller default curated hub than lm studio or ollama.",
+  "pricing": {
+    "model": "Free & open-source",
+    "free_tier": "100% free desktop installer",
+    "from_price": "$0",
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Runs easily even on standard laptops without expensive Nvidia GPUs",
+    "Zero telemetry opt-out & clean privacy guarantees",
+    "Direct GGUF file drop-in support"
+  ],
+  "cons": [
+    "Smaller default curated hub than LM Studio or Ollama",
+    "Basic RP card tools vs SillyTavern"
+  ],
+  "image": {
+    "src": "/media/entities/ai/gpt4all.webp",
+    "alt": "GPT4All logo and brand card",
+    "source_url": "https://www.nomic.ai/gpt4all",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://www.nomic.ai/gpt4all",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free & open-source",
+      "source_url": "https://www.nomic.ai/gpt4all",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://www.nomic.ai/gpt4all",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nomic.ai",
+      "source_url": "https://www.nomic.ai/gpt4all",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

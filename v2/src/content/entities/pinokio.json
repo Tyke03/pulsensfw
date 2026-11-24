@@ -1,0 +1,80 @@
+{
+  "slug": "pinokio",
+  "type": "ai_app",
+  "name": "Pinokio",
+  "url": "https://pinokio.computer",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "One-click local AI app browser automating Python virtualenvs for ComfyUI, Forge, Fooocus, Wan video, and voice cloning effortlessly.",
+  "tags": [
+    "local",
+    "open-source",
+    "image",
+    "video"
+  ],
+  "ranking_rationale": "Installs complex open-source AI tools in a single click—solving Python dependency hell; weighed against still relies on your own local gpu vram/disk space.",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free launcher",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Installs complex open-source AI tools in a single click—solving Python dependency hell",
+    "Total local ownership & uncensored open-weights freedom",
+    "Supports image, video & TTS pipelines cleanly"
+  ],
+  "cons": [
+    "Still relies on your own local GPU VRAM/disk space",
+    "Occasional upstream script breakages on bleeding-edge updates"
+  ],
+  "image": {
+    "src": "/media/entities/ai/pinokio.webp",
+    "alt": "Pinokio logo and brand card",
+    "source_url": "https://pinokio.computer",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://pinokio.computer",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://pinokio.computer",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://pinokio.computer",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pinokio.computer",
+      "source_url": "https://pinokio.computer",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

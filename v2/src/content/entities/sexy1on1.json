@@ -1,0 +1,78 @@
+{
+  "slug": "sexy1on1",
+  "type": "site",
+  "name": "Sexy1on1",
+  "url": "https://www.sexy1on1.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Direct private cam-to-cam and adult dating streamer site focused purely on intimate one-on-one video sessions.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows"
+  ],
+  "ranking_rationale": "Uncluttered focus strictly on 1-on-1 live cam calls; weighed against smaller host catalog than mega-networks.",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Uncluttered focus strictly on 1-on-1 live cam calls",
+    "Fast audio/cam sync in desktop browsers",
+    "Clear per-minute pricing upfront"
+  ],
+  "cons": [
+    "Smaller host catalog than mega-networks",
+    "No public group token shows"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sexy1on1.webp",
+    "alt": "Sexy1on1 logo and brand card",
+    "source_url": "https://www.sexy1on1.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.sexy1on1.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.sexy1on1.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sexy1on1.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sexy1on1.com",
+      "source_url": "https://www.sexy1on1.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "cammodels",
+  "type": "site",
+  "name": "CamModels.com",
+  "url": "https://www.cammodels.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Clean dark-slate live cam portal tapping into huge international private-show and Block-show streamer traffic.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows"
+  ],
+  "ranking_rationale": "Crisp modern responsive UI for mobile cam browsing; weighed against heavy per-minute gold/private monetization focus.",
+  "pricing": {
+    "model": "Per-minute credits & Gold shows",
+    "free_tier": "Free public chat previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Crisp modern responsive UI for mobile cam browsing",
+    "Huge 24/7 concurrent performer depth",
+    "Reliable cam2cam and audio features"
+  ],
+  "cons": [
+    "Heavy per-minute Gold/Private monetization focus",
+    "Overlap with partner network rosters"
+  ],
+  "image": {
+    "src": "/media/entities/sites/cammodels.webp",
+    "alt": "CamModels.com logo and brand card",
+    "source_url": "https://www.cammodels.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.cammodels.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-minute credits & Gold shows",
+      "source_url": "https://www.cammodels.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.cammodels.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "cammodels.com",
+      "source_url": "https://www.cammodels.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

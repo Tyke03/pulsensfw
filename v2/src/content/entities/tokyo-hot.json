@@ -1,0 +1,78 @@
+{
+  "slug": "tokyo-hot",
+  "type": "site",
+  "name": "Tokyo Hot",
+  "url": "https://my.tokyo-hot.com/?lang=en",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Historic uncensored Japanese adult studio running since 2002, famous for intense unscripted gonzo showcases and distinctive branding.",
+  "tags": [
+    "premium",
+    "studio",
+    "jav"
+  ],
+  "ranking_rationale": "Vast 20+ year uncensored Japanese catalog; weighed against extreme-gonzo tone divides softer jav fans.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Vast 20+ year uncensored Japanese catalog",
+    "Works cleanly across mobile browsers in English",
+    "Consistent daily & weekly code releases"
+  ],
+  "cons": [
+    "Extreme-gonzo tone divides softer JAV fans",
+    "Dated web player and high retail monthly price"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tokyo-hot.webp",
+    "alt": "Tokyo Hot logo and brand card",
+    "source_url": "https://my.tokyo-hot.com/?lang=en",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://my.tokyo-hot.com/?lang=en",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://my.tokyo-hot.com/?lang=en",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://my.tokyo-hot.com/?lang=en",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "my.tokyo-hot.com",
+      "source_url": "https://my.tokyo-hot.com/?lang=en",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

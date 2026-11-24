@@ -1,0 +1,81 @@
+{
+  "slug": "third-crisis",
+  "type": "game",
+  "name": "Third Crisis",
+  "url": "https://store.steampowered.com/app/1521720/Third_Crisis/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Crisp open-sandbox cyberpunk/fantasy pixel RPG blending branching corruption/purity storylines with fluid side-view combat.",
+  "tags": [
+    "games",
+    "rpg",
+    "pixel-art",
+    "pc"
+  ],
+  "ranking_rationale": "Enormous freedom across non-linear side quests & moral path choices; weighed against incomplete endgame finale quests in early access status.",
+  "pricing": {
+    "model": "One-time Steam / Patreon build (~$25)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Enormous freedom across non-linear side quests & moral path choices",
+    "Detailed fluid pixel-art animations & lively interactive town routines",
+    "Continues expanding steadily from active indie dev team"
+  ],
+  "cons": [
+    "Incomplete endgame finale quests in Early Access status",
+    "Manual quest hints occasionally feel cryptic"
+  ],
+  "image": {
+    "src": "/media/entities/games/third-crisis.webp",
+    "alt": "Third Crisis logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1521720/Third_Crisis/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://store.steampowered.com/app/1521720/Third_Crisis/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam / Patreon build (~$25)",
+      "source_url": "https://store.steampowered.com/app/1521720/Third_Crisis/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/1521720/Third_Crisis/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1521720/Third_Crisis/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

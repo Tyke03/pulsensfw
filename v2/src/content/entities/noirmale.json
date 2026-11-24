@@ -1,0 +1,79 @@
+{
+  "slug": "noirmale",
+  "type": "site",
+  "name": "Noir Male",
+  "url": "https://www.noirmale.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Adult Time / Gamma studio celebrating men of color in diverse, stylized, non-stereotyped romantic and passionate all-male scenes.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "diversity"
+  ],
+  "ranking_rationale": "Breaks tired industry clichés with thoughtful lighting & varied relationships; weighed against smaller standalone library count.",
+  "pricing": {
+    "model": "Studio / Adult Time subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Breaks tired industry clichés with thoughtful lighting & varied relationships",
+    "Bundled inside Adult Time / Gamma network passes",
+    "Crisp 4K modern camerawork"
+  ],
+  "cons": [
+    "Smaller standalone library count",
+    "Pushes Adult Time network upsells"
+  ],
+  "image": {
+    "src": "/media/entities/sites/noirmale.webp",
+    "alt": "Noir Male logo and brand card",
+    "source_url": "https://www.noirmale.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.noirmale.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / Adult Time subscription",
+      "source_url": "https://www.noirmale.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.noirmale.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "noirmale.com",
+      "source_url": "https://www.noirmale.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -69,6 +69,13 @@
       "source_url": "https://en.wikipedia.org/wiki/Chanel_Preston",
       "checked": "2026-11-23",
       "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1985",
+      "source_url": "http://www.wikidata.org/entity/Q540640",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
     }
   ],
   "updated": "2026-11-23"

@@ -1,0 +1,81 @@
+{
+  "slug": "coming-out-on-top",
+  "type": "game",
+  "name": "Coming Out on Top",
+  "url": "https://store.steampowered.com/app/642090/Coming_Out_on_Top/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Beloved hilarious gay college-romance dating sim packed with witty comedic dialogue, six charming routes, and uncensored art.",
+  "tags": [
+    "games",
+    "dating-sim",
+    "comedy",
+    "gay"
+  ],
+  "ranking_rationale": "Side-splitting comedic writing paired with genuine sweet romance routes; weighed against static 2d visual-novel presentation rather than animated 3d.",
+  "pricing": {
+    "model": "One-time Steam / Direct purchase (~$15)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Side-splitting comedic writing paired with genuine sweet romance routes",
+    "Full gallery of hidden funny bad-endings & crisp 2D CGs",
+    "Totally uncensored complete edition available seamlessly"
+  ],
+  "cons": [
+    "Static 2D visual-novel presentation rather than animated 3D",
+    "Older 2014 fixed screen framing"
+  ],
+  "image": {
+    "src": "/media/entities/games/coming-out-on-top.webp",
+    "alt": "Coming Out on Top logo and brand card",
+    "source_url": "https://store.steampowered.com/app/642090/Coming_Out_on_Top/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://store.steampowered.com/app/642090/Coming_Out_on_Top/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam / Direct purchase (~$15)",
+      "source_url": "https://store.steampowered.com/app/642090/Coming_Out_on_Top/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/642090/Coming_Out_on_Top/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/642090/Coming_Out_on_Top/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

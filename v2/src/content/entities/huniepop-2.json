@@ -1,0 +1,81 @@
+{
+  "slug": "huniepop-2",
+  "type": "game",
+  "name": "HuniePop 2: Double Date",
+  "url": "https://store.steampowered.com/app/930210/HuniePop_2_Double_Date/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Smart tactical double-date sequel to HuniePop upgrading puzzle boards with stamina juggling, gift synergies, and sharp voice acting.",
+  "tags": [
+    "games",
+    "puzzle",
+    "dating-sim",
+    "pc"
+  ],
+  "ranking_rationale": "Tighter deeper dual-partner puzzle mechanics keep brains engaged cleanly; weighed against repeats playful juvenile toilet-humor jokes a bit heavily.",
+  "pricing": {
+    "model": "One-time Steam purchase (~$20)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Tighter deeper dual-partner puzzle mechanics keep brains engaged cleanly",
+    "Slick witty voice acting & crisp vibrant art",
+    "Runs seamlessly on potato PCs & Steam Deck"
+  ],
+  "cons": [
+    "Repeats playful juvenile toilet-humor jokes a bit heavily",
+    "Steam edition still uses easy official uncensored toggle"
+  ],
+  "image": {
+    "src": "/media/entities/games/huniepop-2.webp",
+    "alt": "HuniePop 2: Double Date logo and brand card",
+    "source_url": "https://store.steampowered.com/app/930210/HuniePop_2_Double_Date/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://store.steampowered.com/app/930210/HuniePop_2_Double_Date/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$20)",
+      "source_url": "https://store.steampowered.com/app/930210/HuniePop_2_Double_Date/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/930210/HuniePop_2_Double_Date/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/930210/HuniePop_2_Double_Date/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

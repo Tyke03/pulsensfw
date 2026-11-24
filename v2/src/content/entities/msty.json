@@ -1,0 +1,80 @@
+{
+  "slug": "msty",
+  "type": "ai_app",
+  "name": "Msty",
+  "url": "https://msty.app",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Sleek polished desktop client uniting local Ollama GGUF models, web RAG search, split multi-model chat, and zero cloud logins.",
+  "tags": [
+    "chat",
+    "local",
+    "offline",
+    "privacy"
+  ],
+  "ranking_rationale": "Effortless 1-click local model downloads without touching terminal commands; weighed against desktop source partially closed (free personal tier covers almost everything).",
+  "pricing": {
+    "model": "Free personal desktop + Studio Pro",
+    "free_tier": "Full local offline chat free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Effortless 1-click local model downloads without touching terminal commands",
+    "Chat offline privately with uncensored RP models side by side",
+    "Split-pane prompt comparison & custom knowledge stacks"
+  ],
+  "cons": [
+    "Desktop source partially closed (free personal tier covers almost everything)",
+    "Heavier RAM footprint on desktop Electron app"
+  ],
+  "image": {
+    "src": "/media/entities/ai/msty.webp",
+    "alt": "Msty logo and brand card",
+    "source_url": "https://msty.app",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://msty.app",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free personal desktop + Studio Pro",
+      "source_url": "https://msty.app",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://msty.app",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "msty.app",
+      "source_url": "https://msty.app",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

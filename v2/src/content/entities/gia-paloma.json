@@ -1,0 +1,64 @@
+{
+  "slug": "gia-paloma",
+  "type": "star",
+  "name": "Gia Paloma",
+  "url": "http://www.wikidata.org/entity/Q269972",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Gia Paloma — American pornographic actress and director (b. 1984). Industry career documented from 2003.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/gia-paloma.jpg",
+    "alt": "SFW portrait of Gia Paloma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:GiaPaloma2_adjusted.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q269972 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q269972",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2003–present",
+      "source_url": "http://www.wikidata.org/entity/Q269972",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q269972",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

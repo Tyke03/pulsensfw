@@ -1,0 +1,78 @@
+{
+  "slug": "filthy-figments",
+  "type": "site",
+  "name": "Filthy Figments",
+  "url": "https://filthyfigments.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Artist-run comic & erotica anthology collective featuring vibrant full-color fantasy, queer, and pin-up serialized comics by notable indies.",
+  "tags": [
+    "comics",
+    "western",
+    "art"
+  ],
+  "ranking_rationale": "Cohesive curated indie comic quality without random tube junk; weighed against modest monthly archive volume.",
+  "pricing": {
+    "model": "Member subscription ($9/mo)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Cohesive curated indie comic quality without random tube junk",
+    "Supports real human illustrators across romance & fantasy tropes",
+    "Smooth digital subscriber reader"
+  ],
+  "cons": [
+    "Modest monthly archive volume",
+    "Subscription required beyond teasers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/filthy-figments.webp",
+    "alt": "Filthy Figments logo and brand card",
+    "source_url": "https://filthyfigments.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://filthyfigments.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Member subscription ($9/mo)",
+      "source_url": "https://filthyfigments.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://filthyfigments.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "filthyfigments.com",
+      "source_url": "https://filthyfigments.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

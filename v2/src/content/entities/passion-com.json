@@ -1,0 +1,78 @@
+{
+  "slug": "passion-com",
+  "type": "site",
+  "name": "Passion.com",
+  "url": "https://www.passion.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "FriendFinder sister community uniting casual kink-friendly dating profiles, photo swaps, and amateur video chatrooms.",
+  "tags": [
+    "niche",
+    "dating",
+    "casual"
+  ],
+  "ranking_rationale": "Broad casual lifestyle tags and active amateur groups; weighed against high clutter and noisy bot teasers on unpaid tier.",
+  "pricing": {
+    "model": "Subscription tiers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Broad casual lifestyle tags and active amateur groups",
+    "Bundled FriendFinder network traffic",
+    "Quick account creation"
+  ],
+  "cons": [
+    "High clutter and noisy bot teasers on unpaid tier",
+    "Full messaging locks behind Gold sub"
+  ],
+  "image": {
+    "src": "/media/entities/sites/passion-com.webp",
+    "alt": "Passion.com logo and brand card",
+    "source_url": "https://www.passion.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.passion.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription tiers",
+      "source_url": "https://www.passion.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.passion.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "passion.com",
+      "source_url": "https://www.passion.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "kristenbjorn",
+  "type": "site",
+  "name": "Kristen Bjorn",
+  "url": "https://www.kristenbjorn.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Iconic globe-trotting gay erotica label celebrating muscular international casts across Latin America, Europe, and Mediterranean villas.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "international"
+  ],
+  "ranking_rationale": "Unmatched global cast diversity from Brazil, Spain, and Eastern Europe; weighed against repetitive formulaic casting dynamics in modern shoots.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Unmatched global cast diversity from Brazil, Spain, and Eastern Europe",
+    "Sensual artistic outdoor lighting and multi-decade vault",
+    "Clean multilingual interface"
+  ],
+  "cons": [
+    "Repetitive formulaic casting dynamics in modern shoots",
+    "Older SD archive compression on 1990s classics"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kristenbjorn.webp",
+    "alt": "Kristen Bjorn logo and brand card",
+    "source_url": "https://www.kristenbjorn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.kristenbjorn.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.kristenbjorn.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.kristenbjorn.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kristenbjorn.com",
+      "source_url": "https://www.kristenbjorn.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

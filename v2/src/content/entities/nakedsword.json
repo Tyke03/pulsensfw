@@ -1,0 +1,78 @@
+{
+  "slug": "nakedsword",
+  "type": "site",
+  "name": "NakedSword",
+  "url": "https://www.nakedsword.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The largest all-male adult streaming library on the web—dubbed the Netflix of gay porn—uniting dozens of top studios under one pass.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay"
+  ],
+  "ranking_rationale": "Massive 25,000+ scene library across Falcon, Raging Stallion, Hot House & originals; weighed against aging desktop player browse pages.",
+  "pricing": {
+    "model": "Mega-network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Massive 25,000+ scene library across Falcon, Raging Stallion, Hot House & originals",
+    "High-quality original narrative series like Secrets & Lies",
+    "Clean Roku/mobile web streaming UX"
+  ],
+  "cons": [
+    "Aging desktop player browse pages",
+    "Full downloads limit monthly caps on starter tiers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nakedsword.webp",
+    "alt": "NakedSword logo and brand card",
+    "source_url": "https://www.nakedsword.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.nakedsword.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Mega-network subscription",
+      "source_url": "https://www.nakedsword.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.nakedsword.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nakedsword.com",
+      "source_url": "https://www.nakedsword.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "darlink-ai",
+  "type": "ai_app",
+  "name": "DarLink AI",
+  "url": "https://darlink.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Visual-first adult AI companion builder pairing deep roleplay memory prompts with consistent video/image character generation.",
+  "tags": [
+    "chat",
+    "image",
+    "companion",
+    "roleplay"
+  ],
+  "ranking_rationale": "Crisp modern character creator & decent short-loop video clips; weighed against aggressive monetization popups on free demo.",
+  "pricing": {
+    "model": "Freemium demo + Pro plans",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Crisp modern character creator & decent short-loop video clips",
+    "Supports unfiltered romantic & erotic scenarios cleanly",
+    "Responsive mobile UX"
+  ],
+  "cons": [
+    "Aggressive monetization popups on free demo",
+    "Limited lorebook controls vs SillyTavern/Chub"
+  ],
+  "image": {
+    "src": "/media/entities/ai/darlink-ai.webp",
+    "alt": "DarLink AI logo and brand card",
+    "source_url": "https://darlink.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://darlink.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium demo + Pro plans",
+      "source_url": "https://darlink.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://darlink.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "darlink.ai",
+      "source_url": "https://darlink.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

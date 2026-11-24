@@ -1,0 +1,80 @@
+{
+  "slug": "moon-vr",
+  "type": "game",
+  "name": "Moon VR Video Player",
+  "url": "https://moonvrplayer.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Slick Quest & Apple Vision Pro VR media cinema app offering crisp passthrough dimming, AI 2D-to-3D depth, and easy Wi-Fi AirPlay streaming.",
+  "tags": [
+    "vr",
+    "headsets",
+    "player",
+    "video"
+  ],
+  "ranking_rationale": "Native Apple Vision Pro & Meta Quest 3 spatial UI with clean passthrough edge; weighed against lacks built-in slr/deovr funscript hardware haptic automation.",
+  "pricing": {
+    "model": "One-time / Pro app (~$10–$15)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Meta Quest",
+    "Apple Vision Pro",
+    "PCVR"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Native Apple Vision Pro & Meta Quest 3 spatial UI with clean passthrough edge",
+    "Smooth wireless PC/NAS AirPlay streaming without copying giant 20GB MP4s",
+    "Minimal account overhead"
+  ],
+  "cons": [
+    "Lacks built-in SLR/DeoVR funscript hardware haptic automation",
+    "Paid Pro feature tier"
+  ],
+  "image": {
+    "src": "/media/entities/games/moon-vr.webp",
+    "alt": "Moon VR Video Player logo and brand card",
+    "source_url": "https://moonvrplayer.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://moonvrplayer.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time / Pro app (~$10–$15)",
+      "source_url": "https://moonvrplayer.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Meta Quest, Apple Vision Pro, PCVR",
+      "source_url": "https://moonvrplayer.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "moonvrplayer.com",
+      "source_url": "https://moonvrplayer.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "fleshlight-quickshot",
+  "type": "product",
+  "name": "Fleshlight Quickshot Vantage",
+  "url": "https://www.fleshlight.com/products/quickshot-vantage",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Open-ended compact clear/stealth Fleshlight sleeve built for effortless cleanup, partner blowjob assists, and quick desk travel.",
+  "tags": [
+    "stroker",
+    "couples",
+    "compact"
+  ],
+  "ranking_rationale": "Dual end-caps rinse clean under a tap in 15 seconds—far easier than full tubes; weighed against half-size sleeve requires two-hand stabilization during solo thrusting.",
+  "pricing": {
+    "model": "Hardware purchase (~$49)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Dual end-caps rinse clean under a tap in 15 seconds—far easier than full tubes",
+    "Clear sleeve option plus open-ended versatility for partnered play",
+    "Compact discreet footprint"
+  ],
+  "cons": [
+    "Half-size sleeve requires two-hand stabilization during solo thrusting",
+    "Classic Fleshlight SuperSkin still prefers cornstarch dusting care"
+  ],
+  "image": {
+    "src": "/media/entities/products/fleshlight-quickshot.webp",
+    "alt": "Fleshlight Quickshot Vantage logo and brand card",
+    "source_url": "https://www.fleshlight.com/products/quickshot-vantage",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.fleshlight.com/products/quickshot-vantage",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$49)",
+      "source_url": "https://www.fleshlight.com/products/quickshot-vantage",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.fleshlight.com/products/quickshot-vantage",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fleshlight.com",
+      "source_url": "https://www.fleshlight.com/products/quickshot-vantage",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "erotica-readers",
+  "type": "site",
+  "name": "Erotica Readers & Writers",
+  "url": "https://www.erotica-readers.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran literary erotica workshop and critique archive running since the early 2000s with active writing contests and anthologies.",
+  "tags": [
+    "erotica",
+    "stories",
+    "forums",
+    "free"
+  ],
+  "ranking_rationale": "High craft emphasis backed by peer critique workshops; weighed against dated classic forum styling.",
+  "pricing": {
+    "model": "100% free workshop",
+    "free_tier": "Free archive & community",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "High craft emphasis backed by peer critique workshops",
+    "Respectful community free of sleazy video ads",
+    "Decades of polished archived fiction"
+  ],
+  "cons": [
+    "Dated classic forum styling",
+    "Smaller posting frequency than mega-archives"
+  ],
+  "image": {
+    "src": "/media/entities/sites/erotica-readers.webp",
+    "alt": "Erotica Readers & Writers logo and brand card",
+    "source_url": "https://www.erotica-readers.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.erotica-readers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free workshop",
+      "source_url": "https://www.erotica-readers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.erotica-readers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "erotica-readers.com",
+      "source_url": "https://www.erotica-readers.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

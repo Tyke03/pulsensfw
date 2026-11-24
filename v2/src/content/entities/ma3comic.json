@@ -1,0 +1,79 @@
+{
+  "slug": "ma3comic",
+  "type": "site",
+  "name": "Ménage à 3 (Pixie Trix)",
+  "url": "https://www.ma3comic.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Gisele Lagace & Dave Lumsdon's beloved finished 1,000+ page NSFW romantic-comedy webcomic about awkward Montreal roommates.",
+  "tags": [
+    "comics",
+    "western",
+    "comedy",
+    "free"
+  ],
+  "ranking_rationale": "Complete finished epic story with witty dialogue & charming indie comic art; weighed against older 2008–2019 humor & comic formatting quirks.",
+  "pricing": {
+    "model": "Free webcomic + print/digital volumes",
+    "free_tier": "Full archive free online",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Complete finished epic story with witty dialogue & charming indie comic art",
+    "100% free high-res reading archive from page 1 to finale",
+    "Includes spin-offs like Sticky Dilly Buns"
+  ],
+  "cons": [
+    "Older 2008–2019 humor & comic formatting quirks",
+    "Ad banners around comic canvas"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ma3comic.webp",
+    "alt": "Ménage à 3 (Pixie Trix) logo and brand card",
+    "source_url": "https://www.ma3comic.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.ma3comic.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free webcomic + print/digital volumes",
+      "source_url": "https://www.ma3comic.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.ma3comic.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ma3comic.com",
+      "source_url": "https://www.ma3comic.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

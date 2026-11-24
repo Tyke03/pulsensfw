@@ -1,0 +1,77 @@
+{
+  "slug": "lelo-dot",
+  "type": "product",
+  "name": "LELO Dot",
+  "url": "https://www.lelo.com/dot",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Uniquely engineered elliptical-oscillating pinpoint clitoral stimulator avoiding numbing harsh jackhammer buzzes.",
+  "tags": [
+    "vibrator",
+    "quiet",
+    "pinpoint"
+  ],
+  "ranking_rationale": "True figure-8 / elliptical tip motion stimulates nerves cleanly without deadening sensation; weighed against pinpoint tip misses broad coverage fans who prefer wands.",
+  "pricing": {
+    "model": "Hardware purchase (~$179)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "True figure-8 / elliptical tip motion stimulates nerves cleanly without deadening sensation",
+    "Whisper-quiet LELO silicone finish & 100% waterproof",
+    "2+ hour USB charge longevity"
+  ],
+  "cons": [
+    "Pinpoint tip misses broad coverage fans who prefer wands",
+    "Steep LELO luxury pricing (~$179)"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-dot.webp",
+    "alt": "LELO Dot logo and brand card",
+    "source_url": "https://www.lelo.com/dot",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lelo.com/dot",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$179)",
+      "source_url": "https://www.lelo.com/dot",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.lelo.com/dot",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lelo.com",
+      "source_url": "https://www.lelo.com/dot",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

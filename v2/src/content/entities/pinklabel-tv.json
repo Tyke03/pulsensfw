@@ -1,0 +1,79 @@
+{
+  "slug": "pinklabel-tv",
+  "type": "site",
+  "name": "PinkLabel.tv",
+  "url": "https://pinklabel.tv",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Shine Louise Houston's curated streaming channel uniting independent, queer, feminist, and artist-owned adult filmmakers from around the globe.",
+  "tags": [
+    "premium",
+    "indie",
+    "queer",
+    "art"
+  ],
+  "ranking_rationale": "Best-in-class ethical curation bridging CrashPad, Pink & White & global festivals; weighed against rental/sub prices run higher than mega-tubes.",
+  "pricing": {
+    "model": "Cinema pass & per-film VOD",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Best-in-class ethical curation bridging CrashPad, Pink & White & global festivals",
+    "Transparent revenue sharing with indie directors",
+    "Rich director interviews and essays"
+  ],
+  "cons": [
+    "Rental/sub prices run higher than mega-tubes",
+    "Smaller overall clip count vs Aylo empires"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pinklabel-tv.webp",
+    "alt": "PinkLabel.tv logo and brand card",
+    "source_url": "https://pinklabel.tv",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://pinklabel.tv",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Cinema pass & per-film VOD",
+      "source_url": "https://pinklabel.tv",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pinklabel.tv",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pinklabel.tv",
+      "source_url": "https://pinklabel.tv",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

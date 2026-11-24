@@ -1,0 +1,63 @@
+{
+  "slug": "ashli-orion",
+  "type": "star",
+  "name": "Ashli Orion",
+  "url": "http://www.wikidata.org/entity/Q2866562",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ashli Orion — American pornographic actress (b. 1987). Industry career documented from 2008.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/ashli-orion.jpg",
+    "alt": "SFW portrait of Ashli Orion",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ashli_Orion_at_AVN_Adult_Entertainment_Expo_2009_(crop).jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q2866562 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q2866562",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2008–present",
+      "source_url": "http://www.wikidata.org/entity/Q2866562",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1987",
+      "source_url": "http://www.wikidata.org/entity/Q2866562",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

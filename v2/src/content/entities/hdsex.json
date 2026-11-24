@@ -1,0 +1,78 @@
+{
+  "slug": "hdsex",
+  "type": "site",
+  "name": "HDSex",
+  "url": "https://hdsex.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Simple high-definition free streaming tube focusing on clean mobile thumbs and full-scene amateur/studio streams.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Good mobile touchscreen scrubber UX; weighed against aggressive overlay banners on mobile web.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free HD streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Good mobile touchscreen scrubber UX",
+    "High ratio of 720p–1080p clips",
+    "Minimal text clutter"
+  ],
+  "cons": [
+    "Aggressive overlay banners on mobile web",
+    "Limited advanced boolean search"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hdsex.webp",
+    "alt": "HDSex logo and brand card",
+    "source_url": "https://hdsex.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://hdsex.org",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://hdsex.org",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hdsex.org",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hdsex.org",
+      "source_url": "https://hdsex.org",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

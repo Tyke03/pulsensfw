@@ -1,0 +1,63 @@
+{
+  "slug": "brian-hansen",
+  "type": "star",
+  "name": "Brian Hansen",
+  "url": "http://www.wikidata.org/entity/Q4963947",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Brian Hansen — British pornographic actor (b. 1980).",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/brian-hansen.jpg",
+    "alt": "SFW portrait of Brian Hansen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brian_Hansen.jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q4963947 (United Kingdom)",
+      "source_url": "http://www.wikidata.org/entity/Q4963947",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q4963947",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1980",
+      "source_url": "http://www.wikidata.org/entity/Q4963947",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

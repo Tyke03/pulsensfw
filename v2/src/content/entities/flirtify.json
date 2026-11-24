@@ -1,0 +1,78 @@
+{
+  "slug": "flirtify",
+  "type": "site",
+  "name": "Flirtify",
+  "url": "https://flirtify.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Modern mobile-polished random adult cam2cam chat platform matching viewers directly with live webcam partners globally.",
+  "tags": [
+    "cams",
+    "live",
+    "roulette"
+  ],
+  "ranking_rationale": "Smooth native dark web UI & snappy video matching; weighed against requires minute subscription quickly after brief promo.",
+  "pricing": {
+    "model": "Credit bundles & minute tiers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Smooth native dark web UI & snappy video matching",
+    "Real-time built-in message translation across languages",
+    "Easy quick-skip controls"
+  ],
+  "cons": [
+    "Requires minute subscription quickly after brief promo",
+    "Commercial host orientation rather than anonymous peer chat"
+  ],
+  "image": {
+    "src": "/media/entities/sites/flirtify.webp",
+    "alt": "Flirtify logo and brand card",
+    "source_url": "https://flirtify.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://flirtify.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credit bundles & minute tiers",
+      "source_url": "https://flirtify.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://flirtify.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "flirtify.com",
+      "source_url": "https://flirtify.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

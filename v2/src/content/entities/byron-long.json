@@ -1,0 +1,64 @@
+{
+  "slug": "byron-long",
+  "type": "star",
+  "name": "Byron Long",
+  "url": "http://www.wikidata.org/entity/Q5004415",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Byron Long — American pornographic actor and film director (b. 1969). Industry career documented from 1992.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/byron-long.jpg",
+    "alt": "SFW portrait of Byron Long",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Byron_Long.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q5004415 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q5004415",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1992–present",
+      "source_url": "http://www.wikidata.org/entity/Q5004415",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1969",
+      "source_url": "http://www.wikidata.org/entity/Q5004415",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

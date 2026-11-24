@@ -58,6 +58,13 @@
       "source_url": "https://en.wikipedia.org/wiki/Julian_Andretti",
       "checked": "2026-11-23",
       "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1970",
+      "source_url": "http://www.wikidata.org/entity/Q188045",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
     }
   ],
   "updated": "2026-11-23"

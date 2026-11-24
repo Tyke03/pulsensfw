@@ -59,6 +59,13 @@
       "source_url": "https://en.wikipedia.org/wiki/Charmane_Star",
       "checked": "2026-11-23",
       "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1979",
+      "source_url": "http://www.wikidata.org/entity/Q325136",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
     }
   ],
   "updated": "2026-11-23"

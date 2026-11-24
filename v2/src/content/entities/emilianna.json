@@ -1,0 +1,63 @@
+{
+  "slug": "emilianna",
+  "type": "star",
+  "name": "Emilianna",
+  "url": "http://www.wikidata.org/entity/Q20669238",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Emilianna — American pornographic actress (b. 1978).",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/emilianna.jpg",
+    "alt": "SFW portrait of Emilianna",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Emilianna_at_Erotica_LA_2006_2.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q20669238 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q20669238",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q20669238",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1978",
+      "source_url": "http://www.wikidata.org/entity/Q20669238",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

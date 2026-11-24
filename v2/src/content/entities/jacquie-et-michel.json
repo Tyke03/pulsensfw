@@ -1,0 +1,79 @@
+{
+  "slug": "jacquie-et-michel",
+  "type": "site",
+  "name": "Jacquie et Michel TV",
+  "url": "https://www.jacquieetmicheltv.net",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "France's household-name amateur and reality adult studio uniting Jacquie et Michel Elite alongside everyday French couples adventures.",
+  "tags": [
+    "premium",
+    "studio",
+    "european",
+    "amateur"
+  ],
+  "ranking_rationale": "Authentic French amateur & outdoor reality vibe rare on US sites; weighed against french audio & ui nuances require translation for english users.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Authentic French amateur & outdoor reality vibe rare on US sites",
+    "Includes Elite high-budget sister label",
+    "Large multi-year francophone archive"
+  ],
+  "cons": [
+    "French audio & UI nuances require translation for English users",
+    "Heavy upsell banners between Elite/Amateur passes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/jacquie-et-michel.webp",
+    "alt": "Jacquie et Michel TV logo and brand card",
+    "source_url": "https://www.jacquieetmicheltv.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.jacquieetmicheltv.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.jacquieetmicheltv.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.jacquieetmicheltv.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "jacquieetmicheltv.net",
+      "source_url": "https://www.jacquieetmicheltv.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

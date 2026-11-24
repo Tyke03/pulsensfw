@@ -1,0 +1,78 @@
+{
+  "slug": "ashley-madison",
+  "type": "site",
+  "name": "Ashley Madison",
+  "url": "https://www.ashleymadison.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-budget discreet relationships and non-monogamy dating platform rebuilt with tighter privacy controls and discrete billing.",
+  "tags": [
+    "niche",
+    "dating",
+    "discreet"
+  ],
+  "ranking_rationale": "High active volume in major metros alongside clear privacy masking tools; weighed against costly credit-per-message system skews heavily male.",
+  "pricing": {
+    "model": "Credit packs & Priority tiers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "High active volume in major metros alongside clear privacy masking tools",
+    "Discrete credit card billing descriptors & blurred photo keys",
+    "Modern mobile web UI"
+  ],
+  "cons": [
+    "Costly credit-per-message system skews heavily male",
+    "Steep ongoing spend to sustain active chats"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ashley-madison.webp",
+    "alt": "Ashley Madison logo and brand card",
+    "source_url": "https://www.ashleymadison.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.ashleymadison.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credit packs & Priority tiers",
+      "source_url": "https://www.ashleymadison.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.ashleymadison.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ashleymadison.com",
+      "source_url": "https://www.ashleymadison.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

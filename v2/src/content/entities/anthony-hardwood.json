@@ -1,0 +1,63 @@
+{
+  "slug": "anthony-hardwood",
+  "type": "star",
+  "name": "Anthony Hardwood",
+  "url": "http://www.wikidata.org/entity/Q4772674",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Anthony Hardwood — Hungarian-American pornographic actor (b. 1967).",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/anthony-hardwood.jpg",
+    "alt": "SFW portrait of Anthony Hardwood",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Anthony_Hardwood.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q4772674 (Hungary)",
+      "source_url": "http://www.wikidata.org/entity/Q4772674",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q4772674",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1967",
+      "source_url": "http://www.wikidata.org/entity/Q4772674",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

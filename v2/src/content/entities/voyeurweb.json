@@ -1,0 +1,78 @@
+{
+  "slug": "voyeurweb",
+  "type": "site",
+  "name": "VoyeurWeb",
+  "url": "https://www.voyeurweb.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "One of the oldest authentic exhibitionist & real-couples user-submitted photo and video sites online—famous since 1997.",
+  "tags": [
+    "tube",
+    "free",
+    "amateur",
+    "photos"
+  ],
+  "ranking_rationale": "Genuine verified real-world exhibitionists submitting candid photos; weighed against 90s text-heavy web portal interface.",
+  "pricing": {
+    "model": "Free community + supporter perks",
+    "free_tier": "Free public gallery browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Genuine verified real-world exhibitionists submitting candid photos",
+    "Strict contributor rules against fake commercial studio spam",
+    "25+ year community trust"
+  ],
+  "cons": [
+    "90s text-heavy web portal interface",
+    "Primarily amateur photo sets alongside clips"
+  ],
+  "image": {
+    "src": "/media/entities/sites/voyeurweb.webp",
+    "alt": "VoyeurWeb logo and brand card",
+    "source_url": "https://www.voyeurweb.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.voyeurweb.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community + supporter perks",
+      "source_url": "https://www.voyeurweb.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.voyeurweb.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "voyeurweb.com",
+      "source_url": "https://www.voyeurweb.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

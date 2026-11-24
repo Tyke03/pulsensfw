@@ -1,0 +1,79 @@
+{
+  "slug": "questionable-questing",
+  "type": "site",
+  "name": "Questionable Questing",
+  "url": "https://forum.questionablequesting.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sprawling XenForo fiction workshop housing thousands of interactive NSFW quests and long-form speculative erotica.",
+  "tags": [
+    "erotica",
+    "stories",
+    "forums",
+    "free"
+  ],
+  "ranking_rationale": "Deep writer feedback & multi-hundred-thousand-word interactive quest epics; weighed against explicit nsfw creative writing boards require free forum login + opt-in.",
+  "pricing": {
+    "model": "100% free community forum",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Deep writer feedback & multi-hundred-thousand-word interactive quest epics",
+    "Clean XenForo threadmarks make binge-reading huge serials easy",
+    "Zero scam popup clutter"
+  ],
+  "cons": [
+    "Explicit NSFW creative writing boards require free forum login + opt-in",
+    "Forum interface aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/sites/questionable-questing.webp",
+    "alt": "Questionable Questing logo and brand card",
+    "source_url": "https://forum.questionablequesting.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://forum.questionablequesting.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free community forum",
+      "source_url": "https://forum.questionablequesting.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://forum.questionablequesting.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "forum.questionablequesting.com",
+      "source_url": "https://forum.questionablequesting.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "pillowfort",
+  "type": "site",
+  "name": "Pillowfort",
+  "url": "https://www.pillowfort.social",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Artist-friendly Tumblr-alternative social blogging site welcoming tagged NSFW fanart, serialized fiction, and fandom comic threads.",
+  "tags": [
+    "comics",
+    "art",
+    "community"
+  ],
+  "ranking_rationale": "Permits labeled explicit illustrations & adult fanfiction exiled from Tumblr; weighed against smaller daily active user count than x/bluesky.",
+  "pricing": {
+    "model": "Free social network",
+    "free_tier": "Free account & blogging",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Permits labeled explicit illustrations & adult fanfiction exiled from Tumblr",
+    "Clean threaded reblogs, privacy lists & blacklists",
+    "Human moderation against AI spam"
+  ],
+  "cons": [
+    "Smaller daily active user count than X/Bluesky",
+    "Noticeably slower page loads during heavy spikes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pillowfort.webp",
+    "alt": "Pillowfort logo and brand card",
+    "source_url": "https://www.pillowfort.social",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.pillowfort.social",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free social network",
+      "source_url": "https://www.pillowfort.social",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.pillowfort.social",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pillowfort.social",
+      "source_url": "https://www.pillowfort.social",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

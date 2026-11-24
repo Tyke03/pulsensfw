@@ -1,0 +1,64 @@
+{
+  "slug": "brian-pumper",
+  "type": "star",
+  "name": "Brian Pumper",
+  "url": "http://www.wikidata.org/entity/Q1367293",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Brian Pumper — American pornographic film director and actor (b. 1981). Industry career documented from 2001.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/brian-pumper.jpg",
+    "alt": "SFW portrait of Brian Pumper",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brian_Pumper.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q1367293 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q1367293",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2001–present",
+      "source_url": "http://www.wikidata.org/entity/Q1367293",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1981",
+      "source_url": "http://www.wikidata.org/entity/Q1367293",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

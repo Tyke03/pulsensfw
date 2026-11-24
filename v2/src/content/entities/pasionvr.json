@@ -1,0 +1,79 @@
+{
+  "slug": "pasionvr",
+  "type": "site",
+  "name": "PasiónVR",
+  "url": "https://www.pasionvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Boutique European 8K VR studio celebrated for sun-soaked sensual chemistry, intimate eye contact, and romantic female POV framing.",
+  "tags": [
+    "vr",
+    "studio",
+    "glamour"
+  ],
+  "ranking_rationale": "Distinctly sensual European lighting without manic studio energy; weighed against focused catalog size (~150+ scenes).",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Distinctly sensual European lighting without manic studio energy",
+    "Clean 8K downloads & toy funscript compatibility",
+    "Great passthrough experiments"
+  ],
+  "cons": [
+    "Focused catalog size (~150+ scenes)",
+    "Higher price per scene if subscribed standalone"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pasionvr.webp",
+    "alt": "PasiónVR logo and brand card",
+    "source_url": "https://www.pasionvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://www.pasionvr.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://www.pasionvr.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://www.pasionvr.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pasionvr.com",
+      "source_url": "https://www.pasionvr.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

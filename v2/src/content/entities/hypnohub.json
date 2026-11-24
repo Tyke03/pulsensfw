@@ -1,0 +1,79 @@
+{
+  "slug": "hypnohub",
+  "type": "site",
+  "name": "HypnoHub",
+  "url": "https://hypnohub.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Focused Gelbooru-style free community imageboard dedicated cleanly to hypno, mind-control, and fantasy comic art.",
+  "tags": [
+    "hentai",
+    "booru",
+    "niche",
+    "free"
+  ],
+  "ranking_rationale": "Razor-accurate specialized tagging within its niche; weighed against strictly single-theme niche focus.",
+  "pricing": {
+    "model": "100% free community booru",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Razor-accurate specialized tagging within its niche",
+    "Fast classic booru boolean search and clean pool reading",
+    "Zero annoying login paywall"
+  ],
+  "cons": [
+    "Strictly single-theme niche focus",
+    "Vintage 2000s booru interface"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hypnohub.webp",
+    "alt": "HypnoHub logo and brand card",
+    "source_url": "https://hypnohub.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://hypnohub.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free community booru",
+      "source_url": "https://hypnohub.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hypnohub.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hypnohub.net",
+      "source_url": "https://hypnohub.net",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

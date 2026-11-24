@@ -1,0 +1,81 @@
+{
+  "slug": "itch-io-adult",
+  "type": "site",
+  "name": "itch.io NSFW Games & Comics",
+  "url": "https://itch.io/games/tag-nsfw",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The open indie creator marketplace powering hundreds of innovative adult visual novels, interactive web games, and indie comic zines.",
+  "tags": [
+    "comics",
+    "games",
+    "indie"
+  ],
+  "ranking_rationale": "Supports thousands of experimental free & pay-what-you-want indie adult games; weighed against note strict search indexing flags require opt-in / direct nsfw tag browse.",
+  "pricing": {
+    "model": "Free / Name-your-own-price indie store",
+    "free_tier": "Thousands of free indie games & demos",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Supports thousands of experimental free & pay-what-you-want indie adult games",
+    "Direct creator revenue cut sliders & browser WebGL instant demos",
+    "Zero toxic tube ad clutter"
+  ],
+  "cons": [
+    "Note strict search indexing flags require Opt-in / direct NSFW tag browse",
+    "Merchant payment rules exclude harsh fetish genres"
+  ],
+  "image": {
+    "src": "/media/entities/sites/itch-io-adult.webp",
+    "alt": "itch.io NSFW Games & Comics logo and brand card",
+    "source_url": "https://itch.io/games/tag-nsfw",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://itch.io/games/tag-nsfw",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free / Name-your-own-price indie store",
+      "source_url": "https://itch.io/games/tag-nsfw",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, macOS, Linux, Android",
+      "source_url": "https://itch.io/games/tag-nsfw",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "itch.io",
+      "source_url": "https://itch.io/games/tag-nsfw",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

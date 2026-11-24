@@ -1,0 +1,78 @@
+{
+  "slug": "digital-sin",
+  "type": "site",
+  "name": "Digital Sin",
+  "url": "https://www.digitalsin.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "New Sensations' drama & anthology label celebrated for long-running 'Tabu Tales' and 'Confessions' multi-scene narratives.",
+  "tags": [
+    "premium",
+    "studio",
+    "story"
+  ],
+  "ranking_rationale": "Balanced blend of believable dramatic setup & strong hardcore chemistry; weighed against dated member browse ui.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Balanced blend of believable dramatic setup & strong hardcore chemistry",
+    "Shared network pass unlocks New Sensations & Hot Wife XXX",
+    "Strong cast depth"
+  ],
+  "cons": [
+    "Dated member browse UI",
+    "Moderate new release pace"
+  ],
+  "image": {
+    "src": "/media/entities/sites/digital-sin.webp",
+    "alt": "Digital Sin logo and brand card",
+    "source_url": "https://www.digitalsin.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.digitalsin.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.digitalsin.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.digitalsin.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "digitalsin.com",
+      "source_url": "https://www.digitalsin.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

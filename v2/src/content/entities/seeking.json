@@ -1,0 +1,78 @@
+{
+  "slug": "seeking",
+  "type": "site",
+  "name": "Seeking",
+  "url": "https://www.seeking.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Leading global luxury dating and arrangement platform featuring verified photo screening and affluent traveler discovery.",
+  "tags": [
+    "niche",
+    "dating",
+    "lifestyle"
+  ],
+  "ranking_rationale": "Stricter ID/photo screening keeps spam & catfishing lower than cheap clones; weighed against high monthly diamond/premium price tag.",
+  "pricing": {
+    "model": "Premium monthly tiers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Stricter ID/photo screening keeps spam & catfishing lower than cheap clones",
+    "Polished upscale web & mobile UX",
+    "Clear expectation alignment filters"
+  ],
+  "cons": [
+    "High monthly Diamond/Premium price tag",
+    "Tight strict word-moderation flags on DMs"
+  ],
+  "image": {
+    "src": "/media/entities/sites/seeking.webp",
+    "alt": "Seeking logo and brand card",
+    "source_url": "https://www.seeking.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.seeking.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Premium monthly tiers",
+      "source_url": "https://www.seeking.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.seeking.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "seeking.com",
+      "source_url": "https://www.seeking.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

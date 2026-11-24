@@ -1,0 +1,79 @@
+{
+  "slug": "mydirtyhobby",
+  "type": "site",
+  "name": "MyDirtyHobby",
+  "url": "https://www.mydirtyhobby.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Europe's massive veteran amateur creator & clip marketplace (Aylo) especially dominant across Germany, Austria, and Switzerland.",
+  "tags": [
+    "premium",
+    "amateur",
+    "european",
+    "creator"
+  ],
+  "ranking_rationale": "Enormous active European homemade creator base since 2006; weighed against per-video coin purchases stack quickly.",
+  "pricing": {
+    "model": "VIP clubs & coin clip unlocks",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Enormous active European homemade creator base since 2006",
+    "Combines individual clip unlocks and monthly VIP club feeds",
+    "Clean mobile responsive UX"
+  ],
+  "cons": [
+    "Per-video coin purchases stack quickly",
+    "Heavy German/Euro language skew"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mydirtyhobby.webp",
+    "alt": "MyDirtyHobby logo and brand card",
+    "source_url": "https://www.mydirtyhobby.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.mydirtyhobby.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VIP clubs & coin clip unlocks",
+      "source_url": "https://www.mydirtyhobby.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.mydirtyhobby.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mydirtyhobby.com",
+      "source_url": "https://www.mydirtyhobby.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

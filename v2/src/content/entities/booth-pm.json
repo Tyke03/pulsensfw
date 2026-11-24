@@ -1,0 +1,79 @@
+{
+  "slug": "booth-pm",
+  "type": "site",
+  "name": "BOOTH",
+  "url": "https://booth.pm",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Pixiv's flagship creator digital marketplace—essential worldwide for VRChat 3D avatars, doujinshi PDFs, ASMR voice packs, and NSFW CG sets.",
+  "tags": [
+    "hentai",
+    "3d",
+    "doujinshi",
+    "store"
+  ],
+  "ranking_rationale": "The #1 global store for VRChat/Virt-A-Mate 3D clothes, avatars, and doujin downloads; weighed against digital 3d asset & doujin focus rather than cam/of video clips.",
+  "pricing": {
+    "model": "Per-item creator store",
+    "free_tier": "Thousands of free R-18/3D downloads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "The #1 global store for VRChat/Virt-A-Mate 3D clothes, avatars, and doujin downloads",
+    "Smooth Pixiv ID login & multi-currency support",
+    "Respectful adult R-18 creator storefronts clearly filtered"
+  ],
+  "cons": [
+    "Digital 3D asset & doujin focus rather than cam/OF video clips",
+    "Foreign checkout limits require Pixiv/PayPal workarounds for R-18"
+  ],
+  "image": {
+    "src": "/media/entities/sites/booth-pm.webp",
+    "alt": "BOOTH logo and brand card",
+    "source_url": "https://booth.pm",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://booth.pm",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-item creator store",
+      "source_url": "https://booth.pm",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://booth.pm",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "booth.pm",
+      "source_url": "https://booth.pm",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

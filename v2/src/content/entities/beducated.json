@@ -1,0 +1,79 @@
+{
+  "slug": "beducated",
+  "type": "site",
+  "name": "Beducated",
+  "url": "https://beducated.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Tasteful science-backed pleasure education academy offering 100+ video courses taught by certified sexologists, tantra coaches, and therapists.",
+  "tags": [
+    "erotica",
+    "education",
+    "research"
+  ],
+  "ranking_rationale": "Structured step-by-step video lessons covering intimacy, kink & communication; weighed against subscription gate past short sample trial; high annual focus.",
+  "pricing": {
+    "model": "Monthly / annual learning pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Structured step-by-step video lessons covering intimacy, kink & communication",
+    "Respectful high-production studio clarity without fake porn melodrama",
+    "Earnest clinical credibility & helpful partner exercises"
+  ],
+  "cons": [
+    "Subscription gate past short sample trial; high annual focus",
+    "Educational focus rather than quick erotic arousal"
+  ],
+  "image": {
+    "src": "/media/entities/sites/beducated.webp",
+    "alt": "Beducated logo and brand card",
+    "source_url": "https://beducated.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://beducated.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Monthly / annual learning pass",
+      "source_url": "https://beducated.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://beducated.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "beducated.com",
+      "source_url": "https://beducated.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -50,6 +50,13 @@
       "source_url": "https://en.wikipedia.org/wiki/Brittney_Kade",
       "checked": "2026-11-23",
       "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1999",
+      "source_url": "http://www.wikidata.org/entity/Q123339573",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
     }
   ],
   "updated": "2026-11-23"

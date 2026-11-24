@@ -1,0 +1,79 @@
+{
+  "slug": "vrbgay",
+  "type": "site",
+  "name": "VRB Gay",
+  "url": "https://www.vrbgay.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "VR Bangers' all-male sister VR studio bringing cinema-grade 8K spatial audio, real sets, and interactive scripts to gay VR.",
+  "tags": [
+    "vr",
+    "studio",
+    "gay"
+  ],
+  "ranking_rationale": "Rare big-budget 8K spatial realism in gay adult VR; weighed against smaller total scene vault vs virtualrealgay.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Rare big-budget 8K spatial realism in gay adult VR",
+    "Seamless Quest 3 / PCVR streaming & downloadable files",
+    "Frequent holiday promos"
+  ],
+  "cons": [
+    "Smaller total scene vault vs VirtualRealGay",
+    "Standalone pass required outside VRB bundles"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrbgay.webp",
+    "alt": "VRB Gay logo and brand card",
+    "source_url": "https://www.vrbgay.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://www.vrbgay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://www.vrbgay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://www.vrbgay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrbgay.com",
+      "source_url": "https://www.vrbgay.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

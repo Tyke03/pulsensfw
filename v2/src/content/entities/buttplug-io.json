@@ -1,0 +1,82 @@
+{
+  "slug": "buttplug-io",
+  "type": "site",
+  "name": "Buttplug.io (Intiface)",
+  "url": "https://buttplug.io",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Essential open-source haptics middleware (Intiface Central) unifying Lovense, Kiiroo, The Handy, OSR2, and We-Vibe into games & VR players.",
+  "tags": [
+    "forums",
+    "tools",
+    "open-source",
+    "haptics"
+  ],
+  "ranking_rationale": "Breaks brand lock-in by connecting nearly every Bluetooth/Wi-Fi toy to HereSphere, DeoVR & games; weighed against initial windows bluetooth dongle pairing occasionally takes tinkering.",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open software",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "iOS",
+    "Android"
+  ],
+  "score": 9.2,
+  "pros": [
+    "Breaks brand lock-in by connecting nearly every Bluetooth/Wi-Fi toy to HereSphere, DeoVR & games",
+    "Zero cloud spying—runs completely over local Bluetooth & WebSockets",
+    "Active open-source hardware support"
+  ],
+  "cons": [
+    "Initial Windows Bluetooth dongle pairing occasionally takes tinkering",
+    "Utility layer only (paired with players/games for media)"
+  ],
+  "image": {
+    "src": "/media/entities/sites/buttplug-io.webp",
+    "alt": "Buttplug.io (Intiface) logo and brand card",
+    "source_url": "https://buttplug.io",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://buttplug.io",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://buttplug.io",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, iOS, Android",
+      "source_url": "https://buttplug.io",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "buttplug.io",
+      "source_url": "https://buttplug.io",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

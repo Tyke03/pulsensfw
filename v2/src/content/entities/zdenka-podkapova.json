@@ -51,6 +51,13 @@
       "source_url": "https://en.wikipedia.org/wiki/Zde%C5%88ka_Podkapov%C3%A1",
       "checked": "2026-11-23",
       "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1977",
+      "source_url": "http://www.wikidata.org/entity/Q168930",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
     }
   ],
   "updated": "2026-11-23"

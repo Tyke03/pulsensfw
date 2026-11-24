@@ -1,0 +1,77 @@
+{
+  "slug": "plusone-dual-vibrator",
+  "type": "product",
+  "name": "plusOne Dual Vibrating Massager",
+  "url": "https://myplusone.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Wildly popular drugstore/Target waterproof dual rabbit vibrator delivering solid dual-motor power at a sub-$40 entry price.",
+  "tags": [
+    "vibrator",
+    "couples",
+    "budget"
+  ],
+  "ranking_rationale": "Unbeatable value (~$35–$40 retail) with waterproof body-safe silicone; weighed against higher-pitched buzzier vibration compared with lelo or we-vibe.",
+  "pricing": {
+    "model": "Hardware purchase (~$39)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Unbeatable value (~$35–$40 retail) with waterproof body-safe silicone",
+    "Easy approachable rabbit curves for beginners",
+    "Widely stocked discreetly at mainstream pharmacies"
+  ],
+  "cons": [
+    "Higher-pitched buzzier vibration compared with LELO or We-Vibe",
+    "Modest max motor power"
+  ],
+  "image": {
+    "src": "/media/entities/products/plusone-dual-vibrator.webp",
+    "alt": "plusOne Dual Vibrating Massager logo and brand card",
+    "source_url": "https://myplusone.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://myplusone.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$39)",
+      "source_url": "https://myplusone.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://myplusone.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "myplusone.com",
+      "source_url": "https://myplusone.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

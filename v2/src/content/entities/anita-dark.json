@@ -1,0 +1,63 @@
+{
+  "slug": "anita-dark",
+  "type": "star",
+  "name": "Anita Dark",
+  "url": "http://www.wikidata.org/entity/Q264126",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Anita Dark — Hungarian pornographic actress (b. 1975). Industry career documented from 1994.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/anita-dark.jpg",
+    "alt": "SFW portrait of Anita Dark",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Anita_Dark_123.JPG",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q264126 (Hungary)",
+      "source_url": "http://www.wikidata.org/entity/Q264126",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1994–present",
+      "source_url": "http://www.wikidata.org/entity/Q264126",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1975",
+      "source_url": "http://www.wikidata.org/entity/Q264126",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

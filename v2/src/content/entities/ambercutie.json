@@ -1,0 +1,77 @@
+{
+  "slug": "ambercutie",
+  "type": "site",
+  "name": "AmberCutie Forum",
+  "url": "https://www.ambercutie.com/forums/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Independent fan & cam-model forum celebrating genuine platform reviews, cam site payout debates, and broadcaster discussions since 2007.",
+  "tags": [
+    "forums",
+    "community",
+    "directory"
+  ],
+  "ranking_rationale": "Honest uncensored user & model reviews of Chaturbate, MFC, Stripchat & Streamate; weighed against classic xenforo forum look.",
+  "pricing": {
+    "model": "Free community forum",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Honest uncensored user & model reviews of Chaturbate, MFC, Stripchat & Streamate",
+    "Friendly active cam fan community",
+    "Zero shady site-hijack redirects"
+  ],
+  "cons": [
+    "Classic XenForo forum look",
+    "Fewer multimedia tools than directory sites"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ambercutie.webp",
+    "alt": "AmberCutie Forum logo and brand card",
+    "source_url": "https://www.ambercutie.com/forums/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.ambercutie.com/forums/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community forum",
+      "source_url": "https://www.ambercutie.com/forums/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.ambercutie.com/forums/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ambercutie.com",
+      "source_url": "https://www.ambercutie.com/forums/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

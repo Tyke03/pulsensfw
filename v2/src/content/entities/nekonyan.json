@@ -1,0 +1,80 @@
+{
+  "slug": "nekonyan",
+  "type": "site",
+  "name": "NekoNyan",
+  "url": "https://nekonyansoft.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fan-favorite English visual novel publisher delivering beloved uncensored romance/comedy eroge (Making Lovers, Aokana) cleanly.",
+  "tags": [
+    "hentai",
+    "games",
+    "visual-novel",
+    "publisher"
+  ],
+  "ranking_rationale": "High-care English localization retaining full Japanese jokes and CG quality; weighed against small release lineup per year.",
+  "pricing": {
+    "model": "Per-game publisher storefront & Steam",
+    "free_tier": "Free 18+ Steam patches & demos",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.6,
+  "pros": [
+    "High-care English localization retaining full Japanese jokes and CG quality",
+    "Supports Steam + external free uncensored patches cleanly",
+    "Friendly active developer transparency"
+  ],
+  "cons": [
+    "Small release lineup per year",
+    "Focuses mainly on sweet/moe romance visual novels"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nekonyan.webp",
+    "alt": "NekoNyan logo and brand card",
+    "source_url": "https://nekonyansoft.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://nekonyansoft.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-game publisher storefront & Steam",
+      "source_url": "https://nekonyansoft.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Windows, Steam",
+      "source_url": "https://nekonyansoft.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nekonyansoft.com",
+      "source_url": "https://nekonyansoft.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

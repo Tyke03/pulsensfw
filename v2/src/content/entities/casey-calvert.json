@@ -60,6 +60,13 @@
       "source_url": "https://en.wikipedia.org/wiki/Casey_Calvert",
       "checked": "2026-11-23",
       "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1990",
+      "source_url": "http://www.wikidata.org/entity/Q19877654",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
     }
   ],
   "updated": "2026-11-23"

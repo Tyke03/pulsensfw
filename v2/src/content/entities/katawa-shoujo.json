@@ -1,0 +1,81 @@
+{
+  "slug": "katawa-shoujo",
+  "type": "game",
+  "name": "Katawa Shoujo",
+  "url": "https://www.katawa-shoujo.com",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Cult-classic free indie visual novel celebrated around the world for heartfelt empathy, soaring music, and emotionally gripping writing.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "romance",
+    "free"
+  ],
+  "ranking_rationale": "Unforgettably moving storytelling & gentle non-fetishizing disability representation; weighed against pacing focuses 95% on slow emotional slice-of-life buildup rather than constant erotica.",
+  "pricing": {
+    "model": "100% free indie visual novel",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Unforgettably moving storytelling & gentle non-fetishizing disability representation",
+    "100% free high-res Steam/DRM-free download with an Adult Toggle option",
+    "Masterpiece acoustic soundtrack"
+  ],
+  "cons": [
+    "Pacing focuses 95% on slow emotional slice-of-life buildup rather than constant erotica",
+    "Classic 4:3/remastered 2012 art style"
+  ],
+  "image": {
+    "src": "/media/entities/games/katawa-shoujo.webp",
+    "alt": "Katawa Shoujo logo and brand card",
+    "source_url": "https://www.katawa-shoujo.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://www.katawa-shoujo.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free indie visual novel",
+      "source_url": "https://www.katawa-shoujo.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://www.katawa-shoujo.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "katawa-shoujo.com",
+      "source_url": "https://www.katawa-shoujo.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

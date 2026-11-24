@@ -1,0 +1,80 @@
+{
+  "slug": "playboy-tv",
+  "type": "site",
+  "name": "Playboy TV",
+  "url": "https://www.playboytv.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Iconic mainstream couples-oriented sensual lifestyle network offering Reality-TV dating series, late-night softcore movies, and glossy Playmate specials.",
+  "tags": [
+    "premium",
+    "studio",
+    "glamour",
+    "tv"
+  ],
+  "ranking_rationale": "Familiar low-threat mainstream cable aesthetic ideal for nervous couples; weighed against strictly softcore r/nc-17 ceiling—zero explicit hardcore.",
+  "pricing": {
+    "model": "Streaming subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web",
+    "Smart TV"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Familiar low-threat mainstream cable aesthetic ideal for nervous couples",
+    "Polished reality competition & comedy series",
+    "Wide cable/streaming availability"
+  ],
+  "cons": [
+    "Strictly softcore R/NC-17 ceiling—zero explicit hardcore",
+    "Pricey monthly subscription relative to explicit alternatives"
+  ],
+  "image": {
+    "src": "/media/entities/sites/playboy-tv.webp",
+    "alt": "Playboy TV logo and brand card",
+    "source_url": "https://www.playboytv.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.playboytv.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Streaming subscription",
+      "source_url": "https://www.playboytv.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web, Smart TV",
+      "source_url": "https://www.playboytv.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "playboytv.com",
+      "source_url": "https://www.playboytv.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

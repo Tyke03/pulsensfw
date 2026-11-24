@@ -1,0 +1,79 @@
+{
+  "slug": "iconmale",
+  "type": "site",
+  "name": "Icon Male",
+  "url": "https://www.iconmale.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Nica Noelle's award-winning Mile High studio dedicated to dramatic acting, romantic tension, and emotional storylines in gay cinema.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "story"
+  ],
+  "ranking_rationale": "Genuine storyline dialogue and heartfelt romantic pacing; weighed against dated mile high member dashboard.",
+  "pricing": {
+    "model": "Studio / Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Genuine storyline dialogue and heartfelt romantic pacing",
+    "Top-tier cast performances rarely found in gonzo tubes",
+    "Crisp streaming & VOD options"
+  ],
+  "cons": [
+    "Dated Mile High member dashboard",
+    "Lighter action density per runtime"
+  ],
+  "image": {
+    "src": "/media/entities/sites/iconmale.webp",
+    "alt": "Icon Male logo and brand card",
+    "source_url": "https://www.iconmale.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.iconmale.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio / Network subscription",
+      "source_url": "https://www.iconmale.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.iconmale.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "iconmale.com",
+      "source_url": "https://www.iconmale.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

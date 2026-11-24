@@ -1,0 +1,78 @@
+{
+  "slug": "frisk-chat",
+  "type": "site",
+  "name": "Frisk.chat",
+  "url": "https://frisk.chat",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern adult-friendly creator subscription & tip portal built for independent performers seeking clean PPV and chat monetization.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "Adult-first compliance terms with solid creator verification; weighed against much smaller user liquidity than onlyfans or fansly.",
+  "pricing": {
+    "model": "Creator subscriptions & PPV",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Adult-first compliance terms with solid creator verification",
+    "Clean dark UX for feed unlocks and tipping",
+    "Direct referral tools"
+  ],
+  "cons": [
+    "Much smaller user liquidity than OnlyFans or Fansly",
+    "Limited search discovery"
+  ],
+  "image": {
+    "src": "/media/entities/sites/frisk-chat.webp",
+    "alt": "Frisk.chat logo and brand card",
+    "source_url": "https://frisk.chat",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://frisk.chat",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions & PPV",
+      "source_url": "https://frisk.chat",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://frisk.chat",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "frisk.chat",
+      "source_url": "https://frisk.chat",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

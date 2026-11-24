@@ -50,6 +50,13 @@
       "source_url": "https://en.wikipedia.org/wiki/Anna_Polina",
       "checked": "2026-11-23",
       "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1989",
+      "source_url": "http://www.wikidata.org/entity/Q539733",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
     }
   ],
   "updated": "2026-11-23"

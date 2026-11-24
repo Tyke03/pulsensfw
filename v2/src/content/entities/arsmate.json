@@ -1,0 +1,78 @@
+{
+  "slug": "arsmate",
+  "type": "site",
+  "name": "Arsmate",
+  "url": "https://arsmate.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Latin America's fast-growing creator subscription platform—dubbed the 'Chilean OnlyFans'—supporting local payouts and diverse creators.",
+  "tags": [
+    "platform",
+    "creator",
+    "latam"
+  ],
+  "ranking_rationale": "Huge vibrant roster of Chilean, Argentine, Colombian & Mexican creators; weighed against spanish-first ui and regional latin creator skew.",
+  "pricing": {
+    "model": "Creator subscriptions & tips",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Huge vibrant roster of Chilean, Argentine, Colombian & Mexican creators",
+    "Clean dark/indigo mobile timeline & PPV messaging",
+    "Explicit-friendly creator policies"
+  ],
+  "cons": [
+    "Spanish-first UI and regional Latin creator skew",
+    "Smaller North American creator share"
+  ],
+  "image": {
+    "src": "/media/entities/sites/arsmate.webp",
+    "alt": "Arsmate logo and brand card",
+    "source_url": "https://arsmate.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://arsmate.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions & tips",
+      "source_url": "https://arsmate.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://arsmate.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "arsmate.com",
+      "source_url": "https://arsmate.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

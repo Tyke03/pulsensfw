@@ -1,0 +1,78 @@
+{
+  "slug": "javlibrary",
+  "type": "site",
+  "name": "JAVLibrary",
+  "url": "https://www.javlibrary.com/en/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The encyclopedia of mainstream Japanese Adult Video—cataloging official DVD/release codes, studios, genres, actresses, and honest user scores cleanly.",
+  "tags": [
+    "forums",
+    "database",
+    "jav"
+  ],
+  "ranking_rationale": "Gold-standard fast code-number lookup (SSNI/MIDE/STARS) across 15+ years of official JAV; weighed against contains zero streaming video itself—strictly catalog database & reviews.",
+  "pricing": {
+    "model": "100% free reference database",
+    "free_tier": "Completely free lookups",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Gold-standard fast code-number lookup (SSNI/MIDE/STARS) across 15+ years of official JAV",
+    "Honest crowd star ratings and thoughtful bilingual reviews",
+    "Clean non-bloated table records"
+  ],
+  "cons": [
+    "Contains zero streaming video itself—strictly catalog database & reviews",
+    "Aged tabular 2010s CSS"
+  ],
+  "image": {
+    "src": "/media/entities/sites/javlibrary.webp",
+    "alt": "JAVLibrary logo and brand card",
+    "source_url": "https://www.javlibrary.com/en/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.javlibrary.com/en/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free reference database",
+      "source_url": "https://www.javlibrary.com/en/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.javlibrary.com/en/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "javlibrary.com",
+      "source_url": "https://www.javlibrary.com/en/",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

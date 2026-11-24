@@ -59,6 +59,13 @@
       "checked": "2026-10-27",
       "evidence_type": "first_party",
       "notes": "No creator-owned profile verified as both official and non-explicit."
+    },
+    {
+      "key": "Born",
+      "value": "1988",
+      "source_url": "http://www.wikidata.org/entity/Q3294589",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
     }
   ],
   "updated": "2026-10-27",

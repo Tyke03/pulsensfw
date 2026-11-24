@@ -208,7 +208,14 @@ const entityLabel = topic?.id === 'stars'
               <>
                 <div><dt>Categories</dt><dd>{visibleSubtopics.length}</dd></div>
                 <div><dt>VR Ready</dt><dd>{allEntities.filter((e) => e.tags.some((t) => t.toLowerCase() === 'vr')).length}</dd></div>
-                <div><dt>Free &amp; Freemium</dt><dd>{allEntities.filter((e) => e.pricing.free_tier && !/(teaser|trailer|trial|preview|account browsing|behind|signup|sign-up|browse|browsing|explorer|profiles|first episodes|demo|storefront|paywall)/i.test(e.pricing.free_tier)).length}</dd></div>
+                <div><dt>Free &amp; Freemium</dt><dd>{allEntities.filter((e) => {
+                  const ft = (e.pricing.free_tier ?? '').trim();
+                  if (!ft) return false;
+                  const tags = e.tags.map((t) => t.toLowerCase());
+                  if (tags.includes('free') || tags.includes('tube')) return true;
+                  if (/^(free (unlimited|reading|stream|public|gallery|search|community|random|posting|archive|open|to read)|completely free|100% free|full .*free|unlimited .*free|large free)/i.test(ft)) return true;
+                  return !/(teaser|trailer|trial|preview|account browsing|behind|signup|sign-up|\bbrowse\b|\bbrowsing\b|explorer|profiles|first episodes|demo|storefront|paywall|sample)/i.test(ft);
+                }).length}</dd></div>
               </>
             )}
             {topic.id === 'ai' && (

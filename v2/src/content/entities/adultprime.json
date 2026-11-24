@@ -1,0 +1,78 @@
+{
+  "slug": "adultprime",
+  "type": "site",
+  "name": "AdultPrime",
+  "url": "https://adultprime.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-volume European studio bundle aggregating 35+ niche European and reality sub-brands inside one multi-site streaming pass.",
+  "tags": [
+    "premium",
+    "studio",
+    "european"
+  ],
+  "ranking_rationale": "Enormous 35-channel European library at budget promo rates; weighed against heavy overlap of middling b-tier euro promos across channels.",
+  "pricing": {
+    "model": "Mega-network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Enormous 35-channel European library at budget promo rates",
+    "Clean Netflix-style dark browser grid",
+    "Mixes classic euro glam, amateur & fetish niches"
+  ],
+  "cons": [
+    "Heavy overlap of middling B-tier Euro promos across channels",
+    "Retention flow nags"
+  ],
+  "image": {
+    "src": "/media/entities/sites/adultprime.webp",
+    "alt": "AdultPrime logo and brand card",
+    "source_url": "https://adultprime.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://adultprime.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Mega-network subscription",
+      "source_url": "https://adultprime.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://adultprime.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "adultprime.com",
+      "source_url": "https://adultprime.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

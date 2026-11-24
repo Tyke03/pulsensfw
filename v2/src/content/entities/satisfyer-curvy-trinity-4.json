@@ -1,0 +1,77 @@
+{
+  "slug": "satisfyer-curvy-trinity-4",
+  "type": "product",
+  "name": "Satisfyer Curvy Trinity 4",
+  "url": "https://www.satisfyer.com/us/satisfyer-curvy-trinity-4",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Clever 3-in-1 budget powerhouse combining Satisfyer's Air-Pulse wave nozzle, classic vibration tip, and ergonomic thumb grip under $50.",
+  "tags": [
+    "air-pulse",
+    "quiet",
+    "vibrator"
+  ],
+  "ranking_rationale": "Delivers genuine contactless air-pulse suction PLUS pinpoint tip rumble in one compact shape; weighed against air-pulse buzzes noticeably louder on top settings than womanizer smart silence.",
+  "pricing": {
+    "model": "Hardware purchase (~$45)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Delivers genuine contactless air-pulse suction PLUS pinpoint tip rumble in one compact shape",
+    "Deep waterproof build at impulse budget price (~$40)",
+    "Easy push-button speed steps"
+  ],
+  "cons": [
+    "Air-pulse buzzes noticeably louder on top settings than Womanizer Smart Silence",
+    "Firm nozzle lip shape fits differently than LELO Sona"
+  ],
+  "image": {
+    "src": "/media/entities/products/satisfyer-curvy-trinity-4.webp",
+    "alt": "Satisfyer Curvy Trinity 4 logo and brand card",
+    "source_url": "https://www.satisfyer.com/us/satisfyer-curvy-trinity-4",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.satisfyer.com/us/satisfyer-curvy-trinity-4",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$45)",
+      "source_url": "https://www.satisfyer.com/us/satisfyer-curvy-trinity-4",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.satisfyer.com/us/satisfyer-curvy-trinity-4",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "satisfyer.com",
+      "source_url": "https://www.satisfyer.com/us/satisfyer-curvy-trinity-4",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

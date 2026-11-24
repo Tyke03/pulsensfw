@@ -1,0 +1,80 @@
+{
+  "slug": "draw-things",
+  "type": "ai_app",
+  "name": "Draw Things",
+  "url": "https://apps.apple.com/app/draw-things-ai-generation/id6444050820",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Miraculous free native Mac, iPhone, and iPad app running local Flux, SDXL, and video diffusion offline via Apple Silicon Metal.",
+  "tags": [
+    "image",
+    "local",
+    "offline",
+    "apple"
+  ],
+  "ranking_rationale": "Runs uncensored custom Civitai/HuggingFace checkpoints completely offline on Mac & iPad; weighed against strictly apple ecosystem (macos / ios / ipados)—no windows or android.",
+  "pricing": {
+    "model": "100% free native Apple app",
+    "free_tier": "Completely free on App Store",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "macOS",
+    "iOS",
+    "iPadOS"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Runs uncensored custom Civitai/HuggingFace checkpoints completely offline on Mac & iPad",
+    "Insane CoreML/Metal optimization squeezes SDXL onto 8GB–16GB Apple devices",
+    "Zero subscriptions, zero cloud telemetry"
+  ],
+  "cons": [
+    "Strictly Apple ecosystem (macOS / iOS / iPadOS)—no Windows or Android",
+    "Dense technical nodes menu for power users"
+  ],
+  "image": {
+    "src": "/media/entities/ai/draw-things.webp",
+    "alt": "Draw Things logo and brand card",
+    "source_url": "https://apps.apple.com/app/draw-things-ai-generation/id6444050820",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://apps.apple.com/app/draw-things-ai-generation/id6444050820",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free native Apple app",
+      "source_url": "https://apps.apple.com/app/draw-things-ai-generation/id6444050820",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "macOS, iOS, iPadOS",
+      "source_url": "https://apps.apple.com/app/draw-things-ai-generation/id6444050820",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "apps.apple.com",
+      "source_url": "https://apps.apple.com/app/draw-things-ai-generation/id6444050820",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

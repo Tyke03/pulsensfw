@@ -1,0 +1,80 @@
+{
+  "slug": "we-vibe-sync-2",
+  "type": "product",
+  "name": "We-Vibe Sync 2",
+  "url": "https://www.we-vibe.com/us/sync-2",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Refined C-shaped couples vibrator engineered cleanly for comfortable hands-free wear during partnered penetration plus whisper-quiet app control.",
+  "tags": [
+    "couples",
+    "app",
+    "quiet",
+    "wearable"
+  ],
+  "ranking_rationale": "Sculpted narrower arch fits noticeably more comfortably than bulky couples clones; weighed against dual-hinge adjustment still depends slightly on partner anatomy alignment.",
+  "pricing": {
+    "model": "Hardware purchase (~$169)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Standalone"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Sculpted narrower arch fits noticeably more comfortably than bulky couples clones",
+    "Includes both squeeze remote AND long-distance We-Vibe app control",
+    "100% waterproof dual motors"
+  ],
+  "cons": [
+    "Dual-hinge adjustment still depends slightly on partner anatomy alignment",
+    "Proprietary magnetic USB charger"
+  ],
+  "image": {
+    "src": "/media/entities/products/we-vibe-sync-2.webp",
+    "alt": "We-Vibe Sync 2 logo and brand card",
+    "source_url": "https://www.we-vibe.com/us/sync-2",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.we-vibe.com/us/sync-2",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$169)",
+      "source_url": "https://www.we-vibe.com/us/sync-2",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Standalone",
+      "source_url": "https://www.we-vibe.com/us/sync-2",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "we-vibe.com",
+      "source_url": "https://www.we-vibe.com/us/sync-2",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

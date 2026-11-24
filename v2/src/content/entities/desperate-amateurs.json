@@ -1,0 +1,78 @@
+{
+  "slug": "desperate-amateurs",
+  "type": "site",
+  "name": "Desperate Amateurs",
+  "url": "https://www.desperateamateurs.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran American independent amateur audition & first-timer site running continuously since 1997 with everyday real models.",
+  "tags": [
+    "premium",
+    "studio",
+    "amateur"
+  ],
+  "ranking_rationale": "Huge multi-decade vault of genuine amateur girls-next-door; weighed against early-2000s web template aesthetics.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Huge multi-decade vault of genuine amateur girls-next-door",
+    "Authentic conversational vibe without fake starlet veneers",
+    "Consistent weekly updates"
+  ],
+  "cons": [
+    "Early-2000s web template aesthetics",
+    "Mixed lighting & handheld camera stability"
+  ],
+  "image": {
+    "src": "/media/entities/sites/desperate-amateurs.webp",
+    "alt": "Desperate Amateurs logo and brand card",
+    "source_url": "https://www.desperateamateurs.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.desperateamateurs.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.desperateamateurs.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.desperateamateurs.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "desperateamateurs.com",
+      "source_url": "https://www.desperateamateurs.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

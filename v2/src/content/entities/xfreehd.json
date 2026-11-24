@@ -1,0 +1,78 @@
+{
+  "slug": "xfreehd",
+  "type": "site",
+  "name": "XFreeHD",
+  "url": "https://www.xfreehd.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean dark-slate free HD tube aggregating partner studio promos and full amateur clips with minimal pop-under irritation.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Minimal pop-ups relative to average free tubes; weighed against smaller library than xhamster/xvideos.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Full catalog free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Minimal pop-ups relative to average free tubes",
+    "Crisp HD card thumbnails & model index",
+    "Fast desktop HTML5 buffer"
+  ],
+  "cons": [
+    "Smaller library than XHamster/XVideos",
+    "Short partner teaser promos mixed in"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xfreehd.webp",
+    "alt": "XFreeHD logo and brand card",
+    "source_url": "https://www.xfreehd.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.xfreehd.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.xfreehd.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.xfreehd.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xfreehd.com",
+      "source_url": "https://www.xfreehd.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

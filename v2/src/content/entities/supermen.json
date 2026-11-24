@@ -1,0 +1,78 @@
+{
+  "slug": "supermen",
+  "type": "site",
+  "name": "Supermen.com",
+  "url": "https://www.supermen.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Dedicated all-male private live cam platform spotlighting verified gay, bi, and amateur male cam broadcasters cleanly.",
+  "tags": [
+    "cams",
+    "live",
+    "gay"
+  ],
+  "ranking_rationale": "Clean all-male discovery without filtering through mega-site heterosexual lobbies; weighed against smaller concurrent male roster than chaturbate men tab.",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": "Free lobby preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Clean all-male discovery without filtering through mega-site heterosexual lobbies",
+    "Supports crisp 1-on-1 private cam2cam shows",
+    "Easy mobile WebRTC UI"
+  ],
+  "cons": [
+    "Smaller concurrent male roster than Chaturbate Men tab",
+    "Per-minute private rates run steep"
+  ],
+  "image": {
+    "src": "/media/entities/sites/supermen.webp",
+    "alt": "Supermen.com logo and brand card",
+    "source_url": "https://www.supermen.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.supermen.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.supermen.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.supermen.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "supermen.com",
+      "source_url": "https://www.supermen.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

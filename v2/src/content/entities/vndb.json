@@ -1,0 +1,79 @@
+{
+  "slug": "vndb",
+  "type": "site",
+  "name": "VNDB (Visual Novel Database)",
+  "url": "https://vndb.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The comprehensive encyclopedia documenting visual novels, Japanese eroge studios, localization patches, tags, and honest user ratings since 2007.",
+  "tags": [
+    "forums",
+    "database",
+    "games",
+    "visual-novel"
+  ],
+  "ranking_rationale": "Unmatched searchable index linking original Japanese releases, Steam IDs & 18+ patches; weighed against purely informational database—zero downloads or hosting.",
+  "pricing": {
+    "model": "100% free open database",
+    "free_tier": "Completely free lookups & API",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Unmatched searchable index linking original Japanese releases, Steam IDs & 18+ patches",
+    "Zero sleazy ads and obsessive contributor tag curation",
+    "Fast spoiler-guarded tag filtering"
+  ],
+  "cons": [
+    "Purely informational database—zero downloads or hosting",
+    "Sparse modern UI polish"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vndb.webp",
+    "alt": "VNDB (Visual Novel Database) logo and brand card",
+    "source_url": "https://vndb.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://vndb.org",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open database",
+      "source_url": "https://vndb.org",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://vndb.org",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vndb.org",
+      "source_url": "https://vndb.org",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

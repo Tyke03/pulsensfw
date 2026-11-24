@@ -1,0 +1,78 @@
+{
+  "slug": "vikiporn",
+  "type": "site",
+  "name": "VikiPorn",
+  "url": "https://www.vikiporn.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Straightforward dark-theme free tube emphasizing fast preview thumbs and simple duration/popularity sorting.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream"
+  ],
+  "ranking_rationale": "Quick video scrubbing without lag; weighed against average upload freshness.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Quick video scrubbing without lag",
+    "Clean dark player layout",
+    "Decent European/amateur clip share"
+  ],
+  "cons": [
+    "Average upload freshness",
+    "Standard banner ads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vikiporn.webp",
+    "alt": "VikiPorn logo and brand card",
+    "source_url": "https://www.vikiporn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.vikiporn.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.vikiporn.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.vikiporn.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vikiporn.com",
+      "source_url": "https://www.vikiporn.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "girlfriendgpt",
+  "type": "ai_app",
+  "name": "GirlfriendGPT",
+  "url": "https://www.girlfriendgpt.ai",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran cloud AI roleplay hub pairing hundreds of user-authored fantasy bots with voice replies and uncensored scenarios.",
+  "tags": [
+    "chat",
+    "roleplay",
+    "companion"
+  ],
+  "ranking_rationale": "Easy instant signup & wide variety of fantasy tropes; weighed against strict paywall kicks in after brief message tester.",
+  "pricing": {
+    "model": "Paid membership tiers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Easy instant signup & wide variety of fantasy tropes",
+    "Built-in character creator for custom scenarios",
+    "Fast streaming responses"
+  ],
+  "cons": [
+    "Strict paywall kicks in after brief message tester",
+    "Visual style feels busy with promos"
+  ],
+  "image": {
+    "src": "/media/entities/ai/girlfriendgpt.webp",
+    "alt": "GirlfriendGPT logo and brand card",
+    "source_url": "https://www.girlfriendgpt.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://www.girlfriendgpt.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Paid membership tiers",
+      "source_url": "https://www.girlfriendgpt.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.girlfriendgpt.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "girlfriendgpt.ai",
+      "source_url": "https://www.girlfriendgpt.ai",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

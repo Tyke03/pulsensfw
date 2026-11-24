@@ -1,0 +1,79 @@
+{
+  "slug": "ersties",
+  "type": "site",
+  "name": "Ersties",
+  "url": "https://en.ersties.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Berlin-based feminist indie erotica studio celebrating playful, body-positive everyday couples and friends with authentic joy.",
+  "tags": [
+    "premium",
+    "studio",
+    "art",
+    "indie"
+  ],
+  "ranking_rationale": "Remarkable real intimacy, laughter, and zero fake porn posturing; weighed against predominantly everyday amateur bodies rather than glamour casting.",
+  "pricing": {
+    "model": "Independent studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Remarkable real intimacy, laughter, and zero fake porn posturing",
+    "Transparent Berlin ethical model-fair studio culture",
+    "Includes rich photo journals & voice notes"
+  ],
+  "cons": [
+    "Predominantly everyday amateur bodies rather than glamour casting",
+    "Higher Euro monthly tier"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ersties.webp",
+    "alt": "Ersties logo and brand card",
+    "source_url": "https://en.ersties.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://en.ersties.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Independent studio subscription",
+      "source_url": "https://en.ersties.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://en.ersties.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "en.ersties.com",
+      "source_url": "https://en.ersties.com",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}

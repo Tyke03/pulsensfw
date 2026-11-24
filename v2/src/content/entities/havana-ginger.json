@@ -1,0 +1,63 @@
+{
+  "slug": "havana-ginger",
+  "type": "star",
+  "name": "Havana Ginger",
+  "url": "http://www.wikidata.org/entity/Q10294070",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Havana Ginger — American pornographic actress (b. 1984). Industry career documented from 2004.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata occupation Q488111 and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/havana-ginger.jpg",
+    "alt": "SFW portrait of Havana Ginger",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Havana_Ginger.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q10294070 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q10294070",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2004–present",
+      "source_url": "http://www.wikidata.org/entity/Q10294070",
+      "checked": "2026-11-25",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q10294070",
+      "checked": "2026-11-25",
+      "evidence_type": "aggregator"
+    }
+  ],
+  "updated": "2026-11-25"
+}

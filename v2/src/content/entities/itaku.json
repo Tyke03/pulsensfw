@@ -1,0 +1,79 @@
+{
+  "slug": "itaku",
+  "type": "site",
+  "name": "Itaku",
+  "url": "https://itaku.ee",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern fast-growing indie art gallery praised by illustrators for crisp dark UI, generous tagging, and strict human-artist curation.",
+  "tags": [
+    "comics",
+    "furry",
+    "art",
+    "community"
+  ],
+  "ranking_rationale": "Ultra-clean dark gallery UI built specifically to replace aging legacy sites; weighed against younger archive depth than furaffinity or pixiv.",
+  "pricing": {
+    "model": "Free artist gallery + supporter perks",
+    "free_tier": "Completely free posting & browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Ultra-clean dark gallery UI built specifically to replace aging legacy sites",
+    "Respects both SFW and clearly tagged 18+ indie art & comics",
+    "Zero invasive banner ad bloat"
+  ],
+  "cons": [
+    "Younger archive depth than FurAffinity or Pixiv",
+    "Requires login opt-in for mature filters"
+  ],
+  "image": {
+    "src": "/media/entities/sites/itaku.webp",
+    "alt": "Itaku logo and brand card",
+    "source_url": "https://itaku.ee",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://itaku.ee",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free artist gallery + supporter perks",
+      "source_url": "https://itaku.ee",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://itaku.ee",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "itaku.ee",
+      "source_url": "https://itaku.ee",
+      "checked": "2026-11-25",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-25"
+}
