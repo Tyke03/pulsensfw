@@ -1,0 +1,79 @@
+{
+  "slug": "william-higgins",
+  "type": "site",
+  "name": "William Higgins",
+  "url": "https://www.williamhiggins.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Historic gay adult cinema pioneer operating since 1978—housing both classic California Golden-Age films and two decades of Prague studio vaults.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "Nearly 50 years of archival gay cinema history from 1970s California to modern Czechia, weighed against older web layout styling.",
+  "pricing": {
+    "model": "Heritage gay studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Nearly 50 years of archival gay cinema history from 1970s California to modern Czechia",
+    "Digitized remastered vintage classics alongside 4K studio shoots",
+    "Detailed performer filmographies"
+  ],
+  "cons": [
+    "Older web layout styling",
+    "Deliberate unhurried vintage pacing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/william-higgins.webp",
+    "alt": "William Higgins logo and brand card",
+    "source_url": "https://www.williamhiggins.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.williamhiggins.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Heritage gay studio pass",
+      "source_url": "https://www.williamhiggins.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.williamhiggins.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "williamhiggins.com",
+      "source_url": "https://www.williamhiggins.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

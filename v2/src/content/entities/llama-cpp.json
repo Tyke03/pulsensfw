@@ -30,7 +30,7 @@
     "Linux",
     "Docker"
   ],
-  "score": 9.3,
+  "score": 8.6,
   "pros": [
     "Blazing fast CUDA, Metal, Vulkan, and CPU split inference for giant 70B+ GGUFs",
     "Includes built-in minimalist `llama-server` web chat & OpenAI API endpoint",

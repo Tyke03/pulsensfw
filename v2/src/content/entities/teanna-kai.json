@@ -1,0 +1,63 @@
+{
+  "slug": "teanna-kai",
+  "type": "star",
+  "name": "Teanna Kai",
+  "url": "http://www.wikidata.org/entity/Q242978",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Teanna Kai — American pornographic actress (b. 1978). Industry career documented from 1999.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/teanna-kai.jpg",
+    "alt": "SFW portrait of Teanna Kai",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Teanna_Kai_2.jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q242978 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q242978",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1978",
+      "source_url": "http://www.wikidata.org/entity/Q242978",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1999–present",
+      "source_url": "http://www.wikidata.org/entity/Q242978",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

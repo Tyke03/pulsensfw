@@ -1,0 +1,78 @@
+{
+  "slug": "openart-ai",
+  "type": "ai_app",
+  "name": "OpenArt",
+  "url": "https://openart.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Cloud SDXL/Flux studio & ComfyUI workflow discovery hub specializing in consistent character sheets, pose control, and inpainting.",
+  "tags": [
+    "image",
+    "models",
+    "freemium"
+  ],
+  "ranking_rationale": "Strong character-consistency & pose/sketch-to-image tools in browser (trade-off: unfiltered mature generation requires paid plan & age toggle).",
+  "pricing": {
+    "model": "Freemium cloud art studio",
+    "free_tier": "Free starter credits",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Strong character-consistency & pose/sketch-to-image tools in browser",
+    "Hosts thousands of downloadable JSON ComfyUI workflows",
+    "Free starter trial credits"
+  ],
+  "cons": [
+    "Unfiltered mature generation requires paid plan & age toggle",
+    "Credit consumption climbs on multi-step upscales"
+  ],
+  "image": {
+    "src": "/media/entities/ai/openart-ai.webp",
+    "alt": "OpenArt logo and brand card",
+    "source_url": "https://openart.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://openart.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium cloud art studio",
+      "source_url": "https://openart.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://openart.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "openart.ai",
+      "source_url": "https://openart.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

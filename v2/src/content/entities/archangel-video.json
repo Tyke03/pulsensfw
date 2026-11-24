@@ -1,0 +1,79 @@
+{
+  "slug": "archangel-video",
+  "type": "site",
+  "name": "ArchAngel",
+  "url": "https://www.archangelvideo.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Independent showcase studio known for glossy mansion shoots, starlet showcase events, and classic high-energy gonzo filmmaking.",
+  "tags": [
+    "premium",
+    "studio",
+    "mainstream",
+    "4k"
+  ],
+  "ranking_rationale": "Crisp sunlit mansion cinematography with top US stars, weighed against smaller update volume in recent seasons.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Crisp sunlit mansion cinematography with top US stars",
+    "Straightforward download & streaming portal",
+    "Consistent star-showcase focus"
+  ],
+  "cons": [
+    "Smaller update volume in recent seasons",
+    "Traditional gonzo setups"
+  ],
+  "image": {
+    "src": "/media/entities/sites/archangel-video.webp",
+    "alt": "ArchAngel logo and brand card",
+    "source_url": "https://www.archangelvideo.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.archangelvideo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.archangelvideo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.archangelvideo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "archangelvideo.com",
+      "source_url": "https://www.archangelvideo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

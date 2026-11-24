@@ -1,0 +1,79 @@
+{
+  "slug": "exui",
+  "type": "ai_app",
+  "name": "ExUI",
+  "url": "https://github.com/turboderp/exui",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Lightweight local browser chat & notebook frontend built by ExLlamaV2 creator turboderp specifically for blazing-fast EXL2 roleplay & creative writing.",
+  "tags": [
+    "local",
+    "chat",
+    "open-source",
+    "inference"
+  ],
+  "ranking_rationale": "Direct native integration with ExLlamaV2 speculative decoding & Q4 cache speed (trade-off: works exclusively with local ExLlamaV2 / EXL2 quantized models on NVIDIA GPUs).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free MIT license",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Direct native integration with ExLlamaV2 speculative decoding & Q4 cache speed",
+    "Includes both multi-persona chat mode and raw story-completion notepad",
+    "100% local & zero telemetry"
+  ],
+  "cons": [
+    "Works exclusively with local ExLlamaV2 / EXL2 quantized models on NVIDIA GPUs",
+    "Minimalist developer aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/ai/exui.webp",
+    "alt": "ExUI logo and brand card",
+    "source_url": "https://github.com/turboderp/exui",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/turboderp/exui",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/turboderp/exui",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/turboderp/exui",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/turboderp/exui",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

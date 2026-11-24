@@ -28,7 +28,7 @@
     "Linux",
     "Docker"
   ],
-  "score": 8.8,
+  "score": 8.4,
   "pros": [
     "Brings massive vLLM batching speed together with roleplay-essential DRY/XTC samplers",
     "Drop-in OpenAI & Kobold API endpoints compatible directly with SillyTavern & Agnai",

@@ -1,0 +1,79 @@
+{
+  "slug": "character-tavern",
+  "type": "ai_app",
+  "name": "Character Tavern",
+  "url": "https://character-tavern.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern uncensored AI character-card hub & multi-model roleplay platform supporting lorebooks, group scenes, and custom persona presets.",
+  "tags": [
+    "chat",
+    "character-chat",
+    "roleplay",
+    "freemium"
+  ],
+  "ranking_rationale": "Clean dark card browser with V2 character-card import/export compatibility (trade-off: top 70B+ storytelling models require paid credit/subscription tiers).",
+  "pricing": {
+    "model": "Freemium chat & model tiers",
+    "free_tier": "Free daily messages",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Clean dark card browser with V2 character-card import/export compatibility",
+    "Multiple uncensored RP model tiers tuned for long-context narrative",
+    "Daily free message allowance"
+  ],
+  "cons": [
+    "Top 70B+ storytelling models require paid credit/subscription tiers",
+    "Younger card catalog than Chub.ai or Janitor AI"
+  ],
+  "image": {
+    "src": "/media/entities/ai/character-tavern.webp",
+    "alt": "Character Tavern logo and brand card",
+    "source_url": "https://character-tavern.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://character-tavern.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium chat & model tiers",
+      "source_url": "https://character-tavern.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://character-tavern.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "character-tavern.com",
+      "source_url": "https://character-tavern.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

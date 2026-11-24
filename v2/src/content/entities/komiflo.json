@@ -1,0 +1,78 @@
+{
+  "slug": "komiflo",
+  "type": "site",
+  "name": "Komiflo",
+  "url": "https://komiflo.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japan's premier legal flat-rate adult manga streaming service—partnering directly with Wanimagazine (Kairakuten/X-Eros) & Core Magazine for day-one uncut magazines.",
+  "tags": [
+    "hentai",
+    "manga",
+    "subscription"
+  ],
+  "ranking_rationale": "Official Netflix-style flat monthly pass for Japan's top commercial H-manga magazines on release day (trade-off: Japanese language manga & UI — no English translations—use Fakku for English).",
+  "pricing": {
+    "model": "Monthly H-manga streaming",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Official Netflix-style flat monthly pass for Japan's top commercial H-manga magazines on release day",
+    "Buttery-smooth mobile & desktop vertical/page reader with zero ad malware",
+    "Pays royalties directly to Japanese commercial adult mangaka"
+  ],
+  "cons": [
+    "Japanese language manga & UI (no English translations—use Fakku for English)",
+    "Statutory Japanese mosaic censorship applies"
+  ],
+  "image": {
+    "src": "/media/entities/sites/komiflo.webp",
+    "alt": "Komiflo logo and brand card",
+    "source_url": "https://komiflo.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://komiflo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Monthly H-manga streaming",
+      "source_url": "https://komiflo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://komiflo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "komiflo.com",
+      "source_url": "https://komiflo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

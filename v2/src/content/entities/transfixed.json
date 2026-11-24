@@ -1,0 +1,80 @@
+{
+  "slug": "transfixed",
+  "type": "site",
+  "name": "Transfixed",
+  "url": "https://www.transfixed.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Bree Mills & Adult Time's multiple-AVN-winning luxury trans-lesbian cinema label pairing dramatic scripts, couture styling & A-list stars.",
+  "tags": [
+    "premium",
+    "studio",
+    "trans",
+    "lesbian",
+    "4k"
+  ],
+  "ranking_rationale": "Gold-standard cinematic lighting, emotional storytelling & career-best pairings between cis and trans stars (trade-off: dialogue-rich dramatic intros move deliberately).",
+  "pricing": {
+    "model": "Luxury trans-lesbian studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Gold-standard cinematic lighting, emotional storytelling & career-best pairings between cis and trans stars",
+    "Swept AVN Best Trans Series awards repeatedly",
+    "Seamless 4K streaming inside the Adult Time platform"
+  ],
+  "cons": [
+    "Dialogue-rich dramatic intros move deliberately",
+    "Best value via full Adult Time membership"
+  ],
+  "image": {
+    "src": "/media/entities/sites/transfixed.webp",
+    "alt": "Transfixed logo and brand card",
+    "source_url": "https://www.transfixed.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.transfixed.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Luxury trans-lesbian studio pass",
+      "source_url": "https://www.transfixed.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.transfixed.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "transfixed.com",
+      "source_url": "https://www.transfixed.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

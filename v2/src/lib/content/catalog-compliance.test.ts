@@ -103,6 +103,24 @@ const BANNED_STAR_SLUGS = new Set([
   'nikki-nova',
   'nikita-gross',
   'wash-westmoreland',
+  // Cycle 8 Critique #8 purges (NSFW/wrong-person/signature/multi-person)
+  'victoria-lanz',
+  'ron-athey',
+  'andrew-blake',
+  'billy-dee',
+  'alex-taylor',
+  'nadia-ali',
+  'phil-varone',
+  'sibel-kekilli',
+  'shelley-lubben',
+  'ai-himeno',
+  'diamond-monrow',
+  'aino-kishi',
+  'daniel-weber',
+  'jade-laroche',
+  'eimi-fukada',
+  'miki-sunohara',
+  'nanami-kawakami',
 ]);
 
 const BANNED_NON_STAR_SLUGS = new Set([
@@ -117,10 +135,22 @@ const BANNED_NON_STAR_SLUGS = new Set([
   'smutcam',
   'gaytube',
   'porndoe-premium',
+  // Cycle 8 Critique #8 purges (piracy/slur/teen/duplicates/SFW-only)
+  'jav-guru',
+  'trannyvideosxxx',
+  'ashemaletube',
+  'scarleteen',
+  'dame-eva',
+  'buttplug-intiface-central',
+  'payhip',
+  'pcgamingwiki',
+  'unvale',
+  'dr-pinkcake',
 ]);
 
 const OFFENDER_TEXT_RE = /\b(?:convicted|sex offender|csam|child sexual|pedophil|traffick|homicide|murder)\b/i;
-const BAD_WAVE6_FILE_RE = /(?:_and_|(?<!on_set)_with_|unknown_|pasties|topless|nude|naked|thong|nipple|mugshot|mural)/i;
+const BAD_WAVE6_FILE_RE = /(?:_and_|(?<!on_set)_with_|unknown_|pasties|topless|nude|naked|thong|nipple|mugshot|mural|sign\.|sign_|signature|autograph|署名)/i;
+const SIGNATURE_ANY_WAVE_RE = /(?:_sign\.|sign_|signature|autograph|%e7%bd%b2%e5%90%8d|署名)/i;
 const RISKY_BRAND_PHRASE_RE = /\b(?:teenfidelity|college-age|young-adult)\b/i;
 
 function loadAllEntities(): Array<{ file: string; entity: RawEntity }> {
@@ -234,6 +264,10 @@ test('stars pass CSAM/offender exclusion, adulthood compliance, and unique Commo
         `Duplicate Wikimedia Commons image "${cFile}" shared by ${entity.slug} and ${commonsFiles.get(cFile)}`,
       );
       commonsFiles.set(cFile, entity.slug);
+      assert.ok(
+        !SIGNATURE_ANY_WAVE_RE.test(cFile),
+        `Star ${entity.slug} Commons filename must not be an autograph/signature: ${cFile}`,
+      );
       if (entity.updated >= '2026-11-26') {
         assert.ok(
           !BAD_WAVE6_FILE_RE.test(cFile),
@@ -275,6 +309,7 @@ test('non-stars pass hub hygiene, free_tier integrity, unique new URLs, and copy
     'multi-fun-player',
     'openfunscripter',
     'scriptplayer',
+    'stripchat-vr',
   ]);
   const NON_PLATFORM_SLUGS = new Set([
     'itch-io-adult',
@@ -287,6 +322,7 @@ test('non-stars pass hub hygiene, free_tier integrity, unique new URLs, and copy
     'hubite',
     'suruga-ya',
     'mandarake',
+    'vgen',
   ]);
   const ART_STREAM_SLUGS = new Set(['picarto', 'piczel']);
   const NO_FREE_TIER_SLUGS = new Set([
@@ -314,11 +350,18 @@ test('non-stars pass hub hygiene, free_tier integrity, unique new URLs, and copy
     'coolmic',
     'ridibooks',
     'tappytoon',
+    'manta-comics',
+    'toomics',
+    'dfans-ai',
+    'crushlive',
+    'islive',
+    'komiflo',
   ]);
 
+  const canonicalUrl = (u: string) => u.trim().toLowerCase().replace(/^https?:\/\/(www\.)?/, 'https://').replace(/\/+$/, '');
   const urlToSlugs = new Map<string, string[]>();
   for (const { entity } of rows) {
-    const normUrl = entity.url.trim().toLowerCase().replace(/\/+$/, '');
+    const normUrl = canonicalUrl(entity.url);
     const list = urlToSlugs.get(normUrl) ?? [];
     list.push(entity.slug);
     urlToSlugs.set(normUrl, list);
@@ -388,7 +431,7 @@ test('non-stars pass hub hygiene, free_tier integrity, unique new URLs, and copy
   }
 
   for (const { entity } of rows.filter((r) => r.entity.updated >= '2026-11-26')) {
-    const normUrl = entity.url.trim().toLowerCase().replace(/\/+$/, '');
+    const normUrl = canonicalUrl(entity.url);
     const peers = urlToSlugs.get(normUrl) ?? [];
     assert.equal(peers.length, 1, `Wave 6 entity ${entity.slug} duplicates URL ${normUrl} with ${peers.join(', ')}`);
   }

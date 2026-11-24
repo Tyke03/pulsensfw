@@ -1,0 +1,63 @@
+{
+  "slug": "dora-venter",
+  "type": "star",
+  "name": "Dora Venter",
+  "url": "http://www.wikidata.org/entity/Q242268",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dora Venter — Hungarian pornographic actress (b. 1976). Industry career documented from 1999.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/dora-venter.jpg",
+    "alt": "SFW portrait of Dora Venter",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dora_Venter.JPG",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q242268 (Hungary)",
+      "source_url": "http://www.wikidata.org/entity/Q242268",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1976",
+      "source_url": "http://www.wikidata.org/entity/Q242268",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1999–present",
+      "source_url": "http://www.wikidata.org/entity/Q242268",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

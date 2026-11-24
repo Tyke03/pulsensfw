@@ -1,0 +1,77 @@
+{
+  "slug": "je-joue-mio",
+  "type": "product",
+  "name": "Je Joue Mio",
+  "url": "https://www.jejoue.com/products/mio-vibrating-cock-ring",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "British-engineered stretchy medical-silicone couples ring housing Je Joue's signature ultra-low-frequency bass motor.",
+  "tags": [
+    "couples",
+    "quiet",
+    "waterproof"
+  ],
+  "ranking_rationale": "Delivers genuine low-pitched bassy rumble rare in tiny high-pitched couples rings (trade-off: proprietary clip charger requires careful alignment).",
+  "pricing": {
+    "model": "Hardware purchase (~$85)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Delivers genuine low-pitched bassy rumble rare in tiny high-pitched couples rings",
+    "Super-soft stretchy silicone stays comfortable & body-safe",
+    "5 speeds + 7 patterns & waterproof"
+  ],
+  "cons": [
+    "Proprietary clip charger requires careful alignment",
+    "Runs ~45–60 minutes per charge"
+  ],
+  "image": {
+    "src": "/media/entities/products/je-joue-mio.webp",
+    "alt": "Je Joue Mio logo and brand card",
+    "source_url": "https://www.jejoue.com/products/mio-vibrating-cock-ring",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.jejoue.com/products/mio-vibrating-cock-ring",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$85)",
+      "source_url": "https://www.jejoue.com/products/mio-vibrating-cock-ring",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.jejoue.com/products/mio-vibrating-cock-ring",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "jejoue.com",
+      "source_url": "https://www.jejoue.com/products/mio-vibrating-cock-ring",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

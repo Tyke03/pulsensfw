@@ -1,0 +1,79 @@
+{
+  "slug": "japanhdv",
+  "type": "site",
+  "name": "JapanHDV",
+  "url": "https://japanhdv.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Exclusive English-produced Japanese paysite filming original 4K scenes in Japan across cosplay, massage, and couples sub-labels.",
+  "tags": [
+    "premium",
+    "studio",
+    "jav",
+    "4k"
+  ],
+  "ranking_rationale": "Original English-interface network uniting multiple exclusive Japanese sub-sites on one pass (trade-off: retains statutory Japanese mosaic pixelation).",
+  "pricing": {
+    "model": "Multi-site JAV pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Original English-interface network uniting multiple exclusive Japanese sub-sites on one pass",
+    "Crisp modern 4K video bitrate & clean responsive design",
+    "Consistent weekly updates"
+  ],
+  "cons": [
+    "Retains statutory Japanese mosaic pixelation",
+    "Smaller roster than mega-aggregators like FANZA"
+  ],
+  "image": {
+    "src": "/media/entities/sites/japanhdv.webp",
+    "alt": "JapanHDV logo and brand card",
+    "source_url": "https://japanhdv.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://japanhdv.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Multi-site JAV pass",
+      "source_url": "https://japanhdv.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://japanhdv.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "japanhdv.com",
+      "source_url": "https://japanhdv.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

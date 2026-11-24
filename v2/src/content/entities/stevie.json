@@ -1,0 +1,63 @@
+{
+  "slug": "stevie",
+  "type": "star",
+  "name": "Stevie",
+  "url": "http://www.wikidata.org/entity/Q54557310",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Stevie — American pornographic actress (b. 1973).",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/stevie.jpg",
+    "alt": "SFW portrait of Stevie",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stevie_at_Penthouse_Talent_Call_1.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q54557310 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q54557310",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1973",
+      "source_url": "http://www.wikidata.org/entity/Q54557310",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q54557310",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

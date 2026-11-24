@@ -1,0 +1,79 @@
+{
+  "slug": "kinkmen",
+  "type": "site",
+  "name": "KinkMen",
+  "url": "https://www.kinkmen.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Kink.com's dedicated gay BDSM, leather, wrestling & bondage banner—filmed with explicit pre- and post-scene consent interviews.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "bdsm"
+  ],
+  "ranking_rationale": "Transparent on-camera pre/post-shoot performer consent check-ins set the industry standard, (trade-off: heavy BDSM intensity requires comfort with dungeon play).",
+  "pricing": {
+    "model": "Gay BDSM studio pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Transparent on-camera pre/post-shoot performer consent check-ins set the industry standard",
+    "Unites Bound Gods, Naked Kombat & Men on Edge in crisp 4K",
+    "Authentic experienced kink practitioners"
+  ],
+  "cons": [
+    "Heavy BDSM & intensity require comfort with dungeon play",
+    "Best value inside Kink+ pass"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kinkmen.webp",
+    "alt": "KinkMen logo and brand card",
+    "source_url": "https://www.kinkmen.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.kinkmen.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Gay BDSM studio pass",
+      "source_url": "https://www.kinkmen.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.kinkmen.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kinkmen.com",
+      "source_url": "https://www.kinkmen.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "hyperbolic-ai",
+  "type": "ai_app",
+  "name": "Hyperbolic",
+  "url": "https://hyperbolic.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast OpenAI-compatible inference API & bare-metal H100 marketplace serving unmoderated open-weight Llama, DeepSeek & Qwen endpoints.",
+  "tags": [
+    "api",
+    "chat",
+    "models",
+    "cloud"
+  ],
+  "ranking_rationale": "Low-latency OpenAI-compatible API drops directly into SillyTavern & RisuAI, weighed against smaller specialized RP fine-tune list than Featherless.",
+  "pricing": {
+    "model": "Pay-per-token API & GPUs",
+    "free_tier": "Free starter trial credits",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Low-latency OpenAI-compatible API drops directly into SillyTavern & RisuAI",
+    "Serves raw open-weight instruct & base models without heavy extra refusal wrappers",
+    "Transparent per-token & GPU rental pricing"
+  ],
+  "cons": [
+    "Smaller specialized RP fine-tune list than Featherless",
+    "Model catalog rotates toward newest frontier open weights"
+  ],
+  "image": {
+    "src": "/media/entities/ai/hyperbolic-ai.webp",
+    "alt": "Hyperbolic logo and brand card",
+    "source_url": "https://hyperbolic.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://hyperbolic.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-per-token API & GPUs",
+      "source_url": "https://hyperbolic.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://hyperbolic.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hyperbolic.ai",
+      "source_url": "https://hyperbolic.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

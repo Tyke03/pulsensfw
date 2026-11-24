@@ -1,0 +1,63 @@
+{
+  "slug": "alicia-alighatti",
+  "type": "star",
+  "name": "Alicia Alighatti",
+  "url": "http://www.wikidata.org/entity/Q2412922",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Alicia Alighatti — Pornographic performer (b. 1984). Industry career documented from 2004.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/alicia-alighatti.jpg",
+    "alt": "SFW portrait of Alicia Alighatti",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aliciaalighatti-avn2006.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q2412922 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q2412922",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q2412922",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2004–2013",
+      "source_url": "http://www.wikidata.org/entity/Q2412922",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

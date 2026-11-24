@@ -1,0 +1,64 @@
+{
+  "slug": "tyce-bune",
+  "type": "star",
+  "name": "Tyce Bune",
+  "url": "http://www.wikidata.org/entity/Q7859717",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Tyce Bune — American pornographic actor and director (b. 1958).",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/tyce-bune.jpg",
+    "alt": "SFW portrait of Tyce Bune",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tyce_Bune.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q7859717 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q7859717",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1958",
+      "source_url": "http://www.wikidata.org/entity/Q7859717",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q7859717",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

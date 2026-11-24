@@ -1,0 +1,78 @@
+{
+  "slug": "crave-vesper",
+  "type": "product",
+  "name": "CRAVE Vesper",
+  "url": "https://lovecrave.com/products/vesper",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "San Francisco jewelry-house icon—a sleek stainless-steel (or 24K gold-plated) pendant necklace that unscrews into a whisper-quiet precision bullet vibrator.",
+  "tags": [
+    "vibrator",
+    "luxury",
+    "quiet",
+    "travel"
+  ],
+  "ranking_rationale": "Genuinely passes 100% as minimalist fine jewelry in public or airport carry-ons, weighed against high-pitched pinpoint bullet buzz rather than deep broad wand rumble.",
+  "pricing": {
+    "model": "Hardware purchase (~$79–$169)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Genuinely passes 100% as minimalist fine jewelry in public or airport carry-ons",
+    "Precision-machined body-safe 316L stainless steel conducts crisp pinpoint vibration",
+    "USB rechargeable & splashproof"
+  ],
+  "cons": [
+    "High-pitched pinpoint bullet buzz rather than deep broad wand rumble",
+    "~40-minute compact battery life"
+  ],
+  "image": {
+    "src": "/media/entities/products/crave-vesper.webp",
+    "alt": "CRAVE Vesper logo and brand card",
+    "source_url": "https://lovecrave.com/products/vesper",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://lovecrave.com/products/vesper",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$79–$169)",
+      "source_url": "https://lovecrave.com/products/vesper",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://lovecrave.com/products/vesper",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lovecrave.com",
+      "source_url": "https://lovecrave.com/products/vesper",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "smitten-kitten",
+  "type": "site",
+  "name": "The Smitten Kitten",
+  "url": "https://www.smittenkittenonline.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Minneapolis trans- & queer-friendly educator boutique famous for coining modern 'body-safe' toy material standards in retail.",
+  "tags": [
+    "niche",
+    "education",
+    "queer",
+    "store"
+  ],
+  "ranking_rationale": "Zero jelly/phthalate compromises—100% body-safe silicone, glass, wood & steel inventory (trade-off: curated inventory excludes cheap novelty brands intentionally).",
+  "pricing": {
+    "model": "Body-safe educator boutique",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Zero jelly/phthalate compromises—100% body-safe silicone, glass, wood & steel inventory",
+    "Gold-standard educational resources on gender-affirming gear, harnesses & lube chemistry",
+    "Independent educator-staffed curation"
+  ],
+  "cons": [
+    "Curated inventory excludes cheap novelty brands intentionally",
+    "Boutique pricing & shipping"
+  ],
+  "image": {
+    "src": "/media/entities/sites/smitten-kitten.webp",
+    "alt": "The Smitten Kitten logo and brand card",
+    "source_url": "https://www.smittenkittenonline.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.smittenkittenonline.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Body-safe educator boutique",
+      "source_url": "https://www.smittenkittenonline.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.smittenkittenonline.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "smittenkittenonline.com",
+      "source_url": "https://www.smittenkittenonline.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

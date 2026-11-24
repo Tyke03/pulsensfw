@@ -1,0 +1,80 @@
+{
+  "slug": "stripchat-vr",
+  "type": "site",
+  "name": "Stripchat VR",
+  "url": "https://vr.stripchat.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Stripchat's dedicated stereoscopic 180-degree live VR webcam portal streaming interactive real-time rooms straight into Quest & PCVR headsets.",
+  "tags": [
+    "cams",
+    "live",
+    "interactive",
+    "headsets"
+  ],
+  "ranking_rationale": "True stereoscopic 180-degree live cam rooms watchable directly inside Meta Quest browser or DeoVR, weighed against smaller concurrent VR-rig broadcaster count than standard 2D cams.",
+  "pricing": {
+    "model": "Tokens & VR private shows",
+    "free_tier": "Free public VR streams",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "True stereoscopic 180-degree live cam rooms watchable directly inside Meta Quest browser or DeoVR",
+    "Interactive Lovense tip-vibe sync works live inside VR",
+    "Free public VR room previews"
+  ],
+  "cons": [
+    "Smaller concurrent VR-rig broadcaster count than standard 2D cams",
+    "High bandwidth needed for smooth 4K+ live VR"
+  ],
+  "image": {
+    "src": "/media/entities/sites/stripchat-vr.webp",
+    "alt": "Stripchat VR logo and brand card",
+    "source_url": "https://vr.stripchat.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://vr.stripchat.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & VR private shows",
+      "source_url": "https://vr.stripchat.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://vr.stripchat.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vr.stripchat.com",
+      "source_url": "https://vr.stripchat.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

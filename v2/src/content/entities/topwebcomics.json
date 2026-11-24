@@ -1,0 +1,79 @@
+{
+  "slug": "topwebcomics",
+  "type": "site",
+  "name": "TopWebComics",
+  "url": "https://www.topwebcomics.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-running community-voted webcomic ranking chart where readers discover active independent Western NSFW, romance, queer & fantasy webcomics.",
+  "tags": [
+    "comics",
+    "western",
+    "directory",
+    "free"
+  ],
+  "ranking_rationale": "Live reader-voted charts surface active updating indie NSFW webcomics rather than dead 2012 links (trade-off: ranking chart links outward to each artist's own comic site).",
+  "pricing": {
+    "model": "100% free webcomic chart",
+    "free_tier": "Completely free discovery",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Live reader-voted charts surface active updating indie NSFW webcomics rather than dead 2012 links",
+    "Clean 18+ Adult filter toggle & genre tags",
+    "100% free indie comic discovery"
+  ],
+  "cons": [
+    "Ranking chart links outward to each artist's own comic site",
+    "Vote-incentive art skews top rankings toward huge fandoms"
+  ],
+  "image": {
+    "src": "/media/entities/sites/topwebcomics.webp",
+    "alt": "TopWebComics logo and brand card",
+    "source_url": "https://www.topwebcomics.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.topwebcomics.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free webcomic chart",
+      "source_url": "https://www.topwebcomics.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.topwebcomics.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "topwebcomics.com",
+      "source_url": "https://www.topwebcomics.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

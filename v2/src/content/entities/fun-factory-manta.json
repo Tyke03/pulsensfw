@@ -1,0 +1,78 @@
+{
+  "slug": "fun-factory-manta",
+  "type": "product",
+  "name": "FUN FACTORY MANTA",
+  "url": "https://us.funfactory.com/products/manta",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "German-engineered open-winged vibrating male stroker & couples bridge delivering deep bass rumble solo or sandwiched between partners.",
+  "tags": [
+    "stroker",
+    "couples",
+    "waterproof",
+    "luxury"
+  ],
+  "ranking_rationale": "Signature German low-frequency bass motor transmits deep rumble rather than surface tickle (trade-off: requires generous water-based lube to glide smoothly).",
+  "pricing": {
+    "model": "Hardware purchase (~$149)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Signature German low-frequency bass motor transmits deep rumble rather than surface tickle",
+    "Open flexible silicone wings accommodate any girth & rinse clean in seconds",
+    "Doubles brilliantly as a vibrations-adding bridge during partnered sex"
+  ],
+  "cons": [
+    "Requires generous water-based lube to glide smoothly",
+    "Takes two hands or firmer grip vs enclosed sleeves"
+  ],
+  "image": {
+    "src": "/media/entities/products/fun-factory-manta.webp",
+    "alt": "FUN FACTORY MANTA logo and brand card",
+    "source_url": "https://us.funfactory.com/products/manta",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://us.funfactory.com/products/manta",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$149)",
+      "source_url": "https://us.funfactory.com/products/manta",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://us.funfactory.com/products/manta",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "us.funfactory.com",
+      "source_url": "https://us.funfactory.com/products/manta",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

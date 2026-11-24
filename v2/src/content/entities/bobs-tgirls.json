@@ -1,0 +1,79 @@
+{
+  "slug": "bobs-tgirls",
+  "type": "site",
+  "name": "Bob's TGirls",
+  "url": "https://www.bobstgirls.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Veteran independent UK/global trans glamour photography & solo/duo studio operating continuously with respectful model relationships since 1998.",
+  "tags": [
+    "premium",
+    "studio",
+    "trans",
+    "glamour"
+  ],
+  "ranking_rationale": "Over 25 years of respectful, non-exploitative glamour photography & HD/4K shoots, weighed against heavy emphasis on solo glamour sets alongside duo scenes.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Over 25 years of respectful, non-exploitative glamour photography & HD/4K shoots",
+    "Exclusive international trans model debuts & interviews",
+    "DRM-free downloads"
+  ],
+  "cons": [
+    "Heavy emphasis on solo glamour sets alongside duo scenes",
+    "Classic retro web layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bobs-tgirls.webp",
+    "alt": "Bob's TGirls logo and brand card",
+    "source_url": "https://www.bobstgirls.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.bobstgirls.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.bobstgirls.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bobstgirls.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bobstgirls.com",
+      "source_url": "https://www.bobstgirls.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

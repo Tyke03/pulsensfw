@@ -1,0 +1,78 @@
+{
+  "slug": "porngo",
+  "type": "site",
+  "name": "PornGO",
+  "url": "https://www.porngo.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern ad-light HD/4K free tube spotlighting official studio promo cuts, star profiles, and fast mobile playback.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Clean modern dark grid with crisp 1080p/4K playback, weighed against heavy ratio of 8–12 minute studio teasers.",
+  "pricing": {
+    "model": "Free HD studio tube",
+    "free_tier": "Free HD streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Clean modern dark grid with crisp 1080p/4K playback",
+    "Low popup clutter compared with generic tubes",
+    "Clear studio channel links"
+  ],
+  "cons": [
+    "Heavy ratio of 8–12 minute studio teasers",
+    "Upsell links to full paysites"
+  ],
+  "image": {
+    "src": "/media/entities/sites/porngo.webp",
+    "alt": "PornGO logo and brand card",
+    "source_url": "https://www.porngo.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.porngo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free HD studio tube",
+      "source_url": "https://www.porngo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.porngo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "porngo.com",
+      "source_url": "https://www.porngo.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

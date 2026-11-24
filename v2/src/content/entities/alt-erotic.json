@@ -1,0 +1,79 @@
+{
+  "slug": "alt-erotic",
+  "type": "site",
+  "name": "Alt Erotic",
+  "url": "https://alterotic.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Award-winning independent alt-porn studio spotlighting heavily tattooed, punk, goth, and pierced performers in vivid 4K shoots.",
+  "tags": [
+    "premium",
+    "studio",
+    "alt",
+    "tattoo"
+  ],
+  "ranking_rationale": "Multiple XBIZ/AVN Alt Site winner celebrating authentic ink and subculture aesthetics (trade-off: specialized punk/tattoo visual style).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Multiple XBIZ/AVN Alt Site winner celebrating authentic ink and subculture aesthetics",
+    "Sharp colorful 4K neon studio cinematography",
+    "Active modern alt star roster"
+  ],
+  "cons": [
+    "Specialized punk/tattoo visual style",
+    "Smaller archive than BurningAngel's historic vault"
+  ],
+  "image": {
+    "src": "/media/entities/sites/alt-erotic.webp",
+    "alt": "Alt Erotic logo and brand card",
+    "source_url": "https://alterotic.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://alterotic.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://alterotic.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://alterotic.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "alterotic.com",
+      "source_url": "https://alterotic.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

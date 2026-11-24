@@ -28,7 +28,7 @@
     "Windows",
     "Linux"
   ],
-  "score": 8.9,
+  "score": 8.5,
   "pros": [
     "Industry-leading 4-bit EXL2 perplexity vs speed ratio on RTX 3090/4090 GPUs",
     "Enables ultra-fast long-context 70B writing without massive cloud bills",

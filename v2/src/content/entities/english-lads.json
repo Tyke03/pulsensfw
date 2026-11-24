@@ -1,0 +1,80 @@
+{
+  "slug": "english-lads",
+  "type": "site",
+  "name": "English Lads",
+  "url": "https://www.englishlads.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-running independent UK all-male studio spotlighting athletic British fitness models, footballers, and everyday lads in solo & duo shoots.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "amateur",
+    "european"
+  ],
+  "ranking_rationale": "Genuine regional UK cast & relaxed candid interviews, weighed against high proportion of solo fitness shoots alongside duo action.",
+  "pricing": {
+    "model": "UK studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Genuine regional UK cast & relaxed candid interviews",
+    "Large 15+ year archive of solo showcases and duo pairings",
+    "Straightforward HD downloads"
+  ],
+  "cons": [
+    "High proportion of solo fitness shoots alongside duo action",
+    "Classic dated portal chrome"
+  ],
+  "image": {
+    "src": "/media/entities/sites/english-lads.webp",
+    "alt": "English Lads logo and brand card",
+    "source_url": "https://www.englishlads.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.englishlads.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "UK studio subscription",
+      "source_url": "https://www.englishlads.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.englishlads.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "englishlads.com",
+      "source_url": "https://www.englishlads.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

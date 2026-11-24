@@ -1,0 +1,63 @@
+{
+  "slug": "kris-slater",
+  "type": "star",
+  "name": "Kris Slater",
+  "url": "http://www.wikidata.org/entity/Q740317",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Kris Slater — American pornographic actor (b. 1981). Industry career documented from 2002.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/kris-slater.jpg",
+    "alt": "SFW portrait of Kris Slater",
+    "source_url": "https://commons.wikimedia.org/wiki/File:KrisSlater-PornstarKaraoke2007.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q740317 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q740317",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1981",
+      "source_url": "http://www.wikidata.org/entity/Q740317",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2002–2021",
+      "source_url": "http://www.wikidata.org/entity/Q740317",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

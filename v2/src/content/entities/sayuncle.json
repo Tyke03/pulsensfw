@@ -1,0 +1,79 @@
+{
+  "slug": "sayuncle",
+  "type": "site",
+  "name": "SayUncle",
+  "url": "https://www.sayuncle.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Sprawling modern 4K gay roleplay network uniting Latin Leche, Missionary Boys, Dad Creep & 25+ themed sub-sites under one pass.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "story"
+  ],
+  "ranking_rationale": "Massive daily 4K output across 25+ distinct gay niche & roleplay channels (trade-off: campy taboo roleplay scripts dominate most channels).",
+  "pricing": {
+    "model": "All-male mega-network pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Massive daily 4K output across 25+ distinct gay niche & roleplay channels",
+    "Clean Netflix-style multi-channel streaming UI",
+    "Strong Latin & North American cast diversity"
+  ],
+  "cons": [
+    "Campy taboo roleplay scripts dominate most channels",
+    "Quality varies between flagship & minor sub-sites"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sayuncle.webp",
+    "alt": "SayUncle logo and brand card",
+    "source_url": "https://www.sayuncle.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.sayuncle.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "All-male mega-network pass",
+      "source_url": "https://www.sayuncle.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sayuncle.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sayuncle.com",
+      "source_url": "https://www.sayuncle.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

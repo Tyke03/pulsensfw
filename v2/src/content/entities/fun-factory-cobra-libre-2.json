@@ -1,0 +1,78 @@
+{
+  "slug": "fun-factory-cobra-libre-2",
+  "type": "product",
+  "name": "FUN FACTORY COBRA LIBRE II",
+  "url": "https://us.funfactory.com/products/cobra-libre-ii",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ergonomic German-crafted glans/head-cupping male vibrator packing twin rumbly motors inside a sleek matte shell for hands-light stimulation.",
+  "tags": [
+    "stroker",
+    "quiet",
+    "waterproof",
+    "luxury"
+  ],
+  "ranking_rationale": "Cups the most sensitive nerve endings directly with deep dual-motor German bass rumble (trade-off: covers the head/frenulum zone rather than full-shaft stroking).",
+  "pricing": {
+    "model": "Hardware purchase (~$139)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Cups the most sensitive nerve endings directly with deep dual-motor German bass rumble",
+    "Rinses clean in seconds compared with full-length closed sleeves",
+    "Waterproof & travel-lock equipped"
+  ],
+  "cons": [
+    "Covers the head/frenulum zone rather than full-shaft stroking",
+    "Requires generous water-based lubricant"
+  ],
+  "image": {
+    "src": "/media/entities/products/fun-factory-cobra-libre-2.webp",
+    "alt": "FUN FACTORY COBRA LIBRE II logo and brand card",
+    "source_url": "https://us.funfactory.com/products/cobra-libre-ii",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://us.funfactory.com/products/cobra-libre-ii",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$139)",
+      "source_url": "https://us.funfactory.com/products/cobra-libre-ii",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://us.funfactory.com/products/cobra-libre-ii",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "us.funfactory.com",
+      "source_url": "https://us.funfactory.com/products/cobra-libre-ii",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

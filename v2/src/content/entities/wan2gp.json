@@ -1,0 +1,79 @@
+{
+  "slug": "wan2gp",
+  "type": "ai_app",
+  "name": "Wan2GP",
+  "url": "https://github.com/deepbeepmeep/Wan2GP",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Memory-optimized local video generation WebUI running Wan 2.1, HunyuanVideo & LTX text/image-to-video smoothly on 8GB–16GB consumer GPUs.",
+  "tags": [
+    "local",
+    "image",
+    "video",
+    "open-source"
+  ],
+  "ranking_rationale": "Brings open-weight Wan 2.1 image-to-video down to everyday 10GB–12GB RTX cards via smart offloading (trade-off: local video rendering still takes minutes per 5-second clip on mid-range GPUs).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Brings open-weight Wan 2.1 image-to-video down to everyday 10GB–12GB RTX cards via smart offloading",
+    "100% local & uncensored—zero cloud video moderation rejections",
+    "Built-in LoRA manager & queue"
+  ],
+  "cons": [
+    "Local video rendering still takes minutes per 5-second clip on mid-range GPUs",
+    "Rapidly evolving repo updates"
+  ],
+  "image": {
+    "src": "/media/entities/ai/wan2gp.webp",
+    "alt": "Wan2GP logo and brand card",
+    "source_url": "https://github.com/deepbeepmeep/Wan2GP",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/deepbeepmeep/Wan2GP",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/deepbeepmeep/Wan2GP",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/deepbeepmeep/Wan2GP",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/deepbeepmeep/Wan2GP",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

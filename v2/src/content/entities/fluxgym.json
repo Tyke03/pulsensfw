@@ -8,7 +8,7 @@
   "monetization_methods": [
     "none"
   ],
-  "summary": "Dead-simple local web UI squeezing clean Flux.1 Dev LoRA training comfortably into 12GB consumer GPUs via Kohya scripts.",
+  "summary": "Dead-simple local web UI squeezing clean FLUX.1 Dev LoRA training comfortably into 12GB consumer GPUs via Kohya scripts.",
   "tags": [
     "local",
     "image",

@@ -1,0 +1,78 @@
+{
+  "slug": "adult-fanfiction",
+  "type": "site",
+  "name": "Adult-FanFiction.org",
+  "url": "https://www.adult-fanfiction.org",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Veteran uncensored fanfiction archive founded in 2001 after FanFiction.net's NC-17 purge—preserving hundreds of thousands of explicit stories across anime, games & books.",
+  "tags": [
+    "erotica",
+    "stories",
+    "free"
+  ],
+  "ranking_rationale": "Over 20 years of zero-purge preservation for explicit NC-17 fandom stories, weighed against early-2000s static PHP layout & smaller active growth since AO3 rose.",
+  "pricing": {
+    "model": "100% free story archive",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Over 20 years of zero-purge preservation for explicit NC-17 fandom stories",
+    "Organized cleanly into dedicated Anime, Games, Books, Celeb & Original subdomains",
+    "100% free reading"
+  ],
+  "cons": [
+    "Early-2000s static PHP layout & smaller active growth since AO3 rose",
+    "Zero EPUB one-click export"
+  ],
+  "image": {
+    "src": "/media/entities/sites/adult-fanfiction.webp",
+    "alt": "Adult-FanFiction.org logo and brand card",
+    "source_url": "https://www.adult-fanfiction.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.adult-fanfiction.org",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free story archive",
+      "source_url": "https://www.adult-fanfiction.org",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.adult-fanfiction.org",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "adult-fanfiction.org",
+      "source_url": "https://www.adult-fanfiction.org",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

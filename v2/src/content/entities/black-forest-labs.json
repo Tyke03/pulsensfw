@@ -1,0 +1,81 @@
+{
+  "slug": "black-forest-labs",
+  "type": "ai_app",
+  "name": "Black Forest Labs (FLUX)",
+  "url": "https://bfl.ai",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Foundational visual AI research lab founded by the original Stable Diffusion authors—creators of the benchmark FLUX.1 Dev/Schnell open-weight ecosystem.",
+  "tags": [
+    "image",
+    "models",
+    "api",
+    "open-source"
+  ],
+  "ranking_rationale": "FLUX.1 Dev & Schnell revolutionized prompt adherence, hands/anatomy & local LoRA fine-tuning (trade-off: official hosted API enforces moderation filters — run FLUX.1 Dev locally for uncensored LoRAs).",
+  "pricing": {
+    "model": "Open weights + paid API",
+    "free_tier": "Free open-weight Schnell (Apache-2.0) & Dev",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API",
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.5,
+  "pros": [
+    "FLUX.1 Dev & Schnell revolutionized prompt adherence, hands/anatomy & local LoRA fine-tuning",
+    "Provides both open-weight local checkpoints AND fast official API endpoints",
+    "Backbone of modern ComfyUI & Forge visual workflows"
+  ],
+  "cons": [
+    "Official hosted API enforces moderation filters (run FLUX.1 Dev locally for uncensored LoRAs)",
+    "FLUX.1 Dev carries a non-commercial license unless licensed"
+  ],
+  "image": {
+    "src": "/media/entities/ai/black-forest-labs.webp",
+    "alt": "Black Forest Labs (FLUX) logo and brand card",
+    "source_url": "https://bfl.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://bfl.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Open weights + paid API",
+      "source_url": "https://bfl.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API, Windows, Linux",
+      "source_url": "https://bfl.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bfl.ai",
+      "source_url": "https://bfl.ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

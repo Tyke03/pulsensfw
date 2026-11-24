@@ -1,0 +1,79 @@
+{
+  "slug": "pervcity",
+  "type": "site",
+  "name": "PervCity",
+  "url": "https://pervcity.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Multiple-AVN-winning Los Angeles gonzo showcase studio directed by Maestro Claudio—prized for crisp 4K clarity and enthusiastic A-list talent.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo",
+    "4k"
+  ],
+  "ranking_rationale": "Sharp bright 4K multi-angle cinematography & consistent AVN gonzo awards (trade-off: pure hardcore gonzo with zero narrative plots).",
+  "pricing": {
+    "model": "Gonzo studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Sharp bright 4K multi-angle cinematography & consistent AVN gonzo awards",
+    "Casts top contemporary US performers in high-energy showcases",
+    "Fast clean streaming & full downloads"
+  ],
+  "cons": [
+    "Pure hardcore gonzo with zero narrative plots",
+    "Intense themes aren't aimed at soft-romance viewers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pervcity.webp",
+    "alt": "PervCity logo and brand card",
+    "source_url": "https://pervcity.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://pervcity.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Gonzo studio subscription",
+      "source_url": "https://pervcity.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://pervcity.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pervcity.com",
+      "source_url": "https://pervcity.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "rundiffusion",
+  "type": "ai_app",
+  "name": "RunDiffusion",
+  "url": "https://rundiffusion.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Turnkey cloud AI studio launching private pre-loaded ComfyUI, Fooocus, Automatic1111 & Oobabooga GPU sessions in 90 seconds.",
+  "tags": [
+    "cloud",
+    "gpu",
+    "image",
+    "privacy"
+  ],
+  "ranking_rationale": "Pre-loaded with popular checkpoints, ControlNets & extensions so you don't wait 20 minutes downloading weights (trade-off: costs more per hour than bare-metal Vast.AI DIY Docker).",
+  "pricing": {
+    "model": "Hourly GPU sessions",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Pre-loaded with popular checkpoints, ControlNets & extensions so you don't wait 20 minutes downloading weights",
+    "Private isolated GPU instances with zero generation censorship",
+    "Pay-by-the-hour flexibility"
+  ],
+  "cons": [
+    "Costs more per hour than bare-metal Vast.ai DIY Docker",
+    "Session timer management needed"
+  ],
+  "image": {
+    "src": "/media/entities/ai/rundiffusion.webp",
+    "alt": "RunDiffusion logo and brand card",
+    "source_url": "https://rundiffusion.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://rundiffusion.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hourly GPU sessions",
+      "source_url": "https://rundiffusion.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://rundiffusion.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "rundiffusion.com",
+      "source_url": "https://rundiffusion.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

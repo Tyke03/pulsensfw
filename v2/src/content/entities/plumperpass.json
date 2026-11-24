@@ -1,0 +1,78 @@
+{
+  "slug": "plumperpass",
+  "type": "site",
+  "name": "PlumperPass",
+  "url": "https://www.plumperpass.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Flagship BBW & plus-size multi-site adult studio network uniting dozens of curvy solo, amateur, and couples channels under one pass.",
+  "tags": [
+    "premium",
+    "studio",
+    "niche"
+  ],
+  "ranking_rationale": "Largest dedicated body-positive BBW studio network with frequent updates (trade-off: quality varies across older partner sub-sites).",
+  "pricing": {
+    "model": "Multi-site BBW pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Largest dedicated body-positive BBW studio network with frequent updates",
+    "Single login unlocks multiple partner curvy sites",
+    "Full HD downloads"
+  ],
+  "cons": [
+    "Quality varies across older partner sub-sites",
+    "Busy classic network landing page"
+  ],
+  "image": {
+    "src": "/media/entities/sites/plumperpass.webp",
+    "alt": "PlumperPass logo and brand card",
+    "source_url": "https://www.plumperpass.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.plumperpass.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Multi-site BBW pass",
+      "source_url": "https://www.plumperpass.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.plumperpass.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "plumperpass.com",
+      "source_url": "https://www.plumperpass.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

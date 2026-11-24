@@ -1,0 +1,78 @@
+{
+  "slug": "crushlive",
+  "type": "site",
+  "name": "CamCrush",
+  "url": "https://www.camcrush.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Browser-based 1-on-1 adult cam chat & live broadcaster hub pairing instant video matching with private tipping.",
+  "tags": [
+    "cams",
+    "live",
+    "roulette"
+  ],
+  "ranking_rationale": "Instant browser WebRTC video with zero app download, weighed against paid minutes required for extended 1-on-1 filtering.",
+  "pricing": {
+    "model": "Freemium credits",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Instant browser WebRTC video with zero app download",
+    "Supports instant translation in text chat",
+    "Mobile friendly"
+  ],
+  "cons": [
+    "Paid minutes required for extended 1-on-1 filtering",
+    "Variable off-peak host count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/crushlive.webp",
+    "alt": "CamCrush logo and brand card",
+    "source_url": "https://www.camcrush.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.camcrush.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium credits",
+      "source_url": "https://www.camcrush.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.camcrush.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "camcrush.com",
+      "source_url": "https://www.camcrush.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "jeanna-fine",
+  "type": "star",
+  "name": "Jeanna Fine",
+  "url": "https://en.wikipedia.org/wiki/Jeanna_Fine",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jeanna Fine — American pornographic actress (b. 1964). Industry career documented from 1985.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/jeanna-fine.jpg",
+    "alt": "SFW portrait of Jeanna Fine",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2_Jeanna_Fine_(crop).jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q260752 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q260752",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1964",
+      "source_url": "http://www.wikidata.org/entity/Q260752",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1985–2025",
+      "source_url": "https://en.wikipedia.org/wiki/Jeanna_Fine",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

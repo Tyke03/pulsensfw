@@ -1,0 +1,79 @@
+{
+  "slug": "zerochan",
+  "type": "site",
+  "name": "Zerochan",
+  "url": "https://www.zerochan.net",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Curated high-resolution anime, game & visual-novel illustration gallery prioritizing clean official art, CGs, and wallpaper quality.",
+  "tags": [
+    "comics",
+    "art",
+    "anime",
+    "community"
+  ],
+  "ranking_rationale": "Strict resolution & quality curation keeps blurry low-res reposts out (trade-off: focuses on aesthetic/ecchi & official CGs rather than explicit hardcore R-18).",
+  "pricing": {
+    "model": "Free curated anime gallery",
+    "free_tier": "Free browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Strict resolution & quality curation keeps blurry low-res reposts out",
+    "Clean character & series hierarchy across thousands of anime/VN franchises",
+    "Fast clean browsing"
+  ],
+  "cons": [
+    "Focuses on aesthetic/ecchi & official CGs rather than explicit hardcore R-18",
+    "Requires login for deeper pagination"
+  ],
+  "image": {
+    "src": "/media/entities/sites/zerochan.webp",
+    "alt": "Zerochan logo and brand card",
+    "source_url": "https://www.zerochan.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.zerochan.net",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free curated anime gallery",
+      "source_url": "https://www.zerochan.net",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.zerochan.net",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "zerochan.net",
+      "source_url": "https://www.zerochan.net",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

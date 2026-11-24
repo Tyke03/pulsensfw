@@ -1,0 +1,63 @@
+{
+  "slug": "roberto-malone",
+  "type": "star",
+  "name": "Roberto Malone",
+  "url": "https://en.wikipedia.org/wiki/Roberto_Malone",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Roberto Malone — Italian pornographic film actor (b. 1956). Industry career documented from 1986.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/roberto-malone.jpg",
+    "alt": "SFW portrait of Roberto Malone",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Roberto_Malone_Sextet.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q1291882 (Italy)",
+      "source_url": "http://www.wikidata.org/entity/Q1291882",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1956",
+      "source_url": "http://www.wikidata.org/entity/Q1291882",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1986–present",
+      "source_url": "https://en.wikipedia.org/wiki/Roberto_Malone",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

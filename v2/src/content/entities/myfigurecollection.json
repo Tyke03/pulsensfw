@@ -1,0 +1,78 @@
+{
+  "slug": "myfigurecollection",
+  "type": "site",
+  "name": "MyFigureCollection (MFC)",
+  "url": "https://myfigurecollection.net",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The global collector encyclopedia & aftermarket community indexing every official Japanese anime figure, BINDing/Native R-18 cast-off statue, and artbook.",
+  "tags": [
+    "database",
+    "directory",
+    "anime"
+  ],
+  "ranking_rationale": "Indispensable bootleg-warning photos & release calendars for official R-18 collector statues, (trade-off: strict Japanese-origin licensing rules exclude some non-Japanese resin studios).",
+  "pricing": {
+    "model": "100% free collector database",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Indispensable bootleg-warning photos & release calendars for official R-18 collector statues",
+    "Granular SFW / NSFW+ / 18+ visibility toggles after login",
+    "Active peer-to-peer collector classifieds"
+  ],
+  "cons": [
+    "Strict Japanese-origin licensing rules exclude some non-Japanese resin studios",
+    "Requires account settings toggle to reveal R-18 figures"
+  ],
+  "image": {
+    "src": "/media/entities/sites/myfigurecollection.webp",
+    "alt": "MyFigureCollection (MFC) logo and brand card",
+    "source_url": "https://myfigurecollection.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://myfigurecollection.net",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free collector database",
+      "source_url": "https://myfigurecollection.net",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://myfigurecollection.net",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "myfigurecollection.net",
+      "source_url": "https://myfigurecollection.net",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "ai-toolkit-ostris",
+  "type": "ai_app",
+  "name": "AI Toolkit (Ostris)",
+  "url": "https://github.com/ostris/ai-toolkit",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Go-to modern FLUX.1 & Wan video LoRA training suite prized for rock-solid 24GB consumer-GPU recipes and built-in WebUI.",
+  "tags": [
+    "local",
+    "image",
+    "open-source"
+  ],
+  "ranking_rationale": "Industry favorite for clean high-adherence FLUX.1 Dev & Wan 2.1 LoRA training on a single RTX 3090/4090 (trade-off: requires 16GB–24GB VRAM — or RunPod container for comfortable Flux/video runs).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free MIT license",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "Windows",
+    "Docker"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Industry favorite for clean high-adherence FLUX.1 Dev & Wan 2.1 LoRA training on a single RTX 3090/4090",
+    "Includes clean local web dashboard for monitoring sample steps live",
+    "100% free MIT open-source"
+  ],
+  "cons": [
+    "Requires 16GB–24GB VRAM (or RunPod container) for comfortable Flux/video runs",
+    "Focused strictly on training rather than end-user generation"
+  ],
+  "image": {
+    "src": "/media/entities/ai/ai-toolkit-ostris.webp",
+    "alt": "AI Toolkit (Ostris) logo and brand card",
+    "source_url": "https://github.com/ostris/ai-toolkit",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/ostris/ai-toolkit",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/ostris/ai-toolkit",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, Windows, Docker",
+      "source_url": "https://github.com/ostris/ai-toolkit",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/ostris/ai-toolkit",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

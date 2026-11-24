@@ -1,0 +1,79 @@
+{
+  "slug": "fratx",
+  "type": "site",
+  "name": "FraternityX",
+  "url": "https://fratx.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Raw handheld party-house style all-male gonzo studio shooting unpolished, high-intensity duo and group encounters.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "gonzo"
+  ],
+  "ranking_rationale": "Distinct lo-fi handheld realism contrasting with glossy studio lighting (trade-off: rowdy frat-house tone isn't suited to romantic viewers).",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Distinct lo-fi handheld realism contrasting with glossy studio lighting",
+    "Long-running recognizable series archive",
+    "Fast minimalist dark streaming UI"
+  ],
+  "cons": [
+    "Rowdy frat-house tone isn't suited to romantic viewers",
+    "Handheld camera shake"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fratx.webp",
+    "alt": "FraternityX logo and brand card",
+    "source_url": "https://fratx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://fratx.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://fratx.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://fratx.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fratx.com",
+      "source_url": "https://fratx.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

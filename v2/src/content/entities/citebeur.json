@@ -1,0 +1,79 @@
+{
+  "slug": "citebeur",
+  "type": "site",
+  "name": "Citebeur",
+  "url": "https://www.citebeur.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Iconic French multi-ethnic urban gay studio active since 2001—spotlighting North African, Black, and French banlieue/street gear fetish series.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "Over 20 years filling a distinct French multi-ethnic & sportswear/leather niche (trade-off: rougher urban roleplay tone).",
+  "pricing": {
+    "model": "Studio network pass",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Over 20 years filling a distinct French multi-ethnic & sportswear/leather niche",
+    "Large multi-thousand-scene French vault + partner network access",
+    "French & English navigation"
+  ],
+  "cons": [
+    "Rougher urban roleplay tone",
+    "Mixed SD/HD legacy clips alongside 4K"
+  ],
+  "image": {
+    "src": "/media/entities/sites/citebeur.webp",
+    "alt": "Citebeur logo and brand card",
+    "source_url": "https://www.citebeur.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.citebeur.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio network pass",
+      "source_url": "https://www.citebeur.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.citebeur.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "citebeur.com",
+      "source_url": "https://www.citebeur.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

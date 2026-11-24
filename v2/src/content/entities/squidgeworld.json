@@ -1,0 +1,79 @@
+{
+  "slug": "squidgeworld",
+  "type": "site",
+  "name": "SquidgeWorld Archive",
+  "url": "https://squidgeworld.org",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Non-commercial open-source OTW-Archive (AO3-engine) fiction & fanart library welcoming both transformative fanworks and original explicit prose.",
+  "tags": [
+    "erotica",
+    "stories",
+    "comics",
+    "free"
+  ],
+  "ranking_rationale": "Runs the beloved Archive of Our Own (AO3) tag, bookmark & EPUB-download engine (trade-off: much smaller total story count than AO3 itself).",
+  "pricing": {
+    "model": "100% free non-commercial archive",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Runs the beloved Archive of Our Own (AO3) tag, bookmark & EPUB-download engine",
+    "Explicitly welcomes original erotica, comics & fanzines alongside fanfiction with zero ads",
+    "100% free community-funded archive"
+  ],
+  "cons": [
+    "Much smaller total story count than AO3 itself",
+    "Occasional maintenance windows on volunteer servers"
+  ],
+  "image": {
+    "src": "/media/entities/sites/squidgeworld.webp",
+    "alt": "SquidgeWorld Archive logo and brand card",
+    "source_url": "https://squidgeworld.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://squidgeworld.org",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free non-commercial archive",
+      "source_url": "https://squidgeworld.org",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://squidgeworld.org",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "squidgeworld.org",
+      "source_url": "https://squidgeworld.org",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

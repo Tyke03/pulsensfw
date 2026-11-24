@@ -1,0 +1,79 @@
+{
+  "slug": "ebookjapan",
+  "type": "site",
+  "name": "ebookjapan",
+  "url": "https://ebookjapan.yahoo.co.jp",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "LINE Digital Frontier / Yahoo! Japan's flagship digital manga bookstore featuring spine-view virtual bookshelves and mature seinen/TL lines.",
+  "tags": [
+    "hentai",
+    "manga",
+    "store"
+  ],
+  "ranking_rationale": "Beloved virtual spine bookshelf UI prized by manga collectors (trade-off: Japanese-only UI & domestic payment rules).",
+  "pricing": {
+    "model": "Digital manga storefront",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Beloved virtual spine bookshelf UI prized by manga collectors",
+    "Frequent massive weekend coupon & PayPay point promos",
+    "Official high-res licensed editions"
+  ],
+  "cons": [
+    "Japanese-only UI & domestic payment rules",
+    "Adult R-18 corner restricted on mobile apps"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ebookjapan.webp",
+    "alt": "ebookjapan logo and brand card",
+    "source_url": "https://ebookjapan.yahoo.co.jp",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://ebookjapan.yahoo.co.jp",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Digital manga storefront",
+      "source_url": "https://ebookjapan.yahoo.co.jp",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://ebookjapan.yahoo.co.jp",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ebookjapan.yahoo.co.jp",
+      "source_url": "https://ebookjapan.yahoo.co.jp",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

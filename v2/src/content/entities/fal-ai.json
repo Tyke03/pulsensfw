@@ -28,7 +28,7 @@
     "Web",
     "API"
   ],
-  "score": 8.5,
+  "score": 8.4,
   "pros": [
     "Blazing fast image/video generation latency via developer-friendly REST & playground UI",
     "Pay cleanly per-megapixel with custom LoRA weights URLs",

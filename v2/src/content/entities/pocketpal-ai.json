@@ -1,0 +1,80 @@
+{
+  "slug": "pocketpal-ai",
+  "type": "ai_app",
+  "name": "PocketPal AI",
+  "url": "https://github.com/a-ghorbani/pocketpal-ai",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Polished open-source iOS & Android app for downloading Hugging Face GGUF models and chatting with custom roleplay personas 100% offline.",
+  "tags": [
+    "local",
+    "chat",
+    "offline",
+    "mobile",
+    "open-source"
+  ],
+  "ranking_rationale": "Clean native mobile UI pulls any GGUF straight from Hugging Face onto your phone privately (trade-off: phone battery & 8GB–12GB RAM cap usable models around 4B–8B parameters).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free MIT license",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Clean native mobile UI pulls any GGUF straight from Hugging Face onto your phone privately",
+    "100% offline local inference—zero account, zero cloud logs, zero censorship",
+    "Supports custom system prompts & character personas"
+  ],
+  "cons": [
+    "Phone battery & 8GB–12GB RAM cap usable models around 4B–8B parameters",
+    "Long context slows generation on older chips"
+  ],
+  "image": {
+    "src": "/media/entities/ai/pocketpal-ai.webp",
+    "alt": "PocketPal AI logo and brand card",
+    "source_url": "https://github.com/a-ghorbani/pocketpal-ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/a-ghorbani/pocketpal-ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/a-ghorbani/pocketpal-ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android",
+      "source_url": "https://github.com/a-ghorbani/pocketpal-ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/a-ghorbani/pocketpal-ai",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

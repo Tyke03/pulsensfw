@@ -1,0 +1,78 @@
+{
+  "slug": "axolotl-ai",
+  "type": "ai_app",
+  "name": "Axolotl",
+  "url": "https://github.com/axolotl-ai-cloud/axolotl",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The community-favorite YAML-driven LLM fine-tuning framework behind many top open-weight RP, creative-writing, and Mistral/Llama merges.",
+  "tags": [
+    "local",
+    "open-source",
+    "models"
+  ],
+  "ranking_rationale": "YAML recipes make multi-GPU LoRA, QLoRA, and full-parameter RP training reproducible (trade-off: Linux CLI/Docker workflow built for ML tinkerers).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free Apache-2.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Linux",
+    "Docker"
+  ],
+  "score": 8.2,
+  "pros": [
+    "YAML recipes make multi-GPU LoRA, QLoRA, and full-parameter RP training reproducible",
+    "First-day support for new Llama, Qwen & Mistral model families",
+    "100% free open-source"
+  ],
+  "cons": [
+    "Linux CLI/Docker workflow built for ML tinkerers",
+    "Cloud GPU rental usually needed for 30B–70B runs"
+  ],
+  "image": {
+    "src": "/media/entities/ai/axolotl-ai.webp",
+    "alt": "Axolotl logo and brand card",
+    "source_url": "https://github.com/axolotl-ai-cloud/axolotl",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/axolotl-ai-cloud/axolotl",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/axolotl-ai-cloud/axolotl",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Linux, Docker",
+      "source_url": "https://github.com/axolotl-ai-cloud/axolotl",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/axolotl-ai-cloud/axolotl",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

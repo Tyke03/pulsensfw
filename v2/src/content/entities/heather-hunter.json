@@ -1,0 +1,64 @@
+{
+  "slug": "heather-hunter",
+  "type": "star",
+  "name": "Heather Hunter",
+  "url": "https://en.wikipedia.org/wiki/Heather_Hunter",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Heather Hunter — American pornographic actor (b. 1969). Industry career documented from 1988.",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by adult database identifiers on Wikidata and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/heather-hunter.jpg",
+    "alt": "SFW portrait of Heather Hunter",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Heather_Hunter_2001_AVN.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q446518 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q446518",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1969",
+      "source_url": "http://www.wikidata.org/entity/Q446518",
+      "checked": "2026-11-28",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1988–present",
+      "source_url": "https://en.wikipedia.org/wiki/Heather_Hunter",
+      "checked": "2026-11-28",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-28"
+}

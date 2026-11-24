@@ -1,0 +1,81 @@
+{
+  "slug": "max-gentleman-sexy-business",
+  "type": "game",
+  "name": "Max Gentleman Sexy Business!",
+  "url": "https://store.steampowered.com/app/817840/Max_Gentleman_Sexy_Business/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Hilarious Victorian-London tycoon management & inclusive dating sim featuring gorgeous hand-drawn Western art and fully uncensored character routes.",
+  "tags": [
+    "games",
+    "pc",
+    "western",
+    "romance"
+  ],
+  "ranking_rationale": "Genuinely addictive Victorian business-empire tycoon loop paired with sharp comedic writing (trade-off: fast hectic clicking during late-game boardroom rivalries).",
+  "pricing": {
+    "model": "One-time Steam purchase",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Genuinely addictive Victorian business-empire tycoon loop paired with sharp comedic writing",
+    "Inclusive male, female & non-binary executive romance options with customizable spice",
+    "Polished 2D Western illustration & voice barks"
+  ],
+  "cons": [
+    "Fast hectic clicking during late-game boardroom rivalries",
+    "Playful comic nudity/pin-up spice rather than 3D simulation"
+  ],
+  "image": {
+    "src": "/media/entities/games/max-gentleman-sexy-business.webp",
+    "alt": "Max Gentleman Sexy Business! logo and brand card",
+    "source_url": "https://store.steampowered.com/app/817840/Max_Gentleman_Sexy_Business/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/817840/Max_Gentleman_Sexy_Business/",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase",
+      "source_url": "https://store.steampowered.com/app/817840/Max_Gentleman_Sexy_Business/",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/817840/Max_Gentleman_Sexy_Business/",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/817840/Max_Gentleman_Sexy_Business/",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

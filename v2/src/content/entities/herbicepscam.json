@@ -1,0 +1,78 @@
+{
+  "slug": "herbicepscam",
+  "type": "site",
+  "name": "HerBicepsCam",
+  "url": "https://www.herbicepscam.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Specialized niche live cam & clip platform dedicated exclusively to female bodybuilders, fitness models, and muscular performers.",
+  "tags": [
+    "cams",
+    "live",
+    "niche"
+  ],
+  "ranking_rationale": "Unmatched dedicated roster for muscular & fitness-fetish cam shows (trade-off: hyper-specific niche appeal).",
+  "pricing": {
+    "model": "Private cam credits & clips",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Unmatched dedicated roster for muscular & fitness-fetish cam shows",
+    "Supports both scheduled live private shows and downloadable clip stores",
+    "Passionate niche community"
+  ],
+  "cons": [
+    "Hyper-specific niche appeal",
+    "Older utilitarian site layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/herbicepscam.webp",
+    "alt": "HerBicepsCam logo and brand card",
+    "source_url": "https://www.herbicepscam.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.herbicepscam.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Private cam credits & clips",
+      "source_url": "https://www.herbicepscam.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.herbicepscam.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "herbicepscam.com",
+      "source_url": "https://www.herbicepscam.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

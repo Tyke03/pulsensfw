@@ -1,0 +1,79 @@
+{
+  "slug": "joycaption",
+  "type": "ai_app",
+  "name": "JoyCaption",
+  "url": "https://huggingface.co/fancyfeast/llama-joycaption-alpha-two-hf-llava",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The open-source uncensored vision-language captioning model built from the ground up to describe anatomy, poses, art styles & lighting accurately for Flux/SDXL LoRA training.",
+  "tags": [
+    "local",
+    "image",
+    "models",
+    "open-source"
+  ],
+  "ranking_rationale": "Zero refusal filters—describes explicit anatomy, camera angles & booru/natural-language details accurately (trade-off: requires ~16GB+ VRAM — or 4-bit NF4 quantization on 8–12GB cards to batch-caption locally).",
+  "pricing": {
+    "model": "100% free open-weight VLM",
+    "free_tier": "Completely free Apache-2.0",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Zero refusal filters—describes explicit anatomy, camera angles & booru/natural-language details accurately",
+    "Dramatically improves FLUX.1 & SDXL LoRA training adherence over censored VLMs",
+    "100% free open-weight on Hugging Face & ComfyUI nodes"
+  ],
+  "cons": [
+    "Requires ~16GB+ VRAM (or 4-bit NF4 quantization on 8–12GB cards) to batch-caption locally",
+    "Dataset preparation utility rather than end-user chatbot"
+  ],
+  "image": {
+    "src": "/media/entities/ai/joycaption.webp",
+    "alt": "JoyCaption logo and brand card",
+    "source_url": "https://huggingface.co/fancyfeast/llama-joycaption-alpha-two-hf-llava",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://huggingface.co/fancyfeast/llama-joycaption-alpha-two-hf-llava",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open-weight VLM",
+      "source_url": "https://huggingface.co/fancyfeast/llama-joycaption-alpha-two-hf-llava",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://huggingface.co/fancyfeast/llama-joycaption-alpha-two-hf-llava",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "huggingface.co",
+      "source_url": "https://huggingface.co/fancyfeast/llama-joycaption-alpha-two-hf-llava",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}

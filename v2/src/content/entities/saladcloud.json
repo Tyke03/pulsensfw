@@ -1,0 +1,79 @@
+{
+  "slug": "saladcloud",
+  "type": "ai_app",
+  "name": "SaladCloud",
+  "url": "https://salad.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Distributed residential RTX 3090/4090 container cloud offering rock-bottom batch GPU pricing (~$0.08-$0.18/hr) for Dockerized LLM & SDXL workers.",
+  "tags": [
+    "cloud",
+    "gpu",
+    "models"
+  ],
+  "ranking_rationale": "Unbeatable per-hour RTX 3090/4090 container pricing for batch captioning, SDXL & Ollama workers (trade-off: nodes are residential gaming PCs—instances can preempt if a gamer starts playing).",
+  "pricing": {
+    "model": "Ultra-low-cost GPU containers",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Docker",
+    "API"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Unbeatable per-hour RTX 3090/4090 container pricing for batch captioning, SDXL & Ollama workers",
+    "Simple Docker container deployment with no long-term lock-in",
+    "Great for bulk dataset tagging or API workers"
+  ],
+  "cons": [
+    "Nodes are residential gaming PCs—instances can preempt if a gamer starts playing",
+    "Unsuited to stateful interactive desktops without external storage"
+  ],
+  "image": {
+    "src": "/media/entities/ai/saladcloud.webp",
+    "alt": "SaladCloud logo and brand card",
+    "source_url": "https://salad.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://salad.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Ultra-low-cost GPU containers",
+      "source_url": "https://salad.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Docker, API",
+      "source_url": "https://salad.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "salad.com",
+      "source_url": "https://salad.com",
+      "checked": "2026-11-28",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-28"
+}
