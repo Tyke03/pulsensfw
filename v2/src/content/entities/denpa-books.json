@@ -1,0 +1,78 @@
+{
+  "slug": "denpa-books",
+  "type": "site",
+  "name": "Denpa Books",
+  "url": "https://denpa.pub",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Boutique North American publishing house lauded by collectors for luxury print quality across seinen, yuri, artbooks & classic adult works.",
+  "tags": [
+    "hentai",
+    "manga",
+    "store"
+  ],
+  "ranking_rationale": "Museum-grade paper stock, translation care, and classic cult adult manga rescues (trade-off: slow deluxe production timelines).",
+  "pricing": {
+    "model": "Print & digital retail",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Books"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Museum-grade paper stock, translation care, and classic cult adult manga rescues",
+    "Includes landmark creator artbooks & uncensored collector hardcovers",
+    "Direct shop + major bookstore distribution"
+  ],
+  "cons": [
+    "Slow deluxe production timelines",
+    "Small boutique seasonal catalog"
+  ],
+  "image": {
+    "src": "/media/entities/sites/denpa-books.webp",
+    "alt": "Denpa Books logo and brand card",
+    "source_url": "https://denpa.pub",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://denpa.pub",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Print & digital retail",
+      "source_url": "https://denpa.pub",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Books",
+      "source_url": "https://denpa.pub",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "denpa.pub",
+      "source_url": "https://denpa.pub",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

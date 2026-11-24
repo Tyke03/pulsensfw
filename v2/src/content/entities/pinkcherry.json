@@ -1,0 +1,78 @@
+{
+  "slug": "pinkcherry",
+  "type": "site",
+  "name": "PinkCherry",
+  "url": "https://www.pinkcherry.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Major North American pleasure superstore renowned for aggressive clearance promos across authentic Womanizer, LELO, Magic Wand & TENGA stock.",
+  "tags": [
+    "niche",
+    "couples",
+    "store"
+  ],
+  "ranking_rationale": "Consistently beats MSRP by 25–40% during seasonal promo sales on genuine brand hardware (trade-off: massive catalog mixes budget plastic items alongside top medical silicone).",
+  "pricing": {
+    "model": "Discount retail superstore",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Consistently beats MSRP by 25–40% during seasonal promo sales on genuine brand hardware",
+    "Fast discreet US & Canadian domestic shipping warehouses",
+    "Deep lube, wand & strap-on inventory"
+  ],
+  "cons": [
+    "Massive catalog mixes budget plastic items alongside top medical silicone",
+    "Frequent promotional coupon banners"
+  ],
+  "image": {
+    "src": "/media/entities/sites/pinkcherry.webp",
+    "alt": "PinkCherry logo and brand card",
+    "source_url": "https://www.pinkcherry.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.pinkcherry.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Discount retail superstore",
+      "source_url": "https://www.pinkcherry.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.pinkcherry.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "pinkcherry.com",
+      "source_url": "https://www.pinkcherry.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

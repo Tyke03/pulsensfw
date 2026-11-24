@@ -1,0 +1,79 @@
+{
+  "slug": "she-will-punish-them",
+  "type": "game",
+  "name": "She Will Punish Them",
+  "url": "https://store.steampowered.com/app/1213740/She_Will_Punish_Them/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Dark-fantasy succubus Diablo-style action RPG featuring full character armor styling, dungeon loot grinding & stronghold decorating.",
+  "tags": [
+    "games",
+    "rpg",
+    "3d",
+    "pc"
+  ],
+  "ranking_rationale": "Deep character sculpting, photo mode, outfits & gratifying hack-and-slash dungeon runs (trade-off: action-RPG dungeon rooms repeat visually over long loot grinds).",
+  "pricing": {
+    "model": "One-time Steam purchase (~$23)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Deep character sculpting, photo mode, outfits & gratifying hack-and-slash dungeon runs",
+    "Massive active Steam Workshop custom companion/armor mods",
+    "Complete native Steam playability"
+  ],
+  "cons": [
+    "Action-RPG dungeon rooms repeat visually over long loot grinds",
+    "Unoptimized shadows tax mid-range GPUs"
+  ],
+  "image": {
+    "src": "/media/entities/games/she-will-punish-them.webp",
+    "alt": "She Will Punish Them logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1213740/She_Will_Punish_Them/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1213740/She_Will_Punish_Them/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$23)",
+      "source_url": "https://store.steampowered.com/app/1213740/She_Will_Punish_Them/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Steam",
+      "source_url": "https://store.steampowered.com/app/1213740/She_Will_Punish_Them/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1213740/She_Will_Punish_Them/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "randy-blue",
+  "type": "site",
+  "name": "RandyBlue",
+  "url": "https://www.randyblue.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Iconic Southern California all-male studio famous for sunny poolside solo showcases, athlete interviews, and glossy couple chemistry.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay"
+  ],
+  "ranking_rationale": "Massive classic-to-modern vault of California all-male stars, weighed against heavy legacy library mixes SD/HD beside 4K.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Massive classic-to-modern vault of California all-male stars",
+    "High-res downloadable scenes and still photos",
+    "Clean reliable network streaming infrastructure"
+  ],
+  "cons": [
+    "Heavy legacy library mixes SD/HD beside 4K",
+    "Conventional California studio aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/sites/randy-blue.webp",
+    "alt": "RandyBlue logo and brand card",
+    "source_url": "https://www.randyblue.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.randyblue.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.randyblue.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.randyblue.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "randyblue.com",
+      "source_url": "https://www.randyblue.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "streamcam",
+  "type": "site",
+  "name": "StreamCam",
+  "url": "https://www.streamcam.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lightweight HTML5 webcam portal connecting global performers and couples in smooth adaptive-bitrate rooms.",
+  "tags": [
+    "cams",
+    "live",
+    "hd"
+  ],
+  "ranking_rationale": "Fast adaptive video scaling even over slower mobile connections, weighed against moderate model volume vs top-5 giants.",
+  "pricing": {
+    "model": "Tokens & private shows",
+    "free_tier": "Free public streams",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Fast adaptive video scaling even over slower mobile connections",
+    "Clear dark category tiles",
+    "Instant public lobby entry"
+  ],
+  "cons": [
+    "Moderate model volume vs top-5 giants",
+    "Standard token purchase upsells"
+  ],
+  "image": {
+    "src": "/media/entities/sites/streamcam.webp",
+    "alt": "StreamCam logo and brand card",
+    "source_url": "https://www.streamcam.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.streamcam.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & private shows",
+      "source_url": "https://www.streamcam.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.streamcam.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "streamcam.com",
+      "source_url": "https://www.streamcam.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

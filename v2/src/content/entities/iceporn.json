@@ -1,0 +1,78 @@
+{
+  "slug": "iceporn",
+  "type": "site",
+  "name": "IcePorn",
+  "url": "https://www.iceporn.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-definition free porn tube spotlighting curated HD channels, performer indexes, and steady mainstream category playback.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Consistent 1080p stream quality on modern uploads, weighed against smaller upload library than mega-tubes.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free HD clips with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Consistent 1080p stream quality on modern uploads",
+    "Clear category breakdown & star links",
+    "Smooth mobile video scrubbing"
+  ],
+  "cons": [
+    "Smaller upload library than mega-tubes",
+    "Standard banner and popup ads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/iceporn.webp",
+    "alt": "IcePorn logo and brand card",
+    "source_url": "https://www.iceporn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.iceporn.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.iceporn.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.iceporn.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "iceporn.com",
+      "source_url": "https://www.iceporn.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

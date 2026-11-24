@@ -1,0 +1,79 @@
+{
+  "slug": "together-ai",
+  "type": "ai_app",
+  "name": "Together AI",
+  "url": "https://www.together.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Ultra-fast serverless OpenAI-compatible inference cloud serving open-weights Llama, Mistral & DeepSeek models with zero heavy preachy wrappers.",
+  "tags": [
+    "cloud",
+    "api",
+    "chat",
+    "models"
+  ],
+  "ranking_rationale": "Sub-second token speed on uncensored open-weights community fine-tunes & Llama 70B+ (trade-off: requires API key balance & external client UI like SillyTavern).",
+  "pricing": {
+    "model": "Pay-per-token serverless API",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Sub-second token speed on uncensored open-weights community fine-tunes & Llama 70B+",
+    "Plug cleanly into SillyTavern with pay-as-you-go token pricing",
+    "Transparent throughput & pricing tiers"
+  ],
+  "cons": [
+    "Requires API key balance & external client UI like SillyTavern",
+    "Moderation policies remain strict against harmful abuse"
+  ],
+  "image": {
+    "src": "/media/entities/ai/together-ai.webp",
+    "alt": "Together AI logo and brand card",
+    "source_url": "https://www.together.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "AI Platform",
+      "source_url": "https://www.together.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-per-token serverless API",
+      "source_url": "https://www.together.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://www.together.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "together.ai",
+      "source_url": "https://www.together.ai",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

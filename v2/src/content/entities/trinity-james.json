@@ -1,0 +1,64 @@
+{
+  "slug": "trinity-james",
+  "type": "star",
+  "name": "Trinity James",
+  "url": "http://www.wikidata.org/entity/Q25634068",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Trinity James — American pornographic actress (b. 1984). Industry career documented from 2003.",
+  "tags": [
+    "performer",
+    "veteran",
+    "glamour"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/trinity-james.jpg",
+    "alt": "SFW portrait of Trinity James",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Trinity_James.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q25634068 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q25634068",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1984",
+      "source_url": "http://www.wikidata.org/entity/Q25634068",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2003–present",
+      "source_url": "http://www.wikidata.org/entity/Q25634068",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

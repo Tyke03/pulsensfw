@@ -1,0 +1,79 @@
+{
+  "slug": "bold-strokes-books",
+  "type": "site",
+  "name": "Bold Strokes Books",
+  "url": "https://www.boldstrokesbooks.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Major independent LGBTQ+ publishing house delivering hundreds of professionally edited lesbian, gay, and trans erotic romances.",
+  "tags": [
+    "erotica",
+    "books",
+    "queer",
+    "store"
+  ],
+  "ranking_rationale": "Unmatched authoritative catalog for queer erotica & romance novels since 2004 (trade-off: traditional bookstore UI).",
+  "pricing": {
+    "model": "Direct ebooks & audiobooks",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Books"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Unmatched authoritative catalog for queer erotica & romance novels since 2004",
+    "Clean DRM-free direct downloads and audiobooks",
+    "Supports genuine indie queer authors cleanly"
+  ],
+  "cons": [
+    "Traditional bookstore UI",
+    "Single-genre publisher specialization"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bold-strokes-books.webp",
+    "alt": "Bold Strokes Books logo and brand card",
+    "source_url": "https://www.boldstrokesbooks.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.boldstrokesbooks.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Direct ebooks & audiobooks",
+      "source_url": "https://www.boldstrokesbooks.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Books",
+      "source_url": "https://www.boldstrokesbooks.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "boldstrokesbooks.com",
+      "source_url": "https://www.boldstrokesbooks.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

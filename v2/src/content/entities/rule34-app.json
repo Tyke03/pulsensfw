@@ -1,0 +1,79 @@
+{
+  "slug": "rule34-app",
+  "type": "site",
+  "name": "Rule34.app",
+  "url": "https://rule34.app",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Sleek modern mobile-friendly multi-booru viewer client unifying Danbooru, Gelbooru, e621 & Rule34 inside one slick swipe interface.",
+  "tags": [
+    "comics",
+    "rule34",
+    "booru",
+    "free"
+  ],
+  "ranking_rationale": "Replaces clunky 2000s HTML boorus with buttery smooth mobile swipes, masonry & video playback (trade-off: relies cleanly on upstream APIs—occasional rate limits during heavy searches).",
+  "pricing": {
+    "model": "100% free client UI",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Replaces clunky 2000s HTML boorus with buttery smooth mobile swipes, masonry & video playback",
+    "Toggle across 5+ major booru sources seamlessly without switching browser tabs",
+    "Zero malicious banner ads"
+  ],
+  "cons": [
+    "Relies cleanly on upstream APIs—occasional rate limits during heavy searches",
+    "Client viewer only (depends on source boards)"
+  ],
+  "image": {
+    "src": "/media/entities/sites/rule34-app.webp",
+    "alt": "Rule34.app logo and brand card",
+    "source_url": "https://rule34.app",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://rule34.app",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free client UI",
+      "source_url": "https://rule34.app",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://rule34.app",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "rule34.app",
+      "source_url": "https://rule34.app",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

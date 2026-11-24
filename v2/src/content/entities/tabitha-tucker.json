@@ -1,0 +1,63 @@
+{
+  "slug": "tabitha-tucker",
+  "type": "star",
+  "name": "Tabitha Tucker",
+  "url": "http://www.wikidata.org/entity/Q25633888",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Tabitha Tucker — American pornographic actress (b. 1980).",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/tabitha-tucker.jpg",
+    "alt": "SFW portrait of Tabitha Tucker",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tabatha_Tucker_at_KSEXradio.com_Listeners_Choice_Awards_5.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q25633888 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q25633888",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1980",
+      "source_url": "http://www.wikidata.org/entity/Q25633888",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q25633888",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

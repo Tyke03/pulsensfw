@@ -1,0 +1,80 @@
+{
+  "slug": "captain-hardcore",
+  "type": "game",
+  "name": "Captain Hardcore",
+  "url": "https://captainhardcore.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Popular standalone Meta Quest & PCVR sci-fi interactive 6DOF companion simulator built natively inside real-time 3D spaceships.",
+  "tags": [
+    "vr",
+    "games",
+    "sandbox",
+    "pcvr"
+  ],
+  "ranking_rationale": "Runs natively standalone inside Meta Quest headsets without tethering a $2,000 gaming PC (trade-off: monthly supporter gate required for full continuous feature releases).",
+  "pricing": {
+    "model": "Monthly Patreon access",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Meta Quest",
+    "Windows",
+    "PCVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Runs natively standalone inside Meta Quest headsets without tethering a $2,000 gaming PC",
+    "Full 6DOF physics grab interactions, customizer studio & sci-fi setting",
+    "Frequent monthly Patreon feature drops"
+  ],
+  "cons": [
+    "Monthly supporter gate required for full continuous feature releases",
+    "Stylized Quest 3D shaders stay tuned for mobile VR framerates"
+  ],
+  "image": {
+    "src": "/media/entities/games/captain-hardcore.webp",
+    "alt": "Captain Hardcore logo and brand card",
+    "source_url": "https://captainhardcore.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://captainhardcore.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Monthly Patreon access",
+      "source_url": "https://captainhardcore.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Meta Quest, Windows, PCVR",
+      "source_url": "https://captainhardcore.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "captainhardcore.com",
+      "source_url": "https://captainhardcore.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

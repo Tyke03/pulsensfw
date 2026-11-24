@@ -1,0 +1,79 @@
+{
+  "slug": "easydiffusion",
+  "type": "ai_app",
+  "name": "Easy Diffusion",
+  "url": "https://easydiffusion.github.io",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Beginner-friendly 1-click local Stable Diffusion installer bundling UI, upscalers & zero-terminal model managers seamlessly.",
+  "tags": [
+    "local",
+    "image",
+    "open-source"
+  ],
+  "ranking_rationale": "Truly effortless installer hiding messy Python venv breakages for beginners (trade-off: trails ComfyUI/SwarmUI significantly on advanced Flux node workflows).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Truly effortless installer hiding messy Python venv breakages for beginners",
+    "Clean distraction-free prompt queue & offline privacy",
+    "Works cleanly across Windows & Linux"
+  ],
+  "cons": [
+    "Trails ComfyUI/SwarmUI significantly on advanced Flux node workflows",
+    "UI simplicity limits fine-grained sampler tweaks"
+  ],
+  "image": {
+    "src": "/media/entities/ai/easydiffusion.webp",
+    "alt": "Easy Diffusion logo and brand card",
+    "source_url": "https://easydiffusion.github.io",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://easydiffusion.github.io",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://easydiffusion.github.io",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, macOS",
+      "source_url": "https://easydiffusion.github.io",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "easydiffusion.github.io",
+      "source_url": "https://easydiffusion.github.io",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

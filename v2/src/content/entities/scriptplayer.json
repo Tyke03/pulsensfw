@@ -1,0 +1,78 @@
+{
+  "slug": "scriptplayer",
+  "type": "site",
+  "name": "ScriptPlayer",
+  "url": "https://github.com/FredTungsten/ScriptPlayer",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Veteran open-source Windows player bridging VLC, MPC-HC, DeoVR & HereSphere video playback with Handy, OSR2 & Launch haptic sync.",
+  "tags": [
+    "tools",
+    "open-source",
+    "haptics",
+    "forums"
+  ],
+  "ranking_rationale": "Time-tested open-source Swiss Army knife linking nearly any desktop player to any connected toy (trade-off: Windows-only desktop tool with dense power-user panels).",
+  "pricing": {
+    "model": "100% free open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Time-tested open-source Swiss Army knife linking nearly any desktop player to any connected toy",
+    "Supports heatmaps, pattern generators & serial/Bluetooth/Buttplug outputs",
+    "100% free offline open-source"
+  ],
+  "cons": [
+    "Windows-only desktop tool with dense power-user panels",
+    "UI reflects utilitarian C# roots"
+  ],
+  "image": {
+    "src": "/media/entities/sites/scriptplayer.webp",
+    "alt": "ScriptPlayer logo and brand card",
+    "source_url": "https://github.com/FredTungsten/ScriptPlayer",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://github.com/FredTungsten/ScriptPlayer",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open-source",
+      "source_url": "https://github.com/FredTungsten/ScriptPlayer",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows",
+      "source_url": "https://github.com/FredTungsten/ScriptPlayer",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/FredTungsten/ScriptPlayer",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

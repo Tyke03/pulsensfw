@@ -1,0 +1,63 @@
+{
+  "slug": "lucy-collett",
+  "type": "star",
+  "name": "Lucy Collett",
+  "url": "https://en.wikipedia.org/wiki/Lucy_Collett",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lucy Collett — English glamour model (b. 1989).",
+  "tags": [
+    "performer",
+    "glamour"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/lucy-collett.jpg",
+    "alt": "SFW portrait of Lucy Collett",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lucy_Collett_2014.jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q6698242 (United Kingdom)",
+      "source_url": "http://www.wikidata.org/entity/Q6698242",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1989",
+      "source_url": "http://www.wikidata.org/entity/Q6698242",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Lucy_Collett",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

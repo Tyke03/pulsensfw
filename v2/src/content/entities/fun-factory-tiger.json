@@ -1,0 +1,78 @@
+{
+  "slug": "fun-factory-tiger",
+  "type": "product",
+  "name": "FUN FACTORY Tiger",
+  "url": "https://www.funfactory.com/en/vibrators/tiger/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Classic German-engineered curved G-spot stimulator celebrated over a decade for relentless low-pitched internal bass rumbles.",
+  "tags": [
+    "vibrator",
+    "luxury",
+    "waterproof",
+    "quiet"
+  ],
+  "ranking_rationale": "Pronounced ergonomic bulbous tip hits internal G-spot contours reliably (trade-off: proprietary Click 'n' Charge magnetic cord).",
+  "pricing": {
+    "model": "Hardware purchase (~$129)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Pronounced ergonomic bulbous tip hits internal G-spot contours reliably",
+    "Solid German medical silicone + tactile speed LED buttons & waterproof sealing",
+    "Famous durability running years reliably"
+  ],
+  "cons": [
+    "Proprietary Click 'n' Charge magnetic cord",
+    "Traditional single-shaft focus rather than dual rabbit stimulation"
+  ],
+  "image": {
+    "src": "/media/entities/products/fun-factory-tiger.webp",
+    "alt": "FUN FACTORY Tiger logo and brand card",
+    "source_url": "https://www.funfactory.com/en/vibrators/tiger/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.funfactory.com/en/vibrators/tiger/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$129)",
+      "source_url": "https://www.funfactory.com/en/vibrators/tiger/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.funfactory.com/en/vibrators/tiger/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "funfactory.com",
+      "source_url": "https://www.funfactory.com/en/vibrators/tiger/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

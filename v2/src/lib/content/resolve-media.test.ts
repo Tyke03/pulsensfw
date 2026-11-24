@@ -236,6 +236,18 @@ test('searchCatalog matches multi-word synonym and multi-brand queries without s
   assert.equal(matchesSubtopicFilter(['vr', 'headsets', 'player'], 'headsets'), true);
   assert.equal(matchesSubtopicFilter(['performer', 'hall of fame'], 'icons'), true);
   assert.equal(matchesSubtopicFilter(['performer', 'veteran'], 'icons'), false);
+
+  const camsCom: Entity = { ...cam, slug: 'cams-com', name: 'Cams.com', summary: 'Veteran live webcam chat network', score: 7.4 };
+  const webcamStartup: Entity = {
+    ...cam,
+    slug: 'webcamstartup',
+    name: 'Webcam Startup',
+    summary: 'Practical guide for cam models',
+    tags: ['news', 'model-guides', 'education', 'forums'],
+    score: 7.9,
+  };
+  const rankedCams = searchCatalog([], { entities: [webcamStartup, camsCom, strip, cam] }, 'cam sites', 'all', sfw);
+  assert.deepEqual(rankedCams.map((h) => h.title), ['Chaturbate', 'Stripchat', 'Cams.com', 'Webcam Startup']);
 });
 
 test('featuredSites interleaves top sites across verticals without duplicates', () => {

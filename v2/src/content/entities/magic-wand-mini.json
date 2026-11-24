@@ -1,0 +1,77 @@
+{
+  "slug": "magic-wand-mini",
+  "type": "product",
+  "name": "Magic Wand Mini",
+  "url": "https://magicwandoriginal.com/magic-wand-mini/",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Compact cordless travel sibling keeping classic Magic Wand deep-tissue rumble engineering in a purse-ready 25cm build.",
+  "tags": [
+    "wands",
+    "cordless",
+    "travel"
+  ],
+  "ranking_rationale": "Authentic Magic Wand deep rumble dynamics packed down to effortless travel weight (trade-off: wait time between heavy sessions if battery drains — ~2.5hr charge).",
+  "pricing": {
+    "model": "Hardware purchase (~$109)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.8,
+  "pros": [
+    "Authentic Magic Wand deep rumble dynamics packed down to effortless travel weight",
+    "Simple intuitive 3-level control with strong lithium runtime",
+    "Includes plush carry bag"
+  ],
+  "cons": [
+    "Wait time between heavy sessions if battery drains (~2.5hr charge)",
+    "Splash-resistant only—not full tub submersible"
+  ],
+  "image": {
+    "src": "/media/entities/products/magic-wand-mini.webp",
+    "alt": "Magic Wand Mini logo and brand card",
+    "source_url": "https://magicwandoriginal.com/magic-wand-mini/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://magicwandoriginal.com/magic-wand-mini/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$109)",
+      "source_url": "https://magicwandoriginal.com/magic-wand-mini/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://magicwandoriginal.com/magic-wand-mini/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "magicwandoriginal.com",
+      "source_url": "https://magicwandoriginal.com/magic-wand-mini/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

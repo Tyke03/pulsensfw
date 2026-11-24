@@ -1,0 +1,79 @@
+{
+  "slug": "trouble-films",
+  "type": "site",
+  "name": "Trouble Films",
+  "url": "https://www.troublefilms.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Courtney Trouble's trailblazing indie queer porn collective crafting vibrant, body-diverse, alt-artist productions since 2002.",
+  "tags": [
+    "premium",
+    "studio",
+    "queer",
+    "alt"
+  ],
+  "ranking_rationale": "Authentic Oakland/California indie queer cinema and genuine real passion (trade-off: lo-fi indie camera grain differs from commercial 4K gloss).",
+  "pricing": {
+    "model": "Subscription & indie VOD",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Authentic Oakland/California indie queer cinema and genuine real passion",
+    "Radical body, tattoo, and gender diversity absent from mainstream studios",
+    "Direct digital purchases + streaming pass"
+  ],
+  "cons": [
+    "Lo-fi indie camera grain differs from commercial 4K gloss",
+    "Smaller catalog update cadence"
+  ],
+  "image": {
+    "src": "/media/entities/sites/trouble-films.webp",
+    "alt": "Trouble Films logo and brand card",
+    "source_url": "https://www.troublefilms.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.troublefilms.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription & indie VOD",
+      "source_url": "https://www.troublefilms.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.troublefilms.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "troublefilms.com",
+      "source_url": "https://www.troublefilms.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

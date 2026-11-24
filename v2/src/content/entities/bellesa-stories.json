@@ -1,0 +1,78 @@
+{
+  "slug": "bellesa-stories",
+  "type": "site",
+  "name": "Bellesa Stories",
+  "url": "https://www.bellesa.co/stories",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Women-focused curated erotica library offering crisp editorial romance, listener-submitted fantasies, and dark reading mode.",
+  "tags": [
+    "erotica",
+    "stories",
+    "free"
+  ],
+  "ranking_rationale": "Noticeably higher editorial curation bar and modern typography than legacy story sites, weighed against smaller niche fetish spectrum than Literotica or AO3.",
+  "pricing": {
+    "model": "100% free story hub",
+    "free_tier": "Unlimited free reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Noticeably higher editorial curation bar and modern typography than legacy story sites",
+    "Zero intrusive malware pop-unders—clean minimalist reading layout",
+    "100% free unlimited reading"
+  ],
+  "cons": [
+    "Smaller niche fetish spectrum than Literotica or AO3",
+    "Romance tropes skew soft-to-medium"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bellesa-stories.webp",
+    "alt": "Bellesa Stories logo and brand card",
+    "source_url": "https://www.bellesa.co/stories",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.bellesa.co/stories",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free story hub",
+      "source_url": "https://www.bellesa.co/stories",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bellesa.co/stories",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bellesa.co",
+      "source_url": "https://www.bellesa.co/stories",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

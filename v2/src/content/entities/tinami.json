@@ -1,0 +1,79 @@
+{
+  "slug": "tinami",
+  "type": "site",
+  "name": "TINAMI",
+  "url": "https://www.tinami.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Japan's historic anime/manga illustration & cosplay portal running since 1996—preserving decades of doujin artist portfolios.",
+  "tags": [
+    "comics",
+    "art",
+    "hentai",
+    "community"
+  ],
+  "ranking_rationale": "Nearly 30 years of uninterrupted Japanese illustration and manga heritage (trade-off: primarily Japanese text interface).",
+  "pricing": {
+    "model": "Free community gallery",
+    "free_tier": "Free browsing & uploads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Nearly 30 years of uninterrupted Japanese illustration and manga heritage",
+    "Clean separation for adult/mature illustration tags behind age login",
+    "Free portfolio hosting"
+  ],
+  "cons": [
+    "Primarily Japanese text interface",
+    "Lower daily active uploads than Pixiv or X"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tinami.webp",
+    "alt": "TINAMI logo and brand card",
+    "source_url": "https://www.tinami.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.tinami.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free community gallery",
+      "source_url": "https://www.tinami.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tinami.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tinami.com",
+      "source_url": "https://www.tinami.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

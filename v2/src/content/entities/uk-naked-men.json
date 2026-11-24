@@ -1,0 +1,79 @@
+{
+  "slug": "uk-naked-men",
+  "type": "site",
+  "name": "UK Naked Men",
+  "url": "https://www.uknakedmen.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Premier British independent all-male studio showcasing authentic working-class UK chavs, soldiers, athletes, and everyday lads.",
+  "tags": [
+    "premium",
+    "studio",
+    "gay",
+    "european"
+  ],
+  "ranking_rationale": "Genuine regional British accents & realistic everyday UK cast, weighed against mixed camera resolutions on vintage shoots.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Genuine regional British accents & realistic everyday UK cast",
+    "Large 15+ year independent archive + exclusive live streams",
+    "Straightforward DRM-free downloads"
+  ],
+  "cons": [
+    "Mixed camera resolutions on vintage shoots",
+    "Frequent bundle upsells"
+  ],
+  "image": {
+    "src": "/media/entities/sites/uk-naked-men.webp",
+    "alt": "UK Naked Men logo and brand card",
+    "source_url": "https://www.uknakedmen.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.uknakedmen.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.uknakedmen.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.uknakedmen.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "uknakedmen.com",
+      "source_url": "https://www.uknakedmen.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

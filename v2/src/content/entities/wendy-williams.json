@@ -1,0 +1,65 @@
+{
+  "slug": "wendy-williams",
+  "type": "star",
+  "name": "Wendy Williams",
+  "url": "http://www.wikidata.org/entity/Q3559238",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Wendy Williams — American trans pornographic actress and model (b. 1976). Industry career documented from 2000.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director",
+    "trans"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/wendy-williams.jpg",
+    "alt": "SFW portrait of Wendy Williams",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wendy_Williams_3.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q3559238 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q3559238",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1976",
+      "source_url": "http://www.wikidata.org/entity/Q3559238",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 2000–2019",
+      "source_url": "http://www.wikidata.org/entity/Q3559238",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "webcamstartup",
+  "type": "site",
+  "name": "Webcam Startup",
+  "url": "https://webcamstartup.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Practical business guide & transparent revenue-split comparison site helping cam models pick safe payout networks and lighting rigs.",
+  "tags": [
+    "news",
+    "model-guides",
+    "education",
+    "forums"
+  ],
+  "ranking_rationale": "Unfiltered fee, chargeback-protection & payout-schedule breakdowns across major cam sites (trade-off: earns referral commissions from featured networks alongside candid advice).",
+  "pricing": {
+    "model": "Free independent guide",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Unfiltered fee, chargeback-protection & payout-schedule breakdowns across major cam sites",
+    "Helpful tech checklists covering OBS, Lovense, cameras & privacy safety",
+    "Free open reading"
+  ],
+  "cons": [
+    "Earns referral commissions from featured networks alongside candid advice",
+    "Classical blog presentation"
+  ],
+  "image": {
+    "src": "/media/entities/sites/webcamstartup.webp",
+    "alt": "Webcam Startup logo and brand card",
+    "source_url": "https://webcamstartup.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://webcamstartup.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free independent guide",
+      "source_url": "https://webcamstartup.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://webcamstartup.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "webcamstartup.com",
+      "source_url": "https://webcamstartup.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

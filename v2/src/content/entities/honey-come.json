@@ -1,0 +1,79 @@
+{
+  "slug": "honey-come",
+  "type": "game",
+  "name": "HoneyCome: Come Come Party",
+  "url": "https://store.steampowered.com/app/2863140/HoneyCome_Come_Come_Party/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "ILLGAMES' next-generation 3D character creator & studio scene sandbox succeeding Honey Select 2 with revamped PBR skin shaders.",
+  "tags": [
+    "games",
+    "3d",
+    "sandbox",
+    "pc"
+  ],
+  "ranking_rationale": "Incredibly deep anime-stylized 3D customizer with vastly upgraded skin shading & lighting (trade-off: more scene/poser sandbox than narrative RPG).",
+  "pricing": {
+    "model": "One-time Steam purchase (~$59)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Steam"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Incredibly deep anime-stylized 3D customizer with vastly upgraded skin shading & lighting",
+    "Thriving Mod & card creator scene via Steam & community packs",
+    "Smooth 60fps desktop studio scene composer"
+  ],
+  "cons": [
+    "More scene/poser sandbox than narrative RPG",
+    "Steam build needs official DLC/community packs for full uncensored flexibility"
+  ],
+  "image": {
+    "src": "/media/entities/games/honey-come.webp",
+    "alt": "HoneyCome: Come Come Party logo and brand card",
+    "source_url": "https://store.steampowered.com/app/2863140/HoneyCome_Come_Come_Party/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/2863140/HoneyCome_Come_Come_Party/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$59)",
+      "source_url": "https://store.steampowered.com/app/2863140/HoneyCome_Come_Come_Party/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Steam",
+      "source_url": "https://store.steampowered.com/app/2863140/HoneyCome_Come_Come_Party/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/2863140/HoneyCome_Come_Come_Party/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

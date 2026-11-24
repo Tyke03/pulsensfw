@@ -1,0 +1,78 @@
+{
+  "slug": "livecamgirls",
+  "type": "site",
+  "name": "LiveCamGirls",
+  "url": "https://www.livecamgirls.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Straightforward live webcam aggregator and room portal linking 24/7 verified solo performers across HD streams.",
+  "tags": [
+    "cams",
+    "live",
+    "mainstream"
+  ],
+  "ranking_rationale": "Fast grid discovery sorting live rooms by region and show type (trade-off: redirects selectively into partner cam engines).",
+  "pricing": {
+    "model": "Free directory + room credits",
+    "free_tier": "Free public room previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Fast grid discovery sorting live rooms by region and show type",
+    "No heavy bloat scripts slowing page load",
+    "Free lobby previews"
+  ],
+  "cons": [
+    "Redirects selectively into partner cam engines",
+    "Generic design aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/sites/livecamgirls.webp",
+    "alt": "LiveCamGirls logo and brand card",
+    "source_url": "https://www.livecamgirls.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.livecamgirls.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free directory + room credits",
+      "source_url": "https://www.livecamgirls.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.livecamgirls.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "livecamgirls.com",
+      "source_url": "https://www.livecamgirls.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

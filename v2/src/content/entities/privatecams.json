@@ -1,0 +1,78 @@
+{
+  "slug": "privatecams",
+  "type": "site",
+  "name": "PrivateCams",
+  "url": "https://www.privatecams.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Focused 1-on-1 private webcam directory emphasizing intimate two-way cam2cam audio/video sessions over crowded public rooms.",
+  "tags": [
+    "cams",
+    "live",
+    "private-shows"
+  ],
+  "ranking_rationale": "Strong privacy controls and crystal-clear 1-on-1 encrypted shows (trade-off: very few free explicit public shows—built strictly for private chat).",
+  "pricing": {
+    "model": "Credits per minute",
+    "free_tier": "Free lobby preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Strong privacy controls and crystal-clear 1-on-1 encrypted shows",
+    "Upfront minute rates displayed directly on model tiles",
+    "Zero noisy crowds inside private rooms"
+  ],
+  "cons": [
+    "Very few free explicit public shows—built strictly for private chat",
+    "Legacy portal UI"
+  ],
+  "image": {
+    "src": "/media/entities/sites/privatecams.webp",
+    "alt": "PrivateCams logo and brand card",
+    "source_url": "https://www.privatecams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.privatecams.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits per minute",
+      "source_url": "https://www.privatecams.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.privatecams.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "privatecams.com",
+      "source_url": "https://www.privatecams.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

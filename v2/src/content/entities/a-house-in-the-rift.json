@@ -1,0 +1,81 @@
+{
+  "slug": "a-house-in-the-rift",
+  "type": "game",
+  "name": "A House in the Rift",
+  "url": "https://store.steampowered.com/app/1784590/A_House_in_the_Rift/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Popular sci-fi multiverse adult visual novel & hub-management game tracking an inventor navigating surreal parallel worlds.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "sci-fi",
+    "pc"
+  ],
+  "ranking_rationale": "Distinctive sharp 3D character styling & surprisingly engaging dimension-hopping plot (trade-off: ongoing episodic act drops take time between chapters).",
+  "pricing": {
+    "model": "One-time Steam purchase (~$15)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Distinctive sharp 3D character styling & surprisingly engaging dimension-hopping plot",
+    "Smart time/resource upgrades blend neatly with relationship choices",
+    "Native official Steam release"
+  ],
+  "cons": [
+    "Ongoing episodic act drops take time between chapters",
+    "Heavy focus on adult cast world-hopping dialogue"
+  ],
+  "image": {
+    "src": "/media/entities/games/a-house-in-the-rift.webp",
+    "alt": "A House in the Rift logo and brand card",
+    "source_url": "https://store.steampowered.com/app/1784590/A_House_in_the_Rift/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/1784590/A_House_in_the_Rift/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$15)",
+      "source_url": "https://store.steampowered.com/app/1784590/A_House_in_the_Rift/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/1784590/A_House_in_the_Rift/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/1784590/A_House_in_the_Rift/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

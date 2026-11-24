@@ -1,0 +1,78 @@
+{
+  "slug": "hotmovs",
+  "type": "site",
+  "name": "HotMovs",
+  "url": "https://hotmovs.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Fast multi-category free porn tube aggregator indexing crisp mainstream studio promos, amateur clips, and duration-sorted feeds.",
+  "tags": [
+    "tube",
+    "free",
+    "aggregator"
+  ],
+  "ranking_rationale": "Clean responsive dark grid with reliable HTML5 player previews (trade-off: standard network tube ad overlays).",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Clean responsive dark grid with reliable HTML5 player previews",
+    "Strong duration and recency sorting across genres",
+    "Low login friction"
+  ],
+  "cons": [
+    "Standard network tube ad overlays",
+    "Mixes shorter promo uploads alongside full clips"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hotmovs.webp",
+    "alt": "HotMovs logo and brand card",
+    "source_url": "https://hotmovs.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://hotmovs.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://hotmovs.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hotmovs.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hotmovs.com",
+      "source_url": "https://hotmovs.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "stileproject",
+  "type": "site",
+  "name": "StileProject",
+  "url": "https://www.stileproject.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Legendary internet-era adult portal running since the late 1990s—now curated cleanly as a fast dark tube & model link hub.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream"
+  ],
+  "ranking_rationale": "Over 25 years of continuous web history & trusted uptime (trade-off: classic retro aesthetic with ad banners).",
+  "pricing": {
+    "model": "Free ad-supported portal",
+    "free_tier": "Free streaming & galleries",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Over 25 years of continuous web history & trusted uptime",
+    "Clean simple black-and-red category index",
+    "Solid balance of videos and galleries"
+  ],
+  "cons": [
+    "Classic retro aesthetic with ad banners",
+    "Relies partly on partner feed aggregation"
+  ],
+  "image": {
+    "src": "/media/entities/sites/stileproject.webp",
+    "alt": "StileProject logo and brand card",
+    "source_url": "https://www.stileproject.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.stileproject.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported portal",
+      "source_url": "https://www.stileproject.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.stileproject.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "stileproject.com",
+      "source_url": "https://www.stileproject.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

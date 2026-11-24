@@ -340,7 +340,21 @@ export function searchCatalog(
         const inBody = variants.some((v) => tokenMatches(item.fullText, v));
         if (inTitle || inTags || inBody) {
           matchedTokens += 1;
-          if (inTitle) {
+          const isCategoryToken = Boolean(SEARCH_SYNONYMS[token]);
+          if (isCategoryToken) {
+            if (inTitle && inTags) {
+              rankScore += 58;
+              strongHit = true;
+            } else if (inTags) {
+              rankScore += 55;
+              strongHit = true;
+            } else if (inTitle) {
+              rankScore += 30;
+              strongHit = true;
+            } else {
+              rankScore += 8;
+            }
+          } else if (inTitle) {
             rankScore += 65;
             strongHit = true;
           } else if (inTags) {
@@ -357,7 +371,7 @@ export function searchCatalog(
         if (hintTypes.has(item.hit.type)) rankScore += 65;
         else rankScore -= 25;
       }
-      rankScore += item.rating * 1.5 + (item.hasPhoto ? 4 : 0);
+      rankScore += item.rating * 6 + (item.hasPhoto ? 4 : 0);
       return { item, matchedTokens, rankScore, strongHit };
     })
     .filter((entry): entry is NonNullable<typeof entry> => entry !== null);

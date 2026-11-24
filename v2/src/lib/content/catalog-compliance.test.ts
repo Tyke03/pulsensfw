@@ -78,6 +78,31 @@ const BANNED_STAR_SLUGS = new Set([
   'sabrina-blond',
   'sascha',
   'thierry-schaffauser',
+  // Cycle 7 Critique #7 purges
+  'linse-kessler',
+  'keiji-inafune',
+  'chuy-bravo',
+  'ivana-knoll',
+  'kang-ye-won',
+  'lee-tae-im',
+  'kang-ye-bin',
+  'choi-eun',
+  'adrian-bouchet',
+  'simona-fusco',
+  'kelly-wearstler',
+  'bruna-surfistinha',
+  'joe-dallesandro',
+  'kristine-debell',
+  'jeana-keough',
+  'jodie-marsh',
+  'ozzy-lusth',
+  'sara-jean-underwood',
+  'shannon-tweed',
+  'brande-roderick',
+  'kylie-wylde',
+  'nikki-nova',
+  'nikita-gross',
+  'wash-westmoreland',
 ]);
 
 const BANNED_NON_STAR_SLUGS = new Set([
@@ -85,6 +110,13 @@ const BANNED_NON_STAR_SLUGS = new Set([
   'dohna-dohna',
   'shemalez',
   'riddle-joker',
+  'tubsexer',
+  'kinkclips',
+  'extralunchmoney',
+  'mygirlfund',
+  'smutcam',
+  'gaytube',
+  'porndoe-premium',
 ]);
 
 const OFFENDER_TEXT_RE = /\b(?:convicted|sex offender|csam|child sexual|pedophil|traffick|homicide|murder)\b/i;
@@ -234,7 +266,16 @@ test('non-stars pass hub hygiene, free_tier integrity, unique new URLs, and copy
     'njoy-pure-plug-2',
     'tenga-egg',
   ]);
-  const UTILITY_NO_VR_SLUGS = new Set(['eroscripts', 'xbvr', 'whisparr', 'funscript-io']);
+  const UTILITY_NO_VR_SLUGS = new Set([
+    'eroscripts',
+    'xbvr',
+    'whisparr',
+    'funscript-io',
+    'handyfeeling',
+    'multi-fun-player',
+    'openfunscripter',
+    'scriptplayer',
+  ]);
   const NON_PLATFORM_SLUGS = new Set([
     'itch-io-adult',
     'booth-pm',
@@ -320,15 +361,29 @@ test('non-stars pass hub hygiene, free_tier integrity, unique new URLs, and copy
 
     const copyBlob = [entity.summary, entity.ranking_rationale ?? '', ...(entity.pros ?? []), ...(entity.cons ?? [])].join(' ');
     assert.ok(!copyBlob.includes('$$'), `Entity ${entity.slug} contains $$ typo`);
+    assert.ok(!entity.name.includes('☆'), `Entity ${entity.slug} name contains missing-glyph symbol`);
     if (entity.updated >= '2026-11-26') {
-      assert.ok(!RISKY_BRAND_PHRASE_RE.test(copyBlob), `Wave 6 entity ${entity.slug} contains disallowed risky phrasing`);
+      assert.ok(!RISKY_BRAND_PHRASE_RE.test(copyBlob), `Wave 6+ entity ${entity.slug} contains disallowed risky phrasing`);
+    }
+    if (entity.updated >= '2026-11-27' && entity.ranking_rationale) {
+      assert.ok(
+        !/\(trade-off:\s*[^)]*\([^)]*\)[^)]*\)/.test(entity.ranking_rationale),
+        `Wave 7 entity ${entity.slug} ranking_rationale contains nested parentheses`,
+      );
     }
 
     const catFact = getFactValue(entity, 'Category');
     if (catFact) {
       assert.notEqual(catFact, 'Vr & Games', `Category fact casing bug on ${entity.slug}`);
+      assert.notEqual(catFact, 'Vr Studio', `Category fact casing bug on ${entity.slug}`);
       assert.notEqual(catFact, 'Local Ai', `Category fact casing bug on ${entity.slug}`);
       assert.notEqual(catFact, 'Ai Platform', `Category fact casing bug on ${entity.slug}`);
+      if (catFact === 'Directory / Forum' && entity.updated >= '2026-11-26') {
+        assert.ok(
+          !tagsLower.includes('cams') && !tagsLower.includes('live'),
+          `Directory/Forum ${entity.slug} must not leak into Live Cams`,
+        );
+      }
     }
   }
 

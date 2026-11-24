@@ -1,0 +1,63 @@
+{
+  "slug": "andressa-urach",
+  "type": "star",
+  "name": "Andressa Urach",
+  "url": "https://en.wikipedia.org/wiki/Andressa_Urach",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Andressa Urach is an adult film performer from Brazil (b. 1987). Adult industry credits documented via Wikidata and Wikimedia Commons.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/andressa-urach.jpg",
+    "alt": "SFW portrait of Andressa Urach",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Andressa_Urach_IMG_1686_(24560607221)_(cropped).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q15578722 (Brazil)",
+      "source_url": "http://www.wikidata.org/entity/Q15578722",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1987",
+      "source_url": "http://www.wikidata.org/entity/Q15578722",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Andressa_Urach",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "babecams",
+  "type": "site",
+  "name": "BabeCams",
+  "url": "https://www.babecams.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Mainstream webcam network pairing glamour & solo entertainers across HD public chatrooms and instant private-show toggles.",
+  "tags": [
+    "cams",
+    "live",
+    "glamour"
+  ],
+  "ranking_rationale": "Reliable desktop and mobile WebRTC streaming uptime, weighed against aggressive VIP credit deposit upsells.",
+  "pricing": {
+    "model": "Tokens & credits",
+    "free_tier": "Free public previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "Reliable desktop and mobile WebRTC streaming uptime",
+    "Simple tag browsing across hair, language, and toy sync",
+    "Quick free guest room preview"
+  ],
+  "cons": [
+    "Aggressive VIP credit deposit upsells",
+    "Limited indie amateur niche variety"
+  ],
+  "image": {
+    "src": "/media/entities/sites/babecams.webp",
+    "alt": "BabeCams logo and brand card",
+    "source_url": "https://www.babecams.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.babecams.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Tokens & credits",
+      "source_url": "https://www.babecams.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.babecams.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "babecams.com",
+      "source_url": "https://www.babecams.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "steven-scarborough",
+  "type": "star",
+  "name": "Steven Scarborough",
+  "url": "https://en.wikipedia.org/wiki/Steven_Scarborough",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Steven Scarborough — American pornographic film director (b. 1954).",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/steven-scarborough.jpg",
+    "alt": "SFW portrait of Steven Scarborough",
+    "source_url": "https://commons.wikimedia.org/wiki/File:StevenScarborough08.jpg",
+    "license": "public-domain",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q788358 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q788358",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1954",
+      "source_url": "http://www.wikidata.org/entity/Q788358",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Steven_Scarborough",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

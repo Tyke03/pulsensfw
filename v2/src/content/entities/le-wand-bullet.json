@@ -1,0 +1,78 @@
+{
+  "slug": "le-wand-bullet",
+  "type": "product",
+  "name": "Le Wand Bullet",
+  "url": "https://lewandmassager.com/products/le-wand-bullet",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Machined surgical-grade feel mini vibrator delivering heavy low-frequency rumble in a tiny travel lipstick form.",
+  "tags": [
+    "vibrator",
+    "luxury",
+    "travel",
+    "waterproof"
+  ],
+  "ranking_rationale": "Solid reassuring weighted chassis focuses deep rumbles cleanly to the rounded tip (trade-off: smooth metal surface conducts crisp vibration straight into gripping fingers).",
+  "pricing": {
+    "model": "Hardware purchase (~$95)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Solid reassuring weighted chassis focuses deep rumbles cleanly to the rounded tip",
+    "USB-C travel convenience + waterproof sealing",
+    "Impressively deep tone for a bullet vibe"
+  ],
+  "cons": [
+    "Smooth metal surface conducts crisp vibration straight into gripping fingers",
+    "Lacks flexible silicone cushioning"
+  ],
+  "image": {
+    "src": "/media/entities/products/le-wand-bullet.webp",
+    "alt": "Le Wand Bullet logo and brand card",
+    "source_url": "https://lewandmassager.com/products/le-wand-bullet",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://lewandmassager.com/products/le-wand-bullet",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$95)",
+      "source_url": "https://lewandmassager.com/products/le-wand-bullet",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://lewandmassager.com/products/le-wand-bullet",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lewandmassager.com",
+      "source_url": "https://lewandmassager.com/products/le-wand-bullet",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

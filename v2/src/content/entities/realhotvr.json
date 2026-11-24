@@ -1,0 +1,79 @@
+{
+  "slug": "realhotvr",
+  "type": "site",
+  "name": "RealHotVR",
+  "url": "https://realhotvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Reliable 6K/8K POV VR studio delivering authentic amateur-glamour European shoots, slow-burn seduction, and crisp downloads.",
+  "tags": [
+    "vr",
+    "studio",
+    "streaming"
+  ],
+  "ranking_rationale": "Natural unforced chemistry with clear close-focus VR optics, weighed against smaller release schedule.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Natural unforced chemistry with clear close-focus VR optics",
+    "Supports DeoVR/SLR streaming and DRM-free MP4 downloads",
+    "Clean mobile & Quest browser UX"
+  ],
+  "cons": [
+    "Smaller release schedule",
+    "Limited sci-fi/cosplay variety"
+  ],
+  "image": {
+    "src": "/media/entities/sites/realhotvr.webp",
+    "alt": "RealHotVR logo and brand card",
+    "source_url": "https://realhotvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://realhotvr.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://realhotvr.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://realhotvr.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "realhotvr.com",
+      "source_url": "https://realhotvr.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

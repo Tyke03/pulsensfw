@@ -1,0 +1,78 @@
+{
+  "slug": "chatterui",
+  "type": "ai_app",
+  "name": "ChatterUI",
+  "url": "https://github.com/Vali-98/ChatterUI",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Open-source privacy-first Android frontend for running offline local GGUFs or connecting directly to KoboldCpp, TabbyAPI & OpenAI.",
+  "tags": [
+    "local",
+    "chat",
+    "open-source",
+    "privacy"
+  ],
+  "ranking_rationale": "Zero telemetry 100% open-source Android client importing standard SillyTavern character PNGs cleanly (trade-off: Android exclusive).",
+  "pricing": {
+    "model": "100% free & open-source",
+    "free_tier": "Completely free MIT Android APK",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Android"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Zero telemetry 100% open-source Android client importing standard SillyTavern character PNGs cleanly",
+    "Switches effortlessly between local phone inference and your home GPU KoboldCpp server",
+    "Custom lorebooks & samplers included"
+  ],
+  "cons": [
+    "Android exclusive",
+    "Utilitarian dev-crafted material UI"
+  ],
+  "image": {
+    "src": "/media/entities/ai/chatterui.webp",
+    "alt": "ChatterUI logo and brand card",
+    "source_url": "https://github.com/Vali-98/ChatterUI",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local AI",
+      "source_url": "https://github.com/Vali-98/ChatterUI",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free & open-source",
+      "source_url": "https://github.com/Vali-98/ChatterUI",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Android",
+      "source_url": "https://github.com/Vali-98/ChatterUI",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/Vali-98/ChatterUI",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "tubepleasure",
+  "type": "site",
+  "name": "TubePleasure",
+  "url": "https://www.tubepleasure.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Lightweight classic free porn tube aggregator indexing broad partner clip embeds cleanly across responsive desktop and mobile tabs.",
+  "tags": [
+    "tube",
+    "free",
+    "aggregator"
+  ],
+  "ranking_rationale": "Simple low-bloat layout opens videos rapidly (trade-off: heavily relies on outgoing partner tube embeds).",
+  "pricing": {
+    "model": "Free meta-tube aggregator",
+    "free_tier": "Free clip search & streaming",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.1,
+  "pros": [
+    "Simple low-bloat layout opens videos rapidly",
+    "Straightforward niche and length filters",
+    "No account required"
+  ],
+  "cons": [
+    "Heavily relies on outgoing partner tube embeds",
+    "Aged early-2010s styling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tubepleasure.webp",
+    "alt": "TubePleasure logo and brand card",
+    "source_url": "https://www.tubepleasure.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.tubepleasure.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube aggregator",
+      "source_url": "https://www.tubepleasure.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tubepleasure.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tubepleasure.com",
+      "source_url": "https://www.tubepleasure.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

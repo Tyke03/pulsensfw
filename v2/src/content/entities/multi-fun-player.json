@@ -1,0 +1,78 @@
+{
+  "slug": "multi-fun-player",
+  "type": "site",
+  "name": "MultiFunPlayer",
+  "url": "https://github.com/Yoooi0/MultiFunPlayer",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The gold-standard open-source multi-axis motion player driving OSR2, SR6, Handy & Buttplug devices cleanly from DeoVR, HereSphere & Plex.",
+  "tags": [
+    "tools",
+    "open-source",
+    "haptics",
+    "forums"
+  ],
+  "ranking_rationale": "Unlocks full 6-DOF pitch/roll/twist multi-axis trajectories natively on OSR2/SR6 rigs (trade-off: Windows desktop app designed around advanced DIY/multi-axis tinkerers).",
+  "pricing": {
+    "model": "100% free open-source",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows"
+  ],
+  "score": 8.9,
+  "pros": [
+    "Unlocks full 6-DOF pitch/roll/twist multi-axis trajectories natively on OSR2/SR6 rigs",
+    "Zero-latency sync hooks into Plex, MPV, VLC, DeoVR & HereSphere out of the box",
+    "Active community presets & smart speed smoothing"
+  ],
+  "cons": [
+    "Windows desktop app designed around advanced DIY/multi-axis tinkerers",
+    "Rich node config overwhelms casual phone-app users"
+  ],
+  "image": {
+    "src": "/media/entities/sites/multi-fun-player.webp",
+    "alt": "MultiFunPlayer logo and brand card",
+    "source_url": "https://github.com/Yoooi0/MultiFunPlayer",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://github.com/Yoooi0/MultiFunPlayer",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open-source",
+      "source_url": "https://github.com/Yoooi0/MultiFunPlayer",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows",
+      "source_url": "https://github.com/Yoooi0/MultiFunPlayer",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/Yoooi0/MultiFunPlayer",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

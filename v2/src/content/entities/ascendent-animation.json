@@ -1,0 +1,78 @@
+{
+  "slug": "ascendent-animation",
+  "type": "site",
+  "name": "Ascendent Animation",
+  "url": "https://www.ascendentanimation.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Licensed North American animation & dubbing studio producing official uncensored English dubs and Blu-rays for spicy anime series.",
+  "tags": [
+    "hentai",
+    "anime",
+    "premium"
+  ],
+  "ranking_rationale": "Delivers genuine studio-directed English dubs and Blu-ray releases for spicy/R-18 titles (trade-off: specialized curated catalog focuses on serialized romantic/spicy OVAs).",
+  "pricing": {
+    "model": "Blu-ray & licensed digital releases",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Physical Media"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Delivers genuine studio-directed English dubs and Blu-ray releases for spicy/R-18 titles",
+    "100% legal licensing supporting original Japanese animation studios",
+    "Partners directly with OceanVeil and Coolmic"
+  ],
+  "cons": [
+    "Specialized curated catalog focuses on serialized romantic/spicy OVAs",
+    "Physical Blu-ray pressings sell out in limited runs"
+  ],
+  "image": {
+    "src": "/media/entities/sites/ascendent-animation.webp",
+    "alt": "Ascendent Animation logo and brand card",
+    "source_url": "https://www.ascendentanimation.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.ascendentanimation.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Blu-ray & licensed digital releases",
+      "source_url": "https://www.ascendentanimation.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Physical Media",
+      "source_url": "https://www.ascendentanimation.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "ascendentanimation.com",
+      "source_url": "https://www.ascendentanimation.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

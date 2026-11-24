@@ -1,0 +1,64 @@
+{
+  "slug": "susan-wayland",
+  "type": "star",
+  "name": "Susan Wayland",
+  "url": "https://en.wikipedia.org/wiki/Susan_Wayland",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Susan Wayland is an adult film performer from Germany (b. 1980). Adult industry credits documented via Wikidata and Wikimedia Commons.",
+  "tags": [
+    "performer",
+    "veteran",
+    "glamour"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/susan-wayland.jpg",
+    "alt": "SFW portrait of Susan Wayland",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Susan_Wayland_CC_image.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q12072588 (Germany)",
+      "source_url": "http://www.wikidata.org/entity/Q12072588",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1980",
+      "source_url": "http://www.wikidata.org/entity/Q12072588",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Susan_Wayland",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

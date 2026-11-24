@@ -1,0 +1,79 @@
+{
+  "slug": "kuma-books",
+  "type": "site",
+  "name": "KUMA",
+  "url": "https://kuma.pub",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Official licensed independent publisher releasing uncensored print & DRM-free digital adult manga, yaoi, and indie Japanese hits.",
+  "tags": [
+    "hentai",
+    "manga",
+    "doujinshi",
+    "store"
+  ],
+  "ranking_rationale": "100% legal uncensored English editions paying mangaka directly (trade-off: selective curated boutique release slate grows slowly).",
+  "pricing": {
+    "model": "Retail print & DRM-free ebooks",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Books"
+  ],
+  "score": 8.3,
+  "pros": [
+    "100% legal uncensored English editions paying mangaka directly",
+    "Offers clean DRM-free CBZ/PDF digital downloads alongside print books",
+    "Thoughtful translation and uncensored art restoration"
+  ],
+  "cons": [
+    "Selective curated boutique release slate grows slowly",
+    "Direct digital storefront requires account"
+  ],
+  "image": {
+    "src": "/media/entities/sites/kuma-books.webp",
+    "alt": "KUMA logo and brand card",
+    "source_url": "https://kuma.pub",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://kuma.pub",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Retail print & DRM-free ebooks",
+      "source_url": "https://kuma.pub",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Books",
+      "source_url": "https://kuma.pub",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "kuma.pub",
+      "source_url": "https://kuma.pub",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

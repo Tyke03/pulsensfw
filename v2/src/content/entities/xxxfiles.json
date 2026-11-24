@@ -1,0 +1,78 @@
+{
+  "slug": "xxxfiles",
+  "type": "site",
+  "name": "XXXFiles",
+  "url": "https://www.xxxfiles.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean categorized free tube focusing on sorted playlists, verified model tags, and reliable mobile video delivery.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Easy duration sorting for full-scene hunting (trade-off: pop-under redirects appear occasionally).",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free streaming with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Easy duration sorting for full-scene hunting",
+    "Stable HTML5 player",
+    "Good performer name tagging"
+  ],
+  "cons": [
+    "Pop-under redirects appear occasionally",
+    "Limited original exclusive uploads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/xxxfiles.webp",
+    "alt": "XXXFiles logo and brand card",
+    "source_url": "https://www.xxxfiles.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.xxxfiles.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.xxxfiles.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.xxxfiles.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "xxxfiles.com",
+      "source_url": "https://www.xxxfiles.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

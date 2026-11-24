@@ -1,0 +1,79 @@
+{
+  "slug": "seiga-nicovideo",
+  "type": "site",
+  "name": "Niconico Seiga",
+  "url": "https://seiga.nicovideo.jp",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Niconico's vast Japanese manga & illustration showcase housing webcomics, R-15/shunga galleries, and live comment overlays.",
+  "tags": [
+    "comics",
+    "art",
+    "manga",
+    "community"
+  ],
+  "ranking_rationale": "Famous for official indie webmanga serials & real-time scrolling viewer reactions (trade-off: Japanese-only interface & stricter shunga rules than Pixiv R-18).",
+  "pricing": {
+    "model": "Freemium Japanese art hub",
+    "free_tier": "Free browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Famous for official indie webmanga serials & real-time scrolling viewer reactions",
+    "Rich archive of beloved Japanese illustrators alongside Pixiv",
+    "Free account browsing"
+  ],
+  "cons": [
+    "Japanese-only interface & stricter shunga rules than Pixiv R-18",
+    "Requires free Niconico login for mature filters"
+  ],
+  "image": {
+    "src": "/media/entities/sites/seiga-nicovideo.webp",
+    "alt": "Niconico Seiga logo and brand card",
+    "source_url": "https://seiga.nicovideo.jp",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://seiga.nicovideo.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium Japanese art hub",
+      "source_url": "https://seiga.nicovideo.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://seiga.nicovideo.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "seiga.nicovideo.jp",
+      "source_url": "https://seiga.nicovideo.jp",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

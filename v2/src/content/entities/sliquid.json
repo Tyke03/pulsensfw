@@ -1,0 +1,78 @@
+{
+  "slug": "sliquid",
+  "type": "site",
+  "name": "Sliquid",
+  "url": "https://sliquid.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Gold-standard toy-safe water, hybrid & organic lubricant line free of glycerin, parabens, sugars & irritating petrochemicals.",
+  "tags": [
+    "niche",
+    "wellness",
+    "store"
+  ],
+  "ranking_rationale": "100% safe for medical-grade silicone toys—zero sticky gum or yeast-triggering glycerin (trade-off: pure water-based formulas absorb naturally and need periodic re-spritzing with water).",
+  "pricing": {
+    "model": "Official wellness store",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "100% safe for medical-grade silicone toys—zero sticky gum or yeast-triggering glycerin",
+    "Dedicated H2O, Sassy thicker gel, Swirl & Organic aloe variants match every body cleanly",
+    "Vegan and pH-balanced formulas"
+  ],
+  "cons": [
+    "Pure water-based formulas absorb naturally and need periodic re-spritzing with water",
+    "Flip-top caps leak slightly in soft luggage unless bagged"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sliquid.webp",
+    "alt": "Sliquid logo and brand card",
+    "source_url": "https://sliquid.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://sliquid.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Official wellness store",
+      "source_url": "https://sliquid.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://sliquid.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sliquid.com",
+      "source_url": "https://sliquid.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

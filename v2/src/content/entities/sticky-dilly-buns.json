@@ -1,0 +1,79 @@
+{
+  "slug": "sticky-dilly-buns",
+  "type": "site",
+  "name": "Sticky Dilly Buns",
+  "url": "https://www.stickydillybuns.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Playful slice-of-life Hollywood-set comedy & NSFW romance webcomic by Ménage à 3 creators Gisele Lagace and Dave Lumsdon.",
+  "tags": [
+    "comics",
+    "western",
+    "story",
+    "free"
+  ],
+  "ranking_rationale": "Smart brisk comedic banter pairing lovable characters with spicy humor (trade-off: pacing leans heavier on comedy/soap-opera romance than constant explicit scenes).",
+  "pricing": {
+    "model": "Free webcomic + Patreon supporters",
+    "free_tier": "Full comic archive free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Smart brisk comedic banter pairing lovable characters with spicy humor",
+    "Complete multi-year comic archive readable completely free online",
+    "Distinct lively inked cartoon style"
+  ],
+  "cons": [
+    "Pacing leans heavier on comedy/soap-opera romance than constant explicit scenes",
+    "Classic webcomic layout"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sticky-dilly-buns.webp",
+    "alt": "Sticky Dilly Buns logo and brand card",
+    "source_url": "https://www.stickydillybuns.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Comics & Rule34",
+      "source_url": "https://www.stickydillybuns.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free webcomic + Patreon supporters",
+      "source_url": "https://www.stickydillybuns.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.stickydillybuns.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "stickydillybuns.com",
+      "source_url": "https://www.stickydillybuns.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

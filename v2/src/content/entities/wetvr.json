@@ -49,7 +49,7 @@
   "facts": [
     {
       "key": "Category",
-      "value": "Vr Studio",
+      "value": "VR Studio",
       "source_url": "https://wetvr.com",
       "checked": "2026-11-26",
       "evidence_type": "first_party"

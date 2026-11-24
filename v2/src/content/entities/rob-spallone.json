@@ -1,0 +1,64 @@
+{
+  "slug": "rob-spallone",
+  "type": "star",
+  "name": "Rob Spallone",
+  "url": "http://www.wikidata.org/entity/Q7340566",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Rob Spallone — American pornographic film director (b. 1963).",
+  "tags": [
+    "performer",
+    "veteran",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/rob-spallone.jpg",
+    "alt": "SFW portrait of Rob Spallone",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rob_Spallone.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q7340566 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q7340566",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1963",
+      "source_url": "http://www.wikidata.org/entity/Q7340566",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "http://www.wikidata.org/entity/Q7340566",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

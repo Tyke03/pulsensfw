@@ -1,0 +1,78 @@
+{
+  "slug": "unbound-ollie",
+  "type": "product",
+  "name": "Unbound Ollie",
+  "url": "https://unboundbabes.com/products/ollie",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Sculpted dual-ended external & G-spot silicone vibe bending softly to match varied curves without bulky weight.",
+  "tags": [
+    "vibrator",
+    "solo",
+    "waterproof",
+    "budget"
+  ],
+  "ranking_rationale": "Contoured flexible silicone stem offers both broad surface pad and targeted internal curve, weighed against a single motor that vibrates the handle subtly at max speed.",
+  "pricing": {
+    "model": "Hardware purchase (~$59)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Contoured flexible silicone stem offers both broad surface pad AND targeted internal curve",
+    "Quiet warm motor with waterproof USB rechargeability",
+    "Approachable ~$59 retail tier"
+  ],
+  "cons": [
+    "Single motor vibrates handle subtly at max speed",
+    "Not sized as heavy depth dilator"
+  ],
+  "image": {
+    "src": "/media/entities/products/unbound-ollie.webp",
+    "alt": "Unbound Ollie logo and brand card",
+    "source_url": "https://unboundbabes.com/products/ollie",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://unboundbabes.com/products/ollie",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$59)",
+      "source_url": "https://unboundbabes.com/products/ollie",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://unboundbabes.com/products/ollie",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "unboundbabes.com",
+      "source_url": "https://unboundbabes.com/products/ollie",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

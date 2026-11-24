@@ -1,0 +1,79 @@
+{
+  "slug": "boosty",
+  "type": "site",
+  "name": "Boosty",
+  "url": "https://boosty.to",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Major international creator patronage and tiered subscription hub embraced globally by cosplayers, illustrators, modders & models.",
+  "tags": [
+    "platform",
+    "creator",
+    "cosplay",
+    "art"
+  ],
+  "ranking_rationale": "Welcomes creators globally with flexible one-off paid posts alongside tiers, weighed against strict moderation that bans explicit hardcore video while permitting cosplay/spicy tiers.",
+  "pricing": {
+    "model": "Monthly tiers & paid posts",
+    "free_tier": "Free public creator posts",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Welcomes creators globally with flexible one-off paid posts alongside tiers",
+    "Clean modern responsive feed & high-res photo/archive attachments",
+    "Strong gaming modder and cosplay creator community"
+  ],
+  "cons": [
+    "Strict moderation bans explicit hardcore video while permitting cosplay/spicy tiers",
+    "Currency payment processor friction occurs intermittently"
+  ],
+  "image": {
+    "src": "/media/entities/sites/boosty.webp",
+    "alt": "Boosty logo and brand card",
+    "source_url": "https://boosty.to",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://boosty.to",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Monthly tiers & paid posts",
+      "source_url": "https://boosty.to",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://boosty.to",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "boosty.to",
+      "source_url": "https://boosty.to",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

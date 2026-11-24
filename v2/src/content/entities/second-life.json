@@ -1,0 +1,80 @@
+{
+  "slug": "second-life",
+  "type": "game",
+  "name": "Second Life (Adult Regions)",
+  "url": "https://secondlife.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The enduring player-built 3D virtual world hosting sprawling Zindra adult nightlife continents, custom avatars & live scripted partner animation clubs.",
+  "tags": [
+    "games",
+    "sandbox",
+    "3d",
+    "community"
+  ],
+  "ranking_rationale": "Enormous active adult nightlife, fetish club, roleplay & custom avatar economy running 20+ years, weighed against steep 2000s UI/inventory learning curve and choppy viewer framerates in crowded clubs.",
+  "pricing": {
+    "model": "Freemium virtual world",
+    "free_tier": "Free account & world exploration",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Enormous active adult nightlife, fetish club, roleplay & custom avatar economy running 20+ years",
+    "Free core client access supporting custom avatar bodies and animated furniture",
+    "Real-time social voice & text communities"
+  ],
+  "cons": [
+    "Steep 2000s UI/inventory learning curve and choppy viewer framerates in crowded clubs",
+    "Quality mesh avatars & adult animations cost Linden Dollars"
+  ],
+  "image": {
+    "src": "/media/entities/games/second-life.webp",
+    "alt": "Second Life (Adult Regions) logo and brand card",
+    "source_url": "https://secondlife.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://secondlife.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium virtual world",
+      "source_url": "https://secondlife.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://secondlife.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "secondlife.com",
+      "source_url": "https://secondlife.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

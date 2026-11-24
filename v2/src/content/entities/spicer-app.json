@@ -1,0 +1,79 @@
+{
+  "slug": "spicer-app",
+  "type": "site",
+  "name": "Spicer",
+  "url": "https://spicer.app",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Polished couples intimacy swipe-matching app revealing ONLY mutual fantasies both partners answer Yes to cleanly from smartphones.",
+  "tags": [
+    "niche",
+    "couples",
+    "quiz",
+    "free"
+  ],
+  "ranking_rationale": "Modern swipe-matching UX keeps partner kink discovery playful rather than clinical (trade-off: expanded specialized kink decks require in-app upgrades).",
+  "pricing": {
+    "model": "Freemium couples app",
+    "free_tier": "Free core partner matching",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Modern swipe-matching UX keeps partner kink discovery playful rather than clinical",
+    "Strict end-to-end privacy hides unshared answers completely",
+    "Free core intimacy question packs"
+  ],
+  "cons": [
+    "Expanded specialized kink decks require in-app upgrades",
+    "Mobile-app centric rather than open web forums"
+  ],
+  "image": {
+    "src": "/media/entities/sites/spicer-app.webp",
+    "alt": "Spicer logo and brand card",
+    "source_url": "https://spicer.app",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://spicer.app",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Freemium couples app",
+      "source_url": "https://spicer.app",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android",
+      "source_url": "https://spicer.app",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "spicer.app",
+      "source_url": "https://spicer.app",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

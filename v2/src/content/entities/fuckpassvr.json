@@ -1,0 +1,80 @@
+{
+  "slug": "fuckpassvr",
+  "type": "site",
+  "name": "FuckPassVR",
+  "url": "https://fuckpassvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-contrast Australian-US 8K VR porn studio famed for crystal-clear binaural audio, colorful club/loft lighting, and toy scripts.",
+  "tags": [
+    "vr",
+    "studio",
+    "8k",
+    "interactive"
+  ],
+  "ranking_rationale": "Crisp 8K clarity paired with genuinely sharp spatial binaural microphone staging (trade-off: brand name lacks subtlety in browser history).",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Crisp 8K clarity paired with genuinely sharp spatial binaural microphone staging",
+    "Supports interactive Handy/Lovense .funscript playback out of the box",
+    "Active star roster"
+  ],
+  "cons": [
+    "Brand name lacks subtlety in browser history",
+    "Modest total vault depth compared with legacy VR studios"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fuckpassvr.webp",
+    "alt": "FuckPassVR logo and brand card",
+    "source_url": "https://fuckpassvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR Studio",
+      "source_url": "https://fuckpassvr.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://fuckpassvr.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://fuckpassvr.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fuckpassvr.com",
+      "source_url": "https://fuckpassvr.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "fapachi",
+  "type": "site",
+  "name": "Fapachi",
+  "url": "https://fapachi.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Direct lightweight video search index indexing classic tube channels with rapid hover thumbnail previews.",
+  "tags": [
+    "tube",
+    "free",
+    "aggregator"
+  ],
+  "ranking_rationale": "Fast simple category browsing (trade-off: points outward frequently to partner sponsors).",
+  "pricing": {
+    "model": "Free meta-tube",
+    "free_tier": "Free browsing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.0,
+  "pros": [
+    "Fast simple category browsing",
+    "Low page weight on weak connections",
+    "No account needed"
+  ],
+  "cons": [
+    "Points outward frequently to partner sponsors",
+    "Utilitarian layout styling"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fapachi.webp",
+    "alt": "Fapachi logo and brand card",
+    "source_url": "https://fapachi.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://fapachi.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube",
+      "source_url": "https://fapachi.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://fapachi.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fapachi.com",
+      "source_url": "https://fapachi.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

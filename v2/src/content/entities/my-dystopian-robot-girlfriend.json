@@ -1,0 +1,81 @@
+{
+  "slug": "my-dystopian-robot-girlfriend",
+  "type": "game",
+  "name": "My Dystopian Robot Girlfriend",
+  "url": "https://store.steampowered.com/app/2736640/My_Dystopian_Robot_Girlfriend/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Bleakly witty cyberpunk survival & companion-upgrade sim set in a gritty neon slum where you scavenge parts & build intimacy.",
+  "tags": [
+    "games",
+    "visual-novel",
+    "sci-fi",
+    "pc"
+  ],
+  "ranking_rationale": "Distinctive gritty pixel/illustrated art + surprisingly gripping sci-fi narrative depth (trade-off: punishing early economy/hunger grind before unlocking automation).",
+  "pricing": {
+    "model": "One-time Steam / itch purchase (~$10)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "Android",
+    "Steam"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Distinctive gritty pixel/illustrated art + surprisingly gripping sci-fi narrative depth",
+    "Deep customization, jobs, and companion personality branches",
+    "Available cleanly via Steam & itch.io"
+  ],
+  "cons": [
+    "Punishing early economy/hunger grind before unlocking automation",
+    "Melancholic dystopian mood isn't cozy slice-of-life"
+  ],
+  "image": {
+    "src": "/media/entities/games/my-dystopian-robot-girlfriend.webp",
+    "alt": "My Dystopian Robot Girlfriend logo and brand card",
+    "source_url": "https://store.steampowered.com/app/2736640/My_Dystopian_Robot_Girlfriend/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/2736640/My_Dystopian_Robot_Girlfriend/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam / itch purchase (~$10)",
+      "source_url": "https://store.steampowered.com/app/2736640/My_Dystopian_Robot_Girlfriend/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux, Android, Steam",
+      "source_url": "https://store.steampowered.com/app/2736640/My_Dystopian_Robot_Girlfriend/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/2736640/My_Dystopian_Robot_Girlfriend/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

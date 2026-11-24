@@ -1,0 +1,79 @@
+{
+  "slug": "handyfeeling",
+  "type": "site",
+  "name": "Handyverse (HandyFeeling)",
+  "url": "https://handyverse.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The official interactive video, Wi-Fi stroke control, and local funscript player portal built for owners of The Handy.",
+  "tags": [
+    "tools",
+    "haptics",
+    "interactive",
+    "forums"
+  ],
+  "ranking_rationale": "Zero-install browser studio pairs via Wi-Fi Key to run local videos + synchronized .funscript tracks (trade-off: designed exclusively around The Handy hardware ecosystem).",
+  "pricing": {
+    "model": "100% free hardware portal",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Zero-install browser studio pairs via Wi-Fi Key to run local videos + synchronized .funscript tracks",
+    "Supports remote partner control links over internet smoothly",
+    "Clean dark minimal UX"
+  ],
+  "cons": [
+    "Designed exclusively around The Handy hardware ecosystem",
+    "Playback depends on bringing your own video/script pairs or partner tubes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/handyfeeling.webp",
+    "alt": "Handyverse (HandyFeeling) logo and brand card",
+    "source_url": "https://handyverse.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://handyverse.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free hardware portal",
+      "source_url": "https://handyverse.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://handyverse.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "handyverse.com",
+      "source_url": "https://handyverse.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

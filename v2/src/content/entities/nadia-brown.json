@@ -1,0 +1,63 @@
+{
+  "slug": "nadia-brown",
+  "type": "star",
+  "name": "Nadia Brown",
+  "url": "https://en.wikipedia.org/wiki/Nadia_Brown",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nadia Brown is an adult film performer from the United States (b. 1973). Adult industry credits documented via Wikidata and Wikimedia Commons.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/nadia-brown.jpg",
+    "alt": "SFW portrait of Nadia Brown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nadia_Brown_at_Porn_Star_Karaoke_9.jpg",
+    "license": "cc-by-sa-2.5",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q6957683 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q6957683",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1973",
+      "source_url": "http://www.wikidata.org/entity/Q6957683",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Nadia_Brown",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "openfunscripter",
+  "type": "site",
+  "name": "OpenFunscripter (OFS)",
+  "url": "https://github.com/OpenFunscripter/OFS",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "The industry-standard open-source desktop editor powering virtually every community-crafted haptic .funscript track online.",
+  "tags": [
+    "tools",
+    "open-source",
+    "haptics",
+    "forums"
+  ],
+  "ranking_rationale": "Frame-accurate waveform, optical motion-tracking & keyframe tools accelerate scripting 10x (trade-off: learning curve rewards reading EroScripts tutorials first).",
+  "pricing": {
+    "model": "100% free open-source editor",
+    "free_tier": "Completely free open-source",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "score": 9.0,
+  "pros": [
+    "Frame-accurate waveform, optical motion-tracking & keyframe tools accelerate scripting 10x",
+    "Cross-platform C++/SDL performance handles 8K SBS timeline previews smoothly",
+    "Free Lua plugin ecosystem & Buttplug live preview"
+  ],
+  "cons": [
+    "Learning curve rewards reading EroScripts tutorials first",
+    "Pure authoring studio rather than plug-and-play library"
+  ],
+  "image": {
+    "src": "/media/entities/sites/openfunscripter.webp",
+    "alt": "OpenFunscripter (OFS) logo and brand card",
+    "source_url": "https://github.com/OpenFunscripter/OFS",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://github.com/OpenFunscripter/OFS",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open-source editor",
+      "source_url": "https://github.com/OpenFunscripter/OFS",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, Linux",
+      "source_url": "https://github.com/OpenFunscripter/OFS",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/OpenFunscripter/OFS",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

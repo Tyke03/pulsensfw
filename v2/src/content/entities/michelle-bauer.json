@@ -1,0 +1,64 @@
+{
+  "slug": "michelle-bauer",
+  "type": "star",
+  "name": "Michelle Bauer",
+  "url": "https://en.wikipedia.org/wiki/Michelle_Bauer",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Michelle Bauer is an adult film performer from the United States (b. 1958), active since 1981. Adult industry credits documented via Wikidata and Wikimedia Commons.",
+  "tags": [
+    "performer",
+    "veteran",
+    "glamour"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/michelle-bauer.jpg",
+    "alt": "SFW portrait of Michelle Bauer",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Michelle_Bauer_adjusted.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q292870 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q292870",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1958",
+      "source_url": "http://www.wikidata.org/entity/Q292870",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active 1981–present",
+      "source_url": "https://en.wikipedia.org/wiki/Michelle_Bauer",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

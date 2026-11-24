@@ -48,7 +48,7 @@
   "facts": [
     {
       "key": "Category",
-      "value": "Vr Studio",
+      "value": "VR Studio",
       "source_url": "https://virtualrealtrans.com",
       "checked": "2026-11-23",
       "evidence_type": "first_party"

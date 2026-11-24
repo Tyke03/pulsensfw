@@ -1,0 +1,78 @@
+{
+  "slug": "mycamtv",
+  "type": "site",
+  "name": "MyCamTV",
+  "url": "https://www.mycamtv.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Direct amateur cam and clip portal offering low-key public broadcasts, private cam2cam sessions, and creator profiles.",
+  "tags": [
+    "cams",
+    "live",
+    "amateur"
+  ],
+  "ranking_rationale": "Laid-back independent room vibe without studio-farm clutter, weighed against smaller concurrent broadcaster count.",
+  "pricing": {
+    "model": "Credits & tipping",
+    "free_tier": "Free lobby preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Laid-back independent room vibe without studio-farm clutter",
+    "Supports both live tipping and recorded clip galleries",
+    "Easy mobile chat interface"
+  ],
+  "cons": [
+    "Smaller concurrent broadcaster count",
+    "Older visual template"
+  ],
+  "image": {
+    "src": "/media/entities/sites/mycamtv.webp",
+    "alt": "MyCamTV logo and brand card",
+    "source_url": "https://www.mycamtv.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.mycamtv.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Credits & tipping",
+      "source_url": "https://www.mycamtv.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.mycamtv.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "mycamtv.com",
+      "source_url": "https://www.mycamtv.com",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

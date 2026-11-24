@@ -1,0 +1,79 @@
+{
+  "slug": "stashdb",
+  "type": "site",
+  "name": "StashDB",
+  "url": "https://stashdb.org",
+  "affiliate_url": null,
+  "affiliate_status": "no_program",
+  "monetization_methods": [
+    "none"
+  ],
+  "summary": "Community-governed open adult metadata encyclopedia syncing accurate performer profiles, scene fingerprints & aliases into StashApp.",
+  "tags": [
+    "database",
+    "open-source",
+    "api",
+    "forums"
+  ],
+  "ranking_rationale": "Strict peer-reviewed edit voting keeps performer credits, tattoos & aliases cleaner than scraper bloat (trade-off: invite-focused contributor community accounts guard edit integrity).",
+  "pricing": {
+    "model": "100% free open metadata DB",
+    "free_tier": "Completely free metadata hub",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Strict peer-reviewed edit voting keeps performer credits, tattoos & aliases cleaner than scraper bloat",
+    "Native StashBox GraphQL endpoint matches scene hashes cleanly",
+    "Zero intrusive banner ads"
+  ],
+  "cons": [
+    "Invite-focused contributor community accounts guard edit integrity",
+    "Metadata encyclopedia only—zero media hosting"
+  ],
+  "image": {
+    "src": "/media/entities/sites/stashdb.webp",
+    "alt": "StashDB logo and brand card",
+    "source_url": "https://stashdb.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://stashdb.org",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free open metadata DB",
+      "source_url": "https://stashdb.org",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://stashdb.org",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "stashdb.org",
+      "source_url": "https://stashdb.org",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

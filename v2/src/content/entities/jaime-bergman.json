@@ -1,0 +1,64 @@
+{
+  "slug": "jaime-bergman",
+  "type": "star",
+  "name": "Jaime Bergman",
+  "url": "https://en.wikipedia.org/wiki/Jaime_Bergman",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jaime Bergman is a glamour model and Playboy Playmate from the United States (b. 1975). Adult industry credits documented via Wikidata and Wikimedia Commons.",
+  "tags": [
+    "performer",
+    "veteran",
+    "glamour"
+  ],
+  "ranking_rationale": "Verified performer record anchored by Wikidata adult occupation and a license-clean Wikimedia Commons SFW solo portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/jaime-bergman.jpg",
+    "alt": "SFW portrait of Jaime Bergman",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jaime_Bergman_May_2006_(cropped).jpg",
+    "license": "cc-by-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Wikidata ID",
+      "value": "Q261541 (United States)",
+      "source_url": "http://www.wikidata.org/entity/Q261541",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Born",
+      "value": "1975",
+      "source_url": "http://www.wikidata.org/entity/Q261541",
+      "checked": "2026-11-27",
+      "evidence_type": "aggregator"
+    },
+    {
+      "key": "Career timeline",
+      "value": "Active ?–present",
+      "source_url": "https://en.wikipedia.org/wiki/Jaime_Bergman",
+      "checked": "2026-11-27",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-27"
+}

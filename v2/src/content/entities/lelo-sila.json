@@ -1,0 +1,78 @@
+{
+  "slug": "lelo-sila",
+  "type": "product",
+  "name": "LELO SILA",
+  "url": "https://www.lelo.com/sila",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Ultra-gentle broad-surface sonic wave stimulator prioritizing slow, wide-area sensory build-ups rather than sharp pinpoint suction.",
+  "tags": [
+    "air-pulse",
+    "clitoral",
+    "quiet",
+    "waterproof"
+  ],
+  "ranking_rationale": "Wide cushioned nozzle distributes soft ultrasonic air waves gently—ideal for oversensitive anatomy (trade-off: too mild/gentle at peak output for fans seeking aggressive suction punch).",
+  "pricing": {
+    "model": "Hardware purchase (~$159)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Wide cushioned nozzle distributes soft ultrasonic air waves gently—ideal for oversensitive anatomy",
+    "Zero harsh sudden pinch + lush seamless LELO silicone",
+    "100% waterproof and whisper quiet"
+  ],
+  "cons": [
+    "Too mild/gentle at peak output for fans seeking aggressive suction punch",
+    "Uses LELO pin DC cable rather than USB-C"
+  ],
+  "image": {
+    "src": "/media/entities/products/lelo-sila.webp",
+    "alt": "LELO SILA logo and brand card",
+    "source_url": "https://www.lelo.com/sila",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.lelo.com/sila",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Hardware purchase (~$159)",
+      "source_url": "https://www.lelo.com/sila",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.lelo.com/sila",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "lelo.com",
+      "source_url": "https://www.lelo.com/sila",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}

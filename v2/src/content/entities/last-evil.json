@@ -1,0 +1,81 @@
+{
+  "slug": "last-evil",
+  "type": "game",
+  "name": "Last Evil",
+  "url": "https://store.steampowered.com/app/823910/Last_Evil/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Addictive Slay-the-Spire-meets-succubus fantasy deckbuilding roguelike pitting crisp tactical card combos against dungeon champions.",
+  "tags": [
+    "games",
+    "rpg",
+    "roguelike",
+    "pc"
+  ],
+  "ranking_rationale": "Legitimately tight tactical roguelike card-combat balancing HP, corruption & mana, weighed against smaller relic pool than AAA card roguelikes.",
+  "pricing": {
+    "model": "One-time Steam purchase (~$15)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Legitimately tight tactical roguelike card-combat balancing HP, corruption & mana",
+    "Expressive pixel animation & brisk replayable runs",
+    "Budget Steam price under $15"
+  ],
+  "cons": [
+    "Smaller relic pool than AAA card roguelikes",
+    "Requires strategy familiarity so early runs don't wipe cleanly"
+  ],
+  "image": {
+    "src": "/media/entities/games/last-evil.webp",
+    "alt": "Last Evil logo and brand card",
+    "source_url": "https://store.steampowered.com/app/823910/Last_Evil/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "VR & Games",
+      "source_url": "https://store.steampowered.com/app/823910/Last_Evil/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase (~$15)",
+      "source_url": "https://store.steampowered.com/app/823910/Last_Evil/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/823910/Last_Evil/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/823910/Last_Evil/",
+      "checked": "2026-11-27",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-27"
+}
