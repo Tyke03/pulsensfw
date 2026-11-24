@@ -1,0 +1,80 @@
+{
+  "slug": "openrouter",
+  "type": "ai_app",
+  "name": "OpenRouter",
+  "url": "https://openrouter.ai",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The essential pay-as-you-go API router powering SillyTavern—connecting uncensored DeepSeek, Qwen, MythoMax, and Llama endpoints under one key.",
+  "tags": [
+    "nsfw",
+    "chat",
+    "privacy",
+    "power user",
+    "api"
+  ],
+  "ranking_rationale": "One unified API key unlocks dozens of uncensored roleplay models; weighed against requires pairing with a frontend like sillytavern or janitor.",
+  "pricing": {
+    "model": "Pay-as-you-go API credits",
+    "free_tier": "Several :free model routes available",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "API"
+  ],
+  "score": 9.1,
+  "pros": [
+    "One unified API key unlocks dozens of uncensored roleplay models",
+    "Honest transparent per-token billing without subscription lock-in",
+    "Clean SillyTavern & JanitorAI proxy support"
+  ],
+  "cons": [
+    "Requires pairing with a frontend like SillyTavern or Janitor",
+    "Per-provider privacy policies vary by selected upstream host"
+  ],
+  "image": {
+    "src": "/media/entities/ai/openrouter.webp",
+    "alt": "OpenRouter logo and brand card",
+    "source_url": "https://openrouter.ai",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Ai Platform",
+      "source_url": "https://openrouter.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Pay-as-you-go API credits",
+      "source_url": "https://openrouter.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, API",
+      "source_url": "https://openrouter.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "openrouter.ai",
+      "source_url": "https://openrouter.ai",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

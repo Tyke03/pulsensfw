@@ -1,0 +1,81 @@
+{
+  "slug": "automatic1111",
+  "type": "ai_app",
+  "name": "Automatic1111 (SD WebUI)",
+  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Classic local Stable Diffusion browser interface featuring approachable sliders, ADetailer/ControlNet extensions, and huge tutorial history.",
+  "tags": [
+    "nsfw",
+    "local",
+    "image",
+    "image generation",
+    "free"
+  ],
+  "ranking_rationale": "Much friendlier slider/prompt UI than ComfyUI node graphs; weighed against slower development vs forge and comfyui for flux/video models.",
+  "pricing": {
+    "model": "Free & open source",
+    "free_tier": "Completely free local WebUI",
+    "from_price": "$0",
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Much friendlier slider/prompt UI than ComfyUI node graphs",
+    "Rich extension ecosystem (ControlNet, ADetailer)",
+    "Free and completely private on your PC"
+  ],
+  "cons": [
+    "Slower development vs Forge and ComfyUI for Flux/video models",
+    "Python/torch dependency troubleshooting on updates"
+  ],
+  "image": {
+    "src": "/media/entities/ai/automatic1111.webp",
+    "alt": "Automatic1111 (SD WebUI) logo and brand card",
+    "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Local Ai",
+      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free & open source",
+      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux",
+      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "github.com",
+      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

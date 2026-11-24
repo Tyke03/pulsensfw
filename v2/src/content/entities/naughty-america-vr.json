@@ -1,0 +1,80 @@
+{
+  "slug": "naughty-america-vr",
+  "type": "site",
+  "name": "Naughty America VR",
+  "url": "https://www.naughtyamerica.com/vr",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Major studio pioneer in high-resolution 180-degree POV VR scenes starring mainstream American performers.",
+  "tags": [
+    "vr",
+    "studio",
+    "streaming"
+  ],
+  "ranking_rationale": "A-list mainstream star lineup in VR; weighed against predictable scenario formulas.",
+  "pricing": {
+    "model": "Studio VR subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR",
+    "PSVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "A-list mainstream star lineup in VR",
+    "Bundled directly inside Naughty America memberships",
+    "Reliable DeoVR / downloadable MP4 support"
+  ],
+  "cons": [
+    "Predictable scenario formulas",
+    "Mixes VR alongside standard 2D billing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/naughty-america-vr.webp",
+    "alt": "Naughty America VR logo and brand card",
+    "source_url": "https://www.naughtyamerica.com/vr",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://www.naughtyamerica.com/vr",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio VR subscription",
+      "source_url": "https://www.naughtyamerica.com/vr",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR, PSVR",
+      "source_url": "https://www.naughtyamerica.com/vr",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "naughtyamerica.com",
+      "source_url": "https://www.naughtyamerica.com/vr",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

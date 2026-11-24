@@ -1,0 +1,79 @@
+{
+  "slug": "vrconk",
+  "type": "site",
+  "name": "VRConk",
+  "url": "https://vrconk.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Cosplay and stylized adult VR studio producing crisp 8K 180-degree immersive scenes with dedicated scripting.",
+  "tags": [
+    "vr",
+    "studio",
+    "anime"
+  ],
+  "ranking_rationale": "Fun gaming & cosplay roleplay focus; weighed against niche cosplay themes narrow catalog breadth.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": "Free 3D trailer previews",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Fun gaming & cosplay roleplay focus",
+    "High-resolution 8K passthrough & interactive script support",
+    "Less generic than average studio VR"
+  ],
+  "cons": [
+    "Niche cosplay themes narrow catalog breadth",
+    "Standalone pass costs extra outside SLR"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrconk.webp",
+    "alt": "VRConk logo and brand card",
+    "source_url": "https://vrconk.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://vrconk.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://vrconk.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://vrconk.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrconk.com",
+      "source_url": "https://vrconk.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

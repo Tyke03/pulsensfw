@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { assembleHome } from './assemble';
-import { entitiesForTopic, matchesSubtopicFilter, presentArticle, searchCatalog } from './present';
+import { entitiesForTopic, matchesSubtopicFilter, presentArticle, risingStars, searchCatalog, trendingStars } from './present';
 import { PLACEHOLDERS } from './resolve-media';
 import type { Catalog, RawArticle, RawImage, ReaderMode, Topic } from './types';
 import type { Entity } from './entity-schema';
@@ -168,4 +168,66 @@ test('subtopic filters match semantic aliases (/ai?topic=chat) and /vr includes 
   const vrCards = entitiesForTopic({ entities: [vrSite] }, 'vr', 'scenes', sfw);
   assert.equal(vrCards.length, 1);
   assert.equal(vrCards[0]?.slug, 'vr-bangers');
+});
+
+test('risingStars excludes veterans/hall-of-fame and does not overlap trendingStars', () => {
+  const star = (slug: string, name: string, tags: string[]): Entity => ({
+    slug,
+    type: 'star',
+    name,
+    url: `https://example.com/${slug}`,
+    affiliate_url: null,
+    affiliate_status: 'needs_search',
+    monetization_methods: [],
+    summary: name,
+    tags,
+    pricing: { model: 'Varies', free_tier: null, from_price: null, currency: 'USD', plans: [], notes: null },
+    platforms: ['OnlyFans'],
+    score: null,
+    pros: [],
+    cons: [],
+    image: { src: `/media/entities/stars/${slug}.jpg`, alt: name, source_url: 'https://example.com', license: 'cc-by-4.0', nsfw: false },
+    facts: [],
+    updated: '2026-11-23',
+  });
+  const catalog: Catalog = {
+    entities: [
+      star('blake-blossom', 'Blake Blossom', ['performer', 'rising']),
+      star('alexis-texas', 'Alexis Texas', ['performer', 'hall of fame', 'rising']),
+      star('angela-white', 'Angela White', ['performer', 'awards']),
+    ],
+  };
+  const rising = risingStars(catalog, sfw);
+  assert.deepEqual(rising.map((s) => s.slug), ['blake-blossom']);
+  const trending = trendingStars(catalog, sfw);
+  assert.equal(trending.some((s) => s.slug === 'blake-blossom'), false);
+});
+
+test('searchCatalog matches multi-word synonym and multi-brand queries without substring false positives', () => {
+  const cam: Entity = {
+    slug: 'chaturbate',
+    type: 'site',
+    name: 'Chaturbate',
+    url: 'https://chaturbate.com',
+    affiliate_url: null,
+    affiliate_status: 'needs_search',
+    monetization_methods: [],
+    summary: 'Live cam rooms with open tipping',
+    tags: ['cams', 'live'],
+    pricing: { model: 'Tokens', free_tier: 'Free rooms', from_price: null, currency: 'USD', plans: [], notes: null },
+    platforms: ['Web'],
+    score: 8.7,
+    pros: [],
+    cons: [],
+    image: null,
+    facts: [],
+    updated: '2026-11-23',
+  };
+  const strip: Entity = { ...cam, slug: 'stripchat', name: 'Stripchat', summary: 'Live webcam network', score: 8.6 };
+  const cameo: Entity = { ...cam, slug: 'ao3', name: 'Archive of Our Own', summary: 'Fanfiction that became famous', tags: ['erotica', 'stories', 'free'], score: 9.1 };
+  const catalog: Catalog = { entities: [cam, strip, cameo] };
+  const camHits = searchCatalog([], catalog, 'cam sites', 'all', sfw);
+  assert.deepEqual(camHits.map((h) => h.title), ['Chaturbate', 'Stripchat']);
+  assert.equal(searchCatalog([], catalog, 'Chaturbate Stripchat', 'all', sfw).length, 2);
+  assert.equal(matchesSubtopicFilter(cameo.tags, 'tube'), false);
 });

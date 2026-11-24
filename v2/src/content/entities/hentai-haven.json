@@ -1,0 +1,79 @@
+{
+  "slug": "hentai-haven",
+  "type": "site",
+  "name": "Hentai Haven",
+  "url": "https://hentaihaven.xxx",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The most iconic meme-famous free hentai streaming archive featuring English subs, clear episode pages, and dark UX.",
+  "tags": [
+    "hentai",
+    "anime",
+    "streaming",
+    "free"
+  ],
+  "ranking_rationale": "Easy beginner-friendly English subbed index; weighed against slower catalog updates vs hanime.tv.",
+  "pricing": {
+    "model": "Free ad-supported streaming",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Easy beginner-friendly English subbed index",
+    "Nostalgic clean dark theme",
+    "Instant tag filter browsing"
+  ],
+  "cons": [
+    "Slower catalog updates vs Hanime.tv",
+    "Clone domains proliferate on search"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hentai-haven.webp",
+    "alt": "Hentai Haven logo and brand card",
+    "source_url": "https://hentaihaven.xxx",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://hentaihaven.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported streaming",
+      "source_url": "https://hentaihaven.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hentaihaven.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hentaihaven.xxx",
+      "source_url": "https://hentaihaven.xxx",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

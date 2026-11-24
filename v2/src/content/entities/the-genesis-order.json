@@ -1,0 +1,81 @@
+{
+  "slug": "the-genesis-order",
+  "type": "game",
+  "name": "The Genesis Order",
+  "url": "https://store.steampowered.com/app/2359980/The_Genesis_Order/",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Complete big-budget follow-up to Treasure of Nadia casting you as a junior detective solving mysteries across North Santuario.",
+  "tags": [
+    "games",
+    "adventure",
+    "visual-novel",
+    "pc"
+  ],
+  "ranking_rationale": "Massive complete adventure RPG with zero pay-to-finish gates; weighed against item-fetch backtracking loops remain repetitive.",
+  "pricing": {
+    "model": "One-time Steam purchase",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam"
+  ],
+  "score": 8.3,
+  "pros": [
+    "Massive complete adventure RPG with zero pay-to-finish gates",
+    "Improved 3D animation polish over Treasure of Nadia",
+    "Native Steam support on Windows/macOS/Linux"
+  ],
+  "cons": [
+    "Item-fetch backtracking loops remain repetitive",
+    "Over-the-top melodrama plotlines"
+  ],
+  "image": {
+    "src": "/media/entities/games/the-genesis-order.webp",
+    "alt": "The Genesis Order logo and brand card",
+    "source_url": "https://store.steampowered.com/app/2359980/The_Genesis_Order/",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr & Games",
+      "source_url": "https://store.steampowered.com/app/2359980/The_Genesis_Order/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time Steam purchase",
+      "source_url": "https://store.steampowered.com/app/2359980/The_Genesis_Order/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Windows, macOS, Linux, Steam",
+      "source_url": "https://store.steampowered.com/app/2359980/The_Genesis_Order/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "store.steampowered.com",
+      "source_url": "https://store.steampowered.com/app/2359980/The_Genesis_Order/",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

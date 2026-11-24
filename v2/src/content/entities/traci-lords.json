@@ -1,0 +1,73 @@
+{
+  "slug": "traci-lords",
+  "type": "star",
+  "name": "Traci Lords",
+  "url": "https://en.wikipedia.org/wiki/Traci_Lords",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Traci Elizabeth Lords is an American actress, singer and former adult film actress.",
+  "tags": [
+    "performer",
+    "veteran",
+    "awards",
+    "solo",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/traci-lords.jpg",
+    "alt": "SFW portrait of Traci Lords",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Traci_Lords_and_Laura_Byrnes_Pinup_Girl_Clothing_02_(cropped).jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "1984–present",
+      "source_url": "https://en.wikipedia.org/wiki/Traci_Lords",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Steubenville, Ohio, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Traci_Lords",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Actress, singer, model",
+      "source_url": "https://en.wikipedia.org/wiki/Traci_Lords",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "Following her departure from the adult film industry, she pursued an acting career, appearing in Cry-Baby (1990) and later in films, including Skinner (1993), Virtuosity (1995), Blade (1998), Zack and Miri Make a Porno (2008).",
+      "source_url": "https://en.wikipedia.org/wiki/Traci_Lords",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "fleshlight-classic",
+  "type": "product",
+  "name": "Fleshlight Classic",
+  "url": "https://www.fleshlight.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The benchmark non-motorized SuperSkin manual stroker—whisper-quiet, indestructible discreet case, and dozens of textured canal sleeves.",
+  "tags": [
+    "stroker",
+    "classic",
+    "quiet"
+  ],
+  "ranking_rationale": "Near-silent operation and total mechanical simplicity; weighed against needs regular cornstarch renewal powder & thorough drying.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Standalone"
+  ],
+  "score": 8.5,
+  "pros": [
+    "Near-silent operation and total mechanical simplicity",
+    "Unmatched SuperSkin warmth and realistic suction valve",
+    "Huge variety of performer-molded and textured sleeves"
+  ],
+  "cons": [
+    "Needs regular cornstarch renewal powder & thorough drying",
+    "No motorized strokes or app features (non-smart)"
+  ],
+  "image": {
+    "src": "/media/entities/products/fleshlight-classic.webp",
+    "alt": "Fleshlight Classic logo and brand card",
+    "source_url": "https://www.fleshlight.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.fleshlight.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time hardware",
+      "source_url": "https://www.fleshlight.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Standalone",
+      "source_url": "https://www.fleshlight.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fleshlight.com",
+      "source_url": "https://www.fleshlight.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

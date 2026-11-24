@@ -1,0 +1,67 @@
+{
+  "slug": "veronica-hart",
+  "type": "star",
+  "name": "Veronica Hart",
+  "url": "https://en.wikipedia.org/wiki/Veronica_Hart",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Jane Hamilton is an American film director and former pornographic film actress who performed under the stage name Veronica Hart. Described by columnist Frank Rich as \"a leading porn star of the late '70s and early '80s\", Hart is a member of the AVN Hall of Fame.",
+  "tags": [
+    "performer",
+    "former performer",
+    "hall of fame",
+    "awards",
+    "director",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/veronica-hart.jpg",
+    "alt": "SFW portrait of Veronica Hart",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Veronica_Hart_2014_(cropped).jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Las Vegas, Nevada, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Veronica_Hart",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Film director, pornographic film actress",
+      "source_url": "https://en.wikipedia.org/wiki/Veronica_Hart",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "Described by columnist Frank Rich as \"a leading porn star of the late '70s and early '80s\", Hart is a member of the AVN Hall of Fame.",
+      "source_url": "https://en.wikipedia.org/wiki/Veronica_Hart",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

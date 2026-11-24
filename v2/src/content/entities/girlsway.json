@@ -1,0 +1,78 @@
+{
+  "slug": "girlsway",
+  "type": "site",
+  "name": "Girlsway",
+  "url": "https://www.girlsway.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Bree Mills's premier all-female network combining genuine storyline acting, polished lighting, and top star chemistry.",
+  "tags": [
+    "premium",
+    "studio",
+    "couples"
+  ],
+  "ranking_rationale": "Best scripted storytelling in girl-girl adult; weighed against includes gamma upsell promos inside members area.",
+  "pricing": {
+    "model": "Network subscription (Gamma / Adult Time)",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Best scripted storytelling in girl-girl adult",
+    "Part of Adult Time ecosystem or standalone pass",
+    "Consistently strong performer cast"
+  ],
+  "cons": [
+    "Includes Gamma upsell promos inside members area",
+    "Fewer solo sets"
+  ],
+  "image": {
+    "src": "/media/entities/sites/girlsway.webp",
+    "alt": "Girlsway logo and brand card",
+    "source_url": "https://www.girlsway.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.girlsway.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription (Gamma / Adult Time)",
+      "source_url": "https://www.girlsway.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.girlsway.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "girlsway.com",
+      "source_url": "https://www.girlsway.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

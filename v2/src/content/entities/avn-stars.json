@@ -1,0 +1,78 @@
+{
+  "slug": "avn-stars",
+  "type": "site",
+  "name": "AVN Stars",
+  "url": "https://stars.avn.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "AVN Media's adult-friendly creator subscription portal featuring studio performers and verified industry feeds.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "100% adult industry friendly policies; weighed against smaller creator base vs onlyfans/fansly.",
+  "pricing": {
+    "model": "Creator subscriptions & tips",
+    "free_tier": "Free profiles available per creator",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.3,
+  "pros": [
+    "100% adult industry friendly policies",
+    "Deep roster of established AVN performers",
+    "Integrated industry news crossover"
+  ],
+  "cons": [
+    "Smaller creator base vs OnlyFans/Fansly",
+    "Slower discovery tools"
+  ],
+  "image": {
+    "src": "/media/entities/sites/avn-stars.webp",
+    "alt": "AVN Stars logo and brand card",
+    "source_url": "https://stars.avn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://stars.avn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions & tips",
+      "source_url": "https://stars.avn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://stars.avn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "stars.avn.com",
+      "source_url": "https://stars.avn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "unlockd",
+  "type": "site",
+  "name": "Unlockd",
+  "url": "https://www.unlockd.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Modern creator subscription hub offering multi-tier memberships, live video chat, and pay-per-view messaging.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "Clean bright card UI and tiered feeds; weighed against smaller mainstream creator count.",
+  "pricing": {
+    "model": "Creator subscriptions & PPV",
+    "free_tier": "Account signup free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.4,
+  "pros": [
+    "Clean bright card UI and tiered feeds",
+    "Built-in live cam & customs requests",
+    "Adult-permissive terms"
+  ],
+  "cons": [
+    "Smaller mainstream creator count",
+    "Early platform liquidity"
+  ],
+  "image": {
+    "src": "/media/entities/sites/unlockd.webp",
+    "alt": "Unlockd logo and brand card",
+    "source_url": "https://www.unlockd.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.unlockd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Creator subscriptions & PPV",
+      "source_url": "https://www.unlockd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.unlockd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "unlockd.com",
+      "source_url": "https://www.unlockd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

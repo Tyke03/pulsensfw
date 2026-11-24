@@ -1,0 +1,78 @@
+{
+  "slug": "drtuber",
+  "type": "site",
+  "name": "DrTuber",
+  "url": "https://www.drtuber.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Clean-tagged free video tube organized around mainstream categories, HD feeds, and classic clip playlists.",
+  "tags": [
+    "tube",
+    "free",
+    "hd"
+  ],
+  "ranking_rationale": "Clean sorting by length and date; weighed against dated filtering options.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.2,
+  "pros": [
+    "Clean sorting by length and date",
+    "Low-clutter player page",
+    "Solid classic catalog"
+  ],
+  "cons": [
+    "Dated filtering options",
+    "Banner ads beside player"
+  ],
+  "image": {
+    "src": "/media/entities/sites/drtuber.webp",
+    "alt": "DrTuber logo and brand card",
+    "source_url": "https://www.drtuber.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.drtuber.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.drtuber.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.drtuber.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "drtuber.com",
+      "source_url": "https://www.drtuber.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

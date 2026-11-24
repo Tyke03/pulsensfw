@@ -1,0 +1,58 @@
+{
+  "slug": "belladonna",
+  "type": "star",
+  "name": "Belladonna",
+  "url": "https://en.wikipedia.org/wiki/Belladonna_(actress)",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Michelle Sinclair (Belladonna) is an American former pornographic film and erotic actress, director, producer, and model. Since announcing her retirement from pornography in 2012, she has acted in several mainstream films, including Inherent Vice and The Ladies of the House.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/belladonna.jpg",
+    "alt": "SFW portrait of Belladonna",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Belladonna_2010.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Credits",
+      "value": "Pornographic film actor, Pornographic actress, actress, director, film producer, model",
+      "source_url": "https://en.wikipedia.org/wiki/Belladonna_(actress)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Since announcing her retirement from pornography in 2012, she has acted in several mainstream films, including Inherent Vice and The Ladies of the House.",
+      "source_url": "https://en.wikipedia.org/wiki/Belladonna_(actress)",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

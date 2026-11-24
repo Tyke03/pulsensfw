@@ -1,0 +1,66 @@
+{
+  "slug": "gina-lynn",
+  "type": "star",
+  "name": "Gina Lynn",
+  "url": "https://en.wikipedia.org/wiki/Gina_Lynn",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Tanya Mercado (Gina Lynn) is an American former pornographic actress, model, and stripper. She was inducted into the AVN Hall of Fame in 2010 and is the Penthouse magazine Penthouse Pet for April 2012.",
+  "tags": [
+    "performer",
+    "former performer",
+    "hall of fame",
+    "awards",
+    "solo"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/gina-lynn.jpg",
+    "alt": "SFW portrait of Gina Lynn",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gina_Lynn_2010.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Mayagüez, Puerto Rico, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Gina_Lynn",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic actress, model, stripper",
+      "source_url": "https://en.wikipedia.org/wiki/Gina_Lynn",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "She was inducted into the AVN Hall of Fame in 2010 and is the Penthouse magazine Penthouse Pet for April 2012.",
+      "source_url": "https://en.wikipedia.org/wiki/Gina_Lynn",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

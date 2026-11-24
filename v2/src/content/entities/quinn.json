@@ -1,0 +1,79 @@
+{
+  "slug": "quinn",
+  "type": "site",
+  "name": "Quinn",
+  "url": "https://www.tryquinn.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Creator-driven erotic audio app empowering independent voice actors and explicit roleplay creators with crisp mobile streaming.",
+  "tags": [
+    "erotica",
+    "audio",
+    "subscription"
+  ],
+  "ranking_rationale": "Massive independent voice-actor catalog from gentle to explicit; weighed against paywalled after short onboarding trial.",
+  "pricing": {
+    "model": "Subscription app",
+    "free_tier": "Free onboarding preview",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "score": 8.6,
+  "pros": [
+    "Massive independent voice-actor catalog from gentle to explicit",
+    "Excellent search by trope, voice pitch, and pacing",
+    "Pays creators directly via transparent listen share"
+  ],
+  "cons": [
+    "Paywalled after short onboarding trial",
+    "Focused purely on audio"
+  ],
+  "image": {
+    "src": "/media/entities/sites/quinn.webp",
+    "alt": "Quinn logo and brand card",
+    "source_url": "https://www.tryquinn.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.tryquinn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscription app",
+      "source_url": "https://www.tryquinn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, iOS, Android",
+      "source_url": "https://www.tryquinn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tryquinn.com",
+      "source_url": "https://www.tryquinn.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,4 +1,4 @@
-import { byDateDesc, entitiesForTopic, hasRealPortrait, presentArticle, presentCatalog, presentDeal } from './present';
+import { byDateDesc, entitiesForTopic, matchesSubtopicFilter, presentArticle, presentCatalog, presentDeal, risingStars, trendingStars } from './present';
 import type {
   ArticleCard,
   Catalog,
@@ -26,6 +26,28 @@ export type HomeModel = {
 };
 
 const RAILS: RailId[] = ['trending', 'latest', 'editors', 'guides', 'top10'];
+
+function diverseFeaturedSites(sites: EntityCard[]): EntityCard[] {
+  const buckets = ['tube', 'cams', 'platform', 'premium', 'vr', 'hentai', 'erotica', 'niche'];
+  const sorted = [...sites].sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title));
+  const picked: EntityCard[] = [];
+  const used = new Set<string>();
+  for (const tag of buckets) {
+    const match = sorted.find((s) => !used.has(s.slug) && matchesSubtopicFilter(s.tags, tag));
+    if (match) {
+      picked.push(match);
+      used.add(match.slug);
+    }
+  }
+  for (const s of sorted) {
+    if (picked.length >= 10) break;
+    if (!used.has(s.slug)) {
+      picked.push(s);
+      used.add(s.slug);
+    }
+  }
+  return picked.slice(0, 10);
+}
 
 export function assembleHome(
   articles: RawArticle[],
@@ -68,22 +90,13 @@ export function assembleHome(
     rails,
     topics: populatedTopics.length > 0 ? populatedTopics : topics,
     deals: deals.map((deal) => presentDeal(deal, reader)),
-    rising: entities
-      .filter((card) => card.type === 'star' && card.tags.includes('rising'))
-      .sort((a, b) => Number(hasRealPortrait(b)) - Number(hasRealPortrait(a)) || b.updated.localeCompare(a.updated))
-      .slice(0, 8),
-    trendingStars: entities
-      .filter((card) => card.type === 'star')
-      .sort((a, b) => Number(hasRealPortrait(b)) - Number(hasRealPortrait(a)) || (b.score ?? 0) - (a.score ?? 0) || b.updated.localeCompare(a.updated))
-      .slice(0, 10),
+    rising: risingStars(catalog, reader).slice(0, 8),
+    trendingStars: trendingStars(catalog, reader).slice(0, 10),
     aiApps: entities
       .filter((card) => card.type === 'ai_app' || card.type === 'frontend')
       .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title))
       .slice(0, 10),
-    sites: entities
-      .filter((card) => card.type === 'site')
-      .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title))
-      .slice(0, 8),
+    sites: diverseFeaturedSites(entities.filter((card) => card.type === 'site')),
     products: entities
       .filter((card) => card.type === 'product')
       .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title))

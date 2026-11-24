@@ -1,0 +1,77 @@
+{
+  "slug": "nifty-org",
+  "type": "site",
+  "name": "Nifty Archive",
+  "url": "https://www.nifty.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "One of the oldest continuously running LGBTQ+ and queer erotica text archives online—zero bloat, pure categorized plain text.",
+  "tags": [
+    "erotica",
+    "stories",
+    "free"
+  ],
+  "ranking_rationale": "Historic text-only archive loading instantaneously; weighed against 1990s ftp-like directory ux.",
+  "pricing": {
+    "model": "100% free non-commercial archive",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Historic text-only archive loading instantaneously",
+    "Zero tracker clutter or video ads",
+    "Deep queer & niche storytelling vaults"
+  ],
+  "cons": [
+    "1990s FTP-like directory UX",
+    "Uneven writing editing"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nifty-org.webp",
+    "alt": "Nifty Archive logo and brand card",
+    "source_url": "https://www.nifty.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://www.nifty.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free non-commercial archive",
+      "source_url": "https://www.nifty.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.nifty.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nifty.org",
+      "source_url": "https://www.nifty.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

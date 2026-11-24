@@ -37,28 +37,53 @@
     "subtopics": [
       {
         "id": "premium",
-        "label": "Premium",
+        "label": "Premium Studios",
         "description": "Paysites with a library, not a landing page."
       },
       {
         "id": "tube",
-        "label": "Tubes",
+        "label": "Free Tubes",
         "description": "Free players, playlists, and what the ads do to the night."
       },
       {
         "id": "cams",
-        "label": "Cams",
+        "label": "Live Cams",
         "description": "Live rooms, tipping, and who is actually online."
       },
       {
         "id": "platform",
-        "label": "OF-style",
+        "label": "OF-Style & Creators",
         "description": "Subscription pages and the feed around them."
       },
       {
         "id": "niche",
-        "label": "Niche",
+        "label": "Fetish & Niche",
         "description": "Sites that do one thing and do not apologize."
+      },
+      {
+        "id": "vr",
+        "label": "VR Studios",
+        "description": "Dedicated 3D 180/360 VR paysites and interactive aggregators."
+      },
+      {
+        "id": "hentai",
+        "label": "Hentai & Anime",
+        "description": "Streaming anime, doujinshi archives, and booru indexes."
+      },
+      {
+        "id": "comics",
+        "label": "Comics & Rule34",
+        "description": "Western adult webcomics, galleries, and rule34 archives."
+      },
+      {
+        "id": "erotica",
+        "label": "Erotica & Audio",
+        "description": "Text stories, fanfiction archives, and guided audio."
+      },
+      {
+        "id": "forums",
+        "label": "Forums & Aggregators",
+        "description": "Creator indexes, adult databases, and community hubs."
       }
     ]
   },
@@ -83,6 +108,11 @@
         "id": "privacy",
         "label": "Privacy",
         "description": "What gets logged, and how you delete it."
+      },
+      {
+        "id": "local",
+        "label": "Local & Offline",
+        "description": "Run weights on your own hardware with zero cloud logging."
       }
     ]
   },
@@ -112,6 +142,11 @@
         "id": "app",
         "label": "Apps",
         "description": "The remote that is also a toy."
+      },
+      {
+        "id": "vr",
+        "label": "VR & Scripts",
+        "description": "Linear strokers and synchronized funscript playback."
       }
     ]
   },

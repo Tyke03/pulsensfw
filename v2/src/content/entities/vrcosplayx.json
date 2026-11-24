@@ -1,0 +1,80 @@
+{
+  "slug": "vrcosplayx",
+  "type": "site",
+  "name": "VRCosplayX",
+  "url": "https://vrcosplayx.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The leading superhero, anime, and pop-culture parody VR porn studio known for detailed practical costumes and 8K spatial sound.",
+  "tags": [
+    "vr",
+    "studio",
+    "cosplay"
+  ],
+  "ranking_rationale": "Elaborate costumes, wigs, and practical sets; weighed against parody humor doesn't appeal to everyone.",
+  "pricing": {
+    "model": "VR studio subscription",
+    "free_tier": "Free 3D trailers",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR",
+    "PSVR"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Elaborate costumes, wigs, and practical sets",
+    "Great comedic & immersive parody energy",
+    "8K Quest/PCVR downloads + DeoVR streaming"
+  ],
+  "cons": [
+    "Parody humor doesn't appeal to everyone",
+    "Separate membership from non-cosplay VR studios"
+  ],
+  "image": {
+    "src": "/media/entities/sites/vrcosplayx.webp",
+    "alt": "VRCosplayX logo and brand card",
+    "source_url": "https://vrcosplayx.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://vrcosplayx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR studio subscription",
+      "source_url": "https://vrcosplayx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR, PSVR",
+      "source_url": "https://vrcosplayx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "vrcosplayx.com",
+      "source_url": "https://vrcosplayx.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "hqporner",
+  "type": "site",
+  "name": "HQPorner",
+  "url": "https://hqporner.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Curated high-definition free tube focusing exclusively on full 1080p/4K studio clips and performer pages.",
+  "tags": [
+    "tube",
+    "free",
+    "hd",
+    "studio"
+  ],
+  "ranking_rationale": "Strictly HD 1080p–4K curated clips; weighed against smaller library than massive tubes.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Full HD tube catalog free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Strictly HD 1080p–4K curated clips",
+    "Minimal clutter vs massive tube dumps",
+    "Strong performer directory links"
+  ],
+  "cons": [
+    "Smaller library than massive tubes",
+    "Contains studio redirect promos"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hqporner.webp",
+    "alt": "HQPorner logo and brand card",
+    "source_url": "https://hqporner.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://hqporner.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://hqporner.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://hqporner.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hqporner.com",
+      "source_url": "https://hqporner.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

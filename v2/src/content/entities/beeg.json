@@ -1,0 +1,78 @@
+{
+  "slug": "beeg",
+  "type": "site",
+  "name": "Beeg",
+  "url": "https://beeg.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Minimalist ad-light tube featuring curated full scenes sorted cleanly by visual tags and production studios.",
+  "tags": [
+    "tube",
+    "free",
+    "minimal"
+  ],
+  "ranking_rationale": "Clean, visual-first dark interface; weighed against smaller daily volume.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Full library free with minimal ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.8,
+  "pros": [
+    "Clean, visual-first dark interface",
+    "Full-length studio clip curation",
+    "Noticeably calmer ad density"
+  ],
+  "cons": [
+    "Smaller daily volume",
+    "Weak complex multi-tag search"
+  ],
+  "image": {
+    "src": "/media/entities/sites/beeg.webp",
+    "alt": "Beeg logo and brand card",
+    "source_url": "https://beeg.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://beeg.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://beeg.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://beeg.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "beeg.com",
+      "source_url": "https://beeg.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

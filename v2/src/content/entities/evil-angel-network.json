@@ -1,0 +1,78 @@
+{
+  "slug": "evil-angel-network",
+  "type": "site",
+  "name": "Evil Angel Classic Vault",
+  "url": "https://www.evilangelvod.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Pay-per-minute & downloadable VOD storefront housing Evil Angel's historic director catalog from John Stagliano to Rocco.",
+  "tags": [
+    "premium",
+    "studio",
+    "vod"
+  ],
+  "ranking_rationale": "Pay only for individual scenes/minutes via VOD; weighed against older vod credit pricing runs steep per movie.",
+  "pricing": {
+    "model": "VOD credits & digital purchases",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.9,
+  "pros": [
+    "Pay only for individual scenes/minutes via VOD",
+    "Enormous historical director library",
+    "Full DRM-free MP4 purchases"
+  ],
+  "cons": [
+    "Older VOD credit pricing runs steep per movie",
+    "Redundant if you subscribe to evilangel.com"
+  ],
+  "image": {
+    "src": "/media/entities/sites/evil-angel-network.webp",
+    "alt": "Evil Angel Classic Vault logo and brand card",
+    "source_url": "https://www.evilangelvod.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.evilangelvod.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VOD credits & digital purchases",
+      "source_url": "https://www.evilangelvod.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.evilangelvod.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "evilangelvod.com",
+      "source_url": "https://www.evilangelvod.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

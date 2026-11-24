@@ -1,0 +1,63 @@
+{
+  "slug": "gloria-leonard",
+  "type": "star",
+  "name": "Gloria Leonard",
+  "url": "https://en.wikipedia.org/wiki/Gloria_Leonard",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Gale Sandra Klinetsky (August 28, 1940 – February 3, 2014) (Gloria Leonard) was an American pornographic film actress and publisher of High Society magazine.",
+  "tags": [
+    "performer",
+    "former performer"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/gloria-leonard.jpg",
+    "alt": "SFW portrait of Gloria Leonard",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gloria_Leonard.jpg",
+    "license": "cc-by-sa-4.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "The Bronx, New York, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Gloria_Leonard",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic film actress, publisher",
+      "source_url": "https://en.wikipedia.org/wiki/Gloria_Leonard",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "As a board member of Adult Video Association and its successor the Free Speech Coalition, Leonard was an outspoken advocate for the adult film industry and free speech rights.",
+      "source_url": "https://en.wikipedia.org/wiki/Gloria_Leonard",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

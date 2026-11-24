@@ -1,0 +1,78 @@
+{
+  "slug": "fuq",
+  "type": "site",
+  "name": "Fuq",
+  "url": "https://www.fuq.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Tag-heavy meta tube search engine indexing hundreds of categories and linking out cleanly to free clips.",
+  "tags": [
+    "tube",
+    "free",
+    "aggregator"
+  ],
+  "ranking_rationale": "Huge structured niche taxonomy; weighed against redirects out to partner tubes.",
+  "pricing": {
+    "model": "Free meta-tube aggregator",
+    "free_tier": "Free indexing",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Huge structured niche taxonomy",
+    "Clean filter UI without heavy bloat",
+    "Fast multi-source indexing"
+  ],
+  "cons": [
+    "Redirects out to partner tubes",
+    "Older aesthetic"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fuq.webp",
+    "alt": "Fuq logo and brand card",
+    "source_url": "https://www.fuq.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.fuq.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free meta-tube aggregator",
+      "source_url": "https://www.fuq.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.fuq.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fuq.com",
+      "source_url": "https://www.fuq.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

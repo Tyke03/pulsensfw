@@ -1,0 +1,63 @@
+{
+  "slug": "farrah-abraham",
+  "type": "star",
+  "name": "Farrah Abraham",
+  "url": "https://en.wikipedia.org/wiki/Farrah_Abraham",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Farrah Laurel Abraham is an American television personality and businesswoman.",
+  "tags": [
+    "performer",
+    "veteran"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/farrah-abraham.jpg",
+    "alt": "SFW portrait of Farrah Abraham",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Farrah_Abraham_MTV.jpg",
+    "license": "cc-by-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Years active",
+      "value": "2008–present",
+      "source_url": "https://en.wikipedia.org/wiki/Farrah_Abraham",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Origin",
+      "value": "Omaha, Nebraska, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Farrah_Abraham",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Television personality",
+      "source_url": "https://en.wikipedia.org/wiki/Farrah_Abraham",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

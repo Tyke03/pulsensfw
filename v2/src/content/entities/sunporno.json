@@ -1,0 +1,78 @@
+{
+  "slug": "sunporno",
+  "type": "site",
+  "name": "SunPorno",
+  "url": "https://www.sunporno.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Simple long-standing free tube focused on fast mobile loading and classic mainstream categories.",
+  "tags": [
+    "tube",
+    "free",
+    "mainstream"
+  ],
+  "ranking_rationale": "Loads fast on weak connections; weighed against older ui styling.",
+  "pricing": {
+    "model": "Free ad-supported tube",
+    "free_tier": "Free with ads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 6.8,
+  "pros": [
+    "Loads fast on weak connections",
+    "No account required",
+    "Straightforward category menus"
+  ],
+  "cons": [
+    "Older UI styling",
+    "Lower share of 4K uploads"
+  ],
+  "image": {
+    "src": "/media/entities/sites/sunporno.webp",
+    "alt": "SunPorno logo and brand card",
+    "source_url": "https://www.sunporno.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Free Tube",
+      "source_url": "https://www.sunporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported tube",
+      "source_url": "https://www.sunporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.sunporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "sunporno.com",
+      "source_url": "https://www.sunporno.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

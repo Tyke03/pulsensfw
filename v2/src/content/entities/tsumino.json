@@ -1,0 +1,78 @@
+{
+  "slug": "tsumino",
+  "type": "site",
+  "name": "Tsumino",
+  "url": "https://www.tsumino.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "English-focused curated hentai manga library featuring clean mobile formatting, ratings, and curated tag collections.",
+  "tags": [
+    "hentai",
+    "manga",
+    "free"
+  ],
+  "ranking_rationale": "Curated high-res English translations; weighed against aggressive anti-bot captchas under load.",
+  "pricing": {
+    "model": "Free ad-supported reader",
+    "free_tier": "Free reading",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Curated high-res English translations",
+    "Smooth mobile reading controls",
+    "Active user ratings help surface top stories"
+  ],
+  "cons": [
+    "Aggressive anti-bot CAPTCHAs under load",
+    "Smaller non-English archive than nhentai"
+  ],
+  "image": {
+    "src": "/media/entities/sites/tsumino.webp",
+    "alt": "Tsumino logo and brand card",
+    "source_url": "https://www.tsumino.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.tsumino.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free ad-supported reader",
+      "source_url": "https://www.tsumino.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.tsumino.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "tsumino.com",
+      "source_url": "https://www.tsumino.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

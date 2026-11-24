@@ -1,0 +1,79 @@
+{
+  "slug": "x-art",
+  "type": "site",
+  "name": "X-Art",
+  "url": "https://www.x-art.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The studio that modernized romantic, cinematic adult filmmaking with warm film grain, genuine chemistry, and slow seduction.",
+  "tags": [
+    "niche",
+    "couples",
+    "glamour",
+    "premium"
+  ],
+  "ranking_rationale": "Gorgeously romantic cinematography and natural audio; weighed against modern update frequency slowed significantly.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Gorgeously romantic cinematography and natural audio",
+    "Ideal entry point for couples watching together",
+    "Clean multi-device 4K catalog"
+  ],
+  "cons": [
+    "Modern update frequency slowed significantly",
+    "Aggressive upsell billing history reported years ago"
+  ],
+  "image": {
+    "src": "/media/entities/sites/x-art.webp",
+    "alt": "X-Art logo and brand card",
+    "source_url": "https://www.x-art.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.x-art.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.x-art.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.x-art.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "x-art.com",
+      "source_url": "https://www.x-art.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

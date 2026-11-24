@@ -1,0 +1,79 @@
+{
+  "slug": "stasyqvr",
+  "type": "site",
+  "name": "StasyQVR",
+  "url": "https://stasyqvr.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Art-forward European VR studio focusing on slow, glamorous solo striptease and artistic sensual presence inside the headset.",
+  "tags": [
+    "vr",
+    "studio",
+    "art"
+  ],
+  "ranking_rationale": "Gorgeously lit, unhurried artistic solo VR; weighed against purely softcore / solo erotica focus.",
+  "pricing": {
+    "model": "VR art subscription",
+    "free_tier": "Free trailer clips",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Meta Quest",
+    "PCVR"
+  ],
+  "score": 8.2,
+  "pros": [
+    "Gorgeously lit, unhurried artistic solo VR",
+    "Sharp 8K spatial realism on Quest 3/PCVR",
+    "Zero cheesy acting"
+  ],
+  "cons": [
+    "Purely softcore / solo erotica focus",
+    "High standalone price per scene count"
+  ],
+  "image": {
+    "src": "/media/entities/sites/stasyqvr.webp",
+    "alt": "StasyQVR logo and brand card",
+    "source_url": "https://stasyqvr.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Vr Studio",
+      "source_url": "https://stasyqvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "VR art subscription",
+      "source_url": "https://stasyqvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Meta Quest, PCVR",
+      "source_url": "https://stasyqvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "stasyqvr.com",
+      "source_url": "https://stasyqvr.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

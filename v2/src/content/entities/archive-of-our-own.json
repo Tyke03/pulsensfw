@@ -1,0 +1,78 @@
+{
+  "slug": "archive-of-our-own",
+  "type": "site",
+  "name": "Archive of Our Own (AO3)",
+  "url": "https://archiveofourown.org",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Nonprofit, ad-free fanfiction and original fiction archive offering the best tagging, trigger-warning, and explicit filter engine anywhere.",
+  "tags": [
+    "erotica",
+    "stories",
+    "free"
+  ],
+  "ranking_rationale": "Zero ads, non-commercial, fan-run reliability; weighed against no original audio or visual media focus.",
+  "pricing": {
+    "model": "100% free nonprofit archive",
+    "free_tier": "Completely free & ad-free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 9.1,
+  "pros": [
+    "Zero ads, non-commercial, fan-run reliability",
+    "Unmatched multi-tag inclusion/exclusion filtering",
+    "Download any story directly as EPUB, PDF, or MOBI"
+  ],
+  "cons": [
+    "No original audio or visual media focus",
+    "Heavy fandom skew alongside original works"
+  ],
+  "image": {
+    "src": "/media/entities/sites/archive-of-our-own.webp",
+    "alt": "Archive of Our Own (AO3) logo and brand card",
+    "source_url": "https://archiveofourown.org",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Erotica & Audio",
+      "source_url": "https://archiveofourown.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "100% free nonprofit archive",
+      "source_url": "https://archiveofourown.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://archiveofourown.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "archiveofourown.org",
+      "source_url": "https://archiveofourown.org",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

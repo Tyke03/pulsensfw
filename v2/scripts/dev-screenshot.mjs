@@ -80,13 +80,17 @@ await page.addStyleTag({
 });
 // Neutralize smooth-scroll (site.css sets `scroll-behavior: smooth`), then sweep
 // once so below-the-fold media is requested before capture.
-await page.evaluate(() => {
+await page.evaluate(async () => {
   document.documentElement.style.scrollBehavior = 'auto';
-  window.scrollTo(0, document.body.scrollHeight);
+  const h = document.body.scrollHeight;
+  for (let y = 0; y <= h; y += 650) {
+    window.scrollTo(0, y);
+    await new Promise((r) => setTimeout(r, 80));
+  }
+  await Promise.all([...document.images].map((img) => img.decode().catch(() => {})));
 });
-await wait(350);
 await page.evaluate(() => window.scrollTo(0, 0));
-await wait(350);
+await wait(200);
 
 const { scrollHeight } = await page.evaluate(() => ({
   scrollHeight: document.documentElement.scrollHeight,

@@ -1,0 +1,78 @@
+{
+  "slug": "jerkmate",
+  "type": "site",
+  "name": "Jerkmate",
+  "url": "https://www.jerkmate.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Streamate-backed interactive cam front end pairing rapid roulette-style model matching with gamified member levels.",
+  "tags": [
+    "cams",
+    "live",
+    "interactive"
+  ],
+  "ranking_rationale": "Ultra-fast filter matching by body type and kink; weighed against aggressive pop-under marketing across the web.",
+  "pricing": {
+    "model": "Per-minute credits & Gold shows",
+    "free_tier": "Free browsing & tease chat",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Ultra-fast filter matching by body type and kink",
+    "Interactive toy sync + cam2cam in privates",
+    "Clean modern dark UI"
+  ],
+  "cons": [
+    "Aggressive pop-under marketing across the web",
+    "Private-show heavy monetization"
+  ],
+  "image": {
+    "src": "/media/entities/sites/jerkmate.webp",
+    "alt": "Jerkmate logo and brand card",
+    "source_url": "https://www.jerkmate.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Cam Platform",
+      "source_url": "https://www.jerkmate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Per-minute credits & Gold shows",
+      "source_url": "https://www.jerkmate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.jerkmate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "jerkmate.com",
+      "source_url": "https://www.jerkmate.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

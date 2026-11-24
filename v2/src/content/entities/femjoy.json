@@ -1,0 +1,78 @@
+{
+  "slug": "femjoy",
+  "type": "site",
+  "name": "Femjoy",
+  "url": "https://www.femjoy.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "High-key artistic erotica network capturing sunlit outdoor portraits and solo sensual videos since the late 1990s.",
+  "tags": [
+    "niche",
+    "art",
+    "glamour"
+  ],
+  "ranking_rationale": "Warm filmic look with minimal studio artifice; weighed against almost exclusively softcore solo modeling.",
+  "pricing": {
+    "model": "Art erotica subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Warm filmic look with minimal studio artifice",
+    "Enormous multi-decade gallery index",
+    "Bundled access to sister softcore networks"
+  ],
+  "cons": [
+    "Almost exclusively softcore solo modeling",
+    "Dated older templates on archive sets"
+  ],
+  "image": {
+    "src": "/media/entities/sites/femjoy.webp",
+    "alt": "Femjoy logo and brand card",
+    "source_url": "https://www.femjoy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Fetish & Niche",
+      "source_url": "https://www.femjoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Art erotica subscription",
+      "source_url": "https://www.femjoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.femjoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "femjoy.com",
+      "source_url": "https://www.femjoy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

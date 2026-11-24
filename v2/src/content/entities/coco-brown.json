@@ -1,0 +1,57 @@
+{
+  "slug": "coco-brown",
+  "type": "star",
+  "name": "CoCo Brown",
+  "url": "https://en.wikipedia.org/wiki/CoCo_Brown",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "CoCo Brown is an American rapper, DJ, and former pornographic film actress. Brown has also acted in a German crime thriller film written and directed by Christian Alvart.",
+  "tags": [
+    "performer",
+    "former performer",
+    "director"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/coco-brown.jpg",
+    "alt": "SFW portrait of CoCo Brown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:CoCo_Brown_-_2013_AVN_Awards_(8396773511).jpg",
+    "license": "cc-by-sa-2.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Credits",
+      "value": "Rapper, disc jockey, former pornographic film actress",
+      "source_url": "https://en.wikipedia.org/wiki/CoCo_Brown",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Career note",
+      "value": "Brown has also acted in a German crime thriller film written and directed by Christian Alvart.",
+      "source_url": "https://en.wikipedia.org/wiki/CoCo_Brown",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

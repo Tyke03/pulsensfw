@@ -14,11 +14,11 @@ const hasFileSrc = (media.state === 'file' || media.state === 'explicit' || medi
 ---
 <div class:list={['media', isPortrait && 'media--portrait']}>
   {media.state === 'plate' && <CoverPlate plate={media.plate} topic={media.topic} alt={media.alt} uid={uid} />}
-  {media.state === 'file' && hasFileSrc && <img src={media.src} alt={media.alt} width="1200" height="750" loading="lazy" />}
-  {media.state === 'explicit' && hasFileSrc && <img src={media.src} alt={media.alt} width="1200" height="750" loading="lazy" />}
+  {media.state === 'file' && hasFileSrc && <img src={media.src} alt={media.alt} width="1200" height="750" loading="eager" />}
+  {media.state === 'explicit' && hasFileSrc && <img src={media.src} alt={media.alt} width="1200" height="750" loading="eager" />}
   {media.state === 'withheld' && (
     <>
-      {hasFileSrc && <img src={media.src} alt="" width="1200" height="750" loading="lazy" />}
+      {hasFileSrc && <img src={media.src} alt="" width="1200" height="750" loading="eager" />}
       <div class="withheld">
         <div class="withheld-full">
           <p>Available in NSFW mode</p>

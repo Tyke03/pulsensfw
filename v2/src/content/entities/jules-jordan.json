@@ -1,0 +1,78 @@
+{
+  "slug": "jules-jordan",
+  "type": "site",
+  "name": "Jules Jordan",
+  "url": "https://www.julesjordan.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The heavyweight gold standard of unscripted American gonzo—pairing top star showcases with razor-sharp 4K camerawork.",
+  "tags": [
+    "premium",
+    "studio",
+    "gonzo"
+  ],
+  "ranking_rationale": "Direct star showcases without filler plots; weighed against raw gonzo focus leaves zero room for story.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.4,
+  "pros": [
+    "Direct star showcases without filler plots",
+    "20+ year vault of iconic performers",
+    "Reliable full-scene 4K downloads"
+  ],
+  "cons": [
+    "Raw gonzo focus leaves zero room for story",
+    "Minimalist UI design"
+  ],
+  "image": {
+    "src": "/media/entities/sites/jules-jordan.webp",
+    "alt": "Jules Jordan logo and brand card",
+    "source_url": "https://www.julesjordan.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.julesjordan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.julesjordan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.julesjordan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "julesjordan.com",
+      "source_url": "https://www.julesjordan.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

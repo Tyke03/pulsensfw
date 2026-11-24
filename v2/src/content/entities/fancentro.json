@@ -1,0 +1,78 @@
+{
+  "slug": "fancentro",
+  "type": "site",
+  "name": "FanCentro",
+  "url": "https://fancentro.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Veteran adult influencer monetization platform known for private Snap/feed subscriptions, clip stores, and studio ties.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "Veteran 18+ compliant billing since 2017; weighed against dated dashboard next to fansly.",
+  "pricing": {
+    "model": "Subscriptions, clips & tips",
+    "free_tier": "Free explorer feed",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.6,
+  "pros": [
+    "Veteran 18+ compliant billing since 2017",
+    "Combines feed posts, clips, and private social channels",
+    "Frequent site-wide bundle promos"
+  ],
+  "cons": [
+    "Dated dashboard next to Fansly",
+    "Uneven creator activity on older pages"
+  ],
+  "image": {
+    "src": "/media/entities/sites/fancentro.webp",
+    "alt": "FanCentro logo and brand card",
+    "source_url": "https://fancentro.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://fancentro.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Subscriptions, clips & tips",
+      "source_url": "https://fancentro.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://fancentro.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "fancentro.com",
+      "source_url": "https://fancentro.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

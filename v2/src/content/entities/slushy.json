@@ -1,0 +1,78 @@
+{
+  "slug": "slushy",
+  "type": "site",
+  "name": "Slushy",
+  "url": "https://www.slushy.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Short-form video & creator subscription app combining TikTok-style discovery reels with 18+ creator subscriptions.",
+  "tags": [
+    "platform",
+    "creator",
+    "subscription"
+  ],
+  "ranking_rationale": "Genuine TikTok-style discovery swipe feed; weighed against heavy focus on teasers & ppv dms.",
+  "pricing": {
+    "model": "Discovery feed + creator subscriptions",
+    "free_tier": "Free swipe discovery feed",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.5,
+  "pros": [
+    "Genuine TikTok-style discovery swipe feed",
+    "Bright fast modern mobile UX",
+    "Easy to discover new creators organically"
+  ],
+  "cons": [
+    "Heavy focus on teasers & PPV DMs",
+    "Younger ecosystem"
+  ],
+  "image": {
+    "src": "/media/entities/sites/slushy.webp",
+    "alt": "Slushy logo and brand card",
+    "source_url": "https://www.slushy.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Creator Platform",
+      "source_url": "https://www.slushy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Discovery feed + creator subscriptions",
+      "source_url": "https://www.slushy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.slushy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "slushy.com",
+      "source_url": "https://www.slushy.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "kylie-ireland",
+  "type": "star",
+  "name": "Kylie Ireland",
+  "url": "https://en.wikipedia.org/wiki/Kylie_Ireland",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Kylie Ireland is an American pornographic actress, film director, producer, publicist, and satellite radio show host. She is an inductee into the AVN, XRCO, and NightMoves Halls of Fame.",
+  "tags": [
+    "performer",
+    "awards",
+    "director",
+    "hall of fame"
+  ],
+  "ranking_rationale": "Verified performer directory entry backed by Wikipedia biographical documentation and a license-clean Wikimedia Commons SFW portrait.",
+  "pricing": {
+    "model": "Varies by platform",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "No single public price. Check the performer’s current platform pages."
+  },
+  "platforms": [
+    "X",
+    "Instagram"
+  ],
+  "score": null,
+  "pros": [],
+  "cons": [],
+  "image": {
+    "src": "/media/entities/stars/kylie-ireland.jpg",
+    "alt": "SFW portrait of Kylie Ireland",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kylie_Ireland_20080111_Adult_Entertainment_Expo_1.jpg",
+    "license": "cc-by-sa-3.0",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Origin",
+      "value": "Longmont, Colorado, U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Kylie_Ireland",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Credits",
+      "value": "Pornographic actress, film director, producer, publicist, satellite radio show host",
+      "source_url": "https://en.wikipedia.org/wiki/Kylie_Ireland",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    },
+    {
+      "key": "Recognition",
+      "value": "She is an inductee into the AVN, XRCO, and NightMoves Halls of Fame.",
+      "source_url": "https://en.wikipedia.org/wiki/Kylie_Ireland",
+      "checked": "2026-11-23",
+      "evidence_type": "press"
+    }
+  ],
+  "updated": "2026-11-23"
+}

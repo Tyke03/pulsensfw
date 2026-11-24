@@ -1,0 +1,78 @@
+{
+  "slug": "bang-com",
+  "type": "site",
+  "name": "Bang!",
+  "url": "https://www.bang.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "High-volume 4K studio hub uniting Bang Originals with curated full-length scenes from major partner studios.",
+  "tags": [
+    "premium",
+    "studio",
+    "4k"
+  ],
+  "ranking_rationale": "High-bitrate 4K streams and fast CDN; weighed against aggressive cancellation retention flows reported.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "High-bitrate 4K streams and fast CDN",
+    "Clean Netflix-style search & tag rails",
+    "Large multi-studio catalog under one roof"
+  ],
+  "cons": [
+    "Aggressive cancellation retention flows reported",
+    "Mixed third-party content alongside originals"
+  ],
+  "image": {
+    "src": "/media/entities/sites/bang-com.webp",
+    "alt": "Bang! logo and brand card",
+    "source_url": "https://www.bang.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.bang.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://www.bang.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.bang.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "bang.com",
+      "source_url": "https://www.bang.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

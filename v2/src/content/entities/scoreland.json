@@ -1,0 +1,78 @@
+{
+  "slug": "scoreland",
+  "type": "site",
+  "name": "Scoreland",
+  "url": "https://www.scoreland.com",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "The long-running flagship studio for busty natural models with three decades of exclusive photo sets and video.",
+  "tags": [
+    "premium",
+    "studio",
+    "niche"
+  ],
+  "ranking_rationale": "Deep multi-decade archive of iconic busty models; weighed against dated network layout compared with modern studios.",
+  "pricing": {
+    "model": "Studio subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 7.7,
+  "pros": [
+    "Deep multi-decade archive of iconic busty models",
+    "Single niche executed consistently",
+    "Strong hi-res magazine photo roots"
+  ],
+  "cons": [
+    "Dated network layout compared with modern studios",
+    "Narrow single-trait specialization"
+  ],
+  "image": {
+    "src": "/media/entities/sites/scoreland.webp",
+    "alt": "Scoreland logo and brand card",
+    "source_url": "https://www.scoreland.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://www.scoreland.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Studio subscription",
+      "source_url": "https://www.scoreland.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://www.scoreland.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "scoreland.com",
+      "source_url": "https://www.scoreland.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

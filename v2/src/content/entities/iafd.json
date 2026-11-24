@@ -1,0 +1,77 @@
+{
+  "slug": "iafd",
+  "type": "site",
+  "name": "IAFD",
+  "url": "https://www.iafd.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "The Internet Adult Film Database—the industry's encyclopedic filmography ledger tracing performers, directors, aliases, and credits back to the 1970s.",
+  "tags": [
+    "forums",
+    "database",
+    "performers"
+  ],
+  "ranking_rationale": "Authoritative performer, alias, and studio scene filmographies; weighed against sparsely styled late-1990s database layout.",
+  "pricing": {
+    "model": "Free public filmography database",
+    "free_tier": "Completely free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.7,
+  "pros": [
+    "Authoritative performer, alias, and studio scene filmographies",
+    "Essential primary research cross-check for adult cinema history",
+    "Free unrestricted lookup"
+  ],
+  "cons": [
+    "Sparsely styled late-1990s database layout",
+    "Lacks images for many newer creator-only models"
+  ],
+  "image": {
+    "src": "/media/entities/sites/iafd.webp",
+    "alt": "IAFD logo and brand card",
+    "source_url": "https://www.iafd.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Directory / Forum",
+      "source_url": "https://www.iafd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free public filmography database",
+      "source_url": "https://www.iafd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.iafd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "iafd.com",
+      "source_url": "https://www.iafd.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

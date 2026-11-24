@@ -1,0 +1,78 @@
+{
+  "slug": "nubiles",
+  "type": "site",
+  "name": "Nubiles",
+  "url": "https://nubiles.net",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "Glamour-lit flagship network uniting Nubile Films, Passion HD, Fantasy Massage, and a massive roster of solo/girl-girl scenes.",
+  "tags": [
+    "premium",
+    "studio",
+    "glamour"
+  ],
+  "ranking_rationale": "Soft high-key glamour cinematography; weighed against repetitive formulaic setups.",
+  "pricing": {
+    "model": "Network subscription",
+    "free_tier": null,
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web",
+    "Mobile web"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Soft high-key glamour cinematography",
+    "Single membership unlocks multiple sister sites",
+    "Frequent performer debuts"
+  ],
+  "cons": [
+    "Repetitive formulaic setups",
+    "Limited hardcore variety"
+  ],
+  "image": {
+    "src": "/media/entities/sites/nubiles.webp",
+    "alt": "Nubiles logo and brand card",
+    "source_url": "https://nubiles.net",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Premium Studio",
+      "source_url": "https://nubiles.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Network subscription",
+      "source_url": "https://nubiles.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web, Mobile web",
+      "source_url": "https://nubiles.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "nubiles.net",
+      "source_url": "https://nubiles.net",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

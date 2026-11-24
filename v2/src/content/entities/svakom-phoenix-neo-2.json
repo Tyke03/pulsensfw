@@ -1,0 +1,80 @@
+{
+  "slug": "svakom-phoenix-neo-2",
+  "type": "product",
+  "name": "SVAKOM Phoenix Neo 2",
+  "url": "https://www.svakom.com/products/phoenix-neo-2",
+  "affiliate_url": null,
+  "affiliate_status": "program_found_signup_queued",
+  "monetization_methods": [
+    "affiliate"
+  ],
+  "summary": "G-spot & clitoral interactive rabbit vibrator combining FeelConnect interactive video sync, warming tip, and sleek pebble silhouette.",
+  "tags": [
+    "app",
+    "couples",
+    "quiet",
+    "wearable"
+  ],
+  "ranking_rationale": "Built-in FeelConnect video & cam-platform haptics; weighed against smaller cam ecosystem than lovense.",
+  "pricing": {
+    "model": "One-time hardware",
+    "free_tier": "SVAKOM & FeelConnect apps free",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "iOS",
+    "Android",
+    "Bluetooth"
+  ],
+  "score": 8.0,
+  "pros": [
+    "Built-in FeelConnect video & cam-platform haptics",
+    "Soft velvety silicone with quiet lower modes",
+    "Clean ergonomic pull loop"
+  ],
+  "cons": [
+    "Smaller cam ecosystem than Lovense",
+    "Less intense rumble than power wands"
+  ],
+  "image": {
+    "src": "/media/entities/products/svakom-phoenix-neo-2.webp",
+    "alt": "SVAKOM Phoenix Neo 2 logo and brand card",
+    "source_url": "https://www.svakom.com/products/phoenix-neo-2",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Sex Tech",
+      "source_url": "https://www.svakom.com/products/phoenix-neo-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "One-time hardware",
+      "source_url": "https://www.svakom.com/products/phoenix-neo-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "iOS, Android, Bluetooth",
+      "source_url": "https://www.svakom.com/products/phoenix-neo-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "svakom.com",
+      "source_url": "https://www.svakom.com/products/phoenix-neo-2",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}

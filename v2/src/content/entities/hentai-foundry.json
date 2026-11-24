@@ -1,0 +1,77 @@
+{
+  "slug": "hentai-foundry",
+  "type": "site",
+  "name": "Hentai Foundry",
+  "url": "https://www.hentai-foundry.com",
+  "affiliate_url": null,
+  "affiliate_status": "needs_search",
+  "monetization_methods": [
+    "referral"
+  ],
+  "summary": "Long-standing original adult art gallery and writer community hosting independent illustrators, anime fanart, and erotica.",
+  "tags": [
+    "hentai",
+    "art",
+    "comics"
+  ],
+  "ranking_rationale": "Real human illustrators rather than AI-slop saturation; weighed against ui feels firmly 2008.",
+  "pricing": {
+    "model": "Free gallery + Creator memberships",
+    "free_tier": "Free browsing & art uploads",
+    "from_price": null,
+    "currency": "USD",
+    "plans": [],
+    "notes": "Pricing and promos change frequently; verify directly at official checkout."
+  },
+  "platforms": [
+    "Web"
+  ],
+  "score": 8.1,
+  "pros": [
+    "Real human illustrators rather than AI-slop saturation",
+    "Structured art filters, stories, and artist commissions",
+    "Active multi-decade creator roster"
+  ],
+  "cons": [
+    "UI feels firmly 2008",
+    "Strict moderation rules split niche art themes"
+  ],
+  "image": {
+    "src": "/media/entities/sites/hentai-foundry.webp",
+    "alt": "Hentai Foundry logo and brand card",
+    "source_url": "https://www.hentai-foundry.com",
+    "license": "brand-kit",
+    "nsfw": false
+  },
+  "facts": [
+    {
+      "key": "Category",
+      "value": "Hentai & Anime",
+      "source_url": "https://www.hentai-foundry.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Access model",
+      "value": "Free gallery + Creator memberships",
+      "source_url": "https://www.hentai-foundry.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Platforms",
+      "value": "Web",
+      "source_url": "https://www.hentai-foundry.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    },
+    {
+      "key": "Primary domain",
+      "value": "hentai-foundry.com",
+      "source_url": "https://www.hentai-foundry.com",
+      "checked": "2026-11-23",
+      "evidence_type": "first_party"
+    }
+  ],
+  "updated": "2026-11-23"
+}
